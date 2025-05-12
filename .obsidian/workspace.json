@@ -25,14 +25,12 @@
             "id": "461e24fb5502bdf8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2025-05-12 19.15.04.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "5_Controle de erros"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-05-12 19.15.04.excalidraw"
             }
           }
         ],
@@ -183,19 +181,20 @@
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "461e24fb5502bdf8",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-05-12 19.13.43.excalidraw.md",
+    "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
     "Redes de computadores/3_Camada de Transporte/Sem título.md",
     "Redes de computadores/3_Camada de Transporte/6_Janela de congestionamento.md",
-    "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
     "attachments/Pasted image 20250512193101.png",
     "Redes de computadores/3_Camada de Transporte/Drawing 2025-05-12 19.19.50.excalidraw.md",
     "Excalidraw/Drawing 2025-05-12 19.15.04.excalidraw.md",
     "Banco de dados/2_Contato inicial com PostgreSQL.md",
-    "Excalidraw/Drawing 2025-05-12 19.13.43.excalidraw.md",
     "Excalidraw",
     "RepositóriosMonitoria/Como funciona.md",
     "attachments/Pasted image 20250512185512.png",
