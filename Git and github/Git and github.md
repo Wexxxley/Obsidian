@@ -63,11 +63,11 @@ __________________________________________________________________________
 3. **Committed: arquivos comitados**
 
 **Git status**: Mostra os estados dos arquivos.
-**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXerJgctqNG1vAFPYLkfjohm3BpEFZrhOIpovTRphPEoDI0Uy4czesw3kPA95IZYMeIrspyhkQT514YL1CZSkZgY-JUSoscwDYes8ybMmuCcFvqDOnhQNBYZi4fxv_ydSDABdEUxXibIC-foZ6DkWHj8LVWS?key=yiMe1b2VwU1jpN7Jf4vtog)**
-### **1.3.1 Stage**
-**Colocando em stage**: “git add NameFile” ou* “git add .” para adicionar tudo.
-**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdi_Q2COuyKA-NWGe5mboOlmWhxrUlJxd1CD9pTP1jXyjyxF3jiU9Urm225OREUbNmEeFUh1WSoI_hx4qDLmS7fK484Rt39OJzUDnpiOb3gR4HaLDdC9VKDUbKB5Gsj3rieQ2p1goZXtXgqE5RhvOsUmTWR?key=yiMe1b2VwU1jpN7Jf4vtog)**
-**Para retirar do Staging: “rm –cached file"
+**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXerJgctqNG1vAFPYLkfjohm3BpEFZrhOIpovTRphPEoDI0Uy4czesw3kPA95IZYMeIrspyhkQT514YL1CZSkZgY-JUSoscwDYes8ybMmuCcFvqDOnhQNBYZi4fxv_ydSDABdEUxXibIC-foZ6DkWHj8LVWS?key=yiMe1b2VwU1jpN7Jf4vtog)
+### 1.3.1 Stage
+**Colocando em stage**: “`git add NameFile`” ou “`git add .`” para adicionar tudo.
+**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdi_Q2COuyKA-NWGe5mboOlmWhxrUlJxd1CD9pTP1jXyjyxF3jiU9Urm225OREUbNmEeFUh1WSoI_hx4qDLmS7fK484Rt39OJzUDnpiOb3gR4HaLDdC9VKDUbKB5Gsj3rieQ2p1goZXtXgqE5RhvOsUmTWR?key=yiMe1b2VwU1jpN7Jf4vtog)
+Para retirar do Staging: “rm –cached file".
 ### 1.3.2 Commit
 Funciona como um marco histórico no seu projeto. É interessante realizar depois de uma mudança relevante.
 ****![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf1L32Yoh4EWGmXZ5gRLj5A-HFqbSd8E5mgwXnu1blU2mQZDIP1ndmp1z23-YjVY4EUYLIKsyE1NFb6azCdVgDrpao3s3er602SQ4CQFwCgTDIxKvBL1RsctyLO2Fakrba_rdks-T7L8h8ee-dTjx2w-xg?key=yiMe1b2VwU1jpN7Jf4vtog)

@@ -1,3 +1,8 @@
 {
-  "spellcheck": false
+  "spellcheck": false,
+  "showLineNumber": false,
+  "newFileLocation": "root",
+  "newFileFolderPath": "img",
+  "newLinkFormat": "shortest",
+  "attachmentFolderPath": "attachments"
 }

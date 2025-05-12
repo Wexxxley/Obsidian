@@ -4,53 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "20ed46a715ddd2ed",
+        "id": "7b154ded7190d7f2",
         "type": "tabs",
-        "dimension": 80.80495356037152,
         "children": [
           {
-            "id": "252a63987f78a53c",
+            "id": "1ff250b539e78555",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git and github/Git and github.md",
+                "file": "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git and github"
-            }
-          }
-        ]
-      },
-      {
-        "id": "22a40c73897fc5fa",
-        "type": "tabs",
-        "dimension": 19.195046439628484,
-        "children": [
-          {
-            "id": "61f07006c29a9a66",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Sumário"
+              "title": "5_Controle de erros"
             }
           },
           {
-            "id": "3ccfc417b0603c82",
+            "id": "461e24fb5502bdf8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "5_Controle de erros"
             }
           }
         ],
@@ -111,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 254.50499725341797
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -175,106 +157,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Git and github/Git and github.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário"
-            }
-          },
-          {
-            "id": "8528cc9a96058029",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
-          },
-          {
-            "id": "39a59d2a2d96d29a",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
-          },
-          {
-            "id": "eff1b5b353dd5230",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
-          },
-          {
-            "id": "371298c45e65bc18",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
-          },
-          {
-            "id": "58c5cf260b567ef8",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
-          },
-          {
-            "id": "16764754b053986d",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
-          },
-          {
-            "id": "2a95e7a82f459916",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
-          },
-          {
-            "id": "28a27e6a166ab429",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
-          },
-          {
-            "id": "9569863f99509ee0",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
+              "title": "Sumário de Git and github"
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -283,21 +176,63 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "obsidian-shellcommands:Shell commands: Custom variables": false
+      "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "3ccfc417b0603c82",
+  "active": "461e24fb5502bdf8",
   "lastOpenFiles": [
-    "README.md",
-    "Git and github/Git and github.md",
-    "crie um link.md",
-    "Bem-vindo.md",
-    "Git and github"
+    "Redes de computadores/3_Camada de Transporte/Sem título.md",
+    "Redes de computadores/3_Camada de Transporte/6_Janela de congestionamento.md",
+    "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
+    "attachments/Pasted image 20250512193101.png",
+    "Redes de computadores/3_Camada de Transporte/Drawing 2025-05-12 19.19.50.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-12 19.15.04.excalidraw.md",
+    "Banco de dados/2_Contato inicial com PostgreSQL.md",
+    "Excalidraw/Drawing 2025-05-12 19.13.43.excalidraw.md",
+    "Excalidraw",
+    "RepositóriosMonitoria/Como funciona.md",
+    "attachments/Pasted image 20250512185512.png",
+    "attachments/Pasted image 20250512185334.png",
+    "attachments/Pasted image 20250512172832.png",
+    "FrontEnd/3_CSS/1.CSS introdução.md",
+    "RepositóriosMonitoria",
+    "attachments/Pasted image 20250512160626.png",
+    "attachments/Pasted image 20250512160509.png",
+    "attachments/Pasted image 20250512160457.png",
+    "attachments/Pasted image 20250512160218.png",
+    "attachments/Pasted image 20250512160202.png",
+    "attachments/Pasted image 20250512154753.png",
+    "FrontEnd/3_CSS/Multiplos estilos com um clique.md",
+    "FrontEnd/2_JavaScript/3.Estruturas de programação.md",
+    "FrontEnd/2_JavaScript/4.Arrays e objetos.md",
+    "Banco de dados/1_Início.md",
+    "Redes de computadores/Sem título.md",
+    "Banco de dados",
+    "Redes de computadores/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
+    "Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
+    "Redes de computadores/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
+    "Redes de computadores/3_Camada de Transporte/3_ Socket e portas.md",
+    "Redes de computadores/1_Overview/4_Classificação das redes de telecomunicação.md",
+    "Redes de computadores/1_Overview/2_Estrutura da rede.md",
+    "Redes de computadores/2_Camada Aplicação/7_DNS (Domain Name System).md",
+    "Redes de computadores/2_Camada Aplicação/4_Proxy.md",
+    "Redes de computadores/2_Camada Aplicação/5_FTP Protocolo de tranferência de arquivo.md",
+    "Redes de computadores/2_Camada Aplicação/2_Requisitos de aplicações.md",
+    "Redes de computadores/1_Overview/1_Overview.md",
+    "Redes de computadores/3_Camada de Transporte",
+    "Redes de computadores/1_Overview",
+    "Redes de computadores/2_Camada Aplicação",
+    "Redes de computadores",
+    "FrontEnd/3_CSS",
+    "FrontEnd/1_HTML",
+    "Sem título.canvas",
+    "attachments"
   ]
 }
