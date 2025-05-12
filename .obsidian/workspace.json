@@ -25,14 +25,12 @@
             "id": "461e24fb5502bdf8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
-                "mode": "source",
-                "source": false
+                "file": "attachments/Pasted image 20250512185512.png"
               },
-              "icon": "lucide-file",
-              "title": "5_Controle de erros"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250512185512"
             }
           }
         ],
@@ -93,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.50499725341797
+    "width": 260.50499725341797
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -189,13 +187,13 @@
   },
   "active": "461e24fb5502bdf8",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250512193101.png",
+    "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
     "FrontEnd/3_CSS/Multiplos estilos com um clique.md",
     "Excalidraw/Drawing 2025-05-12 19.15.04.excalidraw.md",
     "Excalidraw/Drawing 2025-05-12 19.13.43.excalidraw.md",
-    "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
     "Redes de computadores/3_Camada de Transporte/Sem título.md",
     "Redes de computadores/3_Camada de Transporte/6_Janela de congestionamento.md",
-    "attachments/Pasted image 20250512193101.png",
     "Redes de computadores/3_Camada de Transporte/Drawing 2025-05-12 19.19.50.excalidraw.md",
     "Banco de dados/2_Contato inicial com PostgreSQL.md",
     "Excalidraw",
