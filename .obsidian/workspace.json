@@ -25,12 +25,14 @@
             "id": "461e24fb5502bdf8",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-05-12 19.15.04.excalidraw.md"
+                "file": "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-05-12 19.15.04.excalidraw"
+              "icon": "lucide-file",
+              "title": "5_Controle de erros"
             }
           }
         ],
@@ -187,13 +189,14 @@
   },
   "active": "461e24fb5502bdf8",
   "lastOpenFiles": [
+    "FrontEnd/3_CSS/Multiplos estilos com um clique.md",
+    "Excalidraw/Drawing 2025-05-12 19.15.04.excalidraw.md",
     "Excalidraw/Drawing 2025-05-12 19.13.43.excalidraw.md",
     "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
     "Redes de computadores/3_Camada de Transporte/Sem título.md",
     "Redes de computadores/3_Camada de Transporte/6_Janela de congestionamento.md",
     "attachments/Pasted image 20250512193101.png",
     "Redes de computadores/3_Camada de Transporte/Drawing 2025-05-12 19.19.50.excalidraw.md",
-    "Excalidraw/Drawing 2025-05-12 19.15.04.excalidraw.md",
     "Banco de dados/2_Contato inicial com PostgreSQL.md",
     "Excalidraw",
     "RepositóriosMonitoria/Como funciona.md",
@@ -208,7 +211,6 @@
     "attachments/Pasted image 20250512160218.png",
     "attachments/Pasted image 20250512160202.png",
     "attachments/Pasted image 20250512154753.png",
-    "FrontEnd/3_CSS/Multiplos estilos com um clique.md",
     "FrontEnd/2_JavaScript/3.Estruturas de programação.md",
     "FrontEnd/2_JavaScript/4.Arrays e objetos.md",
     "Banco de dados/1_Início.md",

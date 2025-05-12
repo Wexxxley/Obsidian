@@ -67,7 +67,8 @@ Componentes da imagem:
 **Modos de operação**
 1. **Início Lento:** A janela começa com o tamanho de 1 MSS (máximo de bytes de dados que cabem em 1 pacote naquela conexão) e dobra de tamanho cada ACK recebido.
 2. **Evitar Congestionamento:** aumenta o tamanho da janela em 1 MSS a cada ACK recebido.
-3.
+
+![[Pasted image 20250512193101.png]]  
 ![[Pasted image 20250512193101.png]]  
 **Critérios de mudança** 
 - Tamanho da janela **passou do limite de início lento**: mudar para evitar congestionamento.
