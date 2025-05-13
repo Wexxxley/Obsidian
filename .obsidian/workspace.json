@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7b154ded7190d7f2",
+        "id": "df72d51dd97b1ee2",
         "type": "tabs",
-        "dimension": 80.86347724620771,
+        "dimension": 78.64644107351225,
         "children": [
           {
-            "id": "461e24fb5502bdf8",
+            "id": "5316c8cc428971fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -25,12 +25,12 @@
         ]
       },
       {
-        "id": "df72d51dd97b1ee2",
+        "id": "81e758e5de75f2b8",
         "type": "tabs",
-        "dimension": 19.1365227537923,
+        "dimension": 21.353558926487747,
         "children": [
           {
-            "id": "5074b014179228c6",
+            "id": "500bd5b17dd5ac9f",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -195,10 +195,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "461e24fb5502bdf8",
+  "active": "5316c8cc428971fc",
   "lastOpenFiles": [
-    "FrontEnd/3_CSS/1.CSS introdução.md",
     "FrontEnd/3_CSS/Positions.md",
+    "attachments/Pasted image 20250513095413.png",
+    "attachments/Pasted image 20250513095359.png",
+    "FrontEnd/3_CSS/1.CSS introdução.md",
     "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
     "attachments/Pasted image 20250512185512.png",
     "attachments/Pasted image 20250512193101.png",
@@ -218,8 +220,6 @@
     "attachments/Pasted image 20250512160509.png",
     "attachments/Pasted image 20250512160457.png",
     "attachments/Pasted image 20250512160218.png",
-    "attachments/Pasted image 20250512160202.png",
-    "attachments/Pasted image 20250512154753.png",
     "FrontEnd/2_JavaScript/3.Estruturas de programação.md",
     "FrontEnd/2_JavaScript/4.Arrays e objetos.md",
     "Banco de dados/1_Início.md",
@@ -235,7 +235,6 @@
     "Redes de computadores/2_Camada Aplicação/4_Proxy.md",
     "Redes de computadores/2_Camada Aplicação/5_FTP Protocolo de tranferência de arquivo.md",
     "Redes de computadores/2_Camada Aplicação/2_Requisitos de aplicações.md",
-    "Redes de computadores/1_Overview/1_Overview.md",
     "Redes de computadores/3_Camada de Transporte",
     "Redes de computadores/1_Overview",
     "Redes de computadores/2_Camada Aplicação",
