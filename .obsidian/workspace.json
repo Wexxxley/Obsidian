@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
+                "file": "FrontEnd/3_JavaScript/4.Arrays e objetos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Protocolos da camada de transporte da internet"
+              "title": "4.Arrays e objetos"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
+                "file": "FrontEnd/3_JavaScript/4.Arrays e objetos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 1_Protocolos da camada de transporte da internet"
+              "title": "Sumário de 4.Arrays e objetos"
             }
           }
         ]
@@ -197,16 +197,21 @@
   },
   "active": "5316c8cc428971fc",
   "lastOpenFiles": [
-    "Redes de computadores/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
+    "FrontEnd/3_JavaScript/3.Estruturas de programação.md",
+    "FrontEnd/3_JavaScript/2.Tipos de dados e variável.md",
+    "FrontEnd/3_JavaScript/1.Introdução.md",
+    "FrontEnd/3_JavaScript/4.Arrays e objetos.md",
+    "FrontEnd/1_HTML/1. Html básico.md",
     "Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
+    "Redes de computadores/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
     "Redes de computadores/1_Overview/6_Arquitetura TCP IP.md",
     "Redes de computadores/1_Overview/1_Overview.md",
     "Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
-    "FrontEnd/3_CSS/Flexbox.md",
-    "FrontEnd/3_CSS/Box model.md",
-    "FrontEnd/3_CSS/1.CSS introdução.md",
-    "FrontEnd/3_CSS/Multiplos estilos com um clique.md",
-    "FrontEnd/3_CSS/Positions.md",
+    "FrontEnd/2_CSS/Flexbox.md",
+    "FrontEnd/2_CSS/Box model.md",
+    "FrontEnd/2_CSS/1.CSS introdução.md",
+    "FrontEnd/2_CSS/Multiplos estilos com um clique.md",
+    "FrontEnd/2_CSS/Positions.md",
     "attachments/Pasted image 20250513095413.png",
     "attachments/Pasted image 20250513095359.png",
     "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
@@ -227,20 +232,15 @@
     "attachments/Pasted image 20250512160509.png",
     "attachments/Pasted image 20250512160457.png",
     "attachments/Pasted image 20250512160218.png",
-    "FrontEnd/2_JavaScript/3.Estruturas de programação.md",
-    "FrontEnd/2_JavaScript/4.Arrays e objetos.md",
     "Banco de dados/1_Início.md",
     "Redes de computadores/Sem título.md",
     "Banco de dados",
     "Redes de computadores/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
-    "Redes de computadores/3_Camada de Transporte/3_ Socket e portas.md",
-    "Redes de computadores/1_Overview/4_Classificação das redes de telecomunicação.md",
-    "Redes de computadores/1_Overview/2_Estrutura da rede.md",
     "Redes de computadores/3_Camada de Transporte",
     "Redes de computadores/1_Overview",
     "Redes de computadores/2_Camada Aplicação",
     "Redes de computadores",
-    "FrontEnd/3_CSS",
+    "FrontEnd/2_CSS",
     "FrontEnd/1_HTML",
     "Sem título.canvas",
     "attachments"
