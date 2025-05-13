@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
+                "file": "Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_Modos de transmissão de dados"
+              "title": "1_Protocolos da camada de transporte da internet"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
+                "file": "Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 7_Modos de transmissão de dados"
+              "title": "Sumário de 1_Protocolos da camada de transporte da internet"
             }
           }
         ]
@@ -165,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
+                "file": "Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 7_Modos de transmissão de dados"
+              "title": "Sumário de 1_Protocolos da camada de transporte da internet"
             }
           }
         ],
@@ -197,8 +197,12 @@
   },
   "active": "5316c8cc428971fc",
   "lastOpenFiles": [
-    "FrontEnd/3_CSS/Flexbox.md",
+    "Redes de computadores/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
+    "Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
+    "Redes de computadores/1_Overview/6_Arquitetura TCP IP.md",
+    "Redes de computadores/1_Overview/1_Overview.md",
     "Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
+    "FrontEnd/3_CSS/Flexbox.md",
     "FrontEnd/3_CSS/Box model.md",
     "FrontEnd/3_CSS/1.CSS introdução.md",
     "FrontEnd/3_CSS/Multiplos estilos com um clique.md",
@@ -229,13 +233,9 @@
     "Redes de computadores/Sem título.md",
     "Banco de dados",
     "Redes de computadores/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
-    "Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
-    "Redes de computadores/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
     "Redes de computadores/3_Camada de Transporte/3_ Socket e portas.md",
     "Redes de computadores/1_Overview/4_Classificação das redes de telecomunicação.md",
     "Redes de computadores/1_Overview/2_Estrutura da rede.md",
-    "Redes de computadores/2_Camada Aplicação/7_DNS (Domain Name System).md",
-    "Redes de computadores/2_Camada Aplicação/4_Proxy.md",
     "Redes de computadores/3_Camada de Transporte",
     "Redes de computadores/1_Overview",
     "Redes de computadores/2_Camada Aplicação",
