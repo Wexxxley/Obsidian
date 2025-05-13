@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/1_Overview/7_Tipos de comunicação em canais de transmissão.md",
+                "file": "Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_Tipos de comunicação em canais de transmissão"
+              "title": "7_Modos de transmissão de dados"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes de computadores/1_Overview/7_Tipos de comunicação em canais de transmissão.md",
+                "file": "Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 7_Tipos de comunicação em canais de transmissão"
+              "title": "Sumário de 7_Modos de transmissão de dados"
             }
           }
         ]
@@ -165,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes de computadores/1_Overview/7_Tipos de comunicação em canais de transmissão.md",
+                "file": "Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 7_Tipos de comunicação em canais de transmissão"
+              "title": "Sumário de 7_Modos de transmissão de dados"
             }
           }
         ],
@@ -198,7 +198,7 @@
   "active": "5316c8cc428971fc",
   "lastOpenFiles": [
     "FrontEnd/3_CSS/Flexbox.md",
-    "Redes de computadores/1_Overview/7_Tipos de comunicação em canais de transmissão.md",
+    "Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
     "FrontEnd/3_CSS/Box model.md",
     "FrontEnd/3_CSS/1.CSS introdução.md",
     "FrontEnd/3_CSS/Multiplos estilos com um clique.md",
