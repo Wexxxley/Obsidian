@@ -6,6 +6,7 @@
       {
         "id": "7b154ded7190d7f2",
         "type": "tabs",
+        "dimension": 80.86347724620771,
         "children": [
           {
             "id": "1ff250b539e78555",
@@ -35,8 +36,29 @@
               "title": "1.CSS introdução"
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "df72d51dd97b1ee2",
+        "type": "tabs",
+        "dimension": 19.1365227537923,
+        "children": [
+          {
+            "id": "5074b014179228c6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de 5_Controle de erros"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "s",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +111,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -152,22 +175,22 @@
             }
           },
           {
-            "id": "3e99dbd53384f28e",
+            "id": "284ac965fd9121d3",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git and github/Git and github.md",
+                "file": "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Git and github"
+              "title": "Sumário de 5_Controle de erros"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -187,8 +210,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "461e24fb5502bdf8",
+  "active": "5074b014179228c6",
   "lastOpenFiles": [
+    "FrontEnd/3_CSS/1.CSS introdução.md",
     "attachments/Pasted image 20250512185512.png",
     "attachments/Pasted image 20250512193101.png",
     "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
@@ -203,7 +227,6 @@
     "RepositóriosMonitoria/Como funciona.md",
     "attachments/Pasted image 20250512185334.png",
     "attachments/Pasted image 20250512172832.png",
-    "FrontEnd/3_CSS/1.CSS introdução.md",
     "RepositóriosMonitoria",
     "attachments/Pasted image 20250512160626.png",
     "attachments/Pasted image 20250512160509.png",
