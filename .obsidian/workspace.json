@@ -25,12 +25,14 @@
             "id": "461e24fb5502bdf8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "attachments/Pasted image 20250512185512.png"
+                "file": "FrontEnd/3_CSS/1.CSS introdução.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250512185512"
+              "icon": "lucide-file",
+              "title": "1.CSS introdução"
             }
           }
         ],
@@ -187,6 +189,7 @@
   },
   "active": "461e24fb5502bdf8",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250512185512.png",
     "attachments/Pasted image 20250512193101.png",
     "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
     "FrontEnd/3_CSS/Multiplos estilos com um clique.md",
@@ -198,7 +201,6 @@
     "Banco de dados/2_Contato inicial com PostgreSQL.md",
     "Excalidraw",
     "RepositóriosMonitoria/Como funciona.md",
-    "attachments/Pasted image 20250512185512.png",
     "attachments/Pasted image 20250512185334.png",
     "attachments/Pasted image 20250512172832.png",
     "FrontEnd/3_CSS/1.CSS introdução.md",
