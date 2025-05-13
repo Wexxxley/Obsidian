@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd/3_CSS/Positions.md",
+                "file": "FrontEnd/3_CSS/Box model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Positions"
+              "title": "Box model"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrontEnd/3_CSS/Positions.md",
+                "file": "FrontEnd/3_CSS/Box model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Positions"
+              "title": "Sumário de Box model"
             }
           }
         ]
@@ -165,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrontEnd/3_CSS/Positions.md",
+                "file": "FrontEnd/3_CSS/Box model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Positions"
+              "title": "Sumário de Box model"
             }
           }
         ],
@@ -197,10 +197,11 @@
   },
   "active": "5316c8cc428971fc",
   "lastOpenFiles": [
+    "FrontEnd/3_CSS/1.CSS introdução.md",
+    "FrontEnd/3_CSS/Box model.md",
     "FrontEnd/3_CSS/Positions.md",
     "attachments/Pasted image 20250513095413.png",
     "attachments/Pasted image 20250513095359.png",
-    "FrontEnd/3_CSS/1.CSS introdução.md",
     "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
     "attachments/Pasted image 20250512185512.png",
     "attachments/Pasted image 20250512193101.png",
