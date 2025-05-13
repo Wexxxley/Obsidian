@@ -12,4 +12,9 @@ O ghost é o rep tem todas as respostas, a gente clona ele para fazer as modific
 SO IMPLEMENTA DENTRO DO GHOST
 
 depois que vc fizer sua alteração, vc roda o update.sh (precisa do TKO)
+
+
+
+
+
 ![[Pasted image 20250512185512.png]]
