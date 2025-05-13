@@ -1,4 +1,5 @@
 
+Status: #Concluded 
 
 ___
 # 1. Box model
@@ -48,156 +49,45 @@ O **comportamento visual das caixas** depende do valor da propriedade `display`.
 - Permite definir largura (`width`) e altura (`height`).
 
 **Exemplos de elementos que usam display block: `<div>`, `<p>`, `<h1>`, `<section>`.
-#### b) **Caixa inline (`inline`)**
+#### b) Caixa inline (`inline`)**
 - Ocupa apenas o espaço necessário ao conteúdo.
 - Não quebra linha antes ou depois.
 - Ignora `width` e `height`.
 - Apenas aceita `padding` e `margin`.
 
-**Exemplos de elementos que usam display inline por padrão:**
-
-- `<span>`, `<a>`, `<strong>`, `<em>`, etc.
-    
-
-##### c) **Caixa inline-block (`inline-block`)**
-
-- Mistura características de `block` e `inline`.
-    
+**Exemplos de elementos que usam display inline: `<span>`, `<a>`, `<strong>`.
+#### c) Caixa inline-block (`inline-block`)**
 - Não quebra linha automaticamente, mas respeita `width`, `height`, `padding`, `margin` como bloco.
-    
-
-##### d) **Caixas flexíveis (`flex`)**
-
+#### **d) Caixas flexíveis (`flex`)**
 - Caixa que se comporta como **contêiner flexível**, distribuindo seus filhos com `display: flex`.
-    
 - Permite criar layouts responsivos facilmente.
-    
-
-##### e) **Caixa grid (`grid`)**
-
-- Comporta-se como contêiner de grade, permitindo organização bidimensional de elementos com `display: grid`.
-    
-
----
-
-### Propriedade `display:`
-
+[[Flexbox]]
+# **5. Propriedade `display:`**
 Define **como um elemento será exibido** e como suas caixas serão tratadas.
 
-#### Principais valores:
-
-|Valor|Descrição|
-|---|---|
-|`block`|Elemento de bloco|
-|`inline`|Elemento inline|
-|`inline-block`|Combinação de inline e block|
-|`flex`|Contêiner flexível (layout em linha ou coluna)|
-|`grid`|Contêiner de grade (layout em linhas e colunas)|
-|`none`|Elemento não será renderizado (fica invisível)|
-
-#### Exemplos práticos:
+| Valor          | Descrição                                      |
+| -------------- | ---------------------------------------------- |
+| `block`        | Elemento de bloco                              |
+| `inline`       | Elemento inline                                |
+| `inline-block` | Combinação de inline e block                   |
+| `flex`         | Contêiner flexível                             |
+| `none`         | Elemento não será renderizado (fica invisível) |
 
 ```css
 div {
   display: block;
 }
-
 span {
   display: inline;
 }
-
 button {
   display: inline-block;
 }
-
 .container {
   display: flex;
 }
-
-.grid-container {
-  display: grid;
-}
-
 .hidden {
   display: none;
 }
 ```
 
----
-
-Quer que eu te faça um **esquema visual simples mostrando os tipos de caixas e como elas se comportam no layout?**  
-Se quiser, é só dizer "**sim, esquema**".
-
-
-
-1. Block-level: Sempre se inicia em uma nova linha e ocupa a largura total do elemento onde ele está contido.
-
-Ex:<div>,<h1>,<p>.
-
-É possível transformar block-level em inline com “display: inline”.
-
-  
-
-2. Inline-level: Se inicia na mesma linha e a largura é do tamanho do conteúdo
-
- Ex:<span>,<a>,<code>,<strong>,<button>,<sup>,<sub>.
-
-É  possível transformar inline em block com “display: block”.
-
-  
-
-Tags dentro
-
-- Block-level: Pode conter outros block-level e inline dentro
-    
-- Inline-level: Só pode conter outros inline-elements. Colocar uma <div> dentro de um <span> é inválido!
-    
-
-  
-
-Largura e altura
-
-- Block-level: Pode ter largura (width) e altura (height) definidas normalmente.
-    
-- Inline-level: Não respeita altura nem largura! Só muda isso se você transformar ele com display: block ou inline-block.
-    
-
-  
-
-Margin e Padding
-
-- Block-level: margin e padding funcionam em todas as direções.
-    
-- Inline-level: padding e margin horizontal funcionam, mas o vertical não.
-    
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
