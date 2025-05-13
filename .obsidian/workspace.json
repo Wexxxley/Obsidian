@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd/3_CSS/Flexbox.md",
+                "file": "Redes de computadores/1_Overview/7_Tipos de comunicação em canais de transmissão.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flexbox"
+              "title": "7_Tipos de comunicação em canais de transmissão"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrontEnd/3_CSS/Flexbox.md",
+                "file": "Redes de computadores/1_Overview/7_Tipos de comunicação em canais de transmissão.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Flexbox"
+              "title": "Sumário de 7_Tipos de comunicação em canais de transmissão"
             }
           }
         ]
@@ -165,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrontEnd/3_CSS/Flexbox.md",
+                "file": "Redes de computadores/1_Overview/7_Tipos de comunicação em canais de transmissão.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Flexbox"
+              "title": "Sumário de 7_Tipos de comunicação em canais de transmissão"
             }
           }
         ],
@@ -197,8 +197,9 @@
   },
   "active": "5316c8cc428971fc",
   "lastOpenFiles": [
-    "FrontEnd/3_CSS/Box model.md",
     "FrontEnd/3_CSS/Flexbox.md",
+    "Redes de computadores/1_Overview/7_Tipos de comunicação em canais de transmissão.md",
+    "FrontEnd/3_CSS/Box model.md",
     "FrontEnd/3_CSS/1.CSS introdução.md",
     "FrontEnd/3_CSS/Multiplos estilos com um clique.md",
     "FrontEnd/3_CSS/Positions.md",
@@ -235,7 +236,6 @@
     "Redes de computadores/1_Overview/2_Estrutura da rede.md",
     "Redes de computadores/2_Camada Aplicação/7_DNS (Domain Name System).md",
     "Redes de computadores/2_Camada Aplicação/4_Proxy.md",
-    "Redes de computadores/2_Camada Aplicação/5_FTP Protocolo de tranferência de arquivo.md",
     "Redes de computadores/3_Camada de Transporte",
     "Redes de computadores/1_Overview",
     "Redes de computadores/2_Camada Aplicação",
