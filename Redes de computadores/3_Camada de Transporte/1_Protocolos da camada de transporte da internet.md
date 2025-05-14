@@ -1,7 +1,8 @@
 
 ---
   Se a camada de rede leva dados de máquina para máquina. A camada de transporte leva dados de programa para programa. É a parte responsável por oferecer comunicação entre processos que estão sendo executados em diferentes dispositivos. Ela garante que os dados de uma aplicação cheguem corretamente no destino, cuidando de controle de erros, controle de fluxo e controle de congestionamento.
-________________________________________________________________________
+
+---
 # TCP (Transmission control protocol): 
 - **Transmissão confiável**: garante que todos os pacotes cheguem. É feito o reenvio caso necessário.
 - **Orientado à conexão:** antes de enviar, ele estabelece uma conexão com o outro lado.
