@@ -49,26 +49,12 @@ Um registro de recurso é uma tupla de  que contém os seguintes campos: ==(Name
 3. **Type NS**: Recebe um domínio e retorna o nome de um servidor DNS autoritativo.
 4. **Type CNAME**: Recebe um apelido e retorna o nome canônico.
 5. **Type MX**:  Recebe o domínio e retorna o nome canônico do server de email 
-6. **PTR**: recebe um ipv4/ipv6 e  retorna o nome canônico. Aconsulta precisa ser explicita.
+6. **PTR**: recebe um ipv4/ipv6 e retorna o nome canônico. Aconsulta precisa ser explicita.
 
-___________________________________________________________________________
+___
 # 4 **DNS - Protocolo de mensagem**
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeFlyt4CkUZKCo75XcWVH4Ks02zOnnJI46ZXkjTm2IzybuvzELRDs-ifIkRVDYmcbV210mkRzQ98TRhCJazDWJnnfDprOMhLpX0yUlTJZjiV2atu13e6I7YKAWNgB9y5E23kh0i?key=HrOhHC0_-ked6RNCpQ0o3PZn)
-
-Identificação: Serve para identificar a consulta: quando o servidor responde, ele devolve o mesmo ID.  
-  
-Flags: Contém vários bits de controle que dizem o tipo de mensagem e como tratá-la: Por exemplo, se é uma consulta (0) ou uma resposta (1).
-
-  
-
-Perguntas: Contém o que está sendo perguntado. 
-
-Respostas: A resposta à pergunta. (a resposta volta junto)
-
-Autoridade: Fornece servidores com autoridade para o domínio consultado.  
-Informação adicional: Registros extras úteis, geralmente IPs dos servidores de autoridade listados acima. Isso evita que o cliente tenha que fazer uma nova busca só para descobrir o IP de um servidor.
-
   
   
   
