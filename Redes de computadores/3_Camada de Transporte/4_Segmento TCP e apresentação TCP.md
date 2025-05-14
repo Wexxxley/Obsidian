@@ -9,7 +9,22 @@
 
 **Buffers de envio de recepção**
 ![[Pasted image 20250509133804.png]]
+#### **Buffer de Envio (Send Buffer)**
 
+- **Onde fica?** Na **camada de transporte** (gerenciado pelo TCP/UDP no sistema operacional).
+    
+- **Função:** Armazena dados que a aplicação quer enviar, mas que ainda não foram transmitidos (ou não foram confirmados pelo receptor).
+    
+- **Se encher:** A aplicação pode ser bloqueada (ex.: `send()` em sockets TCP trava se o buffer estiver cheio).
+    
+
+#### **Buffer de Recepção (Receive Buffer)**
+
+- **Onde fica?** Também na **camada de transporte**.
+    
+- **Função:** Armazena dados recebidos da rede, mas ainda não lidos pela aplicação.
+    
+- **Se encher:** O TCP avisa o remetente para **parar de enviar** (controle de fluxo).
 ---
 # Apresentação TCP
 
