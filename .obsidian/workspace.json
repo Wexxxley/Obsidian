@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
+                "file": "Redes de computadores/2_Camada Aplicação/5_FTP Protocolo de tranferência de arquivo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Controle de erros"
+              "title": "5_FTP Protocolo de tranferência de arquivo"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
+                "file": "Redes de computadores/2_Camada Aplicação/5_FTP Protocolo de tranferência de arquivo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 5_Controle de erros"
+              "title": "Sumário de 5_FTP Protocolo de tranferência de arquivo"
             }
           }
         ]
@@ -195,11 +195,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5316c8cc428971fc",
+  "active": "0c52f17c64e87cbf",
   "lastOpenFiles": [
+    "Redes de computadores/2_Camada Aplicação/3_Http e cookies.md",
+    "Redes de computadores/2_Camada Aplicação/2_Requisitos de aplicações.md",
+    "Redes de computadores/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
+    "Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
+    "Redes de computadores/1_Overview/6_Arquitetura TCP IP.md",
+    "Redes de computadores/1_Overview/5_Perdas e atrasos.md",
+    "Redes de computadores/1_Overview/4_Classificação das redes de telecomunicação.md",
+    "Redes de computadores/1_Overview/2_Estrutura da rede.md",
+    "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
     "Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
     "Redes de computadores/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
-    "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
     "Redes de computadores/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
     "Redes de computadores/3_Camada de Transporte/3_ Socket e portas.md",
     "Redes de computadores/2_Camada Aplicação/7_DNS (Domain Name System).md",
@@ -214,9 +222,7 @@
     "FrontEnd/3_JavaScript/2.Tipos de dados e variável.md",
     "FrontEnd/3_JavaScript/1.Introdução.md",
     "FrontEnd/1_HTML/1. Html básico.md",
-    "Redes de computadores/1_Overview/6_Arquitetura TCP IP.md",
     "Redes de computadores/1_Overview/1_Overview.md",
-    "Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
     "FrontEnd/2_CSS/Flexbox.md",
     "FrontEnd/2_CSS/Box model.md",
     "FrontEnd/2_CSS/1.CSS introdução.md",
@@ -226,12 +232,6 @@
     "attachments/Pasted image 20250513095359.png",
     "attachments/Pasted image 20250512185512.png",
     "attachments/Pasted image 20250512193101.png",
-    "Excalidraw/Drawing 2025-05-12 19.15.04.excalidraw.md",
-    "Excalidraw/Drawing 2025-05-12 19.13.43.excalidraw.md",
-    "Redes de computadores/3_Camada de Transporte/Sem título.md",
-    "Redes de computadores/3_Camada de Transporte/6_Janela de congestionamento.md",
-    "Redes de computadores/3_Camada de Transporte/Drawing 2025-05-12 19.19.50.excalidraw.md",
-    "Banco de dados/2_Contato inicial com PostgreSQL.md",
     "Excalidraw",
     "attachments/Pasted image 20250512185334.png",
     "RepositóriosMonitoria",
