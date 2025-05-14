@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RepositóriosMonitoria/Como funciona.md",
+                "file": "Redes de computadores/2_Camada Aplicação/7_DNS (Domain Name System).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Como funciona"
+              "title": "7_DNS (Domain Name System)"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RepositóriosMonitoria/Como funciona.md",
+                "file": "Redes de computadores/2_Camada Aplicação/7_DNS (Domain Name System).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Como funciona"
+              "title": "Sumário de 7_DNS (Domain Name System)"
             }
           }
         ]
@@ -197,6 +197,7 @@
   },
   "active": "5316c8cc428971fc",
   "lastOpenFiles": [
+    "RepositóriosMonitoria/Como funciona.md",
     "FrontEnd/3_JavaScript/4.Arrays e objetos.md",
     "attachments/Pasted image 20250513164614.png",
     "attachments/Pasted image 20250513164232.png",
@@ -229,7 +230,6 @@
     "Redes de computadores/3_Camada de Transporte/Drawing 2025-05-12 19.19.50.excalidraw.md",
     "Banco de dados/2_Contato inicial com PostgreSQL.md",
     "Excalidraw",
-    "RepositóriosMonitoria/Como funciona.md",
     "attachments/Pasted image 20250512185334.png",
     "RepositóriosMonitoria",
     "Banco de dados/1_Início.md",
