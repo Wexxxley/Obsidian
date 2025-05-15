@@ -46,7 +46,7 @@ Um registro de recurso é uma tupla de  que contém os seguintes campos: ==(Name
 
 1. **Type A**: recebe o nome canônico e retorna o ipv4
 2. **Type AAAA:** recebe o nome canônico e retorna o ipv6
-3. **Type NS**: Recebe um domínio e retorna o nome de um servidor DNS autoritativo.
+3. **Type NS**: Recebe um domínio e retorna o nome canônico do server  autoritativo.
 4. **Type CNAME**: Recebe um apelido e retorna o nome canônico.
 5. **Type MX**:  Recebe o domínio e retorna o nome canônico do server de email 
 6. **PTR**: recebe um ipv4/ipv6 e retorna o nome canônico. Aconsulta precisa ser explicita.
