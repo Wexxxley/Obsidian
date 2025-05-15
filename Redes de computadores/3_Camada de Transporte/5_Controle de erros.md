@@ -16,24 +16,19 @@ O receptor envia o ACK para o último pacote recebido em ordem.
 
 ---
 ## **1.2 Retransmissão seletiva**
- Ela é mais eficiente que o Go-Back-N em redes com alta latência ou perda, porque evita o reenvio desnecessário de pacotes já entregues corretamente.
-- O transmissor pode enviar vários pacotes antes de receber confirmações (ACKs), dentro de uma janela.
-- O receptor confirma cada pacote individualmente. Se um pacote é perdido, somente ele é reenviado, e não todos os seguintes, como no Go-Back-N.
+ Mais eficiente que o Go-Back-N em redes com alta latência ou perda, porque evita o reenvio desnecessário de pacotes já entregues corretamente.
+- O transmissor pode enviar vários pacotes antes de receber confirmações (ACKs).
+- O receptor confirma cada pacote individualmente. Se um pacote é perdido, somente ele é reenviado, e não todos os seguintes.
 - O receptor armazena os pacotes fora de ordem até que o pacote perdido chegue, e então os entrega na ordem correta à camada superior.  
 
-Características principais:
-- Usa ACKs individuais para cada pacote recebido.
-- O receptor mantém um buffer para armazenar pacotes fora de ordem.
-- O transmissor mantém um temporizador por pacote enviado, e só retransmite os pacotes que não foram reconhecidos dentro do tempo.  
-
-O tcp é híbrido
+O TCP é híbrido
 - Possui ACKS cumulativos; Segmentos corretamente recebidos em ordem não são reconhecidos individualmente.
 - Armazena segmentos recebidos corretamente e fora de ordem e retransmite somente segmentos não recebidos.
 
 ________________________________________________________________________
 # **2. Controle de fluxo e congestionamento**
 
-## 2.1 **Controle de fluxo**
+## **2.1 Controle de fluxo**
  O receptor tem um buffer de recepção. Nem sempre o receptor consegue processar os dados na mesma velocidade que os recebe. Para evitar que o buffer fique cheio e ocorra perda de dados, o TCP usa o controle de fluxo.  
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcGlhawycTb2W5CmIn4M7VUlCDm6fB7Ja3CkhGD67TbPDcTAlBGqo7XdkG38CfmGWu4nTJ4WVuD5kwX9canZeZB6P52cGCpSw8C7UGs1da4djM1RdgXFIqUldRaFNmtAB2tSuySSg?key=HrOhHC0_-ked6RNCpQ0o3PZn)
 Componentes da imagem:
