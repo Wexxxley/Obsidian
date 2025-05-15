@@ -4,13 +4,13 @@ ___
 # **1. Protocolos de controle de erro**
 
 ## **1.1 Go-Back-N**
- É um protocolo onde o transmissor pode enviar até N pacotes consecutivos sem esperar ACKs para cada um. No entanto, se um pacote for perdido, todos os pacotes após ele serão reenviados, mesmo que tenham chegado corretamente.
+ Protocolo onde o transmissor pode enviar até N pacotes consecutivos sem esperar ACKs para cada um. No entanto, se um pacote for perdido, todos os pacotes após ele serão reenviados.
 
-Janela de envio (Window size N): A janela representa a quantidade máxima de pacotes que o transmissor pode enviar sem esperar confirmação (ACK).A janela se desloca conforme os ACKs vão sendo recebidos.
+Janela de envio: A janela representa a quantidade máxima de pacotes que o transmissor pode enviar sem esperar confirmação (ACK). A janela se desloca conforme os ACKs vão sendo recebidos.
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcN9DluFiKNgS3khjwO7T6GZRzdeyQlMX6tpEtG2_OGTvgkLyWAjgQ3LJqZ49JjjlPoUwGCot-yEm1DIoWf6EizXBOIrjWN9FYKG0oHGP5aX5giU4oqLxRPpnUzmsKx1amwLUDVGA?key=HrOhHC0_-ked6RNCpQ0o3PZn)
-Temporizador: Cada pacote enviado tem seu próprio temporizador. Se o temporizador de um pacote expira sem receber ACK, o transmissor reenvia o pacote e todos os subsequentes (por isso "Go-Back-N").
+Cada pacote enviado tem seu próprio temporizador. Se o temporizador de um pacote expira sem receber ACK, o transmissor reenvia o pacote e todos os subsequentes (por isso "Go-Back-N").
 
-ACK cumulativo: O receptor envia o ACK para o último pacote recebido em ordem.
+O receptor envia o ACK para o último pacote recebido em ordem.
 - Exemplo: se recebe os pacotes 1, 2, 3, 4 corretamente, envia ACK 5
 - Se o pacote 3 for perdido, mesmo que 4 e 5 cheguem, o receptor os ignora e continua manda ACK 3. isso força o transmissor a reenviar do 3 em diante.
 

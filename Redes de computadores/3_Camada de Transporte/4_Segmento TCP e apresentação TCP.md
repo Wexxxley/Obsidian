@@ -7,54 +7,23 @@
 - O campo de opções, opcional e de comprimento variável, é usado quando um remetente e um destinatário negociam o MSS, ou como um fator de aumento de escala da janela para utilização em redes de alta velocidade. 
 - O campo de **flag** contém 6 bits. O bit **ACK** é usado para indicar se o valor carregado no campo de reconhecimento é válido, isto é, se o segmento contém um reconhecimento para um segmento que foi recebido com sucesso. 
 
-**Buffers de envio e de recepção**
+---
+# **Buffers de envio e de recepção**
 ![[Pasted image 20250509133804.png]]
-#### **Buffer de Envio (Send Buffer)**   
-- **Função:** Armazena dados que a aplicação quer enviar, mas que ainda não foram transmitidos (ou não foram confirmados pelo receptor).
-#### **Buffer de Recepção (Receive Buffer)**
-
-- **
-- **Função:** Armazena dados recebidos da rede, mas ainda não lidos pela aplicação.
-    
+#### **Buffer de Envio** 
+- Tem a função de armazenar dados que a aplicação quer enviar, mas que ainda não foram transmitidos (ou não foram confirmados pelo receptor).
+#### **Buffer de Recepção**
+- **Função:** Armazena dados recebidos da rede, mas ainda não lidos pela aplicação. 
 - **Se encher:** O TCP avisa o remetente para **parar de enviar** (controle de fluxo).
 ### **Janela Deslizante (Sliding Window) do TCP**
+É um mecanismo que controla **quantos dados podem ser enviados antes de receber uma confirmação (ACK)**. Usado no controle de fluxo do TCP.
 
-É um mecanismo que controla **quantos dados podem ser enviados antes de receber uma confirmação (ACK)**.
-
-#### **Analogia: Caixa de Correio**
-
-Imagine que:
-
-- **Você (transmissor)** está enviando cartas (pacotes de dados).
-    
-- **Seu amigo (receptor)** tem uma caixa de correio (buffer de recepção) com espaço limitado.
-    
-- A **janela deslizante** é quantas cartas você pode enviar **sem esperar um "OK, recebi!"** (ACK).
-    
-
-Se a caixa de correio do seu amigo enche, ele avisa: _"Espera, não manda mais!"_ – e você para até ele esvaziar a caixa.
-
----
-
-### **Relação com o Buffer de Recepção**
-
-O **buffer de recepção** é onde o receptor armazena os dados recebidos antes de processá-los.
-
-1. **O receptor controla a janela deslizante**
-    
-    - Ele diz ao transmissor: _"Tenho espaço para X bytes no meu buffer"_ (via campo `Window Size` no TCP).
-        
-    - Se o buffer está cheio, ele manda `Window = 0` (pare de enviar!).
-        
+1. **O receptor controla a janela deslizante**    
+    - Ele diz ao transmissor: _"Tenho espaço para X bytes no buffer"_ (via campo `Window Size` ).
 2. **O transmissor obedece**
-    
-    - Só envia novos dados se couberem na janela atual.
-        
-    - Se a janela fecha (buffer cheio), ele espera até o receptor liberar espaço.
-        
+    - Só envia novos dados se couberem na janela atual. Se o buffer estiver cheio, ele espera até o receptor liberar espaço.
 
 ---
-
 ### **Exemplo Numérico**
 
 Suponha:
@@ -64,19 +33,7 @@ Suponha:
 - **Dados já não lidos pela aplicação** = 3 KB (ocupados).
     
 - **Espaço livre** = 7 KB → **Janela deslizante = 7 KB**.
-    
 
-| Buffer de Recepção (10KB) | [Dados: 3KB] | [Livre: 7KB] |
-| ------------------------- | ------------ | ------------ |
-
-- O receptor avisa: *"Window Size = 7 KB"*.
-    
-- O transmissor pode enviar **até 7 KB** sem esperar ACK.
-    
-
-Se a aplicação lê **2KB**:
-
-- Buffer livre agora é **9KB** → Janela aumenta para **9KB**.
 ---
 # Apresentação TCP
 

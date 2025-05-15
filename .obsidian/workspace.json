@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
+                "file": "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Segmento TCP e apresentação TCP"
+              "title": "5_Controle de erros"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes de computadores/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
+                "file": "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 4_Segmento TCP e apresentação TCP"
+              "title": "Sumário de 5_Controle de erros"
             }
           }
         ]
@@ -197,6 +197,7 @@
   },
   "active": "5316c8cc428971fc",
   "lastOpenFiles": [
+    "Redes de computadores/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
     "Redes de computadores/3_Camada de Transporte/3_ Socket e portas.md",
     "Redes de computadores/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
     "Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
@@ -210,7 +211,6 @@
     "Redes de computadores/1_Overview/4_Classificação das redes de telecomunicação.md",
     "Redes de computadores/1_Overview/2_Estrutura da rede.md",
     "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
-    "Redes de computadores/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
     "Redes de computadores/2_Camada Aplicação/7_DNS (Domain Name System).md",
     "RepositóriosMonitoria/Como funciona.md",
     "FrontEnd/3_JavaScript/4.Arrays e objetos.md",
