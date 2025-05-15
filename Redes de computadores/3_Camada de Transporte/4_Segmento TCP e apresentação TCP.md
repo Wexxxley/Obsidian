@@ -24,17 +24,6 @@
     - Só envia novos dados se couberem na janela atual. Se o buffer estiver cheio, ele espera até o receptor liberar espaço.
 
 ---
-### **Exemplo Numérico**
-
-Suponha:
-
-- **Buffer de recepção do receptor** = 10 KB (espaço total).
-    
-- **Dados já não lidos pela aplicação** = 3 KB (ocupados).
-    
-- **Espaço livre** = 7 KB → **Janela deslizante = 7 KB**.
-
----
 # Apresentação TCP
 
 **Número de sequência e de reconhecimento**

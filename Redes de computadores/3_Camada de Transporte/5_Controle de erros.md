@@ -46,9 +46,7 @@ Componentes da imagem:
 - O emissor TCP infere que há congestionamento observando:
 	- Perda de pacotes (ex: ACKs não chegam ou chegam duplicados).
 	- Atrasos crescentes no tempo de resposta.
-	
 - Quando detecta perda ou atraso ele reduz o tamanho da janela de envio.
-- Funciona sobre o IP padrão, que não oferece suporte explícito para controle de congestionamento.
 - Mais reativo do que preventivo (espera o problema aparecer para agir) e pode demorar mais para estabilizar a rede.
 - Abordagem usada pelo TCP.  
 ### **2.2.1 Controle de Congestionamento Assistido pela Rede**
