@@ -6,7 +6,7 @@
       {
         "id": "df72d51dd97b1ee2",
         "type": "tabs",
-        "dimension": 78.64644107351225,
+        "dimension": 78.65724381625442,
         "children": [
           {
             "id": "5316c8cc428971fc",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
+                "file": "RepositóriosMonitoria/Como funciona.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Controle de erros"
+              "title": "Como funciona"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "81e758e5de75f2b8",
         "type": "tabs",
-        "dimension": 21.353558926487743,
+        "dimension": 21.342756183745585,
         "children": [
           {
             "id": "500bd5b17dd5ac9f",
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
+                "file": "RepositóriosMonitoria/Como funciona.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 5_Controle de erros"
+              "title": "Outline of Como funciona"
             }
           }
         ]
@@ -206,10 +206,10 @@
   },
   "active": "5316c8cc428971fc",
   "lastOpenFiles": [
+    "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
     "Redes de computadores/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
     "Redes de computadores/3_Camada de Transporte/3_ Socket e portas.md",
     "Redes de computadores/2_Camada Aplicação/7_DNS (Domain Name System).md",
-    "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
     "Redes de computadores/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
     "Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
     "Redes de computadores/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
