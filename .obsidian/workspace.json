@@ -6,7 +6,6 @@
       {
         "id": "df72d51dd97b1ee2",
         "type": "tabs",
-        "dimension": 81.66449934980494,
         "children": [
           {
             "id": "5316c8cc428971fc",
@@ -14,34 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd/4_React/1_Introdução.md",
+                "file": "Inglês/Indefinite article.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Introdução"
-            }
-          }
-        ]
-      },
-      {
-        "id": "1fd6eb7d08c3042a",
-        "type": "tabs",
-        "dimension": 18.33550065019506,
-        "children": [
-          {
-            "id": "944a51ef1e5e8af7",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "FrontEnd/4_React/1_Introdução.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Sumário de 1_Introdução"
+              "title": "Indefinite article"
             }
           }
         ]
@@ -67,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -189,17 +166,16 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-shellcommands:Shell commands: Custom variables": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false
@@ -207,10 +183,11 @@
   },
   "active": "5316c8cc428971fc",
   "lastOpenFiles": [
-    "Redes de computadores/1_Overview/1_Overview.md",
+    "RepositóriosMonitoria/Como funciona.md",
+    "Inglês/Indefinite article.md",
+    "Inglês",
     "FrontEnd/4_React/1_Introdução.md",
     "FrontEnd/4_React",
-    "RepositóriosMonitoria/Como funciona.md",
     "Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
     "Redes de computadores/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
     "Redes de computadores/3_Camada de Transporte/3_ Socket e portas.md",
@@ -236,9 +213,9 @@
     "FrontEnd/3_JavaScript/2.Tipos de dados e variável.md",
     "FrontEnd/3_JavaScript/1.Introdução.md",
     "FrontEnd/1_HTML/1. Html básico.md",
+    "Redes de computadores/1_Overview/1_Overview.md",
     "FrontEnd/2_CSS/Flexbox.md",
     "FrontEnd/2_CSS/Box model.md",
-    "FrontEnd/2_CSS/1.CSS introdução.md",
     "attachments/Pasted image 20250513095413.png",
     "attachments/Pasted image 20250513095359.png",
     "attachments/Pasted image 20250512185512.png",
@@ -252,7 +229,6 @@
     "Redes de computadores/2_Camada Aplicação",
     "Redes de computadores",
     "FrontEnd/2_CSS",
-    "FrontEnd/1_HTML",
     "Sem título.canvas"
   ]
 }
