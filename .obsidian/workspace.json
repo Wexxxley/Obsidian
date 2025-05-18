@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inglês/Subject pronouns.md",
+                "file": "Inglês/Verb to be.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Subject pronouns"
+              "title": "Verb to be"
             }
           }
         ]
@@ -183,8 +183,9 @@
   },
   "active": "5316c8cc428971fc",
   "lastOpenFiles": [
-    "Inglês/Indefinite article.md",
     "Inglês/Subject pronouns.md",
+    "Inglês/Verb to be.md",
+    "Inglês/Indefinite article.md",
     "RepositóriosMonitoria/Como funciona.md",
     "Inglês",
     "FrontEnd/4_React/1_Introdução.md",
@@ -215,7 +216,6 @@
     "FrontEnd/3_JavaScript/1.Introdução.md",
     "FrontEnd/1_HTML/1. Html básico.md",
     "Redes de computadores/1_Overview/1_Overview.md",
-    "FrontEnd/2_CSS/Flexbox.md",
     "attachments/Pasted image 20250513095413.png",
     "attachments/Pasted image 20250513095359.png",
     "attachments/Pasted image 20250512185512.png",
