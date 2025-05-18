@@ -1,3 +1,4 @@
+#Concluded 
 
 ---
 'A' and 'an' are used in the **singular** to refer to **generic** **person or thing.**
@@ -7,14 +8,14 @@
 
 **Exemplos:**
 
-an astronaut
-a problem
-an egg
-an actor
-==a horse==
-==an hour== 
-==an honest==
-==a universe==
-==an ugly==
+- an astronaut
+- a problem
+- an egg
+- an actor
+- ==a horse==
+- ==an hour== 
+- ==an honest==
+- ==a universe==
+- ==an ugly==
 
 **Obs**: Be careful when using 'a' or 'an' with words that start with 'h' or 'o', as the correct article depends on pronunciation.
