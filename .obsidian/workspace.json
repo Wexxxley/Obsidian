@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inglês/Indefinite article.md",
+                "file": "Inglês/Subject pronouns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Indefinite article"
+              "title": "Subject pronouns"
             }
           }
         ]
@@ -183,8 +183,9 @@
   },
   "active": "5316c8cc428971fc",
   "lastOpenFiles": [
-    "RepositóriosMonitoria/Como funciona.md",
     "Inglês/Indefinite article.md",
+    "Inglês/Subject pronouns.md",
+    "RepositóriosMonitoria/Como funciona.md",
     "Inglês",
     "FrontEnd/4_React/1_Introdução.md",
     "FrontEnd/4_React",
@@ -215,7 +216,6 @@
     "FrontEnd/1_HTML/1. Html básico.md",
     "Redes de computadores/1_Overview/1_Overview.md",
     "FrontEnd/2_CSS/Flexbox.md",
-    "FrontEnd/2_CSS/Box model.md",
     "attachments/Pasted image 20250513095413.png",
     "attachments/Pasted image 20250513095359.png",
     "attachments/Pasted image 20250512185512.png",
