@@ -1,6 +1,6 @@
 
+---
 'A' and 'an' are used in the **singular** to refer to **generic** **person or thing.**
-
 
 ==a -> before consonat sound==
 ==an -> before vowel sound==
@@ -17,4 +17,4 @@ an actor
 ==a universe==
 ==an ugly==
 
-Be careful with words that start
+**Obs**: Be careful when using 'a' or 'an' with words that start with 'h' or 'o', as the correct article depends on pronunciation.
