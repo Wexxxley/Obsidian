@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd/1_HTML/1. Html básico.md",
+                "file": "FrontEnd/2_CSS/Positions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Html básico"
+              "title": "Positions"
             }
           }
         ]
@@ -183,9 +183,9 @@
   },
   "active": "5316c8cc428971fc",
   "lastOpenFiles": [
+    "FrontEnd/1_HTML/1. Html básico.md",
     "FrontEnd/2_CSS/Flexbox.md",
     "FrontEnd/2_CSS/1.CSS introdução.md",
-    "FrontEnd/1_HTML/1. Html básico.md",
     "Inglês/Demonstrative pronouns.md",
     "Inglês/Subject pronouns.md",
     "Inglês/Indefinite article.md",
