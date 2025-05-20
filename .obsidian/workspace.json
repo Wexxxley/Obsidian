@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd/2_CSS/1.CSS introdução.md",
+                "file": "FrontEnd/1_HTML/1. Html básico.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.CSS introdução"
+              "title": "1. Html básico"
             }
           }
         ]
@@ -183,6 +183,8 @@
   },
   "active": "5316c8cc428971fc",
   "lastOpenFiles": [
+    "FrontEnd/2_CSS/Flexbox.md",
+    "FrontEnd/2_CSS/1.CSS introdução.md",
     "FrontEnd/1_HTML/1. Html básico.md",
     "Inglês/Demonstrative pronouns.md",
     "Inglês/Subject pronouns.md",
@@ -214,8 +216,6 @@
     "attachments/Pasted image 20250513162926.png",
     "attachments/Pasted image 20250513162620.png",
     "FrontEnd/3_JavaScript/3.Estruturas de programação.md",
-    "FrontEnd/3_JavaScript/2.Tipos de dados e variável.md",
-    "FrontEnd/3_JavaScript/1.Introdução.md",
     "attachments/Pasted image 20250513095413.png",
     "attachments/Pasted image 20250513095359.png",
     "attachments/Pasted image 20250512185512.png",
