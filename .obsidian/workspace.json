@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pyhon/FastAPI/Validação.md",
+                "file": "Pyhon/FastAPI/3_Logging.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Validação"
+              "title": "3_Logging"
             }
           }
         ]
@@ -184,8 +184,10 @@
   },
   "active": "1cc6a28a1ef2d0dd",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250521202507.png",
+    "Pyhon/FastAPI/2_Validação.md",
+    "Pyhon/FastAPI/3_Logging.md",
     "Pyhon/FastAPI/1_Introdução.md",
-    "Pyhon/FastAPI/Validação.md",
     "Pyhon/FastAPI",
     "Sem título.md",
     "Pyhon",
@@ -212,8 +214,6 @@
     "Redes de computadores/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
     "Redes de computadores/2_Camada Aplicação/5_FTP Protocolo de tranferência de arquivo.md",
     "Redes de computadores/2_Camada Aplicação/3_Http e cookies.md",
-    "Redes de computadores/2_Camada Aplicação/2_Requisitos de aplicações.md",
-    "Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
     "attachments/Pasted image 20250513164614.png",
     "attachments/Pasted image 20250513164232.png",
     "attachments/Pasted image 20250513163317.png",
