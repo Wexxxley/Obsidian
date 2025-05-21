@@ -14,13 +14,11 @@ Por que fazer logging?
 4. ERROR: Falhas em funcionalidades (ex: "Falha ao salvar arquivo").
 5. CRITICAL: Problemas graves que podem parar o sistema.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfm2eEi0sk98SXICCRQjRwvoRH2g7Uq-k3jzaFN1Kq9-BI1heEZ1C-199U5gCWo8LzDDEQY7xcukTr30rlSxdv3LTGzaD_tltxOLHvXqV-5dewnh90tckefLlSSnRh-vtcKlkTV?key=jnfZcvbkf1zKPUZCAbeT6ysv)
+Criando log
 ![[Pasted image 20250521202507.png]]
 
+Exemplo usando log
+![[Pasted image 20250521202627.png]]
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXflCNUArXeBWEiaVvFXQ-0jBgnvbFX0kJXn1mXrT0gKPCdD73fP2WwMAF2EKqw1150MB2CocxGyQ6VGnMLadHcOC-a6OEmrc0E3xHDa17QJDwiEVeswc5KuuTMEx3KQEoCpWRkR?key=jnfZcvbkf1zKPUZCAbeT6ysv)
-
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcdVRsrrEjUzJ32Pit40GulhskUzXjPdIry90TFLWrkSfovZB2iJUFsnWHS71Zdz0IE6TFn6_sxkqszsaIVV-Mm2TSbB4BtoAXpmFVZsXLOcJ0bvRJKqY5zvaxqp8duJ2iSyumgCg?key=jnfZcvbkf1zKPUZCAbeT6ysv)
-
-  
-  
-**
