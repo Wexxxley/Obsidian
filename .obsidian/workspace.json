@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pyhon/FastAPI/3_Logging.md",
+                "file": "Pyhon/FastAPI/4_ORM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Logging"
+              "title": "4_ORM"
             }
           }
         ]
@@ -184,10 +184,11 @@
   },
   "active": "1cc6a28a1ef2d0dd",
   "lastOpenFiles": [
+    "Pyhon/FastAPI/3_Logging.md",
+    "Pyhon/FastAPI/4_ORM.md",
     "attachments/Pasted image 20250521202627.png",
     "attachments/Pasted image 20250521202507.png",
     "Pyhon/FastAPI/2_Validação.md",
-    "Pyhon/FastAPI/3_Logging.md",
     "Pyhon/FastAPI/1_Introdução.md",
     "Pyhon/FastAPI",
     "Sem título.md",
@@ -223,7 +224,6 @@
     "attachments/Pasted image 20250513095413.png",
     "attachments/Pasted image 20250513095359.png",
     "attachments/Pasted image 20250512185512.png",
-    "attachments/Pasted image 20250512193101.png",
     "Excalidraw",
     "RepositóriosMonitoria",
     "Banco de dados",
