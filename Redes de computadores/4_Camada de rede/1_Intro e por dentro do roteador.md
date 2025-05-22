@@ -48,19 +48,10 @@ Quatro componentes de um roteador podem ser identificados:
 - Mais rápido que o modelo com memória.
 - Ainda há limitação: **uma única transferência por vez** no barramento.
 
-####3. **Comutação via Rede de Interconexão (Switching via Interconnection Network)**
-
-### 🔧 Funcionamento:
-
-- Usa uma **malha de conexões** (ex: malha crossbar) que permite **várias transmissões simultâneas**, desde que não haja conflito de destino.
-    
+##### 3. **Crossbar** 
+- Usa uma **malha de conexões** que permite **várias transmissões simultâneas**, desde que não haja conflito de destino.
 - Cada entrada (A, B, C) pode se conectar diretamente com cada saída (X, Y, Z), dependendo da disponibilidade.
-    
 
-### 📌 Características:
-
-- Muito mais escalável e rápida.
-    
+- Muito mais escalável e rápida.    
 - Permite **transmissões paralelas**, ideal para **roteadores de alta performance**.
-    
 - Mais cara e complexa de implementar.
