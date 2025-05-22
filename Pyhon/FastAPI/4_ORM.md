@@ -6,7 +6,7 @@ ORM (Object Relational Mapping) é uma camada que permite conectar a programaç�
 - O ORM traduz automaticamente as instruções SQL para refletir as mudanças no banco de 
 - dados, e transforma os dados recuperados do banco em objetos.
 
-![[Pasted image 20250522101634.png]]
+![[Pasted image 20250522104031.png]]
 1. **Engine**: O motor de conexão com o banco de dados
 	- `connection_string`  
 	    Define o tipo do banco
