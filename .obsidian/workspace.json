@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd/1_HTML/1. Html básico.md",
+                "file": "FrontEnd/2_CSS/1.CSS introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Html básico"
+              "title": "1.CSS introdução"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrontEnd/1_HTML/1. Html básico.md",
+                "file": "FrontEnd/2_CSS/1.CSS introdução.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 1. Html básico"
+              "title": "Sumário de 1.CSS introdução"
             }
           }
         ]
@@ -207,8 +207,12 @@
   },
   "active": "1cc6a28a1ef2d0dd",
   "lastOpenFiles": [
-    "FrontEnd/1_HTML/2_Intermediário.md",
+    "FrontEnd/2_CSS/2_Box model.md",
+    "attachments/Pasted image 20250522174655.png",
+    "FrontEnd/2_CSS/Flexbox.md",
+    "FrontEnd/2_CSS/1.CSS introdução.md",
     "FrontEnd/1_HTML/1. Html básico.md",
+    "FrontEnd/1_HTML/2_Intermediário.md",
     "Pyhon/FastAPI/4_ORM.md",
     "attachments/Pasted image 20250522155314.png",
     "attachments/Pasted image 20250522155254.png",
@@ -222,17 +226,14 @@
     "Pyhon/FastAPI/5_Migrations.md",
     "attachments/Pasted image 20250522104031.png",
     "attachments/Pasted image 20250522101711.png",
-    "attachments/Pasted image 20250522101634.png",
     "Pyhon/FastAPI/2_Validação.md",
     "Pyhon/FastAPI",
     "Sem título.md",
     "Pyhon",
-    "FrontEnd/2_CSS/1.CSS introdução.md",
     "FrontEnd/2_CSS/Multiplos estilos com um clique.md",
     "FrontEnd/2_CSS/Positions.md",
     "FrontEnd/3_JavaScript/1.Introdução.md",
     "FrontEnd/4_React/1_Introdução.md",
-    "FrontEnd/2_CSS/Flexbox.md",
     "Inglês/Demonstrative pronouns.md",
     "Inglês/Subject pronouns.md",
     "Inglês/Indefinite article.md",
@@ -245,8 +246,6 @@
     "Redes de computadores/3_Camada de Transporte/3_ Socket e portas.md",
     "Redes de computadores/2_Camada Aplicação/7_DNS (Domain Name System).md",
     "Redes de computadores/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
-    "Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
-    "Redes de computadores/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
     "Excalidraw",
     "RepositóriosMonitoria",
     "Banco de dados",
