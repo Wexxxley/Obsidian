@@ -6,6 +6,7 @@
       {
         "id": "41a3c26715b34479",
         "type": "tabs",
+        "dimension": 81.33940182054616,
         "children": [
           {
             "id": "1cc6a28a1ef2d0dd",
@@ -19,6 +20,28 @@
               },
               "icon": "lucide-file",
               "title": "4_ORM"
+            }
+          }
+        ]
+      },
+      {
+        "id": "96e667846716e79d",
+        "type": "tabs",
+        "dimension": 18.660598179453835,
+        "children": [
+          {
+            "id": "9254063414e81e87",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Pyhon/FastAPI/4_ORM.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de 4_ORM"
             }
           }
         ]
@@ -184,6 +207,7 @@
   },
   "active": "1cc6a28a1ef2d0dd",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250522071219.png",
     "attachments/Pasted image 20250521210039.png",
     "Pyhon/FastAPI/3_Logging.md",
     "Pyhon/FastAPI/4_ORM.md",
@@ -223,7 +247,6 @@
     "attachments/Pasted image 20250513162620.png",
     "attachments/Pasted image 20250513095413.png",
     "attachments/Pasted image 20250513095359.png",
-    "attachments/Pasted image 20250512185512.png",
     "Excalidraw",
     "RepositóriosMonitoria",
     "Banco de dados",
