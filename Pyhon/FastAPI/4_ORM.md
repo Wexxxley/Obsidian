@@ -5,22 +5,20 @@ ORM (Object Relational Mapping) é uma camada que permite conectar a programaç�
 - O ORM permite mapear classes e modelos de forma a realizar operações no banco de dados. 
 - O ORM traduz automaticamente as instruções SQL para refletir as mudanças no banco de dados, e transforma os dados recuperados do banco em objetos.
 
-![[Pasted image 20250522104031.png]]
+![[Pasted image 20250522154928.png]]
 1. **Engine**: O motor de conexão com o banco de dados
-	- `connection_string`  
-	    Define o tipo do banco
-	- `connect_args`  
-	    `{"check_same_thread": False}`
-	    - O SQLite, por padrão, não permite acessar a mesma conexão em diferentes threads.
-2. **Session**: A sessão de comunicação com o banco. Ela representa uma **conversa temporária com o banco de dados**.
-	- `autocommit=False`: Você precisa chamar `session.commit()` manualmente para salvar as alterações.
-	- `autoflush=False`: Impede que a sessão envie automaticamente as mudanças para o banco antes de uma consulta.
-	- `bind=engine`: Liga a sessão à engine, ou seja, define com qual banco ela vai se comunicar.
-3. Base: É a **classe base de onde todas as suas classes de modelo vão herdar**.
+2. **create_db_and_tables:** função para criar as tabelas pelo primeira vez (chamada na main)
 
 ---
 ## **1.2 Criando modelos**
-![[Pasted image 20250522071219.png]]
 
-Na main 
-![[Pasted image 20250522101711.png]]
+**Relacionamento 1:N**
+![[Pasted image 20250522155121.png]]
+![[Pasted image 20250522155137.png]]
+Modelo de user
+![[Pasted image 20250522155314.png]]
+
+Na main é criado o banco ao iniciar, mas so pe criado a tabela um vez, mesmo que a aplicação seja recarregada.
+![[Pasted image 20250522154841.png]]
+
+
