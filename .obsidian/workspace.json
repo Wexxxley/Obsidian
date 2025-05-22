@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd/1_HTML/2_Intermediário.md",
+                "file": "FrontEnd/1_HTML/1. Html básico.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Intermediário"
+              "title": "1. Html básico"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrontEnd/1_HTML/2_Intermediário.md",
+                "file": "FrontEnd/1_HTML/1. Html básico.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 2_Intermediário"
+              "title": "Sumário de 1. Html básico"
             }
           }
         ]
@@ -207,8 +207,8 @@
   },
   "active": "1cc6a28a1ef2d0dd",
   "lastOpenFiles": [
-    "FrontEnd/1_HTML/1. Html básico.md",
     "FrontEnd/1_HTML/2_Intermediário.md",
+    "FrontEnd/1_HTML/1. Html básico.md",
     "Pyhon/FastAPI/4_ORM.md",
     "attachments/Pasted image 20250522155314.png",
     "attachments/Pasted image 20250522155254.png",
