@@ -46,17 +46,11 @@ Adiciona uma espaço entre elementos.
 ## **6. GROW, BASIS E SHRINK**
 
  No Flexbox, as propriedades flex-grow, flex-basis e flex-shrink controlam como os elementos dentro de um container flexível se comportam em relação ao espaço disponível.
-
-  
-
-7. flex-grow: O flex-grow define a capacidade de um item flexível crescer e ocupar espaço extra dentro do container.
-
+#### **6.1 flex-grow**
+O flex-grow define a capacidade de um item flexível crescer e ocupar espaço extra dentro do container.
 - flex-grow: 0; → O item não cresce (padrão).
-    
 - flex-grow: 1; → O item cresce proporcionalmente ao espaço disponível.
-    
-- flex-grow: 2; → O item cresce o dobro em relação a um item com flex-grow: 
-    
+- flex-grow: 2; → O item cresce o dobro em relação a um item com flex-grow: 1 
 
   
 
