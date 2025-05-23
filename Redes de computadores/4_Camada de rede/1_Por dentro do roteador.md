@@ -44,7 +44,7 @@ Quatro componentes de um roteador podem ser identificados:
 - Os pacotes entram por uma interface.
 - São **copiados para a memória central** do roteador.
 - A CPU acessa os dados, processa o cabeçalho e determina a interface de saída.
-- O pacote é então **reenviado da memória para a porta de saída**.
+- O pacote é copiado **para a interface de saída**.
 
 - Simples de implementar.
 - Limitado pela **largura de banda da memória** e pela **velocidade do processador**.
@@ -84,3 +84,6 @@ Resultado: a **fila inteira fica bloqueada**, mesmo tendo pacotes que poderiam s
 - Aqui, o pacote IP é **encapsulado novamente** em um **quadro de camada de enlace**.
 ##### 3. **Terminação de linha**
 - A etapa final: **conversão dos dados digitais** para sinais físicos.
+
+
+[[5_Perdas e atrasos]]
