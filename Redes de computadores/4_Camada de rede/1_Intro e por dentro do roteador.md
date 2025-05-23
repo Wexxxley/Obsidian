@@ -52,17 +52,27 @@ Quatro componentes de um roteador podem ser identificados:
 ##### 2. **Comutação via Barramento**
 - Um **barramento compartilhado** conecta todas as interfaces.
 - Quando um pacote chega à interface, ele é colocado no barramento e enviado para a interface de saída.
-- **Apenas uma transmissão pode ocorrer por vez** no barramento.
+- **Apenas uma transmissão pode ocorrer por vez** no barramento. ==Problema de contenção==
 
 - Mais rápido que o modelo com memória.
 - Ainda há limitação: **uma única transferência por vez** no barramento.
 ##### 3. **Crossbar** 
 - Usa uma **malha de conexões** que permite **várias transmissões simultâneas**, desde que não haja conflito de destino.
 - Cada entrada (A, B, C) pode se conectar diretamente com cada saída (X, Y, Z), dependendo da disponibilidade.
+- Ainda pode ocorrer o ==Problema de contenção== quando existem duas transmissões para a mesma interface.
 
 - Muito mais escalável e rápida.    
 - Permite **transmissões paralelas**, ideal para **roteadores de alta performance**.
 - Mais cara e complexa de implementar.
+
+##### **Bloqueio head of the line** 
+Problema que acontece quando o primeiro pacote de uma fila impede que outros pacotes atrás dele sejam transmitidos, mesmo que esses pacotes possam ser encaminhados.
+
+Imagine uma fila de pacotes aguardando para sair por diferentes interfaces. Porém, **a fila é comum (FIFO)**, ou seja, os pacotes têm que sair na ordem de chegada.
+1. O **pacote 1** está no início da fila e precisa sair pela **porta X**, que está **ocupada**.
+2. O **pacote 2** está logo atrás e quer ir para a **porta Y**, que está **livre**.
+
+Resultado: a **fila inteira fica bloqueada**, mesmo tendo pacotes que poderiam ser transmitidos.
 
 ---
 #### **1.2.3 Processamento de saída**
