@@ -18,4 +18,4 @@
 **Setence construction Negative:** Subject pronouns + verb to be + not + complement
 	Ex: he is not a good man
 **Setence construction interrogative:** Verb to be + subject pronouns + complement?
-	Ex: is he 
+	Ex: is he a good man?
