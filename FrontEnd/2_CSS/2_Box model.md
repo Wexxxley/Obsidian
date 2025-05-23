@@ -64,7 +64,7 @@ O **comportamento visual das caixas** depende do valor da propriedade `display`.
 #### **d) Caixas flexíveis (`flex`)**
 - Caixa que se comporta como **contêiner flexível**, distribuindo seus filhos com `display: flex`.
 - Permite criar layouts responsivos facilmente.
-[[Flexbox]]
+[[4_Flexbox]]
 # **5. Propriedade `display:`**
 Define **como um elemento será exibido** e como suas caixas serão tratadas.
 

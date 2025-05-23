@@ -4,5 +4,6 @@
   "newFileLocation": "root",
   "newFileFolderPath": "img",
   "newLinkFormat": "shortest",
-  "attachmentFolderPath": "attachments"
+  "attachmentFolderPath": "attachments",
+  "alwaysUpdateLinks": true
 }
