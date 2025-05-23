@@ -1,6 +1,5 @@
 
 ---
-
 ### **1.1 Intro**
 O papel da camada de rede é  simples transportar pacotes de um hospedeiro remetente a um hospedeiro destinatário.  
 
@@ -21,7 +20,6 @@ Cada roteador tem uma **tabela de repasse**. Um roteador repassa um pacote exami
 
 ---
 ### **1.2 Por dentro de roteador**
-
 ![[Pasted image 20250522195916.png]]
 Quatro componentes de um roteador podem ser identificados: 
 - Portas de entrada.
@@ -29,12 +27,15 @@ Quatro componentes de um roteador podem ser identificados:
 - Portas de saída. Uma porta de saída armazena os pacotes que foram repassados a ela através do elemento de comutação e, então, os transmite até o enlace de saída, realizando as funções necessárias da camada de enlace e da camada físico
 - Processador de roteamento. O processador de roteamento executa os protocolos de roteamento, mantém as tabelas de roteamento e as informações de estado do enlace, e calcula a tabela de repasse para o roteador. 
 
+---
 #### **1.2.1 Funções da porta de entrada**
 ![[Pasted image 20250522200227.png]]
 1. **Terminação de linha**: Responsável por **receber sinais físicos** vindos de uma interface de rede. Converte esses sinais em **bits** digitais para que possam ser interpretados pelas camadas superiores.
 2. **Processamento de enlace:** Aqui ocorre o **desencapsulamento da camada de enlace**. Extrai o quadro recebido e verifica seu conteúdo. Remove o cabeçalho da camada de enlace.
 3. **Consulta, repasse, fila**: Esta é a parte da camada de rede. O roteador consulta sua tabela de roteamento para decidir para onde o pacote deve ser enviado e repassa o pacote para a interface correta.
     - Pode **armazenar temporariamente (enfileirar)** se a saída estiver ocupada.
+
+---
 #### **1.2.2 Elemento de comutação**
 ![[Pasted image 20250522201358.png]]
 
@@ -48,7 +49,6 @@ Quatro componentes de um roteador podem ser identificados:
 - Simples de implementar.
 - Limitado pela **largura de banda da memória** e pela **velocidade do processador**.
 - Pode causar gargalo em tráfego alto, pois apenas um pacote pode ser lido/escrito por vez.
-
 ##### 2. **Comutação via Barramento**
 - Um **barramento compartilhado** conecta todas as interfaces.
 - Quando um pacote chega à interface, ele é colocado no barramento e enviado para a interface de saída.
@@ -56,7 +56,6 @@ Quatro componentes de um roteador podem ser identificados:
 
 - Mais rápido que o modelo com memória.
 - Ainda há limitação: **uma única transferência por vez** no barramento.
-
 ##### 3. **Crossbar** 
 - Usa uma **malha de conexões** que permite **várias transmissões simultâneas**, desde que não haja conflito de destino.
 - Cada entrada (A, B, C) pode se conectar diretamente com cada saída (X, Y, Z), dependendo da disponibilidade.
@@ -73,13 +72,5 @@ Quatro componentes de um roteador podem ser identificados:
 - Se o buffer estiver cheio, os pacotes **podem ser descartados**.
 ##### 2. **Processamento de enlace
 - Aqui, o pacote IP é **encapsulado novamente** em um **quadro de camada de enlace**.
-- Isso envolve adicionar **cabeçalhos e trailers da camada de enlace**, adequados à tecnologia da interface de saída.
-    
-
----
-
-### 🔹 **Terminação de linha**
-
-- A etapa final: **conversão dos dados digitais** para sinais físicos (elétricos, ópticos ou ondas de rádio).
-    
-- É por onde o pacote **sai do roteador** e **entra no meio físico** (como cabo ou sinal wireless).
+##### 3. **Terminação de linha**
+- A etapa final: **conversão dos dados digitais** para sinais físicos.
