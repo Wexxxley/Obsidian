@@ -10,3 +10,11 @@ Essa imagem ilustra o processo de **fragmentação e remontagem de datagramas IP
 - A **remontagem** **só acontece no destino final**.
 
 ![[Pasted image 20250523110136.png]]
+
+4000 = 20 + 1480 --> Dado original
+
+1500 = 20 + 1480  --> Fragmento 1
+1500 = 20 + 1480  --> Fragmento 2
+1040 = 20 + 1020  --> Fragmento 3
+
+
