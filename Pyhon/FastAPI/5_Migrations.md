@@ -7,9 +7,8 @@
 - Um diretório `alembic/` com os arquivos de migração.
 - Um arquivo `alembic.ini` com configurações (como string de conexão).
 
-2. `alembic revision -m "mensagem"`
+1. `alembic revision -m "mensagem"`: Cria um **arquivo de migração vazio**. Esse arquivo será usado para definir alterações no schema.
 
-Cria um **arquivo de migração vazio**. Esse arquivo será usado para definir alterações no schema.
-
-3. `alembic revision --autogenerate -m "mensagem"`: Gera automaticamente uma **migração com base nas mudanças** detectadas no modelo comparado com o estado atual do banco.
-
+2. `alembic revision --autogenerate -m "mensagem"`: Gera automaticamente uma **migração com base nas mudanças** detectadas no modelo comparado com o estado atual do banco.
+3. `alembic upgrade revision-id`: É como de fato fazemos a atualização do banco de dados.
+4. `alembic downgrade -1`: faz o downgrade para a última migração.
