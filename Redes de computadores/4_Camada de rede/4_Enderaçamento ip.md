@@ -26,3 +26,30 @@ Ou seja, no exemplo `223.1.1.0/24`, os primeiros 24 bits são o **prefixo da sub
 A máscara de sub-rede pode ser representada também em formato decimal, por exemplo:
 - `/24` → `255.255.255.0`
 - `/16` → `255.255.0.0`
+
+---
+### **1.3 Endereços IP reservados**
+
+**1. Endereço Local**
+- **Faixa**: `127.0.0.0/8` (o mais usado é `127.0.0.1`)
+- **Uso**: Comunicação interna dentro da própria máquina. Como em testar servidores locais sem sair da máquina.
+
+ **2. Endereço de Rede**
+- **Uso**: Identifica a própria **sub-rede**, não pode ser atribuído a um host.
+- **Característica**: Todos os bits da porção de host são **0**.
+- **Exemplo**: `192.168.1.0` (em uma sub-rede /24).
+
+ **3. Endereço de Difusão (Broadcast)**
+- **Uso**: Identifica as máquinas da rede 
+
+ **4. Endereços Privados (RFC 1918)**
+- Reservados para redes internas (não são roteáveis pela Internet pública).
+    
+- Faixas:
+    
+    - `10.0.0.0/8` (10.0.0.0 a 10.255.255.255)
+        
+    - `172.16.0.0/12` (172.16.0.0 a 172.31.255.255)
+        
+    - `192.168.0.0/16` (comum: `192.168.0.0/24`, `192.168.1.0/24`)
+        
