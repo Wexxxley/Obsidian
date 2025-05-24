@@ -8,4 +8,4 @@
 	- Gosto de assistir alguns tipos filmes em grupos como comédias e outros prefiro assitir sozinhos como em filmes que preciso prestar atenção nos diálogos.
 4. Planos para o futuro
 5. Saúde mental
-	 -  N sou emocionalmente estável   
+ 
