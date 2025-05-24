@@ -6,6 +6,7 @@
       {
         "id": "96e667846716e79d",
         "type": "tabs",
+        "dimension": 85.58926487747958,
         "children": [
           {
             "id": "9254063414e81e87",
@@ -28,16 +29,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/4_Camada de rede/4_Enderaçamento ip.md",
+                "file": "Redes de computadores/4_Camada de rede/4_Enderaçamento IP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Enderaçamento ip"
+              "title": "4_Enderaçamento IP"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "ea82bfaa113d98b0",
+        "type": "tabs",
+        "dimension": 14.410735122520421,
+        "children": [
+          {
+            "id": "fc7ab7e96603b3a7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Redes de computadores/4_Camada de rede/4_Enderaçamento IP.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de 4_Enderaçamento IP"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,12 +152,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de computadores/4_Camada de rede/4_Enderaçamento ip.md",
+                "file": "Redes de computadores/4_Camada de rede/4_Enderaçamento IP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para 4_Enderaçamento ip"
+              "title": "Links de saída para 4_Enderaçamento IP"
             }
           },
           {
@@ -202,7 +225,7 @@
   "lastOpenFiles": [
     "attachments/Pasted image 20250524113525.png",
     "Redes de computadores/4_Camada de rede/3_Fragmentação.md",
-    "Redes de computadores/4_Camada de rede/4_Enderaçamento ip.md",
+    "Redes de computadores/4_Camada de rede/4_Enderaçamento IP.md",
     "Redes de computadores/4_Camada de rede/Sem título",
     "Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
     "Pyhon/FastAPI/5_Migrations.md",
