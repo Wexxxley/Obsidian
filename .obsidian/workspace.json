@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,7 +198,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aba0cdd550a1fa08",
+  "active": "61332f04dbe0e71d",
   "lastOpenFiles": [
     "attachments/Pasted image 20250524113525.png",
     "Redes de computadores/4_Camada de rede/3_Fragmentação.md",
