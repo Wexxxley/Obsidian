@@ -10,4 +10,4 @@ Um hospedeiro em geral tem apenas um único enlace com a rede; quando o IP no ho
 
 Cada interface em cada hospedeiro e roteador da Internet global tem de ter um endereço IP  exclusivo. Contudo, os endereços não podem ser escolhidos de qualquer maneira. Uma parte do endereço IP de uma interface será determinada pela sub-rede à qual ela está conectada.
 
-**Sub-rede:** uma **sub-rede** (ou subrede IP) é definida como um conjunto de interfaces de rede que são interconectadas e que compartilham uma parte comum do endereço IP.
+**Sub-rede:** uma **sub-rede** é definida como um conjunto de interfaces de rede que são interconectadas e que compartilham uma parte comum do endereço IP. 
