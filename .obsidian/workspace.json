@@ -129,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GIT/Git and Github.md",
+                "file": "Redes de computadores/4_Camada de rede/4_Enderaçamento ip.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Git and Github"
+              "title": "Links de saída para 4_Enderaçamento ip"
             }
           },
           {
@@ -178,7 +178,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -197,7 +197,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "61332f04dbe0e71d",
+  "active": "aba0cdd550a1fa08",
   "lastOpenFiles": [
     "attachments/Pasted image 20250524113525.png",
     "Redes de computadores/4_Camada de rede/3_Fragmentação.md",
