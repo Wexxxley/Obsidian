@@ -4,13 +4,16 @@
 	- Dificuldade em estabelecer uma rotina eficiente.
 2. Saúde e bem estar
 	 -  Academia
-	 -  Nunca consegui fazer uma dieta, tenho dificuldades
 	 -  Estou acompanhando Fisiculturismo.
+	 -	 -  Nunca consegui fazer uma dieta, tenho dificuldades
+		- Gosto de comer assistindo youtube.
+		- São geraldo com pastel
 	 -  Saúde mental
-3. Filmes e séries favoritas 
+		 - Autoestima e autoconfiança
+3. Filmes e séries 
 	- Senhor dos aneis
-	- Toy Story
-	-  Séries animadas como: O show dos looney tunes, avatar 
+	- Já chorei vendo: Toy Story, para sempre ao seu lado e tumulo dos vagalumes.
+	- Séries animadas como: O show dos looney tunes, avatar 
 	- Gosto de assistir alguns tipos filmes em grupos como comédias e outros prefiro assitir sozinhos como em filmes que preciso prestar atenção nos diálogos.
 4. Planos para o futuro
 5. Infancia
