@@ -19,7 +19,7 @@ Obs: o margin funciona da mesma forma que o padding.
 ___
 # 2. Respeitando medidas com o box-sizing
 
- O box-sizing é uma propriedade que define como o navegador deve calcular o tamanho total de um elemento, especialmente em relação à largura e altura. Ele determina se o padding e a borda são incluídos no tamanho total ou não.
+ O **box-sizing** é uma propriedade que define como o navegador deve calcular o tamanho total de um elemento. Ele determina se o padding e a borda são incluídos no tamanho total ou não.
 
 1. **content-box (padrão):** Apenas o conteúdo é contabilizado no valor de width e height. O padding e a borda não são incluídos e aumentam o tamanho total.
 2. **border-box:** Inclui o padding e a borda no valor definido de width e height. O border-box é amplamente preferido porque simplifica o cálculo do tamanho total.
@@ -43,21 +43,19 @@ ___
 
 
 ___
-# 4. Tipos de caixa
+# **4. Tipos de caixa**
 
 O **comportamento visual das caixas** depende do valor da propriedade `display`. Por padrão, existem dois tipos principais: block e inline.
 #### **a) Caixa de bloco (`block`)**
 - Ocupa toda a largura disponível (por padrão).
 - Quebra linha antes e depois.
 - Permite definir largura (`width`) e altura (`height`).
-
 **Exemplos de elementos que usam display block: `<div>`, `<p>`, `<h1>`, `<section>`.
 #### b) Caixa inline (`inline`)**
 - Ocupa apenas o espaço necessário ao conteúdo.
 - Não quebra linha antes ou depois.
 - Ignora `width` e `height`.
 - Apenas aceita `padding` e `margin`.
-
 **Exemplos de elementos que usam display inline: `<span>`, `<a>`, `<strong>`.
 #### c) Caixa inline-block (`inline-block`)**
 - Não quebra linha automaticamente, mas respeita `width`, `height`, `padding`, `margin` como bloco.
@@ -65,6 +63,8 @@ O **comportamento visual das caixas** depende do valor da propriedade `display`.
 - Caixa que se comporta como **contêiner flexível**, distribuindo seus filhos com `display: flex`.
 - Permite criar layouts responsivos facilmente.
 [[4_Flexbox]]
+
+---
 # **5. Propriedade `display:`**
 Define **como um elemento será exibido** e como suas caixas serão tratadas.
 
