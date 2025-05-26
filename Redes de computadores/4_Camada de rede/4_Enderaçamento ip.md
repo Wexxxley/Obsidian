@@ -44,12 +44,7 @@ A máscara de sub-rede pode ser representada também em formato decimal, por exe
 
  **4. Endereços Privados (RFC 1918)**
 - Reservados para redes internas (não são roteáveis pela Internet pública).
-    
 - Faixas:
-    
     - `10.0.0.0/8` (10.0.0.0 a 10.255.255.255)
-        
     - `172.16.0.0/12` (172.16.0.0 a 172.31.255.255)
-        
     - `192.168.0.0/16` (comum: `192.168.0.0/24`, `192.168.1.0/24`)
-        

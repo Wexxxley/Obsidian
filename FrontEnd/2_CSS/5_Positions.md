@@ -2,9 +2,9 @@
 Status: #Concluded 
 
 https://www.w3schools.com/css/css_positioning.asp
-
 ___
-# Position 
+# **1. Position** 
+
 A propriedade position no CSS é usada para especificar o método de posicionamento de um elemento em relação ao seu contêiner.
 
 Os elementos são posicionados com as propriedades top, bottom, left e right. Mas, essas propriedades so irão funcionar se a propriedade **position** for definida antes.
