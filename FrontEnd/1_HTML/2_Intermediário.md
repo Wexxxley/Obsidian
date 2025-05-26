@@ -1,4 +1,6 @@
 
+Status: #Concluded 
+
 ---
 # **1. Favicon e emoji**
 Emoji: Para inserir emojis você utiliza &#xCODE; O código do emoji você encontra no [https://emojipedia.org](https://emojipedia.org)
@@ -6,7 +8,8 @@ Emoji: Para inserir emojis você utiliza &#xCODE; O código do emoji você encon
 
 ---
 # 2. Imagens
- Tome cuidado com as imagens que você usa comercialmente, a grande maioria possui direitos autorais. A solução é usar imagens de domínio público. A seguir, existem alguns sites com imagens/vídeos/músicas livres.
+
+ Tome cuidado com as imagens que você usa comercialmente, a grande maioria possui direitos autorais. A solução é usar imagens de domínio público. A seguir, existem alguns sites com imagens/vídeos/músicas livres.
 - Unsplash: [Lindas imagens e fotos gratuitas | Unsplash](https://unsplash.com/pt-br)
 - Pexels:[Fotos profissionais gratuitas, imagens profissionais livres de royalties e fotos sem direitos autorais (pexels.com)](https://www.pexels.com/pt-br/)
 - Freepik: [Freepik: Descarga gratis vídeos, vectores, fotos y PSD](https://www.freepik.es/)
@@ -19,7 +22,7 @@ Emoji: Para inserir emojis você utiliza &#xCODE; O código do emoji você encon
 ___
 # 3. HTML semântico e estrutura de um projeto
 
- OHTML é uma linguagem semântica, ou seja, ela não se preocupa com as formas, mas com o sentido, com o conteúdo. E qualquer tag que seja usado exclusivamente pela forma está desatualizada e entrando em desuso.
+ O HTML é uma linguagem semântica, ou seja, ela não se preocupa com as formas, mas com o sentido, com o conteúdo. E qualquer tag que seja usado exclusivamente pela forma está desatualizada e entrando em desuso.
 
  Antes existiam somente duas tags de agrupamento, a div e a span. Com o html5 surgiram as tags semânticas que estão sendo utilizadas para dividir as partes do documento html e ajudar os mecanismos de busca.
 
