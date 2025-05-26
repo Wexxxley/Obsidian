@@ -4,46 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "96e667846716e79d",
-        "type": "tabs",
-        "dimension": 85.58926487747958,
-        "children": [
-          {
-            "id": "9254063414e81e87",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "FrontEnd/1_HTML/2_Intermediário.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Sumário de 2_Intermediário"
-            }
-          },
-          {
-            "id": "f6be07dc0e46cc42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd/1_HTML/2_Intermediário.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2_Intermediário"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "ea82bfaa113d98b0",
         "type": "tabs",
-        "dimension": 14.410735122520421,
         "children": [
           {
             "id": "fc7ab7e96603b3a7",
@@ -51,16 +13,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrontEnd/1_HTML/2_Intermediário.md",
+                "file": "FrontEnd/2_CSS/1.CSS introdução.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 2_Intermediário"
+              "title": "Sumário de 1.CSS introdução"
+            }
+          },
+          {
+            "id": "18367c24835a9957",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd/2_CSS/1.CSS introdução.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.CSS introdução"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "s",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +90,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -221,10 +199,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f6be07dc0e46cc42",
+  "active": "2f05a97a582aec44",
   "lastOpenFiles": [
-    "FrontEnd/1_HTML/1. Html básico.md",
     "FrontEnd/1_HTML/2_Intermediário.md",
+    "FrontEnd/1_HTML/1. Html básico.md",
     "Sem título.md",
     "Redes de computadores/4_Camada de rede/4_Enderaçamento IP.md",
     "attachments/Pasted image 20250524113525.png",
