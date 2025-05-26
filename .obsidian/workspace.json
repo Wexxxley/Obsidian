@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd/3_JavaScript/2.Tipos de dados e variável.md",
+                "file": "FrontEnd/3_JavaScript/3.Estruturas de programação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.Tipos de dados e variável"
+              "title": "3.Estruturas de programação"
             }
           }
         ]
@@ -184,6 +184,7 @@
   },
   "active": "c44e016bd10d8232",
   "lastOpenFiles": [
+    "FrontEnd/3_JavaScript/2.Tipos de dados e variável.md",
     "FrontEnd/3_JavaScript/1.Introdução.md",
     "FrontEnd/2_CSS/1.CSS introdução.md",
     "2025-05-26.md",
@@ -223,7 +224,6 @@
     "Pyhon/FastAPI/4_ORM.md",
     "Pyhon/FastAPI/3_Logging.md",
     "Pyhon/FastAPI/1_Introdução.md",
-    "Pyhon/FastAPI/2_Validação.md",
     "Pyhon/FastAPI",
     "Pyhon",
     "Inglês",
