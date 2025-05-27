@@ -104,3 +104,7 @@ button {
 - `min-width`: controla a largura mínima.
 
 - `max-width`: controla a largura máxima.
+
+
+![[Pasted image 20250527104842.png]]
+- `@media (max-width: 400px)`: É uma **_media query_** que aplica o CSS dentro dela **apenas quando a largura da tela for de até 400 pixels**.
