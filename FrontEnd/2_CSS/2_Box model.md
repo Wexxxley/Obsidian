@@ -94,3 +94,19 @@ button {
 }
 ```
 
+---
+# 6. Mais sobre largura e altura 
+
+- `min-height: 70vh;` significa que o elemento terá pelo menos 70% da altura da janela de visualização. Se o conteúdo for maior que 70vh, o elemento cresce para acomodar o conteúdo.
+- Se o conteúdo for menor, o elemento nunca ficará menor que 70vh.
+
+**Derivados:**
+
+- `height`: Define a altura exata do elemento. O elemento terá sempre essa altura, a menos que o conteúdo force um aumento (dependendo do overflow).
+- `max-height`: Define a altura máxima. O elemento nunca ficará maior que esse valor, mesmo que o conteúdo seja maior (pode causar rolagem interna se o overflow permitir).
+
+**Resumo:**
+
+- `min-height`: altura mínima.
+- `height`: altura fixa.
+- `max-height`: altura máxim
