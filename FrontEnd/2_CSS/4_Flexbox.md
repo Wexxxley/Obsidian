@@ -28,6 +28,7 @@ Alinha os itens de acordo com o eixo principal estabelecido pelo flex-direction.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXepmOWwToS7LlGYEGhBLRQLkQBdF0rZ6-KCWQZTmoqjGApz9H7X7CXucF-9zT8gKktc7TKY4KZegGngkBzecglP6nEUGbAS4_D0b5YChRJYU22Cd3kS9Gdh2JnIg2-Hk8H6cJozvQ?key=VYJVAqKhTdZyHt8enJbiwA)
 
+---
 ## **4. align-items**
 Alinha os itens no eixo contrário do estabelecido no flex-direction.
 - flex-start
