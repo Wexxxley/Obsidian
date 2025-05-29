@@ -81,10 +81,17 @@ A máscara de sub-rede pode ser representada também em formato decimal, por exe
         - O servidor DHCP, ao receber a solicitação, oferece um endereço IP disponível do seu pool, juntamente com outras informações de configuração de rede (máscara de sub-rede, gateway padrão, servidores DNS, etc.).
         - O host aceita a oferta e configura sua interface de rede com os parâmetros recebidos.
         - Os endereços IP são alocados por um **período de tempo limitado (lease time)**. Antes que o lease expire, o host tenta renovar o endereço com o servidor DHCP. Isso permite que endereços IP sejam reutilizados quando um dispositivo sai da rede.
-    - **Vantagens:**
-        - **Automação:** Não requer configuração manual em cada dispositivo.
-        - **Eficiência:** Reutiliza endereços IP, o que é especialmente útil em redes com muitos dispositivos que se conectam e desconectam frequentemente (como redes Wi-Fi públicas).
-        - **Evita conflitos:** O servidor DHCP garante que cada endereço IP seja único na rede durante o período de concessão.
-    - **Desvantagens:** Requer um servidor DHCP na rede. Se o servidor DHCP falhar, novos dispositivos não conseguirão obter endereços.
 
-Em resumo, a alocação de endereços IP é uma orquestração global da ICANN e das RIRs para os ISPs, que por sua vez, utilizam DHCP ou configuração estática para que os hosts individuais em suas redes obtenham um endereço IP.
+
+### 1. Unicast (Um para Um)
+- **Definição:** A comunicação Unicast é o tipo mais comum e fundamental de transmissão de dados, onde um pacote é enviado de um **único remetente** para um **único receptor específico**.
+### 2. Broadcast (Um para Todos)
+- **Definição:** A comunicação Broadcast é quando um pacote é enviado de um **único remetente** para **todos os dispositivos** dentro de um domínio de broadcast específico (geralmente uma sub-rede ou LAN).
+
+- **Exemplos:**
+    - **DHCP Discover:** Como explicado anteriormente, um cliente DHCP envia um broadcast para encontrar um servidor DHCP na rede.
+### 3. Multicast (Um para Muitos Selecionados)
+- **Definição:** A comunicação Multicast é quando um pacote é enviado de um **único remetente** para um **grupo de receptores específicos** que manifestaram interesse em receber essa informação.
+### 4. Anycast (Um para Um "Mais Próximo")
+- **Definição:** A comunicação Anycast é um método de endereçamento onde o mesmo endereço IP é atribuído a **múltiplos dispositivos** (servidores) em diferentes localizações geográficas. Quando um cliente envia um pacote para esse endereço Anycast, a rede o roteia para o **servidor "mais próximo"**
+    
