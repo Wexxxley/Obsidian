@@ -18,8 +18,11 @@ Cada interface em cada hospedeiro e roteador da Internet global tem de ter um en
 **Sub-rede:** uma **sub-rede** é definida como um conjunto de interfaces de rede que são interconectadas e que compartilham uma parte comum do endereço IP. 
 
 **máscara de sub-rede**: é um conceito utilizado para identificar qual parte de um endereço IP representa a sub-rede e qual parte identifica o dispositivo dentro dessa sub-rede. 
-
-> O endereçamento IP designa um endereço a essa sub-rede: 223.1.1.0/24, no qual a notação /24 indica que os 24 bits mais à esquerda do conjunto de 32 bits definem o endereço da sub-rede e o restante do dispositivo.
+#### **1.2.1 CIDR (Classless InterDomain Routing)**
+- **A porção da rede tem tamanho arbitrário:** Ao invés de ter tamanhos de rede fixos, o CIDR permite que a porção de rede (e, consequentemente, a porção de host) tenha qualquer tamanho entre 0 e 32 bits
+- **Formato do endereço: `a.B.C.D/x`:** em que `x` é o número de bits na parte de rede do endereço.
+    - `a.B.C.D` é o endereço IP, geralmente o endereço da rede.
+    - `/x` é a máscara de rede em notação de prefixo, indicando quantos bits (contando da esquerda para a direita) compõem a porção de rede do endereço.
 
 Ou seja, no exemplo `223.1.1.0/24`, os primeiros 24 bits são o **prefixo da sub-rede**, e os 8 bits restantes servem para identificar os hosts.
 
@@ -44,7 +47,7 @@ A máscara de sub-rede pode ser representada também em formato decimal, por exe
 
  **4. Endereços Privados (RFC 1918)**
 - Reservados para redes internas (não são roteáveis pela Internet pública).
-- Faixas:
-    - `10.0.0.0/8` (10.0.0.0 a 10.255.255.255)
-    - `172.16.0.0/12` (172.16.0.0 a 172.31.255.255)
-    - `192.168.0.0/16` (comum: `192.168.0.0/24`, `192.168.1.0/24`)
+
+---
+
+
