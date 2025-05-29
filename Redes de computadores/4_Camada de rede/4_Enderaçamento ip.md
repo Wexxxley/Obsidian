@@ -49,5 +49,42 @@ A máscara de sub-rede pode ser representada também em formato decimal, por exe
 - Reservados para redes internas (não são roteáveis pela Internet pública).
 
 ---
+### **1.4 Como o ISP obtém seu bloco de endereço?**
 
+- **ICANN (Internet Corporation for Assigned Names and Numbers):**
+    1. **Aloca endereços:** A ICANN é a autoridade global máxima responsável por coordenar a atribuição de identificadores únicos na Internet. 
+    2. **Gerencia DNS:** A ICANN supervisiona o sistema de nomes de domínio (DNS)
+    3. **Atribui nomes de domínios e resolve disputas**
+    
+- **RIRs (Regional Internet Registries):** A ICANN delega a alocação de grandes blocos de endereços IP para cinco RIRs, que cobrem diferentes regiões do mundo:
+    - **AFRINIC:** África
+    - **APNIC:** Ásia/Pacífico
+    - **ARIN:** América do Norte
+    - **LACNIC:** América Latina e Caribe (onde o Brasil se encaixa)
+    - **RIPE NCC:** Europa, Oriente Médio e partes da Ásia Central
+    
+    1. A **ICANN** aloca grandes blocos de endereços IP para cada **RIR**.
+    2. Um **ISP** em uma determinada região solicita um bloco de endereços IP à sua **RIR**
+    3. A **RIR** avalia a necessidade do ISP e aloca um bloco de endereços.
+    4. O ISP então usa esse bloco para atribuir endereços IP a seus clientes 
 
+### **1.5 Como um host obtém endereço IP?**
+
+1. **Definido pelo administrador do sistema:**    
+    - Neste método, o endereço IP, a máscara de sub-rede, o gateway padrão e os servidores DNS são **manualmente inseridos** nas configurações de rede do host.
+    - É comum em servidores, impressoras de rede, roteadores e outros dispositivos que precisam ter um endereço IP fixo e conhecido para serem acessados de forma consistente.
+
+2. **DHCP (Dynamic Host Configuration Protocol): **
+	- Método **mais recomendado** para a maioria dos dispositivos em uma rede (computadores, smartphones, tablets, TVs).
+    - **Como funciona:**
+        - Quando um host se conecta a uma rede configurada com DHCP, ele envia uma solicitação para encontrar um servidor DHCP.
+        - O servidor DHCP, ao receber a solicitação, oferece um endereço IP disponível do seu pool, juntamente com outras informações de configuração de rede (máscara de sub-rede, gateway padrão, servidores DNS, etc.).
+        - O host aceita a oferta e configura sua interface de rede com os parâmetros recebidos.
+        - Os endereços IP são alocados por um **período de tempo limitado (lease time)**. Antes que o lease expire, o host tenta renovar o endereço com o servidor DHCP. Isso permite que endereços IP sejam reutilizados quando um dispositivo sai da rede.
+    - **Vantagens:**
+        - **Automação:** Não requer configuração manual em cada dispositivo.
+        - **Eficiência:** Reutiliza endereços IP, o que é especialmente útil em redes com muitos dispositivos que se conectam e desconectam frequentemente (como redes Wi-Fi públicas).
+        - **Evita conflitos:** O servidor DHCP garante que cada endereço IP seja único na rede durante o período de concessão.
+    - **Desvantagens:** Requer um servidor DHCP na rede. Se o servidor DHCP falhar, novos dispositivos não conseguirão obter endereços.
+
+Em resumo, a alocação de endereços IP é uma orquestração global da ICANN e das RIRs para os ISPs, que por sua vez, utilizam DHCP ou configuração estática para que os hosts individuais em suas redes obtenham um endereço IP.
