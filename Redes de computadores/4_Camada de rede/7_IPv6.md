@@ -4,14 +4,19 @@
 Motivações:
 - O espaço de endereços de 32 bits estaria próximo de ser completamente alocado entre 2008 e 2018.
 - Melhorar o formato do cabeçalho para permitir maior velocidade de processamento e de transmissão.
-- Mudanças no cabeçalho para incorporar mecanismos de controle de QoS.
+- Mudanças no cabeçalho para incorporar controle de **Qualidade de serviço(QoS).**
 
 As mudanças mais importantes introduzidas no IPv6 foram: 
 - **Capacidade de endereçamento expandida**. O IPv6 aumenta o tamanho do endereço IP de 32 bits para 128 bits. Isso garante que o mundo não ficará sem endereços IP.
 - **Cabeçalho aprimorado de 40 bytes.** Vários campos IPv4 foram descartados ou tornaram-se opcionais. O cabeçalho de comprimento fixo de 40 bytes resultante permite processamento mais veloz do datagrama IP.
-- **Rotulação de fluxo e prioridade**. O RFC 1752 e o RFC 2460 declaram que isso permite “rotular pacotes que pertencem a fluxos particulares para os quais o remetente requisita tratamento especial, tal como um serviço de qualidade não padrão ou um serviço de tempo real”. Por exemplo, a transmissão de áudio e vídeo seria tratada como um fluxo. Por outro lado, aplicações mais tradicionais, como transferência de arquivos e e-mail, poderiam não ser tratadas assim. É possível que o tráfego carregado por um usuário de alta prioridade (digamos, alguém que paga por um serviço melhor de tráfego) seja também tratado como um fluxo. O que fica claro, contudo, é que os projetistas do IPv6 preveem a possível necessidade de conseguir diferenciá-los, mesmo que o exato significado de fluxo ainda não tenha sido determinado. O cabeçalho IPv6 também tem um
-
-
-Cabeçalho fixo de 40 bytes. Não é permitida fragmentação nos roteadores
-(apenas fonte
+- **Rotulação de Fluxo:** O IPv6 introduz um campo chamado "Rótulo de Fluxo" para identificar pacotes que pertencem a um mesmo "fluxo". Um "fluxo" é uma sequência de pacotes que o remetente deseja que recebam tratamento especial, como garantia de qualidade de serviço (QoS) ou transmissão em tempo real (ex: áudio e vídeo).
+- **Prioridade (Classe de Tráfego):** O cabeçalho IPv6 também possui um campo de 8 bits para "Classe de Tráfego" (Traffic Class). Este campo permite que os datagramas sejam priorizados. Isso significa que certos pacotes (como mensagens ICMP) podem receber tratamento preferencial em relação a outros.
 ![[Pasted image 20250530105010.png]]
+- **Versão**. Esse campo de 4 bits identifica o número da versão do IP. 
+- **Classe de tráfego.** Identifica o a classe dos dados para poder dar prioridade.
+- **Rótulo de fluxo**. Esse campo de 20 bits é usado para identificar um fluxo de datagramas. 
+- **Comprimento da carga útil.** 
+- **Próximo cabeçalho**. Esse campo identifica o protocolo ao qual o conteúdo desse datagrama será entregue (por exemplo, TCP ou UDP). 
+- **Limite de saltos.** 
+- **Endereços de origem e de destino.** 
+- **Dados**. Carga útil pode ser extraída do datagrama IP e passada adiante para o protocolo especificado no campo de próximo cabeçalho.
