@@ -33,13 +33,11 @@ Na teoria, um único IP público com PAT pode suportar até 65.535 conexões _si
 Apesar de sua utilidade e de ter "salvado" o IPv4, a NAT é frequentemente criticada por ir contra princípios fundamentais do design da Internet.
 1. **Número de Porta Deveria Identificar Processo e Não Hospedeiro:** A ideia de um número de porta é identificar uma **aplicação específia** de um host, não o host em si. 
 
-2. **Roteadores Deveriam Processar Somente Até a Camada 3.** O modelo TCP/IP estabelece que roteadores operam na camada de rede somente. A NAT, particularmente **inspeciona e modifica os números de porta**, o que é informação da Camada 4. Isso faz com que o roteador NAT aja como um "proxy".
+2. **Roteadores Deveriam Processar Somente Até a Camada 3:** O modelo TCP/IP estabelece que roteadores operam na camada de rede somente. A NAT, particularmente **inspeciona e modifica os números de porta**, o que é informação da Camada 4. Isso faz com que o roteador NAT aja como um "proxy".
 
 3. **Violação do Argumento Fim-a-Fim:** Esse princípio afirma que a complexidade de uma rede devem estar nas **extremidades (hosts)**, e a rede em si (roteadores) deve ser o mais simples possível. A NAT **modifica os cabeçalhos dos pacotes** (endereços IP e portas). Isso impede que os hosts finais se comuniquem "diretamente" de ponta a ponta.
     
-4. **A Possibilidade de NAT Deve Ser Levada em Conta Pelos Desenvolvedores de Aplicações, Ex., Interfere em Aplicações P2P.**
+4. **NAT e aplicações P2P:** Aplicações como torrents e alguns jogos online dependem de que os "peers" possam se conectar diretamente uns aos outros. Com a NAT, os hosts internos estão "escondidos" atrás do IP público do roteador. Para que essas aplicações funcionem, muitas vezes são necessárias técnicas adicionais
+    - Isso impõe uma carga extra aos desenvolvedores de software, que precisam projetar suas aplicações para lidar com o ambiente NAT.
 
-    - **Aplicações P2P (Peer-to-Peer):** Aplicações como torrents, VoIP (Skype, SIP), e alguns jogos online dependem de que os "peers" (pares) possam se conectar diretamente uns aos outros. Com a NAT, os hosts internos estão "escondidos" atrás do IP público do roteador. Para que essas aplicações funcionem, muitas vezes são necessárias técnicas adicionais como.
-    - Isso impõe uma carga extra aos desenvolvedores de software, que precisam projetar suas aplicações para lidar com o ambiente NAT, em vez de assumir uma conectividade fim-a-fim simples.
-### NAT vs. IPv6
-Com a adoção crescente do IPv6, a necessidade de NAT para conservação de endereços é muito menor, pois o IPv6 oferece um espaço de endereçamento praticamente ilimitado. Em um ambiente puramente IPv6, cada dispositivo pode ter seu próprio endereço IP público globalmente roteável, eliminando a necessidade de NAT para esse fim. No entanto, a NAT ainda pode ser usada para propósitos de segurança ou para traduzir entre IPv4 e IPv6 
+5. **NAT vs. IPv6:** Com a adoção crescente do IPv6, a necessidade de NAT para conservação de endereços é muito menor, pois o IPv6 oferece um espaço de endereçamento praticamente ilimitado. Em um ambiente puramente IPv6, cada dispositivo pode ter seu próprio endereço IP público globalmente roteável, eliminando a necessidade de NAT para esse fim. No entanto, a NAT ainda pode ser usada para propósitos de segurança ou para traduzir entre IPv4 e IPv6 
