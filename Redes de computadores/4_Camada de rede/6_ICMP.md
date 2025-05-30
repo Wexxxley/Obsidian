@@ -10,8 +10,28 @@
 - **Echo request/reply:** O comando `ping` envia uma mensagem ICMP Echo Request para um host de destino, se o host estiver acessível, ele responde com uma mensagem ICMP Echo Reply. Isso é comumente usado para testar a conectividade da rede e medir o tempo de ida e volta.
 - **Transporte de mensagens:** As mensagens ICMP são encapsuladas dentro de datagramas IP. Isso significa que uma mensagem ICMP é a "carga útil" de um pacote IP.
 
-**3. Tabela de Tipos de Mensagens ICMP:** Esta tabela lista vários tipos de mensagens ICMP, identificadas por um número de "Tipo" e "Código", juntamente com uma "Descrição" do que cada mensagem significa.
+---
 
+### **Tabela de Mensagens ICMP**
+
+| Tipo | Código | Descrição                  | Observações                                             |
+| :--- | :----- | :------------------------- | :------------------------------------------------------ |
+| 0    | 0      | **Echo Reply**             | Resposta ao comando `ping`.                             |
+| 3    | 0      | **Network Unreachable**    | A rede de destino não pode ser alcançada.               |
+| 3    | 1      | **Host Unreachable**       | O host de destino não pode ser alcançado.               |
+| 3    | 2      | **Protocol Unreachable**   | Protocolo solicitado não disponível no host de destino. |
+| 3    | 3      | **Port Unreachable**       | Porta solicitada não disponível no host de destino.     |
+| 3    | 6      | **Dest Network Unknown**   | A rede de destino é desconhecida.                       |
+| 3    | 7      | **Dest Host Unknown**      | O host de destino é desconhecido.                       |
+| 4    | 0      | **Source Quench**          | Indicava congestionamento (pouco usado).                |
+| 8    | 0      | **Echo Request**           | Usado pelo comando `ping` para testar a conectividade.  |
+| 9    | 0      | **Router Advertisement**   | Roteadores anunciam sua presença.                       |
+| 10   | 0      | **Router Solicitation**    | Hosts solicitam anúncios de roteador.                   |
+| 11   | 0      | **TTL Expired in Transit** | O campo TTL do pacote atingiu zero.                     |
+| 12   | 0      | **IP Header Bad**          | O cabeçalho IP contém um erro.                          |
+
+
+Exportar para as Planilhas
 Vamos ver alguns dos mais importantes:
 
 - **Tipo 0, Código 0: echo reply (ping)**
