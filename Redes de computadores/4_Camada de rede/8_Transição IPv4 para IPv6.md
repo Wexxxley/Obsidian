@@ -1,4 +1,13 @@
 
 ---
 
-O problema é que, enquanto os novos sistemas habilitados para IPv6 podem ser compatíveis, isto é, podem enviar, rotear e receber datagramas IPv4, os sistemas habilitados para IPv4 não podem manusear datagramas IPv6. 
+Enquanto os novos sistemas habilitados para IPv6 podem ser compatíveis, isto é, podem enviar, rotear e receber datagramas IPv4, os sistemas habilitados para IPv4 não podem manusear datagramas IPv6. 
+
+Um "dia da conversão" (desligar tudo e atualizar) é inviável devido à escala atual da Internet. Uma abordagem principal é a de:
+
+1. **Tunelamento (Tunneling):** O tunelamento permite que dois nós IPv6 se comuniquem usando datagramas IPv6 mesmo que existam roteadores IPv4 intermediários. A ideia é:
+    - Um nó IPv6 encapsula o datagrama IPv6 inteiro dentro do campo de dados de um datagrama IPv4. Este datagrama IPv4 é então endereçado ao nó IPv6.
+    - Os roteadores IPv4 intermediários tratam esse pacote como um datagrama IPv4 comum.
+    - Quando o nó IPv6 no lado recebe o datagrama, ele o desencapsula. O datagrama IPv6 é então roteado normalmente para seu destino final.
+
+![[Pasted image 20250531084114.png]]
