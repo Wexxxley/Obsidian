@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
+                "file": "Algorítmos e Estruturas de dados/Grafos/3_Caminho mínimo de fonte única (Dijkstra).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 9_Abstração de uma rede"
+              "title": "Sumário de 3_Caminho mínimo de fonte única (Dijkstra)"
             }
           },
           {
@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
+                "file": "Algorítmos e Estruturas de dados/Grafos/3_Caminho mínimo de fonte única (Dijkstra).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9_Abstração de uma rede"
+              "title": "3_Caminho mínimo de fonte única (Dijkstra)"
             }
           }
         ],
@@ -65,13 +65,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
+                "file": "Algorítmos e Estruturas de dados/Grafos/3_Caminho mínimo de fonte única (Dijkstra).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 9_Abstração de uma rede"
+              "title": "Sumário de 3_Caminho mínimo de fonte única (Dijkstra)"
             }
           }
         ]
@@ -237,10 +237,10 @@
   },
   "active": "16d1f82bce0439f5",
   "lastOpenFiles": [
+    "Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
     "Algorítmos e Estruturas de dados/Grafos/3_Caminho mínimo de fonte única (Dijkstra).md",
     "Algorítmos e Estruturas de dados/Grafos/1_Introdução a grafos.md",
     "Algorítmos e Estruturas de dados/Grafos/2_Buscas em grafos.md",
-    "Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
     "Sem título.md",
     "FrontEnd/2_CSS/6_Configurações iniciais.md",
     "attachments/Pasted image 20250531092212.png",
