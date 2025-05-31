@@ -6,7 +6,7 @@
       {
         "id": "e04ea8aa05572861",
         "type": "tabs",
-        "dimension": 74.09568261376897,
+        "dimension": 73.3364794714488,
         "children": [
           {
             "id": "a805f7e19ecfc88d",
@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorítmos e Estruturas de dados/Grafos/3_Algorítmos de caminho mínimo.md",
+                "file": "Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 3_Algorítmos de caminho mínimo"
+              "title": "Sumário de 9_Abstração de uma rede"
             }
           },
           {
@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorítmos e Estruturas de dados/Grafos/3_Algorítmos de caminho mínimo.md",
+                "file": "Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Algorítmos de caminho mínimo"
+              "title": "9_Abstração de uma rede"
             }
           }
         ],
@@ -57,7 +57,7 @@
       {
         "id": "7088f5cc0e2d9dc0",
         "type": "tabs",
-        "dimension": 25.90431738623104,
+        "dimension": 26.663520528551203,
         "children": [
           {
             "id": "fcdc3cfab43d88bc",
@@ -65,13 +65,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorítmos e Estruturas de dados/Grafos/3_Algorítmos de caminho mínimo.md",
+                "file": "Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 3_Algorítmos de caminho mínimo"
+              "title": "Sumário de 9_Abstração de uma rede"
             }
           }
         ]
@@ -237,8 +237,8 @@
   },
   "active": "16d1f82bce0439f5",
   "lastOpenFiles": [
+    "Algorítmos e Estruturas de dados/Grafos/3_Caminho mínimo de fonte única (Dijkstra).md",
     "Algorítmos e Estruturas de dados/Grafos/1_Introdução a grafos.md",
-    "Algorítmos e Estruturas de dados/Grafos/3_Algorítmos de caminho mínimo.md",
     "Algorítmos e Estruturas de dados/Grafos/2_Buscas em grafos.md",
     "Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
     "Sem título.md",

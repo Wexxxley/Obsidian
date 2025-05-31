@@ -357,7 +357,7 @@
     "colours": {
       "light": {
         "codeblock": {
-          "backgroundColour": "#2E2A2A",
+          "backgroundColour": "--code-background",
           "textColour": "--code-normal"
         },
         "gutter": {
@@ -400,7 +400,7 @@
       },
       "dark": {
         "codeblock": {
-          "backgroundColour": "#2E2A2A",
+          "backgroundColour": "--code-background",
           "textColour": "--code-normal"
         },
         "gutter": {

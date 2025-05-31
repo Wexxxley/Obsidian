@@ -33,4 +33,4 @@ Esta classificação se refere à **frequência e forma como as rotas são alter
 ---
 ### **3. Algoritmo de Dijsktra**
 
-
+[[3_Caminho mínimo de fonte única (Dijkstra)]]
