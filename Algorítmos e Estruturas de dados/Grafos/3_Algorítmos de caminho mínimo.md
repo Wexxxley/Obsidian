@@ -26,9 +26,8 @@ ___
 **Técnica do relaxamento**: O propósito de relaxar uma aresta (u, v) consiste em testar se podemos melhorar a estimativa do caminho mais curto para v encontrado até então, por meio do caminho passando por u. 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdRKHY_7z8OOBsb-SRQtAIQNYd4SvGupvQBGl1noonqGyZKEueEyt1nk1HL9z-jBufixQJAFP4WlrmhwOBsKBul2KnKpXzwzlE8FaRcfo6v0Odxf7idUBaD0kwXJBjacblG_ITVFw?key=VJjD-GQ4BeMLFSL3weHQfxOz)
 
-```
+``` cpp title:test.cpp
 void dijkstra(G, s) {
-    // 1. Inicialização: Define distâncias e predecessores para todos os vértices
     for each Vertex v in G.Vertices {
         v.dist = INFINITY; // Inicializa a distância de todos os vértices como infinito
         v.pai = null;      // Inicializa o predecessor de todos os vértices como nulo
@@ -57,7 +56,9 @@ void dijkstra(G, s) {
         }
     }
 }
-```  
+```
+
+*
   
 
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
