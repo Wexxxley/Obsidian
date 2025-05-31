@@ -3,16 +3,34 @@
 [[1_Introdução a grafos|1_Introdução a grafos]]
 
 Redes são abstraidas através de um grafo não direcionado com pesos.
-
 ![[Pasted image 20250531092212.png]]
+
 ---
+### **1. Algoritmos de Roteamento Global vs. Descentralizado**
+Esta classificação se refere à **forma como os roteadores obtêm e utilizam as informações sobre a rede** para calcular as rotas.
 
-#### **1.1 Algortimos de roteamento**
+- **Algoritmo de Roteamento Global **
+    - **Conhecimento:** Possui uma visão **completa e global** de toda a topologia da rede, incluindo os custos de todos os links.
+    - **Como funciona:** Antes de iniciar o cálculo das rotas, o algoritmo precisa coletar todas essas informações. Isso pode ser feito de forma centralizada (um único local calcula tudo) ou replicada (várias cópias do algoritmo, cada uma com o conhecimento global, calculam as rotas).
 
-**Algoritmo de roteamento global:** 
-- calcula o caminho de menor custo entre uma origem e um destino usando conhecimento completo e global sobre a rede. 
-- E isso exige que o algoritmo obtenha essas informações, de algum modo, antes de realizar de fato o cálculo. 
-- Este pode ser rodado em um local (um algoritmo de roteamento global centralizado) ou replicado em vários locais. 
+- **Algoritmo de Roteamento Descentralizado:**
+    - **Conhecimento:** Cada nó (roteador) começa sabendo apenas os custos dos links que estão **diretamente conectados a ele (seus vizinhos)**. 
+    - **Como funciona:** O cálculo do caminho de menor custo é feito de forma **iterativa e distribuída**. Cada nó troca informações com seus vizinhos. Com base nas informações recebidas e nos custos de seus próprios links, cada nó gradualmente calcula (ou atualiza) as rotas de menor custo para todos os destinos na rede.
 
-**Algoritmo de roteamento descentralizado:** o cálculo do caminho de menor custo é realizado de modo iterativo e distribuído. Nenhum nó tem informação completa sobre os custos de todos os enlaces da rede. 
-- Em vez disso, cada nó começa sabendo apenas os custos dos enlaces diretamente ligados a ele. Então, por meio de um processo iterativo de cálculo e de troca de informações com seus nós vizinhos (isto é, que estão na outra extremidade dos enlaces aos quais ele próprio está ligado), um nó gradualmente calcula o caminho de menor custo até um destino ou um conjunto de destinos. O algoritmo de roteamento descentralizado que estudaremos logo adiante na Seção 4.5.2 é denominado algoritmo de vetor de distâncias (distance-vector algorithm — DV), porque cada nó mantém um vetor de estimativas de custos (distâncias) de um nó até todos os outros nós da rede.
+### **2. Algoritmos de Roteamento Estáticos vs. Dinâmicos**
+Esta classificação se refere à **frequência e forma como as rotas são alteradas**.
+- **Algoritmos de Roteamento Estáticos:**
+    - **Mudança de Rotas:** As rotas mudam muito **lentamente** ao longo do tempo.
+    - **Causa da Mudança:** Geralmente, as mudanças são resultado de **intervenção humana** (um administrador de rede configurando manualmente as tabelas de roteamento do roteador).
+    - **Uso:** Comuns em redes pequenas.
+
+- **Algoritmos de Roteamento Dinâmicos:**
+    - **Mudança de Rotas:** As rotas se **adaptam automaticamente** e mudam rapidamente em resposta a alterações na rede.
+    - **Causa da Mudança:** Mudanças ocorrem quando há variações há congestionamento ou na **topologia da rede** (links caem, novos links surgem, roteadores falham).
+    - **Como funcionam:** Podem rodar periodicamente (a cada X segundos) ou ser acionados por eventos (uma mudança detectada).
+    - **Vantagens:** Mais sensíveis e adaptáveis às condições reais da rede.
+
+---
+### **3. Algoritmo de Dijsktra**
+
+
