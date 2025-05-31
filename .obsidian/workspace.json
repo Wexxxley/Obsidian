@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/4_Camada de rede/8_Transição IPv4 para IPv6.md",
+                "file": "Algorítmos e Estruturas de dados/Grafos/Grafos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_Transição IPv4 para IPv6"
+              "title": "Grafos"
             }
           }
         ],
@@ -199,9 +199,13 @@
   },
   "active": "dff8a17e66ab27c3",
   "lastOpenFiles": [
+    "Redes de computadores/4_Camada de rede/8_Transição IPv4 para IPv6.md",
+    "Algorítmos e Estruturas de dados/Grafos/Grafos.md",
+    "Algorítmos e Estruturas de dados/Grafos",
+    "Algorítmos e Estruturas de dados/Grafos.md",
+    "Algorítmos e Estruturas de dados",
     "attachments/Pasted image 20250531084114.png",
     "Redes de computadores/4_Camada de rede/7_IPv6.md",
-    "Redes de computadores/4_Camada de rede/8_Transição IPv4 para IPv6.md",
     "attachments/Pasted image 20250530105010.png",
     "Redes de computadores/4_Camada de rede/6_ICMP (Protocolo de Mensagens de Controle da Internet).md",
     "Redes de computadores/4_Camada de rede/5_NAT.md",
@@ -235,16 +239,12 @@
     "attachments/Pasted image 20250524113525.png",
     "Redes de computadores/4_Camada de rede/3_Fragmentação.md",
     "Redes de computadores/4_Camada de rede/Sem título",
-    "Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
     "attachments/Pasted image 20250523155655.png",
-    "attachments/Pasted image 20250523155642.png",
     "Redes de computadores/4_Camada de rede",
     "Pyhon/FastAPI",
     "Pyhon",
     "Inglês",
     "FrontEnd/4_React",
-    "Excalidraw",
-    "RepositóriosMonitoria",
-    "Banco de dados"
+    "Excalidraw"
   ]
 }
