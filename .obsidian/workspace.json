@@ -6,6 +6,7 @@
       {
         "id": "ac34782047100fe2",
         "type": "tabs",
+        "dimension": 83.66394399066512,
         "children": [
           {
             "id": "c4e994c7ecb33b29",
@@ -37,6 +38,28 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "e04ea8aa05572861",
+        "type": "tabs",
+        "dimension": 16.33605600933489,
+        "children": [
+          {
+            "id": "a805f7e19ecfc88d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Algorítmos e Estruturas de dados/Grafos/Grafos.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Grafos"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,7 +220,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dff8a17e66ab27c3",
+  "active": "a805f7e19ecfc88d",
   "lastOpenFiles": [
     "Redes de computadores/4_Camada de rede/8_Transição IPv4 para IPv6.md",
     "Algorítmos e Estruturas de dados/Grafos/Grafos.md",

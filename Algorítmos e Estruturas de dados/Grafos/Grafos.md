@@ -30,23 +30,34 @@ ___
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfH6clvRtr8C23J8Ff5Hq-LOek1BcgvQ7StRsr3FmFQiLs1i_-vgQJWCJBnUY7vs-7SJSnKZZ4f9EsjekLAO7UgKKkUe5X08iaNu5_H1E89xEHhlyJuxiU_-_cbzcRHNm-suELs?key=VJjD-GQ4BeMLFSL3weHQfxOz)
 
- Uma forma simples de representar um grafo é usar uma matriz, conhecida como matriz de adjacência. Para cada aresta (u,v), definimos A[u][v]como verdadeiro; caso contrário, a entrada na matriz será falsa. Se a aresta tiver um peso associado, podemos definir A[u] igual ao peso e usar um valor muito grande ou muito pequeno para indicar arestas inexistentes. 
+**Matriz de adjacencia**
+Para um grafo com N vértices, a matriz de adjacência é uma matriz quadrada NxN.
+- Para cada aresta (u,v), a entrada na **A(u,v)** ou é definida como `verdadeiro` (ou `1`).
+- Caso contrário, a entrada será `falsa` (ou `0`).
+- Se a aresta tiver um **peso** associado, a entrada na posição `(u,v)` da matriz (ou seja, **A(u,v)**) pode armazenar esse peso. Nesse caso:
+    - Um valor muito grande (por exemplo, infty) pode indicar a inexistência de uma aresta.
+        - _Exemplo:_ Ao buscar a rota aérea mais barata, voos inexistentes podem ser representados com um custo infty.
+    - Um valor muito pequeno (por exemplo, −infty ou `0`, dependendo do contexto) também pode indicar arestas inexistentes se você estiver procurando o caminho mais caro.
 
- Por exemplo, ao buscar a rota aérea mais barata, voos inexistentes poderiam ser representados com um custo ∞. Se estivermos procurando a rota aérea mais cara, poderíamos usar ∞ ou 0 para arestas inexistentes. 
+**Desvantagens da Matriz de Adjacência:**
 
-  
+- Embora seja **extremamente simples** de entender e implementar, é **muito ineficiente** em termos de espaço para a maioria dos grafos.
+- Isso ocorre porque, em **grafos esparsos** (aqueles com relativamente poucas arestas em comparação com o número máximo possível de arestas), a maioria dos valores na matriz será nula (zeros ou "infinitos"), resultando em **desperdício de memória**.
 
- Embora a matriz de adjacência tenha a vantagem de ser extremamente simples, ela é muito ineficiente. Visto que muitos valores serão nulos. Uma solução melhor para grafos não densos é o uso de listas de adjacência. Para cada vértice, mantemos uma lista de todos os vértices adjacentes. As listas de adjacência são o padrão para representar grafos. Grafos não direcionados podem ser representados de forma semelhante; cada aresta (u,v) aparece em duas listas.
+**Listas de Adjacência**
 
-  
+Uma solução melhor para **grafos não densos (esparsos)** é o uso de listas de adjacência.
 
- Uma necessidade em grafos é encontrar todos os vértices adjacentes a um determinado vértice v. Isso pode ser feito em tempo proporcional ao número de vértices encontrados na lista de adjacência.
+- Para cada vértice v, mantemos uma **lista de todos os vértices adjacentes** a ele.
+- As listas de adjacência são o **padrão** para representar grafos na maioria das aplicações.
+- Em **grafos não direcionados**, cada aresta (u,v) aparecerá em duas listas: v estará na lista de adjacência de u, e u estará na lista de adjacência de v.
 
-  
+**Vantagens e Operações nas Listas de Adjacência:**
 
- Há várias alternativas para manter as listas de adjacência. Observe que as próprias listas podem ser mantidas em vetores ou listas encadeadas. Contudo, para grafos esparsos, ao usar vetores, o programador precisará inicializar cada vetor com uma capacidade fixa, o que pode causar desperdício de espaço.
-
-  
+- **Eficiência na busca de adjacentes:** Encontrar todos os vértices adjacentes a um determinado vértice v pode ser feito em tempo proporcional ao número de vértices presentes na lista de adjacência de v, o que é eficiente.
+- **Flexibilidade na implementação:** As próprias listas de adjacência podem ser mantidas usando diferentes estruturas de dados subjacentes, como:
+    - **Vetores (arrays dinâmicos):** Podem ser eficientes para acesso, mas para grafos esparsos, se o programador precisar pré-alocar uma capacidade fixa, pode haver desperdício de espaço.
+    - **Listas encadeadas:** Oferecem maior flexibilidade no uso de espaço, pois alocam memória dinamicamente conforme necessário.
   
   
   
