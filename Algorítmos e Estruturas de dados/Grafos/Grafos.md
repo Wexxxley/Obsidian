@@ -7,27 +7,28 @@
  - O vértice w é adjacente a v se, e somente se, (v,w) ∈ E. 
  - Em um **grafo não direcionado** com a aresta (v,w) e, consequentemente, (w,v), w é adjacente a v e v é adjacente a w. Às vezes, uma aresta tem um terceiro componente, conhecido como **peso**.
  - Um **caminho** em um grafo é uma sequência de vértices w1,w2,w3,…,wN tal que (wi,wi+1) ∈ E, ou seja, são adjacestes. Permitimos um caminho de um vértice para ele mesmo (loop); 
+ - Um grafo **não direcionado** é **conexo** se houver um caminho de qualquer vértice para qualquer outro vértice. Um grafo **direcionado** com essa propriedade é chamado de fortemente conexo.
+ - Se um grafo direcionado não for fortemente conexo, mas o **grafo subjacente (sem considerar a direção dos arcos)** for conexo, então o grafo é dito fracamente conexo. 
+ - Um grafo completo é um grafo em que existe uma aresta entre cada par de vértices.
 
-Um grafo **não direcionado** é conexo se houver um caminho de qualquer vértice para qualquer outro vértice. Um grafo direcionado com essa propriedade é chamado de fortemente conexo. Se um grafo direcionado não for fortemente conexo, mas o grafo subjacente (sem considerar a direção dos arcos) for conexo, então o grafo é dito fracamente conexo. Um grafo completo é um grafo em que existe uma aresta entre cada par de vértices.
 
-  
+Um ==**grafo G = (V, E)**== é composto por um **conjunto de vértices (V)** e um **conjunto de arestas (E)**. Cada aresta é definida por um par de vértices (v, w), onde v e w pertencem a V.
 
-|   |
-|---|
-|Exemplo sistema de aeroportos|
-|Cada aeroporto é um vértice, e dois vértices estão conectados por uma aresta se houver um voo direto entre os aeroportos. A aresta pode ter um peso, representando o tempo, a distância ou o custo. É razoável supor que tal grafo seja direcionado, pois pode levar mais tempo ou custar mais para voar em diferentes direções. <br><br> Provavelmente gostaríamos de garantir que o sistema de aeroportos seja fortemente conexo, para que sempre seja possível voar de qualquer aeroporto para qualquer outro. <br><br> Também poderíamos querer determinar rapidamente o melhor voo entre dois aeroportos. "Melhor" poderia significar o caminho com o menor número de arestas ou poderia ser baseado nos critérios de peso.|
+- Se o par de vértices que define a aresta **indica uma direção**, o grafo é **direcionado**.
+- O vértice _w_ é **adjacente** a _v_ se, e somente se, existe uma aresta _(v, w)_ em E.
+- Em um **grafo não direcionado**, se existe uma aresta _(v, w)_, então implicitamente também existe _(w, v)_. Nesse caso, _w_ é adjacente a _v_, e _v_ é adjacente a _w_.
+- Opcionalmente, uma aresta pode ter um terceiro componente, chamado **peso** (ou custo).
+- Um **caminho** em um grafo é uma sequência de vértices w1​,w2​,w3​,…,wN​ tal que, para cada i de 1 a N−1, a aresta (wi​,wi+1​) pertence a E. Isso significa que vértices consecutivos no caminho são adjacentes. Um caminho pode começar e terminar no mesmo vértice (formando um _ciclo_).
+- Um grafo **não direcionado** é **conexo** se existe um caminho entre qualquer par de vértices.
+- Um grafo **direcionado** é **fortemente conexo** se existe um caminho de qualquer vértice para qualquer outro vértice, seguindo as direções das arestas.
+- Se um grafo **direcionado** não é fortemente conexo, mas seu **grafo subjacente** (o mesmo grafo sem considerar a direção das arestas) é conexo, então ele é chamado de **fracamente conexo**.
+- Um **grafo completo** é um grafo no qual existe uma aresta entre cada par de vértices distintos.
 
-  
-
-_________________________________________________________________________________
-
-### 1.1 Representação de grafos
-
+___
+### **1.1 Representação de grafos**
   
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfH6clvRtr8C23J8Ff5Hq-LOek1BcgvQ7StRsr3FmFQiLs1i_-vgQJWCJBnUY7vs-7SJSnKZZ4f9EsjekLAO7UgKKkUe5X08iaNu5_H1E89xEHhlyJuxiU_-_cbzcRHNm-suELs?key=VJjD-GQ4BeMLFSL3weHQfxOz)
-
-  
 
  Uma forma simples de representar um grafo é usar uma matriz, conhecida como matriz de adjacência. Para cada aresta (u,v), definimos A[u][v]como verdadeiro; caso contrário, a entrada na matriz será falsa. Se a aresta tiver um peso associado, podemos definir A[u] igual ao peso e usar um valor muito grande ou muito pequeno para indicar arestas inexistentes. 
 
