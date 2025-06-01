@@ -23,8 +23,8 @@
 - Tríceps barra 4x10 
 - Tríceps francês polia 3x10
 
-- Prancha 3x 45s
-- Elevação pernas suspenso 3x12
+- Abs padrão
+- Elevação pernas
 ---
 #### **Terça – Pernas (quadríceps) + Abs**
 - Agachamento livre 4x10
@@ -32,8 +32,8 @@
 - Cadeira extensora 4x10
 - Avanço com halteres 3x10
 
-- Abdominal máquina 3x15
-- Prancha frontal com apoio 3x30s
+- Abs padrão
+- Elevação pernas
 ---
 #### **Quarta – Costas + Cardio**
 - Pulley frente 4x10
@@ -58,26 +58,19 @@
 - Cadeira abdutora 3x15
 - Panturrilha sentado 3x20
 
-- Prancha lateral 3x30s cada lado
-- Bicicleta abdominal 3x20
+- Abs padrão
+- Elevação pernas
 
 ---
+#### **Sábado – Ombros + Cardio**
+- Elevação lateral polia
+- Elevação frontal
+- Elevação lateral halter
 
-#### **Sábado – Ombros (leve) + Cardio + Core**
+- Cardio 30 min
 
-- Elevação lateral com halteres 3x15
-    
-- Elevação frontal (com anilha ou halteres leves) 3x12
-    
-- Face pull 3x15
-    
-- Remada alta com halteres 3x12
-    
-- Cardio leve 30 min
-    
-- Ab wheel ou prancha com deslocamento 3x
-    
 
----
 
-Se quiser, posso gerar uma planilha em PDF ou Excel com esse plano. Deseja isso? E prefere treinar por tempo fixo (tipo 1h) ou por volume?
+
+
+
