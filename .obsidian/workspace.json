@@ -57,12 +57,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ficha treino.md",
+                "file": "Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ficha treino"
+              "title": "9_Abstração de uma rede"
             }
           }
         ],
@@ -79,13 +79,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ficha treino.md",
+                "file": "Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Ficha treino"
+              "title": "Sumário de 9_Abstração de uma rede"
             }
           }
         ]
@@ -251,8 +251,8 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
-    "Algorítmos e Estruturas de dados/Grafos/3_Caminho mínimo de fonte única (Dijkstra).md",
     "Ficha treino.md",
+    "Algorítmos e Estruturas de dados/Grafos/3_Caminho mínimo de fonte única (Dijkstra).md",
     "Sem título",
     "Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
     "Algorítmos e Estruturas de dados/Grafos/1_Introdução a grafos.md",
