@@ -40,17 +40,11 @@ Computa caminhos de menor custo de um nó (fonte) para todos os outros nós:
 
 ### **4. Algoritmo Vetor de distância (VD)**
 
+Todo nó mantém uma **tabela de vetor de distância**, que contém suas estimativas de distância para todos os destinos na rede 
 
-**Iterativo e assincrono**
-- **Iterativo:** O algoritmo funciona em iterações". Cada nó da rede não calcula tudo de uma vez; ele refina suas estimativas de distância ao longo do tempo, em várias rodadas.
-- **Assíncrono:** As iterações não acontecem de forma sincronizada em todos os nós da rede. Cada nó realiza uma iteração local quando duas condições são satisfeitas:
-    - **Mudança no custo do enlace local:** Se custo de usar uma conexão direta para um vizinho mudar o nó precisa recalcular suas rotas.
-    - **Mensagem de atualização DV do vizinho:** Se um nó vizinho envia sua própria tabela de distâncias atualizada, o nó receptor precisa processar essa informação para tentar encontrar caminhos mais curtos.
-
-### 2. Distribuído
-
-- **Cada nó notifica os vizinhos apenas quando seu DV mudar:** Isso é uma otimização importante. Um nó só envia sua tabela de vetor de distância (que contém suas estimativas de distância para todos os destinos na rede) para seus vizinhos se houver alguma alteração significativa em suas próprias rotas. Isso evita o tráfego de rede desnecessário.
-- **Os vizinhos então notificam seus vizinhos, se necessário:** Esta é a parte "iterativa" e "distribuída". Uma mudança em um nó pode cascatear por toda a rede. Se o vizinho de um nó recebe uma atualização que o faz recalcular suas próprias rotas de forma a mudar seu DV, esse vizinho, por sua vez, notificará seus vizinhos, e assim por diante. É um processo de "fofoca" controlada sobre as melhores rotas.
+Esse algorítmo é assíncrono e iterativo.
+- **Cada nó notifica os vizinhos apenas quando sua tabela DV mudar:** Um nó só envia sua **tabela de vetor de distância** para seus vizinhos se houver alguma alteração.
+- **Efeito cascata:** Se o vizinho de um nó recebe uma atualização que o faz recalcular suas próprias rotas de forma a mudar seu DV, esse vizinho, por sua vez, notificará seus vizinhos, e assim por diante. 
 
 ### 3. Fluxo de Operação para Cada Nó (o Fluxograma à Direita)
 
