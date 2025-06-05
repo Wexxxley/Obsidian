@@ -1,6 +1,7 @@
 
 ---
 
+### **1. Roteamento hierárquico**
 Cada administração de rede pode querer controlar o roteamento na sua
 própria rede. Ai que surgem os  “sistemas autônomos ” (AS).
 
@@ -21,3 +22,28 @@ Quando um roteador no AS1 recebe um datagrama cujo destino está fora do AS1, el
 **Cenário: AS1 aprende que a sub-rede 'x' é alcançável através de AS3 e através de AS2.**
 - **Roteamento de “batata-quente”
     - A ideia da "batata-quente" é que o AS local quer se livrar do pacote o mais rápido possível, encaminhando-o para o ponto de saída mais próximo em termos de métrica interna 
+
+---
+### **2. Protocolos de roteamento intra AS**
+
+#### **2.1 RIP**
+- Ultiliza o algoritmo de vetor de distancia
+- A métrica que o RIP usa para determinar a "melhor" rota para é a **contagem de saltos**. A rota com o menor número de saltos é considerada a melhor. (MÁXIMO 15 SALTOS).
+- Uma rota é mantida somente para cada destino.
+-  A RIP faz a troca Periódica de Tabelas de roteamento, or padrão, essa troca ocorre a cada 30 s.
+![[Pasted image 20250605154808.png]]
+- RIP V1: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
