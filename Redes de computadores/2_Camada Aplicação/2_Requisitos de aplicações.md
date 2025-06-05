@@ -2,7 +2,6 @@
 Status: #Concluded 
 
 ___
-
 Álgumas aplicações podem funcionar melhor de acordo com o protocolo da camada de transporte utilizado. [[1_Protocolos da camada de transporte da internet]]
 # 1 Requisitos das aplicações
 
