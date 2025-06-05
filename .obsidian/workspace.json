@@ -6,7 +6,7 @@
       {
         "id": "e04ea8aa05572861",
         "type": "tabs",
-        "dimension": 73.3364794714488,
+        "dimension": 73.32285115303984,
         "children": [
           {
             "id": "728afa627c963eec",
@@ -27,7 +27,7 @@
       {
         "id": "7088f5cc0e2d9dc0",
         "type": "tabs",
-        "dimension": 26.663520528551203,
+        "dimension": 26.67714884696017,
         "children": [
           {
             "id": "fcdc3cfab43d88bc",
@@ -207,6 +207,7 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250605190304.png",
     "Redes de computadores/4_Camada de rede/4_Enderaçamento IP.md",
     "Redes de computadores/4_Camada de rede/3_Fragmentação.md",
     "Redes de computadores/4_Camada de rede/2_Datagrama IPv4.md",
@@ -242,7 +243,6 @@
     "FrontEnd/3_JavaScript/5_Alterando atributos HTML.md",
     "FrontEnd/3_JavaScript/6_Multiplos estilos com um clique.md",
     "FrontEnd/1_HTML/1_Html básico.md",
-    "FrontEnd/2_CSS/1_CSS introdução.md",
     "attachments/Pasted image 20250527105708.png",
     "attachments/Pasted image 20250527104842.png",
     "attachments/Pasted image 20250527095931.png",
