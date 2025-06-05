@@ -83,6 +83,7 @@ A máscara de sub-rede pode ser representada também em formato decimal, por exe
         - Os endereços IP são alocados por um **período de tempo limitado (lease time)**. Antes que o lease expire, o host tenta renovar o endereço com o servidor DHCP. Isso permite que endereços IP sejam reutilizados quando um dispositivo sai da rede.
 
 
+---
 ### 1. Unicast (Um para Um)
 - **Definição:** A comunicação Unicast é o tipo mais comum e fundamental de transmissão de dados, onde um pacote é enviado de um **único remetente** para um **único receptor específico**.
 ### 2. Broadcast (Um para Todos)

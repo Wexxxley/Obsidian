@@ -30,9 +30,11 @@ Quando um roteador no AS1 recebe um datagrama cujo destino está fora do AS1, el
 - Ultiliza o algoritmo de vetor de distancia
 - A métrica que o RIP usa para determinar a "melhor" rota para é a **contagem de saltos**. A rota com o menor número de saltos é considerada a melhor. (MÁXIMO 15 SALTOS).
 - Uma rota é mantida somente para cada destino.
--  A RIP faz a troca Periódica de Tabelas de roteamento, or padrão, essa troca ocorre a cada 30 s.
+- A RIP faz a troca Periódica de Tabelas de roteamento, or padrão, essa troca ocorre a cada 30 s.
+- Com 180s sem retornos, o roteador considera o seu vizinho morto, descarta as rotas que passam por ele e avisa seus vizinhos.
 ![[Pasted image 20250605154808.png]]
-- RIP V1: 
+- RIP V1: Sem criptografia,
+- RIP V2: Tem criptografia, 
 
 
 
