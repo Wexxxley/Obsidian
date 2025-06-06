@@ -28,36 +28,23 @@ Uma **sub-rede** é definida como um conjunto de interfaces de rede que são int
 
 Ou seja, no exemplo `223.1.1.0/24`, os primeiros 24 bits são o **prefixo da sub-rede**, e os 8 bits restantes servem para identificar os hosts.
 
-A máscara de sub-rede pode ser representada também em formato decimal, por exemplo:
-- `/24` → `255.255.255.0`
-- `/16` → `255.255.0.0`
-
 ---
-### **1.3 Endereços IP reservados**
+### **3. Endereços IP reservados**
 
-**1. Endereço Local**
+**1. Endereço Local**: Comunicação interna dentro da máquina. Como em testar servidores locais.
 - **Faixa**: `127.0.0.0/8` (o mais usado é `127.0.0.1`)
-- **Uso**: Comunicação interna dentro da própria máquina. Como em testar servidores locais sem sair da máquina.
 
- **2. Endereço de Rede**
-- **Uso**: Identifica a própria **sub-rede**, não pode ser atribuído a um host.
+ **2. Endereço de Rede**: Identifica a própria **sub-rede**, não pode ser atribuído a um host.
 - **Característica**: Todos os bits da porção de host são **0**.
-- **Exemplo**: `192.168.1.0` (em uma sub-rede /24).
 
- **3. Endereço de Difusão (Broadcast)**
-- **Uso**: Identifica as máquinas da rede 
-
- **4. Endereços Privados (RFC 1918)**
+ **3. Endereços Privados**
 - Reservados para redes internas (não são roteáveis pela Internet pública).
 
 ---
-### **1.4 Como o ISP obtém seu bloco de endereço?**
+### **4. Como um ISP obtém seu bloco de endereço?**
 
 - **ICANN (Internet Corporation for Assigned Names and Numbers):**
-    1. **Aloca endereços:** A ICANN é a autoridade global máxima responsável por coordenar a atribuição de identificadores únicos na Internet. 
-    2. **Gerencia DNS:** A ICANN supervisiona o sistema de nomes de domínio (DNS)
-    3. **Atribui nomes de domínios e resolve disputas**
-    
+    1. A ICANN é a autoridade global máxima responsável por coordenar a atribuição de identificadores únicos na Internet. 
 - **RIRs (Regional Internet Registries):** A ICANN delega a alocação de grandes blocos de endereços IP para cinco RIRs, que cobrem diferentes regiões do mundo:
     - **AFRINIC:** África
     - **APNIC:** Ásia/Pacífico
