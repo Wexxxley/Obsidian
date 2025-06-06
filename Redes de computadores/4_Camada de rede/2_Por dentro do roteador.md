@@ -28,8 +28,7 @@
 - O pacote é copiado **para a interface de saída**.
 
 - Simples de implementar.
-- Limitado pela **largura de banda da memória** e pela **velocidade do processador**.
-- Pode causar gargalo em tráfego alto, pois apenas um pacote pode ser lido/escrito por vez.
+- Limitado pela **velocidade do processador**. E pode causar gargalo em tráfego alto, pois apenas um pacote pode ser lido/escrito por vez.
 ##### 2. **Comutação via Barramento**
 - Um **barramento compartilhado** conecta todas as interfaces.
 - Quando um pacote chega à interface, ele é colocado no barramento e enviado para a interface de saída.
@@ -39,8 +38,6 @@
 - Ainda há limitação: **uma única transferência por vez** no barramento.
 ##### 3. **Crossbar** 
 - Usa uma **malha de conexões** que permite **várias transmissões simultâneas**, desde que não haja conflito de destino.
-- Cada entrada (A, B, C) pode se conectar diretamente com cada saída (X, Y, Z), dependendo da disponibilidade.
-- Ainda pode ocorrer o ==Problema de contenção== quando existem duas transmissões para a mesma interface.
 
 - Muito mais escalável e rápida.    
 - Permite **transmissões paralelas**, ideal para **roteadores de alta performance**.
@@ -49,22 +46,20 @@
 ##### **Bloqueio head of the line** 
 Problema que acontece quando o primeiro pacote de uma fila impede que outros pacotes atrás dele sejam transmitidos, mesmo que esses pacotes possam ser encaminhados.
 
-Imagine uma fila de pacotes aguardando para sair por diferentes interfaces. Porém, **a fila é comum (FIFO)**, ou seja, os pacotes têm que sair na ordem de chegada.
+Imagine uma fila de pacotes aguardando para sair por diferentes interfaces. Porém, os pacotes têm que sair na ordem de chegada.
 1. O **pacote 1** está no início da fila e precisa sair pela **porta X**, que está **ocupada**.
 2. O **pacote 2** está logo atrás e quer ir para a **porta Y**, que está **livre**.
 
 Resultado: a **fila inteira fica bloqueada**, mesmo tendo pacotes que poderiam ser transmitidos.
 
 ---
-#### **1.2.3 Processamento de saída**
+#### **1.3 Processamento de saída**
 ![[Pasted image 20250522203955.png]]
 ##### 1.**Fila (gerenciamento de buffer)**
-- Quando o pacote chega à saída, ele **pode ter que esperar** se a interface de transmissão estiver ocupada.
-- Se o buffer estiver cheio, os pacotes **podem ser descartados**.
+- Quando o pacote chega à saída, ele **pode ter que esperar** se a interface de transmissão estiver ocupada. Se o buffer estiver cheio, os pacotes **podem ser descartados**.
+- [[15_Tipos de filas]]
 ##### 2. **Processamento de enlace
 - Aqui, o pacote IP é **encapsulado novamente** em um **quadro de camada de enlace**.
 ##### 3. **Terminação de linha**
 - A etapa final: **conversão dos dados digitais** para sinais físicos.
-
-
-[[5_Perdas e atrasos]]
+- [[5_Perdas e atrasos]]
