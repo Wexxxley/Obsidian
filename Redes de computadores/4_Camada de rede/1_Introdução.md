@@ -1,4 +1,6 @@
 
+#Concluded 
+
 ---
 
 O papel da camada de rede é transportar pacotes de um hospedeiro remetente a um hospedeiro destinatário.  
@@ -13,5 +15,5 @@ O papel da camada de rede é transportar pacotes de um hospedeiro remetente a um
 - **VPN** usa encapsulamento na camada de rede para **criar túneis criptografados** sobre redes públicas. Um pacote IP original é **encapsulado dentro de outro pacote IP**, com um novo cabeçalho que aponta para o servidor VPN.
 **5. Fragmentação**: Quando um pacote IPv4 é **muito grande para ser transmitido** em uma enlace, ele é dividido em fragmentos menores.
 
-Cada roteador tem uma **tabela de repasse**. Um roteador repassa um pacote examinando o valor de um campo no cabeçalho do pacote e então utiliza esse valor para indexar sua tabela de repasse. O resultado indica para qual das interfaces de enlace do roteador o pacote deve ser repassado.
+Cada roteador tem uma **tabela de repasse**. Um roteador repassa um pacote examinando o destino do pacote. O resultado indica para qual das interfaces de enlace do roteador o pacote deve ser repassado.
 ![[Pasted image 20250522195536.png]]
