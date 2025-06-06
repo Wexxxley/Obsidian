@@ -10,4 +10,4 @@ ___
 5. **Serialização:** Agora é hora de enviar o pacote bit a bit pelo meio.  
 6. **Atraso de Propagação:** Depois de sair do roteador, o pacote viaja fisicamente pelo meio até o próximo roteador.
 
-[[1_Por dentro do roteador]]
+[[Redes de computadores/4_Camada de rede/1_Introdução]]
