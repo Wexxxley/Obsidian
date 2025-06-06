@@ -3,25 +3,22 @@
 ### **1. BGP (Border Gateway Protocol):**
 A  função do BGP é permitir que diferentes Sistemas Autônomos troquem informações de roteamento sobre os prefixos IP que controlam e os caminhos que podem usar para alcançar outros prefixos. Ele toma decisões de roteamento baseadas em políticas, atributos de caminho e caminhos completos.
 
-Quando um Sistema Autônomo anuncia um prefixo via BGP, ele está dizendo: =="Olá, outros ASes! Eu sou o AS X, e eu sou o responsável por este bloco de endereços IP== (por exemplo, `203.0.113.0/24`). Se você tiver tráfego destinado a qualquer endereço IP dentro deste bloco você pode enviá-lo para mim, e eu sei como entregá-lo.
+Quando um Sistema Autônomo anuncia um prefixo via BGP, ele está dizendo: =="Olá, outros ASes! Eu sou o AS X, e eu sou o responsável por este bloco de endereços IP== (Ex, `203.0.113.0/24`). Se você tiver tráfego destinado a qualquer endereço IP dentro deste bloco você pode enviá-lo para mim, e eu sei como entregá-lo.
 
 ---
-#### **1.2 Sessões BGP**
+#### **1.1 Sessões BGP**
 Usam o TCP para confiabilidade.
-- **Sessão eBGP:** O BGP é usado para estabelecer sessões de vizinhao entre roteadores de borda em diferentes Sistemas Autônomos. Através dessas sessões, os ASes trocam informações de prefixos que controlam ou que podem alcançar.
+- **Sessão eBGP:** Usada para estabelecer sessões entre roteadores de borda em diferentes Sistemas Autônomos vizinhos. Através dessas sessões, os ASes trocam informações de prefixos que controlam ou que podem alcançar.
 - **Sessôes iBGP**: Uma vez que um roteador de borda aprende uma rota externa, ele precisa anunciar essa rota para outros roteadores dentro do seu próprio AS para que eles saibam como rotear o tráfego para fora.
  
 ![[Pasted image 20250606100212.png]]
 - Quando AS2 comunica um prefixo ao AS1, AS2 está prometendo que irá encaminhar todos os datagramas destinados a esse prefixo em direção ao prefixo.
+- Quando um roteador aprende um novo prefixo, ele cria uma entrada para ele em sua tabela de roteamento.
 
-2. **Prefixos e Atributos de Caminho:**
-    - As mensagens BGP UPDATE carregam informações sobre os prefixos IP (redes) e um conjunto de **atributos de caminho** associados a esses prefixos. Esses atributos são cruciais para as decisões de roteamento do BGP.
-    - **NEXT_HOP:** O endereço IP do próximo roteador no caminho para o prefixo de destino. Para eBGP, geralmente é o endereço IP do roteador vizinho. Para iBGP, pode ser o endereço de um roteador de borda.
-    - **AS_PATH:** Talvez o atributo mais importante. É uma lista ordenada de ASes que o tráfego atravessaria para chegar ao destino. Cada vez que um prefixo é anunciado por um AS para outro via eBGP, o AS de origem adiciona seu próprio número de AS ao AS_PATH. O BGP prefere caminhos com AS_PATH mais curto (menos ASes).
-    - **ORIGIN:** Indica como o prefixo foi aprendido no AS de origem (ex: IGP, EGP, Incomplete).
-    - **LOCAL_PREF (Local Preference):** Um atributo que é usado _dentro_ de um AS para influenciar qual caminho de saída preferir para um destino externo quando há múltiplos caminhos disponíveis. Um valor mais alto indica maior preferência. Este atributo é trocado apenas entre pares iBGP.
-    - **MED (Multi-Exit Discriminator):** Usado para influenciar _outros_ ASes sobre qual ponto de entrada preferir para o AS que o anuncia, quando há múltiplos pontos de entrada. Um valor mais baixo é preferido.
-    - **COMMUNITY:** Um atributo opcional e transitório que pode ser usado para marcar rotas com informações adicionais para políticas de roteamento.
+#### **1.2 Prefixos + atributos = rota:**
+
+    - **Atributo NEXT_HOP:** ==O endereço IP do próximo roteador no caminho para o prefixo de destino==. Para eBGP, é o endereço do roteador vizinho. Para iBGP, é o endereço de um roteador de borda.
+    - **Atributo AS_PATH:** Lista ordenada de ASes que o tráfego atravessaria para chegar ao destino. Cada vez que um prefixo é anunciado por um AS, o AS de origem adiciona seu próprio número de AS ao AS_PATH. O BGP prefere caminhos com AS_PATH mais curto.
 3. **Processo de Seleção de Rota do BGP:** Quando um roteador BGP recebe múltiplos anúncios para o mesmo prefixo, ele passa por um processo determinístico para escolher a "melhor" rota. A ordem exata pode variar ligeiramente entre implementações, mas geralmente segue esta sequência:
     
     1. **Preferir rota com maior LOCAL_PREF.** (Usado para tráfego de saída do AS).
