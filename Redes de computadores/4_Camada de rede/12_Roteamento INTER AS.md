@@ -1,22 +1,19 @@
 
 ---
-### 1. BGP (Border Gateway Protocol):
-É o protocolo padrão usado entre AS.
+### **1. BGP (Border Gateway Protocol):**
+A  função do BGP é permitir que diferentes Sistemas Autônomos troquem informações de roteamento sobre os prefixos IP que controlam e os caminhos que podem usar para alcançar outros prefixos. Ele toma decisões de roteamento baseadas em políticas, atributos de caminho e caminhos completos.
 
-BGP provê cada AS dos meios para:
-2. Obter informações de alcance de sub-rede dos ASs Vizinhos
-3. Propagar informações de alcance para todos os roteadores internos ao AS.
-4. Determinar “boas” rotas para as sub-redes baseado em informações de
-alcance e política.
- Permite que uma subrede comunique sua existência para o resto da Internet:
-“Estou aqui”
+Quando um Sistema Autônomo anuncia um prefixo via BGP, ele está dizendo: =="Olá, outros ASes! Eu sou o AS X, e eu sou o responsável por este bloco de endereços IP== (por exemplo, `203.0.113.0/24`). Se você tiver tráfego destinado a qualquer endereço IP dentro deste bloco você pode enviá-lo para mim, e eu sei como entregá-lo.
 
+---
+#### **1.2 Sessões BGP**
+Usam o TCP para confiabilidade.
+- **Sessão eBGP:** O BGP é usado para estabelecer sessões de vizinhao entre roteadores de borda em diferentes Sistemas Autônomos. Através dessas sessões, os ASes trocam informações de prefixos que controlam ou que podem alcançar.
+- **Sessôes iBGP**: Uma vez que um roteador de borda aprende uma rota externa, ele precisa anunciar essa rota para outros roteadores dentro do seu próprio AS para que eles saibam como rotear o tráfego para fora.
+ 
+![[Pasted image 20250606100212.png]]
+- Quando AS2 comunica um prefixo ao AS1, AS2 está prometendo que irá encaminhar todos os datagramas destinados a esse prefixo em direção ao prefixo.
 
-A principal função do BGP é permitir que diferentes Sistemas Autônomos troquem informações de roteamento sobre os prefixos IP que controlam e os caminhos que podem usar para alcançar outros prefixos. Ele toma decisões de roteamento baseadas em políticas, atributos de caminho e caminhos completos.
-
-1. **Sessões BGP (eBGP e iBGP):**
-    - O BGP é usado para estabelecer sessões de adjacência entre roteadores de borda em diferentes Sistemas Autônomos. Através dessas sessões, os ASes trocam informações de prefixos que controlam ou que podem alcançar.
-    - Uma vez que um roteador de borda aprende uma rota externa, ele precisa anunciar essa rota para outros roteadores dentro do seu próprio AS para que eles saibam como rotear o tráfego para fora.
 2. **Prefixos e Atributos de Caminho:**
     - As mensagens BGP UPDATE carregam informações sobre os prefixos IP (redes) e um conjunto de **atributos de caminho** associados a esses prefixos. Esses atributos são cruciais para as decisões de roteamento do BGP.
     - **NEXT_HOP:** O endereço IP do próximo roteador no caminho para o prefixo de destino. Para eBGP, geralmente é o endereço IP do roteador vizinho. Para iBGP, pode ser o endereço de um roteador de borda.
