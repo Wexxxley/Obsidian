@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/4_Camada de rede/14_Fenômeno da sincronização global do TCP.md",
+                "file": "Redes de computadores/4_Camada de rede/12_Roteamento INTER AS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14_Fenômeno da sincronização global do TCP"
+              "title": "12_Roteamento INTER AS"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes de computadores/4_Camada de rede/14_Fenômeno da sincronização global do TCP.md",
+                "file": "Redes de computadores/4_Camada de rede/12_Roteamento INTER AS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 14_Fenômeno da sincronização global do TCP"
+              "title": "Sumário de 12_Roteamento INTER AS"
             }
           }
         ]
@@ -209,6 +209,7 @@
   "lastOpenFiles": [
     "Redes de computadores/4_Camada de rede/13_BGP e os contratos entre provedores.md",
     "Redes de computadores/4_Camada de rede/14_Fenômeno da sincronização global do TCP.md",
+    "attachments/Pasted image 20250606105830.png",
     "attachments/Pasted image 20250606103810.png",
     "attachments/Pasted image 20250606103652.png",
     "Redes de computadores/4_Camada de rede/12_Roteamento INTER AS.md",
@@ -236,7 +237,6 @@
     "attachments/Pasted image 20250605190304.png",
     "Redes de computadores/4_Camada de rede/4_Enderaçamento IP.md",
     "Redes de computadores/4_Camada de rede/3_Fragmentação.md",
-    "Redes de computadores/4_Camada de rede/2_Datagrama IPv4.md",
     "attachments/Pasted image 20250605154808.png",
     "attachments/Pasted image 20250605152214.png",
     "FrontEnd/5_Figma",
@@ -247,7 +247,6 @@
     "attachments/Pasted image 20250531084114.png",
     "attachments/Pasted image 20250530105010.png",
     "Sem título.canvas",
-    "attachments/Pasted image 20250527105708.png",
     "FrontEnd.zip",
     "Redes de computadores/4_Camada de rede/Sem título",
     "Redes de computadores/4_Camada de rede",
