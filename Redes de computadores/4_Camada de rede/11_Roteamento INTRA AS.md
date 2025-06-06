@@ -16,8 +16,7 @@
 ---
 ### **2. OSPF**
 
-- Usa algoritmo do tipo Link State. Isso significa que cada roteador tem uma visão completa da **topologia da rede** em que opera.
-- Usa algoritmo de Dijkstra para cálculo de rotas.
+- Usa algoritmo do tipo Link State. Isso significa que cada roteador tem uma visão completa da **topologia da rede** em que opera. Usa algoritmo de Dijkstra para cálculo de rotas.
 - Todas as mensagens do OSPF são autenticadas (para prevenir intrusões maliciosas).
 - Múltiplos caminhos de mesmo custo são permitidos em caso de custos iguais. Ou seja, há balanceamento de carga.
 - O OSPF é capaz de calcular rotas com base em diferentes **Tipos de Serviço (TOS - Type of Service)**. Isso significa que um administrador de rede pode atribuir custos diferentes a um mesmo link para diferentes tipos de tráfego.
@@ -30,7 +29,7 @@
 ##### **2.1 OSPF hierárquico**
 - Para lidar com a escalabilidade em redes muito grandes, o OSPF introduz o conceito de **roteamento hierárquico** através de **áreas**.
     - **Backbone Area:** É a área central da rede OSPF. Todas as outras áreas precisam se conectar diretamente ou indiretamente.
-    -  **Roteadores de backbone**: executam o roteamento OSPF de forma limitada ao backbone.
+    - **Roteadores de backbone**: executam o roteamento OSPF de forma limitada ao backbone.
     - **Roteadores de borda**: conectam-se a outros ASs.
     - **Áreas Regulares :** São subredes que funcionam como um OSPF completo.
     - **Roteadores de Borda de Área:** São roteadores que possuem interfaces em mais de uma área. Eles são responsáveis por resumir as informações de rota de uma área para as outras e vice-versa.
