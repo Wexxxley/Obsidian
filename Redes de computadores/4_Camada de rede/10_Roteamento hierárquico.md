@@ -53,11 +53,11 @@ Quando um roteador no AS1 recebe um datagrama cujo destino está fora do AS1, el
 ##### **2.2.1 OSPF hierárquico**
 - Para lidar com a escalabilidade em redes muito grandes, o OSPF introduz o conceito de **roteamento hierárquico** através de **áreas**.
     - **Backbone Area:** É a área central da rede OSPF. Todas as outras áreas precisam se conectar diretamente ou indiretamente.
+    -  **Roteadores de backbone**: executam o roteamento OSPF de forma limitada ao backbone.
+    - **Roteadores de borda**: conectam-se a outros ASs.
     - **Áreas Regulares :** São subredes que funcionam como um OSPF completo.
     - **Roteadores de Borda de Área:** São roteadores que possuem interfaces em mais de uma área. Eles são responsáveis por resumir as informações de rota de uma área para as outras e vice-versa.
-    - Roteadores de backbone: executam o roteamento OSPF de forma limitada ao
-backbone.
- Roteadores de borda: conectam-se a outros ASs.
+
 ![[Pasted image 20250605190304.png]]
 
 
