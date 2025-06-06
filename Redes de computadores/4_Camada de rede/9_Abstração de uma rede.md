@@ -41,3 +41,6 @@ Todo nó mantém uma **tabela de vetor de distância**, que contém suas estimat
 Esse algorítmo é assíncrono e iterativo.
 - Um nó só envia sua **tabela de vetor de distância** para seus vizinhos se houver alguma alteração.
 - Se o vizinho de um nó recebe uma atualização que o faz recalcular suas próprias rotas de forma a mudar seu DV, esse vizinho, por sua vez, notificará seus vizinhos, e assim por diante. 
+
+
+
