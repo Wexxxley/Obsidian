@@ -1,7 +1,8 @@
 
----
+#Concluded 
 
-### **1.1 Entendimento**
+---
+### **1. Entendimento**
 Os endereços IPv4 são limitados, então **não há endereços públicos suficientes** para todos os dispositivos do mundo. O NAT foi criado como uma solução temporária para esse problema.
 
 O **NAT** (Network Address Translation) é uma técnica usada em redes de computadores que permite que **vários dispositivos em uma rede local compartilhem um único endereço IP público** para se comunicar com a Internet.
