@@ -5,28 +5,30 @@
 ### **1. Entendimento**
 Os endereços IPv4 são limitados, então **não há endereços públicos suficientes** para todos os dispositivos do mundo. O NAT foi criado como uma solução temporária para esse problema.
 
-O **NAT** (Network Address Translation) é uma técnica usada em redes de computadores que permite que **vários dispositivos em uma rede local compartilhem um único endereço IP público** para se comunicar com a Internet.
+O **NAT** (Network Address Translation) é uma técnica que permite que **vários dispositivos em uma rede local compartilhem um único endereço IP público** para se comunicar com a Internet.
 
-A NAT é tipicamente implementada em um roteador ou firewall que atua como um "gateway" entre a rede privada e a rede pública (Internet).
+A NAT é tipicamente implementada em um roteador que atua como um "gateway" entre a rede privada e a rede pública (Internet).
 
-Vamos usar um exemplo simples:
+**Exemplo simples:**
 - Sua rede doméstica: `10.0.0/24`
-- Seu roteador doméstico tem o IP privado `10.0.0.4` e um IP público `138.76.29.7` (que é o endereço que seu ISP lhe fornece).
+- O roteador tem o IP privado `10.0.0.4` e um IP público `138.76.29.7` (end que o ISP fornece).
 - Notebook: 10.0.0.1
 - Smartphone: 10.0.0.2
 - Console: 10.0.0.3
 
-Quando o notebook acessa um site:
-1. Ele envia um pacote para o IP externo do site.
-2. O **roteador NAT intercepta** o pacote e substitui o IP de origem por seu **IP público**.
-3. Ele **anota o endereço e a porta original** em uma tabela chamada **tabela NAT**.
-4. Quando o servidor web externo responde, o pacote de retorno chega ao roteador NAT com o endereço nat e a porta nat referente ao processo.
-5. O roteador NAT **olha na tabela** e sabe que deve enviar a resposta para o notebook.
+- Quando o notebook acessa um site:
+	1. Ele envia um pacote para o IP externo do site.
+	2. O **roteador intercepta** o pacote e substitui o IP de origem por seu **IP público**.
+	3. Ele **anota o endereço e a porta original** em uma tabela chamada **tabela NAT**.
+	4. Quando o server responde, o pacote chega ao roteador com o endereço nat e a porta nat referente ao processo.
+	5. O roteador NAT **olha na tabela** e sabe que deve enviar a resposta para o notebook.
 ![[Pasted image 20250526193147.png]]
 
-Quando seu roteador doméstico usa PAT, ele pode atribuir uma porta _diferente_ para cada conexão _simultânea_ que sai da sua rede privada. Por exemplo, o PC1 na sua rede interna abre uma conexão usando a porta de origem 50000 e o PC2 abre outra conexão usando a porta de origem 50001, o roteador NAT pode traduzir ambas para o mesmo IP público mas usando portas traduzidas distintas (ex: PC1 para `203.0.113.1:10001` e PC2 para `203.0.113.1:10002`).
+- Quando seu roteador usa NAT, ele pode atribuir uma porta _diferente_ para cada conexão _simultânea_ que sai da sua rede privada. 
+- Por exemplo, o Notebook na sua rede abre uma conexão usando a porta de origem 50000 e o Celular abre outra conexão usando a porta de origem 50001, o roteador NAT pode traduzir ambas para o mesmo IP público mas usando portas traduzidas distintas.
+- Ex: Notebook para`138.76.29.7:10001` e Celular para `138.76.29.7:10002`.
 
-Na teoria, um único IP público com PAT pode suportar até 65.535 conexões _simultâneas de saída_ para **cada protocolo** (TCP ou UDP).  Na prática, o limite é menor devido a recursos do roteador.
+Na teoria, um único IP público com NAT pode suportar até 65.535 conexões _simultâneas de saída_ para **cada protocolo** (TCP ou UDP).  Na prática, o limite é menor devido a recursos do roteador.
 
 
 ---
