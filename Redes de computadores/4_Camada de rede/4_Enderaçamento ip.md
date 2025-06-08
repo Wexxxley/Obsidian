@@ -36,11 +36,13 @@ No exemplo `223.1.1.0/24`, os primeiros 24 bits são o **prefixo da sub-rede**, 
 **1. Endereço Local**: Comunicação interna dentro da máquina. Como em testar servidores locais.
 - **Faixa**: `127.0.0.0/8` (o mais usado é `127.0.0.1`)
 
- **2. Endereço de Rede**: Identifica a própria **sub-rede**, não pode ser atribuído a um host.
+**2. Endereço de Rede**: Identifica a própria **sub-rede**, não pode ser atribuído a um host.
 - **Característica**: Todos os bits da porção de host são **0**.
 
- **3. Endereços Privados**
-- Reservados para redes internas (não são roteáveis pela Internet pública).
+**3. O endereço de broadcast:** O último endereço da sub-rede (onde todos os bits de host são um).
+- O endereço de broadcast é um endereço IP especial que serve para **enviar uma mensagem a _todos_ os dispositivos dentro _daquela sub-rede específica_**.
+
+**4. Endereços Privados:** Reservados para redes internas (não são roteáveis pela Internet pública).
 
 ---
 ### **4. Como um ISP obtém seu bloco de endereço?**
