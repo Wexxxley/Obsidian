@@ -19,5 +19,5 @@
 
 ---
 ### **2. Classes do IPv4**
-![[Pasted image 20250608153012.png]]
+![[Pasted image 20250608153502.png]]
 
