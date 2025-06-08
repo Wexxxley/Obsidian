@@ -58,7 +58,7 @@ Resultado: a **fila inteira fica bloqueada**, mesmo tendo pacotes que poderiam s
 ##### 1.**Fila (gerenciamento de buffer)**
 - Quando o pacote chega à saída, ele **pode ter que esperar** se a interface de transmissão estiver ocupada. Se o buffer estiver cheio, os pacotes **podem ser descartados**.
 - [[15_Tipos de filas]]
-##### 2. **Processamento de enlace
+##### 2. **Processamento de enlace**
 - Aqui, o pacote IP é **encapsulado novamente** em um **quadro de camada de enlace**.
 ##### 3. **Terminação de linha**
 - A etapa final: **conversão dos dados digitais** para sinais físicos.

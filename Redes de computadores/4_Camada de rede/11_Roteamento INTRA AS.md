@@ -18,8 +18,6 @@
     - Não suporta autenticação.
     - Usa **broadcast** para enviar atualizações de roteamento.
 - **RIPv2 (Classless):**
-    
-    - **Envia a máscara de sub-rede** nas atualizações.
     - Suporta prefixos de comprimento variável.
     - Suporta autenticação.
     - Usa **multicast** para enviar atualizações de roteamento. 
