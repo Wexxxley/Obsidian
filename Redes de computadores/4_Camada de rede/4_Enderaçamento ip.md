@@ -57,7 +57,7 @@ Ou seja, no exemplo `223.1.1.0/24`, os primeiros 24 bits são o **prefixo da sub
     3. A **RIR** avalia a necessidade do ISP e aloca um bloco de endereços.
     4. O ISP então usa esse bloco para atribuir endereços IP a seus clientes 
 
-### **1.5 Como um host obtém endereço IP?**
+#### **1.5 Como um host obtém endereço IP?**
 
 1. **Definido pelo administrador do sistema:**    
     - Neste método, o endereço IP, a máscara de sub-rede, o gateway padrão e os servidores DNS são **manualmente inseridos** nas configurações de rede do host.
@@ -72,16 +72,17 @@ Ou seja, no exemplo `223.1.1.0/24`, os primeiros 24 bits são o **prefixo da sub
         - Os endereços IP são alocados por um **período de tempo limitado (lease time)**. Antes que o lease expire, o host tenta renovar o endereço com o servidor DHCP. Isso permite que endereços IP sejam reutilizados quando um dispositivo sai da rede.
 
 
+### 5. Tipos de Comunicação em Redes de Computadores
 ---
-### 1. Unicast (Um para Um)
+#### 1. Unicast (Um para Um)
 - **Definição:** A comunicação Unicast é o tipo mais comum e fundamental de transmissão de dados, onde um pacote é enviado de um **único remetente** para um **único receptor específico**.
-### 2. Broadcast (Um para Todos)
+#### 2. Broadcast (Um para Todos)
 - **Definição:** A comunicação Broadcast é quando um pacote é enviado de um **único remetente** para **todos os dispositivos** dentro de um domínio de broadcast específico (geralmente uma sub-rede ou LAN).
 
 - **Exemplos:**
     - **DHCP Discover:** Como explicado anteriormente, um cliente DHCP envia um broadcast para encontrar um servidor DHCP na rede.
-### 3. Multicast (Um para Muitos Selecionados)
+#### 3. Multicast (Um para Muitos Selecionados)
 - **Definição:** A comunicação Multicast é quando um pacote é enviado de um **único remetente** para um **grupo de receptores específicos** que manifestaram interesse em receber essa informação.
-### 4. Anycast (Um para Um "Mais Próximo")
+#### 4. Anycast (Um para Um "Mais Próximo")
 - **Definição:** A comunicação Anycast é um método de endereçamento onde o mesmo endereço IP é atribuído a **múltiplos dispositivos** (servidores) em diferentes localizações geográficas. Quando um cliente envia um pacote para esse endereço Anycast, a rede o roteia para o **servidor "mais próximo"**
     
