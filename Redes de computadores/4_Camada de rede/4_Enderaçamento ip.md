@@ -70,10 +70,9 @@ No exemplo `223.1.1.0/24`, os primeiros 24 bits são o **prefixo da sub-rede**, 
 	- Método **mais recomendado** para a maioria dos dispositivos em uma rede
     - **Como funciona:**
         - Quando um host se conecta a uma rede configurada com DHCP, ele envia uma solicitação para encontrar um servidor DHCP.
-        - O servidor DHCP, oferece um endereço IP disponível do seu pool, juntamente com outras informações de configuração de rede (máscara de sub-rede, gateway padrão,etc.).
-        - O host aceita a oferta e configura sua interface de rede com os parâmetros recebidos.
-        - Os endereços IP são alocados por um **período de tempo limitado (lease time)**. Antes que o lease expire, o host tenta renovar o endereço com o servidor DHCP. Isso permite que endereços IP sejam reutilizados quando um dispositivo sai da rede.
-
+        - O servidor DHCP, oferece um endereço IP disponível do seu pool, juntamente com outras informações de configuração de rede (máscara de sub-rede, gateway, etc.).
+        - O host aceita configura sua interface de rede com os parâmetros recebidos.
+        - Os endereços IP são alocados por um **período de tempo limitado**. Antes que o tempo expire, o host tenta renovar o endereço com o servidor DHCP.
 
 ---
 ### **6. Tipos de Comunicação em Redes de Computadores**
@@ -84,9 +83,9 @@ No exemplo `223.1.1.0/24`, os primeiros 24 bits são o **prefixo da sub-rede**, 
 - A comunicação Broadcast é quando um pacote é enviado de um **único remetente** para **todos os dispositivos** dentro de um domínio de broadcast específico (geralmente uma sub-rede).
 
 - **Exemplos:**
-    - **DHCP Discover:** Como explicado anteriormente, um cliente DHCP envia um broadcast para encontrar um servidor DHCP na rede.
-#### 3. Multicast (Um para Muitos Selecionados)
-- **Definição:** A comunicação Multicast é quando um pacote é enviado de um **único remetente** para um **grupo de receptores específicos** que manifestaram interesse em receber essa informação.
-#### 4. Anycast (Um para Um "Mais Próximo")
-- **Definição:** A comunicação Anycast é um método de endereçamento onde o mesmo endereço IP é atribuído a **múltiplos dispositivos** (servidores) em diferentes localizações geográficas. Quando um cliente envia um pacote para esse endereço Anycast, a rede o roteia para o **servidor "mais próximo"**
-    
+    - **DHCP Discover:** Um cliente DHCP envia um broadcast para encontrar um servidor DHCP na rede.
+#### **3. Multicast (Um para Muitos Selecionados)**
+- A comunicação Multicast é quando um pacote é enviado de um **único remetente** para um **grupo de receptores específicos** que manifestaram interesse em receber essa informação.
+- Os dispositivos que desejam receber o tráfego Multicast precisam se "inscrever" em um grupo Multicast específico.
+#### **4. Anycast (Um para Um "Mais Próximo")**
+- O mesmo endereço IP é atribuído a **múltiplos dispositivos** (servidores) em diferentes localizações. Quando um cliente envia um pacote para esse endereço Anycast, a rede o roteia para o **servidor "mais próximo"**
