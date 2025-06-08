@@ -10,8 +10,19 @@
 - A RIP faz a troca Periódica de Tabelas de roteamento, or padrão, essa troca ocorre a cada 30 s.
 - Com 180s sem retornos, o roteador considera o seu vizinho morto, descarta as rotas que passam por ele e avisa seus vizinhos.
 ![[Pasted image 20250605154808.png]]
-- RIP V1: Sem criptografia,
-- RIP V2: Tem criptografia, 
+
+**As diferenças entre RIPv1 e RIPv2:**
+
+- **RIPv1:**
+    - Não suporta prefixos de comprimento variável.
+    - Não suporta autenticação.
+    - Usa **broadcast** para enviar atualizações de roteamento.
+- **RIPv2 (Classless):**
+    
+    - **Envia a máscara de sub-rede** nas atualizações.
+    - Suporta prefixos de comprimento variável.
+    - Suporta autenticação.
+    - Usa **multicast** para enviar atualizações de roteamento. 
 
 ---
 ### **2. OSPF**
