@@ -1,16 +1,18 @@
 
+#Concluded 
+
 ---
 
 Motivações:
-- O espaço de endereços de 32 bits estaria próximo de ser completamente alocado entre 2008 e 2018.
-- Melhorar o formato do cabeçalho para permitir maior velocidade de processamento e de transmissão.
+- O espaço de endereços de 32 bits é relativamente pouco.
+- Melhorar o cabeçalho para permitir maior velocidade de processamento e de transmissão.
 - Mudanças no cabeçalho para incorporar controle de **Qualidade de serviço(QoS).**
 
 As mudanças mais importantes introduzidas no IPv6 foram: 
 - **Capacidade de endereçamento expandida**. O IPv6 aumenta o tamanho do endereço IP de 32 bits para 128 bits. Isso garante que o mundo não ficará sem endereços IP.
-- **Cabeçalho aprimorado de 40 bytes.** Vários campos IPv4 foram descartados ou tornaram-se opcionais. O cabeçalho de comprimento fixo de 40 bytes resultante permite processamento mais veloz do datagrama IP.
+- **Cabeçalho aprimorado de 40 bytes.** Vários campos IPv4 foram descartados. O cabeçalho de comprimento fixo de 40 bytes resultante permite processamento mais veloz do datagrama IP.
 - **Rotulação de Fluxo:** O IPv6 introduz um campo chamado "Rótulo de Fluxo" para identificar pacotes que pertencem a um mesmo "fluxo". Um "fluxo" é uma sequência de pacotes que o remetente deseja que recebam tratamento especial, como garantia de qualidade de serviço (QoS) ou transmissão em tempo real (ex: áudio e vídeo).
-- **Prioridade (Classe de Tráfego):** O cabeçalho IPv6 também possui um campo de 8 bits para "Classe de Tráfego" (Traffic Class). Este campo permite que os datagramas sejam priorizados. Isso significa que certos pacotes (como mensagens ICMP) podem receber tratamento preferencial em relação a outros.
+- **Prioridade (Classe de Tráfego):** O cabeçalho IPv6 também possui um campo de 8 bits para "Classe de Tráfego" (Traffic Class). Este campo permite que os datagramas sejam priorizados.
 ![[Pasted image 20250530105010.png]]
 - **Versão**. Esse campo de 4 bits identifica o número da versão do IP. 
 - **Classe de tráfego.** Identifica o a classe dos dados para poder dar prioridade.
