@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/4_Camada de rede/3_IPv4.md",
+                "file": "Inglês/Verb to be.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_IPv4"
+              "title": "Verb to be"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes de computadores/4_Camada de rede/3_IPv4.md",
+                "file": "Inglês/Verb to be.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 3_IPv4"
+              "title": "Sumário de Verb to be"
             }
           }
         ]
@@ -207,6 +207,10 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
+    "Inglês/Subject pronouns.md",
+    "Inglês/Indefinite article.md",
+    "Inglês/Demonstrative pronouns.md",
+    "Redes de computadores/4_Camada de rede/3_IPv4.md",
     "attachments/Pasted image 20250608153502.png",
     "attachments/Pasted image 20250608153436.png",
     "attachments/Pasted image 20250608153012.png",
@@ -215,7 +219,6 @@
     "Redes de computadores/4_Camada de rede/4_Enderaçamento IP.md",
     "Redes de computadores/4_Camada de rede/11_Roteamento INTRA AS.md",
     "Redes de computadores/4_Camada de rede/2_Por dentro do roteador.md",
-    "Redes de computadores/4_Camada de rede/3_IPv4.md",
     "Redes de computadores/4_Camada de rede/12_Roteamento INTER AS.md",
     "Redes de computadores/4_Camada de rede/7_IPv6.md",
     "Redes de computadores/4_Camada de rede/8_NAT.md",
@@ -238,11 +241,8 @@
     "Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
     "Redes de computadores/2_Camada Aplicação/7_DNS (Domain Name System).md",
     "Redes de computadores/2_Camada Aplicação/6_Correio eletrônico.md",
-    "Redes de computadores/2_Camada Aplicação/5_FTP Protocolo de tranferência de arquivo.md",
-    "Redes de computadores/2_Camada Aplicação/4_Proxy.md",
     "attachments/Pasted image 20250606100212.png",
     "attachments/Pasted image 20250605190304.png",
-    "attachments/Pasted image 20250605154808.png",
     "FrontEnd/5_Figma",
     "Sem título",
     "Algorítmos e Estruturas de dados/Grafos",

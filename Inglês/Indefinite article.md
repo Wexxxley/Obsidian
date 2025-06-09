@@ -7,7 +7,6 @@
 ==an -> before vowel sound==
 
 **Exemplos:**
-
 - an astronaut
 - a problem
 - an egg
