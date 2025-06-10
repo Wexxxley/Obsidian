@@ -36,7 +36,7 @@ The Simple Present is used to describe actions that happen regularly, habitually
 8. **Do** **I** **need** to bring anything?
 9. **Does** **she** **enjoy** her new job?
 10. What **do** **you** **do** in your free time?
-11. **He isn't** (here today.
+11. **He isn't** here today.
 12. **Is** **she** home?
 13. **Isn't** **it** too late to leave now?
 
