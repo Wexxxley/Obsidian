@@ -24,13 +24,13 @@ A NAT é tipicamente implementada em um roteador que atua como um "gateway" entr
 	5. O roteador NAT **olha na tabela** e sabe que deve enviar a resposta para o notebook.
 ![[Pasted image 20250526193147.png]]
 
-- Quando seu roteador usa NAT, ele pode atribuir uma porta _diferente_ para cada conexão _simultânea_ que sai da sua rede privada. 
-- Por exemplo, o Notebook na sua rede abre uma conexão usando a porta de origem 50000 e o Celular abre outra conexão usando a porta de origem 50001, o roteador NAT pode traduzir ambas para o mesmo IP público mas usando portas traduzidas distintas.
+- Quando seu roteador usa NAT, ele atribui uma porta para cada conexão que sai da sua rede. 
+- Por exemplo, o Notebook abre uma conexão usando a porta de origem 50000 e o Celular abre outra conexão usando a porta de origem 50001, o roteador NAT traduz ambas para o mesmo IP público mas usando portas traduzidas distintas.
 - Ex: Notebook para`138.76.29.7:10001` e Celular para `138.76.29.7:10002`.
 
 Na teoria, um único IP público com NAT pode suportar até 65.535 conexões _simultâneas de saída_ para **cada protocolo** (TCP ou UDP).  Na prática, o limite é menor devido a recursos do roteador.
 
-![[Pasted image 20250610101815.png]]
+![[Pasted image 20250610102909.png]]
 - **IP origem:** O endereço do computador que iniciou a conexão na rede local. ``Ex: 10.0.0.1``
 - **Porta origem:** A porta que o computador de origem usou para iniciar a conexão. Ex: `50000`.
 - **IP nat:** O endereço IP público que o roteador está usando. Ex: ``138.76.29.7``
@@ -39,8 +39,6 @@ Na teoria, um único IP público com NAT pode suportar até 65.535 conexões _si
 - **Porta server:** A porta do serviço no servidor externo para o qual a conexão é destinada. Ex: `80`
 - **Data/hora do recebimento:** Data e hora em que a entrada na tabela NAT foi criada ou a última vez que o tráfego correspondente foi visto.
 - **Protocolo:** O protocolo da Camada de transporte que está sendo usado para a conexão.
-
-### Exemplo de Comun
 
 ---
 ### **1.2 NAT é Controverso**
