@@ -31,6 +31,18 @@ A NAT é tipicamente implementada em um roteador que atua como um "gateway" entr
 Na teoria, um único IP público com NAT pode suportar até 65.535 conexões _simultâneas de saída_ para **cada protocolo** (TCP ou UDP).  Na prática, o limite é menor devido a recursos do roteador.
 
 
+
+- **IP origem:** O endereço IP privado (interno) do computador que iniciou a conexão na rede local. Ex: `192.168.1.10`.
+- **Porta origem:** A porta TCP/UDP efêmera que o computador de origem (interno) usou para iniciar a conexão. Ex: `50000`.
+- **IP nat:** O endereço IP público (externo) que o roteador NAT está usando para representar a conexão para o mundo exterior (Internet). Este é o endereço IP da interface externa do roteador NAT. Ex: `203.0.113.1`.
+- **Porta nat:** A porta TCP/UDP que o roteador NAT atribuiu para essa conexão específica na sua interface pública. O roteador NAT "mapeia" a porta de origem interna para esta porta externa. Ex: `10000`.
+- **IP server:** O endereço IP público do servidor na Internet para o qual o computador interno está tentando se conectar. Ex: `172.217.160.142` (um servidor Google).
+- **Porta server:** A porta TCP/UDP do serviço no servidor externo para o qual a conexão é destinada. Ex: `80` (para HTTP) ou `443` (para HTTPS).
+- **Data/tempo de recebimento:** O timestamp (data e hora) em que a entrada na tabela NAT foi criada ou a última vez que o tráfego correspondente foi visto. Usado para gerenciar o tempo de vida das entradas (timeout).
+- **Protocolo:** O protocolo da Camada 4 (transporte) que está sendo usado para a conexão (TCP ou UDP).
+
+### Exemplo de Comun
+
 ---
 ### **1.2 NAT é Controverso**
 Apesar de sua utilidade e de ter "salvado" o IPv4, a NAT é frequentemente criticada por ir contra princípios fundamentais do design da Internet.
