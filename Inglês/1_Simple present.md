@@ -1,4 +1,6 @@
 
+#Concluded 
+
 ---
 The Simple Present is used to describe actions that happen regularly, habitually, or repeatedly. These are things you do as part of your routine
 
@@ -24,4 +26,17 @@ The Simple Present is used to describe actions that happen regularly, habitually
 
 #### **Exemplos**
 
-1. **She** **studies** engineering at the university.
+1. **She** **studies** engineering at the university. (study)
+2. The dog **barks** every time someone knocks on the door. (bark)
+3. The sun **shines** brightly in the summer (shine)
+4. **You** **speak** English very well
+5. **She** **doesn't live** in this city anymore.
+6. The car **doesn't start** on cold mornings.
+7. **They** **don't have** any pets.
+8. **Do** **I** **need** to bring anything?
+9. **Does** **she** **enjoy** her new job?
+10. What **do** **you** **do** in your free time?
+11. **He isn't** (here today.
+12. **Is** **she** home?
+13. **Isn't** **it** too late to leave now?
+
