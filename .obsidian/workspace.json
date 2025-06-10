@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd/3_JavaScript/8_Promisse.md",
+                "file": "FrontEnd/4_Express/Express.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_Promisse"
+              "title": "Express"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrontEnd/3_JavaScript/8_Promisse.md",
+                "file": "FrontEnd/4_Express/Express.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 8_Promisse"
+              "title": "Sumário de Express"
             }
           }
         ]
@@ -207,11 +207,13 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
+    "FrontEnd/3_JavaScript/8_Promisse.md",
+    "FrontEnd/4_Express/Express.md",
+    "FrontEnd/4_Express",
     "attachments/Pasted image 20250609155023.png",
     "attachments/Pasted image 20250609155006.png",
     "attachments/Pasted image 20250609154342.png",
     "FrontEnd/3_JavaScript/9_Await e catch.md",
-    "FrontEnd/3_JavaScript/8_Promisse.md",
     "attachments/Pasted image 20250609152931.png",
     "attachments/Pasted image 20250609152634.png",
     "FrontEnd/3_JavaScript/7_Callbacks.md",
@@ -239,7 +241,6 @@
     "Redes de computadores/4_Camada de rede/15_Tipos de filas.md",
     "Redes de computadores/4_Camada de rede/16_Transição IPv4 para IPv6.md",
     "attachments/Pasted image 20250606121409.png",
-    "attachments/Pasted image 20250606120427.png",
     "Redes de computadores/4_Camada de rede/14_Fenômeno da sincronização global do TCP.md",
     "Redes de computadores/4_Camada de rede/13_BGP e os contratos entre provedores.md",
     "Redes de computadores/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
@@ -252,7 +253,6 @@
     "Redes de computadores/4_Camada de rede/Sem título",
     "Redes de computadores/4_Camada de rede",
     "Pyhon/FastAPI",
-    "Pyhon",
-    "Inglês"
+    "Pyhon"
   ]
 }
