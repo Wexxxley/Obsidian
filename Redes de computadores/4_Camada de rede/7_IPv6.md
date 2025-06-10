@@ -23,7 +23,7 @@ As mudanças mais importantes introduzidas no IPv6 foram:
 - **Endereços de origem e de destino.** 
 - **Dados**. Carga útil do datagrama IP.
  
- **Fragmentação/remontagem:** O IPv6 não permite fragmentação e remontagem em roteadores. Se um datagrama IPv6 recebido por um roteador for muito grande para ser repassado pelo enlace de saída, o roteador apenas descartará o datagrama e devolveráao remetente uma mensagem de erro ICMP “Pacote muito grande”. O remetente pode então reenviar os dados usando um datagrama IP de tamanho menor.  Fragmentação e remontagem são operações que tomam muito tempo; retirar essas funcionalidades dos roteadores e colocá-las nos sistemas finais acelera consideravelmente o repasse IP para dentro da rede. 
+ **Fragmentação/remontagem:** O IPv6 não permite fragmentação e remontagem. Se um datagrama IPv6 recebido por um roteador for muito grande para ser repassado pelo enlace de saída, o roteador apenas descartará o datagrama e devolverá ao remetente uma mensagem de erro ICMP “Pacote muito grande”. O remetente pode então reenviar os dados usando um datagrama IP de tamanho menor.  Fragmentação e remontagem são operações que tomam muito tempo; retirar essas funcionalidades dos roteadores e colocá-las nos sistemas finais acelera consideravelmente o repasse IP para dentro da rede. 
 
 **ICMPv6**: nova versão do ICMP
 - Tipos de mensagens adicionais , ex.: “Packet Too Big”.
