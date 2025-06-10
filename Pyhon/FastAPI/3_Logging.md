@@ -14,11 +14,9 @@ Por que fazer logging?
 4. ERROR: Falhas em funcionalidades (ex: "Falha ao salvar arquivo").
 5. CRITICAL: Problemas graves que podem parar o sistema.
 
-Criando log
-![[Pasted image 20250521202507.png]]
-
-Exemplo usando log
-![[Pasted image 20250521202627.png]]
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXflCNUArXeBWEiaVvFXQ-0jBgnvbFX0kJXn1mXrT0gKPCdD73fP2WwMAF2EKqw1150MB2CocxGyQ6VGnMLadHcOC-a6OEmrc0E3xHDa17QJDwiEVeswc5KuuTMEx3KQEoCpWRkR?key=jnfZcvbkf1zKPUZCAbeT6ysv)
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcdVRsrrEjUzJ32Pit40GulhskUzXjPdIry90TFLWrkSfovZB2iJUFsnWHS71Zdz0IE6TFn6_sxkqszsaIVV-Mm2TSbB4BtoAXpmFVZsXLOcJ0bvRJKqY5zvaxqp8duJ2iSyumgCg?key=jnfZcvbkf1zKPUZCAbeT6ysv)
+Criando logger_config
+![[Pasted image 20250610151206.png]]
+Nas classes de rota
+![[Pasted image 20250610151310.png]]
+![[Pasted image 20250610151326.png]]
+![[Pasted image 20250610151353.png]]

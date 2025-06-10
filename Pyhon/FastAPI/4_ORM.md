@@ -15,10 +15,8 @@ ORM (Object Relational Mapping) é uma camada que permite conectar a programaç�
 **Relacionamento 1:N**
 ![[Pasted image 20250522155121.png]]
 ![[Pasted image 20250522155137.png]]
-Modelo de user
-![[Pasted image 20250522155314.png]]
 
-Na main é criado o banco ao iniciar, mas so pe criado a tabela um vez, mesmo que a aplicação seja recarregada.
+Na main é criado o banco ao iniciar, mas so é criado a tabela uma vez.
 ![[Pasted image 20250522154841.png]]
 
 
