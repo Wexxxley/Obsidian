@@ -42,5 +42,10 @@ Esse algorítmo é assíncrono e iterativo.
 - Um nó só envia sua **tabela de vetor de distância** para seus vizinhos se houver alguma alteração.
 - Se o vizinho de um nó recebe uma atualização que o faz recalcular suas próprias rotas de forma a mudar seu DV, esse vizinho, por sua vez, notificará seus vizinhos, e assim por diante. 
 
-- Quando o nó x recebe nova estimativa D(v) do vizinho, ele atualiza seu próprio D(v) usando a equação Bellman-Ford: dist(v)=min(dist(v),dist(u)+w) para cada nó v E N
+Quando um roteador de vetor de distância recebe uma nova estimativa de distância de um vizinho **u** para um destino **v**, ele atualiza sua própria distância para **v** usando a equação Bellman-Ford: 
+
+==D(v)=min(D(v),D(u)+c(u,v))==
+- D(v) é a distância estimada para **v**
+- D(u) é a distância do vizinho **u** para **v**
+- c(u,v) é o custo do link entre o roteador e seu vizinho **u**.
 
