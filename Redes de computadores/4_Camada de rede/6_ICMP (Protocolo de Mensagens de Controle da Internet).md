@@ -1,34 +1,31 @@
 
 
 ---
- O ICMP é usado pelos roteadores para troca de informação de controle da camada de rede. Indicando, por exemplo, que um serviço solicitado não está disponível ou que um host ou roteador não pôde ser alcançado.
 
-**Usado por hosts e roteadores para troca de informação de controle da camada de rede.**
+**O ICMP é usado por hosts e roteadores para troca de informação de controle da camada de rede.**
 
-- **Usado por hosts e roteadores:** O ICMP é utilizado tanto por dispositivos finais (como seu computador) quanto por dispositivos intermediários (roteadores) para trocar informações de controle na camada de rede 
-- **Error reporting:** Uma das funções primárias do ICMP é relatar erros. Quando algo dá errado com a entrega de um pacote IP o ICMP é usado para enviar uma mensagem de volta ao remetente informando-o sobre o problema.
-- **Echo request/reply:** O comando `ping` envia uma mensagem ICMP Echo Request para um host de destino, se o host estiver acessível, ele responde com uma mensagem ICMP Echo Reply. Isso é comumente usado para testar a conectividade da rede e medir o tempo de ida e volta.
+- **Usado por hosts e roteadores:** O ICMP é utilizado tanto por dispositivos finais quanto por roteadores.
+- **Error reporting:** Quando algo dá errado com a entrega de um pacote IP o ICMP é usado para enviar uma mensagem de volta ao remetente.
+- **Echo request/reply:** O comando `ping` envia uma mensagem ICMP **Echo Request** para um host de destino, se o host estiver acessível, ele responde com uma mensagem **ICMP Echo Reply.** Isso é comumente usado para testar a conectividade da rede e medir o tempo de ida e volta.
 - **Transporte de mensagens:** As mensagens ICMP são encapsuladas dentro de datagramas IP. Isso significa que uma mensagem ICMP é a "carga útil" de um pacote IP.
 
 ---
 
 ### **Tabela de Mensagens ICMP**
 
-| Tipo | Código | Descrição                  | Observações                                             |
-| :--- | :----- | :------------------------- | :------------------------------------------------------ |
-| 0    | 0      | **Echo Reply**             | Resposta ao comando `ping`.                             |
-| 3    | 0      | **Network Unreachable**    | A rede de destino não pode ser alcançada.               |
-| 3    | 1      | **Host Unreachable**       | O host de destino não pode ser alcançado.               |
-| 3    | 2      | **Protocol Unreachable**   | Protocolo solicitado não disponível no host de destino. |
-| 3    | 3      | **Port Unreachable**       | Porta solicitada não disponível no host de destino.     |
-| 3    | 6      | **Dest Network Unknown**   | A rede de destino é desconhecida.                       |
-| 3    | 7      | **Dest Host Unknown**      | O host de destino é desconhecido.                       |
-| 4    | 0      | **Source Quench**          | Indicava congestionamento (pouco usado).                |
-| 8    | 0      | **Echo Request**           | Usado pelo `ping` para testar a conectividade.          |
-| 9    | 0      | **Router Advertisement**   | Roteadores anunciam sua presença.                       |
-| 10   | 0      | **Router Solicitation**    | Hosts solicitam anúncios de roteador.                   |
-| 11   | 0      | **TTL Expired in Transit** | O campo TTL do pacote atingiu zero.                     |
-| 12   | 0      | **IP Header Bad**          | O cabeçalho IP contém um erro.                          |
+| Tipo | Código | Descrição                | Observações                                             |
+| :--- | :----- | :----------------------- | :------------------------------------------------------ |
+| 0    | 0      | **Echo Reply**           | Resposta ao comando `ping`.                             |
+| 3    | 0      | **Network Unreachable**  | A rede de destino não pode ser alcançada.               |
+| 3    | 1      | **Host Unreachable**     | O host de destino não pode ser alcançado.               |
+| 3    | 2      | **Protocol Unreachable** | Protocolo solicitado não disponível no host de destino. |
+| 3    | 3      | **Port Unreachable**     | Porta solicitada não disponível no host de destino.     |
+| 3    | 6      | **Dest Network Unknown** | A rede de destino é desconhecida.                       |
+| 8    | 0      | **Echo Request**         | Usado pelo `ping` para testar a conectividade.          |
+| 9    | 0      | **Router Advertisement** | Roteadores anunciam sua presença.                       |
+| 10   | 0      | **Router Solicitation**  | Hosts solicitam anúncios de roteador.                   |
+| 11   | 0      | **TTL Expired**          | O campo TTL do pacote atingiu zero.                     |
+| 12   | 0      | **IP Header Bad**        | O cabeçalho IP contém um erro.                          |
 
 ---
 ### **Traceroute e ICMP**
