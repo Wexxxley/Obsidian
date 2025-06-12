@@ -19,5 +19,12 @@
 
 ---
 ### **2. Classes do IPv4**
-![[Pasted image 20250608153502.png]]
+| Classes | Intervalo do Primeiro Octeto | Padrão dos Primeiros Bits | Uso Principal        |
+| :------ | :--------------------------- | :------------------------ | :------------------- |
+| **A**   | 0 - 127                      | `0`xxxxxxx                | Grandes redes        |
+| **B**   | 128 - 191                    | `10`xxxxxx                | Médias/Grandes redes |
+| **C**   | 192 - 223                    | `110`xxxxx                | Pequenas redes       |
+| **D**   | 224 - 239                    | `1110`xxxx                | Multicast            |
+| **E**   | 240 - 255                    | `1111`xxxx                | Experimental/Testes  |
 
+As classes são calculadas com base no primeiro octeto de bits.
