@@ -30,19 +30,14 @@ void dijkstra(G, s) {
         v.pai = null; //Inicializa o pai dos vértices como nulo
     }
     s.dist = 0; // A distância do vértice de partida 's' para si mesmo é 0
+    
+    Q = new MinPriorityQueue(G.Vertices); // FIla de prioridade mínima
 
-    // Criação da Fila de Prioridade Mínima (Q)
-    // Q contém todos os vértices do grafo, priorizados por sua 'dist' atual
-    Q = new MinPriorityQueue(G.Vertices); 
-
-    // Esse loop processa os vértices em ordem de distância crescente
     while (Q is not empty) {
-        // Extrai o vértice 'v' com a menor distância atual de 's'
-        Vertex v = Q.ExtractMin(); 
+        Vertex v = Q.ExtractMin(); //Extrai 'v' com a menor distância de 's'
         
-        //Relaxamento das arestas
         for each Vertex w adjacent to v {
-            int custo = costOfEdge(v, w); // custo de v para w
+            int custo = costOfEdge(v, w); 
             //Se um caminho mais curto para 'w' for encontrado através de 'v'
             if (v.dist + custo < w.dist) {
                 w.dist = v.dist + custo; 
