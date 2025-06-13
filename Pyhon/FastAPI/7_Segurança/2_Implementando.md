@@ -18,3 +18,5 @@ Hash é uma **função matemática** que transforma uma entrada em uma **sequên
 - **Impossível descobrir a senha original a partir do hash** (se a função for segura).
 - Normalmente usado em senhas, você **não salva a senha**, salva o **hash**. Quando o usuário digita a senha, você **gera o hash** e **compara** com o salvo.
 
+**Mesmo os desenvolvedores** não devem ver as senhas dos usuários. Salvando apenas o **hash**, ninguém consegue saber qual é a senha original.
+
