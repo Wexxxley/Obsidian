@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pyhon/FastAPI/7_Segurança/2_Implementando.md",
+                "file": "Pyhon/FastAPI/7_Segurança/3_.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Implementando"
+              "title": "3_"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pyhon/FastAPI/7_Segurança/2_Implementando.md",
+                "file": "Pyhon/FastAPI/7_Segurança/3_.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 2_Implementando"
+              "title": "Sumário de 3_"
             }
           }
         ]
@@ -207,10 +207,11 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
+    "Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
+    "Pyhon/FastAPI/7_Segurança/3_.md",
     "attachments/Pasted image 20250613143949.png",
     "attachments/Pasted image 20250613141031.png",
     "Pyhon/FastAPI/7_Segurança/1_Token JWT.md",
-    "Pyhon/FastAPI/7_Segurança/2_Implementando.md",
     "Redes de computadores/4_Camada de rede/11_Roteamento INTRA AS.md",
     "Pyhon/FastAPI/7_Segurança",
     "Redes de computadores/4_Camada de rede/12_Roteamento INTER AS.md",
@@ -239,7 +240,6 @@
     "attachments/Pasted image 20250610154252.png",
     "attachments/Pasted image 20250610153229.png",
     "attachments/Pasted image 20250610153107.png",
-    "attachments/Pasted image 20250610151959.png",
     "Pyhon/FastAPI/3_Logging.md",
     "Pyhon/FastAPI/2_Validação.md",
     "Inglês/1_Simple present.md",

@@ -1,6 +1,8 @@
 
 ---
 
+``pip install pwdlib[argon2]
+``
 Foi criado um arquivo **security.py**
 ![[Pasted image 20250613141031.png]]
 - Foi importado`PasswordHash` que é usada para **hashing de senhas** de forma segura.
