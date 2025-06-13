@@ -20,3 +20,7 @@ Hash é uma **função matemática** que transforma uma entrada em uma **sequên
 
 **Mesmo os desenvolvedores** não devem ver as senhas dos usuários. Salvando apenas o **hash**, ninguém consegue saber qual é a senha original.
 
+---
+Agora no post é salvo com hash a senha. Mudanças no update também são necessárias.
+![[Pasted image 20250613143949.png]]
+
