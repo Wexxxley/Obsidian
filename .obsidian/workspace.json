@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pyhon/FastAPI/7_Segurança/3_.md",
+                "file": "Pyhon/FastAPI/7_Segurança/1_Token JWT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_"
+              "title": "1_Token JWT"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pyhon/FastAPI/7_Segurança/3_.md",
+                "file": "Pyhon/FastAPI/7_Segurança/1_Token JWT.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 3_"
+              "title": "Sumário de 1_Token JWT"
             }
           }
         ]
@@ -207,8 +207,9 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
-    "Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
+    "attachments/Pasted image 20250614154216.png",
     "Pyhon/FastAPI/7_Segurança/3_.md",
+    "Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
     "attachments/Pasted image 20250613143949.png",
     "attachments/Pasted image 20250613141031.png",
     "Pyhon/FastAPI/7_Segurança/1_Token JWT.md",
@@ -243,7 +244,6 @@
     "Pyhon/FastAPI/3_Logging.md",
     "Pyhon/FastAPI/2_Validação.md",
     "Inglês/1_Simple present.md",
-    "FrontEnd/4_Express/Express.md",
     "FrontEnd/4_Express",
     "FrontEnd/5_Figma",
     "Sem título",

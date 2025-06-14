@@ -18,8 +18,7 @@ O JWT é um token composto por três partes principais, separadas por pontos “
 	- Declarações definidas pela aplicação para fins específicos e que não são padronizadas.
 3. **Signature**: assinatura do token
 
-**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcpVIz9DyfCPhzHylztCdImzjYzncXs8B1PXBuOEzRcuCuYbtfleQOzdVyTIhp8o2MRZr5a7G4un2l45SsnhgCGA-4fPgQuuAAIOxW0s1Y7uBhJjmmqHV_x7C9WuPYL6AAS7oOomVaO0wpaN_cbxZWfO_k?key=SZHaDLu24DLXyFgiFaRNLA)**
-
+**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcpVIz9DyfCPhzHylztCdImzjYzncXs8B1PXBuOEzRcuCuYbtfleQOzdVyTIhp8o2MRZr5a7G4un2l45SsnhgCGA-4fPgQuuAAIOxW0s1Y7uBhJjmmqHV_x7C9WuPYL6AAS7oOomVaO0wpaN_cbxZWfO_k?key=SZHaDLu24DLXyFgiFaRNLA)
 
 
 
