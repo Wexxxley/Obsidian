@@ -29,3 +29,5 @@ Quando um usuário se autentica, o servidor cria o JWT. O JWT é enviado ao clie
 2. **HTTPS:** Use HTTPS para proteger o token durante a transmissão.
 3. **Armazenamento Seguro no Cliente:** Guarde o JWT em um local seguro.
 4. **A chave secreta** deve ser mantida no servidor e nunca compartilhada, pois é o que garante a autenticidade do token. 
+
+Usamos jwt no python com ``pip install pyjwt``
