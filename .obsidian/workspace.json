@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd/4_Express/Express.md",
+                "file": "Pyhon/FastAPI/1_Introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Express"
+              "title": "1_Introdução"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrontEnd/4_Express/Express.md",
+                "file": "Pyhon/FastAPI/1_Introdução.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Express"
+              "title": "Sumário de 1_Introdução"
             }
           }
         ]
@@ -207,6 +207,7 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
+    "FrontEnd/4_Express/Express.md",
     "FrontEnd/3_JavaScript/9_Await e catch.md",
     "FrontEnd/3_JavaScript/8_Promisse.md",
     "FrontEnd/3_JavaScript/7_Callbacks.md",
@@ -243,7 +244,6 @@
     "attachments/Pasted image 20250610154543.png",
     "attachments/Pasted image 20250610154517.png",
     "attachments/Pasted image 20250610154429.png",
-    "Pyhon/FastAPI/3_Logging.md",
     "FrontEnd/4_Express",
     "FrontEnd/5_Figma",
     "Sem título",
