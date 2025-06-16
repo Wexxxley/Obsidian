@@ -2,7 +2,6 @@
 ---
 
 Promisse é um objeto que representa o sucesso ou uma falha de uma operação assíncrona. Normalmente só consumimos uma promisse de terceiros como quando acessamos apis.
-
 ![[Pasted image 20250609155006.png]]
 ![[Pasted image 20250609155023.png]]
 - O resto do código é executado enquanto espera o retorno da promessa.
