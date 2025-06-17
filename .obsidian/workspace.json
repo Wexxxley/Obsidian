@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pyhon/SGDB's noSQL.md",
+                "file": "Pyhon/MondoDB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SGDB's noSQL"
+              "title": "MondoDB"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pyhon/SGDB's noSQL.md",
+                "file": "Pyhon/MondoDB.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de SGDB's noSQL"
+              "title": "Sumário de MondoDB"
             }
           }
         ]
@@ -207,8 +207,9 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
-    "Pyhon/FastAPI/4_ORM.md",
     "Pyhon/SGDB's noSQL.md",
+    "Pyhon/MondoDB.md",
+    "Pyhon/FastAPI/4_ORM.md",
     "Pyhon/FastAPI/5_Migrations.md",
     "Pyhon/FastAPI/1_Introdução.md",
     "FrontEnd/4_Express/Express.md",
@@ -240,7 +241,6 @@
     "Redes de computadores/4_Camada de rede/3_IPv4.md",
     "Redes de computadores/4_Camada de rede/4_Enderaçamento IP.md",
     "Algorítmos e Estruturas de dados/Grafos/3_Caminho mínimo de fonte única (Dijkstra).md",
-    "Redes de computadores/4_Camada de rede/5_Fragmentação.md",
     "attachments/Pasted image 20250610154543.png",
     "attachments/Pasted image 20250610154517.png",
     "attachments/Pasted image 20250610154429.png",
