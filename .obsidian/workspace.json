@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pyhon/MondoDB.md",
+                "file": "Algorítmos e Estruturas de dados/Ordenação/Merge sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MondoDB"
+              "title": "Merge sort"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pyhon/MondoDB.md",
+                "file": "Algorítmos e Estruturas de dados/Ordenação/Merge sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de MondoDB"
+              "title": "Sumário de Merge sort"
             }
           }
         ]
@@ -207,8 +207,14 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
-    "Pyhon/SGDB's noSQL.md",
+    "attachments/Pasted image 20250618124248.png",
+    "attachments/Pasted image 20250618124233.png",
+    "Algorítmos e Estruturas de dados/Ordenação/Bubble sorte.md",
+    "Algorítmos e Estruturas de dados/Ordenação/Merge sort.md",
+    "attachments/Pasted image 20250618124038.png",
     "Pyhon/MondoDB.md",
+    "Algorítmos e Estruturas de dados/Ordenação",
+    "Pyhon/SGDB's noSQL.md",
     "Pyhon/FastAPI/4_ORM.md",
     "Pyhon/FastAPI/5_Migrations.md",
     "Pyhon/FastAPI/1_Introdução.md",
@@ -238,12 +244,7 @@
     "Redes de computadores/4_Camada de rede/8_NAT.md",
     "Redes de computadores/4_Camada de rede/7_IPv6.md",
     "Redes de computadores/4_Camada de rede/6_ICMP (Protocolo de Mensagens de Controle da Internet).md",
-    "Redes de computadores/4_Camada de rede/3_IPv4.md",
-    "Redes de computadores/4_Camada de rede/4_Enderaçamento IP.md",
-    "Algorítmos e Estruturas de dados/Grafos/3_Caminho mínimo de fonte única (Dijkstra).md",
     "attachments/Pasted image 20250610154543.png",
-    "attachments/Pasted image 20250610154517.png",
-    "attachments/Pasted image 20250610154429.png",
     "FrontEnd/4_Express",
     "FrontEnd/5_Figma",
     "Sem título",
@@ -252,7 +253,6 @@
     "Sem título.canvas",
     "FrontEnd.zip",
     "Redes de computadores/4_Camada de rede/Sem título",
-    "Redes de computadores/4_Camada de rede",
-    "Pyhon/FastAPI"
+    "Redes de computadores/4_Camada de rede"
   ]
 }
