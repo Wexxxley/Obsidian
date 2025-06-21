@@ -22,3 +22,11 @@
 - **`f"{uuid4()}{file_extension}"`**: Concatena o UUID com a extensão original. Isso garante que o nome do arquivo no servidor seja praticamente único,.
 - **`upload_dir`**: Constrói o caminho completo do diretório onde a imagem será salva.
 - **`file_path_on_server`**: Combina o diretório de upload com o nome de arquivo único para criar o caminho completo onde o arquivo será salvo no servidor.
+
+![[Pasted image 20250621150936.png]]
+- Salvando localmente
+
+![[Pasted image 20250621151032.png]]
+- **Propósito:** Gerar o caminho que será armazenado no banco de dados e que o frontend usará para exibir a imagem.
+- **`base_static_url = "/static/img"`**: Esta é a parte inicial da URL que você configurou no FastAPI para servir arquivos estáticos. 
+- **`photo_url_for_db`**: Constrói a URL relativa para a imagem. Este é o valor que será salvo no campo `path_foto` do seu modelo `Professor` no banco de dados. 
