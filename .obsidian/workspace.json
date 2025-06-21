@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pyhon/FastAPI/2_Validação.md",
+                "file": "Pyhon/FastAPI/8_Servindo arquivos estáticos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Validação"
+              "title": "8_Servindo arquivos estáticos"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pyhon/FastAPI/2_Validação.md",
+                "file": "Pyhon/FastAPI/8_Servindo arquivos estáticos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 2_Validação"
+              "title": "Sumário de 8_Servindo arquivos estáticos"
             }
           }
         ]
@@ -207,6 +207,11 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250621150705.png",
+    "attachments/Pasted image 20250621150521.png",
+    "attachments/Pasted image 20250621150057.png",
+    "Pyhon/FastAPI/2_Validação.md",
+    "Pyhon/FastAPI/8_Servindo arquivos estáticos.md",
     "Pyhon/FastAPI/4_ORM.md",
     "Pyhon/FastAPI/3_Logging.md",
     "Pyhon/FastAPI/5_Migrations.md",
@@ -231,8 +236,6 @@
     "attachments/Pasted image 20250614155621.png",
     "attachments/Pasted image 20250614155518.png",
     "attachments/Pasted image 20250614154216.png",
-    "attachments/Pasted image 20250613143949.png",
-    "attachments/Pasted image 20250613141031.png",
     "Redes de computadores/4_Camada de rede/11_Roteamento INTRA AS.md",
     "Pyhon/FastAPI/7_Segurança",
     "Redes de computadores/4_Camada de rede/12_Roteamento INTER AS.md",
@@ -242,9 +245,6 @@
     "Redes de computadores/4_Camada de rede/15_Tipos de filas.md",
     "Redes de computadores/4_Camada de rede/14_Fenômeno da sincronização global do TCP.md",
     "Redes de computadores/4_Camada de rede/13_BGP e os contratos entre provedores.md",
-    "Redes de computadores/4_Camada de rede/8_NAT.md",
-    "Redes de computadores/4_Camada de rede/7_IPv6.md",
-    "Redes de computadores/4_Camada de rede/6_ICMP (Protocolo de Mensagens de Controle da Internet).md",
     "FrontEnd/4_Express",
     "FrontEnd/5_Figma",
     "Sem título",
