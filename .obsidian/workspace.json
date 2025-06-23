@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pyhon/FastAPI/8_Servindo arquivos estáticos.md",
+                "file": "FrontEnd/1_HTML/1_Html básico.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_Servindo arquivos estáticos"
+              "title": "1_Html básico"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pyhon/FastAPI/8_Servindo arquivos estáticos.md",
+                "file": "FrontEnd/1_HTML/1_Html básico.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 8_Servindo arquivos estáticos"
+              "title": "Sumário de 1_Html básico"
             }
           }
         ]
@@ -207,13 +207,18 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
+    "FrontEnd/2_CSS/5_Positions.md",
+    "FrontEnd/2_CSS/4_Flexbox.md",
+    "FrontEnd/2_CSS/3_Formulário.md",
+    "FrontEnd/2_CSS/2_Box model.md",
+    "FrontEnd/2_CSS/1_CSS introdução.md",
+    "Pyhon/FastAPI/8_Servindo arquivos estáticos.md",
     "attachments/Pasted image 20250621151032.png",
     "attachments/Pasted image 20250621150936.png",
     "attachments/Pasted image 20250621150705.png",
     "attachments/Pasted image 20250621150521.png",
     "attachments/Pasted image 20250621150057.png",
     "Pyhon/FastAPI/2_Validação.md",
-    "Pyhon/FastAPI/8_Servindo arquivos estáticos.md",
     "Pyhon/FastAPI/4_ORM.md",
     "Pyhon/FastAPI/3_Logging.md",
     "Pyhon/FastAPI/5_Migrations.md",
@@ -235,16 +240,11 @@
     "FrontEnd/3_JavaScript/7_Callbacks.md",
     "attachments/Pasted image 20250614160142.png",
     "attachments/Pasted image 20250614155912.png",
-    "attachments/Pasted image 20250614155621.png",
     "Redes de computadores/4_Camada de rede/11_Roteamento INTRA AS.md",
     "Pyhon/FastAPI/7_Segurança",
     "Redes de computadores/4_Camada de rede/12_Roteamento INTER AS.md",
     "Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
     "Redes de computadores/4_Camada de rede/10_Roteamento Hierárquico.md",
-    "Redes de computadores/4_Camada de rede/16_Transição IPv4 para IPv6.md",
-    "Redes de computadores/4_Camada de rede/15_Tipos de filas.md",
-    "Redes de computadores/4_Camada de rede/14_Fenômeno da sincronização global do TCP.md",
-    "Redes de computadores/4_Camada de rede/13_BGP e os contratos entre provedores.md",
     "FrontEnd/4_Express",
     "FrontEnd/5_Figma",
     "Sem título",
