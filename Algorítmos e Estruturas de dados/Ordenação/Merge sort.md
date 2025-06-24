@@ -1,6 +1,8 @@
 
 ---
 
+O(n log n)
+
 ![[Pasted image 20250618124248.png]]
 ![[Pasted image 20250618124233.png]]
 
