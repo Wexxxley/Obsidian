@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd/1_HTML/1_Html básico.md",
+                "file": "FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Html básico"
+              "title": "1_Acessando"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrontEnd/1_HTML/1_Html básico.md",
+                "file": "FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 1_Html básico"
+              "title": "Sumário de 1_Acessando"
             }
           }
         ]
@@ -207,8 +207,10 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
-    "FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando.md",
+    "attachments/Pasted image 20250624073222.png",
+    "attachments/Pasted image 20250624073206.png",
     "FrontEnd/1_HTML/1_Html básico.md",
+    "FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando.md",
     "FrontEnd/3_JavaScript/10_Acessando apis",
     "FrontEnd/2_CSS/5_Positions.md",
     "FrontEnd/2_CSS/4_Flexbox.md",
@@ -242,10 +244,8 @@
     "FrontEnd/3_JavaScript/8_Promisse.md",
     "FrontEnd/3_JavaScript/7_Callbacks.md",
     "attachments/Pasted image 20250614160142.png",
-    "attachments/Pasted image 20250614155912.png",
     "Redes de computadores/4_Camada de rede/11_Roteamento INTRA AS.md",
     "Pyhon/FastAPI/7_Segurança",
-    "Redes de computadores/4_Camada de rede/12_Roteamento INTER AS.md",
     "FrontEnd/4_Express",
     "FrontEnd/5_Figma",
     "Sem título",
