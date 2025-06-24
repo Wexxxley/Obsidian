@@ -6,7 +6,7 @@
       {
         "id": "e04ea8aa05572861",
         "type": "tabs",
-        "dimension": 73.32285115303984,
+        "dimension": 73.01829268292683,
         "children": [
           {
             "id": "728afa627c963eec",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando.md",
+                "file": "FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando Users.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Acessando"
+              "title": "1_Acessando Users"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "7088f5cc0e2d9dc0",
         "type": "tabs",
-        "dimension": 26.67714884696017,
+        "dimension": 26.981707317073173,
         "children": [
           {
             "id": "fcdc3cfab43d88bc",
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando.md",
+                "file": "FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando Users.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 1_Acessando"
+              "title": "Sumário de 1_Acessando Users"
             }
           }
         ]
@@ -212,7 +212,7 @@
     "attachments/Pasted image 20250624073222.png",
     "attachments/Pasted image 20250624073206.png",
     "FrontEnd/1_HTML/1_Html básico.md",
-    "FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando.md",
+    "FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando Users.md",
     "FrontEnd/3_JavaScript/10_Acessando apis",
     "FrontEnd/2_CSS/5_Positions.md",
     "FrontEnd/2_CSS/4_Flexbox.md",
