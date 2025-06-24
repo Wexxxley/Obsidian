@@ -44,3 +44,8 @@
 ![[Pasted image 20250624080148.png]]
 ![[Pasted image 20250624080206.png]]
 
+---
+### **4. Delete**
+![[Pasted image 20250624081735.png]]
+![[Pasted image 20250624081804.png]]
+
