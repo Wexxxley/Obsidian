@@ -38,3 +38,9 @@
 5. **`if (response.ok) { ... } else { ... }`**:
     - `response.ok`: Retorna `true` se o status da resposta HTTP estiver entre 200 e 299, indicando sucesso.
     - Se verdadeiro, exibe a mensagem de sucesso.
+
+---
+### **3. Get por id**
+![[Pasted image 20250624080148.png]]
+![[Pasted image 20250624080206.png]]
+
