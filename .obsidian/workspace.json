@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando Users.md",
+                "file": "FrontEnd/3_JavaScript/10_Acessando apis/2_Acessando professores.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Acessando Users"
+              "title": "2_Acessando professores"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando Users.md",
+                "file": "FrontEnd/3_JavaScript/10_Acessando apis/2_Acessando professores.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 1_Acessando Users"
+              "title": "Sumário de 2_Acessando professores"
             }
           }
         ]
@@ -207,6 +207,10 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
+    "FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando Users.md",
+    "FrontEnd/3_JavaScript/10_Acessando apis/2_Acessando professores.md",
+    "attachments/Pasted image 20250624093000.png",
+    "attachments/Pasted image 20250624092933.png",
     "attachments/Pasted image 20250624081804.png",
     "attachments/Pasted image 20250624081735.png",
     "attachments/Pasted image 20250624080206.png",
@@ -216,7 +220,6 @@
     "attachments/Pasted image 20250624073222.png",
     "attachments/Pasted image 20250624073206.png",
     "FrontEnd/1_HTML/1_Html básico.md",
-    "FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando Users.md",
     "FrontEnd/3_JavaScript/10_Acessando apis",
     "FrontEnd/2_CSS/5_Positions.md",
     "FrontEnd/2_CSS/4_Flexbox.md",
@@ -224,9 +227,6 @@
     "FrontEnd/2_CSS/2_Box model.md",
     "FrontEnd/2_CSS/1_CSS introdução.md",
     "Pyhon/FastAPI/8_Servindo arquivos estáticos.md",
-    "attachments/Pasted image 20250621151032.png",
-    "attachments/Pasted image 20250621150936.png",
-    "attachments/Pasted image 20250621150705.png",
     "Pyhon/FastAPI/2_Validação.md",
     "Pyhon/FastAPI/4_ORM.md",
     "Pyhon/FastAPI/3_Logging.md",
@@ -244,7 +244,6 @@
     "FrontEnd/3_JavaScript/9_Await e catch.md",
     "FrontEnd/3_JavaScript/8_Promisse.md",
     "FrontEnd/3_JavaScript/7_Callbacks.md",
-    "Redes de computadores/4_Camada de rede/11_Roteamento INTRA AS.md",
     "Pyhon/FastAPI/7_Segurança",
     "FrontEnd/4_Express",
     "FrontEnd/5_Figma",
