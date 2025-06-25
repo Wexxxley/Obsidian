@@ -30,4 +30,21 @@
 ### **4. Get_all**
 ![[Pasted image 20250625141249.png]]
 
+---
+### **5. Get por id** 
+![[Pasted image 20250625141655.png]]
+- ObjectId.is_valid(id): Garante que o id passado tem o formato correto antes de tentar converter, evitando exceções desnecessárias.
+---
+### **6. Update**
 
+![[Pasted image 20250625142051.png]]
+1. **Validação do id:**  
+	- Antes de tentar atualizar, verifica se o tem o formato correto de um ObjectId do MongoDB. 
+2. **Atualização do documento:**  
+    - Tenta atualizar o documento cujo `_id` corresponde ao informado, usando os dados recebidos no corpo da requisição
+3. **Verificação de existência:**  
+    - Se nenhum documento foi encontrado para atualizar, retorna erro 404.
+
+---
+### **7. Delete**
+![[Pasted image 20250625142501.png]]
