@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pyhon/SGDB's noSQL.md",
+                "file": "Pyhon/MondoDB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SGDB's noSQL"
+              "title": "MondoDB"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pyhon/SGDB's noSQL.md",
+                "file": "Pyhon/MondoDB.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de SGDB's noSQL"
+              "title": "Sumário de MondoDB"
             }
           }
         ]
@@ -207,8 +207,11 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
-    "Pyhon/MondoDB.md",
+    "attachments/Pasted image 20250625140503.png",
+    "attachments/Pasted image 20250625140158.png",
+    "attachments/Pasted image 20250625140144.png",
     "Pyhon/SGDB's noSQL.md",
+    "Pyhon/MondoDB.md",
     "Pyhon/FastAPI/8_Servindo arquivos estáticos.md",
     "Algorítmos e Estruturas de dados/Ordenação/Merge sort.md",
     "Algorítmos e Estruturas de dados/Ordenação/1_Bubble sorte.md",
@@ -223,8 +226,6 @@
     "attachments/Pasted image 20250624080206.png",
     "attachments/Pasted image 20250624080148.png",
     "attachments/Pasted image 20250624074321.png",
-    "attachments/Pasted image 20250624074302.png",
-    "attachments/Pasted image 20250624073222.png",
     "FrontEnd/1_HTML/1_Html básico.md",
     "FrontEnd/3_JavaScript/10_Acessando apis",
     "FrontEnd/2_CSS/5_Positions.md",
