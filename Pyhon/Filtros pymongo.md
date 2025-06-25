@@ -53,31 +53,14 @@ for documento in colecao.find({"ativo": True}):
 ```python
 colecao.find(
 		{"$or": [
-			{"idade": 
-				{"$lt": 20}}, {"idade": {"$gt": 60}}]})
+			{"idade": {"$lt": 20}},
+			{"idade": {"$gt": 60}}]
+		})
 ```
-
-Essa consulta está procurando documentos em que:
-
-- **idade seja menor que 20** (`$lt` → _less than_)  
-    **OU**
-    
-- **idade seja maior que 60** (`$gt` → _greater than_)
----
-
-## ✅ 5. **Projeções (Selecionar Campos)**
-
-```python
-colecao.find({}, {"nome": 1, "email": 1, "_id": 0})
-```
-
-- Mostra só os campos `nome` e `email`, e **esconde o `_id`**.
-    
+- Essa consulta está procurando documentos em que a idade seja menor que 20 OU idade seja maior que 60
 
 ---
-
-## ✅ 6. **Ordenação**
-
+### **5. Ordenação**
 ```python
 from pymongo import ASCENDING, DESCENDING
 
@@ -86,109 +69,92 @@ colecao.find().sort("data_criacao", DESCENDING)
 ```
 
 ---
-
-## ✅ 7. **Limitar e Pular Documentos (Paginação)**
+### **7. Paginação
 
 ```python
 colecao.find().skip(10).limit(5)
 ```
-
-- Pula os 10 primeiros e retorna os próximos 5.
-    
+- Pula os 10 primeiros e retorna os próximos 5
 
 ---
-
-## ✅ 8. **Consultas com Expressões Regulares**
-
-```python
-colecao.find({"nome": {"$regex": "^A", "$options": "i"}})
-```
-
-- Retorna nomes que começam com "A", **ignorando maiúsculas/minúsculas**.
-    
-
----
-
-## ✅ 9. **Consultas em Campos Aninhados (Embedded Documents)**
-
+### **8. Consultas em Campos Aninhados **
 ```python
 colecao.find({"endereco.cidade": "Quixadá"})
 ```
-
 - Acessa diretamente subcampos.
-    
 
 ---
-
-## ✅ 10. **Consultas em Arrays**
-
-```python
-colecao.find({"tags": "urgente"})  # array contém o valor
-colecao.find({"notas": {"$size": 3}})  # array com tamanho 3
-colecao.find({"notas": {"$all": [10, 9]}})  # contém todos os valores
-```
-
----
-
-## ✅ 11. **Contar Documentos**
-
+### **9. Contar Documentos**
 ```python
 colecao.count_documents({"ativo": True})
 ```
 
 ---
+### **10. Cursor**
 
-## ✅ 12. **Agregações (pipeline avançado)**
+Um **cursor** é um **objeto iterável** que representa o **resultado de uma consulta** no MongoDB. Quando você faz um `find()`, ele **não retorna diretamente uma lista de documentos**, mas sim um _cursor_ que **vai percorrendo os dados aos poucos**
 
 ```python
-pipeline = [
-    {"$match": {"ativo": True}},
-    {"$group": {"_id": "$idade", "total": {"$sum": 1}}},
-    {"$sort": {"total": -1}}
-]
+cursor = colecao.find({"ativo": True})
 
-resultados = list(colecao.aggregate(pipeline))
+for documento in cursor:
+    print(documento)
 ```
+Aqui, `cursor` **não é uma lista**, mas sim algo que você pode **percorrer com `for`**.
+
+---
+- Se o banco tiver **milhares de documentos**, ele **não carrega tudo de uma vez**.
+- Ele **busca sob demanda**, aos poucos — o que economiza **memória**.
+- Perfeito para processar resultados grandes sem travar sua aplicação.
 
 ---
 
-## ✅ 13. **Índices (Melhora performance)**
 
-```python
-colecao.create_index("email", unique=True)
-colecao.create_index([("nome", ASCENDING), ("idade", DESCENDING)])
-```
-
----
-
-## ✅ 14. **Buscar por `_id`**
-
-```python
-from bson import ObjectId
-
-colecao.find_one({"_id": ObjectId("665fe0b5f88c1f2c296d3dbf")})
-```
-
-> ⚠️ Sempre use `ObjectId()` para consultas com `_id`!
-
----
-
-## ✅ 15. **Outras funções úteis**
-
-```python
-colecao.find_one_and_update()
-colecao.find_one_and_delete()
-colecao.find_one_and_replace()
-```
-
----
-
-## ✅ Dica: Transformar cursor em lista
-
+Cursor em lista.
 ```python
 dados = list(colecao.find())
 ```
 
+
+### 🔁 Como transformar em lista (carregar tudo de uma vez)?
+
+```python
+resultados = list(colecao.find({"ativo": True}))
+```
+
+⚠️ Cuidado: Se a coleção for **grande**, isso pode consumir muita memória.
+
 ---
 
-Se quiser, posso te dar **exemplos práticos** para cada item acima ou te ajudar a criar **um serviço com filtros dinâmicos** no FastAPI usando essas consultas. Quer seguir por algum deles?
+### 📌 Importante: funções que retornam cursor
+
+As funções abaixo retornam cursor:
+
+- `find()`
+    
+- `aggregate()`
+    
+- `watch()` (para _change streams_)
+    
+
+---
+
+### 📉 Exemplo prático completo:
+
+```python
+cursor = colecao.find({"categoria": "livro"})
+
+for livro in cursor:
+    print(livro["titulo"])
+```
+
+Ou:
+
+```python
+livros = list(colecao.find({"categoria": "livro"}))
+print(livros[0]["titulo"])
+```
+
+---
+
+Se quiser, posso te mostrar como paginar os dados usando um cursor ou como usar cursores em pipelines de agregação. Deseja seguir por esse caminho?
