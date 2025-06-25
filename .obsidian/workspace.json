@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pyhon/MondoDB.md",
+                "file": "Pyhon/Filtros pymongo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MondoDB"
+              "title": "Filtros pymongo"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pyhon/MondoDB.md",
+                "file": "Pyhon/Filtros pymongo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de MondoDB"
+              "title": "Sumário de Filtros pymongo"
             }
           }
         ]
@@ -207,6 +207,8 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
+    "Pyhon/MondoDB.md",
+    "Pyhon/Filtros pymongo.md",
     "attachments/Pasted image 20250625142501.png",
     "attachments/Pasted image 20250625142051.png",
     "attachments/Pasted image 20250625141655.png",
@@ -216,7 +218,6 @@
     "attachments/Pasted image 20250625140158.png",
     "attachments/Pasted image 20250625140144.png",
     "Pyhon/SGDB's noSQL.md",
-    "Pyhon/MondoDB.md",
     "Pyhon/FastAPI/8_Servindo arquivos estáticos.md",
     "Algorítmos e Estruturas de dados/Ordenação/Merge sort.md",
     "Algorítmos e Estruturas de dados/Ordenação/1_Bubble sorte.md",
@@ -225,7 +226,6 @@
     "FrontEnd/3_JavaScript/10_Acessando apis/2_Acessando professores.md",
     "FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando Users.md",
     "attachments/Pasted image 20250624093000.png",
-    "attachments/Pasted image 20250624092933.png",
     "FrontEnd/1_HTML/1_Html básico.md",
     "FrontEnd/3_JavaScript/10_Acessando apis",
     "FrontEnd/2_CSS/5_Positions.md",
