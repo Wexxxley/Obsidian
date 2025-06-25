@@ -69,7 +69,7 @@ colecao.find().sort("data_criacao", DESCENDING)
 ```
 
 ---
-### **7. Paginação
+### **7. Paginação**
 
 ```python
 colecao.find().skip(10).limit(5)
@@ -102,59 +102,12 @@ for documento in cursor:
 ```
 Aqui, `cursor` **não é uma lista**, mas sim algo que você pode **percorrer com `for`**.
 
----
 - Se o banco tiver **milhares de documentos**, ele **não carrega tudo de uma vez**.
 - Ele **busca sob demanda**, aos poucos — o que economiza **memória**.
 - Perfeito para processar resultados grandes sem travar sua aplicação.
-
----
-
 
 Cursor em lista.
 ```python
 dados = list(colecao.find())
 ```
-
-
-### 🔁 Como transformar em lista (carregar tudo de uma vez)?
-
-```python
-resultados = list(colecao.find({"ativo": True}))
-```
-
-⚠️ Cuidado: Se a coleção for **grande**, isso pode consumir muita memória.
-
----
-
-### 📌 Importante: funções que retornam cursor
-
-As funções abaixo retornam cursor:
-
-- `find()`
-    
-- `aggregate()`
-    
-- `watch()` (para _change streams_)
-    
-
----
-
-### 📉 Exemplo prático completo:
-
-```python
-cursor = colecao.find({"categoria": "livro"})
-
-for livro in cursor:
-    print(livro["titulo"])
-```
-
-Ou:
-
-```python
-livros = list(colecao.find({"categoria": "livro"}))
-print(livros[0]["titulo"])
-```
-
----
-
-Se quiser, posso te mostrar como paginar os dados usando um cursor ou como usar cursores em pipelines de agregação. Deseja seguir por esse caminho?
+Se a coleção for **grande**, isso pode consumir muita memória.
