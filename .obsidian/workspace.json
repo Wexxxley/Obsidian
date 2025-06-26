@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pyhon/Filtros pymongo.md",
+                "file": "Redes de computadores/5_Camada de enlace/1_Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Filtros pymongo"
+              "title": "1_Intro"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pyhon/Filtros pymongo.md",
+                "file": "Redes de computadores/5_Camada de enlace/1_Intro.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Filtros pymongo"
+              "title": "Sumário de 1_Intro"
             }
           }
         ]
@@ -207,8 +207,11 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
-    "Pyhon/MondoDB.md",
     "Pyhon/Filtros pymongo.md",
+    "Redes de computadores/5_Camada de enlace/1_Intro.md",
+    "Redes de computadores/5_Camada de enlace",
+    "Redes de computadores/4_Camada de rede/Sem título",
+    "Pyhon/MondoDB.md",
     "attachments/Pasted image 20250625142501.png",
     "attachments/Pasted image 20250625142051.png",
     "attachments/Pasted image 20250625141655.png",
@@ -244,15 +247,12 @@
     "Pyhon/FastAPI/1_Introdução.md",
     "FrontEnd/4_Express/Express.md",
     "FrontEnd/3_JavaScript/9_Await e catch.md",
-    "FrontEnd/3_JavaScript/8_Promisse.md",
     "Pyhon/FastAPI/7_Segurança",
     "FrontEnd/4_Express",
     "FrontEnd/5_Figma",
     "Sem título",
     "Algorítmos e Estruturas de dados/Grafos",
     "Algorítmos e Estruturas de dados",
-    "Sem título.canvas",
-    "FrontEnd.zip",
-    "Redes de computadores/4_Camada de rede/Sem título"
+    "Sem título.canvas"
   ]
 }
