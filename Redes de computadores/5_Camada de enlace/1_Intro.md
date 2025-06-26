@@ -22,7 +22,7 @@ vizinho sobre um enlace. Enlace é um canal de comunicação que conecta nós(ho
 	- **Atenuação do sinal**: O sinal enfraquece ao longo do meio de transmissão.
 	- **Ruídos**: Interferências eletromagnéticas que alteram o sinal.
 	- Quando um receptor detecta a presença de um erro em um quadro ele **avisa o transmissor para reenviar o quadro perdido ou corrompido**. 
-5. **Correção de Erros**: Permite que o receptor não apenas identifique a existência de um erro, mas também **identifique e corrija os bits com erros sem precisar pedir a retransmissão**. Isso é feito com o uso de algoritmos de correção de erro mais complexos, permitindo que o receptor reconstrua o dado correto mesmo que alguns bits sejam alterados. A correção de erros é mais complexa e adiciona mais sobrecarga aos dados.
+5. **Correção de Erros**: Permite que o receptor não apenas identifique a existência de um erro, mas também **identifique e corrija os bits sem precisar pedir a retransmissão**. Isso é feito com o uso de algoritmos de correção. A correção de erros é mais complexa e adiciona mais sobrecarga aos dados. Os algoritmos adicionam **bits de redundância** (informação extra) aos dados originais. Esses bits extras são calculados de uma maneira específica, de forma que o receptor, ao receber o pacote (quadro), pode fazer dois testes:
 6. **Half-duplex e Full-duplex**: Modos de transmissão no enlace.
 	- **Half-duplex**: Os dispositivos em ambas as extremidades do enlace **podem transmitir dados, mas não ao mesmo tempo**. 
 	- **Full-duplex**: Os dispositivos em ambas as extremidades do enlace **podem transmitir e receber dados simultaneamente**. Isso é possível porque o enlace possui caminhos de transmissão e recepção separados, ou usa técnicas que permitem a simultaneidade.
