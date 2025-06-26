@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pyhon/FastAPI/9_Tornando asyncrono.md",
+                "file": "Pyhon/FastAPI/10_Tornando assíncrono.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9_Tornando asyncrono"
+              "title": "10_Tornando assíncrono"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pyhon/FastAPI/9_Tornando asyncrono.md",
+                "file": "Pyhon/FastAPI/10_Tornando assíncrono.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 9_Tornando asyncrono"
+              "title": "Sumário de 10_Tornando assíncrono"
             }
           }
         ]
@@ -207,12 +207,14 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250626192656.png",
+    "Pyhon/FastAPI/9_Tornando asyncrono.md",
+    "Pyhon/FastAPI/10_Tornando assíncrono.md",
     "attachments/Pasted image 20250626190850.png",
     "attachments/Pasted image 20250626185952.png",
     "attachments/Pasted image 20250626184626.png",
     "attachments/Pasted image 20250626183431.png",
     "Pyhon/FastAPI/7_Segurança/3_Criando endpoint de autenticação.md",
-    "Pyhon/FastAPI/9_Tornando asyncrono.md",
     "attachments/Pasted image 20250626163831.png",
     "attachments/Pasted image 20250626162924.png",
     "attachments/Pasted image 20250626161237.png",
@@ -226,7 +228,6 @@
     "Redes de computadores/5_Camada de enlace",
     "Redes de computadores/4_Camada de rede/Sem título",
     "Pyhon/MondoDB.md",
-    "attachments/Pasted image 20250625142501.png",
     "Pyhon/SGDB's noSQL.md",
     "Pyhon/FastAPI/8_Servindo arquivos estáticos.md",
     "Algorítmos e Estruturas de dados/Ordenação/Merge sort.md",
@@ -246,7 +247,6 @@
     "Pyhon/FastAPI/3_Logging.md",
     "Pyhon/FastAPI/5_Migrations.md",
     "Algorítmos e Estruturas de dados/Ordenação",
-    "Pyhon/FastAPI/1_Introdução.md",
     "Pyhon/FastAPI/7_Segurança",
     "FrontEnd/4_Express",
     "FrontEnd/5_Figma",
