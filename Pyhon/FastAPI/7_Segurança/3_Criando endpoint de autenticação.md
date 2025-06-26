@@ -1,6 +1,10 @@
 
 ---
 
+Primeiramente é preciso criar um modelo para nosso token.
+![[Pasted image 20250626160514.png]]
+- "Bearer" é um tipo de token de acesso que deve ser enviado no cabeçalho Authorization, e basta possuir o token para acessar os recursos protegidos.
+
 Foi alterado security.py
 ![[Pasted image 20250614155912.png]]
 - Foram adicionados contantes: tempo de expiração do token, algoritimo de criptografia usado e a chave secreta.
