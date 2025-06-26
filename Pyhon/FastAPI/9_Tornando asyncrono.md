@@ -25,8 +25,17 @@ Quando o código precisa interagir com sistemas externos ele fica "parado", agua
 ### **3. Função assíncrona**
 Função que pode ser suspensa em determinados pontos e retomar a execução mais tarde. Isso permite que a aplicação não fique "parada" enquanto espera por uma resposta, permitindo que o Python execute outras tarefas enquanto aguarda a conclusão da operação.
 
-Em python, corrotinas são definidas com a palavra-chave `async`, no início da função:
-O `await` é usado para chamar operações que podem levar algum tempo, pelo bloqueio de I/O. Isso permite que o Python "libere" o controle de volta para o [loop de eventos](https://fastapidozero.dunossauro.com/estavel/08/#loop-de-eventos), que pode executar outras tarefas enquanto aguarda a operação "espera" a resposta de O/O ser concluída
+Em python, corrotinas são definidas com a palavra-chave `async`. O `await` é usado para chamar operações que podem levar algum tempo, pelo bloqueio de I/O. Isso permite que o Python "libere" o controle de volta para o loop de eventos que pode executar outras tarefas enquanto aguarda a operação.
+
+
+---
+### **4. Loop de eventos**
+
+O loop de eventos é responsável por coordenar a execução das corrotinas. Em termos simples, o loop de eventos é um loop infinito que gerencia todas as corrotinas e garante que elas sejam executadas em ordem, permitindo o escalonamento de várias tarefas.
+
+Todas as corrotinas são enviadas para o loop de eventos, no momento em que são chamadas, para que ele as execute. Essas corrotinas são executadas sequencialmente. No entanto, quando o loop encontra a palavra-chave `await`, ele a "deixa de lado" temporariamente, até que a tarefa que estava sendo aguardada termine. O loop então retoma a execução da próxima corrotina, ou a que estiver pronta para ser executada, até encontrar outro `await`.
+
+![[Pasted image 20250626185952.png]]
 
 
 
