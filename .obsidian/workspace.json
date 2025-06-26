@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/5_Camada de enlace/1_Intro.md",
+                "file": "Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Intro"
+              "title": "2_Secury.py e rota"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes de computadores/5_Camada de enlace/1_Intro.md",
+                "file": "Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 1_Intro"
+              "title": "Sumário de 2_Secury.py e rota"
             }
           }
         ]
@@ -207,8 +207,12 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
-    "Pyhon/Filtros pymongo.md",
+    "attachments/Pasted image 20250626155824.png",
+    "attachments/Pasted image 20250626155805.png",
+    "Pyhon/FastAPI/7_Segurança/1_Token JWT.md",
+    "Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
     "Redes de computadores/5_Camada de enlace/1_Intro.md",
+    "Pyhon/Filtros pymongo.md",
     "Redes de computadores/5_Camada de enlace",
     "Redes de computadores/4_Camada de rede/Sem título",
     "Pyhon/MondoDB.md",
@@ -228,7 +232,6 @@
     "attachments/Pasted image 20250624164925.png",
     "FrontEnd/3_JavaScript/10_Acessando apis/2_Acessando professores.md",
     "FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando Users.md",
-    "attachments/Pasted image 20250624093000.png",
     "FrontEnd/1_HTML/1_Html básico.md",
     "FrontEnd/3_JavaScript/10_Acessando apis",
     "FrontEnd/2_CSS/5_Positions.md",
@@ -240,13 +243,10 @@
     "Pyhon/FastAPI/4_ORM.md",
     "Pyhon/FastAPI/3_Logging.md",
     "Pyhon/FastAPI/5_Migrations.md",
-    "Pyhon/FastAPI/7_Segurança/1_Token JWT.md",
     "Pyhon/FastAPI/7_Segurança/3_Criando o endpoint de autenticação.md",
-    "Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
     "Algorítmos e Estruturas de dados/Ordenação",
     "Pyhon/FastAPI/1_Introdução.md",
     "FrontEnd/4_Express/Express.md",
-    "FrontEnd/3_JavaScript/9_Await e catch.md",
     "Pyhon/FastAPI/7_Segurança",
     "FrontEnd/4_Express",
     "FrontEnd/5_Figma",
