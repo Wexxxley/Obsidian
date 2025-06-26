@@ -33,13 +33,8 @@ Em python, corrotinas são definidas com a palavra-chave `async`. O `await` �
 
 O loop de eventos é responsável por coordenar a execução das corrotinas. Em termos simples, o loop de eventos é um loop infinito que gerencia todas as corrotinas e garante que elas sejam executadas em ordem, permitindo o escalonamento de várias tarefas.
 
-Todas as corrotinas são enviadas para o loop de eventos, no momento em que são chamadas, para que ele as execute. Essas corrotinas são executadas sequencialmente. No entanto, quando o loop encontra a palavra-chave `await`, ele a "deixa de lado" temporariamente, até que a tarefa que estava sendo aguardada termine. O loop então retoma a execução da próxima corrotina, ou a que estiver pronta para ser executada, até encontrar outro `await`.
-
-![[Pasted image 20250626185952.png]]
-
-
-
-
+Todas as corrotinas são enviadas para o loop de eventos, no momento em que são chamadas. Essas corrotinas são executadas sequencialmente. No entanto, quando o loop encontra a palavra-chave `await`, ele a "deixa de lado" temporariamente, até que a tarefa que estava sendo aguardada termine. O loop então retoma a execução da próxima corrotina, ou a que estiver pronta para ser executada, até encontrar outro `await` e assim por diante.
+![[Pasted image 20250626190850.png]]
 
 
 
