@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pyhon/FastAPI/7_Segurança/4_Refresh Token.md",
+                "file": "Pyhon/FastAPI/7_Segurança/3_Criando endpoint de autenticação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Refresh Token"
+              "title": "3_Criando endpoint de autenticação"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pyhon/FastAPI/7_Segurança/4_Refresh Token.md",
+                "file": "Pyhon/FastAPI/7_Segurança/3_Criando endpoint de autenticação.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 4_Refresh Token"
+              "title": "Sumário de 3_Criando endpoint de autenticação"
             }
           }
         ]
@@ -207,8 +207,10 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
-    "Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
+    "attachments/Pasted image 20250627131312.png",
     "Pyhon/FastAPI/7_Segurança/4_Refresh Token.md",
+    "attachments/Pasted image 20250627130747.png",
+    "Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
     "attachments/Pasted image 20250627120715.png",
     "attachments/Pasted image 20250627120308.png",
     "attachments/Pasted image 20250627115648.png",
@@ -222,7 +224,6 @@
     "Pyhon/FastAPI/9_Tornando asyncrono.md",
     "attachments/Pasted image 20250626190850.png",
     "attachments/Pasted image 20250626185952.png",
-    "attachments/Pasted image 20250626184626.png",
     "Pyhon/FastAPI/7_Segurança/3_Criando endpoint de autenticação.md",
     "Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
     "Pyhon/FastAPI/7_Segurança/1_Token JWT.md",
@@ -245,7 +246,6 @@
     "FrontEnd/2_CSS/2_Box model.md",
     "FrontEnd/2_CSS/1_CSS introdução.md",
     "Pyhon/FastAPI/2_Validação.md",
-    "Pyhon/FastAPI/4_ORM.md",
     "Algorítmos e Estruturas de dados/Ordenação",
     "Pyhon/FastAPI/7_Segurança",
     "FrontEnd/4_Express",

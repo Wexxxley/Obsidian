@@ -14,15 +14,15 @@ Endpoint de login
 
 ---
 ### **2. Proteção de endpoint**
-
 Agora que temos uma forma de autenticar nossos usuários e emitir tokens JWT, é hora de usar essa infraestrutura para proteger nossos endpoints.
 
-Nesse ponto, criaremos uma função `get_current_user` que será responsável por extrair o token JWT do header `Authorization` da requisição, decodificar esse token, extrair as informações do usuário e obter finalmente o usuário do banco de dados. 
-![[Pasted image 20250626162924.png]]
+Nesse ponto, criaremos uma função `get_current_user` que será responsável por extrair o token  do header `Authorization`, decodificar esse token, extrair as informações do usuário e obter finalmente o usuário do banco de dados. 
+![[Pasted image 20250627131312.png]]
 - **token:** Injeta o token JWT extraído do cabeçalho Authorization.
 - **credentials_exception:** Prepara uma exceção padrão para lançar caso a autenticação falhe.
 - **Tenta decodificar** o token JWT usando a chave secreta e o algoritmo.
-- Busca o usuário no banco de dados pelo username extraído do token.
 - Se tudo deu certo, retorna o usuário autenticado.
 
+Finalmente protegendo uma rota.
 ![[Pasted image 20250626163831.png]]
+
