@@ -44,51 +44,24 @@ Cada Nó IP (Host, Roteador) Numa LAN Tem um Módulo e Uma Tabela ARP
 - **Operação (Solicitação 1, Resposta 2)**:
     - `1`: É uma **Requisição ARP**: O remetente está perguntando "Quem tem este IP?".
     - `2`: É uma **Resposta ARP**: O remetente está respondendo "Eu tenho este IP"
-        
-- **Endereço Físico de Origem (Por exemplo, 6 bytes para Ethernet)**: O endereço MAC do dispositivo que está enviando o pacote ARP (seja uma solicitação ou resposta).
-    
-- **Protocolo do Endereço de Origem (Por exemplo, 4 bytes para IP)**: O endereço IP do dispositivo que está enviando o pacote ARP.
-    
-- **Endereço Físico de Destino (Por exemplo, 6 bytes para Ethernet) (Não é preenchido numa solicitação)**:
-    
-    - Em uma **Requisição ARP**: Este campo é geralmente preenchido com zeros (ou qualquer valor que não seja um MAC válido), pois é o endereço MAC que o solicitante quer descobrir.
-        
-    - Em uma **Resposta ARP**: Este campo é preenchido com o endereço MAC do dispositivo que fez a solicitação original.
-        
-- **Protocolo do Endereço de Destino (Por exemplo, 4 bytes para IP)**: O endereço IP do dispositivo para o qual a solicitação é feita (na Requisição ARP) ou para o qual a resposta é destinada (na Resposta ARP).
-    
+- **Endereço Físico de Origem**: O endereço MAC do dispositivo que está enviando o pacote ARP.
+- **Protocolo do Endereço de Origem**: O endereço IP do dispositivo que está enviando o pacote.
+- **Endereço Físico de Destino**: So preenchido na resposta.
 
----
+**Quadro de resposta**
+![[Pasted image 20250627120715.png]]
 
-### 2. Pacote de Solicitação e Resposta ARP (Encapsulado em um Quadro Ethernet)
-
-A parte inferior da imagem mostra como o **Pacote ARP** (os "Dados" na imagem) é encapsulado dentro de um **Quadro Ethernet** para ser transmitido fisicamente pela rede.
-
-- **Preâmbulo e SFD (Start Frame Delimiter) - 8 bytes**:
-    
-    - **Preâmbulo**: Uma sequência de bits alternados (10101010...) usada para sincronizar os relógios do transmissor e do receptor.
-        
-    - **SFD**: Uma sequência específica de 1 byte (10101011) que sinaliza o início real do quadro Ethernet.
-        
-    - _Estes são campos da Camada Física e geralmente não são vistos em capturas de pacotes da Camada de Enlace, pois são removidos pelo hardware antes de passar os dados para o driver._
-        
-- **Endereço de Destino (6 bytes)**:
-    
-    - Em uma **Requisição ARP**: Este campo é **FFFFFFFFFFFF** (todos os bits em 1), que é o **endereço de broadcast MAC**. Isso garante que _todos_ os dispositivos na rede local recebam e processem a Requisição ARP.
-        
-    - Em uma **Resposta ARP**: Este campo é o endereço MAC do dispositivo que originalmente fez a Requisição ARP (tornando a resposta um pacote **unicast**).
-        
-- **Endereço de Origem (6 bytes)**: O endereço MAC do dispositivo que está enviando o quadro Ethernet (e, portanto, o pacote ARP encapsulado).
-    
-- **Tipo (2 bytes)**: Este campo indica qual protocolo da camada superior está encapsulado nos "Dados" do quadro Ethernet.
-    
-    - Para um Pacote ARP, o valor é **`0x0806`** (hexadecimal). Este valor é o identificador oficial para o protocolo ARP. Quando uma NIC recebe um quadro com `Tipo = 0x0806`, ela sabe que o payload contém um pacote ARP e o entrega ao módulo ARP para processamento.
-        
-    - (Para um pacote IP, por exemplo, o tipo seria `0x0800`).
-        
-- **Dados**: Esta é a área onde o **Pacote ARP** (cuja estrutura foi detalhada na parte superior da imagem) é inserido.
-    
-- **CRC (Cyclic Redundancy Check) - 4 bytes**: Uma sequência de bits calculada a partir de todos os campos anteriores do quadro. O receptor recalcula o CRC e o compara com o valor recebido. Se forem diferentes, indica que houve um erro na transmissão do quadro.
+- **Preâmbulo e SFD:**
+    - **Preâmbulo**: Usada para sincronizar os relógios do transmissor e do receptor.
+    - **SFD**: Sinaliza o início real do quadro.
+- **Endereço de Destino**:
+    - Em uma **Requisição ARP**: Este campo é **FFFFFFFFFFFF**, que é o **end de broadcast MAC**.
+    - Em uma **Resposta ARP**: Este campo é o end MAC do dispositivo que fez a Requisição ARP.
+- **Endereço de Origem**: O endereço MAC do dispositivo que está enviando o quadro.
+- **Tipo**: Este campo indica qual protocolo da camada superior está encapsulado nos "Dados".
+	- O pacote ARP e o IP possuem diferentes sinalizações.
+- **Dados**: Esta é a área onde o **Pacote ARP** ou IP é inserido.
+- **CRC**: Uma sequência de bits calculada a partir de todos os campos anteriores do quadro. O receptor recalcula o CRC e o compara com o valor recebido. Se forem diferentes, indica que houve um erro na transmissão do quadro.
     
 
 ---
