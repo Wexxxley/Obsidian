@@ -26,79 +26,85 @@ Cada Nó IP (Host, Roteador) Numa LAN Tem um Módulo e Uma Tabela ARP
 
 - **Solicitação ARP (ARP Request) - Broadcast**: Quando um dispositivo precisa descobrir um endereço MAC para um IP que não está em sua tabela, ele pergunta para _todos_ na rede local. 
 - **Resposta ARP (ARP Reply) - Unicast**: O dispositivo que possui o endereço IP alvo recebe a Requisição ARP. Como ele agora sabe o endereço MAC do remetente da requisição, ele pode enviar a **Resposta ARP** diretamente de volta para o solicitante. 
-### Roteador Possui Tabelas ARP para Cada Rede Conectada a Ele!
 
-Este é um ponto crucial para entender como os roteadores funcionam na Camada de Enlace:
+- Cada porta (interface) de um roteador que está conectada a uma LAN diferente funciona como um "nó IP" independente. Portanto, se um roteador tem, por exemplo, três interfaces de rede, ele terá **uma tabela ARP separada para CADA UMA dessas interfaces de LAN ativas**.
 
-- Um roteador não é apenas um dispositivo "de Camada 3" (IP). Ele também opera na Camada de Enlace (Camada 2) para cada interface de rede que possui.
+**Funcionamento na mesma rede**
+![[Pasted image 20250627115648.png]]
+
+---
+### **3. Pacote ARP** 
+
+![[Pasted image 20250627120308.png]]
+
+- **Tipo de Hardware**: Indica o tipo de hardware da rede em que o ARP está operando. Por exemplo, `1` para Ethernet.
+- **Tipo de Protocolo**: Especifica o protocolo da Camada de Rede.
+- **Tamanho do Endereço Físico**: O número de bytes do endereço MAC.
+- **Tamanho do Protocolo**: O número de bytes do endereço de protocolo. 
+- **Operação (Solicitação 1, Resposta 2)**:
+    - `1`: É uma **Requisição ARP**: O remetente está perguntando "Quem tem este IP?".
+    - `2`: É uma **Resposta ARP**: O remetente está respondendo "Eu tenho este IP"
+        
+- **Endereço Físico de Origem (Por exemplo, 6 bytes para Ethernet)**: O endereço MAC do dispositivo que está enviando o pacote ARP (seja uma solicitação ou resposta).
     
-- Cada porta (interface) de um roteador que está conectada a uma LAN diferente funciona como um "nó IP" independente naquela LAN.
+- **Protocolo do Endereço de Origem (Por exemplo, 4 bytes para IP)**: O endereço IP do dispositivo que está enviando o pacote ARP.
     
-- Portanto, se um roteador tem, por exemplo, três interfaces de rede (digamos, uma para a LAN da sua casa, outra para a LAN do escritório e uma para a internet), ele terá **uma tabela ARP separada para CADA UMA dessas interfaces de LAN ativas**.
+- **Endereço Físico de Destino (Por exemplo, 6 bytes para Ethernet) (Não é preenchido numa solicitação)**:
     
-- Cada Tabela ARP contém os mapeamentos IP-MAC para os dispositivos _naquela LAN específica_ à qual a interface está conectada.
-    
-- Isso permite que o roteador encaminhe pacotes de uma rede para outra: quando um pacote IP chega a uma de suas interfaces e precisa ser enviado para outra rede, o roteador primeiro consulta sua **tabela de roteamento** (na Camada 3) para decidir por qual interface o pacote deve sair. Depois de determinar a interface de saída, ele usa a **tabela ARP associada a ESSA interface de saída** para resolver o endereço MAC do próximo salto (que pode ser um host na LAN de destino ou outro roteador).
+    - Em uma **Requisição ARP**: Este campo é geralmente preenchido com zeros (ou qualquer valor que não seja um MAC válido), pois é o endereço MAC que o solicitante quer descobrir.
+        
+    - Em uma **Resposta ARP**: Este campo é preenchido com o endereço MAC do dispositivo que fez a solicitação original.
+        
+- **Protocolo do Endereço de Destino (Por exemplo, 4 bytes para IP)**: O endereço IP do dispositivo para o qual a solicitação é feita (na Requisição ARP) ou para o qual a resposta é destinada (na Resposta ARP).
     
 
-Em resumo, a Tabela ARP, com seu mecanismo de broadcast/unicast e o TTL, é a engrenagem essencial que permite que os dispositivos IP se localizem e se comuniquem fisicamente em redes locais, e os roteadores ampliam essa capacidade para gerenciar múltiplos segmentos de rede.
+---
 
+### 2. Pacote de Solicitação e Resposta ARP (Encapsulado em um Quadro Ethernet)
 
-Cada nó IP numa LAN tem um módulo e uma tabela ARP.
-Tabela ARP: < endereço IP; endereço MAC; TTL>
+A parte inferior da imagem mostra como o **Pacote ARP** (os "Dados" na imagem) é encapsulado dentro de um **Quadro Ethernet** para ser transmitido fisicamente pela rede.
 
- TTL (Time To Live): tempo depois do qual o mapeamento de endereços será
-esquecido (tipicamente 20 min).
- Uma solicitação ARP é sempre dada de modo broadcast e uma resposta ARP é
-dada de modo unicast.
-
- Roteador possui tabelas ARP para cada rede conectada a ele!
-1. **Verificação do Cache ARP**:
+- **Preâmbulo e SFD (Start Frame Delimiter) - 8 bytes**:
     
-    - Antes de tudo, o Dispositivo A verifica sua **Tabela ARP (ou Cache ARP)**. Essa tabela é uma memória temporária onde o computador armazena mapeamentos de IP para MAC que ele aprendeu recentemente.
+    - **Preâmbulo**: Uma sequência de bits alternados (10101010...) usada para sincronizar os relógios do transmissor e do receptor.
         
-    - Se o endereço IP do Dispositivo B já estiver no cache, o Dispositivo A pega o endereço MAC correspondente e envia o quadro de dados diretamente.
+    - **SFD**: Uma sequência específica de 1 byte (10101011) que sinaliza o início real do quadro Ethernet.
         
-2. **ARP Request (Requisição ARP)**:
+    - _Estes são campos da Camada Física e geralmente não são vistos em capturas de pacotes da Camada de Enlace, pois são removidos pelo hardware antes de passar os dados para o driver._
+        
+- **Endereço de Destino (6 bytes)**:
     
-    - Se o endereço IP do Dispositivo B _não_ estiver no cache, o Dispositivo A precisa "perguntar" quem possui aquele IP.
+    - Em uma **Requisição ARP**: Este campo é **FFFFFFFFFFFF** (todos os bits em 1), que é o **endereço de broadcast MAC**. Isso garante que _todos_ os dispositivos na rede local recebam e processem a Requisição ARP.
         
-    - Ele então cria uma mensagem de **"ARP Request"** (Requisição ARP). Essa mensagem é um pacote de **broadcast**, o que significa que ela é enviada para _todos_ os dispositivos na rede local.
+    - Em uma **Resposta ARP**: Este campo é o endereço MAC do dispositivo que originalmente fez a Requisição ARP (tornando a resposta um pacote **unicast**).
         
-    - A Requisição ARP contém:
-        
-        - O endereço MAC do remetente (Dispositivo A).
-            
-        - O endereço IP do remetente (Dispositivo A).
-            
-        - O endereço MAC do alvo (geralmente preenchido com zeros, pois é o que se quer descobrir).
-            
-        - O endereço IP do alvo (Dispositivo B).
-            
-3. **ARP Reply (Resposta ARP)**:
+- **Endereço de Origem (6 bytes)**: O endereço MAC do dispositivo que está enviando o quadro Ethernet (e, portanto, o pacote ARP encapsulado).
     
-    - Todos os dispositivos na rede local recebem a Requisição ARP. Eles verificam o "endereço IP do alvo" na Requisição.
-        
-    - O Dispositivo B (o único que possui aquele endereço IP) reconhece que a requisição é para ele.
-        
-    - O Dispositivo B, então, cria uma mensagem de **"ARP Reply"** (Resposta ARP). Essa resposta é enviada diretamente (unicast) de volta ao Dispositivo A (pois o Dispositivo B agora sabe o MAC do Dispositivo A a partir da Requisição).
-        
-    - A Resposta ARP contém:
-        
-        - O endereço MAC do remetente (Dispositivo B).
-            
-        - O endereço IP do remetente (Dispositivo B).
-            
-4. **Atualização do Cache ARP e Envio de Dados**:
+- **Tipo (2 bytes)**: Este campo indica qual protocolo da camada superior está encapsulado nos "Dados" do quadro Ethernet.
     
-    - O Dispositivo A recebe a Resposta ARP. Ele agora tem o mapeamento IP-MAC do Dispositivo B.
+    - Para um Pacote ARP, o valor é **`0x0806`** (hexadecimal). Este valor é o identificador oficial para o protocolo ARP. Quando uma NIC recebe um quadro com `Tipo = 0x0806`, ela sabe que o payload contém um pacote ARP e o entrega ao módulo ARP para processamento.
         
-    - O Dispositivo A **adiciona essa nova entrada** à sua Tabela ARP para uso futuro.
+    - (Para um pacote IP, por exemplo, o tipo seria `0x0800`).
         
-    - Finalmente, o Dispositivo A pode encapsular o pacote IP original em um quadro de Camada de Enlace usando o endereço MAC de destino recém-descoberto e enviar os dados para o Dispositivo B.
-        
+- **Dados**: Esta é a área onde o **Pacote ARP** (cuja estrutura foi detalhada na parte superior da imagem) é inserido.
+    
+- **CRC (Cyclic Redundancy Check) - 4 bytes**: Uma sequência de bits calculada a partir de todos os campos anteriores do quadro. O receptor recalcula o CRC e o compara com o valor recebido. Se forem diferentes, indica que houve um erro na transmissão do quadro.
+    
 
-### ARP em Cenários Mais Complexos:
+---
+
+### Endereço de Destino em uma Solicitação é FFFFFFFFFFFF.
+
+Esta frase no canto superior direito reforça um ponto crucial:
+
+- Em uma **Requisição ARP**, o objetivo é descobrir o endereço MAC de um dispositivo cujo IP você conhece, mas cujo MAC você _não_ conhece.
+    
+- Como você não sabe para quem enviar a pergunta, a Requisição ARP é enviada para o **endereço MAC de broadcast (`FF:FF:FF:FF:FF:FF`)**. Isso assegura que todos os dispositivos na rede local recebam a Requisição e possam verificar se o IP perguntado pertence a eles.
+    
+
+Em suma, esta imagem ilustra perfeitamente como o protocolo ARP preenche a lacuna entre os endereços IP (lógicos, de rede) e os endereços MAC (físicos, de enlace), permitindo que os dispositivos se encontrem e se comuniquem dentro de uma mesma rede local através do encapsulamento em quadros Ethernet.
+
+
 
 - **Comunicação com dispositivos fora da rede local**: Se o Dispositivo A quer enviar dados para um Dispositivo C que está em outra rede, ele não usará o ARP para descobrir o MAC do Dispositivo C. Em vez disso, ele usará o ARP para descobrir o endereço MAC do seu **Gateway Padrão** (o roteador que conecta sua rede local à internet ou a outras redes). O roteador, então, assume a responsabilidade de encaminhar o pacote para o destino final.
     
