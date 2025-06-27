@@ -69,51 +69,17 @@ Cada Nó IP (Host, Roteador) Numa LAN Tem um Módulo e Uma Tabela ARP
 Máquina A (na Rede 1) Quer Falar com Máquina B (na Rede 2)
 
 1. **A cria o pacote IP com origem A, destino B.**
-    - **Ponto Chave**: A máquina A, ao verificar o endereço IP de destino (B), percebe que B _não está na mesma rede local_. Como ela sabe disso? Comparando o endereço IP de destino com sua própria máscara de sub-rede e o endereço IP do gateway padrão configurado.
-    - Como B está em outra rede, A não tenta descobrir o MAC de B diretamente. Em vez disso, A precisa enviar o pacote para seu **gateway padrão** (o roteador R).
-    - Então, A executa um processo ARP: ele envia uma Requisição ARP perguntando: "Quem tem o IP `111.111.111.110`?".
-    - O roteador R (o gateway padrão de A) responde com seu endereço MAC para aquela interface.
-2. **A cria um quadro Ethernet com o endereço físico de R como destino, o quadro Ethernet contém o datagrama IP de A para B.**
+    - A máquina A, ao verificar o endereço IP de destino, percebe que B _não está na mesma rede. Ela sabe disso comparando o endereço IP de destino com seu prefixo de rede.
+    - Como B está em outra rede, A não tenta descobrir o MAC de B diretamente. Em vez disso, A precisa enviar o pacote para seu **gateway padrão**. Então, A envia uma Requisição ARP perguntando: "Quem tem o IP `111.111.111.110`?".
+    - O roteador R responde com seu endereço MAC para aquela interface. 
+    - A pode constuir o quadro agora. O **endereço MAC de destino** do quadro será o MAC do **roteador** (o próximo salto).
     
-    - Agora que A tem o endereço MAC do roteador R, ele pode construir o **quadro Ethernet** (Camada de Enlace).
-        
-    - O **endereço MAC de destino** do quadro Ethernet será o MAC do **roteador R** (o próximo salto).
-        
-    - O **endereço MAC de origem** será o MAC da máquina A.
-        
-    - Dentro da parte de "Dados" (payload) deste quadro Ethernet está o **datagrama IP original**, que tem o endereço IP de origem A e o endereço IP de destino B.
-        
-    - A máquina A envia este quadro para o roteador R.
-        
-3. **A camada de enlace de R recebe o quadro Ethernet enviado por A.**
-    
-    - A interface do roteador R que está conectada à Rede de A recebe o quadro Ethernet.
-        
-    - O roteador verifica o endereço MAC de destino do quadro. Como é o seu próprio endereço MAC, ele aceita o quadro.
-        
-4. **R remove o datagrama IP do quadro Ethernet, verifica que ele se destina a B.**
-    
-    - O roteador R desencapsula o quadro Ethernet, removendo os cabeçalhos da Camada de Enlace.
-        
-    - Ele agora tem o **datagrama IP original**.
-        
-    - O roteador examina o **endereço IP de destino (B)** no datagrama IP. Ele consulta sua **tabela de roteamento** (na Camada de Rede) para determinar a melhor rota para o endereço IP de B. A tabela de roteamento dirá a R por qual de suas interfaces o pacote deve sair para chegar à rede de B.
-        
-5. **R usa ARP para obter o endereço físico de B.**
-    
-    - **Ponto Crítico**: O roteador R agora sabe que o pacote precisa ir para a Rede 2 e que o destino final é B. Se B for um dispositivo diretamente conectado àquela outra interface do roteador (na Rede 2), o roteador precisará do endereço MAC de B.
-        
-    - Então, R inicia um novo processo ARP, **nesta outra rede (Rede 2)**. Ele envia uma Requisição ARP na Rede 2 perguntando: "Quem tem o IP de B?".
-        
-    - A máquina B responde com seu endereço MAC.
-        
-6. **R cria quadro contendo um datagrama de A para B e envia para B.**
-    
-    - Com o endereço MAC de B em mãos, o roteador R agora cria um **novo quadro Ethernet** (ou o tipo de quadro apropriado para a Rede 2, se não for Ethernet).
-        
-    - O **endereço MAC de destino** deste _novo_ quadro será o MAC da máquina **B**.
-        
-    - O **endereço MAC de origem** será o MAC da interface do próprio roteador R que está conectada à Rede 2.
+2. **A camada de enlace de R recebe o quadro.**        
+    - O roteador verifica o endereço MAC de destino do quadro. Como é o seu próprio endereço MAC, ele aceita o quadro.    
+    - O roteador desencapsula o quadro. Ele agora tem o **datagrama IP original**.
+    - O roteador examina o **endereço IP de destino**. Ele consulta sua **tabela de roteamento**. A tabela de roteamento dirá por qual de suas interfaces o pacote deve sair.
+    - O roteador envia uma Requisição ARP na rede de destino perguntando: "Quem tem o IP de B?". A máquina B responde com seu endereço MAC.    
+    - Com o endereço MAC de B em mãos, o roteador R agora cria um **novo quadro **. O **endereço MAC de destino** deste _novo_ quadro será o MAC da máquina **B**. O **endereço MAC de origem** será o MAC da interface do próprio roteador R q
         
     - Dentro desse novo quadro ainda estará o **datagrama IP original (de A para B)**.
         
