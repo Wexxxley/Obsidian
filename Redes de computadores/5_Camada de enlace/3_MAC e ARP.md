@@ -79,8 +79,4 @@ Máquina A (na Rede 1) Quer Falar com Máquina B (na Rede 2)
     - O roteador desencapsula o quadro. Ele agora tem o **datagrama IP original**.
     - O roteador examina o **endereço IP de destino**. Ele consulta sua **tabela de roteamento**. A tabela de roteamento dirá por qual de suas interfaces o pacote deve sair.
     - O roteador envia uma Requisição ARP na rede de destino perguntando: "Quem tem o IP de B?". A máquina B responde com seu endereço MAC.    
-    - Com o endereço MAC de B em mãos, o roteador R agora cria um **novo quadro **. O **endereço MAC de destino** deste _novo_ quadro será o MAC da máquina **B**. O **endereço MAC de origem** será o MAC da interface do próprio roteador R q
-        
-    - Dentro desse novo quadro ainda estará o **datagrama IP original (de A para B)**.
-        
-    - O roteador R envia este quadro diretamente para a máquina B.
+    - Com o endereço MAC de B em mãos, o roteador R agora cria um **novo quadro**. O **endereço MAC de destino** deste _novo_ quadro será o MAC da máquina **B**. O **endereço MAC de origem** será o MAC da interface do próprio roteador roteador.
