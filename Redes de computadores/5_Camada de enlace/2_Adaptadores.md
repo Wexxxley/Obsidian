@@ -1,8 +1,5 @@
 
 ---
-
----
-
 ### **1. Função da placa de rede** 
 O coração da comunicação é o **adaptador**, também conhecido como Placa de Interface de Rede (NIC). A Camada de Enlace de Dados é **implementada diretamente nesse adaptador**.
 - **Cartão Ethernet**: Tipo de NIC para redes cabeadas.
@@ -31,6 +28,5 @@ Esses adaptadores são a ponte entre o seu computador e o meio físico da rede (
 
 - Um **driver** é um software que atua como uma interface entre o sistema operacional do seu computador e o hardware do adaptador (NIC).
 - Quando o sistema operacional precisa enviar um datagrama, ele passa essa informação ao driver da placa de rede. O driver instrui o hardware da placa a realizar todas as operações.
-- Da mesma forma, quando a placa de rede recebe bits do meio físico, o driver os interpreta, lida com a detecção de erros, desencapsula o datagrama e o passa para o sistema operacional, que o encaminha para as camadas de rede e transporte.
-
-Sem o driver correto, o sistema operacional não consegue "conversar" com a placa de rede, e a comunicação não seria possível. 
+- Quando a placa de rede recebe bits do meio físico, o driver os interpreta, lida com a detecção de erros, desencapsula o datagrama e o passa para o sistema operacional, que o encaminha para as camadas de rede e transporte.
+- A vantagem dos drivers é felixibilidade visto que eles podem recber atualizações. A tendencia é que os adaptadores sejam mais genéricos.
