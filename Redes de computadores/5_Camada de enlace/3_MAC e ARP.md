@@ -18,46 +18,14 @@ Ele descobre o endereço MAC de um dispositivo a partir do endereço IP.
 Imagine que seu computador (Dispositivo A) quer enviar um pacote de dados para outro computador (Dispositivo B) na mesma rede local. O Dispositivo A sabe o **endereço IP** do Dispositivo B. No entanto, para que o pacote seja entregue fisicamente pela rede, o Dispositivo A precisa saber o **endereço MAC** do Dispositivo B.
 
 
-### Cada Nó IP (Host, Roteador) Numa LAN Tem um Módulo e Uma Tabela ARP
+Cada Nó IP (Host, Roteador) Numa LAN Tem um Módulo e Uma Tabela ARP
+- **Módulo ARP**: Componente de software responsável por executar as operações do protocolo ARP.
+- **Tabela ARP**: Associada a esse módulo, cada nó mantém uma **Tabela ARP**. É uma lista de mapeamentos entre endereços IP e seus correspondentes endereços MAC para dispositivos que o nó descobriu recentemente na mesma rede local.
+	![[Pasted image 20250627115140.png]]
+	- **`Time To Live)`**: O **Tempo de Vida** para aquela entrada na tabela, tipicamente 20 min.
 
-Isso é fundamental! Para que qualquer dispositivo que use o Protocolo IP consiga se comunicar em uma rede local (LAN), ele precisa ser capaz de resolver endereços IP para endereços MAC e vice-versa. Por isso:
-
-- **Módulo ARP**: Cada sistema operacional (Windows, Linux, macOS, iOS, Android, etc.) e firmware de roteadores/switches modernos incorpora um **módulo ARP**. Este é o componente de software responsável por executar as operações do protocolo ARP: enviar requisições, processar respostas, manter a tabela ARP e realizar as verificações necessárias. É o "cérebro" que orquestra o processo de resolução.
-    
-- **Tabela ARP**: Associada a esse módulo, cada nó mantém uma **Tabela ARP (ou Cache ARP)**. Pense nela como uma agenda telefônica local, mas para endereços de rede. É uma lista de mapeamentos (ou "traduções") entre endereços IP e seus correspondentes endereços MAC para dispositivos que o nó já "conversou" ou descobriu recentemente na mesma rede local.
-    
-
-### Tabela ARP: `< endereço IP; endereço MAC; TTL>`
-
-A estrutura de cada entrada na Tabela ARP é crucial e geralmente consiste em três componentes:
-
-- **`endereço IP`**: O endereço IP lógico do dispositivo remoto na rede local (ex: `192.168.1.10`).
-    
-- **`endereço MAC`**: O endereço físico correspondente da placa de rede desse dispositivo (ex: `00:1A:2B:3C:4D:5E`).
-    
-- **`TTL (Time To Live)`**: O **Tempo de Vida** para aquela entrada específica na tabela.
-    
-
-### TTL (Time To Live): Tempo Depois do Qual o Mapeamento de Endereços Será Esquecido (Tipicamente 20 min)
-
-O TTL é um contador decrescente associado a cada entrada na Tabela ARP. Sua função é:
-
-- **Validade da Informação**: Garante que os mapeamentos na tabela não fiquem "velhos" ou incorretos. Endereços IP podem mudar (por exemplo, se um dispositivo renovar seu DHCP lease e pegar um novo IP), ou placas de rede podem ser substituídas, alterando o MAC.
-    
-- **Limpeza Automática**: Quando o TTL de uma entrada chega a zero, essa entrada é **removida** da Tabela ARP. Isso significa que, se o dispositivo precisar se comunicar novamente com aquele IP, ele terá que iniciar um novo processo de descoberta ARP.
-    
-- **Eficiência**: Evita que a tabela cresça indefinidamente e contém informações obsoletas. O valor "tipicamente 20 min" é um valor padrão comum, mas pode variar dependendo do sistema operacional ou da configuração da rede.
-    
-
-### Uma Solicitação ARP é Sempre Dada de Modo Broadcast e Uma Resposta ARP é Dada de Modo Unicast
-
-Essa é uma distinção fundamental no funcionamento do ARP:
-
-- **Solicitação ARP (ARP Request) - Broadcast**: Quando um dispositivo precisa descobrir um endereço MAC para um IP que não está em seu cache ARP, ele não sabe para quem perguntar especificamente. A solução é gritar a pergunta para _todos_ na rede local. Por isso, a Requisição ARP é um pacote **broadcast**. Ele é enviado para o endereço MAC de broadcast (`FF:FF:FF:FF:FF:FF`), que garante que todos os dispositivos na mesma rede (segmento de LAN) o receberão e o processarão.
-    
-- **Resposta ARP (ARP Reply) - Unicast**: O dispositivo que possui o endereço IP alvo recebe a Requisição ARP (que é broadcast). Como ele agora sabe o endereço MAC do remetente da requisição (que estava no pacote de Requisição), ele pode enviar a **Resposta ARP** diretamente de volta para o solicitante. Esta resposta é um pacote **unicast**, o que significa que ela é enviada para um único endereço MAC de destino específico (o do solicitante), evitando que os outros dispositivos da rede precisem processar uma resposta que não lhes diz respeito.
-    
-
+- **Solicitação ARP (ARP Request) - Broadcast**: Quando um dispositivo precisa descobrir um endereço MAC para um IP que não está em sua tabela, ele pergunta para _todos_ na rede local. 
+- **Resposta ARP (ARP Reply) - Unicast**: O dispositivo que possui o endereço IP alvo recebe a Requisição ARP. Como ele agora sabe o endereço MAC do remetente da requisição, ele pode enviar a **Resposta ARP** diretamente de volta para o solicitante. 
 ### Roteador Possui Tabelas ARP para Cada Rede Conectada a Ele!
 
 Este é um ponto crucial para entender como os roteadores funcionam na Camada de Enlace:
