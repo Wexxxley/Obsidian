@@ -61,42 +61,60 @@ Cada Nó IP (Host, Roteador) Numa LAN Tem um Módulo e Uma Tabela ARP
 - **Tipo**: Este campo indica qual protocolo da camada superior está encapsulado nos "Dados".
 	- O pacote ARP e o IP possuem diferentes sinalizações.
 - **Dados**: Esta é a área onde o **Pacote ARP** ou IP é inserido.
-- **CRC**: Uma sequência de bits calculada a partir de todos os campos anteriores do quadro. O receptor recalcula o CRC e o compara com o valor recebido. Se forem diferentes, indica que houve um erro na transmissão do quadro.
-    
+- **CRC**: Uma sequência de bits calculada a partir de todos os campos anteriores do quadro. O receptor recalcula o CRC e o compara com o valor recebido. 
 
 ---
+### **4. ARP casos complexos**
 
-### Endereço de Destino em uma Solicitação é FFFFFFFFFFFF.
+Máquina A (na Rede 1) Quer Falar com Máquina B (na Rede 2)
 
-Esta frase no canto superior direito reforça um ponto crucial:
-
-- Em uma **Requisição ARP**, o objetivo é descobrir o endereço MAC de um dispositivo cujo IP você conhece, mas cujo MAC você _não_ conhece.
+1. **A cria o pacote IP com origem A, destino B.**
+    - **Ponto Chave**: A máquina A, ao verificar o endereço IP de destino (B), percebe que B _não está na mesma rede local_. Como ela sabe disso? Comparando o endereço IP de destino com sua própria máscara de sub-rede e o endereço IP do gateway padrão configurado.
+    - Como B está em outra rede, A não tenta descobrir o MAC de B diretamente. Em vez disso, A precisa enviar o pacote para seu **gateway padrão** (o roteador R).
+    - Então, A executa um processo ARP: ele envia uma Requisição ARP perguntando: "Quem tem o IP `111.111.111.110`?".
+    - O roteador R (o gateway padrão de A) responde com seu endereço MAC para aquela interface.
+2. **A cria um quadro Ethernet com o endereço físico de R como destino, o quadro Ethernet contém o datagrama IP de A para B.**
     
-- Como você não sabe para quem enviar a pergunta, a Requisição ARP é enviada para o **endereço MAC de broadcast (`FF:FF:FF:FF:FF:FF`)**. Isso assegura que todos os dispositivos na rede local recebam a Requisição e possam verificar se o IP perguntado pertence a eles.
-    
-
-Em suma, esta imagem ilustra perfeitamente como o protocolo ARP preenche a lacuna entre os endereços IP (lógicos, de rede) e os endereços MAC (físicos, de enlace), permitindo que os dispositivos se encontrem e se comuniquem dentro de uma mesma rede local através do encapsulamento em quadros Ethernet.
-
-
-
-- **Comunicação com dispositivos fora da rede local**: Se o Dispositivo A quer enviar dados para um Dispositivo C que está em outra rede, ele não usará o ARP para descobrir o MAC do Dispositivo C. Em vez disso, ele usará o ARP para descobrir o endereço MAC do seu **Gateway Padrão** (o roteador que conecta sua rede local à internet ou a outras redes). O roteador, então, assume a responsabilidade de encaminhar o pacote para o destino final.
-    
-- **Proxy ARP**: Um roteador pode responder a Requisições ARP em nome de um dispositivo em outra sub-rede para o qual ele pode rotear o tráfego. Isso faz com que os dispositivos pareçam estar na mesma rede local, mesmo não estando.
-    
-- **ARP Gratuito (Gratuitous ARP)**: Um dispositivo pode enviar uma Resposta ARP não solicitada (sem ter recebido uma Requisição) para anunciar seu próprio endereço IP e MAC para a rede. Isso é útil para:
-    
-    - Detectar conflitos de IP (se outro dispositivo responder com o mesmo IP).
+    - Agora que A tem o endereço MAC do roteador R, ele pode construir o **quadro Ethernet** (Camada de Enlace).
         
-    - Atualizar o cache ARP dos outros dispositivos após uma mudança de endereço IP ou um failover.
+    - O **endereço MAC de destino** do quadro Ethernet será o MAC do **roteador R** (o próximo salto).
         
-
-### Importância e Implicações de Segurança:
-
-O ARP é vital para a comunicação em redes locais. Sem ele, os administradores teriam que configurar manualmente tabelas de mapeamento IP-MAC em cada dispositivo, o que seria impraticável.
-
-No entanto, o ARP é um protocolo que opera "na base da confiança". Uma Requisição ARP espera uma Resposta ARP válida, mas não há autenticação. Isso o torna vulnerável a ataques como:
-
-- **ARP Spoofing (Envenenamento de Cache ARP)**: Um atacante envia respostas ARP falsas para enganar os dispositivos da rede, fazendo-os associar o IP de outro dispositivo (ou do gateway) ao MAC do atacante. Isso pode levar a ataques "Man-in-the-Middle" (o atacante intercepta todo o tráfego), negação de serviço, etc.
+    - O **endereço MAC de origem** será o MAC da máquina A.
+        
+    - Dentro da parte de "Dados" (payload) deste quadro Ethernet está o **datagrama IP original**, que tem o endereço IP de origem A e o endereço IP de destino B.
+        
+    - A máquina A envia este quadro para o roteador R.
+        
+3. **A camada de enlace de R recebe o quadro Ethernet enviado por A.**
     
-
-Em resumo, o ARP é o "agente de busca" da rede local, que permite que os dispositivos encontrem uns aos outros fisicamente com base em seus endereços lógicos, facilitando a comunicação diária que consideramos tão natural.
+    - A interface do roteador R que está conectada à Rede de A recebe o quadro Ethernet.
+        
+    - O roteador verifica o endereço MAC de destino do quadro. Como é o seu próprio endereço MAC, ele aceita o quadro.
+        
+4. **R remove o datagrama IP do quadro Ethernet, verifica que ele se destina a B.**
+    
+    - O roteador R desencapsula o quadro Ethernet, removendo os cabeçalhos da Camada de Enlace.
+        
+    - Ele agora tem o **datagrama IP original**.
+        
+    - O roteador examina o **endereço IP de destino (B)** no datagrama IP. Ele consulta sua **tabela de roteamento** (na Camada de Rede) para determinar a melhor rota para o endereço IP de B. A tabela de roteamento dirá a R por qual de suas interfaces o pacote deve sair para chegar à rede de B.
+        
+5. **R usa ARP para obter o endereço físico de B.**
+    
+    - **Ponto Crítico**: O roteador R agora sabe que o pacote precisa ir para a Rede 2 e que o destino final é B. Se B for um dispositivo diretamente conectado àquela outra interface do roteador (na Rede 2), o roteador precisará do endereço MAC de B.
+        
+    - Então, R inicia um novo processo ARP, **nesta outra rede (Rede 2)**. Ele envia uma Requisição ARP na Rede 2 perguntando: "Quem tem o IP de B?".
+        
+    - A máquina B responde com seu endereço MAC.
+        
+6. **R cria quadro contendo um datagrama de A para B e envia para B.**
+    
+    - Com o endereço MAC de B em mãos, o roteador R agora cria um **novo quadro Ethernet** (ou o tipo de quadro apropriado para a Rede 2, se não for Ethernet).
+        
+    - O **endereço MAC de destino** deste _novo_ quadro será o MAC da máquina **B**.
+        
+    - O **endereço MAC de origem** será o MAC da interface do próprio roteador R que está conectada à Rede 2.
+        
+    - Dentro desse novo quadro ainda estará o **datagrama IP original (de A para B)**.
+        
+    - O roteador R envia este quadro diretamente para a máquina B.
