@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pyhon/FastAPI/7_Segurança/3_Criando endpoint de autenticação.md",
+                "file": "Inglês/2_Simple past.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Criando endpoint de autenticação"
+              "title": "2_Simple past"
             }
           }
         ]
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pyhon/FastAPI/7_Segurança/3_Criando endpoint de autenticação.md",
+                "file": "Inglês/2_Simple past.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 3_Criando endpoint de autenticação"
+              "title": "Sumário de 2_Simple past"
             }
           }
         ]
@@ -207,6 +207,9 @@
   },
   "active": "728afa627c963eec",
   "lastOpenFiles": [
+    "Inglês/1_Simple present.md",
+    "Inglês/2_Simple past.md",
+    "Pyhon/FastAPI/7_Segurança/3_Criando endpoint de autenticação.md",
     "attachments/Pasted image 20250627131312.png",
     "Pyhon/FastAPI/7_Segurança/4_Refresh Token.md",
     "attachments/Pasted image 20250627130747.png",
@@ -223,8 +226,6 @@
     "attachments/Pasted image 20250626192656.png",
     "Pyhon/FastAPI/9_Tornando asyncrono.md",
     "attachments/Pasted image 20250626190850.png",
-    "attachments/Pasted image 20250626185952.png",
-    "Pyhon/FastAPI/7_Segurança/3_Criando endpoint de autenticação.md",
     "Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
     "Pyhon/FastAPI/7_Segurança/1_Token JWT.md",
     "Pyhon/Filtros pymongo.md",
@@ -245,7 +246,6 @@
     "FrontEnd/2_CSS/3_Formulário.md",
     "FrontEnd/2_CSS/2_Box model.md",
     "FrontEnd/2_CSS/1_CSS introdução.md",
-    "Pyhon/FastAPI/2_Validação.md",
     "Algorítmos e Estruturas de dados/Ordenação",
     "Pyhon/FastAPI/7_Segurança",
     "FrontEnd/4_Express",
