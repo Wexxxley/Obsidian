@@ -2,8 +2,7 @@
 
 ---
 
-The Simple past is used to describe actions that happen regularly, habitually, or repeatedly in the past.
-
+The **Simple Past** is used to describe actions that **started and finished at a specific time in the past**.
 ### **Verb to be** 
 | Pronome  | Afirmativa    | Negativa         | Interrogativa  |
 | -------- | ------------- | ---------------- | -------------- |
