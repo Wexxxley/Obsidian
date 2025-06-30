@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LinkedList vs ArrayList.md",
+                "file": "Git and github/Git and github.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LinkedList vs ArrayList"
+              "title": "Git and github"
             }
           }
         ],
@@ -50,13 +50,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LinkedList vs ArrayList.md",
+                "file": "Git and github/Git and github.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de LinkedList vs ArrayList"
+              "title": "Sumário de Git and github"
             }
           }
         ]
@@ -222,8 +222,8 @@
   },
   "active": "0e789ae27740a8f1",
   "lastOpenFiles": [
-    "Inglês/Verb to be.md",
     "LinkedList vs ArrayList.md",
+    "Inglês/Verb to be.md",
     "Ficha treino.md",
     "Inglês/2_Simple past.md",
     "Inglês/1_Simple present.md",
