@@ -13,13 +13,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
+                "file": "Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 2_Adaptadores"
+              "title": "Sumário de 3_MAC e ARP"
             }
           },
           {
@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
+                "file": "Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Adaptadores"
+              "title": "3_MAC e ARP"
             }
           }
         ],
@@ -200,6 +200,8 @@
   },
   "active": "2cc1c9ec30116d07",
   "lastOpenFiles": [
+    "Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
+    "Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
     "Redes de computadores/5_Camada de enlace/1_Serviços da camada de enlace.md",
     "Inglês/Verb to be.md",
     "Inglês/2_Simple past.md",
@@ -211,12 +213,10 @@
     "attachments/Pasted image 20250627131312.png",
     "Pyhon/FastAPI/7_Segurança/4_Refresh Token.md",
     "attachments/Pasted image 20250627130747.png",
-    "Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
     "attachments/Pasted image 20250627120715.png",
     "attachments/Pasted image 20250627120308.png",
     "attachments/Pasted image 20250627115648.png",
     "attachments/Pasted image 20250627115140.png",
-    "Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
     "attachments/Pasted image 20250627100949.png",
     "Pyhon/FastAPI/10_Tornando assíncrono.md",
     "attachments/Pasted image 20250626194023.png",
