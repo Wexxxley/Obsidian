@@ -1,15 +1,11 @@
 
+
 ---
 ### **1. Função da placa de rede** 
-O coração da comunicação é o **adaptador**, também conhecido como Placa de Interface de Rede (NIC). A Camada de Enlace de Dados é **implementada diretamente nesse adaptador**.
-- **Cartão Ethernet**: Tipo de NIC para redes cabeadas.
-- **Cartão PCMCIA**: Um tipo mais antigo de adaptador, usado principalmente em laptops para diversas funções, incluindo rede.
-- **Cartão 802.11**: Refere-se a um adaptador Wi-Fi.
+O coração da comunicação é o **adaptador**, também conhecido como Placa de Interface de Rede (NIC).
 
-Esses adaptadores são a ponte entre o seu computador e o meio físico da rede (cabo ou ar).
-
+Esses adaptadores são a ponte entre o seu computador e o meio físico da rede.
 ![[Pasted image 20250627100949.png]]
-
 **Lado Transmissor:**
 1. **Encapsula o datagrama em um quadro:**
     - Quando seu computador quer enviar dados, a **Camada de Rede** entrega um **datagrama** para a **Camada de Enlace**.
