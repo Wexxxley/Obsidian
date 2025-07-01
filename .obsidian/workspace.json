@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git and github/Git and github.md",
+                "file": "Inglês/2_Simple past.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git and github"
+              "title": "2_Simple past"
             }
           }
         ],
@@ -50,13 +50,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git and github/Git and github.md",
+                "file": "Inglês/2_Simple past.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Git and github"
+              "title": "Sumário de 2_Simple past"
             }
           }
         ]
@@ -222,6 +222,7 @@
   },
   "active": "0e789ae27740a8f1",
   "lastOpenFiles": [
+    "Git and github/Git and github.md",
     "LinkedList vs ArrayList.md",
     "Inglês/Verb to be.md",
     "Ficha treino.md",
@@ -260,7 +261,6 @@
     "FrontEnd/1_HTML/1_Html básico.md",
     "FrontEnd/3_JavaScript/10_Acessando apis",
     "FrontEnd/2_CSS/5_Positions.md",
-    "FrontEnd/2_CSS/4_Flexbox.md",
     "Algorítmos e Estruturas de dados/Ordenação",
     "Pyhon/FastAPI/7_Segurança",
     "FrontEnd/4_Express",
