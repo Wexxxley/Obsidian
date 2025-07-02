@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
+                "file": "Algorítmos e Estruturas de dados/Ordenação/4_Merge sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Topologias de rede"
+              "title": "4_Merge sort"
             }
           }
         ],
@@ -200,11 +200,14 @@
   },
   "active": "2cc1c9ec30116d07",
   "lastOpenFiles": [
+    "Algorítmos e Estruturas de dados/Ordenação/3_Insertion Sort.md",
+    "attachments/Pasted image 20250702064652.png",
+    "Algorítmos e Estruturas de dados/Ordenação/4_Merge sort.md",
+    "Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
     "attachments/Pasted image 20250701164839.png",
     "attachments/Pasted image 20250701164558.png",
     "attachments/Pasted image 20250701164252.png",
     "Redes de computadores/5_Camada de enlace/4_Protocolos de acesso múltiplo.md",
-    "Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
     "Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
     "Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
     "Redes de computadores/5_Camada de enlace/1_Serviços da camada de enlace.md",
@@ -222,9 +225,7 @@
     "attachments/Pasted image 20250627120308.png",
     "attachments/Pasted image 20250627115648.png",
     "attachments/Pasted image 20250627115140.png",
-    "attachments/Pasted image 20250627100949.png",
     "Pyhon/FastAPI/10_Tornando assíncrono.md",
-    "attachments/Pasted image 20250626194023.png",
     "Pyhon/FastAPI/9_Tornando asyncrono.md",
     "Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
     "Pyhon/FastAPI/7_Segurança/1_Token JWT.md",
@@ -234,10 +235,8 @@
     "Pyhon/MondoDB.md",
     "Pyhon/SGDB's noSQL.md",
     "Pyhon/FastAPI/8_Servindo arquivos estáticos.md",
-    "Algorítmos e Estruturas de dados/Ordenação/Merge sort.md",
     "Algorítmos e Estruturas de dados/Ordenação/1_Bubble sorte.md",
     "Algorítmos e Estruturas de dados/Ordenação/2_Selection sort.md",
-    "FrontEnd/3_JavaScript/10_Acessando apis/2_Acessando professores.md",
     "FrontEnd/3_JavaScript/10_Acessando apis",
     "Algorítmos e Estruturas de dados/Ordenação",
     "Pyhon/FastAPI/7_Segurança",
