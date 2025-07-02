@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/5_Camada de enlace/5_Ethernet.md",
+                "file": "Redes de computadores/5_Camada de enlace/4_Ethernet e Protocolos de acesso múltiplo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Ethernet"
+              "title": "4_Ethernet e Protocolos de acesso múltiplo"
             }
           }
         ],
@@ -202,6 +202,7 @@
   "lastOpenFiles": [
     "Redes de computadores/5_Camada de enlace/6_Topologias de rede.md",
     "Redes de computadores/5_Camada de enlace/5_Ethernet.md",
+    "Redes de computadores/5_Camada de enlace/4_Ethernet e Protocolos de acesso múltiplo.md",
     "Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
     "Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
     "Excalidraw/Drawing 2025-05-12 19.15.04.excalidraw.md",
@@ -214,7 +215,6 @@
     "attachments/Pasted image 20250701164839.png",
     "attachments/Pasted image 20250701164558.png",
     "attachments/Pasted image 20250701164252.png",
-    "Redes de computadores/5_Camada de enlace/4_Protocolos de acesso múltiplo.md",
     "Redes de computadores/5_Camada de enlace/1_Serviços da camada de enlace.md",
     "Inglês/Verb to be.md",
     "Inglês/2_Simple past.md",
