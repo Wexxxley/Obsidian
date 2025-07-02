@@ -4,40 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7088f5cc0e2d9dc0",
+        "id": "1beaa7bb5e5380f0",
         "type": "tabs",
         "children": [
           {
-            "id": "fcdc3cfab43d88bc",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Sumário de 5_Topologias de rede"
-            }
-          },
-          {
-            "id": "2cc1c9ec30116d07",
+            "id": "c05ca5264eb924b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/5_Camada de enlace/7_Hubs.md",
+                "file": "Redes de computadores/5_Camada de enlace/7_Hubs e Switches.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_Hubs"
+              "title": "7_Hubs e Switches"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204.51240158081055
+    "width": 208.51240158081055
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -198,15 +182,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c52f17c64e87cbf",
+  "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "Redes de computadores/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
+    "Sem título.canvas",
+    "Redes de computadores/4_Camada de rede/15_Tipos de filas.md",
+    "Redes de computadores/5_Camada de enlace/1_Serviços da camada de enlace.md",
+    "Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
+    "Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
+    "Redes de computadores/4_Camada de rede/10_Roteamento Hierárquico.md",
+    "Redes de computadores/4_Camada de rede/11_Roteamento INTRA AS.md",
+    "Redes de computadores/4_Camada de rede/12_Roteamento INTER AS.md",
+    "Redes de computadores/5_Camada de enlace/7_Hubs e Switches.md",
     "attachments/Pasted image 20250702154313.png",
     "Redes de computadores/5_Camada de enlace/6_Topologias de rede.md",
-    "Redes de computadores/5_Camada de enlace/7_Hubs.md",
     "Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
     "Redes de computadores/5_Camada de enlace/4_Ethernet e Protocolos de acesso múltiplo.md",
     "Redes de computadores/5_Camada de enlace/5_Ethernet.md",
-    "Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
     "Excalidraw/Drawing 2025-05-12 19.15.04.excalidraw.md",
     "Excalidraw/Drawing 2025-05-12 19.13.43.excalidraw.md",
     "Banco de dados/2_Contato inicial com PostgreSQL.md",
@@ -217,7 +209,6 @@
     "attachments/Pasted image 20250701164839.png",
     "attachments/Pasted image 20250701164558.png",
     "attachments/Pasted image 20250701164252.png",
-    "Redes de computadores/5_Camada de enlace/1_Serviços da camada de enlace.md",
     "Inglês/Verb to be.md",
     "Inglês/2_Simple past.md",
     "Git and github/Git and github.md",
@@ -226,16 +217,10 @@
     "Inglês/1_Simple present.md",
     "Pyhon/FastAPI/7_Segurança/3_Criando endpoint de autenticação.md",
     "attachments/Pasted image 20250627131312.png",
-    "Pyhon/FastAPI/7_Segurança/4_Refresh Token.md",
     "attachments/Pasted image 20250627130747.png",
     "attachments/Pasted image 20250627120715.png",
     "attachments/Pasted image 20250627120308.png",
     "attachments/Pasted image 20250627115648.png",
-    "attachments/Pasted image 20250627115140.png",
-    "Pyhon/FastAPI/10_Tornando assíncrono.md",
-    "Pyhon/FastAPI/9_Tornando asyncrono.md",
-    "Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
-    "Pyhon/FastAPI/7_Segurança/1_Token JWT.md",
     "Redes de computadores/5_Camada de enlace",
     "Redes de computadores/4_Camada de rede/Sem título",
     "FrontEnd/3_JavaScript/10_Acessando apis",
@@ -245,7 +230,6 @@
     "FrontEnd/5_Figma",
     "Sem título",
     "Algorítmos e Estruturas de dados/Grafos",
-    "Algorítmos e Estruturas de dados",
-    "Sem título.canvas"
+    "Algorítmos e Estruturas de dados"
   ]
 }

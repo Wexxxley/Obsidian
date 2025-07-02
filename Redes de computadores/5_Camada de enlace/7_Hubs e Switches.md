@@ -1,6 +1,7 @@
 
 ---
 
+### **Hub**
 Um hub opera na **Camada 1 (Física)**. Um hub é basicamente um repetidor de sinais elétricos. Ele não "entende" os dados da mesma forma que um switch ou roteador.
 
 - **Broadcast**: Quando um bit chega a uma das portas do hub, ele é imediatamente copiado e enviado para _todas_ as outras portas conectadas. Isso significa que todos os dispositivos conectados ao hub recebem cada bit de dados transmitido por qualquer outro dispositivo no mesmo hub.
@@ -16,38 +17,15 @@ Um hub opera na **Camada 1 (Física)**. Um hub é basicamente um repetidor de si
 Um switch é um **dispositivo de camada de enlace**. Diferente dos hubs, os switches são capazes de "entender" e processar os quadros Ethernet.
 
 - **Armazena e encaminha quadros Ethernet:** Ao receber um quadro de dados, o switch o armazena temporariamente antes de tomar uma decisão de encaminhamento.
-- **Unicast**: Um switch lê o **endereço MAC** de destino e encaminha o quadro apenas para a porta específica. Isso cria "micro-segmentos", onde cada porta se torna um domínio de colisão individual.
+- **Unicast**: Um switch lê o **end MAC** de destino e encaminha o quadro apenas para a porta específica. Isso cria segmentos, onde cada porta se torna um domínio de colisão individual.
+- **Transparente:** Isso significa que os computadores conectados à rede não "percebem" a presença do switch; eles simplesmente enviam seus dados, e o switch cuida do encaminhamento. Não há necessidade de configuração
 
-**2. Transparência e Facilidade de Uso:**
+[[3_MAC e ARP]]
+**Tabela do Switch:**
+A inteligência de um switch reside em sua capacidade de aprender as localizações dos dispositivos conectados a ele. Para isso, ele mantém uma **tabela**, a tabela MAC.
 
-- **Transparente:** A operação de um switch é transparente para os dispositivos finais (hospedeiros ou "hosts"). Isso significa que os computadores conectados à rede não "percebem" a presença do switch; eles simplesmente enviam seus dados, e o switch cuida do encaminhamento inteligente. Não há necessidade de configurar os dispositivos finais para funcionar com o switch.
-    
-- **Plug-and-play e auto-aprendizado:** A maioria dos switches (especialmente os não gerenciáveis) são "plug-and-play". Isso significa que eles funcionam automaticamente assim que são conectados, sem a necessidade de configuração manual. Essa capacidade é possível devido ao seu recurso de "auto-aprendizado".
-    
-
-**3. Como um Switch "Aprende" e a Tabela de Switch (MAC Address Table):**
-
-A inteligência de um switch reside em sua capacidade de aprender as localizações dos dispositivos conectados a ele. Para isso, ele mantém uma **tabela de switch**, também conhecida como Tabela MAC ou Tabela CAM (Content Addressable Memory).
-
-- **Estrutura da Entrada na Tabela:** Cada entrada na tabela de switch contém tipicamente:
-    
-    - **Endereço MAC:** O endereço físico exclusivo de um dispositivo de rede.
-        
-    - **Interface:** A porta física do switch à qual o dispositivo com aquele endereço MAC está conectado.
-        
-    - **Marca de Tempo (Timestamp):** Um registro de quando a entrada foi aprendida ou a última vez que o dispositivo foi visto.
-        
-- **Como o Aprendizado Acontece:** Quando um switch recebe um quadro de dados em uma de suas interfaces, ele automaticamente **"aprende" a localização do transmissor**.
-    
-    - Ele lê o **endereço MAC de origem** do quadro que acabou de receber.
-        
-    - Ele associa esse endereço MAC de origem à interface (porta) pela qual o quadro chegou.
-        
-    - Ele registra essa associação (par transmissor/localização) na sua tabela de switch, junto com uma marca de tempo. Assim, o switch sabe qual host pode ser alcançado através de suas interfaces.
-        
-- **Manutenção da Tabela:**
-    
-    - As **entradas expiradas na tabela são descartadas**. Cada entrada tem um tempo de vida (TTL - Time To Live), que pode ser, por exemplo, 60 minutos. Se um dispositivo não transmitir por esse período, sua entrada é removida, mantendo a tabela atualizada e eficiente.
+- **Como o Aprendizado Acontece:** Quando um switch recebe um quadro ele automaticamente aprende a localização do transmissor.
+- Cada entrada tem um tempo de vida, que pode ser, por exemplo, 60 minutos. Se um dispositivo não transmitir por esse período, sua entrada é removida, mantendo a tabela atualizada e eficiente.
         
 
 **4. Como um Switch Encaminha um Quadro (Lógica de Encaminhamento):**
