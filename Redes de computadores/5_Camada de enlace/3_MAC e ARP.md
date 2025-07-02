@@ -45,7 +45,7 @@ Cada Nó IP (Host, Roteador) numa LAN tem um módulo e uma tabela ARP
 **Quadro de resposta**
 ![[Pasted image 20250627120715.png]]
 
-- **Preâmbulo e SFD:**
+- **Preâmbulo e**
     - **Preâmbulo**: Usada para sincronizar os relógios do transmissor e do receptor.
     - **SFD**: Sinaliza o início real do quadro.
 - **Endereço de Destino**:

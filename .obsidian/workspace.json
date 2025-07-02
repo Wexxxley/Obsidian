@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorítmos e Estruturas de dados/Ordenação/4_Merge sort.md",
+                "file": "Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Merge sort"
+              "title": "3_MAC e ARP"
             }
           }
         ],
@@ -200,16 +200,20 @@
   },
   "active": "2cc1c9ec30116d07",
   "lastOpenFiles": [
+    "Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
+    "Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
+    "Excalidraw/Drawing 2025-05-12 19.15.04.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-12 19.13.43.excalidraw.md",
+    "Banco de dados/2_Contato inicial com PostgreSQL.md",
+    "Banco de dados/1_Início.md",
+    "Algorítmos e Estruturas de dados/Ordenação/4_Merge sort.md",
     "Algorítmos e Estruturas de dados/Ordenação/3_Insertion Sort.md",
     "attachments/Pasted image 20250702064652.png",
-    "Algorítmos e Estruturas de dados/Ordenação/4_Merge sort.md",
-    "Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
     "attachments/Pasted image 20250701164839.png",
     "attachments/Pasted image 20250701164558.png",
     "attachments/Pasted image 20250701164252.png",
     "Redes de computadores/5_Camada de enlace/4_Protocolos de acesso múltiplo.md",
     "Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
-    "Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
     "Redes de computadores/5_Camada de enlace/1_Serviços da camada de enlace.md",
     "Inglês/Verb to be.md",
     "Inglês/2_Simple past.md",
@@ -234,9 +238,6 @@
     "Redes de computadores/4_Camada de rede/Sem título",
     "Pyhon/MondoDB.md",
     "Pyhon/SGDB's noSQL.md",
-    "Pyhon/FastAPI/8_Servindo arquivos estáticos.md",
-    "Algorítmos e Estruturas de dados/Ordenação/1_Bubble sorte.md",
-    "Algorítmos e Estruturas de dados/Ordenação/2_Selection sort.md",
     "FrontEnd/3_JavaScript/10_Acessando apis",
     "Algorítmos e Estruturas de dados/Ordenação",
     "Pyhon/FastAPI/7_Segurança",

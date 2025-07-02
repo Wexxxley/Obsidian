@@ -1,6 +1,5 @@
 
 ---
-
 ### **Topologia em barramento**
 - Barato e economiza cabo
 - Um problema no barramento (seja la onde for) afeta todas as máquinas.
