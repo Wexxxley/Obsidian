@@ -1,6 +1,5 @@
 
----
- 
+--- 
 ### **Ethernet**
  Ethernet é a tecnologia mais utilizada para construir redes locais LAN com fio.
 - Simples e barata.

@@ -6,10 +6,11 @@
 - Broadcast.
 ![[Pasted image 20250701164558.png]]
 ### **Topologia estrela**
-- Possui um elemento central e todos os nós estão conectados a ele.
+- Possui um elemento central (hub ou switch) e todos os nós estão conectados a ele.
 - Fonte única de falha.
 - Gasta mais cabo
 - Taxa mais alta de tranferencia.
+- 100 m é a distância máxima (cabos) entre os nós e o hub.
 
 ![[Pasted image 20250701164252.png]]
 ### **Topologia em anel**

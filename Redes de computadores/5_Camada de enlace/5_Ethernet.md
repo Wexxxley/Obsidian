@@ -1,9 +1,6 @@
 
 ---
 
-
-
-
 ### **Processo de Transmissão com CSMA/CD:**
 A Ethernet, em suas configurações mais antigas (como as baseadas em barramento ou hubs), utiliza um protocolo de acesso ao meio chamado **CSMA/CD
 
