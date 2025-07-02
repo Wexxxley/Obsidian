@@ -30,18 +30,11 @@ A inteligência de um switch reside em sua capacidade de aprender as localizaç�
 **Lógica de Encaminhamento:**
 Quando um switch recebe um quadro Ethernet, ele segue uma lógica precisa para decidir como encaminhá-lo:
 
-1. **Indexa a Tabela:** O switch primeiro verifica o **endereço MAC de destino** no cabeçalho do quadro. Ele usa esse endereço para pesquisar em sua tabela de switch.
-    
-2. **Se a Entrada for Encontrada para o Destino:**
-    
-    - **Se o endereço MAC de destino for encontrado na tabela**, o switch sabe exatamente em qual interface o dispositivo de destino está conectado.
-        
-    - **Transmite o quadro:** O switch então encaminha o quadro _somente_ para essa interface específica.
-        
-    - **Descarte se na mesma interface:** Há uma condição especial: se o quadro chegou em uma interface e o endereço MAC de destino também está associado à _mesma_ interface na tabela, o switch simplesmente **descarta o quadro**. Isso ocorre porque o quadro já alcançou o segmento de rede onde o destino reside, e não há necessidade de retransmiti-lo (um cenário comum em redes com múltiplos switches ou em certas configurações).
-        
-    - **Reencaminha se em outra interface:** Caso contrário (se o destino está em uma interface diferente da de origem), ele reencaminha o quadro na interface indicada na tabela.
-        
+1. O switch primeiro verifica o **endereço MAC de destino** no cabeçalho do quadro. Ele usa esse endereço para pesquisar em sua tabela.
+2. **Se a Entrada for Encontrada:**
+    - O switch então encaminha o quadro _somente_ para essa interface específica.
+    - Se o quadro chegou em uma interface e o endereço MAC de destino também está associado à _mesma_ interface, o switch simplesmente **descarta o quadro do buffer**. 
+    - Se o destino está em uma interface diferente da de origem, ele reencaminha o quadro na interface indicada na tabela.
 3. **Se Nenhuma Entrada for Encontrada para o Destino (Flood):**
     
     - **Inundação (Flood):** Se o switch **não encontrar o endereço MAC de destino** em sua tabela (porque é um dispositivo novo na rede ou a entrada expirou), ele não sabe onde enviar o quadro seletivamente. Nesse caso, ele entra em modo de **inundação (flood)**.
