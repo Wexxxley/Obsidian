@@ -13,13 +13,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes de computadores/5_Camada de enlace/4_Protocolos de acesso múltiplo.md",
+                "file": "Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 4_Protocolos de acesso múltiplo"
+              "title": "Sumário de 5_Topologias de rede"
             }
           },
           {
@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/5_Camada de enlace/4_Protocolos de acesso múltiplo.md",
+                "file": "Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Protocolos de acesso múltiplo"
+              "title": "5_Topologias de rede"
             }
           }
         ],
@@ -200,8 +200,12 @@
   },
   "active": "2cc1c9ec30116d07",
   "lastOpenFiles": [
-    "Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
+    "attachments/Pasted image 20250701164839.png",
+    "attachments/Pasted image 20250701164558.png",
+    "attachments/Pasted image 20250701164252.png",
     "Redes de computadores/5_Camada de enlace/4_Protocolos de acesso múltiplo.md",
+    "Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
+    "Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
     "Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
     "Redes de computadores/5_Camada de enlace/1_Serviços da camada de enlace.md",
     "Inglês/Verb to be.md",
@@ -221,9 +225,7 @@
     "attachments/Pasted image 20250627100949.png",
     "Pyhon/FastAPI/10_Tornando assíncrono.md",
     "attachments/Pasted image 20250626194023.png",
-    "attachments/Pasted image 20250626192656.png",
     "Pyhon/FastAPI/9_Tornando asyncrono.md",
-    "attachments/Pasted image 20250626190850.png",
     "Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
     "Pyhon/FastAPI/7_Segurança/1_Token JWT.md",
     "Pyhon/Filtros pymongo.md",
@@ -236,8 +238,6 @@
     "Algorítmos e Estruturas de dados/Ordenação/1_Bubble sorte.md",
     "Algorítmos e Estruturas de dados/Ordenação/2_Selection sort.md",
     "FrontEnd/3_JavaScript/10_Acessando apis/2_Acessando professores.md",
-    "FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando Users.md",
-    "FrontEnd/1_HTML/1_Html básico.md",
     "FrontEnd/3_JavaScript/10_Acessando apis",
     "Algorítmos e Estruturas de dados/Ordenação",
     "Pyhon/FastAPI/7_Segurança",
