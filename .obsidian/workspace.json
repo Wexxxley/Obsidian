@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pyhon/FastAPI/1_Introdução.md",
+                "file": "Pyhon/FastAPI/4_ORM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Introdução"
+              "title": "4_ORM"
             }
           }
         ]
@@ -184,6 +184,10 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "Pyhon/FastAPI/3_Logging.md",
+    "Pyhon/FastAPI/2_Validação.md",
+    "Pyhon/FastAPI/1_Introdução.md",
+    "Pyhon/FastAPI/5_Migrations.md",
     "Redes de computadores/5_Camada de enlace/7_Hubs e Switches.md",
     "Redes de computadores/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
     "Sem título.canvas",
@@ -212,10 +216,6 @@
     "Inglês/Verb to be.md",
     "Inglês/2_Simple past.md",
     "Git and github/Git and github.md",
-    "LinkedList vs ArrayList.md",
-    "Ficha treino.md",
-    "Inglês/1_Simple present.md",
-    "Pyhon/FastAPI/7_Segurança/3_Criando endpoint de autenticação.md",
     "attachments/Pasted image 20250627131312.png",
     "attachments/Pasted image 20250627130747.png",
     "attachments/Pasted image 20250627120715.png",
