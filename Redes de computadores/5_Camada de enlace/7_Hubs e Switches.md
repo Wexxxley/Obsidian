@@ -26,10 +26,8 @@ A inteligência de um switch reside em sua capacidade de aprender as localizaç�
 
 - **Como o Aprendizado Acontece:** Quando um switch recebe um quadro ele automaticamente aprende a localização do transmissor.
 - Cada entrada tem um tempo de vida, que pode ser, por exemplo, 60 minutos. Se um dispositivo não transmitir por esse período, sua entrada é removida, mantendo a tabela atualizada e eficiente.
-        
 
-**4. Como um Switch Encaminha um Quadro (Lógica de Encaminhamento):**
-
+**Lógica de Encaminhamento:**
 Quando um switch recebe um quadro Ethernet, ele segue uma lógica precisa para decidir como encaminhá-lo:
 
 1. **Indexa a Tabela:** O switch primeiro verifica o **endereço MAC de destino** no cabeçalho do quadro. Ele usa esse endereço para pesquisar em sua tabela de switch.
