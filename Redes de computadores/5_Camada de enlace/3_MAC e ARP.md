@@ -45,12 +45,11 @@ Cada Nó IP (Host, Roteador) numa LAN tem um módulo e uma tabela ARP
 **Quadro de resposta**
 ![[Pasted image 20250627120715.png]]
 
-- **Preâmbulo e**
-    - **Preâmbulo**: Usada para sincronizar os relógios do transmissor e do receptor.
-    - **SFD**: Sinaliza o início real do quadro.
+- **Preâmbulo**
+    - Usado para sincronizar os relógios do transmissor e do receptor.
 - **Endereço de Destino**:
     - Em uma **Requisição ARP**: Este campo é **FFFFFFFFFFFF**, que é o **end de broadcast MAC**.
-    - Em uma **Resposta ARP**: Este campo é o end MAC do dispositivo que fez a Requisição ARP.
+    - Em uma **Resposta ARP**: Este campo é o end MAC do dispositivo que fez a Requisição.
 - **Endereço de Origem**: O endereço MAC do dispositivo que está enviando o quadro.
 - **Tipo**: Este campo indica qual protocolo da camada superior está encapsulado nos "Dados".
 - **Dados**: Esta é a área onde o **Pacote ARP** ou IP é inserido.

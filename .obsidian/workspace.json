@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
+                "file": "Redes de computadores/5_Camada de enlace/5_Ethernet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_MAC e ARP"
+              "title": "5_Ethernet"
             }
           }
         ],
@@ -200,8 +200,10 @@
   },
   "active": "2cc1c9ec30116d07",
   "lastOpenFiles": [
+    "Redes de computadores/5_Camada de enlace/6_Topologias de rede.md",
+    "Redes de computadores/5_Camada de enlace/5_Ethernet.md",
+    "Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
     "Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
-    "Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
     "Excalidraw/Drawing 2025-05-12 19.15.04.excalidraw.md",
     "Excalidraw/Drawing 2025-05-12 19.13.43.excalidraw.md",
     "Banco de dados/2_Contato inicial com PostgreSQL.md",
@@ -213,7 +215,6 @@
     "attachments/Pasted image 20250701164558.png",
     "attachments/Pasted image 20250701164252.png",
     "Redes de computadores/5_Camada de enlace/4_Protocolos de acesso múltiplo.md",
-    "Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
     "Redes de computadores/5_Camada de enlace/1_Serviços da camada de enlace.md",
     "Inglês/Verb to be.md",
     "Inglês/2_Simple past.md",
@@ -237,7 +238,6 @@
     "Redes de computadores/5_Camada de enlace",
     "Redes de computadores/4_Camada de rede/Sem título",
     "Pyhon/MondoDB.md",
-    "Pyhon/SGDB's noSQL.md",
     "FrontEnd/3_JavaScript/10_Acessando apis",
     "Algorítmos e Estruturas de dados/Ordenação",
     "Pyhon/FastAPI/7_Segurança",
