@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 204.51240158081055
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -198,7 +198,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2cc1c9ec30116d07",
+  "active": "0c52f17c64e87cbf",
   "lastOpenFiles": [
     "attachments/Pasted image 20250702154313.png",
     "Redes de computadores/5_Camada de enlace/6_Topologias de rede.md",
