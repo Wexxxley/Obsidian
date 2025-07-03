@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_Redes de computadores/6_Camada Física/3_Caixas conectores - Tomadas.md",
+                "file": "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Caixas conectores - Tomadas"
+              "title": "4_Cabo coaxial"
             }
           }
         ]
@@ -193,9 +193,12 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250703195127.png",
+    "2_Redes de computadores/6_Camada Física/3_Caixas conectores - Tomadas.md",
+    "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
+    "attachments/Pasted image 20250703194355.png",
     "attachments/Pasted image 20250703194115.png",
     "attachments/Pasted image 20250703193850.png",
-    "2_Redes de computadores/6_Camada Física/3_Caixas conectores - Tomadas.md",
     "Excalidraw/Drawing 2025-05-12 19.15.04.excalidraw.md",
     "Excalidraw/Drawing 2025-05-12 19.13.43.excalidraw.md",
     "8_Aleatórios/LinkedList vs ArrayList (JAVA).md",
@@ -226,11 +229,8 @@
     "2_Redes de computadores/4_Camada de rede/10_Roteamento Hierárquico.md",
     "2_Redes de computadores/4_Camada de rede/11_Roteamento INTRA AS.md",
     "2_Redes de computadores/4_Camada de rede/12_Roteamento INTER AS.md",
-    "attachments/Pasted image 20250702154313.png",
     "2_Redes de computadores/5_Camada de enlace/6_Topologias de rede.md",
     "2_Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
-    "2_Redes de computadores/5_Camada de enlace/4_Ethernet e Protocolos de acesso múltiplo.md",
-    "attachments/Pasted image 20250702064652.png",
     "2_Redes de computadores/5_Camada de enlace",
     "Redes de computadores/4_Camada de rede/Sem título",
     "6_FrontEnd/3_JavaScript/10_Acessando apis",
