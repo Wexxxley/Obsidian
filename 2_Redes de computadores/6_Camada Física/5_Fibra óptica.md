@@ -1,24 +1,15 @@
 
 ---
-Com certeza! As duas imagens que você enviou se conectam perfeitamente. A primeira mostra a tecnologia fundamental, a **Fibra Óptica**, e a segunda mostra uma de suas aplicações mais impressionantes e vitais: os **Cabos Submarinos**.
 
-Vamos explicar a relação entre elas, começando pela tecnologia.
+A fibra óptica transmite os dados na forma de **pulsos de luz**. Em vez de usar eletricidade viajando por fios de cobre, ela usa luz viajando por filamentos finíssimos de vidro ou plástico.
+### **1. Como Funciona? O Princípio da Reflexão Interna Total**
+A luz uma vez dentro do núcleo da fibra, fica presa e viaja por quilômetros, fazendo curvas sem escapar. Isso acontece graças a um princípio da física chamado **Reflexão Interna Total**.
 
----
+O núcleo da fibra é revestido por uma camada de vidro com um índice de refração diferente. Isso faz com que a fronteira entre o núcleo e a casca funcione como um espelho perfeito, forçando a luz a ricochetear e continuar seu caminho pelo núcleo.
+![](../../attachments/Pasted%20image%2020250703200751.png)
 
-### Parte 1: A Tecnologia da Fibra Óptica (Imagem 1)
 
-A fibra óptica revolucionou as telecomunicações ao permitir a transmissão de dados na forma de **pulsos de luz**. Em vez de usar eletricidade viajando por fios de cobre, ela usa luz viajando por filamentos finíssimos de vidro ou plástico.
 
-#### Como Funciona? O Princípio da Reflexão Interna Total
-
-A "mágica" da fibra óptica é que a luz, uma vez dentro do núcleo da fibra, fica presa e viaja por quilômetros, fazendo curvas sem escapar. Isso acontece graças a um princípio da física chamado **Reflexão Interna Total**.
-
-O núcleo da fibra é revestido por uma camada de vidro com um índice de refração diferente (a "casca"). Isso faz com que a fronteira entre o núcleo e a casca funcione como um espelho perfeito, forçando a luz a ricochetear e continuar seu caminho pelo núcleo.
-
-#### A Estrutura de um Cabo Óptico (Explicando a Imagem)
-
-A primeira imagem mostra vários componentes de um sistema de fibra óptica:
 
 - **Estrutura do Cabo (diagrama inferior):** Um cabo óptico é muito mais do que apenas os filamentos de vidro.
     
