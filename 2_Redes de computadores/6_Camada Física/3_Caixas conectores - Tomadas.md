@@ -1,48 +1,22 @@
 
 
 ---
-**Tomadas de rede/conectores fêmea RJ-45**, são a parte mais visível de uma rede estruturada.
+, são a parte mais visível de uma rede estruturada.
 
-A relação entre essas tomadas, o Patch Panel e os Patch Cords é a base de como uma rede de computadores é organizada de forma profissional, flexível e durável.
+### **1. As Tomadas de Rede**
 
-Pense na fiação elétrica da sua casa para fazer uma analogia:
-
-- **Tomada de Rede** = É como a tomada elétrica na parede.
-    
-- **Patch Panel** = É como o quadro de disjuntores/caixa de força.
-    
-- **Patch Cord** = É como o cabo de força que você usa para ligar um aparelho na tomada.
-    
-
-Vamos detalhar a função de cada um e como eles se conectam.
-
----
-
-### 1. As Tomadas de Rede (O que está na sua imagem)
-
-As "caixas conectoras" ou tomadas de rede são o ponto final da fiação de rede em um ambiente, como uma sala ou escritório.
-
-- **Função:** Fornecer um ponto de conexão fixo e padronizado na parede para que um usuário possa conectar seu dispositivo (PC, impressora, Smart TV) à rede.
-    
-- **O que há por trás:** Por trás dessa tomada, existe um cabo de rede longo e rígido (chamado de cabo de instalação ou "cabo permanente") que passa por dentro de paredes, forros ou canaletas. Esse cabo conecta a tomada de rede até uma sala central de equipamentos (geralmente um rack).
-    
-
-### 2. O Patch Panel (O Ponto Central de Organização)
-
-O Patch Panel **não está na sua imagem**, mas é a peça central que se conecta a todas as tomadas.
-
-- **Função:** É um painel que fica em um rack de equipamentos e serve como um grande "espelho" de todas as tomadas de rede do prédio. Cada porta no Patch Panel corresponde a uma tomada em algum lugar da edificação.
-    
-- **Como funciona:** A outra ponta daquele cabo de rede rígido que saiu da tomada da parede é conectada na parte de trás do Patch Panel.
-    
-- **Benefício:** Em vez de ter dezenas de cabos longos e bagunçados chegando diretamente no switch, você tem um painel limpo e organizado. Todas as conexões da infraestrutura terminam ali.
-    
-
-### 3. O Patch Cord (Os Cabos de Conexão Flexíveis)
-
-O Patch Cord é o cabo de rede mais comum que conhecemos, curto e flexível, com conectores macho (RJ-45) nas duas pontas.
-
-- **Função:** Fazer as conexões finais e "ativar" os links.
+As **Caixas conectoras/Tomadas de rede/Conectores fêmea RJ-45** são o ponto final da fiação de rede em um ambiente, como uma sala.
+- A função é **fornecer um ponto de conexão fixo** e padronizado na parede para que um usuário possa conectar seu dispositivo à rede.
+- Por trás dessa tomada, existe um cabo de rede chamado de cabo de instalação que passa por dentro de paredes. Esse cabo conecta a tomada de rede até uma sala central de equipamentos
+![200](../../attachments/Pasted%20image%2020250703193850.png)
+### **2. O Patch Panel**
+- É um painel que fica em um rack de equipamentos. Cada porta no Patch Panel corresponde a uma tomada em algum lugar da edificação.
+- A outra ponta daquele cabo de rede rígido que saiu da tomada da parede é conectada na parte de trás do Patch Panel.
+- Em vez de ter dezenas de cabos longos e bagunçados chegando diretamente no switch, você tem um painel limpo e organizado. Todas as conexões da infraestrutura terminam ali.
+  ![250](../../attachments/Pasted%20image%2020250703194115.png)
+### **3. O Patch Cord**
+- É o cabo de rede curto e flexível com conectores macho RJ-45 nas duas pontas.
+- A função é fazer as conexões finais e "ativar".
     
 - **Onde é usado (em dois lugares):**
     
