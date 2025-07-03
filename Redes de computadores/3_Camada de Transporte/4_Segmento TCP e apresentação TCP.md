@@ -2,14 +2,14 @@
 
 ---
 # Segmento tcp
-![[Pasted image 20250509134237.png]]
+![Pasted image 20250509134237](../../attachments/Pasted%20image%2020250509134237.png)
 
 - O campo de opções, opcional e de comprimento variável, é usado quando um remetente e um destinatário negociam o MSS, ou como um fator de aumento de escala da janela para utilização em redes de alta velocidade. 
 - O campo de **flag** contém 6 bits. O bit **ACK** é usado para indicar se o valor carregado no campo de reconhecimento é válido, isto é, se o segmento contém um reconhecimento para um segmento que foi recebido com sucesso. 
 
 ---
 # **Buffers de envio e de recepção**
-![[Pasted image 20250509133804.png]]
+![Pasted image 20250509133804](../../attachments/Pasted%20image%2020250509133804.png)
 #### **Buffer de Envio** 
 - Tem a função de armazenar dados que a aplicação quer enviar, mas que ainda não foram transmitidos (ou não foram confirmados pelo receptor).
 #### **Buffer de Recepção**
@@ -32,7 +32,7 @@ O **número de sequência** para um segmento é o número do primeiro byte do se
 O TCP constrói 500 segmentos a partir da cadeia de dados. O primeiro recebe o número de sequência 0; o segundo, o número de sequência 1.000; e assim por diante. Cada número de sequência é inserido no campo de sequência no cabeçalho do segmento. 
 
 Vamos agora considerar os **números de reconhecimento**. O número de reconhecimento que o hospedeiro A atribui a seu segmento é o número de sequência do próximo byte que ele estiver aguardando do hospedeiro B.
-![[Pasted image 20250509135245.png]]
+![Pasted image 20250509135245](../../attachments/Pasted%20image%2020250509135245.png)
 
 **Conexão**
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcgpiDavS7LfwXV22ihWijvZYhrty_8AA8D21QLJ2QHzwtTIgY-Lq6BNCHsH5j2elmZWCQxrWjsIALs5-z2Yg_ZKl7XZHVCvteH6WMcqGSiXIyKpPx9lZlmNENNBp-jnqqSI5nN?key=HrOhHC0_-ked6RNCpQ0o3PZn)
@@ -48,10 +48,10 @@ O cliente avisa que não vai mais enviar nada. E o server confirma que recebeu, 
 # Cenários de retransmissão
 
 **Cenário de esgotamento de temporização**
-![[Pasted image 20250509140214.png]]
+![Pasted image 20250509140214](../../attachments/Pasted%20image%2020250509140214.png)
 
 **Reconhecimento acumulativo**
-![[Pasted image 20250509140546.png]]
+![Pasted image 20250509140546](../../attachments/Pasted%20image%2020250509140546.png)
 
 **Retransmissão de dados**
-![[Pasted image 20250509140658.png]]
+![Pasted image 20250509140658](../../attachments/Pasted%20image%2020250509140658.png)

@@ -15,7 +15,7 @@ ___
 ## **1.1 Formato do Request e response message**
 
 **Response message**
-![[Pasted image 20250508160317.png]]
+![Pasted image 20250508160317](../../attachments/Pasted%20image%2020250508160317.png)
 - CR(Carriage return): retorno do cursor.
 - LF(Line Feed): Pula a linha.
 - SP(Space): espaço em branco.

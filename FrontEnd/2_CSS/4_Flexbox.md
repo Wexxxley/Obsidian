@@ -57,8 +57,8 @@ Define a capacidade de um item de crescer e ocupar espaço extra dentro do conta
 - flex-grow: 0; → O item não cresce (padrão).
 - flex-grow: 1; → O item cresce proporcionalmente ao espaço disponível.
 - flex-grow: 2; → O item cresce o dobro em relação a um item com flex-grow: 1 
-![[Pasted image 20250522190124.png]]
-  ![[Pasted image 20250522185953.png]]
+![Pasted image 20250522190124](../../attachments/Pasted%20image%2020250522190124.png)
+  ![Pasted image 20250522185953](../../attachments/Pasted%20image%2020250522185953.png)
 
 ---
 #### **6.2 Flex-basis**

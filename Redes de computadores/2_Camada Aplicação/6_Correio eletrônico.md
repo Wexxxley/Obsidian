@@ -9,7 +9,7 @@ Os componentes são:
 2. **Servidores de Correio:** Esses servidores são configurados para enviar, armazenar e entregar as mensagens. O agente do usuário é o cliente, ele envia um email e o servidor de correio recebe e repassa. Em caso de falha, ele fica tentando enviar a cada 30 minutos durante 5 dias.
 3. **SMTP - Simple Mail Transfer Protocol**: O SMTP é o protocolo usado para enviar e-mails entre servidores de correio. O SMTP usa o protocolo de transferência TCP pela confiabilidade.
 
-![[Pasted image 20250508163157.png]]
+![Pasted image 20250508163157](../../attachments/Pasted%20image%2020250508163157.png)
 
 **Sem autenticação**
  O SMTP é muito antigo, foi criado nos anos 80. Naquela época, a internet era usada por poucos e não havia preocupação com segurança. Por isso, o SMTP não tem autenticação embutida.  O SMTP só entrega a mensagem, ele não valida o remetente. É por isso que é fácil falsificar o campo From: em um e-mail, e isso é a base de phishing e spam.

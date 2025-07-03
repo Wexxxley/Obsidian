@@ -12,12 +12,12 @@ TCP/IP é um conjunto de protocolos de comunicação que permite a troca de dado
 - Pode perder pacotes
 - Roteia os pacotes por caminhos diferentes 
 
-[[1_Protocolos da camada de transporte da internet]]
+[1_Protocolos da camada de transporte da internet](../3_Camada%20de%20Transporte/1_Protocolos%20da%20camada%20de%20transporte%20da%20internet.md)
 **TCP (Transmission Control Protocol):** Cuida da confiabilidade da comunicação e garante que os dados cheguem completos, na ordem correta, sem duplicação e sem perda.  Esse protocolo divide os dados em pacotes numerados, confirma o recebimento e reenvia caso algum pedaço se perca.
 
 **Camadas**
-1. **Aplicação:** Onde vivem os protocolos a aplicações que os usuários usam.  É o navegador, o app de e-mail, o YouTube, etc. [[1_Arquiteturas da camada de aplicação]]
-2. **Transporte:** Cuida da entrega dos dados entre dois dispositivos. Responsável pela confiabilidade (TCP) ou velocidade (UDP). [[1_Protocolos da camada de transporte da internet]]
+1. **Aplicação:** Onde vivem os protocolos a aplicações que os usuários usam.  É o navegador, o app de e-mail, o YouTube, etc. [1_Arquiteturas da camada de aplicação](../2_Camada%20Aplicação/1_Arquiteturas%20da%20camada%20de%20aplicação.md)
+2. **Transporte:** Cuida da entrega dos dados entre dois dispositivos. Responsável pela confiabilidade (TCP) ou velocidade (UDP). [1_Protocolos da camada de transporte da internet](../3_Camada%20de%20Transporte/1_Protocolos%20da%20camada%20de%20transporte%20da%20internet.md)
 3. **Rede:** Roteia os pacotes IP até o destino. Escolhe o melhor caminho por onde os dados devem passar.
 4. **Enlace:** Transferência de dados entre elementos vizinhos de rede.
 5. **Física:** Converte os bits em sinais elétricos, ondas ou luz. Define tensão, frequência, velocidade de bits, etc.

@@ -2,8 +2,8 @@
 
 ---
 ### **1. Get all**
-![[Pasted image 20250624073206.png]]
-![[Pasted image 20250624073222.png]]
+![Pasted image 20250624073206](../../../attachments/Pasted%20image%2020250624073206.png)
+![Pasted image 20250624073222](../../../attachments/Pasted%20image%2020250624073222.png)
 1. **`fetch`**:
     - `fetch()`: Faz uma requisições web e retorna uma `Promise`.
     - `await`: Pausa a execução da função até que a `Promise` retornada por `fetch()` seja resolvida.
@@ -20,8 +20,8 @@
 ---
 ### **2. Criar modelo com formulário (API espera um JSON)**
 
-![[Pasted image 20250624074302.png]]
-![[Pasted image 20250624074321.png]]
+![Pasted image 20250624074302](../../../attachments/Pasted%20image%2020250624074302.png)
+![Pasted image 20250624074321](../../../attachments/Pasted%20image%2020250624074321.png)
 1. **`addEventListener('submit', async function(e) {...})`**:
     - `addEventListener('submit', ...)`: Adiciona um ouvinte para o evento de envio do formulário.
     - `async function(e)`: Torna a função assíncrona, permitindo o uso de `await` dentro dela.
@@ -41,11 +41,11 @@
 
 ---
 ### **3. Get por id**
-![[Pasted image 20250624080148.png]]
-![[Pasted image 20250624080206.png]]
+![Pasted image 20250624080148](../../../attachments/Pasted%20image%2020250624080148.png)
+![Pasted image 20250624080206](../../../attachments/Pasted%20image%2020250624080206.png)
 
 ---
 ### **4. Delete**
-![[Pasted image 20250624081735.png]]
-![[Pasted image 20250624081804.png]]
+![Pasted image 20250624081735](../../../attachments/Pasted%20image%2020250624081735.png)
+![Pasted image 20250624081804](../../../attachments/Pasted%20image%2020250624081804.png)
 

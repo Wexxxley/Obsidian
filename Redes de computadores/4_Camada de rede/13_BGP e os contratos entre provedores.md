@@ -8,7 +8,7 @@ Um contrato de trânsito ocorre quando uma rede (geralmente menor) paga a outra 
     - O provedor **anunciará os prefixos** da rede menor para o resto da Internet.
     - O provedor **receberá os prefixos** de todos os seus vizinhos e os anunciará para a rede menor. O cliente receberá uma "tabela de roteamento completa".
 
-![[Pasted image 20250606103652.png]]
+![Pasted image 20250606103652](../../attachments/Pasted%20image%2020250606103652.png)
 
 ---
 ### **2. Contratos de Emparelhamento (Peering)**

@@ -25,10 +25,10 @@ Esse par ==(local IP, local porta, remoto IP, remoto porta)== identifica  a con
 
 **Socket UDP (Sem Conexão)**: Um socket UDP é identificado por dois valores:
 - IP de destino e Porta de destino.  
-![[Pasted image 20250509132053.png]]
+![Pasted image 20250509132053](../../attachments/Pasted%20image%2020250509132053.png)
 **Socket TCP (com  Conexão):** Um socket TCP é identificado por quatro valores:
 - IP de origem, Porta de origem, IP de destino e Porta de destino.  
-![[Pasted image 20250509132033.png]]
+![Pasted image 20250509132033](../../attachments/Pasted%20image%2020250509132033.png)
 
 As principais funções necessárias para o uso de sockets incluem: 
 1. **socket():** cria um novo socket e retorna seu descritor de arquivo. (GERAL)

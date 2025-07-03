@@ -27,7 +27,7 @@ ___
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc0NcGl7Wa9At1ZqTxb0j_xaA_mt1wb1vIFBD_OFSdcnqzahQyEpkeEEbuK0BQ6l5j1N8vmMhu90Y57SqKPpi7XLf53FymykgY0g17P_QdJgne__0vIEpkgf5pizgX4YyYYwoTarw?key=VYJVAqKhTdZyHt8enJbiwA)![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc4Q0fdqyGtk2HWaboYQSMaEnGbQlRgZRd38M7gJjxrblgVwGP-iccZRJA1-ESoh2m0FF62ygQwsjB7hPBjPX-Ncmu-aRK8Dr491iVHmSasqPeZUugbhR1sziueKv2F358URUyd2g?key=VYJVAqKhTdZyHt8enJbiwA)
 
 Quando você for começar a mecher no estilo de uma pagina é interessante zerar esses valores.
-![[Pasted image 20250522174655.png]]
+![Pasted image 20250522174655](../../attachments/Pasted%20image%2020250522174655.png)
 
 ___
 # 3. Bordas 
@@ -62,7 +62,7 @@ O **comportamento visual das caixas** depende do valor da propriedade `display`.
 #### **d) Caixas flexíveis (`flex`)**
 - Caixa que se comporta como **contêiner flexível**, distribuindo seus filhos com `display: flex`.
 - Permite criar layouts responsivos facilmente.
-[[4_Flexbox]]
+[4_Flexbox](4_Flexbox.md)
 
 ---
 # **5. Propriedade `display:`**
@@ -106,5 +106,5 @@ button {
 - `max-width`: controla a largura máxima.
 
 
-![[Pasted image 20250527104842.png]]
+![Pasted image 20250527104842](../../attachments/Pasted%20image%2020250527104842.png)
 - `@media (max-width: 400px)`: É uma **_media query_** que aplica o CSS dentro dela **apenas quando a largura da tela for de até 400 pixels**.

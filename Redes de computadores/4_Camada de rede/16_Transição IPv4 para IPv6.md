@@ -9,4 +9,4 @@ Enquanto os novos sistemas habilitados para IPv6 podem enviar, rotear e receber 
     - Os roteadores IPv4 intermediários tratam esse pacote como um datagrama IPv4 comum.
     - Quando o nó IPv6 no lado recebe o datagrama, ele o desencapsula. O datagrama IPv6 é então roteado normalmente para seu destino final.
 
-![[Pasted image 20250531084114.png]]
+![Pasted image 20250531084114](../../attachments/Pasted%20image%2020250531084114.png)

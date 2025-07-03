@@ -2,7 +2,7 @@
 Status: #Concluded 
 
 ___
-Álgumas aplicações podem funcionar melhor de acordo com o protocolo da camada de transporte utilizado. [[1_Protocolos da camada de transporte da internet]]
+Álgumas aplicações podem funcionar melhor de acordo com o protocolo da camada de transporte utilizado. [1_Protocolos da camada de transporte da internet](../3_Camada%20de%20Transporte/1_Protocolos%20da%20camada%20de%20transporte%20da%20internet.md)
 # 1 Requisitos das aplicações
 
 - Algumas aplicações (como vídeos e áudios em tempo real) podem tolerar alguma **perda de dados**. Outras(como a transferência de arquivos) exigem transferência 100% confiável.

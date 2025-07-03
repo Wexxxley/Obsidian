@@ -23,7 +23,7 @@ No frontend, o **JavaScript** tem a função principal de **tornar as páginas w
 
 ---
 ### **2. Lincando arquivo js ao html**
-![[Pasted image 20250505134015.png]]
-![[Pasted image 20250505134204.png]]
+![Pasted image 20250505134015](../../attachments/Pasted%20image%2020250505134015.png)
+![Pasted image 20250505134204](../../attachments/Pasted%20image%2020250505134204.png)
 
 

@@ -79,12 +79,12 @@ ___
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf9xQIUmmBaWPpvNIG0sKoeX2-TE3_BGvZTilVq-lT_lXfYcBW2Kxq3_4QXQOcVeUUrdb55b8TRlz7fRnAE8zPGIXYFH1-ZkOC_w8BTkDEId4xV12PtSpxew5VhsxfyUbS3lj7t0g?key=VYJVAqKhTdZyHt8enJbiwA)
 
 Para mudar a estilisação das linhas usamos ``tr:nth-child``
-![[Pasted image 20250506072646.png]]
+![Pasted image 20250506072646](../../attachments/Pasted%20image%2020250506072646.png)
 
 Com ``colspan`` eu consigo unir colunas de uma linha.
-![[Pasted image 20250506072825.png]]
+![Pasted image 20250506072825](../../attachments/Pasted%20image%2020250506072825.png)
 
-![[Pasted image 20250506072723.png]]
+![Pasted image 20250506072723](../../attachments/Pasted%20image%2020250506072723.png)
 
 ___
 # **7. Formatação de texto e citações**

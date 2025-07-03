@@ -9,7 +9,7 @@
 - Somente uma rota é mantida para cada destino.
 - A RIP faz a troca Periódica de Tabelas de roteamento, or padrão, essa troca ocorre a cada 30 s.
 - Com 180s sem retornos, o roteador considera o seu vizinho morto, descarta as rotas que passam por ele e avisa seus vizinhos.
-![[Pasted image 20250605154808.png]]
+![Pasted image 20250605154808](../../attachments/Pasted%20image%2020250605154808.png)
 
 **As diferenças entre RIPv1 e RIPv2:**
 
@@ -43,7 +43,7 @@
     - **Áreas Regulares :** São subredes que funcionam como um OSPF completo.
     - **Roteadores de Borda de Área:** São roteadores que possuem interfaces em mais de uma área. Eles são responsáveis por resumir as informações de rota de uma área para as outras e vice-versa.
 
-![[Pasted image 20250605190304.png]]
+![Pasted image 20250605190304](../../attachments/Pasted%20image%2020250605190304.png)
 
 
 

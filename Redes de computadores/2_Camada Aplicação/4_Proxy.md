@@ -13,7 +13,7 @@ O proxy tem tanto o papel de cliente como o de servidor. Quando um cliente faz u
 3. **Controle e filtragem de conteúdo:** Por exemplo, uma empresa não quer que funcionários acessem redes sociais. O proxy intercepta a requisição e bloqueia o acesso a facebook.com, twitter.com, etc.
 4. **Acesso a conteúdo com restrição geográfica**: Muitos usam proxies ou VPNs para acessar conteúdo que está bloqueado na sua região. O proxy usado é um proxy comercial, que mascara o IP real para enganar o site.
   
-![[Pasted image 20250508161045.png]]
+![Pasted image 20250508161045](../../attachments/Pasted%20image%2020250508161045.png)
 
 **Proxy transparente** 
 O proxy transparente é feito no roteador, ele verifica que uma requisição http foi feita e ele envia para o proxy, que aí sim faz a requisição.
@@ -24,7 +24,7 @@ Embora possa reduzir os tempos de resposta do ponto de vista do usuário, fazer 
 O HTTP tem um mecanismo que permite que um proxy verifique se seus objetos estão atualizados (get condicional). Uma mensagem HTTP é denominada GET condicional se usar o método GET epossuir uma linha de cabeçalho: ``If-Modified-Since``
 
  Quando o proxy guarda um objeto ele também guarda a data da última modificação. Quando o proxy precisar de um recurso, ele faz o get condicional:
-![[Pasted image 20250508161614.png]]
+![Pasted image 20250508161614](../../attachments/Pasted%20image%2020250508161614.png)
  Esse GET condicional está dizendo ao servidor para enviar o objeto somente se ele tiver sido modificado desde a data especificada. 
 
 

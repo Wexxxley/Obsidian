@@ -1,9 +1,9 @@
 
 ---
-[[1_Introdução a grafos|1_Introdução a grafos]]
+[1_Introdução a grafos](../../Algorítmos%20e%20Estruturas%20de%20dados/Grafos/1_Introdução%20a%20grafos.md)
 
 Redes são abstraidas através de um grafo não direcionado com pesos.
-![[Pasted image 20250531092212.png]]
+![Pasted image 20250531092212](../../attachments/Pasted%20image%2020250531092212.png)
 
 ---
 ### **1. Algoritmos de Roteamento Global vs. Descentralizado**
@@ -32,7 +32,7 @@ Computa caminhos de menor custo de um nó (fonte) para todos os outros nós:
 - Fornece uma tabela de roteamento para aquele nó.
 - Algoritmo global e estáticos.
 
-[[3_Caminho mínimo de fonte única (Dijkstra)]]
+[3_Caminho mínimo de fonte única (Dijkstra)](../../Algorítmos%20e%20Estruturas%20de%20dados/Grafos/3_Caminho%20mínimo%20de%20fonte%20única%20(Dijkstra).md)
 
 ### **4. Algoritmo Vetor de distância (VD)**
 

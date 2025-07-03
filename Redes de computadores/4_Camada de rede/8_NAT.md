@@ -22,7 +22,7 @@ A NAT é tipicamente implementada em um roteador que atua como um "gateway" entr
 	3. Ele **anota o endereço e a porta original** em uma tabela chamada **tabela NAT**.
 	4. Quando o server responde, o pacote chega ao roteador com o endereço nat e a porta nat referente ao processo.
 	5. O roteador NAT **olha na tabela** e sabe que deve enviar a resposta para o notebook.
-![[Pasted image 20250526193147.png]]
+![Pasted image 20250526193147](../../attachments/Pasted%20image%2020250526193147.png)
 
 - Quando seu roteador usa NAT, ele atribui uma porta para cada conexão que sai da sua rede. 
 - Por exemplo, o Notebook abre uma conexão usando a porta de origem 50000 e o Celular abre outra conexão usando a porta de origem 50001, o roteador NAT traduz ambas para o mesmo IP público mas usando portas traduzidas distintas.
@@ -30,7 +30,7 @@ A NAT é tipicamente implementada em um roteador que atua como um "gateway" entr
 
 Na teoria, um único IP público com NAT pode suportar até 65.535 conexões _simultâneas de saída_ para **cada protocolo** (TCP ou UDP).  Na prática, o limite é menor devido a recursos do roteador.
 
-![[Pasted image 20250610102909.png]]
+![Pasted image 20250610102909](../../attachments/Pasted%20image%2020250610102909.png)
 - **IP origem:** O endereço do computador que iniciou a conexão na rede local. ``Ex: 10.0.0.1``
 - **Porta origem:** A porta que o computador de origem usou para iniciar a conexão. Ex: `50000`.
 - **IP nat:** O endereço IP público que o roteador está usando. Ex: ``138.76.29.7``

@@ -15,7 +15,8 @@
               "state": {
                 "file": "Redes de computadores/6_Camada Física/2_Par trançado confecção.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "2_Par trançado confecção"
@@ -160,14 +161,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "bf421473f099d187",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "code-glyph",
+              "title": "Shell commands: Custom variables"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,11 +192,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c05ca5264eb924b3",
+  "active": "0c52f17c64e87cbf",
   "lastOpenFiles": [
-    "attachments/Pasted image 20250703185928.png",
     "Pyhon/FastAPI/4_ORM.md",
     "Redes de computadores/6_Camada Física/2_Par trançado confecção.md",
+    "attachments/Pasted image 20250703185928.png",
     "attachments/Pasted image 20250703105455.png",
     "attachments/Pasted image 20250703105106.png",
     "attachments/Pasted image 20250703104648.png",
@@ -221,7 +231,6 @@
     "Algorítmos e Estruturas de dados/Ordenação/4_Merge sort.md",
     "attachments/Pasted image 20250702064652.png",
     "attachments/Pasted image 20250701164839.png",
-    "attachments/Pasted image 20250701164558.png",
     "Redes de computadores/5_Camada de enlace",
     "Redes de computadores/4_Camada de rede/Sem título",
     "FrontEnd/3_JavaScript/10_Acessando apis",

@@ -90,6 +90,6 @@ null === undefined  // false
 ---
 ### 5. Variáveis e impressão
 ``let`` define uma variável que pode sofrer alteração de valor. ``const`` cria uma constante, ou seja, o valor não pode ser alterado em tempo de execução.
-![[Pasted image 20250505142357.png]]
-![[Pasted image 20250505155217.png]]
+![Pasted image 20250505142357](../../attachments/Pasted%20image%2020250505142357.png)
+![Pasted image 20250505155217](../../attachments/Pasted%20image%2020250505155217.png)
 O ``prompt`` recebe valores do user.

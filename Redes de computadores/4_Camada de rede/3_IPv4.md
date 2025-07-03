@@ -10,7 +10,7 @@
  - **Comprimento do datagrama.** É o comprimento total do datagrama (cabeçalho mais dados).
  - **Identificador, flags, deslocamento de fragmentação:** Campos usados na fragmentação.
  - **Tempo de vida:** Na prática, esse campo é decrementado em uma unidade cada vez que o datagrama é processado por um roteador, ou seja, virou um ==número máximo de saltos.==
-![[Pasted image 20250523103049.png]]
+![Pasted image 20250523103049](../../attachments/Pasted%20image%2020250523103049.png)
 - **Protocolo:** O campo indica o protocolo de camada de transporte.
 - **Soma de verificação:** A soma de verificação auxilia um roteador na detecção de erros de bits. 
 - **Endereços IP de origem e de destino.**

@@ -5,8 +5,8 @@ Status: #Draft
 # 1. Array
 Em js só temos o arrat, que é dinâmico.
 Os arrays em js podem ter qualquer tipo de dado
-![[Pasted image 20250513162620.png]]
-![[Pasted image 20250513163317.png]]
+![Pasted image 20250513162620](../../attachments/Pasted%20image%2020250513162620.png)
+![Pasted image 20250513163317](../../attachments/Pasted%20image%2020250513163317.png)
 
 | Método      | Descrição                            | Exemplo                                |
 | ----------- | ------------------------------------ | -------------------------------------- |
@@ -23,6 +23,6 @@ Os arrays em js podem ter qualquer tipo de dado
 # **2. Object literal**
 
 O objetct literal é uma instância de uma classe chamada Object
-![[Pasted image 20250513164614.png]]
+![Pasted image 20250513164614](../../attachments/Pasted%20image%2020250513164614.png)
 
 

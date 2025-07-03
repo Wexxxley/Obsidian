@@ -13,8 +13,8 @@ Os elementos são posicionados com as propriedades top, bottom, left e right. Ma
 
 2. **relative:** O elemento permanece no fluxo normal da página.  Mas pode ser deslocado em relação à sua posição original com top, right, bottom ou left. Isso pode acabar entrando em conflito com outros elementos.
 	
-	![[Pasted image 20250513095359.png]]
-	![[Pasted image 20250513095413.png]]
+	![Pasted image 20250513095359](../../attachments/Pasted%20image%2020250513095359.png)
+	![Pasted image 20250513095413](../../attachments/Pasted%20image%2020250513095413.png)
 	
 	**Obs**: os elementos dentro de um container relativo ficam posicionados com base nele. Muito útil se usado junto com absolute.
 

@@ -15,8 +15,8 @@ Por que fazer logging?
 5. CRITICAL: Problemas graves que podem parar o sistema.
 
 Criando logger_config
-![[Pasted image 20250610151206.png]]
+![Pasted image 20250610151206](../../attachments/Pasted%20image%2020250610151206.png)
 Nas classes de rota
-![[Pasted image 20250610151310.png]]
-![[Pasted image 20250610151326.png]]
-![[Pasted image 20250610151353.png]]
+![Pasted image 20250610151310](../../attachments/Pasted%20image%2020250610151310.png)
+![Pasted image 20250610151326](../../attachments/Pasted%20image%2020250610151326.png)
+![Pasted image 20250610151353](../../attachments/Pasted%20image%2020250610151353.png)

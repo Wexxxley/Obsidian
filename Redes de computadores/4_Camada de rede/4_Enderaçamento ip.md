@@ -12,7 +12,7 @@ Como todos os hospedeiros e roteadores podem enviar e receber datagramas IP, o I
 Cada interface em cada hospedeiro e roteador da Internet global tem de ter um endereço IP  exclusivo.  Uma parte do endereço IP de uma interface será determinada pela sub-rede à qual ela está conectada e a outra parte referente a própria interface.
 
 
-![[Pasted image 20250524113525.png]]
+![Pasted image 20250524113525](../../attachments/Pasted%20image%2020250524113525.png)
 
 ==Cada endereço IPv4 tem comprimento de 32 bits (equivalente a 4 bytes).==
 

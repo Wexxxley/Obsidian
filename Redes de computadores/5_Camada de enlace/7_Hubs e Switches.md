@@ -9,7 +9,7 @@ Um hub opera na **Camada 1 (Física)**. Um hub é basicamente um repetidor de si
 - **Não possuem armazenagem de quadros.** Ao contrário de um switch, um hub não tem memória para armazenar quadros de dados.
 - É importante entender que o mecanismo CSMA/CD não é implementado _dentro_ do hub. Em vez disso, a detecção e o tratamento de colisões ocorrem nos **adaptadores de rede** de cada dispositivo final conectado ao hub. 
 - **Domínio de colisão**: Um "domínio de colisão" é uma área da rede onde as colisões de dados podem ocorrer. Como um hub simplesmente retransmite tudo para todos, todos os dispositivos conectados a um hub fazem parte de um **único e grande domínio de colisão**.
-![[Pasted image 20250702154313.png]]
+![Pasted image 20250702154313](../../attachments/Pasted%20image%2020250702154313.png)
 
 
 ---
@@ -21,7 +21,7 @@ Um switch é um **dispositivo de camada de enlace**. Diferente dos hubs, os swit
 - **Transparente:** Isso significa que os computadores conectados à rede não "percebem" a presença do switch; eles simplesmente enviam seus dados, e o switch cuida do encaminhamento. Não há necessidade de configuração.
 - **Full-duplex**
 
-[[3_MAC e ARP]]
+[3_MAC e ARP](3_MAC%20e%20ARP.md)
 **Tabela do Switch:**
 A inteligência de um switch reside em sua capacidade de aprender as localizações dos dispositivos conectados a ele. Para isso, ele mantém uma **tabela**, a tabela MAC.
 

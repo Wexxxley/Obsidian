@@ -18,7 +18,7 @@ Imagine que seu computador (A) quer enviar um pacote de dados para outro computa
 Cada Nó IP (Host, Roteador) numa LAN tem um módulo e uma tabela ARP
 - **Módulo ARP**: Componente de software responsável por executar as operações do prot ARP.
 - **Tabela ARP**: Cada nó mantém uma **Tabela ARP**. Que é uma lista de mapeamentos entre endereços IP e seus correspondentes endereços MAC.
-	![[Pasted image 20250627115140.png]]
+	![Pasted image 20250627115140](../../attachments/Pasted%20image%2020250627115140.png)
 	- **`Time To Live)`**: O **Tempo de Vida** para aquela entrada na tabela, tipicamente 20 min.
 
 - **ARP Request - Broadcast**: Quando um dispositivo precisa descobrir um endereço MAC para um IP que não está em sua tabela, ele pergunta para _todos_ na rede local. 
@@ -29,7 +29,7 @@ Cada Nó IP (Host, Roteador) numa LAN tem um módulo e uma tabela ARP
 ---
 ### **3. Pacote ARP** 
 
-![[Pasted image 20250627120308.png]]
+![Pasted image 20250627120308](../../attachments/Pasted%20image%2020250627120308.png)
 
 - **Tipo de Hardware**: Indica o tipo de hardware da rede em que o ARP está operando. Por exemplo, `1` para Ethernet.
 - **Tipo de Protocolo**: Especifica o protocolo da Camada de Rede.
@@ -43,7 +43,7 @@ Cada Nó IP (Host, Roteador) numa LAN tem um módulo e uma tabela ARP
 - **Endereço Físico de Destino**: So preenchido na resposta.
 
 **Quadro de resposta**
-![[Pasted image 20250627120715.png]]
+![Pasted image 20250627120715](../../attachments/Pasted%20image%2020250627120715.png)
 
 - **Preâmbulo**
     - Usado para sincronizar os relógios do transmissor e do receptor.

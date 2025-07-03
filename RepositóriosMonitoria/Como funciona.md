@@ -3,7 +3,7 @@ O repositório é consumido para ser enviado tanto para  moodle como diretamente
 O readme explique a organização do repositório.
 
 
-Base é onde tem as questões. ![[Pasted image 20250512172832.png]]
+Base é onde tem as questões. ![Pasted image 20250512172832](../attachments/Pasted%20image%2020250512172832.png)
 
 
 O ghost é o rep tem todas as respostas, a gente clona ele para fazer as modificações. 
@@ -17,4 +17,4 @@ depois que vc fizer sua alteração, vc roda o update.sh (precisa do TKO)
 
 
 
-![[Pasted image 20250512185512.png]]
+![Pasted image 20250512185512](../attachments/Pasted%20image%2020250512185512.png)

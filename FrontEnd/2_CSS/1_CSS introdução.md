@@ -6,7 +6,7 @@ Status: #Concluded
 **CSS** significa **Folhas de Estilo em Cascata**. **CSS** descreve como os elementos **HTML** devem ser exibidos na tela. Ele pode controlar o layout de várias páginas da web ao mesmo tempo.
 
 **Sintaxe**
-![[Pasted image 20250512151756.png]]
+![Pasted image 20250512151756](../../attachments/Pasted%20image%2020250512151756.png)
 
 Existem 3 formas de aplicar estilos:
 1. **Inline**: O estilo é mudado na mesma linha do html.
@@ -26,29 +26,29 @@ Podemos dividir os seletores CSS em cinco categorias:
 5. **Seletores de atributo** (selecionam elementos com base em um atributo ou valor de atributo)  
 
 **Seletores combinadores**
-![[Pasted image 20250512153555.png]]
+![Pasted image 20250512153555](../../attachments/Pasted%20image%2020250512153555.png)
 Todos os p dentro de uma div.
-![[Pasted image 20250512153702.png]]
+![Pasted image 20250512153702](../../attachments/Pasted%20image%2020250512153702.png)
 Todos os p filhos diretos de uma div.
-![[Pasted image 20250512153719.png]]
+![Pasted image 20250512153719](../../attachments/Pasted%20image%2020250512153719.png)
 Seleciona o p que vem imediatamente depois de um h1
-![[Pasted image 20250512153729.png]]
+![Pasted image 20250512153729](../../attachments/Pasted%20image%2020250512153729.png)
 Seleciona todos os p que vem apos um h1.
 
 **Mais exemplos** 
-![[Pasted image 20250512152603.png]]
+![Pasted image 20250512152603](../../attachments/Pasted%20image%2020250512152603.png)
 Aplica o estilo nos paragrafos com a classe center
-![[Pasted image 20250512153107.png]]
+![Pasted image 20250512153107](../../attachments/Pasted%20image%2020250512153107.png)
 Aplica o estilo nos paragrafos com o id center
-![[Pasted image 20250512152706.png]]
+![Pasted image 20250512152706](../../attachments/Pasted%20image%2020250512152706.png)
 Seletor universal
-![[Pasted image 20250512152754.png]]
+![Pasted image 20250512152754](../../attachments/Pasted%20image%2020250512152754.png)
 Seletores agrupados
 
 **Seletores de atributo**
-![[Pasted image 20250512154609.png]]
+![Pasted image 20250512154609](../../attachments/Pasted%20image%2020250512154609.png)
 Seleciona a que tenha o atributo target
-![[Pasted image 20250512154753.png]]
+![Pasted image 20250512154753](../../attachments/Pasted%20image%2020250512154753.png)
 Seleciona a com o valor blank no target
 
 ---
@@ -66,13 +66,13 @@ Seleciona a com o valor blank no target
 Os pseudo-elementos permitem estilizar pedaços específico de um elemento.
 
 **First-letter** modifica a primeira letra.
-![[Pasted image 20250512160202.png]]
-![[Pasted image 20250512160218.png]]
+![Pasted image 20250512160202](../../attachments/Pasted%20image%2020250512160202.png)
+![Pasted image 20250512160218](../../attachments/Pasted%20image%2020250512160218.png)
 **marker** modifica o marcador de listas.
-![[Pasted image 20250512160457.png]]  
-![[Pasted image 20250512160509.png]]
+![Pasted image 20250512160457](../../attachments/Pasted%20image%2020250512160457.png)  
+![Pasted image 20250512160509](../../attachments/Pasted%20image%2020250512160509.png)
 **selection** modifica quando você seleciona o conteúdo com o mouse
-![[Pasted image 20250512160626.png]]
+![Pasted image 20250512160626](../../attachments/Pasted%20image%2020250512160626.png)
 Existem tambem: o before, after, first-line
   
   

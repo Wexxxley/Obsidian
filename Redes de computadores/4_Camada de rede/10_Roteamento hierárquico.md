@@ -9,7 +9,7 @@ própria rede. Ai que surgem os  “sistemas autônomos ” (AS).
 - **Roteamento Inter-AS:** Refere-se aos protocolos de roteamento usados para trocar informações de roteamento _entre_ diferentes AS. 
 - **Roteadores Gateway:** São roteadores que possuem links diretos para roteadores em outros AS. 
 
-![[Pasted image 20250605152214.png]]
+![Pasted image 20250605152214](../../attachments/Pasted%20image%2020250605152214.png)
 
 Quando um roteador no AS1 recebe um datagrama cujo destino está fora do AS1, ele não possui, por si só, essa informação. É aqui que entram os protocolos de roteamento inter-AS e intra-AS.
 
