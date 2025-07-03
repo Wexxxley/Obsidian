@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pyhon/FastAPI/4_ORM.md",
+                "file": "Redes de computadores/6_Camada Física/1_Par trançado.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_ORM"
+              "title": "1_Par trançado"
             }
           }
         ]
@@ -184,6 +184,9 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "Pyhon/FastAPI/4_ORM.md",
+    "Redes de computadores/6_Camada Física/1_Par trançado.md",
+    "Redes de computadores/6_Camada Física",
     "Pyhon/FastAPI/3_Logging.md",
     "Pyhon/FastAPI/2_Validação.md",
     "Pyhon/FastAPI/1_Introdução.md",
@@ -214,8 +217,6 @@
     "attachments/Pasted image 20250701164558.png",
     "attachments/Pasted image 20250701164252.png",
     "Inglês/Verb to be.md",
-    "Inglês/2_Simple past.md",
-    "Git and github/Git and github.md",
     "attachments/Pasted image 20250627131312.png",
     "attachments/Pasted image 20250627130747.png",
     "attachments/Pasted image 20250627120715.png",
@@ -229,7 +230,6 @@
     "FrontEnd/4_Express",
     "FrontEnd/5_Figma",
     "Sem título",
-    "Algorítmos e Estruturas de dados/Grafos",
-    "Algorítmos e Estruturas de dados"
+    "Algorítmos e Estruturas de dados/Grafos"
   ]
 }
