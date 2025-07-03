@@ -4,21 +4,20 @@
 ### **1. As Normas de Cores: T568A e T568B**
 Para que os dispositivos de rede consigam se comunicar, os 8 fios dentro de um cabo de rede precisam ser organizados em uma ordem específica no conector RJ-45. Existem duas normas principais para isso, a **T568A** e a **T568B**. 
 
-Padrão T
+**Padrão T568A**
 ![[Pasted image 20250703104648.png|600]]
 
 ![[Pasted image 20250703105455.png|550]]
-
 A partir dessas duas normas, criamos os principais de cabos: o **Cabo Direto** e o **Cabo Crossover**.
 
+---
+### **2. Tipos de Conexão e Cabos**
+A necessidade de cabos diferentes vem da forma como os dispositivos enviam e recebem dados. 
+- **Adaptadores de PCs e Roteadores:** Usam pinos 1 e 2 para transmitir e pinos 3 e 6 para receber.
+- **Switches e Hubs:** Usam os pinos 1 e 2 para receber e os pinos 3 e 6 para transmitir.
+
 ![[Pasted image 20250703105106.png]]
-### Tipos de Conexão e Cabos
 
-A necessidade de cabos diferentes vem da forma como os dispositivos enviam e recebem dados. Nos cabos de rede, alguns pinos são para **Transmissão (TX)** e outros para **Recepção (RX)**.
-
-- **Placas de rede de PCs e Roteadores (dispositivos MDI):** Usam os pinos 1 e 2 para transmitir e os pinos 3 e 6 para receber.
-    
-- **Switches e Hubs (dispositivos MDI-X):** Fazem o contrário. Usam os pinos 1 e 2 para receber e os pinos 3 e 6 para transmitir.
     
 
 #### 1. Conexão PC para Switch/Hub (Cabo Direto)
