@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/6_Camada Física/2_Par trançado confecção.md",
+                "file": "LinkedList vs ArrayList (JAVA).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2_Par trançado confecção"
+              "title": "LinkedList vs ArrayList (JAVA)"
             }
           }
         ]
@@ -192,10 +192,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c52f17c64e87cbf",
+  "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
-    "Pyhon/FastAPI/4_ORM.md",
+    "Sem título.canvas",
+    "LinkedList vs ArrayList (JAVA).md",
     "Redes de computadores/6_Camada Física/2_Par trançado confecção.md",
+    "Ficha treino.md",
+    "Pyhon/FastAPI/4_ORM.md",
     "attachments/Pasted image 20250703185928.png",
     "attachments/Pasted image 20250703105455.png",
     "attachments/Pasted image 20250703105106.png",
@@ -211,7 +214,6 @@
     "Pyhon/FastAPI/5_Migrations.md",
     "Redes de computadores/5_Camada de enlace/7_Hubs e Switches.md",
     "Redes de computadores/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
-    "Sem título.canvas",
     "Redes de computadores/4_Camada de rede/15_Tipos de filas.md",
     "Redes de computadores/5_Camada de enlace/1_Serviços da camada de enlace.md",
     "Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
@@ -227,8 +229,6 @@
     "Excalidraw/Drawing 2025-05-12 19.15.04.excalidraw.md",
     "Excalidraw/Drawing 2025-05-12 19.13.43.excalidraw.md",
     "Banco de dados/2_Contato inicial com PostgreSQL.md",
-    "Banco de dados/1_Início.md",
-    "Algorítmos e Estruturas de dados/Ordenação/4_Merge sort.md",
     "attachments/Pasted image 20250702064652.png",
     "attachments/Pasted image 20250701164839.png",
     "Redes de computadores/5_Camada de enlace",
