@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes de computadores/6_Camada Física/1_Par trançado.md",
+                "file": "Redes de computadores/6_Camada Física/2_Par trançado confecção.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Par trançado"
+              "title": "2_Par trançado confecção"
             }
           }
         ]
@@ -184,10 +184,12 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "Redes de computadores/6_Camada Física/1_Par trançado.md",
+    "Redes de computadores/6_Camada Física/2_Par trançado confecção.md",
+    "attachments/Pasted image 20250703104110.png",
     "attachments/Pasted image 20250703102939.png",
     "attachments/Pasted image 20250703102837.png",
     "Pyhon/FastAPI/4_ORM.md",
-    "Redes de computadores/6_Camada Física/1_Par trançado.md",
     "Redes de computadores/6_Camada Física",
     "Pyhon/FastAPI/3_Logging.md",
     "Pyhon/FastAPI/2_Validação.md",
@@ -220,8 +222,6 @@
     "attachments/Pasted image 20250701164252.png",
     "attachments/Pasted image 20250627131312.png",
     "attachments/Pasted image 20250627130747.png",
-    "attachments/Pasted image 20250627120715.png",
-    "attachments/Pasted image 20250627120308.png",
     "Redes de computadores/5_Camada de enlace",
     "Redes de computadores/4_Camada de rede/Sem título",
     "FrontEnd/3_JavaScript/10_Acessando apis",
