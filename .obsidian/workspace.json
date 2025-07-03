@@ -11,10 +11,14 @@
             "id": "c05ca5264eb924b3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2_Redes de computadores/6_Camada Física/3_Caixas conectores - Tomadas.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "3_Caixas conectores - Tomadas"
             }
           }
         ]
@@ -187,8 +191,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c52f17c64e87cbf",
+  "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "2_Redes de computadores/6_Camada Física/3_Caixas conectores - Tomadas.md",
     "Excalidraw/Drawing 2025-05-12 19.15.04.excalidraw.md",
     "Excalidraw/Drawing 2025-05-12 19.13.43.excalidraw.md",
     "8_Aleatórios/LinkedList vs ArrayList (JAVA).md",
@@ -224,7 +229,6 @@
     "2_Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
     "2_Redes de computadores/5_Camada de enlace/4_Ethernet e Protocolos de acesso múltiplo.md",
     "2_Redes de computadores/5_Camada de enlace/5_Ethernet.md",
-    "5_Banco de dados/2_Contato inicial com PostgreSQL.md",
     "attachments/Pasted image 20250702064652.png",
     "attachments/Pasted image 20250701164839.png",
     "2_Redes de computadores/5_Camada de enlace",
