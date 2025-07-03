@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
+                "file": "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Cabo coaxial"
+              "title": "5_Fibra óptica"
             }
           }
         ]
@@ -193,9 +193,11 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
+    "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
+    "attachments/Pasted image 20250703195325.png",
     "attachments/Pasted image 20250703195127.png",
     "2_Redes de computadores/6_Camada Física/3_Caixas conectores - Tomadas.md",
-    "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
     "attachments/Pasted image 20250703194355.png",
     "attachments/Pasted image 20250703194115.png",
     "attachments/Pasted image 20250703193850.png",
@@ -213,8 +215,6 @@
     "attachments/Pasted image 20250703104648.png",
     "2_Redes de computadores/6_Camada Física/1_Par trançado.md",
     "attachments/Pasted image 20250703104110.png",
-    "attachments/Pasted image 20250703102939.png",
-    "attachments/Pasted image 20250703102837.png",
     "2_Redes de computadores/6_Camada Física",
     "3_Pyhon/FastAPI/3_Logging.md",
     "3_Pyhon/FastAPI/2_Validação.md",
