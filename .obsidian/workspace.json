@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/5_Alterando atributos HTML.md",
+                "file": "6_FrontEnd/3_JavaScript/5_DOM e Shadow DOM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Alterando atributos HTML"
+              "title": "5_DOM e Shadow DOM"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250705152711.png",
     "6_FrontEnd/3_JavaScript/6_Multiplos estilos com um clique.md",
-    "6_FrontEnd/3_JavaScript/5_Alterando atributos HTML.md",
+    "6_FrontEnd/3_JavaScript/5_DOM e Shadow DOM.md",
     "6_FrontEnd/3_JavaScript/8_Async await e fetch.md",
     "attachments/Pasted image 20250705145309.png",
     "attachments/Pasted image 20250705144143.png",
