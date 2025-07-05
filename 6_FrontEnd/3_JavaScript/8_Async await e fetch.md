@@ -2,139 +2,36 @@
 #Concluded
 
 ___
+### **1. Async a await**
 `.then()` e `.catch()` não são a primeira escolha hoje ao lidar com promessas, porque a sintaxe **`async/await` é simplesmente superior** na maioria dos casos. Um dos motivos é que o código com `async/await` é linear e parece síncrono, o que é muito mais fácil para o cérebro humano entender do que os blocos aninhados ou encadeados do `.then()`.
-![Pasted image 20250609152634](../../attachments/Pasted%20image%2020250609152634.png)
-A função fetch retorna uma promisse por iss precisa do await.
+![600](../../attachments/Pasted%20image%2020250609152634.png)
 
-![Pasted image 20250609152931](../../attachments/Pasted%20image%2020250609152931.png)
-Essa é a forma antiga com then e catch.
-O catch é em caso de erro, e o then é necessário a cada promisse. Nesse caso foram necessários dois, o que torna o código difícil de ler.
+---
+### **2. Fetch**
+**Fetch** é a maneira de fazer requisições de rede.  **Fetch** é **baseada em Promises**.
 
+Ela recebe a **URL** do recurso que você quer acessar.
+1. A chamada `fetch(url)` retorna uma **Promise**.
+2. Essa Promise **não se resolve com os dados** diretamente. Ela se resolve com um objeto chamado **`Response`**.
+3. `Response` é uma representação da resposta HTTP, incluindo o status, cabeçalhos e o corpo.
 
-**Fetch** é a maneira de fazer requisições de rede.  **Fetch** é **baseada em Promises**, o que a integra perfeitamente com a sintaxe `async/await`.
-
-Ela recebe um argumento principal: a **URL** do recurso que você quer acessar.:
-1. A chamada `fetch(url)` retorna imediatamente uma **Promise**.
-2. Essa Promise **não resolve com os dados** (JSON, texto, etc.) diretamente. Ela resolve com um objeto chamado **`Response`**.
-3. O objeto `Response` é uma representação da resposta HTTP inteira, incluindo o status, cabeçalhos e o corpo da resposta.
-
-Para extrair os dados do corpo da resposta, você precisa usar um método específico do objeto:
+Para extrair os dados do corpo, você precisa usar um método específico:
 - `response.json()`: para transformar o corpo da resposta em um objeto JSON.
 - `response.text()`: para obter o corpo como texto puro.
 - `response.blob()`: para dados binários (como imagens).
 
 Esses métodos também **retornam uma Promise**, o que significa que temos um processo de duas etapas assíncronas.
 
----
+#### **2.1 Recenbendo dados com fetch**
+![](../../attachments/Pasted%20image%2020250705144143.png)
 
-### Exemplo Prático com `async/await` (A Forma Moderna)
-
-Esta é a maneira mais comum e legível de usar `fetch` hoje.
-
-JavaScript
-
-```
-async function buscarUsuarios() {
-  const url = 'https://jsonplaceholder.typicode.com/users';
-
-  try {
-    // 1. Espera a requisição de rede ser completada e retorna o objeto Response
-    const response = await fetch(url);
-
-    // Verificando se a requisição foi bem-sucedida (status 200-299)
-    if (!response.ok) {
-      throw new Error(`Erro na requisição: ${response.status}`);
-    }
-
-    // 2. Espera a transformação do corpo da resposta em JSON
-    const data = await response.json();
-
-    // 3. Agora você tem os dados e pode usá-los!
-    console.log('Usuários encontrados:', data);
-    data.forEach(user => {
-      console.log(`- ${user.name}`);
-    });
-
-  } catch (error) {
-    // Captura erros de rede (ex: sem internet) ou o erro que jogamos acima
-    console.error('Falhou a busca por usuários:', error);
-  }
-}
-
-buscarUsuarios();
-```
-
-### Exemplo com `.then()` (A Forma Clássica)
-
-Para entender a base de Promises, veja como o mesmo código funciona com `.then()`:
-
-JavaScript
-
-```
-const url = 'https://jsonplaceholder.typicode.com/users';
-
-fetch(url)
-  .then(response => {
-    // O primeiro .then recebe o objeto Response
-    if (!response.ok) {
-      throw new Error(`Erro na requisição: ${response.status}`);
-    }
-    // Retornamos a próxima Promise para o próximo .then
-    return response.json(); 
-  })
-  .then(data => {
-    // O segundo .then recebe os dados do .json()
-    console.log('Usuários encontrados:', data);
-    data.forEach(user => {
-      console.log(`- ${user.name}`);
-    });
-  })
-  .catch(error => {
-    // .catch captura qualquer erro na cadeia de Promises
-    console.error('Falhou a busca por usuários:', error);
-  });
-```
-
----
-
-### Indo Além: Enviando Dados (Requisições `POST`)
-
+#### **2.1 Enviandi dados com fetch**
 Para enviar dados, você passa um segundo argumento para a `fetch`: um objeto de configuração.
 
 JavaScript
 
 ```
-async function criarPost() {
-  const url = 'https://jsonplaceholder.typicode.com/posts';
 
-  const novoPost = {
-    title: 'Meu Novo Post',
-    body: 'Este é o conteúdo do post.',
-    userId: 1,
-  };
-
-  try {
-    const response = await fetch(url, {
-      method: 'POST', // Define o método HTTP
-      headers: {
-        'Content-Type': 'application/json', // Informa ao servidor que estamos enviando JSON
-      },
-      body: JSON.stringify(novoPost), // O corpo da requisição precisa ser uma string
-    });
-
-    if (!response.ok) {
-      throw new Error(`Erro: ${response.status}`);
-    }
-
-    const data = await response.json();
-    console.log('Post criado com sucesso:', data);
-
-  } catch (error) {
-    console.error('Falha ao criar o post:', error);
-  }
-}
-
-criarPost();
 ```
 
 ### Ponto Crucial sobre Erros
