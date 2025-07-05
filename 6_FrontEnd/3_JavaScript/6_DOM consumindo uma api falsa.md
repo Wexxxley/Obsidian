@@ -3,7 +3,7 @@
 
 ---
 
-Simulando o consumo de um API
+Simulando o consumo de um API.
 ![](../../attachments/Pasted%20image%2020250705163245.png)
 
 Criando um card. 
