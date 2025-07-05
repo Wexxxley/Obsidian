@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/6_DOM consumindo uma api falsa.md",
+                "file": "6_FrontEnd/3_JavaScript/10_Multiplos estilos com um clique.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6_DOM consumindo uma api falsa"
+              "title": "10_Multiplos estilos com um clique"
             }
           }
         ]
@@ -193,28 +193,28 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
-    "6_FrontEnd/3_JavaScript/5_DOM (Document Object Model).md",
-    "6_FrontEnd/3_JavaScript/6_DOM consumindo uma api falsa.md",
+    "6_FrontEnd/3_JavaScript/9_Acessando API Própria.md",
+    "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
+    "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
+    "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
+    "6_FrontEnd/3_JavaScript/4_Arrays.md",
+    "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
+    "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
+    "6_FrontEnd/3_JavaScript/1_Introdução.md",
+    "6_FrontEnd/3_JavaScript/10_Acessando apis/2_Acessando professores.md",
+    "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
     "attachments/Pasted image 20250705163500.png",
     "attachments/Pasted image 20250705163314.png",
     "attachments/Pasted image 20250705163300.png",
     "attachments/Pasted image 20250705163245.png",
-    "6_FrontEnd/3_JavaScript/Multiplos estilos com um clique.md",
-    "6_FrontEnd/3_JavaScript/4_Arrays.md",
+    "6_FrontEnd/3_JavaScript/10_Multiplos estilos com um clique.md",
     "attachments/Pasted image 20250705155801.png",
     "attachments/Pasted image 20250705154907.png",
     "attachments/Pasted image 20250705154818.png",
     "attachments/Pasted image 20250705154046.png",
     "attachments/Pasted image 20250705153959.png",
     "attachments/Pasted image 20250705152711.png",
-    "6_FrontEnd/3_JavaScript/8_Async await e fetch.md",
-    "6_FrontEnd/3_JavaScript/7_Callback and promisse.md",
     "6_FrontEnd/3_JavaScript/8_Promisse.md",
-    "6_FrontEnd/3_JavaScript/1_Introdução.md",
-    "6_FrontEnd/3_JavaScript/10_Acessando apis/2_Acessando professores.md",
-    "6_FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando Users.md",
-    "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
-    "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
     "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
     "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
     "2_Redes de computadores/6_Camada Física/3_Caixas conectores - Tomadas.md",
