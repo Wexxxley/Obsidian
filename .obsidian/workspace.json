@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/Multiplos estilos com um clique.md",
+                "file": "6_FrontEnd/3_JavaScript/6_DOM consumindo uma api falsa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multiplos estilos com um clique"
+              "title": "6_DOM consumindo uma api falsa"
             }
           }
         ]
@@ -193,8 +193,13 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
-    "6_FrontEnd/3_JavaScript/5_O DOM (Document Object Model).md",
+    "attachments/Pasted image 20250705163500.png",
+    "attachments/Pasted image 20250705163314.png",
+    "attachments/Pasted image 20250705163300.png",
+    "attachments/Pasted image 20250705163245.png",
     "6_FrontEnd/3_JavaScript/Multiplos estilos com um clique.md",
+    "6_FrontEnd/3_JavaScript/6_DOM consumindo uma api falsa.md",
+    "6_FrontEnd/3_JavaScript/5_O DOM (Document Object Model).md",
     "6_FrontEnd/3_JavaScript/4_Arrays.md",
     "attachments/Pasted image 20250705155801.png",
     "attachments/Pasted image 20250705154907.png",
@@ -204,16 +209,13 @@
     "attachments/Pasted image 20250705152711.png",
     "6_FrontEnd/3_JavaScript/8_Async await e fetch.md",
     "attachments/Pasted image 20250705145309.png",
-    "attachments/Pasted image 20250705144143.png",
     "6_FrontEnd/3_JavaScript/7_Callback and promisse.md",
     "6_FrontEnd/3_JavaScript/8_Promisse.md",
     "6_FrontEnd/3_JavaScript/1_Introdução.md",
     "6_FrontEnd/3_JavaScript/10_Acessando apis/2_Acessando professores.md",
     "6_FrontEnd/3_JavaScript/10_Acessando apis/1_Acessando Users.md",
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
-    "attachments/Pasted image 20250705141110.png",
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
-    "attachments/Pasted image 20250705140612.png",
     "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
     "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
     "2_Redes de computadores/6_Camada Física/3_Caixas conectores - Tomadas.md",
@@ -229,7 +231,6 @@
     "2_Redes de computadores/6_Camada Física",
     "3_Pyhon/FastAPI/3_Logging.md",
     "3_Pyhon/FastAPI/2_Validação.md",
-    "3_Pyhon/FastAPI/1_Introdução.md",
     "2_Redes de computadores/5_Camada de enlace",
     "Redes de computadores/4_Camada de rede/Sem título",
     "6_FrontEnd/3_JavaScript/10_Acessando apis",
