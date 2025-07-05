@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
+                "file": "6_FrontEnd/3_JavaScript/4_Arrays e objetos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Fibra óptica"
+              "title": "4_Arrays e objetos"
             }
           }
         ]
@@ -194,10 +194,11 @@
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
+    "attachments/Pasted image 20250705140612.png",
+    "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
     "6_FrontEnd/3_JavaScript/1_Introdução.md",
     "attachments/Pasted image 20250705134323.png",
-    "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
     "attachments/Pasted image 20250703202519.png",
     "attachments/Pasted image 20250703202048.png",
     "attachments/Pasted image 20250703201322.png",
@@ -208,7 +209,6 @@
     "2_Redes de computadores/6_Camada Física/3_Caixas conectores - Tomadas.md",
     "attachments/Pasted image 20250703194355.png",
     "attachments/Pasted image 20250703194115.png",
-    "attachments/Pasted image 20250703193850.png",
     "Excalidraw/Drawing 2025-05-12 19.15.04.excalidraw.md",
     "Excalidraw/Drawing 2025-05-12 19.13.43.excalidraw.md",
     "8_Aleatórios/LinkedList vs ArrayList (JAVA).md",
@@ -230,7 +230,6 @@
     "2_Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
     "2_Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
     "2_Redes de computadores/4_Camada de rede/10_Roteamento Hierárquico.md",
-    "2_Redes de computadores/4_Camada de rede/11_Roteamento INTRA AS.md",
     "2_Redes de computadores/5_Camada de enlace",
     "Redes de computadores/4_Camada de rede/Sem título",
     "6_FrontEnd/3_JavaScript/10_Acessando apis",
