@@ -21,10 +21,11 @@ Funções **são objetos em JavaScript** e **podem ser armazenadas em variáveis
 ![600](../../attachments/Pasted%20image%2020250505160138.png)
 **Sintaxe do for**
 ![600](../../attachments/Pasted%20image%2020250505160331.png)
-**For in e foi of**
+**For in, for of e forEach**
 - **for in:** itera sobre os índices.
 - **for of:** itera sobre os itens.
-![](../../attachments/Pasted%20image%2020250705140612.png)
+- **forEach**: recebe um função
+![](../../attachments/Pasted%20image%2020250705141110.png)
 **Sintaxe do switch case**
 ![400](../../attachments/Pasted%20image%2020250505160538.png)
 
