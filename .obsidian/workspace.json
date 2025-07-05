@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
+                "file": "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Tipos de dados e variável"
+              "title": "5_Fibra óptica"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
-    "6_FrontEnd/3_JavaScript/1_Introdução.md",
+    "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
+    "6_FrontEnd/3_JavaScript/1_Introdução.md",
     "attachments/Pasted image 20250705134323.png",
     "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
     "attachments/Pasted image 20250703202519.png",
@@ -230,7 +231,6 @@
     "2_Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
     "2_Redes de computadores/4_Camada de rede/10_Roteamento Hierárquico.md",
     "2_Redes de computadores/4_Camada de rede/11_Roteamento INTRA AS.md",
-    "2_Redes de computadores/4_Camada de rede/12_Roteamento INTER AS.md",
     "2_Redes de computadores/5_Camada de enlace",
     "Redes de computadores/4_Camada de rede/Sem título",
     "6_FrontEnd/3_JavaScript/10_Acessando apis",

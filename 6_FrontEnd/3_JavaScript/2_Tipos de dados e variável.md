@@ -51,16 +51,15 @@ Status: #Concluded
 Number("123")        // 123
 parseInt("123abc")   // 123
 parseFloat("3.14")   // 3.14
-```
-```js
+
 String(123)          // "123"
 (123).toString()     // "123"
 ```
 
 ---
 ### **4. Comparação de objetos**
-No js temos `==` e `===`. O primeiro compara o valor em si, mas o js faz muitas converções por baixo dos panos, então não é confiável. Já o  `===` compara dois valores e só retorna true se forem exatamente iguais. O **valor e o tipo** precisam ser os mesmos.
-```
+No js temos `==` e `===`. O primeiro compara o valor em si, mas o js faz muitas converções por baixo dos panos, então não é confiável. Já o  `===` compara dois valores e só retorna true se forem exatamente iguais. 
+```js
 5 == '5'     // true   → converte string para número
 5 === '5'    // false  → número ≠ string
 
@@ -73,7 +72,11 @@ null === undefined  // false
 
 ---
 ### **5. Variável e constante**
-``let`` define uma variável que pode sofrer alteração de valor. ``const`` cria uma constante, ou seja, o valor não pode ser alterado em tempo de execução.
+``let`` define uma variável que pode sofrer alteração. ``const`` cria uma constante, ou seja, o valor não pode ser alterado em tempo de execução.
 ![Pasted image 20250505142357](../../attachments/Pasted%20image%2020250505142357.png)
+Note que foi usado crases para permitir a inclusão de variáveis no texto.
+
 ![Pasted image 20250505155217](../../attachments/Pasted%20image%2020250505155217.png)
-O ``prompt`` recebe valores do user.
+O ``prompt`` recebe valores do terminal.
+
+

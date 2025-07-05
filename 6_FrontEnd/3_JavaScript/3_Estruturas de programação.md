@@ -1,17 +1,16 @@
+
 Status: #Concluded 
 
 ---
-# 1.Funções
-Funções são objetos em JavaScript e podem ser armazenadas em variáveis, passadas como argumento, retornadas de outras funções, etc.
+# **1.Funções**
+Funções **são objetos em JavaScript** e **podem ser armazenadas em variáveis**, passadas como argumento, retornadas de outras funções, etc.
 
-**Função padrão com parâmetros**
+**Função padrão**
 ![Pasted image 20250505154432](../../attachments/Pasted%20image%2020250505154432.png)
 **Arrow function**
 ![Pasted image 20250505155044](../../attachments/Pasted%20image%2020250505155044.png)
-
 ---
-# 2. Estruturas de controle
-O js segue a sintaxe padrão das estruturas de controle de outras linguagens
+# **2. Estruturas de controle**
 ![Pasted image 20250505155901](../../attachments/Pasted%20image%2020250505155901.png)
 
 ---
