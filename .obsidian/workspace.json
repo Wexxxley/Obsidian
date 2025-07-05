@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/10_Multiplos estilos com um clique.md",
+                "file": "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10_Multiplos estilos com um clique"
+              "title": "7_DOM (Document Object Model)"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
-    "6_FrontEnd/3_JavaScript/9_Acessando API Própria.md",
     "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
+    "6_FrontEnd/3_JavaScript/9_Acessando API Própria.md",
+    "6_FrontEnd/3_JavaScript/10_Multiplos estilos com um clique.md",
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
     "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "6_FrontEnd/3_JavaScript/4_Arrays.md",
@@ -207,7 +208,6 @@
     "attachments/Pasted image 20250705163314.png",
     "attachments/Pasted image 20250705163300.png",
     "attachments/Pasted image 20250705163245.png",
-    "6_FrontEnd/3_JavaScript/10_Multiplos estilos com um clique.md",
     "attachments/Pasted image 20250705155801.png",
     "attachments/Pasted image 20250705154907.png",
     "attachments/Pasted image 20250705154818.png",

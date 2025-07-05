@@ -5,21 +5,13 @@
 ### **1. Get all**
 ![Pasted image 20250624073206](../../../attachments/Pasted%20image%2020250624073206.png)
 ![Pasted image 20250624073222](../../../attachments/Pasted%20image%2020250624073222.png)
-1. **`fetch`**:
-    - `fetch()`: Faz uma requisições web e retorna uma `Promise`.
-    - `await`: Pausa a execução da função até que a `Promise` retornada por `fetch()` seja resolvida.
-2. **`response.json();`**:
-    - `response.json()`: O objeto `response` retornado não contém diretamente os dados JSON. O método `.json()` lê o corpo da resposta e o converte em json.
-    - `await`: Novamente, pausa a execução até que o corpo JSON seja totalmente convertido.
-3. **`document.createElement('li');`**:
-    - `document.createElement('li')`: Dentro do loop, para cada usuário, um novo elemento HTML `<li>` é criado na memória. 
-4. **`listItem.textContent = ...`**:
-    - `listItem.textContent`: Define o conteúdo de texto do elemento. Com esse atributo somente texto literal é colocado. Diferente do innerHtml que pode criar tags. O que pode causar a introdução de código malicioso.
-5. **`usersList.appendChild(listItem);`**:
-    - `usersList.appendChild(listItem)`: Este método adiciona o `listItem` como um **filho** do elemento `usersList`.
-
+1. **`fetch`**: Faz uma requisições web e retorna uma `Promise`.
+2. **`response.json()`**: O objeto `response` retornado não contém diretamente os dados JSON. O método `.json()` lê o body da resposta e o converte em json.
+3. **`document.createElement('li');`**: Um novo elemento HTML `<li>` é criado na memória. 
+4. **`listItem.textContent`**: Define o conteúdo de texto do elemento. Com esse atributo somente texto literal é colocado. Diferente do innerHtml que pode criar tags. 
+5. **`usersList.appendChild(listItem)`**: Adiciona o `listItem` como um **filho** de `usersList`.
 ---
-### **2. Criar modelo com formulário (API espera um JSON)**
+### **2. Criar recurso com formulário (API espera um JSON)**
 
 ![Pasted image 20250624074302](../../../attachments/Pasted%20image%2020250624074302.png)
 ![Pasted image 20250624074321](../../../attachments/Pasted%20image%2020250624074321.png)
