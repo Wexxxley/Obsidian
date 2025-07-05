@@ -10,86 +10,17 @@ DOM é uma árvore de toda a sua página HTML.
 ---
 ### **2. O Projeto Prático: Uma Lista de Tarefas Simples**
 
-```HTML
-<body>
-    <div id="container">
-        <h1>Minha Lista de Tarefas</h1>
-        
-        <input type="text" id="nova-tarefa-input">
-        <button id="adicionar-tarefa-btn">Adicionar</button>
-
-        <h1>Tarefas a Fazer</h1>
-        <ul id="lista-de-tarefas"> </ul>
-    </div>
-    <script src="script.js"></script>
-</body>
-
-```
-
-
-### 3. JavaScript em Ação (no arquivo `script.js`)
-
+![](../../attachments/Pasted%20image%2020250705154046.png)
 O processo de manipulação do DOM quase sempre segue 3 passos:
-
-1. **Selecionar** o(s) elemento(s) que você quer manipular.
-    
-2. **Manipular** o elemento (mudar seu estilo, texto, etc.) ou **escutar** um evento (como um clique).
-    
-3. **Adicionar ou Remover** elementos da página, se necessário.
-    
-
-#### Passo 1: Selecionar os Elementos Principais
-
-Primeiro, precisamos de referências aos elementos do HTML com os quais vamos interagir.
-
-JavaScript
-
-```
-// script.js
-
-// Seleciona o botão de adicionar pelo seu ID
-const botaoAdicionar = document.getElementById('adicionar-tarefa-btn');
-
-// Seleciona o campo de input pelo seu ID
-const inputTarefa = document.getElementById('nova-tarefa-input');
-
-// Seleciona a lista (<ul>) onde as tarefas serão adicionadas
-const listaDeTarefas = document.getElementById('lista-de-tarefas');
-```
-
-- `document.getElementById()`: É a forma mais rápida de pegar um elemento que possui um `id` único.
-    
-
-#### Passo 2: Responder a um Evento (O Clique do Botão)
-
+1. **Selecionar** o elemento que você quer manipular.
+2. **Manipular** o elemento ou **escutar** um evento (como um clique).
+3. **Adicionar ou Remover** elementos da página.
+#### **2.1 Selecionar elementos 
+![](../../attachments/Pasted%20image%2020250705154818.png)
+- `document.getElementById()`: Forma mais rápida de pegar um elemento que possui um `id`.
+#### **2.2: Responder a um Evento**
 Queremos que algo aconteça quando o usuário clicar no botão "Adicionar". Para isso, usamos um "ouvinte de evento" (`EventListener`).
-
-JavaScript
-
-```
-// Adiciona um "ouvinte" para o evento de 'click' no botão
-botaoAdicionar.addEventListener('click', function() {
-    // Esta função será executada toda vez que o botão for clicado
-    
-    // Pega o texto que o usuário digitou no input
-    const textoDaTarefa = inputTarefa.value;
-
-    // Verifica se o usuário realmente digitou algo
-    if (textoDaTarefa.trim() === '') {
-        alert('Por favor, digite uma tarefa.');
-        return; // Para a execução se nada foi digitado
-    }
-    
-    // Agora, vamos criar e adicionar a nova tarefa na tela
-    adicionarNovaTarefa(textoDaTarefa);
-
-    // Limpa o campo de input para a próxima tarefa
-    inputTarefa.value = '';
-    
-    // Devolve o foco para o campo de input
-    inputTarefa.focus();
-});
-```
+![](../../attachments/Pasted%20image%2020250705154907.png)
 
 #### Passo 3: Criar, Manipular e Adicionar Novos Elementos
 
@@ -143,5 +74,4 @@ function adicionarNovaTarefa(texto) {
 Abra o arquivo `index.html` no seu navegador e você terá uma aplicação funcional, toda manipulada via JavaScript através do DOM!
 
 
-![Pasted image 20250527105708](../../attachments/Pasted%20image%2020250527105708.png)
 ![](../../attachments/Pasted%20image%2020250705153959.png)
