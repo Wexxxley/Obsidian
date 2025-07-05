@@ -24,24 +24,13 @@ Queremos que algo aconteça quando o usuário clicar no botão "Adicionar". Para
 
 #### **2.3 Criar, Manipular e Adicionar Novos Elementos**
 ![](../../attachments/Pasted%20image%2020250705155801.png)
-### Resumo do que fizemos na prática:
-
-1. **`document.getElementById()`**: Selecionamos os "atores" principais da nossa página (input, botão e lista).
-    
-2. **`addEventListener()`**: Ensinamos o botão a "ouvir" por cliques e executar uma ação específica.
-    
-3. **`.value`**: Lemos o conteúdo de um campo de `input`.
-    
-4. **`document.createElement()`**: Criamos novos elementos (`li`, `button`) que não existiam no HTML original.
-    
+1. **`document.getElementById()`**: Selecionamos elentos por id.
+2. **`addEventListener()`**: Faz algo quando um evento é acionado.
+3. **`.value`**: ler o conteúdo de um campo de `input`.
+4. **`document.createElement()`**: Criamos novos elementos
 5. **`.textContent`**: Definimos o texto visível de um elemento.
-    
-6. **`appendChild()`**: Anexamos um elemento filho dentro de um elemento pai, efetivamente "desenhando" na tela.
-    
+6. **`appendChild()`**: Anexamos um elemento filho dentro de um elemento pai.
 7. **`.remove()`**: Deletamos um elemento da página de forma interativa.
-    
-
-Abra o arquivo `index.html` no seu navegador e você terá uma aplicação funcional, toda manipulada via JavaScript através do DOM!
-
 
 ![](../../attachments/Pasted%20image%2020250705153959.png)
+
