@@ -23,34 +23,7 @@ Para extrair os dados do corpo, você precisa usar um método específico:
 Esses métodos também **retornam uma Promise**, o que significa que temos um processo de duas etapas assíncronas.
 
 #### **2.1 Recenbendo dados com fetch**
-![](../../attachments/Pasted%20image%2020250705144143.png)
-
-#### **2.1 Enviandi dados com fetch**
-Para enviar dados, você passa um segundo argumento para a `fetch`: um objeto de configuração.
-
-JavaScript
-
-```
-
-```
-
-### Ponto Crucial sobre Erros
-
-Um erro comum é achar que a `fetch` falha (rejeita a Promise) se o status for um erro HTTP como 404 (Não Encontrado) ou 500 (Erro de Servidor).
-
-**Isso não é verdade!**
-
-A Promise da `fetch` só é rejeitada se houver um **erro de rede** (ex: o usuário está sem internet, o servidor não existe). Se o servidor responder com um status de erro (404, 500, etc.), a `fetch` considera a requisição um **sucesso** do ponto de vista da rede.
-
-Por isso é **essencial** verificar `response.ok` (que é `true` para status 200-299) e tratar o erro manualmente, como mostrado nos exemplos.
-
-### Resumo Final
-
-|Característica|Descrição|
-|---|---|
-|**O que é?**|API moderna para fazer requisições de rede em JavaScript.|
-|**Retorna o quê?**|Uma **Promise** que resolve com um objeto **`Response`**.|
-|**Como pegar dados?**|Usando métodos como `response.json()` ou `response.text()`, que também retornam Promises.|
-|**Sintaxe principal?**|`async/await` é a forma mais limpa e recomendada de usá-la.|
-|**Tratamento de Erros**|A Promise só falha em erros de rede. Erros HTTP (404, 500) devem ser checados manualmente com `response.ok`.|
-|**Substitui o quê?**|O antigo e complexo `XMLHttpRequest` (XHR).|
+![550](../../attachments/Pasted%20image%2020250705144143.png)
+#### **2.1 Enviando dados com fetch**
+Para enviar dados, você passa um segundo argumento para a `fetch`,um objeto de configuração.
+![](../../attachments/Pasted%20image%2020250705145309.png)
