@@ -6,7 +6,7 @@ A callback is a function passed as an argument to another function.
 - In the example above,  ==(x) => x >= 0== this a **callback function**.
 
 ---
-### **2. Promisse**
+### **2. Promisse e then catch** 
 Promisse é um objeto que **representa sucesso ou falha de uma operação assíncrona** Normalmente só consumimos uma promisse de terceiros, como quando acessamos apis, banco de dados e etc.
 
 Nesse exemplo estamos simulando uma operação assíncrona.
