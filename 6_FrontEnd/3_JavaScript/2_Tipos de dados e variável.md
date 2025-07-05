@@ -1,10 +1,10 @@
+
 Status: #Concluded 
 
 ---
 ### **1. Tipos primitivos**
 
-São imutáveis e armazenam um único valor.
-1. **String** – Texto entre aspas:
+1. **String**:
     ```js
     let nome = "Maria";
     ```
@@ -18,11 +18,7 @@ São imutáveis e armazenam um único valor.
     ```js
     let ativo = true;
     ```
-4. **Undefined** – Variável declarada, mas sem valor:
-    ```js
-    let x; 
-    ```
-5. **Null** – Valor nulo intencional:
+4. **Null** – Valor nulo intencional:
     ```js
     let dados = null;
     ```
@@ -31,10 +27,9 @@ São imutáveis e armazenam um único valor.
 > JavaScript é **dinamicamente tipado**: o tipo é definido automaticamente em tempo de execução e pode mudar.
 
 ---
-### **2. Tipos de referência (objetos)**
-São mutáveis e armazenam coleções ou funcionalidades:
+### **2. Tipos de referência**
 
-1. **Object** – Estrutura com pares chave-valor:
+1. **Object** – Estrutura chave-valor:
     ```js
     let pessoa = { nome: "João", idade: 25 };
     ```
@@ -48,26 +43,15 @@ São mutáveis e armazenam coleções ou funcionalidades:
       console.log("Olá!");
     }
     ```
-4. **Date, Map, Set, etc.** – Objetos especiais do JS.
-
 ---
 ### **3. Conversão de tipos**
 
-#### Conversão implícita
-O próprio JavaScript converte o tipo automaticamente quando necessário. JavaScript tenta "adivinhar" o que você quis dizer, o que pode causar confusões.
-```js
-"5" * 2      // 10  → string "5" é convertida para número
-"5" + 2      // "52" → número 2 é convertido para string
-true + 1     // 2  → true vira 1
-```
-#### Conversão explícita
-**Para Número**
+**Conversão explícita**
 ```js
 Number("123")        // 123
 parseInt("123abc")   // 123
 parseFloat("3.14")   // 3.14
 ```
-**Para string**
 ```js
 String(123)          // "123"
 (123).toString()     // "123"
@@ -88,7 +72,7 @@ null === undefined  // false
 ```
 
 ---
-### 5. Variáveis e impressão
+### **5. Variável e constante**
 ``let`` define uma variável que pode sofrer alteração de valor. ``const`` cria uma constante, ou seja, o valor não pode ser alterado em tempo de execução.
 ![Pasted image 20250505142357](../../attachments/Pasted%20image%2020250505142357.png)
 ![Pasted image 20250505155217](../../attachments/Pasted%20image%2020250505155217.png)
