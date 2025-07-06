@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/4_Arrays.md",
+                "file": "6_FrontEnd/3_JavaScript/11_Express/3_Criando rotas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Arrays"
+              "title": "3_Criando rotas"
             }
           }
         ]
@@ -193,10 +193,14 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
-    "6_FrontEnd/3_JavaScript/11_Express/2_.md",
+    "6_FrontEnd/3_JavaScript/11_Express/2_Criando uma API simples.md",
+    "6_FrontEnd/3_JavaScript/11_Express/3_Criando rotas.md",
+    "attachments/Pasted image 20250706080600.png",
+    "attachments/Pasted image 20250706080340.png",
+    "6_FrontEnd/3_JavaScript/11_Express/1_Node.js e express.md",
+    "6_FrontEnd/3_JavaScript/4_Arrays.md",
     "attachments/Pasted image 20250706073903.png",
     "attachments/Pasted image 20250706073816.png",
-    "6_FrontEnd/3_JavaScript/11_Express/1_Node.js e express.md",
     "attachments/Pasted image 20250706073714.png",
     "6_FrontEnd/3_JavaScript/11_Express",
     "7_Git and github/Branch.md",
@@ -207,7 +211,6 @@
     "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
     "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
-    "6_FrontEnd/3_JavaScript/4_Arrays.md",
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
     "6_FrontEnd/3_JavaScript/1_Introdução.md",
@@ -217,8 +220,6 @@
     "attachments/Pasted image 20250705163300.png",
     "attachments/Pasted image 20250705163245.png",
     "attachments/Pasted image 20250705155801.png",
-    "attachments/Pasted image 20250705154907.png",
-    "attachments/Pasted image 20250705154818.png",
     "6_FrontEnd/3_JavaScript/8_Promisse.md",
     "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
     "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
