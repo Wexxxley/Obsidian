@@ -9,7 +9,7 @@
 | **That**  | Singular | Longe     | That is your car.   |
 | **These** | Plural   | Perto     | These are my shoes. |
 | **Those** | Plural   | Longe     | Those are her keys. |
-
+**Examples**
 1. Can you hand me **this**? (pointing to something close)
 2. I really like **this** new song. 
 3. Look at **that** beautiful bird over there.
@@ -17,16 +17,7 @@
 5. I remember **that** day perfectly. 
 6. **These** flowers smell amazing. (Estas flores cheiram incrivelmente bem.)
 7. Are **these** the keys you were looking for? (holding them) 
-8. **These** shoes are much more comfortable than my old ones. 
-
-
-#### **Those** (Plural, Far)
-
-Used for 
-- 1️⃣ **Those** mountains in the distance are impressive. → (Aquelas montanhas à distância são impressionantes.)
-    
-- 2️⃣ Remember **those** times we spent together in college? → (Lembra-se daqueles tempos que passamos juntos na faculdade?)
-    
-- 3️⃣ Are **those** your children playing in the park? → (Aquelas são suas crianças brincando no parque?)
-    
-- 4️⃣ I need to put **those** dishes away before they dry. → (Eu preciso guardar aqueles pratos antes que sequem.)
+8. **These** shoes are much more comfortable than my old ones.
+9. **Those** mountains in the distance are impressive.
+10. Remember **those** times we spent together in college? 
+11. Are **those** your children playing in the park? → (Aquelas são suas crianças brincando no parque?)
