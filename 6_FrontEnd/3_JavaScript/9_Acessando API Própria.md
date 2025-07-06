@@ -5,7 +5,7 @@
 
 ![](../../../attachments/Pasted%20image%2020250624073206.png)
 
-![Pasted image 20250624073222](../../../attachments/Pasted%20image%2020250624073222.png)
+![](../../../attachments/Pasted%20image%2020250624073222.png)
 
 1. **`fetch`**: Faz uma requisições web e retorna uma `Promise`.
 2. **`response.json()`**: O objeto `response` retornado não contém diretamente os dados JSON. O método `.json()` lê o body da resposta e o converte em json.

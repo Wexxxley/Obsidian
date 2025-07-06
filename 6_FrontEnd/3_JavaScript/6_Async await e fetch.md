@@ -34,3 +34,4 @@ Esses métodos também **retornam uma Promise**, o que significa que temos um pr
 Para enviar dados, você passa um segundo argumento para a `fetch`,um objeto de configuração.
 
 ![](../../attachments/Pasted%20image%2020250705145309.png)
+

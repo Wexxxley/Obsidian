@@ -13,3 +13,4 @@ SO IMPLEMENTA DENTRO DO GHOST
 depois que vc fizer sua alteração, vc roda o update.sh (precisa do TKO)
 
 ![Pasted image 20250512185512](../attachments/Pasted%20image%2020250512185512.png)
+

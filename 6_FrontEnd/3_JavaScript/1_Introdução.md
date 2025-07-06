@@ -13,3 +13,4 @@ No frontend, o **JavaScript** tem a função de **tornar as páginas web interat
 Ou você pode escrever o código diretamente no body do HTML.
 
 ![](../../attachments/Pasted%20image%2020250705134323.png)
+

@@ -50,3 +50,4 @@ Na main é criado o banco ao iniciar, mas so é criado a tabela uma vez.
 ### **Exemplo de delete**
 
 ![Pasted image 20250610154543](../../attachments/Pasted%20image%2020250610154543.png)
+
