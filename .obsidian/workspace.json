@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/11_Express/2_Criando uma API simples.md",
+                "file": "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Criando uma API simples"
+              "title": "8_DOM consumindo uma api falsa"
             }
           }
         ]
@@ -193,6 +193,10 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
+    "6_FrontEnd/3_JavaScript/4_Arrays.md",
+    "6_FrontEnd/3_JavaScript/11_Express/2_Criando uma API simples.md",
+    "6_FrontEnd/3_JavaScript/11_Express/3_Criando rotas.md",
     "6_FrontEnd/3_JavaScript/11_Express/5_Consumindo API.md",
     "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
     "6_FrontEnd/3_JavaScript/10_Multiplos estilos com um clique.md",
@@ -209,15 +213,11 @@
     "attachments/Pasted image 20250706102125.png",
     "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "6_FrontEnd/3_JavaScript/11_Express/4_Configurações finais.md",
-    "6_FrontEnd/3_JavaScript/11_Express/3_Criando rotas.md",
-    "6_FrontEnd/3_JavaScript/11_Express/2_Criando uma API simples.md",
     "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
     "6_FrontEnd/3_JavaScript/11_Express/1_Node.js e express.md",
-    "6_FrontEnd/3_JavaScript/4_Arrays.md",
     "6_FrontEnd/3_JavaScript/11_Express",
     "7_Git and github/Branch.md",
     "7_Git and github/Git and github.md",
-    "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
     "6_FrontEnd/3_JavaScript/1_Introdução.md",

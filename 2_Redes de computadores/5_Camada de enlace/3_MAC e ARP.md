@@ -19,6 +19,7 @@ Cada Nó IP (Host, Roteador) numa LAN tem um módulo e uma tabela ARP
 
 - **Módulo ARP**: Componente de software responsável por executar as operações do prot ARP.
 - **Tabela ARP**: Cada nó mantém uma **Tabela ARP**. Que é uma lista de mapeamentos entre endereços IP e seus correspondentes endereços MAC.
+
 	![Pasted image 20250627115140](../../attachments/Pasted%20image%2020250627115140.png)
 	- **`Time To Live)`**: O **Tempo de Vida** para aquela entrada na tabela, tipicamente 20 min.
 
@@ -44,6 +45,7 @@ Cada Nó IP (Host, Roteador) numa LAN tem um módulo e uma tabela ARP
 - **Endereço Físico de Destino**: So preenchido na resposta.
 
 **Quadro de resposta**
+
 ![Pasted image 20250627120715](../../attachments/Pasted%20image%2020250627120715.png)
 
 - **Preâmbulo**

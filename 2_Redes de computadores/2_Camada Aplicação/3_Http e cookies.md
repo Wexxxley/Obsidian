@@ -15,18 +15,22 @@ ___
 ## **1.1 Formato do Request e response message**
 
 **Response message**
+
 ![Pasted image 20250508160317](../../attachments/Pasted%20image%2020250508160317.png)
 - CR(Carriage return): retorno do cursor.
 - LF(Line Feed): Pula a linha.
 - SP(Space): espaço em branco.
 
 **Com método get**
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcyujfV7oaza6FHi6b0fL9V616AIvE9KT8DGsxOrcc9auf5umHYGcpG8YT5CpaVU7Ml3cGPQxCXnbauDhgefOwtUQMica6ZF6Qvy5Vtyjrxf3GTU1uDd-lDp1GaKeklK6J4JpJXPQ?key=HrOhHC0_-ked6RNCpQ0o3PZn)
 
 **Com método Put**
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXewOFt0a4Pe9a_5Jo1JgCrozaMzTDvK4zXIbQdGsfDauSrPLBQN5OCLhJEeFem7rr4NjGIK0r1sZkbSTCFTwMUYLUY9xiZMyrB3LMb99NEQRvZ2U1vBg3W0GHF50JswLKLsNO38TA?key=HrOhHC0_-ked6RNCpQ0o3PZn)
 
 **Formato do Response message**
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfDmPpFdskH2rw36i9oGJ_mKfY4EdYbALCl6NvQtc_jrz6STrJsxdzjVKpxRH69sFsQIn09EY3XTyB6Rg3Ke9o4eNQhU_tsXHMt4zaXT_Jb8IHOHjgI496KzWLulyo8yjhOIqBOdg?key=HrOhHC0_-ked6RNCpQ0o3PZn)
 
 **Códigos de status**

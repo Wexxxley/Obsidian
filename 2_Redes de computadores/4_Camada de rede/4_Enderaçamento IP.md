@@ -93,5 +93,3 @@ No exemplo `223.1.1.0/24`, os primeiros 24 bits são o **prefixo da sub-rede**, 
 #### **4. Anycast (Um para Um "Mais Próximo")**
 - O mesmo endereço IP é atribuído a **múltiplos dispositivos** (servidores) em diferentes localizações. Quando um cliente envia um pacote para esse endereço Anycast, a rede o roteia para o **servidor "mais próximo"**
 
-
-

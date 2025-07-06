@@ -6,6 +6,7 @@ ORM (Object Relational Mapping) é uma camada que permite conectar a programaç�
 ### **1. Principais recursos**
 - O ORM permite mapear classes e modelos de forma a realizar operações no banco de dados. 
 - O ORM traduz automaticamente as instruções SQL para refletir as mudanças no banco de dados, e transforma os dados recuperados do banco em objetos.
+
 ![Pasted image 20250610151959](../../attachments/Pasted%20image%2020250610151959.png)
 1. Ao importa tudo isso no seu`database.py`, você está garantindo que o **SQLModel** consiga mapear todas as suas classes de modelo para as respectivas tabelas no banco de dados.
 2. **Engine**: O motor de conexão com o banco de dados
@@ -16,7 +17,9 @@ ORM (Object Relational Mapping) é uma camada que permite conectar a programaç�
 ### **2. Criando modelos**
 
 **Relacionamento 1:N**
+
 ![Pasted image 20250522155121](../../attachments/Pasted%20image%2020250522155121.png)
+
 ![Pasted image 20250522155137](../../attachments/Pasted%20image%2020250522155137.png)
 
 Na main é criado o banco ao iniciar, mas so é criado a tabela uma vez.

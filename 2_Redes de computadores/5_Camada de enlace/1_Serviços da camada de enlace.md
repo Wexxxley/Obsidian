@@ -30,4 +30,3 @@ Erros são comuns e podem ser causados por diversos fatores, como:
 - **Half-duplex**: Os dispositivos em ambas as extremidades do enlace **podem transmitir dados, mas não ao mesmo tempo**. 
 - **Full-duplex**: Os dispositivos em ambas as extremidades do enlace **podem transmitir e receber dados simultaneamente**. Isso é possível porque o enlace possui caminhos de transmissão e recepção separados, ou usa técnicas que permitem a simultaneidade.
 
-

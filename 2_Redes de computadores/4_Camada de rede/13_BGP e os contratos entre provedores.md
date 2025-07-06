@@ -23,5 +23,3 @@ Um contrato de emparelhamento ocorre quando duas redes concordam em **trocar tr�
 - **Impacto no BGP:**
     - As redes de peering **anunciar찾o entre si apenas seus pr처prios prefixos** e os **prefixos de seus clientes**. Eles _n찾o_ anunciar찾o os prefixos que aprenderam de seus provedores de tr창nsito ou de outros pares, pois isso violaria o contrato.
 
-
-

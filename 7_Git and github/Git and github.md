@@ -46,6 +46,7 @@ ___
 ## **1.2 Criando e clonando repositórios**
 
 **Criando**: no Github, você faz um new repositório, copia as instruções e cola no terminal da pasta desejada.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc5t6zjrXh6BrrXsoWivLLmSJVdK6Yn_zWStugW3btoJ4FfuQ8Ta4f7BOE_S4jutkHm_9B5-jM6JCwZzIdfbQ1gCGIKhrcN1BcUGA8-isSwCqsM3Sz0AnrignTvQU5_YtJipse4ePQ0smGOpGMvQQgx6ls?key=yiMe1b2VwU1jpN7Jf4vtog)
 - git init: inicia o repositório local
 - git branch: cria uma nova branch
@@ -53,6 +54,7 @@ ___
 - git push: envia as alterações para o repositório remoto  
 
 **Clonando repositório público**: Você copia a URL do repositório e usa o git clone.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf7MKgbOE_nylkyyQg9-Dxjqs3Lnj2PqMGvo291V2tLCHwpkF6OxmYY9akEwgfUXQGgxp39TvTybjI_nn-kpU83NeqoIwUulsM9l_0Fj4bvEKCizyyd1P5h43O9JD0QcwIbJrR9LWU7LOBsja07KR4JY3lV?key=yiMe1b2VwU1jpN7Jf4vtog)
   
 __________________________________________________________________________
@@ -177,7 +179,6 @@ Para você ver o histórico de commits basta usar o comando “`git log`”.
   
   
   
-
 
 **___________________________________________________________________________**
 

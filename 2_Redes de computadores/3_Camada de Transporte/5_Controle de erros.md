@@ -38,6 +38,7 @@ ________________________________________________________________________
 ## **2.1 Controle de fluxo**
 
  O receptor tem um buffer de recepção. Nem sempre o receptor consegue processar os dados na mesma velocidade que os recebe. Para evitar que o buffer fique cheio e ocorra perda de dados, o TCP usa o controle de fluxo.  
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcGlhawycTb2W5CmIn4M7VUlCDm6fB7Ja3CkhGD67TbPDcTAlBGqo7XdkG38CfmGWu4nTJ4WVuD5kwX9canZeZB6P52cGCpSw8C7UGs1da4djM1RdgXFIqUldRaFNmtAB2tSuySSg?key=HrOhHC0_-ked6RNCpQ0o3PZn)
 
 Componentes da imagem:
@@ -65,6 +66,7 @@ Componentes da imagem:
 - O host, ao receber essas informações, ajusta sua taxa de envio.
 - Pode responder mais rapidamente ao congestionamento.
 - Requer alterações na infraestrutura da rede (roteadores precisam colaborar).Mais complexo de implementar do que o modelo fim-a-fim.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeg0hmcsIDIz64WXMWhuYXSh3aGjYyh_nksQzuuJIYS_rGxW2U6cbzfheZ3TT2EBQKwgDmmocnh5djZPGI8DMF4ct6ekyMOPEjOQWT6MJWXKoC0sfKJ_pkL8hdfTv9RJjeugqG1WQ?key=HrOhHC0_-ked6RNCpQ0o3PZn)
 
 **Modos de operação**

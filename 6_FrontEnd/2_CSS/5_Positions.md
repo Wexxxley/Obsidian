@@ -12,6 +12,7 @@ Os elementos são posicionados com as propriedades top, bottom, left e right. Ma
 1. **static (Padrão):** O elemento segue o fluxo normal da página. Não pode ser deslocado com as propriedades top, right, bottom ou left.
 
 2. **relative:** O elemento permanece no fluxo normal da página.  Mas pode ser deslocado em relação à sua posição original com top, right, bottom ou left. Isso pode acabar entrando em conflito com outros elementos.
+
 	
 
 	![Pasted image 20250513095359](../../attachments/Pasted%20image%2020250513095359.png)
@@ -32,6 +33,4 @@ Os elementos são posicionados com as propriedades top, bottom, left e right. Ma
 4. **fixed:** O elemento é removido do fluxo normal da página. É posicionado em relação à janela do navegador (viewport). Permanece fixo na posição mesmo durante o scroll.
 
 5. **sticky:** Combina características de relative e fixed. O elemento é tratado como relativo até o scroll passar por ele, ai se torna fixo na tela.  
-
-
 

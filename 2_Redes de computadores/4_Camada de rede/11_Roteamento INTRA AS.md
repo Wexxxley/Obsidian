@@ -9,6 +9,7 @@
 - Somente uma rota é mantida para cada destino.
 - A RIP faz a troca Periódica de Tabelas de roteamento, or padrão, essa troca ocorre a cada 30 s.
 - Com 180s sem retornos, o roteador considera o seu vizinho morto, descarta as rotas que passam por ele e avisa seus vizinhos.
+
 ![Pasted image 20250605154808](../../attachments/Pasted%20image%2020250605154808.png)
 
 **As diferenças entre RIPv1 e RIPv2:**

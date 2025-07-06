@@ -15,6 +15,7 @@ ___
 - Margin: Margem que serve como um espaçamento com outras caixas.
  
 **Padding**: Você pode ajustar o padding de modo geral, de forma individual e de forma individual com um comando.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJ_zic0cX_SaxogBNltOMB5FginKhkwQO40ls-ck_MQPFRmQHtGkNAK7d3hgeOCaDrP9F1Mg7Pj28WsiUfT1bK8Wwxqz_zS3dMjoM5SmC6FOyXFHTRt-UvCG9HZ-Z0a3LnkXmUfQ?key=VYJVAqKhTdZyHt8enJbiwA)
 Obs: o margin funciona da mesma forma que o padding.
 
@@ -38,12 +39,14 @@ ___
 1. border-color:  edita cor da borda.
 2. border-width: edita largura da borda.
 3. border-style:  edita o estilo (solid, double, dashed,dotted, groove)
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdLiqj87k96_H2DoyOA8V-bu0S6K4CAK117bnvMDPYLAZn5f-CLboWT5NWS1VG2scOhdHbLCfzFHNT160thdgG6qJFac9pnWkSbEi4BLw3OW8FYeO3uNTO43HnkhzmIr4hNuf1Mcg?key=VYJVAqKhTdZyHt8enJbiwA)
 
 **Arredondamento**: O arredondamento de bordas é feito com a propriedade border-radius. 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJoexbfLpPKxzlxCMx8_I2R29FhvhfGKhq5OY7fCCESAPxyEU2wNvXT0mrWHFGsuRQmUqOjvAGmV4NVyc_YhL41lEhO8HscaWcvtrB9DYqavLy9od4crHDOAudlzKOrCrtF64kEA?key=VYJVAqKhTdZyHt8enJbiwA)
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcE1x3gUPldOChmQ0xu2RSo5UnGYFwLRGuRraP3n5oruFk5OKY2Sw9G6mYTKt_h4f4d_5estezaajAYFXHwa9p4RZPuRtEgbm8lKbWkuAnYjUnaoOkebN_N-FhEg23RkGid50X3GA?key=VYJVAqKhTdZyHt8enJbiwA)
 
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJoexbfLpPKxzlxCMx8_I2R29FhvhfGKhq5OY7fCCESAPxyEU2wNvXT0mrWHFGsuRQmUqOjvAGmV4NVyc_YhL41lEhO8HscaWcvtrB9DYqavLy9od4crHDOAudlzKOrCrtF64kEA?key=VYJVAqKhTdZyHt8enJbiwA)
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcE1x3gUPldOChmQ0xu2RSo5UnGYFwLRGuRraP3n5oruFk5OKY2Sw9G6mYTKt_h4f4d_5estezaajAYFXHwa9p4RZPuRtEgbm8lKbWkuAnYjUnaoOkebN_N-FhEg23RkGid50X3GA?key=VYJVAqKhTdZyHt8enJbiwA)
 
 ___
 # **4. Tipos de caixa**

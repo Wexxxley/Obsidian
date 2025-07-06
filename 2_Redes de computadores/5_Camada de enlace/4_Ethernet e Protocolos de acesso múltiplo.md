@@ -36,4 +36,3 @@ O CSMA/CD é uma versão aprimorada do CSMA.
     - Neste processo, o adaptador calcula um tempo de espera aleatório antes de tentar retransmitir. Esse tempo de espera aumenta exponencialmente com o número de colisões consecutivas:
     - Após o período de espera, o adpatador volta a sensorear o canal.
 
-

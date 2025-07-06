@@ -16,6 +16,7 @@
 - O grafo na figura abaixo mostra os problemas que arestas negativas podem causar. O caminho de v5 para v4 tem custo 1, mas existe um mais curto seguindo v5,v4,v2,v5,v4, com custo −5. Este caminho ainda não é o mais curto, pois poderíamos permanecer nesse ciclo. Isto é conhecido como ciclo de custo negativo; quando há um no grafo, os caminhos mais curtos são indefinidos.
 - ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeul46kW9zTZF43lTQxr7MmIe3DA4lhhw5sSSnlaZmZSo2c7JIMDNpV9wvgBCy5VTTxJDYpKSAGI5D5mqjOgGoc8kxkQVDbDYkMYKaicS_BNj4MgHnQir6ueeZvzLu_ogck7YGD?key=VJjD-GQ4BeMLFSL3weHQfxOz)
  - A figura abaixo mostra um grafo ponderado. Gostaríamos de encontrar o caminho mais curto a partir de s para todos os outros vértices. 
+
   ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfGFaPphwr-tFjkUrYM-R0yb-EtaoMqWG1idOXWypr-mz81XVxhq_XsEhBlTpXRS6PHh0gZUOlZHwV2RnRnnVns9V2aQOqLQR3Aq3CA7hC1OGS2hgJtNSXGr08lmuVK9LZ-f6PrvA?key=VJjD-GQ4BeMLFSL3weHQfxOz)
   - Suponha que escolhemos s como v3. Agora, podemos começar a procurar todos os vértices que estão a uma distância 1. Se fizermos isso, veremos que podemos agora encontrar vértices cujo caminho mais curto de s é 2. Podemos encontrar, então, os com distância 3. 
 
@@ -55,6 +56,7 @@ void dijkstra(G, s) {
 - Q armazena os vértices do grafo que ainda não foram processados. Ela é organizada como uma fila de prioridade mínima.
 
 - **Técnica do relaxamento**: O propósito de relaxar uma aresta (u, v) consiste em testar se podemos melhorar a estimativa do caminho mais curto para v encontrado até então, por meio do caminho passando por u. 
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdRKHY_7z8OOBsb-SRQtAIQNYd4SvGupvQBGl1noonqGyZKEueEyt1nk1HL9z-jBufixQJAFP4WlrmhwOBsKBul2KnKpXzwzlE8FaRcfo6v0Odxf7idUBaD0kwXJBjacblG_ITVFw?key=VJjD-GQ4BeMLFSL3weHQfxOz)
   
   

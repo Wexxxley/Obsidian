@@ -33,4 +33,5 @@ Existem **dois tipos principais** de cabos de par trançado, diferenciados pela 
     - Essa blindagem oferece uma camada extra de proteção contra interferência eletromagnética.
     - É mais caro, mais rígido e mais difícil de instalar.
     - É utilizado em locais com alto nível de ruído elétrico, como fábricas, hospitais ou perto de equipamentos de alta potência.
+
 ![Pasted image 20250703104110](../../attachments/Pasted%20image%2020250703104110.png)

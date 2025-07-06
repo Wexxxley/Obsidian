@@ -3,6 +3,7 @@
 # 1. Contato inicial
 
  **Criando tabela**  
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd_IEiul6F6a033IBxBnx5YPsznycH2lX4KDJ1y_I6imhAbLoolIjMhLyV4__-3Gy577_g3WtP8QxeKkP24JSrvaNCVvAIpS7PRQUm2mX1Vt8eABdQ6VfIUgwOZVot8XYpTJk-q0h7FD2FQx-lw5gzoNTBc?key=jqcuw0c7mMfsTTEWWceZSw)
 
 ---
@@ -13,6 +14,7 @@
 **Null e not null**
 -Null: Indica que pode ter um valor ou não.
 -Not null: Cada registro deve ter um valor.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdCZY6aIm9dwfUAPZXZIPk-gPj3b4-kGr3_cW8Yk4p9et7ltbKLOYgYA7AHixBxJsO_Yf4frp1Vw9e4BPjaHIJW56cFXT2KSODUSHCAnnPSqJp01sGc1cQDyNY5gmKU_CdX03Yk--rz215JW46mXrUBQOUQ?key=jqcuw0c7mMfsTTEWWceZSw)
 
 **Primary key e Unique**
@@ -24,10 +26,12 @@
 
 **Default**
  Define um valor padrão para uma coluna caso o valor não seja especificado.
+
  ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdbDNUf1lTtbcWHKIC03erIedXsJZj9VX3XNGrjcMVYrdLdqdUEyf6bRxMxCVs3b4Zdd1I3ruglcL5i6WOWEGfg24Dr3e682NghpQZHGDUI-JkQFw2DrLP7sx14bkVPfFBxBeohqGv9Szo0sS2elkaj-PWK?key=jqcuw0c7mMfsTTEWWceZSw)
 
 **Foreign key**
  Uma chave estrangeira (foreign key) estabelece uma relação entre duas tabelas e garante a integridade dos dados. Isso impede a criação de relações inconsistentes.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe6VGHSoooo_zQG64VmnJxB0-dUSF2tdr0ZSkFWxSawv_GPuXY6MIJkA28uKWJpx-IS8uAiKEB8DIly0ufEsCwgnXeHBXu0kEs-jCcSwXP9eKKYx3Lw1v8cKzZAloumqY9YpRJjpYR3sOyJHL_DmkaFHb0?key=jqcuw0c7mMfsTTEWWceZSw)
 
 ___  
@@ -395,6 +399,7 @@ ___________________________________________________________________________
 - As views permitem que você salve consultas SQL complexas com múltiplas junções, subconsultas ou filtros. Assim, em vez de escrever a consulta completa todas as vezes, você pode consultar diretamente a view.
     
 - Se a lógica da consulta precisar ser alterada, você altera a view uma vez, e todos que a utilizam verão as mudanças automaticamente.
+
     
 
   

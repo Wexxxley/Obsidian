@@ -6,6 +6,7 @@
 Para que os dispositivos de rede consigam se comunicar, os 8 fios dentro de um cabo de rede precisam ser organizados em uma ordem específica no conector RJ-45. Existem duas normas principais para isso, a **T568A** e a **T568B**. 
 
 **Padrão T568A**
+
 ![550](../../attachments/Pasted%20image%2020250703104648.png)
 
 ![500](../../attachments/Pasted%20image%2020250703105455.png)
@@ -30,6 +31,7 @@ Para conectar um PC (MDI) a um Switch (MDI-X), precisamos que os pinos de transm
 Se você tentar conectar dois PCs com um cabo direto, a comunicação falha. Ambos estariam tentando transmitir nos mesmos pinos (1 e 2) e receber nos mesmos pinos (3 e 6). 
 
 - Um cabo crossover tem a norma **T568A em uma ponta** e a **T568B na outra**.
+
 ![400](../../attachments/Pasted%20image%2020250703105106.png)
 #### **2.3 Auto MDI/MDI-X**
 

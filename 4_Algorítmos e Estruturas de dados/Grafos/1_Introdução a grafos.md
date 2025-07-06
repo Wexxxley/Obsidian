@@ -26,6 +26,7 @@ Um ==**grafo G = (V, E)**== é composto por um **conjunto de vértices (V)** e u
 
 ___
 ### **1.1 Representação de grafos**
+
   
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfH6clvRtr8C23J8Ff5Hq-LOek1BcgvQ7StRsr3FmFQiLs1i_-vgQJWCJBnUY7vs-7SJSnKZZ4f9EsjekLAO7UgKKkUe5X08iaNu5_H1E89xEHhlyJuxiU_-_cbzcRHNm-suELs?key=VJjD-GQ4BeMLFSL3weHQfxOz)
@@ -53,7 +54,6 @@ Uma solução melhor para **grafos não densos (esparsos)** é o uso de listas d
 
   
 ___________________________________________________________________________
-
 
 ___________________________________________________________________________
 

@@ -12,6 +12,7 @@ O proxy tem tanto o papel de cliente como o de servidor. Quando um cliente faz u
 2. **Cache**: Proxies armazenam cópias de objetos acessados. Ex: Se você acessa o g1.com, o proxy salva uma cópia da resposta. O próximo usuário que acessar, o proxy entrega a cópia sem precisar consultar de novo.
 3. **Controle e filtragem de conteúdo:** Por exemplo, uma empresa não quer que funcionários acessem redes sociais. O proxy intercepta a requisição e bloqueia o acesso a facebook.com, twitter.com, etc.
 4. **Acesso a conteúdo com restrição geográfica**: Muitos usam proxies ou VPNs para acessar conteúdo que está bloqueado na sua região. O proxy usado é um proxy comercial, que mascara o IP real para enganar o site.
+
   
 
 ![Pasted image 20250508161045](../../attachments/Pasted%20image%2020250508161045.png)

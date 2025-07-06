@@ -69,6 +69,7 @@ Classificação de arestas 
 3. Arestas Diretas: São arestas que conectam um vértice u a um descendente v que já foi explorado. Se você encontrar uma aresta (u,v) e v já foi descoberto, finalizado e é descendente de u, essa aresta é direta.
     
 4. Arestas Cruzadas: Se você encontrar uma aresta (u,v) e v já foi descoberto, finalizado, mas v não é descendente de u, essa aresta é cruzada.
+
     
 
   

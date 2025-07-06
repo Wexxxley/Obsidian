@@ -7,6 +7,7 @@ DOM é uma árvore de toda a sua página HTML.
 - **Qualquer script** na sua página pode **acessar e manipular** qualquer elemento no DOM usando `document.querySelector()` ou `getElementById()`.
 - Uma regra de estilo definida no seu arquivo CSS vai se aplicar a **todos** os elementos da página 
 - Existe apenas um DOM principal por página.
+
 ![550](../../attachments/Pasted%20image%2020250705152711.png)
 
 ---

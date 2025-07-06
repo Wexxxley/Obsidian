@@ -13,6 +13,7 @@ Usam o TCP para confiabilidade.
 
 - **Sessão eBGP:** Usada para estabelecer sessões entre roteadores de borda em ASes vizinhos. Através delas, os ASes trocam informações de prefixos que controlam ou que podem alcançar.
 - **Sessôes iBGP**: Uma vez que um roteador de borda aprende uma rota externa, ele precisa anunciar essa rota para os roteadores internos do seu AS.
+
 ![Pasted image 20250606100212](../../attachments/Pasted%20image%2020250606100212.png)
 - Quando AS2 comunica um prefixo ao AS1, AS2 está prometendo que irá encaminhar todos os datagramas destinados a esse prefixo em direção ao prefixo.
 - Quando um roteador aprende um novo prefixo, ele cria uma entrada para ele em sua tabela de roteamento.
@@ -40,10 +41,4 @@ Um roteador pode aprender mais do que 1 rota para o mesmo prefixo. O roteador de
 #### **1.4 Inter AS vs Intra AS**
 - Inter-AS: a administração quer ter controle sobre como seu tráfego é roteado e sobre quem roteia através da sua rede. Políticas podem ser dominantes em relação ao desempenho.
 - Intra-AS: administração única, então não são necessárias políticas de decisão. Preocupação com desempenho.
-
-
-
-
-
-
 

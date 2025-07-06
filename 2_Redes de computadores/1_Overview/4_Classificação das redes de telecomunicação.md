@@ -29,4 +29,3 @@ Na comutação de pacotes, os dados são divididos em pacotes pequenos e enviado
 
 2. **Redes de Datagramas**: Cada pacote pode viajar por um caminho diferente, chegando ao destino em ordem ou fora de ordem. 
 
-

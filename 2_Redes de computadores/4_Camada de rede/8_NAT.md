@@ -22,6 +22,7 @@ A NAT é tipicamente implementada em um roteador que atua como um "gateway" entr
 	3. Ele **anota o endereço e a porta original** em uma tabela chamada **tabela NAT**.
 	4. Quando o server responde, o pacote chega ao roteador com o endereço nat e a porta nat referente ao processo.
 	5. O roteador NAT **olha na tabela** e sabe que deve enviar a resposta para o notebook.
+
 ![Pasted image 20250526193147](../../attachments/Pasted%20image%2020250526193147.png)
 
 - Quando seu roteador usa NAT, ele atribui uma porta para cada conexão que sai da sua rede. 

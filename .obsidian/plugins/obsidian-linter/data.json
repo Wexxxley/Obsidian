@@ -213,7 +213,7 @@
       "enabled": false
     },
     "paragraph-blank-lines": {
-      "enabled": true
+      "enabled": false
     },
     "remove-empty-lines-between-list-markers-and-checklists": {
       "enabled": false
@@ -281,7 +281,22 @@
   "linterLocale": "system-default",
   "logLevel": "ERROR",
   "lintCommands": [],
-  "customRegexes": [],
+  "customRegexes": [
+    {
+      "label": "Colocar quebra de linha antes de imagens",
+      "find": "(?<!\\n\\n)(^(\\s*!\\[.*?\\]\\(.*?\\)\\s*)$|^\\s*!\\[\\[.*?\\]\\]\\s*$)",
+      "replace": "\\n$1",
+      "flags": "gm",
+      "enabled": true
+    },
+    {
+      "label": "No maxímo uma linha em branco",
+      "find": "\\n{3,}",
+      "replace": "\\n\\n",
+      "flags": "gm",
+      "enabled": true
+    }
+  ],
   "commonStyles": {
     "aliasArrayStyle": "single-line",
     "tagArrayStyle": "single-line",

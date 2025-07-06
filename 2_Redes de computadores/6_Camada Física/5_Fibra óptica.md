@@ -20,6 +20,7 @@ O núcleo da fibra é revestido por uma camada de vidro com um índice de refra�
 - **Elementos de Tração:** Usados em situações que necessitasse de mais proteção como de baixo d'água. Fios de materiais ultra resistentes que protegem as delicadas fibras de vidro contra estiramento do cabo.
 - **Capa Externa:** A camada final que protege o cabo.
 - **Conectores de Fibra Óptica (imagem superior):** Mostra vários tipos (SC, ST, SMA). A função de um conector é alinhar com precisão microscópica o núcleo de uma fibra com outra, ou com o equipamento, para garantir que a luz passe com o mínimo de perda.
+
 ![300](../../attachments/Pasted%20image%2020250703202048.png)
 ---
 ### **3. Cabos Submarinos**
@@ -28,4 +29,5 @@ O núcleo da fibra é revestido por uma camada de vidro com um índice de refra�
 - **Cabo Enterrado:** Perto da costa, o cabo é enterrado para protegê-los.
 - **Oceano Profundo:** Em águas profundas, onde o risco de danos é muito menor, o cabo simplesmente repousa sobre o leito oceânico.
 - **Amplificador Óptico:** Mesmo com a baixa perda da fibra, em distâncias de milhares de quilômetros, o sinal de luz enfraquece. A cada **70 km**, um amplificador óptico é instalado. Sua função é receber o sinal de luz enfraquecido e amplificá-lo para sua potência original. Esses amplificadores são alimentados por uma corrente elétrica que viaja dentro do cabo submarino.
+
   ![600](../../attachments/Pasted%20image%2020250703202519.png)

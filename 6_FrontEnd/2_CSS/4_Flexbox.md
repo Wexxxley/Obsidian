@@ -28,14 +28,19 @@ Cria uma nova linha ou coluna para comportar os elementos sem distorcê-los.
 Alinha os itens de acordo com o eixo principal estabelecido pelo flex-direction.
 
 - flex-start (padrão): Alinha os itens ao início.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfKjTFP42SQ9h60spCJW6KvHA5JPQeqT0-HA8l1Cbh_ukL4_z9VPukH6xSuI4xB08D7ujd6q39vaHGhkW-Y9RSBj90nIgJ5Top-cVEUcHtu0yrzkU0AmaOBgEBqfzGHb-ExtUSuaw?key=VYJVAqKhTdZyHt8enJbiwA)
 - flex-end: Alinha os itens ao final.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdlenHoHbUafO5rkNF2-9i0Ay--Wnjmjzx30gkFcvv45EPySTYhh3WZA3anM-yDnjH__3AtGUs4xzd-0zFlBSr5uPFWEcqTsFiu9UL6wXnqjEb85AnX3AyGM5hZwFdYrSmeMOEo?key=VYJVAqKhTdZyHt8enJbiwA)
 - center: Centraliza os itens.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdgsNOWwFaSXCuSDRx2JQJmaFrCFhZd3UF7BX8Fl7WNw1FsixH_1g4-lj4e_CrVZ5oyoY9K-3PTHScQL1N9V3vV-9e7_yGFJbEbBpBBdV4f9gqnzCAJ-y75xBF2_rtoDyICHX_x?key=VYJVAqKhTdZyHt8enJbiwA)
 - space-between: Distribui os itens com o maior espaço possível.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcIAO8jlZA3BEnjsFmFblnc3oJhsXvYAh_5JppW3O0scGMCJmWz2O-9dN-Xa9P_9NUfhSU7_bfreNIlkqEhOuuqjhqDLGWWs-SDCSZtrkn_kr4Y5KYtnVOIt4JkYeB-2bsYYxj-pQ?key=VYJVAqKhTdZyHt8enJbiwA)
 - space-around: distribui os itens e deixa respiros no começo e final. 
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdEWY_TeFtQqv8DD8HMUxpvc-rzu3JBRpYYZ5N_CUff6KWHk2uaRDm0FIifAREtF9KVT7Scod-OfcPeykmGPvaHftKGSDene7IfpT8J1d16NtClTs0XG7ab39UWcCOS9oWCKSmaRg?key=VYJVAqKhTdZyHt8enJbiwA)
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXepmOWwToS7LlGYEGhBLRQLkQBdF0rZ6-KCWQZTmoqjGApz9H7X7CXucF-9zT8gKktc7TKY4KZegGngkBzecglP6nEUGbAS4_D0b5YChRJYU22Cd3kS9Gdh2JnIg2-Hk8H6cJozvQ?key=VYJVAqKhTdZyHt8enJbiwA)
@@ -46,12 +51,16 @@ Alinha os itens de acordo com o eixo principal estabelecido pelo flex-direction.
 Alinha os itens no eixo contrário do estabelecido no flex-direction.
 
 - flex-start
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc0tjkpI0ARtrunNsozu3fQdQe-xRTkJqEu0saZxpn_ekrrEuOlEK9BYS7tzleYFuwKKCgdg7C3gjf2LYQe2wibjC0oXK8HleO2fgorFalcgU36DzEhiKKKY3L_qYm65B6ocO-2kg?key=VYJVAqKhTdZyHt8enJbiwA)
 - flex-end
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcxH5MABDaGjRHCwLDjM_2vQP0dtFVRnBWgOm4nAUAjTF6UszGQFN5Xd9dF528jod6pwDJPxdDCmHzo5N3GKQVj7Ebr161vj22R4q5tQ5ZiPufrhvfBSpTWsieGtC8Lv8Zp3lxtcg?key=VYJVAqKhTdZyHt8enJbiwA)
 - center
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcAYLfxE-L0xYB3mV33cBQB7Kq44VFpH_rfk-rAnbGtsR-g9bCyUoQMGJEe-ZxIPjWm1hqbsT3mi6GB4itBvm1v5Ipwux4LuqzPFhIVh7sybFqKWLsKByAUjvHE9isuKFaujZ2u?key=VYJVAqKhTdZyHt8enJbiwA)
 - stretch: faz com que os elementos se estiquem para ocupar o espaço
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeE-FjqhKrz4KBkY07s6Duultp6NMuImEmEg5Y0Kxo3C9WD3aQX-0JDq8j5_YhpA9eL8K9KKj2c_3HuZQNPOLzSRub9U4e9WO-tGTDHOzakp2LEiVCTVH70BMFcgpmYM5D8B9s0AQ?key=VYJVAqKhTdZyHt8enJbiwA)
 
 ## **5. Gap**
@@ -76,7 +85,9 @@ Define a capacidade de um item de crescer e ocupar espaço extra dentro do conta
 - flex-grow: 0; → O item não cresce (padrão).
 - flex-grow: 1; → O item cresce proporcionalmente ao espaço disponível.
 - flex-grow: 2; → O item cresce o dobro em relação a um item com flex-grow: 1 
+
 ![Pasted image 20250522190124](../../attachments/Pasted%20image%2020250522190124.png)
+
   ![Pasted image 20250522185953](../../attachments/Pasted%20image%2020250522185953.png)
 
 ---

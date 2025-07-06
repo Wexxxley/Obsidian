@@ -40,11 +40,13 @@ Vamos agora considerar os **números de reconhecimento**. O número de reconheci
 ![Pasted image 20250509135245](../../attachments/Pasted%20image%2020250509135245.png)
 
 **Conexão**
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcgpiDavS7LfwXV22ihWijvZYhrty_8AA8D21QLJ2QHzwtTIgY-Lq6BNCHsH5j2elmZWCQxrWjsIALs5-z2Yg_ZKl7XZHVCvteH6WMcqGSiXIyKpPx9lZlmNENNBp-jnqqSI5nN?key=HrOhHC0_-ked6RNCpQ0o3PZn)
 - **SYN**: Synchronize: basicamente um pedido para conexão
 - **ACK**: Acknowledge: utilizado para confirmar que a mensagem foi recebida
 
 **Finalização de conexão**
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfwbd7HwmpbmP9PEwLkcUElrWyP_aTmex_rQ7sATRmDbv98rJbmcw9fBbwYqCTnyOv55iUgdcs9rX6dUkpnPBv7055BKlupdyiF3yOg71HMI9LISZWXl9XzTMf2vLgBeAhqROittA?key=HrOhHC0_-ked6RNCpQ0o3PZn)
 O cliente avisa que não vai mais enviar nada. E o server confirma que recebeu, mas o server ainda pode ficar enviando pacotes até que ele decida não querer mais conexão.
 
@@ -53,10 +55,13 @@ O cliente avisa que não vai mais enviar nada. E o server confirma que recebeu, 
 # Cenários de retransmissão
 
 **Cenário de esgotamento de temporização**
+
 ![Pasted image 20250509140214](../../attachments/Pasted%20image%2020250509140214.png)
 
 **Reconhecimento acumulativo**
+
 ![Pasted image 20250509140546](../../attachments/Pasted%20image%2020250509140546.png)
 
 **Retransmissão de dados**
+
 ![Pasted image 20250509140658](../../attachments/Pasted%20image%2020250509140658.png)

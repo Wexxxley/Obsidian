@@ -27,12 +27,14 @@ Títulos em html possuem 6 níveis. `<H1>, ..., <H6>`. Essas tags não se preocu
 Atributos são utilizados para adicionar funcionalidades às tags. 
 > [!NOTE]
 > Ex: a tag `<a>` é utilizada para nos direcionar a uma nova página ou site. E o endereço é adicionado em um atributo. 
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd9CH49oL40UiGm3UITOoyINBpPr8hJbIu42Xns26FQBOj6K42FrmJKE9obsGjwfYcoKW6ZEZLlFOZYCEDSYaQ_A_oSTcmIMrQC941QTGBYyArV9FhEcubEMpZG24PYAKpHAu3Mdg?key=VYJVAqKhTdZyHt8enJbiwA)
 
 ---
 # **3. Link**
 
 **Link externo:** Se seu link leva para outro site recomenda-se abrir uma nova aba.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdOOr839rfiCq44TC7Y_g6qm5fF_fJpawlaIo_jLPfuTxIEfQWbHAl1dtMpqU8rVKrTQqLN2aaYsL5zyIHGnSAUkQ_SA5Jd27QaEtW8UT38lzrKDP3KbZC0B0i6t3Pe9EQG2KwaJw?key=VYJVAqKhTdZyHt8enJbiwA)
 
 **Link Interno**: Quando seu link é do seu site não se cria uma nova aba.
@@ -62,11 +64,13 @@ ___
 # **5. Listas**
 
 **Lista ordenada**
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSycmZrRa3b-ccA8udwgfSkpmCyPfDTyhI-0szikNQK5p0mT9TlSBJCsmwOyr1nzNMb_bpWuGgcQtRa68MpYMV9bohiX4ihIdqWIvvRcIPbaOHy3nCOCTkkBJ5eX831lzrUmsQVQ?key=VYJVAqKhTdZyHt8enJbiwA)![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXesEgpQuOg24WXTYcPQ6E-UmADGxQABAlfrBqN4RwO1FiBfNLx5Uc9wuYb1Qyitpr914B62UDMXUDzCvUlMXUDqBdZc7L5Q_6N1hUzMrK-TOxP_UvUhprtHUo1nHf37kfCTfotz?key=VYJVAqKhTdZyHt8enJbiwA)
 `<ol>` - ordered list
 `<li>` - list item 
 
 **Lista não ordenada**
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfg5EeC0DuXh-mX43eD9_inA9i0wt8oKdLJ1HgQz6A2IM4i8ZO0Kd_HIjtRzlN667eW0z-bGY8478G2FeQBrWkqADOoff53Zqs8rfLdyt6-rZol7se29iXb6_9bJ-3QAtF8KUSWzQ?key=VYJVAqKhTdZyHt8enJbiwA) ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcUDoGGnQFDwNXhRU_HduM0x8kMWKMY3zX6241SrFNFPuItN-rEkTaayVb7FMhZmpy3D-bs_yHG618Ku8tYo_uQmRkpFMWykXfDamDhXU-eHmQfgxzpgn6MOnosJqnYtwJ5XwXAfA?key=VYJVAqKhTdZyHt8enJbiwA)
 `<ul>` - unordered list
 ___
@@ -111,6 +115,7 @@ ___
 - ``<address>``: Usada para informações de contato, como nome, email, endereço, etc.
 - ``<cite>``: Usada para referenciar o título de uma obra (livro, site, filme, música, etc).
 - ``<pre>``: Usada para mostrar texto com formatação preservada.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXedaI0YsDGd_XCax5WqfXc6jM3lCit9dvcRm5BZVBp7QpMiRqFhb0FdX9eTCXrr1yPD_Z9dDDckbXXOIxgpuyAyOCQqFRM8CZT5YyaglZDpoSJxH0Th8XhBae1u2qtWRZqUExetNQ?key=VYJVAqKhTdZyHt8enJbiwA)
 
   

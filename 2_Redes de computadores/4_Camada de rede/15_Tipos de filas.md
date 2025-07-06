@@ -10,6 +10,7 @@
 #### **Round-Robin (RR)**
 - Em vez de uma única fila FIFO, os pacotes são separados em **múltiplas filas**, geralmente baseadas em alguma classificação (ex: tipo de serviço).
 - O agendador visita cada fila de forma sequencial, enviando um pacote de cada fila antes de passar para a próxima. Se uma fila está vazia, ele pula para a próxima.
+
 ![Pasted image 20250606120427](../../attachments/Pasted%20image%2020250606120427.png)
 - Não leva em conta a prioridade que um determinando paocte pode ter.
 
@@ -18,6 +19,7 @@
 - É uma evolução do Round-Robin. Ele também separa os pacotes em múltiplas filas, mas adiciona um **peso** a cada classe de tráfego.
 - Por exemplo, se a Fila A tem peso 2 e a Fila B tem peso 1, a Fila A receberá terá o dobro de pacotes que a Fila B por ciclo do agendador.
 - Permite que o administrador de rede priorize certas classes de tráfego. Mas nessecita de alterações constantes nos pesos
+
 ![Pasted image 20250606121409](../../attachments/Pasted%20image%2020250606121409.png)
 
 ---

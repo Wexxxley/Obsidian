@@ -10,8 +10,8 @@ Um hub opera na **Camada 1 (Física)**. Um hub é basicamente um repetidor de si
 - **Não possuem armazenagem de quadros.** Ao contrário de um switch, um hub não tem memória para armazenar quadros de dados.
 - É importante entender que o mecanismo CSMA/CD não é implementado _dentro_ do hub. Em vez disso, a detecção e o tratamento de colisões ocorrem nos **adaptadores de rede** de cada dispositivo final conectado ao hub. 
 - **Domínio de colisão**: Um "domínio de colisão" é uma área da rede onde as colisões de dados podem ocorrer. Como um hub simplesmente retransmite tudo para todos, todos os dispositivos conectados a um hub fazem parte de um **único e grande domínio de colisão**.
-![Pasted image 20250702154313](../../attachments/Pasted%20image%2020250702154313.png)
 
+![Pasted image 20250702154313](../../attachments/Pasted%20image%2020250702154313.png)
 
 ---
 ### **Switch**

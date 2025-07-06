@@ -30,6 +30,7 @@ Base de dados distribuída e hierárquica:  O DNS é dividido em camadas, forma
 1. **Servidores raiz:** Sabem onde encontrar os servidores TLDs (.com, .org)
 2. **Servidores TLD(Top-Level-Domain):** Sabem onde encontrar os servidores autoritativos para domínios (ex: google.com)
 3. **Servidores autoritativos:** Contêm os registros DNS definitivos.  
+
   
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc13MwakxHmnjm7iRHQIwIXgrAN-a4C2pNu0AeWsPK3JhfGNRSpAPX_vSRaD7VMpswNIRzCvOFFyX6UbPB9iCxOc35nSa2e4PlHD9hHYUoPkhJDkTihDwf1HczLxFVG20eQ6w898A?key=HrOhHC0_-ked6RNCpQ0o3PZn)  
