@@ -1,10 +1,10 @@
-
 #Concluded 
 
 ---
 ### **1. As Tomadas de Rede**
 
 As **Caixas conectoras/Tomadas de rede/Conectores fêmea RJ-45** são o ponto final da fiação de rede em um ambiente, como uma sala.
+
 - A função é **fornecer um ponto de conexão fixo** e padronizado na parede para que um usuário possa conectar seu dispositivo à rede.
 - Por trás dessa tomada, existe um cabo de rede chamado de **cabo de instalação/permanente** que passa pelas paredes. Esse cabo conecta a tomada até uma sala central de equipamentos
 ![150](../../attachments/Pasted%20image%2020250703193850.png)

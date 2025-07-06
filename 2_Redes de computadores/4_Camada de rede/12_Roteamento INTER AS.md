@@ -1,13 +1,16 @@
 
 ---
 ### **1. BGP (Border Gateway Protocol):**
+
 A  função do BGP é permitir que diferentes Sistemas Autônomos troquem informações de roteamento sobre os prefixos IP que controlam e os caminhos que podem usar para alcançar outros prefixos. 
 
 Quando um Sistema Autônomo anuncia um prefixo via BGP, ele está dizendo: =="Olá, outros ASes! Eu sou o AS X, e eu sou o responsável por este bloco de endereços IP== (Ex, `203.0.113.0/24`). Se você tiver tráfego destinado a qualquer endereço IP dentro deste bloco você pode enviá-lo para mim, e eu sei como entregá-lo.
 
 ---
 #### **1.2 Sessões BGP**
+
 Usam o TCP para confiabilidade.
+
 - **Sessão eBGP:** Usada para estabelecer sessões entre roteadores de borda em ASes vizinhos. Através delas, os ASes trocam informações de prefixos que controlam ou que podem alcançar.
 - **Sessôes iBGP**: Uma vez que um roteador de borda aprende uma rota externa, ele precisa anunciar essa rota para os roteadores internos do seu AS.
 ![Pasted image 20250606100212](../../attachments/Pasted%20image%2020250606100212.png)
@@ -21,6 +24,7 @@ Usam o TCP para confiabilidade.
 
 ---
 #### **1.3 Processo de Seleção de Rota do BGP**
+
 Um roteador pode aprender mais do que 1 rota para o mesmo prefixo. O roteador deve selecionar uma rota usando as regras de eleiminação.
 
 **1. Atributo de Valor de Preferência Local  (LOCAL_PREF):** O `LOCAL_PREF` é um atributo BGP que é usado dentro de um AS. Ele não é propagado para outros ASes. É um valor numérico, e quanto maior o valor de `LOCAL_PREF`, maior a preferência da rota.

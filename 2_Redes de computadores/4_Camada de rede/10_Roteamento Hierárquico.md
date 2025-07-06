@@ -2,7 +2,9 @@
 ---
 
 ### **1. Roteamento hierárquico**
+
 Cada administração de rede pode querer controlar o roteamento na sua
+
 própria rede. Ai que surgem os  “sistemas autônomos ” (AS).
 
 - **Roteamento Intra-AS:** Dentro de cada AS, os roteadores executam o mesmo protocolo de roteamento. Esses protocolos são responsáveis por estabelecer entradas de roteamento para destinos localizados _dentro_ do mesmo AS.

@@ -2,6 +2,7 @@
 ---
 
 ### **Hub**
+
 Um hub opera na **Camada 1 (Física)**. Um hub é basicamente um repetidor de sinais elétricos. Ele não "entende" os dados da mesma forma que um switch ou roteador.
 
 - **Broadcast**: Quando um bit chega a uma das portas do hub, ele é imediatamente copiado e enviado para _todas_ as outras portas conectadas. Isso significa que todos os dispositivos conectados ao hub recebem cada bit de dados transmitido por qualquer outro dispositivo no mesmo hub.
@@ -14,6 +15,7 @@ Um hub opera na **Camada 1 (Física)**. Um hub é basicamente um repetidor de si
 
 ---
 ### **Switch**
+
 Um switch é um **dispositivo de camada de enlace**. Diferente dos hubs, os switches são capazes de "entender" e processar os quadros Ethernet.
 
 - **Armazena e encaminha quadros Ethernet:** Ao receber um quadro de dados, o switch o armazena temporariamente antes de tomar uma decisão de encaminhamento.
@@ -22,7 +24,9 @@ Um switch é um **dispositivo de camada de enlace**. Diferente dos hubs, os swit
 - **Full-duplex**
 
 [3_MAC e ARP](3_MAC%20e%20ARP.md)
+
 **Tabela do Switch:**
+
 A inteligência de um switch reside em sua capacidade de aprender as localizações dos dispositivos conectados a ele. Para isso, ele mantém uma **tabela**, a tabela MAC.
 
 - **Como o Aprendizado Acontece:** Quando um switch recebe um quadro ele automaticamente aprende a localização do transmissor.

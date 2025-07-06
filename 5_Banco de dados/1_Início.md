@@ -1,4 +1,3 @@
-
 Um banco de dados é uma coleção de dados persistentes que é gerenciada e utilizada para suportar operações e processos. Os bancos de dados são projetados para armazenar informações relevantes para sistemas. 
 
 **SGBD (Sistema de Gerenciamento de Banco de Dados):** É um software que auxilia na criação, manutenção e utilização de bancos de dados fornecendo uma interface entre o usuário e os dados armazenados. Como: Oracle, SQL Server, PostgreSQL, MySQL.

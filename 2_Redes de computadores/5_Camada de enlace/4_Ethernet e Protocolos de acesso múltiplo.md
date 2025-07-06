@@ -1,7 +1,9 @@
 
 --- 
 ### **Ethernet**
+
  Ethernet é a tecnologia mais utilizada para construir redes locais LAN com fio.
+
 - Simples e barata.
 - Velocidade crescente, o padrão hoje é 10Gbps.
 - **Sem conexão**, os dispositvos não precisam se conectar primeiro para iniciar uma transimissão.
@@ -13,6 +15,7 @@
 ### **CSMA (Protocolo de acesso aleatório)**
 
 Antes de um dispositivo enviar um quadro, ele "escuta" o canal para ver se ele está livre.
+
 - **Se o canal parece vazio:** Se o dispositivo não detecta outra transmissão, ele assume que o caminho está livre e envia seus dados.
 - **Se o canal está ocupado, adia a transmissão.** Se o dispositivo detecta que outro está transmitindo, ele espera por um período de tempo antes de tentar novamente.
 
@@ -21,6 +24,7 @@ Colisões ainda podem acontecer. Quando uma colisão acontece, os dados são cor
 ### **CSMA/CD (Protocolo de acesso aleatório -  Detecção de Colisão)**
 
 O CSMA/CD é uma versão aprimorada do CSMA.
+
 1. **Preparação para Transmissão:** O adaptador de rede recebe um pacote de dados e o encapsula, criando um **quadro** (Ethernet.
 2. **Início da Transmissão:**
     - O adaptador verifica se o canal de comunicação está livre. **Se o canal estiver livre**, o adaptador começa a transmitir o quadro imediatamente.

@@ -1,6 +1,7 @@
 
 
 ---
+
 O problema da sincronização global do TCP ocorre quando múltiplas sessões TCP, que atravessam um mesmo roteador congestionado, perdem pacotes **ao mesmo tempo** e, consequentemente, **reduzem suas taxas de envio simultaneamente**. Quando voltam a normalizar aumetam ao a taxa de tranferencia ao mesmo tempo causando um ciclo de subir a taxa de tranferencia e descer a taxa de tranferencia
 
 ![Pasted image 20250606105830](../../attachments/Pasted%20image%2020250606105830.png)

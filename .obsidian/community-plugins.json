@@ -3,5 +3,6 @@
   "obsidian-excalidraw-plugin",
   "obsidian-git",
   "code-styler",
-  "obsidian-link-converter"
+  "obsidian-link-converter",
+  "obsidian-linter"
 ]

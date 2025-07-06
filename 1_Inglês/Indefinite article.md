@@ -1,9 +1,11 @@
 #Concluded 
 
 ---
+
 'A' and 'an' are used in the **singular** to refer to **generic** **person or thing.**
 
 ==a -> before consonat sound==
+
 ==an -> before vowel sound==
 
 **Exemplos:**

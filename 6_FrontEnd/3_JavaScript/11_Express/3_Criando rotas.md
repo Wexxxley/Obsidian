@@ -1,10 +1,11 @@
-
 #Concluded 
 
 ---
 
 É preciso fazer as impotações com o require.
+
 ![](../../../attachments/Pasted%20image%2020250706091814.png)
+
 1. **`(request, response)`**: São os dois objetos principais de uma rota no Express.
     - `request`: Contém informações sobre a **requisição** (parâmetros, body, cabeçalhos).
     - `response`: É o objeto usado para **construir e enviar a resposta de volta**.

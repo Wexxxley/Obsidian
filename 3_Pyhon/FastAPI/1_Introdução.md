@@ -5,12 +5,14 @@
 Um ambiente virtual é um espaço isolado onde você pode instalar pacotes Python sem afetar os pacotes que estão instalados globalmente. O python tem um ambiente global, que é onde os pacotes vão parar quando você não está usando um ambiente virtual. 
 
 Imagine que você tem dois projetos:
+
 - Projeto A precisa de dependências X
 - Projeto B precisa do dependências Y
 
  Se você instalar tudo globalmente, vai dar conflito. Com ambientes virtuais, cada projeto tem suas próprias dependências. 
 
 Como criar um ambiente virtual
+
 1. Vá até a pasta do projeto:
 2. Crie o ambiente virtual.
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfuMzGwoZtrxvhK2r5oIZsMlegP2guU4z8rD6kM84HAXdO24wAPevn17CBP5fK8otOMDdXp26aPC4YK-kWsBvtxiZUjw2rIlc7VJDs5gk71fACeAmrw2gAY4jV6AiGMsDpyrQu-bA?key=jnfZcvbkf1zKPUZCAbeT6ysv)
@@ -29,7 +31,9 @@ ___
 ### **1.2 Primeiros endpoint**
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfaYFqZyyqftiYg6PVsOm4Z3a3jPynrPXEzuWvLwkq-4n2BNnBlq4NSdRUvs3BUEdu8vv-ZUeev_21NiKYIUUzLnc5HKzYW0f6KcxSnEdNT8A-CajvoiHmTo35Jn4SnKuxl59xE?key=jnfZcvbkf1zKPUZCAbeT6ysv)![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdLQNXR9Zx70G66GXfBt4OhswarzYvUOGy21Uo1ajt9FpxMLxFstdrLbVe3nJd6L-Brr164rMVBhzh4FUjRAc8s-F42tyERxC-D7Mdfm63blLOviG456OIssId0RAclabO1MQw-?key=jnfZcvbkf1zKPUZCAbeT6ysv)
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdl0fmtWBWpZVhjF5el9-6FkF5WjD-ZW8TEbXEXam_-ccDeDRFlM-q_m27EWS50fAL_uxBAjiS0eNsP3oJ9xH__m7Kyq2D9bXtuedCq_sFmoZB3oid1y6_puD3ReMF1wk337LByig?key=jnfZcvbkf1zKPUZCAbeT6ysv)
+
  A ordem dos endpoints é importante, os endpoints com parâmetros devem ficar para o final. O fastapi já se auto documenta. Com o endereço + /docs é mostrado o swagger que é muito bom para testes. E endereço + /redoc é mostrado uma outra documentação que é muito boa para leitura.
 
 **Query parameters**: Quando você não especifica um parâmetro na rota e requisita mais parâmetros na função, os valores são passados pela query de pesquisa.
@@ -38,8 +42,11 @@ ___
 
 ---
 ## **1.3 Base model** 
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXewQbVP7fqWa-W7Fd65dcE31yPqmPByAzkRwjKd5IVovMVzvqul0DhTSQPikjUCFtLfbNDZ9auVoyE4gumQUSsQPZ3pdOJeKZyvNb6lIFPjfn7JhXiyi0IJh7AzoLawhQWtvaBcDw?key=jnfZcvbkf1zKPUZCAbeT6ysv)
+
  Quando você cria uma classe que herda de basemodel, você está dizendo quero que essa classe:
+
 - Tenha validação automática de tipos
 - Aceite dados vindos de um JSON
 - Ajude a construir a documentação da API

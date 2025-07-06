@@ -1,5 +1,6 @@
 
 ---
+
 Uma branch (ramificação) em Git é uma linha independente de desenvolvimento. Ele permite que você trabalhe em novas funcionalidades, correções de bugs ou experimentos sem interferir diretamente no branch principal do seu projeto.
 
 - **Facilita o Trabalho Paralelo**: Branches permitem que várias pessoas trabalhem em diferentes partes do projeto simultaneamente sem conflitos diretos.

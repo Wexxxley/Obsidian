@@ -2,6 +2,7 @@
 ---
 
  Existem variações desse tipo de problema:
+
 - Problema de caminhos mínimos de fonte única; 
 - Problema de caminhos mínimos com um só destino; 
 - Problema do caminho mínimo para um par; 
@@ -19,10 +20,13 @@
   - Suponha que escolhemos s como v3. Agora, podemos começar a procurar todos os vértices que estão a uma distância 1. Se fizermos isso, veremos que podemos agora encontrar vértices cujo caminho mais curto de s é 2. Podemos encontrar, então, os com distância 3. 
 
 Essa estratégia é conhecida como busca em largura. Ela opera processando vértices em camadas. Dada essa estratégia, precisamos traduzi-la em código.   
+
 ___
 #### **1.2 Algoritmo de Dijkstra**
+
  O método geral para resolver o problema do menor caminho com origem única é conhecido como algoritmo de Dijkstra. Só pode ser usado com grafos sem peso negativo.  Primeiro iniciamos cada vértice com pai nulo e distância infinita, exceto s com distancia 0. Depois é aplicado a técnica do relaxamento.   
  
+
 ``` cpp title:test.cpp
 void dijkstra(G, s) {
     for each Vertex v in G.Vertices {

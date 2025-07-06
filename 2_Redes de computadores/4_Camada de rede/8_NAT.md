@@ -1,8 +1,8 @@
-
 #Concluded 
 
 ---
 ### **1. Entendimento**
+
 Os endereços IPv4 são limitados, então **não há endereços públicos suficientes** para todos os dispositivos do mundo. O NAT foi criado como uma solução temporária para esse problema.
 
 O **NAT** (Network Address Translation) é uma técnica que permite que **vários dispositivos em uma rede local compartilhem um único endereço IP público** para se comunicar com a Internet.
@@ -31,6 +31,7 @@ A NAT é tipicamente implementada em um roteador que atua como um "gateway" entr
 Na teoria, um único IP público com NAT pode suportar até 65.535 conexões _simultâneas de saída_ para **cada protocolo** (TCP ou UDP).  Na prática, o limite é menor devido a recursos do roteador.
 
 ![Pasted image 20250610102909](../../attachments/Pasted%20image%2020250610102909.png)
+
 - **IP origem:** O endereço do computador que iniciou a conexão na rede local. ``Ex: 10.0.0.1``
 - **Porta origem:** A porta que o computador de origem usou para iniciar a conexão. Ex: `50000`.
 - **IP nat:** O endereço IP público que o roteador está usando. Ex: ``138.76.29.7``
@@ -42,7 +43,9 @@ Na teoria, um único IP público com NAT pode suportar até 65.535 conexões _si
 
 ---
 ### **1.2 NAT é Controverso**
+
 Apesar de sua utilidade e de ter "salvado" o IPv4, a NAT é frequentemente criticada por ir contra princípios fundamentais do design da Internet.
+
 1. **Número de Porta Deveria Identificar Processo e Não Hospedeiro:** A ideia de um número de porta é identificar uma **aplicação específia** de um host, não o host em si. 
 
 2. **Roteadores Deveriam Processar Somente Até a Camada 3:** O modelo TCP/IP estabelece que roteadores operam na camada de rede somente. A NAT, particularmente **inspeciona e modifica os números de porta**, o que é informação da Camada 4. Isso faz com que o roteador NAT aja como um "proxy".

@@ -2,6 +2,7 @@
 
 ---
 # Segmento tcp
+
 ![Pasted image 20250509134237](../../attachments/Pasted%20image%2020250509134237.png)
 
 - O campo de opções, opcional e de comprimento variável, é usado quando um remetente e um destinatário negociam o MSS, ou como um fator de aumento de escala da janela para utilização em redes de alta velocidade. 
@@ -9,13 +10,16 @@
 
 ---
 # **Buffers de envio e de recepção**
+
 ![Pasted image 20250509133804](../../attachments/Pasted%20image%2020250509133804.png)
+
 #### **Buffer de Envio** 
 - Tem a função de armazenar dados que a aplicação quer enviar, mas que ainda não foram transmitidos (ou não foram confirmados pelo receptor).
 #### **Buffer de Recepção**
 - **Função:** Armazena dados recebidos da rede, mas ainda não lidos pela aplicação. 
 - **Se encher:** O TCP avisa o remetente para **parar de enviar** (controle de fluxo).
 ### **Janela Deslizante (Sliding Window) do TCP**
+
 É um mecanismo que controla **quantos dados podem ser enviados antes de receber uma confirmação (ACK)**. Usado no controle de fluxo do TCP.
 
 1. **O receptor controla a janela deslizante**    
@@ -32,6 +36,7 @@ O **número de sequência** para um segmento é o número do primeiro byte do se
 O TCP constrói 500 segmentos a partir da cadeia de dados. O primeiro recebe o número de sequência 0; o segundo, o número de sequência 1.000; e assim por diante. Cada número de sequência é inserido no campo de sequência no cabeçalho do segmento. 
 
 Vamos agora considerar os **números de reconhecimento**. O número de reconhecimento que o hospedeiro A atribui a seu segmento é o número de sequência do próximo byte que ele estiver aguardando do hospedeiro B.
+
 ![Pasted image 20250509135245](../../attachments/Pasted%20image%2020250509135245.png)
 
 **Conexão**

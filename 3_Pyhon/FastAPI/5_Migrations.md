@@ -15,5 +15,4 @@
 3. `alembic upgrade revision-id`: É como de fato fazemos a atualização do banco de dados.
 4. `alembic downgrade -1`: faz o downgrade para a última migração.
 
-
 Link para reposiório de exemplo: https://github.com/Wexxxley/01-MuscleFlowApi

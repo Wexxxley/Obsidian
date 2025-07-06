@@ -1,10 +1,12 @@
-
 Status: #Concluded  
 
 ---
 # 1. Array
+
 Os arrays em js podem ter qualquer tipo de dado
+
 ![Pasted image 20250513162620](../../attachments/Pasted%20image%2020250513162620.png)
+
 ### Tabela Completa de Métodos de Array
 
 ==cb = callback==

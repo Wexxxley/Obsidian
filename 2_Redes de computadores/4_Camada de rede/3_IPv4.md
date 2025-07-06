@@ -1,9 +1,10 @@
-
 #Concluded 
 
 ---
 ### **1. Campos**
+
  Um pacote de camada de rede é denominado um **datagrama**. Os principais campos do datagrama ipv4 são os seguintes: 
+
  - **Número da versão** 
  - **Comprimento cabeçalho:** Um datagrama IPv4 pode conter um número variável de opções, esses bits são necessários para determinar onde, no datagrama, os dados começam de fato. Normalmente datagramas não usam opções; o datagrama típico tem um cabeçalho de **2 bytes.**
  - **Tipo de serviço:** Usados para poder diferenciar os diferentes tipos serviço (que requerem baixo atraso, alta vazão ou confiabilidade) 
@@ -19,6 +20,7 @@
 
 ---
 ### **2. Classes do IPv4**
+
 | Classes | Intervalo do Primeiro Octeto | Padrão dos Primeiros Bits | Uso Principal        |
 | :------ | :--------------------------- | :------------------------ | :------------------- |
 | **A**   | 0 - 127                      | `0`xxxxxxx                | Grandes redes        |

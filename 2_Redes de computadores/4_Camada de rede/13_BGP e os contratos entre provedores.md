@@ -2,6 +2,7 @@
 
 ---
 ### **1. Contratos de Trânsito** 
+
 Um contrato de trânsito ocorre quando uma rede (geralmente menor) paga a outra rede (geralmente maior) para ter acesso à _Internet completa_. O provedor concorda em levar o tráfego da rede para _qualquer_ destino na Internet, e também a entregar o tráfego de _qualquer_ lugar da Internet para a rede menor.
 
 - **Impacto no BGP:**
@@ -12,6 +13,7 @@ Um contrato de trânsito ocorre quando uma rede (geralmente menor) paga a outra 
 
 ---
 ### **2. Contratos de Emparelhamento (Peering)**
+
 Um contrato de emparelhamento ocorre quando duas redes concordam em **trocar tráfego diretamente entre si sem custo**. Ele _não_ oferece acesso à Internet completa. Se o AS "X" é par do AS "Y", eles trocarão tráfego para os prefixos que eles próprios originam e para os prefixos de seus clientes. Eles _não_ trocarão tráfego que se destine a terceiros.
 
 - **Tipos de Peering:**

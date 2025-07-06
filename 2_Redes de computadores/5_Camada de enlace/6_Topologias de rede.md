@@ -13,6 +13,7 @@
 - 100 m é a distância máxima (cabos) entre os nós e o hub.
 
 ![Pasted image 20250701164252](../../attachments/Pasted%20image%2020250701164252.png)
+
 ### **Topologia em anel**
 - Os dados passam pelos máquinas mesmo que elas estejam desligadas.
 - Pode ter várias pontos de falho nos enlaces que ainda funciona de forma segmentada.

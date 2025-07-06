@@ -8,6 +8,7 @@
 Os métodos como **find_one, updated_one e delete_one** recebem um **filtro** como argumento. Esse filtro é um dicionário Python que define os critérios de busca para selecionar os documentos que você quer manipular.
 
 No exemplo: **colecao.delete_one({"_id": ObjectId(id)})**
+
 - O filtro diz:  "Procure um documento cujo campo `_id` seja igual ao id"
 - O filtro é sempre um dicionário, onde as chaves são os nomes dos campos do documento e os valores são os critérios de busca.
 
@@ -100,6 +101,7 @@ cursor = colecao.find({"ativo": True})
 for documento in cursor:
     print(documento)
 ```
+
 Aqui, `cursor` **não é uma lista**, mas sim algo que você pode **percorrer com `for`**.
 
 - Se o banco tiver **milhares de documentos**, ele **não carrega tudo de uma vez**.
@@ -107,7 +109,9 @@ Aqui, `cursor` **não é uma lista**, mas sim algo que você pode **percorrer co
 - Perfeito para processar resultados grandes sem travar sua aplicação.
 
 Cursor em lista.
+
 ```python
 dados = list(colecao.find())
 ```
+
 Se a coleção for **grande**, isso pode consumir muita memória.

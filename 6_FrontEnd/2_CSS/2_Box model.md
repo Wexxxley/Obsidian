@@ -1,10 +1,12 @@
-
 Status: #Concluded 
 
 ___
 # 1. Box model
+
  Os elementos do html estão dentro de caixas. Caixas são contêineres que armazenam conteúdo e até outras caixas e são muito importantes para organizar o design do seu site.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfCuMvs8mFQCyouusrz7U22PodT9YKpz5ykHZwVGsa3IoYJ2P80Dg-FC1R8l8Kq8JRVbRJxo0pnUrRBETTs0dtNlF3No17ZHX7WIm_H64w-AmcyrKMTdXraN-Jl-645dG6wlABD52xWhHTeDGgmQewFHQX2?key=VYJVAqKhTdZyHt8enJbiwA)
+
 - Width: Largura do conteúdo.
 - Height: Altura do conteúdo.
 - Padding: É o preenchimento entre conteúdo e borda.
@@ -27,6 +29,7 @@ ___
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc0NcGl7Wa9At1ZqTxb0j_xaA_mt1wb1vIFBD_OFSdcnqzahQyEpkeEEbuK0BQ6l5j1N8vmMhu90Y57SqKPpi7XLf53FymykgY0g17P_QdJgne__0vIEpkgf5pizgX4YyYYwoTarw?key=VYJVAqKhTdZyHt8enJbiwA)![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc4Q0fdqyGtk2HWaboYQSMaEnGbQlRgZRd38M7gJjxrblgVwGP-iccZRJA1-ESoh2m0FF62ygQwsjB7hPBjPX-Ncmu-aRK8Dr491iVHmSasqPeZUugbhR1sziueKv2F358URUyd2g?key=VYJVAqKhTdZyHt8enJbiwA)
 
 Quando você for começar a mecher no estilo de uma pagina é interessante zerar esses valores.
+
 ![Pasted image 20250522174655](../../attachments/Pasted%20image%2020250522174655.png)
 
 ___
@@ -46,6 +49,7 @@ ___
 # **4. Tipos de caixa**
 
 O **comportamento visual das caixas** depende do valor da propriedade `display`. Por padrão, existem dois tipos principais: block e inline.
+
 #### **a) Caixa de bloco (`block`)**
 - Ocupa toda a largura disponível (por padrão).
 - Quebra linha antes e depois.
@@ -66,6 +70,7 @@ O **comportamento visual das caixas** depende do valor da propriedade `display`.
 
 ---
 # **5. Propriedade `display:`**
+
 Define **como um elemento será exibido** e como suas caixas serão tratadas.
 
 | Valor          | Descrição                                      |
@@ -105,6 +110,6 @@ button {
 
 - `max-width`: controla a largura máxima.
 
-
 ![Pasted image 20250527104842](../../attachments/Pasted%20image%2020250527104842.png)
+
 - `@media (max-width: 400px)`: É uma **_media query_** que aplica o CSS dentro dela **apenas quando a largura da tela for de até 400 pixels**.

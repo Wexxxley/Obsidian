@@ -1,14 +1,15 @@
-
 #Concluded 
 
 ---
 
 Motivações:
+
 - O espaço de endereços de 32 bits é relativamente pouco.
 - Melhorar o cabeçalho para permitir maior velocidade de processamento e de transmissão.
 - Mudanças no cabeçalho para incorporar controle de **Qualidade de serviço(QoS).**
 
 As mudanças mais importantes introduzidas no IPv6 foram: 
+
 - **Capacidade de endereçamento expandida**. O IPv6 aumenta o tamanho do endereço IP de 32 bits para 128 bits. Isso garante que o mundo não ficará sem endereços IP.
 - **Cabeçalho aprimorado de 40 bytes.** Vários campos IPv4 foram descartados. O cabeçalho de comprimento fixo de 40 bytes resultante permite processamento mais veloz do datagrama IP.
 - **Rotulação de Fluxo:** O IPv6 introduz um campo chamado "Rótulo de Fluxo" para identificar pacotes que pertencem a um mesmo "fluxo". Um "fluxo" é uma sequência de pacotes que o remetente deseja que recebam tratamento especial, como garantia de qualidade de serviço (QoS) ou transmissão em tempo real (ex: áudio e vídeo).

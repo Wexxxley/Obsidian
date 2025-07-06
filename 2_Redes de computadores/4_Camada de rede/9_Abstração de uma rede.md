@@ -1,8 +1,10 @@
 
 ---
+
 [1_Introdução a grafos](../../4_Algorítmos%20e%20Estruturas%20de%20dados/Grafos/1_Introdução%20a%20grafos.md)
 
 Redes são abstraidas através de um grafo não direcionado com pesos.
+
 ![Pasted image 20250531092212](../../attachments/Pasted%20image%2020250531092212.png)
 
 ---
@@ -28,7 +30,9 @@ Redes são abstraidas através de um grafo não direcionado com pesos.
 
 ---
 ### **3. Algoritmo Link State (LS)**
+
 Computa caminhos de menor custo de um nó (fonte) para todos os outros nós:
+
 - Fornece uma tabela de roteamento para aquele nó.
 - Algoritmo global e estáticos.
 
@@ -39,12 +43,14 @@ Computa caminhos de menor custo de um nó (fonte) para todos os outros nós:
 Todo nó mantém uma **tabela de vetor de distância**, que contém suas estimativas de distância para todos os destinos na rede 
 
 Esse algorítmo é assíncrono e iterativo.
+
 - Um nó só envia sua **tabela de vetor de distância** para seus vizinhos se houver alguma alteração.
 - Se o vizinho de um nó recebe uma atualização que o faz recalcular suas próprias rotas de forma a mudar seu DV, esse vizinho, por sua vez, notificará seus vizinhos, e assim por diante. 
 
 Quando um roteador de vetor de distância recebe uma nova estimativa de distância de um vizinho **u** para um destino **v**, ele atualiza sua própria distância para **v** usando a equação Bellman-Ford: 
 
 ==D(v)=min(D(v),D(u)+c(u,v))==
+
 - D(v) é a distância estimada para **v**
 - D(u) é a distância do vizinho **u** para **v**
 - c(u,v) é o custo do link entre o roteador e seu vizinho **u**.

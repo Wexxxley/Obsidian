@@ -1,4 +1,3 @@
-
 Status: #Concluded 
 
 ---
@@ -12,12 +11,16 @@ Html é a linguagem de ==marcação== usada para estruturar páginas web, criand
 
 ---
 # **1. Iniciando**
+
 No vscode, existe um atalho para configurações iniciais, que é o atalho ‘!’.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcxdfXBONlVJwf4esB9VIkOuRa74oHTofhrQ0QoTIcAl9W2ci3q-Yp4Xvg6iV5AoMM1l80mgDJc9RE0YiMsCiDo9P5zTzfWNMio147AvK_bml9roowRYhS5RqB6Oe2bpxapUN_P-Q?key=VYJVAqKhTdZyHt8enJbiwA)
 
 ___
 # **2. Títulos e atributos de tag**
+
 Títulos em html possuem 6 níveis. `<H1>, ..., <H6>`. Essas tags não se preocupam com a forma dos títulos, mas sim com o sentido. 
+
 **![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfpuiFlvHtVNxdD3UM6g4YLpOX9tn51wfbiZ8wC5tDtuJJMbDp9KeOHTFLobiVywTXjmTmYHav9JLIksdyqvQqhzp7llZ5Ru_gxX2Q9ZJBaDNo52njKOl9kl87JiLMZOYo96fNk3A?key=VYJVAqKhTdZyHt8enJbiwA)
 
 **Atributos**
@@ -39,6 +42,7 @@ Atributos são utilizados para adicionar funcionalidades às tags. 
  O **Atributo target** Suporta “ _blank” que vai abrir o link em uma nova janela em branco e “_self” vai abrir o link na janela atual (padrão). 
 
 O **Atributo rel** indica qual é a natureza de destino do link.
+
 1. **next** indica que o link é para a próxima parte do site .
 2. **prev** indica que o link é para a parte anterior do site atual.
 3. **external** indica que é um link para um site externo.
@@ -47,8 +51,11 @@ ___
 # **4. Imagem**
 
 Obs: normalmente é colocado as imagens em uma pasta img ou assets.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXczRCsCFPRr0NbCsIMT9NPpR4C9y6Fa-ou4pfPgPzhwO2iU8oi7mkNGapyyj-OqAUd85sMvGMheFrjOtc3l2SVV6kfCxnsh_H3AHJmw1mP0YRgNaBurP3bbIrCcO6_KUdV8WiHE1w?key=VYJVAqKhTdZyHt8enJbiwA)
+
 **src**: caminho da imagem.
+
 **alt**: texto que descreve a imagem para fins de acessibilidade. 
 
 ___
@@ -66,10 +73,15 @@ ___
 # 6. Tabelas
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdOgQ67sw761N9ILprWOxLOAnZYESusLHIeSDdCpxUTPz42NouT5CkG4udXiZtzEasq4tW9Xsv8Q9atAknZngPiLn-l8oYpZ2JX6suvixt3nt4JAvHB-BRIfFPfX8ojaJIbdpheig?key=VYJVAqKhTdZyHt8enJbiwA)![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfCtQhvLv19OU41B-S3hD4s2sFUEOdpj3LJVIZ5fjk-PSJB5A31iMmxgLhz1t-I7JxZl6omQ8_hdspsh1V512rxJVlZBQu6jYeyVWvqvpJJN8AYZ-IDG-7nKjQUUaLXa6CoxBdR1g?key=VYJVAqKhTdZyHt8enJbiwA)
+
 `<table>`: Cria a tabela.
+
 ``<tr>``: table row
+
 ``<th>``: table header
+
 ``<td>``: table data
+
 ``<caption>``: Adiciona um título descritivo para a tabela.
 
 ``<thead>, <tbody>, <tfoot>``: Servem para organizar visual e semanticamente a tabela em: Cabeçalho, Corpo, Rodapé. 
@@ -79,9 +91,11 @@ ___
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf9xQIUmmBaWPpvNIG0sKoeX2-TE3_BGvZTilVq-lT_lXfYcBW2Kxq3_4QXQOcVeUUrdb55b8TRlz7fRnAE8zPGIXYFH1-ZkOC_w8BTkDEId4xV12PtSpxew5VhsxfyUbS3lj7t0g?key=VYJVAqKhTdZyHt8enJbiwA)
 
 Para mudar a estilisação das linhas usamos ``tr:nth-child``
+
 ![Pasted image 20250506072646](../../attachments/Pasted%20image%2020250506072646.png)
 
 Com ``colspan`` eu consigo unir colunas de uma linha.
+
 ![Pasted image 20250506072825](../../attachments/Pasted%20image%2020250506072825.png)
 
 ![Pasted image 20250506072723](../../attachments/Pasted%20image%2020250506072723.png)

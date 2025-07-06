@@ -1,7 +1,7 @@
-
 #Concluded 
 
 ---
+
 The Simple Present is used to describe actions that happen regularly, habitually, or repeatedly. These are things you do as part of your routine
 
 #### **General formation**
@@ -15,6 +15,7 @@ The Simple Present is used to describe actions that happen regularly, habitually
 | ==It==   | ==It **plays**==  | ==It **doesn't** play==  | ==**Does** it play?==  |
 | **We**   | We **play**       | We **don't play**        | **Do** we **play**?    |
 | **They** | They **play**     | They **don't play**      | **Do** they **play**?  |
+
 ### **Third person and verbs**
 
 | Regra                                                                                  | Base Form                    | Exemplos com `He/She/It`               |

@@ -1,4 +1,3 @@
-
 Status: #Concluded 
 
 ---
@@ -17,6 +16,7 @@ Status: #Concluded
    - Entregar os dados ao socket apropriado
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdPhDFrSx342Atfr92nKXoKF8XNOCDqkF-gVg2htsm6_OJSmsCDmMKYJTREXJZxHj5XeIz_xi4gayEgbVuR8Vw02z3R87Yy5vRcGVuMCyVvDutWrhL5j7GrG_5DVWQAFF82Ku1W?key=HrOhHC0_-ked6RNCpQ0o3PZn)
+
 1. No host emissor, múltiplas aplicações enviam dados através de sockets diferentes.
 2. O multiplexador combina esses fluxos, adicionando informações de porta
 3. Os pacotes são enviados via IP para o destino

@@ -2,9 +2,13 @@
 ---
 
 Argon2 é um algorítimo de hash bastante seguro e confiável: ``pip install pwdlib[argon2]
+
 ``
+
 Criaremos um novo arquivo para gerenciar a segurança: `security.py`.
+
 ![Pasted image 20250613141031](../../../attachments/Pasted%20image%2020250613141031.png)
+
 - Foi importado`PasswordHash` que é usada para **hashing de senhas** de forma segura.
 - `PasswordHash.recommended()`esse comando cria uma instância de `PasswordHash` com **configurações recomendadas**.
 - `def get_password_hash`: recebe uma senha em texto plano e retorna uma **versão criptografada (hash)** dela.
@@ -16,7 +20,9 @@ Criaremos um novo arquivo para gerenciar a segurança: `security.py`.
 
 ---
 ### **Sobre hash**
+
 Hash é uma **função matemática** que transforma uma entrada em uma **sequência fixa de caracteres**, chamada de **hash**.
+
 - **Unidirecional**: não dá para voltar ao valor original.
 - **Mesmo input → mesmo output**.
 - **Pequena mudança no input → hash totalmente diferente**.

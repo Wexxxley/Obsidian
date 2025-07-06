@@ -3,6 +3,7 @@
 ---
 
 ![Pasted image 20250621150057](../../attachments/Pasted%20image%2020250621150057.png)
+
 - Diz ao FastAPI para expor uma rota especial para arquivos estáticos.
 - Quando alguém acessa uma URL começando por `/static/img`, o FastAPI procura o arquivo correspondente dentro da pasta.
 - Assim, o frontend pode acessar imagens e outros arquivos diretamente pela URL, sem precisar de um endpoint Python para cada arquivo.
@@ -17,6 +18,7 @@
     - **`File(...)`**: Indica que este parâmetro deve vir como um arquivo 
 
 ![Pasted image 20250621150705](../../attachments/Pasted%20image%2020250621150705.png)
+
 - **Propósito:** Prevenir colisões de nomes de arquivos e organizar o armazenamento.
 - **`uuid4()`**: Gera um UUID (Universally Unique Identifier)
 - **`f"{uuid4()}{file_extension}"`**: Concatena o UUID com a extensão original. Isso garante que o nome do arquivo no servidor seja praticamente único,.
@@ -24,9 +26,11 @@
 - **`file_path_on_server`**: Combina o diretório de upload com o nome de arquivo único para criar o caminho completo onde o arquivo será salvo no servidor.
 
 ![Pasted image 20250621150936](../../attachments/Pasted%20image%2020250621150936.png)
+
 - Salvando localmente
 
 ![Pasted image 20250621151032](../../attachments/Pasted%20image%2020250621151032.png)
+
 - **Propósito:** Gerar o caminho que será armazenado no banco de dados e que o frontend usará para exibir a imagem.
 - **`base_static_url = "/static/img"`**: Esta é a parte inicial da URL que você configurou no FastAPI para servir arquivos estáticos. 
 - **`photo_url_for_db`**: Constrói a URL relativa para a imagem. Este é o valor que será salvo no campo `path_foto` do seu modelo `Professor` no banco de dados. 

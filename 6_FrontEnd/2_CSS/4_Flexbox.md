@@ -1,20 +1,32 @@
 
 ________________________________________________________
 # Flexbox
+
  O display flex é uma propriedade CSS que define um container flexível. Ele permite que os elementos dentro desse container sejam distribuídos de forma eficiente, independente do seu tamanho, com a possibilidade de alinhar, justificar e distribuir o espaço entre os itens de maneira mais controlada e responsiva. É a melhor maneira de organizar elementos dentro de um container
 
 ## **1. flex-direction:**
+
 Define a direção principal do layout (se os itens serão organizados em linha ou coluna).
+
 	- **row (padrão)**: Alinha os itens na horizontal. Deixa tudo em uma linha, ao ponto de ter que esticar as  imagens para fazer isso.
+
 	![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeHiVsQQ3Kp2wznsWqO0kaA1FJw0hk9GXnRlryBWksOKDiEuD9ItZqcDy98JiOGiif1wKSkp_tUpJ6VxUWVPOXCmUHD1ej9bFsdvnTdyrzrT7GcXJRrjQlZhxrxf2i62p04EgRC?key=VYJVAqKhTdZyHt8enJbiwA)
+
 	**- column:** Alinha os itens na vertical (coluna).
+
 	![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXesAM4mvvOX1YHveB__FigFvqWpqC-97CZO_6pGKLQPu88Fja8lEjEc0nyH29ASJd49_z9uV78BtmaM4J3C6LIHUvmPpZFgWwtZ6OXhMp6DPK3MMUIK4Owh3wp4A9rLkKVByh5X?key=VYJVAqKhTdZyHt8enJbiwA)
+
 ## **2. flex-wrap**
+
 Cria uma nova linha ou coluna para comportar os elementos sem distorcê-los.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXctaAlG9bhF65E2nKBsyZC5cHTWOUxr6l4ZhC1VNnZVHEg7zmCq8sjZwtNmekbKlhXsC_tObsmlhR0cHGKTLwiZa1tK0PRnBAXBJuqQKigBphgx48jP0aRRQOE8cGSSM9NC9ZWp?key=VYJVAqKhTdZyHt8enJbiwA)![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeJlsKJi4ey_5P4gUNSEcPHg7Colw3I--QaJ5avYjh3PaaUC4kRMP6aFVonHcgoprggUU1QbTwkFYBV7_v-TH7MAnAEzDybpUhfz7HDKIsYHWrVHeWysRoVwCvMfENTbTfwYmRnTg?key=VYJVAqKhTdZyHt8enJbiwA)
+
 - **Align content:** O align-content é uma propriedade do Flexbox que controla o alinhamento das linhas dentro de um contêiner multi-linha. Ele só faz efeito quando wrap está ativado e há múltiplas linhas dentro do contêiner.
 ## **3. justify-content**
+
 Alinha os itens de acordo com o eixo principal estabelecido pelo flex-direction.
+
 - flex-start (padrão): Alinha os itens ao início.
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfKjTFP42SQ9h60spCJW6KvHA5JPQeqT0-HA8l1Cbh_ukL4_z9VPukH6xSuI4xB08D7ujd6q39vaHGhkW-Y9RSBj90nIgJ5Top-cVEUcHtu0yrzkU0AmaOBgEBqfzGHb-ExtUSuaw?key=VYJVAqKhTdZyHt8enJbiwA)
 - flex-end: Alinha os itens ao final.
@@ -30,7 +42,9 @@ Alinha os itens de acordo com o eixo principal estabelecido pelo flex-direction.
 
 ---
 ## **4. align-items**
+
 Alinha os itens no eixo contrário do estabelecido no flex-direction.
+
 - flex-start
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc0tjkpI0ARtrunNsozu3fQdQe-xRTkJqEu0saZxpn_ekrrEuOlEK9BYS7tzleYFuwKKCgdg7C3gjf2LYQe2wibjC0oXK8HleO2fgorFalcgU36DzEhiKKKY3L_qYm65B6ocO-2kg?key=VYJVAqKhTdZyHt8enJbiwA)
 - flex-end
@@ -41,19 +55,24 @@ Alinha os itens no eixo contrário do estabelecido no flex-direction.
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeE-FjqhKrz4KBkY07s6Duultp6NMuImEmEg5Y0Kxo3C9WD3aQX-0JDq8j5_YhpA9eL8K9KKj2c_3HuZQNPOLzSRub9U4e9WO-tGTDHOzakp2LEiVCTVH70BMFcgpmYM5D8B9s0AQ?key=VYJVAqKhTdZyHt8enJbiwA)
 
 ## **5. Gap**
+
 Adiciona uma espaço entre elementos.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe2WBw1bdBdagoOVEMRHPMcil0_xlklhnDFhtY6yrLUOOvDxcfVSZzuXEf8pVkYAzZAbzrSa9FusnDsnOe3n4pVNZhEHSST5D0cK1ZWJ2yMCd5QacTDgZsLQNKMr47owu3d5dG-?key=VYJVAqKhTdZyHt8enJbiwA)
 
 ## **6. GROW, BASIS E SHRINK**
 
  No Flexbox, as propriedades flex-grow, flex-basis e flex-shrink controlam como os elementos dentro de um container flexível se comportam em relação ao espaço disponível.
+
 - **flex-shrink: 0**  
     O item **não diminui** de tamanho se o espaço for pequeno.
     
 - **flex-basis: 30%**  
     O tamanho **base** do item será **30%** do container flex.
 #### **6.1 flex-grow**
+
 Define a capacidade de um item de crescer e ocupar espaço extra dentro do container.
+
 - flex-grow: 0; → O item não cresce (padrão).
 - flex-grow: 1; → O item cresce proporcionalmente ao espaço disponível.
 - flex-grow: 2; → O item cresce o dobro em relação a um item com flex-grow: 1 
@@ -62,6 +81,7 @@ Define a capacidade de um item de crescer e ocupar espaço extra dentro do conta
 
 ---
 #### **6.2 Flex-basis**
+
 Define o tamanho inicial do item antes de o espaço extra ser distribuído.
 
 - flex-basis: auto; → O tamanho inicial do item é baseado no seu conteúdo (padrão)

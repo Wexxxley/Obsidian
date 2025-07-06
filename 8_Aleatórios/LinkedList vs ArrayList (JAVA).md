@@ -1,10 +1,10 @@
-
 | **Característica**    | **ArrayList**                                          | **LinkedList**                                           |
 | --------------------- | ------------------------------------------------------ | -------------------------------------------------------- |
 | **Tipo de estrutura** | Baseada em array dinâmico                              | Baseada em lista duplamente encadeada                    |
 | **Acesso por índice** | `O(1)`                                                 | `O(n)`, pois precisa percorrer a lista                   |
 | **Inserção/rem.**     | `O(n)` pois elementos devem ser deslocados             | `O(1)` nas extremidades                                  |
 | **Uso recomendado**   | Quando há muitas leituras e pouco uso de inserção/rem. | Quando há muitas inserções/remoções em posições variadas |
+
 ### Métodos comuns
 
 | **Método**            | **Descrição**                                     | **Exemplo**             |
@@ -20,6 +20,7 @@
 | `clear()`             | Remove todos os elementos                         | `lista.clear();`        |
 | `isEmpty()`           | Verifica se a lista está vazia                    | `lista.isEmpty();`      |
 | `indexOf(Object o)`   | Retorna o índice da primeira ocorrência do objeto | `lista.indexOf("B");`   |
+
 ### Diferenças específicas
 
 | **Operação**                   | **ArrayList**      | **LinkedList**                      |

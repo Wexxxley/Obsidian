@@ -16,6 +16,7 @@ Seu navegador cria um socket local com:
 - IP da sua máquina e Porta aleatória local.
 
 E se conecta a um socket remoto com:
+
 - IP do servidor e Porta do serviço.  
 
 Esse par ==(local IP, local porta, remoto IP, remoto porta)== identifica  a conexão.
@@ -31,6 +32,7 @@ Esse par ==(local IP, local porta, remoto IP, remoto porta)== identifica  a con
 ![Pasted image 20250509132033](../../attachments/Pasted%20image%2020250509132033.png)
 
 As principais funções necessárias para o uso de sockets incluem: 
+
 1. **socket():** cria um novo socket e retorna seu descritor de arquivo. (GERAL)
 2. **bind():** associa o socket a um endereço IP e porta local. (GERAL)
 3. **listen():** coloca o socket em modo de escuta e aguarda por **conexões**. (usado no TCP)

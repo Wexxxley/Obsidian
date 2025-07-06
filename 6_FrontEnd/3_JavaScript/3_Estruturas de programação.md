@@ -1,8 +1,8 @@
-
 Status: #Concluded 
 
 ---
 # **1.Funções**
+
 Funções **são objetos em JavaScript** e **podem ser armazenadas em variáveis**, passadas como argumento, retornadas de outras funções, etc.
 
 **Função padrão**
@@ -12,6 +12,7 @@ Funções **são objetos em JavaScript** e **podem ser armazenadas em variáveis
 
 ---
 # **2. Estruturas de controle**
+
 ![550](../../attachments/Pasted%20image%2020250505155901.png)
 
 ---

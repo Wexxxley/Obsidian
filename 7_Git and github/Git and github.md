@@ -1,4 +1,3 @@
-
 Status: #Draft
 
 Tags: #Git #Github
@@ -25,7 +24,9 @@ Tags: #Git #Github
 ## **1.1 Fluxo básico**
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf7_55WBfYQZKkMPobGSjeXrfoes34gdmd8LrM2sJvX8en_zWSEIRbskh7J_majyrp-QjNq3xghsnUkhCg8nFTq6ICcYRZMTqghF9FBaK65IZV5MjXlmePTXSL67tJvj5b6quSrEw?key=yiMe1b2VwU1jpN7Jf4vtog)
+
 **Diretório de Trabalho:** É onde você realmente edita os arquivos do projeto.
+
 - add: Move os arquivos modificados do diretório para a área de staging.  
 
 **Staging**: É onde você prepara os arquivos que deseja enviar para o repositório.
@@ -69,10 +70,12 @@ __________________________________________________________________________
 **![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdi_Q2COuyKA-NWGe5mboOlmWhxrUlJxd1CD9pTP1jXyjyxF3jiU9Urm225OREUbNmEeFUh1WSoI_hx4qDLmS7fK484Rt39OJzUDnpiOb3gR4HaLDdC9VKDUbKB5Gsj3rieQ2p1goZXtXgqE5RhvOsUmTWR?key=yiMe1b2VwU1jpN7Jf4vtog)
 Para retirar do Staging: “rm –cached file".
 ### 1.3.2 Commit
-Funciona como um marco histórico no seu projeto. É interessante realizar depois de uma mudança relevante.
-****![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf1L32Yoh4EWGmXZ5gRLj5A-HFqbSd8E5mgwXnu1blU2mQZDIP1ndmp1z23-YjVY4EUYLIKsyE1NFb6azCdVgDrpao3s3er602SQ4CQFwCgTDIxKvBL1RsctyLO2Fakrba_rdks-T7L8h8ee-dTjx2w-xg?key=yiMe1b2VwU1jpN7Jf4vtog)
-Para você ver o histórico de commits basta usar o comando “`git log`”.
 
+Funciona como um marco histórico no seu projeto. É interessante realizar depois de uma mudança relevante.
+
+****![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf1L32Yoh4EWGmXZ5gRLj5A-HFqbSd8E5mgwXnu1blU2mQZDIP1ndmp1z23-YjVY4EUYLIKsyE1NFb6azCdVgDrpao3s3er602SQ4CQFwCgTDIxKvBL1RsctyLO2Fakrba_rdks-T7L8h8ee-dTjx2w-xg?key=yiMe1b2VwU1jpN7Jf4vtog)
+
+Para você ver o histórico de commits basta usar o comando “`git log`”.
 
 **Desfazendo alterações**
 

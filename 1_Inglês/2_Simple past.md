@@ -3,7 +3,9 @@
 ---
 
 The **Simple Past** is used to describe actions that **started and finished at a specific time in the past**.
+
 ### **Verb to be** 
+
 | Pronome  | Afirmativa    | Negativa         | Interrogativa  |
 | -------- | ------------- | ---------------- | -------------- |
 | **I**    | I **was**     | I **wasn't**     | **Was** I?     |

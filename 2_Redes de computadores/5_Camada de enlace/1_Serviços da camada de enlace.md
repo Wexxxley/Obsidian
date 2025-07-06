@@ -1,4 +1,3 @@
-
 #Concluded 
 
 ---
@@ -19,7 +18,9 @@
 #### **3. Controle de Fluxo** 
 - O **controle de fluxo** serve para **limitar a taxa de transmissão** entre o transmissor e o receptor, garantindo que o receptor não seja sobrecarregado.
 #### **4. Detecção de Erros** 
+
 Erros são comuns e podem ser causados por diversos fatores, como:
+
 - **Atenuação do sinal**: O sinal enfraquece ao longo do meio de transmissão.
 - **Ruídos**: Interferências eletromagnéticas que alteram o sinal.
 - Quando um receptor detecta a presença de um erro em um quadro ele **avisa o transmissor para reenviar o quadro perdido ou corrompido**. 

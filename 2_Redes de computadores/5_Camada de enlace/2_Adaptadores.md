@@ -1,13 +1,16 @@
-
 #Concluded 
 
 ---
 ### **1. Função da placa de rede** 
+
 O coração da comunicação é o **adaptador**, também conhecido como Placa de Interface de Rede (NIC). A camada de enlace é "implementada" no adaptador.
 
 Esses adaptadores são a ponte entre o seu computador e o meio físico da rede.
+
 ![Pasted image 20250627100949](../../attachments/Pasted%20image%2020250627100949.png)
+
 **Lado Transmissor:**
+
 1. **Encapsula o datagrama em um quadro:**
     - Quando seu computador quer enviar dados, a **Camada de Rede** entrega um **datagrama** para a **Camada de Enlace**. O adaptador então pega esse datagrama e o **encapsula** dentro de um **quadro (frame)**. 
 **Lado Receptor:**

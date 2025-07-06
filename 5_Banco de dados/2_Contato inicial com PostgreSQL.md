@@ -19,6 +19,7 @@
  A restrição PRIMARY KEY é usada para identificar exclusivamente cada registro em uma tabela. Uma tabela tem que ter uma primary key, e ela deve garantir que todos os valores nela sejam exclusivos e não nulos. 
 
  A restrição unique é usada para garantir que todos os valores em uma coluna sejam únicos, o que significa que não pode haver duplicatas nesses valores.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcAmAr71s7MUXiJcdrn5UYMC2uwVYMG02Ir8lySNFJqlg0wbmwxQXKPJO7tOwwFpGI6ao60M_PzyAbEngPbyD5J-QUCaN4TRKeVUvby17roNZRjmsfgH8bDClKTRef-fz3_AbXHSmIi3X7q78ypnxXmtDI?key=jqcuw0c7mMfsTTEWWceZSw)
 
 **Default**
@@ -33,15 +34,21 @@ ___
 # 2. Consultas simples
 
 Com o select é possível selecionar colunas específicas ou todas com ‘*’.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdDhyKukNZP5q6yxEhgJEzA3AudM1snWBq0eKx4K837JwDxahirNwzgHUyhWmuU_yDp3GdW3s4u9M4ofXSWLQ1cPPu6U4wHETiUoujffYFzUWvjmtXl4Z_VPOkWpfluuAmO4UWBo2I-Qn3Y5TFegR3RB8A?key=jqcuw0c7mMfsTTEWWceZSw)
 
 É possível resumir várias colunas em apenas uma por meio de concatenação. “||”
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcZK6SRbFeoqYojlRhHfr1XViNsWNMSfivzhdLPDKNtZ3e1j31-q7FssCgO6-3XV6xvejBtpSb_y34qYN_3O0LspJ-8Z-rXasec-Mggm-mkBWoCe56vjgiNluw0ialRRo_V4REdvaPlzeF12Pkha0c6HRfA?key=jqcuw0c7mMfsTTEWWceZSw)
 
 É possível limitar a quantidade de linhas
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdith03ZU7rCgdW_E2KC3ffxvrMFmF0-eB3rC4yUrrowAVdt3VAFl7ZLg-QbVGOUQiY9HjRbU3e-j3EoR3GIJ-4TwYNk0J2GUFzyVfGnPZJTnV9dJlQNBChWVzmUDaMpD_r7rDBGHJNQaraR200EhvQTQkm?key=jqcuw0c7mMfsTTEWWceZSw)
+
 ### Where
+
 Com where é possível filtrar os dados com base em condições.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdFudLeJ-9sCz5gHEfVMGs21YUodz0g_Y_qRSUZZNiMnhkDN6bZhuBDmJnlURAoQWnVCGa37nhwGXsMrV9oJy_3P-D7fBjziILLqKDeI1nU-JUvvZ2wJXxtIXQaaKhGM_sjm_DQzNYvr3aJxPCU?key=jqcuw0c7mMfsTTEWWceZSw)
 
 ### <Like

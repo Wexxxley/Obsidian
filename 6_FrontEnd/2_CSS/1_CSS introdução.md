@@ -1,4 +1,3 @@
-
 Status: #Concluded 
 
 ---
@@ -9,6 +8,7 @@ Status: #Concluded
 ![Pasted image 20250512151756](../../attachments/Pasted%20image%2020250512151756.png)
 
 Existem 3 formas de aplicar estilos:
+
 1. **Inline**: O estilo é mudado na mesma linha do html.
 2. **Internal**: O estilo é alterado na  head com a tag style.
 3. **External**(recomendado): Um novo arquivo é criado, style.css em uma pasta chamada css. 
@@ -19,6 +19,7 @@ Existem 3 formas de aplicar estilos:
 **Os seletores CSS** são usados para selecionar os elementos html que você deseja estilizar.  
 
 Podemos dividir os seletores CSS em cinco categorias:  
+
 1. **Seletores simples** (selecionam elementos com base no nome, id ou classe)  
 2. **Seletores combinadores** (selecionam elementos com base em uma relação entre eles)  
 3. **Pseudo-classes** (selecionam elementos com base em um determinado estado)  
@@ -53,7 +54,9 @@ Seleciona a com o valor blank no target
 
 ---
 ## **2.1 Pseudo-classes**
+
  Uma pseudo-classe especifica algum estado especial de um elemento.
+
 - :**hover**: faz com que quando o mouse é passado por cima novos elementos surjam.
 - :**visited**: se o link já foi visitado um novo estilo pode ser adicionado.
 - :**active**: se algo for ativado (link, botão) um novo estilo é adicionado.
@@ -63,6 +66,7 @@ Seleciona a com o valor blank no target
 
 ---
 ## **2.2 Pseudo elemento**
+
 Os pseudo-elementos permitem estilizar pedaços específico de um elemento.
 
 **First-letter** modifica a primeira letra.
@@ -121,7 +125,9 @@ Cores terciárias: Vindas da junção entre cor primária e secundária.
   
   
   
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdTt0pIklntC5ZuAY-R5jTpbKNgqWpInThBJy6-4yEZDZl7I_UaFrHdcJkGkZ1DdCiUFRW8ev5PNfz3PGeTABRN1vSKtSUq9LlWFjzHvLQ_C6lmBpK2I6Wf-YfAqwupUydMLI2AlGmqxbDn-MNp0QtNIgM0?key=VYJVAqKhTdZyHt8enJbiwA)  
+
   
 
 2. CORES COMPLEMENTARES
@@ -129,7 +135,9 @@ Cores terciárias: Vindas da junção entre cor primária e secundária.
  São cores que apresentam o maior contraste entre si. Elas estão localizadas nos lados opostos do círculo cromático.
 
   
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeiUefZC_VFTXNmLYE0acqiipFRHTHcEOy16Va8ON3OIv3gQ3vazq6ZEG5_dFEGTPOAH1_3tVXO3skxwQcfmmUdEYj_Nf-apgbZxlFmvf1PE23ZyXBt4nT1Hf4DPVEaPLF07cpRRT7fadi1EiVh4wv6b5HF?key=VYJVAqKhTdZyHt8enJbiwA)  
+
   
 
 3. CORES ANÁLOGAS
@@ -138,6 +146,7 @@ Cores terciárias: Vindas da junção entre cor primária e secundária.
 
   
   
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdk47cZpAsb-otM2viIXcNd15eyPWTxzT4uK7CpawEBG_A8B2cC9UfFfBPsLLBKWeowDfW6GBHFuCVT1agS1tt8YOk4CeaFW_uMoSimkKKlX-MWNO0_9t16g0lJB6aUilzbIAWyVOssgfMy1jRlUGEbkKA?key=VYJVAqKhTdZyHt8enJbiwA)  
 
 4. CORES ANÁLOGAS RELACIONAIS
@@ -146,7 +155,9 @@ Cores terciárias: Vindas da junção entre cor primária e secundária.
 
   
   
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc_B2Ub1uQ5ILodQeWdmREnLHcYUf4YmuZOq9J9EYynNJXlSxllChystnaeJanIpcCj5Eddkta5e7ha7ZyoBK7FFc3nCYTa8D5lmTvf2E84ufbRA0rxtnVURlyc_OdkMt9DvX7c4osbBJIDkWgeu9He3yPa?key=VYJVAqKhTdZyHt8enJbiwA)  
+
   
 
 5. CORES ANÁLOGAS E UMA COMPLEMENTAR
@@ -155,6 +166,7 @@ Cores terciárias: Vindas da junção entre cor primária e secundária.
   
   
   
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcliS83dRPSNSnwmXcXNUJkokxyMgGQOPnZ1fykFjiB9QsFHndviM9o70Q4C1SsvNP2pZdmkXE4PQv4TVALR6827IBfqLISK1meBwXf7Kuas61xuIhAyikW59GfVU8D4M1SaJwhpKgdzGOSw35uDRxLCZ6t?key=VYJVAqKhTdZyHt8enJbiwA)  
 
 6. CORES INTERCALADAS
@@ -163,6 +175,7 @@ Cores terciárias: Vindas da junção entre cor primária e secundária.
   
   
   
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcsn4wsxa3zTwpGnGch-gcPH0bqMY1duI_m96p9a-8D-uzstrMPQjRPa8BDwBQ6cV0fP3-D2GOIyXuBdzvkVf0hqo5VlonFMQgAfwwhfrM1iZ6I-jC9oEfxMZjoJLbs0OIeQu7GlVCgvneGSnt1SQUpE0aM?key=VYJVAqKhTdZyHt8enJbiwA)  
 
 7. CORES TRIÁDICAS
@@ -173,6 +186,7 @@ Gera um triângulo equilátero e garante riqueza de cores.
   
   
   
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdDqmU-7gX23jRdTd4io7WPJIaV0PT8-BCX4fISeM1RBcqTDk3NLm2Esnyts-W2LO9_vRmnkDOF88O-px_DD-vmTaVZmEqidqAPHI4_NRrWi_JSO2yr2LGLAXQP42X3QvEVguKIz1bFgqy-0VyXm_0UZ3jv?key=VYJVAqKhTdZyHt8enJbiwA)
 
 8. MONOCROMÁTICA

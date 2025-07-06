@@ -1,8 +1,8 @@
-
 #Concluded 
 
 ---
 ### **1. Interfaces**
+
 Um hospedeiro em geral tem apenas um único enlace com a rede; quando o IP no hospedeiro quer enviar um datagrama, ele o faz por meio desse enlace. **A fronteira entre o hospedeiro e o enlace físico é denominada interface**. 
 
 Considere um roteador e suas interfaces. Como a tarefa de um roteador é receber um datagrama em um enlace e repassá-lo a algum outro, ele necessariamente estará ligado a dois ou mais enlaces.  Assim, um roteador tem múltiplas interfaces. 
@@ -11,14 +11,13 @@ Como todos os hospedeiros e roteadores podem enviar e receber datagramas IP, o I
 
 Cada interface em cada hospedeiro e roteador da Internet global tem de ter um endereço IP  exclusivo.  Uma parte do endereço IP de uma interface será determinada pela sub-rede à qual ela está conectada e a outra parte referente a própria interface.
 
-
 ![Pasted image 20250524113525](../../attachments/Pasted%20image%2020250524113525.png)
 
 ==Cada endereço IPv4 tem comprimento de 32 bits (equivalente a 4 bytes).==
 
-
 ---
 ### **2 Máscara de sub-rede**
+
 Uma **sub-rede** é definida como um conjunto de interfaces de rede que são interconectadas e que compartilham uma parte comum do endereço IP. 
 
 **Máscara de sub-rede** é um conceito utilizado para identificar qual parte de um endereço IP representa a sub-rede e qual parte identifica o dispositivo dentro dessa sub-rede. 

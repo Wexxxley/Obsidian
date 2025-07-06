@@ -1,6 +1,7 @@
 
 ---
 ## **1 Grafos**
+
  Um grafo ==G = (V, E)== consiste em um ==conjunto de vértices (V)== e um ==conjunto de arestas (E)==. Cada aresta é um par (v,w),  onde v,w ∈ V.
 
  - Se o par tiver direção, o grafo é **direcionado**. 
@@ -10,7 +11,6 @@
  - Um grafo **não direcionado** é **conexo** se houver um caminho de qualquer vértice para qualquer outro vértice. Um grafo **direcionado** com essa propriedade é chamado de fortemente conexo.
  - Se um grafo direcionado não for fortemente conexo, mas o **grafo subjacente (sem considerar a direção dos arcos)** for conexo, então o grafo é dito fracamente conexo. 
  - Um grafo completo é um grafo em que existe uma aresta entre cada par de vértices.
-
 
 Um ==**grafo G = (V, E)**== é composto por um **conjunto de vértices (V)** e um **conjunto de arestas (E)**. Cada aresta é definida por um par de vértices (v, w), onde v e w pertencem a V.
 
@@ -31,6 +31,7 @@ ___
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfH6clvRtr8C23J8Ff5Hq-LOek1BcgvQ7StRsr3FmFQiLs1i_-vgQJWCJBnUY7vs-7SJSnKZZ4f9EsjekLAO7UgKKkUe5X08iaNu5_H1E89xEHhlyJuxiU_-_cbzcRHNm-suELs?key=VJjD-GQ4BeMLFSL3weHQfxOz)
 
 #### **1.1.1 Matriz de Adjacência**
+
 Para um grafo com N vértices, a matriz de adjacência é uma matriz quadrada N×N.
 
 - Para cada aresta (u,v), a entrada `A[u][v]` é definida como `verdadeiro`(`1`).
@@ -43,6 +44,7 @@ Para um grafo com N vértices, a matriz de adjacência é uma matriz quadrada N�
 - Isso ocorre porque, em **grafos esparsos** (aqueles com relativamente poucas arestas em comparação com o número máximo possível de arestas), a maioria dos valores na matriz será nula, resultando em **desperdício de memória**.
 
 #### **1.1.2 Listas de Adjacência**
+
 Uma solução melhor para **grafos não densos (esparsos)** é o uso de listas de adjacência.
 
 - Para cada vértice v, mantemos uma **lista de todos os vértices adjacentes** a ele.

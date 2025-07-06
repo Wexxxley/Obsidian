@@ -2,13 +2,16 @@
 ---
 
 A fibra óptica transmite os dados na forma de **pulsos de luz**. Em vez de usar eletricidade viajando por fios de cobre, ela usa luz viajando por filamentos finíssimos de vidro ou plástico.
+
 - **Taxa de tranferência Gigantesca:** Consegue transmitir volumes de dados imensamente maiores que qualquer cabo de cobre.
 - **Baixa Atenuação:** O sinal de luz perde muito pouca força ao longo de grandes distâncias. E pode-se usar amplificadores. 
 - **Imunidade a Interferência:** Como usa luz, é completamente imune a interferências eletromagnéticas e de radiofrequência.
 ### **1. Como Funciona? O Princípio da Reflexão Interna Total**
+
 A luz uma vez dentro do núcleo da fibra, fica presa e viaja por quilômetros, fazendo curvas sem escapar. Isso acontece graças a um princípio da física chamado **Reflexão Interna Total**.
 
 O núcleo da fibra é revestido por uma camada de vidro com um índice de refração diferente. Isso faz com que a fronteira entre o núcleo e a casca funcione como um espelho perfeito, forçando a luz a ricochetear e continuar seu caminho pelo núcleo.
+
 ![](../../attachments/Pasted%20image%2020250703200751.png)
 
 ### **2. Componentes do cabo**

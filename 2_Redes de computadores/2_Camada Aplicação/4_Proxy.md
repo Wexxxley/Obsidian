@@ -1,8 +1,8 @@
-
 Status: #Concluded 
 
 ---
 # 1.Proxy/cache Web
+
  Proxy é um intermediário entre um cliente e um servidor. Você não acessa diretamente o site. O proxy que faz esse acesso.
 
 O proxy tem tanto o papel de cliente como o de servidor. Quando um cliente faz uma requisição, o proxy **recebe essa requisição como um servidor**. Após receber a requisição do usuário, o proxy **encaminha a solicitação ao servidor web de destino**, agora atuando como um cliente.
@@ -13,6 +13,7 @@ O proxy tem tanto o papel de cliente como o de servidor. Quando um cliente faz u
 3. **Controle e filtragem de conteúdo:** Por exemplo, uma empresa não quer que funcionários acessem redes sociais. O proxy intercepta a requisição e bloqueia o acesso a facebook.com, twitter.com, etc.
 4. **Acesso a conteúdo com restrição geográfica**: Muitos usam proxies ou VPNs para acessar conteúdo que está bloqueado na sua região. O proxy usado é um proxy comercial, que mascara o IP real para enganar o site.
   
+
 ![Pasted image 20250508161045](../../attachments/Pasted%20image%2020250508161045.png)
 
 **Proxy transparente** 
@@ -24,9 +25,10 @@ Embora possa reduzir os tempos de resposta do ponto de vista do usuário, fazer 
 O HTTP tem um mecanismo que permite que um proxy verifique se seus objetos estão atualizados (get condicional). Uma mensagem HTTP é denominada GET condicional se usar o método GET epossuir uma linha de cabeçalho: ``If-Modified-Since``
 
  Quando o proxy guarda um objeto ele também guarda a data da última modificação. Quando o proxy precisar de um recurso, ele faz o get condicional:
-![Pasted image 20250508161614](../../attachments/Pasted%20image%2020250508161614.png)
- Esse GET condicional está dizendo ao servidor para enviar o objeto somente se ele tiver sido modificado desde a data especificada. 
 
+![Pasted image 20250508161614](../../attachments/Pasted%20image%2020250508161614.png)
+
+ Esse GET condicional está dizendo ao servidor para enviar o objeto somente se ele tiver sido modificado desde a data especificada. 
 
 **Tipos de proxy**
 1. **Forward proxy:** É o cliente que usa e fica entre o cliente e a internet. Serve para ocultar o cliente, filtrar acesso, armazenar cache.

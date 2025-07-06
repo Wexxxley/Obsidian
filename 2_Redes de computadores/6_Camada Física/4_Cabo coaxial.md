@@ -1,6 +1,7 @@
 
 ---
 ### **1. Estrutura do Cabo Coaxial**
+
 O nome "coaxial" significa "com o mesmo eixo". Ele é formado por quatro camadas:
 
 1. **Condutor Central:** Fio de cobre sólido por onde o sinal de dados principal viaja.

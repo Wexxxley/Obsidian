@@ -1,4 +1,3 @@
-
 Status: #Concluded 
 
 ---
@@ -33,6 +32,7 @@ Status: #Concluded
 **Bandwidth (Largura de Banda):** representa a capacidade máxima de transmissão de um meio, em termos de dados enviados por segundo. 
 
 A bandwidth  pode ser representada por duas medidas diferentes:
+
 1. Em hertz: o intervalo (faixa) de frequências contido em um sinal, medido em hertz. 1 Hertz = 1 ciclo por segundo. 
 2. Em bits por segundo: número de bits por segundo. Por exemplo, a largura de banda de uma rede Ethernet é de no máximo 100 Mbps. 
 

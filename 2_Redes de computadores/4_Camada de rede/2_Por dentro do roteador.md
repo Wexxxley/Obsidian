@@ -1,9 +1,10 @@
-
 #Concluded 
 
 ---
 ### **1. Por dentro de roteador**
+
 ![Pasted image 20250522195916](../../attachments/Pasted%20image%2020250522195916.png)
+
 - **Portas de entrada**.
 - **Elemento de comutação**. O elemento de comutação move os pacotes da entrada do roteador para a saída apropriada.
 - **Portas de saída.** Uma porta de saída armazena os pacotes que foram repassados a ela e os transmite até o enlace de saída, realizando as funções necessárias da camada de enlace e da camada físico
@@ -11,7 +12,9 @@
 
 ---
 #### **1.1 Funções da porta de entrada**
+
 ![Pasted image 20250522200227](../../attachments/Pasted%20image%2020250522200227.png)
+
 1. **Terminação de linha**: Responsável por **receber sinais físicos** vindos de uma interface de rede. Converte esses sinais em **bits**.
 2. **Processamento de enlace:** Aqui ocorre o **desencapsulamento da camada de enlace**. Extrai o quadro recebido e verifica seu conteúdo. Remove o cabeçalho da camada de enlace.
 3. **Consulta, repasse, fila**: Esta é a parte da camada de rede. O roteador consulta sua tabela de roteamento para decidir para onde o pacote deve ser enviado.
@@ -19,9 +22,11 @@
 
 ---
 #### **1.2 Elemento de comutação**
+
 ![Pasted image 20250522201358](../../attachments/Pasted%20image%2020250522201358.png)
 
 É por meio do elemento de comutação que os pacotes são comutados de uma porta de entrada para uma porta de saída. A comutação pode ser realizada de inúmeras maneiras:
+
 ##### 1. **Comutação via Memória**
 - Os pacotes entram por uma interface e são **copiados para a memória central** do roteador.
 - A CPU acessa os dados, processa o cabeçalho e determina a interface de saída.
@@ -44,9 +49,11 @@
 - Mais cara e complexa de implementar.
 
 ##### **Bloqueio head of the line** 
+
 Problema que acontece quando o primeiro pacote de uma fila impede que outros pacotes atrás dele sejam transmitidos, mesmo que esses pacotes possam ser encaminhados.
 
 Imagine uma fila de pacotes aguardando para sair por diferentes interfaces. Porém, os pacotes têm que sair na ordem de chegada.
+
 1. O **pacote 1** está no início da fila e precisa sair pela **porta X**, que está **ocupada**.
 2. O **pacote 2** está logo atrás e quer ir para a **porta Y**, que está **livre**.
 
@@ -54,7 +61,9 @@ Resultado: a **fila inteira fica bloqueada**, mesmo tendo pacotes que poderiam s
 
 ---
 #### **1.3 Processamento de saída**
+
 ![Pasted image 20250522203955](../../attachments/Pasted%20image%2020250522203955.png)
+
 ##### 1.**Fila (gerenciamento de buffer)**
 - Quando o pacote chega à saída, ele **pode ter que esperar** se a interface de transmissão estiver ocupada. Se o buffer estiver cheio, os pacotes **podem ser descartados**.
 - [15_Tipos de filas](15_Tipos%20de%20filas.md)

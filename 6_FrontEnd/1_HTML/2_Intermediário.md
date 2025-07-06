@@ -1,15 +1,17 @@
-
 Status: #Concluded 
 
 ---
 # **1. Favicon e emoji**
+
 Emoji: Para inserir emojis você utiliza &#xCODE; O código do emoji você encontra no [https://emojipedia.org](https://emojipedia.org)
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfjIKoibxtw5TGTAHW2TPgCc7vsN0KnzvDOlmtWNJXi3Z8uXiS0HF7faSqfu_qi6_rLextDFS3PWr3ULYLD_pkYfWD981OoDWJdlFQieBSp4aN92VBkv7sNDUgXdKRpGOfux1a9?key=VYJVAqKhTdZyHt8enJbiwA)![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf-UCv_AuDCK46ytyBBVWXdQ-I8iope9rNmiXu8LNY2yOTOWWu8t58f3FtL_vm4Uf8FSCkZLBOIiTpymVg8B0a4Yl_YUupZYRxyz4geS0Wbo_JXEpMaqz7d1Fiwx-1SWkPkWD2exA?key=VYJVAqKhTdZyHt8enJbiwA)
 
 ---
 # 2. Imagens
 
  Tome cuidado com as imagens que você usa comercialmente, a grande maioria possui direitos autorais. A solução é usar imagens de domínio público. A seguir, existem alguns sites com imagens/vídeos/músicas livres.
+
 - Unsplash: [Lindas imagens e fotos gratuitas | Unsplash](https://unsplash.com/pt-br)
 - Pexels:[Fotos profissionais gratuitas, imagens profissionais livres de royalties e fotos sem direitos autorais (pexels.com)](https://www.pexels.com/pt-br/)
 - Freepik: [Freepik: Descarga gratis vídeos, vectores, fotos y PSD](https://www.freepik.es/)
