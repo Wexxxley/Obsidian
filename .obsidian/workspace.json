@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/11_Express/4_Acessando nossa API.md",
+                "file": "6_FrontEnd/3_JavaScript/9_Acessando API Própria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Acessando nossa API"
+              "title": "9_Acessando API Própria"
             }
           }
         ]
@@ -193,11 +193,13 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
+    "6_FrontEnd/3_JavaScript/11_Express/5_Consumindo API.md",
+    "6_FrontEnd/3_JavaScript/11_Express/4_Configurações finais.md",
     "attachments/Pasted image 20250706093323.png",
     "attachments/Pasted image 20250706093249.png",
     "attachments/Pasted image 20250706093049.png",
     "6_FrontEnd/3_JavaScript/11_Express/3_Criando rotas.md",
-    "6_FrontEnd/3_JavaScript/11_Express/4_Acessando nossa API.md",
     "6_FrontEnd/3_JavaScript/11_Express/2_Criando uma API simples.md",
     "attachments/Pasted image 20250706091814.png",
     "attachments/Pasted image 20250706090950.png",
@@ -210,14 +212,12 @@
     "6_FrontEnd/3_JavaScript/4_Arrays.md",
     "attachments/Pasted image 20250706073903.png",
     "attachments/Pasted image 20250706073816.png",
-    "attachments/Pasted image 20250706073714.png",
     "6_FrontEnd/3_JavaScript/11_Express",
     "7_Git and github/Branch.md",
     "7_Git and github/Git and github.md",
     "6_FrontEnd/3_JavaScript/10_Multiplos estilos com um clique.md",
     "6_FrontEnd/3_JavaScript/9_Acessando API Própria.md",
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
-    "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
     "6_FrontEnd/3_JavaScript/1_Introdução.md",

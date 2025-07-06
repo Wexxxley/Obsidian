@@ -9,3 +9,4 @@ Para podermos acessar no frontend precisamos dessas configurações no app.js. E
 Exemplo:
 ![](../../../attachments/Pasted%20image%2020250706093323.png)
 ![](../../../attachments/Pasted%20image%2020250706093249.png)
+
