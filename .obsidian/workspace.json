@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/11_Express/5_Consumindo API.md",
-                "mode": "source",
+                "file": "6_FrontEnd/3_JavaScript/10_Multiplos estilos com um clique.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Consumindo API"
+              "title": "10_Multiplos estilos com um clique"
             }
           }
         ]
@@ -193,23 +193,22 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "6_FrontEnd/3_JavaScript/9_Acessando API Própria.md",
+    "6_FrontEnd/3_JavaScript/11_Express/5_Consumindo API.md",
+    "attachments/Pasted image 20250706103305.png",
+    "attachments/Pasted image 20250706103249.png",
+    "attachments/Pasted image 20250706103236.png",
+    "attachments/Pasted image 20250706103220.png",
+    "attachments/Pasted image 20250706102701.png",
+    "attachments/Pasted image 20250706102635.png",
     "attachments/Pasted image 20250706102419.png",
     "attachments/Pasted image 20250706102345.png",
     "attachments/Pasted image 20250706102159.png",
     "attachments/Pasted image 20250706102125.png",
-    "attachments/Pasted image 20250706100530.png",
-    "attachments/Pasted image 20250706100455.png",
-    "6_FrontEnd/3_JavaScript/9_Acessando API Própria.md",
-    "6_FrontEnd/3_JavaScript/11_Express/5_Consumindo API.md",
-    "attachments/Pasted image 20250706095429.png",
     "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "6_FrontEnd/3_JavaScript/11_Express/4_Configurações finais.md",
-    "attachments/Pasted image 20250706093323.png",
-    "attachments/Pasted image 20250706093249.png",
-    "attachments/Pasted image 20250706093049.png",
     "6_FrontEnd/3_JavaScript/11_Express/3_Criando rotas.md",
     "6_FrontEnd/3_JavaScript/11_Express/2_Criando uma API simples.md",
-    "attachments/Pasted image 20250706091814.png",
     "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
     "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
     "6_FrontEnd/3_JavaScript/11_Express/1_Node.js e express.md",
