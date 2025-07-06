@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/9_Acessando API Própria.md",
+                "file": "6_FrontEnd/3_JavaScript/11_Express/5_Consumindo API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9_Acessando API Própria"
+              "title": "5_Consumindo API"
             }
           }
         ]
@@ -193,6 +193,8 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250706095429.png",
+    "6_FrontEnd/3_JavaScript/9_Acessando API Própria.md",
     "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "6_FrontEnd/3_JavaScript/11_Express/5_Consumindo API.md",
     "6_FrontEnd/3_JavaScript/11_Express/4_Configurações finais.md",
@@ -216,7 +218,6 @@
     "7_Git and github/Branch.md",
     "7_Git and github/Git and github.md",
     "6_FrontEnd/3_JavaScript/10_Multiplos estilos com um clique.md",
-    "6_FrontEnd/3_JavaScript/9_Acessando API Própria.md",
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
@@ -229,7 +230,6 @@
     "Excalidraw/Drawing 2025-05-12 19.15.04.excalidraw.md",
     "Excalidraw/Drawing 2025-05-12 19.13.43.excalidraw.md",
     "8_Aleatórios/LinkedList vs ArrayList (JAVA).md",
-    "FrontEnd/4_Express/Express.md",
     "Sem título.canvas",
     "2_Redes de computadores/6_Camada Física",
     "2_Redes de computadores/5_Camada de enlace",
