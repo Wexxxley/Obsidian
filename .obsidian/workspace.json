@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/11_Express/2_.md",
+                "file": "6_FrontEnd/3_JavaScript/4_Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_"
+              "title": "4_Arrays"
             }
           }
         ]
@@ -193,9 +193,10 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "6_FrontEnd/3_JavaScript/11_Express/2_.md",
+    "attachments/Pasted image 20250706073903.png",
     "attachments/Pasted image 20250706073816.png",
     "6_FrontEnd/3_JavaScript/11_Express/1_Node.js e express.md",
-    "6_FrontEnd/3_JavaScript/11_Express/2_.md",
     "attachments/Pasted image 20250706073714.png",
     "6_FrontEnd/3_JavaScript/11_Express",
     "7_Git and github/Branch.md",
@@ -218,8 +219,6 @@
     "attachments/Pasted image 20250705155801.png",
     "attachments/Pasted image 20250705154907.png",
     "attachments/Pasted image 20250705154818.png",
-    "attachments/Pasted image 20250705154046.png",
-    "attachments/Pasted image 20250705153959.png",
     "6_FrontEnd/3_JavaScript/8_Promisse.md",
     "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
     "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
