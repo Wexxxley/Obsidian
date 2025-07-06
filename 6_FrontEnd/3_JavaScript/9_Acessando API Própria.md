@@ -3,7 +3,7 @@
 ---
 ### **1. Get all**
 
-![Pasted image 20250624073206](../../../attachments/Pasted%20image%2020250624073206.png)
+![](../../../attachments/Pasted%20image%2020250624073206.png)
 
 ![Pasted image 20250624073222](../../../attachments/Pasted%20image%2020250624073222.png)
 
