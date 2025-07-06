@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/11_Express/3_Criando rotas.md",
+                "file": "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Criando rotas"
+              "title": "7_DOM (Document Object Model)"
             }
           }
         ]
@@ -193,8 +193,10 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
-    "6_FrontEnd/3_JavaScript/11_Express/2_Criando uma API simples.md",
+    "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
     "6_FrontEnd/3_JavaScript/11_Express/3_Criando rotas.md",
+    "attachments/Pasted image 20250706084655.png",
+    "6_FrontEnd/3_JavaScript/11_Express/2_Criando uma API simples.md",
     "attachments/Pasted image 20250706080600.png",
     "attachments/Pasted image 20250706080340.png",
     "6_FrontEnd/3_JavaScript/11_Express/1_Node.js e express.md",
@@ -208,7 +210,6 @@
     "6_FrontEnd/3_JavaScript/10_Multiplos estilos com um clique.md",
     "6_FrontEnd/3_JavaScript/9_Acessando API Própria.md",
     "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
-    "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
     "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
@@ -219,7 +220,6 @@
     "attachments/Pasted image 20250705163314.png",
     "attachments/Pasted image 20250705163300.png",
     "attachments/Pasted image 20250705163245.png",
-    "attachments/Pasted image 20250705155801.png",
     "6_FrontEnd/3_JavaScript/8_Promisse.md",
     "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
     "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
@@ -230,7 +230,6 @@
     "FrontEnd/4_Express/Express.md",
     "Sem título.canvas",
     "2_Redes de computadores/6_Camada Física/2_Par trançado confecção.md",
-    "Ficha treino.md",
     "2_Redes de computadores/6_Camada Física",
     "2_Redes de computadores/5_Camada de enlace",
     "Redes de computadores/4_Camada de rede/Sem título",
