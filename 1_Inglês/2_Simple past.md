@@ -1,9 +1,8 @@
 
+#Concluded 
 
 ---
-
 The **Simple Past** is used to describe actions that **started and finished at a specific time in the past**.
-
 ### **Verb to be** 
 
 | Pronome  | Afirmativa    | Negativa         | Interrogativa  |
@@ -16,7 +15,6 @@ The **Simple Past** is used to describe actions that **started and finished at a
 | **We**   | We **were**   | We **weren't**   | **Were** we?   |
 | **You**  | You **were**  | You **weren't**  | **Were** you?  |
 | **They** | They **were** | They **weren't** | **Were** they? |
-
 ### **Para os demais verbos**
 
 | Pronome  | Afirmativa      | Negativa             | Interrogativa          |
