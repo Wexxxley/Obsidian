@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
+                "file": "6_FrontEnd/3_JavaScript/11_Express/3_Criando rotas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_DOM (Document Object Model)"
+              "title": "3_Criando rotas"
             }
           }
         ]
@@ -193,6 +193,7 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
     "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
     "6_FrontEnd/3_JavaScript/11_Express/3_Criando rotas.md",
     "attachments/Pasted image 20250706084655.png",
@@ -209,7 +210,6 @@
     "7_Git and github/Git and github.md",
     "6_FrontEnd/3_JavaScript/10_Multiplos estilos com um clique.md",
     "6_FrontEnd/3_JavaScript/9_Acessando API Própria.md",
-    "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
     "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
