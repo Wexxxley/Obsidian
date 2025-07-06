@@ -25,3 +25,4 @@ Validações prontas: 
 **Retornando status code**
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeqqBe8RbHYSm4YaEpI7EZCFNdFfB5gc2vFr_nfDCAFEt3vH7SbaU87vKqWvfh5LqpS1xXE8Ki3WcdMREkW7NzteO2qYYlEqwUURIxdXtZMaMwu_y2mOBWDjgPYCz489Jm6y4DHVw?key=jnfZcvbkf1zKPUZCAbeT6ysv)
+

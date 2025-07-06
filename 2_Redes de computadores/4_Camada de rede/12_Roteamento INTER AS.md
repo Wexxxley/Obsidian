@@ -15,6 +15,7 @@ Usam o TCP para confiabilidade.
 - **Sessôes iBGP**: Uma vez que um roteador de borda aprende uma rota externa, ele precisa anunciar essa rota para os roteadores internos do seu AS.
 
 ![Pasted image 20250606100212](../../attachments/Pasted%20image%2020250606100212.png)
+
 - Quando AS2 comunica um prefixo ao AS1, AS2 está prometendo que irá encaminhar todos os datagramas destinados a esse prefixo em direção ao prefixo.
 - Quando um roteador aprende um novo prefixo, ele cria uma entrada para ele em sua tabela de roteamento.
 

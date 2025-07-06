@@ -18,6 +18,7 @@
 ![](../../../attachments/Pasted%20image%2020250706102159.png)
 
 ![](../../../attachments/Pasted%20image%2020250706102125.png)
+
 ---
 ### **3. Criar**
 
@@ -42,3 +43,4 @@
 **Resultado**
 
 ![](../../../attachments/Pasted%20image%2020250706102419.png)
+

@@ -11,3 +11,4 @@ Exemplo:
 ![](../../../attachments/Pasted%20image%2020250706093323.png)
 
 ![](../../../attachments/Pasted%20image%2020250706093249.png)
+

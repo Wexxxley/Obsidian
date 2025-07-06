@@ -285,7 +285,7 @@
     {
       "label": "Colocar quebra de linha antes de imagens",
       "find": "(?<!\\n\\n)(^(\\s*!\\[.*?\\]\\(.*?\\)\\s*)$|^\\s*!\\[\\[.*?\\]\\]\\s*$)",
-      "replace": "\\n$1",
+      "replace": "\\n$1\\n",
       "flags": "gm",
       "enabled": true
     },

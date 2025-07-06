@@ -10,3 +10,4 @@ Database.py assíncrono
 Método create
 
 ![Pasted image 20250626194023](../../attachments/Pasted%20image%2020250626194023.png)
+

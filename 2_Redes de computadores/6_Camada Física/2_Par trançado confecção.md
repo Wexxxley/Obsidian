@@ -33,6 +33,7 @@ Se você tentar conectar dois PCs com um cabo direto, a comunicação falha. Amb
 - Um cabo crossover tem a norma **T568A em uma ponta** e a **T568B na outra**.
 
 ![400](../../attachments/Pasted%20image%2020250703105106.png)
+
 #### **2.3 Auto MDI/MDI-X**
 
 A necessidade de ter dois tipos de cabos sempre foi uma fonte de confusão. Para eliminar esse problema, foi criada a tecnologia **Auto MDI/MDI-X**.

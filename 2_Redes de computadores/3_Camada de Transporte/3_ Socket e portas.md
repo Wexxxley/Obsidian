@@ -28,6 +28,7 @@ Esse par ==(local IP, local porta, remoto IP, remoto porta)== identifica  a con
 - IP de destino e Porta de destino.  
 
 ![Pasted image 20250509132053](../../attachments/Pasted%20image%2020250509132053.png)
+
 **Socket TCP (com  Conexão):** Um socket TCP é identificado por quatro valores:
 - IP de origem, Porta de origem, IP de destino e Porta de destino.  
 

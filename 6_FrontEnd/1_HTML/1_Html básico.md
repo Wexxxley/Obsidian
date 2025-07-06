@@ -66,12 +66,14 @@ ___
 **Lista ordenada**
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSycmZrRa3b-ccA8udwgfSkpmCyPfDTyhI-0szikNQK5p0mT9TlSBJCsmwOyr1nzNMb_bpWuGgcQtRa68MpYMV9bohiX4ihIdqWIvvRcIPbaOHy3nCOCTkkBJ5eX831lzrUmsQVQ?key=VYJVAqKhTdZyHt8enJbiwA)![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXesEgpQuOg24WXTYcPQ6E-UmADGxQABAlfrBqN4RwO1FiBfNLx5Uc9wuYb1Qyitpr914B62UDMXUDzCvUlMXUDqBdZc7L5Q_6N1hUzMrK-TOxP_UvUhprtHUo1nHf37kfCTfotz?key=VYJVAqKhTdZyHt8enJbiwA)
+
 `<ol>` - ordered list
 `<li>` - list item 
 
 **Lista não ordenada**
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfg5EeC0DuXh-mX43eD9_inA9i0wt8oKdLJ1HgQz6A2IM4i8ZO0Kd_HIjtRzlN667eW0z-bGY8478G2FeQBrWkqADOoff53Zqs8rfLdyt6-rZol7se29iXb6_9bJ-3QAtF8KUSWzQ?key=VYJVAqKhTdZyHt8enJbiwA) ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcUDoGGnQFDwNXhRU_HduM0x8kMWKMY3zX6241SrFNFPuItN-rEkTaayVb7FMhZmpy3D-bs_yHG618Ku8tYo_uQmRkpFMWykXfDamDhXU-eHmQfgxzpgn6MOnosJqnYtwJ5XwXAfA?key=VYJVAqKhTdZyHt8enJbiwA)
+
 `<ul>` - unordered list
 ___
 # 6. Tabelas

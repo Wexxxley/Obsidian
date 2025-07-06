@@ -17,6 +17,7 @@ ___
 **Padding**: Você pode ajustar o padding de modo geral, de forma individual e de forma individual com um comando.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJ_zic0cX_SaxogBNltOMB5FginKhkwQO40ls-ck_MQPFRmQHtGkNAK7d3hgeOCaDrP9F1Mg7Pj28WsiUfT1bK8Wwxqz_zS3dMjoM5SmC6FOyXFHTRt-UvCG9HZ-Z0a3LnkXmUfQ?key=VYJVAqKhTdZyHt8enJbiwA)
+
 Obs: o margin funciona da mesma forma que o padding.
 
 ___

@@ -74,6 +74,7 @@ Componentes da imagem:
 2. **Evitar Congestionamento:** aumenta o tamanho da janela em 1 MSS a cada ACK recebido.
 
 ![Pasted image 20250512193101](../../attachments/Pasted%20image%2020250512193101.png)  
+
 **Critérios de mudança** 
 
 - Tamanho da janela **passou do limite de início lento**: mudar para evitar congestionamento.

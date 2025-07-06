@@ -24,6 +24,7 @@ Os componentes são:
 **Cenário de envio**
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfm8utei6yDoNeXLzDA12hupmUBBnyJTQd0dGQjgxEfGAzxG-yICVSBXC0nKzP7b8MoC-SHb-0NbddaVD3hkSJNGeNDkOVNQjIWdvoSX26UtuX57t1sr_3oqcNoO2uGb18H4FYOOQ?key=HrOhHC0_-ked6RNCpQ0o3PZn)
+
 1) Alice usa o agente de usuário para compor a msg.
 2) O agente envia a msg para o seu servidor de correio que é colocada na fila.
 3) O lado cliente SMTP abre uma conexão TCP DIRETA com o servidor do Bob.

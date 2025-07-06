@@ -21,6 +21,7 @@ Cada Nó IP (Host, Roteador) numa LAN tem um módulo e uma tabela ARP
 - **Tabela ARP**: Cada nó mantém uma **Tabela ARP**. Que é uma lista de mapeamentos entre endereços IP e seus correspondentes endereços MAC.
 
 	![Pasted image 20250627115140](../../attachments/Pasted%20image%2020250627115140.png)
+
 	- **`Time To Live)`**: O **Tempo de Vida** para aquela entrada na tabela, tipicamente 20 min.
 
 - **ARP Request - Broadcast**: Quando um dispositivo precisa descobrir um endereço MAC para um IP que não está em sua tabela, ele pergunta para _todos_ na rede local. 

@@ -41,3 +41,4 @@ O loop de eventos é responsável por coordenar a execução das corrotinas. Em 
 Todas as corrotinas são enviadas para o loop de eventos, no momento em que são chamadas. Essas corrotinas são executadas sequencialmente. No entanto, quando o loop encontra a palavra-chave `await`, ele a "deixa de lado" temporariamente, até que a tarefa que estava sendo aguardada termine. O loop então retoma a execução da próxima corrotina, ou a que estiver pronta para ser executada, até encontrar outro `await` e assim por diante.
 
 ![Pasted image 20250626190850](../../attachments/Pasted%20image%2020250626190850.png)
+

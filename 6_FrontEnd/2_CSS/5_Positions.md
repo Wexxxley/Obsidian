@@ -20,6 +20,7 @@ Os elementos são posicionados com as propriedades top, bottom, left e right. Ma
 	![Pasted image 20250513095413](../../attachments/Pasted%20image%2020250513095413.png)
 
 	
+
 	**Obs**: os elementos dentro de um container relativo ficam posicionados com base nele. Muito útil se usado junto com absolute.
 
 3. **absolute:** Um elemento com ``position: absolute`` é posicionado de forma fíxa ao seu container pai. O que pode gerar problemas, pois pode tampar outros elementos.

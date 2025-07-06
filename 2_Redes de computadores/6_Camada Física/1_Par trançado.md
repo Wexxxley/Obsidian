@@ -35,3 +35,4 @@ Existem **dois tipos principais** de cabos de par trançado, diferenciados pela 
     - É utilizado em locais com alto nível de ruído elétrico, como fábricas, hospitais ou perto de equipamentos de alta potência.
 
 ![Pasted image 20250703104110](../../attachments/Pasted%20image%2020250703104110.png)
+

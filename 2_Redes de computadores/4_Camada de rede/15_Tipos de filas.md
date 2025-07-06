@@ -12,6 +12,7 @@
 - O agendador visita cada fila de forma sequencial, enviando um pacote de cada fila antes de passar para a próxima. Se uma fila está vazia, ele pula para a próxima.
 
 ![Pasted image 20250606120427](../../attachments/Pasted%20image%2020250606120427.png)
+
 - Não leva em conta a prioridade que um determinando paocte pode ter.
 
 ---

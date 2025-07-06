@@ -45,3 +45,4 @@
     - **Roteadores de Borda de Área:** São roteadores que possuem interfaces em mais de uma área. Eles são responsáveis por resumir as informações de rota de uma área para as outras e vice-versa.
 
 ![Pasted image 20250605190304](../../attachments/Pasted%20image%2020250605190304.png)
+

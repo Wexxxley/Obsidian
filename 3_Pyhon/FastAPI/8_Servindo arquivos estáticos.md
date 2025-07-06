@@ -11,6 +11,7 @@
 **Um método coletando um imagem e armazendo no server.**
 
 ![Pasted image 20250621150521](../../attachments/Pasted%20image%2020250621150521.png)
+
 1. **`data: ProfFormData = Depends()`**:
     - **`data`**: Este parâmetro vai capturar os dados do formulário.
 2. **`foto: UploadFile = File(...)`**:

@@ -8,6 +8,7 @@ ORM (Object Relational Mapping) é uma camada que permite conectar a programaç�
 - O ORM traduz automaticamente as instruções SQL para refletir as mudanças no banco de dados, e transforma os dados recuperados do banco em objetos.
 
 ![Pasted image 20250610151959](../../attachments/Pasted%20image%2020250610151959.png)
+
 1. Ao importa tudo isso no seu`database.py`, você está garantindo que o **SQLModel** consiga mapear todas as suas classes de modelo para as respectivas tabelas no banco de dados.
 2. **Engine**: O motor de conexão com o banco de dados
 3. **DATABASE_URL**: Define a string de conexão com o seu banco de dados. É uma prática recomendada carregar isso de variáveis de ambiente

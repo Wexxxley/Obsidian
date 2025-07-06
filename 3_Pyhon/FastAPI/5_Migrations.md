@@ -13,6 +13,7 @@
 	![Pasted image 20250523155642](../../attachments/Pasted%20image%2020250523155642.png)
 
 	![Pasted image 20250523155655](../../attachments/Pasted%20image%2020250523155655.png)
+
 2. `alembic revision --autogenerate -m "mensagem"`: Gera automaticamente uma **migração com base nas mudanças** detectadas no modelo comparado com o estado atual do banco.
 3. `alembic upgrade revision-id`: É como de fato fazemos a atualização do banco de dados.
 4. `alembic downgrade -1`: faz o downgrade para a última migração.

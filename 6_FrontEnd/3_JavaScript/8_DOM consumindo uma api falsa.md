@@ -17,3 +17,4 @@ Consumindo a "api". Se fosse real teria um **fetch(url)**.
 Resultado (mais o css).
 
 ![](../../attachments/Pasted%20image%2020250705163500.png)
+

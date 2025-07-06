@@ -10,6 +10,7 @@ O nome "coaxial" significa "com o mesmo eixo". Ele é formado por quatro camadas
 4. **Capa Externa:** Uma camada de plástico protetora que envolve todo o conjunto.
 
    ![300](../../attachments/Pasted%20image%2020250703195325.png)
+
 ---
 ### **2. Vantagens e desvantagens**
 

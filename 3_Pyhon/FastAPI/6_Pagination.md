@@ -8,3 +8,4 @@
 **Usando em rotas** 
 
 ![Pasted image 20250610153229](../../attachments/Pasted%20image%2020250610153229.png)
+

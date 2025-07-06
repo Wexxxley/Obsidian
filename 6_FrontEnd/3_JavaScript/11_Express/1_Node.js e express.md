@@ -17,3 +17,4 @@ Seu objetivo é **simplificar e organizar a criação de APIs**. O Express forne
 Na imagem vemos uma estrutura padrão de uma API usando express.
 
 ![](../../../attachments/Pasted%20image%2020250706073714.png)
+

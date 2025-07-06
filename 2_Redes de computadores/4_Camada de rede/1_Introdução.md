@@ -21,3 +21,4 @@ O papel da camada de rede é transportar pacotes de um hospedeiro remetente a um
 Cada roteador tem uma **tabela de repasse**. Um roteador repassa um pacote examinando o destino do pacote. O resultado indica para qual das interfaces de enlace do roteador o pacote deve ser repassado.
 
 ![Pasted image 20250522195536](../../attachments/Pasted%20image%2020250522195536.png)
+

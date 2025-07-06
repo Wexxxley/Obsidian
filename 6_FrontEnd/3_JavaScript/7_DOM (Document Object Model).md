@@ -44,3 +44,4 @@ Queremos que algo aconteça quando o usuário clicar no botão "Adicionar". Para
 7. **`.remove()`**: Deletamos um elemento da página de forma interativa.
 
 ![](../../attachments/Pasted%20image%2020250705153959.png)
+

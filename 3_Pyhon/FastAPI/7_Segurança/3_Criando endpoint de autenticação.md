@@ -33,3 +33,4 @@ Nesse ponto, criaremos uma função `get_current_user` que será responsável 
 Finalmente protegendo uma rota.
 
 ![Pasted image 20250626163831](../../../attachments/Pasted%20image%2020250626163831.png)
+

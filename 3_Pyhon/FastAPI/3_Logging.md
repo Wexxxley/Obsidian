@@ -29,3 +29,4 @@ Nas classes de rota
 ![Pasted image 20250610151326](../../attachments/Pasted%20image%2020250610151326.png)
 
 ![Pasted image 20250610151353](../../attachments/Pasted%20image%2020250610151353.png)
+

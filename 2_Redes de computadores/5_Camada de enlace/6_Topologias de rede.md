@@ -6,6 +6,7 @@
 - Broadcast.
 
 ![Pasted image 20250701164558](../../attachments/Pasted%20image%2020250701164558.png)
+
 ### **Topologia estrela**
 - Possui um elemento central (hub ou switch) e todos os nós estão conectados a ele.
 - Fonte única de falha.

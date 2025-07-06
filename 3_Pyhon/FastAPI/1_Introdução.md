@@ -17,11 +17,13 @@ Como criar um ambiente virtual
 2. Crie o ambiente virtual.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfuMzGwoZtrxvhK2r5oIZsMlegP2guU4z8rD6kM84HAXdO24wAPevn17CBP5fK8otOMDdXp26aPC4YK-kWsBvtxiZUjw2rIlc7VJDs5gk71fACeAmrw2gAY4jV6AiGMsDpyrQu-bA?key=jnfZcvbkf1zKPUZCAbeT6ysv)
+
 - -m venv: módulo para criar ambiente virtual.
 - fastapienv: nome da pasta que vai conter o ambiente.
 1. Ative o ambiente virtual: venv\Scripts\activate
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXenRIORk2DV0j6yATu8_aS3ozPd5_ZIvs9MhHDNt1-k1sob4vx2sSwM_8ki4Rfd4j5Qdsy5D4W6UtNzGuCTmyBb0sCE62M7So1n-CagJbLXkUVtsmqckaSaXOQS59IXfZt_CQhlig?key=jnfZcvbkf1zKPUZCAbeT6ysv)
+
 Os pacotes instalados com pip vão para dentro do ambiente virtual, e não para o ambiente global.
 
 **Instalando as dependências necessárias**
@@ -29,6 +31,7 @@ Os pacotes instalados com pip vão para dentro do ambiente virtual, e não para 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfYWqrxxvBno-GwkVwKYfDHcgI27Z6tzgzMqa3tCc6S_YZq8Zs0gbuFCKNkjkXzzpEr-RQIXsFkmsmTuU2QmGSeSbrqP4s8Q1kOtR3Vr1lVmxu4t6CNE6TADo9U8Yfdqy9NiIAWiw?key=jnfZcvbkf1zKPUZCAbeT6ysv)
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfLOduxjHbWwqfVTZU_fWZlmM_SqO4YiRcNrJQXQ9hEsNKKa3zT22RaZ_ONvucylsIEEopqdKBxfzMLIotdmqzPGwGnHDTPtaO9BmyZl_K2vaM7eruV0Rp2lbwPTUIEwQIjE9ndWA?key=jnfZcvbkf1zKPUZCAbeT6ysv)
+
 uvicorn é um servidor web leve utilizado para aplicações web.
 
 ___
@@ -43,6 +46,7 @@ ___
 **Query parameters**: Quando você não especifica um parâmetro na rota e requisita mais parâmetros na função, os valores são passados pela query de pesquisa.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdqIhdF9Kmq1_W0d9D2lfPLzRPMjmUcJjRuL32EaHOcuAayLLnnJZ2qazJt6RPQMPyvrsOJXsQDID2wIcgIQaWMNzgr7DInJBCFlp2QOwznTs-AsauoWEyfnkm_EyHK6HYzTFm67w?key=jnfZcvbkf1zKPUZCAbeT6ysv)
+
 -Casefold: é basicamente o lower mais abrangente.
 
 ---
@@ -57,9 +61,11 @@ ___
 - Ajude a construir a documentação da API
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfeh3KwBQxfdz3GX51h3ZHR-rgkCLmXT7kD5QzZpeKt-HkZneS5_g_Tqekpq54xGgybAKNuFkzrV6N_LBJX-HOJ6nxT1A1udUglb8h9yjyUTVaOybJMBPOuW2tZKbeyksvA7vB5?key=jnfZcvbkf1zKPUZCAbeT6ysv)
+
 Update
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeeHvJtN9FPIgSBE0uric4hkSGJT748UfLrGf8qoTm4l6Nxe57uT8JkY98jQw4wCn0BXGVRxJdOtRtbFCHkwsURRHd3koYJa987J3uGnvXp3yXqzApkvPJPCwoBbpwmrz725WyG-Q?key=jnfZcvbkf1zKPUZCAbeT6ysv)
+
 Delete
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXevwfj_ZBQHNK2a_Kn4AZi1VW0oNEGHYwt5ml008zVVkS0eLTwBbtuHAMDU6e4UDG2gASXrzszSanxSy9UQXyWYaENufX_J9o73XHUdi2g5U3I36Ge03UOzaccRhhhx_nknabWq?key=jnfZcvbkf1zKPUZCAbeT6ysv)
