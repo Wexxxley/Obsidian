@@ -1,6 +1,3 @@
-Status: #Draft
-
-Tags: #Git #Github
 
 ---
 # **1. Introdução**
