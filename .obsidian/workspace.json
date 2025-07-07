@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_Inglês/6_Simple past.md",
+                "file": "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6_Simple past"
+              "title": "5_Callback and promisse"
             }
           }
         ]
@@ -193,18 +193,21 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
-    "1_Inglês/4_Indefinite article.md",
+    "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
+    "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
+    "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
+    "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
+    "6_FrontEnd/3_JavaScript/1_Introdução.md",
     "1_Inglês/6_Simple past.md",
+    "1_Inglês/4_Indefinite article.md",
     "1_Inglês/5_Simple present.md",
     "1_Inglês/2_Subject pronouns.md",
     "1_Inglês/3_Demonstrative pronouns.md",
     "1_Inglês/1_Verb to be.md",
     "6_FrontEnd/3_JavaScript/10_Multiplos estilos com um clique.md",
-    "6_FrontEnd/3_JavaScript/1_Introdução.md",
     "6_FrontEnd/3_JavaScript/9_Acessando API Própria.md",
     "attachments/Pasted image 20250624073206.png",
     "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
-    "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
     "6_FrontEnd/3_JavaScript/4_Arrays.md",
     "6_FrontEnd/3_JavaScript/11_Express/2_Criando uma API simples.md",
     "6_FrontEnd/3_JavaScript/11_Express/3_Criando rotas.md",
@@ -218,15 +221,12 @@
     "attachments/Pasted image 20250706102419.png",
     "attachments/Pasted image 20250706102345.png",
     "attachments/Pasted image 20250706102159.png",
-    "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "6_FrontEnd/3_JavaScript/11_Express/4_Configurações finais.md",
     "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
     "6_FrontEnd/3_JavaScript/11_Express/1_Node.js e express.md",
     "6_FrontEnd/3_JavaScript/11_Express",
     "7_Git and github/Branch.md",
     "7_Git and github/Git and github.md",
-    "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
-    "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
     "6_FrontEnd/3_JavaScript/10_Acessando apis/2_Acessando professores.md",
     "6_FrontEnd/3_JavaScript/8_Promisse.md",
     "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
