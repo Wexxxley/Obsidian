@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7_Git and github/Git and github.md",
+                "file": "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git and github"
+              "title": "7_DOM (Document Object Model)"
             }
           }
         ]
@@ -193,6 +193,7 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "7_Git and github/Git and github.md",
     "7_Git and github/Branch.md",
     "6_FrontEnd/3_JavaScript/4_Arrays.md",
     "6_FrontEnd/2_CSS/2_Box model.md",
@@ -228,7 +229,6 @@
     "attachments/Pasted image 20250706102345.png",
     "attachments/Pasted image 20250706102159.png",
     "6_FrontEnd/3_JavaScript/11_Express/4_Configurações finais.md",
-    "6_FrontEnd/3_JavaScript/11_Express/1_Node.js e express.md",
     "6_FrontEnd/3_JavaScript/11_Express",
     "Sem título.canvas",
     "2_Redes de computadores/6_Camada Física",
