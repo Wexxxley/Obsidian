@@ -8,13 +8,12 @@ DOM é uma árvore de toda a sua página HTML.
 ![550](../../attachments/Pasted%20image%2020250705152711.png)
 
 ---
-### **2. O Projeto Prático: Uma Lista de Tarefas Simples**
+### **2. Projeto Prático: Uma Lista de Tarefas Simples**
 
 ![](../../attachments/Pasted%20image%2020250705154046.png)
 
 O processo de manipulação do DOM quase sempre segue 3 passos:
-
-1. **Selecionar** o elemento que você quer manipular.
+1. **Selecionar** o elemento. Com `querySelector()` ou `getElementById()`.
 2. **Manipular** o elemento ou **escutar** um evento (como um clique).
 3. **Adicionar ou Remover** elementos da página.
 #### **2.1 Selecionar elementos 
@@ -23,7 +22,6 @@ O processo de manipulação do DOM quase sempre segue 3 passos:
 
 - `document.getElementById()`: Forma mais rápida de pegar um elemento que possui um `id`.
 #### **2.2: Responder a um Evento**
-
 Queremos que algo aconteça quando o usuário clicar no botão "Adicionar". Para isso, usamos um "ouvinte de evento" (`EventListener`).
 
 ![](../../attachments/Pasted%20image%2020250705154907.png)
