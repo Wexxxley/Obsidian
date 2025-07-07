@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
+                "file": "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Callback and promisse"
+              "title": "6_Async await e fetch"
             }
           }
         ]
@@ -193,11 +193,12 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
+    "6_FrontEnd/3_JavaScript/4_Arrays.md",
+    "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
     "6_FrontEnd/3_JavaScript/9_Acessando API Própria.md",
     "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
-    "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
-    "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
     "6_FrontEnd/3_JavaScript/1_Introdução.md",
     "1_Inglês/6_Simple past.md",
@@ -209,7 +210,6 @@
     "6_FrontEnd/3_JavaScript/10_Multiplos estilos com um clique.md",
     "attachments/Pasted image 20250624073206.png",
     "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
-    "6_FrontEnd/3_JavaScript/4_Arrays.md",
     "6_FrontEnd/3_JavaScript/11_Express/2_Criando uma API simples.md",
     "6_FrontEnd/3_JavaScript/11_Express/3_Criando rotas.md",
     "6_FrontEnd/3_JavaScript/11_Express/5_Consumindo API.md",
