@@ -13,7 +13,7 @@
 4. **`listItem.textContent`**: Define o conteúdo de texto do elemento. Com esse atributo somente texto literal é colocado. Diferente do innerHtml que pode criar tags. 
 5. **`usersList.appendChild(listItem)`**: Adiciona o `listItem` como um **filho** de `usersList`.
 ---
-### **2. Criar recurso com formulário (API espera um JSON)**
+### **2. Criar recurso com formulário**
 
 ![Pasted image 20250624074302](../../../attachments/Pasted%20image%2020250624074302.png)
 
