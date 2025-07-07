@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/9_Consumindo API Própria.md",
+                "file": "6_FrontEnd/3_JavaScript/11_Express/3_Criando rotas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9_Consumindo API Própria"
+              "title": "3_Criando rotas"
             }
           }
         ]
@@ -193,8 +193,10 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
-    "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
+    "6_FrontEnd/3_JavaScript/11_Express/2_Criando uma API simples.md",
+    "6_FrontEnd/3_JavaScript/11_Express/1_Node.js e express.md",
     "6_FrontEnd/3_JavaScript/9_Consumindo API Própria.md",
+    "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
     "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
     "7_Git and github/Git and github.md",
     "7_Git and github/Branch.md",
@@ -216,7 +218,6 @@
     "1_Inglês/1_Verb to be.md",
     "6_FrontEnd/3_JavaScript/10_Multiplos estilos com um clique.md",
     "attachments/Pasted image 20250624073206.png",
-    "6_FrontEnd/3_JavaScript/11_Express/2_Criando uma API simples.md",
     "6_FrontEnd/3_JavaScript/11_Express/3_Criando rotas.md",
     "6_FrontEnd/3_JavaScript/11_Express/5_Consumindo API.md",
     "attachments/Pasted image 20250706103305.png",
@@ -228,7 +229,6 @@
     "attachments/Pasted image 20250706102419.png",
     "attachments/Pasted image 20250706102345.png",
     "attachments/Pasted image 20250706102159.png",
-    "6_FrontEnd/3_JavaScript/11_Express/4_Configurações finais.md",
     "6_FrontEnd/3_JavaScript/11_Express",
     "Sem título.canvas",
     "2_Redes de computadores/6_Camada Física",
