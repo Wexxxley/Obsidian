@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/2_CSS/2_Box model.md",
+                "file": "6_FrontEnd/3_JavaScript/4_Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Box model"
+              "title": "4_Arrays"
             }
           }
         ]
@@ -193,9 +193,9 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "6_FrontEnd/2_CSS/2_Box model.md",
     "6_FrontEnd/1_HTML/1_Html básico.md",
     "6_FrontEnd/2_CSS/1_CSS introdução.md",
-    "6_FrontEnd/2_CSS/2_Box model.md",
     "6_FrontEnd/2_CSS/3_Formulário.md",
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
