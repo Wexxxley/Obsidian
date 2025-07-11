@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_Redes de computadores/6_Camada Física/7_Política do Espectro Eletromagnético.md",
+                "file": "2_Redes de computadores/6_Camada Física/8_Rádio transmissão.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_Política do Espectro Eletromagnético"
+              "title": "8_Rádio transmissão"
             }
           }
         ]
@@ -193,8 +193,11 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
-    "2_Redes de computadores/6_Camada Física/6_Repetidor vs amplificador.md",
+    "attachments/Pasted image 20250711105422.png",
+    "attachments/Pasted image 20250711105357.png",
     "2_Redes de computadores/6_Camada Física/7_Política do Espectro Eletromagnético.md",
+    "2_Redes de computadores/6_Camada Física/8_Rádio transmissão.md",
+    "2_Redes de computadores/6_Camada Física/6_Repetidor vs amplificador.md",
     "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
     "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
     "2_Redes de computadores/6_Camada Física/3_Caixas conectores - Tomadas.md",
@@ -218,8 +221,6 @@
     "6_FrontEnd/2_CSS/1_CSS introdução.md",
     "6_FrontEnd/2_CSS/3_Formulário.md",
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
-    "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
-    "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "attachments/Pasted image 20250624073206.png",
     "attachments/Pasted image 20250706103305.png",
     "attachments/Pasted image 20250706103249.png",
@@ -229,7 +230,6 @@
     "attachments/Pasted image 20250706102635.png",
     "attachments/Pasted image 20250706102419.png",
     "attachments/Pasted image 20250706102345.png",
-    "attachments/Pasted image 20250706102159.png",
     "6_FrontEnd/3_JavaScript/11_Express",
     "Sem título.canvas",
     "2_Redes de computadores/6_Camada Física",
