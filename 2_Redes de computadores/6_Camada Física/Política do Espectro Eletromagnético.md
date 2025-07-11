@@ -1,13 +1,8 @@
 
 ---
 A **Política do Espectro Eletromagnético** é o conjunto de regras e acordos que governam o uso das ondas de rádio para comunicação.
-### 1. A Necessidade de Acordos
 
-- **"Para evitar o caos, são feitos acordos sobre o uso das frequências..."**
-    
-    - **Explicação:** O espectro eletromagnético é um recurso natural limitado. Imagine que ele é como uma grande avenida com várias faixas. Se todos os veículos (sinais de rádio, TV, celular, etc.) tentassem usar a mesma faixa ao mesmo tempo, haveria uma colisão e um congestionamento massivo (interferência). Nenhuma comunicação funcionaria corretamente.
-        
-    - Para organizar esse "tráfego", são criadas regras que definem qual tipo de serviço pode usar qual "faixa" (frequência). Isso garante que o sinal da sua rádio FM não interfira na sua chamada de celular, e que as comunicações da polícia e dos militares sejam seguras e livres de interferência.
+O espectro eletromagnético é um recurso limitado. Para organizar o "tráfego" de informações, são criadas regras que definem qual tipo de serviço pode usar qual "faixa" (frequência). Isso garante que o sinal da sua rádio FM não interfira na sua chamada de celular, e que as comunicações da polícia e dos militares sejam seguras e livres de interferência.
         
 
 ### 2. Órgãos Reguladores
