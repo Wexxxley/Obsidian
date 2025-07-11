@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4_Algorítmos e Estruturas de dados/Grafos/1_Introdução a grafos.md",
+                "file": "2_Redes de computadores/6_Camada Física/6_Repetidor vs amplificador.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Introdução a grafos"
+              "title": "6_Repetidor vs amplificador"
             }
           }
         ]
@@ -193,8 +193,14 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
-    "9_Compiladores/1_BackEnd.md",
+    "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
+    "2_Redes de computadores/6_Camada Física/6_Repetidor vs amplificador.md",
+    "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
+    "2_Redes de computadores/6_Camada Física/3_Caixas conectores - Tomadas.md",
+    "2_Redes de computadores/6_Camada Física/2_Par trançado confecção.md",
+    "2_Redes de computadores/6_Camada Física/1_Par trançado.md",
     "4_Algorítmos e Estruturas de dados/Grafos/1_Introdução a grafos.md",
+    "9_Compiladores/1_BackEnd.md",
     "9_Compiladores",
     "6_FrontEnd/3_JavaScript/11_Express/4_Configurações finais.md",
     "6_FrontEnd/3_JavaScript/11_Express/3_Criando rotas.md",
@@ -214,12 +220,6 @@
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
     "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
-    "6_FrontEnd/3_JavaScript/1_Introdução.md",
-    "1_Inglês/6_Simple past.md",
-    "1_Inglês/4_Indefinite article.md",
-    "1_Inglês/5_Simple present.md",
-    "1_Inglês/2_Subject pronouns.md",
-    "1_Inglês/3_Demonstrative pronouns.md",
     "attachments/Pasted image 20250624073206.png",
     "attachments/Pasted image 20250706103305.png",
     "attachments/Pasted image 20250706103249.png",
