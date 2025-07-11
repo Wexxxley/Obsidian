@@ -1,5 +1,4 @@
 
-
 ---
 - **Podem percorrer longas distâncias:** As ondas de rádio são uma forma eficaz de enviar informação por quilômetros, dependendo da frequência e da potência utilizada.
 - **Podem atravessar prédios:** Diferente de outras tecnologias sem fio, o rádio consegue penetrar paredes e obstáculos, o que o torna ideal para comunicações dentro e fora de edifícios.
