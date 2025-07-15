@@ -22,7 +22,3 @@ Note que Boleto cria uma implementação de enviar Email, mas e se a lógica de 
 ![250](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfSv2LXaBDjDKZ_dI67WyjOaIPaCBmCIrp4lR3MH7naxNqQnnrfxaCwO607b_FB1KMcZ-5v45KNAED-mWtp6qqpoi1UA98nWTPylGzHtgvMrMqM5YS5FW5ZAqqHM9y8AOqqiCoh2A?key=VJjD-GQ4BeMLFSL3weHQfxOz)
 Agora, boleto depende de uma classe email para gerar emails. Boleto não precisa mais se preocupar em como gerar email, essa responsabilidade ficou a serviço de outra classe.
 
-
-Se uma classe tem mais de uma responsabilidade, as responsabilidades se tornam acopladas. Mudanças em uma responsabilidade podem prejudicar a capacidade da classe de cumprir as outras. Outra forma de entender SRP é: uma classe tem que se preocupar em responder somente a um grupo de atores.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeAoCKuGPHogBt1apdpuTXAwh2qLXLp6LihsRS3I3zjo7r4e5v-PcR8RHFNFDXZLJv-8Julf-DVHadYVVuXS-5Nwv0xoNX17Adi9twtzvosUAa4oVNV5HMzj2B95kt4msGU9YY3fQ?key=VJjD-GQ4BeMLFSL3weHQfxOz)
