@@ -13,5 +13,5 @@
 
 ![](attachments/Pasted%20image%2020250716190938.png)
 
-![](attachments/Pasted%20image%2020250716191027.png)
+![500](attachments/Pasted%20image%2020250716191027.png)
 
