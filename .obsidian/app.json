@@ -3,7 +3,7 @@
   "showLineNumber": false,
   "newFileLocation": "root",
   "newFileFolderPath": "img",
-  "newLinkFormat": "relative",
+  "newLinkFormat": "absolute",
   "attachmentFolderPath": "attachments",
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": true

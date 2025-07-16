@@ -20,3 +20,5 @@ Object Calisthenics é um conjunto de 9 regras de programação. O objetivo não
 
 	![550](../../attachments/Pasted%20image%2020250716082649.png)
 
+![](attachments/img-20250716085656.png)
+
