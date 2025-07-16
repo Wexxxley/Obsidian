@@ -26,3 +26,6 @@
     - Evite expor o estado interno de um objeto através de métodos `get` e `set`.
     - **Por quê?** Esta regra promove o princípio **"Tell, Don't Ask"** (Mande, Não Pergunte). Em vez de pegar dados de um objeto para tomar uma decisão fora dele, você deve mandar uma mensagem para o objeto e deixá-lo tomar a decisão internamente com seus próprios dados. Isso é encapsulamento de verdade.
 ![](attachments/img-20250716085656.png)
+
+
+![](attachments/img-20250716085829.png)
