@@ -1,33 +1,6 @@
 
 
 ---
-**Objetivo:** Internalizar os princípios S.O.L.I.D. e as principais regras de código limpo para melhorar a qualidade e a manutenção do seu código orientado a objetos.
-
-#### **Semana 1: Fundamentos e Responsabilidade Única (S)**
-
-- **Meta da Semana:** Entender por que princípios são importantes e dominar o Princípio da Responsabilidade Única (SRP).
-    
-- **Segunda-feira:**
-    
-    - **Teoria:** Assista a vídeos ou leia artigos sobre a importância dos princípios de design de software. Foque em entender o "porquê" antes do "como". Pesquise por "SOLID principles introduction".
-        
-    - **Prática:** Pegue um projeto antigo seu (da faculdade, por exemplo) e apenas analise. Tente identificar classes que fazem "coisas demais". Anote suas observações.
-        
-- **Quarta-feira:**
-    
-    - **Teoria:** Foco total no **Princípio da Responsabilidade Única (SRP)**. Estude a definição: "Uma classe deve ter apenas um motivo para mudar".
-        
-    - **Prática:** Volte ao projeto que você analisou. Escolha uma classe que viola o SRP e refatore-a, dividindo-a em classes menores e mais coesas. Não se preocupe em deixar perfeito, o objetivo é exercitar.
-        
-- **Sexta-feira:**
-    
-    - **Teoria:** Revise o SRP. Pesquise exemplos práticos de violação e correção deste princípio em sua linguagem de programação preferida.
-        
-    - **Prática:** Comece um "kata" (exercício de programação) simples do zero, como um sistema para calcular o preço de um pedido com desconto. Desde o início, pense: "Qual a única responsabilidade de cada classe que estou criando?".
-        
-
----
-
 #### **Semana 2: Aberto/Fechado (O) e Substituição de Liskov (L)**
 
 - **Meta da Semana:** Aprender a estender o comportamento do software sem modificar o código existente.

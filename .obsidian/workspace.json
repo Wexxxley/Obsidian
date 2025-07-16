@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8_POO/2_Single Responsibility Principle.md",
+                "file": "8_POO/Object Calisthenics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Single Responsibility Principle"
+              "title": "Object Calisthenics"
             }
           }
         ]
@@ -193,12 +193,13 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "8_POO/How to study POO.md",
+    "8_POO/Object Calisthenics.md",
+    "8_POO/2_Single Responsibility Principle.md",
     "4_Algorítmos e Estruturas de dados/Tabela Hash/1_Tabela de hashing.md",
     "4_Algorítmos e Estruturas de dados/Tabela Hash/2_Função de hash.md",
-    "8_POO/2_Single Responsibility Principle.md",
     "4_Algorítmos e Estruturas de dados/Tabela Hash",
     "8_POO/1_SOLID.md",
-    "8_POO/How to study POO.md",
     "9_Aleatórios/Como funciona.md",
     "2_Redes de computadores/6_Camada Física/9_Microondas.md",
     "8_POO",
@@ -224,7 +225,6 @@
     "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
     "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
     "7_Git and github/Git and github.md",
-    "7_Git and github/Branch.md",
     "attachments/Pasted image 20250624073206.png",
     "attachments/Pasted image 20250706103305.png",
     "attachments/Pasted image 20250706103249.png",
