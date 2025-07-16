@@ -3,7 +3,8 @@
 
 ---
 
-![](attachments/img-20250716090042.png)
+
+![](attachments/Pasted%20image%2020250716090210.png)
 
 **SOLID** é um acrônimo (sigla formada pelas primeiras letras) para cinco princípios de design de software que ajudam a criar código compreensível, flexível e fácil de manter.
 
