@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8_POO/Object Calisthenics 1.md",
+                "file": "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Object Calisthenics 1"
+              "title": "6_Async await e fetch"
             }
           }
         ]
@@ -193,14 +193,14 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
-    "8_POO/Object Calisthenics 2.md",
     "8_POO/Object Calisthenics 1.md",
+    "8_POO/Object Calisthenics 2.md",
+    "8_POO/2_Single Responsibility Principle.md",
     "attachments/Pasted image 20250716082649.png",
     "attachments/Pasted image 20250716080822.png",
     "attachments/Pasted image 20250716080732.png",
     "attachments/Pasted image 20250716080720.png",
     "8_POO/How to study POO.md",
-    "8_POO/2_Single Responsibility Principle.md",
     "4_Algorítmos e Estruturas de dados/Tabela Hash/1_Tabela de hashing.md",
     "4_Algorítmos e Estruturas de dados/Tabela Hash/2_Função de hash.md",
     "4_Algorítmos e Estruturas de dados/Tabela Hash",
