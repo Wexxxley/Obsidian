@@ -16,9 +16,12 @@ Faça a seguinte pergunta: **Qual é a responsabilidade da sua classe/componente
 **Quais os motivos para mudar a minha classe tem?**
 
 Se sua resposta inclui a palavra **“e”**, você está quebrando o princípio da responsabilidade única. 
+
 ![250](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfY2nblZzX-fYC0vAAwPmxoVgsFci1E6fhnbtqfqJAIAOKjW1RdB0MntHvSgaOq1wmn8udnvz4oKRxqr_UQeo5kRWNzfq4VAwrog5Vud31Qx0FFlv20fgRd17Z_80mpuJ4NLut7?key=VJjD-GQ4BeMLFSL3weHQfxOz)
+
 Note que Boleto cria uma implementação de enviar Email, mas e se a lógica de enviar email  mudar?
 
 ![250](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfSv2LXaBDjDKZ_dI67WyjOaIPaCBmCIrp4lR3MH7naxNqQnnrfxaCwO607b_FB1KMcZ-5v45KNAED-mWtp6qqpoi1UA98nWTPylGzHtgvMrMqM5YS5FW5ZAqqHM9y8AOqqiCoh2A?key=VJjD-GQ4BeMLFSL3weHQfxOz)
+
 Agora, boleto depende de uma classe email para gerar emails. Boleto não precisa mais se preocupar em como gerar email, essa responsabilidade ficou a serviço de outra classe.
 
