@@ -8,8 +8,7 @@
 
 ![250](../../attachments/Pasted%20image%2020250711105357.png) ![250](../../attachments/Pasted%20image%2020250711105422.png)
 
-
 2. **Direcional:** Foca o sinal em uma única direção. Exige **alinhamento** preciso entre o transmissor e o receptor, mas oferece maior **segurança** e maior alcance naquela direção.
-	![250](../../attachments/Pasted%20image%2020250711105505.png)
 
+	![250](../../attachments/Pasted%20image%2020250711105505.png)
 
