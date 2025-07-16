@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
  Muitas aplicações exigem um conjunto que suporte somente as operações de INSERT, SEARCH e DELETE.  Embora a busca por um elemento em uma tabela hash possa demorar O(n) no pior caso, na prática o hashing funciona extremamente bem. Sob premissas razoáveis, o tempo médio para pesquisar um elemento é O(1).

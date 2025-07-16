@@ -33,14 +33,34 @@ Pelo tamanho M da tabela hash.  g(x) = x mod M
 
 #### **2.1 Encadeamento exterior**
 Nessa técnica, em vez de armazenar um único valor em cada posição da tabela, cada posição armazena uma lista encadeada.
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXebIWiz9PeHkkHpmvbWjedu2ZNgQwHNU34qldJ46mFVB6vAcC-EgTSUnVkozSHSUx1256o5X9o8EveWFjdxVPhX6zFn1_daJWMssPOt_Xyrve2tbW2ON93dDPXg5OdCfi9l2Ybmwg?key=VJjD-GQ4BeMLFSL3weHQfxOz)
+![600](https://lh7-rt.googleusercontent.com/docsz/AD_4nXebIWiz9PeHkkHpmvbWjedu2ZNgQwHNU34qldJ46mFVB6vAcC-EgTSUnVkozSHSUx1256o5X9o8EveWFjdxVPhX6zFn1_daJWMssPOt_Xyrve2tbW2ON93dDPXg5OdCfi9l2Ybmwg?key=VJjD-GQ4BeMLFSL3weHQfxOz)
 
 #### **2.2 Sondagem linear**
 Quando uma colisão ocorre, a sondagem linear busca uma posição vazia para armazenar o novo valor, verificando as posições subsequentes da tabela. Caso a posição alvo esteja ocupada, o algoritmo "avança" para a próxima posição, até encontrar um espaço livre.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdZXhACeae1QJAjL6U262J90iD0GvlYbKlUovE-4LBy-6V6oQi5C1MOzG5Zynczb4YXc2q62EHeW-zXw3z2ciqc2JrkEwyFkcMA9BaxNXHRnHAz4FvFAHEPT-ZRyzWJ3_LEHxE9?key=VJjD-GQ4BeMLFSL3weHQfxOz)
+![600](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdZXhACeae1QJAjL6U262J90iD0GvlYbKlUovE-4LBy-6V6oQi5C1MOzG5Zynczb4YXc2q62EHeW-zXw3z2ciqc2JrkEwyFkcMA9BaxNXHRnHAz4FvFAHEPT-ZRyzWJ3_LEHxE9?key=VJjD-GQ4BeMLFSL3weHQfxOz)
 
 A sondagem linear é o mais rápido se a tabela for esparsa. Já o encadeamento exterior é mais fácil de implementar, mas usa memória a mais para os ponteiros.
 
-
-### 3. 
+---
+### **3. Quando usar e nao usar tabela hash**
+Tabelas hash são ideais quando você precisa de desempenho rápido em operações de inserção, busca e remoção, mas sem a necessidade de manter os dados ordenados.
+#### **1. Mapeamentos**
+Qualquer situação onde você precisa "mapear" uma informação para outra.
+- **Cenário:** Você tem a sigla de um estado e precisa do nome completo. Ou você tem um código de produto e precisa do seu preço.
+    - **Chave:** `"CE"`.
+    - **Valor:** `"Ceará"`.
+#### **3. Contagem de Frequência de Itens**
+Quando você precisa contar quantas vezes cada item aparece em uma coleção de dados.
+- **Cenário:** Contar a frequência de cada palavra em um livro ou contar o número de votos para cada candidato em uma eleição.
+- **Como funciona:** Você percorre a lista de itens. Para cada item:
+    1. Verifica se ele já existe como chave na tabela hash.
+    2. Se sim, incrementa o valor (o contador).
+    3. Se não, adiciona o item como uma nova chave com o valor 1.
+#### **3. Verificação de Itens Únicos (Implementando um "Set")**
+Quando você precisa garantir que não há duplicatas em uma coleção. A estrutura de dados `Set` é, por baixo dos panos, uma tabela hash.
+- **Cenário:** Você recebe uma lista com 1 milhão de e-mails e precisa gerar uma nova lista contendo apenas os e-mails únicos.
+	- Você cria uma tabela hash/set. Para cada e-mail da lista original, você tenta adicioná-lo ao `Set`. A própria estrutura da tabela hash garante que duplicatas serão ignoradas.
+#### **4. Quando NÃO usar uma Tabela Hash?**
+1. **Quando a ordem dos elementos é importante**
+2. **Quando você precisa de buscas por proximidade** 
+3. **Quando o consumo de memória é extremamente crítico:** Tabelas hash podem usar mais memória do que um simples array, pois precisam de espaço extra para evitar colisões.
