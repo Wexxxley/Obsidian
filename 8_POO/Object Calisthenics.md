@@ -6,12 +6,9 @@ Object Calisthenics é um conjunto de 9 regras de programação. O objetivo não
 1. **Use apenas um nível de indentação por método**
     - **Por quê?** Força a extração de lógica complexa para novos métodos menores e com nomes claros. Isso resulta em funções focadas e mais fáceis de ler.
 
-2. **Não use a palavra-chave `else`**
-    
-    - **O que significa:** Evite completamente o uso de `else`.
-        
-    - **Por quê?** Incentiva o uso de padrões como _early returns_ (retornos antecipados ou _guard clauses_), polimorfismo ou objetos de estratégia. O código resultante geralmente é mais linear e direto ao ponto.
-        
+2. **Evite a palavra-chave `else`**
+    - **Por quê?** Incentiva o uso de padrões como **_early returns_** (retornos antecipados), polimorfismo ou objetos de estratégia. O código resultante geralmente é mais linear e direto ao ponto.
+![](../attachments/Pasted%20image%2020250716080720.png)
 3. **Encapsule todos os tipos primitivos (e Strings)**
     
     - **O que significa:** Não passe tipos primitivos (como `int`, `String`, `double`) soltos pelo sistema. Envolva-os em classes.
