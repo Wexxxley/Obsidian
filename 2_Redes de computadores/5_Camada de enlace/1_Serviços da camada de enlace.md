@@ -27,11 +27,8 @@ Erros são comuns e podem ser causados por diversos fatores, como:
 - Quando um receptor detecta a presença de um erro em um quadro ele **avisa o transmissor para reenviar o quadro perdido ou corrompido**. 
 #### **5. Correção de Erros**  
 - Permite que o receptor **identifique e corrija os bits sem precisar pedir a retransmissão**. Isso é feito com o uso de **algoritmos de correção.** A correção de erros é mais complexa e adiciona mais sobrecarga aos dados. Os algoritmos adicionam **bits de redundância** (informação extra) aos dados originais. 
-####  **6. Half-duplex e Full-duplex**: 
-- **Simplex**: Acomunicação é **unidirecional**, ou seja, os dados fluem em apenas um sentido. Um dispositivo apenas envia e o outro apenas recebe. Exemplo:Transmissão de rádio: A estação transmite o sinal e os aparelhos apenas o recebem.
-- **Half-duplex**: Os dispositivos em ambas as extremidades do enlace **podem transmitir dados, mas não ao mesmo tempo**. 
-- **Full-duplex**: Os dispositivos em ambas as extremidades do enlace **podem transmitir e receber dados simultaneamente**. Isso é possível porque o enlace possui caminhos de transmissão e recepção separados, ou usa técnicas que permitem a simultaneidade.
-
+####  **6. Simplex, Half-duplex e Full-duplex**: 
+[7_Modos de transmissão de dados](2_Redes%20de%20computadores/1_Overview/7_Modos%20de%20transmissão%20de%20dados.md)
 
 
 
