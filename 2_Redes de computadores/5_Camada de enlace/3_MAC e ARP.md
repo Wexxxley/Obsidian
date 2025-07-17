@@ -65,9 +65,9 @@ Cada Nó IP (Host, Roteador) numa LAN tem um módulo e uma tabela ARP
 
 Máquina A (na Rede 1) Quer Falar com Máquina B (na Rede 2)
 
-1. **A cria o pacote IP com origem A, destino B.**
-    - A máquina A, ao verificar o endereço IP de destino, percebe que B _não está na mesma rede. 
-    - A cria um quadro com destino para seu  **gateway padrão**. 
+1. **A máquina A cria o pacote IP com destino B.**
+    - Ao verificar o endereço IP de destino, percebe que B não está na mesma rede. 
+    - A cria um quadro com destino para seu **gateway padrão**. 
 2. **O roteador recebe o quadro**        
     - O roteador verifica o endereço MAC de destino. Como é o seu próprio, ele aceita.
     - O roteador desencapsula o quadro. Ele agora tem o **datagrama IP.
