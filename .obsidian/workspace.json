@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_Redes de computadores/5_Camada de enlace/6_Hubs e Switches.md",
+                "file": "2_Redes de computadores/1_Overview/3_Comutadores.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6_Hubs e Switches"
+              "title": "3_Comutadores"
             }
           }
         ]
@@ -193,9 +193,19 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "2_Redes de computadores/4_Camada de rede/5_Fragmentação.md",
+    "2_Redes de computadores/4_Camada de rede/4_Enderaçamento IP.md",
+    "2_Redes de computadores/4_Camada de rede/3_IPv4.md",
+    "2_Redes de computadores/4_Camada de rede/2_Por dentro do roteador.md",
+    "2_Redes de computadores/4_Camada de rede/1_Introdução.md",
+    "2_Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
+    "2_Redes de computadores/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
+    "2_Redes de computadores/3_Camada de Transporte/3_ Socket e portas.md",
+    "2_Redes de computadores/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
+    "2_Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
+    "2_Redes de computadores/5_Camada de enlace/6_Hubs e Switches.md",
     "attachments/Pasted image 20250717181203.png",
     "2_Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
-    "2_Redes de computadores/5_Camada de enlace/6_Hubs e Switches.md",
     "2_Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
     "2_Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
     "5_Banco de dados/mongoDb/Modelagem.md",
@@ -211,15 +221,6 @@
     "2_Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
     "2_Redes de computadores/5_Camada de enlace/1_Serviços da camada de enlace.md",
     "2_Redes de computadores/1_Overview/8_Tipos de comunicação em redes de computadores.md",
-    "2_Redes de computadores/4_Camada de rede/4_Enderaçamento IP.md",
-    "2_Redes de computadores/4_Camada de rede/3_IPv4.md",
-    "2_Redes de computadores/4_Camada de rede/2_Por dentro do roteador.md",
-    "2_Redes de computadores/4_Camada de rede/1_Introdução.md",
-    "2_Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
-    "2_Redes de computadores/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
-    "2_Redes de computadores/3_Camada de Transporte/3_ Socket e portas.md",
-    "2_Redes de computadores/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
-    "2_Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
     "2_Redes de computadores/2_Camada Aplicação/7_DNS (Domain Name System).md",
     "2_Redes de computadores/2_Camada Aplicação/6_Correio eletrônico.md",
     "2_Redes de computadores/2_Camada Aplicação/5_FTP Protocolo de tranferência de arquivo.md",
@@ -230,7 +231,6 @@
     "attachments/Pasted image 20250716190547.png",
     "attachments/Pasted image 20250716090210.png",
     "attachments/img-20250716090042.png",
-    "attachments/img-20250716085829.png",
     "4_Algorítmos e Estruturas de dados/Tabela Hash",
     "8_POO",
     "9_Compiladores",
