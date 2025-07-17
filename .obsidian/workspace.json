@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5_Banco de dados/mongoDb/2_Relacionamentos.md",
+                "file": "5_Banco de dados/mongoDb/Modelagem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Relacionamentos"
+              "title": "Modelagem"
             }
           }
         ]
@@ -193,8 +193,10 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
-    "5_Banco de dados/mongoDb/1_Apresentação.md",
+    "Modelagem.pdf",
     "5_Banco de dados/mongoDb/2_Relacionamentos.md",
+    "5_Banco de dados/mongoDb/Modelagem.md",
+    "5_Banco de dados/mongoDb/1_Apresentação.md",
     "attachments/Pasted image 20250717141001.png",
     "attachments/Pasted image 20250717140911.png",
     "2_Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
@@ -220,8 +222,6 @@
     "2_Redes de computadores/2_Camada Aplicação/6_Correio eletrônico.md",
     "2_Redes de computadores/2_Camada Aplicação/5_FTP Protocolo de tranferência de arquivo.md",
     "2_Redes de computadores/2_Camada Aplicação/4_Proxy.md",
-    "2_Redes de computadores/2_Camada Aplicação/3_Http e cookies.md",
-    "2_Redes de computadores/2_Camada Aplicação/2_Requisitos de aplicações.md",
     "attachments/Pasted image 20250716192644.png",
     "attachments/Pasted image 20250716191953.png",
     "attachments/Pasted image 20250716191027.png",
