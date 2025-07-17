@@ -26,7 +26,7 @@ Para conectar um PC (MDI) a um Switch (MDI-X), precisamos que os pinos de transm
 
 ![400](../../attachments/Pasted%20image%2020250703185928.png)
 
-#### **2.1 Conexão PC para PC (Cabo Crossover)**
+#### **2.2 Conexão PC para PC (Cabo Crossover)**
 
 Se você tentar conectar dois PCs com um cabo direto, a comunicação falha. Ambos estariam tentando transmitir nos mesmos pinos (1 e 2) e receber nos mesmos pinos (3 e 6). 
 

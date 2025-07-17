@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_Redes de computadores/6_Camada Física/7_Política do Espectro Eletromagnético.md",
+                "file": "2_Redes de computadores/6_Camada Física/1_Par trançado.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_Política do Espectro Eletromagnético"
+              "title": "1_Par trançado"
             }
           }
         ]
@@ -193,10 +193,12 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
-    "2_Redes de computadores/6_Camada Física/6_Repetidor vs amplificador.md",
-    "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
-    "2_Redes de computadores/6_Camada Física/3_Caixas conectores - Tomadas.md",
     "2_Redes de computadores/6_Camada Física/2_Par trançado confecção.md",
+    "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
+    "2_Redes de computadores/6_Camada Física/10_Infravermelho.md",
+    "2_Redes de computadores/6_Camada Física/7_Política do Espectro Eletromagnético.md",
+    "2_Redes de computadores/6_Camada Física/6_Repetidor vs amplificador.md",
+    "2_Redes de computadores/6_Camada Física/3_Caixas conectores - Tomadas.md",
     "2_Redes de computadores/6_Camada Física/1_Par trançado.md",
     "2_Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
     "2_Redes de computadores/4_Camada de rede/11_Roteamento INTRA AS.md",
@@ -219,8 +221,6 @@
     "2_Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
     "2_Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
     "5_Banco de dados/mongoDb/Modelagem.md",
-    "5_Banco de dados/1_Início.md",
-    "5_Banco de dados/mongoDb/2_Relacionamentos.md",
     "attachments/Pasted image 20250717141001.png",
     "attachments/Pasted image 20250717140911.png",
     "5_Banco de dados/mongoDb",
