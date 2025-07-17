@@ -8,29 +8,71 @@ No MongoDB, os relacionamentos são geralmente gerenciados de duas formas princi
     - Nesse modelo, você armazena o `_id` de um documento em outro documento, criando uma "referência". É o equivalente a usar chaves estrangeiras em um banco de dados relacional.
     - **Quando usar:** É a melhor abordagem quando os dados relacionados são grandes, mudam com frequência, ou quando você precisa consultar os dados separadamente. 
     - **Consultas:** Para obter os dados completos, você precisará fazer duas consultas: uma para o livro e outra para o autor. O MongoDB possui operadores como `$lookup` (similar a um `JOIN` em SQL) para facilitar isso, mas é importante entender que ele funciona de forma diferente e pode ter implicações de performance em grandes volumes de dados.
-    
+	
+	```json
+	{
+	  "_id": ObjectId("..."),
+	  "name": "João Silva",
+	  "email": "joao.silva@example.com",
+	  "registration_date": ISODate("2023-01-15T10:00:00Z"),
+	  "phone_number": "5511987654321",
+	  "shipping_address": {
+	    "street": "Rua das Flores",
+	    "number": "123",
+	    "complement": "Apt 101",
+	    "neighborhood": "Centro",
+	    "city": "São Paulo",
+	    "state": "SP",
+	    "cep": "01000-000"
+	  }
+	}
+	```
+
+```json
+    {
+      "_id": ObjectId("..."),
+      "name": "Camiseta Personalizada",
+      "description": "Camiseta de algodão personalizável.",
+      "base_price": 49.90,
+      "category": "Vestuário", // Usar um Enum no código da aplicação
+      "variations": [
+        {
+          "sku": "TSHIRT-RED-M",
+          "attributes": {"color": "red", "size": "M"},
+          "additional_price": 0.00,
+          "stock": 100,
+          "image_urls": ["url_red_m_1.jpg", "url_red_m_2.jpg"]
+        },
+        {
+          "sku": "TSHIRT-BLUE-L",
+          "attributes": {"color": "blue", "size": "L"},
+          "additional_price": 5.00,
+          "stock": 50,
+          "image_urls": ["url_blue_l_1.jpg"]
+        }
+      ]
+    }
+    ```
+
 2. **Modelagem por Incorporação (Desnormalização):**
     - Nesse modelo, você incorpora um documento dentro de outro. Ou seja, você armazena os dados relacionados diretamente dentro do documento principal.
-        
-    - **Exemplo:** Em vez de ter uma coleção separada para "endereços", como no primeiro exemplo de documento, os endereços são incorporados diretamente no documento do "usuário".
-        
+    - **Exemplo:** Em vez de ter uma coleção separada para "endereços", os endereços são incorporados diretamente no documento do "usuário".
     - **Quando usar:** É a abordagem preferencial no MongoDB para dados que são frequentemente acessados juntos, que são pequenos, ou que não mudam independentemente do documento principal.
-        
-    - **Vantagens:** Recuperação de dados em uma única consulta, o que geralmente resulta em melhor performance para leitura.
-        
-    - **Desvantagens:** Pode levar à duplicação de dados se o mesmo dado incorporado precisar aparecer em múltiplos documentos (ex: um autor ter vários livros, e as informações completas do autor serem duplicadas em cada livro). Atualizações em dados incorporados podem ser mais complexas se eles aparecerem em muitos lugares.
-        
+    - **Desvantagens:** Pode levar à duplicação de dados se o mesmo dado incorporado precisar aparecer em múltiplos documentos.
 
----
+```json
 
-### É Comum Ter Relacionamentos no MongoDB?
-
-Sim, é **comum** ter relacionamentos no MongoDB. No entanto, a **escolha entre modelagem por referência e modelagem por incorporação** é uma decisão de design crucial e depende muito dos seus padrões de acesso aos dados, da frequência de leitura e escrita, e da natureza dos seus dados.
-
-Muitas vezes, uma aplicação MongoDB usa uma **combinação** de ambos os modelos de relacionamento para otimizar o desempenho e a flexibilidade.
-
-**A principal diferença é a mentalidade:** em bancos de dados relacionais, você sempre busca normalização para evitar duplicação de dados e garantir a integridade. No MongoDB, a **desnormalização (incorporação)** é frequentemente preferida para otimizar a performance de leitura, mesmo que isso signifique alguma duplicação de dados. A integridade dos dados é gerenciada pela lógica da sua aplicação, e não por chaves estrangeiras impostas pelo banco.
-
----
-
-Espero que esta introdução detalhada te ajude a entender melhor a organização e os relacionamentos no MongoDB! Qual seria o próximo tópico que você gostaria de explorar sobre este banco de dados?
+{
+  "_id": ObjectId("..."),
+  "name": "Black Friday",
+  "start_date": ISODate("2023-11-20T00:00:00Z"),
+  "end_date": ISODate("2023-11-30T23:59:59Z"),
+  "discount_type": "percentage", // Usar Enum
+  "discount_value": 0.20, // 20%
+  "applicable_products": [
+    ObjectId("product_id_1"),
+    ObjectId("product_id_2"),
+    ObjectId("product_id_3")
+  ]
+}
+```
