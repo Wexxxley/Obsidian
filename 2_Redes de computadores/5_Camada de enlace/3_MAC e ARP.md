@@ -1,8 +1,9 @@
 
----
+#Concluded 
 
+---
 ### **1. Endereço MAC/LAN/FÍSICO**
-- Usado para levar o datagrama de uma interface física a outra na mesma rede.
+- Usado para levar o datagrama de uma interface de rede a outra na mesma rede.
 - Endereços MAC tem 48 bits. Cada placa de rede no mundo possui seu proprio end físico e é gravado na memória fixa ROM do adaptador.
 - A alocação de endereços MAC é administrada pelo IEEE, os fabricantes podem comprar porções do espaço de endereço MAC. 
 - Endereçamento MAC possui **portabilidade**, ou seja, sua máquina pode ter o mesmo end MAC mesmo em redes diferentes. Para isso, não pode ter duas máquinas com o mesmo end físico.
@@ -10,10 +11,9 @@
 
 ---
 ### **2. ARP (Address Resolution Protocol)** 
-
 Protocolo usado para **descobrir o endereço MAC de um dispositivo a partir do endereço IP.**
 
-Imagine que seu computador (A) quer enviar um pacote de dados para outro computador (B) na mesma rede local. O dispositivo A sabe o **endereço IP** do Dispositivo B. No entanto, para que o pacote seja entregue, o dispositivo A precisa saber o **endereço MAC** do Dispositivo B.
+Imagine que seu computador A quer enviar um pacote de dados para outro computador B na mesma rede local. O dispositivo A sabe o **endereço IP** do Dispositivo B. No entanto, para que o pacote seja entregue, o dispositivo A precisa saber o **endereço MAC** do Dispositivo B.
 
 Cada Nó IP (Host, Roteador) numa LAN tem um módulo e uma tabela ARP
 
@@ -21,7 +21,7 @@ Cada Nó IP (Host, Roteador) numa LAN tem um módulo e uma tabela ARP
 - **Tabela ARP**: Cada nó mantém uma **Tabela ARP**. Que é uma lista de mapeamentos entre endereços IP e seus correspondentes endereços MAC.
 
 	![Pasted image 20250627115140](../../attachments/Pasted%20image%2020250627115140.png)
-
+	
 	- **`Time To Live)`**: O **Tempo de Vida** para aquela entrada na tabela, tipicamente 20 min.
 
 - **ARP Request - Broadcast**: Quando um dispositivo precisa descobrir um endereço MAC para um IP que não está em sua tabela, ele pergunta para _todos_ na rede local. 
