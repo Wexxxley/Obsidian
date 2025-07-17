@@ -3,7 +3,7 @@
 
 ---
 ### **Topologia em barramento**
-- Funciona em broadcast
+- Todos os dispositivos são conectados a um **único cabo principal**. Em cada extremidade do cabo, há um "terminador" para impedir que o sinal reflita . Quando um computador envia dados, o sinal viaja por todo o cabo e todos os outros computadores o recebem (broadcast), mas apenas o destinatário com o endereço correto processa a informação.
 - **Baixo Custo:** É a topologia mais barata e simples de instalar, pois utiliza uma quantidade mínima de cabo.
 - **Fácil Instalação:** Basta estender o cabo principal e conectar os dispositivos a ele.
 
@@ -29,30 +29,11 @@
 - Cada dispositivo é conectado diretamente a outros dois, formando um anel físico. Os dados viajam de nó em nó. Cada computador atua como um repetidor, recebendo o sinal, regenerando-o e passando-o para o próximo dispositivo até que ele chegue ao seu destino.
 - Os dados passam pelos máquinas mesmo que elas estejam desligadas.
 - Pode ter várias pontos de falho nos enlaces que ainda funciona de forma segmentada.
-- **Dificuldade na Manutenção:** Adicionar ou remover um dispositivo da rede exige que o anel seja aberto temporariamente, o que paralisa toda a comunicação.
+
+- **Dificuldade na Manutenção:** gerenciamento e manutenção mais complexos.
+- **Custo alto** se comparado ao barramento
 
 ![200](../../attachments/Pasted%20image%2020250701164839.png)
 
 
 
-
-- **Sem Colisões:** Em sua forma clássica (como Token Ring), o direito de transmitir é passado através de um "bastão" (_token_), eliminando colisões de dados e garantindo que cada dispositivo tenha uma oportunidade de transmitir.
-    
-- **Bom Desempenho sob Carga Pesada:** Por ser um sistema ordenado, pode manter um desempenho estável mesmo com muitos usuários transmitindo dados.
-    
-
-#### Desvantagens:
-
-    
-- **Latência:** A cada nó que o dado precisa passar, um pequeno atraso é adicionado. Em anéis muito grandes, a latência pode ser significativa.
-    
-
-### Tabela Comparativa Resumida
-
-| Característica     | Topologia em Estrela (Atual)                | Topologia em Barramento (Obsoleta)     | Topologia em Anel (Em Desuso)               |
-| ------------------ | ------------------------------------------- | -------------------------------------- | ------------------------------------------- |
-| **Funcionamento**  | Conexão a um ponto central (switch/hub)     | Conexão a um cabo principal (backbone) | Conexão em circuito fechado                 |
-| **Ponto de Falha** | Falha no dispositivo central derruba a rede | Falha no cabo principal derruba a rede | Falha em qualquer nó ou cabo derruba a rede |
-| **Desempenho**     | Alto, poucas colisões (com switch)          | Baixo, muitas colisões                 | Estável, sem colisões (com _token_)         |
-| **Instalação**     | Moderadamente complexa, mais cabos          | Simples, menos cabos                   | Complexa para modificar                     |
-| **Custo**          | Moderado                                    | Baixo                                  | Moderado                                    |
