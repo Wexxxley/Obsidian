@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_Redes de computadores/6_Camada Física/10_Infravermelho.md",
+                "file": "2_Redes de computadores/5_Camada de enlace/1_Serviços da camada de enlace.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10_Infravermelho"
+              "title": "1_Serviços da camada de enlace"
             }
           }
         ]
@@ -191,13 +191,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c05ca5264eb924b3",
+  "active": "0c52f17c64e87cbf",
   "lastOpenFiles": [
+    "2_Redes de computadores/6_Camada Física/10_Infravermelho.md",
     "attachments/Pasted image 20250716192644.png",
     "2_Redes de computadores/6_Camada Física/9_Microondas.md",
     "2_Redes de computadores/6_Camada Física/11_Laser.md",
     "2_Redes de computadores/6_Camada Física/8_Rádio transmissão.md",
-    "2_Redes de computadores/6_Camada Física/10_Infravermelho.md",
     "attachments/Pasted image 20250716191953.png",
     "attachments/Pasted image 20250716191027.png",
     "attachments/Pasted image 20250716190938.png",
@@ -214,7 +214,6 @@
     "attachments/img-20250716085829.png",
     "attachments/img-20250716085656.png",
     "attachments/Object Calisthenics 1.png",
-    "attachments/Pasted image 20250716085443.png",
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
     "8_POO/2_Single Responsibility Principle.md",
     "8_POO/How to study POO.md",

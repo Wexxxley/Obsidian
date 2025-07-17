@@ -1,15 +1,16 @@
+
 #Concluded 
 
 ---
-**A camada de enlace tem a responsabilidade de transferir um quadro de um dispositivo para outro dispositivo vizinho sobre um enlace**. Enlace é um canal de comunicação que conecta nós(hospedeirso e roteadores) vizinhos.
+**A camada de enlace tem a responsabilidade de transferir um quadro de um dispositivo para outro dispositivo vizinho sobre um enlace**. Enlace é um canal de comunicação que conecta nós (hospedeirso e roteadores) vizinhos.
 
-- **Enlaces com fio:** Utilizam um **meio físico**, como cabos (par trançado, coaxial, fibra óptica), para transmitir dados entre dispositivos. A transmissão ocorre por meio de sinais elétricos ou luz.
-- **Enlaces sem fio (wireless):** Não utilizam cabos físicos, usam ondas eletromagnéticas (como rádio, micro-ondas, infravermelho) para transmitir dados pelo ar. Sempre possui interferências.
+- **Enlaces com fio:** Utilizam um **meio físico**, como cabos, para transmitir dados entre dispositivos. A transmissão ocorre por meio de sinais elétricos ou luz.
+- **Enlaces sem fio (wireless):** Não utilizam cabos físicos, usam ondas eletromagnéticas para transmitir dados pelo ar. Sempre possui interferências.
 ---
 ## **Serviços da camada de enlace**
 
 #### **1. Enquadramento**: 
-- Encapsula datagramas em quadros acrescentando cabeçalhos.
+- Encapsula **datagramas** em quadros acrescentando cabeçalhos.
 - Implementa acesso ao canal se o meio é compartilhado. Isso significa que, se vários dispositivos estão usando o mesmo meio de comunicação o enquadramento garante que apenas um dispositivo transmita por vez para evitar colisões.
 #### **2. Entrega confiável**
 - Entrega confiável é muito associado ao TCP.
@@ -27,6 +28,11 @@ Erros são comuns e podem ser causados por diversos fatores, como:
 #### **5. Correção de Erros**  
 - Permite que o receptor **identifique e corrija os bits sem precisar pedir a retransmissão**. Isso é feito com o uso de **algoritmos de correção.** A correção de erros é mais complexa e adiciona mais sobrecarga aos dados. Os algoritmos adicionam **bits de redundância** (informação extra) aos dados originais. 
 ####  **6. Half-duplex e Full-duplex**: 
+- **Simplex**: Acomunicação é **unidirecional**, ou seja, os dados fluem em apenas um sentido. Um dispositivo apenas envia e o outro apenas recebe. Exemplo:Transmissão de rádio: A estação transmite o sinal e os aparelhos apenas o recebem.
 - **Half-duplex**: Os dispositivos em ambas as extremidades do enlace **podem transmitir dados, mas não ao mesmo tempo**. 
 - **Full-duplex**: Os dispositivos em ambas as extremidades do enlace **podem transmitir e receber dados simultaneamente**. Isso é possível porque o enlace possui caminhos de transmissão e recepção separados, ou usa técnicas que permitem a simultaneidade.
+
+
+
+
 
