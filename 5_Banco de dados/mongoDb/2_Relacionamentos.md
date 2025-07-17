@@ -4,11 +4,11 @@
 
 No MongoDB, os relacionamentos são geralmente gerenciados de duas formas principais:
 
-1. **Modelagem por Referência (Normalização):**
-    - Nesse modelo, você armazena o `_id` de um documento em outro documento, criando uma "referência". É o equivalente a usar chaves estrangeiras em um banco de dados relacional.
-    - **Quando usar:** É a melhor abordagem quando os dados relacionados são grandes, mudam com frequência, ou quando você precisa consultar os dados separadamente. 
-    - **Consultas:** Para obter os dados completos, você precisará fazer duas consultas: uma para o livro e outra para o autor. O MongoDB possui operadores como `$lookup` (similar a um `JOIN` em SQL) para facilitar isso, mas é importante entender que ele funciona de forma diferente e pode ter implicações de performance em grandes volumes de dados.
-	
+1. **Modelagem por Incorporação (Desnormalização):**
+    - Nesse modelo, você incorpora um documento dentro de outro. Ou seja, você armazena os dados relacionados diretamente dentro do documento principal.
+    - **Exemplo:** Em vez de ter uma coleção separada para "endereços", os endereços são incorporados diretamente no documento do "usuário".
+    - **Quando usar:** É a abordagem preferencial no MongoDB para dados que são frequentemente acessados juntos, que são pequenos, ou que não mudam independentemente do documento principal.
+    - **Desvantagens:** Pode levar à duplicação de dados se o mesmo dado incorporado precisar aparecer em múltiplos documentos.
 	```json
 	{
 	  "_id": ObjectId("..."),
@@ -27,6 +27,7 @@ No MongoDB, os relacionamentos são geralmente gerenciados de duas formas princi
 	  }
 	}
 	```
+
 
 ```json
     {
@@ -54,11 +55,10 @@ No MongoDB, os relacionamentos são geralmente gerenciados de duas formas princi
     }
     ```
 
-2. **Modelagem por Incorporação (Desnormalização):**
-    - Nesse modelo, você incorpora um documento dentro de outro. Ou seja, você armazena os dados relacionados diretamente dentro do documento principal.
-    - **Exemplo:** Em vez de ter uma coleção separada para "endereços", os endereços são incorporados diretamente no documento do "usuário".
-    - **Quando usar:** É a abordagem preferencial no MongoDB para dados que são frequentemente acessados juntos, que são pequenos, ou que não mudam independentemente do documento principal.
-    - **Desvantagens:** Pode levar à duplicação de dados se o mesmo dado incorporado precisar aparecer em múltiplos documentos.
+2. **Modelagem por Referência (Normalização):**
+    - Nesse modelo, você armazena o `_id` de um documento em outro documento, criando uma "referência". É o equivalente a usar chaves estrangeiras em um banco de dados relacional.
+    - **Quando usar:** É a melhor abordagem quando os dados relacionados são grandes, mudam com frequência, ou quando você precisa consultar os dados separadamente. 
+    - **Consultas:** Para obter os dados completos, você precisará fazer duas consultas: uma para o livro e outra para o autor. O MongoDB possui operadores como `$lookup` (similar a um `JOIN` em SQL) para facilitar isso, mas é importante entender que ele funciona de forma diferente e pode ter implicações de performance em grandes volumes de dados.
 
 ```json
 
