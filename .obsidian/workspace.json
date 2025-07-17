@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_Redes de computadores/1_Overview/3_Comutadores.md",
+                "file": "2_Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Comutadores"
+              "title": "3_MAC e ARP"
             }
           }
         ]
@@ -193,6 +193,11 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
+    "2_Redes de computadores/4_Camada de rede/11_Roteamento INTRA AS.md",
+    "Modelagem.pdf",
+    "2_Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
+    "2_Redes de computadores/4_Camada de rede/10_Roteamento Hierárquico.md",
+    "2_Redes de computadores/1_Overview/3_Comutadores.md",
     "2_Redes de computadores/4_Camada de rede/5_Fragmentação.md",
     "2_Redes de computadores/4_Camada de rede/4_Enderaçamento IP.md",
     "2_Redes de computadores/4_Camada de rede/3_IPv4.md",
@@ -211,7 +216,6 @@
     "5_Banco de dados/mongoDb/Modelagem.md",
     "5_Banco de dados/1_Início.md",
     "5_Banco de dados/mongoDb/2_Relacionamentos.md",
-    "Modelagem.pdf",
     "5_Banco de dados/mongoDb/1_Apresentação.md",
     "attachments/Pasted image 20250717141001.png",
     "attachments/Pasted image 20250717140911.png",
@@ -219,11 +223,6 @@
     "2_Redes de computadores/5_Camada de enlace/4_Ethernet e Protocolos de acesso múltiplo.md",
     "2_Redes de computadores/5_Camada de enlace/5_Ethernet.md",
     "2_Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
-    "2_Redes de computadores/5_Camada de enlace/1_Serviços da camada de enlace.md",
-    "2_Redes de computadores/1_Overview/8_Tipos de comunicação em redes de computadores.md",
-    "2_Redes de computadores/2_Camada Aplicação/7_DNS (Domain Name System).md",
-    "2_Redes de computadores/2_Camada Aplicação/6_Correio eletrônico.md",
-    "2_Redes de computadores/2_Camada Aplicação/5_FTP Protocolo de tranferência de arquivo.md",
     "attachments/Pasted image 20250716192644.png",
     "attachments/Pasted image 20250716191953.png",
     "attachments/Pasted image 20250716191027.png",
