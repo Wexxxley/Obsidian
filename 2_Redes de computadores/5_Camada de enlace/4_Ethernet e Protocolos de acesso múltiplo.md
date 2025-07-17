@@ -36,3 +36,4 @@ Colisões ainda podem acontecer. Quando uma colisão acontece, os dados são cor
 	
     - Após o período de espera, o adpatador volta a sensorear o canal.
 
+Com o advento dos **switches Ethernet**, que operam em modo full-duplex, o CSMA/CD se tornou menos relevante nas redes modernas. 
