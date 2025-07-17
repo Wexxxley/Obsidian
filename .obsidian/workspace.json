@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_Redes de computadores/5_Camada de enlace/4_Ethernet e Protocolos de acesso múltiplo.md",
+                "file": "2_Redes de computadores/5_Camada de enlace/5_Ethernet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Ethernet e Protocolos de acesso múltiplo"
+              "title": "5_Ethernet"
             }
           }
         ]
@@ -193,8 +193,8 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
-    "2_Redes de computadores/5_Camada de enlace/5_Ethernet.md",
     "2_Redes de computadores/5_Camada de enlace/4_Ethernet e Protocolos de acesso múltiplo.md",
+    "2_Redes de computadores/5_Camada de enlace/5_Ethernet.md",
     "2_Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
     "2_Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
     "2_Redes de computadores/5_Camada de enlace/1_Serviços da camada de enlace.md",

@@ -30,5 +30,9 @@ Colisões ainda podem acontecer. Quando uma colisão acontece, os dados são cor
 3. **Espera Exponencial:**
     - Após a colisão, para evitar que a mesma colisão ocorra repetidamente ele entra em um processo chamado **exponential backoff**.
     - O adaptador calcula um tempo de espera antes de tentar retransmitir. Esse tempo de espera aumenta exponencialmente com o número de colisões consecutivas.
+
+		- **K** é um número inteiro escolhido aleatoriamente de um intervalo que **dobra de tamanho a cada nova colisão**.O intervalo de onde K é sorteado é definido por:
+		- ==0≤K<2n==. Onde **`n`** é o número de tentativas de retransmissão.
+	
     - Após o período de espera, o adpatador volta a sensorear o canal.
 
