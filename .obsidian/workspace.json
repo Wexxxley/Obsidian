@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
+                "file": "2_Redes de computadores/6_Camada Física/1_Par trançado.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 1_Protocolos da camada de transporte da internet"
+              "title": "Sumário de 1_Par trançado"
             }
           },
           {
@@ -172,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -191,7 +191,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c05ca5264eb924b3",
+  "active": "284ac965fd9121d3",
   "lastOpenFiles": [
     "2_Redes de computadores/6_Camada Física/2_Par trançado confecção.md",
     "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
