@@ -17,24 +17,15 @@ Um hub opera na **Camada 1 (Física)**. Um hub é basicamente um repetidor de si
 Um switch é um **dispositivo de camada de enlace**. Diferente dos hubs, os switches são capazes de "entender" e processar os quadros Ethernet.
 - **Armazena e encaminha quadros Ethernet:** Ao receber um quadro de dados, o switch o armazena temporariamente antes de tomar uma decisão de encaminhamento.
 - **Unicast**: Um switch lê o **end MAC** de destino e encaminha o quadro apenas para a porta específica. Isso cria segmentos, onde cada porta se torna um domínio de colisão individual.
-- **Transparente:** Isso significa que os computadores conectados à rede não "percebem" a presença do switch; eles simplesmente enviam seus dados, e o switch cuida do encaminhamento. Não há necessidade de configuração.
-- **Full-duplex**
+- **Transparente:** Isso significa que os computadores conectados à rede não "percebem" a presença do switch; Não há necessidade de configuração.
+- **Full-duplex**. [7_Modos de transmissão de dados](2_Redes%20de%20computadores/1_Overview/7_Modos%20de%20transmissão%20de%20dados.md)
 
-[3_MAC e ARP](3_MAC%20e%20ARP.md)
+![400](attachments/Pasted%20image%2020250717181203.png)
 
-**Tabela do Switch:**
-
-A inteligência de um switch reside em sua capacidade de aprender as localizações dos dispositivos conectados a ele. Para isso, ele mantém uma **tabela**, a tabela MAC.
+A inteligência de um switch reside em sua capacidade de aprender as localizações dos dispositivos conectados a ele. Para isso, ele mantém uma **tabela**, a tabela MAC. [3_MAC e ARP](3_MAC%20e%20ARP.md)
 
 - **Como o Aprendizado Acontece:** Quando um switch recebe um quadro ele automaticamente aprende a localização do transmissor.
 - Cada entrada tem um tempo de vida, que pode ser, por exemplo, 60 minutos. Se um dispositivo não transmitir por esse período, sua entrada é removida, mantendo a tabela atualizada e eficiente.
+- **ARP Request - Broadcast**: Quando o switch precisa descobrir um endereço MAC para um IP que não está em sua tabela, ele pergunta para _todos_ na rede local. 
+- **ARP Reply - Unicast**: O dispositivo que possui o endereço IP alvo recebe a requisição. Como ele agora sabe o endereço MAC do remetente, ele pode enviar a **Resposta ARP** diretamente.
 
-**Lógica de Encaminhamento:**
-Quando um switch recebe um quadro Ethernet, ele segue uma lógica precisa para decidir como encaminhá-lo:
-
-1. O switch primeiro verifica o **endereço MAC de destino** no cabeçalho do quadro. Ele usa esse endereço para pesquisar em sua tabela.
-2. **Se o end MAC for Encontrada:**
-    - O switch então encaminha o quadro _somente_ para essa interface específica.
-    - Se o destino está em uma interface diferente da de origem, ele reencaminha o quadro na interface indicada na tabela.
-3. **Se Nenhuma Entrada for Encontrada para o Destino:**
-    - Se o switch **não encontrar o endereço MAC de destino** em sua tabela (porque é um dispositivo novo na rede ou a entrada expirou), ele entra em modo de **inundação (flood)**.
