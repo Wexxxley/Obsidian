@@ -2,9 +2,9 @@
 ---
 #### **1. Unicast (Um para Um)**
 - Um pacote é enviado de um **único remetente** para um **único receptor.
-#### 2. Broadcast (Um para Todos)
+#### 2. Broadcast (Um para Todos/difusão)
 - A comunicação Broadcast é quando um pacote é enviado de um **único remetente** para **todos os dispositivos** dentro de um domínio de broadcast específico (geralmente uma sub-rede).
-- Quando um pacote broadcast é enviado, **todos os dispositivos** (incluindo os não roteadores) na mesma sub-rede recebem e precisam **processar** esse pacote até um certo ponto para determinar se ele é relevante para eles. Mesmo que o pacote seja descartado.
+- Quando um pacote broadcast é enviado, **todos os dispositivos** (incluindo os não roteadores) na mesma sub-rede recebem e precisam **processar** esse pacote até um certo ponto para determinar se ele é relevante para eles. 
 
 - **Exemplos:**
     - **DHCP Discover:** Um cliente DHCP envia um broadcast para encontrar um servidor DHCP na rede.
