@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
+                "file": "9_Aleatórios/Anotacao.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Fibra óptica"
+              "title": "Anotacao"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
+                "file": "9_Aleatórios/Anotacao.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 5_Fibra óptica"
+              "title": "Sumário de Anotacao"
             }
           },
           {
@@ -193,8 +193,9 @@
   },
   "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
-    "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
     "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
+    "9_Aleatórios/Anotacao.md",
+    "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
     "2_Redes de computadores/6_Camada Física/1_Par trançado.md",
     "2_Redes de computadores/6_Camada Física/2_Par trançado confecção.md",
     "2_Redes de computadores/6_Camada Física/10_Infravermelho.md",
@@ -220,7 +221,6 @@
     "2_Redes de computadores/5_Camada de enlace/6_Hubs e Switches.md",
     "attachments/Pasted image 20250717181203.png",
     "2_Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
-    "2_Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
     "attachments/Pasted image 20250717141001.png",
     "attachments/Pasted image 20250717140911.png",
     "5_Banco de dados/mongoDb",
