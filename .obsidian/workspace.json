@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9_Aleatórios/Anotacao.md",
+                "file": "2_Redes de computadores/5_Camada de enlace/6_Hubs e Switches.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Anotacao"
+              "title": "6_Hubs e Switches"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9_Aleatórios/Anotacao.md",
+                "file": "2_Redes de computadores/5_Camada de enlace/6_Hubs e Switches.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Anotacao"
+              "title": "Sumário de 6_Hubs e Switches"
             }
           },
           {
@@ -191,10 +191,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "284ac965fd9121d3",
+  "active": "c05ca5264eb924b3",
   "lastOpenFiles": [
-    "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
+    "2_Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
+    "2_Redes de computadores/5_Camada de enlace/6_Hubs e Switches.md",
     "9_Aleatórios/Anotacao.md",
+    "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
     "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
     "2_Redes de computadores/6_Camada Física/1_Par trançado.md",
     "2_Redes de computadores/6_Camada Física/2_Par trançado confecção.md",
@@ -202,7 +204,6 @@
     "2_Redes de computadores/6_Camada Física/7_Política do Espectro Eletromagnético.md",
     "2_Redes de computadores/6_Camada Física/6_Repetidor vs amplificador.md",
     "2_Redes de computadores/6_Camada Física/3_Caixas conectores - Tomadas.md",
-    "2_Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
     "2_Redes de computadores/4_Camada de rede/11_Roteamento INTRA AS.md",
     "Modelagem.pdf",
     "2_Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
@@ -218,7 +219,6 @@
     "2_Redes de computadores/3_Camada de Transporte/3_ Socket e portas.md",
     "2_Redes de computadores/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
     "2_Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
-    "2_Redes de computadores/5_Camada de enlace/6_Hubs e Switches.md",
     "attachments/Pasted image 20250717181203.png",
     "2_Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
     "attachments/Pasted image 20250717141001.png",
