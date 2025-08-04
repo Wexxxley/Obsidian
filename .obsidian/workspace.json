@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1beaa7bb5e5380f0",
+        "id": "32951fd9c0c6ad11",
         "type": "tabs",
         "children": [
           {
-            "id": "c05ca5264eb924b3",
+            "id": "649d75d42c864303",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -191,11 +191,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c05ca5264eb924b3",
+  "active": "649d75d42c864303",
   "lastOpenFiles": [
+    "9_Aleatórios/Como funciona.md",
+    "9_Aleatórios/Anotacao.md",
     "2_Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
     "2_Redes de computadores/5_Camada de enlace/6_Hubs e Switches.md",
-    "9_Aleatórios/Anotacao.md",
     "2_Redes de computadores/6_Camada Física/5_Fibra óptica.md",
     "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
     "2_Redes de computadores/6_Camada Física/1_Par trançado.md",
@@ -220,7 +221,6 @@
     "2_Redes de computadores/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
     "2_Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
     "attachments/Pasted image 20250717181203.png",
-    "2_Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
     "attachments/Pasted image 20250717141001.png",
     "attachments/Pasted image 20250717140911.png",
     "5_Banco de dados/mongoDb",
