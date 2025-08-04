@@ -20,3 +20,6 @@ Criando Projeto WEBAPI.
 
 Adicionando a solução
 ![](attachments/Pasted%20image%2020250804141337.png)
+
+Para verificar se esta funcionando.
+![](attachments/Pasted%20image%2020250804142343.png)
