@@ -1,4 +1,3 @@
-- Cadastrar hrs complementares
 - Começar o curso de react + .net
 - Gravar vídeos de poo
-- Talvez estudar o básico de cg
+- Melhorar github e criar currículo. Aplicar currículo
