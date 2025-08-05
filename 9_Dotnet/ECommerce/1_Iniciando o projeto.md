@@ -26,6 +26,6 @@ Para verificar se esta funcionando.
 
 ### **Configurando o Swagger**
 
-Intale o pacote:
+Intale o seguinte e pacote e aplique as seguintes configurações.
 ![](attachments/Pasted%20image%2020250805090656.png)
 ![](attachments/Pasted%20image%2020250805090807.png)
