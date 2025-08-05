@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5_Banco de dados/mongoDb/1_Apresentação.md",
+                "file": "2_Redes de computadores/2_Camada Aplicação/3_Http e cookies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Apresentação"
+              "title": "3_Http e cookies"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5_Banco de dados/mongoDb/1_Apresentação.md",
+                "file": "2_Redes de computadores/2_Camada Aplicação/3_Http e cookies.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 1_Apresentação"
+              "title": "Sumário de 3_Http e cookies"
             }
           },
           {
@@ -193,10 +193,15 @@
   },
   "active": "649d75d42c864303",
   "lastOpenFiles": [
-    "5_Banco de dados/1_Início.md",
-    "5_Banco de dados/mongoDb/2_Relacionamentos.md",
-    "5_Banco de dados/mongoDb/1_Apresentação.md",
+    "9_Dotnet/WebAPI/1_Conceitos Gerais/1_Application Programming Interface(API).md",
     "9_Dotnet/ECommerce/1_Iniciando o projeto.md",
+    "2_Redes de computadores/2_Camada Aplicação/3_Http e cookies.md",
+    "9_Dotnet/WebAPI/1_Conceitos Gerais",
+    "5_Banco de dados/2_MongoDb/1_Apresentação.md",
+    "9_Dotnet/WebAPI",
+    "5_Banco de dados/1_PostgreSQL",
+    "5_Banco de dados/1_PostgreSQL/1_Início.md",
+    "5_Banco de dados/2_MongoDb/2_Relacionamentos.md",
     "attachments/Pasted image 20250805090807.png",
     "attachments/Pasted image 20250805090725.png",
     "attachments/Pasted image 20250805090656.png",
@@ -230,15 +235,10 @@
     "2_Redes de computadores/4_Camada de rede/4_Enderaçamento IP.md",
     "2_Redes de computadores/4_Camada de rede/3_IPv4.md",
     "2_Redes de computadores/4_Camada de rede/2_Por dentro do roteador.md",
-    "2_Redes de computadores/4_Camada de rede/1_Introdução.md",
-    "2_Redes de computadores/3_Camada de Transporte/5_Controle de erros.md",
-    "5_Banco de dados/mongoDb",
+    "5_Banco de dados/2_MongoDb",
     "4_Algorítmos e Estruturas de dados/Tabela Hash",
     "8_POO",
     "9_Compiladores",
-    "6_FrontEnd/3_JavaScript/11_Express",
-    "Sem título.canvas",
-    "2_Redes de computadores/6_Camada Física",
-    "2_Redes de computadores/5_Camada de enlace"
+    "Sem título.canvas"
   ]
 }
