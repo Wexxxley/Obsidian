@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9_Dotnet/ECommerce/Configurando EF Core.md",
+                "file": "9_Dotnet/ECommerce/ODM e configuração.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Configurando EF Core"
+              "title": "ODM e configuração"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9_Dotnet/ECommerce/Configurando EF Core.md",
+                "file": "9_Dotnet/ECommerce/ODM e configuração.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Configurando EF Core"
+              "title": "Sumário de ODM e configuração"
             }
           },
           {
@@ -193,9 +193,10 @@
   },
   "active": "2591d60171c092ed",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250805102557.png",
     "attachments/Pasted image 20250805102120.png",
     "9_Dotnet/WebAPI/1_Criando uma WebAPI/3_Entity Framework Core.md",
-    "9_Dotnet/ECommerce/Configurando EF Core.md",
+    "9_Dotnet/ECommerce/ODM e configuração.md",
     "9_Dotnet/WebAPI/1_Criando uma WebAPI/2_Criando o projeto.md",
     "9_Dotnet/WebAPI/1_Criando uma WebAPI/3_Entity Framework",
     "9_Dotnet/WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
@@ -219,7 +220,6 @@
     "attachments/Pasted image 20250804141245.png",
     "9_Dotnet/ECommerce",
     "attachments/Pasted image 20250804140139.png",
-    "attachments/Pasted image 20250804140114.png",
     "9_Aleatórios/Anotacao.md",
     "9_Dotnet",
     "9_Aleatórios/Como funciona.md",
