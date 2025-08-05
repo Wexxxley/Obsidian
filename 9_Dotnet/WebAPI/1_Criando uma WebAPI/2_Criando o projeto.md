@@ -6,6 +6,7 @@ Quando você cria um novo projeto, é possível escolher dois tipos de Web APIs:
 
 Ao instalar o .net, é possível verificar os tampletes disponíveis com: ``dotnet new list``
 ![](attachments/Pasted%20image%2020250804140139.png)
+
 ---
 ### **Solution File**
 Um arquivo `.sln` é um arquivo de organização usado pela plataforma .NET para agrupar e gerenciar um ou mais projetos relacionados. É como um **contêiner** com metadados sobre a estrutura da sua aplicação.
@@ -36,16 +37,6 @@ Intale o seguinte e pacote e aplique as seguintes configurações.
 ![550](attachments/Pasted%20image%2020250805090807.png)
 
 ---
-### **Criando as entidades**
-Criando classes para representar nossas entidades.
-![400](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf9_vvkVmaaD1lTbulQoMl2LcmsGY2ygx8fK3xuzeVcsaRvoE9BcL_reZLLb9psjbg-L9IIcj15F4cD2zOd8fi2OaDvDUhOEy46lFZFkcWvPL94FZL3aXwK_azfmaamihVZkfmJp88OTXyWqgUKbhXMLbSN?key=SZHaDLu24DLXyFgiFaRNLA)
-
-![400](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf0hI8Tzva3_fx0hTiYzJamZ0uuEB0SHOxynnXWR7mLyfcvCslWFySwK4W8SLrgEfi9SBIZ0J7Q5Ffzz0rpZ98aX7i6zaHHFe04FaA-uSecCxfaM4o1KdP6BgMUxS5EC-C8_4eDHyRMFQaPK7yof7UlhHSg?key=SZHaDLu24DLXyFgiFaRNLA)
-
-Essas classes são consideradas anêmicas, mas o que é isso? Uma classe é considerada "anêmica" quando não possui lógica de negócio e contém apenas propriedades com métodos getter e setter. Essas classes não têm métodos que encapsulam a lógica de negócio, essa lógica é movida para outro serviço.
-
-  
-  
 
 ___________________________________________________________________________
 
@@ -53,9 +44,9 @@ ___________________________________________________________________________
 
  O EF Core é uma biblioteca que fornece uma maneira orientada a objetos de acessar bancos de dados. Ele atua como um mapeador objeto-relacional (ORM), comunicando-se com o banco de dados para você e mapeando as respostas do banco de dados para classes e objetos do .NET.
 
-|   |
-|---|
-|DEFINIÇÃO: Com um mapeador objeto-relacional (ORM), você pode manipular um banco de dados com conceitos orientados a objetos, como classes e objetos, mapeando-os para conceitos de banco de dados, como tabelas e colunas.|
+|                                                                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DEFINIÇÃO: Com um mapeador objeto-relacional (ORM), você pode manipular um banco de dados com conceitos orientados a objetos, como classes e objetos, mapeando-os para conceitos de banco de dados, como tabelas e colunas. |
 
 O Entity Framework Core usa o modelo Code First, esse modelo é usado para definir o esquema do banco de dados a partir do código em vez de definir o banco de dados primeiro e gerar o código a partir dele. Com o Code First, você começa escrevendo classes de domínio e o EF cuida da criação e gerenciamento do database.C
 
@@ -95,7 +86,7 @@ Pacotes e instalações necessárias para SQL Server
 
  A string de conexão é um segredo, então carregá-la da configuração faz sentido. Em tempo de execução, a string correta para o seu ambiente é usada.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdeP1vYWf4ct8ceR_oMTZwmJvehIM9LfIVWmevU3ODPmym70BNpjM4P47vyCO9oUjzW27iLdgQm_SPXRWWmGyNgn6xBWcivLy3bax_2f4C8HLTQW8ns_lWpstYiwvhkfNaV11XypSZuuUPzDaglMlL7Axjf?key=SZHaDLu24DLXyFgiFaRNLA)
+![](https://lh7rt.googleusercontent.com/docsz/AD_4nXdeP1vYWf4ct8ceR_oMTZwmJvehIM9LfIVWmevU3ODPmym70BNpjM4P47vyCO9oUjzW27iLdgQm_SPXRWWmGyNgn6xBWcivLy3bax_2f4C8HLTQW8ns_lWpstYiwvhkfNaV11XypSZuuUPzDaglMlL7Axjf?key=SZHaDLu24DLXyFgiFaRNLA)
 
 #### 3.2.3 Definindo um relacionamento n-para-1
 
