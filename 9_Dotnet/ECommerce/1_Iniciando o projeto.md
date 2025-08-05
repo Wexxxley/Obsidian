@@ -23,3 +23,9 @@ Adicionando a solução
 
 Para verificar se esta funcionando.
 ![](attachments/Pasted%20image%2020250804142343.png)
+
+### **Configurando o Swagger**
+
+Intale o pacote:
+![](attachments/Pasted%20image%2020250805090656.png)
+![](attachments/Pasted%20image%2020250805090807.png)
