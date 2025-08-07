@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9_Dotnet/1_WebAPI/7_Criando endpoints.md",
+                "file": "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/Sem título.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_Criando endpoints"
+              "title": "Sem título"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9_Dotnet/1_WebAPI/7_Criando endpoints.md",
+                "file": "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/Sem título.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 7_Criando endpoints"
+              "title": "Sumário de Sem título"
             }
           },
           {
@@ -208,8 +208,10 @@
   },
   "active": "1102559eef424abb",
   "lastOpenFiles": [
+    "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/8_Ciclo de referencias.md",
+    "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/Sem título.md",
+    "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/7_Criando endpoints.md",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/6_Database first.md",
-    "9_Dotnet/1_WebAPI/7_Criando endpoints.md",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/5_DataAnnotations.md",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/4_Migrações.md",
     "9_Dotnet/1_WebAPI/x_Injeção de dependência/Sem título.md",
@@ -249,8 +251,6 @@
     "2_Redes de computadores/6_Camada Física/4_Cabo coaxial.md",
     "2_Redes de computadores/6_Camada Física/1_Par trançado.md",
     "2_Redes de computadores/6_Camada Física/2_Par trançado confecção.md",
-    "2_Redes de computadores/6_Camada Física/10_Infravermelho.md",
-    "2_Redes de computadores/6_Camada Física/7_Política do Espectro Eletromagnético.md",
     "Modelagem.pdf",
     "5_Banco de dados/2_MongoDb",
     "4_Algorítmos e Estruturas de dados/Tabela Hash",
