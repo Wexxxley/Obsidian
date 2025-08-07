@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/4_Migrações.md",
+                "file": "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/5_DataAnnotations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Migrações"
+              "title": "5_DataAnnotations"
+            }
+          },
+          {
+            "id": "1102559eef424abb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/6_Database first.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6_Database first"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/4_Migrações.md",
+                "file": "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/6_Database first.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 4_Migrações"
+              "title": "Sumário de 6_Database first"
             }
           },
           {
@@ -191,10 +206,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2591d60171c092ed",
+  "active": "1102559eef424abb",
   "lastOpenFiles": [
-    "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/3_Entity Framework Core.md",
+    "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/5_DataAnnotations.md",
+    "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/6_Database first.md",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/4_Migrações.md",
+    "9_Dotnet/1_WebAPI/x_Injeção de dependência/Sem título.md",
+    "Sem título.md",
+    "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/3_Entity Framework Core.md",
     "8_POO/LinkedList vs ArrayList (JAVA).md",
     "9_Dotnet/2_ECommerce com MongoDB/2_ODM (Object-Document Mapper).md",
     "attachments/Pasted image 20250805102557.png",
@@ -203,7 +222,6 @@
     "9_Dotnet/WebAPI/1_Criando uma WebAPI/3_Entity Framework",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
     "9_Dotnet/2_ECommerce com MongoDB/1_Iniciando o projeto.md",
-    "9_Dotnet/1_WebAPI/x_Injeção de dependência/Sem título.md",
     "9_Dotnet/1_WebAPI/x_Injeção de dependência",
     "2_Redes de computadores/2_Camada Aplicação/3_Http e cookies.md",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI",
@@ -233,10 +251,7 @@
     "2_Redes de computadores/6_Camada Física/10_Infravermelho.md",
     "2_Redes de computadores/6_Camada Física/7_Política do Espectro Eletromagnético.md",
     "2_Redes de computadores/6_Camada Física/6_Repetidor vs amplificador.md",
-    "2_Redes de computadores/6_Camada Física/3_Caixas conectores - Tomadas.md",
-    "2_Redes de computadores/4_Camada de rede/11_Roteamento INTRA AS.md",
     "Modelagem.pdf",
-    "2_Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
     "5_Banco de dados/2_MongoDb",
     "4_Algorítmos e Estruturas de dados/Tabela Hash",
     "Sem título.canvas"
