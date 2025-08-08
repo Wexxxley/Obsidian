@@ -1,55 +1,15 @@
 
+#Concluded 
+
 ---
+Em ASP.NET Core, as validações de modelos podem ser classificadas em built-in  e customizadas.
 
+### **1. Validações Built-in (DataAnnotations)**
+As validações built-in são aquelas fornecidas pela biblioteca ASP.NET Core através de Data Annotations. Elas são fáceis de usar e oferecem validações comuns prontas para uso. 
 
-### 4.3 Validação de modelos
+Data Annotations é um conjunto de atributos que você pode aplicar a classes e membros de classes para configurar o comportamento no EF Core. Esses atributos são muito úteis para definir regras de validação e restrições de banco de dados sem a necessidade de escrever código adicional.
 
- Em ASP.NET Core, as validações de modelos podem ser classificadas em built-in  e customizadas.
-
-#### 4.3.1 Validações Built-in (DataAnnotations)
-
- As validações built-in são aquelas fornecidas pela biblioteca ASP.NET Core através de Data Annotations. Elas são fáceis de usar e oferecem validações comuns prontas para uso. 
-
- Data Annotations é um conjunto de atributos que você pode aplicar a classes e membros de classes para configurar o comportamento no EF Core. Esses atributos são muito úteis para definir regras de validação e restrições de banco de dados sem a necessidade de escrever código adicional.
-
-  
-
-É necessário esses dois Usings:
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcC99CazaPcldcjQg2q9zjTKSJ-22xhAUChI4HZ0AAA9j5gQBbYpYeq9Xz_XMx1_002YG-D_HmdFlcPe7Esgn-3P7TVImb3l4xpqQBjKvNxaOG4idiaLSbjNtN2ZUI_pI8Dnt-7HIubkFb0Ba4bwCoCE0iI?key=SZHaDLu24DLXyFgiFaRNLA)
-
-Principais atributos: 
-
-1. [Key]: Indica que a propriedade é a chave primária da entidade.
-    
-2. [ForeignKey]: Indica que a propriedade é uma chave estrangeira.
-    
-3. [Table(”name”)]: Especifica o nome da tabela que  classe deve ser mapeada.
-    
-4. [Column(TypeName = "decimal(10,2)")]: especifica o tipo usado no database.
-    
-5. [MaxLength]: Especifica o tamanho máximo de uma string para o database.
-    
-6. [MinLength]: Especifica o tamanho mínimo de uma string para o database.
-    
-7. [Required]: Específica que é not null
-    
-8. [StringLenght(10, MinimunLenght=3, ErrorMessage=””)]: usado para validar o tamanho máx e mín de uma string. Nesse caso Tamanho máx 10 e min 3
-    
-9. [EmailAddress]: Valida se a propriedade contém um formato de e-mail.
-    
-10. [Phone]: Valida se a propriedade contém formato de número de telefone.
-    
-11. [Url]: Valida se a propriedade contém um formato de URL válido.
-    
-12. [CreditCard]: Valida se contém um número de cartão de crédito.
-    
-13. [Range(min,max)]: Define o intervalo máximo e mínimo de valores permitido para um campo numérico. Usado para validação.
-    
-14. [Compare]: Utilizado para validar se o valor da prop é igual ao de outra. 
-    
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe00tT6MWC_PgtcPKeZRbWpPazB0jkS5q06cxmQXB8oMEdJmyXJzVpRWcN1vZ7Bvu1YTeI5A4Jjgsrnx0wN87jH_tza5ZPXMqfoivO1zCzEgHy_jDpvL2FF77YXoGAKECj0iBijZRytPVwSWxjm0MaS7UgU?key=SZHaDLu24DLXyFgiFaRNLA)
+[5_DataAnnotations](9_Dotnet/1_WebAPI/1_Criando%20uma%20WebAPI/5_DataAnnotations.md)
 
 #### 4.3.2 Validações personalizadas
 
