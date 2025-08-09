@@ -2,6 +2,7 @@
 #Concluded 
 
 ---
+### 1
 Os endpoints possuem três tipos de retornos, que são:
 - **Tipo específico**: Como string, int, struct, class, etc. Não é recomendado, pois impossibilita o retorno de códigos de status HTTP.
 - **IActionResult**: Permite o retorno de código status HTTP, mas não de tipos específicos sozinhos.
