@@ -11,3 +11,4 @@
 - **Custo :** Embora a implantação seja mais barata que a da fibra, os transceptores a laser de alta capacidade e confiabilidade ainda possuem um custo elevado.
 
 ![](attachments/Pasted%20image%2020250716191953.png)
+

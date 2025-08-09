@@ -1,7 +1,9 @@
 
 ---
 Ao instalar o .net, é possível verificar os tampletes disponíveis com: ``dotnet new list``
+
 ![](attachments/Pasted%20image%2020250804140139.png)
+
 ### **Solution File**
 Um arquivo `.sln` é um arquivo de organização usado pela plataforma .NET para agrupar e gerenciar um ou mais projetos relacionados. É como um **contêiner** com metadados sobre a estrutura da sua aplicação.
 
@@ -13,19 +15,25 @@ Um arquivo `.sln` é um arquivo de organização usado pela plataforma .NET para
 3. **Integração com o IDE:** Ao abrir um arquivo `.sln` no Visual Studio ou no Visual Studio Code, o IDE carrega automaticamente todos os projetos listados
 
 Criando solução.
+
 ![](attachments/Pasted%20image%2020250804141303.png)
 
 Criando Projeto WEBAPI.
+
 ![](attachments/Pasted%20image%2020250804141318.png)
 
 Adicionando a solução
+
 ![](attachments/Pasted%20image%2020250804141337.png)
 
 Para verificar se esta funcionando.
+
 ![](attachments/Pasted%20image%2020250804142343.png)
 
 ### **Configurando o Swagger**
 
 Intale o seguinte e pacote e aplique as seguintes configurações.
+
 ![](attachments/Pasted%20image%2020250805090656.png)
+
 ![](attachments/Pasted%20image%2020250805090807.png)

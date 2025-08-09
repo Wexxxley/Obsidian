@@ -30,6 +30,3 @@ Erros são comuns e podem ser causados por diversos fatores, como:
 ####  **6. Simplex, Half-duplex e Full-duplex**: 
 [7_Modos de transmissão de dados](2_Redes%20de%20computadores/1_Overview/7_Modos%20de%20transmissão%20de%20dados.md)
 
-
-
-

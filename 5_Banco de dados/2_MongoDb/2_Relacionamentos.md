@@ -28,7 +28,6 @@ No MongoDB, os relacionamentos são geralmente gerenciados de duas formas princi
 	}
 	```
 
-
 ```json
     {
       "_id": ObjectId("..."),

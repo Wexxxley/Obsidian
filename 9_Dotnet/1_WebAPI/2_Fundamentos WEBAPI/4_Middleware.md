@@ -10,6 +10,7 @@ Em termos simples, cada middleware:
 3. pode manipular a resposta antes de enviá-la de volta ao cliente.
 
 O pipeline de middleware é processado de forma sequencial. Quando uma solicitação chega ao servidor, ela passa por cada componente de middleware na ordem em que foi registrada.
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdReyt9t4uuGjWy8i5PD6m-mzQQdih8h2XrLGuixsQtJNP0NKzrKjR0p1UX2wqUCwvjAbUU4domCSewjNoP0NmebDkrX6q359Ii3YbY-BQ76YywH4vmvKYwIIiLYpLnVJMAq8-jMj7KI3FT63l9rLMNQgiW?key=SZHaDLu24DLXyFgiFaRNLA)
 
  Um middleware pode ser usado para várias funcionalidades, como:
@@ -18,8 +19,8 @@ O pipeline de middleware é processado de forma sequencial. Quando uma solicita�
 - **Registro de Logs:** Registrar detalhes da solicitação.  
 
 O pipeline de middleware é definido no program.cs após builder.build()
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcYyD4qbeQ3jIasH7Dx5JKgCDZmM-q1Y7O1qNmz7igpQlCXybBUDGxRH55Y6xbRh4ID8rvDtIUg75sJGOb8A_PXDrQ0-H5bzrC0yH45Cy62tleU43Z_YUdZ9MuRE7xtJUQbUQcFd9K4G5t9y5-vob_bEG4?key=SZHaDLu24DLXyFgiFaRNLA)
 
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcYyD4qbeQ3jIasH7Dx5JKgCDZmM-q1Y7O1qNmz7igpQlCXybBUDGxRH55Y6xbRh4ID8rvDtIUg75sJGOb8A_PXDrQ0-H5bzrC0yH45Cy62tleU43Z_YUdZ9MuRE7xtJUQbUQcFd9K4G5t9y5-vob_bEG4?key=SZHaDLu24DLXyFgiFaRNLA)
 
 ### 4.7 Tratando erros 
 
@@ -159,6 +160,7 @@ View model x DTO
 1. Instalando o pacote: dotnet add package AutoMapper
     
 2. Criando uma classe Responsável por mapear as entidades. 
+
     
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcHHmbBZo_suouwR3fDctqFI3LB3UM8vTOlrLEYeDgNDCuP0ZZzHZwTosimHf8eGr6Kht7A9ykTapvCtom2jPn5e344nFKZeJdeM3V0cHHj-A68aO0l_isVRByHTEejaitIMqces12mydl1Xx7-SBhQKcfl?key=SZHaDLu24DLXyFgiFaRNLA)
@@ -166,16 +168,19 @@ View model x DTO
 Com ReverseMap CursoRequest pode ser mapeado para Curso.
 
 3. Adicionando ao contêiner.
+
     
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfrJ2_aqRBK7aMjcNHE48A_hWNmLxTHtiklt5DQZQaWR37iUJcHdBNEzwJqZx9NQafGw4hzVUvo6_0NatRERRVTe9fgnctRAKxcIJl3R-f1vGhxRJ0PjYBGsLp5Rb5kTD1JAjQmUv8PqLFRknQWWEb4faQV?key=SZHaDLu24DLXyFgiFaRNLA)
 
 4. Fazendo a injeção de dependência na Controller.
+
     
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfux749GeSrKSqOAAUsLXhksPKRhdq5bZZX1WhZrricSJkMFrIbCnB6ntuVh7IkurYu6p0IK1Dfz9_Q8zjqSU05vza-lWQJxp-jzPZA0V5b6zW10PYFYwVy_WS2mF_FSPVvBdpZxDA6UXGEh5gcMdP6E7BE?key=SZHaDLu24DLXyFgiFaRNLA)
 
 5. Mapeando: Nova abordagem x Antiga abordagem.
+
     
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcx_OpwZm_3ukz26bU_synrfeYQxaIBLvq64NpVBfwsDidoBnCxNraNlFDx2nf79L5ZJh8Cv1vOINnXHEai4Gt7cxSzf9VkoqNxwGKXbqnNAypjWWqjPvm4nYmmNnpOz_mxZLY6gridxXwvL9h9fLwBMRky?key=SZHaDLu24DLXyFgiFaRNLA)
@@ -192,4 +197,5 @@ Com ReverseMap CursoRequest pode ser mapeado para Curso.
   
   
   
+
 **

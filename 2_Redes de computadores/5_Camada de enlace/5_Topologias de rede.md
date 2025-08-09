@@ -10,7 +10,6 @@
 - **Falhas:** Se houver uma ruptura no cabo principal, **toda a rede para de funcionar**. 
 - **Alto Tráfego e Colisões:** Como todos os dispositivos compartilham o mesmo meio de transmissão, o risco de colisões é alto.
 
-
 ![200](../../attachments/Pasted%20image%2020250701164558.png)
 
 ### **Topologia estrela**
@@ -34,6 +33,4 @@
 - **Custo alto** se comparado ao barramento
 
 ![200](../../attachments/Pasted%20image%2020250701164839.png)
-
-
 

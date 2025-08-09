@@ -1,6 +1,7 @@
 
 
 ---
+
 ![](attachments/Pasted%20image%2020250716190938.png)
 
 - **Alta Segurança:** O sinal infravermelho não atravessa objetos sólidos. Isso significa que a comunicação fica contida dentro de um ambiente, tornando-a segura contra interceptações.
@@ -13,7 +14,5 @@
 - **Sensibilidade a Condições Climáticas e Luz:** A comunicação pode ser afetada por condições climáticas como neblina, chuva forte ou poeira. Além disso, fontes de luz intensa, especialmente a luz solar direta, podem interferir o sinal.
 - **Penetração Nula:** A mesma característica que garante a segurança (não atravessar paredes) é uma desvantagem para a cobertura de múltiplos cômodos em uma casa ou escritório.
 
-
 ![500](attachments/Pasted%20image%2020250716191027.png)
-
 

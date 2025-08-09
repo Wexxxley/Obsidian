@@ -16,5 +16,3 @@ Status: #Concluded
 - Necessário hardware que suporte comunicação simultânea.
 - Exemplo: chamadas telefônicas, redes Ethernet modernas.
 
-
-

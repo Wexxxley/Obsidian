@@ -5,6 +5,7 @@ Quando você cria um novo projeto, é possível escolher dois tipos de Web APIs:
 2. Web APIs sem controllers (minimal api)
 
 Ao instalar o .net, é possível verificar os tampletes disponíveis com: ``dotnet new list``
+
 ![](attachments/Pasted%20image%2020250804140139.png)
 
 ---
@@ -19,21 +20,27 @@ Um arquivo `.sln` é um arquivo de organização usado pela plataforma .NET para
 3. **Integração com o IDE:** Ao abrir um arquivo `.sln` no Visual Studio ou no Visual Studio Code, o IDE carrega automaticamente todos os projetos listados
 
 Criando solução.
+
 ![](attachments/Pasted%20image%2020250804141303.png)
 
 Criando Projeto WEBAPI.
+
 ![](attachments/Pasted%20image%2020250804141318.png)
 
 Adicionando a solução
+
 ![](attachments/Pasted%20image%2020250804141337.png)
 
 Para verificar se esta funcionando.
+
 ![](attachments/Pasted%20image%2020250804142343.png)
 
 ---
 ### **Configurando o Swagger**
 Intale o seguinte e pacote e aplique as seguintes configurações.
+
 ![](attachments/Pasted%20image%2020250805090656.png)
+
 ![550](attachments/Pasted%20image%2020250805090807.png)
 
 ---
@@ -133,6 +140,7 @@ Esse comando cria dois arquivos na pasta Migrations em seu projeto:
 - Arquivo de migração: Este arquivo, com o formato Time_MigrationName.cs, descreve as ações a serem realizadas no database, como criar uma tabela, adicionar uma coluna e etc. 
     
 - AppDbContextModelSnapshot.cs: Este arquivo descreve o modelo interno atual do EF Core. Este arquivo é atualizado quando você adiciona outra migração, então ele deve sempre ser igual à migração atual. 
+
     
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcwk3jiMuIH9LoEbEN5Db_VQXm4-_ifL8X71bo1ipWzxA3ZkvXVx2snCAoXib2VLtWKOqRV_MmT-xVkpts8r9gUCM3c_V0FjEeZwCuKp4iSojmMryECskNzYfNZYxNzUDovJxrUqYE_84hxVuic6iceB6U?key=SZHaDLu24DLXyFgiFaRNLA)
@@ -291,4 +299,5 @@ Como o database foi feito no PostgreSQL, é preciso adicionar um provedor.
   
   
   
+
 **
