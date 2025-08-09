@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "8_POO/Enum em Java.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.50499725341797
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -176,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,6 +195,7 @@
   },
   "active": "8d9825c13a622337",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250809122914.png",
     "attachments/Pasted image 20250809120536.png",
     "9_Dotnet/2_ECommerce FullStack/4_React, Vite e Redux.md",
     "8_POO/Enum em Java.md",
@@ -235,7 +238,6 @@
     "5_Banco de dados/1_PostgreSQL/1_Início.md",
     "attachments/Pasted image 20250805090807.png",
     "attachments/Pasted image 20250805090725.png",
-    "attachments/Pasted image 20250805090656.png",
     "9_Dotnet/2_ECommerce FullStack",
     "9_Dotnet",
     "Modelagem.pdf",
