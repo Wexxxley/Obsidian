@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9_Dotnet/2_ECommerce FullStack/4_React, Vite e Redux.md",
+                "file": "8_POO/Enum em Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_React, Vite e Redux"
+              "title": "Enum em Java"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9_Dotnet/2_ECommerce FullStack/4_React, Vite e Redux.md",
+                "file": "8_POO/Enum em Java.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 4_React, Vite e Redux"
+              "title": "Sumário de Enum em Java"
             }
           },
           {
@@ -193,8 +193,9 @@
   },
   "active": "8d9825c13a622337",
   "lastOpenFiles": [
-    "9_Dotnet/2_ECommerce FullStack/3_Criando Controller.md",
     "9_Dotnet/2_ECommerce FullStack/4_React, Vite e Redux.md",
+    "8_POO/Enum em Java.md",
+    "9_Dotnet/2_ECommerce FullStack/3_Criando Controller.md",
     "attachments/Pasted image 20250809073734.png",
     "attachments/Pasted image 20250809073544.png",
     "attachments/Pasted image 20250809073302.png",
@@ -236,7 +237,6 @@
     "attachments/Pasted image 20250805090725.png",
     "attachments/Pasted image 20250805090656.png",
     "9_Dotnet/2_ECommerce FullStack",
-    "10_Aleatórios/Anotacao.md",
     "9_Dotnet",
     "Modelagem.pdf",
     "Sem título.canvas"
