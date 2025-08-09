@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI/3_Tipos de retorno.md",
+                "file": "9_Dotnet/2_ECommerce com MongoDB/3_Criando Controller.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Tipos de retorno"
+              "title": "3_Criando Controller"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI/3_Tipos de retorno.md",
+                "file": "9_Dotnet/2_ECommerce com MongoDB/3_Criando Controller.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 3_Tipos de retorno"
+              "title": "Sumário de 3_Criando Controller"
             }
           },
           {
@@ -193,6 +193,9 @@
   },
   "active": "23ffe20490686e5c",
   "lastOpenFiles": [
+    "9_Dotnet/2_ECommerce com MongoDB/2_ODM (Object-Document Mapper).md",
+    "9_Dotnet/2_ECommerce com MongoDB/3_Criando Controller.md",
+    "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI/3_Tipos de retorno.md",
     "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI/2_Validação de modelos.md",
     "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI/5_Data Transfer Object (DTO).md",
     "attachments/Pasted image 20250808142810.png",
@@ -201,9 +204,7 @@
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/5_DataAnnotations.md",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/6_Database first.md",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/7_Criando endpoints.md",
-    "9_Dotnet/2_ECommerce com MongoDB/2_ODM (Object-Document Mapper).md",
     "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI/4_Middleware.md",
-    "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI/3_Tipos de retorno.md",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/9_Otimizando desempenho.md",
     "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/Sem título",
