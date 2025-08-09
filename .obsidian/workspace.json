@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e0e84a7c1cb6569b",
+        "id": "de1286b93784c71d",
         "type": "tabs",
         "children": [
           {
-            "id": "23ffe20490686e5c",
+            "id": "8d9825c13a622337",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "9_Dotnet/2_ECommerce com MongoDB/3_Criando Controller.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3_Criando Controller"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "9_Dotnet/2_ECommerce com MongoDB/3_Criando Controller.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário"
+              "title": "Sumário de 3_Criando Controller"
             }
           },
           {
@@ -186,7 +191,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c52f17c64e87cbf",
+  "active": "8d9825c13a622337",
   "lastOpenFiles": [
     "9_Dotnet/2_ECommerce com MongoDB/3_Criando Controller.md",
     "attachments/Pasted image 20250809073734.png",
