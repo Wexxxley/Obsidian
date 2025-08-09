@@ -21,71 +21,19 @@ Antes dos enums, usavam constantes de String ou int para representar esses valor
 O Enum soluciona tudo isso, além de melhorar a legibilidade.
 
 ---
-### Sintaxe
+### Sintaxe Básica
 
-A declaração mais simples de um enum é uma lista de constantes:
+A declaração mais simples.
+![](attachments/Pasted%20image%2020250809120536.png)
 
-Java
-
-```
-public enum StatusPedido {
-    PROCESSANDO,
-    ENVIADO,
-    ENTREGUE,
-    CANCELADO; // O ponto e vírgula é opcional aqui, mas necessário se houver mais código.
-}
-```
-
-**Como usar:** Você pode declarar variáveis desse tipo e usá-las de forma segura, especialmente em estruturas como o `switch`.
-
-Java
-
-```
-// Declarando e atribuindo
-StatusPedido meuPedido = StatusPedido.ENVIADO;
-
-// Usando em um switch (muito comum e seguro)
-switch (meuPedido) {
-    case PROCESSANDO:
-        System.out.println("Seu pedido está sendo preparado.");
-        break;
-    case ENVIADO:
-        System.out.println("Seu pedido já foi enviado!");
-        break;
-    case ENTREGUE:
-        System.out.println("Pedido entregue com sucesso.");
-        break;
-    case CANCELADO:
-        System.out.println("Este pedido foi cancelado.");
-        break;
-    default:
-        System.out.println("Status desconhecido.");
-        break;
-}
-```
-
-O compilador garante que você só pode usar os valores definidos no `Enum`. Tentar usar `StatusPedido.PAGO` (que não existe) daria um erro de compilação.
-
----
-
-### Enums são Classes Especiais (O Grande Poder do Java)
-
-É aqui que o Java brilha. Um `enum` não é apenas uma lista de nomes, ele é compilado como uma **classe especial**. Isso significa que um enum pode ter:
-
-- **Atributos (campos)**
-    
-- **Construtores** (que são sempre `private`)
-    
+Um `enum` não é apenas uma lista de nomes, ele é uma **classe especial**. Um enum pode ter:
+- **Atributos**    
+- **Construtores (PRIVATE)** 
 - **Métodos**
-    
 
-Cada constante que você declara no enum (como `PROCESSANDO`) é, na verdade, um objeto `public static final`, uma instância única da classe do enum.
+Cada constante que você declara no enum é, na verdade, um objeto `public static final`, uma instância única da classe do enum.
 
-#### Exemplo Avançado: O Enum "Inteligente"
-
-Vamos usar o `TipoOperacao` que vimos antes. Ele é um exemplo perfeito de um enum "inteligente".
-
-Java
+#### Exemplo Avançado
 
 ```
 // O enum é uma classe chamada TipoOperacao
