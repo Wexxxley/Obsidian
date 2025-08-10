@@ -43,6 +43,9 @@
 2. **Otimização para Produção:**
     - Quando você termina o projeto e precisa gerar os arquivos finais para hospedar na internet, o Vite otimiza tudo: ele minifica o código (remove espaços e encurta nomes), divide o código em pedaços menores (code splitting) para um carregamento mais rápido, e muito mais.
 
+![550](attachments/Pasted%20image%2020250810082243.png)
+![170](attachments/Pasted%20image%2020250810082258.png)
+
 ---
 ### **3. Redux**
 **Objetivo Principal:** Gerenciar o **estado global** da sua aplicação de forma previsível, centralizada e depurável.
