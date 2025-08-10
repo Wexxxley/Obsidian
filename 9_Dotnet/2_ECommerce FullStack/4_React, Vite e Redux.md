@@ -31,57 +31,8 @@
     //chaves duplas: a primeira para injetar JS, a segunda para o objeto.
     <div style={{ backgroundColor: 'blue', fontSize: '16px' }}></div>
     ```
-#### 5. Um Único Elemento Raiz por Componente
 
-Um componente React só pode retornar **um único elemento "pai"**. Se você precisar retornar múltiplos elementos adjacentes, você deve envolvê-los em um elemento pai.
-
-- **Isto causa um ERRO:**
-    
-    JavaScript
-    
-    ```
-    return (
-      <h1>Título</h1>
-      <p>Parágrafo</p> // Erro! Dois elementos no nível superior.
-    );
-    ```
-    
-- **Solução: Usar `Fragments`** Para não adicionar `divs` desnecessárias ao seu HTML, use um **Fragment**, que é representado por `<> ... </>`.
-    
-    JavaScript
-    
-    ```
-    return (
-      <>
-        <h1>Título</h1>
-        <p>Parágrafo</p>
-      </> // Correto! O Fragment serve como um elemento pai invisível.
-    );
-    ```
-    
-
-#### 6. Atributo `for` vira `htmlFor`
-
-Assim como `class`, a palavra `for` é reservada em JavaScript (para laços de repetição `for (...)`). Portanto, em `labels`, você deve usar `htmlFor`.
-
-- **HTML Puro:**
-    
-    HTML
-    
-    ```
-    <label for="username">Usuário:</label>
-    <input id="username" type="text" />
-    ```
-    
-- **JSX:**
-    
-    JavaScript
-    
-    ```
-    <label htmlFor="username">Usuário:</label>
-    <input id="username" type="text" />
-    ```
-
+---
 ### **2. Vite**
 
 **Objetivo Principal:** Servir como uma ferramenta de `build` e um servidor de desenvolvimento **extremamente rápido** para projetos web modernos. Vite não faz parte da sua aplicação final, mas é a ferramenta que você, desenvolvedor, usa todos os dias. Ele resolve dois grandes problemas:
@@ -92,6 +43,7 @@ Assim como `class`, a palavra `for` é reservada em JavaScript (para laços de r
 2. **Otimização para Produção:**
     - Quando você termina o projeto e precisa gerar os arquivos finais para hospedar na internet, o Vite otimiza tudo: ele minifica o código (remove espaços e encurta nomes), divide o código em pedaços menores (code splitting) para um carregamento mais rápido, e muito mais.
 
+---
 ### **3. Redux**
 **Objetivo Principal:** Gerenciar o **estado global** da sua aplicação de forma previsível, centralizada e depurável.
 
