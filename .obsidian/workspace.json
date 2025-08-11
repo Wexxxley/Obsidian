@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9_Dotnet/2_ECommerce FullStack/5_React.md",
+                "file": "9_Dotnet/2_ECommerce FullStack/5_Componentes React.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_React"
+              "title": "5_Componentes React"
             }
           }
         ]
@@ -194,7 +194,9 @@
   "active": "c7f6ad15f24d860f",
   "lastOpenFiles": [
     "9_Dotnet/2_ECommerce FullStack/4_React, Vite e Redux.md",
-    "9_Dotnet/2_ECommerce FullStack/5_React.md",
+    "9_Dotnet/2_ECommerce FullStack/5_Componentes React.md",
+    "attachments/Pasted image 20250811103606.png",
+    "attachments/Pasted image 20250811103500.png",
     "attachments/Pasted image 20250810082917.png",
     "attachments/Pasted image 20250810082751.png",
     "attachments/Pasted image 20250810082258.png",
@@ -205,12 +207,10 @@
     "9_Dotnet/2_ECommerce FullStack/3_Criando Controller.md",
     "attachments/Pasted image 20250809073734.png",
     "attachments/Pasted image 20250809073544.png",
-    "attachments/Pasted image 20250809073302.png",
     "9_Dotnet/2_ECommerce FullStack/2_ODM (Object-Document Mapper).md",
     "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI/3_Tipos de retorno.md",
     "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI/2_Validação de modelos.md",
     "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI/5_Data Transfer Object (DTO).md",
-    "attachments/Pasted image 20250808142810.png",
     "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI/1_Modelo de rotas.md",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/5_DataAnnotations.md",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/6_Database first.md",
@@ -235,7 +235,6 @@
     "5_Banco de dados/2_MongoDb/1_Apresentação.md",
     "9_Dotnet/1_WebAPI",
     "5_Banco de dados/1_PostgreSQL",
-    "5_Banco de dados/1_PostgreSQL/1_Início.md",
     "9_Dotnet/2_ECommerce FullStack",
     "9_Dotnet",
     "Modelagem.pdf",

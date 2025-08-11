@@ -15,7 +15,7 @@ Existem duas maneiras de criar componentes em React.  Hoje em dia, uma é a form
       return <h1>Olá, {props.nome}!</h1>;
     }
     ```
-    
+
 2. **Class Components - O Jeito Antigo**: Você ainda os encontrará em projetos mais antigos, mas raramente precisará criar novos.
     ```jsx
     class Saudacao extends React.Component {
@@ -24,6 +24,8 @@ Existem duas maneiras de criar componentes em React.  Hoje em dia, uma é a form
       }
     }
     ```
+
+
 
 ---
 ### **2 Props (Properties)**
@@ -110,3 +112,9 @@ function BookList() {
   );
 }
 ```
+
+---
+### **5. Mais exemplos**
+
+Usando map
+![500](attachments/Pasted%20image%2020250811103606.png)
