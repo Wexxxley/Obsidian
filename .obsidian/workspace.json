@@ -176,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,6 +193,8 @@
   },
   "active": "c7f6ad15f24d860f",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250810082917.png",
+    "attachments/Pasted image 20250810082751.png",
     "attachments/Pasted image 20250810082258.png",
     "attachments/Pasted image 20250810082243.png",
     "8_POO/Enum em Java.md",
@@ -224,8 +225,6 @@
     "Sem título.md",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/3_Entity Framework Core.md",
     "8_POO/LinkedList vs ArrayList (JAVA).md",
-    "attachments/Pasted image 20250805102557.png",
-    "attachments/Pasted image 20250805102120.png",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/2_Criando o projeto.md",
     "9_Dotnet/WebAPI/1_Criando uma WebAPI/3_Entity Framework",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",

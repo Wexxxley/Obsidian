@@ -45,6 +45,8 @@
 
 ![550](attachments/Pasted%20image%2020250810082243.png)
 ![170](attachments/Pasted%20image%2020250810082258.png)
+![600](attachments/Pasted%20image%2020250810082751.png)
+![500](attachments/Pasted%20image%2020250810082917.png)
 
 ---
 ### **3. Redux**
