@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9_Dotnet/2_ECommerce FullStack/4_React, Vite e Redux.md",
+                "file": "9_Dotnet/2_ECommerce FullStack/5_React.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_React, Vite e Redux"
+              "title": "5_React"
             }
           }
         ]
@@ -193,6 +193,8 @@
   },
   "active": "c7f6ad15f24d860f",
   "lastOpenFiles": [
+    "9_Dotnet/2_ECommerce FullStack/4_React, Vite e Redux.md",
+    "9_Dotnet/2_ECommerce FullStack/5_React.md",
     "attachments/Pasted image 20250810082917.png",
     "attachments/Pasted image 20250810082751.png",
     "attachments/Pasted image 20250810082258.png",
@@ -200,7 +202,6 @@
     "8_POO/Enum em Java.md",
     "attachments/Pasted image 20250809122914.png",
     "attachments/Pasted image 20250809120536.png",
-    "9_Dotnet/2_ECommerce FullStack/4_React, Vite e Redux.md",
     "9_Dotnet/2_ECommerce FullStack/3_Criando Controller.md",
     "attachments/Pasted image 20250809073734.png",
     "attachments/Pasted image 20250809073544.png",
@@ -210,7 +211,6 @@
     "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI/2_Validação de modelos.md",
     "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI/5_Data Transfer Object (DTO).md",
     "attachments/Pasted image 20250808142810.png",
-    "attachments/Pasted image 20250808142754.png",
     "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI/1_Modelo de rotas.md",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/5_DataAnnotations.md",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/6_Database first.md",
