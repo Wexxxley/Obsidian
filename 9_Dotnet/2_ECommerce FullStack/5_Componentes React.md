@@ -116,5 +116,5 @@ function BookList() {
 ---
 ### **5. Mais exemplos**
 
-Usando map
-![500](attachments/Pasted%20image%2020250811103606.png)
+Usando map e a tag Fragment
+![](attachments/Pasted%20image%2020250814092647.png)
