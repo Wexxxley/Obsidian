@@ -4,33 +4,19 @@
 ---
 **O objetivo principal dos componentes é quebrar a UI em pedaços isolados.** Em vez de ter uma única página HTML gigante, você pode ter um componente para a barra de navegação, um para a barra lateral, um para cada card de produto, e até mesmo um para um simples botão.
 
-### **1. Tipos de Componentes**
+---
+### **1. Functional Components - O Padrão Moderno**
+São simplesmente funções JavaScript que aceitam um objeto e retornam JSX, que descreve o que deve ser renderizado na tela. 
 
-Existem duas maneiras de criar componentes em React.  Hoje em dia, uma é a forma recomendada.
-
-1. **Functional Components - O Padrão Moderno**: São simplesmente funções JavaScript que aceitam um objeto e retornam JSX, que descreve o que deve ser renderizado na tela. 
-
-    ```jsx
+```jsx
     function Saudacao(props) {
       return <h1>Olá, {props.nome}!</h1>;
     }
     ```
 
-2. **Class Components - O Jeito Antigo**: Você ainda os encontrará em projetos mais antigos, mas raramente precisará criar novos.
-    ```jsx
-    class Saudacao extends React.Component {
-      render() {
-        return <h1>Olá, {this.props.nome}!</h1>;
-      }
-    }
-    ```
-
-
-
 ---
 ### **2 Props (Properties)**
 São a maneira de um componente **pai** passar dados para um componente **filho**. Pense neles como as "configurações" de um componente.
-- As props são **somente leitura**. 
 
 ```jsx
 // 1. O componente filho
@@ -118,3 +104,48 @@ function BookList() {
 
 Usando map e a tag Fragment
 ![](attachments/Pasted%20image%2020250814092647.png)
+
+2. `addProduct`: Adicionando um Novo Item (A Forma Correta)
+
+```
+const addProduct = () => {
+  setProducts(prevState => [...prevState, {name: 'product3', price: 300.00}])
+}
+```
+
+
+#### a) Imutabilidade e o Spread Syntax (`...`)
+
+O princípio mais importante do React é a **imutabilidade**. Você **nunca deve modificar o estado diretamente**. Em vez disso, você deve criar uma **cópia** do estado, fazer suas alterações na cópia e então usar a função de atualização (`setProducts`) para substituir o estado antigo pelo novo.
+
+O código `[...prevState, { ... }]` faz exatamente isso:
+
+- **`...prevState`**: O **spread syntax (`...`)** pega todos os itens do array de produtos antigo (`prevState`) e os "espalha" dentro de um novo array.
+    
+- **`[...]`**: Isso cria um array completamente **novo** em memória.
+    
+- **, `{name: 'product3', ...}`**: Em seguida, ele adiciona o novo produto ao final deste **novo** array.
+    
+
+O resultado é um array totalmente novo que contém todos os produtos antigos mais o novo.
+
+#### b) "Functional Update" (Atualização Funcional)
+
+Em vez de passar o novo array diretamente para `setProducts`, o código usa uma função: `prevState => ...`.
+
+- **`setProducts(função)`**: Esta é a forma mais segura de atualizar o estado, especialmente quando o novo estado depende do estado anterior.
+    
+- **`prevState`**: O React garante que o `prevState` dentro desta função será sempre o valor **mais recente** do estado, evitando bugs de "estado obsoleto" (stale state) que podem acontecer em operações complexas ou assíncronas.
+    
+
+### Resumo do Fluxo
+
+1. A função `addProduct` é chamada (provavelmente por um clique de botão).
+    
+2. Ela executa `setProducts`, passando uma função como argumento.
+    
+3. O React fornece o estado atual (`prevState`, que é `[{...}, {...}]`) para essa função.
+    
+4. Dentro da função, um **novo** array é criado usando o spread syntax, resultando em `[{...}, {...}, {name: 'product3', ...}]`.
+    
+5. O React recebe este novo array, substitui o estado antigo e renderiza novamente o componente na tela para mostrar a lista atualizada com os três produtos.
