@@ -27,3 +27,5 @@
 | ------------------------------ | ------------------ | ----------------------------------- |
 | `removeFirst()` `removeLast()` | **Não disponível** | Sim, métodos específicos para isso  |
 | `addFirst(e)` `addLast(e)`     | **Não disponível** | Sim, permite uso como fila ou pilha |
+
+![](attachments/Pasted%20image%2020250815093252.png)
