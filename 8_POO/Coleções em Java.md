@@ -39,6 +39,7 @@ System.out.println("A primeira fruta é: " + frutas.get(0));
 // Inserindo no meio, elementos são deslocados
 frutas.add(1, "Laranja"); 
 ```
+- No `ArrayList`, quando você remove um elemento, a lista "se compacta" para preencher o espaço. Se você quer manter o espaço vazio, você deve explicitamente colocar o valor `null`.
 
 ---
 
@@ -47,49 +48,37 @@ O `LinkedList` é outra implementação da interface `List`. Ele armazena os ele
 
 - **Estrutura de Nós:** Cada elemento é um nó que se conecta aos seus vizinhos.
 - **Inserção/Remoção Rápida:** Adicionar ou remover um elemento é rápido, pois envolve apenas a mudança de algumas referências (ponteiros), sem precisar deslocar outros elementos.
-    
-- **Acesso Lento:** Acessar um elemento por índice (ex: `get(5)`) é mais lento, pois o Java precisa percorrer a lista a partir do início ou do fim para chegar até o elemento desejado.
-    
+- **Acesso Lento:** Acessar um elemento por índice é mais lento, pois é preciso percorrer a lista a partir do início ou do fim para chegar até o elemento desejado.
 
-#### Código de Exemplo:
-
-Java
-
-```
+```java
 import java.util.LinkedList;
 
-LinkedList<String> tarefas = new LinkedList<>();
+LinkedList<String> tarefas = new LinkedList<String>();
 
 tarefas.add("Estudar Java");
 tarefas.add("Fazer compras");
 tarefas.add("Pagar contas");
 
-// Adicionando um elemento no meio da lista, uma operação muito rápida para LinkedList
+// Adicionando um elemento no meio da lista
 tarefas.add(1, "Lavar o carro"); 
-
-System.out.println(tarefas);
-// Saída: [Estudar Java, Lavar o carro, Fazer compras, Pagar contas]
 
 // Acessar por índice é menos eficiente
 System.out.println("A segunda tarefa é: " + tarefas.get(1));
-// Saída: A segunda tarefa é: Lavar o carro
 ```
+- No `LinkedList`, quando você remove um elemento, a lista "se compacta" para preencher o espaço. Se você quer manter o espaço vazio, você deve explicitamente colocar o valor `null`.
 
 ---
-
-
-
 ### Quando Usar Cada Um?
 
-| Característica               | `Array`                                          | `ArrayList`                                                          | `LinkedList`                                                   |
-| ---------------------------- | ------------------------------------------------ | -------------------------------------------------------------------- | -------------------------------------------------------------- |
-| **Tamanho**                  | Fixo                                             | Dinâmico (cresce automaticamente)                                    | Dinâmico (cresce automaticamente)                              |
-| **Acesso por Índice**        | **Muito rápido**                                 | **Muito rápido**                                                     | Lento (precisa percorrer a lista)                              |
-| **Inserção/Remoção no Meio** | Impossível                                       | Lenta (desloca elementos)                                            | **Muito rápida** (muda referências)                            |
-| **Melhor Uso**               | Quando o número de elementos é conhecido e fixo. | Quando precisa de acesso rápido e poucas inserções/remoções no meio. | Quando precisa de muitas inserções/remoções no meio ou início. |
-|                              |                                                  |                                                                      |                                                                |
+| Característica               | `Array`                   | `ArrayList`                               | `LinkedList`                                |
+| ---------------------------- | ------------------------- | ----------------------------------------- | ------------------------------------------- |
+| **Tamanho**                  | Fixo                      | Dinâmico                                  | Dinâmico                                    |
+| **Acesso por Índice**        | Muito rápido              | Muito rápido                              | Lento                                       |
+| **Inserção/Remoção no Meio** | Impossível                | Lenta (desloca elementos)                 | Rápida(muda referências)                    |
+| **Melhor Uso**               | Número de elementos fixo. | Acesso rápido e poucas operacoes no meio. | Quando precisa de muitas operacoes no meio. |
 
-# LinkedList vs ArrayList (JAVA)
+---
+### LinkedList vs ArrayList 
 
 | **Característica**    | **ArrayList**                                          | **LinkedList**                                           |
 | --------------------- | ------------------------------------------------------ | -------------------------------------------------------- |
@@ -97,7 +86,6 @@ System.out.println("A segunda tarefa é: " + tarefas.get(1));
 | **Acesso por índice** | `O(1)`                                                 | `O(n)`, pois precisa percorrer a lista                   |
 | **Inserção/rem.**     | `O(n)` pois elementos devem ser deslocados             | `O(1)` nas extremidades                                  |
 | **Uso recomendado**   | Quando há muitas leituras e pouco uso de inserção/rem. | Quando há muitas inserções/remoções em posições variadas |
-|                       |                                                        |                                                          |
 
 ### Métodos comuns
 
