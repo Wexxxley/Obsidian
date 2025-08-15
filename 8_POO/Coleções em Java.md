@@ -1,6 +1,5 @@
 
 ---
-
 ### **Array**
 O arryay armazena um número fixo de elementos de um mesmo tipo, seja primitivo (int, double) ou um objeto.
 - **Tamanho Fixo**
@@ -8,66 +7,46 @@ O arryay armazena um número fixo de elementos de um mesmo tipo, seja primitivo 
 - **Performance:** Por ter um tamanho fixo e ser uma estrutura simples, é muito eficiente em termos de memória e velocidade.
 
 ```java
-String[] nomes = new String[3];
+String[] nomes = new String[4];
 
 nomes[0] = "Matheus";
 nomes[1] = "João";
-nomes[2] = "Julia";
+nomes[3] = "Julia";
 
 System.out.println("O segundo nome é: " + nomes[1]); 
-
-
-// Tentando adicionar um quarto elemento causa um erro ()
-// nomes[3] = "David"; 
 ```
-
-- Caso você tente 
+![600](attachments/Pasted%20image%2020250815134802.png)
+- Caso você tente acessar fora da memoria alocada: **IndexOutOfBoundsException**
 
 ---
-
 ### ArrayList
-
-O `ArrayList` é uma das implementações da interface `List` e é a mais popular. Pense nele como um `Array` dinâmico: ele armazena elementos em uma estrutura interna de array, mas **aumenta ou diminui de tamanho automaticamente** conforme necessário.
-
-- **Tamanho Dinâmico:** Você pode adicionar ou remover elementos sem se preocupar com o tamanho.
-    
-- **Acesso Rápido:** Assim como um array, o acesso por índice é rápido.
-    
+O `ArrayList` é uma das implementações da interface `List` . É como um `Array` dinâmico: ele armazena elementos em uma estrutura interna de array, mas **aumenta ou diminui de tamanho automaticamente** conforme necessário.
+- **Tamanho Dinâmico** 
+- **Acesso Rápido** 
 - **Inserção/Remoção Lenta no Meio:** Adicionar ou remover um elemento no meio da lista é mais lento, pois todos os elementos seguintes precisam ser movidos.
-    
 
-#### Código de Exemplo:
-
-Java
-
-```
+```java
 import java.util.ArrayList;
 
-ArrayList<String> frutas = new ArrayList<>();
+ArrayList<String> frutas = new ArrayList<String>();
 
 frutas.add("Maçã");
 frutas.add("Banana");
-frutas.add("Abacaxi"); // O ArrayList cresce automaticamente
+frutas.add("Abacaxi"); 
 
 System.out.println("A primeira fruta é: " + frutas.get(0));
-// Saída: A primeira fruta é: Maçã
 
-// Inserindo no meio, todos os elementos após "Maçã" são deslocados
+// Inserindo no meio, elementos são deslocados
 frutas.add(1, "Laranja"); 
-
-System.out.println(frutas);
-// Saída: [Maçã, Laranja, Banana, Abacaxi]
 ```
 
 ---
 
 ### LinkedList
+O `LinkedList` é outra implementação da interface `List`. Ele armazena os elementos em **nós**, onde cada nó guarda o valor e uma referência para o nó anterior e o próximo.
 
-O `LinkedList` é outra implementação da interface `List`. Diferente do `ArrayList`, ele não usa um array interno. Ele armazena os elementos em **nós**, onde cada nó guarda o valor e uma referência para o nó anterior e o próximo.
-
-- **Estrutura de Nós:** Cada elemento é um "nó" que se conecta aos seus vizinhos.
-    
-- **Inserção/Remoção Rápida:** Adicionar ou remover um elemento é muito rápido, pois envolve apenas a mudança de algumas referências (ponteiros), sem precisar deslocar outros elementos.
+- **Estrutura de Nós:** Cada elemento é um nó que se conecta aos seus vizinhos.
+- **Inserção/Remoção Rápida:** Adicionar ou remover um elemento é rápido, pois envolve apenas a mudança de algumas referências (ponteiros), sem precisar deslocar outros elementos.
     
 - **Acesso Lento:** Acessar um elemento por índice (ex: `get(5)`) é mais lento, pois o Java precisa percorrer a lista a partir do início ou do fim para chegar até o elemento desejado.
     
@@ -118,6 +97,7 @@ System.out.println("A segunda tarefa é: " + tarefas.get(1));
 | **Acesso por índice** | `O(1)`                                                 | `O(n)`, pois precisa percorrer a lista                   |
 | **Inserção/rem.**     | `O(n)` pois elementos devem ser deslocados             | `O(1)` nas extremidades                                  |
 | **Uso recomendado**   | Quando há muitas leituras e pouco uso de inserção/rem. | Quando há muitas inserções/remoções em posições variadas |
+|                       |                                                        |                                                          |
 
 ### Métodos comuns
 
