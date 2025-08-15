@@ -19,7 +19,7 @@ System.out.println("O segundo nome é: " + nomes[1]);
 - Caso você tente acessar fora da memoria alocada: **IndexOutOfBoundsException**
 
 ---
-### ArrayList
+### **ArrayList**
 O `ArrayList` é uma das implementações da interface `List` . É como um `Array` dinâmico: ele armazena elementos em uma estrutura interna de array, mas **aumenta ou diminui de tamanho automaticamente** conforme necessário.
 - **Tamanho Dinâmico** 
 - **Acesso Rápido** 
@@ -42,8 +42,7 @@ frutas.add(1, "Laranja");
 - No `ArrayList`, quando você remove um elemento, a lista "se compacta" para preencher o espaço. Se você quer manter o espaço vazio, você deve explicitamente colocar o valor `null`.
 
 ---
-
-### LinkedList
+### **LinkedList**
 O `LinkedList` é outra implementação da interface `List`. Ele armazena os elementos em **nós**, onde cada nó guarda o valor e uma referência para o nó anterior e o próximo.
 
 - **Estrutura de Nós:** Cada elemento é um nó que se conecta aos seus vizinhos.
@@ -68,7 +67,7 @@ System.out.println("A segunda tarefa é: " + tarefas.get(1));
 - No `LinkedList`, quando você remove um elemento, a lista "se compacta" para preencher o espaço. Se você quer manter o espaço vazio, você deve explicitamente colocar o valor `null`.
 
 ---
-### Quando Usar Cada Um?
+### **Quando Usar Cada Um?**
 
 | Característica               | `Array`                   | `ArrayList`                               | `LinkedList`                                |
 | ---------------------------- | ------------------------- | ----------------------------------------- | ------------------------------------------- |
@@ -78,7 +77,7 @@ System.out.println("A segunda tarefa é: " + tarefas.get(1));
 | **Melhor Uso**               | Número de elementos fixo. | Acesso rápido e poucas operacoes no meio. | Quando precisa de muitas operacoes no meio. |
 
 ---
-### LinkedList vs ArrayList 
+### **LinkedList vs ArrayList** 
 
 | **Característica**    | **ArrayList**                                          | **LinkedList**                                           |
 | --------------------- | ------------------------------------------------------ | -------------------------------------------------------- |
@@ -87,7 +86,8 @@ System.out.println("A segunda tarefa é: " + tarefas.get(1));
 | **Inserção/rem.**     | `O(n)` pois elementos devem ser deslocados             | `O(1)` nas extremidades                                  |
 | **Uso recomendado**   | Quando há muitas leituras e pouco uso de inserção/rem. | Quando há muitas inserções/remoções em posições variadas |
 
-### Métodos comuns
+---
+### **Métodos comuns**
 
 | **Método**            | **Descrição**                                     | **Exemplo**             |
 | --------------------- | ------------------------------------------------- | ----------------------- |
@@ -103,11 +103,22 @@ System.out.println("A segunda tarefa é: " + tarefas.get(1));
 | `isEmpty()`           | Verifica se a lista está vazia                    | `lista.isEmpty();`      |
 | `indexOf(Object o)`   | Retorna o índice da primeira ocorrência do objeto | `lista.indexOf("B");`   |
 
-### Diferenças específicas
+---
+### **Diferenças específicas**
 
 | **Operação**                   | **ArrayList**      | **LinkedList**                      |
 | ------------------------------ | ------------------ | ----------------------------------- |
 | `removeFirst()` `removeLast()` | **Não disponível** | Sim, métodos específicos para isso  |
 | `addFirst(e)` `addLast(e)`     | **Não disponível** | Sim, permite uso como fila ou pilha |
+
+
+
+
+
+
+
+
+
+
 
 ![](attachments/Pasted%20image%2020250815093252.png)
