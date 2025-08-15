@@ -1,7 +1,7 @@
 
 ---
 ### **Array**
-O arryay armazena um número fixo de elementos de um mesmo tipo, seja primitivo (int, double) ou um objeto.
+O array armazena um número fixo de elementos de um mesmo tipo, seja primitivo (int, double) ou um objeto.
 - **Tamanho Fixo**
 - **Acesso por índice:** ``meuArray[0] ``extremamente rápido.
 - **Performance:** Por ter um tamanho fixo e ser uma estrutura simples, é muito eficiente em termos de memória e velocidade.
@@ -15,7 +15,6 @@ nomes[3] = "Julia";
 
 System.out.println("O segundo nome é: " + nomes[1]); 
 ```
-![600](attachments/Pasted%20image%2020250815134802.png)
 - Caso você tente acessar fora da memoria alocada: **IndexOutOfBoundsException**
 
 ---
