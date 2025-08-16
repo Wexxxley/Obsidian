@@ -5,11 +5,11 @@
 
 É necessário o `import java.util.Arrays;`
 ![400](attachments/Pasted%20image%2020250816075536.png)
+
 ---
 ### **2. Ordenação de Arrays de Objetos**
 Vamos supor que queremos ordenar um array de clientes.
-![300](attachments/Pasted%20image%2020250816075750.png)
-
+![300](attachments/Pasted%20image%2020250816081724.png)
 Para ordenar os objetos, é precisa saber por qual critério organizar os elementos. Você pode fazer isso de duas maneiras:
 
 #### **2.1 sando a interface `Comparable`**
@@ -20,12 +20,11 @@ O método `compareTo` deve retornar um valor que obedece a três regras simples:
 2. **Zero:** Retorne zero se o objeto atual (`this`) for igual a o `outro`.
 3. **Valor positivo :** Retorne um valor positivo se o objeto atual (`this`) for maior que o `outro`. 
 
-![](attachments/Pasted%20image%2020250816081240.png)
-#### b) Usando a interface `Comparator`
+![500](attachments/Pasted%20image%2020250816081336.png)
+Agora é so usar o sort padrao.
+#### **2.1 Usando `Comparator`**
+O `Comparator` é ideal para definir regras de ordenação externas à classe do objeto. Ele oferece muito mais flexibilidade, pois permite que você tenha diferentes critérios de ordenação sem precisar modificar a classe original.
 
-Se você precisa ordenar por critérios diferentes (como por nome e não por preço), ou se não pode modificar a classe do objeto, você pode passar um `Comparator` como argumento para o `Arrays.sort()`.
-
-Java
 
 ```
 import java.util.Arrays;
