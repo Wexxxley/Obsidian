@@ -32,4 +32,6 @@ A forma mais moderna e limpa de usar um `Comparator` é com uma expressão lambd
 
 ---
 ### **3. Ordenando list com tipos primitivos**
-É pre
+É preciso do`` import java.util.Collections;``
+![](attachments/Pasted%20image%2020250816083907.png)
+
