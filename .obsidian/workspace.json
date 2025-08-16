@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8_POO/Coleções em Java.md",
-                "mode": "preview",
+                "file": "8_POO/Ordenação de coleções.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Coleções em Java"
+              "title": "Ordenação de coleções"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#LinkedList",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,13 +74,11 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -196,9 +194,12 @@
   },
   "active": "c7f6ad15f24d860f",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250816075750.png",
+    "attachments/Pasted image 20250816075536.png",
+    "8_POO/Coleções em Java.md",
+    "8_POO/Ordenação de coleções.md",
     "attachments/Pasted image 20250815134802.png",
     "8_POO/Enum em Java.md",
-    "8_POO/Coleções em Java.md",
     "attachments/Pasted image 20250815093252.png",
     "9_Dotnet/2_ECommerce FullStack/5_Componentes React.md",
     "attachments/Pasted image 20250814092647.png",
@@ -209,8 +210,6 @@
     "attachments/Pasted image 20250810082751.png",
     "attachments/Pasted image 20250810082258.png",
     "attachments/Pasted image 20250810082243.png",
-    "attachments/Pasted image 20250809122914.png",
-    "attachments/Pasted image 20250809120536.png",
     "9_Dotnet/2_ECommerce FullStack/3_Criando Controller.md",
     "9_Dotnet/2_ECommerce FullStack/2_ODM (Object-Document Mapper).md",
     "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI/3_Tipos de retorno.md",
@@ -236,7 +235,6 @@
     "9_Dotnet/1_WebAPI/x_Injeção de dependência",
     "2_Redes de computadores/2_Camada Aplicação/3_Http e cookies.md",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI",
-    "5_Banco de dados/2_MongoDb/1_Apresentação.md",
     "9_Dotnet/1_WebAPI",
     "5_Banco de dados/1_PostgreSQL",
     "9_Dotnet/2_ECommerce FullStack",
