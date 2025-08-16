@@ -13,56 +13,14 @@ Vamos supor que queremos ordenar um array de clientes.
 Para ordenar os objetos, é precisa saber por qual critério organizar os elementos. Você pode fazer isso de duas maneiras:
 
 #### **2.1 sando a interface `Comparable`**
-A sua classe de objeto pode implementar a interface `Comparable` para definir uma "ordem".
+A sua classe de objeto pode implementar a interface `Comparable` para definir uma "ordem". Com essa interface, é preciso definir uma implementação para ``compareTo``.
 
+O método `compareTo` deve retornar um valor que obedece a três regras simples:
+1. **Valor negativo :** Retorne um valor negativo se o objeto atual (`this`) for menor que o `outro`. 
+2. **Zero:** Retorne zero se o objeto atual (`this`) for igual a o `outro`.
+3. **Valor positivo :** Retorne um valor positivo se o objeto atual (`this`) for maior que o `outro`. 
 
-```
-import java.util.Arrays;
-
-class Produto implements Comparable<Produto> {
-    private String nome;
-    private double preco;
-
-    // Construtor, getters...
-
-    @Override
-    public int compareTo(Produto outro) {
-        // Define a ordem natural como a comparação pelo preço
-        return Double.compare(this.preco, outro.preco);
-    }
-    
-    @Override
-    public String toString() {
-        return "Produto{" + "nome='" + nome + '\'' + ", preco=" + preco + '}';
-    }
-}
-
-public class ExemploOrdenacaoObjeto {
-    public static void main(String[] args) {
-        Produto[] produtos = {
-            new Produto("Fone", 150.0),
-            new Produto("Celular", 2500.0),
-            new Produto("Mouse", 80.0)
-        };
-        
-        // O Arrays.sort() usa o método compareTo() que definimos
-        Arrays.sort(produtos);
-        
-        for (Produto p : produtos) {
-            System.out.println(p);
-        }
-    }
-}
-```
-
-**Saída:**
-
-```
-Produto{nome='Mouse', preco=80.0}
-Produto{nome='Fone', preco=150.0}
-Produto{nome='Celular', preco=2500.0}
-```
-
+![](attachments/Pasted%20image%2020250816081240.png)
 #### b) Usando a interface `Comparator`
 
 Se você precisa ordenar por critérios diferentes (como por nome e não por preço), ou se não pode modificar a classe do objeto, você pode passar um `Comparator` como argumento para o `Arrays.sort()`.
