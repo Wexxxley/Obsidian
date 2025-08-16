@@ -22,50 +22,14 @@ O método `compareTo` deve retornar um valor que obedece a três regras simples:
 
 ![500](attachments/Pasted%20image%2020250816081336.png)
 Agora é so usar o sort padrao.
-#### **2.1 Usando `Comparator`**
+#### **2.2 Usando `Comparator`**
 O `Comparator` é ideal para definir regras de ordenação externas à classe do objeto. Ele oferece muito mais flexibilidade, pois permite que você tenha diferentes critérios de ordenação sem precisar modificar a classe original.
 
+![550](attachments/Pasted%20image%2020250816082838.png)
 
-```
-import java.util.Arrays;
-import java.util.Comparator;
+A forma mais moderna e limpa de usar um `Comparator` é com uma expressão lambda:
+![550](attachments/Pasted%20image%2020250816082904.png)
 
-public class ExemploOrdenacaoComComparator {
-    public static void main(String[] args) {
-        Produto[] produtos = {
-            new Produto("Fone", 150.0),
-            new Produto("Celular", 2500.0),
-            new Produto("Mouse", 80.0)
-        };
-        
-        // Ordena por nome (critério alternativo) usando um Comparator
-        Arrays.sort(produtos, new Comparator<Produto>() {
-            @Override
-            public int compare(Produto p1, Produto p2) {
-                return p1.getNome().compareTo(p2.getNome());
-            }
-        });
-        
-        for (Produto p : produtos) {
-            System.out.println(p);
-        }
-    }
-}
-```
-
-**Saída:**
-
-```
-Produto{nome='Celular', preco=2500.0}
-Produto{nome='Fone', preco=150.0}
-Produto{nome='Mouse', preco=80.0}
-```
-
-A forma mais moderna e limpa de usar um `Comparator` é com uma **expressão lambda**:
-
-Java
-
-```
-// Ordena por nome com lambda
-Arrays.sort(produtos, (p1, p2) -> p1.getNome().compareTo(p2.getNome()));
-```
+---
+### **3. Ordenando list com tipos primitivos**
+É pre
