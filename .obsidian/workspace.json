@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8_POO/Ordenação de coleções.md",
+                "file": "8_POO/Coleções em Java.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ordenação de coleções"
+              "title": "Coleções em Java"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -195,6 +194,7 @@
   },
   "active": "c7f6ad15f24d860f",
   "lastOpenFiles": [
+    "8_POO/Ordenação de coleções.md",
     "attachments/Pasted image 20250816083907.png",
     "attachments/Pasted image 20250816082904.png",
     "attachments/Pasted image 20250816082838.png",
@@ -204,12 +204,10 @@
     "attachments/Pasted image 20250816075750.png",
     "attachments/Pasted image 20250816075536.png",
     "8_POO/Coleções em Java.md",
-    "8_POO/Ordenação de coleções.md",
     "attachments/Pasted image 20250815134802.png",
     "8_POO/Enum em Java.md",
     "attachments/Pasted image 20250815093252.png",
     "9_Dotnet/2_ECommerce FullStack/5_Componentes React.md",
-    "attachments/Pasted image 20250814092647.png",
     "9_Dotnet/2_ECommerce FullStack/4_React, Vite e Redux.md",
     "9_Dotnet/2_ECommerce FullStack/3_Criando Controller.md",
     "9_Dotnet/2_ECommerce FullStack/2_ODM (Object-Document Mapper).md",
