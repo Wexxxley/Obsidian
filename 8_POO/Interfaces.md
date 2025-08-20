@@ -7,30 +7,19 @@ Uma interface é um **CONTRATO** que define um conjunto de métodos que uma clas
 #### **1.1 Abstração e Flexibilidade**
 A interface ajuda a focar no "o quê" um objeto faz, em vez de no "como" ele faz. 
 
-**Cenário Real:** Imagine um sistema de e-commerce que precisa processar pagamentos. Hoje, a empresa pode usar o Pix, mas amanhã pode decidir adicionar o PayPal ou até mesmo um sistema de pagamento próprio.
+**Exemplo:** Imagine um sistema de e-commerce que precisa processar pagamentos. Hoje, a empresa pode usar o Pix, mas amanhã pode decidir adicionar o PayPal ou até mesmo um sistema de pagamento próprio.
 - **Sem Interfaces**: Você teria um código cheio de if/else ou dependências  para cada processador de pagamento, o que torna o código difícil de modificar. Cada vez que um novo provedor for adicionado, você precisa alterar o código central que processa os pagamentos.
-- **Com Interfaces**: Você cria uma interface `ProcessadorDePagamento` que define: ` processarPagamento(double valor, Pagamento detalhes)` e `boolean estornar(String transacaoId)`. As classes `StripeGateway` e `PaypalGateway` simplesmente implementam essa interface. O restante do seu sistema (a classe `CarrinhoDeCompras` ou `ServicoDePedidos`) não se importa se o pagamento está sendo processado pelo Stripe ou pelo PayPal, pois ele trabalha apenas com a interface `ProcessadorDePagamento`. Isso permite que a lógica de negócio do seu sistema permaneça intacta e **flexível**, pronta para acomodar qualquer novo método de pagamento no futuro.
-- **Múltipla Herança**: Java não permite que uma classe herde de múltiplas classes, mas permite que ela **implemente múltiplas interfaces**. Isso é útil para dar a uma classe várias capacidades. 
+- **Com Interfaces**: Você cria uma interface `ProcessadorDePagamento` que define: ` processarPagamento(double valor, Pagamento detalhes)` . As classes `PixGateway` e `PaypalGateway` simplesmente implementam essa interface. O restante do seu sistema não se importa se o pagamento está sendo processado pelo Pix ou pelo PayPal, pois ele trabalha apenas com a interface . 
+
+#### **1.2 Múltipla Herança**
+Java não permite que uma classe herde de múltiplas classes, mas permite que ela **implemente múltiplas interfaces**. Isso é útil para dar a uma classe várias capacidades. 
+
+**Exemplo:** Em uma empresa, existe a classe `Funcionario`, mas diferentes cargos têm habilidades distintas que não se encaixam em uma única hierarquia. Um `Vendedor` e um `Gerente` podem ter a habilidade de `EmitirRelatorio`, mas apenas o `Gerente` pode `AprovarOrcamento`. Usamos interfaces para definir essas capacidades.
+
 - **Padrões de Projeto**: Interfaces são essenciais para muitos padrões de projeto. 
 - **Manutenção**: Ao usar interfaces, você programa para a "interface" e não para a "implementação". Isso significa que você pode trocar uma classe por outra que implementa a mesma interface sem afetar o resto do código. Isso facilita a **manutenção** e o **crescimento** do projeto.
 
 
-    
-
-### 2. Múltipla Herança
-
-Embora Java não suporte herança múltipla de classes (uma classe filha só pode ter uma classe pai), ela permite que uma classe **implemente múltiplas interfaces**. Isso é crucial em sistemas empresariais para combinar funcionalidades diversas em uma única entidade.
-
-**Cenário Real:** Considere uma classe `ServicoDeAnaliseDeFraude` em uma instituição financeira. Essa classe precisa fazer várias coisas:
-
-1. **Registrar logs de eventos** para auditoria.
-    
-2. **Enviar notificações** de alertas de segurança para a equipe responsável.
-    
-3. **Processar uma fila de tarefas assíncronas** para análise de dados.
-    
-
-- **Com Interfaces**: Em vez de herdar de classes que fariam essas coisas (o que não é possível), a classe `ServicoDeAnaliseDeFraude` pode implementar as interfaces `RegistradorDeEventos`, `Notificavel`, e `ProcessadorDeFila`. Dessa forma, ela "herda" os comportamentos dessas interfaces, prometendo implementar os métodos `registrar()` do `RegistradorDeEventos`, `alertar()` do `Notificavel`, e `processar()` do `ProcessadorDeFila`. Essa abordagem permite que um único objeto tenha múltiplas "habilidades" sem a rigidez da herança de classes.
     
 
 ### 3. Padrões de Projeto (Design Patterns)
