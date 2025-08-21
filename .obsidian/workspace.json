@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8_POO/Interfaces.md",
+                "file": "8_POO/DecimalFormat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interfaces"
+              "title": "DecimalFormat"
             }
           }
         ]
@@ -194,8 +194,9 @@
   },
   "active": "c7f6ad15f24d860f",
   "lastOpenFiles": [
-    "8_POO/Coleções em Java.md",
     "8_POO/Interfaces.md",
+    "8_POO/DecimalFormat.md",
+    "8_POO/Coleções em Java.md",
     "8_POO/Ordenação de coleções.md",
     "attachments/Pasted image 20250816083907.png",
     "attachments/Pasted image 20250816082904.png",
@@ -233,7 +234,6 @@
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
     "9_Dotnet/2_ECommerce FullStack/1_Iniciando o projeto.md",
     "9_Dotnet/1_WebAPI/x_Injeção de dependência",
-    "2_Redes de computadores/2_Camada Aplicação/3_Http e cookies.md",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI",
     "9_Dotnet/1_WebAPI",
     "5_Banco de dados/1_PostgreSQL",
