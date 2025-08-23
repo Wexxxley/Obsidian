@@ -7,3 +7,6 @@ DecimalFormat é uma classe do Java que serve para formatar números. Ele funcio
 - **`.`:** Separador decimal.
 - **`,`:** Define o separador de grupo.
 - **Moeda** Serve para representar o símbolo de moeda (`R$`, `$`, `€`, etc.).
+
+
+instanceof
