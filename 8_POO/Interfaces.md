@@ -21,6 +21,11 @@ Ao usar interfaces, você programa para a "interface" e não para a "implementa�
 
 **Exemplo:** Voltando ao exemplo do processamento de pagamentos. Seu sistema foi construído para usar a interface `ProcessadorDePagamento`. Agora, imagine que a empresa fecha um acordo com um novo provedor chamado "SecurePay" e precisa migrar o processamento de pagamentos. Como o sistema não está vinculado à implementação específoca, a mudança é simples. Você simplesmente cria uma nova classe `SecurePayGateway` que implementa a interface `ProcessadorDePagamento`. Isso é um benefício enorme, pois a mudança de uma tecnologia não gera um efeito dominó de alterações por todo o código.
 
+---
+### **2. Exemplo ilustrativo**
+Neste exemplo, temos um sistema de controle do banco.
+![](attachments/Pasted%20image%2020250825092255.png)
+![650](attachments/Pasted%20image%2020250825092213.png)
 
 ---
 ### **2. Exemplo prático: ProcessadorDePagamento**
