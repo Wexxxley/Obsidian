@@ -23,12 +23,23 @@ Ao usar interfaces, você programa para a "interface" e não para a "implementa�
 
 ---
 ### **2. Exemplo ilustrativo**
-Neste exemplo, temos um sistema de controle do banco.
+Neste exemplo, temos um sistema de controle do banco. Queremos que Diretor, Gerente e Cliente seja autenticaveis no meu sistema.
+
+A forma abaixo é inadequada, pois
+1. Se um `Engenheiro` também precisar se autenticar no futuro? Seria necessário mudar sua herança de `Funcionario` para `FuncionarioAutenticavel`.
+2. A classe `Cliente` também precisa se autenticar, mas ela não é um `Funcionario`. 
 ![](attachments/Pasted%20image%2020250825092255.png)
+
+No exemplo abaixo, em vez de uma classe, foi criada uma **interface** chamada `Autenticavel`. Ela representa uma capacidade do tipo "**sabe fazer**" ou "**pode fazer**". Agora, qualquer classe que precise ter a capacidade de se autenticar simplesmente **implementa** a interface `Autenticavel`.
+
+1. Se um `Engenheiro` precisar se autenticar no futuro, basta que a classe `Engenheiro` implemente a interface, sem alterar nenhuma relação de herança.
+2. O sistema pode agora tratar qualquer objeto simplesmente como um `Autenticavel`, permitindo que o mecanismo de login funcione para todos.
 ![650](attachments/Pasted%20image%2020250825092213.png)
 
+A comparação entre os dois diagramas ilustra uma lição crucial no design de software: **use a herança para modelar o que um objeto "é" e use interfaces para modelar o que um objeto "pode fazer"**. O primeiro modelo falha ao misturar esses conceitos, enquanto o segundo os separa corretamente, resultando em um código mais flexível, lógico e fácil de manter.
+
 ---
-### **2. Exemplo prático: ProcessadorDePagamento**
+### **3. Exemplo prático: ProcessadorDePagamento**
 
 Primeiro, definimos a interface **`ProcessadorDePagamento`**. Ela é o contrato que todos os gateways de pagamento devem seguir. O método `processarPagamento` é o único requisito.
 
@@ -123,9 +134,3 @@ public class Main {
 }
 ```
 
-
-
-
-
--DecimalFormat
--Map
