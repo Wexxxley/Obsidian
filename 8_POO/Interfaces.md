@@ -20,22 +20,16 @@ A comparação entre os dois diagramas ilustra uma lição: "**use herança para
 ### **2. Por que e quando usar interfaces?**
 
 #### **2.1 Abstração e Flexibilidade**
-A interface ajuda a focar no "o quê" um objeto faz, em vez de no "como" ele faz. 
-
 **Exemplo:** Imagine um sistema de e-commerce que precisa processar pagamentos. Hoje, a empresa pode usar o Pix, mas amanhã pode decidir adicionar o PayPal ou até mesmo um sistema de pagamento próprio.
 - **Sem Interfaces**: Você teria um código cheio de if/else ou dependências  para cada processador de pagamento, o que torna o código difícil de modificar. Cada vez que um novo provedor for adicionado, você precisa alterar o código central que processa os pagamentos.
 - **Com Interfaces**: Você cria uma interface `ProcessadorDePagamento` que define: ` processarPagamento(double valor, Pagamento detalhes)` . As classes `PixGateway` e `PaypalGateway` simplesmente implementam essa interface. O restante do seu sistema não se importa se o pagamento está sendo processado pelo Pix ou pelo PayPal, pois ele trabalha apenas com a interface . 
 
 #### **2.2 Múltipla Herança**
 Java não permite que uma classe herde de múltiplas classes, mas permite que ela **implemente múltiplas interfaces**. Isso é útil para dar a uma classe várias capacidades. 
-
-**Exemplo:** Em uma empresa, existe a classe `Funcionario`, mas diferentes cargos têm habilidades distintas que não se encaixam em uma única hierarquia. Um `Vendedor` e um `Gerente` podem ter a habilidade de `EmitirRelatorio`, mas apenas o `Gerente` pode `AprovarOrcamento`. 
 #### **2.3 Padrões de Projeto**
 Interfaces são essenciais para a maioria dos padrões de projeto. 
 #### **2.4 Manutenção**
-Ao usar interfaces, você programa para a "interface" e não para a "implementação". Isso significa que você pode trocar uma classe por outra que implementa a mesma interface sem afetar o resto do código. Isso facilita a **manutenção** e o **crescimento** do projeto.
-
-**Exemplo:** Voltando ao exemplo do processamento de pagamentos. Seu sistema foi construído para usar a interface `ProcessadorDePagamento`. Agora, imagine que a empresa fecha um acordo com um novo provedor chamado "SecurePay" e precisa migrar o processamento de pagamentos. Como o sistema não está vinculado à implementação específoca, a mudança é simples. Você simplesmente cria uma nova classe `SecurePayGateway` que implementa a interface `ProcessadorDePagamento`. Isso é um benefício enorme, pois a mudança de uma tecnologia não gera um efeito dominó de alterações por todo o código.
+Ao usar interfaces, você programa para a "interface" e não para a "implementação". Isso significa que você pode trocar uma classe por outra que implementa a mesma interface sem afetar o resto do código. Isso facilita a **manutenção** do projeto.
 
 ---
 ### **3. Exemplo prático: ProcessadorDePagamento**
