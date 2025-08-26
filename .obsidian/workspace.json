@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8_POO/Interfaces.md",
+                "file": "8_POO/Enum em Java.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interfaces"
+              "title": "Enum em Java"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -196,6 +195,8 @@
   },
   "active": "c7f6ad15f24d860f",
   "lastOpenFiles": [
+    "8_POO/Interfaces.md",
+    "Sem título.base",
     "attachments/Pasted image 20250825143148.png",
     "attachments/Pasted image 20250825143136.png",
     "attachments/Pasted image 20250825143122.png",
@@ -210,12 +211,10 @@
     "8_POO/3_Object Calisthenics.md",
     "8_POO/1_SOLID.md",
     "8_POO/DecimalFormat.md",
-    "8_POO/Interfaces.md",
     "attachments/Pasted image 20250816083907.png",
     "attachments/Pasted image 20250816082904.png",
     "attachments/Pasted image 20250816082838.png",
     "attachments/Pasted image 20250816081724.png",
-    "attachments/Pasted image 20250816081336.png",
     "9_Dotnet/2_ECommerce FullStack/5_Componentes React.md",
     "9_Dotnet/2_ECommerce FullStack/4_React, Vite e Redux.md",
     "9_Dotnet/2_ECommerce FullStack/3_Criando Controller.md",
@@ -241,7 +240,6 @@
     "5_Banco de dados/1_PostgreSQL",
     "9_Dotnet/2_ECommerce FullStack",
     "9_Dotnet",
-    "Modelagem.pdf",
     "Sem título.canvas"
   ]
 }
