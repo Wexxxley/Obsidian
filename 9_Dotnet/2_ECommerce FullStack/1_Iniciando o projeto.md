@@ -4,8 +4,9 @@ Ao instalar o .net, é possível verificar os tampletes disponíveis com: ``dotn
 
 ![](attachments/Pasted%20image%2020250804140139.png)
 
+---
 ### **Solution File**
-Um arquivo `.sln` é um arquivo de organização usado pela plataforma .NET para agrupar e gerenciar um ou mais projetos relacionados. É como um **contêiner** com metadados sobre a estrutura da sua aplicação.
+Um arquivo `.sln` é um arquivo de organização usado pelo .NET para gerenciar um ou mais projetos relacionados. É como um contêiner com metadados sobre a estrutura da sua aplicação.
 
 1. **Agrupar Projetos:** Uma solução pode conter múltiplos projetos. 
     - Um projeto de API Web (`.csproj`).
