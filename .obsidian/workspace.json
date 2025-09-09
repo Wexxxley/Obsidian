@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9_Dotnet/2_ECommerce FullStack/3_Criando Controller.md",
+                "file": "9_Dotnet/2_ECommerce FullStack/5_Componentes React.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Criando Controller"
+              "title": "5_Componentes React"
             }
           }
         ]
@@ -195,10 +195,10 @@
   },
   "active": "c7f6ad15f24d860f",
   "lastOpenFiles": [
-    "9_Dotnet/2_ECommerce FullStack/2_Iniciando o projeto.md",
-    "9_Dotnet/2_ECommerce FullStack/1_React, Vite e redux.md",
     "9_Dotnet/2_ECommerce FullStack/4_ODM (Object-Document Mapper).md",
     "9_Dotnet/2_ECommerce FullStack/3_Criando Controller.md",
+    "9_Dotnet/2_ECommerce FullStack/2_Iniciando o projeto.md",
+    "9_Dotnet/2_ECommerce FullStack/1_React, Vite e redux.md",
     "9_Dotnet/2_ECommerce FullStack/5_Componentes React.md",
     "6_FrontEnd/4_React/1_.md",
     "6_FrontEnd/4_React",

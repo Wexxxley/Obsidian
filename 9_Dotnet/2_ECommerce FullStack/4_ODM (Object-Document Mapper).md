@@ -1,4 +1,6 @@
 
+#Concluded 
+
 ---
 Assim como o Entity Framework Core é um **ORM (Object-Relational Mapper)**, para o MongoDB usamos algo similar: um **ODM (Object-Document Mapper)**.
 
@@ -16,6 +18,7 @@ No ecossistema .NET, a ferramenta que cumpre o papel de ODM para o MongoDB é o 
     - Ele fornece métodos diretos para criar, ler, atualizar e deletar documentos, como `InsertOneAsync`, `UpdateOneAsync`, `DeleteOneAsync`, `FindAsync`, etc.
     - Enquanto o EF  usa o padrão "Unit of Work" (você faz várias alterações e depois chama `SaveChanges()`), no MongoDB, os comandos são executados imediatamente no db.
 
+---
 ### **1. Criando a primeira entidade**
 
 Vou utilizar o MongoDB, então é preciso instalar o seguinte pacote.
