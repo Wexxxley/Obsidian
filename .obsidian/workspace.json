@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
+                "file": "9_Dotnet/2_ECommerce FullStack/6_Hooks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6_Async await e fetch"
+              "title": "6_Hooks"
             }
           }
         ]
@@ -195,11 +195,12 @@
   },
   "active": "c7f6ad15f24d860f",
   "lastOpenFiles": [
-    "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "9_Dotnet/1_WebAPI/3_Intermediário/CORS policy.md",
+    "9_Dotnet/1_WebAPI/x_Injeção de dependência/Sem título.md",
+    "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
+    "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "attachments/Pasted image 20250910152855.png",
     "attachments/Pasted image 20250910152646.png",
-    "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
     "9_Dotnet/1_WebAPI/3_Intermediário",
     "6_FrontEnd/3_JavaScript/9_Consumindo API Propria.md",
     "9_Dotnet/2_ECommerce FullStack/6_Hooks.md",

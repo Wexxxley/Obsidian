@@ -46,18 +46,15 @@ export default Contador;
 #### **2. useEffect**
 É o hook que lida com **efeitos colaterais** em seu componente. Um efeito colateral é qualquer coisa que afeta o mundo "externo", como requisições de API e manipulação do DOM
 
-- **Quando usar?** Use `useEffect` para ações que precisam acontecer após o componente ser renderizado. Por exemplo:
+Use `useEffect` para ações que precisam acontecer após o componente ser renderizado. 
     - Buscar dados de uma API quando o componente é carregado.
     - Manipular o título da página.
-
-JavaScript
 
 ```js
 import { useEffect } from 'react';
 
 function MudarTitulo({ titulo }) {
   useEffect(() => {
-    // Este código será executado após a renderização do componente.
     document.title = titulo;
   }, [titulo]); // O efeito é executado novamente quando 'titulo' muda.
   
