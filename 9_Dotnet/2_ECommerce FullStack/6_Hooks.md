@@ -53,14 +53,20 @@ Use `useEffect` para ações que precisam acontecer após o componente ser rende
 ```js
 import { useEffect } from 'react';
 
-function MudarTitulo({ titulo }) {
+function MudarTitulo(props) {
   useEffect(() => {
-    document.title = titulo;
+    document.title = props.titulo;
   }, [titulo]); // O efeito é executado novamente quando 'titulo' muda.
   
   return <h1>{titulo}</h1>;
 }
 ```
+
+- O segundo argumento do `useEffect` é chamado de **array de dependências**. A função que você passa para o `useEffect` só será executada se uma das variáveis nesse array mudar.
+- **Sem o array de dependências:** O `useEffect` seria executado **a cada renderização** do componente. Isso é ineficiente.
+- **Com um array vazio `[]`:** O `useEffect` seria executado apenas uma vez.
+    
+
 
 ---
 #### 3. useContext
