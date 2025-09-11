@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9_Dotnet/2_ECommerce FullStack/7_Consumindo objetos via api.md",
+                "file": "6_FrontEnd/3_JavaScript/4_Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_Consumindo objetos via api"
+              "title": "4_Arrays"
             }
           }
         ]
@@ -195,11 +195,14 @@
   },
   "active": "c7f6ad15f24d860f",
   "lastOpenFiles": [
+    "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
+    "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
+    "6_FrontEnd/3_JavaScript/1_Introdução.md",
+    "9_Dotnet/2_ECommerce FullStack/7_Consumindo objetos via api.md",
     "attachments/Pasted image 20250911094600.png",
     "attachments/Pasted image 20250911094528.png",
     "attachments/Pasted image 20250911094507.png",
     "9_Dotnet/2_ECommerce FullStack/6_Hooks.md",
-    "9_Dotnet/2_ECommerce FullStack/7_Consumindo objetos via api.md",
     "9_Dotnet/1_WebAPI/3_Intermediário/CORS policy.md",
     "9_Dotnet/1_WebAPI/x_Injeção de dependência/Sem título.md",
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
@@ -224,7 +227,6 @@
     "attachments/Pasted image 20250825143136.png",
     "attachments/Pasted image 20250825143122.png",
     "attachments/Pasted image 20250825092255.png",
-    "attachments/Pasted image 20250825092213.png",
     "8_POO/Ordenação de coleções.md",
     "8_POO/Coleções em Java.md",
     "8_POO/4_Object Calisthenics.md",
@@ -232,8 +234,6 @@
     "8_POO/3_Object Calisthenics.md",
     "8_POO/1_SOLID.md",
     "8_POO/DecimalFormat.md",
-    "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI/3_Tipos de retorno.md",
-    "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI/2_Validação de modelos.md",
     "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/Sem título",
     "9_Dotnet/WebAPI/1_Criando uma WebAPI/3_Entity Framework",

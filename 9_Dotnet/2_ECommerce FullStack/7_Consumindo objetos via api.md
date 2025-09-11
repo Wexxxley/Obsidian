@@ -7,5 +7,5 @@ Foi definido uma interface pra o obejeto Book, ja que typescript é tipado.
 Criando nossa função app.
 ![](attachments/Pasted%20image%2020250911094528.png)
 
-Verificando se houve erros e retornando o 
+Verificando se houve erros e retornando o componente.
 ![](attachments/Pasted%20image%2020250911094600.png)

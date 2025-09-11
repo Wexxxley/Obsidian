@@ -32,7 +32,7 @@ Funções **são objetos em JavaScript** e **podem ser armazenadas em variáveis
 **For in, for of e forEach**
 - **for in:** itera sobre os índices.
 - **for of:** itera sobre os itens.
-- **forEach**: recebe um função
+- **forEach**: recebe uma função
 
 ![](../../attachments/Pasted%20image%2020250705141110.png)
 
