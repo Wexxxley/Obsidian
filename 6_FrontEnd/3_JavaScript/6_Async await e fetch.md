@@ -12,10 +12,8 @@ ___
 **Fetch** é a maneira de fazer requisições de rede.  **Fetch** é **baseada em Promises**.
 
 Ela recebe a **URL** do recurso que você quer acessar.
-
-1. A chamada `fetch(url)` retorna uma **Promise**.
-2. Essa Promise **não se resolve com os dados** diretamente. Ela se resolve com um objeto chamado **`Response`**.
-3. `Response` é uma representação da resposta HTTP, incluindo o status, cabeçalhos e o corpo.
+1. Essa Promise **não se resolve com os dados** diretamente. Ela se resolve com um objeto chamado **`Response`**.
+2. `Response` é uma representação da resposta HTTP, incluindo o status, cabeçalhos e o corpo.
 
 Para extrair os dados do corpo, você precisa usar um método específico:
 

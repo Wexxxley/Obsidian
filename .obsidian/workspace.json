@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
+                "file": "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6_Async await e fetch"
+              "title": "7_DOM (Document Object Model)"
             }
           }
         ]
@@ -195,8 +195,12 @@
   },
   "active": "c7f6ad15f24d860f",
   "lastOpenFiles": [
-    "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
+    "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
+    "6_FrontEnd/3_JavaScript/9_Consumindo API Propria.md",
+    "6_FrontEnd/3_JavaScript/10_Multiplos estilos com um clique.md",
+    "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
+    "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "6_FrontEnd/3_JavaScript/4_Arrays.md",
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
@@ -211,7 +215,6 @@
     "attachments/Pasted image 20250910152855.png",
     "attachments/Pasted image 20250910152646.png",
     "9_Dotnet/1_WebAPI/3_Intermediário",
-    "6_FrontEnd/3_JavaScript/9_Consumindo API Propria.md",
     "9_Dotnet/2_ECommerce FullStack/5_Componentes React.md",
     "attachments/Pasted image 20250909175056.png",
     "9_Dotnet/2_ECommerce FullStack/4_ODM (Object-Document Mapper).md",
@@ -231,9 +234,6 @@
     "8_POO/Ordenação de coleções.md",
     "8_POO/Coleções em Java.md",
     "8_POO/4_Object Calisthenics.md",
-    "8_POO/2_Single Responsibility Principle.md",
-    "8_POO/3_Object Calisthenics.md",
-    "8_POO/1_SOLID.md",
     "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/Sem título",
     "9_Dotnet/WebAPI/1_Criando uma WebAPI/3_Entity Framework",
