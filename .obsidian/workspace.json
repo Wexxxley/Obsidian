@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/4_Arrays.md",
+                "file": "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Arrays"
+              "title": "6_Async await e fetch"
             }
           }
         ]
@@ -195,6 +195,9 @@
   },
   "active": "c7f6ad15f24d860f",
   "lastOpenFiles": [
+    "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
+    "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
+    "6_FrontEnd/3_JavaScript/4_Arrays.md",
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
     "6_FrontEnd/3_JavaScript/1_Introdução.md",
@@ -205,8 +208,6 @@
     "9_Dotnet/2_ECommerce FullStack/6_Hooks.md",
     "9_Dotnet/1_WebAPI/3_Intermediário/CORS policy.md",
     "9_Dotnet/1_WebAPI/x_Injeção de dependência/Sem título.md",
-    "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
-    "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "attachments/Pasted image 20250910152855.png",
     "attachments/Pasted image 20250910152646.png",
     "9_Dotnet/1_WebAPI/3_Intermediário",
@@ -233,7 +234,6 @@
     "8_POO/2_Single Responsibility Principle.md",
     "8_POO/3_Object Calisthenics.md",
     "8_POO/1_SOLID.md",
-    "8_POO/DecimalFormat.md",
     "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/Sem título",
     "9_Dotnet/WebAPI/1_Criando uma WebAPI/3_Entity Framework",
