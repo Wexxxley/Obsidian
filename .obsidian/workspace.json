@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
+                "file": "9_Dotnet/2_ECommerce FullStack/7_Consumindo objetos via api.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_DOM (Document Object Model)"
+              "title": "7_Consumindo objetos via api"
+            }
+          },
+          {
+            "id": "3d9348b6310ec72f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Notas de Lançamento 1.9.12"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,12 +206,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c7f6ad15f24d860f",
+  "active": "3d9348b6310ec72f",
   "lastOpenFiles": [
+    "9_Dotnet/2_ECommerce FullStack/6_Hooks.md",
+    "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
     "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
     "6_FrontEnd/3_JavaScript/9_Consumindo API Propria.md",
     "6_FrontEnd/3_JavaScript/10_Multiplos estilos com um clique.md",
-    "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
     "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "6_FrontEnd/3_JavaScript/4_Arrays.md",
@@ -209,7 +223,6 @@
     "attachments/Pasted image 20250911094600.png",
     "attachments/Pasted image 20250911094528.png",
     "attachments/Pasted image 20250911094507.png",
-    "9_Dotnet/2_ECommerce FullStack/6_Hooks.md",
     "9_Dotnet/1_WebAPI/3_Intermediário/CORS policy.md",
     "9_Dotnet/1_WebAPI/x_Injeção de dependência/Sem título.md",
     "attachments/Pasted image 20250910152855.png",
