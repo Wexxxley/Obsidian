@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9_Dotnet/2_ECommerce FullStack/8_.md",
+                "file": "9_Dotnet/2_ECommerce FullStack/8_Json to tsx.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_"
+              "title": "8_Json to tsx"
             }
           }
         ]
@@ -198,7 +198,7 @@
     "attachments/Pasted image 20250911185938.png",
     "attachments/Pasted image 20250911185715.png",
     "9_Dotnet/2_ECommerce FullStack/7_Consumindo objetos via api.md",
-    "9_Dotnet/2_ECommerce FullStack/8_.md",
+    "9_Dotnet/2_ECommerce FullStack/8_Json to tsx.md",
     "9_Dotnet/2_ECommerce FullStack/6_Hooks.md",
     "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
     "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
