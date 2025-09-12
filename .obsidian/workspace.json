@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9_Dotnet/2_ECommerce FullStack/8_Json to tsx.md",
+                "file": "9_Dotnet/2_ECommerce FullStack/8_.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_Json to tsx"
+              "title": "8_"
             }
           }
         ]
@@ -195,11 +195,13 @@
   },
   "active": "c7f6ad15f24d860f",
   "lastOpenFiles": [
+    "9_Dotnet/2_ECommerce FullStack/7_Consumindo objetos via api.md",
+    "attachments/Pasted image 20250912075632.png",
+    "attachments/Pasted image 20250912075420.png",
+    "9_Dotnet/2_ECommerce FullStack/8_.md",
     "attachments/Pasted image 20250912074720.png",
     "attachments/Pasted image 20250911185938.png",
     "attachments/Pasted image 20250911185715.png",
-    "9_Dotnet/2_ECommerce FullStack/7_Consumindo objetos via api.md",
-    "9_Dotnet/2_ECommerce FullStack/8_Json to tsx.md",
     "9_Dotnet/2_ECommerce FullStack/6_Hooks.md",
     "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
     "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
@@ -220,7 +222,6 @@
     "attachments/Pasted image 20250910152646.png",
     "9_Dotnet/1_WebAPI/3_Intermediário",
     "9_Dotnet/2_ECommerce FullStack/5_Componentes React.md",
-    "attachments/Pasted image 20250909175056.png",
     "9_Dotnet/2_ECommerce FullStack/4_ODM (Object-Document Mapper).md",
     "9_Dotnet/2_ECommerce FullStack/3_Criando Controller.md",
     "9_Dotnet/2_ECommerce FullStack/2_Iniciando o projeto.md",
@@ -231,8 +232,6 @@
     "8_POO/Enum em Java.md",
     "8_POO/Interfaces.md",
     "Sem título.base",
-    "attachments/Pasted image 20250825143148.png",
-    "attachments/Pasted image 20250825143136.png",
     "8_POO/Ordenação de coleções.md",
     "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/Sem título",
