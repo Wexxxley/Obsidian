@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_TeoriaComputação/1_.md",
+                "file": "Engenharia de Software/Cap1/1_Introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_"
+              "title": "1_Introdução"
             }
           }
         ]
@@ -195,8 +195,11 @@
   },
   "active": "c7f6ad15f24d860f",
   "lastOpenFiles": [
-    "9_Dotnet/2_ECommerce FullStack/5_Componentes React.md",
     "10_TeoriaComputação/1_.md",
+    "Engenharia de Software/Cap1/1_Introdução.md",
+    "Engenharia de Software/Cap1",
+    "Engenharia de Software",
+    "9_Dotnet/2_ECommerce FullStack/5_Componentes React.md",
     "10_TeoriaComputação",
     "9_Dotnet/2_ECommerce FullStack/4_ODM (Object-Document Mapper).md",
     "9_Dotnet/2_ECommerce FullStack/3_Criando Controller.md",
@@ -234,13 +237,10 @@
     "8_POO/Enum em Java.md",
     "8_POO/Interfaces.md",
     "Sem título.base",
-    "8_POO/Ordenação de coleções.md",
     "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI",
     "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/Sem título",
     "9_Dotnet/WebAPI/1_Criando uma WebAPI/3_Entity Framework",
     "9_Dotnet/1_WebAPI/x_Injeção de dependência",
-    "9_Dotnet/1_WebAPI/1_Criando uma WebAPI",
-    "9_Dotnet/1_WebAPI",
     "Sem título.canvas"
   ]
 }
