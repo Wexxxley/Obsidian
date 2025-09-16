@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -195,6 +196,7 @@
   },
   "active": "f45ea6321929f827",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250916154308.png",
     "attachments/Pasted image 20250916153509.png",
     "attachments/Pasted image 20250916153200.png",
     "8_POO/1_Introdução.md",
@@ -235,7 +237,6 @@
     "attachments/Pasted image 20250911094507.png",
     "9_Dotnet/1_WebAPI/3_Intermediário/CORS policy.md",
     "9_Dotnet/1_WebAPI/x_Injeção de dependência/Sem título.md",
-    "attachments/Pasted image 20250910152855.png",
     "9_Dotnet/1_WebAPI/3_Intermediário",
     "6_FrontEnd/4_React",
     "Sem título.base",

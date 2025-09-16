@@ -30,5 +30,10 @@ Se você alterar a forma como o saldo é armazenado em uma `Conta Bancária`, as
 ### **Estado de um objeto**
 ![](attachments/Pasted%20image%2020250916153200.png)
 
+---
 ### **Estrutura base do java**
-![](attachments/Pasted%20image%2020250916153509.png)
+![600](attachments/Pasted%20image%2020250916153509.png)
+
+---
+### **Criando e acessando um objeto**
+![](attachments/Pasted%20image%2020250916154308.png)
