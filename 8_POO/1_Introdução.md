@@ -24,3 +24,11 @@ O código é dividido em **módulos** que são responsáveis por uma única cois
 Se você alterar a forma como o saldo é armazenado em uma `Conta Bancária`, as outras partes do sistema que interagem com essa conta não precisam ser alteradas, desde que os métodos permaneçam os mesmos.
 
 **POO é o paradigma padrão da indústria de software** para construir aplicações robustas, escaláveis e fáceis de manter.
+
+
+---
+### **Estado de um objeto**
+![](attachments/Pasted%20image%2020250916153200.png)
+
+### **Estrutura base do java**
+![](attachments/Pasted%20image%2020250916153509.png)
