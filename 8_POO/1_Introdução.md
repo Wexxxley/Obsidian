@@ -37,3 +37,5 @@ Se você alterar a forma como o saldo é armazenado em uma `Conta Bancária`, as
 ---
 ### **Criando e acessando um objeto**
 ![](attachments/Pasted%20image%2020250916154308.png)
+### **Refatorando com o uso de um Construtor**
+![](attachments/Pasted%20image%2020250916154614.png)
