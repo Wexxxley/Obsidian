@@ -3,24 +3,24 @@
 
 ---
 
-Os **modificadores de acesso** são palavras-chave usadas para definir o nível de acesso a uma classe, atributo, **método** ou **construtor**. Embora existam apenas **3 modificadores** explícitos (`private`, `protected`, `public`), eles dão origem a **4 níveis de visibilidade** diferentes.
+Os **modificadores de acesso** são palavras-chave usadas para definir o nível de acesso a uma classe, atributo ou método. Embora existam apenas 3 modificadores explícitos (`private`, `protected`, `public`), eles dão origem a **4 níveis de visibilidade** diferentes.
 
-|Nível de Visibilidade|Modificador|Acessível por...|
-|---|---|---|
-|**Private**|`private`|Apenas **dentro da própria classe** onde foi definido.|
-|**Default**|_(Nenhum)_|Classes **dentro do mesmo pacote**.|
-|**Protected**|`protected`|Classes **dentro do mesmo pacote** **OU** **subclasses** (classes que herdam) em _qualquer_ pacote.|
-|**Public**|`public`|**Qualquer classe** em qualquer lugar.|
+| Visibilidade  | Modificador | Acessibilidade                                         |
+| ------------- | ----------- | ------------------------------------------------------ |
+| **Private**   | `private`   | Apenas dentro da **própria classe** onde foi definido. |
+| **Default**   | (Nenhum)    | Classes dentro do mesmo **pacote**.                    |
+| **Protected** | `protected` | Classes **dentro do mesmo pacote OU subclasses**       |
+| **Public**    | `public`    | Qualquer classe em qualquer lugar.                     |
+
+![](attachments/Pasted%20image%2020250917180449.png)
 
 ---
+## **Encapsulamento e a Importância dos Modificadores**
 
-## O Encapsulamento e a Importância dos Modificadores
+### **Encapsulamento**
+Encapsulamento é o princípio de agrupar atributos e os métodos em uma única unidade (a classe), ao mesmo tempo em que se **restringe o acesso direto** a alguns dos componentes da classe. 
 
-A relação entre modificadores e encapsulamento é fundamental na Programação Orientada a Objetos.
-
-### O que é Encapsulamento?
-
-**Encapsulamento** é o princípio de agrupar dados (atributos) e os métodos que operam nesses dados em uma única unidade (a classe), ao mesmo tempo em que se **restringe o acesso direto** a alguns dos componentes da classe. Pense nisso como colocar algo em uma cápsula (ou "caixa preta"): você vê o lado de fora e pode interagir com ele através de botões/portas (os métodos públicos), mas não vê ou não toca o que está dentro (os atributos privados).
+Pense nisso como colocar sua classe em uma caixa preta, na qual você consegue ver o lado de fora e pode interagir com ele através de botões (métodos públicos), mas não vê o que está dentro (os atributos privados).
 
 ### Por Que o Encapsulamento é Importante?
 
