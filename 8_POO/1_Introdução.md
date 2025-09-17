@@ -9,7 +9,7 @@ O paradigma de POO define que o desenvolvimento de software deve ser baseado na 
 
 | Conceito   | Definição                                                                                                                                                                                                       |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Classe** | É o **molde**. Ela define os atributos e o comportamento métodos que todos os objetos criados a partir dela terão. Você define a **Classe** uma única vez.                                                      |
+| **Classe** | É o **molde**. Ela define os atributos e o comportamento que todos os objetos criados a partir dela terão. Você define a **Classe** uma única vez.                                                              |
 | **Objeto** | É a **instância** da Classe. É o item que existe na memória do programa, possuindo valores específicos para os atributos definidos na Classe. Você pode criar **inúmeros Objetos** a partir dessa mesma Classe. |
 
 ---
