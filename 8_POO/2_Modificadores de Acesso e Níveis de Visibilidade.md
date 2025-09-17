@@ -35,25 +35,4 @@ Pense nisso como colocar sua classe em uma interface simples, na qual você cons
 
 - Os getters permitem que outras classes **leiam** o valor de um atributo privado. Geralmente começam com `get` seguido do nome do atributo (ex: `getNome()`).
 
-- Permitem que outras classes **alterem** o valor de um atributo privado, mas de forma controlada. Geralmente começam com `set` seguido do nome do atributo(`setNome(String novoNome)`).
-    
-- **Importância:** É aqui que você aplica as **regras de validação** do encapsulamento.
-    
-- **Exemplo:**
-    
-    Java
-    
-    ```
-    public void setIdade(int novaIdade) {
-        if (novaIdade >= 0) { // Validação! O core do encapsulamento.
-            this.idade = novaIdade;
-        } else {
-            // Lançar um erro ou ignorar a mudança
-        }
-    }
-    ```
-    
-
-Ao usar `private` para atributos e `public` para _getters_ e _setters_, você garante que o acesso aos dados da sua classe é sempre mediado por regras, protegendo a integridade do seu objeto.
-
-
+- Permitem que outras classes **alterem** o valor de um atributo privado, mas de forma controlada, você pode validar os dados passados. Geralmente começam com `set` seguido do nome do atributo (ex:`setNome(String novoNome)`).
