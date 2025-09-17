@@ -21,7 +21,7 @@ Por exemplo, ao criar uma classe `Cliente`, você está traduzindo uma entidade 
 ### 2. Organização
 O código é dividido em **módulos** que são responsáveis por uma única coisa. Isso torna o sistema muito mais organizado. Se um problema surge no módulo "Conta Bancária", você sabe exatamente onde procurar e consertar o código sem afetar a parte de "Cliente".
 ### 3. Manutenibilidade 
-Se você alterar a forma como o saldo é armazenado em uma `Conta Bancária`, as outras partes do sistema que interagem com essa conta não precisam ser alteradas, desde que os métodos permaneçam os mesmos.
+Por exemplo, se você alterar a forma como o saldo é armazenado em uma `Conta Bancária`, as outras partes do sistema que interagem com essa conta não precisam ser alteradas, desde que os métodos permaneçam os mesmos.
 
 **POO é o paradigma padrão da indústria de software** para construir aplicações robustas, escaláveis e fáceis de manter.
 
