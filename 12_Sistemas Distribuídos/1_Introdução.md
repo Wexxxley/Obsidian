@@ -46,33 +46,20 @@ A principal razão para construir e usar Sistemas Distribuídos é a necessidade
 
 Em essência, o sistema distribuído existe para permitir que recursos valiosos, que são caros ou escassos, sejam **acessados por muitos usuários ou máquinas de forma eficiente** 
 
-#### **4.1 Recursos Compartilhados em Sistemas Distribuídos**
+#### **4.1 Exemplos de recursos Compartilhados em Sistemas Distribuídos**
 
-| Recurso                             | Exemplo Prático de Compartilhamento                                                                                                                                                                           |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. **Impressora de Rede**           | Uma LAN onde **todos os PCs** enviam trabalhos para uma única impressora de alta capacidade.                                                                                                                  |
-| 2. **Unidade de Disco**             | Um **Sistema de Arquivos Distribuído** onde o espaço de armazenamento de **centenas de discos rígidos** em diferentes servidores é combinado e usado como um único recurso.                                   |
-| 3. **Processadores Gráficos (GPU)** | Um **cluster de _deep learning_** onde múltiplas estações de trabalho de cientistas de dados acessam e compartilham o poder de **unidades de GPU remotas** de alto desempenho para treinar modelos complexos. |
-| 4. **Câmera de Vídeo Digital**      | Um **sistema de vigilância** onde **centenas de câmeras** em diferentes pontos transmitem seu fluxo de vídeo para um único servidor.                                                                          |
-| 5. **Sensor)**                      | Um **sistema IoT** onde um servidor monitora a temperatura e pressão relatadas por **sensores distribuídos**.                                                                                                 |
-|                                     |                                                                                                                                                                                                               |
-|                                     |                                                                                                                                                                                                               |
+| Recurso                        | Exemplo Prático de Compartilhamento                                                                                                                                         |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. **Impressora de Rede**      | Uma LAN onde **todos os PCs** enviam trabalhos para uma única impressora de alta capacidade.                                                                                |
+| 2. **Unidade de Disco**        | Um **Sistema de Arquivos Distribuído** onde o espaço de armazenamento de **centenas de discos rígidos** em diferentes servidores é combinado e usado como um único recurso. |
+| 3. **Roteador/Switch**         | Em **redes de longa distância**, roteadores e switches são recursos de hardware compartilhados que gerenciam e roteiam o tráfego de **milhares de usuários**.               |
+| 4. **Câmera de Vídeo Digital** | Um **sistema de vigilância** onde **centenas de câmeras** em diferentes pontos transmitem seu fluxo de vídeo para um único servidor.                                        |
+| 5. **Sensor)**                 | Um **sistema IoT** onde um servidor monitora a temperatura e pressão relatadas por **sensores distribuídos**.                                                               |
 
-A **GPU (Graphics Processing Unit)** é um processador especializado, muito mais eficiente que a CPU para realizar muitos cálculos matemáticos em paralelo. O poder de processamento da GPU é um **recurso de hardware caro e de alta demanda**.
-
-Em um sistema distribuído moderno (como um cluster de computação em nuvem):
-
-- **O problema:** Um cientista de dados no seu notebook precisa de 100 horas de processamento intenso para treinar um modelo de inteligência artificial.
-    
-- **A solução distribuída:** Em vez de comprar sua própria GPU cara, o cientista acessa o **cluster distribuído** de GPUs. Seu programa é executado remotamente em um dos servidores que contém a GPU, e ele está **compartilhando o tempo e o poder** desse recurso de hardware com outros cientistas.
-    
-- **A essência distribuída:** Seu computador (nó 1) envia o código e os dados como mensagens para o servidor da GPU (nó 2), que processa e envia o resultado de volta. Essa coordenação e compartilhamento do hardware potente através da rede é o que o torna um recurso distribuído.
-
-| Recurso                            | Exemplo Prático de Compartilhamento                                                                                                                                                      |
-| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. **Banco de Dados**              | Um **sistema de e-commerce** onde o **catálogo de produtos** é replicado em vários servidores e acessado concorrentemente por **milhares de usuários** realizando consultas e pedidos.   |
-| 2. **Arquivo (Documento)**         | Uma plataforma de **colaboração em tempo real (ex: Google Docs)** onde o arquivo é o recurso principal e é modificado simultaneamente por **vários editores** em suas máquinas.          |
-| 3. **Objeto de Serviço Web (API)** | Uma api que compartilha seus recursos para vários usuários simultaneamente.                                                                                                              |
-| 4. **Conexão de Voz **             | Uma no Zoom onde a conexão de áudio em tempo real é estabelecida e mantida entre **dois ou mais usuários** através de servidores intermediários.                                         |
-| 5. **Identificação Única (ID)**    | Um **sistema de bilhetagem online** que usa um serviço distribuído para **gerar números de bilhetes únicos** de forma coordenada, garantindo que nenhum bilhete seja vendido duas vezes. |
-|                                    |                                                                                                                                                                                          |
+| Recurso                            | Exemplo Prático de Compartilhamento                                                                                                                                                    |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. **Banco de Dados**              | Um **sistema de e-commerce** onde o **catálogo de produtos** é replicado em vários servidores e acessado concorrentemente por **milhares de usuários** realizando consultas e pedidos. |
+| 2. **Arquivo (Documento)**         | Uma plataforma de **colaboração em tempo real (ex: Google Docs)** onde o arquivo é o recurso principal e é modificado simultaneamente por **vários editores** em suas máquinas.        |
+| 3. **Objeto de Serviço Web (API)** | Uma api que compartilha seus recursos para vários usuários simultaneamente.                                                                                                            |
+| 4. **Conexão de Voz **             | Uma no Zoom onde a conexão de áudio em tempo real é estabelecida e mantida entre **dois ou mais usuários** através de servidores intermediários.                                       |
+| 5. **Serviço de Log Centralizado** | Em uma **infraestrutura de micro-serviços**, todos os servidores enviam seus **arquivos de log** para um **servidor de log central**.                                                  |
