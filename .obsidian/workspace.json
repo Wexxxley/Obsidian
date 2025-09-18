@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/2_Processos agéis.md",
+                "file": "8_POO/2_Modificadores de Acesso e Níveis de Visibilidade.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Processos agéis"
+              "title": "2_Modificadores de Acesso e Níveis de Visibilidade"
             }
           }
         ]
@@ -195,9 +195,10 @@
   },
   "active": "f45ea6321929f827",
   "lastOpenFiles": [
+    "8_POO/1_SOLID.md",
+    "Engenharia de Software/2_Processos agéis.md",
     "attachments/Pasted image 20250917192436.png",
     "Engenharia de Software/1_Introdução.md",
-    "Engenharia de Software/2_Processos agéis.md",
     "8_POO/2_Modificadores de Acesso e Níveis de Visibilidade.md",
     "attachments/1_GrarH2XqRi5iLw--RI5NMQ.png",
     "attachments/Pasted image 20250917180449.png",
@@ -209,7 +210,6 @@
     "Sem título 2.base",
     "Sem título 1.base",
     "8_POO/Interfaces.md",
-    "8_POO/1_SOLID.md",
     "8_POO/2_Single Responsibility Principle.md",
     "9_Dotnet/2_ECommerce FullStack/8_.md",
     "10_TeoriaComputação/1_.md",
@@ -224,7 +224,6 @@
     "attachments/Pasted image 20250912075632.png",
     "attachments/Pasted image 20250912075420.png",
     "attachments/Pasted image 20250912074720.png",
-    "attachments/Pasted image 20250911185938.png",
     "9_Dotnet/2_ECommerce FullStack/6_Hooks.md",
     "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
     "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
