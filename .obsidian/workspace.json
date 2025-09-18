@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de Software/1_Introdução.md",
+                "file": "Engenharia de Software/2_Processos agéis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Introdução"
+              "title": "2_Processos agéis"
             }
           }
         ]
@@ -193,8 +193,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c52f17c64e87cbf",
+  "active": "f45ea6321929f827",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250917192436.png",
+    "Engenharia de Software/1_Introdução.md",
+    "Engenharia de Software/2_Processos agéis.md",
     "8_POO/2_Modificadores de Acesso e Níveis de Visibilidade.md",
     "attachments/1_GrarH2XqRi5iLw--RI5NMQ.png",
     "attachments/Pasted image 20250917180449.png",
@@ -209,7 +212,6 @@
     "8_POO/1_SOLID.md",
     "8_POO/2_Single Responsibility Principle.md",
     "9_Dotnet/2_ECommerce FullStack/8_.md",
-    "Engenharia de Software/1_Introdução.md",
     "10_TeoriaComputação/1_.md",
     "Engenharia de Software/Cap1",
     "Engenharia de Software",
@@ -234,7 +236,6 @@
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
     "6_FrontEnd/3_JavaScript/1_Introdução.md",
-    "9_Dotnet/1_WebAPI/3_Intermediário/CORS policy.md",
     "9_Dotnet/1_WebAPI/3_Intermediário",
     "6_FrontEnd/4_React",
     "Sem título.base",
