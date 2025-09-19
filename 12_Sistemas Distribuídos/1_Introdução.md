@@ -54,6 +54,31 @@ A evolução da tecnologia permitiu a integração de dispositivos pequenos e po
     - Esses dispositivos precisam se **comunicar entre si** para criar um ambiente inteligente (ex: o celular controlando a máquina de lavar).
     - O principal problema prático é a **operação conjunta espontânea**, onde dispositivos de um visitante (como uma câmera) precisam **localizar e se associar rapidamente** a serviços locais que nunca usaram antes (como a impressora da anfitriã). Isso exige um mecanismo de **descoberta de serviço** rápido e conveniente.
 
+---
+### **Computação Distribuída como Serviço Público** 
+
+A **Computação em Nuvem** é um modelo onde recursos de tecnologia são fornecidos por terceiros (**fornecedores de serviço**) e **alugados** ao usuário, em vez de serem de sua propriedade. O termo promove a visão de que a computação deve ser tão fácil de usar e pagar quanto a eletricidade ou a água.
+
+A Nuvem oferece recursos como um conjunto de serviços baseados na Internet, eliminando a necessidade de o usuário ter muito software ou hardware local.
+
+| Tipo de Recurso          | Exemplos                                                                                                                                                                        |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Recursos Físicos**     | **Processamento:** Alugar poder computacional (nós virtuais/físicos). **Armazenamento:** Armazenamento remoto para arquivos, backups e grandes volumes de dados (data centers). |
+| **Serviços de Software** | Software completo oferecido pela Internet (e-mail, calendários, aplicativos empresariais), como o Google Apps.                                                                  |
+
+### 2. A Tecnologia de Base
+
+- **Virtualização:** É crucial, pois permite que os fornecedores aluguem **nós virtuais** em vez de máquinas físicas. Isso oferece maior flexibilidade no gerenciamento dos recursos.
+    
+- **Clusters de Computadores:** As nuvens são implementadas usando **clusters** (conjuntos de computadores interligados, frequentemente usando hardware de prateleira ou servidores _blade_). Clusters fornecem a **escala e o desempenho** necessários para atender a milhões de usuários.
+    
+
+### 3. Impacto no Usuário
+
+- A Nuvem **reduz os requisitos de equipamento dos usuários**, permitindo que dispositivos portáteis e simples acessem uma vasta gama de recursos.
+    
+- O pagamento é frequentemente baseado na **utilização** (pago pelo que usar), e não na aquisição de licenças ou hardware.
+
 
 ---
 ### **4. Motivação Principal**
