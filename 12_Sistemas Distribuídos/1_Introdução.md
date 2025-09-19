@@ -83,26 +83,19 @@ A **heterogeneidade** (variedade de componentes) é um desafio central na Intern
 3. **Linguagens de Programação:** Diferentes linguagens usam diferentes representações para dados e estruturas.
 4. **Desenvolvimento:** Programas só se comunicam se seguirem **padrões comuns** (protocolos e representação de dados).
 
----
-
 ## Soluções para a Heterogeneidade
 
 ### 1. Middleware (Camada de Software)
 
-O **Middleware** é a principal solução para mascarar a heterogeneidade:
-
-- **Função:** É uma camada de software que fornece uma **abstração de programação uniforme**, escondendo as diferenças de rede, hardware, SO e linguagens subjacentes.
+O **Middleware** é a principal solução para mascarar a heterogeneidade. É uma camada de software que fornece uma **abstração de programação uniforme**, escondendo as diferenças de rede, hardware, SO e linguagens subjacentes.
     
 - **Exemplo:** CORBA e Java RMI. O middleware permite que programas em diferentes máquinas e SOs se comuniquem, oferecendo um modelo de computação uniforme (como a **invocação remota de objetos**).
-    
 
 ### 2. Migração de Código (Máquina Virtual)
 
 A **Migração de Código** (ou código móvel, ex: applets Java) permite que programas sejam transferidos e executados em diferentes máquinas.
 
-- **Desafio:** Códigos executáveis são geralmente específicos de um processador e SO.
-    
-- **Solução:** O uso de uma **Máquina Virtual (VM)**, como a **JVM (Java Virtual Machine)**. O código-fonte é compilado para a máquina virtual (e não para o hardware físico), e a VM é implementada uma vez para cada tipo de computador, garantindo que o código seja executável em qualquer lugar.
+Os códigos executáveis são geralmente específicos de um processador e SO. O uso de uma **Máquina Virtual (VM)**, como a **JVM (Java Virtual Machine)**. O código-fonte é compilado para a máquina virtual (e não para o hardware físico), e a VM é implementada uma vez para cada tipo de computador, garantindo que o código seja executável em qualquer lugar.
 
 ---
 ### **4. Motivação Principal**
