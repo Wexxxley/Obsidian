@@ -80,3 +80,25 @@ Os principais desafios no projeto de sistemas escaláveis são:
 4. **Evitar Gargalos de Desempenho:** Algoritmos e gerenciamento de dados devem ser **descentralizados**. O **DNS** resolveu o gargalo do sistema predecessor, que usava um único arquivo central, ao **particionar a tabela de nomes** entre diversos servidores distribuídos.
 
 Técnicas essenciais para melhorar a escalabilidade incluem a **replicação de dados** e o uso de **cache** para recursos muito acessados.
+
+---
+### **2.4 Tratamento de Falhas**
+
+Às vezes, os sistemas de computador falham. Quando ocorrem falhas no hardware ou no software, os programas podem produzir resultados incorretos ou podem parar antes de terem concluído a computação pretendida. 
+
+As falhas em um sistema distribuído são parciais – isto é, alguns componentes falham, enquanto outros continuam funcionando. Portanto, o tratamento de falhas é particularmente difícil. 
+
+**Detecção de falhas:** algumas falhas podem ser detectadas. Por exemplo, somas de verificação podem ser usadas para detectar dados corrompidos em uma mensagem ou em um arquivo. O desafio é gerenciar a ocorrência de falhas que não podem ser detectadas, mas que podem ser suspeitas.
+**Mascaramento de falhas:** algumas falhas detectadas podem ser ocultas ou se tornar menos sérias. Dois exemplos de ocultação de falhas:
+1. Mensagens podem ser retransmitidas quando não chegam. 
+2. Dados de arquivos podem ser gravados em dois discos, para que, se um estiver danificado, o outro ainda possa estar correto. 
+
+As técnicas descritas para o mascaramento de falhas podem não funcionar nos piores casos; por exemplo, os dados no segundo disco também podem estar danificados ou a mensagem pode não chegar em um tempo razoável.
+
+**Tolerância a falhas**: a maioria dos serviços na Internet apresenta falhas. Seus clientes podem ser projetados de forma a tolerar falhas, o que geralmente envolve a tolerância também por parte dos usuários. Por exemplo, quando um navegador não consegue contatar um servidor Web, ele não faz o usuário esperar indefinidamente, enquanto continua tentando – ele informa o usuário sobre o problema, deixando-o livre para tentar novamente. 
+
+**Recuperação de falhas:** a recuperação envolve projetar software de modo que o estado dos dados permanentes possa ser recuperado após a falha de um servidor. Em geral, as computações realizadas por alguns programas ficarão incompletas quando ocorrer uma falha, e os dados permanentes que eles atualizam podem não estar em um estado consistente. 
+
+**Redundância**: os serviços podem se tornar tolerantes a falhas com o uso de componentes redundantes. 
+1. Sempre deve haver pelo menos duas rotas diferentes entre dois roteadores quaisquer na Internet. 
+2. No Domain Name System, toda tabela de correspondência de nomes é replicada em pelo menos dois servidores diferentes. 3. Um banco de dados pode ser replicado em vários servidores, para garantir que os dados permaneçam acessíveis após a falha de qualquer servidor. Os servidores podem ser projetados de forma a detectar falhas em seus pares; quando uma falha é detectada em um servidor, os clientes são redirecionados para os servidores restantes. O projeto de técnicas eficazes para manter réplicas atualizadas de dados que mudam rapidamente, sem perda de desempenho excessiva, é um desafio. Várias estratégias para isso serão discutidas no Capítulo 18. Os sistemas distribuídos fornecem um alto grau de disponibilidade perante falhas de hardware. A disponibilidade de um sistema é a medida da proporção de tempo em que ele está pronto para uso. Quando um dos componentes de um sistema distribuído falha, apenas o trabalho que estava usando o componente defeituoso é afetado. Um usuário pode passar para outro computador, caso aquele que estava sendo utilizado falhe; um processo servidor pode ser iniciado em outro computador.
