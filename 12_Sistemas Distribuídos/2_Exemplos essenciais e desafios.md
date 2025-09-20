@@ -40,7 +40,7 @@ A **Computação em Nuvem** é um modelo onde recursos de computação são forn
 ---
 ## **2. Desafios para sistemas distribuídos.**
 
-### **2.1 Heterogeneidade em Sistemas Distribuídos**
+### **2.1 Heterogeneidade**
 
 A **heterogeneidade** (variedade de componentes) é um desafio central nos sistemas distribuídos. Ela se manifesta em quatro áreas principais:
 
@@ -57,3 +57,13 @@ A **Migração de Código** visa resolver o problema de um programa executável 
 1. **Criação de Código Intermediário:** O compilador da linguagem (ex: Java, C#) não gera código de máquina nativo. Em vez disso, ele gera um **código intermediário**.
 2. **VM como tradutor:** A Máquina Virtual (como o **CLR** do .NET) é um programa que atua como um **tradutor**. Ela é a única parte do sistema que é específica ao hardware e ao SO.
 3. **Execução em Qualquer Lugar:** Para rodar o código, basta que o computador tenha a VM instalada. A VM recebe o código intermediário, entende o que ele precisa fazer e o **traduz** para o sistema específico.
+
+---
+
+### **2.2 Segurança**
+
+A segurança em sistemas distribuídos é crucial devido ao alto valor dos recursos compartilhados e tem três componentes principais: **Confidencialidade** (proteção contra acesso não autorizado), **Integridade** (proteção contra alteração ou dano) e **Disponibilidade** (garantir acesso aos recursos).
+
+1. **Comunicação Segura:** O principal desafio é enviar **informações sigilosas** pela rede. Isso exige **criptografia** para ocultar o conteúdo da mensagem.
+2. **Identificação Confiável:** É fundamental **saber a identidade** do agente remoto. Isso é resolvido por **técnicas de criptografia** (como certificados digitais).
+3. **Ataque de Negação de Serviço:** Um invasor **interrompe a disponibilidade** do serviço bombardeando-o com requisições sem sentido, impedindo que usuários legítimos o utilizem.
