@@ -14,8 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "10_TeoriaComputação/1_AutômatosBásico.pdf",
-                "page": 1,
-                "zoom": 1
+                "page": 3,
+                "left": -4,
+                "top": 284,
+                "zoom": 1.496218487394958
               },
               "icon": "lucide-file-text",
               "title": "1_AutômatosBásico"
@@ -207,6 +209,12 @@
   },
   "active": "777a992d0e916201",
   "lastOpenFiles": [
+    "Sem título.base",
+    "Sem título.md",
+    "Sem título 1.base",
+    "Sem título 3.base",
+    "Sem título 4.base",
+    "Sem título 5.base",
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
     "12_Sistemas Distribuídos/1_Introdução.md",
     "10_TeoriaComputação/1_Autômatos Básico.pdf",
@@ -216,13 +224,9 @@
     "attachments/Pasted image 20250920131022.png",
     "attachments/Pasted image 20250920130950.png",
     "attachments/Pasted image 20250920130923.png",
-    "Sem título 5.base",
     "10_TeoriaComputação/1_Automatos",
-    "Sem título 4.base",
     "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
-    "Sem título 3.base",
     "attachments/Pasted image 20250920075804.png",
-    "Sem título.md",
     "8_POO/2_Modificadores de Acesso e Níveis de Visibilidade.md",
     "12_Sistemas Distribuídos",
     "8_POO/1_SOLID.md",
@@ -234,7 +238,6 @@
     "8_POO/1_Introdução.md",
     "attachments/Pasted image 20250916154614.png",
     "Sem título 2.base",
-    "Sem título 1.base",
     "8_POO/Interfaces.md",
     "8_POO/2_Single Responsibility Principle.md",
     "9_Dotnet/2_ECommerce FullStack/8_.md",
