@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "95db34dac3ae4e8b",
+        "id": "29f2f6aab54272b2",
         "type": "tabs",
         "children": [
           {
-            "id": "f45ea6321929f827",
+            "id": "fec8de96d4877299",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "12_Sistemas Distribuídos/1_Introdução.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1_Introdução"
-            }
-          },
-          {
-            "id": "25b72a20e8fb6340",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10_TeoriaComputação/1_Autômatos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1_Autômatos"
+              "title": "Nova aba"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_TeoriaComputação/1_Autômatos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para 1_Autômatos"
+              "title": "Backlinks"
             }
           },
           {
@@ -128,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10_TeoriaComputação/1_Autômatos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para 1_Autômatos"
+              "title": "Links de saída"
             }
           },
           {
@@ -157,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_TeoriaComputação/1_Autômatos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 1_Autômatos"
+              "title": "Sumário"
             }
           },
           {
@@ -191,7 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,8 +185,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "25b72a20e8fb6340",
+  "active": "fec8de96d4877299",
   "lastOpenFiles": [
+    "10_TeoriaComputação/1_AutômatosBásico.pdf",
+    "12_Sistemas Distribuídos/1_Introdução.md",
+    "10_TeoriaComputação/1_Autômatos Básico.pdf",
+    "10_TeoriaComputação/1_Autômatos.md",
+    "attachments/Pasted image 20250920131054.png",
+    "attachments/Pasted image 20250920131039.png",
+    "attachments/Pasted image 20250920131022.png",
     "attachments/Pasted image 20250920130950.png",
     "attachments/Pasted image 20250920130923.png",
     "Sem título 5.base",
@@ -218,7 +203,6 @@
     "Sem título 3.base",
     "attachments/Pasted image 20250920075804.png",
     "Sem título.md",
-    "12_Sistemas Distribuídos/1_Introdução.md",
     "8_POO/2_Modificadores de Acesso e Níveis de Visibilidade.md",
     "12_Sistemas Distribuídos",
     "8_POO/1_SOLID.md",
@@ -229,24 +213,17 @@
     "attachments/Pasted image 20250917180449.png",
     "8_POO/1_Introdução.md",
     "attachments/Pasted image 20250916154614.png",
-    "attachments/Pasted image 20250916154308.png",
-    "attachments/Pasted image 20250916153509.png",
-    "attachments/Pasted image 20250916153200.png",
     "Sem título 2.base",
     "Sem título 1.base",
     "8_POO/Interfaces.md",
     "8_POO/2_Single Responsibility Principle.md",
     "9_Dotnet/2_ECommerce FullStack/8_.md",
-    "10_TeoriaComputação/1_Autômatos.md",
     "Engenharia de Software/Cap1",
-    "11_Engenharia de Software",
     "9_Dotnet/2_ECommerce FullStack/5_Componentes React.md",
-    "10_TeoriaComputação",
     "9_Dotnet/2_ECommerce FullStack/4_ODM (Object-Document Mapper).md",
     "9_Dotnet/2_ECommerce FullStack/3_Criando Controller.md",
     "9_Dotnet/2_ECommerce FullStack/2_Iniciando o projeto.md",
     "9_Dotnet/2_ECommerce FullStack/7_Consumindo objetos via api.md",
-    "attachments/Pasted image 20250912075632.png",
     "9_Dotnet/2_ECommerce FullStack/6_Hooks.md",
     "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
     "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
