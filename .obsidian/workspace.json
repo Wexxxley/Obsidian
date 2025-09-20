@@ -11,12 +11,14 @@
             "id": "777a992d0e916201",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "10_TeoriaComputação/1_AutômatosBásico.pdf"
+                "file": "10_TeoriaComputação/3_Exercícios.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "1_AutômatosBásico"
+              "icon": "lucide-file",
+              "title": "3_Exercícios"
             }
           }
         ]
@@ -184,7 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 288.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,13 +207,20 @@
   },
   "active": "777a992d0e916201",
   "lastOpenFiles": [
+    "10_TeoriaComputação/2_MáquinaTuring.pdf",
+    "10_TeoriaComputação/3_Exercícios.md",
+    "10_TeoriaComputação/Unconfirmed 781438.crdownload",
+    "attachments/Pasted image 20250920151219.png",
+    "10_TeoriaComputação/1_AutômatosBásico.pdf",
+    "11_Engenharia de Software/2_Processos agéis.md",
+    "attachments/Pasted image 20250920151017.png",
+    "11_Engenharia de Software/1_Introdução.md",
     "Sem título.base",
     "Sem título.md",
     "Sem título 1.base",
     "Sem título 3.base",
     "Sem título 4.base",
     "Sem título 5.base",
-    "10_TeoriaComputação/1_AutômatosBásico.pdf",
     "12_Sistemas Distribuídos/1_Introdução.md",
     "10_TeoriaComputação/1_Autômatos Básico.pdf",
     "10_TeoriaComputação/1_Autômatos.md",
@@ -224,20 +233,13 @@
     "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
     "attachments/Pasted image 20250920075804.png",
     "8_POO/2_Modificadores de Acesso e Níveis de Visibilidade.md",
-    "12_Sistemas Distribuídos",
     "8_POO/1_SOLID.md",
-    "11_Engenharia de Software/2_Processos agéis.md",
     "attachments/Pasted image 20250917192436.png",
-    "11_Engenharia de Software/1_Introdução.md",
     "attachments/1_GrarH2XqRi5iLw--RI5NMQ.png",
-    "attachments/Pasted image 20250917180449.png",
     "8_POO/1_Introdução.md",
-    "attachments/Pasted image 20250916154614.png",
-    "Sem título 2.base",
     "8_POO/Interfaces.md",
     "8_POO/2_Single Responsibility Principle.md",
     "9_Dotnet/2_ECommerce FullStack/8_.md",
-    "Engenharia de Software/Cap1",
     "9_Dotnet/2_ECommerce FullStack/5_Componentes React.md",
     "9_Dotnet/2_ECommerce FullStack/4_ODM (Object-Document Mapper).md",
     "9_Dotnet/2_ECommerce FullStack/3_Criando Controller.md",
@@ -250,7 +252,6 @@
     "6_FrontEnd/3_JavaScript/10_Multiplos estilos com um clique.md",
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
     "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
-    "6_FrontEnd/3_JavaScript/4_Arrays.md",
     "Sem título.canvas"
   ]
 }

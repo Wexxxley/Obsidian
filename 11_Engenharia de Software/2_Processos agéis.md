@@ -11,3 +11,4 @@ Outras características de processos ágeis incluem:
 2. **Menor ênfase em planos detalhados**: pois muitas vezes nem o cliente, nem os Engenheiros tem, no início, uma ideia clara dos requisitos. Esse entendimento vai surgir ao longo do caminho, à medida que incrementos de produto sejam produzidos e validados. 
 3. **Inexistência de uma fase dedicada a design:** Em vez disso, o design também é incremental. Ele evolui à medida que o sistema vai nascendo, ao final de cada iteração. 
 4. **Desenvolvimento em times pequenos**: com cerca de uma dezena de desenvolvedores. 
+
