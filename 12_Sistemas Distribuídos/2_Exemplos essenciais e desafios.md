@@ -67,3 +67,16 @@ A segurança em sistemas distribuídos é crucial devido ao alto valor dos recur
 1. **Comunicação Segura:** O principal desafio é enviar **informações sigilosas** pela rede. Isso exige **criptografia** para ocultar o conteúdo da mensagem.
 2. **Identificação Confiável:** É fundamental **saber a identidade** do agente remoto. Isso é resolvido por **técnicas de criptografia** (como certificados digitais).
 3. **Ataque de Negação de Serviço:** Um invasor **interrompe a disponibilidade** do serviço bombardeando-o com requisições sem sentido, impedindo que usuários legítimos o utilizem.
+
+---
+### **2.3 Escalabilidade**
+
+A **escalabilidade** é a capacidade de um sistema distribuído permanecer eficiente diante de um aumento significativo no **número de usuários e recursos**.
+
+Os principais desafios no projeto de sistemas escaláveis são:
+1. **Controlar o Custo dos Recursos Físicos:** O custo para suportar n usuários deve se **proporcional** ao numero de máquinas. Se um servidor suporta 20 usuários, dois devem suportar 40. Isso exige a adição eficiente de servidores para evitar gargalos.
+2. **Controlar a Perda de Desempenho:** O tempo de acesso aos dados não deve aumentar linearmente. Algoritmos devem usar **estruturas hierárquicas** (ex: DNS), onde a perda de desempenho é minimizada para **O(logn)**.
+3. **Impedir o Esgotamento de Recursos de Software:** Deve-se prever a demanda futura para evitar que recursos de software críticos se esgotem (ex: o esgotamento dos endereços **IPv4** de 32 bits, exigindo a migração para **IPv6** de 128 bits).
+4. **Evitar Gargalos de Desempenho:** Algoritmos e gerenciamento de dados devem ser **descentralizados**. O **DNS** resolveu o gargalo do sistema predecessor, que usava um único arquivo central, ao **particionar a tabela de nomes** entre diversos servidores distribuídos.
+
+Técnicas essenciais para melhorar a escalabilidade incluem a **replicação de dados** e o uso de **cache** para recursos muito acessados.
