@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "29f2f6aab54272b2",
+        "id": "8ef0f8c7869ba53f",
         "type": "tabs",
         "children": [
           {
-            "id": "fec8de96d4877299",
+            "id": "777a992d0e916201",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nova aba"
+              "type": "pdf",
+              "state": {
+                "file": "10_TeoriaComputação/1_AutômatosBásico.pdf",
+                "page": 1,
+                "zoom": 1
+              },
+              "icon": "lucide-file-text",
+              "title": "1_AutômatosBásico"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "10_TeoriaComputação/1_AutômatosBásico.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos para 1_AutômatosBásico"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "10_TeoriaComputação/1_AutômatosBásico.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída"
+              "title": "Links de saída para 1_AutômatosBásico"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "10_TeoriaComputação/1_AutômatosBásico.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário"
+              "title": "Sumário de 1_AutômatosBásico"
             }
           },
           {
@@ -163,9 +170,19 @@
               "icon": "code-glyph",
               "title": "Shell commands: Custom variables"
             }
+          },
+          {
+            "id": "ce54e530abc6c926",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "code-glyph",
+              "title": "Shell commands: Custom variables"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -182,10 +199,13 @@
       "command-palette:Abrir paleta de comandos": false,
       "obsidian-shellcommands:Shell commands: Custom variables": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "fec8de96d4877299",
+  "active": "777a992d0e916201",
   "lastOpenFiles": [
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
     "12_Sistemas Distribuídos/1_Introdução.md",
