@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 341.5,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -210,6 +211,7 @@
   },
   "active": "25b72a20e8fb6340",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250920075804.png",
     "Sem título.md",
     "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
     "12_Sistemas Distribuídos/1_Introdução.md",
@@ -251,7 +253,6 @@
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
     "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "6_FrontEnd/3_JavaScript/4_Arrays.md",
-    "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
     "9_Dotnet/1_WebAPI/3_Intermediário",
     "6_FrontEnd/4_React",
     "Sem título.base",
