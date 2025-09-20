@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
+                "file": "10_TeoriaComputação/1_Autômatos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Exemplos essenciais e desafios"
+              "title": "1_Autômatos"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
+                "file": "10_TeoriaComputação/1_Autômatos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para 2_Exemplos essenciais e desafios"
+              "title": "Links inversos para 1_Autômatos"
             }
           },
           {
@@ -129,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
+                "file": "10_TeoriaComputação/1_Autômatos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para 2_Exemplos essenciais e desafios"
+              "title": "Links de saída para 1_Autômatos"
             }
           },
           {
@@ -158,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
+                "file": "10_TeoriaComputação/1_Autômatos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 2_Exemplos essenciais e desafios"
+              "title": "Sumário de 1_Autômatos"
             }
           },
           {
@@ -210,8 +209,13 @@
   },
   "active": "25b72a20e8fb6340",
   "lastOpenFiles": [
-    "Sem título 3.base",
+    "attachments/Pasted image 20250920130950.png",
+    "attachments/Pasted image 20250920130923.png",
+    "Sem título 5.base",
+    "10_TeoriaComputação/1_Automatos",
+    "Sem título 4.base",
     "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
+    "Sem título 3.base",
     "attachments/Pasted image 20250920075804.png",
     "Sem título.md",
     "12_Sistemas Distribuídos/1_Introdução.md",
@@ -233,7 +237,7 @@
     "8_POO/Interfaces.md",
     "8_POO/2_Single Responsibility Principle.md",
     "9_Dotnet/2_ECommerce FullStack/8_.md",
-    "10_TeoriaComputação/1_.md",
+    "10_TeoriaComputação/1_Autômatos.md",
     "Engenharia de Software/Cap1",
     "11_Engenharia de Software",
     "9_Dotnet/2_ECommerce FullStack/5_Componentes React.md",
@@ -243,7 +247,6 @@
     "9_Dotnet/2_ECommerce FullStack/2_Iniciando o projeto.md",
     "9_Dotnet/2_ECommerce FullStack/7_Consumindo objetos via api.md",
     "attachments/Pasted image 20250912075632.png",
-    "attachments/Pasted image 20250912075420.png",
     "9_Dotnet/2_ECommerce FullStack/6_Hooks.md",
     "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
     "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
@@ -252,9 +255,6 @@
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
     "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
     "6_FrontEnd/3_JavaScript/4_Arrays.md",
-    "9_Dotnet/1_WebAPI/3_Intermediário",
-    "6_FrontEnd/4_React",
-    "Sem título.base",
     "Sem título.canvas"
   ]
 }
