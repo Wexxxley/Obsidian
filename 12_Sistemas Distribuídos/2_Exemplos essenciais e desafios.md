@@ -52,7 +52,8 @@ A **heterogeneidade** (variedade de componentes) é um desafio central nos siste
 #### **2.1.1 Middleware**
 O **Middleware** é a principal solução para mascarar a heterogeneidade. É uma camada de software que fornece uma **abstração de programação uniforme**, escondendo as diferenças de rede, hardware, SO e linguagens subjacentes.
 #### **2.1.2 Migração de Código (Máquina Virtual)**
+A **Migração de Código** visa resolver o problema de um programa executável ser geralmente amarrado a uma **arquitetura de hardware** e a um **Sistema Operacional** específicos. A **Máquina Virtual** é a solução para tornar o código portátil.
 
-A **Migração de Código** permite que programas sejam transferidos e executados em diferentes máquinas.
-
-Os códigos executáveis são geralmente específicos de um processador e SO. O uso de uma **Máquina Virtual**, como a **JVM (Java Virtual Machine)**. O código-fonte é compilado para a máquina virtual (e não para o hardware físico), e a VM é implementada uma vez para cada tipo de computador, garantindo que o código seja executável em qualquer lugar.
+1. **Criação de Código Intermediário:** O compilador da linguagem (ex: Java, C#) não gera código de máquina nativo. Em vez disso, ele gera um **código intermediário**.
+2. **VM como tradutor:** A Máquina Virtual (como o **CLR** do .NET) é um programa que atua como um **tradutor**. Ela é a única parte do sistema que é específica ao hardware e ao SO.
+3. **Execução em Qualquer Lugar:** Para rodar o código, basta que o computador tenha a VM instalada. A VM recebe o código intermediário, entende o que ele precisa fazer e o **traduz** para o sistema específico.
