@@ -1,6 +1,8 @@
 
 ___
-### **1. Massively multiplayer online games (MMOGs)**
+
+## **1. Exemplos**
+### **1.1 Massively multiplayer online games (MMOGs)**
 
 A engenharia dos MMOGs representa um grande desafio para as tecnologias de sistemas distribuídos, devido à necessidade de tempos de resposta rápidos para preservar a experiência dos usuários do jogo. Outros desafios incluem a propagação de eventos em tempo real para muitos jogadores e a manutenção de uma visão coerente do mundo compartilhado. Foram propostas várias soluções para o projeto de MMOGs:
 
@@ -8,7 +10,7 @@ A engenharia dos MMOGs representa um grande desafio para as tecnologias de siste
 - Outros MMOGs adotam arquiteturas mais distribuídas, nas quais o universo é particionado por um número potencialmente muito grande de **servidores**, os quais também pode estar **geograficamente distribuídos**. Então, os usuários são **alocados dinamicamente a um servidor** em particular com base nos padrões de utilização momentâneos e também pelos atrasos de rede até o servidor. 
 
 ---
-### **2. Computação Móvel e Ubíqua**
+### **1.2 Computação Móvel e Ubíqua**
 
 A evolução da tecnologia permitiu a integração de dispositivos pequenos e portáteis em sistemas distribuídos, dando origem a dois conceitos inter-relacionados:
 
@@ -20,7 +22,7 @@ A evolução da tecnologia permitiu a integração de dispositivos pequenos e po
     - O principal problema prático é a **operação conjunta espontânea**, onde dispositivos de um visitante precisam **localizar e se associar rapidamente** a serviços locais que nunca usaram antes. Isso exige um mecanismo de **descoberta de serviço** rápido e conveniente.
 
 ---
-### **3. Computação Distribuída como Serviço Público** 
+### **1.3 Computação Distribuída como Serviço Público** 
 
 A **Computação em Nuvem** é um modelo onde recursos de computação são fornecidos por terceiros e **alugados** ao usuário, em vez de serem de sua propriedade. O termo promove a visão de que a computação deve ser tão fácil de usar e pagar quanto a eletricidade ou a água. A Nuvem elimina a necessidade de o usuário ter muito software ou hardware local.
 
@@ -35,28 +37,22 @@ A **Computação em Nuvem** é um modelo onde recursos de computação são forn
 - A Nuvem **reduz os requisitos de equipamento dos usuários**, permitindo que dispositivos portáteis e simples acessem uma vasta gama de recursos.
 - O pagamento é frequentemente baseado na **utilização** (pago pelo que usar).
 
-
-#
 ---
-### **Heterogeneidade em Sistemas Distribuídos**
+## **2. Desafios para sistemas distribuídos.**
 
-A **heterogeneidade** (variedade de componentes) é um desafio central na Internet e nos sistemas distribuídos. Ela se manifesta em cinco áreas principais:
+### **2.1 Heterogeneidade em Sistemas Distribuídos**
+
+A **heterogeneidade** (variedade de componentes) é um desafio central nos sistemas distribuídos. Ela se manifesta em quatro áreas principais:
 
 1. **Redes:** Diferentes tipos de redes (Ethernet, Wi-Fi, etc.) são unificadas pelos **Protocolos Internet**
 2. **Hardware e SO:** Computadores têm diferentes arquiteturas e sistemas operacionais.
 3. **Linguagens de Programação:** Diferentes linguagens usam diferentes representações para dados e estruturas.
 4. **Desenvolvimento:** Programas só se comunicam se seguirem **padrões comuns** (protocolos e representação de dados).
 
-## Soluções para a Heterogeneidade
-
-### 1. Middleware (Camada de Software)
-
+#### **2.1.1 Middleware**
 O **Middleware** é a principal solução para mascarar a heterogeneidade. É uma camada de software que fornece uma **abstração de programação uniforme**, escondendo as diferenças de rede, hardware, SO e linguagens subjacentes.
-    
-- **Exemplo:** CORBA e Java RMI. O middleware permite que programas em diferentes máquinas e SOs se comuniquem, oferecendo um modelo de computação uniforme (como a **invocação remota de objetos**).
+#### **2.1.2 Migração de Código (Máquina Virtual)**
 
-### 2. Migração de Código (Máquina Virtual)
+A **Migração de Código** permite que programas sejam transferidos e executados em diferentes máquinas.
 
-A **Migração de Código** (ou código móvel, ex: applets Java) permite que programas sejam transferidos e executados em diferentes máquinas.
-
-Os códigos executáveis são geralmente específicos de um processador e SO. O uso de uma **Máquina Virtual (VM)**, como a **JVM (Java Virtual Machine)**. O código-fonte é compilado para a máquina virtual (e não para o hardware físico), e a VM é implementada uma vez para cada tipo de computador, garantindo que o código seja executável em qualquer lugar.
+Os códigos executáveis são geralmente específicos de um processador e SO. O uso de uma **Máquina Virtual**, como a **JVM (Java Virtual Machine)**. O código-fonte é compilado para a máquina virtual (e não para o hardware físico), e a VM é implementada uma vez para cada tipo de computador, garantindo que o código seja executável em qualquer lugar.

@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GIT/Git and Github.md",
+                "file": "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Git and Github"
+              "title": "Links inversos para 2_Exemplos essenciais e desafios"
             }
           },
           {
@@ -129,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem título.md",
+                "file": "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Sem título"
+              "title": "Links de saída para 2_Exemplos essenciais e desafios"
             }
           },
           {
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8_POO/Enum em Java.md",
+                "file": "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Enum em Java"
+              "title": "Sumário de 2_Exemplos essenciais e desafios"
             }
           },
           {
@@ -188,12 +188,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 255.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,9 +210,10 @@
   },
   "active": "25b72a20e8fb6340",
   "lastOpenFiles": [
+    "Sem título 3.base",
+    "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
     "attachments/Pasted image 20250920075804.png",
     "Sem título.md",
-    "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
     "12_Sistemas Distribuídos/1_Introdução.md",
     "8_POO/2_Modificadores de Acesso e Níveis de Visibilidade.md",
     "12_Sistemas Distribuídos",
@@ -244,7 +244,6 @@
     "9_Dotnet/2_ECommerce FullStack/7_Consumindo objetos via api.md",
     "attachments/Pasted image 20250912075632.png",
     "attachments/Pasted image 20250912075420.png",
-    "attachments/Pasted image 20250912074720.png",
     "9_Dotnet/2_ECommerce FullStack/6_Hooks.md",
     "6_FrontEnd/3_JavaScript/7_DOM (Document Object Model).md",
     "6_FrontEnd/3_JavaScript/8_DOM consumindo uma api falsa.md",
@@ -256,7 +255,6 @@
     "9_Dotnet/1_WebAPI/3_Intermediário",
     "6_FrontEnd/4_React",
     "Sem título.base",
-    "9_Dotnet/1_WebAPI/2_Fundamentos WEBAPI",
     "Sem título.canvas"
   ]
 }
