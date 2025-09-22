@@ -91,25 +91,15 @@ O que foi feito:
 
 **Localização Rápida de Erros**
 - **Antes:** Se o cálculo do preço estivesse errado, o e-mail não fosse enviado, ou o salvamento falhasse, você procuraria o erro em uma única e grande classe, a `OrderProcessor`.
-- **Depois:** Se o salvamento falhar, você sabe **imediatamente** que o erro está na classe **`OrderRepository`**. Se o preço estiver errado, o problema está na **`OrderCalculator`**. Isso economiza horas de depuração (_debugging_).
-    
+- **Depois:** Se o salvamento falhar, você sabe **imediatamente** que o erro está na classe **`OrderRepository`**.
 
----
-
-## 2. Facilidade de Testes Unitários (Unit Testing) ✅
-
+**Facilidade de Testes Unitários** 
 - **Antes:** Para testar se o cálculo do preço estava correto, seu teste teria que interagir com o banco de dados e possivelmente tentar enviar um e-mail. Isso não é um teste unitário puro.
-    
 - **Depois:** Para testar a **`OrderProcessor`**, você pode **simular (_mock_)** o banco de dados e o serviço de e-mail. O teste foca apenas em garantir que a `OrderProcessor` **chame** os métodos corretos, sem realmente salvar ou enviar.
-    
 
----
-
-## 3. Manutenção e Flexibilidade (Manutenibilidade) 🛠️
-
-- **Antes:** Se você mudar a forma como o e-mail é enviado (por exemplo, de `Console.WriteLine` para um serviço como SendGrid), você teria que abrir e modificar a classe `OrderProcessor`, quebrando o código que lida com o banco de dados e o cálculo.
-    
-- **Depois:** Se você mudar o banco de dados (por exemplo, de SQL para NoSQL), você só precisa modificar a classe **`OrderRepository`**. As classes **`OrderCalculator`** e **`EmailService`** permanecem totalmente intactas e funcionando.
+**Manutenção e Flexibilidade** 
+- **Antes:** Se você mudar a forma como o e-mail é enviado, você teria que abrir e modificar a classe `OrderProcessor`, quebrando o código que lida com o banco de dados e o cálculo.
+- **Depois:** Se você mudar o banco de dados você só precisa modificar a classe **`OrderRepository`.** As classes **`OrderCalculator`** e **`EmailService`** permanecem totalmente intactas.
 
 ___________________________________________________________________________
 
