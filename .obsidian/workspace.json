@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
+                "file": "8_POO/SOLID/3_Open Close Principle (OCP).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Single Responsability Principle (SRP)"
+              "title": "3_Open Close Principle (OCP)"
             }
           }
         ]
@@ -208,10 +208,11 @@
   },
   "active": "777a992d0e916201",
   "lastOpenFiles": [
+    "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
+    "8_POO/SOLID/3_Open Close Principle (OCP).md",
     "attachments/Pasted image 20250922145759.png",
     "attachments/Pasted image 20250922145744.png",
     "8_POO/SOLID/1_SOLID.md",
-    "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
     "8_POO/SOLID",
     "4_Algorítmos e Estruturas de dados/Tabela Hash/1_Tabela de hashing.md",
     "4_Algorítmos e Estruturas de dados/Tabela Hash/2_Função de hash.md",
@@ -243,7 +244,6 @@
     "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
     "attachments/Pasted image 20250920075804.png",
     "8_POO/2_Modificadores de Acesso e Níveis de Visibilidade.md",
-    "attachments/Pasted image 20250917192436.png",
     "8_POO/1_Introdução.md",
     "8_POO/Interfaces.md",
     "8_POO/2_Single Responsibility Principle.md",
