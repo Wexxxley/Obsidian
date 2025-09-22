@@ -14,3 +14,50 @@ Os módulos que obedecem ao OCP têm duas características principais:
   
 
  Um módulo pode manipular uma abstração. Tal módulo pode ser fechado para modificação, pois ele depende de uma abstração fixa. Apesar disso, o comportamento desse módulo pode ser ampliado pela criação de novas derivadas da abstração.**
+
+Imagine que você tem uma classe chamada **`PaymentProcessor`** que lida com pagamentos para sua aplicação de comércio eletrônico. Inicialmente, ela suporta apenas pagamentos com cartão de crédito:
+
+```c#
+class PaymentProcessor {
+    func processCreditCardPayment() {
+        // Código para processar o pagamento com cartão de crédito
+    }
+}
+```
+
+Mais tarde, você decide estender sua aplicação para suportar pagamentos via PayPal. Para fazer isso, você precisa **modificar** a classe **`PaymentProcessor`** existente:
+
+```c#
+class PaymentProcessor {
+    func processCreditCardPayment() {
+        // Código para processar o pagamento com cartão de crédito
+    }
+    
+    func processPayPalPayment() {
+        // Código para processar o pagamento via PayPal
+    }
+}
+```
+
+No primeiro exemplo, você **violou o Princípio Aberto/Fechado** porque teve que **modificar a classe existente** para adicionar suporte a um novo método de pagamento. 
+
+Para aderir ao **Princípio Aberto/Fechado**, você pode usar uma **abstração** e criar classes separadas para cada método de pagamento **sem modificar o código existente**:
+
+```c#
+interface PaymentProcessing {
+    func processPayment()
+}
+
+class CreditCardPaymentProcessor: PaymentProcessing {
+    func processPayment() {
+        // Código para processar o pagamento com cartão de crédito
+    }
+}
+class PayPalPaymentProcessor: PaymentProcessing {
+    func processPayment() {
+        // Código para processar o pagamento via PayPal
+    }
+}
+```
+
+Com essa abordagem, você introduziu uma abstração, **`PaymentProcessing`**, e criou classes específicas para cada método de pagamento. 
