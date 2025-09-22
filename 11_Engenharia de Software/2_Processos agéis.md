@@ -24,31 +24,83 @@ XP não é um método prescritivo. Em vez disso, XP é definido por meio de um c
 
 Frequentemente, quando decidem adotar XP, desenvolvedores e organizações concentram-se nas práticas. Porém, os valores e princípios são componentes chaves do método, pois são eles que dão sentido às práticas propostas em XP. 
 
-**Valores**: XP defende que o desenvolvimento de projetos de software seja norteado
-por três valores principais: comunicação, simplicidade e feedback. Na
-verdade, argumenta-se que esses valores são universais, para convívio
-humano. Ou seja, eles não servem apenas para guiar projetos de
-desenvolvimento, mas a própria vida em sociedade. Uma boa comunicação
-é importante em qualquer projeto, não apenas para evitar, mas também para
-aprender com erros. O segundo valor de XP é simplicidade, pois em todo
-sistema complexo e desafiador existem sistemas ou subsistemas mais
-simples, que às vezes não são considerados. Por último, existem riscos em
-todos os projetos de software: os requisitos mudam, a tecnologia muda, a
-equipe de desenvolvimento muda, o mundo muda, etc. Um valor que ajuda a
-controlar tais riscos é estar aberto ao feedback dos stakeholders, a fim de
-que correções de rota sejam implementadas o quanto antes. Em outras
-palavras, é difícil desenvolver o sistema de software certo em uma primeira
-e única tentativa. Frederick Brooks tem uma frase conhecida sobre esse
-fenômeno:
-Planeje-se para jogar fora partes de seu sistema, pois você fará isso.
-Por isso, feedback é um valor essencial para garantir que as partes ou
-versões que serão descartadas sejam identificadas o quanto antes, de forma a
-diminuir prejuízos e retrabalho. Além dos três valores mencionados, XP
-também defende outros valores, como coragem, respeito e qualidade de
-vida.
+#### **Valores**
+XP defende que o desenvolvimento de projetos de software seja norteado por três valores principais: **comunicação, simplicidade e feedback**. 
 
+Frederick Brooks tem uma frase conhecida sobre os feedbacks: "Planeje-se para jogar fora partes de seu sistema, pois você fará isso. Por isso, feedback é um valor essencial para garantir que as partes ou versões que serão descartadas sejam identificadas o quanto antes, de forma a
+diminuir prejuízos e retrabalho. 
 
+#### **Princípios**
 
+1. **Humanidade** 
+2. **Economicidade:** Software é uma atividade cara, que demanda a alocação de recursos financeiros consideráveis. Logo, tem-se que ter
+consciência de que o outro lado, isto é, quem está pagando as contas do
+projeto, espera resultados econômicos e financeiros. Por isso, na grande
+maioria dos casos, software não pode ser desenvolvido apenas para
+satisfazer a vaidade intelectual de seus desenvolvedores. Software não é uma
+obra de arte, mas algo que tem que gerar resultados econômicos, como
+defendido por esse princípio de XP.
+Benefícios Mútuos. XP defende que as decisões tomadas em um projeto de
+software têm que beneficiar múltiplos stakeholders. Por exemplo, o
+contratante do software deve garantir um bom ambiente de trabalho
+(peopleware); em contrapartida, a equipe deve entregar um sistema que
+agregue valor ao seu negócio (economicidade). Mais um exemplo: ao
+escrever testes um desenvolvedor se beneficia, pois eles ajudam a detectar
+bugs no seu código; mas testes também ajudam outros desenvolvedores, que
+futuramente terão mais segurança de que o seu código não vai introduzir
+regressões — isto é, bugs — em código que está funcionando. Um terceiro e
+último exemplo: refactoring é uma atividade que torna o código mais limpo
+e fácil de entender, tanto para quem o escreveu, como para quem
+futuramente terá que mantê-lo. A frase todo negócio tem que ser bom para
+os dois lados resume bem esse terceiro princípio de XP.
+Melhorias Contínuas (no livro de XP, o nome original é improvements):
+Como expressa a frase de Kent Beck que abre este capítulo, nenhum
+processo de desenvolvimento de software é perfeito. Por isso, é mais seguro
+trabalhar com um sistema que vai sendo continuamente aprimorado, a cada
+iteração, com o feedback dos clientes e de todos os membros do time. Pelo
+mesmo motivo, XP não recomenda investir um grande montante de tempo
+em um design inicial e completo. Em vez disso, o design do sistema também
+é incremental, melhorando a cada iteração. Por fim, as próprias práticas de
+desenvolvimento podem ser aprimoradas; para isso, o time deve reservar
+tempo para refletir sobre elas.
+Falhas Acontecem. Desenvolvimento de software não é uma atividade livre
+de riscos. Como discutido no Capítulo 1, software é uma das mais
+complexas construções humanas. Logo, falhas são esperadas em projetos de
+desenvolvimento de software. No contexto desse princípio, falhas incluem
+bugs, funcionalidades que não se mostraram interessantes para os usuários
+finais e requisitos não-funcionais que não estão sendo plenamente atendidos,
+como desempenho, usabilidade, privacidade, disponibilidade, etc.
+Evidentemente, XP não advoga que essas falhas devem ser acobertadas.
+Porém, elas não devem ser usadas para punir membros de um time. Pelo
+contrário, falhas fazem parte do jogo, se um time pretende entregar software
+com rapidez.
+Baby Steps. É melhor um progresso seguro, testado e validado, mesmo que
+pequeno, do que grandes implementações com riscos de serem descartadas
+pelos usuários. O mesmo vale para testes (que são úteis mesmo quando as
+unidades testadas são de menor granularidade), integração de código (é
+melhor integrar diariamente, do que passar pelo stress de fazer uma grande
+integração após semanas de trabalho) e refatorações (que devem ocorrer em
+pequenos passos, quando é mais fácil verificar que o comportamento do
+sistema está sendo preservado). Em resumo, o importante é garantir
+melhorias contínuas, não importando que sejam pequenas, desde que na
+direção correta. Essas pequenas melhorias são melhores do que grandes
+revoluções, as quais costumam não apresentar resultados positivos, pelo
+menos quando se trata de desenvolvimento de software.
+Responsabilidade Pessoal (que usamos como tradução para accepted
+responsibility). De acordo com esse princípio, desenvolvedores devem ter
+uma ideia clara de seu papel e responsabilidade na equipe. O motivo é que
+responsabilidade não pode ser transferida, sem que a outra parte a aceite. Por
+isso, XP defende que o engenheiro de software que implementa uma história
+— termo que o método usa para requisitos — deve ser também aquele que
+vai testá-la e mantê-la.
+Mundo Real: Um dos primeiros sistemas a adotar XP foi um sistema de
+folha de pagamentos da fabricante de automóveis Chrysler, chamado
+Chrysler Comprehensive Compensation (C3) (link). O projeto desse sistema
+começou no início de 1995 e, como não apresentou resultados concretos, ele
+foi reiniciado no ano seguinte, sob a liderança de Kent Beck. Outro membro
+conhecido da comunidade ágil, Martin Fowler, participou do projeto, como
+consultor. No desenvolvimento do sistema C3, foram usadas e testadas
+diversas ideias do método que poucos anos depois receberia o nome de XP
 
 
 
