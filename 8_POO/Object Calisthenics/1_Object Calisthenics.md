@@ -14,7 +14,6 @@ Object Calisthenics é um conjunto de 9 regras de programação. O objetivo não
 
 	![450](../../attachments/Pasted%20image%2020250716080822.png)
 	
-
 3. **Encapsule todos os tipos primitivos**
     - Não passe tipos primitivos (como `int`, `String`, `double`) soltos. Envolva-os em classes.
     - **Por quê?** Promove a criação de **Value Objects**. Por exemplo, em vez de um `String email`, crie uma classe `Email` que se autovalida. Isso concentra o comportamento e regras de validação junto com o dado.

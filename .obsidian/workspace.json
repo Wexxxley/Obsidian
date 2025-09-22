@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
+                "file": "8_POO/Object Calisthenics/1_Object Calisthenics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Single Responsability Principle (SRP)"
+              "title": "1_Object Calisthenics"
             }
           }
         ]
@@ -208,13 +208,23 @@
   },
   "active": "777a992d0e916201",
   "lastOpenFiles": [
+    "8_POO/Object Calisthenics/2_Object Calisthenics.md",
+    "8_POO/Object Calisthenics/1_Object Calisthenics.md",
+    "8_POO/Ordenação de coleções.md",
+    "8_POO/Interfaces.md",
+    "8_POO/Enum em Java.md",
+    "8_POO/DecimalFormat.md",
+    "8_POO/Coleções em Java.md",
+    "8_POO/2_Modificadores de Acesso e Níveis de Visibilidade.md",
+    "8_POO/2_Single Responsibility Principle.md",
+    "8_POO/Object Calisthenics",
+    "8_POO/1_Introdução.md",
+    "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
     "8_POO/SOLID/1_SOLID.md",
     "8_POO/SOLID/4_Liskov Substitution Principle.md",
     "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
-    "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
     "8_POO/SOLID/5_Interface Segregation Principle (ISP).md",
     "8_POO/SOLID/3_Open Close Principle (OCP).md",
-    "8_POO/Interfaces.md",
     "attachments/Pasted image 20250922154200.png",
     "attachments/Pasted image 20250922154145.png",
     "attachments/Pasted image 20250922154135.png",
@@ -241,19 +251,9 @@
     "Sem título 4.base",
     "Sem título 5.base",
     "12_Sistemas Distribuídos/1_Introdução.md",
-    "10_TeoriaComputação/1_Autômatos Básico.pdf",
-    "10_TeoriaComputação/1_Autômatos.md",
     "attachments/Pasted image 20250920131054.png",
     "attachments/Pasted image 20250920131039.png",
     "attachments/Pasted image 20250920131022.png",
-    "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
-    "8_POO/2_Modificadores de Acesso e Níveis de Visibilidade.md",
-    "8_POO/1_Introdução.md",
-    "8_POO/2_Single Responsibility Principle.md",
-    "9_Dotnet/2_ECommerce FullStack/8_.md",
-    "9_Dotnet/2_ECommerce FullStack/5_Componentes React.md",
-    "9_Dotnet/2_ECommerce FullStack/4_ODM (Object-Document Mapper).md",
-    "9_Dotnet/2_ECommerce FullStack/3_Criando Controller.md",
     "Sem título.canvas"
   ]
 }
