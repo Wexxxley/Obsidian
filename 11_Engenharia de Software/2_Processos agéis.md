@@ -12,3 +12,18 @@ Outras características de processos ágeis incluem:
 3. **Inexistência de uma fase dedicada a design:** Em vez disso, o design também é incremental. Ele evolui à medida que o sistema vai nascendo, ao final de cada iteração. 
 4. **Desenvolvimento em times pequenos**: com cerca de uma dezena de desenvolvedores. 
 
+---
+## **2. Métodos ageis**
+
+### **2.1 Extreme Programming**
+
+Sendo um método ágil, XP possui todas as características, isto é: adota ciclos curtos e iterativos de desenvolvimento, concede menos ênfase para documentação e para planos detalhados, propõe que o design de um sistema também seja definido de forma incremental e sugere
+que as equipes de desenvolvimento sejam pequenas.
+
+
+
+
+
+
+
+

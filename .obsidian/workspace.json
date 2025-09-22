@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7_Git and github/Branch.md",
+                "file": "11_Engenharia de Software/2_Processos agéis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Branch"
+              "title": "2_Processos agéis"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -142,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_TeoriaComputação/1_AutômatosBásico.pdf",
+                "file": "11_Engenharia de Software/2_Processos agéis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 1_AutômatosBásico"
+              "title": "Sumário de 2_Processos agéis"
             }
           },
           {
@@ -182,11 +183,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,6 +209,7 @@
   },
   "active": "777a992d0e916201",
   "lastOpenFiles": [
+    "7_Git and github/Branch.md",
     "10_TeoriaComputação/3_Exercícios.md",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
     "10_TeoriaComputação/Unconfirmed 781438.crdownload",
