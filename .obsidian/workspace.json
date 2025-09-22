@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8_POO/SOLID/4_ Liskov Substitution Principle.md",
+                "file": "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_ Liskov Substitution Principle"
+              "title": "2_Single Responsability Principle (SRP)"
             }
           }
         ]
@@ -208,9 +208,11 @@
   },
   "active": "777a992d0e916201",
   "lastOpenFiles": [
-    "8_POO/SOLID/5_Interface Segregation Principle (ISP).md",
-    "8_POO/SOLID/4_ Liskov Substitution Principle.md",
+    "8_POO/SOLID/1_SOLID.md",
+    "8_POO/SOLID/4_Liskov Substitution Principle.md",
+    "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
     "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
+    "8_POO/SOLID/5_Interface Segregation Principle (ISP).md",
     "8_POO/SOLID/3_Open Close Principle (OCP).md",
     "8_POO/Interfaces.md",
     "attachments/Pasted image 20250922154200.png",
@@ -218,7 +220,6 @@
     "attachments/Pasted image 20250922154135.png",
     "attachments/Pasted image 20250922145759.png",
     "attachments/Pasted image 20250922145744.png",
-    "8_POO/SOLID/1_SOLID.md",
     "8_POO/SOLID",
     "4_Algorítmos e Estruturas de dados/Tabela Hash/1_Tabela de hashing.md",
     "4_Algorítmos e Estruturas de dados/Tabela Hash/2_Função de hash.md",
@@ -253,7 +254,6 @@
     "9_Dotnet/2_ECommerce FullStack/5_Componentes React.md",
     "9_Dotnet/2_ECommerce FullStack/4_ODM (Object-Document Mapper).md",
     "9_Dotnet/2_ECommerce FullStack/3_Criando Controller.md",
-    "9_Dotnet/2_ECommerce FullStack/2_Iniciando o projeto.md",
     "Sem título.canvas"
   ]
 }
