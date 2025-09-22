@@ -33,31 +33,15 @@ diminuir prejuízos e retrabalho.
 #### **Princípios**
 
 1. **Humanidade** 
-2. **Economicidade:** Software é uma atividade cara, que demanda a alocação de recursos financeiros consideráveis. Logo, tem-se que ter
-consciência de que o outro lado, isto é, quem está pagando as contas do
-projeto, espera resultados econômicos e financeiros. Por isso, na grande
-maioria dos casos, software não pode ser desenvolvido apenas para
-satisfazer a vaidade intelectual de seus desenvolvedores. Software não é uma
-obra de arte, mas algo que tem que gerar resultados econômicos, como
-defendido por esse princípio de XP.
-Benefícios Mútuos. XP defende que as decisões tomadas em um projeto de
-software têm que beneficiar múltiplos stakeholders. Por exemplo, o
-contratante do software deve garantir um bom ambiente de trabalho
-(peopleware); em contrapartida, a equipe deve entregar um sistema que
-agregue valor ao seu negócio (economicidade). Mais um exemplo: ao
-escrever testes um desenvolvedor se beneficia, pois eles ajudam a detectar
-bugs no seu código; mas testes também ajudam outros desenvolvedores, que
-futuramente terão mais segurança de que o seu código não vai introduzir
-regressões — isto é, bugs — em código que está funcionando. Um terceiro e
-último exemplo: refactoring é uma atividade que torna o código mais limpo
-e fácil de entender, tanto para quem o escreveu, como para quem
-futuramente terá que mantê-lo. A frase todo negócio tem que ser bom para
-os dois lados resume bem esse terceiro princípio de XP.
-Melhorias Contínuas (no livro de XP, o nome original é improvements):
-Como expressa a frase de Kent Beck que abre este capítulo, nenhum
-processo de desenvolvimento de software é perfeito. Por isso, é mais seguro
-trabalhar com um sistema que vai sendo continuamente aprimorado, a cada
-iteração, com o feedback dos clientes e de todos os membros do time. Pelo
+2. **Economicidade:** Software é uma atividade cara. Logo, tem-se que ter consciência de quem está pagando as contas do projeto, espera resultados econômicos e financeiros. Por isso, na grande maioria dos casos, software não pode ser desenvolvido apenas para satisfazer a vaidade intelectual de seus desenvolvedores. Software não é umaobra de arte, mas algo que tem que gerar resultados econômicos.
+3. **Benefícios Mútuos**: XP defende que as decisões tomadas em um projeto de software têm que beneficiar múltiplos stakeholders. Por exemplo, o contratante do software deve garantir um bom ambiente de trabalho; em contrapartida, a equipe deve entregar um sistema que agregue valor ao seu negócio. 
+
+	**Exemplo**: ao escrever testes um desenvolvedor se beneficia, pois eles ajudam a detectar
+	bugs no seu código; mas testes também ajudam outros desenvolvedores, que
+	futuramente terão mais segurança de que o seu código não vai introduzir
+	bugs em código que está funcionando. 
+
+3. **Melhorias Contínuas:** Nenhum processo de desenvolvimento de software é perfeito. Por isso, é mais seguro trabalhar com um sistema que vai sendo continuamente aprimorado. Pelo
 mesmo motivo, XP não recomenda investir um grande montante de tempo
 em um design inicial e completo. Em vez disso, o design do sistema também
 é incremental, melhorando a cada iteração. Por fim, as próprias práticas de
