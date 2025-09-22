@@ -41,50 +41,12 @@ diminuir prejuízos e retrabalho.
 	futuramente terão mais segurança de que o seu código não vai introduzir
 	bugs em código que está funcionando. 
 
-3. **Melhorias Contínuas:** Nenhum processo de desenvolvimento de software é perfeito. Por isso, é mais seguro trabalhar com um sistema que vai sendo continuamente aprimorado. Pelo
-mesmo motivo, XP não recomenda investir um grande montante de tempo
-em um design inicial e completo. Em vez disso, o design do sistema também
-é incremental, melhorando a cada iteração. Por fim, as próprias práticas de
-desenvolvimento podem ser aprimoradas; para isso, o time deve reservar
-tempo para refletir sobre elas.
-Falhas Acontecem. Desenvolvimento de software não é uma atividade livre
-de riscos. Como discutido no Capítulo 1, software é uma das mais
-complexas construções humanas. Logo, falhas são esperadas em projetos de
-desenvolvimento de software. No contexto desse princípio, falhas incluem
-bugs, funcionalidades que não se mostraram interessantes para os usuários
-finais e requisitos não-funcionais que não estão sendo plenamente atendidos,
-como desempenho, usabilidade, privacidade, disponibilidade, etc.
-Evidentemente, XP não advoga que essas falhas devem ser acobertadas.
-Porém, elas não devem ser usadas para punir membros de um time. Pelo
-contrário, falhas fazem parte do jogo, se um time pretende entregar software
-com rapidez.
-Baby Steps. É melhor um progresso seguro, testado e validado, mesmo que
-pequeno, do que grandes implementações com riscos de serem descartadas
-pelos usuários. O mesmo vale para testes (que são úteis mesmo quando as
-unidades testadas são de menor granularidade), integração de código (é
-melhor integrar diariamente, do que passar pelo stress de fazer uma grande
-integração após semanas de trabalho) e refatorações (que devem ocorrer em
-pequenos passos, quando é mais fácil verificar que o comportamento do
-sistema está sendo preservado). Em resumo, o importante é garantir
-melhorias contínuas, não importando que sejam pequenas, desde que na
-direção correta. Essas pequenas melhorias são melhores do que grandes
-revoluções, as quais costumam não apresentar resultados positivos, pelo
-menos quando se trata de desenvolvimento de software.
-Responsabilidade Pessoal (que usamos como tradução para accepted
-responsibility). De acordo com esse princípio, desenvolvedores devem ter
-uma ideia clara de seu papel e responsabilidade na equipe. O motivo é que
-responsabilidade não pode ser transferida, sem que a outra parte a aceite. Por
-isso, XP defende que o engenheiro de software que implementa uma história
-— termo que o método usa para requisitos — deve ser também aquele que
-vai testá-la e mantê-la.
-Mundo Real: Um dos primeiros sistemas a adotar XP foi um sistema de
-folha de pagamentos da fabricante de automóveis Chrysler, chamado
-Chrysler Comprehensive Compensation (C3) (link). O projeto desse sistema
-começou no início de 1995 e, como não apresentou resultados concretos, ele
-foi reiniciado no ano seguinte, sob a liderança de Kent Beck. Outro membro
-conhecido da comunidade ágil, Martin Fowler, participou do projeto, como
-consultor. No desenvolvimento do sistema C3, foram usadas e testadas
-diversas ideias do método que poucos anos depois receberia o nome de XP
+4. **Melhorias Contínuas:** Nenhum processo de desenvolvimento de software é perfeito. Por isso, é mais seguro trabalhar com um sistema que vai sendo continuamente aprimorado. Pelo mesmo motivo, XP não recomenda investir um grande montante de tempo em um design inicial e completo. Em vez disso, o design do sistema também é incremental, melhorando a cada iteração.
+
+5. **Falhas Acontecem:** No contexto desse princípio, falhas incluem bugs, funcionalidades que não se mostraram interessantes para os usuários finais e requisitos não-funcionais que não estão sendo plenamente atendidos, Evidentemente, XP não advoga que essas falhas devem ser acobertadas. Porém, elas não devem ser usadas para punir membros de um time. Pelo contrário, falhas fazem parte do jogo, se um time pretende entregar software com rapidez.
+6. **Baby Steps:** É melhor um progresso seguro, testado e validado, mesmo que pequeno, do que grandes implementações com riscos de serem descartadas pelos usuários. 
+7. **Responsabilidade Pessoal:** De acordo com esse princípio, desenvolvedores devem ter uma ideia clara de seu papel e responsabilidade na equipe. O motivo é que responsabilidade não pode ser transferida, sem que a outra parte a aceite.
+
 
 
 
