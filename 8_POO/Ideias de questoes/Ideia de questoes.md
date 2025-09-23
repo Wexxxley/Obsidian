@@ -25,6 +25,7 @@ Uma interface `Funcionario` com métodos como ....
 
 A ideia é mostrar que um `Estagiário` não precisa implementar os métodos ... A interface deve ser quebrada em.
 
+---
 ### **4. Dependency Inversion Principle (DIP) em Notificações:**
 
 Um `ProcessadorDePedido` envia uma notificação de conclusão usando uma classe concreta `EmailService`.
