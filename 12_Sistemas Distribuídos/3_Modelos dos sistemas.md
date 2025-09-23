@@ -14,22 +14,20 @@ Mostramos como as **propriedades** e os **problemas** de projeto de sistemas dis
 
 ---
 ### **Modelo físico**
-Um modelo físico é uma representação dos elementos de hardware de um sistema distribuído, de maneira a abstrair os detalhes específicos do computador e das tecnologias de rede empregadas.
 
-**Modelo físico básico**: no Capítulo 1, um sistema distribuído foi definido como aquele no 
-qual os componentes de hardware ou software localizados em computadores interligados 
-em rede se comunicam e coordenam suas ações apenas passando mensagens. Isso leva a 
-um modelo físico mínimo como sendo um conjunto extensível de nós de computador interconectados por uma rede de computadores para a necessária passagem de mensagens.
+**Modelo físico básico**: Um modelo físico básico é um ==conjunto extensível de nós de computador interconectados por uma rede de computadores para troca de mensagens.==
 
-**Sistemas distribuídos primitivos**: esses sistemas surgiram no final dos anos 1970 e início 
-dos anos 1980 em resposta ao surgimento da tecnologia de redes locais. Esses sistemas consistiam em algo entre 10 e 100 nós interconectados por uma rede local, suportando uma pequena variedade de serviços, como impressoras, servidores de arquivos compartilhados,  e transferências de e-mail. Não havia muita preocupação com o fato de serem abertos. 
+**Sistemas distribuídos primitivos**: Surgiram no início dos anos 1980 em resposta ao surgimento da tecnologia de redes locais. Esses sistemas consistiam em algo entre 10 e 100 nós interconectados por uma ==rede local, suportando uma pequena variedade de serviços==, como impressoras, servidores de arquivos compartilhados,  e transferências de e-mail. Não havia muita preocupação com o fato de serem abertos. 
 
-**Sistemas distribuídos adaptados para a Internet:** aproveitando essa base, S.D de maior escala começaram a surgir nos anos 1990, em resposta crescimento da Internet. Nesses sistemas, a infraestrutura física consiste em um modelo que é um conjunto extensí-vel de nós interconectados por uma rede de redes (a Internet). Esses sistemas exploravam a infraestrutura oferecida pela Internet para desenvolver sistemas distribuídos realmente globais, envolvendo potencialmente grandes números de nós.  Como resultado, o nível de **heterogeneidade** nesses sistemas era significativo em termos de redes, arquiteturas de computador, sistemas operacionais, linguagens empregadas e também equipes de desenvolvimento envolvidas. Isso levou a uma ênfase cada 
+**Sistemas distribuídos adaptados para a Internet:** Aproveitando essa base, S.D de maior escala começaram a surgir nos anos 1990, em resposta crescimento da Internet. Nesses sistemas, a infraestrutura consiste em um modelo que é um conjunto extensí-vel de nós interconectados por uma rede de redes (a Internet). Esses sistemas exploravam a infraestrutura oferecida pela Internet para desenvolver sistemas distribuídos realmente globais, envolvendo potencialmente grandes números de nós.  Como resultado, o nível de **heterogeneidade** nesses sistemas era significativo em termos de redes, arquiteturas de computador, sistemas operacionais, linguagens empregadas e também equipes de desenvolvimento envolvidas. Isso levou a uma ênfase cada 
 vez maior em padrões abertos e tecnologias de middleware associadas.
 
 **Sistemas distribuídos contemporâneos:** nos sistemas anteriores, os nós normalmente eram 
-computadores de mesa e, portanto, relativamente estáticos, separados e autônomos. As principais tendências identificadas na Seção 
-1.3 resultaram em desenvolvimentos significativos nos modelo físicos:
-• O surgimento da computação móvel levou a modelos físicos em que nós como note￾books ou smartphones podem mudar de um lugar para outro em um sistema distribuí-
-do, levando à necessidade de mais recursos, como a descoberta de serviço e o suporte 
-para operação conjunta espontânea.
+computadores de mesa e, portanto, relativamente estáticos, separados e autônomos. As principais tendências que resultaram em desenvolvimentos significativos nos modelo físicos: são
+1. A **computação móvel** levou a modelos físicos em que nós como smartphones podem mudar de um lugar, levando à necessidade de mais recursos, como a descoberta de serviço e o suporte para operação conjunta espontânea.
+2. A **computação ubíqua** levou à mudança de nós distintos para arquiteturas em que os computadores são incorporados em objetos comuns e no ambiente circundante.
+3. A **computação em nuvem** e, em particular, das arquiteturas de agregados (clusters), levou a uma mudança de nós autônomos para conjuntos de nós que, juntos, fornecem determinado serviço.
+
+**Sistemas distribuídos de sistemas:** Um sistema de sistemas pode ser definido como um sistema complexo, consistindo em uma série de subsistemas, os quais são, eles próprios, sistemas que se reúnem para executar uma ou mais tarefas em particular.
+
+Como exemplo de sistema de sistemas, considere um sistema de gerenciamento ambiental para previsão de enchentes. Nesse cenário, existirão redes de sensores implantadas para monitorar o estado de vários parâmetros ambientais; Isso pode, então, ser acoplado a sistemas responsáveis por prever a probabilidade de enchentes, fazendo simulações em clusters. Outros sistemas podem ser estabelecidos para manter e analisar dados históricos .
