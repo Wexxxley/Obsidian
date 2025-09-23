@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
+                "file": "8_POO/Ideias de questoes/Ideia de questoes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6_Dependency Inversion Principle (DIP)"
+              "title": "Ideia de questoes"
             }
           }
         ]
@@ -208,16 +208,17 @@
   },
   "active": "777a992d0e916201",
   "lastOpenFiles": [
+    "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
+    "8_POO/SOLID/3_Open Close Principle (OCP).md",
+    "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
     "8_POO/SOLID/5_Interface Segregation Principle (ISP).md",
     "8_POO/SOLID/4_Liskov Substitution Principle.md",
-    "8_POO/SOLID/3_Open Close Principle (OCP).md",
-    "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
     "8_POO/SOLID/1_SOLID.md",
     "8_POO/1_Introdução.md",
     "8_POO/2_Modificadores de Acesso e Níveis de Visibilidade.md",
     "8_POO/Object Calisthenics/1_Object Calisthenics.md",
     "8_POO/Object Calisthenics/2_Object Calisthenics.md",
-    "8_POO/Ideias de questoes/Sem título.md",
+    "8_POO/Ideias de questoes/Ideia de questoes.md",
     "8_POO/Ideias de questoes",
     "8_POO/Ordenação de coleções.md",
     "8_POO/Interfaces.md",
@@ -226,7 +227,6 @@
     "8_POO/Coleções em Java.md",
     "8_POO/2_Single Responsibility Principle.md",
     "8_POO/Object Calisthenics",
-    "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
     "attachments/Pasted image 20250922154200.png",
     "attachments/Pasted image 20250922154145.png",
     "attachments/Pasted image 20250922154135.png",
