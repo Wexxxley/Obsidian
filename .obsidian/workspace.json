@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8_POO/SOLID/4_Liskov Substitution Principle.md",
+                "file": "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Liskov Substitution Principle"
+              "title": "6_Dependency Inversion Principle (DIP)"
             }
           }
         ]
@@ -208,14 +208,14 @@
   },
   "active": "777a992d0e916201",
   "lastOpenFiles": [
+    "8_POO/SOLID/5_Interface Segregation Principle (ISP).md",
+    "8_POO/SOLID/4_Liskov Substitution Principle.md",
     "8_POO/SOLID/3_Open Close Principle (OCP).md",
     "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
     "8_POO/Object Calisthenics/1_Object Calisthenics.md",
+    "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
     "8_POO/Ideias de questoes/Ideias de questões.md",
     "8_POO/Object Calisthenics/2_Object Calisthenics.md",
-    "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
-    "8_POO/SOLID/5_Interface Segregation Principle (ISP).md",
-    "8_POO/SOLID/4_Liskov Substitution Principle.md",
     "8_POO/SOLID/1_SOLID.md",
     "8_POO/1_Introdução.md",
     "8_POO/2_Modificadores de Acesso e Níveis de Visibilidade.md",
