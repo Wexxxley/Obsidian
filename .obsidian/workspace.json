@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12_Sistemas Distribuídos/5_Modelos de arquitetura.md",
+                "file": "12_Sistemas Distribuídos/Sem título.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Modelos de arquitetura"
+              "title": "Sem título"
             }
           }
         ]
@@ -208,10 +208,11 @@
   },
   "active": "334cbc730e92bb84",
   "lastOpenFiles": [
+    "12_Sistemas Distribuídos/5_Modelos de arquitetura.md",
+    "12_Sistemas Distribuídos/Sem título.md",
     "attachments/Pasted image 20250925185406.png",
     "attachments/Pasted image 20250925183214.png",
     "12_Sistemas Distribuídos/3_Modelos dos sistemas.md",
-    "12_Sistemas Distribuídos/5_Modelos de arquitetura.md",
     "12_Sistemas Distribuídos/4_Modelos físicos.md",
     "2_Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
     "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
@@ -253,7 +254,6 @@
     "Sem título 3.base",
     "Sem título 4.base",
     "attachments/Pasted image 20250920131054.png",
-    "attachments/Pasted image 20250920131039.png",
     "Sem título.canvas"
   ]
 }
