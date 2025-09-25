@@ -83,10 +83,5 @@ Para analisar as ameaças, o modelo postula a existência de um **invasor** que 
 As ameaças podem ser anuladas com o uso de **canais de comunicação seguros**. Um canal seguro é construído usando-se técnicas de criptografia e autenticação e possui as seguintes propriedades:
 
 1. **Autenticação**: Cada um dos processos no canal conhece com certeza a identidade do principal em nome do qual o outro processo está executando.
-    
-2. **Privacidade e Integridade**: O canal garante a privacidade (por meio de criptografia para ocultar o conteúdo) e a integridade (proteção contra falsificação) dos dados transmitidos por ele.
-    
+2. **Privacidade e Integridade**: O canal garante a **privacidade** (por meio de criptografia) e a **integridade** que é garantida por meio de técnicas como assinaturas digitais, que permitem ao destinatário verificar que a mensagem não foi alterada desde que foi enviada.
 3. **Proteção contra Replay**: Cada mensagem inclui uma indicação de tempo (lógico ou físico) para impedir que mensagens sejam reproduzidas ou reordenadas.
-    
-
-Com isso, concluímos a explanação do Capítulo 2, que apresentou os modelos físicos, de arquitetura e fundamentais, fornecendo as bases conceituais para entender o projeto de sistemas distribuídos.
