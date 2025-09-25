@@ -74,34 +74,10 @@ Este padrão arquitetônico busca reduzir a complexidade do equipamento do usuá
 
 **Middleware** é uma camada de software que fica acima da plataforma (SO e hardware) e abaixo das aplicações. Sua principal tarefa é fornecer uma abstração de programação de nível mais alto que simplifique o desenvolvimento de sistemas distribuídos. Ele faz isso mascarando a heterogeneidade da infraestrutura.
 
-##### **Categorias de Middleware**
-As soluções de middleware se baseiam nos modelos arquitetônicos que já discutimos. O livro apresenta uma taxonomia (resumida na Figura 2.12) das principais classes de middleware, que incluem:
-
-- **Objetos Distribuídos**: Plataformas como CORBA e RMI Java que se baseiam em objetos como as entidades de comunicação2.
-    
-- **Componentes Distribuídos**: Plataformas como Enterprise JavaBeans (EJB) e Fractal que utilizam componentes, muitas vezes em arquiteturas de servidores de aplicação3.
-    
-- **Sistemas Publicar-Assinar**: Soluções como o CORBA Event Service e JMS, que se baseiam na comunicação indireta através da publicação de eventos4.
-    
-- **Filas de Mensagem**: Plataformas como Websphere MQ e JMS, que usam filas como intermediários para a comunicação ponto a ponto5.
-    
-- **Serviços Web**: Plataformas como Apache Axis e The Globus Toolkit, que utilizam padrões da Web para a comunicação6.
-    
-- **Peer-to-Peer**: Soluções como Pastry e Gnutella, que se baseiam em uma estratégia cooperativa e descentralizada7.
-    
-
 ##### **Limitações do Middleware e o Princípio Fim-a-Fim**
+Apesar de simplificar muito a programação, o middleware tem limitações. Nem todos os aspectos da confiabilidade e correção de um sistema podem ser totalmente abstraídos da aplicação. Para explicar isso, o capítulo apresenta o **princípio fim-a-fim** de Saltzer. A ideia central deste princípio é:
 
-Apesar de simplificar muito a programação, o livro ressalta que o middleware tem limitações. Nem todos os aspectos da confiabilidade e correção de um sistema podem ser totalmente abstraídos da aplicação.
+> Algumas funções relacionadas à comunicação só podem ser implementadas de forma completa com o conhecimento e a ajuda da aplicação que está nos pontos de extremidade (fim-a-fim). Portanto, fornecer essa função como um recurso do próprio sistema de comunicação (ou seja, no middleware) nem sempre é uma boa ideia.
 
-Para explicar isso, o capítulo apresenta o **princípio fim-a-fim (end-to-end principle)** de Saltzer, Reed e Clarke. A ideia central deste princípio é:
+Por exemplo, um serviço de transferência de e-mail não confia apenas na camada TCP para garantir a entrega de um arquivo muito grande. Se a conexão TCP for interrompida, o serviço de e-mail em si (a aplicação) mantém um registro do progresso e retoma a transmissão em uma nova conexão. A aplicação no ponto final é a única que pode garantir que a tarefa completa foi concluída com sucesso.
 
-> Algumas funções relacionadas à comunicação só podem ser implementadas de forma completa e correta com o conhecimento e a ajuda da aplicação que está nos pontos de extremidade (fim-a-fim) de um sistema de comunicação. Portanto, fornecer essa função como um recurso do próprio sistema de comunicação (ou seja, no middleware) nem sempre é uma boa ideia8.
-
-Por exemplo, um serviço de transferência de e-mail não confia apenas na camada TCP para garantir a entrega de um arquivo muito grande. Se a conexão TCP for interrompida, o serviço de e-mail em si (a aplicação) mantém um registro do progresso e retoma a transmissão em uma nova conexão9. A aplicação no ponto final é a única que pode garantir que a tarefa completa (enviar o e-mail) foi concluída com sucesso.
-
-Isso representa um dilema para os projetistas de middleware, pois contradiz a ideia de que todas as atividades de comunicação podem ser totalmente abstraídas para o programador da aplicação10.
-
-A seguir, abordaremos a última grande seção do capítulo: os **Modelos Fundamentais** (Interação, Falhas e Segurança).
-
-Quando estiver pronto, digite **next**.
