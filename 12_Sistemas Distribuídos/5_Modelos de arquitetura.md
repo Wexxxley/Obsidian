@@ -42,16 +42,23 @@ Este padrão organiza os serviços verticalmente em camadas de abstração. Cada
 ![500](attachments/Pasted%20image%2020250925183214.png)
 #### **2. Camadas Físicas**
 Este padrão foca na organização e no posicionamento da funcionalidade de uma camada lógica em servidores físicos distintos. Os modelos mais comuns são:
-    
-    - **Arquitetura de Duas Camadas**: A lógica da aplicação é dividida entre o cliente e um único servidor. Por exemplo, a lógica de apresentação fica no cliente e a lógica de dados e parte da aplicação ficam no servidor.
-		- **Camada 1 (Cliente)**: O navegador Web (browser). Ele é responsável pela **lógica de apresentação**: renderiza o HTML, exibe as imagens e gerencia a interação do usuário
-		- **Camada 2 (Servidor)**: O servidor Web (como Apache ou IIS). Ele é responsável tanto pela **lógica da aplicação** (encontrar o arquivo solicitado no sistema de arquivos do servidor) quanto pela **lógica de dados** (ler o arquivo do disco e enviá-lo pela rede).
-        
-    - **Arquitetura de Três Camadas**: A funcionalidade é dividida em três papéis lógicos, cada um geralmente mapeado para um servidor físico diferente: 1) Lógica de apresentação (cliente), 2) Lógica da aplicação (servidor de aplicação), e 3) Lógica de dados (servidor de banco de dados) . A enciclopédia Wikipedia é um exemplo de uma arquitetura de múltiplas camadas (n-camadas).
-        
-    - **AJAX (Asynchronous JavaScript and XML)**: O livro descreve o AJAX como uma técnica que aprimora a arquitetura em camadas na Web. Ele permite que programas JavaScript no navegador (cliente) solicitem novos dados diretamente de um programa no servidor e atualizem seletivamente partes de uma página Web, sem a necessidade de recarregar a página inteira . Isso resulta em aplicações Web mais rápidas e interativas, como o Google Maps.
-        
 
+1. **Arquitetura de Duas Camadas**: A lógica da aplicação é dividida entre o cliente e um servidor.
+	- **Exemplo: Web**
+		- **Camada 1**: Navegador Web . Ele é responsável pela **lógica de apresentação**: renderiza o HTML, exibe as imagens e gerencia a interação do usuário
+		- **Camada 2**: Servidor Web. Ele é responsável tanto pela **lógica da aplicação** quanto pela **lógica de dados**.
+	
+2. **Arquitetura de Três Camadas**: A funcionalidade é dividida em três papéis lógicos, cada um geralmente mapeado para um servidor físico diferente: 1) Lógica de apresentação (cliente), 2) Lógica da aplicação (servidor de aplicação), e 3) Lógica de dados (servidor de banco de dados) 
+	- **Exemplo: Uma loja online**
+		- **Camada 1**: O navegador Web do usuário, que exibe os produtos.
+		- **Camada 2**: O server Web que executa um programa que contém a lógica do negócio.
+		- **Camada 3**: Um servidor de banco de dados (como PostgreSQL). O programa na camada de aplicação consulta ou atualiza este banco de dados para obter informações sobre produtos, registrar um novo pedido ou verificar os dados 
+
+3. **AJAX (Asynchronous JavaScript and XML)**: Permite que programas JavaScript no navegador (cliente) solicitem novos dados diretamente de um programa no servidor e atualizem seletivamente partes de uma página Web, sem a necessidade de recarregar a página inteira.
+	- **Exemplo: Google Maps**: Na interação Web tradicional, se você arrastasse o mapa para ver uma área adjacente, teria que esperar a página inteira ser recarregada com o novo mapa. Com AJAX, isso não acontece:
+		- O mapa é exibido como um conjunto de pequenas imagens quadradas. 
+		- Quando você move o mapa, o código JavaScript do navegador simplesmente reposiciona as áreas que já foram carregadas. Simultaneamente, o JavaScript faz chamadas em segundo plano (usando AJAX) para um servidor do Google, solicitando apenas as novas áreas necessárias para preencher os espaços vazios na tela.
+		- 
 #### **2. Clientes "Magros" (Thin Clients)**
 
 Este padrão arquitetônico busca reduzir a complexidade do equipamento do usuário final, transferindo-a para os serviços da Internet.
