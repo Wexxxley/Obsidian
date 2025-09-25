@@ -40,38 +40,26 @@ Para entender os elementos fundamentais de um sistema distribuído é preciso ex
 ##### **A. Entidades em Comunicação**
 - **Do ponto de vista do sistema**, as entidades que se comunicam são geralmente os **processos**. Em ambientes mais complexos, podem ser as **threads** dentro dos processos.
 - **Do ponto de vista da programação**, abstrações de nível mais alto são usadas para representar as entidades:
-    - **Objetos**: Unidades naturais de decomposição para um problema, acessadas por meio de interfaces que definem seus métodos.
+    - **Objetos**: Que são acessadas por meio de interfaces que definem seus métodos.
     - **Componentes**: Semelhantes aos objetos, mas com a diferença crucial de que especificam não apenas as interfaces que _fornecem_, mas também as que _exigem_ de outros componentes, tornando todas as suas dependências explícitas.
-    - **Serviços Web**: Entidades encapsuladas e acessadas por meio de interfaces, mas que são intrinsecamente integradas à World Wide Web, usando padrões como XML para representação e descoberta.
+    - **Serviços Web**: Entidades encapsuladas e acessadas por meio de interfaces, mas que são intrinsecamente integradas à World Wide Web.
 
-##### **B. Paradigmas de Comunicação (Como se comunicam?)**
-
-O livro descreve três tipos principais de paradigmas de comunicação:
+##### **B. Paradigmas de Comunicação**
 
 1. **Comunicação entre Processos**: Refere-se a formas de comunicação de baixo nível, como a passagem de mensagens e a programação de soquetes, que dão acesso direto à API dos protocolos da Internet.
-    
-2. **Invocação Remota**: É o paradigma mais comum em sistemas distribuídos e se baseia na comunicação entre duas entidades para invocar uma operação em um local remoto. As principais formas são:
-    
+
+2. **Invocação Remota**: Paradigma mais comum em sistemas distribuídos e se baseia na comunicação entre duas entidades para invocar uma operação. As principais formas são:
     - **Protocolos de Requisição-Resposta**: Um par de mensagens (uma de requisição do cliente para o servidor, e outra de resposta do servidor para o cliente) que serve de base para a computação cliente-servidor.
-        
-    - **Chamada de Procedimento Remoto (RPC)**: Permite que um procedimento em um processo remoto seja chamado como se fosse um procedimento local. O sistema de RPC oculta os detalhes da distribuição, como a passagem de mensagens e a codificação de parâmetros.
-        
-    - **Invocação de Método Remoto (RMI)**: Similar à RPC, mas aplicada a objetos distribuídos. Um objeto pode invocar um método em um objeto remoto, e o sistema RMI pode suportar a passagem de referências de objetos como parâmetros.
+    - **Chamada de Procedimento Remoto**: Permite que um procedimento em um processo remoto seja chamado como se fosse um procedimento local. O sistema de RPC oculta os detalhes da distribuição, como a passagem de mensagens e a codificação de parâmetros.
+    - **Invocação de Método Remoto**: Similar à RPC, mas aplicada a objetos distribuídos. Um objeto pode invocar um método em um objeto remoto, e o sistema RMI pode suportar a passagem de referências de objetos como parâmetros.
         
 3. **Comunicação Indireta**: A comunicação ocorre por meio de uma entidade intermediária, o que desacopla os remetentes dos destinatários. Isso proporciona:
-    
-    - **Desacoplamento Espacial**: O remetente não precisa conhecer a identidade do(s) destinatário(s).
+    - **Desacoplamento Espacial**: O remetente não precisa conhecer a identidade do destinatário.
+    - **Desacoplamento Temporal**: Remetente e destinatário não precisam existir ao mesmo tempo para se comunicar.
         
-    - **Desacoplamento Temporal**: Remetente e destinatário(s) não precisam existir ao mesmo tempo para se comunicar.
-        
-        As principais técnicas de comunicação indireta incluem:
-        
-    - **Comunicação em Grupo**: Entrega de mensagens a um conjunto de destinatários que pertencem a um grupo.
-        
-    - **Sistemas Publicar-Assinar**: Produtores (publicadores) distribuem eventos para consumidores (assinantes) por meio de um serviço intermediário.
-        
-    - **Filas de Mensagem**: Processos produtores enviam mensagens para uma fila específica, e processos consumidores as retiram da fila.
-        
-    - **Espaços de Tupla**: Processos colocam itens de dados estruturados (tuplas) em um espaço persistente, e outros processos podem ler ou remover essas tuplas especificando padrões de interesse.
-        
-    - **Memória Compartilhada Distribuída (DSM)**: Fornece uma abstração de memória compartilhada para processos que não compartilham memória física, permitindo que leiam e escrevam em estruturas de dados como se estivessem em seu próprio espaço de endereçamento local.
+     As principais técnicas de comunicação indireta incluem:
+	    - **Comunicação em Grupo**: Entrega de mensagens a um conjunto de destinatários que pertencem a um grupo.
+	    - **Sistemas Publicar-Assinar**: Produtores (publicadores) distribuem eventos para consumidores (assinantes) por meio de um serviço intermediário.
+	    - **Filas de Mensagem**: Processos produtores enviam mensagens para uma fila específica, e processos consumidores as retiram da fila.
+	    - **Espaços de Tupla**: Processos colocam itens de dados estruturados (tuplas) em um espaço persistente, e outros processos podem ler ou remover essas tuplas especificando padrões de interesse.
+	    - **Memória Compartilhada Distribuída (DSM)**: Fornece uma abstração de memória compartilhada para processos que não compartilham memória física, permitindo que leiam e escrevam em estruturas de dados como se estivessem em seu próprio espaço de endereçamento local.
