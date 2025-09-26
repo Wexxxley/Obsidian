@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,7 +185,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "1de0b59f8d805904",
+  "active": "334cbc730e92bb84",
   "lastOpenFiles": [
     "12_Sistemas Distribuídos/1_Introdução.md",
     "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
