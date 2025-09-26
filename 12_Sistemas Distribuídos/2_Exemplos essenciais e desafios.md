@@ -1,13 +1,15 @@
 
-___
+#Concluded 
 
+___
 ## **1. Exemplos**
 ### **1.1 Massively multiplayer online games (MMOGs)**
 
-A engenharia dos MMOGs representa um grande desafio para as tecnologias de sistemas distribuídos, devido à necessidade de tempos de resposta rápidos para preservar a experiência dos usuários do jogo. Outros desafios incluem a propagação de eventos em tempo real para muitos jogadores e a manutenção de uma visão coerente do mundo compartilhado. Foram propostas várias soluções para o projeto de MMOGs:
+A engenharia dos MMOGs representa um grande desafio para as tecnologias de sistemas distribuídos, devido à ==necessidade de tempos de resposta rápidos para preservar a experiência dos usuários do jogo==. Outros desafios incluem a ==propagação de eventos em tempo real para muitos jogadores e a manutenção de uma visão coerente== do mundo compartilhado. Foram propostas várias soluções para o projeto de MMOGs:
 
-- O jogo online, o EVE Online, utiliza uma **arquitetura cliente-servidor** na qual uma **única cópia do estado do mundo é mantida em um servidor centralizado e acessada por programas clientes em execução nos consoles dos jogadores**. O servidor é uma entidade complexa, consistindo em um cluster caracterizada por centenas de nós de computador. A arquitetura centralizada ajuda significativamente no gerenciamento do mundo virtual e a cópia única também diminui as preocupações com a coerência. Assim, o objetivo é garantir resposta rápida, para isso a carga é particionada por meio da alocação de sistemas estelares individuais para computadores específicos dentro do cluster.
-- Outros MMOGs adotam arquiteturas mais distribuídas, nas quais o universo é particionado por um número potencialmente muito grande de **servidores**, os quais também pode estar **geograficamente distribuídos**. Então, os usuários são **alocados dinamicamente a um servidor** em particular com base nos padrões de utilização momentâneos e também pelos atrasos de rede até o servidor. 
+1. O jogo online, o EVE Online, utiliza uma **arquitetura cliente-servidor** na qual uma **única cópia do estado do mundo é mantida em um servidor centralizado e acessada por programas clientes em execução nos consoles dos jogadores**. O servidor é uma entidade complexa, consistindo em um cluster caracterizada por centenas de nós de computador. A arquitetura centralizada ajuda significativamente no gerenciamento do mundo virtual e a cópia única também diminui as preocupações com a coerência. Assim, o objetivo é garantir resposta rápida, para isso a carga é particionada por meio da alocação de sistemas estelares individuais para computadores específicos dentro do cluster.
+
+2. Outros MMOGs adotam arquiteturas mais distribuídas, nas quais o universo é particionado por um número potencialmente muito grande de **servidores**, os quais também pode estar **geograficamente distribuídos**. Então, os usuários são **alocados dinamicamente a um servidor** em particular com base nos padrões de utilização momentâneos e também pelos atrasos de rede até o servidor. 
 
 ---
 ### **1.2 Computação Móvel e Ubíqua**

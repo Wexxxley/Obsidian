@@ -1,11 +1,7 @@
 [
-  "obsidian-shellcommands",
-  "obsidian-excalidraw-plugin",
   "obsidian-git",
   "code-styler",
   "obsidian-link-converter",
   "obsidian-linter",
-  "obsidian-latex-suite",
-  "pdf-plus",
-  "obsidian-enhancing-export"
+  "obsidian-latex-suite"
 ]

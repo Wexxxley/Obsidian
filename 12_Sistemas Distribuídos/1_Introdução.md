@@ -8,6 +8,7 @@ Um **Sistema Distribuído** é uma ==coleção de **computadores independentes**
 
 Em termos simples: é um grupo de máquinas trabalhando juntas como se fossem um único sistema, mesmo estando separadas fisicamente.
 
+---
 ## **2. Consequências Chave**
 
 **Concorrência**: ==Se você tem um grande cálculo para fazer, o sistema pode distribuir esse cálculo por 100 máquinas==, e todas trabalham nele ao mesmo tempo.  Se muitas pessoas acessam um site (como a Netflix), o sistema distribuído usa a concorrência para que milhares de servidores atendam a milhares de usuários.
@@ -16,6 +17,7 @@ Em termos simples: é um grupo de máquinas trabalhando juntas como se fossem um
 
 **Falhas Independentes:** Componentes individuais (computadores, programas ou partes da rede) podem **falhar isoladamente** sem que todo o sistema pare. Quando uma máquina falha, as outras continuam operando.
 
+---
 ### **3. Exemplos de Sistemas Distribuídos**
 
 - **World Wide Web (WWW):** O maior sistema distribuído. Conteúdo (HTML, imagens) é espalhado por **milhões de servidores** e acessado via **navegadores** (clientes).
@@ -38,28 +40,30 @@ Em termos simples: é um grupo de máquinas trabalhando juntas como se fossem um
     
 - **IoT Local (Sensores e Atuadores):** Dispositivos independentes (ex: sensor de temperatura e ar-condicionado) que **trocam mensagens** para alcançar um objetivo de automação.
 
-
 ---
 ### **4. Motivação Principal**
 
-A principal razão para construir e usar Sistemas Distribuídos é a necessidade de **compartilhar recursos**. Um **recurso** é um termo amplo que descreve qualquer item (hardware ou software) que possa ser usado ou acessado por múltiplos componentes (computadores, programas) interligados em uma rede.
-
-Em essência, o sistema distribuído existe para permitir que recursos valiosos, que são caros ou escassos, sejam **acessados por muitos usuários ou máquinas de forma eficiente** 
+A principal razão para construir e usar Sistemas Distribuídos é a ==necessidade de **compartilhar recursos**==. Um **recurso** é um termo amplo que descreve qualquer item (hardware ou software) que possa ser usado ou acessado por múltiplos componentes. Em essência, o sistema distribuído existe para permitir que recursos valiosos, que são caros ou escassos, sejam **acessados por muitos usuários ou máquinas de forma eficiente** 
 
 #### **4.1 Exemplos de recursos Compartilhados em Sistemas Distribuídos**
 
-| Recurso                        | Exemplo Prático de Compartilhamento                                                                                                                                                                    |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1. **Impressora de Rede**      | Em um escritório, todos os computadores estão conectados em rede. Quando alguém manda imprimir um documento, o trabalho de impressão é enviado para uma única impressora potente.                      |
-| 2. **Disco rígido**            | Serviços como **Google Drive** ou **Dropbox**. Eles usam discos rígidos gigantescos em data centers para que milhões de usuários possam guardar suas fotos, documentos e vídeos num lugar seguro.      |
-| 3. **CPU**                     | Uma empresa de animação tem dezenas de computadores. Para renderizar um filme eles usam o poder de processamento de todas as máquinas da rede ao mesmo tempo, terminando o trabalho muito mais rápido. |
-| 4. **Câmera de Vídeo Digital** | Um **sistema de vigilância** onde **centenas de câmeras** em diferentes pontos transmitem seu fluxo de vídeo para um único servidor.                                                                   |
-| 5. **Sensor**                  | Um **sistema IoT** onde um servidor monitora a temperatura e pressão relatadas por **sensores distribuídos**.                                                                                          |
+##### **Recursos de Hardware**
 
-| Recurso                            | Exemplo Prático de Compartilhamento                                                                                                                                                                              |
-| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. **Banco de Dados**              | Um **sistema de e-commerce** onde o **catálogo de produtos** é replicado em vários servidores e acessado concorrentemente por **milhares de usuários** realizando consultas e pedidos.                           |
-| 2. **Arquivos**                    | Uma plataforma de **colaboração em tempo real (ex: Google Docs)** onde o arquivo é o recurso principal e é modificado simultaneamente por **vários editores** em suas máquinas.                                  |
-| 3. **APIs**                        | Uma api que compartilha seus recursos para vários usuários simultaneamente.                                                                                                                                      |
-| 4. **Conexão de Voz **             | Uma no Zoom onde a conexão de áudio em tempo real é estabelecida e mantida entre **dois ou mais usuários** através de servidores intermediários.                                                                 |
-| 5. **Software como Serviço SaaS)** | Usar um sistema online como **Gmail**, **Canva** ou **Netflix**. Você não precisa instalar o programa completo. Você só acessa o serviço pela internet (que roda em servidores distantes) e usa quando precisar. |
+| Recurso                | Exemplo Prático                                                                                                                                                                                        |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1. **Impressora**      | Em um escritório, todos os computadores estão conectados em rede. Quando alguém manda imprimir um doc, o trabalho de impressão é enviado para uma única impressora.                                    |
+| 2. **HD**              | Serviços como **Google Drive** ou **Dropbox** usam discos rígidos gigantescos em data centers para que milhões de usuários possam guardar suas fotos, documentos e vídeos num lugar seguro.            |
+| 3. **CPU**             | Uma empresa de animação tem dezenas de computadores. Para renderizar um filme eles usam o poder de processamento de todas as máquinas da rede ao mesmo tempo, terminando o trabalho muito mais rápido. |
+| 4. **Câmera de Vídeo** | Um **sistema de vigilância** onde **centenas de câmeras** em diferentes pontos transmitem seu fluxo de vídeo para um único servidor.                                                                   |
+| 5. **Sensor**          | Um **sistema IoT** onde um servidor monitora a temperatura e pressão relatadas por **sensores distribuídos**.                                                                                          |
+##### **Recursos de Software**
+
+| Recurso                             | Exemplo Prático de Compartilhamento                                                                                                                                                                              |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. **Banco de Dados**               | Um **sistema de e-commerce** onde o **catálogo de produtos** é replicado em vários servidores e acessado concorrentemente por **milhares de usuários** realizando consultas.                                     |
+| 2. **Arquivos**                     | Uma plataforma de **colaboração em tempo real (Google Docs)** onde o arquivo é o recurso principal e é modificado simultaneamente.                                                                               |
+| 3. **APIs**                         | Uma api que compartilha seus recursos para vários usuários simultaneamente.                                                                                                                                      |
+| 4. **Chamada **                     | Uma chamada no Zoom onde a conexão de áudio em tempo real é estabelecida e mantida entre **dois ou mais usuários** através de servidores intermediários.                                                         |
+| 5. **Software como Serviço (SaaS)** | Usar um sistema online como **Gmail**, **Canva** ou **Netflix**. Você não precisa instalar o programa completo. Você só acessa o serviço pela internet (que roda em servidores distantes) e usa quando precisar. |
+
+
