@@ -39,8 +39,8 @@ Este modelo define e classifica os diferentes tipos de falhas que podem ocorrer 
     - **Falha de Processo**: Um processo para e permanece parado. Outros processos podem ou não conseguir detectar esse estado. Se for possível detectar com certeza que o processo parou, a falha é chamada de **parada por falha (fail-stop)**.
     - **Falha de Comunicação**: Ocorre quando uma mensagem é perdida durante a transmissão entre o buffer de envio do remetente e o buffer de recepção do destinatário.
         
-2. **Falhas Arbitrárias**: Também conhecidas como **falhas Bizantinas**, representam o pior cenário de falha possível, onde qualquer tipo de erro pode ocorrer.
-    - Um processo com falha arbitrária pode omitir passos, executar passos indesejados, atribuir valores incorretos aos seus dados ou retornar um valor errado em resposta a uma invocação.
+2. **Falhas Arbitrárias**: Também conhecidas como **falhas Bizantinas**, representam o cenário onde qualquer tipo de erro pode ocorrer.
+    - Um processo com falha arbitrária pode omitir passos, executar passos indesejados, atribuir valores incorretos aos seus dados ou retornar um valor errado.
     - Um canal de comunicação com falha arbitrária pode corromper mensagens, entregar mensagens inexistentes ou entregar a mesma mensagem mais de uma vez.
         
 3. **Falhas de Temporização**: Estas falhas são aplicáveis apenas a **sistemas síncronos**, onde existem limites de tempo definidos.
@@ -53,9 +53,9 @@ Este modelo define e classifica os diferentes tipos de falhas que podem ocorrer 
     - A retransmissão de mensagens pode mascarar a falha por omissão de um pacote perdido.
     - O uso de somas de verificação (checksums) pode converter uma falha arbitrária (mensagem corrompida) em uma falha por omissão (a mensagem corrompida é simplesmente descartada).
         
-- **Comunicação Confiável**: Um serviço de comunicação é considerado confiável se possui duas propriedades:
-    - **Validade**: Qualquer mensagem enviada é, eventualmente, entregue ao buffer de recepção do destino.
-    - **Integridade**: A mensagem recebida é idêntica à enviada, e nenhuma mensagem é entregue duas vezes.
+- **Comunicação Confiável**: ==Um serviço de comunicação é considerado confiável== se possui duas propriedades:
+    - **Validade**: Qualquer ==mensagem enviada é entregue ao buffer== de recepção do destino.
+    - **Integridade**: A mensagem recebida é ==idêntica à enviada==, e nenhuma mensagem é entregue duas vezes.
 
 ---
 ## **3. O Modelo de Segurança**
