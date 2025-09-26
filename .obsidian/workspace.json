@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
+                "file": "12_Sistemas Distribuídos/6_Modelos Fundamentais.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Exemplos essenciais e desafios"
+              "title": "6_Modelos Fundamentais"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
+                "file": "12_Sistemas Distribuídos/6_Modelos Fundamentais.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 2_Exemplos essenciais e desafios"
+              "title": "Sumário de 6_Modelos Fundamentais"
             }
           },
           {
@@ -187,8 +187,8 @@
   },
   "active": "334cbc730e92bb84",
   "lastOpenFiles": [
-    "12_Sistemas Distribuídos/1_Introdução.md",
     "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
+    "12_Sistemas Distribuídos/1_Introdução.md",
     "12_Sistemas Distribuídos/6_Modelos Fundamentais.md",
     "12_Sistemas Distribuídos/5_Modelos de arquitetura.md",
     "attachments/Pasted image 20250925185406.png",
