@@ -2,12 +2,6 @@
 #Concluded 
 
 ---
-
-Os **modelos fundamentais** adotam uma perspectiva mais abstrata para entender e analisar propriedades essenciais dos sistemas distribuídos. Seu objetivo é:
-- Tornar explícitas todas as suposições relevantes sobre o sistema.
-- Fazer generalizações sobre o que é possível ou impossível, dadas essas suposições.
-
----
 ## **1. O Modelo de Interação**
 
 Este modelo lida com o desempenho e a dificuldade de estabelecer limites de tempo em um sistema distribuído. Ele se concentra em dois fatores:

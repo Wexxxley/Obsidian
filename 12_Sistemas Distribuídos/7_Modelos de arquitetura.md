@@ -80,6 +80,6 @@ Este padrão arquitetônico busca reduzir a complexidade do equipamento do usuá
 ##### **Limitações do Middleware e o Princípio Fim-a-Fim**
 Apesar de simplificar muito a programação, o middleware tem limitações. Nem todos os aspectos da confiabilidade e correção de um sistema podem ser totalmente abstraídos da aplicação. Para explicar isso, o capítulo apresenta o **princípio fim-a-fim** de Saltzer. A ideia central deste princípio é:
 
-> Algumas funções relacionadas à comunicação só podem ser implementadas de forma completa com o conhecimento e a ajuda da aplicação que está nos pontos de extremidade (fim-a-fim). Portanto, fornecer essa função como um recurso do próprio sistema de comunicação (ou seja, no middleware) nem sempre é uma boa ideia.
+> ==Algumas funções relacionadas à comunicação só podem ser implementadas de forma completa com o conhecimento e a ajuda da aplicação que está nos pontos de extremidade (fim-a-fim).== Portanto, fornecer essa função como um recurso do próprio sistema de comunicação (ou seja, no middleware) nem sempre é uma boa ideia.
 
 Por exemplo, um serviço de transferência de e-mail não confia apenas na camada TCP para garantir a entrega de um arquivo muito grande. Se a conexão TCP for interrompida, o serviço de e-mail em si (a aplicação) mantém um registro do progresso e retoma a transmissão em uma nova conexão. A aplicação no ponto final é a única que pode garantir que a tarefa completa foi concluída com sucesso.
