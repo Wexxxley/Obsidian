@@ -1,20 +1,20 @@
 
----
-## **Cliente x Servidor:**
+#Concluded 
 
-Um ou mais clientes se conectam a um servidor, que é responsável por fornecer serviços ou recursos.
+---
+## **Cliente x Servidor**
+
+==Um ou mais clientes se conectam a um servidor, que é responsável por fornecer serviços ou recursos.==
 
 Características:
-
-- Os clientes fazem requisições, e o servidor responde. O servidor não deve iniciar a comunicação com o cliente.
-- O servidor tem um ip estático
+- Os clientes fazem requisições, e o servidor responde. ==O servidor não deve iniciar a comunicação com o cliente.==
 - O cliente tem um endereço dinâmico. Quando você se conecta à internet, seu roteador ou provedor te dá um IP temporário. Quando você desliga o roteador ou passa um tempo offline, o IP pode ser liberado.
 - Clientes não se comunicam diretamente.
 
 ---
 ## **Ponto-a-Ponto (Peer-to-Peer, ou P2P)**
 
- Cada dispositivo na rede pode agir tanto como cliente quanto como servidor. Ou seja, os usuários compartilham dados entre si diretamente.
+Cada dispositivo na rede pode agir tanto como cliente quanto como servidor. Ou seja, os usuários compartilham dados entre si diretamente.
 
 Características:
 

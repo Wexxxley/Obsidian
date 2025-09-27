@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12_Sistemas Distribuídos/3_Desafios para sistemas distribuídos.md",
+                "file": "2_Redes de computadores/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Desafios para sistemas distribuídos"
+              "title": "1_Arquiteturas da camada de aplicação"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 429.5041847229004
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12_Sistemas Distribuídos/3_Desafios para sistemas distribuídos.md",
+                "file": "2_Redes de computadores/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 3_Desafios para sistemas distribuídos"
+              "title": "Sumário de 1_Arquiteturas da camada de aplicação"
             }
           },
           {
@@ -182,15 +182,20 @@
   },
   "active": "334cbc730e92bb84",
   "lastOpenFiles": [
+    "2_Redes de computadores/1_Overview/8_Tipos de comunicação em redes de computadores.md",
+    "2_Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
+    "2_Redes de computadores/1_Overview/6_Arquitetura TCP IP.md",
+    "2_Redes de computadores/1_Overview/5_Perdas e atrasos.md",
+    "2_Redes de computadores/1_Overview/4_Classificação das redes de telecomunicação.md",
+    "12_Sistemas Distribuídos/7_Modelos físicos.md",
+    "12_Sistemas Distribuídos/4_Modelos dos sistemas.md",
+    "12_Sistemas Distribuídos/3_Desafios para sistemas distribuídos.md",
     "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
     "12_Sistemas Distribuídos/1_Introdução.md",
-    "12_Sistemas Distribuídos/3_Desafios para sistemas distribuídos.md",
     "12_Sistemas Distribuídos/6_Modelos Fundamentais.md",
     "12_Sistemas Distribuídos/5_Modelos de arquitetura.md",
     "attachments/Pasted image 20250925185406.png",
     "attachments/Pasted image 20250925183214.png",
-    "12_Sistemas Distribuídos/3_Modelos dos sistemas.md",
-    "12_Sistemas Distribuídos/4_Modelos físicos.md",
     "2_Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
     "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
     "8_POO/SOLID/5_Interface Segregation Principle (ISP).md",
@@ -206,10 +211,6 @@
     "8_POO/Ideias de questoes",
     "8_POO/Ordenação de coleções.md",
     "8_POO/Interfaces.md",
-    "8_POO/Enum em Java.md",
-    "8_POO/DecimalFormat.md",
-    "8_POO/Coleções em Java.md",
-    "8_POO/2_Single Responsibility Principle.md",
     "8_POO/Object Calisthenics",
     "attachments/Pasted image 20250922154200.png",
     "attachments/Pasted image 20250922154145.png",
@@ -217,7 +218,6 @@
     "attachments/Pasted image 20250922145759.png",
     "attachments/Pasted image 20250922145744.png",
     "8_POO/SOLID",
-    "4_Algorítmos e Estruturas de dados/Tabela Hash/1_Tabela de hashing.md",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
     "10_TeoriaComputação/Unconfirmed 781438.crdownload",
     "attachments/Pasted image 20250920151219.png",
