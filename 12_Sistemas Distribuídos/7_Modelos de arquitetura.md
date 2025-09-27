@@ -9,20 +9,20 @@ Enquanto os modelos físicos focam no hardware, os **modelos de arquitetura** de
 
 Para entender os elementos fundamentais de um sistema distribuído é preciso examinar quatro questões principais:
 ##### **A. Entidades em Comunicação**
-- **Do ponto de vista do sistema**, as entidades que se comunicam são geralmente os **processos**. Em ambientes mais complexos, podem ser as **threads** dentro dos processos.
+- **Do ponto de vista do sistema**, as entidades que se comunicam são geralmente os **processos**. 
 - **Do ponto de vista da programação**, abstrações de nível mais alto são usadas para representar as entidades:
     - **Objetos**: Que são acessadas por meio de interfaces que definem seus métodos.
     - **Componentes**: Semelhantes aos objetos, mas com a diferença crucial de que especificam não apenas as interfaces que _fornecem_, mas também as que _exigem_ de outros componentes, tornando todas as suas dependências explícitas.
     - **Serviços Web**: Entidades encapsuladas e acessadas por meio de interfaces, mas que são intrinsecamente integradas à World Wide Web.
 
 ##### **B. Paradigmas de Comunicação**
-1. **Comunicação entre Processos**: Refere-se a formas de comunicação de baixo nível, como a passagem de mensagens e a programação de soquetes, que dão acesso direto à API dos protocolos da Internet.
+1. **Comunicação entre Processos**: Refere-se a formas de comunicação de baixo nível, como a passagem de mensagens e a programação de soquetes.
 
 2. **Invocação Remota**: Paradigma mais comum em sistemas distribuídos e se baseia na comunicação entre duas entidades para invocar uma operação. As principais formas são:
-    - **Protocolos de Requisição-Resposta**: Um par de mensagens (uma de requisição do cliente para o servidor, e outra de resposta do servidor para o cliente) que serve de base para a computação cliente-servidor.
+    - **Protocolos de Requisição-Resposta**: Um par de mensagens que serve de base para a computação cliente-servidor.
     - **Chamada de Procedimento Remoto**: Permite que um procedimento em um processo remoto seja chamado como se fosse um procedimento local. O sistema de RPC oculta os detalhes da distribuição, como a passagem de mensagens e a codificação de parâmetros.
     - **Invocação de Método Remoto**: Similar à RPC, mas aplicada a objetos distribuídos. Um objeto pode invocar um método em um objeto remoto, e o sistema RMI pode suportar a passagem de referências de objetos como parâmetros.
-        
+
 3. **Comunicação Indireta**: A comunicação ocorre por meio de uma entidade intermediária, o que desacopla os remetentes dos destinatários. Isso proporciona:
     - **Desacoplamento Espacial**: O remetente não precisa conhecer a identidade do destinatário.
     - **Desacoplamento Temporal**: Remetente e destinatário não precisam existir ao mesmo tempo para se comunicar.
@@ -51,7 +51,7 @@ Este padrão foca na organização e no posicionamento da funcionalidade de uma 
 		- **Camada 1**: Navegador Web . Ele é responsável pela **lógica de apresentação**: renderiza o HTML, exibe as imagens e gerencia a interação do usuário
 		- **Camada 2**: Servidor Web. Ele é responsável tanto pela **lógica da aplicação** quanto pela **lógica de dados**.
 	
-2. **Arquitetura de Três Camadas**: A funcionalidade é dividida em três papéis lógicos, cada um geralmente mapeado para um servidor físico diferente: 1) Lógica de apresentação (cliente), 2) Lógica da aplicação (servidor de aplicação), e 3) Lógica de dados (servidor de banco de dados) 
+2. **Arquitetura de Três Camadas**: A funcionalidade é dividida em três papéis, cada um mapeado para um servidor físico diferente: 1) Lógica de apresentação (cliente), 2) Lógica da aplicação (servidor de aplicação), e 3) Lógica de dados (servidor de banco de dados) 
 	- **Exemplo: Uma loja online**
 		- **Camada 1**: O navegador Web do usuário, que exibe os produtos.
 		- **Camada 2**: O server Web que executa um programa que contém a lógica do negócio.
