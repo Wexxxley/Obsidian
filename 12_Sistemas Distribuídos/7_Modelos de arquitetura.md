@@ -67,7 +67,7 @@ Este padrão foca na organização e no posicionamento da funcionalidade de uma 
 
 Este padrão arquitetônico busca reduzir a complexidade do equipamento do usuário final, transferindo-a para os serviços da Internet.
 
-- Um **cliente magro** é uma camada de software que suporta uma interface de usuário localmente, enquanto executa os programas de aplicação em um computador remoto.
+- Um **cliente magro** é uma ==camada de software que suporta uma interface de usuário localmente, enquanto executa os programas de aplicação em um computador remoto.==
 - A vantagem é que um dispositivo local simples pode acessar serviços e recursos de rede sofisticados.
 
 ![](attachments/Pasted%20image%2020250925185406.png)
@@ -75,7 +75,7 @@ Este padrão arquitetônico busca reduzir a complexidade do equipamento do usuá
 ---
 ## **4. Soluções de Middleware**
 
-**Middleware** é uma camada de software que fica acima da plataforma (SO e hardware) e abaixo das aplicações. Sua principal tarefa é fornecer uma abstração de programação de nível mais alto que simplifique o desenvolvimento de sistemas distribuídos. Ele faz isso mascarando a heterogeneidade da infraestrutura.
+**Middleware** é uma camada de software que fica acima da plataforma (SO e hardware) e abaixo das aplicações. Sua principal tarefa é ==fornecer uma abstração de programação de nível mais alto que simplifique o desenvolvimento de sistemas distribuídos. Ele faz isso mascarando a heterogeneidade da infraestrutura.==
 
 ##### **Limitações do Middleware e o Princípio Fim-a-Fim**
 Apesar de simplificar muito a programação, o middleware tem limitações. Nem todos os aspectos da confiabilidade e correção de um sistema podem ser totalmente abstraídos da aplicação. Para explicar isso, o capítulo apresenta o **princípio fim-a-fim** de Saltzer. A ideia central deste princípio é:
