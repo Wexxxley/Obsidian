@@ -16,28 +16,8 @@ A Web é um **sistema aberto** que pode ser ampliado e reimplementado sem pertur
 
 #### **3. Arquitetura Cliente-Servidor e HTTP**
 
-- **Arquitetura**: A Web opera em uma arquitetura cliente-servidor, onde os **navegadores (browsers)** atuam como clientes e os **servidores Web** atuam como servidores99.
-    
-- **Protocolo**: A interação entre eles é regida pelo **HTTP (HyperText Transfer Protocol)**, um protocolo do tipo requisição-resposta101010.
-    
+- **Arquitetura**: A Web opera na arquitetura cliente-servidor, onde os **navegadores** atuam como clientes e os **servidores Web** atuam como servidores.
+- **Protocolo**: A interação entre eles é regida pelo **HTTP (HyperText Transfer Protocol)**, um protocolo do tipo requisição-resposta.
     - O cliente envia uma mensagem de **requisição HTTP** (com um método como `GET` para solicitar um recurso).
+    - O servidor, se encontrar o recurso, envia de volta uma mensagem de resposta.
         
-    - O servidor, se encontrar o recurso, envia de volta uma
-        
-        **mensagem de resposta HTTP** contendo os dados do recurso e um código de status (como o famoso `404 Not Found` se o recurso não existir)11.
-        
-
-##### **Recursos Avançados da Web**
-
-- **Páginas Dinâmicas**: Nem todo conteúdo da Web é estático (armazenado em arquivos). Muitos recursos são gerados dinamicamente por programas no servidor (como scripts **CGI** ou **servlets**) em resposta a uma entrada do usuário, como o preenchimento de um formulário. Para o navegador, o conteúdo gerado dinamicamente é transparente, pois ele o recebe como um texto HTML normal12.
-    
-- **Código Baixado**: Para melhorar a interatividade, a Web permite que código seja baixado do servidor e executado no cliente. Exemplos incluem
-    
-    **Javascript**, que pode validar formulários instantaneamente, e **applets Java**, que são aplicações completas executadas dentro do navegador13.
-    
-- **Serviços Web**: A Web evoluiu para permitir que programas, e não apenas usuários com navegadores, acessem seus recursos. Usando
-    
-    **XML (Extensible Markup Language)** para representar dados estruturados, os **serviços Web** permitem que aplicações interajam com servidores de forma programática, trocando dados estruturados em vez de apenas páginas HTML para exibição14.
-    
-
-Com isso, concluímos a explanação do Capítulo 1, que define o que são sistemas distribuídos, explora suas tendências e desafios, e usa a Web como um exemplo prático de um sistema distribuído de grande escala.

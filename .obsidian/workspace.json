@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12_Sistemas Distribuídos/4_A World Wide Web.md",
+                "file": "12_Sistemas Distribuídos/8_Modelos Fundamentais.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_A World Wide Web"
+              "title": "8_Modelos Fundamentais"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12_Sistemas Distribuídos/4_A World Wide Web.md",
+                "file": "12_Sistemas Distribuídos/8_Modelos Fundamentais.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 4_A World Wide Web"
+              "title": "Sumário de 8_Modelos Fundamentais"
             }
           },
           {
@@ -182,11 +182,11 @@
   },
   "active": "334cbc730e92bb84",
   "lastOpenFiles": [
-    "12_Sistemas Distribuídos/5_Modelos físicos.md",
+    "12_Sistemas Distribuídos/7_Modelos de arquitetura.md",
+    "12_Sistemas Distribuídos/8_Modelos Fundamentais.md",
+    "12_Sistemas Distribuídos/6_Modelos físicos.md",
+    "12_Sistemas Distribuídos/5_Modelos dos sistemas.md",
     "12_Sistemas Distribuídos/4_A World Wide Web.md",
-    "12_Sistemas Distribuídos/4_Modelos dos sistemas.md",
-    "12_Sistemas Distribuídos/7_Modelos Fundamentais.md",
-    "12_Sistemas Distribuídos/6_Modelos de arquitetura.md",
     "12_Sistemas Distribuídos/3_Desafios para sistemas distribuídos.md",
     "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
     "12_Sistemas Distribuídos/1_Introdução.md",

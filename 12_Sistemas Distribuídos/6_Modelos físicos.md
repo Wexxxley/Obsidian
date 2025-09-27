@@ -13,7 +13,7 @@ Nos sistemas anteriores, os nós normalmente eram relativamente **estáticos**, 
 1. A **computação móvel** levou a modelos físicos em que nós como smartphones podem mudar de um lugar, levando à necessidade de mais recursos, como a descoberta de serviço e o suporte para operação conjunta espontânea.
 2. A **computação ubíqua** levou à mudança de nós distintos para arquiteturas em que os computadores são incorporados em objetos comuns e no ambiente circundante.
 3. A **computação em nuvem** e, em particular, das arquiteturas de agregados (clusters), levou a uma mudança de nós autônomos para conjuntos de nós que, juntos, fornecem determinado serviço.
-#### **1.4 Sistemas distribuídos de sistemas:**
+#### **1.4 Sistemas distribuídos de sistemas**
 Um sistema de sistemas pode ser definido como um sistema complexo, consistindo em uma série de subsistemas, os quais são, eles próprios, sistemas que se reúnem para executar uma ou mais tarefas em particular.
 
 Como exemplo de sistema de sistemas, considere um sistema de gerenciamento ambiental para previsão de enchentes. Nesse cenário, existirão redes de sensores implantadas para monitorar o estado de vários parâmetros ambientais; Isso pode, então, ser acoplado a sistemas responsáveis por prever a probabilidade de enchentes, fazendo simulações em clusters. Outros sistemas podem ser estabelecidos para manter e analisar dados históricos .

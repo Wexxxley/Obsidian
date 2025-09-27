@@ -1,8 +1,12 @@
 
+#Concluded 
 
 ---
 Enquanto os modelos físicos focam no hardware, os **modelos de arquitetura** descrevem um sistema em termos dos papéis computacionais e de comunicação desempenhados por seus componentes. ==A arquitetura de um sistema é a sua estrutura em termos de componentes e suas inter-relações==. 
+
+---
 ## **1. Elementos Arquitetônicos**
+
 Para entender os elementos fundamentais de um sistema distribuído é preciso examinar quatro questões principais:
 ##### **A. Entidades em Comunicação**
 - **Do ponto de vista do sistema**, as entidades que se comunicam são geralmente os **processos**. Em ambientes mais complexos, podem ser as **threads** dentro dos processos.
@@ -12,7 +16,6 @@ Para entender os elementos fundamentais de um sistema distribuído é preciso ex
     - **Serviços Web**: Entidades encapsuladas e acessadas por meio de interfaces, mas que são intrinsecamente integradas à World Wide Web.
 
 ##### **B. Paradigmas de Comunicação**
-
 1. **Comunicação entre Processos**: Refere-se a formas de comunicação de baixo nível, como a passagem de mensagens e a programação de soquetes, que dão acesso direto à API dos protocolos da Internet.
 
 2. **Invocação Remota**: Paradigma mais comum em sistemas distribuídos e se baseia na comunicação entre duas entidades para invocar uma operação. As principais formas são:
