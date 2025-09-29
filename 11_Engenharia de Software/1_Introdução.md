@@ -6,23 +6,42 @@ Engenharia de Software trata da ==aplicação de abordagens sistemáticas, disci
 
 **Conferência da OTAN:** Em 1968, um grupo de cerca de 50 renomados Cientistas da Computação se reuniu em uma conferência patrocinada por um comitê científico da OTAN.  A conferência produziu um relatório, com mais de 130 páginas, que afirmava a necessidade de que software fosse construído com base em princípios práticos e teóricos, tal como ocorre em ramos tradicionais da Engenharia. Essa conferência é considerada o marco de criação da área de ES.
 
-#### **Processo de Software**
+---
+### **Processo de Software**
 Um **processo de software** é um conjunto estruturado de atividades, ações e tarefas, com **um fluxo de trabalho ordenado**, cujo objetivo é guiar o desenvolvimento e a manutenção de software, desde a sua concepção até a sua descontinuação.
 
 Em termos mais simples, o processo é o ==**roteiro geral** que define **o que** precisa ser feito e em **qual sequência** na construção de Software.== 
 
 Exemplos de modelos de processo incluem o Modelo **Cascata**, Modelo **Incremental**, Modelo **Espiral** e o Processo **Unificado** (RUP).
-
 ### **Método (ou Metodologia)**
 Um **método**, em engenharia de software, é uma ==abordagem sistemática para realizar uma ou mais atividades do processo. Ele fornece o **"como fazer"** de forma detalhada.==
 
 Se o processo é o roteiro, o método é a **técnica específica** que você usa em cada etapa. Ele inclui um conjunto de princípios, regras, notações e ferramentas.
 
-Quando um conjunto de métodos, ferramentas e procedimentos é agrupado de forma coesa para abranger todo o ciclo de vida do desenvolvimento, chamamos isso de **Metodologia**. 
+==Quando um conjunto de métodos, ferramentas e procedimentos é agrupado de forma coesa para abranger todo o ciclo de vida do desenvolvimento, chamamos isso de **Metodologia**.== 
 
 Exemplos de métodos/metodologias:
 - **Scrum e Kanban:** São métodos ágeis que ditam _como_ gerenciar o trabalho dentro da fase de desenvolvimento (sprints, reuniões diárias, quadros visuais).
 - **Test-Driven Development (TDD):** Um método de implementação onde os testes são escritos antes do código funcional.
+
+---
+### **Fluxo de processo**
+
+#### **Linear**
+![](attachments/Pasted%20image%2020250929065026.png)
+Executa cada uma das cinco atividades metodológicas em **sequência**. Cada uma das atividades é **executada somente uma vez**.
+
+#### **Iterativo**
+![](attachments/Pasted%20image%2020250929065120.png)
+Repete uma ou mais das atividades metodológicas antes de prosseguir para a seguinte. 
+
+#### **Evolucionario**
+![550](attachments/Pasted%20image%2020250929065141.png)
+Executa as atividades de forma “circular”. Cada volta conduz a uma versão mais completa.
+
+#### **Paralelo**
+![500](attachments/Pasted%20image%2020250929065224.png)
+Executa uma ou mais atividades em paralelo com outras.
 
 **O que se Estuda em Engenharia de Software?**
 1. Engenharia de Requisitos 
