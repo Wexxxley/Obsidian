@@ -18,7 +18,7 @@ Em termos simples: é um grupo de máquinas trabalhando juntas como se fossem um
 **Falhas Independentes:** Componentes individuais (computadores, programas ou partes da rede) podem **falhar isoladamente** sem que todo o sistema pare. Quando uma máquina falha, as outras continuam operando.
 
 ---
-### **3. Exemplos de Sistemas Distribuídos**
+## **3. Exemplos de Sistemas Distribuídos**
 
 - **World Wide Web (WWW):** O maior sistema distribuído. Conteúdo (HTML, imagens) é espalhado por **milhões de servidores** e acessado via **navegadores** (clientes).
     
@@ -41,9 +41,10 @@ Em termos simples: é um grupo de máquinas trabalhando juntas como se fossem um
 - **IoT Local (Sensores e Atuadores):** Dispositivos independentes (ex: sensor de temperatura e ar-condicionado) que **trocam mensagens** para alcançar um objetivo de automação.
 
 ---
-### **4. Motivação Principal**
+## **4. Motivação Principal**
 
-A principal razão para construir e usar Sistemas Distribuídos é a ==necessidade de **compartilhar recursos**==. Um **recurso** é um termo amplo que descreve qualquer item (hardware ou software) que possa ser usado ou acessado por múltiplos componentes. Em essência, o sistema distribuído existe para permitir que recursos valiosos, que são caros ou escassos, sejam **acessados por muitos usuários ou máquinas de forma eficiente** 
+A principal razão para construir e usar Sistemas Distribuídos é a ==necessidade de **compartilhar recursos**==. Um **recurso** é um termo amplo que descreve qualquer item (hardware ou software) que possa ser usado ou acessado por múltiplos componentes. Em essência, o sistema distribuído existe
+para permitir que recursos valiosos, que são caros ou escassos, sejam **acessados por muitos usuários ou máquinas de forma eficiente** 
 
 #### **4.1 Exemplos de recursos Compartilhados em Sistemas Distribuídos**
 
