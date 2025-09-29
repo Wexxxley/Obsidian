@@ -29,5 +29,7 @@ Um modelo de processo fornece um guia específico para o trabalho de engenharia 
 ##### **2.1.1 Prototipação**
 Um protótipo é uma versão inicial de um sistema de software, usado para demonstrar conceitos, experimentar opções de projeto e descobrir mais sobre o problema e suas possíveis soluções.
 - O desenvolvimento **rápido** e iterativo com custos controlados. 
-- Prototipação possa ser utilizada como um modelo de processo isolado, mas ela é mais comumente utilizada como uma técnica a ser implementada no contexto de qualquer um dos modelos de processo.
+- **Desenvolvimento Rápido x Ágil**: O rápido se preocupa com a velocidade da entrega.  O agil é iterativo e incremental, o foco é na velocidade e adaptação a mudanças.
+- Prototipação pode ser utilizada como um modelo de processo isolado, mas ela é mais comumente utilizada como uma técnica a ser implementada no contexto de qualquer um dos modelos de processo.
 
+![350](attachments/Pasted%20image%2020250929071824.png)
