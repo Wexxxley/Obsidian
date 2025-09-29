@@ -31,5 +31,5 @@ Um protótipo é uma versão inicial de um sistema de software, usado para demon
 - O desenvolvimento **rápido** e iterativo com custos controlados. 
 - **Desenvolvimento Rápido x Ágil**: O rápido se preocupa com a velocidade da entrega.  O agil é iterativo e incremental, o foco é na velocidade e adaptação a mudanças.
 - Prototipação pode ser utilizada como um modelo de processo isolado, mas ela é mais comumente utilizada como uma técnica a ser implementada no contexto de qualquer um dos modelos de processo.
-
 ![350](attachments/Pasted%20image%2020250929071824.png)
+![300](attachments/Pasted%20image%2020250929103827.png)
