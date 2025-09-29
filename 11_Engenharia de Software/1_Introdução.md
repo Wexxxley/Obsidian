@@ -13,18 +13,7 @@ Um **processo de software** é um conjunto estruturado de atividades, ações e 
 Em termos mais simples, o processo é o ==**roteiro geral** que define **o que** precisa ser feito e em **qual sequência** na construção de Software.== 
 
 Exemplos de modelos de processo incluem o Modelo **Cascata**, Modelo **Incremental**, Modelo **Espiral** e o Processo **Unificado** (RUP).
-### **Método (ou Metodologia)**
-Um **método**, em engenharia de software, é uma ==abordagem sistemática para realizar uma ou mais atividades do processo. Ele fornece o **"como fazer"** de forma detalhada.==
 
-Se o processo é o roteiro, o método é a **técnica específica** que você usa em cada etapa. Ele inclui um conjunto de princípios, regras, notações e ferramentas.
-
-==Quando um conjunto de métodos, ferramentas e procedimentos é agrupado de forma coesa para abranger todo o ciclo de vida do desenvolvimento, chamamos isso de **Metodologia**.== 
-
-Exemplos de métodos/metodologias:
-- **Scrum e Kanban:** São métodos ágeis que ditam _como_ gerenciar o trabalho dentro da fase de desenvolvimento (sprints, reuniões diárias, quadros visuais).
-- **Test-Driven Development (TDD):** Um método de implementação onde os testes são escritos antes do código funcional.
-
----
 ### **Fluxo de processo**
 
 #### **Linear**
@@ -42,6 +31,29 @@ Executa as atividades de forma “circular”. Cada volta conduz a uma versão m
 #### **Paralelo**
 ![500](attachments/Pasted%20image%2020250929065224.png)
 Executa uma ou mais atividades em paralelo com outras.
+
+### **Modelo de processo**
+Um modelo de processo fornece um guia específico para o trabalho de engenharia de software. Ele define o fluxo de todas as atividades, ações e tarefas, o grau de iteração, os artefatos e a organização do trabalho a ser feito.
+- Modelos de processo **prescritivos** (tradicionais ou dirigidos a planos)
+- Os modelos de processo **não prescritivos** são denominados “**ágeis**”.
+
+
+---
+### **Método (ou Metodologia)**
+Um **método**, em engenharia de software, é uma ==abordagem sistemática para realizar uma ou mais atividades do processo. Ele fornece o **"como fazer"** de forma detalhada.==
+
+Se o processo é o roteiro, o método é a **técnica específica** que você usa em cada etapa. Ele inclui um conjunto de princípios, regras, notações e ferramentas.
+
+==Quando um conjunto de métodos, ferramentas e procedimentos é agrupado de forma coesa para abranger todo o ciclo de vida do desenvolvimento, chamamos isso de **Metodologia**.== 
+
+Exemplos de métodos/metodologias:
+- **Scrum e Kanban:** São métodos ágeis que ditam _como_ gerenciar o trabalho dentro da fase de desenvolvimento (sprints, reuniões diárias, quadros visuais).
+- **Test-Driven Development (TDD):** Um método de implementação onde os testes são escritos antes do código funcional.
+
+
+
+---
+
 
 **O que se Estuda em Engenharia de Software?**
 1. Engenharia de Requisitos 
