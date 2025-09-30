@@ -494,3 +494,47 @@ d. A falha de um componente em um sistema distribuído peer-to-peer causa a int
 ==e. A adição de novos dispositivos em um sistema distribuído para atender a uma demanda temporária ou crescente está ligada à característica de escalabilidade do sistema.==
 
 ---
+**Q37 Considerando-se as características de um sistema distribuído, numerar a 2ª coluna de acordo com a 1ª e, após, assinalar a alternativa que apresenta a sequência CORRETA:**
+
+**(1) Escalabilidade.**
+
+**(2) Segurança.**
+
+**(3) Concorrência.**
+
+**(2) A criptografia pode ser usada para proporcionar proteção adequada para os recursos compartilhados e para manter informações em sigilo quando transmitidas em mensagens de uma rede.**
+
+**(3) Os algoritmos usados para acessar os dados compartilhados devem evitar gargalos de desempenho, e os dados devem ser estruturados hierarquicamente para se obter os melhores tempos de acesso. Os dados acessados frequentemente podem ser replicados.**
+
+**(1) A presença de múltiplos usuários em um sistema distribuído é uma fonte de pedidos concorrentes para seus recursos.**
+
+---
+**Q38 É correto afirmar que um cache distribuído é um(a). Escolha uma opção:**
+
+a. alocação do espaço em disco da máquina do cliente, atuando como um repositório local para a aplicação.
+
+==b. fornecimento com uma alta taxa de transferência e com uma latência baixa, armazenando os dados em memória centralizada e distribuída para ser acessada.== 
+
+c. banco de dados relacional, podendo ser escalado em uma visão vertical ou horizontal em uma cloud, atuando, assim, como um banco de dados centralizado e efetuando leitura em IO.
+
+d. aplicação centralizada com configurações e segurança dos dados da aplicação client side e server side.
+
+---
+**Q39 Um sistema cliente-servidor precisa tratar de documentos que possuem imagens muito grandes. Essas imagens não são, necessariamente, apresentadas ao usuário sempre que ele carrega um documento, logo, carregar todas as imagens previamente, toda vez que o cliente abre um documento, pode gastar um tempo desnecessário. A melhor estratégia é carregar a imagem apenas quando a visualização é necessária. Ciente desse problema, o desenvolvedor responsável pelo sistema decidiu usar um padrão de projeto que fornece, no cliente, um objeto substituto que controla o acesso ao objeto original.**
+
+**Qual foi o padrão de projeto utilizado?**
+
+a. Facade
+b. Decorator
+c. Observer
+==d. Proxy== 
+e. Memento
+
+---
+**Q40 Com relação à arquitetura de uma rede de computadores, o modelo de rede em que todos os computadores se conectam através de um computador central, que recebe e entrega os dados aos participantes da rede, é conhecido como:**
+
+a. nó-controlador.
+b. barramento;
+c. ponto a ponto;
+d. cliente-servidor;
+e. estrela;
