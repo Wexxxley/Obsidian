@@ -246,3 +246,6 @@ e. devem estar localizados em uma rede local e os tipos de sistemas operacionai
 
 **Está(ão) correta(s) a(s) afirmativa(s)**
 
+==1, 2 E 3==
+
+---
