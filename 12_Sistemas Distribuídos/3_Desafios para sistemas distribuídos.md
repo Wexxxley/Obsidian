@@ -66,3 +66,22 @@ As falhas em um sistema distribuído são parciais – isto é, alguns component
 Tanto os serviços como os aplicativos fornecem recursos que podem ser compartilhados pelos clientes em um sistema distribuído. Portanto, existe a possibilidade de que vários clientes tentem acessar um recurso compartilhado ao mesmo tempo. O processo que gerencia um recurso compartilhado poderia aceitar e tratar um pedido de cliente por vez. Contudo, essa estratégia limita o desempenho. Portanto, os serviços permitem que vários pedidos de cliente sejam processados concorrentemente. Para tornar isso mais concreto, suponha que cada recurso seja encapsulado como um objeto e que as ==chamadas sejam executadas em diferentes fluxos de execução, processos ou threads, concorrentes==. 
 
 Portanto, o objeto que gerencia o recurso compartilhado é responsável por garantir a **coerência** em um ambiente concorrente. Para isso, o programador deve ==**sincronizar** as operações internas do objeto usando técnicas padrão, como **semáforos**==, garantindo que os dados permaneçam consistentes, apesar do acesso simultâneo.
+
+---
+### **2.6 Transparência**
+
+Transparência não é um desafio, mas sim uma característica de SD. A transparência é definida como a ==ocultação da separação dos componentes em um sistema distribuído, de modo que ele seja percebido como um todo.==
+
+- **Transparência de Acesso**: ==Permite que recursos locais e remotos sejam acessados utilizando operações idênticas==. Por exemplo, usar as mesmas operações de leitura/escrita para um arquivo, não importando se ele está na máquina local ou em um servidor de arquivos remoto.
+    
+- **Transparência de Localização**: ==Permite que os recursos sejam acessados sem que se conheça sua localização física ou em rede.==
+    
+- **Transparência de Concorrência**: ==Permite que vários processos ou usuários acessem recursos compartilhados concorrentemente, sem que um interfira no outro.== O sistema gerencia o acesso concorrente para manter a consistência dos dados, e essa complexidade é oculta do usuário.
+    
+- **Transparência de Falhas**: ==Permite a ocultação de falhas, possibilitando que usuários e aplicações concluam suas tarefas apesar da falha de componentes de hardware ou software.== Um exemplo é o e-mail, que é entregue mesmo que um servidor ou um enlace de comunicação falhe temporariamente, pois o sistema tenta retransmitir as mensagens.
+    
+- **Transparência de Mobilidade**: Permite a movimentação de recursos e clientes dentro de um sistema sem afetar a operação de usuários ou programas. Um exemplo é o uso de telefones celulares, onde os usuários podem se mover de uma célula para outra durante uma chamada sem que a comunicação seja interrompida ou que eles percebam a mudança.
+    
+- **Transparência de Desempenho**: Permite que o sistema seja reconfigurado para melhorar o desempenho à medida que a carga de trabalho varia, sem que o usuário perceba.
+    
+- **Transparência de Escalabilidade**: Permite que o sistema e as aplicações se expandam em escala (adicionando mais usuários ou recursos) sem a necessidade de alterar a estrutura do sistema ou os algoritmos da aplicação.
