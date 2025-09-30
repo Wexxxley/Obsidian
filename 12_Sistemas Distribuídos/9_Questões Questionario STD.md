@@ -131,3 +131,60 @@ O principal objetivo de se usar uma DHT não é permitir que cada peer tenha inf
 ![](attachments/Pasted%20image%2020250930143401.png)
 
 ==cliente-servidor − servidor − cliente − cliente-servidor − cliente − servidor − sites==
+
+---
+**Q12** **Em aplicações distribuídas, dois modelos usados são o cliente/servidor (cliente-server, C/S) e o ponto a ponto (peer-to-peer, P2P). Nesse contexto, analise as afirmações abaixo.**
+
+1) **Assim como no modelo cliente/servidor, no modelo P2P, qualquer nó pode iniciar uma conexão com qualquer outro nó.**
+
+2) **Diferente do modelo cliente-servidor, o modelo P2P se caracteriza por apresentar a mesma largura de banda nas conexões entre dois nós quaisquer da rede.**
+
+3) **Processamento relativo à sincronização e à comunicação entre nós pode sobrecarregar tanto uma rede cliente-servidor quanto uma rede P2P.**
+
+4) **No modelo P2P, uma rede pode comportar nós chamados superpontos (super-peers), que agem de maneira similar aos nós servidores em uma rede cliente-servidor.**
+
+Estão corretas, apenas:
+
+==3 e 4==
+
+---
+**Q13 Sobre a arquitetura cliente-servidor em camadas é correto afirmar:**
+
+**Escolha uma opção:**
+
+**a. A arquitetura em três camadas permite representar os componentes da aplicação nas camadas de negócio, aplicação e dados. A arquitetura em três camadas permite representar os componentes da aplicação nas camadas de negócio, aplicação e dados.**
+
+**b. Na arquitetura cliente-servidor em duas camadas, a camada cliente trata da Interface do Usuário, enquanto a camada servidor trata exclusivamente da lógica de negócio.**
+
+**c. A arquitetura centralizada foi dominante até a década de 90 como arquitetura corporativa e disponibilizava uma interface amigável.**
+
+==**d. Sistemas que usam a arquitetura, cliente-servidor em duas camadas geralmente possuem problemas de falta de escalabilidade, dificuldade de manutenção e dificuldade de acessar fontes heterogêneas.**== 
+
+**e. Na camada de dados da arquitetura em três camadas devem ser representados os componentes que cuidam da lógica de negócios (business logic).**
+
+---
+**No contexto das redes com arquiteturas ponto-a-ponto e cliente-servidor, considere:**
+
+**I. Os serviços fornecidos são, em geral, serviços de banco de dados, de segurança ou de impressão.**
+
+**II. Qualquer processo ou nó do sistema pode ser cliente e servidor.**
+
+**III. A distribuição da funcionalidade é obtida por meio do agrupamento de serviços inter-relacionados.**
+
+**IV. Um nó cliente pode exercer funções típicas de servidor.**
+
+**V. A lógica do aplicativo ou de negócios é normalmente distribuída entre o nó cliente e o nó servidor.**
+
+**Convencionando-se PP para ponto-a-ponto, e CS para cliente-servidor, é correto afirmar que os itens I, II, III, IV e V, referem-se, respectivamente, a**
+
+Escolha uma opção:
+
+a. CS, CS, CS, PP e PP.
+
+b. CS, PP, CS, PP e CS. 
+
+==c. CS, PP, PP, PP e CS.==
+
+d. PP, CS, PP, CS e CS.
+
+e. PP, PP, PP, CS e CS.
