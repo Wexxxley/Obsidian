@@ -163,7 +163,7 @@ Estão corretas, apenas:
 **e. Na camada de dados da arquitetura em três camadas devem ser representados os componentes que cuidam da lógica de negócios (business logic).**
 
 ---
-**No contexto das redes com arquiteturas ponto-a-ponto e cliente-servidor, considere:**
+**Q14 No contexto das redes com arquiteturas ponto-a-ponto e cliente-servidor, considere:**
 
 **I. Os serviços fornecidos são, em geral, serviços de banco de dados, de segurança ou de impressão.**
 
@@ -193,3 +193,56 @@ III. A distribuição da funcionalidade é obtida por meio do agrupamento de ser
 
 - No modelo Cliente-Servidor com Múltiplos Servidores, cada serviço é implementado por um conjunto de servidores que interagem entre si para oferecer uma visão global consistente do serviço. O agrupamento de serviços relacionados em uma interface é uma prática padrão de engenharia de software e reflete a organização física onde os recursos são encapsulados dentro dos computadores.
 - Em uma arquitetura **Ponto-a-Ponto (PP)**, as funcionalidades de um serviço completo (como um serviço de localização de arquivos) é distribuída entre todos os nós. Cada nó oferece uma pequena parte do serviço. Esses "microsserviços" individuais são **inter-relacionados** (a tabela de roteamento de um nó aponta para outros) e seu **agrupamento** forma o serviço coeso e distribuído. Portanto, a funcionalidade do sistema emerge do agrupamento das contribuições inter-relacionadas de cada par.
+
+---
+**Q15 A respeito dos objetivos da utilização de processamento distribuído, avalie as afirmativas a seguir:**  
+  
+**I. Garante que os dados e processos sejam protegidos contra acessos não autorizados e falhas.**  
+  
+**II. Facilita o acesso e compartilhamento de recursos remotos, como periféricos, instalações de armazenamento e serviços**  
+  
+**III. Busca ocultar a complexidade da distribuição dos processos e recursos.**
+
+==2 E 3== 
+
+---
+**Q16 Assinale a alternativa correta com relação aos Sistemas Distribuídos.**
+
+**Escolha uma opção:**
+
+a. Os Sistemas Distribuídos são independentes da rede de comunicação de dados.
+
+b. A pouca eficiência é uma das desvantagens dos sistemas distribuídos uma vez que com eles obtemos um menor poder total de computação.
+
+==c. Nos Sistemas Distribuídos, obtemos a escalabilidade, pois não é possível adicionar poder computacional de forma incremental.==
+
+d. O compartilhamento de periféricos é uma forte vantagem no uso de sistemas distribuídos. 
+
+e. A confiabilidade e a disponibilidade de um sistema distribuído é fraca, pois nestes sistemas quando uma máquina falha, o sistema não permanece funcional.
+
+---
+**Q17 Um sistema distribuído é um conjunto de sistemas autônomos, interconectados por uma rede de comunicação, que se diferencia dos demais sistemas fracamente acoplados pela existência de um relacionamento mais forte entre os seus componentes.**
+
+**Tais componentes**
+
+a. devem estar localizados em uma rede local e os tipos de sistemas operacionais que compõem o sistema distribuído não precisam ser necessariamente homogêneos.
+
+==b. podem estar localizados em uma rede local ou em uma rede distribuída e os tipos de sistemas operacionais que compõem o sistema distribuído não precisam ser necessariamente homogêneos.== 
+
+c. podem estar localizados em uma rede local ou em uma rede distribuída, mas os tipos de sistemas operacionais que compõem o sistema distribuído devem ser necessariamente homogêneos.
+
+d. devem estar localizados em uma rede distribuída e os tipos de sistemas operacionais que compõem o sistema distribuído devem ser necessariamente homogêneos.
+
+e. devem estar localizados em uma rede local e os tipos de sistemas operacionais que compõem o sistema distribuído devem ser necessariamente homogêneos.
+
+---
+**Q18 Analise as afirmativas a seguir, a respeito de sistemas distribuídos.**
+
+**I - Uma das principais diferenças entre um sistema distribuído e um sistema em rede é que, do ponto de vista do usuário, o sistema distribuído se comporta como uma única máquina, enquanto que o sistema em rede expõe ao usuário as diversas máquinas separadamente.**
+
+**II - Em um sistema distribuído, uma migração de processo entre nós do sistema pode ser feita para proporcionar balanceamento de carga ou aceleração da computação, sendo esta através da divisão do processo em subprocessos que executem em paralelo.**
+
+**III - Os nós de um sistema distribuído podem executar diferentes sistemas operacionais.**
+
+**Está(ão) correta(s) a(s) afirmativa(s)**
+
