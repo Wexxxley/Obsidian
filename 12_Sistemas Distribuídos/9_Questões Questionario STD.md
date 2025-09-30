@@ -420,10 +420,77 @@ d. Melhor utilização de recursos de hardware devido à dependência de um ún
 
 a. Não é responsável pelas operações de comunicação da aplicação distribuída.
 
-b. Auxilia no suporte a computadores e redes heterogêneas.
+==b. Auxilia no suporte a computadores e redes heterogêneas.==
 
 c. Oferece uma abstrato de alto nível, fornecendo assim uma visão não uniforme na utilização dos recursos.
 
 d. Faz com que o sistema distribuído apresente-se como múltiplos sistemas.
 
 e. Trata-se de uma camada de _software_, logicamente situada entre o sistema operacionaI e o substrato de comunicação.
+
+---
+**Q33 Em relação a sistemas distribuídos, julgue o item seguinte.**
+
+**No padrão de arquitetura MVC (model-view-controller), os aplicativos são divididos em modelos, exibições e componentes; nesse padrão, as solicitações de usuário são encaminhadas para um controlador, que é responsável por trabalhar com o modelo para executar as ações do usuário, bem como por escolher a exibição a ser apresentada para o usuário.**
+
+==VERDADEIRA==
+
+---
+**Q34 A cloud computing (computação em nuvem) tem o objetivo de fornecer recursos de hardware e software sob demanda a partir de servidores interligados pela Internet, seguindo o princípio da computação em grid (grade). Uma arquitetura em grid é descrita por meio das quatro camadas a seguir.** 
+
+- **Rede: executa a comunicação e se utiliza da parte física;** 
+- **Recursos: formada pelos servidores de armazenamento e/ou processamento;** 
+- **Middleware: formada pelo software responsável pela troca de informações;** 
+- **Ferramentas e aplicações: representada pelos aplicativos.** 
+
+**De acordo com o texto, avalie as afirmações a seguir.** 
+
+**I. A camada de ferramentas e aplicações é responsável pela negociação das transações de dados no grid.** 
+
+**II. A camada middleware é responsável pela interconectividade e comunicação entre os membros do grid.** 
+
+**III. A camada de rede é responsável pela conectividade entre os diferentes membros do grid.** 
+
+**IV. A camada de recursos é responsável pela segurança dos dados nas aplicações do grid.** 
+
+**É correto apenas o que se afirma em:**
+
+==2 E 3==
+
+---
+**Q35 Em uma arquitetura cliente-servidor, para que uma aplicação ou serviço seja acessado, é necessário que uma comunicação seja estabelecida entre aquele que necessita (cliente) e aquele que disponibiliza o recurso (servidor).**
+
+**Considerando o texto apresentado, avalie as asserções a seguir e a relação proposta entre elas**
+
+**I. Quando um programador desenvolve uma aplicação ou serviço de rede, é necessário utilizar um socket para unir o endereço IP da interface de rede com uma porta específica.**
+
+**PORQUE**
+
+**II. O socket possibilita ao sistema operacional identificar qual porta a aplicação está respondendo, permitindo que o fluxo de dados seja entregue corretamente.**
+
+**Escolha uma opção:**
+
+**a. As asserções I e II são proposições falsas.**
+
+**b. As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I.** 
+
+==**c. As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.**==
+
+**d. A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.**
+
+**e. A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.**
+
+---
+**Q36 Um sistema distribuído é aquele no qual os componentes de hardware ou software, localizados em computadores interligados em rede, comunicam-se e coordenam suas ações apenas enviando mensagens entre si**
+
+a. O compartilhamento dos recursos distribuídos entre computadores interligados por uma rede é possível desde que os dispositivos sejam homogêneos em termos de hardware e software
+
+b. A possibilidade de vários clientes acessarem de forma concorrente um mesmo recurso compartilhado em um servidor é resultado do alto nível de transparência do sistema.
+
+c. A existência de um relógio físico local sincronizado com um relógio global é o que permite aos usuários de um sistema distribuído trocarem mensagens de forma coordenada.
+
+d. A falha de um componente em um sistema distribuído peer-to-peer causa a interrupção de todos os demais componentes até o seu retorno.
+
+==e. A adição de novos dispositivos em um sistema distribuído para atender a uma demanda temporária ou crescente está ligada à característica de escalabilidade do sistema.==
+
+---
