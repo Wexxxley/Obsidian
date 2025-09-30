@@ -303,14 +303,49 @@ d. O modelo de computação distribuída Peer-to-Peer é uma tecnologia que est
 e. Uma aplicação cliente-servidor é um caso especial de processamento distribuído no qual existe uma forma de cooperação entre dois ou mais processos, sendo essa cooperação realizada através de requisições dos componentes alocados ao cliente e das respostas que são fornecidas pelos componentes alocados ao servidor.
 
 ---
-Q23 Em relação aos sistemas distribuídos, analise as seguintes afirmativas.
+**Q23 Em relação aos sistemas distribuídos, analise as seguintes afirmativas.**
 
-**I)** Um sistema assíncrono apresenta medida de tempo global.
+**I) Um sistema assíncrono apresenta medida de tempo global.**
 
-**II)** A passagem de mensagens é o instrumento empregado para efetuar a comunicação entre os processos de um sistema assíncrono.
+**II) A passagem de mensagens é o instrumento empregado para efetuar a comunicação entre os processos de um sistema assíncrono.**
 
-**III)** Em um sistema distribuído transparente quanto à concorrência, a informação de quantos usuários estão utilizando determinado serviço deve ser omitido.
+**III) Em um sistema distribuído transparente quanto à concorrência, a informação de quantos usuários estão utilizando determinado serviço deve ser omitido.**
 
-**IV)** É possível simular um computador paralelo de memória compartilhada usando-­‐se um sistema distribuído.
+**IV) É possível simular um computador paralelo de memória compartilhada usando-­‐se um sistema distribuído.**
 
-**V)** Quando um determinado elemento de um sistema distribuído efetua a difusão de uma mensagem por meio de um multicast, todos os elementos do sistema distribuído recebem a mensagem.
+**V) Quando um determinado elemento de um sistema distribuído efetua a difusão de uma mensagem por meio de um multicast, todos os elementos do sistema distribuído recebem a mensagem.**
+
+==2 e 4==
+
+---
+
+**Q24**
+**I – Um sistema distribuído é uma coleção de computadores autônomos conectados por uma rede de comunicação.**
+
+**II – Em sistemas distribuídos heterogêneos pode haver diferentes plataformas conectadas à rede.**
+
+**III – Sistemas distribuídos homogêneos são aqueles onde todas as plataformas hardware e o sistema operacional ligados à rede são iguais.**
+
+==TODAS==
+
+---
+**Q25 Em relação aos Sistemas Distribuídos, pode-se afirmar:**
+
+**I - O middleware visa melhorar a visão de sistema único que um sistema distribuído deve ter.**
+
+**II - O middleware tem como objetivo esconder em como os computadores de um sistema distribuído realmente participam do sistema como um todo.**
+
+**III - Um Sistema Distribuído sempre tem que informar ao seus usuários quando partes estão sendo substituídos ou consertados, e novas peças são adicionadas.**
+
+==1 E 2==
+
+---
+**Q26 Analise as seguintes afirmações relativas a sistemas operacionais distribuídos:**  
+ 
+**I. Um sistema distribuído pode ser definido como uma coleção de processadores fracamente acoplados, interconectados por uma rede de comunicação.**  
+  
+**II. Um sistema distribuído pode ser definido como uma coleção de processadores que não compartilham memória nem relógio.**  
+  
+**III. Um sistema distribuído pode ser definido pela capacidade que um único processador tem para distribuir várias tarefas simultaneamente.**  
+  
+**IV. Em um sistema operacional distribuído os usuários só podem acessar recursos locais.**
