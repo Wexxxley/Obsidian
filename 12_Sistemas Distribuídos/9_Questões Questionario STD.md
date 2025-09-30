@@ -79,7 +79,10 @@ e. devem estar localizados em uma rede distribuída e os tipos de sistemas oper
 4) **multiprocessadores são sistemas fortemente acoplados, enquanto que multicomputadores são sistemas fracamente acoplados.**
 
 Estão corretas:
-1, 2, 
+==1, 2 e 4==
+
+- **Sistemas fortemente acoplados** (como multiprocessadores) são compostos por vários processadores que geralmente compartilham a mesma memória e um relógio comum.
+- **Sistemas fracamente acoplados** (como multicomputadores ou um sistema distribuído) são formados por um conjunto de computadores independentes, cada um com sua própria memória, interligados por uma rede.
 
 ---
 **Q7 Segundo Andrew Tanembaum (2007) “Sistema Distribuído é uma coleção de computadores independentes que se apresenta ao usuário como um sistema único e consistente”. Assinale a alternativa correta a respeito de um sistema de informação distribuído.**
@@ -116,6 +119,15 @@ c. MICROSOFT RMI e JAVA DCOM
 d. CORBA e JAVA
 e. MICROSOFT RMI e CORBA
 
+---
+**Q10 Com relação a redes peer-to-peer (P2P), julgue os itens subsecutivos. O principal objetivo de se usar DHT (distributed hash table) em redes P2P descentralizadas e estruturadas é permitir que cada peer tenha informação total sobre seus vizinhos.**
 
+==ERRADO==
 
+O principal objetivo de se usar uma DHT não é permitir que cada peer tenha informação total sobre seus vizinhos. Pelo contrário, o objetivo é criar um sistema de busca eficiente e escalável, onde cada peer precisa manter informações sobre apenas um **pequeno e seleto número de outros peers**.
 
+---
+**Q11**
+![](attachments/Pasted%20image%2020250930143401.png)
+
+==cliente-servidor − servidor − cliente − cliente-servidor − cliente − servidor − sites==
