@@ -81,7 +81,40 @@ e. devem estar localizados em uma rede distribuída e os tipos de sistemas oper
 Estão corretas:
 1, 2, 
 
+---
+**Q7 Segundo Andrew Tanembaum (2007) “Sistema Distribuído é uma coleção de computadores independentes que se apresenta ao usuário como um sistema único e consistente”. Assinale a alternativa correta a respeito de um sistema de informação distribuído.**
 
+**Escolha uma opção:**
+
+a. A distribuição de tarefas se dá a partir de requisições do usuário, que indica o endereço do servidor onde deseja executar tal tarefa.
+
+b. Todos os computadores de uma rede executam tarefas de cliente e servidor, quando se deseja integrá-los em uma arquitetura de sistemas distribuídos.
+
+c. A **transparência de acesso** é uma característica dos sistemas distribuídos que permite que recursos sejam acessados sem que sua localização seja determinada.
+
+d. Em uma rede de computadores há servidores dedicados a atender pedidos dos clientes e estes, por sua vez, têm função exclusiva de requisitantes.
+
+==e. Em um sistema de objetos distribuídos é possível invocar métodos de um objeto, ainda que este não esteja presente no computador do usuário.==
+
+---
+**Q8 A respeito de sistemas distribuídos, julgue o item a seguir.** 
+
+ **Middleware é um sistema que conecta outros recursos, abstraindo protocolos de comunicação e camadas de infraestrutura.**
+
+==Certo==
+
+---
+**Q9 Em sistemas distribuídos o middleware é uma camada adicional de software, situada entre o nível de aplicação e o nível que consiste no sistema operacional, que se estende por várias máquinas fornecendo uma abstração para a programação de aplicações em rede.**
+
+**Assinale a alternativa que representa exemplos de middelware:**
+
+**Escolha uma opção:**
+
+==a. JAVA RMI e CORBA== 
+b. JAVA e MICROSOFT DCOM
+c. MICROSOFT RMI e JAVA DCOM
+d. CORBA e JAVA
+e. MICROSOFT RMI e CORBA
 
 
 
