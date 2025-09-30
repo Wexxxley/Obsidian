@@ -536,5 +536,43 @@ e. Memento
 a. nó-controlador.
 b. barramento;
 c. ponto a ponto;
-d. cliente-servidor;
-e. estrela;
+==d. cliente-servidor;== Por conta do uso da palavra ARQUITETURA
+e. estrela; TOPOLOGIA DE REDE, N ARQUITETURA
+
+---
+**Q41 Em uma arquitetura cliente-servidor,**
+
+a. o cliente representa a parte passiva ou reativa da relação, pois ele fica ocioso até que um servidor se conecte a ele e forneça informações para ele operar.
+
+b. os clientes trocam informações entre si para não sobrecarregar o servidor.
+
+c. uma das funções do servidor é varrer a rede em busca de clientes que não tenham sido atendidos.
+
+==d. o cliente representa a parte ativa da relação, pois ele que é o responsável por iniciar a transmissão.== 
+
+e. o cliente é representado por um processo de execução contínua, pois deve estar sempre disponível.
+
+---
+**Q42 Em relação a problemas de sincronização e acordo em sistemas distribuídos, é correto afirmar que:**
+
+a. Com o advento da internet e, mais recentemente, o desenvolvimento de sistemas de computação em nuvem, deixaram de ser problemas relevantes para quem desenvolve sistemas para esses ambientes.
+
+b. As soluções desses problemas são relativamente simples, mas suas implementações são ainda muito lentas para serem utilizadas em sistemas distribuídos de produção.
+
+==c. Sua possível solução depende das garantias de comunicação consideradas para o ambiente de execução do sistema (sistemas síncronos, assíncronos ou modelos intermediários).== 
+
+d. São problemas presentes no desenvolvimento de sistemas de computação em nuvem, que não estão relacionados a sistemas distribuídos mais simples, tais como um sistema cliente-servidor
+
+e. São problemas importantes na implementação de sistemas operacionais distribuídos, mas que não interferem no desenvolvimento de aplicações distribuídas que serão executadas nesses sistemas.
+
+---
+**Q43 Acerca de arquitetura de TI, julgue o item que se segue.** 
+
+Na arquitetura cliente/servidor multinível, uma mesma aplicação pode ser servidor para um cliente e cliente para outro servidor, desde que não simultaneamente.
+
+---
+**Q44 Acerca de arquitetura cliente-servidor multicamadas, julgue o item seguinte.**  
+
+Por meio da distribuição da carga de processamento entre diferentes servidores, é possível aumentar a escalabilidade do sistema computacional utilizando-se o modelo cliente-servidor multicamadas.
+
+==TRUE==
