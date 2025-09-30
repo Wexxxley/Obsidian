@@ -249,3 +249,40 @@ e. devem estar localizados em uma rede local e os tipos de sistemas operacionai
 ==1, 2 E 3==
 
 ---
+**Q19 Analise as seguintes afirmações relativas a sistemas distribuídos:**  
+ 
+**I. Um sistema distribuído é uma coleção de processadores que compartilham memória.**  
+  
+**II. Um sistema distribuído é uma coleção de processadores fracamente acoplados interconectados por uma rede de comunicação. Do ponto de vista de um processador específico em um sistema distribuído, os demais processadores e seus respectivos recursos são remotos, enquanto seus próprios recursos são locais.**  
+  
+**III. Em um sistema operacional distribuído, os usuários acessam recursos remotos da mesma forma que fazem com os recursos locais.**  
+  
+**IV. A grande desvantagem de um sistema distribuído é que, como acontece na Internet, se um site falhar os outros sites envolvidos também irão parar.**
+
+==2 E 3==
+
+---
+**Q20 Sobre sistemas distribuídos, assinale a alternativa INCORRETA:**
+
+a. Sistemas distribuídos são construídos sobre redes de computadores LANs (redes locais) e WANS (redes de longa distância).
+
+b. _Middieware_ é a camada de _software_ no topo do sistema operacional distribuído, que permite uniformidade de presença entre os nós com hardware e sistemas operacionais diversos.
+
+==c. O acoplamento forte dos sistemas distribuídos pode ser visto como uma vantagem, pois permite o compartilhamento de recursos como memória e CPU, aumentando a capacidade final de processamento.== 
+
+d. Quanto ao compartilhamento de arquivos em sistemas distribuídos, a semântica de sessão fornece um mecanismo para propagação de alterações mais eficiente que a consistência sequencial.
+
+e. Cada nó do sistema distribuído pode estar espalhado ao redor do mundo, possuindo processador, memória e interface de redes independentes. 
+
+---
+**Com relação a conceitos sobre sistemas distribuídos, assinale a opção correta.**
+
+**Escolha uma opção:**
+
+a. Um sistema distribuído pode suportar a migração de processos. A migração de processos não pode, entretanto, ocorrer sob controle de um sistema operacional, tem que ser controlada por aplicações.
+
+b. Um sistema distribuído tem que ser tolerante a falhas. Para ser considerado tolerante a falhas, tem que continuar a funcionar, sem degradação do desempenho ou das funcionalidades, após as falhas.
+
+c. Um sistema de arquivos distribuídos pode ser implementado sem manter informações de estado. Nesse caso, as operações são tratadas individualmente e não como partes de uma sessão. 
+
+d. Em um sistema distribuído, os usuários podem acessar recursos em outras máquinas, mas um sistema operacional distribuído não tem como tornar a distribuição dos recursos transparente aos usuários.
