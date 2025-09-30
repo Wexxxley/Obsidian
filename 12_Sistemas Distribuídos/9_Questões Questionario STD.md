@@ -275,7 +275,7 @@ d. Quanto ao compartilhamento de arquivos em sistemas distribuídos, a semânti
 e. Cada nó do sistema distribuído pode estar espalhado ao redor do mundo, possuindo processador, memória e interface de redes independentes. 
 
 ---
-**Com relação a conceitos sobre sistemas distribuídos, assinale a opção correta.**
+**Q21 Com relação a conceitos sobre sistemas distribuídos, assinale a opção correta.**
 
 **Escolha uma opção:**
 
@@ -283,6 +283,34 @@ a. Um sistema distribuído pode suportar a migração de processos. A migraçã
 
 b. Um sistema distribuído tem que ser tolerante a falhas. Para ser considerado tolerante a falhas, tem que continuar a funcionar, sem degradação do desempenho ou das funcionalidades, após as falhas.
 
-c. Um sistema de arquivos distribuídos pode ser implementado sem manter informações de estado. Nesse caso, as operações são tratadas individualmente e não como partes de uma sessão. 
+==c. Um sistema de arquivos distribuídos pode ser implementado sem manter informações de estado. Nesse caso, as operações são tratadas individualmente e não como partes de uma sessão.== 
 
 d. Em um sistema distribuído, os usuários podem acessar recursos em outras máquinas, mas um sistema operacional distribuído não tem como tornar a distribuição dos recursos transparente aos usuários.
+
+---
+**Q22 Um sistema distribuído é definido como uma coleção de computadores independentes que se apresenta ao usuário como um sistema único e consistente. Baseado nos conceitos definidos para sistemas distribuídos, identifique a afirmativa ERRADA:**
+
+**Escolha uma opção:**
+
+a. Um sistema distribuído fracamente acoplado permite que máquinas e usuários do ambiente sejam fundamentalmente independentes, bem como a interação de forma limitada, quando isto for necessário, compartilhando recursos como discos e impressoras, entre outros.
+
+b. Um sistema distribuído fortemente acoplado provê um nível de integração e compartilhamento de recursos mais intenso e transparente ao usuário, onde vários processadores compartilham uma memória, e são gerenciados por apenas um sistema operacional. 
+
+==c. Uma vantagem dos sistemas distribuídos sobre os sistemas centralizados é a disponibilidade de software para este tipo de ambiente.==  A complexidade e a dificuldade no desenvolvimento de software são consideradas uma das **maiores desvantagens** dos sistemas distribuídos
+
+d. O modelo de computação distribuída Peer-to-Peer é uma tecnologia que estabelece uma espécie de rede virtual de computadores, onde cada estação tem capacidades e responsabilidades equivalentes.
+
+e. Uma aplicação cliente-servidor é um caso especial de processamento distribuído no qual existe uma forma de cooperação entre dois ou mais processos, sendo essa cooperação realizada através de requisições dos componentes alocados ao cliente e das respostas que são fornecidas pelos componentes alocados ao servidor.
+
+---
+Q23 Em relação aos sistemas distribuídos, analise as seguintes afirmativas.
+
+**I)** Um sistema assíncrono apresenta medida de tempo global.
+
+**II)** A passagem de mensagens é o instrumento empregado para efetuar a comunicação entre os processos de um sistema assíncrono.
+
+**III)** Em um sistema distribuído transparente quanto à concorrência, a informação de quantos usuários estão utilizando determinado serviço deve ser omitido.
+
+**IV)** É possível simular um computador paralelo de memória compartilhada usando-­‐se um sistema distribuído.
+
+**V)** Quando um determinado elemento de um sistema distribuído efetua a difusão de uma mensagem por meio de um multicast, todos os elementos do sistema distribuído recebem a mensagem.
