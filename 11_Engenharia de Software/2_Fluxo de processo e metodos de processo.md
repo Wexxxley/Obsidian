@@ -2,15 +2,17 @@
 ---
 ### **1. Fluxo de processo**
 
-#### **Linear**
+#### **Linear/cascata**
+Temos dois modelos principais.
 ![](attachments/Pasted%20image%2020250929065026.png)
-Executa cada uma das cinco atividades metodológicas em **sequência**. Cada uma das atividades é **executada somente uma vez**.
+![450](attachments/Pasted%20image%2020250930070546.png)
+Executa cada uma das cinco atividades metodológicas em **sequência**. 
 
 #### **Iterativo**
 ![](attachments/Pasted%20image%2020250929065120.png)
 Repete uma ou mais das atividades metodológicas antes de prosseguir para a seguinte. 
 
-#### **Evolucionario**
+#### **Evolucionario/incremental**
 ![550](attachments/Pasted%20image%2020250929065141.png)
 Executa as atividades de forma “circular”. Cada volta conduz a uma versão mais completa.
 
@@ -37,4 +39,8 @@ Um protótipo é uma versão inicial de um sistema de software, usado para demon
 
 ##### **2.1.2 Espiral**
 É um modelo de processo de software evolucionário que une a natureza iterativa da prototipação aos aspectos sistemáticos e controlados do modelo cascata
-Diferentemente de outros modelos de processo, que terminam quando o software é entregue, o modelo espiral pode ser adaptado para ser aplicado ao longo da vida do software. • O modelo é uma abordagem realista para o desenvolvimento de softwares de grande porte. • No caso de um orçamento fixo, o modelo espiral pode ser um problema.
+Diferentemente de outros modelos de processo, que terminam quando o software é entregue, o modelo espiral pode ser adaptado para ser aplicado ao longo da vida do software. 
+
+- O modelo é uma abordagem para o desenvolvimento de softwares com grande ciclo de vida. 
+- No caso de um orçamento fixo, o modelo espiral pode ser um problema.
+![](attachments/Pasted%20image%2020250930065956.png)
