@@ -52,9 +52,34 @@ c. a ocultação das diferenças em representação de dados e o modo como os r
 
 e. realocação de recursos enquanto estão sendo acessados sem que o usuário ou a aplicação percebam qualquer coisa.
 
+---
+**Q5 Um sistema distribuído é um conjunto de sistemas autônomos, interconectados por uma rede de comunicação, que se diferencia dos demais sistemas fracamente acoplados pela existência de um relacionamento mais forte entre os seus componentes.**
 
+**Tais componentes**
 
+a. podem estar localizados em uma rede local ou em uma rede distribuída, mas os tipos de sistemas operacionais que compõem o sistema distribuído devem ser necessariamente homogêneos.
 
+==b. podem estar localizados em uma rede local ou em uma rede distribuída e os tipos de sistemas operacionais que compõem o sistema distribuído não precisam ser necessariamente homogêneos.== 
+
+c. devem estar localizados em uma rede local e os tipos de sistemas operacionais que compõem o sistema distribuído devem ser necessariamente homogêneos.
+
+d. devem estar localizados em uma rede local e os tipos de sistemas operacionais que compõem o sistema distribuído não precisam ser necessariamente homogêneos.
+
+e. devem estar localizados em uma rede distribuída e os tipos de sistemas operacionais que compõem o sistema distribuído devem ser necessariamente homogêneos.
+
+---
+**Q6 Acerca do conceito de sistemas distribuídos, analise as proposições abaixo.**
+
+1) **Um sistema distribuído é uma coleção de computadores autônomos conectados por uma rede e equipados com um sistema de software distribuído.**
+
+2) **Um sistema distribuído é uma coleção de computadores independentes, que aparenta ao usuário ser um computador único.**
+
+3) **Em um sistema distribuído a falha de um computador do qual nunca se ouviu falar faz com que seu computador ou software pare completamente de funcionar.**
+
+4) **multiprocessadores são sistemas fortemente acoplados, enquanto que multicomputadores são sistemas fracamente acoplados.**
+
+Estão corretas:
+1, 2, 
 
 
 
