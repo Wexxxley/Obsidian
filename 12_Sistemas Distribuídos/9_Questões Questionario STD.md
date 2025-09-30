@@ -394,8 +394,36 @@ d. habilita o uso de conectividade sem fio em sistemas operacionais móveis, pa
 
 a. Redução do número de nós.
 
-b. Redundância de componentes. 
+==b. Redundância de componentes.== 
 
 c. Aumento da capacidade de armazenamento.
 
 d. Uso exclusivo de memória compartilhada.
+
+---
+ **Q31 Uma instituição pública do Poder Legislativo está considerando a migração de uma arquitetura monolítica para uma arquitetura distribuída de microsserviços para atualizar sua infraestrutura de tecnologia da informação. Essa mudança é contemplada para melhor atender às demandas por serviços on-line e possibilitar ajustes de escalabilidade e flexibilidade nos sistemas. Qual alternativa a seguir descreve corretamente um benefício da arquitetura de microsserviços em comparação com a arquitetura monolítica?**
+
+**Escolha uma opção:**
+
+a. Maior acoplamento entre os componentes, facilitando a manutenção do sistema.
+
+==b. Isolamento de falhas, permitindo que problemas em um microsserviço não afetem o funcionamento dos outros.== 
+
+c. Redução da sobrecarga de comunicação entre os serviços devido à comunicação síncrona.
+
+d. Melhor utilização de recursos de hardware devido à dependência de um único servidor de aplicação.
+
+---
+ **Q32 A implementação de uma aplicação distribuída comumente faz uso de um _middleware_ para simplificar e acelerar o seu desenvolvimento. Neste contexto, assinale a afirmativa CORRETA relacionada ao _middleware_:**
+
+**Escolha uma opção:**
+
+a. Não é responsável pelas operações de comunicação da aplicação distribuída.
+
+b. Auxilia no suporte a computadores e redes heterogêneas.
+
+c. Oferece uma abstrato de alto nível, fornecendo assim uma visão não uniforme na utilização dos recursos.
+
+d. Faz com que o sistema distribuído apresente-se como múltiplos sistemas.
+
+e. Trata-se de uma camada de _software_, logicamente situada entre o sistema operacionaI e o substrato de comunicação.
