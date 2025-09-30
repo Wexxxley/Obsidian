@@ -14,6 +14,7 @@ Repete uma ou mais das atividades metodológicas antes de prosseguir para a segu
 
 #### **Evolucionario/incremental**
 ![550](attachments/Pasted%20image%2020250929065141.png)
+![450](attachments/Pasted%20image%2020250930071412.png)
 Executa as atividades de forma “circular”. Cada volta conduz a uma versão mais completa.
 
 #### **Paralelo**
