@@ -349,3 +349,53 @@ e. Uma aplicação cliente-servidor é um caso especial de processamento distri
 **III. Um sistema distribuído pode ser definido pela capacidade que um único processador tem para distribuir várias tarefas simultaneamente.**  
   
 **IV. Em um sistema operacional distribuído os usuários só podem acessar recursos locais.**
+
+==1 E 2== 
+
+---
+**Q27 “Sistema Distribuído é uma coleção de computadores independentes que se apresenta ao usuário como um sistema único e consistente”. Assinale a alternativa correta a respeito de um sistema de informação distribuído.**
+
+**Escolha uma opção:**
+
+a. Em uma rede de computadores há servidores dedicados a atender pedidos dos clientes e estes, por sua vez, têm função exclusiva de requisitantes.
+
+b. A distribuição de tarefas se dá a partir de requisições do usuário, que indica o endereço do servidor onde deseja executar tal tarefa.
+
+==c. Em um sistema de objetos distribuídos é possível invocar métodos de um objeto, ainda que este não esteja presente no computador do usuário.==
+
+d. A transparência de acesso é uma característica dos sistemas distribuídos que permite que recursos sejam acessados sem que sua localização seja determinada. 
+**Essa definição é a de transparencia de localização**
+
+e. Todos os computadores de uma rede executam tarefas de cliente e servidor, quando se deseja integrá-los em uma arquitetura de sistemas distribuídos.
+
+---
+**Q28 Para cada aplicativo é oferecida a mesma interface. O sistema distribuído fornece os meios para os componentes de um único aplicativo distribuído se comunicarem entre si, mas também para permitir que diferentes aplicativos se comuniquem. Ao mesmo tempo, ele oculta, da melhor forma e razoavelmente possível, as diferenças de hardware e sistemas operacionais de cada aplicativo. Esse mecanismo de abstração, organizado como uma camada de um sistema distribuído, que se estende por várias máquinas e oferece a cada aplicação a mesma interface, é chamado:**
+
+![450](attachments/Pasted%20image%2020250930155802.png)
+==Middleware==
+
+---
+**Q29 Em relação às arquiteturas de sistemas, um modelo amplamente utilizado são as plataformas de _middleware_. O termo _middleware_ se aplica a camada de _software_ que**
+
+**Escolha uma opção:**
+
+a. atua como uma interface entre o sistema operacional de um computador e um hardware específico, permite o controle correto do dispositivo e traduz os comandos do sistema operacional em instruções.
+
+==b. fornece abstração de programação, mascaramento da heterogeneidade das redes, do _hardware_, sistemas operacionais e das linguagens de programação subjacentes.== 
+
+c. provê acesso direto ao hardware sem utilização de drivers, serviço de descoberta de recursos e minimização do tempo de desenvolvimento em virtude de bibliotecas diversas.
+
+d. habilita o uso de conectividade sem fio em sistemas operacionais móveis, pareamento _bluetooth_ em celulares, e acesso à Internet via redes de terceira, quarta e quinta geração.
+
+---
+**Q30 Uma empresa está em busca de aprimorar a tolerância a falhas em seu sistema distribuído. Deseja-se garantir que o sistema continue operacional mesmo diante de falhas parciais. Nesse contexto, qual é a abordagem mais eficaz para aumentar a tolerância a falhas em sistemas distribuídos.**
+
+**Escolha uma opção:**
+
+a. Redução do número de nós.
+
+b. Redundância de componentes. 
+
+c. Aumento da capacidade de armazenamento.
+
+d. Uso exclusivo de memória compartilhada.
