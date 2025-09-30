@@ -2,7 +2,7 @@
 #Concluded 
 
 ---
-## **1. O Modelo de Interação**
+## **1. O Modelo de Iteração**
 
 Este modelo ==lida com o desempenho e a dificuldade de estabelecer limites de tempo== em um sistema distribuído. Ele se concentra em dois fatores:
 
