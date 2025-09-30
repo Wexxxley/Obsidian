@@ -188,3 +188,8 @@ b. CS, PP, CS, PP e CS. 
 d. PP, CS, PP, CS e CS.
 
 e. PP, PP, PP, CS e CS.
+
+III. A distribuição da funcionalidade é obtida por meio do agrupamento de serviços inter-relacionados. Esta afirmação está ligada à forma como a funcionalidade é organizada para ser oferecida.
+
+- No modelo Cliente-Servidor com Múltiplos Servidores, cada serviço é implementado por um conjunto de servidores que interagem entre si para oferecer uma visão global consistente do serviço. O agrupamento de serviços relacionados em uma interface é uma prática padrão de engenharia de software e reflete a organização física onde os recursos são encapsulados dentro dos computadores.
+- Em uma arquitetura **Ponto-a-Ponto (PP)**, as funcionalidades de um serviço completo (como um serviço de localização de arquivos) é distribuída entre todos os nós. Cada nó oferece uma pequena parte do serviço. Esses "microsserviços" individuais são **inter-relacionados** (a tabela de roteamento de um nó aponta para outros) e seu **agrupamento** forma o serviço coeso e distribuído. Portanto, a funcionalidade do sistema emerge do agrupamento das contribuições inter-relacionadas de cada par.
