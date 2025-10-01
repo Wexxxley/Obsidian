@@ -2,9 +2,9 @@
 #Concluded 
 
 ---
-## **1. O Modelo de Iteração**
+## **1. O Modelo de Interação**
 
-Este modelo ==lida com o desempenho e a dificuldade de estabelecer limites de tempo== em um sistema distribuído. Ele se concentra em dois fatores:
+ A computação é feita por processos; eles interagem passando mensagens, resultando na comunicação e na coordenação entre eles. O modelo de interação deve refletir o fato de que a comunicação ocorre com atrasos que, frequentemente, têm duração considerável. A precisão com a qual processos independentes podem ser coordenados é limitada pelos atrasos de comunicação e pela  dificuldade de se manter a mesma noção de tempo entre todos os computadores de um sistema distribuído.
 
 1. **Desempenho da Comunicação**: A comunicação em uma rede tem as seguintes características de desempenho:
     - **Latência**: ==O atraso entre o início do envio de uma mensagem e o início de sua recepção no destino==. Inclui o tempo de propagação do sinal, atrasos de acesso à rede e tempo de processamento nos sistemas operacionais.
