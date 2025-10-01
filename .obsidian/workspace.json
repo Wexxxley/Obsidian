@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12_Sistemas Distribuídos/8_Modelos Fundamentais.md",
+                "file": "12_Sistemas Distribuídos/6_Modelos físicos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_Modelos Fundamentais"
+              "title": "6_Modelos físicos"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12_Sistemas Distribuídos/8_Modelos Fundamentais.md",
+                "file": "12_Sistemas Distribuídos/6_Modelos físicos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 8_Modelos Fundamentais"
+              "title": "Sumário de 6_Modelos físicos"
             }
           },
           {
@@ -182,13 +182,13 @@
   },
   "active": "535a0ad72d6f43e4",
   "lastOpenFiles": [
-    "12_Sistemas Distribuídos/7_Modelos de arquitetura.md",
-    "12_Sistemas Distribuídos/6_Modelos físicos.md",
     "12_Sistemas Distribuídos/5_Modelos dos sistemas.md",
-    "12_Sistemas Distribuídos/1_Introdução.md",
-    "12_Sistemas Distribuídos/3_Desafios para sistemas distribuídos.md",
     "12_Sistemas Distribuídos/4_A World Wide Web.md",
+    "12_Sistemas Distribuídos/3_Desafios para sistemas distribuídos.md",
+    "12_Sistemas Distribuídos/6_Modelos físicos.md",
     "12_Sistemas Distribuídos/8_Modelos Fundamentais.md",
+    "12_Sistemas Distribuídos/7_Modelos de arquitetura.md",
+    "12_Sistemas Distribuídos/1_Introdução.md",
     "12_Sistemas Distribuídos/9_Questões Questionario STD.md",
     "attachments/Pasted image 20250930155802.png",
     "attachments/Pasted image 20250930143401.png",
