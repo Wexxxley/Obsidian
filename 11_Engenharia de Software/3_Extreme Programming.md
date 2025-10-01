@@ -1,6 +1,7 @@
 
----
+#Concluded 
 
+---
 Sendo um **método ágil**, XP possui todas as características dos processos agéis, isto é: adota **ciclos curtos** e iterativos de desenvolvimento, concede **menos ênfase para documentação** e para planos detalhados, propõe que o design de um sistema também seja definido de forma incremental e sugere que as equipes de desenvolvimento sejam pequenas.
 
 XP não é um método prescritivo. Em vez disso, XP é definido por meio de um conjunto de valores, princípios e práticas de desenvolvimento. Ou seja, XP é inicialmente definido de forma abstrata. 
@@ -56,41 +57,6 @@ O XP é mais adequado para projetos que:
 - Envolvem **pequenas e médias equipes** de desenvolvimento.
 - Priorizam a **velocidade de entrega** e a **qualidade técnica** do código.
 - Permitem a **interação próxima e contínua com o cliente**.
-
-
-
-
-XP é um método ágil leve, ideal para projetos com requisitos que mudam com frequência ou que são vagos. O método é definido por um conjunto de valores, princípios e práticas, que formam a base de sua abordagem. É importante entender que os valores e princípios são a "mente" do XP, e as práticas são a sua concretização. Se a equipe não estiver alinhada com a mentalidade, a simples adoção das práticas pode não funcionar.
-
-Valores e Princípios
-
-Os valores e princípios do XP servem como uma ponte entre a filosofia abstrata do método e suas práticas pragmáticas.
-
-**Valores de XP:**
-
-• **Comunicação, Simplicidade e Feedback:** Estes são os três valores principais. A comunicação ajuda a evitar e aprender com erros; a simplicidade busca sempre a solução mais direta para um problema; e o feedback contínuo (dos stakeholders) é crucial para gerenciar os riscos de um projeto e garantir que as correções de rota sejam feitas o mais rápido possível.
-
-• **Coragem, Respeito e Qualidade de Vida:** São valores adicionais que sustentam o ambiente de trabalho proposto pelo XP.
-
-**Princípios de XP:**
-
-• **Humanidade (****peopleware****):** Reconhece que as pessoas são o principal recurso em desenvolvimento de software, e a gestão de suas expectativas, motivação e crescimento é fundamental.
-
-• **Economicidade:** Software deve gerar resultados econômicos e financeiros. Não é uma obra de arte, mas um produto que precisa ser viável para o negócio.
-
-• **Benefícios Mútuos:** As decisões devem beneficiar múltiplos stakeholders. Por exemplo, escrever testes beneficia tanto o desenvolvedor que o escreveu quanto futuros mantenedores do código.
-
-• **Melhorias Contínuas:** O processo, o design e as práticas devem ser aprimorados continuamente a cada iteração, com base no feedback de clientes e da própria equipe.
-
-• **Falhas Acontecem:** Falhas, como bugs ou funcionalidades mal recebidas, são esperadas e fazem parte do processo de entregar software rapidamente. Elas devem ser vistas como oportunidades de aprendizado, não como motivo para punição.
-
-• **Baby Steps (Pequenos Passos):** Progredir de forma segura, com pequenas melhorias contínuas, testadas e validadas, é melhor do que grandes mudanças arriscadas. Isso se aplica a testes, integração de código e refatorações.
-
-• **Responsabilidade Pessoal:** Cada desenvolvedor deve ter clareza sobre seu papel e ser responsável pelas funcionalidades (histórias) que implementa, testa e mantém.
-
-Um dos primeiros projetos a adotar o XP foi o sistema de folha de pagamentos da Chrysler, o **C3**, no qual Kent Beck e Martin Fowler aplicaram e testaram várias das ideias do método no final dos anos 90.
-
-
 
 
 

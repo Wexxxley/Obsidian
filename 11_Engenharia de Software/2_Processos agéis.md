@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 **O Manifesto Ágil: Uma Alternativa ao Modelo Waterfall** Historicamente, os primeiros processos, como o **Waterfall/Cascata)**, surgiram na década de 1970 e eram estritamente sequenciais, inspirados em engenharias tradicionais. No entanto, logo se percebeu que software é diferente de outros produtos de engenharia. Entre as décadas de 70 e 90, projetos de software enfrentavam problemas frequentes, como estouro de prazos e orçamentos, e muitos eram cancelados sem entregar um sistema funcional. Um relatório de 1994, conhecido como **CHAOS Report**, revelou que mais de 55% dos projetos extrapolavam os prazos entre 51% e 200%.

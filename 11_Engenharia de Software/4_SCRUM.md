@@ -1,47 +1,27 @@
 
----
-O **Scrum** é um método ágil, leve e iterativo, projetado para que equipes resolvam problemas complexos e adaptáveis, enquanto entregam produtos com o maior valor possível de forma produtiva e criativa.
-
-## 1. As Três Responsabilidades (Papéis)
-
-| Papel                     | Foco Principal               | Responsabilidades Chave                                                                                                                                                               |
-| ------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Product Owner (PO)** | **O QUÊ** será construído.   | Responsável por maximizar o valor do produto resultante do trabalho do Time Scrum. Gerencia e prioriza o **Product Backlog**.                                                         |
-| **2. Scrum Master (SM)**  | **COMO** a equipe trabalha.  | Responsável por estabelecer o Scrum conforme definido no Guia do Scrum. É um líder servidor, ajudando o Time Scrum a remover impedimentos e garantindo a adesão às práticas do Scrum. |
-| **3. Desenvolvedores**    | **COMO** o trabalho é feito. | Responsáveis por criar um **Incremento** cada Sprint. São os únicos que produzem o código, testes e design.                                                                           |
 
 ---
-## 2. Os Cinco Eventos (Cerimônias)
+**Scrum** é um método para **gerenciamento de projetos** em geral, não se limitando a software. Por ter um foco mais amplo, não propõe práticas de programação.
+### **1. Papéis do Scrum**
+Os times Scrum são formados por três papéis principais:
 
-| Evento                      | Objetivo                                                                                                                                                      | Duração Máxima (_Time-box_)       |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
-| **1. Sprint**               | Container para todos os outros eventos. É um ciclo consistente de trabalho, inspeção e adaptação que resulta em um Incremento de valor.                       | 2 semanas.                        |
-| **2. Sprint Planning**      | Planejar o trabalho a ser realizado na Sprint. O Time define a **Meta da Sprint** e seleciona itens do Product Backlog para criar o **Sprint Backlog**.       | 8 horas para uma Sprint de 1 mês. |
-| **3. Daily Scrum**          | Inspecionar o progresso em direção à Meta da Sprint e adaptar o Sprint Backlog. É um evento de alinhamento diário.                                            | 15 minutos no dia.                |
-| **4. Sprint Review**        | Inspecionar o **Incremento** e adaptar o **Product Backlog** se necessário. A equipe demonstra o trabalho concluído aos _stakeholders_ (partes interessadas). | 4 horas para uma Sprint de 1 mês. |
-| **5. Sprint Retrospective** | Inspecionar como a Sprint correu. O foco é a **melhoria contínua**.                                                                                           | 3 horas para uma Sprint de 1 mês. |
+• **Product Owner** **(Dono do Produto ou PO)**: Ele é responsável por definir a visão do produto, maximizar o retorno do investimento e gerenciar o **_Backlog do Produto_**, escrevendo e priorizando as histórias dos usuários. 
 
----
+• **Scrum Master**: É o especialista em Scrum do time, responsável por garantir que as regras do método sejam seguidas, treinando a equipe e removendo impedimentos. Ele atua como um facilitador, mas não é um gerente de projeto tradicional nem o líder da equipe, pois em um time Scrum todos têm o mesmo nível hierárquico.
 
-## 4. Os Três Artefatos
+• **Desenvolvedores**: São os especialistas responsáveis por tomar as decisões técnicas, como definir a arquitetura e as tecnologias a serem usadas. Eles também estimam o tamanho das histórias, geralmente usando _story points_. Times Scrum são multidisciplinares, ou seja, devem incluir todos os especialistas necessários (front-end, back-end, banco de dados, etc.) para desenvolver o produto sem depender de membros externos.
 
-Os artefatos representam trabalho ou valor. Eles existem para maximizar a **transparência** e são essenciais para que todos inspecionem e se adaptem.
-
-| Artefato               | Propósito                                                                                                                                                                        | Compromisso (Goal)                                                                                                                                             |
-| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Product Backlog** | Uma lista ordenada e dinâmica de tudo que é conhecido como necessário para o produto. É a única fonte de trabalho para o Time Scrum.                                             | **Product Goal (Meta do Produto):** O objetivo de longo prazo para o produto.                                                                                  |
-| **2. Sprint Backlog**  | Um plano composto por itens do Product Backlog selecionados para a Sprint, a Meta da Sprint e o plano de ação para entregar o Incremento.                                        | **Sprint Goal (Meta da Sprint):** O objetivo único e coeso que a equipe se compromete a atingir durante a Sprint.                                              |
-| **3. Incremento**      | A soma de todo o trabalho do Product Backlog concluído durante uma Sprint, mais o valor dos Incrementos anteriores. Deve ser **utilizável** e atender à **Definição de Pronto**. | **Definition of Done (Definição de Pronto):** Uma descrição formal do estado do Incremento quando ele atende aos padrões de qualidade exigidos para o produto. |
+![](attachments/Pasted%20image%2020251001175646.png)
 
 ---
+### **2. Artefatos e Eventos Principais**
 
-## 5. Ferramentas e Tabelas (Gráficos) Auxiliares
+• **Backlog do Produto**: É uma **lista de histórias de usuário ordenada por prioridade**. As histórias são escritas e priorizadas pelo PO. O backlog é um artefato dinâmico, continuamente atualizado para refletir mudanças nos requisitos e na visão do produto.
 
-Embora não sejam artefatos obrigatórios no Guia do Scrum, algumas ferramentas visuais são frequentemente usadas pelas equipes para transparência e inspeção:
+• **Sprint**: É o nome que o Scrum dá para uma **iteração**. É um ciclo de trabalho com duração fixa (máx um mês), durante o qual um incremento de produto é criado.
 
-|Ferramenta|Descrição|Utilização|
-|---|---|---|
-|**Quadro Scrum**|Um quadro físico ou digital que visualiza o **Sprint Backlog**, geralmente dividido em colunas como "A Fazer" (_To Do_), "Em Progresso" (_In Progress_) e "Pronto" (_Done_).|Usado pela equipe durante o Daily Scrum para inspecionar o fluxo de trabalho e identificar impedimentos.|
-|**Gráfico Burndown**|Um gráfico que mostra a quantidade de trabalho restante no **Sprint Backlog** ao longo do tempo.|Usado pela equipe para rastrear o progresso e projetar se o trabalho restante será concluído a tempo.|
-|**Gráfico Burnup**|Um gráfico que mostra a quantidade de trabalho concluído (acumulado) ao longo do tempo, comparado com o escopo total.|Usado para rastrear o progresso do projeto (Product Backlog) e gerenciar expectativas de escopo.|
-|**Histórias de Usuário**|Descrições curtas e simples de uma funcionalidade, contada da perspectiva do usuário final (`Como [um tipo de usuário], eu quero [algum objetivo], para que [algum benefício]`).|São os formatos mais comuns dos itens no Product Backlog.|
+• **Planejamento do** **Sprint**: É a reunião que marca o início de um _sprint_. O time se reúne para decidir quais histórias do _Backlog do Produto_ serão implementadas no _sprint_ que está começando. Na primeira parte, o PO propõe as histórias; na segunda, os desenvolvedores as decompõem em tarefas e estimam sua duração.
+
+• **Backlog do Sprint**: É o artefato gerado ao final do Planejamento do _Sprint_. Consiste na **lista de tarefas a serem implementadas durante o** **sprint**. Embora novas tarefas possam surgir ou serem alteradas. A lista de histórias selecionadas não pode ser modificado. Scrum permite adaptações entre os _sprints_, mas dentro de um _sprint_ a equipe deve ter a tranquilidade de trabalhar com uma lista fechada de histórias.
+
+Após o planejamento, o time, que é **auto-organizável**, tem autonomia para decidir como implementar as tarefas do backlog.
