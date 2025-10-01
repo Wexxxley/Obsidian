@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_Engenharia de Software/6_Requisitos.md",
+                "file": "11_Engenharia de Software/8_Casos de uso.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6_Requisitos"
+              "title": "8_Casos de uso"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11_Engenharia de Software/6_Requisitos.md",
+                "file": "11_Engenharia de Software/8_Casos de uso.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 6_Requisitos"
+              "title": "Sumário de 8_Casos de uso"
             }
           },
           {
@@ -182,8 +182,10 @@
   },
   "active": "535a0ad72d6f43e4",
   "lastOpenFiles": [
-    "11_Engenharia de Software/5_KANBAN.md",
     "11_Engenharia de Software/6_Requisitos.md",
+    "11_Engenharia de Software/8_Casos de uso.md",
+    "11_Engenharia de Software/7_Historia de usuários.md",
+    "11_Engenharia de Software/5_KANBAN.md",
     "attachments/Pasted image 20251001181025.png",
     "11_Engenharia de Software/4_SCRUM.md",
     "attachments/Pasted image 20251001180945.png",
@@ -221,8 +223,6 @@
     "2_Redes de computadores/1_Overview/8_Tipos de comunicação em redes de computadores.md",
     "2_Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
     "2_Redes de computadores/1_Overview/6_Arquitetura TCP IP.md",
-    "2_Redes de computadores/1_Overview/5_Perdas e atrasos.md",
-    "2_Redes de computadores/1_Overview/4_Classificação das redes de telecomunicação.md",
     "8_POO/Ideias de questoes",
     "8_POO/Object Calisthenics",
     "8_POO/SOLID",
