@@ -13,7 +13,7 @@
 
 2. **Inexistência de Relógio Global**: Cada computador em um sistema distribuído tem seu próprio relógio interno, mas esses relógios se desviam uns dos outros com o tempo. É impossível sincronizá-los perfeitamente devido aos atrasos variáveis da rede. Isso significa que não existe uma noção global única de tempo, o que complica a coordenação de ações que dependem do tempo.
 
-### **1.1 Tipos de modelo de iteração**
+### **1.1 Tipos de modelo de interação**
 
 1.  **Síncronos**: Um sistema é síncrono se existem limites **conhecidos e finitos** para:
     - O tempo de execução de cada passo de um processo.
@@ -64,7 +64,7 @@ O modelo de segurança discute as possíveis ameaças aos processos e canais de 
 - **Direitos de Acesso**: Para proteger um recurso (como um objeto), o sistema especifica quem tem permissão para realizar determinadas operações sobre ele.
 - **Principal**: Para gerenciar os direitos de acesso, o modelo introduz o conceito de **principal**, que é a identidade em nome da qual um processo está executando (geralmente um usuário ou outro processo). Um servidor é responsável por verificar a identidade do principal por trás de cada invocação e checar se ele tem direitos de acesso suficientes para a operação solicitada.
 
-#### **3.2 Ameaças de um Invasor**
+#### **3.2 Ameaças**
 Para analisar as ameaças, o modelo postula a existência de um **invasor** que é capaz de enviar qualquer mensagem para qualquer processo e ler ou copiar qualquer mensagem que trafega na rede. As principais ameaças são:
 
 - **Ameaças aos Processos**: Como a origem de uma mensagem pode ser falsificada, tanto servidores quanto clientes estão em risco.
