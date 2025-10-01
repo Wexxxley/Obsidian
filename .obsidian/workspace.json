@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_Engenharia de Software/4_SCRUM.md",
+                "file": "11_Engenharia de Software/5_KANBAN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_SCRUM"
+              "title": "5_KANBAN"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11_Engenharia de Software/4_SCRUM.md",
+                "file": "11_Engenharia de Software/5_KANBAN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 4_SCRUM"
+              "title": "Sumário de 5_KANBAN"
             }
           },
           {
@@ -182,9 +182,11 @@
   },
   "active": "535a0ad72d6f43e4",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251001181025.png",
+    "11_Engenharia de Software/4_SCRUM.md",
+    "attachments/Pasted image 20251001180945.png",
     "11_Engenharia de Software/5_KANBAN.md",
     "attachments/Pasted image 20251001180709.png",
-    "11_Engenharia de Software/4_SCRUM.md",
     "attachments/Pasted image 20251001180220.png",
     "attachments/Pasted image 20251001175646.png",
     "11_Engenharia de Software/3_Extreme Programming.md",
@@ -209,7 +211,6 @@
     "attachments/Pasted image 20250930133927.png",
     "Sem título.base",
     "attachments/Pasted image 20250930071412.png",
-    "attachments/Pasted image 20250930070546.png",
     "2_Redes de computadores/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
     "Sem título 3.base",
     "Sem título 4.base",

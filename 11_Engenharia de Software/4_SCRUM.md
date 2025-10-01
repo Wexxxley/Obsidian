@@ -24,6 +24,7 @@ Os times Scrum são formados por três papéis principais:
 
 • **Backlog do Sprint**: É o artefato gerado ao final do Planejamento do _Sprint_. Consiste na **lista de tarefas a serem implementadas durante o** **sprint**. Embora novas tarefas possam surgir ou serem alteradas. A lista de histórias selecionadas não pode ser modificado. Scrum permite adaptações entre os _sprints_, mas dentro de um _sprint_ a equipe deve ter a tranquilidade de trabalhar com uma lista fechada de histórias.
 
-Quadro sc
+**Quadro scrum**
+![](attachments/Pasted%20image%2020251001180945.png)
 
 ![](attachments/Pasted%20image%2020251001180220.png)
