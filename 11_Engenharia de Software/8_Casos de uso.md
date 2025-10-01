@@ -10,8 +10,8 @@ Um caso de uso descreve, da perspectiva de um **ator** (geralmente um usuário h
 
 **Exemplo: Transferir Valores entre Contas**
 • **Ator**: Cliente do Banco
-• **Fluxo normal**:
 
+• **Fluxo normal**:
 1. Autenticar Cliente (_inclusão de outro caso de uso_)
 2. Cliente informa agência e conta de destino da transferência.
 3. Cliente informa valor que deseja transferir.
@@ -20,29 +20,11 @@ Um caso de uso descreve, da perspectiva de um **ator** (geralmente um usuário h
 6. Sistema pergunta se o cliente deseja realizar uma nova transferência.
 
 • **Extensões**:
-
 1. 2a - Se conta e agência incorretas, solicitar nova conta e agência.
 2. 3a - Se valor acima do saldo atual, solicitar novo valor.
 3. 4a - Data informada deve ser a data atual ou no máximo um ano à frente.
+4. 5a - Se data informada é a data atual, transferir imediatamente.
+5. 5b - Se data informada é uma data futura, agendar transferência.
 
-◦ 5a - Se data informada é a data atual, transferir imediatamente.
-
-◦ 5b - Se data informada é uma data futura, agendar transferência.
-
-Um caso de uso também pode incluir outras seções, como propósito, pré-condições (o que deve ser verdade antes) e pós-condições (o que deve ser verdade depois).
-
-Boas Práticas para Escrita
-
-• **Linguagem simples e direta**: Use o ator como sujeito e evite jargões técnicos.
-
-• **Seja conciso**: Casos de uso devem ser pequenos, com no máximo nove passos no fluxo normal, para facilitar o entendimento.
-
-• **Foco no "o quê", não no "como"**: Evite detalhes de tecnologia, design ou interface. O objetivo é documentar o que o sistema deve fazer, não como ele fará.
-
+• **Foco no "o quê", não no "como"**: Evite detalhes de tecnologia, design ou interface. 
 • **Evite casos de uso CRUD simples**: Não crie casos de uso separados para Cadastrar, Recuperar, Atualizar e Deletar. Agrupe-os em um único caso de uso, como "Gerenciar Professor".
-
-• **Padronize o vocabulário**: Use termos consistentes em todos os casos de uso, criando um glossário se necessário.
-
-Diagramas de Casos de Uso
-
-A UML possui um **Diagrama de Casos de Uso**, que funciona como um índice gráfico para os documentos textuais. Ele mostra os atores (representados por bonecos), os casos de uso (elipses) e os relacionamentos entre eles. É importante ressaltar que a parte principal de um caso de uso é o texto, não o diagrama.
