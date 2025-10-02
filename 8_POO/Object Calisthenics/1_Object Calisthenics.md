@@ -60,30 +60,30 @@ public boolean podeAcessarDepois(Usuario usuario) {
 - Evite passar tipos primitivos (como `int`, `String`, `double`) soltos. Envolva-os em classes.
     - **Por quê?** Promove a criação de **Value Objects**. Por exemplo, em vez de um `String email`, crie uma classe `Email` que se autovalida. 
 
-
 ```java
-class CartaoCredito {
-    private final String numero;
-    private final String cvv;
+public final class Email {
+    private final String valor; 
 
-    public CartaoCredito(String numero, String cvv) throws Exception {
-        if (!isValido(numero, cvv)) {
-            throw new Exception("fail: Dados do cartao invalidos.");
-        }
-        this.numero = numero;
-        this.cvv = cvv;
-    }
+    public Email(String valor) {
+        // A validação acontece DENTRO do construtor.
+        if (valor == null || !isFormatoValido(valor)) {
+            throw new IllegalArgumentException("Formato inválido.");
+        }
+        this.valor = valor;
+    }
 
-    private boolean isValido(String numero, String cvv) {
-        boolean numeroValido = (numero != null) && (numero.length() == 16);
-        boolean cvvValido = (cvv != null) && (cvv.length() == 3);
-        return numeroValido && cvvValido;
-    }
+    // Método de validação privado e centralizado.
+    private boolean isFormatoValido(String email) {
+        // Validação simples apenas para o exemplo.
+        return email.contains("@") && email.contains(".");
+    }
 }
 ```
-4. **Use coleções de primeira classe**
-    - Qualquer classe que contém uma coleção não deve ter nenhum outro membro.
-    - **Por quê?** Força a criação de classes específicas para gerenciar coleções (ex: uma classe `ListaDePedidos`). Isso cria um local natural para colocar métodos de negócio relacionados àquela coleção.
+
+---
+#### **4. Use coleções de primeira classe**
+- Qualquer classe que contém uma coleção não deve ter nenhum outro membro.
+- **Por quê?** Força a criação de classes específicas para gerenciar coleções (ex: uma classe `ListaDePedidos`). Isso cria um local natural para colocar métodos de negócio relacionados àquela coleção.
 
 5. **Um ponto por linha**
     - Evite encadear chamadas de métodos, como `pedido.getCliente().getEndereco().getCidade()`.
