@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8_POO/Object Calisthenics/1_Object Calisthenics.md",
+                "file": "8_POO/Object Calisthenics/Parte_1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Object Calisthenics"
+              "title": "Parte_1"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8_POO/Object Calisthenics/1_Object Calisthenics.md",
+                "file": "8_POO/Object Calisthenics/Parte_1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 1_Object Calisthenics"
+              "title": "Sumário de Parte_1"
             }
           },
           {
@@ -180,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1de0b59f8d805904",
+  "active": "f59d2daadeaa4a4c",
   "lastOpenFiles": [
     "Sem título 2.base",
     "Sem título 1.base",
