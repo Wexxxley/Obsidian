@@ -5,7 +5,9 @@ A principal motivação para o **Object Calisthenics** é aplicar alguns princ
 #### **2. Evite a palavra-chave `else`**
  - **Por quê?** Incentiva o uso de padrões como **retornos antecipados**. O código resultante geralmente é mais linear e direto ao ponto.
 
-Exemplos abrangendo regras 1 e 2:
+##### **Exemplos abrangendo regras 1 e 2:**
+
+Código antes
 ```java
 public boolean podeAcessarAntes(Usuario usuario) {
     if (usuario != null) {
@@ -30,6 +32,7 @@ public boolean podeAcessarAntes(Usuario usuario) {
 }
 ```
 
+Código refatorado
 ```java
 public boolean podeAcessarDepois(Usuario usuario) {
     if (usuario == null) {
