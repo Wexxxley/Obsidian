@@ -1,6 +1,6 @@
 ####  **6. Não abrevie**
 - Use nomes explícitos para classes, métodos e variáveis. `CalculadorDeImpostoSobreVenda.
-    - **Por quê?** O código é lido muito mais vezes do que é escrito. Nomes claros tornam o código auto documentado mais fácil de entender.
+- **Por quê?** O código é lido muito mais vezes do que é escrito. Nomes claros tornam o código auto documentado mais fácil de entender.
 ####  **7. Mantenha todas as entidades pequenas**
 - Imponha limites artificiais, como não mais que 50 linhas por classe.
 - **Por quê?** É uma regra de choque para forçá-lo a pensar sobre a **coesão** e a **responsabilidade única**. Se uma classe está ficando MUITO grande, provavelmente ela está fazendo coisas demais e precisa ser dividida.

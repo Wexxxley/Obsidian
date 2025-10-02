@@ -1,6 +1,6 @@
 #### **3. Encapsule tipos primitivos**
 - Evite passar tipos primitivos (como `int`, `String`, `double`) soltos. Envolva-os em classes.
-    - **Por quê?** Promove a criação de **Value Objects**. Por exemplo, em vez de um `String email`, crie uma classe `Email` que se autovalida. 
+- **Por quê?** Promove a criação de **Value Objects**. Por exemplo, em vez de um `String email`, crie uma classe `Email` que se autovalida. 
 
 ```java
 public final class Email {
