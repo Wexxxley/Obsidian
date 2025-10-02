@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ad687fd2671877c2",
+        "id": "d71245a77a9a563c",
         "type": "tabs",
         "children": [
           {
-            "id": "929c381291fa7aef",
+            "id": "f59d2daadeaa4a4c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "1_Inglês/5_Simple present.md",
-                "mode": "source",
-                "source": false
+                "file": "10_TeoriaComputação/2_MáquinaTuring.pdf"
               },
-              "icon": "lucide-file",
-              "title": "5_Simple present"
+              "icon": "lucide-file-text",
+              "title": "2_MáquinaTuring"
             }
           }
         ]
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1_Inglês/5_Simple present.md",
+                "file": "10_TeoriaComputação/2_MáquinaTuring.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 5_Simple present"
+              "title": "Sumário de 2_MáquinaTuring"
             }
           },
           {
@@ -180,10 +178,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "929c381291fa7aef",
+  "active": "f59d2daadeaa4a4c",
   "lastOpenFiles": [
-    "1_Inglês/4_Indefinite article.md",
+    "10_TeoriaComputação/3_Exercícios.md",
+    "10_TeoriaComputação/2_MáquinaTuring.pdf",
+    "10_TeoriaComputação/1_AutômatosBásico.pdf",
+    "1_Inglês/6_Simple past.md",
     "1_Inglês/5_Simple present.md",
+    "1_Inglês/4_Indefinite article.md",
     "Sem título.base",
     "1_Inglês/3_Demonstrative pronouns.md",
     "1_Inglês/2_Subject pronouns.md",
@@ -215,8 +217,6 @@
     "12_Sistemas Distribuídos/4_A World Wide Web.md",
     "12_Sistemas Distribuídos/3_Desafios para sistemas distribuídos.md",
     "12_Sistemas Distribuídos/7_Modelos de arquitetura.md",
-    "12_Sistemas Distribuídos/1_Introdução.md",
-    "12_Sistemas Distribuídos/9_Questões Questionario STD.md",
     "attachments/Pasted image 20250930155802.png",
     "attachments/Pasted image 20250930143401.png",
     "Sem título 6.base",
@@ -226,8 +226,6 @@
     "Sem título 5.base",
     "8_POO/Ideias de questoes",
     "8_POO/Object Calisthenics",
-    "8_POO/SOLID",
-    "10_TeoriaComputação/2_MáquinaTuring.pdf",
     "Sem título.canvas"
   ]
 }
