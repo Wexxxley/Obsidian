@@ -15,3 +15,8 @@
     - Classes não devem ser forçadas a implementar métodos que não usam.
 - **D - Princípio da Inversão de Dependência** (Dependency Inversion Principle)
     - Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações (interfaces).
+
+[![Assista ao vídeo no YouTube](https://img.youtube.com/vi/6SfrO3D4dHM/maxresdefault.jpg)](https://youtu.be/6SfrO3D4dHM)
+
+
+https://youtu.be/6SfrO3D4dHM?si=J1Mxc50Oi1I1CNv6
