@@ -21,4 +21,6 @@
 
 [![Assista ao vídeo no YouTube](https://img.youtube.com/vi/6SfrO3D4dHM/maxresdefault.jpg)](https://youtu.be/6SfrO3D4dHM)
 
-[!](https://youtu.be/2yqHlJ2HbTo?si=RWkmh7bQ3If1uj6d)
+[![Assista ao vídeo no YouTube](https://img.youtube.com/vi/2yqHlJ2HbTo/maxresdefault.jpg)](https://www.youtube.com/watch?v=2yqHlJ2HbTo)
+
+
