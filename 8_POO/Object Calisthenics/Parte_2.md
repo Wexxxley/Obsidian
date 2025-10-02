@@ -48,7 +48,7 @@ public class RepositorioPedidos {
 ---
 #### **5. Um ponto por linha**
  - Evite encadear chamadas de métodos, como `pedido.getCliente().getEndereco().getCidade()`.
-    - **Por quê?** Longas cadeias de chamadas criam um forte acoplamento entre as classes. Se a classe `Cliente` mudar a forma como armazena o `Endereco`, seu código quebra. Em vez disso, a classe `Pedido` deveria ter um método como `pedido.obterCidadeDoCliente()`.
+- **Por quê?** Longas cadeias de chamadas criam um forte acoplamento entre as classes. Se a classe `Cliente` mudar a forma como armazena o `Endereco`, seu código quebra. Em vez disso, a classe `Pedido` deveria ter um método como `pedido.obterCidadeDoCliente()`.
 
 ```java
 public static void demonstrarAntes() {
