@@ -11,12 +11,14 @@
             "id": "f59d2daadeaa4a4c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "10_TeoriaComputação/2_MáquinaTuring.pdf"
+                "file": "8_POO/Object Calisthenics/1_Object Calisthenics.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "2_MáquinaTuring"
+              "icon": "lucide-file",
+              "title": "1_Object Calisthenics"
             }
           }
         ]
@@ -76,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -141,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_TeoriaComputação/2_MáquinaTuring.pdf",
+                "file": "8_POO/Object Calisthenics/1_Object Calisthenics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 2_MáquinaTuring"
+              "title": "Sumário de 1_Object Calisthenics"
             }
           },
           {
@@ -181,13 +182,15 @@
   },
   "active": "f59d2daadeaa4a4c",
   "lastOpenFiles": [
-    "10_TeoriaComputação/3_Exercícios.md",
+    "Sem título 2.base",
+    "Sem título 1.base",
+    "Sem título.base",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
+    "10_TeoriaComputação/3_Exercícios.md",
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
     "1_Inglês/6_Simple past.md",
     "1_Inglês/5_Simple present.md",
     "1_Inglês/4_Indefinite article.md",
-    "Sem título.base",
     "1_Inglês/3_Demonstrative pronouns.md",
     "1_Inglês/2_Subject pronouns.md",
     "1_Inglês/1_Verb to be.md",
@@ -197,7 +200,6 @@
     "Aleatórios/Anotacao.md",
     "Sem título 1.md",
     "Sem título 2.md",
-    "Sem título 1.base",
     "11_Engenharia de Software/7_Historia de usuários.md",
     "11_Engenharia de Software/6_Requisitos.md",
     "11_Engenharia de Software/5_KANBAN.md",
@@ -217,7 +219,6 @@
     "12_Sistemas Distribuídos/5_Modelos dos sistemas.md",
     "12_Sistemas Distribuídos/4_A World Wide Web.md",
     "12_Sistemas Distribuídos/3_Desafios para sistemas distribuídos.md",
-    "12_Sistemas Distribuídos/7_Modelos de arquitetura.md",
     "attachments/Pasted image 20250930155802.png",
     "attachments/Pasted image 20250930143401.png",
     "Sem título 6.base",
