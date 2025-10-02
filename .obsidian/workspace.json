@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8_POO/Object Calisthenics/Parte_1.md",
+                "file": "8_POO/Object Calisthenics/Parte_3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Parte_1"
+              "title": "Parte_3"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8_POO/Object Calisthenics/Parte_1.md",
+                "file": "8_POO/Object Calisthenics/Parte_3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Parte_1"
+              "title": "Sumário de Parte_3"
             }
           },
           {
@@ -182,6 +182,9 @@
   },
   "active": "f59d2daadeaa4a4c",
   "lastOpenFiles": [
+    "8_POO/Object Calisthenics/Parte_1.md",
+    "8_POO/Object Calisthenics/Parte_3.md",
+    "8_POO/Object Calisthenics/Parte_2.md",
     "Sem título 2.base",
     "Sem título 1.base",
     "Sem título.base",
@@ -217,8 +220,6 @@
     "attachments/Pasted image 20251001174642.png",
     "12_Sistemas Distribuídos/6_Modelos físicos.md",
     "12_Sistemas Distribuídos/5_Modelos dos sistemas.md",
-    "12_Sistemas Distribuídos/4_A World Wide Web.md",
-    "12_Sistemas Distribuídos/3_Desafios para sistemas distribuídos.md",
     "attachments/Pasted image 20250930155802.png",
     "attachments/Pasted image 20250930143401.png",
     "Sem título 6.base",
@@ -227,7 +228,6 @@
     "Sem título 4.base",
     "Sem título 5.base",
     "8_POO/Ideias de questoes",
-    "8_POO/Object Calisthenics",
     "Sem título.canvas"
   ]
 }
