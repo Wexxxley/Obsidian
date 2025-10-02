@@ -56,13 +56,31 @@ public boolean podeAcessarDepois(Usuario usuario) {
 ```
 
 ---
-
-3. **Encapsule todos os tipos primitivos** ==EASY==
-    - Ecite passar tipos primitivos (como `int`, `String`, `double`) soltos. Envolva-os em classes.
+#### **3. Encapsule tipos primitivos**
+- Evite passar tipos primitivos (como `int`, `String`, `double`) soltos. Envolva-os em classes.
     - **Por quê?** Promove a criação de **Value Objects**. Por exemplo, em vez de um `String email`, crie uma classe `Email` que se autovalida. 
 
-	![550](../../attachments/Pasted%20image%2020250716082649.png)
 
+```java
+class CartaoCredito {
+    private final String numero;
+    private final String cvv;
+
+    public CartaoCredito(String numero, String cvv) throws Exception {
+        if (!isValido(numero, cvv)) {
+            throw new Exception("fail: Dados do cartao invalidos.");
+        }
+        this.numero = numero;
+        this.cvv = cvv;
+    }
+
+    private boolean isValido(String numero, String cvv) {
+        boolean numeroValido = (numero != null) && (numero.length() == 16);
+        boolean cvvValido = (cvv != null) && (cvv.length() == 3);
+        return numeroValido && cvvValido;
+    }
+}
+```
 4. **Use coleções de primeira classe**
     - Qualquer classe que contém uma coleção não deve ter nenhum outro membro.
     - **Por quê?** Força a criação de classes específicas para gerenciar coleções (ex: uma classe `ListaDePedidos`). Isso cria um local natural para colocar métodos de negócio relacionados àquela coleção.
