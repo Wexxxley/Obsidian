@@ -85,15 +85,35 @@ public final class Email {
 - Qualquer classe que contém uma coleção não deve ter nenhum outro membro.
 - **Por quê?** Força a criação de classes específicas para gerenciar coleções (ex: uma classe `ListaDePedidos`). Isso cria um local natural para colocar métodos de negócio relacionados àquela coleção.
 
-5. **Um ponto por linha**
-    - Evite encadear chamadas de métodos, como `pedido.getCliente().getEndereco().getCidade()`.
+```java
+public class RepositorioPedidos {
+    private Map<Integer, Pedido> pedidos;
+
+    public RepositorioPedidos() {
+        this.pedidos = new HashMap<>();
+    }
+
+    public void salvarPedido(Pedido pedido) {
+        pedidos.put(pedido.getId(), pedido);
+    }
+
+    public Pedido buscarPedido(int id) {
+        return pedidos.get(id);
+    }
+}
+```
+
+---
+#### **5. Um ponto por linha**
+ - Evite encadear chamadas de métodos, como `pedido.getCliente().getEndereco().getCidade()`.
     - **Por quê?** Longas cadeias de chamadas criam um forte acoplamento entre as classes. Se a classe `Cliente` mudar a forma como armazena o `Endereco`, seu código quebra. Em vez disso, a classe `Pedido` deveria ter um método como `pedido.obterCidadeDoCliente()`.
 
-6. **Não abrevie** ==EASY==
-    - Use nomes explícitos para classes, métodos e variáveis. `CalculadorDeImpostoSobreVenda.
+####  **6. Não abrevie**
+
+- Use nomes explícitos para classes, métodos e variáveis. `CalculadorDeImpostoSobreVenda.
     - **Por quê?** O código é lido muito mais vezes do que é escrito. Nomes claros tornam o código auto documentado mais fácil de entender.
 
-7. **Mantenha todas as entidades pequenas** ==EASY==
+####  **7. Mantenha todas as entidades pequenas**
     - Imponha limites artificiais, como não mais que 50 linhas por classe.
     - **Por quê?** É uma regra de choque para forçá-lo a pensar sobre a **coesão** e a **responsabilidade única**. Se uma classe está ficando muito grande, provavelmente ela está fazendo coisas demais e precisa ser dividida.
 
