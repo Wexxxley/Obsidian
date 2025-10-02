@@ -3,7 +3,7 @@
 
 ---
 
-The Simple Present is used to describe actions that happen regularly, habitually, or repeatedly. These are things you do as part of your routine
+The Simple Present is used to describe actions that happen regularly, habitually, or repeatedly. These are things you do as part of your routine.
 #### **General formation**
 
 | Subject  | Affirmative form  | Negative form            | Interrogative form     |

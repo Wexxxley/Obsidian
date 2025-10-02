@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a582e270d762f40c",
+        "id": "ad687fd2671877c2",
         "type": "tabs",
         "children": [
           {
-            "id": "535a0ad72d6f43e4",
+            "id": "929c381291fa7aef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_Engenharia de Software/8_Casos de uso.md",
+                "file": "1_Inglês/5_Simple present.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_Casos de uso"
+              "title": "5_Simple present"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11_Engenharia de Software/8_Casos de uso.md",
+                "file": "1_Inglês/5_Simple present.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 8_Casos de uso"
+              "title": "Sumário de 5_Simple present"
             }
           },
           {
@@ -180,54 +180,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "535a0ad72d6f43e4",
+  "active": "929c381291fa7aef",
   "lastOpenFiles": [
-    "11_Engenharia de Software/6_Requisitos.md",
-    "11_Engenharia de Software/8_Casos de uso.md",
+    "1_Inglês/4_Indefinite article.md",
+    "1_Inglês/5_Simple present.md",
+    "Sem título.base",
+    "1_Inglês/3_Demonstrative pronouns.md",
+    "1_Inglês/2_Subject pronouns.md",
+    "1_Inglês/1_Verb to be.md",
+    "11_Engenharia de Software/1_Introdução.md",
+    "12_Sistemas Distribuídos/8_Modelos Fundamentais.md",
+    "Aleatórios/Como funciona.md",
+    "Aleatórios/Anotacao.md",
+    "Sem título 1.md",
+    "Sem título 2.md",
+    "Sem título 1.base",
     "11_Engenharia de Software/7_Historia de usuários.md",
+    "11_Engenharia de Software/6_Requisitos.md",
     "11_Engenharia de Software/5_KANBAN.md",
-    "attachments/Pasted image 20251001181025.png",
     "11_Engenharia de Software/4_SCRUM.md",
+    "11_Engenharia de Software/3_Extreme Programming.md",
+    "11_Engenharia de Software/2_Processos agéis.md",
+    "11_Engenharia de Software/2_Fluxo de processo e metodos de processo.md",
+    "11_Engenharia de Software/8_Casos de uso.md",
+    "attachments/Pasted image 20251001181025.png",
     "attachments/Pasted image 20251001180945.png",
     "attachments/Pasted image 20251001180709.png",
     "attachments/Pasted image 20251001180220.png",
     "attachments/Pasted image 20251001175646.png",
-    "11_Engenharia de Software/3_Extreme Programming.md",
-    "11_Engenharia de Software/2_Processos agéis.md",
-    "11_Engenharia de Software/2_Fluxo de processo e metodos de processo.md",
-    "11_Engenharia de Software/1_Introdução.md",
     "attachments/Pasted image 20251001174655.png",
     "attachments/Pasted image 20251001174642.png",
     "12_Sistemas Distribuídos/6_Modelos físicos.md",
     "12_Sistemas Distribuídos/5_Modelos dos sistemas.md",
     "12_Sistemas Distribuídos/4_A World Wide Web.md",
     "12_Sistemas Distribuídos/3_Desafios para sistemas distribuídos.md",
-    "12_Sistemas Distribuídos/8_Modelos Fundamentais.md",
     "12_Sistemas Distribuídos/7_Modelos de arquitetura.md",
     "12_Sistemas Distribuídos/1_Introdução.md",
     "12_Sistemas Distribuídos/9_Questões Questionario STD.md",
     "attachments/Pasted image 20250930155802.png",
     "attachments/Pasted image 20250930143401.png",
-    "12_Sistemas Distribuídos/2_Exemplos essenciais e desafios.md",
     "Sem título 6.base",
-    "Sem título 2.md",
     "attachments/Pasted image 20250930133927.png",
-    "Sem título.base",
-    "2_Redes de computadores/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
     "Sem título 3.base",
     "Sem título 4.base",
     "Sem título 5.base",
-    "7_Git and github/Git and github.md",
-    "7_Git and github/Branch.md",
-    "Sem título 1.md",
-    "2_Redes de computadores/1_Overview/8_Tipos de comunicação em redes de computadores.md",
-    "2_Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
-    "2_Redes de computadores/1_Overview/6_Arquitetura TCP IP.md",
     "8_POO/Ideias de questoes",
     "8_POO/Object Calisthenics",
     "8_POO/SOLID",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
-    "10_TeoriaComputação/Unconfirmed 781438.crdownload",
     "Sem título.canvas"
   ]
 }

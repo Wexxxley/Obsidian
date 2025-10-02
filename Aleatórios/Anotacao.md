@@ -1,3 +1,0 @@
-- Começar o curso de react + .net
-- Gravar vídeos de poo
-- Melhorar github e criar currículo. Aplicar currículo
