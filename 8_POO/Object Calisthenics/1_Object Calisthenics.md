@@ -6,9 +6,53 @@ A principal motivação para o **Object Calisthenics** é aplicar alguns princ
 2. **Evite a palavra-chave `else`**
     - **Por quê?** Incentiva o uso de padrões como **retornos antecipados**. O código resultante geralmente é mais linear e direto ao ponto.
 
-	![400](../../attachments/Pasted%20image%2020250716080720.png)
+Exemplos abrangendo regras 1 e 2:
+```java
+public boolean podeAcessarAntes(Usuario usuario) {
+    if (usuario != null) {
+        if (usuario.getIdade() >= 18) {
+            if (usuario.isAtivo()) {
+                return true;
+            } else {
+                // else aninhado
+                System.out.println("Erro: Usuário inativo.");
+                return false;
+            }
+        } else {
+            // else aninhado
+            System.out.println("Erro: Usuário menor de idade.");
+            return false;
+        }
+    } else {
+        // else principal
+        System.out.println("Erro: Usuário não encontrado.");
+        return false;
+    }
+}
+```
 
-	![450](../../attachments/Pasted%20image%2020250716080822.png)
+```java
+public boolean podeAcessarDepois(Usuario usuario) {
+    if (usuario == null) {
+        System.out.println("Erro: Usuário não encontrado.");
+        return false;
+    }
+
+    if (usuario.getIdade() < 18) {
+        System.out.println("Erro: Usuário menor de idade.");
+        return false;
+    }
+
+    if (!usuario.isAtivo()) {
+        System.out.println("Erro: Usuário inativo.");
+        return false;
+    }
+
+    // Se passou por todas as verificações, o acesso é permitido.
+    return true;
+}
+```
+
 
 3. **Encapsule todos os tipos primitivos** ==EASY==
     - Ecite passar tipos primitivos (como `int`, `String`, `double`) soltos. Envolva-os em classes.
