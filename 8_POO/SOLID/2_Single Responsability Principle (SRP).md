@@ -1,8 +1,8 @@
 
 ---
-==“Uma classe deve ter apenas um motivo para mudar.”==
+“Uma classe deve ter apenas um motivo para mudar.”
 
- Se uma classe tem **mais de uma responsabilidade**, as **responsabilidades se tornam acopladas**. Mudanças em uma responsabilidade podem prejudicar a capacidade da classe de cumprir as outras. Outra forma de entender SRP é: ==uma classe tem que se preocupar em responder somente a um grupo de atores.==
+ Se uma classe tem **mais de uma responsabilidade**, as **responsabilidades se tornam acopladas**. Mudanças em uma responsabilidade podem prejudicar a capacidade da classe de cumprir as outras. Outra forma de entender SRP é: uma classe tem que se preocupar em responder somente a um grupo de atores.
 
 **Exemplo**
 ```c#

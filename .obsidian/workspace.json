@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8_POO/SOLID/1_SOLID.md",
+                "file": "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_SOLID"
+              "title": "2_Single Responsability Principle (SRP)"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "f59d2daadeaa4a4c",
   "lastOpenFiles": [
+    "8_POO/SOLID/1_SOLID.md",
     "8_POO/1_Introdução.md",
     "Aleatórios/Plataforma de Gestão de recursos pedagógicos colaborativa.md",
     "8_POO/Object Calisthenics/Parte_3.md",
@@ -219,7 +220,6 @@
     "attachments/Pasted image 20251001175646.png",
     "attachments/Pasted image 20251001174655.png",
     "attachments/Pasted image 20251001174642.png",
-    "12_Sistemas Distribuídos/6_Modelos físicos.md",
     "attachments/Pasted image 20250930155802.png",
     "attachments/Pasted image 20250930143401.png",
     "Sem título 6.base",
