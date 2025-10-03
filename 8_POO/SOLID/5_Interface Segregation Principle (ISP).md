@@ -1,6 +1,5 @@
 
- ---
-=="Classes não devem ser forçadas a implementar métodos que não usam."==
+"Classes não devem ser forçadas a implementar métodos que não usam."
 
 O ISP diz que uma classe não deve ser forçada a implementar métodos que ela não utiliza. Isso significa que devemos criar interfaces mais específicas e enxutas, em vez de uma única interface gigante que obrigue as classes a implementar métodos irrelevantes para elas.
 
