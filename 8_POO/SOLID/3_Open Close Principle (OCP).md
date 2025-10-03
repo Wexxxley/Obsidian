@@ -7,18 +7,19 @@ Quando uma única mudança resulta em uma sucessão de mudanças nos módulos de
 Os módulos que obedecem ao OCP têm duas características principais:
 1. **São abertos para ampliação**: À medida que os requisitos do aplicativo mudam, podemos ampliar o módulo com novos comportamentos que satisfaçam essas alterações. 
 2. **São fechados para modificação**: Ampliar o comportamento de um módulo não resulta em mudanças no código-fonte. 
-  
- **Como é possível modificar os comportamentos de um módulo sem alterar seu código-fonte?**  
+
+---
+### **Como modificar os comportamentos de um módulo sem alterar seu código-fonte?**  
  
  Com **abstração**. Em qualquer  linguagem de programação orientada a objetos, é possível criar abstrações fixas e que ainda assim representam um grupo ilimitado de comportamentos possíveis. As abstrações são classes base abstratas e o grupo ilimitado de comportamentos possíveis é representado por todas as classes derivadas possíveis.
 
- Um módulo pode manipular uma abstração. Tal módulo pode ser fechado para modificação, pois ele depende de uma abstração fixa. Apesar disso, o comportamento desse módulo pode ser ampliado pela criação de novas derivadas da abstração.**
+ Um modulo que implementa uma abstração pode ser **fechado para modificação**, pois ele depende de uma abstração fixa. Apesar disso, o comportamento desse módulo pode ser **ampliado pela criação de novas derivadas da abstração.**
 
 Imagine que você tem uma classe chamada **`PaymentProcessor`** que lida com pagamentos para sua aplicação de comércio eletrônico. Inicialmente, ela suporta apenas pagamentos com cartão de crédito:
 
-```c#
+```java
 class PaymentProcessor {
-    func processCreditCardPayment() {
+    public void processCreditCardPayment() {
         // Código para processar o pagamento com cartão de crédito
     }
 }
