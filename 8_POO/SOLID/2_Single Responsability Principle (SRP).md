@@ -1,5 +1,4 @@
 
----
 “Uma classe deve ter apenas um motivo para mudar.”
 
  Se uma classe tem **mais de uma responsabilidade**, as **responsabilidades se tornam acopladas**. Mudanças em uma responsabilidade podem prejudicar a capacidade da classe de cumprir as outras. Outra forma de entender SRP é: uma classe tem que se preocupar em responder somente a um grupo de atores.
@@ -32,7 +31,7 @@ OrderProcessor tem 3 responsabilidadess diferentes:
 3. Sending confirmation email
 
 **Refatorando**
-```c#
+```java
 public class OrderProcessor  
 {  
 	private readonly OrderCalculator _orderCalculator;  
