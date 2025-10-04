@@ -1,5 +1,6 @@
 
----
+> [!NOTE]
+> Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações
 
 Esse princípio diz que uma classe não deve depender de implementações de outras classes, mas sim de abstrações/interfaces/contratos. Com isso temos como benefício o desacoplamento, pois é fácil trocar implementações sem impactar o código. Outra vantagem é a facilidade para testar, uma vez que podemos simular um cenário sem depender da implementação real. 
 
