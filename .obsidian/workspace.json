@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Plataforma Gestão de recursos pedagógicos Colaborativa"
             }
+          },
+          {
+            "id": "2d2cdf13d559d498",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8_POO/Object Calisthenics/Parte_3.md",
+                "file": "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Parte_3"
+              "title": "Outline of Plataforma Gestão de recursos pedagógicos Colaborativa"
             }
           },
           {
@@ -157,8 +170,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -176,11 +189,10 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
-  "active": "833b9dcc8570495c",
+  "active": "2d2cdf13d559d498",
   "lastOpenFiles": [
     "Aleatórios/Como funciona.md",
     "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
