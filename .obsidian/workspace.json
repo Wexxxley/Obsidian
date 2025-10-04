@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Plataforma Gestão de recursos pedagógicos Colaborativa"
             }
-          },
-          {
-            "id": "2d2cdf13d559d498",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,8 +157,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -189,10 +176,11 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d2cdf13d559d498",
+  "active": "833b9dcc8570495c",
   "lastOpenFiles": [
     "Aleatórios/Como funciona.md",
     "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
