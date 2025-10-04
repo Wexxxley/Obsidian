@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "6_Dependency Inversion Principle (DIP)"
             }
+          },
+          {
+            "id": "a753fcaafb7c952b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +57,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -170,17 +183,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Criar nova base": false,
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f59d2daadeaa4a4c",
+  "active": "a753fcaafb7c952b",
   "lastOpenFiles": [
     "8_POO/SOLID/5_Interface Segregation Principle (ISP).md",
     "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
