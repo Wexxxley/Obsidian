@@ -11,14 +11,15 @@
             "id": "833b9dcc8570495c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/plugins/obsidian-git/git_credentials_input",
+                "bFile": ".obsidian/plugins/obsidian-git/git_credentials_input",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Plataforma Gestão de recursos pedagógicos Colaborativa"
+              "icon": "diff",
+              "title": "Diff: git_credentials_input"
             }
           }
         ]
@@ -182,6 +183,7 @@
   },
   "active": "833b9dcc8570495c",
   "lastOpenFiles": [
+    "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "Aleatórios/Como funciona.md",
     "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
     "8_POO/SOLID/5_Interface Segregation Principle (ISP).md",
@@ -190,7 +192,6 @@
     "8_POO/SOLID/3_Open Close Principle (OCP).md",
     "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
     "8_POO/1_Introdução.md",
-    "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "8_POO/Object Calisthenics/Parte_3.md",
     "8_POO/Object Calisthenics/Parte_2.md",
     "8_POO/Object Calisthenics/Parte_1.md",
