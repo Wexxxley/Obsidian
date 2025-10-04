@@ -182,9 +182,9 @@
   },
   "active": "f59d2daadeaa4a4c",
   "lastOpenFiles": [
-    "8_POO/SOLID/1_SOLID.md",
-    "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
     "8_POO/SOLID/5_Interface Segregation Principle (ISP).md",
+    "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
+    "8_POO/SOLID/1_SOLID.md",
     "8_POO/SOLID/4_Liskov Substitution Principle.md",
     "8_POO/SOLID/3_Open Close Principle (OCP).md",
     "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
