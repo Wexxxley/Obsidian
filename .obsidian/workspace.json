@@ -25,12 +25,14 @@
             "id": "e9adf794854a52c6",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "7_Git and github/Git and github.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
+              "icon": "lucide-file",
+              "title": "Git and github"
             }
           }
         ],
@@ -170,8 +172,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -179,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5
+    "width": 1219.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,10 +191,11 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e9adf794854a52c6",
+  "active": "1de0b59f8d805904",
   "lastOpenFiles": [
     "Untitled.base",
     "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
