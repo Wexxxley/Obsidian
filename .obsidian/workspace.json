@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "d929f66b6413c8b9",
+            "id": "e9adf794854a52c6",
             "type": "leaf",
             "state": {
               "type": "release-notes",
@@ -192,8 +192,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "d929f66b6413c8b9",
+  "active": "e9adf794854a52c6",
   "lastOpenFiles": [
+    "Untitled.base",
     "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "Aleatórios/Como funciona.md",
     "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
@@ -224,7 +225,6 @@
     "Sem título 2.md",
     "11_Engenharia de Software/7_Historia de usuários.md",
     "11_Engenharia de Software/6_Requisitos.md",
-    "11_Engenharia de Software/5_KANBAN.md",
     "attachments/Pasted image 20251001181025.png",
     "attachments/Pasted image 20251001180945.png",
     "attachments/Pasted image 20251001180709.png",
