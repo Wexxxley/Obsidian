@@ -36,7 +36,6 @@ O **Trinômio E** é a estratégia fundamental para gerenciar e melhorar a segur
         
 
 ---
-
 ## 3. O Bom Motorista e a Cidadania
 
 A seção define o motorista que pratica a **Direção Defensiva** e a **Cidadania no Trânsito**.
@@ -45,20 +44,16 @@ A seção define o motorista que pratica a **Direção Defensiva** e a **Cidadan
     
 - **Tolerância e Cooperação:** Aceitar que outros podem errar ou ter um dia ruim. A paciência e a cortesia reduzem o estresse e a probabilidade de acidentes.
     
-- **Preservação:**
-    
+- **Preservação:**    
     - **Meio Ambiente:** Evitar acelerações bruscas, manter o veículo regulado para diminuir a poluição.
-        
     - **Patrimônio Público:** Cuidar das vias, sinalização e outros bens comuns.
         
 - **A Vida em Primeiro Lugar:** Este é o **pensamento central** da cidadania no trânsito. Todas as ações e decisões devem ser tomadas priorizando a segurança e a vida (sua e dos outros), refletindo a ideia de que "O trânsito é feito de pessoas".
-    
 
 ---
-
 ## 4. Poluição e Meio Ambiente
 
-Esta seção detalha os principais poluentes emitidos pelos veículos (especialmente os movidos a combustíveis fósseis) e seus impactos:
+Esta seção detalha os principais poluentes emitidos pelos veículos  e seus impactos:
 
 | Gás Poluente            | Sigla | Característica e Impacto                                                                                                                                                                                                                                      |
 | ----------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -67,41 +62,72 @@ Esta seção detalha os principais poluentes emitidos pelos veículos (especialm
 | **Dióxido de Enxofre**  | SO2​  | **Chuva Ácida:** Reage com a água e o oxigênio da atmosfera, formando ácido sulfúrico. Causa irritação nos olhos e problemas respiratórios.                                                                                                                   |
 | **Clorofluorcarbono**   | CFC   | **Destruição da Camada de Ozônio:** Embora seu uso em veículos tenha sido amplamente substituído, ele era usado em sistemas de ar-condicionado. Sua principal preocupação é o **"buraco" na camada de ozônio**, que protege a Terra da radiação ultravioleta. |
 
-Exportar para as Planilhas
+---
+## 5. Recomendações Contra a Poluição
 
-**Importante:** Um bom motorista mantém o veículo regulado e faz a manutenção periódica para reduzir ao máximo a emissão desses gases.
+- **Desligar o motor nas paradas prolongadas**
+    
+- **Manter em dia a Revisão e Manutenção do Veículo:** Garante que o motor funcione de forma eficiente e que o sistema de controle de emissão de poluentes esteja operando corretamente.
+    
+- **Observar a vida útil do Filtro de Ar e de Óleo:** Filtros sujos ou velhos prejudicam a combustão e aumentam o consumo de combustível e a emissão de poluentes.
+    
+- **Verificar estado de conservação do escapamento:** Um escapamento furado ou danificado pode aumentar o ruído (poluição sonora) e alterar a saída correta dos gases.
+    
+- **Não utilizar equipamentos sonoros indevidamente:** Referência direta à **Poluição Sonora**.
+    
 
-Elementos do Trânsito: Homem, Via e Veículo
-SNT: Sistema Nacional de Trânsito
-SNE: Sistema Nacional de Educação
-CTB: Código de Trânsito Brasileiro
-CONTRAN: Conselho Nacional de Trânsito
+---
+## 2. Infrações de Trânsito e Punibilidade
 
-Trinômio E: Engenharia de trafego, Esforço Legal e Educação
-- Engenharia de tráfego: projeta e constrói as vias, garantindo sua sinalização e
-manutenção.
-- Esforço legal: regula, autua, fiscaliza, policia e aplica as penalidades previstas no CTB
-- Educação: tem por objetivo modificar o comportamento do condutor, colaborando para a
-diminuição dos riscos de sinistros de trânsito.
+A dica de prova é essencial para entender a lógica por trás da gravidade das infrações:
 
-O bom motorista é aquele que respeita as normas de trânsito, respeita os direitos das
-outras pessoas, preserva o meio ambiente, preserva o patrimônio público, é cooperativo e
-tolerante, entende que seus direitos são idênticos aos alheios, evita confrontos e
-comportamentos agressivos, compreende as limitações alheias.
-Indivíduo - Grupos Sociais - Sociedade
-Pensamento de toda pessoa no transito: A vida em primeiro lugar.
+- **Infração Gravíssima:** Quando a conduta gera um **risco direto à vida, segurança ou integridade** das pessoas.
+    
+- **Infração Leve ou Média:** Quando **não há risco direto** à vida, mas a norma é descumprida (ex: perturbação, falta de atenção à manutenção).
+    
 
+| Conduta (Infração)                                                                       | Penalidade e Pontuação                                        | Tipo de Poluição / Dano                                                |
+| ---------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Usar o veículo para arremessar** sobre pedestres, água ou detritos.                    | Multa Média / 4 Pontos / R$ 85,13                             | Falta de cortesia / Desperdício / Sujeira                              |
+| **Atirar ou abandonar, na via, objetos ou substâncias.**                                 | Multa Média / 4 Pontos / R$ 85,13                             | Risco de acidente / Sujeira                                            |
+| **Usar a buzina de forma prolongada ou sucessiva**, ou nos horários e locais proibidos.  | Multa Leve / 3 Pontos / R$ 53,20                              | **Poluição Sonora**                                                    |
+| **Usar equipamentos de som com frequência acima do permitido.**                          | Multa Grave / 5 Pontos / R$ 127,69 e **Retenção** do veículo. | **Poluição Sonora** (Regulamentada pelo CONTRAN, uso de decibelímetro) |
+| **Transitar com o veículo, danificando a via**; derramando a carga, combustível ou óleo. | Multa Grave / 5 Pontos / R$ 127,69 e **Retenção** do veículo. | Dano ao Patrimônio / Risco de derrapagem / **Poluição Ambiental**      |
 
+---
 
+## 3. Poluição Sonora e Seus Danos
 
-Perguntas que podem cair sobre Poluição:
-Dióxido de carbono (CO2) → Gás do efeito estufa, retém calor na atmosfera.
-Monóxido de carbono (CO) → Gás tóxico e incolor, prejudica a respiração.
-Dióxido de enxofre (SO2) → Gás poluente e irritante, causa chuva ácida e problemas
-respiratórios.
-Clorofluorcarbono (CFC) → Gás usado em aerossóis e refrigeradores, destrói a camada de
-ozônio.
-CO2 → efeito estufa
-CO → intoxicação
-SO2 → chuva ácida
-CFC → buraco na camada de ozônio
+A poluição sonora é medida em **decibéis (dB)**, utilizando um aparelho chamado **Decibelímetro**. O excesso de ruído causa danos à saúde:
+
+|Nível de Ruído|Exemplo de Situação|Efeito na Saúde|
+|---|---|---|
+|**Até 55 dB**|Conversação normal|Tranquilo, sem males à saúde.|
+|**56 a 90 dB**|Secador de cabelo|Estressante.|
+|**+ de 90 dB**|Fogos de artifício|**Danos imediatos e irreversíveis** (ex: perda auditiva).|
+
+- **Infração por Som Excessivo:** A infração por usar equipamento de som com volume excessivo é **Grave**, resultando em **5 pontos na CNH** e **R$ 127,69**, além da **Retenção do Veículo**.
+    
+
+---
+
+## 4. O Programa de Controle Ambiental
+
+### **PROCONVE**
+
+- **Programa de Controle da Poluição do Ar por Veículos Automotores** (PROCONVE).
+    
+- É o principal programa federal brasileiro que estabelece os limites máximos de emissão de gases poluentes e ruídos para veículos novos, com o objetivo de reduzir o impacto ambiental dos veículos.
+    
+
+### **Órgãos Ambientais**
+
+Estes são alguns dos órgãos que compõem o **SISNAMA (Sistema Nacional do Meio Ambiente)** e que atuam em conjunto para regulamentar e fiscalizar a poluição veicular:
+
+- **CONAMA (Conselho Nacional do Meio Ambiente):** Órgão consultivo e deliberativo do SISNAMA. É responsável por estabelecer normas, critérios e padrões relativos ao controle e à manutenção da qualidade do meio ambiente, inclusive sobre poluição veicular.
+    
+- **IBAMA (Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis):** Órgão executor das políticas de meio ambiente, responsável pela fiscalização e aplicação de multas ambientais.
+    
+- **SISNAMA (Sistema Nacional do Meio Ambiente):** O conjunto de órgãos federais, estaduais e municipais que executam a política nacional do meio ambiente.
+    
+- **FEAM, SMMA:** Exemplos de órgãos de nível estadual e municipal (Fundações Estaduais do Meio Ambiente e Secretarias Municipais) que atuam na fiscalização local.
