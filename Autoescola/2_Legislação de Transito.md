@@ -70,3 +70,75 @@ Estes órgãos são responsáveis pela aplicação prática da lei, como fiscali
 | **Polícia Rodoviária Federal**                      | **PRF**      | Federal   | Responsável pelo **policiamento e fiscalização** nas **rodovias e estradas federais**.                                           |
 | **Polícias Militares**                              | PM           | Estadual  | Responsável pela **fiscalização** e execução das normas de trânsito, geralmente em vias urbanas (mediante convênio).             |
 | **Departamento Municipal de Trânsito**              |              | Municipal | Executivo do Município. Responsável por engenharia, operação e fiscalização do **trânsito urbano** (ruas e avenidas municipais). |
+
+## Requisitos para Obtenção da CNH (e ACC)
+
+Para obter a Carteira Nacional de Habilitação (**CNH**) ou a Autorização para Conduzir Ciclomotor (**ACC**), o candidato deve cumprir todos os requisitos abaixo, conforme o CTB:
+
+1. **Ser Penalmente Imputável (Requisito de Idade e Responsabilidade):**
+    
+    - Isto significa ter **18 anos completos**.
+        
+    - **O Ponto-Chave:** No Brasil, a responsabilidade civil e penal por infrações de trânsito começa aos 18 anos. Mesmo que um indivíduo seja emancipado civilmente (capacidade para atos da vida civil como casar ou assinar contratos) antes dos 18 anos, ele **NÃO** adquire a **imputabilidade penal** perante o CTB. Portanto, a emancipação **não antecipa** o requisito de idade mínima para tirar a CNH.
+        
+    - O CTB exige a capacidade de responder criminalmente por eventuais delitos de trânsito (como lesão corporal ou homicídio culposo), o que só ocorre com a maioridade penal.
+        
+2. **Saber Ler e Escrever:**
+    
+    - Este requisito é fundamental para que o condutor possa compreender as placas de sinalização, as ordens dos agentes de trânsito e o próprio CTB.
+        
+3. **Possuir Documento de Identidade:**
+    
+    - Comprovação da identidade do solicitante.
+        
+4. **Possuir Cadastro de Pessoa Física (CPF):**
+    
+    - Necessário para o registro no Sistema Nacional de Trânsito (SNT).
+        
+
+**Em resumo:** A legislação de trânsito (CTB) foca na **responsabilidade criminal e administrativa** no trânsito, e não apenas na capacidade civil. Por essa razão, a idade de **18 anos completos** é um requisito **obrigatório e inegociável**, não podendo ser substituído pela emancipação.
+
+## CNH para Pessoas Neurodivergentes (Maiores de 18 Anos)
+
+O Código de Trânsito Brasileiro (CTB) exige que o candidato, sendo maior de 18 anos, seja **penalmente imputável** e demonstre **plena capacidade de dirigir**. Para uma pessoa neurodivergente (que inclui condições como Transtorno do Espectro Autista - TEA, TDAH, entre outras), o processo segue a mesma regra de idade, mas o foco recai sobre o **exame de aptidão física e mental**.
+
+### 1. O Exame de Aptidão Física e Mental
+
+Este é o estágio mais crucial. O candidato neurodivergente deve ser avaliado por um médico perito examinador credenciado pelo DETRAN.
+
+- **Avaliação Especializada:** O médico avaliará se a condição neurodivergente (e o grau em que ela se manifesta) interfere na capacidade de:
+    
+    - **Percepção:** Captar e processar informações do ambiente de trânsito.
+        
+    - **Reação:** Ter reflexos rápidos e adequados.
+        
+    - **Concentração e Atenção:** Manter o foco na direção por tempo prolongado.
+        
+    - **Tomada de Decisão:** Julgar situações de risco e agir corretamente.
+        
+- **Apresentação de Laudos:** É essencial que o candidato apresente **laudos e relatórios médicos atualizados** de seu especialista (neurologista ou psiquiatra). O perito do DETRAN utilizará esses documentos como base para sua avaliação.
+    
+
+### 2. Resultado do Exame e Implicações
+
+O resultado do exame de aptidão não é simplesmente "apto" ou "inapto", mas considera a necessidade de adaptações:
+
+|Resultado|Significado|Ação|
+|---|---|---|
+|**Apto**|A condição não interfere na direção segura.|O processo de CNH segue o fluxo normal.|
+|**Apto com Restrições**|A condição exige algum tipo de cuidado ou adaptação.|Será adicionada uma **restrição** na CNH (ex: uso obrigatório de lentes, adaptação veicular, avaliação periódica mais curta).|
+|**Inapto Temporário**|A condição está instável ou requer tratamento, mas pode ser revista em um prazo.|O candidato deve retornar para nova avaliação após o período determinado e estabilização do quadro.|
+|**Inapto**|A condição, em seu grau atual, representa um risco para a segurança do trânsito.|O candidato não pode obter a CNH.|
+
+Exportar para as Planilhas
+
+### 3. Direitos e Legislação Específica
+
+- **Igualdade:** A legislação não proíbe a habilitação de uma pessoa neurodivergente. O foco é na **aptidão individual** para a condução.
+    
+- **CNH Especial (PCD):** Dependendo da condição e das restrições motoras ou cognitivas associadas, a pessoa pode ser encaminhada para o processo de **CNH Especial (PCD)**. Isso garante o direito de dirigir veículos adaptados, se necessário, além de benefícios fiscais na compra de um carro.
+    
+
+Em resumo, a **idade (18 anos) é um requisito legal fixo**. A **neurodiversidade** é tratada no momento do exame médico, onde a decisão é tomada com base na segurança do candidato e dos demais usuários da via.
+
+![foto do perfil](https://lh3.googleusercontent.com/a/ACg8ocJvbt5kSuhF0eNVmhbXPcfwFleigwsy46TIr4zrcnmlXWIotA=s64-c-mo)
