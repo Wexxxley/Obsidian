@@ -112,90 +112,54 @@ Estes são alguns dos órgãos que compõem o **SISNAMA (Sistema Nacional do Mei
     
 - **SISNAMA (Sistema Nacional do Meio Ambiente):** O conjunto de órgãos federais, estaduais e municipais que executam a política nacional do meio ambiente.
 
-
-## 1. Dispositivos de Controle de Poluição
-
-Estes são os principais componentes do veículo que ajudam a reduzir a poluição atmosférica e sonora:
+---
+## 9. Dispositivos de Controle de Poluição
 
 ### a) Catalisador
-
-- **Função:** O dispositivo mais importante no controle de emissões. Converte os gases de escape **tóxicos** (CO, HC, NOx​) em gases menos nocivos (CO2​, H2​O, N2​).
-    
+- **Função:** O dispositivo mais importante no controle de emissões. ==Converte os gases de escape **tóxicos** (CO, HC, NOx​) em gases menos nocivos (CO2​, H2​O, N2​).== 
 - **Localização:** Instalado no sistema de escapamento.
-    
 - **Manutenção:** Se estiver danificado ou adulterado, a emissão de poluentes aumenta drasticamente e o veículo pode ser multado por infração grave.
-    
 
+ ![](attachments/Pasted%20image%2020251007111649.png)
 ### b) Cânister
+- **Função:** É um filtro que **captura e armazena os vapores de combustível** que evaporam do tanque.  Em vez de liberar esses vapores poluentes na atmosfera, o Cânister os envia de volta ao motor para serem queimados.
 
-- **Função:** É um filtro que **captura e armazena os vapores de combustível** que evaporam do tanque.
-    
-- **Mecanismo:** Em vez de liberar esses vapores poluentes na atmosfera, o Cânister os envia de volta ao motor para serem queimados.
-    
+![](attachments/Pasted%20image%2020251007111808.png)
 
 ### c) Injeção Eletrônica (Inj. Eletrônica)
-
 - **Função:** Um sistema moderno que substituiu o carburador. Ele **controla automaticamente** a quantidade exata de combustível e ar que entra no motor.
-    
 - **Benefício:** Essa precisão melhora a eficiência do motor, otimiza a queima e, consequentemente, **reduz a emissão de poluentes** e o consumo de combustível.
-    
 
 ### d) Silenciador
-
 - **Função:** Dispositivo instalado no escapamento projetado com câmaras e perfurações que **reduzem o ruído** (poluição sonora) gerado pelo motor.
     
 - **Observação:** Um silenciador danificado ou furado aumenta o ruído e é motivo de autuação.
-    
+![](attachments/Pasted%20image%2020251007112027.png)
 
 ### e) Kit GNV (Gás Natural Veicular)
-
 - **Função:** Permite que o veículo use Gás Natural Veicular.
-    
 - **Benefício:** A combustão do GNV é considerada mais **limpa e econômica**, com menor emissão de poluentes em comparação com gasolina ou diesel.
-    
 
 ---
-
-## 2. Combustíveis e Meio Ambiente
-
-A classificação dos combustíveis, do mais poluente ao mais limpo:
+## 10. Combustíveis
 
 - **Ordem de Poluição (Mais poluente → Menos poluente):** Diesel → Gasolina → Etanol → GNV.
-    
 - **Combustível Mais Limpo:** **GNV** (Gás Natural Veicular).
-    
 - **Etanol:** É produzido a partir de matéria-prima vegetal (cana-de-açúcar, batata doce, milho, beterraba) e **polui cerca da metade** do que polui a gasolina.
-    
-
-### Custo-Relação Etanol x Gasolina
-
-Para saber se o uso de **Etanol (Álcool)** é mais vantajoso economicamente do que a **Gasolina**, usa-se a seguinte regra:
-
-Valor do Etanol÷Valor da Gasolina×100
-
-- **Se o resultado for menor ou igual a 70% (≤70):** **Compensa** usar Etanol, pois o consumo maior do Etanol é superado pela diferença de preço.
-    
-- **Se o resultado for maior que 70% (>70):** É mais vantajoso abastecer com Gasolina.
-    
 
 ---
 
-## 3. Transporte de Produtos Perigosos
-
+## 11. Transporte de Produtos Perigosos
 O transporte de cargas que representam risco à saúde humana, segurança pública ou ao meio ambiente é rigorosamente controlado.
 
-### Sinalização dos Produtos Perigosos
-
-- São classificados em **9 classes** de risco, identificadas por um **rótulo em forma de disco** (símbolo de perigo).
-    
-- **Painel de Segurança (Cor Amarela):** Fica nas laterais e na traseira do veículo, informando o tipo de risco. Contém:
-    
+### 1. Sinalização dos Produtos Perigosos
+- São classificados em **9 classes** de risco, identificadas por um **rótulo em forma de disco**.
+- **Painel de Segurança:** Fica nas laterais e na traseira do veículo, informando o tipo de risco.
     - **Número de Risco:** Fica na parte superior (ex: 33 para líquido altamente inflamável).
-        
     - **Número UN (Algarismo subsidiário):** Fica na parte inferior e identifica a substância específica (ex: 1203 para Gasolina).
-        
     - **A letra 'X' na frente do Número de Risco** indica **perigo especial em contato com água**.
-        
+
+![](attachments/Pasted%20image%2020251007112406.png)
 
 ### Cores e Riscos Principais
 
