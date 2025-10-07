@@ -10,7 +10,7 @@ Trinômio E: Engenharia de tráfego, Esforço Legal(aplicação das penalidades)
 
 contran: conselho nacional de transito
 
-proconve: programa de controle da poluição do ar causada por veiculos automotores
+proconve: programa de controle da poluição do ar causada por veiculos automotores e conama
 
 **Tipos de combustiveis**
 -diesel (fossel) 
