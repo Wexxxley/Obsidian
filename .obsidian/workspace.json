@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aleatórios/Observatório Legislativo - Transparência e Cidadania na Câmara dos Deputados.md",
+                "file": "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Observatório Legislativo - Transparência e Cidadania na Câmara dos Deputados"
+              "title": "Plataforma Gestão de recursos pedagógicos Colaborativa"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Aleatórios/Observatório Legislativo - Transparência e Cidadania na Câmara dos Deputados.md",
+                "file": "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Observatório Legislativo - Transparência e Cidadania na Câmara dos Deputados"
+              "title": "Backlinks for Plataforma Gestão de recursos pedagógicos Colaborativa"
             }
           },
           {
@@ -157,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Aleatórios/Observatório Legislativo - Transparência e Cidadania na Câmara dos Deputados.md",
+                "file": "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Observatório Legislativo - Transparência e Cidadania na Câmara dos Deputados"
+              "title": "Outline of Plataforma Gestão de recursos pedagógicos Colaborativa"
             }
           },
           {
@@ -181,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,8 +199,8 @@
   },
   "active": "5cd5c14884e60471",
   "lastOpenFiles": [
-    "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "Aleatórios/Observatório Legislativo - Transparência e Cidadania na Câmara dos Deputados.md",
+    "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "attachments/1_GrarH2XqRi5iLw--RI5NMQ.png",
     "Autoescola/1_Cidadania & Meio Ambiente.md",
     "Untitled.base",
