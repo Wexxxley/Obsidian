@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Autoescola AULA 1"
             }
+          },
+          {
+            "id": "5cd5c14884e60471",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +121,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Aleatórios/Autoescola AULA 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +130,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Autoescola AULA 1"
+              "title": "Backlinks"
             }
           },
           {
@@ -172,12 +183,11 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,11 +201,10 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
-  "active": "d0227fc8f91b0d43",
+  "active": "5cd5c14884e60471",
   "lastOpenFiles": [
     "7_Git and github/Git and github.md",
     "conflict-files-obsidian-git.md",
