@@ -125,18 +125,11 @@ Aprovado no exame teórico, o candidato passa para as aulas práticas no **CFC B
 
 - **Consequência da Reprovação na PPD:** O cometimento de qualquer uma dessas infrações obriga o candidato a **reiniciar todo o processo de habilitação** (incluindo exames, cursos e provas), perdendo a PPD.
 
-
 ### G) Habilitação para Pessoas com Deficiência Física (PCD)
 - O Exame de Direção Veicular (PCD) é considerado uma **prova especializada**.
 - É avaliado por uma **comissão especial**, integrada por, no mínimo:
-    
     1. Um examinador de trânsito.
-        
     2. Um médico perito examinador.
-        
     3. Um membro indicado pelo **CETRAN** (ou **CONTRANDIFE** no DF).
-        
 - **Veículo:** O veículo de instrução e exame deve estar **perfeitamente adaptado** conforme a indicação da **Junta Médica Examinadora**. O candidato pode, inclusive, utilizar um veículo próprio devidamente adaptado.
-    
 
----
