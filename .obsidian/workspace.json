@@ -27,40 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7_Git and github/Git and github.md",
+                "file": "Aleatórios/Autoescola AULA 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git and github"
-            }
-          },
-          {
-            "id": "4ede986f3be75b62",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
-            }
-          },
-          {
-            "id": "824c551bd25d0501",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
+              "title": "Autoescola AULA 1"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "7_Git and github/Git and github.md",
+                "file": "Aleatórios/Autoescola AULA 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Git and github"
+              "title": "Backlinks for Autoescola AULA 1"
             }
           },
           {
@@ -152,11 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Aleatórios/Autoescola AULA 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Autoescola AULA 1"
             }
           },
           {
@@ -180,16 +157,27 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Aleatórios/Autoescola AULA 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Autoescola AULA 1"
+            }
+          },
+          {
+            "id": "4f57f88bace28f5e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -203,13 +191,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "824c551bd25d0501",
+  "active": "d0227fc8f91b0d43",
   "lastOpenFiles": [
     "7_Git and github/Git and github.md",
+    "conflict-files-obsidian-git.md",
     "Untitled.base",
+    "attachments/Pasted image 20251006210901.png",
+    "attachments/Pasted image 20251006210855.png",
+    "Aleatórios/Autoescola AULA 1.md",
     "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "Aleatórios/Como funciona.md",
     "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
@@ -237,9 +230,6 @@
     "11_Engenharia de Software/1_Introdução.md",
     "12_Sistemas Distribuídos/8_Modelos Fundamentais.md",
     "Sem título 1.md",
-    "Sem título 2.md",
-    "11_Engenharia de Software/7_Historia de usuários.md",
-    "11_Engenharia de Software/6_Requisitos.md",
     "attachments/Pasted image 20251001181025.png",
     "attachments/Pasted image 20251001180945.png",
     "attachments/Pasted image 20251001180709.png",
@@ -248,9 +238,7 @@
     "attachments/Pasted image 20251001174655.png",
     "attachments/Pasted image 20251001174642.png",
     "attachments/Pasted image 20250930155802.png",
-    "attachments/Pasted image 20250930143401.png",
     "Sem título 6.base",
-    "attachments/Pasted image 20250930133927.png",
     "Sem título 3.base",
     "Sem título 4.base",
     "Sem título 5.base",

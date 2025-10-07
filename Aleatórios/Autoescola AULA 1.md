@@ -43,3 +43,6 @@ classe a (solido, como madeira) b (liquido, gasolina) e c (circuitos eletricos)
 O veiculo tem esssas 3 classes geradoras, entao o extintor de veiculo tem que ser da classes a b e c
 -obrigatorio (exceto para motos)
 -tempo de validade(5 anos)
+
+
+mudanca 1
