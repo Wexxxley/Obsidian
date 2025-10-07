@@ -133,3 +133,76 @@ Aprovado no exame teórico, o candidato passa para as aulas práticas no **CFC B
     3. Um membro indicado pelo **CETRAN** (ou **CONTRANDIFE** no DF).
 - **Veículo:** O veículo de instrução e exame deve estar **perfeitamente adaptado** conforme a indicação da **Junta Médica Examinadora**. O candidato pode, inclusive, utilizar um veículo próprio devidamente adaptado.
 
+
+As imagens fornecidas reúnem os últimos detalhes importantes sobre a **validade dos documentos de porte obrigatório** (CNH e CRLV) e os requisitos para motoristas profissionais.
+
+Vou resumir e organizar essas informações essenciais para a prova.
+
+---
+
+## 1. Documentos de Porte Obrigatório e Formato Digital
+
+Os documentos de porte obrigatório podem ser apresentados em formato físico (original) ou digital.
+
+### A. Documentos do Condutor
+
+- **Autorização para Conduzir Ciclomotor (ACC), Permissão para Dirigir (PPD) ou Carteira Nacional de Habilitação (CNH):** Podem ser apresentados no original (físico) ou na **versão digital (CNH-e)**.
+    
+
+### B. Documento do Veículo
+
+- **Certificado de Registro e Licenciamento de Veículo (CRLV):** Também conhecido como **Certificado de Licenciamento Anual (CLA)**.
+    
+    - Pode ser apresentado impresso (em página única, formato A4) ou na **versão digital (CRLV-e)**.
+        
+
+### Dispensa de Porte
+
+O porte da CNH, CLA ou CRLV será **dispensado** quando, no momento da fiscalização, o agente de trânsito conseguir **acessar o devido sistema informatizado** para consultar a validade dos documentos. _Isso significa que, se o sistema estiver funcionando e os documentos estiverem válidos, você não precisa ter a versão física ou digital._
+
+---
+
+## 2. Validade da CNH (Periodicidade da Renovação)
+
+A validade da CNH está condicionada ao prazo de vigência do **Exame de Aptidão Física e Mental** (exame médico), que é renovável com a seguinte periodicidade:
+
+|Idade do Condutor na Renovação|Periodicidade de Renovação|
+|---|---|
+|**Inferior a 50 anos**|**A cada 10 anos**|
+|**Igual ou superior a 50 e inferior a 70 anos**|**A cada 5 anos**|
+|**Igual ou superior a 70 anos**|**A cada 3 anos**|
+
+Exportar para as Planilhas
+
+**Observação Médica:** Quando houver indícios de deficiência física ou mental, ou de progressividade de doença que possa diminuir a capacidade para dirigir, os prazos de validade **poderão ser diminuídos** por proposta do perito examinador, independentemente da idade.
+
+**Condição para Renovação:** A renovação da CNH ou a emissão de uma nova via (2ª via) **somente será realizada após a quitação de débitos** (multas ou outras taxas) constantes no **prontuário do condutor**.
+
+---
+
+## 3. Licenciamento Anual do Veículo
+
+O **Certificado de Registro e Licenciamento de Veículo (CRLV)** é o documento que atesta que o veículo está apto a circular.
+
+### Condições Obrigatórias para o Licenciamento
+
+O licenciamento anual (e a emissão do CRLV) só será concedido se forem cumpridas as seguintes condições:
+
+1. **Quitação de Débitos:** O proprietário deve quitar todos os débitos, incluindo **tributos** (como o **IPVA**) e **multas** de trânsito e ambientais.
+    
+2. **Atendimento a Recall:** Deve ser comprovado o atendimento às campanhas de chamamento de consumidores para substituição ou reparo de veículos (**recall**).
+    
+
+---
+
+## 4. EAR: Exerce Atividade Remunerada
+
+A sigla **EAR** é uma observação fundamental para motoristas que utilizam o veículo como ferramenta de trabalho.
+
+- **Significado da Sigla:** **E**xerce **A**tividade **R**emunerada.
+    
+- **Obrigatoriedade:** É uma exigência do CTB para motoristas profissionais (taxistas, motoristas de aplicativo, entregadores/delivery, transportadores de cargas ou passageiros).
+    
+- **Inclusão:** Pode ser incluída em **todas as categorias da CNH**.
+    
+- **Processo:** A inclusão deve ser solicitada ao **Detran** da localidade. Se o candidato ainda não tem a CNH definitiva, a EAR deve ser solicitada ao iniciar o processo de habilitação. Após a solicitação, é necessário realizar uma **avaliação psicológica** e pagar as taxas obrigatórias.
