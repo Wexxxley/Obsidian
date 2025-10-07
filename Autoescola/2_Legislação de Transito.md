@@ -1,13 +1,5 @@
 
 
--ainda hj tem resolucoes q n estao sendo cobradas
-
-O novo conjunto de imagens fornece um panorama completo sobre o **Sistema Nacional de Trânsito (SNT)** e a **Estrutura Legal do Trânsito Brasileiro**.
-
-Vou detalhar e organizar essas informações, essenciais para a prova de Cidadania e Legislação de Trânsito.
-
----
-
 ## 1. O Sistema Nacional de Trânsito (SNT)
 
 O **SNT** é o conjunto de órgãos e entidades da **União**, dos **Estados**, do **Distrito Federal** e dos **Municípios**.
@@ -55,11 +47,11 @@ Os órgãos do SNT são divididos em dois grandes grupos: **Normativos/Consultiv
 
 Estes órgãos têm a função de criar, revisar e coordenar as normas de trânsito em suas respectivas esferas:
 
-|Órgão|Sigla|Nível|Função Principal|
-|---|---|---|---|
-|**Conselho Nacional de Trânsito**|**CONTRAN**|Federal|Máximo órgão normativo, consultivo e coordenador. **Elabora as Resoluções** que detalham o CTB.|
-|**Conselho Estadual de Trânsito**|**CETRAN**|Estadual|Normativo, consultivo e coordenador no âmbito do Estado. **Julga recursos** em segunda instância.|
-|**Conselho de Trânsito do DF**|**CONTRANDIFE**|DF|O mesmo papel do CETRAN, mas para o Distrito Federal.|
+| Órgão                             | Sigla           | Nível    | Função Principal                                                                                  |
+| --------------------------------- | --------------- | -------- | ------------------------------------------------------------------------------------------------- |
+| **Conselho Nacional de Trânsito** | **CONTRAN**     | Federal  | Máximo órgão normativo, consultivo e coordenador. **Elabora as Resoluções** que detalham o CTB.   |
+| **Conselho Estadual de Trânsito** | **CETRAN**      | Estadual | Normativo, consultivo e coordenador no âmbito do Estado. **Julga recursos** em segunda instância. |
+| **Conselho de Trânsito do DF**    | **CONTRANDIFE** | DF       | O mesmo papel do CETRAN, mas para o Distrito Federal.                                             |
 
 Exportar para as Planilhas
 
@@ -67,14 +59,14 @@ Exportar para as Planilhas
 
 Estes órgãos são responsáveis pela aplicação prática da lei, como fiscalização, registro, habilitação e engenharia.
 
-|Órgão|Sigla|Nível|Função Principal|
-|---|---|---|---|
-|**Secretaria Nacional de Trânsito**|**SENATRAN**|Federal|Órgão **máximo executivo** da União. Supervisiona, coordena e fiscaliza o SNT.|
-|**Departamento Estadual de Trânsito**|**DETRAN**|Estadual|Executivo do Estado. Responsável pela **habilitação de condutores**, **registro e licenciamento de veículos**.|
-|**Circunscrição Regional de Trânsito**|**CIRETRAN**|Regional|Subdivisão do DETRAN nos municípios.|
-|**Dep. Nac. de Infraestrutura de Transportes**|**D.N.I.T.**|Federal|Responsável pelas **rodovias e ferrovias federais**. Executa a engenharia e fiscalização.|
-|**Departamento de Estradas e Rodagem**|**D.E.R.**|Estadual|Responsável pelas **estradas e rodovias estaduais**. Executa a engenharia e fiscalização.|
-|**Juntas Administrativas de Recursos de Infrações**|**JARI**|Todos|Responsável pelo **julgamento dos recursos** de multas em **primeira instância**.|
-|**Polícia Rodoviária Federal**|**PRF**|Federal|Responsável pelo **policiamento e fiscalização** nas **rodovias e estradas federais**.|
-|**Polícias Militares**|PM|Estadual|Responsável pela **fiscalização** e execução das normas de trânsito, geralmente em vias urbanas (mediante convênio).|
-|**Departamento Municipal de Trânsito**||Municipal|Executivo do Município. Responsável por engenharia, operação e fiscalização do **trânsito urbano** (ruas e avenidas municipais).|
+| Órgão                                               | Sigla        | Nível     | Função Principal                                                                                                                 |
+| --------------------------------------------------- | ------------ | --------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **Secretaria Nacional de Trânsito**                 | **SENATRAN** | Federal   | Órgão **máximo executivo** da União. Supervisiona, coordena e fiscaliza o SNT.                                                   |
+| **Departamento Estadual de Trânsito**               | **DETRAN**   | Estadual  | Executivo do Estado. Responsável pela **habilitação de condutores**, **registro e licenciamento de veículos**.                   |
+| **Circunscrição Regional de Trânsito**              | **CIRETRAN** | Regional  | Subdivisão do DETRAN nos municípios.                                                                                             |
+| **Dep. Nac. de Infraestrutura de Transportes**      | **D.N.I.T.** | Federal   | Responsável pelas **rodovias e ferrovias federais**. Executa a engenharia e fiscalização.                                        |
+| **Departamento de Estradas e Rodagem**              | **D.E.R.**   | Estadual  | Responsável pelas **estradas e rodovias estaduais**. Executa a engenharia e fiscalização.                                        |
+| **Juntas Administrativas de Recursos de Infrações** | **JARI**     | Todos     | Responsável pelo **julgamento dos recursos** de multas em **primeira instância**.                                                |
+| **Polícia Rodoviária Federal**                      | **PRF**      | Federal   | Responsável pelo **policiamento e fiscalização** nas **rodovias e estradas federais**.                                           |
+| **Polícias Militares**                              | PM           | Estadual  | Responsável pela **fiscalização** e execução das normas de trânsito, geralmente em vias urbanas (mediante convênio).             |
+| **Departamento Municipal de Trânsito**              |              | Municipal | Executivo do Município. Responsável por engenharia, operação e fiscalização do **trânsito urbano** (ruas e avenidas municipais). |
