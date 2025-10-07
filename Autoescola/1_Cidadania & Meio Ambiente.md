@@ -3,10 +3,8 @@
 
 ---
 ### 1. Fundamentos e Elementos do Trânsito
-
-**Elementos do Trânsito**: O trânsito é uma interação complexa que envolve três elementos principais:
     
-- **Homem/Indivíduo:** É o elemento mais importante e imprevisível. Inclui pedestres, ciclistas e, principalmente, os condutores. O foco aqui é o **comportamento**, a **responsabilidade**, e a **tomada de decisão** no trânsito.
+- **Homem/Indivíduo:** É o elemento mais importante. Inclui pedestres, ciclistas e, principalmente, os condutores. O foco aqui é o **comportamento**, a **responsabilidade**, e a **tomada de decisão** no trânsito.
     
 - **Via:** É o espaço físico onde o trânsito ocorre (ruas, avenidas, rodovias, calçadas). Ela é projetada, construída, sinalizada e mantida para garantir a segurança e fluidez.
     
