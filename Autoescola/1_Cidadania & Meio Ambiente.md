@@ -24,7 +24,7 @@
 ## 2. O Trinômio do Trânsito (Trinômio E)
 
 O **Trinômio E** é a estratégia fundamental para gerenciar e melhorar a segurança no trânsito.
-
+    
 1. **Engenharia de Tráfego:** Cuida da parte física e operacional do trânsito.
     - **Exemplos:** Projeto de viadutos, construção de pontes, instalação e manutenção de semáforos, colocação de placas de sinalização. 
         
