@@ -39,12 +39,14 @@
             "id": "5cd5c14884e60471",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "Autoescola/1_Cidadania & Meio Ambiente.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
+              "icon": "lucide-file",
+              "title": "1_Cidadania & Meio Ambiente"
             }
           }
         ],
@@ -121,6 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Autoescola/1_Cidadania & Meio Ambiente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 1_Cidadania & Meio Ambiente"
             }
           },
           {
@@ -168,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Aleatórios/Autoescola AULA 1.md",
+                "file": "Autoescola/1_Cidadania & Meio Ambiente.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Autoescola AULA 1"
+              "title": "Outline of 1_Cidadania & Meio Ambiente"
             }
           },
           {
@@ -187,11 +190,12 @@
               "title": "git-view"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 537.5
+    "width": 297.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,11 +205,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "5cd5c14884e60471",
   "lastOpenFiles": [
+    "Autoescola/1_Cidadania & Meio Ambiente.md",
+    "Autoescola",
     "7_Git and github/Git and github.md",
     "conflict-files-obsidian-git.md",
     "Untitled.base",
@@ -250,7 +257,6 @@
     "Sem título 6.base",
     "Sem título 3.base",
     "Sem título 4.base",
-    "Sem título 5.base",
     "Sem título.canvas"
   ]
 }
