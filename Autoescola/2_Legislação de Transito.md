@@ -30,62 +30,49 @@ Os órgãos do SNT são divididos em dois grandes grupos: **Normativos/Consultiv
 ### A. Órgãos Normativos
 Estes órgãos têm a função de criar, revisar e coordenar as normas de trânsito em suas respectivas esferas:
 
-| Órgão                             | Sigla           | Nível    | Função Principal                                                                                  |
-| --------------------------------- | --------------- | -------- | ------------------------------------------------------------------------------------------------- |
-| **Conselho Nacional de Trânsito** | **CONTRAN**     | Federal  | Máximo órgão normativo, consultivo e coordenador. **Elabora as Resoluções** que detalham o CTB.   |
-| **Conselho Estadual de Trânsito** | **CETRAN**      | Estadual | Normativo, consultivo e coordenador no âmbito do Estado. **Julga recursos** em segunda instância. |
-| **Conselho de Trânsito do DF**    | **CONTRANDIFE** | DF       | O mesmo papel do CETRAN, mas para o Distrito Federal.                                             |
+| Órgão                             | Sigla           | Nível    | Função Principal                                                        |
+| --------------------------------- | --------------- | -------- | ----------------------------------------------------------------------- |
+| **Conselho Nacional de Trânsito** | **CONTRAN**     | Federal  | Máximo órgão normativo. **Elabora as Resoluções** que detalham o CTB.   |
+| **Conselho Estadual de Trânsito** | **CETRAN**      | Estadual | Normativo no âmbito do Estado. **Julga recursos** em segunda instância. |
+| **Conselho de Trânsito do DF**    | **CONTRANDIFE** | DF       | O mesmo papel do CETRAN, mas para o Distrito Federal.                   |
 
-Exportar para as Planilhas
-
-### B. Órgãos e Entidades Executivas (Que cumprem e fazem cumprir a Legislação)
-
+### B. Órgãos e Entidades Executivas
 Estes órgãos são responsáveis pela aplicação prática da lei, como fiscalização, registro, habilitação e engenharia.
 
-| Órgão                                               | Sigla        | Nível     | Função Principal                                                                                                                 |
-| --------------------------------------------------- | ------------ | --------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| **Secretaria Nacional de Trânsito**                 | **SENATRAN** | Federal   | Órgão **máximo executivo** da União. Supervisiona, coordena e fiscaliza o SNT.                                                   |
-| **Departamento Estadual de Trânsito**               | **DETRAN**   | Estadual  | Executivo do Estado. Responsável pela **habilitação de condutores**, **registro e licenciamento de veículos**.                   |
-| **Circunscrição Regional de Trânsito**              | **CIRETRAN** | Regional  | Subdivisão do DETRAN nos municípios.                                                                                             |
-| **Dep. Nac. de Infraestrutura de Transportes**      | **D.N.I.T.** | Federal   | Responsável pelas **rodovias e ferrovias federais**. Executa a engenharia e fiscalização.                                        |
-| **Departamento de Estradas e Rodagem**              | **D.E.R.**   | Estadual  | Responsável pelas **estradas e rodovias estaduais**. Executa a engenharia e fiscalização.                                        |
-| **Juntas Administrativas de Recursos de Infrações** | **JARI**     | Todos     | Responsável pelo **julgamento dos recursos** de multas em **primeira instância**.                                                |
-| **Polícia Rodoviária Federal**                      | **PRF**      | Federal   | Responsável pelo **policiamento e fiscalização** nas **rodovias e estradas federais**.                                           |
-| **Polícias Militares**                              | PM           | Estadual  | Responsável pela **fiscalização** e execução das normas de trânsito, geralmente em vias urbanas (mediante convênio).             |
-| **Departamento Municipal de Trânsito**              |              | Municipal | Executivo do Município. Responsável por engenharia, operação e fiscalização do **trânsito urbano** (ruas e avenidas municipais). |
+| Órgão                                               | Sigla        | Nível     | Função Principal                                                                                                     |
+| --------------------------------------------------- | ------------ | --------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Secretaria Nacional de Trânsito**                 | **SENATRAN** | Federal   | Órgão **máximo executivo** da União. Supervisiona, coordena e fiscaliza o SNT.                                       |
+| **Departamento Estadual de Trânsito**               | **DETRAN**   | Estadual  | Executivo do Estado. Responsável pela **habilitação de condutores**, **registro e licenciamento de veículos**.       |
+| **Circunscrição Regional de Trânsito**              | **CIRETRAN** | Regional  | Subdivisão do DETRAN nos municípios.                                                                                 |
+| **Dep. Nac. de Infraestrutura de Transportes**      | **D.N.I.T.** | Federal   | Responsável pelas **rodovias e ferrovias federais**. Executa a engenharia e fiscalização.                            |
+| **Departamento de Estradas e Rodagem**              | **D.E.R.**   | Estadual  | Responsável pelas **estradas e rodovias estaduais**. Executa a engenharia e fiscalização.                            |
+| **Juntas Administrativas de Recursos de Infrações** | **JARI**     | Todos     | Responsável pelo **julgamento dos recursos** de multas em **primeira instância**.                                    |
+| **Polícia Rodoviária Federal**                      | **PRF**      | Federal   | Responsável pelo **policiamento e fiscalização** nas **rodovias e estradas federais**.                               |
+| **Polícias Militares**                              | PM           | Estadual  | Responsável pela **fiscalização** e execução das normas de trânsito, geralmente em vias urbanas (mediante convênio). |
+| **Departamento Municipal de Trânsito**              |              | Municipal | Executivo do Município. Responsável por engenharia, operação e fiscalização do **trânsito urbano**                   |
 
-## Requisitos para Obtenção da CNH (e ACC)
+1. **Vias Urbanas:** Nas **vias urbanas** (ruas, avenidas municipais), a responsabilidade primária pela fiscalização do trânsito é do **órgão executivo municipal de trânsito**.
+2. **Convênio:** De forma simples, o convênio é o instrumento jurídico que permite que diferentes órgãos ou níveis de governo trabalhem juntos para atingir um objetivo comum. A PM só pode atuar na fiscalização de trânsito em vias urbanas quando há um **Convênio** firmado entre o **Governo Estadual** e a **Prefeitura Municipal**.
+
+---
+## 3. Requisitos para Obtenção da CNH e ACC
 
 Para obter a Carteira Nacional de Habilitação (**CNH**) ou a Autorização para Conduzir Ciclomotor (**ACC**), o candidato deve cumprir todos os requisitos abaixo, conforme o CTB:
 
 1. **Ser Penalmente Imputável (Requisito de Idade e Responsabilidade):**
-    
     - Isto significa ter **18 anos completos**.
-        
-    - **O Ponto-Chave:** No Brasil, a responsabilidade civil e penal por infrações de trânsito começa aos 18 anos. Mesmo que um indivíduo seja emancipado civilmente (capacidade para atos da vida civil como casar ou assinar contratos) antes dos 18 anos, ele **NÃO** adquire a **imputabilidade penal** perante o CTB. Portanto, a emancipação **não antecipa** o requisito de idade mínima para tirar a CNH.
-        
-    - O CTB exige a capacidade de responder criminalmente por eventuais delitos de trânsito (como lesão corporal ou homicídio culposo), o que só ocorre com a maioridade penal.
-        
+    - No Brasil, a responsabilidade civil e penal por infrações de trânsito começa aos 18 anos. Mesmo que um indivíduo seja emancipado civilmente antes dos 18 anos, ele **NÃO** adquire a **imputabilidade penal** perante o CTB. 
+    - O Código de Trânsito Brasileiro (CTB) exige que o candidato, sendo maior de 18 anos, seja **penalmente imputável** e demonstre **plena capacidade de dirigir**. Para uma pessoa neurodivergente (que inclui condições como Transtorno do Espectro Autista - TEA, TDAH, entre outras), o processo segue a mesma regra de idade, mas o foco recai sobre o **exame de aptidão física e mental**.
+    - O CTB exige a capacidade de responder criminalmente por eventuais delitos de trânsito.
 2. **Saber Ler e Escrever:**
-    
     - Este requisito é fundamental para que o condutor possa compreender as placas de sinalização, as ordens dos agentes de trânsito e o próprio CTB.
-        
 3. **Possuir Documento de Identidade:**
-    
     - Comprovação da identidade do solicitante.
-        
 4. **Possuir Cadastro de Pessoa Física (CPF):**
-    
     - Necessário para o registro no Sistema Nacional de Trânsito (SNT).
-        
 
-**Em resumo:** A legislação de trânsito (CTB) foca na **responsabilidade criminal e administrativa** no trânsito, e não apenas na capacidade civil. Por essa razão, a idade de **18 anos completos** é um requisito **obrigatório e inegociável**, não podendo ser substituído pela emancipação.
 
-## CNH para Pessoas Neurodivergentes (Maiores de 18 Anos)
 
-O Código de Trânsito Brasileiro (CTB) exige que o candidato, sendo maior de 18 anos, seja **penalmente imputável** e demonstre **plena capacidade de dirigir**. Para uma pessoa neurodivergente (que inclui condições como Transtorno do Espectro Autista - TEA, TDAH, entre outras), o processo segue a mesma regra de idade, mas o foco recai sobre o **exame de aptidão física e mental**.
-
-### 1. O Exame de Aptidão Física e Mental
 
 Este é o estágio mais crucial. O candidato neurodivergente deve ser avaliado por um médico perito examinador credenciado pelo DETRAN.
 
@@ -229,3 +216,63 @@ Exportar para as Planilhas
 - É o exame final que avalia a perícia do candidato na condução do veículo.
     
 - Em caso de reprovação, o candidato poderá **repetir o exame a qualquer tempo**, mediante pagamento da taxa de reexame.
+
+## 1. Permissão para Dirigir (PPD) e a CNH Definitiva
+
+O processo de habilitação não termina com a aprovação no exame prático.
+
+### A Permissão para Dirigir (PPD)
+
+- Ao ser aprovado, o candidato recebe a **Permissão para Dirigir (PPD)**, que tem validade de **um ano**.
+    
+- A PPD funciona como um período de estágio probatório.
+    
+
+### Conversão para CNH Definitiva
+
+- A **Carteira Nacional de Habilitação (CNH) definitiva** (e a **Autorização para Conduzir Ciclomotor - ACC** definitiva) será concedida ao condutor ao término do período de um ano da PPD, desde que ele **NÃO** tenha cometido as seguintes infrações nesse período:
+    
+    1. Qualquer infração de natureza **Grave**.
+        
+    2. Qualquer infração de natureza **Gravíssima**.
+        
+    3. Ser **reincidente** em infração **Média** (cometer a mesma infração média duas ou mais vezes).
+        
+- **Consequência da Reprovação na PPD:** O cometimento de qualquer uma dessas infrações obriga o candidato a **reiniciar todo o processo de habilitação** (incluindo exames, cursos e provas), perdendo a PPD.
+    
+
+### Informações Gerais da CNH
+
+- A **identificação da CNH** e da autoridade que a emitiu são registradas no **REN$\text{ACH}$ (Registro Nacional de Carteiras de Habilitação)**.
+    
+- Cada condutor corresponde a um **único registro** no REN$\text{ACH}$.
+    
+- A CNH tem validade em todo o território nacional.
+    
+- A CNH **equivale a documento de identidade** mesmo com o **prazo de validade expirado** (exclusivamente para fins de identificação, mas não permite dirigir).
+    
+- Se o condutor possui CNH e ACC, a ACC é inserida em um campo específico da própria CNH, usando um único registro.
+    
+
+---
+
+## 2. Habilitação para Pessoas com Deficiência Física (PCD)
+
+A deficiência física por si só **não impede a habilitação**, mas exige um processo especializado para garantir a segurança.
+
+### Exame de Direção Especializado
+
+- O Exame de Direção Veicular (PCD) é considerado uma **prova especializada**.
+    
+- É avaliado por uma **comissão especial**, integrada por, no mínimo:
+    
+    1. Um examinador de trânsito.
+        
+    2. Um médico perito examinador.
+        
+    3. Um membro indicado pelo **CETRAN** (ou **CONTRANDIFE** no DF).
+        
+- **Veículo:** O veículo de instrução e exame deve estar **perfeitamente adaptado** conforme a indicação da **Junta Médica Examinadora**. O candidato pode, inclusive, utilizar um veículo próprio devidamente adaptado.
+    
+
+---
