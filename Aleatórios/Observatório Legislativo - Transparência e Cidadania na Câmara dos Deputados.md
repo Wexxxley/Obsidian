@@ -33,8 +33,67 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
     - **Projetos Apresentados:** Lista de propostas de sua autoria, com status atual.
         
 2. **Glossário Político Interativo:** Explicações curtas e acessíveis sobre termos técnicos (ex: "PEC", "Medida Provisória", "Obstrução") que aparecem ao passar o mouse sobre a palavra.
-3. 
+        
+3. **Consultas facilitadas:**
+	1. **"Raio-X dos Gastos do Deputado"**: Um gráfico de pizza que detalha as categorias de gastos de um parlamentar específico (passagens aéreas, divulgação, etc.).
+	    - **Por que é interessante:** Responde à pergunta: "Ok, o deputado gastou R$ 100 mil este mês, mas com o quê?". Permite identificar gastos incomuns 
+	        
+	2. **"Evolução dos Gastos no Tempo"**: Um gráfico que mostra a variação mensal dos gastos de um deputado, de um partido ou da Câmara como um todo ao longo do ano.
+	    - **Por que é interessante:** Permite identificar tendências e picos de gastos. Por exemplo: "Os gastos com divulgação aumentam perto de anos eleitorais?".
+	        
+	3. **"Principais Focos de Atuação"** Uma nuvem de palavras gerada a partir dos títulos ou ementas dos projetos de lei propostos por um deputado ou partido.
+	    - **Por que é interessante:** Oferece uma visão visual e instantânea sobre os temas que mais interessam a um parlamentar (ex: "segurança", "educação", "agronegócio").
+        
+        
 
+### Tema 3: Alinhamento e Comportamento Político
+
+Esta é uma das áreas mais ricas para análise, pois revela o posicionamento real dos deputados.
+
+1. **"Índice de Governismo" (ou Fidelidade Partidária)**
+    
+    - **O que é:** Um indicador percentual que mostra a frequência com que um deputado vota de acordo com a orientação do Governo ou do seu partido.
+        
+    - **Tipo de Gráfico:** Gráfico de Medidor (Gauge Chart) ou uma barra de progresso.
+        
+    - **Por que é interessante:** Responde de forma clara: "Este deputado é da base do governo ou da oposição?". Mede o quão "rebelde" ou alinhado um parlamentar é.
+        
+2. **"Mapa de Votações Relevantes"**
+    
+    - **O que é:** Uma matriz visual onde as linhas são deputados e as colunas são votações importantes. As cores indicam o voto (Verde para 'Sim', Vermelho para 'Não', Amarelo para 'Abstenção', Cinza para 'Ausente').
+        
+    - **Tipo de Gráfico:** Heatmap (Mapa de Calor).
+        
+    - **Por que é interessante:** Permite identificar padrões e "blocos" de votação de forma muito rápida. Fica fácil ver se um partido votou em uníssono ou se houve dissidentes.
+        
+3. **"Rede de Alianças em Projetos"**
+    
+    - **O que é:** Um gráfico que mostra quais deputados costumam assinar projetos de lei em conjunto. Cada deputado é um "nó" e uma linha os conecta se eles forem coautores.
+        
+    - **Tipo de Gráfico:** Gráfico de Rede/Grafos.
+        
+    - **Por que é interessante:** Revela alianças e grupos de trabalho que vão além das fronteiras partidárias, mostrando quem realmente trabalha com quem.
+        
+
+### Tema 4: Visões Comparativas e Geográficas
+
+Permite que o usuário compare e entenda o contexto regional.
+
+1. **"Mapa Interativo do Brasil"**
+    
+    - **O que é:** Um mapa do Brasil onde cada estado é colorido de acordo com uma métrica selecionada (ex: Gasto médio por deputado, número de projetos, % de governismo da bancada).
+        
+    - **Tipo de Gráfico:** Mapa Coroplético.
+        
+    - **Por que é interessante:** Facilita a comparação entre as bancadas estaduais e a identificação de padrões regionais. É visualmente muito atraente e intuitivo.
+        
+2. **"Bancadas Temáticas em Foco"**
+    
+    - **O que é:** Uma análise que agrupa deputados não por partido, mas por frentes parlamentares (as "bancadas", como a ruralista, da segurança, evangélica, etc.) e mostra o comportamento médio delas (gastos, votações, temas de interesse).
+        
+    - **Tipo de Gráfico:** Gráficos de Barras Comparativas ou Radar Chart para comparar múltiplas métricas.
+        
+    - **Por que é interessante:** Mostra que a política é organizada por interesses que muitas vezes são mais fortes que as legendas partidárias.
 **6. Caráter Extensionista do Projeto**
 O caráter extensionista refere-se à capacidade de um projeto de transcender seus próprios muros e dialogar com a sociedade, aplicando o conhecimento gerado para promover transformação social, cultural e cívica. Este projeto é inerentemente extensionista pelos seguintes motivos:
 - **Ponte entre a Academia e a Sociedade:** Ele aplica conceitos de Ciência da Computação, Design e Ciência Política (IHC, visualização de dados, análise política) para resolver um problema real da comunidade: a falta de acesso à informação.
