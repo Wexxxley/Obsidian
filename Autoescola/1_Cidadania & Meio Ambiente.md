@@ -18,32 +18,21 @@
     
 - **CONTRAN (Conselho Nacional de Trânsito):** É o órgão **normativo** e **consultivo** máximo do SNT. Ele elabora as **resoluções** que regulamentam o CTB.
     
-- **SNE (Sistema Nacional de Educação):** Embora não seja uma sigla oficial _do CTB_ no mesmo nível que SNT, o texto aponta para a importância da **Educação para o Trânsito** como um pilar fundamental para a segurança e a formação de condutores e cidadãos mais conscientes.
-    
+- **SNE (Sistema Nacional de Educação):** Embora não seja uma sigla oficial _do CTB_,  o texto aponta para a importância da **Educação para o Trânsito** como um pilar fundamental para a segurança e a formação de condutores e cidadãos mais conscientes.
 
 ---
-
 ## 2. O Trinômio do Trânsito (Trinômio E)
 
 O **Trinômio E** é a estratégia fundamental para gerenciar e melhorar a segurança no trânsito.
 
-1. **Engenharia de Tráfego:**
-    
-    - **O que faz:** Cuida da parte física e operacional do trânsito.
+1. **Engenharia de Tráfego:** Cuida da parte física e operacional do trânsito.
+    - **Exemplos:** Projeto de viadutos, construção de pontes, instalação e manutenção de semáforos, colocação de placas de sinalização. 
         
-    - **Exemplos:** Projeto de viadutos, construção de pontes, instalação e manutenção de semáforos, colocação de placas de sinalização (horizontal e vertical), e manutenção da qualidade do pavimento.
+2. **Esforço Legal (ou Fiscalização/Policiamento):** Garante que as leis (CTB) sejam cumpridas.
+    - **Exemplos:** Fiscalização de velocidade, teste do bafômetro, autuação de infrações (multas), retenção de veículos irregulares, e aplicação das penalidades.
         
-2. **Esforço Legal (ou Fiscalização/Policiamento):**
-    
-    - **O que faz:** Garante que as leis (CTB) sejam cumpridas.
-        
-    - **Exemplos:** Fiscalização de velocidade, teste do bafômetro, autuação de infrações (multas), retenção de veículos irregulares, e aplicação das penalidades (suspensão, cassação). É a parte punitiva e reguladora.
-        
-3. **Educação:**
-    
-    - **O que faz:** É a base para a mudança de comportamento a longo prazo.
-        
-    - **Exemplos:** Aulas teóricas na autoescola, campanhas de conscientização (como as sobre o uso do cinto de segurança ou os perigos da bebida e direção), e inclusão da educação para o trânsito nas escolas. Seu objetivo é formar condutores e pedestres mais **responsáveis** e **seguros**.
+3. **Educação:** É a base para a mudança de comportamento a longo prazo.
+    - **Exemplos:** Aulas teóricas na autoescola, campanhas de conscientização e inclusão da educação para o trânsito nas escolas.
         
 
 ---
@@ -101,6 +90,8 @@ tolerante, entende que seus direitos são idênticos aos alheios, evita confront
 comportamentos agressivos, compreende as limitações alheias.
 Indivíduo - Grupos Sociais - Sociedade
 Pensamento de toda pessoa no transito: A vida em primeiro lugar.
+
+
 
 
 Perguntas que podem cair sobre Poluição:
