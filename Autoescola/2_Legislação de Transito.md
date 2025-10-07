@@ -75,7 +75,7 @@ Para obter a Carteira Nacional de Habilitação (**CNH**) ou a Autorização par
 ---
 ## **4. O Processo de Habilitação do Condutor** 
 
-O processo deve ser realizado em etapas obrigatórias e na ordem definida pela legislação. O registro dos dados do candidato é feito no **RENACH (Registro Nacional de Condutores Habilitados)**.
+O processo deve ser realizado em etapas obrigatórias e na ordem definida pela legislação. O registro dos dados do candidato é feito no **RENACH (Registro Nacional de Condutores Habilitados)**. O processo pode durar até no máximo 1 ANO.
 
 ### A) A Ordem do Processo
 1. **Avaliação Psicológica** (Psicotécnico).
@@ -139,59 +139,35 @@ As imagens fornecidas reúnem os últimos detalhes importantes sobre a **validad
 Vou resumir e organizar essas informações essenciais para a prova.
 
 ---
-
-## 1. Documentos de Porte Obrigatório e Formato Digital
-
-Os documentos de porte obrigatório podem ser apresentados em formato físico (original) ou digital.
-
+## 5. Documentos de Porte Obrigatório e Formato Digital
+Os documentos de porte obrigatório podem ser apresentados em formato físico ou digital.
 ### A. Documentos do Condutor
-
 - **Autorização para Conduzir Ciclomotor (ACC), Permissão para Dirigir (PPD) ou Carteira Nacional de Habilitação (CNH):** Podem ser apresentados no original (físico) ou na **versão digital (CNH-e)**.
-    
-
 ### B. Documento do Veículo
-
 - **Certificado de Registro e Licenciamento de Veículo (CRLV):** Também conhecido como **Certificado de Licenciamento Anual (CLA)**.
-    
     - Pode ser apresentado impresso (em página única, formato A4) ou na **versão digital (CRLV-e)**.
-        
-
-### Dispensa de Porte
 
 O porte da CNH, CLA ou CRLV será **dispensado** quando, no momento da fiscalização, o agente de trânsito conseguir **acessar o devido sistema informatizado** para consultar a validade dos documentos. _Isso significa que, se o sistema estiver funcionando e os documentos estiverem válidos, você não precisa ter a versão física ou digital._
 
----
-
-## 2. Validade da CNH (Periodicidade da Renovação)
-
+## 6. Validade da CNH 
 A validade da CNH está condicionada ao prazo de vigência do **Exame de Aptidão Física e Mental** (exame médico), que é renovável com a seguinte periodicidade:
 
-|Idade do Condutor na Renovação|Periodicidade de Renovação|
-|---|---|
-|**Inferior a 50 anos**|**A cada 10 anos**|
-|**Igual ou superior a 50 e inferior a 70 anos**|**A cada 5 anos**|
-|**Igual ou superior a 70 anos**|**A cada 3 anos**|
-
-Exportar para as Planilhas
+| Idade do Condutor na Renovação                  | Periodicidade de Renovação |
+| ----------------------------------------------- | -------------------------- |
+| **Inferior a 50 anos**                          | **A cada 10 anos**         |
+| **Igual ou superior a 50 e inferior a 70 anos** | **A cada 5 anos**          |
+| **Igual ou superior a 70 anos**                 | **A cada 3 anos**          |
 
 **Observação Médica:** Quando houver indícios de deficiência física ou mental, ou de progressividade de doença que possa diminuir a capacidade para dirigir, os prazos de validade **poderão ser diminuídos** por proposta do perito examinador, independentemente da idade.
 
 **Condição para Renovação:** A renovação da CNH ou a emissão de uma nova via (2ª via) **somente será realizada após a quitação de débitos** (multas ou outras taxas) constantes no **prontuário do condutor**.
 
----
-
-## 3. Licenciamento Anual do Veículo
-
+### A. Licenciamento Anual do Veículo
 O **Certificado de Registro e Licenciamento de Veículo (CRLV)** é o documento que atesta que o veículo está apto a circular.
 
-### Condições Obrigatórias para o Licenciamento
-
 O licenciamento anual (e a emissão do CRLV) só será concedido se forem cumpridas as seguintes condições:
-
 1. **Quitação de Débitos:** O proprietário deve quitar todos os débitos, incluindo **tributos** (como o **IPVA**) e **multas** de trânsito e ambientais.
-    
 2. **Atendimento a Recall:** Deve ser comprovado o atendimento às campanhas de chamamento de consumidores para substituição ou reparo de veículos (**recall**).
-    
 
 ---
 
@@ -206,3 +182,62 @@ A sigla **EAR** é uma observação fundamental para motoristas que utilizam o v
 - **Inclusão:** Pode ser incluída em **todas as categorias da CNH**.
     
 - **Processo:** A inclusão deve ser solicitada ao **Detran** da localidade. Se o candidato ainda não tem a CNH definitiva, a EAR deve ser solicitada ao iniciar o processo de habilitação. Após a solicitação, é necessário realizar uma **avaliação psicológica** e pagar as taxas obrigatórias.
+
+
+- Pergunta respondida com sucesso
+    
+
+As imagens introduzem três tópicos cruciais da legislação de trânsito: as **Categorias de Habilitação**, a **Permissão Internacional para Dirigir (PID)** e as regras para **condutores estrangeiros** no Brasil.
+
+---
+
+## 1. Categorias de Habilitação
+
+Existem **5 categorias** de habilitação no Brasil (A a E), além da Autorização para Conduzir Ciclomotor (ACC). Elas variam conforme a finalidade e o tipo de veículo conduzido.
+
+### A. Para a Primeira Habilitação
+
+- O candidato poderá iniciar o processo apenas nas categorias **A** (motos) e **B** (carros).
+    
+- É permitido requerer a **ACC** e a habilitação na **Categoria B simultaneamente**.
+    
+- É permitido requerer a habilitação nas categorias **A e B simultaneamente**.
+    
+
+### B. ACC (Autorização para Conduzir Ciclomotor)
+
+- A ACC **não é considerada uma categoria de habilitação** (como A, B, C, D ou E), mas sim um tipo específico de habilitação destinado exclusivamente a conduzir **ciclomotores** (veículos de duas ou três rodas com motor de combustão interna de, no máximo, 50 cm3 e velocidade máxima de 50 km/h).
+    
+
+---
+
+## 2. Permissão Internacional para Dirigir (PID)
+
+A PID é um documento complementar que permite que o brasileiro dirija no exterior, de acordo com acordos internacionais.
+
+### Regras da PID
+
+- **Requisito:** Pode ser requerida por condutores habilitados em **qualquer categoria**, **exceto** a Autorização para Conduzir Ciclomotores (ACC).
+    
+- **Validade:** O prazo de validade da PID será o menor entre:
+    
+    1. **3 anos** (a partir da data de sua emissão), **OU**
+        
+    2. A data de **expiração da validade da CNH brasileira**.
+        
+- **Observação:** É fundamental que o condutor se informe no Consulado do país de destino sobre as **exigências locais**, pois a PID não garante automaticamente o direito de dirigir em todas as nações.
+    
+
+---
+
+## 3. Condutor Estrangeiro no Brasil
+
+O condutor de veículo oriundo de país estrangeiro, e nele habilitado, pode dirigir no Brasil sob certas condições:
+
+- **Requisito de Imputabilidade:** Deve ser **penalmente imputável** no Brasil (ou seja, ter no mínimo 18 anos completos).
+    
+- **Prazo Máximo de Condução:** O condutor poderá dirigir no Brasil pelo prazo máximo de **180 dias** (cerca de 6 meses) a partir de sua entrada no país.
+    
+- **Validade da Habilitação de Origem:** É obrigatório que a habilitação estrangeira **esteja válida** durante todo o período.
+    
+- **Após o Prazo (180 dias):** Para continuar dirigindo no Brasil após o prazo de 180 dias de permanência, o condutor deve solicitar a **troca da sua habilitação estrangeira pela CNH brasileira**. Para isso, ele deverá ser aprovado nos **Exames de Avaliação Psicológica** e **Aptidão Física e Mental** (exame médico), conforme o Artigo 147 do CTB.
