@@ -75,7 +75,7 @@ Para obter a Carteira Nacional de Habilitação (**CNH**) ou a Autorização par
 ---
 ## **4. O Processo de Habilitação do Condutor** 
 
-O processo deve ser realizado em etapas obrigatórias e na ordem definida pela legislação. O registro dos dados do candidato é feito no **RENACH (Registro Nacional de Condutores Habilitados)**. O processo pode durar até no máximo 1 ANO.
+O processo deve ser realizado em etapas obrigatórias e na ordem definida pela legislação. O registro dos dados do candidato é feito no **RENACH (Registro Nacional de Condutores Habilitados)**. 
 
 ### A) A Ordem do Processo
 1. **Avaliação Psicológica** (Psicotécnico).
@@ -171,48 +171,27 @@ O licenciamento anual (e a emissão do CRLV) só será concedido se forem cumpri
 
 ---
 
-## 4. EAR: Exerce Atividade Remunerada
-
+## 7. EAR: Exerce Atividade Remunerada
 A sigla **EAR** é uma observação fundamental para motoristas que utilizam o veículo como ferramenta de trabalho.
 
-- **Significado da Sigla:** **E**xerce **A**tividade **R**emunerada.
-    
-- **Obrigatoriedade:** É uma exigência do CTB para motoristas profissionais (taxistas, motoristas de aplicativo, entregadores/delivery, transportadores de cargas ou passageiros).
-    
+- **Obrigatoriedade:** É uma exigência do CTB para motoristas profissionais (taxistas, motoristas de aplicativo, entregadores/delivery, transportadores de cargas ou passageiros).    
 - **Inclusão:** Pode ser incluída em **todas as categorias da CNH**.
-    
 - **Processo:** A inclusão deve ser solicitada ao **Detran** da localidade. Se o candidato ainda não tem a CNH definitiva, a EAR deve ser solicitada ao iniciar o processo de habilitação. Após a solicitação, é necessário realizar uma **avaliação psicológica** e pagar as taxas obrigatórias.
 
-
-- Pergunta respondida com sucesso
-    
-
-As imagens introduzem três tópicos cruciais da legislação de trânsito: as **Categorias de Habilitação**, a **Permissão Internacional para Dirigir (PID)** e as regras para **condutores estrangeiros** no Brasil.
-
 ---
-
-## 1. Categorias de Habilitação
+## 8. Categorias de Habilitação
 
 Existem **5 categorias** de habilitação no Brasil (A a E), além da Autorização para Conduzir Ciclomotor (ACC). Elas variam conforme a finalidade e o tipo de veículo conduzido.
 
 ### A. Para a Primeira Habilitação
-
 - O candidato poderá iniciar o processo apenas nas categorias **A** (motos) e **B** (carros).
-    
 - É permitido requerer a **ACC** e a habilitação na **Categoria B simultaneamente**.
-    
 - É permitido requerer a habilitação nas categorias **A e B simultaneamente**.
-    
-
 ### B. ACC (Autorização para Conduzir Ciclomotor)
-
-- A ACC **não é considerada uma categoria de habilitação** (como A, B, C, D ou E), mas sim um tipo específico de habilitação destinado exclusivamente a conduzir **ciclomotores** (veículos de duas ou três rodas com motor de combustão interna de, no máximo, 50 cm3 e velocidade máxima de 50 km/h).
-    
+- A ACC **não é considerada uma categoria de habilitação** (como A, B, C, D ou E), mas sim um tipo específico de habilitação destinado exclusivamente a conduzir **ciclomotores** (veículos de duas ou três rodas com motor de combustão interna. Velocidade máxima de 50 km/h).
 
 ---
-
-## 2. Permissão Internacional para Dirigir (PID)
-
+## 9. Permissão Internacional para Dirigir (PID)
 A PID é um documento complementar que permite que o brasileiro dirija no exterior, de acordo com acordos internacionais.
 
 ### Regras da PID
