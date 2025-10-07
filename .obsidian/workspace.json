@@ -34,9 +34,33 @@
               "icon": "lucide-file",
               "title": "Git and github"
             }
+          },
+          {
+            "id": "4ede986f3be75b62",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
+          },
+          {
+            "id": "824c551bd25d0501",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -109,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_TeoriaComputação/1_AutômatosBásico.pdf",
+                "file": "7_Git and github/Git and github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para 1_AutômatosBásico"
+              "title": "Backlinks for Git and github"
             }
           },
           {
@@ -128,12 +152,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10_TeoriaComputação/1_AutômatosBásico.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para 1_AutômatosBásico"
+              "title": "Outgoing links"
             }
           },
           {
@@ -157,31 +180,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Plataforma Gestão de recursos pedagógicos Colaborativa"
-            }
-          },
-          {
-            "id": "1de0b59f8d805904",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 1219.5
+    "width": 537.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,12 +203,12 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
-  "active": "1de0b59f8d805904",
+  "active": "824c551bd25d0501",
   "lastOpenFiles": [
+    "7_Git and github/Git and github.md",
     "Untitled.base",
     "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "Aleatórios/Como funciona.md",
@@ -242,7 +254,6 @@
     "Sem título 3.base",
     "Sem título 4.base",
     "Sem título 5.base",
-    "8_POO/Ideias de questoes",
     "Sem título.canvas"
   ]
 }
