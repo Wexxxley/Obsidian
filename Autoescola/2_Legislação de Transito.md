@@ -123,12 +123,12 @@ Este é o estágio mais crucial. O candidato neurodivergente deve ser avaliado p
 
 O resultado do exame de aptidão não é simplesmente "apto" ou "inapto", mas considera a necessidade de adaptações:
 
-|Resultado|Significado|Ação|
-|---|---|---|
-|**Apto**|A condição não interfere na direção segura.|O processo de CNH segue o fluxo normal.|
-|**Apto com Restrições**|A condição exige algum tipo de cuidado ou adaptação.|Será adicionada uma **restrição** na CNH (ex: uso obrigatório de lentes, adaptação veicular, avaliação periódica mais curta).|
-|**Inapto Temporário**|A condição está instável ou requer tratamento, mas pode ser revista em um prazo.|O candidato deve retornar para nova avaliação após o período determinado e estabilização do quadro.|
-|**Inapto**|A condição, em seu grau atual, representa um risco para a segurança do trânsito.|O candidato não pode obter a CNH.|
+| Resultado               | Significado                                                                      | Ação                                                                                                                          |
+| ----------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| **Apto**                | A condição não interfere na direção segura.                                      | O processo de CNH segue o fluxo normal.                                                                                       |
+| **Apto com Restrições** | A condição exige algum tipo de cuidado ou adaptação.                             | Será adicionada uma **restrição** na CNH (ex: uso obrigatório de lentes, adaptação veicular, avaliação periódica mais curta). |
+| **Inapto Temporário**   | A condição está instável ou requer tratamento, mas pode ser revista em um prazo. | O candidato deve retornar para nova avaliação após o período determinado e estabilização do quadro.                           |
+| **Inapto**              | A condição, em seu grau atual, representa um risco para a segurança do trânsito. | O candidato não pode obter a CNH.                                                                                             |
 
 Exportar para as Planilhas
 
@@ -141,4 +141,108 @@ Exportar para as Planilhas
 
 Em resumo, a **idade (18 anos) é um requisito legal fixo**. A **neurodiversidade** é tratada no momento do exame médico, onde a decisão é tomada com base na segurança do candidato e dos demais usuários da via.
 
-![foto do perfil](https://lh3.googleusercontent.com/a/ACg8ocJvbt5kSuhF0eNVmhbXPcfwFleigwsy46TIr4zrcnmlXWIotA=s64-c-mo)
+
+
+O novo conjunto de imagens detalha o **Processo de Habilitação** no Brasil, conforme a **Resolução nº 789/20 do CONTRAN**. Esta é uma seção fundamental da legislação de trânsito, pois explica o caminho que o candidato percorre para obter a CNH.
+
+---
+
+## O Processo de Habilitação do Condutor (REN$\text{ACH}$)
+
+O processo deve ser realizado em etapas obrigatórias e na ordem definida pela legislação. O registro dos dados do candidato é feito no **RENACH (Registro Nacional de Condutores Habilitados)**.
+
+### A Ordem do Processo (Seis Etapas)
+
+1. **Avaliação Psicológica** (Psicotécnico).
+    
+2. **Exame de Aptidão Física e Mental** (Exame Médico).
+    
+3. **Curso Teórico-Técnico** (No CFC A/B).
+    
+4. **Exame Teórico-Técnico** (Prova de Legislação).
+    
+5. **Curso de Prática de Direção Veicular** (Aulas Práticas no CFC B).
+    
+6. **Exame de Prática de Direção Veicular** (Exame de Rua).
+    
+
+---
+
+## 1. Formação Teórico-Técnica (Etapa 3)
+
+Após ser aprovado nos exames psicológico e médico, o candidato deve se matricular em um **Centro de Formação de Condutores (CFC)** de categoria A ou B.
+
+### Carga Horária e Conteúdo Obrigatório (Total de 45 h/aula)
+
+A carga horária total do curso teórico é de **45 horas-aula**, distribuída da seguinte forma:
+
+|Disciplina|Carga Horária|
+|---|---|
+|**Legislação de Trânsito**|**18 horas/aula**|
+|**Direção Defensiva**|**16 horas/aula**|
+|**Primeiros Socorros**|**4 horas/aula**|
+|**Meio Ambiente / Cidadania**|**4 horas/aula**|
+|**Mecânica Básica**|**3 horas/aula**|
+
+Exportar para as Planilhas
+
+---
+
+## 2. Exame Teórico-Técnico (Etapa 4)
+
+Após concluir o curso teórico, o candidato é submetido à prova de legislação.
+
+### Requisitos e Aprovação
+
+- **Número Mínimo de Questões:** A prova deve ter, no mínimo, **30 questões**.
+    
+- **Aproveitamento Mínimo:** Para ser aprovado, o candidato deve obter aproveitamento mínimo de **70% de acertos**.
+    
+- **Aprovação Padrão (30 questões):** 21 questões corretas.
+    
+- **Variação Estadual (40 questões):** Em alguns estados (como Bahia, Ceará e DF), a prova tem **40 questões**, exigindo um mínimo de 28 acertos (70%).
+    
+- **Reprovação:** Em caso de reprovação, o candidato pode **repetir o exame a qualquer tempo**, mediante pagamento da taxa de reexame, sendo dispensado do exame no qual já foi aprovado.
+    
+
+---
+
+## 3. Formação Prática de Direção (Etapa 5)
+
+Aprovado no exame teórico, o candidato passa para as aulas práticas no **CFC B** ou **CFC A/B**.
+
+### Carga Horária Mínima de Aulas Práticas
+
+A carga horária varia conforme a categoria de habilitação:
+
+|Categoria|Obtenção da 1ª CNH|Adição de Categoria|
+|---|---|---|
+|**ACC** (Ciclomotor)|5 horas/aula|5 horas/aula|
+|**"A"** (Motocicleta)|**20 horas/aula**|15 horas/aula|
+|**"B"** (Carro)|**20 horas/aula**|15 horas/aula|
+
+Exportar para as Planilhas
+
+### Uso do Simulador (Categoria B)
+
+- **Obtenção (1ª CNH):** O candidato pode optar por realizar **até 5 horas/aula** em simulador de direção veicular. Estas aulas devem ser feitas **previamente** às aulas práticas em via pública.
+    
+- **Adição:** Para adição da categoria B, a carga horária de prática deve ser feita **diretamente no veículo** de aprendizagem (não é obrigatório/permitido o uso do simulador).
+    
+
+### Obrigações durante as Aulas Práticas
+
+- O candidato deve estar **sempre acompanhado** por um instrutor de Prática de Direção Veicular.
+    
+- Deve portar a **LADV (Licença para Aprendizagem de Direção Veicular)**, expedida pelo DETRAN ou CONTRANDIFE.
+    
+- **Penalidade Grave:** Conduzir veículo automotor **desacompanhado do instrutor** resulta na **suspensão da LADV pelo prazo de 6 meses**.
+    
+
+---
+
+## 4. Exame de Prática de Direção Veicular (Etapa 6)
+
+- É o exame final que avalia a perícia do candidato na condução do veículo.
+    
+- Em caso de reprovação, o candidato poderá **repetir o exame a qualquer tempo**, mediante pagamento da taxa de reexame.
