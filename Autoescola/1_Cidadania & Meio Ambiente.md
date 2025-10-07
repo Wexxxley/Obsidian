@@ -1,4 +1,6 @@
 
+#Concluded 
+
 ---
 ### 1. Fundamentos e Elementos do Trânsito
 
@@ -161,37 +163,15 @@ O transporte de cargas que representam risco à saúde humana, segurança públi
 
 ![](attachments/Pasted%20image%2020251007112406.png)
 
-### Cores e Riscos Principais
-
-| Cor no Rótulo / Painel | Risco Indicado                                                 |
-| ---------------------- | -------------------------------------------------------------- |
-| **Amarelo**            | Risco de **explosão** ou reatividade (no painel de segurança). |
-| **Vermelho**           | Substância **inflamável** (gases, líquidos ou sólidos).        |
-| **Azul**               | Risco de **saúde / toxicidade** (venenos).                     |
-| **Branco**             | Risco de **corrosão** (ácidos, bases).                         |
-| **Preto**              | Risco de **radiação** ou perigo especial.                      |
-| **Laranja**            | Geralmente indica **explosivos**.                              |
-
-Exportar para as Planilhas
-
-### O Triângulo do Fogo e Extintores
-
+### 2. O Triângulo do Fogo e Extintores
 O incêndio só ocorre se houver a união de três elementos (o **Triângulo do Fogo**):
-
 1. **Combustível** (o material que queima)
-    
 2. **Calor** (a temperatura de ignição)
-    
 3. **Oxigênio** (presente no **Ar**)
-    
 
 O extintor mais comum e recomendado para veículos era o **Extintor ABC**, capaz de combater as três classes de fogo:
-
 - **Classe A:** Materiais sólidos (papel, madeira, tecido).
-    
 - **Classe B:** Líquidos e gases inflamáveis (combustíveis, álcool).
-    
 - **Classe C:** Equipamentos elétricos energizados.
-    
 
-**(Nota:** Embora a obrigatoriedade do extintor nos carros de passeio tenha sido removida pelo CONTRAN, a informação sobre o Triângulo do Fogo e as Classes continua sendo relevante para a formação do condutor).
+![](attachments/Pasted%20image%2020251007112723.png)
