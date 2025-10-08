@@ -183,6 +183,8 @@ A sigla **EAR** é uma observação fundamental para motoristas que utilizam o v
 ![](attachments/Pasted%20image%2020251007213024.png)
 ![](attachments/Pasted%20image%2020251007213138.png)
 ![](attachments/Pasted%20image%2020251007213330.png)
+![](attachments/Pasted%20image%2020251007213502.png)
+![](attachments/Pasted%20image%2020251007213620.png)
 
 ---
 ## 8. Categorias de Habilitação
