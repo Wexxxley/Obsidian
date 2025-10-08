@@ -12,7 +12,7 @@ O **SNT** é o conjunto de órgãos e entidades da **União**, dos **Estados**, 
 ### **A. CTB (Código de Trânsito Brasileiro):**
 OCTB é o documento máximo que rege o trânsito no país desde 1998.
 - O CTB estabelece regras e normas válidas para **todas as vias terrestres** do território nacional abertas à circulação (ruas, avenidas, rodovias, estradas e até vias internas de condomínios).
-- As regras de habilitação (formação, exames, etc.) são definidas pelo CTB e regulamentadas por Resoluções do **CONTRAN** (como a Resolução nº 789/20).
+- As regras de habilitação (formação, exames, etc.) são definidas pelo CTB e regulamentadas por Resoluções do **CONTRAN**.
 
 ---
 ## **2. Órgãos do SNT**
