@@ -179,6 +179,10 @@ A sigla **EAR** é uma observação fundamental para motoristas que utilizam o v
 - **Obrigatoriedade:** É uma exigência do CTB para motoristas profissionais (taxistas, motoristas de aplicativo, entregadores/delivery, transportadores de cargas ou passageiros).    
 - **Inclusão:** Pode ser incluída em **todas as categorias da CNH**.
 - **Processo:** A inclusão deve ser solicitada ao **Detran** da localidade. Se o candidato ainda não tem a CNH definitiva, a EAR deve ser solicitada ao iniciar o processo de habilitação. Após a solicitação, é necessário realizar uma **avaliação psicológica** e pagar as taxas obrigatórias.
+![](attachments/Pasted%20image%2020251007212650.png)
+![](attachments/Pasted%20image%2020251007213024.png)
+![](attachments/Pasted%20image%2020251007213138.png)
+![](attachments/Pasted%20image%2020251007213330.png)
 
 ---
 ## 8. Categorias de Habilitação
