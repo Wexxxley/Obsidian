@@ -5,8 +5,6 @@
 
 O **SNT** é o conjunto de órgãos e entidades da **União**, dos **Estados**, do **Distrito Federal** e dos **Municípios**.
 
-**A. Finalidades e Objetivos do SNT**: O SNT abrange todas as atividades relacionadas ao trânsito. Suas principais finalidades são:
-
 1. **Planejamento e Administração:** Organizar e gerenciar as atividades de trânsito.
 2. **Registro e Licenciamento:** Controlar veículos.
 3. **Habilitação de Condutores:** Formação, reciclagem e exames.
@@ -220,13 +218,13 @@ O processo de progressão nas categorias da CNH é rigoroso e depende de tempo d
 
 ### A. Categorias e Tipos de Veículos
 
-|Categoria|Descrição do Veículo|Peso Bruto Total (PBT) / Passageiros|
-|---|---|---|
-|**A**|Veículo de 2 ou 3 rodas, com ou sem carro lateral (motocicletas, motonetas, ciclomotores).|**Livre** (para a 1ª CNH - habilitação).|
-|**B**|Veículo de passeio ou utilitário.|Passageiros: **até 8 lugares** (além do motorista). PBT: **até 3.500 kg**.|
-|**C**|Veículos de carga (caminhão, trator).|Passageiros: **até 8 lugares**. PBT: **acima de 3.500 kg**.|
-|**D**|Veículos de transporte de passageiros (ônibus, vans).|Passageiros: **mais de 8 lugares** (além do motorista). PBT: **acima de 3.500 kg**.|
-|**E**|Veículos articulados (combinações de veículos).|**Reboques/semirreboques** com PBT superior a **6.000 kg** e/ou veículos articulados com mais de 8 lugares.|
+| Categoria | Descrição do Veículo                                                                       | Peso Bruto Total (PBT) / Passageiros                                                                        |
+| --------- | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| **A**     | Veículo de 2 ou 3 rodas, com ou sem carro lateral (motocicletas, motonetas, ciclomotores). | **Livre** (para a 1ª CNH - habilitação).                                                                    |
+| **B**     | Veículo de passeio ou utilitário.                                                          | Passageiros: **até 8 lugares** (além do motorista). PBT: **até 3.500 kg**.                                  |
+| **C**     | Veículos de carga (caminhão, trator).                                                      | Passageiros: **até 8 lugares**. PBT: **acima de 3.500 kg**.                                                 |
+| **D**     | Veículos de transporte de passageiros (ônibus, vans).                                      | Passageiros: **mais de 8 lugares** (além do motorista). PBT: **acima de 3.500 kg**.                         |
+| **E**     | Veículos articulados (combinações de veículos).                                            | **Reboques/semirreboques** com PBT superior a **6.000 kg** e/ou veículos articulados com mais de 8 lugares. |
 
 Exportar para as Planilhas
 
@@ -234,14 +232,14 @@ Exportar para as Planilhas
 
 Para progredir de categoria, o condutor deve cumprir requisitos de tempo e manter um histórico limpo de infrações.
 
-|Transição|Tempo Mínimo de Habilitação na Categoria Anterior|Idade Mínima Adicional|Requisito de Histórico|
-|---|---|---|---|
-|**B → C**|**1 ano** na categoria B.|N/A|Não ter cometido nenhuma infração **Grave** ou **Gravíssima** nos últimos 12 meses, nem ser **reincidente em Média**.|
-|**C → D**|**1 ano** na categoria C.|N/A|O mesmo requisito de histórico da transição B → C.|
-|**B → D**|**2 anos** na categoria B.|N/A|O mesmo requisito de histórico da transição B → C.|
-|**D → E**|**1 ano** na categoria D.|N/A|O mesmo requisito de histórico.|
-|**C → E**|**1 ano** na categoria C.|N/A|O mesmo requisito de histórico.|
-|**Para Categorias D e E**|**N/A**|O condutor deve ter, no mínimo, **21 anos completos**.|O mesmo requisito de histórico.|
+| Transição                 | Tempo Mínimo de Habilitação na Categoria Anterior | Idade Mínima Adicional                                 | Requisito de Histórico                                                                                                |
+| ------------------------- | ------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| **B → C**                 | **1 ano** na categoria B.                         | N/A                                                    | Não ter cometido nenhuma infração **Grave** ou **Gravíssima** nos últimos 12 meses, nem ser **reincidente em Média**. |
+| **C → D**                 | **1 ano** na categoria C.                         | N/A                                                    | O mesmo requisito de histórico da transição B → C.                                                                    |
+| **B → D**                 | **2 anos** na categoria B.                        | N/A                                                    | O mesmo requisito de histórico da transição B → C.                                                                    |
+| **D → E**                 | **1 ano** na categoria D.                         | N/A                                                    | O mesmo requisito de histórico.                                                                                       |
+| **C → E**                 | **1 ano** na categoria C.                         | N/A                                                    | O mesmo requisito de histórico.                                                                                       |
+| **Para Categorias D e E** | **N/A**                                           | O condutor deve ter, no mínimo, **21 anos completos**. | O mesmo requisito de histórico.                                                                                       |
 
 Exportar para as Planilhas
 
