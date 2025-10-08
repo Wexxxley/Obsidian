@@ -34,6 +34,9 @@ Quando veículos se cruzam em um local **não sinalizado**, as regras de prefer�
 - **Tem preferência:** O veículo que vier **pela direita do condutor**.
 - **Lógica:** O condutor deve olhar para a direita; se houver um veículo, ele deve ceder a preferência.
 
+![](attachments/Pasted%20image%2020251008201723.png)
+
+![](attachments/Pasted%20image%2020251008201842.png)
 ---
 ## 3. Via, pista de rolamento e faixas
 - **Via:** É a superfície onde o trânsito se realiza (inclui pista, acostamento, calçada).
