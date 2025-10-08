@@ -50,9 +50,8 @@ Para obter a Carteira Nacional de Habilitação (**CNH**) ou a Autorização par
 
 1. **Ser Penalmente Imputável (Requisito de Idade e Responsabilidade):**
     - Tem que ter **18 anos completos**.
-    - No Brasil, a responsabilidade civil e penal por infrações de trânsito começa aos 18 anos. Mesmo que um indivíduo seja emancipado civilmente antes dos 18 anos, ele **NÃO** adquire a **imputabilidade penal** perante o CTB. 
-    - O Código de Trânsito Brasileiro exige que o candidato, sendo maior de 18 anos, seja **penalmente imputável** e demonstre **plena capacidade de dirigir**. Para uma pessoa neurodivergente (que inclui condições como Transtorno do Espectro Autista, TDAH, entre outras) o foco recai sobre o **exame de aptidão física e mental**. O candidato neurodivergente deve ser avaliado por um médico perito examinador.
-    - O CTB exige a capacidade de responder criminalmente por eventuais delitos de trânsito.
+    - Mesmo que um indivíduo seja emancipado  antes dos 18 anos, ele **NÃO** adquire a **imputabilidade penal** perante o CTB. 
+    - O Código de Trânsito Brasileiro exige que o candidato, sendo maior de 18 anos, seja **penalmente imputável** e demonstre **plena capacidade de dirigir**. Para uma pessoa neurodivergente o foco recai sobre o **exame de aptidão física e mental**. O candidato neurodivergente deve ser avaliado por um médico perito examinador.
 2. **Saber Ler e Escrever:**
     - Este requisito é fundamental para que o condutor possa compreender as placas de sinalização, as ordens dos agentes de trânsito e o próprio CTB.
 3. **Possuir Documento de Identidade:**
@@ -60,12 +59,10 @@ Para obter a Carteira Nacional de Habilitação (**CNH**) ou a Autorização par
 4. **Possuir Cadastro de Pessoa Física (CPF):**
     - Necessário para o registro no Sistema Nacional de Trânsito (SNT).
 
-
 ---
 ## **4. O Processo de Habilitação do Condutor** 
 
 O processo deve ser realizado em etapas obrigatórias e na ordem definida pela legislação. O registro dos dados do candidato é feito no **RENACH (Registro Nacional de Condutores Habilitados)**. 
-
 ### A) A Ordem do Processo
 1. **Avaliação Psicológica** (Psicotécnico).
 2. **Exame de Aptidão Física e Mental** (Exame Médico).
@@ -73,7 +70,6 @@ O processo deve ser realizado em etapas obrigatórias e na ordem definida pela l
 4. **Exame Teórico-Técnico** (Prova de Legislação).
 5. **Curso de Prática de Direção Veicular** (Aulas Práticas no CFC B).
 6. **Exame de Prática de Direção Veicular** (Exame de Rua).
-
 ### B) Curso técnico
 Após ser aprovado nos exames psicológico e médico, o candidato deve se matricular em um **Centro de Formação de Condutores (CFC)** de categoria A ou B. A carga horária total do curso teórico é de **45 horas-aula**, distribuída da seguinte forma:
 
@@ -86,8 +82,8 @@ Após ser aprovado nos exames psicológico e médico, o candidato deve se matric
 | **Mecânica Básica**           | **3 horas/aula**  |
 ### C) Exame Teórico-Técnico
 Após concluir o curso teórico, o candidato é submetido à prova de legislação.
-- **Aproveitamento Mínimo:** Para ser aprovado, o candidato deve obter aproveitamento mínimo de **70% de acertos**.
-- **Reprovação:** Em caso de reprovação, o candidato pode **repetir o exame a qualquer tempo**, mediante pagamento da taxa de reexame, sendo dispensado do exame no qual já foi aprovado.
+- Para ser aprovado, o candidato deve obter aproveitamento mínimo de **70% de acertos**.
+- Em caso de reprovação, o candidato pode **repetir o exame apos 15 dias**, mediante pagamento da taxa de reexame, sendo dispensado do exame no qual já foi aprovado.
 
 ### D) Formação Prática de Direção (Etapa 5)
 Aprovado no exame teórico, o candidato passa para as aulas práticas no **CFC B** ou **CFC A/B**.
@@ -97,14 +93,12 @@ Aprovado no exame teórico, o candidato passa para as aulas práticas no **CFC B
 | **ACC** (Ciclomotor)  | 5 horas/aula       | 5 horas/aula        |
 | **"A"** (Motocicleta) | **20 horas/aula**  | 15 horas/aula       |
 | **"B"** (Carro)       | **20 horas/aula**  | 15 horas/aula       |
-
 - O candidato deve estar **sempre acompanhado** por um instrutor de Prática de Direção Veicular.
 - Deve portar a **LADV (Licença para Aprendizagem de Direção Veicular)**.
 - **Penalidade Grave:** Conduzir veículo automotor **desacompanhado do instrutor** resulta na **suspensão da LADV pelo prazo de 6 meses**.
 
 ### E) Exame de Prática de Direção Veicular    
-- Em caso de reprovação, o candidato poderá **repetir o exame**, mediante pagamento da taxa de reexame.
-![](attachments/Pasted%20image%2020251007205920.png)
+- Em caso de reprovação, o candidato poderá **repetir o exame após 15 dias**, mediante pagamento da taxa de reexame.
 
 ### F) Permissão para Dirigir (PPD) e a CNH Definitiva
 - Ao ser aprovado, o candidato recebe a **Permissão para Dirigir (PPD)**, que tem validade de **um ano**. A PPD funciona como um período de estágio probatório.
@@ -124,22 +118,17 @@ Aprovado no exame teórico, o candidato passa para as aulas práticas no **CFC B
     3. Um membro indicado pelo **CETRAN** (ou **CONTRANDIFE** no DF).
 - **Veículo:** O veículo de instrução e exame deve estar **perfeitamente adaptado** conforme a indicação da **Junta Médica Examinadora**. O candidato pode, inclusive, utilizar um veículo próprio devidamente adaptado.
 
-
-As imagens fornecidas reúnem os últimos detalhes importantes sobre a **validade dos documentos de porte obrigatório** (CNH e CRLV) e os requisitos para motoristas profissionais.
-
-Vou resumir e organizar essas informações essenciais para a prova.
-
 ---
-## 5. Documentos de Porte Obrigatório e Formato Digital
+## 5. Documentos de Porte Obrigatório
 Os documentos de porte obrigatório podem ser apresentados em formato físico ou digital.
 ### A. Documentos do Condutor
-- **Autorização para Conduzir Ciclomotor (ACC), Permissão para Dirigir (PPD) ou Carteira Nacional de Habilitação (CNH):** Podem ser apresentados no original (físico) ou na **versão digital (CNH-e)**.
+- **Autorização para Conduzir Ciclomotor (ACC), Permissão para Dirigir (PPD) ou Carteira Nacional de Habilitação (CNH):** Podem ser apresentados no físico ou na versão digital (CNH-e).
 ### B. Documento do Veículo
-- **Certificado de Registro e Licenciamento de Veículo (CRLV):** Também conhecido como **Certificado de Licenciamento Anual (CLA)**.
-    - Pode ser apresentado impresso (em página única, formato A4) ou na **versão digital (CRLV-e)**.
+- **Certificado de Registro e Licenciamento de Veículo (CRLV):** Pode ser apresentado impresso ou na versão digital (CRLV-e).
 
-O porte da CNH, CLA ou CRLV será **dispensado** quando, no momento da fiscalização, o agente de trânsito conseguir **acessar o devido sistema informatizado** para consultar a validade dos documentos. _Isso significa que, se o sistema estiver funcionando e os documentos estiverem válidos, você não precisa ter a versão física ou digital._
+O porte da CNH ou CRLV será **dispensado** quando, no momento da fiscalização, o agente de trânsito conseguir **acessar o devido sistema informatizado** para consultar a validade dos documentos.
 
+---
 ## 6. Validade da CNH 
 A validade da CNH está condicionada ao prazo de vigência do **Exame de Aptidão Física e Mental** (exame médico), que é renovável com a seguinte periodicidade:
 
@@ -149,9 +138,9 @@ A validade da CNH está condicionada ao prazo de vigência do **Exame de Aptidã
 | **Igual ou superior a 50 e inferior a 70 anos** | **A cada 5 anos**          |
 | **Igual ou superior a 70 anos**                 | **A cada 3 anos**          |
 
-**Observação Médica:** Quando houver indícios de deficiência física ou mental, ou de progressividade de doença que possa diminuir a capacidade para dirigir, os prazos de validade **poderão ser diminuídos** por proposta do perito examinador, independentemente da idade.
+**Observação Médica:** Quando houver indícios de deficiência física ou mental, ou de progressividade de doença que possa diminuir a capacidade para dirigir, os prazos de validade poderão ser diminuídos por proposta do perito examinador, independentemente da idade.
 
-**Condição para Renovação:** A renovação da CNH ou a emissão de uma nova via (2ª via) **somente será realizada após a quitação de débitos** (multas ou outras taxas) constantes no **prontuário do condutor**.
+**Condição para Renovação:** A renovação da CNH ou a emissão de uma nova via (2ª via) somente será realizada após a quitação de débitos (multas ou outras taxas) constantes no prontuário do condutor.
 
 ### A. Licenciamento Anual do Veículo
 O **Certificado de Registro e Licenciamento de Veículo (CRLV)** é o documento que atesta que o veículo está apto a circular.
@@ -161,7 +150,6 @@ O licenciamento anual (e a emissão do CRLV) só será concedido se forem cumpri
 2. **Atendimento a Recall:** Deve ser comprovado o atendimento às campanhas de chamamento de consumidores para substituição ou reparo de veículos (**recall**).
 
 ---
-
 ## 7. EAR: Exerce Atividade Remunerada
 A sigla **EAR** é uma observação fundamental para motoristas que utilizam o veículo como ferramenta de trabalho.
 
