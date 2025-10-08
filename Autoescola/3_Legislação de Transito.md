@@ -4,14 +4,10 @@
 distancia lateral 1,5m e frontal uma distancia que permita parar. da borda da pista 20 a 30 cm
 
 ## 1. Normas de Circulação: Distância e Condução
-
-### Distância de Segurança (Item 2)
-
 A regra de ouro da circulação é que o condutor deve manter a **Distância de Segurança** adequada, que se divide em duas partes:
 
-1. **Distância Frontal:** Entre o seu veículo e o que segue à sua frente.
-    
-2. **Distância Lateral:** Entre o seu veículo e os veículos ao lado ou o bordo da pista (acostamento, calçada, etc.).
+1. **Distância Frontal:** Distancia segura que permita frenagem
+2. **Distância Lateral:** Entre o veículo e os veículos ao lado (1,5m)ou o bordo da pista (20-30cm).
     
 
 **Fatores a Considerar:** A distância de segurança **não é fixa**. Ela deve ser ajustada considerando-se:
@@ -81,6 +77,5 @@ Quando uma pista de rolamento comporta **várias faixas de circulação no mesmo
 - **Faixas da Direita:** Destinadas ao deslocamento dos veículos **mais lentos** e de **maior porte** (ônibus, caminhões). Também são usadas para entrar ou sair da via.
 - **Faixas da Esquerda:** Destinadas **à ultrapassagem** e ao deslocamento dos veículos de **maior velocidade**.
 
-O desrespeito a essa regra (como um veículo lento que permanece na faixa da esquerda, impedindo a ultrapassagem) constitui **infração de trânsito**.
 ![](attachments/Pasted%20image%2020251008185430.png)
 - Nessa imagem temos uma via, duas pistas e 6 faixas
