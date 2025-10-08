@@ -37,6 +37,7 @@ Quando veículos se cruzam em um local **não sinalizado**, as regras de prefer�
 ![](attachments/Pasted%20image%2020251008201723.png)
 
 ![](attachments/Pasted%20image%2020251008201842.png)
+
 ---
 ## 3. Via, pista de rolamento e faixas
 - **Via:** É a superfície onde o trânsito se realiza (inclui pista, acostamento, calçada).
