@@ -157,7 +157,9 @@ A sigla **EAR** é uma observação fundamental para motoristas que utilizam o v
 - **Inclusão:** Pode ser incluída em **todas as categorias da CNH**.
 - **Processo:** A inclusão deve ser solicitada ao **Detran** da localidade. Se o candidato ainda não tem a CNH definitiva, a EAR deve ser solicitada ao iniciar o processo de habilitação. Após a solicitação, é necessário realizar uma **avaliação psicológica** e pagar as taxas obrigatórias.
 ![](attachments/Pasted%20image%2020251007212650.png)
+
 ![](attachments/Pasted%20image%2020251007213024.png)
+
 ![](attachments/Pasted%20image%2020251007213138.png)
 ![](attachments/Pasted%20image%2020251007213330.png)
 ![](attachments/Pasted%20image%2020251007213502.png)
@@ -165,93 +167,38 @@ A sigla **EAR** é uma observação fundamental para motoristas que utilizam o v
 
 ---
 ## 8. Categorias de Habilitação
-
 Existem **5 categorias** de habilitação no Brasil (A a E), além da Autorização para Conduzir Ciclomotor (ACC). Elas variam conforme a finalidade e o tipo de veículo conduzido.
-
 ### A. Para a Primeira Habilitação
 - O candidato poderá iniciar o processo apenas nas categorias **A** (motos) e **B** (carros).
 - É permitido requerer a **ACC** e a habilitação na **Categoria B simultaneamente**.
 - É permitido requerer a habilitação nas categorias **A e B simultaneamente**.
 ### B. ACC (Autorização para Conduzir Ciclomotor)
 - A ACC **não é considerada uma categoria de habilitação** (como A, B, C, D ou E), mas sim um tipo específico de habilitação destinado exclusivamente a conduzir **ciclomotores** (veículos de duas ou três rodas com motor de combustão interna. Velocidade máxima de 50 km/h).
+
 ![](attachments/Pasted%20image%2020251007212205.png)
+
 ![](attachments/Pasted%20image%2020251007212407.png)
+
 ![](attachments/Pasted%20image%2020251007212350.png)
-## 1. Definição de Veículos de Duas Rodas
 
-O CTB diferencia os veículos de duas ou três rodas com base em suas características técnicas e na posição de condução.
-
-| Veículo         | Definição                                                                                                                                                                     |
-| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Ciclomotor**  | **Ciclo motorizado** de **2 ou 3 rodas**. Sua cilindrada **não excede a 50 cm3** e a velocidade máxima não pode ser superior a **50 km/h**. Requer ACC ou CNH de categoria A. |
-| **Motoneta**    | **Veículo automotor de 2 rodas** conduzido por condutor em **posição sentada** (ex: scooters). Requer CNH de categoria A.                                                     |
-| **Motocicleta** | **Veículo automotor de 2 rodas** conduzido por condutor em **posição montada** (ex: motos tradicionais). Requer CNH de categoria A.                                           |
-
-Exportar para as Planilhas
-
----
-
-## 2. Habilitação: Categorias, Requisitos e Prazos de Mudança
-
-O processo de progressão nas categorias da CNH é rigoroso e depende de tempo de experiência e ausência de infrações graves.
-
-### A. Categorias e Tipos de Veículos
-
-| Categoria | Descrição do Veículo                                                                       | Peso Bruto Total (PBT) / Passageiros                                                                        |
-| --------- | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
-| **A**     | Veículo de 2 ou 3 rodas, com ou sem carro lateral (motocicletas, motonetas, ciclomotores). | **Livre** (para a 1ª CNH - habilitação).                                                                    |
-| **B**     | Veículo de passeio ou utilitário.                                                          | Passageiros: **até 8 lugares** (além do motorista). PBT: **até 3.500 kg**.                                  |
-| **C**     | Veículos de carga (caminhão, trator).                                                      | Passageiros: **até 8 lugares**. PBT: **acima de 3.500 kg**.                                                 |
-| **D**     | Veículos de transporte de passageiros (ônibus, vans).                                      | Passageiros: **mais de 8 lugares** (além do motorista). PBT: **acima de 3.500 kg**.                         |
-| **E**     | Veículos articulados (combinações de veículos).                                            | **Reboques/semirreboques** com PBT superior a **6.000 kg** e/ou veículos articulados com mais de 8 lugares. |
-
-Exportar para as Planilhas
-
-### B. Regras e Prazos para Mudança de Categoria
-
-Para progredir de categoria, o condutor deve cumprir requisitos de tempo e manter um histórico limpo de infrações.
-
-| Transição                 | Tempo Mínimo de Habilitação na Categoria Anterior | Idade Mínima Adicional                                 | Requisito de Histórico                                                                                                |
-| ------------------------- | ------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| **B → C**                 | **1 ano** na categoria B.                         | N/A                                                    | Não ter cometido nenhuma infração **Grave** ou **Gravíssima** nos últimos 12 meses, nem ser **reincidente em Média**. |
-| **C → D**                 | **1 ano** na categoria C.                         | N/A                                                    | O mesmo requisito de histórico da transição B → C.                                                                    |
-| **B → D**                 | **2 anos** na categoria B.                        | N/A                                                    | O mesmo requisito de histórico da transição B → C.                                                                    |
-| **D → E**                 | **1 ano** na categoria D.                         | N/A                                                    | O mesmo requisito de histórico.                                                                                       |
-| **C → E**                 | **1 ano** na categoria C.                         | N/A                                                    | O mesmo requisito de histórico.                                                                                       |
-| **Para Categorias D e E** | **N/A**                                           | O condutor deve ter, no mínimo, **21 anos completos**. | O mesmo requisito de histórico.                                                                                       |
-
-Exportar para as Planilhas
-
-**Requisito de Histórico em Detalhe:** O candidato não pode ter cometido nenhuma infração **Grave** ou **Gravíssima** nos últimos doze meses, nem ser **reincidente** em infrações **Médias**. Este requisito se aplica a **todas as transições** (B → C, C → D, B → D, C/D → E).
 ![](attachments/Pasted%20image%2020251007211855.png)
 
 ---
 ## 9. Permissão Internacional para Dirigir (PID)
 A PID é um documento complementar que permite que o brasileiro dirija no exterior, de acordo com acordos internacionais.
 
-### Regras da PID
-
-- **Requisito:** Pode ser requerida por condutores habilitados em **qualquer categoria**, **exceto** a Autorização para Conduzir Ciclomotores (ACC).
-    
+- **Requisito:** Pode ser requerida por condutores habilitados em **qualquer categoria**, exceto a Autorização para Conduzir Ciclomotores (ACC).
 - **Validade:** O prazo de validade da PID será o menor entre:
-    
-    1. **3 anos** (a partir da data de sua emissão), **OU**
-        
+    1. 3 anos (a partir da data de sua emissão), **OU**
     2. A data de **expiração da validade da CNH brasileira**.
         
 - **Observação:** É fundamental que o condutor se informe no Consulado do país de destino sobre as **exigências locais**, pois a PID não garante automaticamente o direito de dirigir em todas as nações.
-    
 
 ---
-
-## 3. Condutor Estrangeiro no Brasil
-
+## 10. Condutor Estrangeiro no Brasil
 O condutor de veículo oriundo de país estrangeiro, e nele habilitado, pode dirigir no Brasil sob certas condições:
-
-- **Requisito de Imputabilidade:** Deve ser **penalmente imputável** no Brasil (ou seja, ter no mínimo 18 anos completos).
-    
-- **Prazo Máximo de Condução:** O condutor poderá dirigir no Brasil pelo prazo máximo de **180 dias** (cerca de 6 meses) a partir de sua entrada no país.
-    
+- **Requisito de Imputabilidade:** Deve ser **penalmente imputável** no Brasil.
+- **Prazo Máximo de Condução:** O condutor poderá dirigir no Brasil pelo prazo máximo de **180 dias** (cerca de 6 meses) a partir de sua entrada no país.6    
 - **Validade da Habilitação de Origem:** É obrigatório que a habilitação estrangeira **esteja válida** durante todo o período.
     
 - **Após o Prazo (180 dias):** Para continuar dirigindo no Brasil após o prazo de 180 dias de permanência, o condutor deve solicitar a **troca da sua habilitação estrangeira pela CNH brasileira**. Para isso, ele deverá ser aprovado nos **Exames de Avaliação Psicológica** e **Aptidão Física e Mental** (exame médico), conforme o Artigo 147 do CTB.
