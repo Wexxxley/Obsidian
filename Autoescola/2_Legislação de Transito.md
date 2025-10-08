@@ -4,36 +4,27 @@
 ## **1. O Sistema Nacional de Trânsito (SNT)**
 
 O **SNT** é o conjunto de órgãos e entidades da **União**, dos **Estados**, do **Distrito Federal** e dos **Municípios**.
-
 1. **Planejamento e Administração:** Organizar e gerenciar as atividades de trânsito.
 2. **Registro e Licenciamento:** Controlar veículos.
 3. **Habilitação de Condutores:** Formação, reciclagem e exames.
 4. **Engenharia e Operação:** Projetar vias e fiscalizar a circulação.
 5. **Fiscalização e Penalidades:** Policiamento, julgamento de infrações e aplicação de multas.
-
-**Objetivos Básicos:**
-- **Estabelecer Diretrizes:** Definir a **Política Nacional de Trânsito**, visando a segurança, fluidez, conforto, **defesa ambiental** e **educação para o trânsito**.
-- **Padronização:** Fixar normas e procedimentos para padronizar critérios técnicos, financeiros e administrativos em todo o país.
-- **Sistemática de Fluxos:** Garantir a troca de informações entre os diversos órgãos para facilitar a tomada de decisão e a integração do Sistema.
-
-**B. CTB (Código de Trânsito Brasileiro):**  OCTB, Lei Federal nº 9.503/97, é o documento máximo que rege o trânsito no país desde 1998.
+### **A. CTB (Código de Trânsito Brasileiro):**
+OCTB é o documento máximo que rege o trânsito no país desde 1998.
 - O CTB estabelece regras e normas válidas para **todas as vias terrestres** do território nacional abertas à circulação (ruas, avenidas, rodovias, estradas e até vias internas de condomínios).
 - As regras de habilitação (formação, exames, etc.) são definidas pelo CTB e regulamentadas por Resoluções do **CONTRAN** (como a Resolução nº 789/20).
 
 ---
 ## **2. Órgãos do SNT**
-
-Os órgãos do SNT são divididos em dois grandes grupos: **Normativos/Consultivos** (que ditam as regras) e **Executivos** (que cumprem e fazem cumprir as regras).
-
+Os órgãos do SNT são divididos em dois grandes grupos: **Normativos/Consultivos** e **Executivos**.
 ### A. Órgãos Normativos
-Estes órgãos têm a função de criar, revisar e coordenar as normas de trânsito em suas respectivas esferas:
+Têm a função de criar, revisar e coordenar as normas de trânsito em suas respectivas esferas.
 
 | Órgão                             | Sigla           | Nível    | Função Principal                                                        |
 | --------------------------------- | --------------- | -------- | ----------------------------------------------------------------------- |
 | **Conselho Nacional de Trânsito** | **CONTRAN**     | Federal  | Máximo órgão normativo. **Elabora as Resoluções** que detalham o CTB.   |
 | **Conselho Estadual de Trânsito** | **CETRAN**      | Estadual | Normativo no âmbito do Estado. **Julga recursos** em segunda instância. |
 | **Conselho de Trânsito do DF**    | **CONTRANDIFE** | DF       | O mesmo papel do CETRAN, mas para o Distrito Federal.                   |
-
 ### B. Órgãos e Entidades Executivas
 Estes órgãos são responsáveis pela aplicação prática da lei, como fiscalização, registro, habilitação e engenharia.
 
