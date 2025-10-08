@@ -53,57 +53,21 @@ Quando uma pista de rolamento comporta **várias faixas de circulação no mesmo
 - **Luz Verde:** Fazer a passagem.    
 - **Luz Amarela:** Reduzir a marcha e parar (indica que o vermelho está próximo).
 - **Luz Vermelha:** **Obrigatoriamente, parar o veículo** respeitando a faixa de pedestres e a área de intersecção.
-### A. O Momento Permitido para "Passar" no Sinal Vermelho
 
-Existem duas situações em que o veículo pode avançar (ou contornar) na luz vermelha:
+Existem duas situações em que o veículo pode avançar na luz vermelha:
 
-1. **Conversão à Direita Livre (Art. 44-A do CTB):**
-    
-    - **Momento Permitido:** O movimento de conversão à direita é **livre** (permitido) diante do sinal vermelho do semáforo.
-        
+1. **Conversão à Direita Livre:**
+    - **Momento Permitido:** O movimento de conversão à direita é permitido diante do sinal vermelho do semáforo.
     - **Condição:** Apenas onde houver **sinalização indicativa que permita essa conversão** (placa ou faixa específica).
-        
-    - **Regra de Velocidade/Segurança:** O condutor deve **observar as condições de segurança** para essa manobra. Isso significa que ele deve parar ou reduzir, certificar-se de que não há pedestres ou veículos em conflito, e só então prosseguir com cautela. A velocidade deve ser reduzida ou quase zero.
-        
+    
 2. **Veículos de Emergência (Prioridade de Trânsito):**
-    
     - **Momento Permitido:** Veículos de socorro de incêndio e salvamento, polícia, fiscalização e ambulâncias.
-        
     - **Condição:** Estarem **em serviço de urgência** e **devidamente identificados** por dispositivos regulamentares de **alarme sonoro e iluminação intermitente** (giroflex).
-        
-    - **Liberdade:** Estes veículos gozam de **prioridade de trânsito** e **livre circulação**, podendo avançar o sinal vermelho.
-        
-
-**Em resumo, a ÚNICA vez que um veículo comum pode passar um semáforo vermelho é para virar à direita, e apenas se houver uma placa ou sinalização que autorize (e sempre com segurança).**
 
 ---
-
-## 2. Velocidade dos Veículos de Emergência
-
-Para os veículos de emergência com prioridade de trânsito:
-
-- **Não há um limite de velocidade fixo** que os isente do dever de cautela.
-    
-- Embora gozem de livre circulação, a velocidade deve ser compatível com a **segurança** da via e das pessoas.
-    
-- Os demais condutores devem **facilitar a passagem** (Art. 29, VII do CTB), deslocando-se para a faixa mais à direita e parando, se necessário.
-    
-
----
-
-## 3. Uso Proibido da Calçada e Ultrapassagem
-
-Para complementar as regras de circulação, o material também aborda:
-
-### A. Trânsito em Calçadas e Acostamentos (Item 5)
+## 5. Uso Proibido da Calçada e Ultrapassagem
 
 O **trânsito de veículos** sobre passeios, calçadas e acostamentos **é proibido**.
-
-- **Exceção:** Só é permitido para que o veículo **adentre ou saia dos imóveis** ou das **áreas especiais de estacionamento** (como postos de gasolina ou garagens).
-    
-
+- **Exceção:** Só é permitido para que o veículo **adentre ou saia dos imóveis** ou das **áreas especiais de estacionamento** (como postos de gasolina ou garagens).    
 ### B. Definição de Ultrapassagem
-
 - **Ultrapassagem:** É o movimento de passar à frente de outro veículo que se desloca no **mesmo sentido** e na **mesma faixa de tráfego**, necessitando **sair e retornar à faixa de origem**.
-    
-- **Linha Simples Seccionada (Tracejada Amarela):** Quando a linha de divisão de fluxos opostos (sentidos contrários) é **simples seccionada**, a **ultrapassagem é permitida nos dois sentidos**.
