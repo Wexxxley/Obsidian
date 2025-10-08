@@ -18,27 +18,15 @@ As operações que exigem uma resposta imediata e manipulam o estado crítico do
 
 O uso síncrono é essencial para garantir a **Atomicidade** da transação e evitar o _overbooking_ quando múltiplos clientes acessam o mesmo recurso simultaneamente.
 ### Comunicação Assíncrona
-Tarefas que podem ser processadas em segundo plano, sem bloquear o usuário, devem utilizar um modelo de **Mensageria Assíncrona** (Filas de Mensagens) para **desacoplar** os serviços.
+Tarefas que podem ser processadas em segundo plano, sem bloquear o usuário, devem utilizar um modelo de **Mensageria Assíncrona** (Filas de Mensagens).
 
-#### Fluxo Assíncrono para Registro de Multa e Processamento de Devolução
-
-1. **Cliente (Serviço de Locação):**
-    
+1. **Cliente:**
     - Após a devolução do veículo, o Cliente finaliza o processo para o usuário.
-        
-    - Se houver uma multa, o Cliente **envia uma mensagem durável** contendo os dados do veículo e da multa para a **Fila de Multas**.
-        
+    - Se houver uma multa, o Cliente envia uma mensagem contendo os dados do veículo e da multa para a Fila de Multas.
     - O Cliente não espera por uma resposta e continua sua execução.
-        
 2. **Fila de Mensagens:**
-    
-    - A mensagem da multa fica armazenada na fila. **Tolerância a Falhas:** Se o Servidor de Frota estiver fora do ar, a mensagem é garantida e não é perdida.
-        
-3. **Servidor (Serviço de Frota):**
-    
+    - A mensagem da multa fica armazenada na fila.  Se o Servidor de Frota estiver fora do ar, a mensagem é garantida e não é perdida.
+3. **Servidor:**
     - O Servidor funciona como um **Consumidor** que monitora e processa mensagens da Fila de Multas.
-        
     - Ao consumir a mensagem, ele aplica a lógica da Interface **Multa** e anexa essa informação ao registro da locação.
-        
     - Após o processamento, ele pode enviar outra mensagem assíncrona (ex: para uma Fila de Notificações) para enviar um recibo por e-mail ao cliente.
-        
