@@ -115,13 +115,15 @@ Aprovado no exame teórico, o candidato passa para as aulas práticas no **CFC B
 
 ### E) Exame de Prática de Direção Veicular    
 - Em caso de reprovação, o candidato poderá **repetir o exame**, mediante pagamento da taxa de reexame.
+![](attachments/Pasted%20image%2020251007205920.png)
 
 ### F) Permissão para Dirigir (PPD) e a CNH Definitiva
 - Ao ser aprovado, o candidato recebe a **Permissão para Dirigir (PPD)**, que tem validade de **um ano**. A PPD funciona como um período de estágio probatório.
+
 - A **Carteira Nacional de Habilitação (CNH) definitiva** (e a **Autorização para Conduzir Ciclomotor - ACC** definitiva) será concedida ao condutor ao término do período de um ano da PPD, desde que ele **NÃO** tenha cometido as seguintes infrações nesse período:    
     1. Qualquer infração de natureza **Grave**.
     2. Qualquer infração de natureza **Gravíssima**.
-    3. Ser **reincidente** em infração **Média** (cometer a mesma infração média duas ou mais vezes).
+    3. Ser **reincidente** em infração **Média** 
 
 - **Consequência da Reprovação na PPD:** O cometimento de qualquer uma dessas infrações obriga o candidato a **reiniciar todo o processo de habilitação** (incluindo exames, cursos e provas), perdendo a PPD.
 
