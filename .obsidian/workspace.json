@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Autoescola/2_Legislação de Transito.md",
+                "file": "12_Sistemas Distribuídos/Cap3/1_.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Legislação de Transito"
+              "title": "1_"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Autoescola/2_Legislação de Transito.md",
+                "file": "12_Sistemas Distribuídos/Cap3/1_.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_Legislação de Transito"
+              "title": "Outline of 1_"
             }
           },
           {
@@ -182,6 +182,16 @@
   },
   "active": "c4a3d476e9126339",
   "lastOpenFiles": [
+    "12_Sistemas Distribuídos/Cap2/5_Questões Questionario STD.md",
+    "12_Sistemas Distribuídos/Cap3/1_.md",
+    "12_Sistemas Distribuídos/Cap3",
+    "12_Sistemas Distribuídos/Cap2/4_Modelos Fundamentais.md",
+    "12_Sistemas Distribuídos/Cap2/3_Modelos de arquitetura.md",
+    "12_Sistemas Distribuídos/Cap2/2_Modelos físicos.md",
+    "12_Sistemas Distribuídos/Cap2/1_Modelos dos sistemas.md",
+    "Autoescola/2_Legislação de Transito.md",
+    "12_Sistemas Distribuídos/Cap2",
+    "12_Sistemas Distribuídos/Cap1",
     "attachments/Pasted image 20251007213620.png",
     "attachments/Pasted image 20251007213540.png",
     "attachments/Pasted image 20251007213502.png",
@@ -192,11 +202,9 @@
     "attachments/Pasted image 20251007212650.png",
     "attachments/Pasted image 20251007212407.png",
     "attachments/Pasted image 20251007212350.png",
-    "attachments/Pasted image 20251007212205.png",
     "Untitled.md",
     "Aleatórios/Pedido de crenciais GIT.md",
     "Autoescola/1_Cidadania & Meio Ambiente.md",
-    "Autoescola/2_Legislação de Transito.md",
     "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "Aleatórios/Como funciona.md",
     "Aleatórios/Observatório Legislativo - Transparência e Cidadania na Câmara dos Deputados.md",
@@ -219,15 +227,7 @@
     "Sem título 1.base",
     "Sem título.base",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
-    "10_TeoriaComputação/3_Exercícios.md",
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
-    "1_Inglês/6_Simple past.md",
-    "1_Inglês/5_Simple present.md",
-    "1_Inglês/4_Indefinite article.md",
-    "1_Inglês/3_Demonstrative pronouns.md",
-    "Sem título 6.base",
-    "Sem título 3.base",
-    "Sem título 4.base",
     "Sem título.canvas"
   ]
 }

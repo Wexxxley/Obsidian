@@ -49,7 +49,7 @@ Estes órgãos são responsáveis pela aplicação prática da lei, como fiscali
 Para obter a Carteira Nacional de Habilitação (**CNH**) ou a Autorização para Conduzir Ciclomotor (**ACC**), o candidato deve cumprir todos os requisitos abaixo, conforme o CTB:
 
 1. **Ser Penalmente Imputável (Requisito de Idade e Responsabilidade):**
-    - Isto significa ter **18 anos completos**.
+    - Tem que ter **18 anos completos**.
     - No Brasil, a responsabilidade civil e penal por infrações de trânsito começa aos 18 anos. Mesmo que um indivíduo seja emancipado civilmente antes dos 18 anos, ele **NÃO** adquire a **imputabilidade penal** perante o CTB. 
     - O Código de Trânsito Brasileiro exige que o candidato, sendo maior de 18 anos, seja **penalmente imputável** e demonstre **plena capacidade de dirigir**. Para uma pessoa neurodivergente (que inclui condições como Transtorno do Espectro Autista, TDAH, entre outras) o foco recai sobre o **exame de aptidão física e mental**. O candidato neurodivergente deve ser avaliado por um médico perito examinador.
     - O CTB exige a capacidade de responder criminalmente por eventuais delitos de trânsito.
