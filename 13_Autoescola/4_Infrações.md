@@ -66,3 +66,11 @@ O infrator será submetido a um **Curso de Reciclagem de 30 horas/aula** nos C.F
 - A qualquer tempo, se for constatado que o condutor está **colocando em risco a segurança do trânsito**.    
 
 **Avaliação Psicológica:** É obrigatória para o condutor submetido ao curso de reciclagem, **exceto** quando a razão for apenas a suspensão do direito de dirigir.
+
+---
+## 7. Condutores que Exerçam Atividade Remunerada (EAR)
+Para condutores profissionais (que possuem a observação EAR na CNH) a regra de pontuação para suspensão é mais flexível, pois eles dependem da CNH para trabalhar.
+
+- **Limite de Suspensão:** A penalidade de suspensão do direito de dirigir será imposta somente quando o condutor EAR atingir **40 pontos** no período de **12 meses**, **independentemente da natureza das infrações cometidas** (ou seja, não importa quantas infrações gravíssimas ele tenha).
+- **Oportunidade de Prevenção:** O condutor EAR tem a faculdade de participar de um **curso preventivo de reciclagem** sempre que atingir entre **30 e 39 pontos** no período de 12 meses.
+- **Benefício:** Ao concluir esse curso preventivo, os pontos serão **removidos** do seu prontuário, permitindo que ele continue dirigindo e evite a suspensão ao atingir os 40 pontos. Ele só pode fazer este curso uma vez a cada 12 meses.
