@@ -9,29 +9,25 @@ Sockets são uma interface de programação de aplicativos ==API que permite a c
 **Porta**: Número (0 - 65.535) que serve para identificar qual processo está usando uma conexão dentro de um computador.
 - O endereço IP leva até o computador.
 - A porta diz qual o programa em execução que vai enviar ou receber algo.
-- Portas conhecidas: 0-1023 (reservadas para serviços padrão como HTTP, FTP.
-- As portas acima de 1023 são usadas para comunicações temporárias.
 
-**Exemplo**
-Digamos que você está acessando um site. A conexão é feita assim:
+**Exemplo**: Digamos que você está acessando um site. A conexão é feita assim:
 
-Seu navegador cria um socket local com:
-- IP da sua máquina e Porta aleatória local.
-
-E se conecta a um socket remoto com:
-- IP do servidor e Porta do serviço.  
-
-Esse par ==(local IP, local porta, remoto IP, remoto porta)== identifica  a conexão.
+1. Seu navegador cria um socket local com:
+	- IP da sua máquina e Porta aleatória local.
+2. E se conecta a um socket remoto com:
+	- IP do servidor e Porta do serviço.  
+3. Esse par ==(local IP, local porta, remoto IP, remoto porta)== identifica  a conexão.
 
 ---
 # Programação com sockets
 
-**Socket UDP (Sem Conexão)**: Um socket UDP é identificado por dois valores:
+### **Socket UDP (Sem Conexão)**: 
+Um socket UDP é identificado por dois valores:
 - IP de destino e Porta de destino.  
-
 ![Pasted image 20250509132053](../../attachments/Pasted%20image%2020250509132053.png)
 
-**Socket TCP (com  Conexão):** Um socket TCP é identificado por quatro valores:
+### **Socket TCP (com  Conexão):** 
+Um socket TCP é identificado por quatro valores:
 - IP de origem, Porta de origem, IP de destino e Porta de destino.  
 
 ![Pasted image 20250509132033](../../attachments/Pasted%20image%2020250509132033.png)
