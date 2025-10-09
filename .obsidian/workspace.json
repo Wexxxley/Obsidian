@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "3_Legislação de Transito"
             }
+          },
+          {
+            "id": "0d561a8f4d80d04d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +155,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Autoescola/3_Legislação de Transito.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_Legislação de Transito"
+              "title": "Outline"
             }
           },
           {
@@ -176,11 +188,10 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
-  "active": "c4a3d476e9126339",
+  "active": "0d561a8f4d80d04d",
   "lastOpenFiles": [
     "attachments/Pasted image 20251008214126.png",
     "attachments/Pasted image 20251008214005.png",
