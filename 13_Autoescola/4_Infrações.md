@@ -74,3 +74,18 @@ Para condutores profissionais (que possuem a observação EAR na CNH) a regra de
 - **Limite de Suspensão:** A penalidade de suspensão do direito de dirigir será imposta somente quando o condutor EAR atingir **40 pontos** no período de **12 meses**, **independentemente da natureza das infrações cometidas** (ou seja, não importa quantas infrações gravíssimas ele tenha).
 - **Oportunidade de Prevenção:** O condutor EAR tem a faculdade de participar de um **curso preventivo de reciclagem** sempre que atingir entre **30 e 39 pontos** no período de 12 meses.
 - **Benefício:** Ao concluir esse curso preventivo, os pontos serão **removidos** do seu prontuário, permitindo que ele continue dirigindo e evite a suspensão ao atingir os 40 pontos. Ele só pode fazer este curso uma vez a cada 12 meses.
+
+---
+### 8. Medidas administrativas
+
+| Medida Administrativa                                               | Finalidade                                                                                                                                                 |
+| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Retenção do Veículo**                                             | Imobilização do veículo no local da infração ou próximo dele, até que a irregularidade seja sanada.                                                        |
+| **Remoção do Veículo**                                              | Movimentação do veículo para um depósito (pátio) quando a irregularidade não puder ser resolvida no local.                                                 |
+| **Recolhimento da CNH e PPD**                                       | Ocorre, por exemplo, em casos de suspensão ou cassação (quando o documento é encontrado), ou quando há suspeita de irregularidade grave (como alcoolemia). |
+| **Recolhimento do Certificado de Registro (CRV)**                   | Ocorre em casos específicos, como quando o veículo é reprovado na vistoria de transferência ou tem restrições administrativas.                             |
+| **Recolhimento do Certificado de Licenciamento Anual (CRLV-e/CLA)** | Ocorre quando o documento está irregular, adulterado ou com débitos pendentes.                                                                             |
+| **Transbordo do Excesso de Carga**                                  | É a transferência da carga excedente para outro veículo, aplicada a caminhões com peso acima do limite legal, para que possam seguir viagem.               |
+| **Realização de Teste de Dosagem de Alcoolemia ou Perícia**         | Procedimento obrigatório em caso de suspeita de embriaguez ou uso de substâncias entorpecentes .                                                           |
+| **Recolhimento de Animais**                                         | Ação para retirar animais soltos nas vias.                                                                                                                 |
+| **Realização de Exames de Aptidão, Mental, etc.**                   | Ocorre quando há indícios de que o condutor perdeu sua capacidade de dirigir. O DETRAN pode determinar novos exames a qualquer momento.                    |
