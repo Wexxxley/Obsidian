@@ -75,3 +75,6 @@ O **trânsito de veículos** sobre passeios, calçadas e acostamentos **é proib
 - **Exceção:** Só é permitido para que o veículo **adentre ou saia dos imóveis** ou das **áreas especiais de estacionamento** (como postos de gasolina ou garagens).    
 ### B. Definição de Ultrapassagem
 - **Ultrapassagem:** É o movimento de passar à frente de outro veículo que se desloca no **mesmo sentido** e na **mesma faixa de tráfego**, necessitando **sair e retornar à faixa de origem**.
+
+
+![](attachments/Pasted%20image%2020251008205040.png)
