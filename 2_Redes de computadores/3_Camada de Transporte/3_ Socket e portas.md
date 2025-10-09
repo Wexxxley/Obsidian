@@ -19,7 +19,6 @@ Seu navegador cria um socket local com:
 - IP da sua máquina e Porta aleatória local.
 
 E se conecta a um socket remoto com:
-
 - IP do servidor e Porta do serviço.  
 
 Esse par ==(local IP, local porta, remoto IP, remoto porta)== identifica  a conexão.
