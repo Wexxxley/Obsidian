@@ -37,7 +37,7 @@ A suspensão também é imposta diretamente, **independentemente da pontuação*
 - **Ultrapassar 50%** da velocidade máxima permitida na via.
 - **Pilotar moto sem capacete** (ou transportar passageiro sem capacete).
 
-### Prazos de Suspensão
+### 3. Prazos de Suspensão
 Os prazos variam de acordo com a gravidade e o histórico do condutor:
 
 | Situação                                                         | Período de Suspensão  |
@@ -47,65 +47,22 @@ Os prazos variam de acordo com a gravidade e o histórico do condutor:
 | **Reincidente** (em 12 meses após o cumprimento da suspensão).   | **8 meses a 2 anos**. |
 | **Reincidente** em infração de suspensão **direta** (em 1 ano).  | **8 a 18 meses**.     |
 
-Exportar para as Planilhas
-
 ---
-
-## Cassação da C.N.H.
-
+## 4. Cassação da C.N.H.
 A cassação é a penalidade mais grave e resulta no **cancelamento definitivo** do documento.
 
-### Quando Ocorre a Cassação?
-
 - **Dirigir Durante a Suspensão:** Ocorre se o motorista for surpreendido **dirigindo durante o período de suspensão** do direito de dirigir.
-    
 - **Reincidência em Infrações Específicas:** Ocorre se o condutor reincidir em infrações gravíssimas específicas dentro de 12 meses (ex: dirigir com CNH de categoria diferente, falso no exame médico).
-    
-
-### Processo após Cassação
 
 Se a CNH for cassada, o infrator **somente poderá requerer novos exames para sua reabilitação após 2 anos** do cumprimento da penalidade.
 
 ---
-
-## Curso de Reciclagem
+## 6. Curso de Reciclagem
 
 O infrator será submetido a um **Curso de Reciclagem de 30 horas/aula** nos C.F.C.s credenciados em diversas situações:
 
 - Quando **suspenso** do direito de dirigir.
-    
-- Quando se envolver em **sinistro grave** para o qual tenha contribuído.
-    
 - Quando **condenado judicialmente por delito de trânsito** (Crime de Trânsito).
-    
-- A qualquer tempo, se for constatado que o condutor está **colocando em risco a segurança do trânsito**.
-    
+- A qualquer tempo, se for constatado que o condutor está **colocando em risco a segurança do trânsito**.    
 
 **Avaliação Psicológica:** É obrigatória para o condutor submetido ao curso de reciclagem, **exceto** quando a razão for apenas a suspensão do direito de dirigir.
-
----
-
-## Crimes de Trânsito
-
-Crimes de trânsito são as condutas mais graves previstas no CTB, que são consideradas **delitos penais** e podem levar à prisão, diferentemente das infrações administrativas (multas).
-
-|Infração Administrativa (Multa)|Crime de Trânsito (Delito Penal)|
-|---|---|
-|Punição com **multa**, pontos, suspensão ou cassação da CNH.|Punição com **detenção ou reclusão** (prisão), multa e suspensão/proibição de obter a CNH.|
-|Julgado e processado pelo DETRAN (órgão administrativo).|Julgado e processado pelo **Poder Judiciário**.|
-|Exemplo: Estacionar em local proibido.|Exemplo: **Homicídio culposo** na direção de veículo.|
-
-Exportar para as Planilhas
-
-### Principais Crimes de Trânsito
-
-- **Dirigir sob influência de álcool ou substância psicoativa** (quando o nível de álcool no sangue é igual ou superior a 6 decigramas por litro, ou 0,3 miligramas por litro de ar alveolar).
-    
-- **Participação em racha** ou competição não autorizada.
-    
-- **Fugir do local** do acidente para não ser preso.
-    
-- **Homicídio culposo** ou **Lesão corporal culposa** na direção de veículo.
-    
-
-**Atenção:** Em casos de homicídio ou lesão corporal culposa, se o motorista estiver sob efeito de álcool, a lei proíbe a substituição da pena de prisão por penas alternativas, o que torna a punição mais rigorosa.
