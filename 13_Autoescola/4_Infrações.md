@@ -1,8 +1,7 @@
 
 
 ---
-
-### 1. Penalidades e Medidas Administrativas
+## 1. Penalidades e Medidas Administrativas
 Toda infração gera uma **penalidade**. Algumas infrações também preveem uma **medida administrativa**, que é uma ação prática do agente de trânsito para impedir que o condutor continue dirigindo em condições irregulares.
 
 **Penalidades**
@@ -14,60 +13,39 @@ As penalidades que podem ser aplicadas pelo CTB são:
 - **Cassação da Permissão para Dirigir (PPD):** Ocorre quando o condutor probatório comete infração Grave, Gravíssima, ou é reincidente em Média.
 - **Frequência obrigatória em curso de reciclagem:** Aplicada após a suspensão, ou por decisão do CONTRAN ou DETRAN.
 
-
 **Medidas administrativas**
 - Exemplos incluem a **Remoção do Veículo** (para pátio), **Retenção do Veículo** (no local da abordagem até a irregularidade ser sanada), e **Recolhimento da CNH** ou do CRLV.
-    
 
 ---
+## 2. Estímulo ao Bom Condutor: RNPC
 
-## 3. Estímulo ao Bom Condutor: RNPC
-
-Para estimular o comportamento responsável, a legislação criou um mecanismo de incentivo:
-
-- **RNPC (Registro Nacional Positivo de Condutores):** É um cadastro nacional que tem como finalidade registrar os condutores que **não cometeram infração de trânsito nos últimos 12 meses**.
-    
+- **RNPC (Registro Nacional Positivo de Condutores):** É um cadastro que tem como finalidade registrar os condutores que não cometeram infração de trânsito nos últimos 12 meses.
 - **Benefícios:** Os condutores cadastrados no RNPC podem receber **benefícios fiscais ou tarifários** concedidos por órgãos federais, estaduais e municipais (como descontos no IPVA, taxas ou pedágios).
 
-## Suspensão do Direito de Dirigir
+## 3. Suspensão do Direito de Dirigir
 
 A suspensão é a perda temporária do direito de dirigir, e pode ocorrer por excesso de pontos ou por infração gravíssima específica.
-
 ### 1. Suspensão por Pontuação
-
 A penalidade de suspensão será imposta quando o infrator atingir os seguintes limites de pontuação no período de **12 meses**:
 
-|Contagem de Pontos em 12 Meses|Condição|Limite para Suspensão|
-|---|---|---|
-|2 ou mais infrações gravíssimas|20 **pontos**||
-|1 infração gravíssima|30 **pontos**||
-|Nenhuma infração gravíssima|40 **pontos**||
-
-Exportar para as Planilhas
-
-### 2. Suspensão Direta (Infrações Auto-Suspensivas)
-
-A suspensão também é imposta diretamente, **independentemente da pontuação**, se o condutor cometer uma infração que preveja essa penalidade de forma específica no CTB. Exemplos incluem:
+![](attachments/Pasted%20image%2020251009191820.png)
+### 2. Suspensão Direta
+A suspensão também é imposta diretamente, **independentemente da pontuação**, se o condutor cometer uma infração que preveja essa penalidade de forma específica no CTB. 
 
 - Prática de **rachas**.
-    
 - **Dirigir embriagado** (ou sob efeito de qualquer substância psicoativa).
-    
 - **Ultrapassar 50%** da velocidade máxima permitida na via.
-    
 - **Pilotar moto sem capacete** (ou transportar passageiro sem capacete).
-    
 
 ### Prazos de Suspensão
-
 Os prazos variam de acordo com a gravidade e o histórico do condutor:
 
-|Situação|Período de Suspensão|
-|---|---|
-|Por **excesso de pontos** ou infração específica (primeira vez).|**6 meses a 1 ano**.|
-|Por infrações que levam à suspensão **direta** (primeira vez).|**2 a 8 meses**.|
-|**Reincidente** (em 12 meses após o cumprimento da suspensão).|**8 meses a 2 anos**.|
-|**Reincidente** em infração de suspensão **direta** (em 1 ano).|**8 a 18 meses**.|
+| Situação                                                         | Período de Suspensão  |
+| ---------------------------------------------------------------- | --------------------- |
+| Por **excesso de pontos** ou infração específica (primeira vez). | **6 meses a 1 ano**.  |
+| Por infrações que levam à suspensão **direta** (primeira vez).   | **2 a 8 meses**.      |
+| **Reincidente** (em 12 meses após o cumprimento da suspensão).   | **8 meses a 2 anos**. |
+| **Reincidente** em infração de suspensão **direta** (em 1 ano).  | **8 a 18 meses**.     |
 
 Exportar para as Planilhas
 
