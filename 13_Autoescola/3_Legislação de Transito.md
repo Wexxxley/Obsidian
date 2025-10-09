@@ -51,18 +51,11 @@ Quando uma pista de rolamento comporta várias faixas de circulação no mesmo s
 2. **Estrada:** Via rural não pavimentada (terra ou chão batido).
 
 ---
-## 4. Regra Geral do Semáforo 
-
-- **Luz Verde:** Fazer a passagem.    
-- **Luz Amarela:** Reduzir a marcha e parar (indica que o vermelho está próximo).
-- **Luz Vermelha:** Obrigatoriamente, parar o veículo respeitando a faixa de pedestres e a área de intersecção.
-
----
-## 5. Uso Proibido da Calçada e Ultrapassagem
+## 4. Uso Proibido da Calçada e Ultrapassagem
 
 O **trânsito de veículos** sobre passeios, calçadas e acostamentos **é proibido**.
-- **Exceção:** Só é permitido para que o veículo **adentre ou saia dos imóveis** ou das **áreas especiais de estacionamento** (como postos de gasolina ou garagens).    
-### B. Definição de Ultrapassagem
+- **Exceção:** Só é permitido para que o veículo **adentre ou saia dos imóveis** ou das áreas especiais de estacionamento*.
+### A. Definição de Ultrapassagem
 - **Ultrapassagem:** É o movimento de passar à frente de outro veículo que se desloca no **mesmo sentido** e na **mesma faixa de tráfego**, necessitando **sair e retornar à faixa de origem**.
 
 
@@ -70,6 +63,7 @@ O **trânsito de veículos** sobre passeios, calçadas e acostamentos **é proib
 
 
 ![](attachments/Pasted%20image%2020251008213555.png)
+
 ![](attachments/Pasted%20image%2020251008214005.png)
 
 ![](attachments/Pasted%20image%2020251008214126.png)
