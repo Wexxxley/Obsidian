@@ -1,10 +1,12 @@
 
+#Concluded 
+
 ---
 # Socket e porta
 
 Sockets são uma interface de programação de aplicativos ==API que permite a comunicação entre processos em diferentes computadores através de uma rede==. Eles são usados para enviar e receber dados entre processos e permitem que os desenvolvedores criem programas que possam se comunicar por meio de uma rede de computadores.
 
-**Porta**: É um número (de 0 a 65535) que serve para identificar qual programa/processo está usando uma conexão dentro de um computador.
+**Porta**: Número (0 - 65.535) que serve para identificar qual processo está usando uma conexão dentro de um computador.
 - O endereço IP leva até o computador.
 - A porta diz qual o programa em execução que vai enviar ou receber algo.
 - Portas conhecidas: 0-1023 (reservadas para serviços padrão como HTTP, FTP.
@@ -12,6 +14,7 @@ Sockets são uma interface de programação de aplicativos ==API que permite a c
 
 **Exemplo**
 Digamos que você está acessando um site. A conexão é feita assim:
+
 Seu navegador cria um socket local com:
 - IP da sua máquina e Porta aleatória local.
 
