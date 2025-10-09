@@ -15,7 +15,7 @@ Estratégias de representação externa
 As duas primeiras estratégias (CDR do CORBA e Serialização Java) empacotam tipos de dados primitivos em **forma binária**. A terceira estratégia (XML) representa tipos de dados primitivos **textualmente**.
 
 #### Endereçamento de Objetos Remotos
-Esta seção também aborda a **Referência de Objeto Remoto** (Remote Object Reference). Quando um cliente invoca um método em um objeto remoto, a mensagem de invocação deve especificar **qual objeto em particular** deve executar o método. A referência de objeto remoto é o identificador desse objeto, **válido em todo o sistema distribuído**, e é passado na mensagem de invocação.
+Quando um cliente invoca um método em um objeto remoto, a mensagem de invocação deve especificar **qual objeto em particular** deve executar o método. A referência de objeto remoto é o identificador desse objeto e é passado na mensagem de invocação.
 
 Uma referência de objeto remoto típica contém:
 
