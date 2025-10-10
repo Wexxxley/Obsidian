@@ -46,6 +46,7 @@ Os prazos variam de acordo com a gravidade e o histórico do condutor:
 | Por infrações que levam à suspensão **direta** (primeira vez).   | **2 a 8 meses**.      |
 | **Reincidente** (em 12 meses após o cumprimento da suspensão).   | **8 meses a 2 anos**. |
 | **Reincidente** em infração de suspensão **direta** (em 1 ano).  | **8 a 18 meses**.     |
+|                                                                  |                       |
 
 ---
 ## 4. Cassação da C.N.H.
@@ -89,3 +90,9 @@ Para condutores profissionais (que possuem a observação EAR na CNH) a regra de
 | **Realização de Teste de Dosagem de Alcoolemia ou Perícia**         | Procedimento obrigatório em caso de suspeita de embriaguez ou uso de substâncias entorpecentes .                                                           |
 | **Recolhimento de Animais**                                         | Ação para retirar animais soltos nas vias.                                                                                                                 |
 | **Realização de Exames de Aptidão, Mental, etc.**                   | Ocorre quando há indícios de que o condutor perdeu sua capacidade de dirigir. O DETRAN pode determinar novos exames a qualquer momento.                    |
+
+![](attachments/Pasted%20image%2020251009205542.png)
+
+![](attachments/Pasted%20image%2020251009205720.png)
+
+![](attachments/Pasted%20image%2020251009205807.png)
