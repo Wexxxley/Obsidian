@@ -11,13 +11,11 @@
             "id": "bd00deaa9ad88e28",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "13_Autoescola/5_Sinalização.md",
-                "mode": "source",
-                "source": false
+                "file": "13_Autoescola/5_Sinalização.pdf"
               },
-              "icon": "lucide-file",
+              "icon": "lucide-file-text",
               "title": "5_Sinalização"
             }
           }
@@ -142,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13_Autoescola/5_Sinalização.md",
+                "file": "13_Autoescola/5_Sinalização.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -180,18 +178,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd00deaa9ad88e28",
+  "active": "0c52f17c64e87cbf",
   "lastOpenFiles": [
+    "13_Autoescola/4_Infrações e penalidades.md",
+    "13_Autoescola/5_Sinalização.pdf",
+    "13_Autoescola/5_Sinalização.md",
+    "13_Autoescola/03-sinalizacao.pdf",
     "attachments/Pasted image 20251010183615.png",
     "attachments/Pasted image 20251010183548.png",
     "attachments/Pasted image 20251010183526.png",
     "attachments/Pasted image 20251010183503.png",
     "attachments/Pasted image 20251010183449.png",
-    "13_Autoescola/4_Infrações e penalidades.md",
     "13_Autoescola/3_Legislação de Transito.md",
     "13_Autoescola/2_Legislação de Transito.md",
     "13_Autoescola/1_Cidadania & Meio Ambiente.md",
-    "13_Autoescola/5_Sinalização.md",
     "13_Autoescola/Untitled",
     "Untitled 1.md",
     "attachments/Pasted image 20251009205807.png",
@@ -210,7 +210,6 @@
     "2_Redes de computadores/4_Camada de rede/13_BGP e os contratos entre provedores.md",
     "2_Redes de computadores/4_Camada de rede/14_Fenômeno da sincronização global do TCP.md",
     "2_Redes de computadores/4_Camada de rede/15_Tipos de filas.md",
-    "attachments/Pasted image 20251009124402.png",
     "11_Engenharia de Software/1_Introdução.md",
     "10_TeoriaComputação/3_Exercícios.md",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
@@ -226,8 +225,6 @@
     "12_Sistemas Distribuídos/Cap1",
     "Untitled.base",
     "13_Autoescola",
-    "Sem título 2.base",
-    "Sem título 1.base",
     "Sem título.canvas"
   ]
 }
