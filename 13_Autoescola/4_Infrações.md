@@ -12,6 +12,7 @@ As penalidades que podem ser aplicadas pelo CTB são:
 - **Cassação da C.N.H.:** Cancelamento definitivo do documento (punição mais severa).
 - **Cassação da Permissão para Dirigir (PPD):** Ocorre quando o condutor probatório comete infração Grave, Gravíssima, ou é reincidente em Média.
 - **Frequência obrigatória em curso de reciclagem:** Aplicada após a suspensão, ou por decisão do CONTRAN ou DETRAN.
+- 
 
 **Medidas administrativas**
 - Exemplos incluem a **Remoção do Veículo** (para pátio), **Retenção do Veículo** (no local da abordagem até a irregularidade ser sanada), e **Recolhimento da CNH** ou do CRLV.
