@@ -23,8 +23,6 @@ A ordem de prevalência (quem deve ser obedecido primeiro) garante a segurança 
 
 ### I. Ordens do Agente de Trânsito (Prioridade Máxima)
 
-- **Prevalecem sobre as normas de circulação e todos os outros sinais.**
-    
 - **Exemplo:** Se o semáforo estiver verde, mas o agente mandar parar (com gesto ou apito), você **deve parar**. O agente tem a autoridade máxima.
     
 
@@ -47,6 +45,44 @@ A ordem de prevalência (quem deve ser obedecido primeiro) garante a segurança 
 |**1ª**|Gesto e Ordem|**Agente de Trânsito** (sobre TUDO)|
 |**2ª**|Sinais Luminosos|**Semáforo** (sobre placas e marcas)|
 |**3ª**|Sinais Verticais/Horizontais|**Placas/Marcas** (sobre as Normas Gerais do CTB)|
+
+## Sinalização Vertical: Classificação e Função
+
+A sinalização vertical é um subsistema da sinalização viária que se comunica por meio de **placas**, fixadas ao lado ou suspensas sobre a pista. Elas transmitem mensagens permanentes (ou variáveis) usando legendas e/ou símbolos.
+
+A classificação da sinalização vertical é feita de acordo com sua **função**, e é essencial para a prova:
+
+### 1. Sinalização de Regulamentação
+
+- **Função:** Informar sobre **obrigações, proibições** ou **restrições** no uso das vias.
+    
+- **Características:** Têm formato circular, e a cor predominante é **vermelha** e branca.
+    
+- **Exemplos:** R−1 (Parada Obrigatória), R−6a (Proibido Estacionar), R−19 (Velocidade Máxima Permitida).
+    
+- **Importância:** O desrespeito a essas placas constitui **infração de trânsito**.
+    
+
+### 2. Sinalização de Advertência
+
+- **Função:** **Advertir** os usuários da via sobre condições **perigosas** ou a **natureza do perigo** que está à frente, tornando o trânsito mais seguro.
+    
+- **Características:** Têm formato quadrado (com uma das diagonais na vertical), e a cor predominante é **amarela**. Placas de obras são amarelas/laranjas.
+    
+- **Exemplos:** A−1a (Curva Acentuada à Esquerda), A−3a (Pista Sinuosa), A−42a (Rua Sem Saída).
+    
+
+### 3. Sinalização de Indicação
+
+- **Função:** Fornecer aos condutores e pedestres **informações úteis** para o deslocamento.
+    
+- **Características:** Não geram obrigações nem advertem perigo (com exceção das placas de serviço). Usam diversas cores dependendo do tipo de informação:
+    
+    - **Azul e Branca:** Serviços auxiliares, educação, identificação de rodovias.
+        
+    - **Verde:** Direção e destino.
+        
+    - **Marrom:** Atrativos turísticos.
 
 ![](attachments/Pasted%20image%2020251010183449.png)
 ![](attachments/Pasted%20image%2020251010183503.png)
