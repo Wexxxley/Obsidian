@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "13_Autoescola/4_Infrações.md",
+                "file": "13_Autoescola/1_Cidadania & Meio Ambiente.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Infrações"
+              "title": "1_Cidadania & Meio Ambiente"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13_Autoescola/4_Infrações.md",
+                "file": "13_Autoescola/1_Cidadania & Meio Ambiente.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 4_Infrações"
+              "title": "Outline of 1_Cidadania & Meio Ambiente"
             }
           },
           {
@@ -182,14 +182,15 @@
   },
   "active": "bd00deaa9ad88e28",
   "lastOpenFiles": [
+    "13_Autoescola/2_Legislação de Transito.md",
+    "13_Autoescola/3_Legislação de Transito.md",
+    "13_Autoescola/4_Infrações.md",
+    "Untitled 1.md",
     "attachments/Pasted image 20251009205807.png",
     "attachments/Pasted image 20251009205720.png",
     "attachments/Pasted image 20251009205542.png",
     "attachments/Pasted image 20251009191820.png",
     "attachments/Pasted image 20251009190740.png",
-    "13_Autoescola/3_Legislação de Transito.md",
-    "13_Autoescola/2_Legislação de Transito.md",
-    "13_Autoescola/4_Infrações.md",
     "2_Redes de computadores/1_Overview/8_Tipos de comunicação em redes de computadores.md",
     "12_Sistemas Distribuídos/Cap4/2_Representação Externa de Dados.md",
     "12_Sistemas Distribuídos/Cap4/1_Comunicação entre processos.md",
@@ -210,7 +211,6 @@
     "attachments/Pasted image 20251008214005.png",
     "attachments/Pasted image 20251008213555.png",
     "attachments/Pasted image 20251008205040.png",
-    "attachments/Pasted image 20251008201842.png",
     "12_Sistemas Distribuídos/Cap1/3_Desafios para sistemas distribuídos.md",
     "12_Sistemas Distribuídos/Cap1/1_Introdução.md",
     "12_Sistemas Distribuídos/Cap1/2_Exemplos essenciais e desafios.md",
