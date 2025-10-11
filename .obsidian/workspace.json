@@ -11,14 +11,12 @@
             "id": "bd00deaa9ad88e28",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "13_Autoescola/2_Legislação de Transito.md",
-                "mode": "source",
-                "source": false
+                "file": "13_Autoescola/5_Sinalização.pdf"
               },
-              "icon": "lucide-file",
-              "title": "2_Legislação de Transito"
+              "icon": "lucide-file-text",
+              "title": "5_Sinalização"
             }
           }
         ]
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13_Autoescola/2_Legislação de Transito.md",
+                "file": "13_Autoescola/5_Sinalização.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_Legislação de Transito"
+              "title": "Outline of 5_Sinalização"
             }
           },
           {
@@ -182,6 +180,7 @@
   },
   "active": "bd00deaa9ad88e28",
   "lastOpenFiles": [
+    "13_Autoescola/2_Legislação de Transito.md",
     "13_Autoescola/3_Legislação de Transito.md",
     "13_Autoescola/4_Infrações e penalidades.md",
     "13_Autoescola/5_Sinalização.pdf",
@@ -192,7 +191,6 @@
     "attachments/Pasted image 20251010183526.png",
     "attachments/Pasted image 20251010183503.png",
     "attachments/Pasted image 20251010183449.png",
-    "13_Autoescola/2_Legislação de Transito.md",
     "13_Autoescola/1_Cidadania & Meio Ambiente.md",
     "13_Autoescola/Untitled",
     "Untitled 1.md",
