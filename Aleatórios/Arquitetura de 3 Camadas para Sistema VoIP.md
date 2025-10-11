@@ -1,5 +1,9 @@
 
+---
+
 # **1. ARQUITETURA**
+
+---
 #### Camada 1: Apresentação (Cliente)
 
 **Componente**: Cliente VoIP Desktop.
@@ -56,30 +60,29 @@
     4. O Servidor de Sinalização envia o INVITE para o Cliente do chamado.
     5. O Cliente do Chamado envia ACCEPT (via TCP) para o Servidor de Sinalização.
     6. O Servidor de Sinalização atualiza o estado de ambos para **`Em Chamada`** e reencaminha o `ACCEPT` para o Chamador.
-    7. Ambos os **Clientes** começam a enviar áudio **UDP** para o **Servidor de Mídia** 
+    7. Ambos os Clientes começam a enviar áudio UDP para o Servidor de Mídia 
 
 **UC-03: Encerrar uma Chamada**
 - **Objetivo:** Finalizar a comunicação e liberar recursos.
-- **Fluxo:** O **Utilizador (A ou B)** clica em "Desligar" → **Cliente** envia `BYE` para **Servidor de Sinalização (TCP)** → **Servidor** envia `BYE` para o outro **Cliente** e atualiza o estado de ambos para **`Online`** → **Servidor** informa o **Servidor de Mídia** para **destruir a Sessão de Mídia**.
+- **Fluxo:** O Utilizador (A ou B) clica em "Desligar" → Cliente envia `BYE` para Servidor de Sinalização (TCP) → Servidor envia `BYE` para o outro Cliente e atualiza o estado de ambos para Online → Servidor informa o Servidor de Mídia para *destruir a Sessão de Mídia.
 
  **UC-04: Transmissão de Áudio**
 - **Objetivo:** Transportar o fluxo de áudio em tempo real com baixa latência entre os dois clientes, utilizando o Media Relay.
 - **Pré-condição:** A chamada foi estabelecida com sucesso (UC-02 concluído) e o Servidor de Mídia tem uma sessão ativa.
 - **Fluxo Detalhado:**
-    1. O **Cliente (A)** capta e empacota o áudio num pacote **UDP**.
-    2. O **Cliente (A)** envia o pacote UDP para o IP/Porta do **Servidor de Mídia**, incluindo o ID da Sessão (ou a informação necessária para o Servidor o identificar).
-    3. O **Servidor de Mídia (C++)** recebe o pacote UDP.
-    4. O **Servidor de Mídia** utiliza o ID da Sessão e a porta de origem do pacote para identificar o Cliente de destino (Cliente B).
-    5. O **Servidor de Mídia** _reencaminha_ (_relay_) o pacote **UDP** para o endereço do **Cliente B**.
-    6. O **Cliente B** recebe o pacote, desempacota e reproduz o áudio.
-    7. Este fluxo ocorre em simultâneo e continuamente em ambas as direções (A ↔ B) até o UC-03.
+    1. O Cliente (A) capta e empacota o áudio num pacote UDP.
+    2. O Cliente (A) envia o pacote UDP para o Servidor de Mídia, incluindo o ID da Sessão.
+    3. O Servidor de Mídia recebe o pacote UDP e utiliza o ID da Sessão e a porta de origem do pacote para identificar o Cliente de destino (Cliente B).
+    4. O Servidor de Mídia reencaminha o pacote UDP para o endereço do Cliente B.
+    5. O Cliente B recebe o pacote, desempacota e reproduz o áudio.
+    6. Este fluxo ocorre em simultâneo e continuamente em ambas as direções (A ↔ B) até o UC-03.
 
  **UC-05: Registo de Novo Utilizador**
 - **Objetivo:** Criar um novo registo de utilizador.
-- **Fluxo:** **Utilizador** insere dados de registo no **Cliente** → **Cliente** envia `REGISTO` para **Servidor de Sinalização (TCP)** → **Servidor** valida e persiste (com senha _hash_) no **Banco de Dados**.
+- **Fluxo:** Utilizador insere dados de registo no Cliente → Cliente envia `REGISTO` para Servidor de Sinalização (TCP) → Servidor valida e persiste no Banco de Dados.
 
 **UC-06: Gestão de Presença e Contactos**
 - **Objetivo:** Fornecer visibilidade sobre o estado dos contactos.
-- **Fluxo Principal:** **Cliente** solicita lista e estados ao **Servidor de Sinalização** após login (consulta DB + consulta estado de runtime) → **Servidor** retorna lista/estados → Quando o estado muda, **Servidor** envia proativamente `STATUS_UPDATE` (push) para Clientes subscritos (os que têm o utilizador na lista).
+- **Fluxo Principal:** Cliente solicita lista e estados ao Servidor de Sinalização após login → Servidor retorna lista/estados → Quando o estado muda, Servido envia proativamente `STATUS_UPDATE` para Clientes subscritos (os que têm o utilizador na lista).
 
 
