@@ -18,48 +18,34 @@ A arquitetura utiliza um Servidor de Mídia (Media Relay) na camada de lógica, 
 #### Camada 2: Lógica/Aplicação (Backend)
 Esta camada é composta por dois serviços distintos, cada um com uma tecnologia otimizada para a sua função.
 
-Componente 2a: Servidor de Sinalização
+**Componente 2a**: Servidor de Sinalização
 
-Linguagem Proposta: Python.
+**Linguagem Proposta:** Python.Perfeito para tarefas de rede I/O-bound (entrada/saída). O desenvolvimento é extremamente rápido para a lógica de controlo, gestão de estado e manipulação de mensagens de texto/JSON do protocolo.
 
-Justificativa: Perfeito para tarefas de rede I/O-bound (entrada/saída). O desenvolvimento é extremamente rápido para a lógica de controlo, gestão de estado e manipulação de mensagens de texto/JSON do protocolo.
+**Responsabilidades:**
 
-Responsabilidades:
+- Gerir conexões TCP persistentes com os clientes.
+- Orquestrar todo o ciclo de vida da chamada (INVITE, ACCEPT, BYE).
+- Autenticar utilizadores, consultando a Camada de Dados.
+- Manter o estado de cada utilizador (Disponível, Em Chamada, etc.).
 
-Gerir conexões TCP persistentes com os clientes.
+**Componente 2b: Servidor de Mídia (Media Relay)**
 
-Orquestrar todo o ciclo de vida da chamada (INVITE, ACCEPT, BYE).
+Linguagem Proposta: C++.cEsta é uma tarefa de alta performance. O servidor precisa de reencaminhar milhares de pacotes UDP por segundo com a menor latência possível. 
 
-Autenticar utilizadores, consultando a Camada de Dados.
+**Responsabilidades:**
+- Receber pacotes UDP de um cliente.
+- Identificar a sessão da chamada.
+- Reencaminhar (fazer o "relay") o pacote para o outro cliente na sessão.
 
-Manter o estado de cada utilizador (Disponível, Em Chamada, etc.).
+#### Camada 3: Dados (Persistência)
 
-Componente 2b: Servidor de Mídia (Media Relay)
-
-Linguagem Proposta: C++ ou Go.
-
-Justificativa: Esta é uma tarefa de alta performance. O servidor precisa de reencaminhar milhares de pacotes UDP por segundo com a menor latência possível. C++ ou Go são ideais por serem compilados, terem um controlo preciso sobre a rede e um overhead mínimo.
-
-Responsabilidades:
-
-Receber pacotes UDP de um cliente.
-
-Identificar a sessão da chamada.
-
-Reencaminhar (fazer o "relay") o pacote para o outro cliente na sessão.
-
-Camada 3: Dados (Persistência)
-Componente: Banco de Dados Relacional.
+**Componente**: Banco de Dados Relacional.
 
 Tecnologia Proposta: PostgreSQL (para um sistema robusto) ou SQLite (para simplicidade).
 
-Responsabilidades:
+Responsabilidades: Armazenar de forma segura os dados dos utilizadores (nomes, senhas criptografadas). Manter listas de contactos e outras informações persistentes. Fornecer uma fonte de verdade para a autenticação realizada pela Camada de Lógica.
 
-Armazenar de forma segura os dados dos utilizadores (nomes, senhas criptografadas).
-
-Manter listas de contactos e outras informações persistentes.
-
-Fornecer uma fonte de verdade para a autenticação realizada pela Camada de Lógica.
 
 2. Casos de Uso Principais
 UC-01: Autenticação de Utilizador
