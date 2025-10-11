@@ -60,34 +60,15 @@ Linguagem Proposta: C++. Esta é uma tarefa de alta performance. O servidor prec
 
 **UC-04:** Registo de Novo Utilizador
 **Pré-condição:** O utilizador não possui conta; o Servidor está operacional.
-**Fluxo:** O **Utilizador** insere os dados de registo (Nome, Senha, etc.) no **Cliente**. O **Cliente** envia a solicitação de `REGISTO` para o **Servidor de Sinalização**. O **Servidor de Sinalização** valida a unicidade do Nome de Utilizador e persiste no .
-        
-    4. O **Servidor de Sinalização** calcula o _hash_ da senha.
-        
-    5. O **Servidor de Sinalização** armazena os dados do novo utilizador no **Banco de Dados**.
-        
-    6. O **Servidor de Sinalização** retorna a mensagem de `Registo Concluído` para o **Cliente**.
-        
+**Fluxo:** O **Utilizador** insere os dados de registo (Nome, Senha, etc.) no **Cliente**. O **Cliente** envia a solicitação de `REGISTO` para o **Servidor de Sinalização**. O **Servidor de Sinalização** valida a unicidade do Nome de Utilizador e persiste no db.
 
-#### **UC-06: Atualização de Presença e Contactos** (Novo)
-
-- **Objetivo:** Fornecer aos utilizadores visibilidade sobre o estado dos seus contactos.
-    
-- **Pré-condição:** O utilizador está autenticado.
-    
-- **Fluxo Principal:**
-    
-    1. Após o UC-01, o **Cliente** envia uma solicitação de `Lista de Contactos` para o **Servidor de Sinalização**.
-        
-    2. O **Servidor de Sinalização** consulta o **Banco de Dados** para obter os contactos do utilizador.
-        
-    3. O **Servidor de Sinalização** consulta o seu estado de tempo real para obter a **Presença** (Online/Em Chamada/Offline) de cada contacto.
-        
-    4. O **Servidor de Sinalização** envia a lista de contactos e o estado de presença de volta para o **Cliente**.
-        
-    5. **Quando o estado de um utilizador muda** (e.g., de `Online` para `Em Chamada`), o **Servidor de Sinalização** envia proativamente (push) uma mensagem de `STATUS_UPDATE` a todos os Clientes que têm esse utilizador na sua lista de contactos.
-        
-    6. Os **Clientes** atualizam a GUI para refletir o novo estado de presença.
+**UC-06:** Fornecer aos utilizadores visibilidade sobre o estado dos seus contactos.
+**Pré-condição:** O utilizador está autenticado.
+**Fluxo Principal:** 
+- Após o UC-01, o Cliente envia uma solicitação de `Lista de Contactos` para o Servidor, que entao consulta o Banco de Dados para obter os contactos do utilizador. 
+- O Servidor consulta o seu estado de tempo real (Online/Em Chamada/Offline) de cada contacto. O Servidor envia a lista de contactos e o estado de presença de volta para o **Cliente**. 
+- Quando o estado de um utilizador muda, o Servidor envia proativamente uma mensagem de STATUS_UPDATE a todos os Clientes que têm esse utilizador na sua lista de contactos.
+- Os Clientes atualizam a GUI para refletir o novo estado de presença.
 
 
 3. Exemplo Prático: Fluxo de uma Chamada Completa
