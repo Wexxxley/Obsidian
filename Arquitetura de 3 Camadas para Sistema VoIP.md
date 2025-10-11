@@ -1,25 +1,21 @@
 
-Esta arquitetura implementa um sistema de comunicação por voz (VoIP) seguindo estritamente o modelo de 3 camadas para garantir a separação de responsabilidades, segurança e escalabilidade. A arquitetura utiliza um Servidor de Mídia (Media Relay) na camada de lógica, assegurando que a comunicação funcione de forma fiável em qualquer cenário de rede. O design distingue claramente o Plano de Controle (gerido via TCP) e o Plano de Dados (gerido via UDP), ambos orquestrados pela camada de lógica.
+A arquitetura utiliza um Servidor de Mídia (Media Relay) na camada de lógica, assegurando que a comunicação funcione de forma fiável em qualquer cenário de rede. O design distingue claramente o Plano de Controle (gerido via TCP) e o Plano de Dados (gerido via UDP), ambos orquestrados pela camada de lógica.
 
-1. Detalhamento das Camadas e Tecnologias
-Camada 1: Apresentação (Cliente)
-Componente: Cliente VoIP Desktop.
+## 1. Detalhamento das Camadas e Tecnologias
 
-Linguagem Proposta: C++.
+#### Camada 1: Apresentação (Cliente)
 
-Justificativa: Essencial para aplicações em tempo real. C++ oferece o controlo de baixo nível necessário para a captura/reprodução de áudio com mínima latência, performance previsível (sem pausas de garbage collector) e acesso direto a bibliotecas de processamento de áudio (como o codec Opus).
+**Componente**: Cliente VoIP Desktop.
 
-Responsabilidades:
+**Linguagem Proposta:** C++. Essencial para aplicações em tempo real. C++ oferece o controlo de baixo nível necessário para a captura/reprodução de áudio com mínima latência, performance previsível (sem pausas de garbage collector) e acesso direto a bibliotecas de processamento de áudio (como o codec Opus).
 
-Apresentar a Interface do Utilizador (GUI).
+**Responsabilidades:**
+- Apresentar a Interface do Utilizador (GUI).
+- Gerir a interação do utilizador (login, ligar, desligar).
+- Comunicar com a Camada de Lógica (Sinalização) via TCP.
+- Enviar e receber o fluxo de áudio (UDP) para/de a Camada de Lógica (Media Relay).
 
-Gerir a interação do utilizador (login, ligar, desligar).
-
-Comunicar com a Camada de Lógica (Sinalização) via TCP.
-
-Enviar e receber o fluxo de áudio (UDP) para/de a Camada de Lógica (Media Relay).
-
-Camada 2: Lógica/Aplicação (Backend)
+#### Camada 2: Lógica/Aplicação (Backend)
 Esta camada é composta por dois serviços distintos, cada um com uma tecnologia otimizada para a sua função.
 
 Componente 2a: Servidor de Sinalização
