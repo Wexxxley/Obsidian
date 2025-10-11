@@ -1,5 +1,5 @@
 
----
+# **1. ARQUITETURA**
 #### Camada 1: Apresentação (Cliente)
 
 **Componente**: Cliente VoIP Desktop.
@@ -22,8 +22,7 @@
 - Manter o estado de cada utilizador (Disponível, Em Chamada, etc.).
 
 **Componente 2b: Servidor de Mídia (Media Relay)**
-
-Linguagem Proposta: C++. Esta é uma tarefa de alta performance. O servidor precisa de reencaminhar milhares de pacotes UDP por segundo com a menor latência possível. 
+**Linguagem**: C++. Esta é uma tarefa de alta performance. 
 **Responsabilidades:**
 - Receber pacotes UDP de um cliente.
 - Identificar a sessão da chamada.
@@ -33,15 +32,15 @@ Linguagem Proposta: C++. Esta é uma tarefa de alta performance. O servidor prec
 #### Camada 3: Dados
 
 **Componente**: Banco de Dados Relacional.
-
 **Tecnologia Proposta:** PostgreSQL (para um sistema robusto) ou SQLite (para simplicidade).
-
 **Responsabilidades**:
 - Armazenar de forma segura os dados dos utilizadores (nomes, senhas criptografadas). 
 - Manter listas de contactos e outras informações persistentes. 
 - Fornecer uma fonte de verdade para a autenticação realizada pela Camada de Lógica.
 
 ---
+
+# 2. CASOS DE USO
 
 **UC-01: Autenticação de Utilizador** 
 - **Objetivo:** Permitir que o utilizador aceda ao sistema de forma segura.
@@ -51,64 +50,36 @@ Linguagem Proposta: C++. Esta é uma tarefa de alta performance. O servidor prec
 - **Objetivo:** Estabelecer a sessão de sinalização e coordenar o início da transmissão de mídia.
 - **Pré-condição:** Ambos os utilizadores estão autenticados e `Online`.
 - **Fluxo Detalhado:**
-    1. O **Chamador** clica em "Ligar".
-    2. O **Cliente do Chamador** envia `INVITE` (via TCP) contendo seu endereço de conexão de mídia (IP/Porta) para o **Servidor de Sinalização**.
-    3. O **Servidor de Sinalização**: Verifica o estado do Chamado →  Gera uma nova Sessão de Mídia (ID Único) para a chamada → Informa o Servidor de Mídia sobre esta nova sessão.
-    4. O **Servidor de Sinalização** envia o `INVITE` (com o ID da Sessão e o endereço do Media Relay) para o **Cliente do Chamado**.
-        
-    5. O **Chamado** aceita a chamada.
-        
-    6. O **Cliente do Chamado** envia `ACCEPT` (via TCP) para o **Servidor de Sinalização**.
-        
-    7. O **Servidor de Sinalização** atualiza o estado de ambos para **`Em Chamada`** e reencaminha o `ACCEPT` para o Chamador.
-        
-    8. Ambos os **Clientes** começam a enviar áudio **UDP** para o **Servidor de Mídia** (referenciando o ID da Sessão). **(Segue UC-04)**
-        
+    1. O Chamador clica em "Ligar".
+    2. O Cliente do Chamador envia INVITE (via TCP) contendo seu endereço de conexão para o Servidor de Sinalização.
+    3. O Servidor de Sinalização: Verifica o estado do Chamado →  Gera uma nova Sessão de Mídia (ID Único) para a chamada → Informa o Servidor de Mídia sobre esta nova sessão.
+    4. O Servidor de Sinalização envia o INVITE para o Cliente do chamado.
+    5. O Cliente do Chamado envia ACCEPT (via TCP) para o Servidor de Sinalização.
+    6. O Servidor de Sinalização atualiza o estado de ambos para **`Em Chamada`** e reencaminha o `ACCEPT` para o Chamador.
+    7. Ambos os **Clientes** começam a enviar áudio **UDP** para o **Servidor de Mídia** 
 
-#### **UC-03: Encerrar uma Chamada** (Mantido)
-
+**UC-03: Encerrar uma Chamada**
 - **Objetivo:** Finalizar a comunicação e liberar recursos.
-    
 - **Fluxo:** O **Utilizador (A ou B)** clica em "Desligar" → **Cliente** envia `BYE` para **Servidor de Sinalização (TCP)** → **Servidor** envia `BYE` para o outro **Cliente** e atualiza o estado de ambos para **`Online`** → **Servidor** informa o **Servidor de Mídia** para **destruir a Sessão de Mídia**.
-    
 
-#### **UC-05: Registo de Novo Utilizador** (Renomeado e Mantido)
-
-- **Objetivo:** Criar um novo registo de utilizador.
-    
-- **Fluxo:** **Utilizador** insere dados de registo no **Cliente** → **Cliente** envia `REGISTO` para **Servidor de Sinalização (TCP)** → **Servidor** valida e persiste (com senha _hash_) no **Banco de Dados**.
-    
-
-#### **UC-06: Gestão de Presença e Contactos** (Mantido)
-
-- **Objetivo:** Fornecer visibilidade sobre o estado dos contactos.
-    
-- **Fluxo Principal:** **Cliente** solicita lista e estados ao **Servidor de Sinalização** após login (consulta DB + consulta estado de runtime) → **Servidor** retorna lista/estados → Quando o estado muda, **Servidor** envia proativamente `STATUS_UPDATE` (push) para Clientes subscritos (os que têm o utilizador na lista).
-    
-
----
-
-### B. Casos de Uso de Dados (Mídia/Tempo Real)
-
-#### **UC-04: Transmissão de Áudio (Media Relay)** **(ADICIONADO E ESSENCIAL)**
-
+ **UC-04: Transmissão de Áudio**
 - **Objetivo:** Transportar o fluxo de áudio em tempo real com baixa latência entre os dois clientes, utilizando o Media Relay.
-    
 - **Pré-condição:** A chamada foi estabelecida com sucesso (UC-02 concluído) e o Servidor de Mídia tem uma sessão ativa.
-    
 - **Fluxo Detalhado:**
-    
     1. O **Cliente (A)** capta e empacota o áudio num pacote **UDP**.
-        
     2. O **Cliente (A)** envia o pacote UDP para o IP/Porta do **Servidor de Mídia**, incluindo o ID da Sessão (ou a informação necessária para o Servidor o identificar).
-        
     3. O **Servidor de Mídia (C++)** recebe o pacote UDP.
-        
     4. O **Servidor de Mídia** utiliza o ID da Sessão e a porta de origem do pacote para identificar o Cliente de destino (Cliente B).
-        
     5. O **Servidor de Mídia** _reencaminha_ (_relay_) o pacote **UDP** para o endereço do **Cliente B**.
-        
     6. O **Cliente B** recebe o pacote, desempacota e reproduz o áudio.
-        
-    7. _Este fluxo ocorre em simultâneo e continuamente em ambas as direções (A ↔ B) até o UC-03._
+    7. Este fluxo ocorre em simultâneo e continuamente em ambas as direções (A ↔ B) até o UC-03.
+
+ **UC-05: Registo de Novo Utilizador**
+- **Objetivo:** Criar um novo registo de utilizador.
+- **Fluxo:** **Utilizador** insere dados de registo no **Cliente** → **Cliente** envia `REGISTO` para **Servidor de Sinalização (TCP)** → **Servidor** valida e persiste (com senha _hash_) no **Banco de Dados**.
+
+**UC-06: Gestão de Presença e Contactos**
+- **Objetivo:** Fornecer visibilidade sobre o estado dos contactos.
+- **Fluxo Principal:** **Cliente** solicita lista e estados ao **Servidor de Sinalização** após login (consulta DB + consulta estado de runtime) → **Servidor** retorna lista/estados → Quando o estado muda, **Servidor** envia proativamente `STATUS_UPDATE` (push) para Clientes subscritos (os que têm o utilizador na lista).
+
 
