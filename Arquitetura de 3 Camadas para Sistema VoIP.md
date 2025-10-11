@@ -1,29 +1,25 @@
 
 A arquitetura utiliza um Servidor de Mídia (Media Relay) na camada de lógica, assegurando que a comunicação funcione de forma fiável em qualquer cenário de rede. O design distingue claramente o Plano de Controle (gerido via TCP) e o Plano de Dados (gerido via UDP), ambos orquestrados pela camada de lógica.
 
-## 1. Detalhamento das Camadas e Tecnologias
-
+---
 #### Camada 1: Apresentação (Cliente)
 
 **Componente**: Cliente VoIP Desktop.
 
-**Linguagem Proposta:** C++. Essencial para aplicações em tempo real. C++ oferece o controlo de baixo nível necessário para a captura/reprodução de áudio com mínima latência, performance previsível (sem pausas de garbage collector) e acesso direto a bibliotecas de processamento de áudio (como o codec Opus).
-
+**Linguagem:** C++. Essencial para aplicações em tempo real. C++ oferece o controlo de baixo nível necessário para a captura/reprodução de áudio com mínima latência.
 **Responsabilidades:**
 - Apresentar a Interface do Utilizador (GUI).
 - Gerir a interação do utilizador (login, ligar, desligar).
 - Comunicar com a Camada de Lógica (Sinalização) via TCP.
-- Enviar e receber o fluxo de áudio (UDP) para/de a Camada de Lógica (Media Relay).
+- Enviar e receber o fluxo de áudio (UDP) para a Camada de Lógica (Media Relay).
 
-#### Camada 2: Lógica/Aplicação (Backend)
-Esta camada é composta por dois serviços distintos, cada um com uma tecnologia otimizada para a sua função.
+---
+#### Camada 2: Lógica (Backend)
 
 **Componente 2a**: Servidor de Sinalização
 
-**Linguagem Proposta:** Python.Perfeito para tarefas de rede I/O-bound (entrada/saída). O desenvolvimento é extremamente rápido para a lógica de controlo, gestão de estado e manipulação de mensagens de texto/JSON do protocolo.
-
+**Linguagem Proposta:** Python. Perfeito para tarefas de rede (entrada/saída). O desenvolvimento é extremamente rápido para a lógica de controle, gestão de estado e manipulação de mensagens de texto/JSON do protocolo.
 **Responsabilidades:**
-
 - Gerir conexões TCP persistentes com os clientes.
 - Orquestrar todo o ciclo de vida da chamada (INVITE, ACCEPT, BYE).
 - Autenticar utilizadores, consultando a Camada de Dados.
@@ -31,23 +27,26 @@ Esta camada é composta por dois serviços distintos, cada um com uma tecnologia
 
 **Componente 2b: Servidor de Mídia (Media Relay)**
 
-Linguagem Proposta: C++.cEsta é uma tarefa de alta performance. O servidor precisa de reencaminhar milhares de pacotes UDP por segundo com a menor latência possível. 
-
+Linguagem Proposta: C++. Esta é uma tarefa de alta performance. O servidor precisa de reencaminhar milhares de pacotes UDP por segundo com a menor latência possível. 
 **Responsabilidades:**
 - Receber pacotes UDP de um cliente.
 - Identificar a sessão da chamada.
 - Reencaminhar (fazer o "relay") o pacote para o outro cliente na sessão.
 
-#### Camada 3: Dados (Persistência)
+---
+#### Camada 3: Dados
 
 **Componente**: Banco de Dados Relacional.
 
-Tecnologia Proposta: PostgreSQL (para um sistema robusto) ou SQLite (para simplicidade).
+**Tecnologia Proposta:** PostgreSQL (para um sistema robusto) ou SQLite (para simplicidade).
 
-Responsabilidades: Armazenar de forma segura os dados dos utilizadores (nomes, senhas criptografadas). Manter listas de contactos e outras informações persistentes. Fornecer uma fonte de verdade para a autenticação realizada pela Camada de Lógica.
+**Responsabilidades**:
+- Armazenar de forma segura os dados dos utilizadores (nomes, senhas criptografadas). 
+- Manter listas de contactos e outras informações persistentes. 
+- Fornecer uma fonte de verdade para a autenticação realizada pela Camada de Lógica.
 
-
-2. Casos de Uso Principais
+---
+#### Casos de Uso Principais
 UC-01: Autenticação de Utilizador
 
 Ator: Utilizador.
