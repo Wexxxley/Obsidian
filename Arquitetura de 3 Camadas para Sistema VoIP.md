@@ -46,26 +46,49 @@ Linguagem Proposta: C++. Esta é uma tarefa de alta performance. O servidor prec
 - Fornecer uma fonte de verdade para a autenticação realizada pela Camada de Lógica.
 
 ---
-#### Casos de Uso Principais
-UC-01: Autenticação de Utilizador
+#### Casos de Uso
 
-Ator: Utilizador.
+**UC-01:** Autenticação de Utilizador
+**Fluxo**: O utilizador abre o cliente, insere as credenciais. O Cliente (Apresentação) envia-as para o Servidor de Sinalização (Lógica). O Servidor valida as credenciais com o Banco de Dados e retorna sucesso ou falha.
 
-Fluxo: O utilizador abre o cliente, insere as credenciais. O Cliente (Apresentação) envia-as para o Servidor de Sinalização (Lógica). O Servidor valida as credenciais contra o Banco de Dados (Dados) e retorna sucesso ou falha.
+**UC-02:** Iniciar uma Chamada
+**Pré-condição:** Ambos os utilizadores estão autenticados e online.
+**Fluxo**: O Chamador seleciona um contato e clica em "Ligar". O Cliente (Apresentação) envia uma mensagem  para o Servidor de Sinalização, que orquestra o convite para o outro utilizador.
 
-UC-02: Realizar uma Chamada
+**UC-03:** Encerrar uma Chamada
+**Fluxo**: O utilizador (qualquer um) clica em "Desligar". O Cliente envia uma mensagem BYE para o Servidor de Sinalização, que informa o outro participante e atualiza o estado de ambos.
 
-Ator: Chamador.
+**UC-04:** Registo de Novo Utilizador
+**Pré-condição:** O utilizador não possui conta; o Servidor está operacional.
+**Fluxo:** O **Utilizador** insere os dados de registo (Nome, Senha, etc.) no **Cliente**. O **Cliente** envia a solicitação de `REGISTO` para o **Servidor de Sinalização**. O **Servidor de Sinalização** valida a unicidade do Nome de Utilizador e persiste no .
+        
+    4. O **Servidor de Sinalização** calcula o _hash_ da senha.
+        
+    5. O **Servidor de Sinalização** armazena os dados do novo utilizador no **Banco de Dados**.
+        
+    6. O **Servidor de Sinalização** retorna a mensagem de `Registo Concluído` para o **Cliente**.
+        
 
-Pré-condição: Ambos os utilizadores estão autenticados e online.
+#### **UC-06: Atualização de Presença e Contactos** (Novo)
 
-Fluxo: O Chamador seleciona um contacto e clica em "Ligar". O Cliente (Apresentação) envia uma mensagem INVITE para o Servidor de Sinalização (Lógica), que orquestra o convite para o outro utilizador.
+- **Objetivo:** Fornecer aos utilizadores visibilidade sobre o estado dos seus contactos.
+    
+- **Pré-condição:** O utilizador está autenticado.
+    
+- **Fluxo Principal:**
+    
+    1. Após o UC-01, o **Cliente** envia uma solicitação de `Lista de Contactos` para o **Servidor de Sinalização**.
+        
+    2. O **Servidor de Sinalização** consulta o **Banco de Dados** para obter os contactos do utilizador.
+        
+    3. O **Servidor de Sinalização** consulta o seu estado de tempo real para obter a **Presença** (Online/Em Chamada/Offline) de cada contacto.
+        
+    4. O **Servidor de Sinalização** envia a lista de contactos e o estado de presença de volta para o **Cliente**.
+        
+    5. **Quando o estado de um utilizador muda** (e.g., de `Online` para `Em Chamada`), o **Servidor de Sinalização** envia proativamente (push) uma mensagem de `STATUS_UPDATE` a todos os Clientes que têm esse utilizador na sua lista de contactos.
+        
+    6. Os **Clientes** atualizam a GUI para refletir o novo estado de presença.
 
-UC-03: Encerrar uma Chamada
-
-Ator: Qualquer utilizador na chamada.
-
-Fluxo: O utilizador clica em "Desligar". O Cliente (Apresentação) envia uma mensagem BYE para o Servidor de Sinalização (Lógica), que informa o outro participante e atualiza o estado de ambos.
 
 3. Exemplo Prático: Fluxo de uma Chamada Completa
 Cenário: ana quer ligar para bia. Ambos estão em Quixadá e online.
