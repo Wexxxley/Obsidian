@@ -11,12 +11,14 @@
             "id": "bd00deaa9ad88e28",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "13_Autoescola/5_Sinalização.pdf"
+                "file": "Arquitetura de 3 Camadas para Sistema VoIP.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "5_Sinalização"
+              "icon": "lucide-file",
+              "title": "Arquitetura de 3 Camadas para Sistema VoIP"
             }
           }
         ]
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13_Autoescola/5_Sinalização.pdf",
+                "file": "Arquitetura de 3 Camadas para Sistema VoIP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 5_Sinalização"
+              "title": "Outline of Arquitetura de 3 Camadas para Sistema VoIP"
             }
           },
           {
@@ -180,10 +182,11 @@
   },
   "active": "bd00deaa9ad88e28",
   "lastOpenFiles": [
+    "Untitled.md",
+    "13_Autoescola/5_Sinalização.pdf",
     "13_Autoescola/2_Legislação de Transito.md",
     "13_Autoescola/3_Legislação de Transito.md",
     "13_Autoescola/4_Infrações e penalidades.md",
-    "13_Autoescola/5_Sinalização.pdf",
     "13_Autoescola/5_Sinalização.md",
     "13_Autoescola/03-sinalizacao.pdf",
     "attachments/Pasted image 20251010183615.png",
@@ -193,7 +196,7 @@
     "attachments/Pasted image 20251010183449.png",
     "13_Autoescola/1_Cidadania & Meio Ambiente.md",
     "13_Autoescola/Untitled",
-    "Untitled 1.md",
+    "Arquitetura de 3 Camadas para Sistema VoIP.md",
     "attachments/Pasted image 20251009205807.png",
     "attachments/Pasted image 20251009205720.png",
     "attachments/Pasted image 20251009205542.png",
