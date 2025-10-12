@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12_Sistemas Distribuídos/Cap4/2_Representação Externa de Dados.md",
+                "file": "12_Sistemas Distribuídos/Cap4/3_Comunicação por multicast.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Representação Externa de Dados"
+              "title": "3_Comunicação por multicast"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12_Sistemas Distribuídos/Cap4/2_Representação Externa de Dados.md",
+                "file": "12_Sistemas Distribuídos/Cap4/3_Comunicação por multicast.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_Representação Externa de Dados"
+              "title": "Outline of 3_Comunicação por multicast"
             }
           },
           {
@@ -182,12 +182,13 @@
   },
   "active": "bd00deaa9ad88e28",
   "lastOpenFiles": [
+    "12_Sistemas Distribuídos/Cap4/1_Comunicação entre processos.md",
+    "12_Sistemas Distribuídos/Cap4/3_Comunicação por multicast.md",
+    "12_Sistemas Distribuídos/Cap4/2_Representação Externa de Dados.md",
     "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "Aleatórios/Observatório Legislativo - Transparência e Cidadania na Câmara dos Deputados.md",
     "Aleatórios/Como funciona.md",
     "Aleatórios/Arquitetura de 3 Camadas para Sistema VoIP.md",
-    "12_Sistemas Distribuídos/Cap4/2_Representação Externa de Dados.md",
-    "12_Sistemas Distribuídos/Cap4/1_Comunicação entre processos.md",
     "Aleatórios/Pedido de crenciais GIT.md",
     "Untitled.md",
     "13_Autoescola/5_Sinalização.pdf",
@@ -222,7 +223,6 @@
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
     "12_Sistemas Distribuídos/Cap1/3_Desafios para sistemas distribuídos.md",
-    "12_Sistemas Distribuídos/Cap1/1_Introdução.md",
     "12_Sistemas Distribuídos/Cap4",
     "12_Sistemas Distribuídos/Cap2",
     "12_Sistemas Distribuídos/Cap1",

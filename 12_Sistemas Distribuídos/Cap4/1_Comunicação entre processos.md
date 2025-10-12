@@ -19,6 +19,7 @@ O socket é definido como uma **abstração** que serve como ponto de destino pa
 - O soquete UDP é usado para enviar e receber datagramas **sem garantia de entrega**.
 - Um servidor associa seu soquete a uma **porta de serviço conhecida** para que os clientes possam enviar mensagens para lá.
 - O método de recebimento (`receive`) geralmente é **bloqueante** e, além da mensagem, retorna o endereço IP e a porta de origem, permitindo que o destinatário envie uma resposta.
+- O UDP é de **um para um**.
 
 #### **1.2 Comunicação por Fluxo (TCP)**
 A tupla ==(local IP, local porta, remoto IP, remoto porta)== identifica  a conexão.
@@ -28,6 +29,7 @@ A tupla ==(local IP, local porta, remoto IP, remoto porta)== identifica  a cone
 - O servidor cria um **soquete de "escuta"** , vinculado à porta de serviço, para esperar que os clientes solicitem conexões. O soquete de escuta mantém uma fila de pedidos de conexão recebidos.
 - Quando o servidor aceita uma conexão, um **novo soquete de fluxo é criado** especificamente para se comunicar com o cliente, enquanto o soquete de escuta permanece na porta de serviço para aceitar outros pedidos.
 - Os dados escritos em um fluxo são mantidos em uma fila no **soquete de destino**. Um processo que tenta ler dados será bloqueado até que os dados estejam disponíveis. Além disso, um processo de escrita pode ser bloqueado pelo controle de fluxo TCP se o soquete no outro lado estiver armazenando o volume máximo permitido de dados.
+- **Um para um orientado a conexão**
 
 ![](attachments/Pasted%20image%2020251009124402.png)
 
@@ -48,11 +50,8 @@ O modelo de comunicação por fluxo (como o **TCP**) lida com a transmissão e e
 - **Uso de Threads:** É comum que um servidor, ao aceitar uma conexão, crie uma **nova _thread_** para se comunicar com o cliente. A vantagem disso é que o servidor pode bloquear enquanto espera por dados (para leitura ou escrita) **sem atrasar outros clientes**.
 
 ---
-#### 4. Comunicação por Datagrama
+### 4. Comunicação por Datagrama
 O termo **datagrama** (como o **UDP**) refere-se a um modo de entrega de dados onde a distribuição de cada pacote é um **procedimento independente**.
 - **Características:** Nenhuma configuração é exigida e, uma vez que o pacote é entregue, a rede não mantém mais nenhuma informação sobre ele.
 - **Ordem:** Em uma rede baseada em datagramas, uma sequência de pacotes pode seguir rotas diferentes, podendo **chegar fora da sequência** em que foram emitidos.
 - **Uso:** Embora datagramas sejam frequentemente usados para fluxos de dados multimídia em tempo real (como quadros de vídeo), a operação `receive` em soquetes de datagrama é tipicamente bloqueante, a não ser que um tempo limite seja configurado.
-
-
-A passagem de mensagens e a invocação remota (construída sobre esses protocolos de baixo nível) são paradigmas de comunicação que geralmente são **acoplados no espaço** e **acoplados no tempo**. O acoplamento temporal significa que o destinatário precisa estar presente no momento do envio da mensagem.

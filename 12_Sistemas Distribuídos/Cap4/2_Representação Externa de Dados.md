@@ -19,7 +19,4 @@ As duas primeiras estratégias (CDR do CORBA e Serialização Java) empacotam ti
 #### Endereçamento de Objetos Remotos
 Quando um cliente invoca um método em um objeto remoto, a mensagem de invocação deve especificar **qual objeto em particular** deve executar o método. A referência de objeto remoto é o identificador desse objeto e é passado na mensagem de invocação.
 
-Em algumas formas de referência de objeto remoto, o endereço IP e a porta podem ser usados diretamente como endereço para enviar mensagens de invocação. Contudo, para permitir que objetos remotos sejam migrados para outro computador, a referência de objeto remoto não deve ser usada como endereço. Sistemas como Pastry e Tapestry (Capítulo 10) utilizam uma forma de referência de objeto remoto **completamente independente da localização**.
-
-
 
