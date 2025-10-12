@@ -188,71 +188,29 @@ Esta é a primeira coisa que o utilizador vê.  Uma única janela que pode alter
         - `[Label]` Nickname do contacto.
         - `[Botão]` **Ligar**. Este botão deve estar **desativado** se o status do contacto não for `Online`.
             
-- **Gestão de Contactos:**
-    
+- **Gestão de Contatos:**
     - `[Botão]` **Adicionar Contacto**. Ao ser clicado, abre a janela de busca.
-        
-    - `[Área de Notificação/Botão]` **Pedidos de Amizade** (com um contador, ex: "Pedidos (2)"). Ao ser clicado, exibe a lista de pedidos pendentes.
-        
 
-#### **3. Diálogos e Pop-ups (Janelas Modais)**
+---
+#### **3. Janelas adicionais**
 
 Estas são janelas menores que aparecem sobre a janela principal para tarefas específicas.
 
 - **Diálogo de Adicionar Contacto:**
-    
     - `[Campo de Texto]` "Procurar por nickname...".
-        
     - `[Botão]` **Procurar**.
-        
-    - `[Área de Resultados]` Uma lista mostrando os utilizadores encontrados.
-        
-    - **Para cada resultado da busca:**
-        
-        - `[Label]` Nickname do utilizador encontrado.
-            
-        - `[Botão]` **Enviar Pedido**.
-            
-    - `[Área de Texto/Label]` Para feedback (ex: "Utilizador não encontrado", "Pedido enviado!", "Vocês já são contactos").
-        
-- **Diálogo de Pedidos de Amizade:**
-    
-    - Uma lista de pedidos recebidos.
-        
-    - **Para cada pedido na lista:**
-        
-        - `[Label]` "Pedido de **maria_abc**".
-            
-        - `[Botão]` **Aceitar**.
-            
-        - `[Botão]` **Recusar**.
-            
-- **Pop-up de Chamada Recebida (Alerta):**
-    
+    - `[Área de Resultados]`mostrando o utilizador encontrado com nickname e um botao `Enviar Pedido.
+         
+- **Chamada Recebida (Alerta):**
     - Este deve aparecer de forma proeminente na tela.
-        
     - `[Label]` "**[Nickname do Chamador]** está a ligar...".
-        
-    - `[Botão]` **Aceitar** (com um ícone de telefone verde).
-        
-    - `[Botão]` **Recusar** (com um ícone de telefone vermelho).
+    - `[Botão]` **Aceitar**.
+    - `[Botão]` **Recusar**.
         
 - **Janela de Chamada:**
-    
-    - Pode ser um diálogo ou a janela principal pode mudar para este "modo".
-        
     - **Estado 1: A Ligar (Outgoing)**
-        
         - `[Label]` "A ligar para **[Nickname do Chamado]**...".
             
-        - `[Botão]` **Cancelar / Desligar**.
-            
     - **Estado 2: Em Chamada (Ativa)**
-        
         - `[Label]` "Em chamada com **[Nome do Contacto]**".
-            
-        - `[Cronómetro]` Duração da chamada (ex: 01:15).
-            
-        - `[Botão]` **Desligar** (grande e vermelho).
-            
-        - `[Botão/Checkbox]` **Mudo** (para silenciar o próprio microfone).
+        - `[Botão]` **Desligar**.
