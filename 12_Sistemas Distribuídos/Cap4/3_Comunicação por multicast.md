@@ -9,35 +9,34 @@ O Multicast IP oferece um serviço de datagrama não confiável (semelhante ao U
 
 - **Volatilidade do Grupo:** Os membros de um grupo de multicast podem mudar dinamicamente. Os processos podem entrar ou sair de um grupo a qualquer momento, e a adesão ao grupo não é controlada ou restrita, a menos que o grupo esteja dentro de um bloco de escopo administrativo, que restringe a propagação do tráfego multicast.
 
-### **2. Programação com Multicast IP**
-
-A API para Multicast IP é baseada em soquetes e é muito semelhante à API do UDP, mas utiliza um objeto **MulticastSocket** (na API Java) que permite que um host se junte ou saia de um grupo.
-
-• **Entrada no Grupo (Joining):** Um host deve ingressar no grupo para receber mensagens enviadas ao endereço de multicast desse grupo.
-
-• **Envio (Sending):** Um processo envia uma mensagem para o grupo fornecendo o endereço de multicast e um número de porta para um objeto `DatagramPacket`.
-
 O Multicast IP é usado em sistemas que precisam disseminar informações para um grande número de destinatários, como o **NTP** (Network Time Protocol), ou em sistemas que requerem alta velocidade de comunicação, como a distribuição de dados de mercado no setor financeiro.
 
-4.5 Virtualização de Redes: Redes de Sobreposição (Overlay Networks)
+---
+### 2. Redes de Sobreposição (Overlay Networks)
 
-Esta seção, que é **nova** na 5ª edição do livro, introduz as redes de sobreposição e é seguida por um estudo de caso sobre o Skype.
+Uma **rede de sobreposição (overlay)** é uma rede virtual construída sobre uma rede subjacente já existente, como a Internet. Essa rede virtual é composta por seus próprios nós e enlaces virtuais, e seu objetivo é oferecer funcionalidades que a rede de base não fornece.
 
-As redes de sobreposição são implementadas como uma **camada de software que roda em cima da rede de nível de rede** (por exemplo, IP) e fornecem um conjunto de funcionalidades que a rede subjacente não oferece ou que precisam ser adaptadas para aplicações específicas.
+#### Principais Características e Vantagens:
 
-• **Modelo Conceitual:** Uma rede de sobreposição implementa um mecanismo de roteamento na camada de aplicação que é **completamente separado** de outros mecanismos de roteamento (como o roteamento IP).
+- **Serviços Personalizados**: Elas permitem a criação de serviços de rede customizados para as necessidades de uma aplicação específica ou para fornecer um recurso adicional, como comunicação por multicast ou comunicação segura.
+    
+- **Extensibilidade e Experimentação**: Tornam possível definir e experimentar novos serviços de rede sem a necessidade de modificar a rede subjacente, o que é crucial dada a complexidade e padronização da Internet.
+#### Desvantagens:
 
-• **Uso em Sistemas Peer-to-Peer:** As redes de sobreposição são amplamente utilizadas como middleware em sistemas **peer-to-peer ( em cima da rede de nível de rede** (por exemplo, IP) e fornecem um conjunto de funcionalidades que a rede subjacente não oferece ou que precisam ser adaptadas para aplicações específicas.
+- **Sobrecarga de Desempenho**: A introdução de um nível extra de indireção pode acarretar uma queda no desempenho.
+    
+- **Aumento da Complexidade**: Elas aumentam a complexidade dos serviços de rede quando comparadas à arquitetura mais simples da rede TCP/IP subjacente.
 
-• **Modelo Conceitual:** Uma rede de sobreposição implementa um mecanismo de roteamento na camada de aplicação que é **completamente separado** de outros mecanismos de roteamento (como o roteamento IP).
+#### Funcionamento:
+As redes de sobreposição funcionam de maneira análoga às camadas lógicas, mas operam fora da pilha de protocolos padrão (como TCP/IP). Isso dá aos desenvolvedores a liberdade de redefinir elementos fundamentais da rede, como:
 
-• **Uso em Sistemas Peer-to-Peer:** As redes de sobreposição são amplamente utilizadas como middleware em sistemas **peer-to-peer (P2P)** para localizar nós e objetos, assumindo a responsabilidade por direcionar requisições de clientes para o host que contém o objeto endereçado.
+- **Modo de Endereçamento**: Podem criar esquemas de endereçamento próprios.
+    
+- **Protocolos**: Podem empregar protocolos específicos para a aplicação.
+    
+- **Estratégia de Roteamento**: Podem introduzir estratégias de roteamento radicalmente diferentes, como o **roteamento baseado em chave** usado em tabelas de hash distribuídas (DHTs).
 
-• **Impacto na Arquitetura:** A introdução das redes de sobreposição tem um impacto significativo na visão conceitual da Internet para o programador, pois adiciona uma camada de funcionalidade de roteamento e endereçamento sobre o IP existente.
 
-Estudo de Caso: Skype
-
-O Skype é um dos **novos estudos de caso** apresentados na 5ª edição. Embora os detalhes de sua arquitetura não estejam totalmente revelados nos excertos, o Skype é mencionado no contexto da virtualização de rede, implicando que ele usa uma rede de sobreposição para conectar seus usuários.
 
 4.6 Estudo de Caso: MPI (Message Passing Interface)
 
