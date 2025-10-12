@@ -7,23 +7,9 @@ O Multicast IP oferece um serviço de datagrama não confiável (semelhante ao U
 
 - **Grupos de Multicast:** O Multicast IP utiliza o conceito de grupos de multicast. Um grupo de multicast é um conjunto de processos que se deseja que recebam cópias de uma mensagem enviada para o grupo.
 
-• **Volatilidade do Grupo:** Os membros de um grupo de multicast podem mudar dinamicamente. Os processos podem entrar ou sair de um grupo a qualquer momento, e a adesão ao grupo não é controlada ou restrita, a menos que o grupo esteja dentro de um bloco de escopo administrativo, que restringe a propagação do tráfego multicast.
+- **Volatilidade do Grupo:** Os membros de um grupo de multicast podem mudar dinamicamente. Os processos podem entrar ou sair de um grupo a qualquer momento, e a adesão ao grupo não é controlada ou restrita, a menos que o grupo esteja dentro de um bloco de escopo administrativo, que restringe a propagação do tráfego multicast.
 
-• **Grupos Permanentes:** Existem grupos de multicast permanentes, como 224.0.1.1, que é reservado para o protocolo NTP (Network Time Protocol), conforme detalhado no Capítulo 14. O intervalo de 224.0.6.000 a 224.0.6.127 é reservado para o projeto ISIS (discutido nos Capítulos 6 e 18).
-
-Bloco de Endereços Multicast:
-
-Os endereços multicast são divididos em blocos com propósitos específicos:
-
-• **Bloco de controle de rede local** (224.0.0.0 a 224.0.0.225): Usado para tráfego multicast dentro de uma rede local específica.
-
-• **Bloco de controle de Internet** (224.0.1.0 a 224.0.1.225).
-
-• **Bloco de controle ad hoc** (224.0.2.0 a 224.0.255.0): Usado para tráfego que não se encaixa em nenhum outro bloco.
-
-• **Bloco de escopo administrativo** (239.0.0.0 a 239.255.255.255): Usado para implementar o escopo do tráfego multicast (restringindo a propagação).
-
-4.4.2 Programação com Multicast IP
+### **2. Programação com Multicast IP**
 
 A API para Multicast IP é baseada em soquetes e é muito semelhante à API do UDP, mas utiliza um objeto **MulticastSocket** (na API Java) que permite que um host se junte ou saia de um grupo.
 
