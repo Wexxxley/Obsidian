@@ -45,7 +45,7 @@ O Skype cria uma rede virtual sobre a Internet para conectar seus usuários, per
     
 2. **Supernós**: São hosts convencionais do Skype que possuem recursos suficientes para assumir um papel mais importante na rede. Eles são selecionados dinamicamente com base nesses critérios.
 
-![600](attachments/Pasted%20image%2020251012081408.png)
+![500](attachments/Pasted%20image%2020251012081408.png)
 
 
 - **Conexão e Login**: Quando um usuário inicia o Skype, ele se autentica em um **servidor de login** centralizado e conhecido. Em seguida, o cliente se conecta a um dos **supernós**. Cada cliente mantém uma lista (cache) de supernós conhecidos para facilitar essa conexão.
@@ -54,4 +54,11 @@ O Skype cria uma rede virtual sobre a Internet para conectar seus usuários, per
     
 - **Conexão de Voz**: Uma vez que o usuário desejado é localizado, o Skype tenta estabelecer uma conexão de voz **diretamente entre os dois hosts (clientes)**. Ele usa o protocolo TCP para sinalizar o início e o fim da chamada, e geralmente usa o protocolo **UDP** (mais rápido, mas menos confiável) para o streaming de áudio. 
 
+---
+### **Estudo de caso - MPI**
 
+O **MPI (Message Passing Interface)** é um padrão desenvolvido para fornecer uma API para a comunicação por **passagem de mensagens**. Ele surgiu com o objetivo de criar uma única especificação que fosse ao mesmo tempo simples, eficiente e flexível.
+
+A verdadeira força e complexidade do MPI residem na variedade de operações que ele oferece, dando ao programador um controle extremamente fino sobre a semântica da comunicação. 
+
+![](attachments/Pasted%20image%2020251012082812.png)
