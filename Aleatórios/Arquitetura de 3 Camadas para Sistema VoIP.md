@@ -44,7 +44,7 @@
 
 ---
 
-# **4. Requisitos Funcionais (RF)**
+# **2. Requisitos Funcionais (RF)**
 
 ---
 
@@ -148,3 +148,111 @@
     - **Utilizador Não Encontrado:** No passo 4, se o nome de utilizador inserido não corresponder a nenhum registo, o sistema informa o Requisitante, que pode tentar uma nova busca (retorna ao passo 3).
     - **Pedido Recusado:** No passo 8, se o Utilizador Convidado selecionar "Recusar", o sistema cancela o pedido.
     - **Contacto Já Existente:** No passo 5, se os utilizadores já forem contactos, o sistema deve informar o Requisitante e impedir o envio de um novo pedido.
+
+---
+
+# 4. GUI
+
+---
+
+#### **1. Janela de Autenticação (Estado Inicial)**
+
+Esta é a primeira coisa que o utilizador vê.  Uma única janela que pode alternar entre dois formulários.
+
+- **Formulário de Login:**
+    - `[Campo de Texto]` Nickname do utilizador.
+    - `[Campo de Texto]` Senha (deve mascarar os caracteres).
+    - `[Botão]` **Entrar**.
+    - `[Link]` "Ainda não tem conta? Registe-se".
+    - `[Área de Texto]` Para exibir mensagens de erro (ex: "Nickname ou senha inválidos")
+        
+- **Formulário de Registo:**    
+    - `[Campo de Texto]` Nickname desejado.
+    - `[Campo de Texto]` Senha.
+    - `[Campo de Texto]` Confirmação da Senha.
+    - `[Botão]` **Criar Conta**.
+    - `[Link]` "Já tem uma conta? Faça o login".
+    - `[Área de Texto]` Para exibir mensagens (ex: "Utilizador já existe")
+
+---
+#### **2. Janela Principal (Após Login)**
+
+- **Informações do Utilizador Logado:**
+    - `[Indicador Visual]` Mostrando o seu próprio status e nickname.
+    - `[Botão]` **Logout/Sair**.
+        
+- **Lista de Contactos:**
+    - Este é o componente principal. Deve ser uma lista rolável.
+    - **Para cada item da lista de contactos:**
+        - `[Indicador Visual de Status]` Um círculo colorido (ex: Verde para `Online`, Vermelho para `Em Chamada`, Cinza para `Offline`).
+        - `[Label]` Nickname do contacto.
+        - `[Botão]` **Ligar**. Este botão deve estar **desativado** se o status do contacto não for `Online`.
+            
+- **Gestão de Contactos:**
+    
+    - `[Botão]` **Adicionar Contacto**. Ao ser clicado, abre a janela de busca.
+        
+    - `[Área de Notificação/Botão]` **Pedidos de Amizade** (com um contador, ex: "Pedidos (2)"). Ao ser clicado, exibe a lista de pedidos pendentes.
+        
+
+#### **3. Diálogos e Pop-ups (Janelas Modais)**
+
+Estas são janelas menores que aparecem sobre a janela principal para tarefas específicas.
+
+- **Diálogo de Adicionar Contacto:**
+    
+    - `[Campo de Texto]` "Procurar por nickname...".
+        
+    - `[Botão]` **Procurar**.
+        
+    - `[Área de Resultados]` Uma lista mostrando os utilizadores encontrados.
+        
+    - **Para cada resultado da busca:**
+        
+        - `[Label]` Nickname do utilizador encontrado.
+            
+        - `[Botão]` **Enviar Pedido**.
+            
+    - `[Área de Texto/Label]` Para feedback (ex: "Utilizador não encontrado", "Pedido enviado!", "Vocês já são contactos").
+        
+- **Diálogo de Pedidos de Amizade:**
+    
+    - Uma lista de pedidos recebidos.
+        
+    - **Para cada pedido na lista:**
+        
+        - `[Label]` "Pedido de **maria_abc**".
+            
+        - `[Botão]` **Aceitar**.
+            
+        - `[Botão]` **Recusar**.
+            
+- **Pop-up de Chamada Recebida (Alerta):**
+    
+    - Este deve aparecer de forma proeminente na tela.
+        
+    - `[Label]` "**[Nickname do Chamador]** está a ligar...".
+        
+    - `[Botão]` **Aceitar** (com um ícone de telefone verde).
+        
+    - `[Botão]` **Recusar** (com um ícone de telefone vermelho).
+        
+- **Janela de Chamada:**
+    
+    - Pode ser um diálogo ou a janela principal pode mudar para este "modo".
+        
+    - **Estado 1: A Ligar (Outgoing)**
+        
+        - `[Label]` "A ligar para **[Nickname do Chamado]**...".
+            
+        - `[Botão]` **Cancelar / Desligar**.
+            
+    - **Estado 2: Em Chamada (Ativa)**
+        
+        - `[Label]` "Em chamada com **[Nome do Contacto]**".
+            
+        - `[Cronómetro]` Duração da chamada (ex: 01:15).
+            
+        - `[Botão]` **Desligar** (grande e vermelho).
+            
+        - `[Botão/Checkbox]` **Mudo** (para silenciar o próprio microfone).
