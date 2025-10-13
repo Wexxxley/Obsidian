@@ -43,3 +43,6 @@ O veículo **Flex** é equipado com um motor que pode ser abastecido e funcionar
     
 
 Isso dá ao condutor a liberdade de escolher o combustível de acordo com a economia (lembrando da regra do **custo-relação de ≤70%** para o Etanol).
+
+
+![](attachments/Pasted%20image%2020251013185810.png)
