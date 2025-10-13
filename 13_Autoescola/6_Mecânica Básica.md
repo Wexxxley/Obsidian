@@ -9,8 +9,6 @@
 
 ### Principais Componentes do Motor
 
-É essencial conhecer as peças principais, especialmente aquelas que aparecem no diagrama:
-
 |Componente|Função Principal|
 |---|---|
 |**Cárter (9)**|Reservatório inferior do motor. Armazena e coleta o **óleo lubrificante**.|
