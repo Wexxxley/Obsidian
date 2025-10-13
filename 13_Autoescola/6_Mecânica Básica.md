@@ -61,3 +61,4 @@ O **Pistão** sobe e desce dentro do **Cilindro**, acoplado à **Biela** e ao **
 - **Marchas:** Geralmente, cinco marchas à frente são selecionadas movimentando-se um pedal localizado frontalmente ao apoio do pé esquerdo.
 - **Transmissão Final:** A transmissão do movimento do motor para a roda traseira é comumente feita por uma **corrente**.
     
+![](attachments/Pasted%20image%2020251013203012.png)
