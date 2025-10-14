@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_Inglês/5_Simple present.md",
+                "file": "13_Autoescola/8_Primeiros Socorros.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Simple present"
+              "title": "8_Primeiros Socorros"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1_Inglês/5_Simple present.md",
+                "file": "13_Autoescola/8_Primeiros Socorros.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 5_Simple present"
+              "title": "Outline of 8_Primeiros Socorros"
             }
           },
           {
@@ -182,9 +182,12 @@
   },
   "active": "b58f886096e47fa5",
   "lastOpenFiles": [
+    "13_Autoescola/1_Cidadania & Meio Ambiente.md",
+    "13_Autoescola/8_Primeiros Socorros.md",
+    "1_Inglês/5_Simple present.md",
+    "13_Autoescola/8_Primeiros Socorros",
     "1_Inglês/6_Simple past.md",
     "1_Inglês/4_Indefinite article.md",
-    "1_Inglês/5_Simple present.md",
     "1_Inglês/3_Demonstrative pronouns.md",
     "1_Inglês/2_Subject pronouns.md",
     "attachments/Pasted image 20250505155824.png",
@@ -220,9 +223,6 @@
     "13_Autoescola/4_Infrações e penalidades.md",
     "13_Autoescola/5_Sinalização.md",
     "13_Autoescola/03-sinalizacao.pdf",
-    "13_Autoescola/1_Cidadania & Meio Ambiente.md",
-    "13_Autoescola/Untitled",
-    "2_Redes de computadores/1_Overview/8_Tipos de comunicação em redes de computadores.md",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
     "12_Sistemas Distribuídos/Cap4",
