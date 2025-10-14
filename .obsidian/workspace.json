@@ -8,33 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bd00deaa9ad88e28",
+            "id": "af18575f3409bb8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "13_Autoescola/6_Mecânica Básica.md",
+                "file": "12_Sistemas Distribuídos/Cap4/1_Comunicação entre processos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6_Mecânica Básica"
-            }
-          },
-          {
-            "id": "af18575f3409bb8d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "13_Autoescola/08-mecanica-basica-de-veiculos (1).pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "08-mecanica-basica-de-veiculos (1)"
+              "title": "1_Comunicação entre processos"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13_Autoescola/08-mecanica-basica-de-veiculos (1).pdf",
+                "file": "12_Sistemas Distribuídos/Cap4/1_Comunicação entre processos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 08-mecanica-basica-de-veiculos (1)"
+              "title": "Outline of 1_Comunicação entre processos"
             }
           },
           {
@@ -195,8 +182,9 @@
   },
   "active": "af18575f3409bb8d",
   "lastOpenFiles": [
-    "13_Autoescola/6_Mecânica Básica.md",
     "13_Autoescola/08-mecanica-basica-de-veiculos (1).pdf",
+    "13_Autoescola/6_Mecânica Básica.md",
+    "attachments/Pasted image 20251014084818.png",
     "13_Autoescola/5_Sinalização.pdf",
     "13_Autoescola/Unconfirmed 977396.crdownload",
     "attachments/Pasted image 20251013213032.png",
@@ -214,7 +202,6 @@
     "8_POO/2_Modificadores de Acesso e Níveis de Visibilidade.md",
     "8_POO/Ideias de questoes/Ideias de questões.md",
     "12_Sistemas Distribuídos/Cap4/3_Comunicação por multicast.md",
-    "attachments/Pasted image 20251012082812.png",
     "12_Sistemas Distribuídos/Cap4/1_Comunicação entre processos.md",
     "12_Sistemas Distribuídos/Cap4/2_Representação Externa de Dados.md",
     "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",

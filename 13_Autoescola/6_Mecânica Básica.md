@@ -47,26 +47,26 @@ O **Pistão** sobe e desce dentro do **Cilindro**, acoplado à **Biela** e ao **
 | **3º Tempo** | **Combustão e Explosão** | Desce               | A **vela de ignição** dispara uma centelha (faísca), provocando a explosão da mistura comprimida. Essa força empurra o pistão para baixo. |
 | **4º Tempo** | **Escape**               | Sobe                | A **válvula de escape** se abre, e o pistão empurra os gases queimados (poluentes) para fora do cilindro, em direção ao escapamento.      |
 
+![](attachments/Pasted%20image%2020251013203012.png)
+
 ---
 ## 4. Características das Motocicletas
 
 ### Cilindrada e Potência
 
 - **Classificação:** As motocicletas são classificadas de acordo com a **capacidade de cilindrada**, expressa em **centímetros cúbicos**
-- **Estrutura:** O motor pode ter de **1 a 6 cilindros**, sendo os motores com mais cilindros característicos das supermotos.
-    
+- **Estrutura:** O motor pode ter de **1 a 6 cilindros**, sendo os motores com mais cilindros característicos das supermotos.    
 ### Transmissão (Caixa de Marchas)
 - **Acionamento:** A partida em motocicletas pode ser dada por um **pedal ligado à caixa de transmissão** (pedal de partida) ou por **partida elétrica**.
 - **Marchas:** Geralmente, cinco marchas à frente são selecionadas movimentando-se um pedal localizado frontalmente ao apoio do pé esquerdo.
 - **Transmissão Final:** A transmissão do movimento do motor para a roda traseira é comumente feita por uma **corrente**.
-
-
-### Sistema de arrefecimento
-![](attachments/Pasted%20image%2020251013210803.png)
+## **Sistema de arrefecimento**
+![400](attachments/Pasted%20image%2020251013210803.png)
+![600](attachments/Pasted%20image%2020251014084818.png)
     
-![](attachments/Pasted%20image%2020251013203012.png)
 
 
+## **Sistema de transmissão**
 
 ![](attachments/Pasted%20image%2020251013211701.png)
 
