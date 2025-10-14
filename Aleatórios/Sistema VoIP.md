@@ -274,49 +274,29 @@ Estas são as classes no backend que contêm a lógica de negócio e _efetivamen
     - `ContactRequestNotification` **implementa** `INotification`: Representa o alerta de um novo pedido de amizade.        
     - `StatusChangeNotification` **implementa** `INotification`: Notifica que o estado de um contacto mudou.
 
-#### **Superclasse e Subclasses (Herança - Relação "é-um-tipo-de")**
-
-Aqui está a solução para a vossa dificuldade. Precisamos de uma abstração. Pense no coração do seu sistema: a comunicação. Uma chamada de voz é um tipo de "sessão de comunicação". No futuro, vocês poderiam querer adicionar chat por texto ou videochamadas.
-
+#### **Superclasse e Subclasses**
 - **Ideia:** Criar uma classe abstrata **`CommunicationSession`** que define características comuns a qualquer tipo de comunicação entre utilizadores. A chamada de voz será uma subclasse especializada.
-    
 - **Implementação Conceitual:**
-    
     - **Superclasse (Abstrata): `CommunicationSession`**
-        
         - **Atributos comuns:**
-            
             - `String sessionId` (ID único da sessão)
-                
             - `List<User> participants` (Lista de participantes)
-                
             - `Date startTime` (Quando começou)
-                
             - `Date endTime` (Quando terminou)
                 
         - **Métodos comuns:**
-            
             - `start()`
-                
             - `end()`
                 
-    - **Subclasse (Concreta): `VoiceCallSession` herda de `CommunicationSession`**
-        
-        - Esta classe **é-um-tipo-de** `CommunicationSession`.
-            
+    - **Subclasse (Concreta): `VoiceCallSession` herda de `CommunicationSession`**    
         - **Atributos específicos:**
-            
             - `String audioCodec` (ex: Opus, G.711)
-                
             - `int jitterBuffer`
                 
         - **Métodos específicos (ou sobrescritos):**
-            
-            - `muteParticipant(User user)`
-                
+            - `muteParticipant(User user)`    
             - `unmuteParticipant(User user)`
-                
+
 
 Com esta estrutura, se um dia quisessem adicionar chat de texto, poderiam criar outra subclasse `TextMessageSession` que também herdaria de `CommunicationSession`, provando a utilidade e a lógica da herança.
 
-Espero que estas ideias ajudem a estruturar o trabalho de acordo com os requisitos!
