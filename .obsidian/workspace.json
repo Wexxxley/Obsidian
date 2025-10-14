@@ -11,14 +11,12 @@
             "id": "bd00deaa9ad88e28",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "13_Autoescola/6_Mecânica Básica.md",
-                "mode": "source",
-                "source": false
+                "file": "13_Autoescola/08-mecanica-basica-de-veiculos (1).pdf"
               },
-              "icon": "lucide-file",
-              "title": "6_Mecânica Básica"
+              "icon": "lucide-file-text",
+              "title": "08-mecanica-basica-de-veiculos (1)"
             }
           }
         ]
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13_Autoescola/6_Mecânica Básica.md",
+                "file": "13_Autoescola/08-mecanica-basica-de-veiculos (1).pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 6_Mecânica Básica"
+              "title": "Outline of 08-mecanica-basica-de-veiculos (1)"
             }
           },
           {
@@ -182,7 +180,9 @@
   },
   "active": "bd00deaa9ad88e28",
   "lastOpenFiles": [
+    "13_Autoescola/6_Mecânica Básica.md",
     "13_Autoescola/08-mecanica-basica-de-veiculos (1).pdf",
+    "13_Autoescola/5_Sinalização.pdf",
     "13_Autoescola/Unconfirmed 977396.crdownload",
     "attachments/Pasted image 20251013213032.png",
     "attachments/Pasted image 20251013212913.png",
@@ -194,7 +194,6 @@
     "attachments/Pasted image 20251013194012.png",
     "attachments/Pasted image 20251013185810.png",
     "8_POO/SOLID/3_Open Close Principle (OCP).md",
-    "13_Autoescola/6_Mecânica Básica.md",
     "Aleatórios/ArSistema VoIP.md",
     "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
     "8_POO/2_Modificadores de Acesso e Níveis de Visibilidade.md",
@@ -208,7 +207,6 @@
     "Aleatórios/Como funciona.md",
     "Aleatórios/Pedido de crenciais GIT.md",
     "Untitled.md",
-    "13_Autoescola/5_Sinalização.pdf",
     "13_Autoescola/2_Legislação de Transito.md",
     "13_Autoescola/3_Legislação de Transito.md",
     "13_Autoescola/4_Infrações e penalidades.md",
@@ -227,7 +225,6 @@
     "12_Sistemas Distribuídos/Cap4",
     "12_Sistemas Distribuídos/Cap2",
     "12_Sistemas Distribuídos/Cap1",
-    "Untitled.base",
     "Sem título.canvas"
   ]
 }
