@@ -218,7 +218,8 @@ Estas são janelas menores que aparecem sobre a janela principal para tarefas es
 
 ---
 
-# **Classes POJO (Plain Old Java Objects)**
+# **5. Definições de POO**
+#### **Classes POJO (Plain Old Java Objects)**
 
 1. **`UserInfo`**: Representa os dados de um utilizador que são seguros para transitar pela rede (sem a senha).
     - **Atributos:**
@@ -252,7 +253,7 @@ Estas são as classes no backend que contêm a lógica de negócio e _efetivamen
         - `updateUserStatus(String nickname, String newStatus)`: Altera o estado de presença de um utilizador.
 
 ---
-### **2. Definindo Superclasse, Subclasses, Agregação e Interface**
+### **Definindo Superclasse, Subclasses, Agregação e Interface**
 
 #### Agregação
 - **Ideia:** A classe **`User`** (que representa um utilizador no sistema) **tem uma** lista de contactos.    

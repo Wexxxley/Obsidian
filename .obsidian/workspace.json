@@ -11,14 +11,12 @@
             "id": "b58f886096e47fa5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Aleatórios/Sistema VoIP.md",
-                "mode": "source",
-                "source": false
+                "file": "attachments/Pasted image 20250505155824.png"
               },
-              "icon": "lucide-file",
-              "title": "Sistema VoIP"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250505155824"
             }
           }
         ]
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Aleatórios/Sistema VoIP.md",
+                "file": "attachments/Pasted image 20250505155824.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sistema VoIP"
+              "title": "Outline of Pasted image 20250505155824"
             }
           },
           {
@@ -182,6 +180,14 @@
   },
   "active": "b58f886096e47fa5",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250505143458.png",
+    "attachments/Pasted image 20250505135245.png",
+    "attachments/Pasted image 20250505135232.png",
+    "attachments/Pasted image 20250505133951.png",
+    "attachments/img-20250716085829.png",
+    "attachments/1_.md",
+    "attachments/1_GrarH2XqRi5iLw--RI5NMQ.png",
+    "Aleatórios/Sistema VoIP.md",
     "Aleatórios/Pedido de crenciais GIT.md",
     "12_Sistemas Distribuídos/Cap4/3_Comunicação por multicast.md",
     "12_Sistemas Distribuídos/Cap4/2_Representação Externa de Dados.md",
@@ -195,13 +201,7 @@
     "attachments/Pasted image 20251013212913.png",
     "attachments/Pasted image 20251013211701.png",
     "attachments/Pasted image 20251013211642.png",
-    "attachments/Pasted image 20251013211539.png",
-    "attachments/Pasted image 20251013210803.png",
-    "attachments/Pasted image 20251013203012.png",
-    "attachments/Pasted image 20251013194012.png",
-    "attachments/Pasted image 20251013185810.png",
     "8_POO/SOLID/3_Open Close Principle (OCP).md",
-    "Aleatórios/Sistema VoIP.md",
     "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
     "8_POO/2_Modificadores de Acesso e Níveis de Visibilidade.md",
     "8_POO/Ideias de questoes/Ideias de questões.md",
@@ -221,7 +221,6 @@
     "2_Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
     "2_Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
     "2_Redes de computadores/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
-    "2_Redes de computadores/5_Camada de enlace/6_Hubs e Switches.md",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
     "12_Sistemas Distribuídos/Cap4",
