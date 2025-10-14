@@ -11,12 +11,14 @@
             "id": "b58f886096e47fa5",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "attachments/Pasted image 20250505155824.png"
+                "file": "1_Inglês/5_Simple present.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250505155824"
+              "icon": "lucide-file",
+              "title": "5_Simple present"
             }
           }
         ]
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "attachments/Pasted image 20250505155824.png",
+                "file": "1_Inglês/5_Simple present.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20250505155824"
+              "title": "Outline of 5_Simple present"
             }
           },
           {
@@ -180,6 +182,12 @@
   },
   "active": "b58f886096e47fa5",
   "lastOpenFiles": [
+    "1_Inglês/6_Simple past.md",
+    "1_Inglês/4_Indefinite article.md",
+    "1_Inglês/5_Simple present.md",
+    "1_Inglês/3_Demonstrative pronouns.md",
+    "1_Inglês/2_Subject pronouns.md",
+    "attachments/Pasted image 20250505155824.png",
     "attachments/Pasted image 20250505143458.png",
     "attachments/Pasted image 20250505135245.png",
     "attachments/Pasted image 20250505135232.png",
@@ -199,8 +207,6 @@
     "13_Autoescola/Unconfirmed 977396.crdownload",
     "attachments/Pasted image 20251013213032.png",
     "attachments/Pasted image 20251013212913.png",
-    "attachments/Pasted image 20251013211701.png",
-    "attachments/Pasted image 20251013211642.png",
     "8_POO/SOLID/3_Open Close Principle (OCP).md",
     "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
     "8_POO/2_Modificadores de Acesso e Níveis de Visibilidade.md",
@@ -217,10 +223,6 @@
     "13_Autoescola/1_Cidadania & Meio Ambiente.md",
     "13_Autoescola/Untitled",
     "2_Redes de computadores/1_Overview/8_Tipos de comunicação em redes de computadores.md",
-    "2_Redes de computadores/3_Camada de Transporte/3_ Socket e portas.md",
-    "2_Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
-    "2_Redes de computadores/1_Overview/7_Modos de transmissão de dados.md",
-    "2_Redes de computadores/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
     "12_Sistemas Distribuídos/Cap4",
