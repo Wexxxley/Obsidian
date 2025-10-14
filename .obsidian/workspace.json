@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12_Sistemas Distribuídos/Cap4/2_Representação Externa de Dados.md",
+                "file": "12_Sistemas Distribuídos/Cap4/3_Comunicação por multicast.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Representação Externa de Dados"
+              "title": "3_Comunicação por multicast"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12_Sistemas Distribuídos/Cap4/2_Representação Externa de Dados.md",
+                "file": "12_Sistemas Distribuídos/Cap4/3_Comunicação por multicast.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_Representação Externa de Dados"
+              "title": "Outline of 3_Comunicação por multicast"
             }
           },
           {
@@ -182,8 +182,8 @@
   },
   "active": "af18575f3409bb8d",
   "lastOpenFiles": [
-    "12_Sistemas Distribuídos/Cap4/3_Comunicação por multicast.md",
     "12_Sistemas Distribuídos/Cap4/2_Representação Externa de Dados.md",
+    "12_Sistemas Distribuídos/Cap4/3_Comunicação por multicast.md",
     "12_Sistemas Distribuídos/Cap4/1_Comunicação entre processos.md",
     "13_Autoescola/08-mecanica-basica-de-veiculos (1).pdf",
     "13_Autoescola/6_Mecânica Básica.md",
