@@ -214,3 +214,109 @@ Estas são janelas menores que aparecem sobre a janela principal para tarefas es
     - **Estado 2: Em Chamada (Ativa)**
         - `[Label]` "Em chamada com **[Nome do Contacto]**".
         - `[Botão]` **Desligar**.
+
+
+---
+
+# **Classes POJO (Plain Old Java Objects)**
+
+1. **`UserInfo`**: Representa os dados de um utilizador que são seguros para transitar pela rede (sem a senha).
+    - **Atributos:**
+        - `String nickname`
+        - `String status` (ex: "Online", "Offline", "Em Chamada")
+            
+2. **`CallInvitation`**: Representa as informações de um convite de chamada.
+    - **Atributos:**
+        - `String callerNickname` (Nickname de quem está a ligar)
+        - `String calleeNickname` (Nickname de quem está a receber)
+        - `String callId` (Um identificador único para esta chamada)
+            
+
+#### **Classes de Modelo que Implementam Serviços**
+Estas são as classes no backend que contêm a lógica de negócio e _efetivamente realizam_ o trabalho do serviço remoto. Vocês precisam de pelo menos duas. Uma boa prática é separar as responsabilidades.
+
+1. **`UserService`**: Responsável por toda a lógica relacionada a utilizadores, contas e contactos.
+    - **Métodos (Serviços que implementa):**
+        - `register(UserInfo user, String password)`: Valida e regista um novo utilizador no banco de dados.
+        - `login(String nickname, String password)`: Autentica um utilizador.
+        - `searchUser(String nickname)`: Procura por um utilizador no sistema.
+        - `addContact(ContactRequest request)`: Processa um pedido de adição de contacto.
+        - `getContacts(String userNickname)`: Retorna a lista de contactos de um utilizador.
+            
+2. **`CallService`**: Responsável por gerir o ciclo de vida e o estado das chamadas e da presença dos utilizadores.
+    - **Métodos (Serviços que implementa):**
+        - `initiateCall(CallInvitation invitation)`: Inicia o processo de chamada, notificando o destinatário.
+        - `acceptCall(String callId)`: Confirma que a chamada foi aceite e atualiza o estado dos utilizadores.
+        - `refuseCall(String callId)`: Cancela uma chamada que foi recusada.
+        - `endCall(String callId)`: Finaliza uma chamada em andamento e atualiza o estado dos utilizadores.
+        - `updateUserStatus(String nickname, String newStatus)`: Altera o estado de presença de um utilizador.
+
+---
+### **2. Definindo Superclasse, Subclasses, Agregação e Interface**
+
+#### Agregação
+- **Ideia:** A classe **`User`** (que representa um utilizador no sistema) **tem uma** lista de contactos.    
+- **Implementação Conceitual:**
+    - Classe `User`
+        - Atributo: `String nickname`.
+        - Atributo: `String encryptedPassword`
+        - Atributo: `List<User> contacts` <-- **AGREGAÇÃO AQUI**. Um utilizador é composto por seus dados e sua lista de contactos, que são outros objetos `User`.
+
+#### **Interface**
+- **Ideia:** Criar uma interface **`INotification`** que define o que toda notificação no sistema deve ser capaz de fazer.
+- **Implementação Conceitual:**
+    - Interface `INotification`
+        - Método: `getNotificationType()` (retorna uma string como "CHAMADA_RECEBIDA" ou "PEDIDO_CONTACTO")
+        - Método: `getMessage()` (retorna uma mensagem para o utilizador, ex: "Kauan está a ligar...")
+    
+- **Classes que implementam a interface:**    
+	- `IncomingCallNotification` **implementa** `INotification`: Representa o alerta de uma chamada a chegar.
+    - `ContactRequestNotification` **implementa** `INotification`: Representa o alerta de um novo pedido de amizade.        
+    - `StatusChangeNotification` **implementa** `INotification`: Notifica que o estado de um contacto mudou.
+
+#### **Superclasse e Subclasses (Herança - Relação "é-um-tipo-de")**
+
+Aqui está a solução para a vossa dificuldade. Precisamos de uma abstração. Pense no coração do seu sistema: a comunicação. Uma chamada de voz é um tipo de "sessão de comunicação". No futuro, vocês poderiam querer adicionar chat por texto ou videochamadas.
+
+- **Ideia:** Criar uma classe abstrata **`CommunicationSession`** que define características comuns a qualquer tipo de comunicação entre utilizadores. A chamada de voz será uma subclasse especializada.
+    
+- **Implementação Conceitual:**
+    
+    - **Superclasse (Abstrata): `CommunicationSession`**
+        
+        - **Atributos comuns:**
+            
+            - `String sessionId` (ID único da sessão)
+                
+            - `List<User> participants` (Lista de participantes)
+                
+            - `Date startTime` (Quando começou)
+                
+            - `Date endTime` (Quando terminou)
+                
+        - **Métodos comuns:**
+            
+            - `start()`
+                
+            - `end()`
+                
+    - **Subclasse (Concreta): `VoiceCallSession` herda de `CommunicationSession`**
+        
+        - Esta classe **é-um-tipo-de** `CommunicationSession`.
+            
+        - **Atributos específicos:**
+            
+            - `String audioCodec` (ex: Opus, G.711)
+                
+            - `int jitterBuffer`
+                
+        - **Métodos específicos (ou sobrescritos):**
+            
+            - `muteParticipant(User user)`
+                
+            - `unmuteParticipant(User user)`
+                
+
+Com esta estrutura, se um dia quisessem adicionar chat de texto, poderiam criar outra subclasse `TextMessageSession` que também herdaria de `CommunicationSession`, provando a utilidade e a lógica da herança.
+
+Espero que estas ideias ajudem a estruturar o trabalho de acordo com os requisitos!
