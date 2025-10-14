@@ -64,3 +64,5 @@ O **Pistão** sobe e desce dentro do **Cilindro**, acoplado à **Biela** e ao **
 ![](attachments/Pasted%20image%2020251013203012.png)
 
 ![](attachments/Pasted%20image%2020251013210803.png)
+
+![](attachments/Pasted%20image%2020251013211701.png)
