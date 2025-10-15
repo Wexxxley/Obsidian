@@ -11,10 +11,12 @@
             "id": "07036c246e01a975",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "13_Autoescola/5_Sinalização.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "5_Sinalização"
             }
           }
         ]
@@ -74,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 332.5
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -139,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "13_Autoescola/5_Sinalização.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 5_Sinalização"
             }
           },
           {
@@ -178,6 +180,12 @@
   },
   "active": "07036c246e01a975",
   "lastOpenFiles": [
+    "13_Autoescola/7_Mecânica-basica.pdf",
+    "13_Autoescola/8_Primeiros Socorros.pdf",
+    "13_Autoescola/8_Primeiros Socorros.md",
+    "13_Autoescola/06-primeiros-socorros.pdf",
+    "13_Autoescola/Unconfirmed 286822.crdownload",
+    "13_Autoescola/08-mecanica-basica-de-veiculos (1).pdf",
     "2_Redes de computadores/4_Camada de rede/3_IPv4.md",
     "2_Redes de computadores/5_Camada de enlace/6_Hubs e Switches.md",
     "2_Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
@@ -202,8 +210,6 @@
     "2_Redes de computadores/2_Camada Aplicação/3_Http e cookies.md",
     "2_Redes de computadores/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
     "2_Redes de computadores/1_Overview/6_Arquitetura TCP IP.md",
-    "2_Redes de computadores/1_Overview/8_Tipos de comunicação em redes de computadores.md",
-    "2_Redes de computadores/6_Camada Física/7_Política do Espectro Eletromagnético.md",
     "13_Autoescola/8_Primeiros Socorros",
     "attachments/Pasted image 20250505155824.png",
     "attachments/Pasted image 20250505143458.png",
@@ -212,7 +218,6 @@
     "attachments/Pasted image 20250505133951.png",
     "attachments/img-20250716085829.png",
     "attachments/1_GrarH2XqRi5iLw--RI5NMQ.png",
-    "13_Autoescola/08-mecanica-basica-de-veiculos (1).pdf",
     "attachments/Pasted image 20251014084818.png",
     "13_Autoescola/5_Sinalização.pdf",
     "13_Autoescola/Unconfirmed 977396.crdownload",
@@ -221,9 +226,6 @@
     "13_Autoescola/03-sinalizacao.pdf",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
-    "12_Sistemas Distribuídos/Cap4",
-    "12_Sistemas Distribuídos/Cap2",
-    "12_Sistemas Distribuídos/Cap1",
     "Sem título.canvas"
   ]
 }
