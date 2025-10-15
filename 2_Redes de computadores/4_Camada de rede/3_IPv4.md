@@ -15,7 +15,7 @@
 ![Pasted image 20250523103049](../../attachments/Pasted%20image%2020250523103049.png)
 
 - **Protocolo:** O campo indica o protocolo de camada de transporte.
-- **Soma de verificação:** A soma de verificação auxilia um roteador na detecção de erros de bits. 
+- **Soma de verificação:** A soma de verificação auxilia um roteador na detecção de errs de bits. 
 - **Endereços IP de origem e de destino.**
 - **Opções**: A intenção é que as opções de cabeçalho sejam usadas raramente.
 - **Dados:** Contém o segmento da camada de transporte (TCP ou UDP) a ser entregue ao destino. Contudo, o campo de dados pode carregar outros tipos de dados, como mensagens ICMP.
