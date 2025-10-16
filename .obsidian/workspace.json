@@ -11,12 +11,14 @@
             "id": "07036c246e01a975",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "13_Autoescola/5_Sinalização.pdf"
+                "file": "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "5_Sinalização"
+              "icon": "lucide-file",
+              "title": "2_Tipos de dados e variável"
             }
           }
         ]
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13_Autoescola/5_Sinalização.pdf",
+                "file": "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 5_Sinalização"
+              "title": "Outline of 2_Tipos de dados e variável"
             }
           },
           {
@@ -180,6 +182,9 @@
   },
   "active": "07036c246e01a975",
   "lastOpenFiles": [
+    "6_FrontEnd/3_JavaScript/1_Introdução.md",
+    "6_FrontEnd/1_HTML/1_Html básico.md",
+    "13_Autoescola/5_Sinalização.pdf",
     "13_Autoescola/7_Mecânica-basica.pdf",
     "13_Autoescola/8_Primeiros Socorros.pdf",
     "13_Autoescola/8_Primeiros Socorros.md",
@@ -209,7 +214,6 @@
     "2_Redes de computadores/3_Camada de Transporte/3_ Socket e portas.md",
     "2_Redes de computadores/2_Camada Aplicação/3_Http e cookies.md",
     "2_Redes de computadores/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
-    "2_Redes de computadores/1_Overview/6_Arquitetura TCP IP.md",
     "13_Autoescola/8_Primeiros Socorros",
     "attachments/Pasted image 20250505155824.png",
     "attachments/Pasted image 20250505143458.png",
@@ -219,13 +223,11 @@
     "attachments/img-20250716085829.png",
     "attachments/1_GrarH2XqRi5iLw--RI5NMQ.png",
     "attachments/Pasted image 20251014084818.png",
-    "13_Autoescola/5_Sinalização.pdf",
     "13_Autoescola/Unconfirmed 977396.crdownload",
     "attachments/Pasted image 20251013213032.png",
     "attachments/Pasted image 20251013212913.png",
     "13_Autoescola/03-sinalizacao.pdf",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
-    "10_TeoriaComputação/1_AutômatosBásico.pdf",
     "Sem título.canvas"
   ]
 }
