@@ -1,7 +1,7 @@
 
 **Ideia de nome: Acervo Mestre**
 
-Repositório digital para que os professores de uma ou mais escolas possam cadastrar, organizar e compartilhar recursos pedagógicos (planos de aula, atividades, vídeos, slides, provas, etc). O Acervo Mestre centraliza, qualifica e facilita a evolução do material didático, transformando o esforço individual dos professores em um patrimônio intelectual duradouro para a escola.
+Repositório digital para que os professores de uma ou mais escolas/universidades possam cadastrar, organizar e compartilhar recursos pedagógicos (planos de aula, atividades, vídeos, slides, provas, etc). O Acervo Mestre centraliza, qualifica e facilita a evolução do material didático, transformando o esforço individual dos professores em um patrimônio intelectual duradouro para a escola.
 
 ### **1. MVP (Produto Mínimo Viável)**
 
