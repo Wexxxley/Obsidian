@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d71245a77a9a563c",
+        "id": "0cda97d4aa98b2eb",
         "type": "tabs",
         "children": [
           {
-            "id": "f59d2daadeaa4a4c",
+            "id": "07036c246e01a975",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aleatórios/Autoescola AULA 1.md",
+                "file": "Aleatórios/Untitle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Autoescola AULA 1"
+              "title": "Untitle"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -61,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Procurar"
+              "title": "Search"
             }
           },
           {
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_TeoriaComputação/1_AutômatosBásico.pdf",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para 1_AutômatosBásico"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10_TeoriaComputação/1_AutômatosBásico.pdf",
+                "file": "Aleatórios/Autoescola AULA 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para 1_AutômatosBásico"
+              "title": "Outgoing links from Autoescola AULA 1"
             }
           },
           {
@@ -142,17 +142,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8_POO/Object Calisthenics/Parte_3.md",
+                "file": "Aleatórios/Untitle.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Parte_3"
+              "title": "Outline of Untitle"
             }
           },
           {
-            "id": "1de0b59f8d805904",
+            "id": "4f57f88bace28f5e",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -162,72 +162,73 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Criar nova base": false,
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f59d2daadeaa4a4c",
+  "active": "07036c246e01a975",
   "lastOpenFiles": [
-    "attachments/Pasted image 20251006210901.png",
-    "attachments/Pasted image 20251006210855.png",
-    "8_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
-    "Aleatórios/Autoescola AULA 1.md",
     "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
-    "8_POO/SOLID/5_Interface Segregation Principle (ISP).md",
-    "8_POO/SOLID/1_SOLID.md",
-    "8_POO/SOLID/4_Liskov Substitution Principle.md",
-    "8_POO/SOLID/3_Open Close Principle (OCP).md",
-    "8_POO/SOLID/2_Single Responsability Principle (SRP).md",
-    "8_POO/1_Introdução.md",
-    "Aleatórios/Plataforma de Gestão de recursos pedagógicos colaborativa.md",
-    "8_POO/Object Calisthenics/Parte_3.md",
-    "8_POO/Object Calisthenics/Parte_2.md",
-    "8_POO/Object Calisthenics/Parte_1.md",
-    "Sem título 2.base",
-    "Sem título 1.base",
-    "Sem título.base",
+    "Aleatórios/Untitle.md",
+    "Aleatórios/Pedido de crenciais GIT.md",
+    "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
+    "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
+    "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
+    "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
+    "6_FrontEnd/3_JavaScript/1_Introdução.md",
+    "6_FrontEnd/1_HTML/1_Html básico.md",
+    "13_Autoescola/5_Sinalização.pdf",
+    "13_Autoescola/7_Mecânica-basica.pdf",
+    "13_Autoescola/8_Primeiros Socorros.pdf",
+    "13_Autoescola/8_Primeiros Socorros.md",
+    "13_Autoescola/06-primeiros-socorros.pdf",
+    "13_Autoescola/Unconfirmed 286822.crdownload",
+    "13_Autoescola/08-mecanica-basica-de-veiculos (1).pdf",
+    "2_Redes de computadores/4_Camada de rede/3_IPv4.md",
+    "2_Redes de computadores/5_Camada de enlace/6_Hubs e Switches.md",
+    "2_Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
+    "2_Redes de computadores/5_Camada de enlace/4_Ethernet e Protocolos de acesso múltiplo.md",
+    "2_Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
+    "2_Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
+    "2_Redes de computadores/5_Camada de enlace/1_Serviços da camada de enlace.md",
+    "2_Redes de computadores/4_Camada de rede/16_Transição IPv4 para IPv6.md",
+    "2_Redes de computadores/4_Camada de rede/15_Tipos de filas.md",
+    "2_Redes de computadores/4_Camada de rede/14_Fenômeno da sincronização global do TCP.md",
+    "2_Redes de computadores/4_Camada de rede/13_BGP e os contratos entre provedores.md",
+    "2_Redes de computadores/4_Camada de rede/10_Roteamento Hierárquico.md",
+    "2_Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
+    "2_Redes de computadores/4_Camada de rede/4_Enderaçamento IP.md",
+    "2_Redes de computadores/4_Camada de rede/2_Por dentro do roteador.md",
+    "2_Redes de computadores/4_Camada de rede/1_Introdução.md",
+    "13_Autoescola/8_Primeiros Socorros",
+    "attachments/Pasted image 20250505155824.png",
+    "attachments/Pasted image 20250505143458.png",
+    "attachments/Pasted image 20250505135245.png",
+    "attachments/Pasted image 20250505135232.png",
+    "attachments/Pasted image 20250505133951.png",
+    "attachments/img-20250716085829.png",
+    "attachments/1_GrarH2XqRi5iLw--RI5NMQ.png",
+    "attachments/Pasted image 20251014084818.png",
+    "13_Autoescola/Unconfirmed 977396.crdownload",
+    "attachments/Pasted image 20251013213032.png",
+    "attachments/Pasted image 20251013212913.png",
+    "13_Autoescola/03-sinalizacao.pdf",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
-    "10_TeoriaComputação/3_Exercícios.md",
-    "10_TeoriaComputação/1_AutômatosBásico.pdf",
-    "1_Inglês/6_Simple past.md",
-    "1_Inglês/5_Simple present.md",
-    "1_Inglês/4_Indefinite article.md",
-    "1_Inglês/3_Demonstrative pronouns.md",
-    "1_Inglês/2_Subject pronouns.md",
-    "1_Inglês/1_Verb to be.md",
-    "11_Engenharia de Software/1_Introdução.md",
-    "12_Sistemas Distribuídos/8_Modelos Fundamentais.md",
-    "Aleatórios/Como funciona.md",
-    "Sem título 1.md",
-    "Sem título 2.md",
-    "attachments/Pasted image 20251001181025.png",
-    "attachments/Pasted image 20251001180945.png",
-    "attachments/Pasted image 20251001180709.png",
-    "attachments/Pasted image 20251001180220.png",
-    "attachments/Pasted image 20251001175646.png",
-    "attachments/Pasted image 20251001174655.png",
-    "attachments/Pasted image 20251001174642.png",
-    "attachments/Pasted image 20250930155802.png",
-    "attachments/Pasted image 20250930143401.png",
-    "Sem título 6.base",
-    "Sem título 3.base",
-    "Sem título 4.base",
-    "Sem título 5.base",
-    "8_POO/Ideias de questoes",
     "Sem título.canvas"
   ]
 }
