@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aleatórios/Untitled.md",
+                "file": "Aleatórios/Untitle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Untitle"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Aleatórios/Untitled.md",
+                "file": "Aleatórios/Untitle.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Untitle"
             }
           },
           {
@@ -183,7 +183,7 @@
   "active": "07036c246e01a975",
   "lastOpenFiles": [
     "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
-    "Aleatórios/Untitled.md",
+    "Aleatórios/Untitle.md",
     "Aleatórios/Pedido de crenciais GIT.md",
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
