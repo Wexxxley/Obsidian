@@ -3,34 +3,15 @@
 
 Repositório digital para que os professores de uma ou mais escolas/universidades possam cadastrar, organizar e compartilhar recursos pedagógicos (planos de aula, atividades, vídeos, slides, provas, etc). O Acervo Mestre centraliza, qualifica e facilita a evolução do material didático, transformando o esforço individual dos professores em um patrimônio intelectual duradouro para a escola.
 
-### **1. MVP (Produto Mínimo Viável)**
-
-1. **Cadastro de Recursos:**    
-    - Upload de arquivos (PDF, DOCX, PPTX).
-    - Permitir cadastro de links (vídeos do YouTube, artigos).
-    - Permitir criação de "Recursos Simples" (apenas texto, como markdown).
-        
-2. **Sistema de Classificação (Taxonomia):**
-    - **Tags:** `(ex: #prova, #exercicio-fixacao, #aula-invertida, #BNCC)`
-    - **Categorias pré-definidas:** Disciplinas (Matemática, História), Ano/Série (6º Ano, 1ª Série EM), Tópicos (Geometria Espacial, Revolução Francesa).
-        
-3. **Busca e Filtros Avançados:**
-    - O professor precisa encontrar o que procura.
-    - Buscar por palavra-chave, filtrar por tags, categoria, disciplina, ano, formato do arquivo, etc.
-        
-4. **Curadoria e Organização (Playlists):**
-    - Permitir a criação de coleções sequenciais de recursos (Playlists).
-    - Permitir adicionar/remover recursos existentes do acervo a uma playlist.
-
 ---
-### **2. Os Usuários**
+### **1. Os Usuários**
 
 - **Professor**: Usuário principal do sistema. Responsável por criar, organizar, buscar e utilizar os recursos pedagógicos.
 * **Coordenador**: Responsável pela curadoria e qualidade pedagógica do acervo. Possui todas as permissões de um Professor, com poderes adicionais de moderação sobre o conteúdo de outros usuários.
 * **Gestor**: Administrador do sistema. Responsável pela gestão de usuários e pela padronização dos metadados da plataforma.
 
 ---
-### 3. Requisitos Funcionais (RF)
+### 2. Requisitos Funcionais (RF)
 
  **RF-01: Gestão de Usuários e Autenticação**
 * RF-01.1: O sistema deve permitir que usuários (Professor, Coordenador) se autentiquem através de e-mail institucional e senha. 
@@ -71,8 +52,7 @@ Repositório digital para que os professores de uma ou mais escolas/universidade
 * RF-06.1: O Gestor deve ter uma interface para gerenciar (criar, editar, remover) os valores padrão para os metadados de Matéria e  Formato, garantindo a consistência do acervo. 
 
 --- 
-
-### 4. Requisitos Não-Funcionais (RNF)
+### 3. Requisitos Não-Funcionais (RNF)
 
 Os requisitos não-funcionais descrevem os critérios de qualidade e operação do sistema.
 
