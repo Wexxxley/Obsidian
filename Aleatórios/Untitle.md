@@ -10,8 +10,6 @@
 
 - Hoje eu trabalho como ==monitor de turma na ufc,== as vezes dou aula. E gravo vídeoaulas para o youtube.
 
-- Não sei se sou o candidato mais qualificado tecnicamente, mas com certeza tenho os atributos necessários pra trabalhar em equipe e evoluir.
-
 **Projeto acadêmcio - Análise Parlamentar - Câmara dos Deputados (2024)**
 - Este projeto oferece uma API robusta e um backend analítico para extrair, processar e
 servir dados complexos da Câmara dos Deputados. O objetivo é transformar dados brutos em insights compreensíveis.
