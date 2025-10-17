@@ -23,5 +23,3 @@ um projeto de extensão universitária na UFC Quixadá. É uma plataforma acess�
 fortalecendo a comunicação com a comunidade e permitindo fácil gerenciamento.
 - Link: https://github.com/Alice-Facundo/Creche
 - Link API: https://github.com/Wexxxley/CrecheAPI
-
-No momento estou realizando outro trabalho acadêmico de extensão.
