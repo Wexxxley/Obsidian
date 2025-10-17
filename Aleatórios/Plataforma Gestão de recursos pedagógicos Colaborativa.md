@@ -25,80 +25,70 @@ Repositório digital para que os professores de uma ou mais escolas/universidade
 ---
 ### **2. Os Usuários**
 
-##### **1. Professor:**
-É o usuário principal.
-
-- **Ações no MVP:**
-    - **Pode fazer login** no sistema.
-    - **Pode cadastrar** novos recursos de todos os tipos (arquivos, links, texto).
-    - **Pode classificar** os recursos que ele mesmo criou (adicionar tags).
-    - **Pode buscar e filtrar** por todos os recursos compartilhados na plataforma.
-    - **Pode criar e gerenciar suas próprias playlists** (adicionar/remover recursos).
-    - **Pode editar e excluir APENAS os seus próprios** recursos e playlists.
-
-##### **2. Coordenador**
-Responsável pela qualidade pedagógica de uma disciplina, série ou da escola como um todo. Ele garante que o conteúdo na plataforma seja relevante e de qualidade.
-
-- **Ações no MVP:**
-    - **Faz tudo que o Professor faz.**
-    - **Moderação de Conteúdo:** Tem permissão para **editar ou excluir recursos de QUALQUER professor**.
-        
-##### **3. Gestor/ Diretor**:
-É o cliente, quem "compra" a ideia do projeto.
+- **Professor**: Usuário principal do sistema. Responsável por criar, organizar, buscar e utilizar os recursos pedagógicos.
+* **Coordenador**: Responsável pela curadoria e qualidade pedagógica do acervo. Possui todas as permissões de um Professor, com poderes adicionais de moderação sobre o conteúdo de outros usuários.
+* **Gestor**: Administrador do sistema. Responsável pela gestão de usuários e pela padronização dos metadados da plataforma.
 
 ---
-### **3. Especificação de Requisitos**
+1. Perfis de Usuário
 
-#### **1. Requisitos Funcionais (RF)**
-Os requisitos funcionais descrevem _o que_ o sistema deve fazer.
 
-###### **RF-01: Gestão de Usuários e Autenticação**
-- **RF-01.1:** O sistema deve permitir que usuários (Professores e Coordenadores) realizem login através de e-mail e senha.
-- **RF-01.2:** O sistema deve diferenciar os níveis de permissão entre os papéis de "Professor" e "Coordenador".
-- **RF-01.3:** O sistema deve manter a sessão do usuário ativa após o login.
 
-###### **RF-02: Gestão de Recursos Pedagógicos (CRUD)**
-- **RF-02.1:** O sistema deve permitir o cadastro de novos recursos pedagógicos de três tipos:
-    - a) Upload de arquivo (formatos permitidos: PDF, DOCX, PPTX).
-    - b) Link externo (URL, ex: vídeos do YouTube, artigos).
-    - c) Recurso de texto simples (criado em um editor de texto no próprio sistema, com suporte a Markdown).
-- **RF-02.2:** Ao cadastrar um recurso, o usuário deve ser obrigado a preencher campos de classificação (Categorias pré-definidas).
-- **RF-02.3:** O sistema deve permitir que o autor de um recurso o edite a qualquer momento.
-- **RF-02.4:** O sistema deve permitir que o autor de um recurso o exclua a qualquer momento.
+2. Requisitos Funcionais (RF)
 
-###### **RF-03: Sistema de Classificação (Taxonomia)**
-- **RF-03.1:** O sistema deve permitir que, durante o cadastro ou edição de um recurso, o usuário associe uma ou mais **tags** de forma livre (ex: `#prova`, `#BNCC`).
-- **RF-03.2:** O sistema deve prover **categorias pré-definidas e obrigatórias** para a classificação dos recursos, incluindo:
-    - a) Disciplina (ex: Matemática, História).
-    - b) Série (ex: 6º Ano, 1ª Série EM).
-    - c) Tópico (ex: Geometria Espacial, Revolução Francesa).
+Os requisitos funcionais descrevem as funcionalidades e comportamentos que o sistema deve executar.
 
-###### **RF-04: Busca e Filtragem**
-- **RF-04.1:** O sistema deve possuir um campo de busca por palavra-chave que pesquise nos títulos e descrições dos recursos.
-- **RF-04.2:** O sistema deve permitir a aplicação de múltiplos filtros para refinar os resultados da busca, incluindo:
-    - a) Filtrar por Tags.
-    - b) Filtrar por Disciplina.
-    - c) Filtrar por Série.
-    - d) Filtrar por Formato do Recurso (Arquivo, Link, Texto).
+ RF-01: Gestão de Usuários e Autenticação
+* RF-01.1: O sistema deve permitir que usuários (Professor, Coordenador) se autentiquem através de e-mail institucional e senha. [US-17]
+* RF-01.2: O sistema deve possuir uma área restrita, acessível apenas após a autenticação bem-sucedida. [US-17]
+* RF-01.3: O Gestor deve ser capaz de cadastrar novos usuários (Professores, Coordenadores), associando-os a uma escola e/ou disciplinas. [US-18]
+* RF-01.4: O Gestor deve ser capaz de desativar o acesso de um usuário ao sistema, garantindo a segurança da informação. [US-19]
+* RF-01.5: O sistema deve diferenciar as permissões de acesso e ações com base no perfil do usuário (Professor, Coordenador, Gestor).
 
-###### **RF-05: Moderação de Conteúdo (Privilégios do Coordenador)**
-- **RF-05.1:** Um usuário com o papel de "Coordenador" deve ter a permissão para editar as informações e o conteúdo de qualquer recurso cadastrado por qualquer professor.
-- **RF-05.2:** Um usuário com o papel de "Coordenador" deve ter a permissão para excluir qualquer recurso cadastrado por qualquer professor
+ RF-02: Gestão de Recursos Pedagógicos (CRUD)
+* RF-02.1 (Criar): O Professor deve poder cadastrar novos recursos de três formas distintas:
+    a. Upload de Arquivo: Enviando arquivos nos formatos PDF, DOCX, PPTX e MP4, com um título e uma descrição associados. [US-1]
+    b. URL Externa: Cadastrando um link (ex: YouTube, Vimeo, artigo online) com título e descrição. [US-2]
+    c. Nota Simples: Criando um recurso de texto puro utilizando a sintaxe Markdown, com título. [US-3]
+* RF-02.2 (Visualizar/Ler): Usuários autenticados devem poder visualizar e baixar os recursos para os quais têm permissão. [US-12]
+* RF-02.3 (Editar):
+    a. O Professor deve poder editar os metadados (título, descrição, tags) e o conteúdo dos recursos que ele mesmo criou. [US-7]
+    b. O Coordenador deve poder editar os metadados e o conteúdo de qualquer recurso na plataforma. [US-6]
+* RF-02.4 (Excluir):
+    a. O Professor (autor) deve poder excluir permanentemente os recursos que ele mesmo criou. [US-5]
+    b. O Coordenador deve poder excluir ou despublicar qualquer recurso da plataforma. [US-6]
 
-###### **RF-06: Gestão de Playlists**
-- **RF-06.1:** O sistema deve permitir que um Professor crie uma nova playlist, definindo um título e uma descrição.
-- **RF-06.2:** O sistema deve permitir que um Professor adicione recursos existentes no acervo a uma de suas playlists.
-- **RF-06.3:** O sistema deve permitir que o proprietário de uma playlist remova recursos dela e edite suas informações (título e descrição).
-- **RF-06.4:** O sistema deve permitir que o proprietário de uma playlist a exclua.
+ RF-03: Busca e Descoberta de Recursos
+* RF-03.1: O sistema deve permitir a busca de recursos por palavras-chave presentes no título ou descrição. [US-10]
+* RF-03.2: O sistema deve fornecer filtros para refinar os resultados da busca por Matéria, Série/Ano e Formato do recurso. [US-11]
+* RF-03.3: A plataforma deve exibir uma seção com os recursos publicados mais recentemente, permitindo que os professores se mantenham atualizados. [US-13]
 
-#### **2. Requisitos Não-Funcionais (RNF)**
-Os requisitos não-funcionais descrevem _como_ o sistema deve operar, definindo seus atributos de qualidade.
+ RF-04: Organização e Curadoria (Taxonomia e Playlists)
+* RF-04.1: O Professor deve poder atribuir uma ou mais tags a um recurso no momento do cadastro ou edição. [US-4]
+* RF-04.2: O Professor deve poder criar "Playlists", que são coleções ordenadas de recursos, contendo um título e uma descrição. [US-8]
+* RF-04.3: O Professor deve poder adicionar e remover recursos de suas próprias playlists. *[US-9]*
+* RF-04.4: O Coordenador deve poder marcar um recurso como "Destaque" para que ele ganhe visibilidade na plataforma. [US-14]
 
-- **RNF-01 (Usabilidade):** A interface do sistema deve ser intuitiva e clara, exigindo o mínimo de treinamento para que um professor consiga cadastrar e buscar recursos.
-- **RNF-02 (Desempenho):** As buscas e filtragens de recursos devem retornar resultados em menos de 3 segundos.
-- **RNF-03 (Segurança):** O acesso ao acervo deve ser restrito a usuários autenticados da escola ou rede de escolas. Os dados dos usuários (senhas) devem ser armazenados de forma criptografada.
-- **RNF-04 (Compatibilidade):** A plataforma deve ser totalmente funcional nas versões mais recentes dos principais navegadores web (Google Chrome, Mozilla Firefox, Microsoft Edge).
+ RF-05: Informações de Recurso e Métricas
+* RF-05.1: Ao visualizar um recurso, o sistema deve exibir o nome do autor e seu contato institucional. [US-15]
+* RF-05.2: O sistema deve registrar e exibir contadores de visualizações e downloads para cada recurso. [US-16]
 
+RF-06: Administração da Plataforma
+* RF-06.1: O Gestor deve ter uma interface para gerenciar (criar, editar, remover) os valores padrão para os metadados de Matéria, Série/Ano e Formato, garantindo a consistência do acervo. [US-20]
+
+3. Requisitos Não-Funcionais (RNF)
+
+Os requisitos não-funcionais descrevem os critérios de qualidade e operação do sistema.
+
+* RNF-01 (Usabilidade): A interface deve ser intuitiva e de fácil utilização para professores e coordenadores, que podem ter diferentes níveis de familiaridade com tecnologia.
+* RNF-02 (Desempenho):
+    O tempo de resposta para buscas e filtros deve ser inferior a 3 segundos.
+    O upload e download de arquivos deve ser eficiente, com feedback visual claro para o usuário durante o processo.
+* RNF-03 (Segurança):
+    O acesso aos recursos e funcionalidades deve ser estritamente controlado pelos perfis de usuário definidos.
+    O sistema deve proteger os dados dos usuários e os arquivos armazenados contra acesso não autorizado.
+* RNF-04 (Compatibilidade): A plataforma deve ser compatível com os principais navegadores de mercado em suas versões mais recentes (Google Chrome, Mozilla Firefox, Microsoft Edge).
+* RNF-05 (Disponibilidade): O sistema deve estar disponível para acesso 99% do tempo, excluindo janelas de manutenção planejadas.
 ---
 ### **4. Especificação de Histórias de Usuário**
 Histórias de usuário focam na perspectiva do usuário final, descrevendo uma funcionalidade, seu motivo e o valor gerado.
