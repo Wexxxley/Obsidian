@@ -28,8 +28,11 @@ fortalecendo a comunicação com a comunidade e permitindo fácil gerenciamento.
 ## **Fale sobre vc**
 
 -Estou no 6 semestre de ciencias da computação, na ufc de quixada.
--Sempre gostei de tecnologia e estou me desenvolvendo com foco em desenvolvimento Web. 
--Nao querendo ser muito técnico, mas dentro de desenvolvimento Web o meu foco é no back end: modelagem e desenvolvimento de banco de dados, desenvolvimento de apis, modelagem de aplicações. (POSTGRESQL, MONGODB)
--Mas também tenho experiencia nas tecnologias do front end. (HTML, CSS, JAVASCRIPT)
 
--Um dos meus pontos fortes é a comunicação e o trabalho em equipe. Aatualmeente trabalho como monitor na ufc, ja até dei aula substituindo o professor
+-Sempre gostei de tecnologia e estou me ==desenvolvendo com foco em desenvolvimento Web.== 
+-==Nao querendo ser muito técnico, mas dentro de desenvolvimento Web o meu foco é no back== end: modelagem e desenvolvimento de banco de dados, desenvolvimento de apis, modelagem de aplicações. (POSTGRESQL, MONGODB)
+
+-==Mas também tenho experiencia nas tecnologias do front end.== (HTML, CSS, JAVASCRIPT)
+
+-==Um dos meus pontos fortes é a comunicação e o trabalho em equipe==. Atualmeente trabalho ==como monitor na ufc, ja até dei aula substituindo o professor.== E inclusive desenvolvendo e gravando videoaulas. Essas experiencia foram bem importantes para primorar o trabalho em equipe, comunicação. ==E é algo que normalmente o pessoal de ti acaba nao priorizando tanto.==
+- Algumas características que podem ser positivas para o emprego são: Proatividade,  tomada de decisões quando necessário, dar a minha opinião, e se precisar consigo tomar a frente de projetos.
