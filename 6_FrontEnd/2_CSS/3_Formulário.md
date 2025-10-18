@@ -7,7 +7,9 @@
 
 Um formulário básico contém campos de entrada input, etiquetas label, botões button e outros elementos.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfM-CzBbmBMx-NoFAHHzLRG0_ko3ywR48HqBrG8qUfueoLvjAPsR3iTvjR2U3BTM7jMqhzN_VOC5vgKQLusrjL1ETtL9udQ1_icAj5Ftk0GD6guzDxNQPRRFbfh-wbhrVttb-XpAQ?key=VYJVAqKhTdZyHt8enJbiwA)![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeJ0C7wlvNOM-J5Xk7rOTCTbj47Yc-UnoH9eE7DSzCdHpAtC5sgWtN2bR5MsUZwc5nVDXPOHwMhMpZX39adNNDB9Sxmmj-CfRfm2tWt9TJk639ZQNaxwJdmPxYyhdUuUDrYIFBQdA?key=VYJVAqKhTdZyHt8enJbiwA)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfM-CzBbmBMx-NoFAHHzLRG0_ko3ywR48HqBrG8qUfueoLvjAPsR3iTvjR2U3BTM7jMqhzN_VOC5vgKQLusrjL1ETtL9udQ1_icAj5Ftk0GD6guzDxNQPRRFbfh-wbhrVttb-XpAQ?key=VYJVAqKhTdZyHt8enJbiwA)
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeJ0C7wlvNOM-J5Xk7rOTCTbj47Yc-UnoH9eE7DSzCdHpAtC5sgWtN2bR5MsUZwc5nVDXPOHwMhMpZX39adNNDB9Sxmmj-CfRfm2tWt9TJk639ZQNaxwJdmPxYyhdUuUDrYIFBQdA?key=VYJVAqKhTdZyHt8enJbiwA)
 
 Explicação dos Atributos do form
 
