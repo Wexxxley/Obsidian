@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aleatórios/SDT-Sistema VoIP.md",
+                "file": "6_FrontEnd/2_CSS/2_Box model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SDT-Sistema VoIP"
+              "title": "2_Box model"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Aleatórios/SDT-Sistema VoIP.md",
+                "file": "6_FrontEnd/2_CSS/2_Box model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SDT-Sistema VoIP"
+              "title": "Outline of 2_Box model"
             }
           },
           {
@@ -182,12 +182,14 @@
   },
   "active": "07036c246e01a975",
   "lastOpenFiles": [
+    "6_FrontEnd/2_CSS/3_Formulário.md",
+    "6_FrontEnd/2_CSS/4_Flexbox.md",
+    "Aleatórios/SDT-Sistema VoIP.md",
     "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "Aleatórios/Pedido de crenciais GIT.md",
     "Aleatórios/IHC-Observatório Legislativo.md",
     "Aleatórios/Como funciona rep.md",
     "Aleatórios/Apresentação Entrevista.md",
-    "Aleatórios/SDT-Sistema VoIP.md",
     "13_Autoescola/Documentação de Requisitos.docx",
     "13_Autoescola/Unconfirmed 298243.crdownload",
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
@@ -214,8 +216,6 @@
     "2_Redes de computadores/4_Camada de rede/15_Tipos de filas.md",
     "2_Redes de computadores/4_Camada de rede/14_Fenômeno da sincronização global do TCP.md",
     "2_Redes de computadores/4_Camada de rede/13_BGP e os contratos entre provedores.md",
-    "2_Redes de computadores/4_Camada de rede/10_Roteamento Hierárquico.md",
-    "2_Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
     "13_Autoescola/8_Primeiros Socorros",
     "attachments/Pasted image 20250505155824.png",
     "attachments/Pasted image 20250505143458.png",
