@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/2_CSS/3_Formulário.md",
+                "file": "6_FrontEnd/2_CSS/3_Shadow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Formulário"
+              "title": "3_Shadow"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6_FrontEnd/2_CSS/3_Formulário.md",
+                "file": "6_FrontEnd/2_CSS/3_Shadow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_Formulário"
+              "title": "Outline of 3_Shadow"
             }
           },
           {
@@ -182,8 +182,12 @@
   },
   "active": "07036c246e01a975",
   "lastOpenFiles": [
+    "6_FrontEnd/2_CSS/7_Positions.md",
+    "6_FrontEnd/2_CSS/5_Formulário.md",
+    "6_FrontEnd/2_CSS/3_Shadow.md",
     "6_FrontEnd/2_CSS/2_Box model.md",
-    "6_FrontEnd/2_CSS/3_Formulário.md",
+    "6_FrontEnd/2_CSS/1_CSS introdução.md",
+    "6_FrontEnd/2_CSS/6_Configurações iniciais.md",
     "6_FrontEnd/2_CSS/4_Flexbox.md",
     "Aleatórios/SDT-Sistema VoIP.md",
     "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
@@ -212,10 +216,6 @@
     "2_Redes de computadores/5_Camada de enlace/4_Ethernet e Protocolos de acesso múltiplo.md",
     "2_Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
     "2_Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
-    "2_Redes de computadores/5_Camada de enlace/1_Serviços da camada de enlace.md",
-    "2_Redes de computadores/4_Camada de rede/16_Transição IPv4 para IPv6.md",
-    "2_Redes de computadores/4_Camada de rede/15_Tipos de filas.md",
-    "2_Redes de computadores/4_Camada de rede/14_Fenômeno da sincronização global do TCP.md",
     "13_Autoescola/8_Primeiros Socorros",
     "attachments/Pasted image 20250505155824.png",
     "attachments/Pasted image 20250505143458.png",

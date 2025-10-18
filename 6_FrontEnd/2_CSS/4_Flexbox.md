@@ -1,6 +1,5 @@
 
 ________________________________________________________
-# Flexbox
 
  O display flex é uma propriedade CSS que define um container flexível. Ele permite que os elementos dentro desse container sejam distribuídos de forma eficiente, independente do seu tamanho, com a possibilidade de alinhar, justificar e distribuir o espaço entre os itens de maneira mais controlada e responsiva. É a melhor maneira de organizar elementos dentro de um container
 
