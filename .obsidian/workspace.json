@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
-                "mode": "preview",
+                "file": "Aleatórios/SDT-Sistema VoIP.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Plataforma Gestão de recursos pedagógicos Colaborativa"
+              "title": "SDT-Sistema VoIP"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -143,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
+                "file": "Aleatórios/SDT-Sistema VoIP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Plataforma Gestão de recursos pedagógicos Colaborativa"
+              "title": "Outline of SDT-Sistema VoIP"
             }
           },
           {
@@ -183,11 +182,14 @@
   },
   "active": "07036c246e01a975",
   "lastOpenFiles": [
+    "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
+    "Aleatórios/Pedido de crenciais GIT.md",
+    "Aleatórios/IHC-Observatório Legislativo.md",
+    "Aleatórios/Como funciona rep.md",
+    "Aleatórios/Apresentação Entrevista.md",
+    "Aleatórios/SDT-Sistema VoIP.md",
     "13_Autoescola/Documentação de Requisitos.docx",
     "13_Autoescola/Unconfirmed 298243.crdownload",
-    "Aleatórios/Untitle.md",
-    "Aleatórios/Plataforma Gestão de recursos pedagógicos Colaborativa.md",
-    "Aleatórios/Pedido de crenciais GIT.md",
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
     "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
     "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
@@ -214,8 +216,6 @@
     "2_Redes de computadores/4_Camada de rede/13_BGP e os contratos entre provedores.md",
     "2_Redes de computadores/4_Camada de rede/10_Roteamento Hierárquico.md",
     "2_Redes de computadores/4_Camada de rede/9_Abstração de uma rede.md",
-    "2_Redes de computadores/4_Camada de rede/4_Enderaçamento IP.md",
-    "2_Redes de computadores/4_Camada de rede/2_Por dentro do roteador.md",
     "13_Autoescola/8_Primeiros Socorros",
     "attachments/Pasted image 20250505155824.png",
     "attachments/Pasted image 20250505143458.png",
@@ -228,7 +228,6 @@
     "13_Autoescola/Unconfirmed 977396.crdownload",
     "attachments/Pasted image 20251013213032.png",
     "attachments/Pasted image 20251013212913.png",
-    "13_Autoescola/03-sinalizacao.pdf",
     "Sem título.canvas"
   ]
 }
