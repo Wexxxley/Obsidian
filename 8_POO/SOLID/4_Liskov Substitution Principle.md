@@ -4,7 +4,7 @@
 > [!NOTE]
 > “Se S é uma subclasse de T, então objetos do tipo T podem ser substituídos por objetos do tipo S sem alterar o funcionamento do programa”.
 
-Classes derivadas devem manter o comportamento esperado da classe mãe. Ou seja, classes derivadas não devem invalidar funcionalidades da classe base.
+Classes derivadas não devem invalidar funcionalidades da classe base.
 
 No exemplo abaixo a classe abstrata Shape pode ser substituída por qualquer uma das subclasses. Elas estão implementando o método abstrato Área e todas precisam desta funcionalidade.
 
