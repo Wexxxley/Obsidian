@@ -1,10 +1,12 @@
 
+
+---
+
 **1. Contextualização**
 Na era da informação digital, as redes sociais ampliaram o alcance e a notoriedade dos debates políticos e da atuação dos deputados federais. No entanto, essa visibilidade nem sempre se traduz em clareza. Há um paradoxo: enquanto o volume de informação aumenta, a capacidade do cidadão comum de compreender e fiscalizar o trabalho de seus representantes diminui, devido à complexidade e à fragmentação dos dados públicos. Este projeto nasce da necessidade de preencher essa lacuna, transformando dados brutos em conhecimento acessível.
 
 **2. O Problema Central**
-O acesso às informações públicas sobre a atividade parlamentar, embora garantido por lei, é pouco intuitivo para a maioria dos cidadãos. Os portais oficiais, como o da Câmara dos Deputados, são ricos em dados, mas os apresentam de forma técnica, em planilhas, documentos extensos e com jargão político específico. Isso cria barreiras significativas para o cidadão que deseja:
-
+Os portais oficiais, como o da Câmara dos Deputados, são ricos em dados, mas os apresentam de forma técnica, em planilhas, documentos extensos e com jargão político específico. Isso cria barreiras significativas para o cidadão que deseja:
 - Entender como um deputado votou em pautas importantes.
 - Acompanhar os projetos de lei propostos.
 - Analisar os gastos de verba parlamentar.
