@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8_POO/SOLID/4_Liskov Substitution Principle.md",
+                "file": "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Liskov Substitution Principle"
+              "title": "ES-Plataforma Gestão de recursos pedagógicos Colaborativa"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8_POO/SOLID/4_Liskov Substitution Principle.md",
+                "file": "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 4_Liskov Substitution Principle"
+              "title": "Outline of ES-Plataforma Gestão de recursos pedagógicos Colaborativa"
             }
           },
           {
@@ -182,6 +182,12 @@
   },
   "active": "07036c246e01a975",
   "lastOpenFiles": [
+    "Aleatórios/Como funciona rep.md",
+    "Aleatórios/Apresentação Entrevista.md",
+    "Aleatórios/Pedido de crenciais GIT.md",
+    "Aleatórios/IHC-Observatório Legislativo.md",
+    "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
+    "8_POO/SOLID/4_Liskov Substitution Principle.md",
     "Aleatórios/SDT-Sistema VoIP.md",
     "6_FrontEnd/2_CSS/7_Positions.md",
     "6_FrontEnd/2_CSS/6_Configurações iniciais.md",
@@ -190,11 +196,6 @@
     "6_FrontEnd/2_CSS/2_Box model.md",
     "6_FrontEnd/2_CSS/1_CSS introdução.md",
     "6_FrontEnd/2_CSS/4_Flexbox.md",
-    "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
-    "Aleatórios/Pedido de crenciais GIT.md",
-    "Aleatórios/IHC-Observatório Legislativo.md",
-    "Aleatórios/Como funciona rep.md",
-    "Aleatórios/Apresentação Entrevista.md",
     "13_Autoescola/Documentação de Requisitos.docx",
     "13_Autoescola/Unconfirmed 298243.crdownload",
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
@@ -215,7 +216,6 @@
     "2_Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
     "2_Redes de computadores/5_Camada de enlace/4_Ethernet e Protocolos de acesso múltiplo.md",
     "2_Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",
-    "2_Redes de computadores/5_Camada de enlace/2_Adaptadores.md",
     "13_Autoescola/8_Primeiros Socorros",
     "attachments/Pasted image 20250505155824.png",
     "attachments/Pasted image 20250505143458.png",
