@@ -46,23 +46,22 @@
     - Muitas infrações **Gravíssimas** (como dirigir embriagado, recusar o bafômetro ou exceder $50\%$ da velocidade) têm como penalidade a **suspensão do direito de dirigir** de forma direta, independentemente do total de pontos do condutor.
 
 ---
-## 7. Poluição Sonora e Seus Danos
+## 6. Poluição Sonora e Seus Danos
 
 A poluição sonora é medida em **decibéis (dB)**, utilizando um aparelho chamado **Decibelímetro**. 
 
-| dB                | Exemplo de Situação                                           | Efeito na Saúde                                                                                    | Tempo Máximo de Exposição Segura                               |
-| ----------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| **Até 55 **       | Conversa normal, geladeira em funcionamento.                  | Ambiente **tranquilo**. Nível seguro e aceitável para o conforto.                                  | Sem restrição de tempo.                                        |
-| **56 a 70**       | Secador de cabelo, rua com tráfego leve.                      | Começa a gerar **incômodo**, estresse e dificuldade de concentração.                               | Sem risco de perda auditiva a curto prazo.                     |
-| **71 a 85**       | Trânsito intenso, liquidificador, cortador de grama.          | **Estresse e Fadiga**. É o _limite de segurança_ para exposição prolongada.                        | **8 horas diárias (Limite Máximo de Exposição)**.              |
-| **85 dB ou mais** | Nível de uma motocicleta, música muito alta, buzina de carro. | **RISCO DE PERDA AUDITIVA IRREVERSÍVEL**. A exposição contínua leva à morte das células auditivas. | O tempo de exposição seguro diminui drasticamente: **1 hora**. |
-| **90 a 120**      | shows de rock, buzina a 1m de distância.                      | **Danos auditivos progressivos** e zumbido (tinnitus). Estresse cardiovascular.                    | **4 minutos**.                                                 |
-| **Acima de 120 ** | Disparo de arma de fogo, turbina de avião próxima.            | **Dor e Trauma Acústico Agudo**. **Dano imediato** e risco de surdez total.                        | **Exposição imediata e perigosa**.                             |
-
+| dB                | Exemplo de Situação                                | Efeito na Saúde                           | Tempo Máximo de Exposição Segura           |
+| ----------------- | -------------------------------------------------- | ----------------------------------------- | ------------------------------------------ |
+| **Até 55 **       | Conversa normal.                                   | Ambiente **tranquilo**.                   | Sem restrição.                             |
+| **56 a 70**       | Secador de cabelo.                                 | Começa a gerar **incômodo**.              | Sem risco de perda auditiva a curto prazo. |
+| **71 a 85**       | Trânsito intenso.                                  | **Estresse e Fadiga**.                    | 8 horas diárias                            |
+| **85 dB ou mais** | música muito alta, buzina de carro.                | **RISCO DE PERDA AUDITIVA IRREVERSÍVEL**. | 1 hora.                                    |
+| **90 a 120**      | shows de rock, buzina a 1m de distância.           | **Danos auditivos progressivos**          | 4 minutos.                                 |
+| **Acima de 120 ** | Disparo de arma de fogo, turbina de avião próxima. | **Dor e Trauma Acústico Agudo**.          | **Exposição imediata e perigosa**.         |
 - **Infração por Som Excessivo:** A infração por usar equipamento de som com volume excessivo é **Grave**, resultando em **5 pontos na CNH**, além da **Retenção do Veículo**.
 
 ---
-## 8. O Programa de Controle Ambiental
+## 7. O Programa de Controle Ambiental
 
 ### **1. PROCONVE**
 - **Programa de Controle da Poluição do Ar por Veículos Automotores** (PROCONVE).    
@@ -70,19 +69,15 @@ A poluição sonora é medida em **decibéis (dB)**, utilizando um aparelho cham
 ### **2. Órgãos Ambientais**
 Estes são alguns dos órgãos que compõem o **SISNAMA (Sistema Nacional do Meio Ambiente)** e que atuam em conjunto para regulamentar e fiscalizar a poluição veicular:
 
-- **CONAMA (Conselho Nacional do Meio Ambiente):** Órgão consultivo e deliberativo do SISNAMA. É responsável por estabelecer normas, critérios e padrões relativos ao controle e à manutenção da qualidade do meio ambiente, inclusive sobre poluição veicular.
-    
+- **CONAMA (Conselho Nacional do Meio Ambiente):**  É responsável por estabelecer normas, critérios e padrões relativos ao controle e à manutenção da qualidade do meio ambiente, inclusive sobre poluição veicular.
 - **IBAMA (Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis):** Órgão executor das políticas de meio ambiente, responsável pela fiscalização e aplicação de multas ambientais.
-    
 - **SISNAMA (Sistema Nacional do Meio Ambiente):** O conjunto de órgãos federais, estaduais e municipais que executam a política nacional do meio ambiente.
 
 ---
-## 9. Dispositivos de Controle de Poluição
+## 8. Dispositivos de Controle de Poluição
 
 ### a) Catalisador
 - **Função:** O dispositivo mais importante no controle de emissões. ==Converte os gases de escape **tóxicos** (CO, HC, NOx​) em gases menos nocivos (CO2​, H2​O, N2​).== 
-- **Localização:** Instalado no sistema de escapamento.
-- **Manutenção:** Se estiver danificado ou adulterado, a emissão de poluentes aumenta drasticamente e o veículo pode ser multado por infração grave.
 
  ![](attachments/Pasted%20image%2020251007111649.png)
 ### b) Cânister
@@ -96,8 +91,6 @@ Estes são alguns dos órgãos que compõem o **SISNAMA (Sistema Nacional do Mei
 
 ### d) Silenciador
 - **Função:** Dispositivo instalado no escapamento projetado com câmaras e perfurações que **reduzem o ruído** (poluição sonora) gerado pelo motor.
-    
-- **Observação:** Um silenciador danificado ou furado aumenta o ruído e é motivo de autuação.
 ![](attachments/Pasted%20image%2020251007112027.png)
 
 ### e) Kit GNV (Gás Natural Veicular)
@@ -105,22 +98,24 @@ Estes são alguns dos órgãos que compõem o **SISNAMA (Sistema Nacional do Mei
 - **Benefício:** A combustão do GNV é considerada mais **limpa e econômica**, com menor emissão de poluentes em comparação com gasolina ou diesel.
 
 ---
-## 10. Combustíveis
+## 9. Combustíveis
 
 - **Ordem de Poluição (Mais poluente → Menos poluente):** Diesel → Gasolina → Etanol → GNV.
 - **Combustível Mais Limpo:** **GNV** (Gás Natural Veicular).
 - **Etanol:** É produzido a partir de matéria-prima vegetal (cana-de-açúcar, batata doce, milho, beterraba) e **polui cerca da metade** do que polui a gasolina.
 
 ---
+## 10. MOPP E MPPE
 
-## 11. Transporte de Produtos Perigosos
-O transporte de cargas que representam risco à saúde humana, segurança pública ou ao meio ambiente é rigorosamente controlado.
+A sigla **MOPP**(Movimentação Operacional de Produtos Perigosos) refere-se a um curso de especialização obrigatório para motoristas profissionais.
+
+    
 
 ### 1. Sinalização dos Produtos Perigosos
 - São classificados em **9 classes** de risco, identificadas por um **rótulo em forma de disco**.
 - **Painel de Segurança:** Fica nas laterais e na traseira do veículo, informando o tipo de risco.
     - **Número de Risco:** Fica na parte superior (ex: 33 para líquido altamente inflamável).
-    - **Número UN (Algarismo subsidiário):** Fica na parte inferior e identifica a substância específica (ex: 1203 para Gasolina).
+    - **Número UN (Algarismo subsidiário):** identifica a substância específica (ex: 1203 para Gasolina).
     - **A letra 'X' na frente do Número de Risco** indica **perigo especial em contato com água**.
 
 ![](attachments/Pasted%20image%2020251007112406.png)
@@ -131,7 +126,7 @@ O incêndio só ocorre se houver a união de três elementos (o **Triângulo do 
 2. **Calor** (a temperatura de ignição)
 3. **Oxigênio** (presente no **Ar**)
 
-O extintor mais comum e recomendado para veículos era o **Extintor ABC**, capaz de combater as três classes de fogo:
+O extintor mais comum e recomendado para veículos é o **Extintor ABC**, capaz de combater as três classes de fogo:
 - **Classe A:** Materiais sólidos (papel, madeira, tecido).
 - **Classe B:** Líquidos e gases inflamáveis (combustíveis, álcool).
 - **Classe C:** Equipamentos elétricos energizados.
