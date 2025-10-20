@@ -11,14 +11,12 @@
             "id": "07036c246e01a975",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "13_Autoescola/2_Legislação de Transito.md",
-                "mode": "source",
-                "source": false
+                "file": "13_Autoescola/8_Primeiros Socorros.pdf"
               },
-              "icon": "lucide-file",
-              "title": "2_Legislação de Transito"
+              "icon": "lucide-file-text",
+              "title": "8_Primeiros Socorros"
             }
           }
         ]
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13_Autoescola/2_Legislação de Transito.md",
+                "file": "13_Autoescola/8_Primeiros Socorros.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_Legislação de Transito"
+              "title": "Outline of 8_Primeiros Socorros"
             }
           },
           {
@@ -182,6 +180,9 @@
   },
   "active": "07036c246e01a975",
   "lastOpenFiles": [
+    "13_Autoescola/7_Mecânica-basica.pdf",
+    "13_Autoescola/6_Mecânica Básica.md",
+    "13_Autoescola/5_Sinalização.pdf",
     "13_Autoescola/4_Infrações e penalidades.md",
     "13_Autoescola/3_Normas de circulação.md",
     "13_Autoescola/2_Legislação de Transito.md",
@@ -208,14 +209,10 @@
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
     "6_FrontEnd/3_JavaScript/1_Introdução.md",
     "6_FrontEnd/1_HTML/1_Html básico.md",
-    "13_Autoescola/5_Sinalização.pdf",
-    "13_Autoescola/7_Mecânica-basica.pdf",
     "13_Autoescola/8_Primeiros Socorros.pdf",
-    "13_Autoescola/8_Primeiros Socorros.md",
     "13_Autoescola/06-primeiros-socorros.pdf",
     "13_Autoescola/Unconfirmed 286822.crdownload",
     "13_Autoescola/08-mecanica-basica-de-veiculos (1).pdf",
-    "2_Redes de computadores/4_Camada de rede/3_IPv4.md",
     "13_Autoescola/8_Primeiros Socorros",
     "attachments/Pasted image 20250505155824.png",
     "attachments/Pasted image 20250505143458.png",

@@ -3,7 +3,7 @@
 
 ---
 ## 1. Penalidades e Medidas Administrativas
-
+Toda infração gera uma **penalidade**. Algumas infrações também preveem uma **medida administrativa**, que é uma ação prática do agente de trânsito para impedir que o condutor continue dirigindo em condições irregulares.
 ### **A. Penalidades**
 - **Advertência por Escrito:** Aplicada em infrações leves ou médias, quando o condutor não for reincidente na mesma infração nos últimos 12 meses.
 - **Multa:** Punição financeira.
@@ -54,7 +54,6 @@ Os prazos variam de acordo com a gravidade e o histórico do condutor:
 | Por infrações que levam à suspensão **direta** (primeira vez).   | **2 a 8 meses**.      |
 | **Reincidente** (em 12 meses após o cumprimento da suspensão).   | **8 meses a 2 anos**. |
 | **Reincidente** em infração de suspensão **direta** (em 1 ano).  | **8 a 18 meses**.     |
-|                                                                  |                       |
 
 ---
 ## 3. Cassação da C.N.H.
