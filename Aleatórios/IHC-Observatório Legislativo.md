@@ -52,4 +52,7 @@ O caráter extensionista refere-se à capacidade de um projeto de transcender se
 - **Ponte entre a Academia e a Sociedade:** Ele aplica conceitos de Ciência da Computação, Design e Ciência Política (IHC, visualização de dados, análise política) para resolver um problema real da comunidade: a falta de acesso à informação.
 - **Empoderamento do Cidadão:** Fornecer informação clara e acessível é uma forma de poder. O projeto empodera o cidadão ao dar-lhe as ferramentas necessárias para cobrar seus representantes com base em dados concretos, e não apenas em discursos.
 - **Recurso para a Comunidade:** A ferramenta serve como um bem público digital. Jornalistas, líderes comunitários e outros cidadãos podem utilizar seus recursos gratuitamente para gerar conhecimento, promover debates e fortalecer a democracia local e nacional.
-    
+
+
+- Web push
+- Exportar gráficos como imagens
