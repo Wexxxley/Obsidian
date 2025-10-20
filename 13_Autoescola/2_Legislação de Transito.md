@@ -164,7 +164,6 @@ Existem **5 categorias** de habilitação no Brasil (A a E), além da Autorizaç
 
 ![](attachments/Pasted%20image%2020251007212205.png)
 
-![](attachments/Pasted%20image%2020251007212407.png)
 
 ![](attachments/Pasted%20image%2020251007212350.png)
 
