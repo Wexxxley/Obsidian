@@ -2,21 +2,12 @@
 #Concluded 
 
 ----
-## **1. O Sistema Nacional de Trânsito (SNT)**
-
-O **SNT** é o conjunto de órgãos e entidades da **União**, dos **Estados**, do **Distrito Federal** e dos **Municípios**.
-1. **Planejamento e Administração:** Organizar e gerenciar as atividades de trânsito.
-2. **Registro e Licenciamento:** Controlar veículos.
-3. **Habilitação de Condutores:** Formação, reciclagem e exames.
-4. **Engenharia e Operação:** Projetar vias e fiscalizar a circulação.
-5. **Fiscalização e Penalidades:** Policiamento, julgamento de infrações e aplicação de multas.
-### **A. CTB (Código de Trânsito Brasileiro):**
+## **1. CTB (Código de Trânsito Brasileiro)**
 OCTB é o documento máximo que rege o trânsito no país desde 1998.
 - O CTB estabelece regras e normas válidas para **todas as vias terrestres** do território nacional abertas à circulação (ruas, avenidas, rodovias, estradas e até vias internas de condomínios).
-- As regras de habilitação (formação, exames, etc.) são definidas pelo CTB e regulamentadas por Resoluções do **CONTRAN**.
 
 ---
-## **2. Órgãos do SNT**
+## **2. Órgãos do Sistema Nacional de Trânsito (SNT)****
 Os órgãos do SNT são divididos em dois grandes grupos: **Normativos/Consultivos** e **Executivos**.
 ### A. Órgãos Normativos
 Têm a função de criar, revisar e coordenar as normas de trânsito em suas respectivas esferas.
@@ -41,7 +32,7 @@ Estes órgãos são responsáveis pela aplicação prática da lei, como fiscali
 | **Polícias Militares**                              | PM           | Estadual  | Responsável pela **fiscalização** e execução das normas de trânsito, geralmente em vias urbanas (mediante convênio). |
 | **Departamento Municipal de Trânsito**              |              | Municipal | Executivo do Município. Responsável por engenharia, operação e fiscalização do **trânsito urbano**                   |
 
-1. **Vias Urbanas:** Nas **vias urbanas** (ruas, avenidas municipais), a responsabilidade primária pela fiscalização do trânsito é do **órgão executivo municipal de trânsito**.
+1. **Vias Urbanas:** Nas **vias urbanas**, a responsabilidade primária pela fiscalização do trânsito é do **órgão executivo municipal de trânsito**.
 2. **Convênio:** De forma simples, o convênio é o instrumento jurídico que permite que diferentes órgãos ou níveis de governo trabalhem juntos para atingir um objetivo comum. A PM só pode atuar na fiscalização de trânsito em vias urbanas quando há um **Convênio** firmado entre o **Governo Estadual** e a **Prefeitura Municipal**.
 
 ---
@@ -52,7 +43,6 @@ Para obter a Carteira Nacional de Habilitação (**CNH**) ou a Autorização par
 1. **Ser Penalmente Imputável (Requisito de Idade e Responsabilidade):**
     - Tem que ter **18 anos completos**.
     - Mesmo que um indivíduo seja emancipado  antes dos 18 anos, ele **NÃO** adquire a **imputabilidade penal** perante o CTB. 
-    - O Código de Trânsito Brasileiro exige que o candidato, sendo maior de 18 anos, seja **penalmente imputável** e demonstre **plena capacidade de dirigir**. Para uma pessoa neurodivergente o foco recai sobre o **exame de aptidão física e mental**. O candidato neurodivergente deve ser avaliado por um médico perito examinador.
 2. **Saber Ler e Escrever:**
     - Este requisito é fundamental para que o condutor possa compreender as placas de sinalização, as ordens dos agentes de trânsito e o próprio CTB.
 3. **Possuir Documento de Identidade:**
@@ -139,10 +129,6 @@ A validade da CNH está condicionada ao prazo de vigência do **Exame de Aptidã
 | **Igual ou superior a 50 e inferior a 70 anos** | **A cada 5 anos**          |
 | **Igual ou superior a 70 anos**                 | **A cada 3 anos**          |
 
-**Observação Médica:** Quando houver indícios de deficiência física ou mental, ou de progressividade de doença que possa diminuir a capacidade para dirigir, os prazos de validade poderão ser diminuídos por proposta do perito examinador, independentemente da idade.
-
-**Condição para Renovação:** A renovação da CNH ou a emissão de uma nova via (2ª via) somente será realizada após a quitação de débitos (multas ou outras taxas) constantes no prontuário do condutor.
-
 ### A. Licenciamento Anual do Veículo
 O **Certificado de Registro e Licenciamento de Veículo (CRLV)** é o documento que atesta que o veículo está apto a circular.
 
@@ -154,7 +140,7 @@ O licenciamento anual (e a emissão do CRLV) só será concedido se forem cumpri
 ## 7. EAR: Exerce Atividade Remunerada
 A sigla **EAR** é uma observação fundamental para motoristas que utilizam o veículo como ferramenta de trabalho.
 
-- **Obrigatoriedade:** É uma exigência do CTB para motoristas profissionais (taxistas, motoristas de aplicativo, entregadores/delivery, transportadores de cargas ou passageiros).    
+- **Obrigatoriedade:** É uma exigência do CTB para motoristas profissionais.
 - **Inclusão:** Pode ser incluída em **todas as categorias da CNH**.
 - **Processo:** A inclusão deve ser solicitada ao **Detran** da localidade. Se o candidato ainda não tem a CNH definitiva, a EAR deve ser solicitada ao iniciar o processo de habilitação. Após a solicitação, é necessário realizar uma **avaliação psicológica** e pagar as taxas obrigatórias.
 ![](attachments/Pasted%20image%2020251007212650.png)

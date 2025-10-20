@@ -105,11 +105,8 @@ Estes são alguns dos órgãos que compõem o **SISNAMA (Sistema Nacional do Mei
 - **Etanol:** É produzido a partir de matéria-prima vegetal (cana-de-açúcar, batata doce, milho, beterraba) e **polui cerca da metade** do que polui a gasolina.
 
 ---
-## 10. MOPP E MPPE
-
-A sigla **MOPP**(Movimentação Operacional de Produtos Perigosos) refere-se a um curso de especialização obrigatório para motoristas profissionais.
-
-    
+## 10. Transporte de Produtos Perigosos
+O transporte de cargas que representam risco à saúde humana, segurança pública ou ao meio ambiente é rigorosamente controlado.
 
 ### 1. Sinalização dos Produtos Perigosos
 - São classificados em **9 classes** de risco, identificadas por um **rótulo em forma de disco**.
