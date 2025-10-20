@@ -3,7 +3,7 @@
 
 ---
 ## 1. Penalidades e Medidas Administrativas
-Toda infração gera uma **penalidade**. Algumas infrações também preveem uma **medida administrativa**, que é uma ação prática do agente de trânsito para impedir que o condutor continue dirigindo em condições irregulares.
+
 ### **A. Penalidades**
 - **Advertência por Escrito:** Aplicada em infrações leves ou médias, quando o condutor não for reincidente na mesma infração nos últimos 12 meses.
 - **Multa:** Punição financeira.

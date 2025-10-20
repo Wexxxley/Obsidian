@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "13_Autoescola/3_Legislação de Transito.md",
+                "file": "13_Autoescola/4_Infrações e penalidades.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Legislação de Transito"
+              "title": "4_Infrações e penalidades"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13_Autoescola/3_Legislação de Transito.md",
+                "file": "13_Autoescola/4_Infrações e penalidades.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_Legislação de Transito"
+              "title": "Outline of 4_Infrações e penalidades"
             }
           },
           {
@@ -182,6 +182,7 @@
   },
   "active": "07036c246e01a975",
   "lastOpenFiles": [
+    "13_Autoescola/3_Normas de circulação.md",
     "13_Autoescola/2_Legislação de Transito.md",
     "13_Autoescola/1_Cidadania & Meio Ambiente.md",
     "Aleatórios/IHC-Observatório Legislativo.md",
@@ -215,7 +216,6 @@
     "13_Autoescola/08-mecanica-basica-de-veiculos (1).pdf",
     "2_Redes de computadores/4_Camada de rede/3_IPv4.md",
     "2_Redes de computadores/5_Camada de enlace/6_Hubs e Switches.md",
-    "2_Redes de computadores/5_Camada de enlace/5_Topologias de rede.md",
     "13_Autoescola/8_Primeiros Socorros",
     "attachments/Pasted image 20250505155824.png",
     "attachments/Pasted image 20250505143458.png",

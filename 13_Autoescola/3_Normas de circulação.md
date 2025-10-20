@@ -2,12 +2,11 @@
 #Concluded 
 
 ---
-## 1. Normas de Circulação: Distância e Condução
-A regra de ouro da circulação é que o condutor deve manter a **Distância de Segurança** adequada, que se divide em duas partes:
+## 1. Distância e Condutas proíbidas
 
 1. **Distância Frontal:** Distancia segura que permita frenagem
 2. **Distância Lateral:** Entre o veículo e os veículos ao lado (1,5m) ou a borda da pista (20-30cm).
-### A. Condutas Proibidas ao Dirigir 
+
 - Dirigir **com o braço do lado de fora**.
 - **Transportar pessoas, animais ou volume** à sua esquerda ou entre os braços e as pernas.
 - Dirigir **com só uma das mãos** (exceto para fazer sinais, mudar marcha ou acionar equipamentos).
@@ -45,26 +44,18 @@ Quando uma pista de rolamento comporta várias faixas de circulação no mesmo s
 2. **Via Arterial:** Liga as regiões da cidade, possui intersecções em nível, geralmente controladas por semáforo.
 3. **Via Coletora:** Coleta e distribui o trânsito das vias locais para as vias arteriais ou de trânsito rápido.
 4. **Via Local:** Destinada apenas ao acesso local ou a áreas restritas, geralmente sem semáforos.
-
 ### 2. Vias Rurais
 
 1. **Rodovia:** Via rural pavimentada (asfaltada).    
 2. **Estrada:** Via rural não pavimentada (terra ou chão batido).
 
----
-## 4. Uso Proibido da Calçada e Ultrapassagem
-
-O **trânsito de veículos** sobre passeios, calçadas e acostamentos **é proibido**.
-- **Exceção:** Só é permitido para que o veículo **adentre ou saia dos imóveis** ou das áreas especiais de estacionamento*.
-### A. Definição de Ultrapassagem
-- **Ultrapassagem:** É o movimento de passar à frente de outro veículo que se desloca no **mesmo sentido** e na **mesma faixa de tráfego**, necessitando **sair e retornar à faixa de origem**.
-
-
-![](attachments/Pasted%20image%2020251008205040.png)
-
-
 ![](attachments/Pasted%20image%2020251008213555.png)
+
+---
+## 4. Ultrapassagem
 
 ![](attachments/Pasted%20image%2020251008214005.png)
 
 ![](attachments/Pasted%20image%2020251008214126.png)
+
+![](attachments/Pasted%20image%2020251008205040.png)
