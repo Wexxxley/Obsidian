@@ -2,84 +2,48 @@
 #Concluded 
 
 ---
-### 1. Fundamentos e Elementos do Trânsito
-    
-- **Homem/Indivíduo:** É o elemento mais importante. Inclui pedestres, ciclistas e, principalmente, os condutores. O foco aqui é o **comportamento**, a **responsabilidade**, e a **tomada de decisão** no trânsito.
-    
-- **Via:** É o espaço físico onde o trânsito ocorre (ruas, avenidas, rodovias, calçadas). Ela é projetada, construída, sinalizada e mantida para garantir a segurança e fluidez.
-    
-- **Veículo:** São os automóveis, motos, bicicletas, etc. Eles precisam estar em boas condições de manutenção e em conformidade com as normas de emissão de poluentes.
+## 1. Elementos do Trânsito
 
-**Estrutura Legal e Educacional**
-    
-- **CTB (Código de Trânsito Brasileiro):** É a lei federal que estabelece as regras, infrações, penalidades e medidas administrativas para todo o trânsito no país. 
-    
-- **SNT (Sistema Nacional de Trânsito):** É o conjunto de órgãos e entidades da União, dos Estados, do Distrito Federal e dos Municípios que tem por objetivo gerenciar o trânsito em todo o território nacional.
-    
-- **CONTRAN (Conselho Nacional de Trânsito):** É o órgão **normativo** e **consultivo** máximo do SNT. Ele elabora as **resoluções** que regulamentam o CTB.
-    
-- **SNE (Sistema Nacional de Educação):** Embora não seja uma sigla oficial _do CTB_,  o texto aponta para a importância da **Educação para o Trânsito** como um pilar fundamental para a segurança e a formação de condutores e cidadãos mais conscientes.
+- **Homem/Indivíduo:** Inclui pedestres, ciclistas e, principalmente, os condutores. 
+- **Via:** É o espaço físico onde o trânsito ocorre.
+- **Veículo:** São os automóveis, motos, bicicletas, etc. 
 
 ---
 ## 2. O Trinômio do Trânsito (Trinômio E)
 
-O **Trinômio E** é a estratégia fundamental para gerenciar e melhorar a segurança no trânsito.
-    
-1. **Engenharia de Tráfego:** Cuida da parte física e operacional do trânsito.
-    - **Exemplos:** Projeto de viadutos, construção de pontes, instalação e manutenção de semáforos, colocação de placas de sinalização. 
-        
+1. **Engenharia de Tráfego:** Cuida da parte física e operacional do trânsito.        
 2. **Esforço Legal (ou Fiscalização/Policiamento):** Garante que as leis (CTB) sejam cumpridas.
-    - **Exemplos:** Fiscalização de velocidade, teste do bafômetro, autuação de infrações (multas), retenção de veículos irregulares, e aplicação das penalidades.
-        
 3. **Educação:** É a base para a mudança de comportamento a longo prazo.
-    - **Exemplos:** Aulas teóricas na autoescola, campanhas de conscientização e inclusão da educação para o trânsito nas escolas.
-        
 
 ---
-## 3. O Bom Motorista e a Cidadania
+## 3. Poluição e Meio Ambiente
 
-A seção define o motorista que pratica a **Direção Defensiva** e a **Cidadania no Trânsito**.
-
-- **Respeito às Normas e aos Outros:** Não se trata apenas de seguir a lei para evitar multa, mas de agir com **ética** e **responsabilidade social**.
-    
-- **Tolerância e Cooperação:** Aceitar que outros podem errar ou ter um dia ruim. A paciência e a cortesia reduzem o estresse e a probabilidade de acidentes.
-    
-- **Preservação:**    
-    - **Meio Ambiente:** Evitar acelerações bruscas, manter o veículo regulado para diminuir a poluição.
-    - **Patrimônio Público:** Cuidar das vias, sinalização e outros bens comuns.
-        
-- **A Vida em Primeiro Lugar:** Este é o **pensamento central** da cidadania no trânsito. Todas as ações e decisões devem ser tomadas priorizando a segurança e a vida (sua e dos outros), refletindo a ideia de que "O trânsito é feito de pessoas".
+| Gás Poluente            | Sigla | Característica e Impacto                                                                                                                         |
+| ----------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Dióxido de Carbono**  | CO2​  | **Efeito Estufa:** Retém calor na atmosfera, contribuindo para o aquecimento global.                                                             |
+| **Monóxido de Carbono** | CO    | **Intoxicação:** Gás incolor e inodoro, **extremamente tóxico**. Liga-se à hemoglobina do sangue no lugar do oxigênio, podendo causar asfixia.   |
+| **Dióxido de Enxofre**  | SO2​  | **Chuva Ácida:** Reage com a água e o oxigênio da atmosfera, formando ácido sulfúrico. Causa irritação nos olhos e problemas respiratórios.      |
+| **Clorofluorcarbono**   | CFC   | **Destruição da Camada de Ozônio:** Embora seu uso em veículos tenha sido amplamente substituído, ele era usado em sistemas de ar-condicionado.  |
 
 ---
-## 4. Poluição e Meio Ambiente
+## 4. Recomendações Contra a Poluição
 
-Esta seção detalha os principais poluentes emitidos pelos veículos  e seus impactos:
-
-| Gás Poluente            | Sigla | Característica e Impacto                                                                                                                                                                                                                                      |
-| ----------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Dióxido de Carbono**  | CO2​  | **Efeito Estufa:** Retém calor na atmosfera, contribuindo para o aquecimento global.                                                                                                                                                                          |
-| **Monóxido de Carbono** | CO    | **Intoxicação:** Gás incolor e inodoro, **extremamente tóxico**. Liga-se à hemoglobina do sangue no lugar do oxigênio, podendo causar asfixia.                                                                                                                |
-| **Dióxido de Enxofre**  | SO2​  | **Chuva Ácida:** Reage com a água e o oxigênio da atmosfera, formando ácido sulfúrico. Causa irritação nos olhos e problemas respiratórios.                                                                                                                   |
-| **Clorofluorcarbono**   | CFC   | **Destruição da Camada de Ozônio:** Embora seu uso em veículos tenha sido amplamente substituído, ele era usado em sistemas de ar-condicionado. Sua principal preocupação é o **"buraco" na camada de ozônio**, que protege a Terra da radiação ultravioleta. |
-
----
-## 5. Recomendações Contra a Poluição
-
-- **Desligar o motor nas paradas prolongadas**
-    
+- **Desligar o motor nas paradas prolongadas**    
 - **Manter em dia a Revisão e Manutenção do Veículo** Garante que o motor funcione de forma eficiente e que o sistema de controle de emissão de poluentes esteja operando corretamente.
-    
 - **Observar a vida útil do Filtro de Ar e de Óleo:** Filtros sujos ou velhos prejudicam a combustão e aumentam o consumo de combustível e a emissão de poluentes.
-    
 - **Verificar estado de conservação do escapamento:** Um escapamento furado ou danificado pode aumentar o ruído (poluição sonora) e alterar a saída correta dos gases.
-    
 - **Não utilizar equipamentos sonoros indevidamente:** Referência direta à **Poluição Sonora**.
 
 ---
-## 6. Infrações de Trânsito e Punibilidade
+## 5. Dicas sobre Infrações de Trânsito
 
-- **Infração Gravíssima:** Quando a conduta gera um **risco direto à vida, segurança ou integridade** das pessoas.
-- **Infração Leve ou Média:** Quando **não há risco direto** à vida, mas a norma é descumprida (ex: perturbação, falta de atenção à manutenção).
+1. **Pontos e Risco à Vida:**
+    - **Gravíssima (7 Pts):** Sempre envolve ações que colocam a **vida em risco imediato** ou indicam total falta de respeito à lei (álcool, excesso de velocidade extremo, falta de habilitação, racha).
+    - **Grave (5 Pts):** Envolve **risco elevado** e falta de atenção com segurança básica (uso de cinto, estacionamento em local que obstrua a segurança, como a faixa de pedestre).
+    - **Média e Leve (3 e 4 Pts):** Geralmente envolvem perturbação da ordem, falta de atenção à regra menor ou irregularidades nos documentos/equipamentos do veículo.
+        
+2. **Suspensão Direta:**   
+    - Muitas infrações **Gravíssimas** (como dirigir embriagado, recusar o bafômetro ou exceder $50\%$ da velocidade) têm como penalidade a **suspensão do direito de dirigir** de forma direta, independentemente do total de pontos do condutor.
 
 ---
 ## 7. Poluição Sonora e Seus Danos
