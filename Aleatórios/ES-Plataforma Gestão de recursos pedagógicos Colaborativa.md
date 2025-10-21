@@ -241,4 +241,5 @@ Os requisitos funcionais descrevem as funcionalidades e comportamentos que o sis
 ---
 
 
-User(id, nome, email, senha_hash, perfil)
+- User(id, nome, email, senha_hash, perfil, status(ativo/inativo), data_nasc)
+- No momento de cadastro o user recebe um email para definir sua senha.
