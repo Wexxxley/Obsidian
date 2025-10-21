@@ -11,12 +11,14 @@
             "id": "07036c246e01a975",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "13_Autoescola/8_Primeiros Socorros.pdf"
+                "file": "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "8_Primeiros Socorros"
+              "icon": "lucide-file",
+              "title": "ES-Plataforma Gestão de recursos pedagógicos Colaborativa"
             }
           }
         ]
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13_Autoescola/8_Primeiros Socorros.pdf",
+                "file": "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 8_Primeiros Socorros"
+              "title": "Outline of ES-Plataforma Gestão de recursos pedagógicos Colaborativa"
             }
           },
           {
@@ -180,6 +182,8 @@
   },
   "active": "07036c246e01a975",
   "lastOpenFiles": [
+    "Aleatórios/Apresentação Entrevista.md",
+    "13_Autoescola/8_Primeiros Socorros.pdf",
     "13_Autoescola/7_Mecânica-basica.pdf",
     "13_Autoescola/6_Mecânica Básica.md",
     "13_Autoescola/5_Sinalização.pdf",
@@ -190,7 +194,6 @@
     "Aleatórios/IHC-Observatório Legislativo.md",
     "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "Aleatórios/Como funciona rep.md",
-    "Aleatórios/Apresentação Entrevista.md",
     "Aleatórios/Pedido de crenciais GIT.md",
     "8_POO/SOLID/4_Liskov Substitution Principle.md",
     "Aleatórios/SDT-Sistema VoIP.md",
@@ -209,7 +212,6 @@
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
     "6_FrontEnd/3_JavaScript/1_Introdução.md",
     "6_FrontEnd/1_HTML/1_Html básico.md",
-    "13_Autoescola/8_Primeiros Socorros.pdf",
     "13_Autoescola/06-primeiros-socorros.pdf",
     "13_Autoescola/Unconfirmed 286822.crdownload",
     "13_Autoescola/08-mecanica-basica-de-veiculos (1).pdf",
