@@ -293,6 +293,17 @@ CREATE TABLE RecursoNota (
     recurso_id INT PRIMARY KEY REFERENCES Recurso(id) ON DELETE CASCADE,
     conteudo_markdown TEXT NOT NULL 
 );
+
+CREATE TABLE Tag ( 
+	 id SERIAL PRIMARY KEY, 
+	 nome VARCHAR(100) NOT NULL UNIQUE,
+);
+
+CREATE TABLE Recurso_Tag ( 
+	recurso_id INT NOT NULL REFERENCES Recurso(id) ON DELETE CASCADE, 
+	tag_id INT NOT NULL REFERENCES Tag(id) ON DELETE CASCADE, 
+	PRIMARY KEY (recurso_id, tag_id) 
+);
 ```
 
 
@@ -302,3 +313,5 @@ CREATE TABLE RecursoNota (
 - **Padrao de Arquitetura MVC (Model-View-Controller):** É um padrão de arquitetura que separa a aplicação em três componentes principais: Modelo (dados e lógica de negócio), Visão (interface do usuário/Frontend) e Controlador (recebe requisições e coordena Modelo e Visão)."
 - model/ controller/ routes/ server.js app.js
 - **DTO** (Data Transfer Object),"É um padrão de design (ou objeto) usado para transferir dados entre as camadas da aplicação 
+
+- tags fixas e _padronizados_ ("Matéria",  "Formato"). 
