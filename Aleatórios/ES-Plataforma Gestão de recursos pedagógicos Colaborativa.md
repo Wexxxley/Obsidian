@@ -275,71 +275,26 @@ CREATE TABLE Recurso (
     atualizado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
-
-[cite_start]-- [RF04] Cadastrar Recurso - Upload de Arquivo [cite: 179]
 CREATE TABLE RecursoUpload (
-    -- A Chave Primária é também a Chave Estrangeira, forçando 1-para-1
     recurso_id INT PRIMARY KEY REFERENCES Recurso(id) ON DELETE CASCADE,
     
-    -- (Assumindo MinIO ou armazenamento em disco)
-    storage_key VARCHAR(1024) NOT NULL, -- O nome/caminho único do arquivo (ex: uuid.pdf)
-    nome_original_arquivo VARCHAR(255) NOT NULL, -- O nome original (ex: aula_01.pdf)
-    [cite_start]mime_type VARCHAR(100) NOT NULL, -- (ex: 'application/pdf', 'video/mp4') [cite: 178]
-    [cite_start]tamanho_arquivo_bytes BIGINT NOT NULL -- Para o [FA02] Tamanho do arquivo [cite: 178]
+    storage_key VARCHAR(1024) NOT NULL, -- O nome/caminho 
+    nome_original_arquivo VARCHAR(255) NOT NULL, 
+    mime_type VARCHAR(100) NOT NULL, 
+    tamanho_arquivo_bytes BIGINT NOT NULL 
 );
 
-[cite_start]-- [RF05] Cadastrar Recurso - URL Externa [cite: 187]
 CREATE TABLE RecursoUrl (
     recurso_id INT PRIMARY KEY REFERENCES Recurso(id) ON DELETE CASCADE,
-    [cite_start]url_externa VARCHAR(2048) NOT NULL -- O link do YouTube, Artigo, etc. [cite: 188]
+    url_externa VARCHAR(2048) NOT NULL
 );
 
-[cite_start]-- [RF06] Cadastrar Recurso - Nota Simples [cite: 210]
 CREATE TABLE RecursoNota (
     recurso_id INT PRIMARY KEY REFERENCES Recurso(id) ON DELETE CASCADE,
-    [cite_start]conteudo_markdown TEXT NOT NULL -- O conteúdo em Markdown [cite: 211, 218]
-);
-
---==================================================
--- TABELAS DE RELACIONAMENTO (que se beneficiam deste modelo)
---==================================================
-
-[cite_start]-- [RF11] Atribuir Tags ao Recurso [cite: 297]
-CREATE TABLE Tag (
-    id SERIAL PRIMARY KEY,
-    [cite_start]nome VARCHAR(100) NOT NULL UNIQUE -- (ex: "Matemática", "Exponenciação") [cite: 305]
-);
-
--- Tabela de Junção (Muitos-para-Muitos)
-CREATE TABLE Recurso_Tag (
-    recurso_id INT NOT NULL REFERENCES Recurso(id) ON DELETE CASCADE,
-    tag_id INT NOT NULL REFERENCES Tag(id) ON DELETE CASCADE,
-    PRIMARY KEY (recurso_id, tag_id)
-);
-
-[cite_start]-- [RF21] Curtir um recurso [cite: 528]
-CREATE TABLE RecursoLike (
-    user_id INT NOT NULL REFERENCES "User"(id) ON DELETE CASCADE,
-    recurso_id INT NOT NULL REFERENCES Recurso(id) ON DELETE CASCADE,
-    criado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    [cite_start]PRIMARY KEY (user_id, recurso_id) -- Impede que um usuário curta o mesmo recurso duas vezes [cite: 538]
-);
-
-[cite_start]-- [RF12] Criar playlist [cite: 326] [cite_start]e [RF13] Gerenciar Recursos da Playlist [cite: 350]
-CREATE TABLE Playlist (
-    id SERIAL PRIMARY KEY,
-    [cite_start]titulo VARCHAR(255) NOT NULL, [cite: 331]
-    [cite_start]descricao TEXT, [cite: 331]
-    [cite_start]autor_id INT NOT NULL REFERENCES "User"(id), [cite: 340]
-    criado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
-);
-
--- Tabela de Junção (Muitos-para-Muitos)
-CREATE TABLE Playlist_Recurso (
-    playlist_id INT NOT NULL REFERENCES Playlist(id) ON DELETE CASCADE,
-    recurso_id INT NOT NULL REFERENCES Recurso(id) ON DELETE CASCADE,
-    -- (Opcional) Adicionar um campo "ordem" se a ordem na playlist for importante
-    -- ordem INT NOT NULL,
-    PRIMARY KEY (playlist_id, recurso_id)
+    conteudo_markdown TEXT NOT NULL 
 );
 ```
+
+
+- Para o markdown no front **(react-markdown)**
+- Eu recomendo fortemente o react-markdown. Como você está lidando com um acervo de professores, é provável que eles usem recursos avançados de Markdown (como tabelas para dados ou blocos de código para exemplos). O ecossistema de plugins do react-markdown (especialmente o remark-gfm para GFM - GitHub Flavored Markdown e o uso com react-syntax-highlighter para código) facilitará muito a renderização desses elementos de forma bonita e funcional.
