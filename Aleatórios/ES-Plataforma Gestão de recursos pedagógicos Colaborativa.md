@@ -298,3 +298,7 @@ CREATE TABLE RecursoNota (
 
 - Para o markdown no front **(react-markdown)**
 - Eu recomendo fortemente o react-markdown. Como você está lidando com um acervo de professores, é provável que eles usem recursos avançados de Markdown (como tabelas para dados ou blocos de código para exemplos). O ecossistema de plugins do react-markdown (especialmente o remark-gfm para GFM - GitHub Flavored Markdown e o uso com react-syntax-highlighter para código) facilitará muito a renderização desses elementos de forma bonita e funcional.
+
+- **Padrao de Arquitetura MVC (Model-View-Controller):** É um padrão de arquitetura que separa a aplicação em três componentes principais: Modelo (dados e lógica de negócio), Visão (interface do usuário/Frontend) e Controlador (recebe requisições e coordena Modelo e Visão)."
+- model/ controller/ routes/ server.js app.js
+- **DTO** (Data Transfer Object),"É um padrão de design (ou objeto) usado para transferir dados entre as camadas da aplicação 
