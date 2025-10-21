@@ -243,3 +243,31 @@ Os requisitos funcionais descrevem as funcionalidades e comportamentos que o sis
 
 - User(id, nome, email, senha_hash, perfil, status(ativo/inativo), data_nasc)
 - No momento de cadastro o user recebe um email para definir sua senha.
+
+- Para os arquivos teriamos uma tabrla com metadados dos arquivos. E o armazenamento real ficaria por conta do MinIO.
+- MinIO. O MinIO é um **serviço de armazenamento de objetos auto-hospedado (self-hosted)**. Pense nele como se você pudesse rodar a sua própria "Amazon S3" no seu próprio servidor.
+
+```sql
+CREATE TABLE Recurso (
+    id SERIAL PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL,
+    descricao TEXT,
+    privacidade VARCHAR(50) NOT NULL, -- 'Publico' ou 'Privado' 
+    tipo_recurso VARCHAR(50) NOT NULL, -- 'UPLOAD', 'URL', 'NOTA_SIMPLES'
+    
+    -- Colunas específicas para o UPLOAD [RF04]
+    caminho_arquivo VARCHAR(1024), -- O mais importante! (ex: '/var/www/uploads/meu-uuid-aqui.pdf')
+    nome_original_arquivo VARCHAR(255), -- (ex: 'aula_01.pdf')
+    mime_type VARCHAR(100), -- (ex: 'application/pdf', 'video/mp4')
+    tamanho_arquivo_bytes BIGINT,
+
+    -- Colunas específicas para URL [RF05]
+    url_externa VARCHAR(2048), -- (ex: 'https://youtube.com/watch?v=...')
+
+    -- Colunas específicas para Nota Simples [RF06]
+    conteudo_nota TEXT,
+
+    -- Relacionamentos
+    autor_id INTEGER REFERENCES User(id)
+);
+```
