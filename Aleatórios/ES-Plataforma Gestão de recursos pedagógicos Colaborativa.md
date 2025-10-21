@@ -235,3 +235,10 @@ Os requisitos funcionais descrevem as funcionalidades e comportamentos que o sis
 - RNF-04 (Compatibilidade): A plataforma deve ser compatível...
     
 - RNF-05 (Disponibilidade): O sistema deve estar disponível...
+
+
+
+---
+
+
+User(id, nome, email, senha_hash, perfil)

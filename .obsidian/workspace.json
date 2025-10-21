@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aleatórios/SDT-Sistema VoIP.md",
+                "file": "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SDT-Sistema VoIP"
+              "title": "ES-Plataforma Gestão de recursos pedagógicos Colaborativa"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Aleatórios/SDT-Sistema VoIP.md",
+                "file": "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SDT-Sistema VoIP"
+              "title": "Outline of ES-Plataforma Gestão de recursos pedagógicos Colaborativa"
             }
           },
           {
@@ -182,6 +182,7 @@
   },
   "active": "07036c246e01a975",
   "lastOpenFiles": [
+    "Aleatórios/SDT-Sistema VoIP.md",
     "attachments/Pasted image 20251021142158.png",
     "Aleatórios/IHC-Observatório Legislativo.md",
     "Aleatórios/Como funciona rep.md",
@@ -197,7 +198,6 @@
     "13_Autoescola/1_Cidadania & Meio Ambiente.md",
     "Aleatórios/Pedido de crenciais GIT.md",
     "8_POO/SOLID/4_Liskov Substitution Principle.md",
-    "Aleatórios/SDT-Sistema VoIP.md",
     "6_FrontEnd/2_CSS/7_Positions.md",
     "6_FrontEnd/2_CSS/6_Configurações iniciais.md",
     "6_FrontEnd/2_CSS/5_Formulário.md",
@@ -227,7 +227,6 @@
     "attachments/Pasted image 20251014084818.png",
     "13_Autoescola/Unconfirmed 977396.crdownload",
     "attachments/Pasted image 20251013213032.png",
-    "attachments/Pasted image 20251013212913.png",
     "Sem título.canvas"
   ]
 }
