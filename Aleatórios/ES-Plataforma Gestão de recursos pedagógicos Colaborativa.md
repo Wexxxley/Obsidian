@@ -248,26 +248,98 @@ Os requisitos funcionais descrevem as funcionalidades e comportamentos que o sis
 - MinIO. O MinIO é um **serviço de armazenamento de objetos auto-hospedado (self-hosted)**. Pense nele como se você pudesse rodar a sua própria "Amazon S3" no seu próprio servidor.
 
 ```sql
+
+CREATE TABLE "User" (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    senha_hash VARCHAR(255) NOT NULL,
+    
+    perfil VARCHAR(50) NOT NULL CHECK (perfil IN ('Gestor', 'Coordenador', 'Professor', 'Aluno')),
+    status VARCHAR(50) NOT NULL CHECK (status IN ('Ativo', 'Inativo')) DEFAULT 'Ativo',
+    
+    criado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+
 CREATE TABLE Recurso (
     id SERIAL PRIMARY KEY,
     titulo VARCHAR(255) NOT NULL,
     descricao TEXT,
-    privacidade VARCHAR(50) NOT NULL, -- 'Publico' ou 'Privado' 
-    tipo_recurso VARCHAR(50) NOT NULL, -- 'UPLOAD', 'URL', 'NOTA_SIMPLES'
+    privacidade VARCHAR(50) NOT NULL CHECK (privacidade IN ('Publico', 'Privado')) DEFAULT 'Privado',
+    autor_id INT NOT NULL REFERENCES "User"(id),
+    tipo_recurso VARCHAR(50) NOT NULL CHECK (tipo_recurso IN ('UPLOAD', 'URL', 'NOTA_SIMPLES')),
+    visualizacoes INT NOT NULL DEFAULT 0,
+    downloads INT NOT NULL DEFAULT 0,
+    criado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    atualizado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+
+[cite_start]-- [RF04] Cadastrar Recurso - Upload de Arquivo [cite: 179]
+CREATE TABLE RecursoUpload (
+    -- A Chave Primária é também a Chave Estrangeira, forçando 1-para-1
+    recurso_id INT PRIMARY KEY REFERENCES Recurso(id) ON DELETE CASCADE,
     
-    -- Colunas específicas para o UPLOAD [RF04]
-    caminho_arquivo VARCHAR(1024), -- O mais importante! (ex: '/var/www/uploads/meu-uuid-aqui.pdf')
-    nome_original_arquivo VARCHAR(255), -- (ex: 'aula_01.pdf')
-    mime_type VARCHAR(100), -- (ex: 'application/pdf', 'video/mp4')
-    tamanho_arquivo_bytes BIGINT,
+    -- (Assumindo MinIO ou armazenamento em disco)
+    storage_key VARCHAR(1024) NOT NULL, -- O nome/caminho único do arquivo (ex: uuid.pdf)
+    nome_original_arquivo VARCHAR(255) NOT NULL, -- O nome original (ex: aula_01.pdf)
+    [cite_start]mime_type VARCHAR(100) NOT NULL, -- (ex: 'application/pdf', 'video/mp4') [cite: 178]
+    [cite_start]tamanho_arquivo_bytes BIGINT NOT NULL -- Para o [FA02] Tamanho do arquivo [cite: 178]
+);
 
-    -- Colunas específicas para URL [RF05]
-    url_externa VARCHAR(2048), -- (ex: 'https://youtube.com/watch?v=...')
+[cite_start]-- [RF05] Cadastrar Recurso - URL Externa [cite: 187]
+CREATE TABLE RecursoUrl (
+    recurso_id INT PRIMARY KEY REFERENCES Recurso(id) ON DELETE CASCADE,
+    [cite_start]url_externa VARCHAR(2048) NOT NULL -- O link do YouTube, Artigo, etc. [cite: 188]
+);
 
-    -- Colunas específicas para Nota Simples [RF06]
-    conteudo_nota TEXT,
+[cite_start]-- [RF06] Cadastrar Recurso - Nota Simples [cite: 210]
+CREATE TABLE RecursoNota (
+    recurso_id INT PRIMARY KEY REFERENCES Recurso(id) ON DELETE CASCADE,
+    [cite_start]conteudo_markdown TEXT NOT NULL -- O conteúdo em Markdown [cite: 211, 218]
+);
 
-    -- Relacionamentos
-    autor_id INTEGER REFERENCES User(id)
+--==================================================
+-- TABELAS DE RELACIONAMENTO (que se beneficiam deste modelo)
+--==================================================
+
+[cite_start]-- [RF11] Atribuir Tags ao Recurso [cite: 297]
+CREATE TABLE Tag (
+    id SERIAL PRIMARY KEY,
+    [cite_start]nome VARCHAR(100) NOT NULL UNIQUE -- (ex: "Matemática", "Exponenciação") [cite: 305]
+);
+
+-- Tabela de Junção (Muitos-para-Muitos)
+CREATE TABLE Recurso_Tag (
+    recurso_id INT NOT NULL REFERENCES Recurso(id) ON DELETE CASCADE,
+    tag_id INT NOT NULL REFERENCES Tag(id) ON DELETE CASCADE,
+    PRIMARY KEY (recurso_id, tag_id)
+);
+
+[cite_start]-- [RF21] Curtir um recurso [cite: 528]
+CREATE TABLE RecursoLike (
+    user_id INT NOT NULL REFERENCES "User"(id) ON DELETE CASCADE,
+    recurso_id INT NOT NULL REFERENCES Recurso(id) ON DELETE CASCADE,
+    criado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    [cite_start]PRIMARY KEY (user_id, recurso_id) -- Impede que um usuário curta o mesmo recurso duas vezes [cite: 538]
+);
+
+[cite_start]-- [RF12] Criar playlist [cite: 326] [cite_start]e [RF13] Gerenciar Recursos da Playlist [cite: 350]
+CREATE TABLE Playlist (
+    id SERIAL PRIMARY KEY,
+    [cite_start]titulo VARCHAR(255) NOT NULL, [cite: 331]
+    [cite_start]descricao TEXT, [cite: 331]
+    [cite_start]autor_id INT NOT NULL REFERENCES "User"(id), [cite: 340]
+    criado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Tabela de Junção (Muitos-para-Muitos)
+CREATE TABLE Playlist_Recurso (
+    playlist_id INT NOT NULL REFERENCES Playlist(id) ON DELETE CASCADE,
+    recurso_id INT NOT NULL REFERENCES Recurso(id) ON DELETE CASCADE,
+    -- (Opcional) Adicionar um campo "ordem" se a ordem na playlist for importante
+    -- ordem INT NOT NULL,
+    PRIMARY KEY (playlist_id, recurso_id)
 );
 ```
