@@ -99,3 +99,7 @@ CREATE TABLE Playlist_Recurso (
 - Buscar Recursos por Palavra-Chave (TAG, TITULO OU DESCRICAO, nome do autor)
 
 - So é possivel visualizar nativamente na plataforma PDF E NOTAS SIMPLES, o resto é download
+
+- Tela do autor
+
+![](attachments/Pasted%20image%2020251022165352.png)
