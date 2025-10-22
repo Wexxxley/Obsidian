@@ -94,7 +94,6 @@ CREATE TABLE Playlist_Recurso (
 
 - tags fixas e _padronizados_ ("Matéria",  "Formato"). 
 
-- Ao clicar em um recurso o user tem a possibilidade de criar ou adicionar a uma playlist. 
+- Tem que ter a possibilidade de marcar e desmarcar como destaque um recurso (coordenador e gestor)
 
-
-- Tem que ter a possibilidade de marcar e desmarcar como destaque um recurso ()
+- Buscar Recursos por Palavra-Chave (TAG, TITULO OU DESCRICAO, nome do autor)
