@@ -97,3 +97,5 @@ CREATE TABLE Playlist_Recurso (
 - Tem que ter a possibilidade de marcar e desmarcar como destaque um recurso (coordenador e gestor)
 
 - Buscar Recursos por Palavra-Chave (TAG, TITULO OU DESCRICAO, nome do autor)
+
+- So é possivel visualizar nativamente na plataforma PDF E NOTAS SIMPLES, o resto é download
