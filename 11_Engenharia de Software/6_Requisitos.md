@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 ### **1. Tipos de requisitos**
@@ -22,3 +23,13 @@
 
 Os requisitos podem mudar. Logo, se existe um documento de especificação de requisitos, ele deve ser atualizado, assim como o código fonte do sistema. Chama-se de **rastreabilidade** a capacidade de dado um trecho de código identificar os requisitos implementados por ele e vice-versa.
 
+---
+### Exemplos
+
+**Requisitos Funcionais**
+* RF-01.1: O sistema deve permitir que usuários (Professor, Coordenador) se autentiquem através de e-mail institucional e senha. 
+* RF-01.2: O Gestor deve ser capaz de cadastrar novos usuários (Professores, Coordenadores).
+* RF-01.3: O Gestor deve ser capaz de desativar o acesso de um usuário ao sistema, garantindo a segurança da informação.
+
+**Requisitos não funcionais**
+* RNF-02 (Desempenho): O tempo de resposta para buscas e filtros deve ser inferior a 3 segundos.
