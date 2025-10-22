@@ -103,4 +103,5 @@ CREATE TABLE Playlist_Recurso (
 
 - Tela do autor
 
+TELA INICIAL
 ![](attachments/Pasted%20image%2020251022165352.png)
