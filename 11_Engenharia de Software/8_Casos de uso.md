@@ -1,14 +1,16 @@
 
+#Concluded 
 
 ---
 Casos de uso são documentos textuais usados para especificar requisitos, sendo geralmente mais detalhados que as Histórias de Usuário. Escritos pelos desenvolvedores após consultarem os usuários, os casos de uso **devem ser claros o suficiente para serem lidos, entendidos e validados pelos próprios usuários antes do início do design e da implementação.**
 
-Um caso de uso descreve, da perspectiva de um **ator** (geralmente um usuário humano, mas pode ser outro sistema), os passos necessários para atingir um objetivo específico no sistema. Ele é estruturado em duas listas de passos:
+Um caso de uso descreve, da perspectiva de um **ator**, os passos necessários para atingir um objetivo específico no sistema. Ele é estruturado em duas listas de passos:
 
 1. **Fluxo Normal**: Descreve o "cenário feliz", onde tudo ocorre como esperado.
 2. **Extensões**: Descrevem fluxos alternativos, tratando situações de erro, exceções ou variações do fluxo normal. 
 
-**Exemplo: Transferir Valores entre Contas**
+### **Exemplo: Transferir Valores entre Contas**
+
 • **Ator**: Cliente do Banco
 
 • **Fluxo normal**:

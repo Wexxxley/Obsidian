@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_Engenharia de Software/7_Historia de usuários.md",
+                "file": "11_Engenharia de Software/9_MVP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_Historia de usuários"
+              "title": "9_MVP"
             }
           }
         ]
@@ -184,10 +184,11 @@
   "active": "07036c246e01a975",
   "lastOpenFiles": [
     "11_Engenharia de Software/8_Casos de uso.md",
+    "11_Engenharia de Software/9_MVP.md",
+    "11_Engenharia de Software/7_Historia de usuários.md",
     "11_Engenharia de Software/5_KANBAN.md",
     "11_Engenharia de Software/4_SCRUM.md",
     "11_Engenharia de Software/6_Requisitos.md",
-    "11_Engenharia de Software/7_Historia de usuários.md",
     "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "11_Engenharia de Software/3_Extreme Programming.md",
     "11_Engenharia de Software/2_Processos agéis.md",
@@ -214,7 +215,6 @@
     "6_FrontEnd/2_CSS/6_Configurações iniciais.md",
     "6_FrontEnd/2_CSS/5_Formulário.md",
     "6_FrontEnd/2_CSS/3_Shadow.md",
-    "6_FrontEnd/2_CSS/2_Box model.md",
     "13_Autoescola/Documentação de Requisitos.docx",
     "13_Autoescola/Unconfirmed 298243.crdownload",
     "13_Autoescola/06-primeiros-socorros.pdf",
