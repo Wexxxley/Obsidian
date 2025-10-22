@@ -114,3 +114,6 @@ CREATE TABLE RecursoLike (
 	PRIMARY KEY (user_id, recurso_id) 
 );
 ```
+
+
+![](attachments/Pasted%20image%2020251022184630.png)
