@@ -10,7 +10,7 @@
 ---
 ### **2. Engenharia de Requisitos**
 
-**Engenharia de Requisitos é o conjunto de atividades sistemáticas para descobrir, analisar, especificar e manter os requisitos de um sistema**. As principais atividades são:
+<mark style="background: #BBFABBA6;">Engenharia de Requisitos é o conjunto de atividades sistemáticas para descobrir, analisar, especificar e manter os requisitos de um sistema. </mark>As principais atividades são:
 
 • **Elicitação de Requisitos**: É o processo de descobrir os requisitos através da interação com os _stakeholders_. As técnicas para isso incluem entrevistas e questionários nos quais o desenvolvedor se integra ao ambiente de trabalho do cliente para observar suas atividades.
 
@@ -20,4 +20,5 @@
 
 • **Priorização**: Nem todos os requisitos especificados serão implementados nas primeiras versões do sistema, devido a restrições de prazo e custo.
 
+Os requisitos podem mudar. Logo, se existe um documento de especificação de requisitos, ele deve ser atualizado, assim como o código fonte do sistema. Chama-se de **rastreabilidade** a capacidade de dado um trecho de código identificar os requisitos implementados por ele e vice-versa.
 
