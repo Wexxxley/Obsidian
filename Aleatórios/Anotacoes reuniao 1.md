@@ -1,5 +1,6 @@
 
 - User(id, nome, email, senha_hash, perfil, status(ativo/inativo), data_nasc)
+
 - No momento de cadastro o user recebe um email para definir sua senha.
 
 - Para os arquivos teriamos uma tabrla com metadados dos arquivos. E o armazenamento real ficaria por conta do MinIO.
