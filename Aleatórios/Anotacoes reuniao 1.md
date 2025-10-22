@@ -20,7 +20,7 @@ CREATE TABLE "User" (
     criado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
-
+-- RECURSOS --
 CREATE TABLE Recurso (
     id SERIAL PRIMARY KEY,
     titulo VARCHAR(255) NOT NULL,
@@ -53,6 +53,7 @@ CREATE TABLE RecursoNota (
     conteudo_markdown TEXT NOT NULL 
 );
 
+-- TAG --
 CREATE TABLE Tag ( 
 	 id SERIAL PRIMARY KEY, 
 	 nome VARCHAR(100) NOT NULL UNIQUE,
@@ -64,29 +65,20 @@ CREATE TABLE Recurso_Tag (
 	PRIMARY KEY (recurso_id, tag_id) 
 );
 
+--playlist--
 CREATE TABLE Playlist (
     id SERIAL PRIMARY KEY,
-    titulo VARCHAR(255) NOT NULL, -- 
-    descricao TEXT,                -- 
+    titulo VARCHAR(255) NOT NULL,  
+    descricao TEXT,                 
     autor_id INT NOT NULL REFERENCES "User"(id),
-    
     criado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     atualizado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
-/* [RF13] Tabela de Junção (Muitos-para-Muitos)
-   (Cobre o [RF13] Gerenciar Recursos da Playlist)
-*/
 CREATE TABLE Playlist_Recurso (
     playlist_id INT NOT NULL REFERENCES Playlist(id) ON DELETE CASCADE,
     recurso_id INT NOT NULL REFERENCES Recurso(id) ON DELETE CASCADE,
-    
-    -- [RF12] Observações: "coleções ordenadas" 
-    -- Esta coluna armazena a ordem do recurso dentro daquela playlist específica.
     ordem INT NOT NULL,
-    
-    -- Chave primária composta para garantir que um recurso
-    -- só possa ser adicionado uma vez à mesma playlist.
     PRIMARY KEY (playlist_id, recurso_id)
 );
 ```
@@ -96,6 +88,6 @@ CREATE TABLE Playlist_Recurso (
 
 - **Padrao de Arquitetura MVC (Model-View-Controller):** É um padrão de arquitetura que separa a aplicação em três componentes principais: Modelo (dados e lógica de negócio), Visão (interface do usuário/Frontend) e Controlador (recebe requisições e coordena Modelo e Visão)."
 - model/ controller/ routes/ server.js app.js
-- **DTO** (Data Transfer Object),"É um padrão de design (ou objeto) usado para transferir dados entre as camadas da aplicação 
+- **DTO** (Data Transfer Object),"É um padrão de design (ou objeto) usado para transferir dados entre as camadas da aplicação. 
 
 - tags fixas e _padronizados_ ("Matéria",  "Formato"). 
