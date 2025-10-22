@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aleatórios/Decisões tomadas.md",
+                "file": "11_Engenharia de Software/6_Requisitos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Decisões tomadas"
+              "title": "6_Requisitos"
             }
           }
         ]
@@ -183,11 +183,19 @@
   },
   "active": "07036c246e01a975",
   "lastOpenFiles": [
+    "11_Engenharia de Software/8_Casos de uso.md",
+    "11_Engenharia de Software/7_Historia de usuários.md",
+    "11_Engenharia de Software/6_Requisitos.md",
+    "11_Engenharia de Software/5_KANBAN.md",
+    "11_Engenharia de Software/4_SCRUM.md",
+    "11_Engenharia de Software/3_Extreme Programming.md",
+    "11_Engenharia de Software/2_Processos agéis.md",
+    "11_Engenharia de Software/2_Fluxo de processo e metodos de processo.md",
+    "Aleatórios/Decisões tomadas.md",
     "attachments/Pasted image 20251022184630.png",
     "attachments/Pasted image 20251022165352.png",
     "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "Aleatórios/SDT-Sistema VoIP.md",
-    "Aleatórios/Decisões tomadas.md",
     "attachments/Pasted image 20251021142158.png",
     "Aleatórios/IHC-Observatório Legislativo.md",
     "Aleatórios/Como funciona rep.md",
@@ -207,15 +215,8 @@
     "6_FrontEnd/2_CSS/5_Formulário.md",
     "6_FrontEnd/2_CSS/3_Shadow.md",
     "6_FrontEnd/2_CSS/2_Box model.md",
-    "6_FrontEnd/2_CSS/1_CSS introdução.md",
-    "6_FrontEnd/2_CSS/4_Flexbox.md",
     "13_Autoescola/Documentação de Requisitos.docx",
     "13_Autoescola/Unconfirmed 298243.crdownload",
-    "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
-    "6_FrontEnd/3_JavaScript/6_Async await e fetch.md",
-    "6_FrontEnd/3_JavaScript/5_Callback and promisse.md",
-    "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
-    "6_FrontEnd/3_JavaScript/1_Introdução.md",
     "13_Autoescola/06-primeiros-socorros.pdf",
     "13_Autoescola/Unconfirmed 286822.crdownload",
     "13_Autoescola/08-mecanica-basica-de-veiculos (1).pdf",
@@ -227,7 +228,6 @@
     "attachments/Pasted image 20250505133951.png",
     "attachments/img-20250716085829.png",
     "attachments/1_GrarH2XqRi5iLw--RI5NMQ.png",
-    "attachments/Pasted image 20251014084818.png",
     "13_Autoescola/Unconfirmed 977396.crdownload",
     "Sem título.canvas"
   ]
