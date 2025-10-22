@@ -30,6 +30,8 @@ CREATE TABLE Recurso (
     tipo_recurso VARCHAR(50) NOT NULL CHECK (tipo_recurso IN ('UPLOAD', 'URL', 'NOTA_SIMPLES')),
     visualizacoes INT NOT NULL DEFAULT 0,
     downloads INT NOT NULL DEFAULT 0,
+    is_destaque BOOLEAN NOT NULL DEFAULT false,
+    
     criado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     atualizado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
@@ -91,3 +93,8 @@ CREATE TABLE Playlist_Recurso (
 - **DTO** (Data Transfer Object),"É um padrão de design (ou objeto) usado para transferir dados entre as camadas da aplicação. 
 
 - tags fixas e _padronizados_ ("Matéria",  "Formato"). 
+
+- Ao clicar em um recurso o user tem a possibilidade de criar ou adicionar a uma playlist. 
+
+
+- Tem que ter a possibilidade de marcar e desmarcar como destaque um recurso ()
