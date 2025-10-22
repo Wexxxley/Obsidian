@@ -106,9 +106,11 @@ CREATE TABLE Playlist_Recurso (
     PRIMARY KEY (playlist_id, recurso_id)
 );
 
+--LIKE--
 CREATE TABLE RecursoLike ( 
 	user_id INT NOT NULL REFERENCES "User"(id) ON DELETE CASCADE, 
-	recurso_id INT NOT NULL REFERENCES Recurso(id) ON DELETE CASCADE, criado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP, 
+	recurso_id INT NOT NULL REFERENCES Recurso(id) ON DELETE CASCADE,
+	criado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP, 
 	PRIMARY KEY (user_id, recurso_id) 
 );
 ```
