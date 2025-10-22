@@ -63,6 +63,32 @@ CREATE TABLE Recurso_Tag (
 	tag_id INT NOT NULL REFERENCES Tag(id) ON DELETE CASCADE, 
 	PRIMARY KEY (recurso_id, tag_id) 
 );
+
+CREATE TABLE Playlist (
+    id SERIAL PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL, -- 
+    descricao TEXT,                -- 
+    autor_id INT NOT NULL REFERENCES "User"(id),
+    
+    criado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    atualizado_em TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+/* [RF13] Tabela de Junção (Muitos-para-Muitos)
+   (Cobre o [RF13] Gerenciar Recursos da Playlist)
+*/
+CREATE TABLE Playlist_Recurso (
+    playlist_id INT NOT NULL REFERENCES Playlist(id) ON DELETE CASCADE,
+    recurso_id INT NOT NULL REFERENCES Recurso(id) ON DELETE CASCADE,
+    
+    -- [RF12] Observações: "coleções ordenadas" 
+    -- Esta coluna armazena a ordem do recurso dentro daquela playlist específica.
+    ordem INT NOT NULL,
+    
+    -- Chave primária composta para garantir que um recurso
+    -- só possa ser adicionado uma vez à mesma playlist.
+    PRIMARY KEY (playlist_id, recurso_id)
+);
 ```
 
 
