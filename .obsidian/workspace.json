@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_Engenharia de Software/6_KANBAN.md",
+                "file": "11_Engenharia de Software/3_Requisitos/4_MVP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6_KANBAN"
+              "title": "4_MVP"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11_Engenharia de Software/6_KANBAN.md",
+                "file": "11_Engenharia de Software/3_Requisitos/4_MVP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 6_KANBAN"
+              "title": "Outline of 4_MVP"
             }
           },
           {
@@ -182,17 +182,23 @@
   },
   "active": "07036c246e01a975",
   "lastOpenFiles": [
-    "11_Engenharia de Software/5_SCRUM.md",
+    "11_Engenharia de Software/3_Requisitos/3_Casos de uso.md",
+    "11_Engenharia de Software/3_Requisitos/2_Historia de usuários.md",
+    "11_Engenharia de Software/3_Requisitos/1_Requisitos.md",
+    "11_Engenharia de Software/2_Processos/4_KANBAN.md",
+    "11_Engenharia de Software/2_Processos/3_SCRUM.md",
+    "11_Engenharia de Software/2_Processos/2_Extreme Programming.md",
+    "11_Engenharia de Software/2_Processos/1_Processos agéis.md",
+    "11_Engenharia de Software/1_Introdução/Untitled 1.md",
+    "11_Engenharia de Software/4_Modelos",
+    "11_Engenharia de Software/1_Introdução/Untitled.md",
+    "11_Engenharia de Software/3_Requisitos/4_MVP.md",
+    "11_Engenharia de Software/3_Requisitos",
+    "11_Engenharia de Software/2_Processos",
+    "11_Engenharia de Software/1_Introdução",
     "attachments/Pasted image 20251023064838.png",
-    "11_Engenharia de Software/6_KANBAN.md",
-    "11_Engenharia de Software/4_Extreme Programming.md",
-    "11_Engenharia de Software/3_Processos agéis.md",
-    "11_Engenharia de Software/1_Introdução.md",
-    "11_Engenharia de Software/2_Fluxo de processos.md",
-    "11_Engenharia de Software/10_MVP.md",
-    "11_Engenharia de Software/9_Casos de uso.md",
-    "11_Engenharia de Software/8_Historia de usuários.md",
-    "11_Engenharia de Software/7_Requisitos.md",
+    "11_Engenharia de Software/1_Introdução/1_Introdução.md",
+    "11_Engenharia de Software/1_Introdução/2_Fluxo de processos.md",
     "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "Aleatórios/Decisões tomadas.md",
     "attachments/Pasted image 20251022184630.png",
@@ -212,21 +218,15 @@
     "13_Autoescola/1_Cidadania & Meio Ambiente.md",
     "Aleatórios/Pedido de crenciais GIT.md",
     "8_POO/SOLID/4_Liskov Substitution Principle.md",
-    "6_FrontEnd/2_CSS/7_Positions.md",
-    "6_FrontEnd/2_CSS/6_Configurações iniciais.md",
     "13_Autoescola/Documentação de Requisitos.docx",
     "13_Autoescola/Unconfirmed 298243.crdownload",
     "13_Autoescola/06-primeiros-socorros.pdf",
-    "13_Autoescola/Unconfirmed 286822.crdownload",
-    "13_Autoescola/08-mecanica-basica-de-veiculos (1).pdf",
-    "13_Autoescola/8_Primeiros Socorros",
     "attachments/Pasted image 20250505155824.png",
     "attachments/Pasted image 20250505143458.png",
     "attachments/Pasted image 20250505135245.png",
     "attachments/Pasted image 20250505135232.png",
     "attachments/Pasted image 20250505133951.png",
     "attachments/img-20250716085829.png",
-    "13_Autoescola/Unconfirmed 977396.crdownload",
     "Sem título.canvas"
   ]
 }
