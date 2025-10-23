@@ -116,4 +116,4 @@ CREATE TABLE RecursoLike (
 ```
 
 
-![](attachments/Pasted%20image%2020251022184630.png)
+![](attachments/Pasted%20image%2020251022184630.png)![](attachments/Pasted%20image%2020251023185455.png)
