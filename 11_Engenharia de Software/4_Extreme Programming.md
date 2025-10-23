@@ -4,7 +4,7 @@
 ---
 Sendo um **método ágil**, XP possui todas as características dos processos agéis, isto é: adota **ciclos curtos** e iterativos de desenvolvimento, concede **menos ênfase para documentação** e para planos detalhados, propõe que o design de um sistema também seja definido de forma incremental e sugere que as equipes de desenvolvimento sejam pequenas.
 
-XP não é um método prescritivo. Em vez disso, XP é definido por meio de um conjunto de valores, princípios e práticas de desenvolvimento. Ou seja, XP é inicialmente definido de forma abstrata. 
+XP não é um método prescritivo. Em vez disso, <mark style="background: #ADCCFFA6;">XP é definido por meio de um conjunto de valores, princípios e práticas de desenvolvimento. Ou seja, XP é definido de forma abstrata. </mark>
 
 ---
 ## **Valores Centrais**
@@ -47,16 +47,3 @@ O coração do XP é o conjunto de práticas de engenharia de software:
 - **Desenvolvimento Orientado a Testes:** Escrever os testes de unidade **antes** de escrever o código de produção. O código só é considerado completo quando todos os testes passam.
     
 - **Programação em Par:** Dois desenvolvedores trabalham juntos em uma única estação de trabalho, com um escrevendo o código e o outro revisando e pensando na estrutura. 
-
----
-## **Quando o XP é Indicado?**
-
-O XP é mais adequado para projetos que:
-
-- Têm **requisitos dinâmicos e em constante mudança**.
-- Envolvem **pequenas e médias equipes** de desenvolvimento.
-- Priorizam a **velocidade de entrega** e a **qualidade técnica** do código.
-- Permitem a **interação próxima e contínua com o cliente**.
-
-
-

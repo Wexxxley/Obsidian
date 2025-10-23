@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 Kanban é um método que visa ajudar as equipes a encontrar um ritmo de trabalho sustentável, eliminando desperdícios e focando em melhorias contínuas. Sua origem remonta ao sistema de produção _just-in-time_ da Toyota, na década de 1950, e foi adaptado para o desenvolvimento de software pela primeira vez na Microsoft, em 2004.
