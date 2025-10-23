@@ -13,18 +13,16 @@ Kanban é mais simples que o Scrum e se diferencia nos seguintes pontos:
 ---
 ### **2. O Quadro Kanban e o Fluxo de Trabalho**
 
-O Quadro Kanban é o coração do método e é dividido em colunas que representam as etapas do processo de desenvolvimento.
+O Quadro Kanban é o coração do método e é  totalmente customizável, mas geralmente segue essa estrutura:
+![](attachments/Pasted%20image%2020251001181025.png)
 
-- **Backlog do Produto**: A primeira coluna contém as histórias, que, assim como no Scrum, são escritas pelos usuários.
+- **Backlog do Produto**: A primeira coluna contém as histórias de usuários.
 - **Etapas do Processo**: As colunas seguintes representam os passos necessários para transformar uma história em uma funcionalidade pronta. Por exemplo: **Especificação**, **Implementação** e **Revisão de Código**.
 - **Subcolunas**: Cada etapa é dividida em duas subcolunas. As tarefas "concluídas" em uma etapa aguardam para serem "puxadas" para a etapa seguinte. Os membros da equipe puxam o trabalho conforme sua capacidade, em vez de o trabalho ser empurrado para eles.
-
-![](attachments/Pasted%20image%2020251001181025.png)
 
 ---
 ### **3. Limites WIP (Work in Progress)**
 
 Para garantir um ritmo de trabalho sustentável, Kanban utiliza os **Limites WIP**. Eles definem o **número máximo de tarefas** que podem estar em cada etapa do quadro, somando as tarefas "em execução" e "concluídas" (com exceção da última etapa, onde o limite se aplica apenas às tarefas em andamento).
 
-**O objetivo principal dos limites WIP é evitar que a equipe fique sobrecarregada**, pois o excesso de tarefas simultâneas tende a diminuir a qualidade do trabalho.  O cálculo desses limites pode ser feito aplicando-se a **Lei de Little**, uma fórmula da Teoria de Filas que relaciona o WIP com o tempo médio de execução de uma tarefa (_lead time_) e a vazão do processo (_throughput_).
-eguirmos com a discussão sobre quando os métodos ágeis não são recomendados.
+**O objetivo principal dos limites WIP é evitar que a equipe fique sobrecarregada**, pois o excesso de tarefas simultâneas tende a diminuir a qualidade do trabalho.  

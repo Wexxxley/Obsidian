@@ -26,8 +26,6 @@
 
 • **Sprint backlog**: É o artefato gerado ao final do Planejamento do _Sprint_. <mark style="background: #ADCCFFA6;">Consiste na lista de tarefas a serem implementadas durante o sprint.</mark> Embora novas tarefas possam surgir ou serem alteradas. A lista de histórias selecionadas não pode ser modificado. Scrum permite adaptações entre os _sprints_, mas dentro de um _sprint_ a equipe deve ter a tranquilidade de trabalhar com uma lista fechada de histórias.
 
-
-
 **Quadro scrum**
 ![](attachments/Pasted%20image%2020251001180945.png)
 
