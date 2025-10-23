@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_Engenharia de Software/4_Modelos/2_Diagrama de classes.md",
+                "file": "Aleatórios/Decisões tomadas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Diagrama de classes"
+              "title": "Decisões tomadas"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11_Engenharia de Software/4_Modelos/2_Diagrama de classes.md",
+                "file": "Aleatórios/Decisões tomadas.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_Diagrama de classes"
+              "title": "Outline of Decisões tomadas"
             }
           },
           {
@@ -182,8 +182,12 @@
   },
   "active": "07036c246e01a975",
   "lastOpenFiles": [
-    "11_Engenharia de Software/4_Modelos/1_UML.md",
+    "Aleatórios/Como funciona rep.md",
+    "Aleatórios/Apresentação Entrevista.md",
+    "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
+    "Aleatórios/Decisões tomadas.md",
     "11_Engenharia de Software/4_Modelos/2_Diagrama de classes.md",
+    "11_Engenharia de Software/4_Modelos/1_UML.md",
     "11_Engenharia de Software/3_Requisitos/4_MVP.md",
     "11_Engenharia de Software/3_Requisitos/3_Casos de uso.md",
     "11_Engenharia de Software/3_Requisitos/2_Historia de usuários.md",
@@ -201,15 +205,11 @@
     "attachments/Pasted image 20251023064838.png",
     "11_Engenharia de Software/1_Introdução/1_Introdução.md",
     "11_Engenharia de Software/1_Introdução/2_Fluxo de processos.md",
-    "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
-    "Aleatórios/Decisões tomadas.md",
     "attachments/Pasted image 20251022184630.png",
     "attachments/Pasted image 20251022165352.png",
     "Aleatórios/SDT-Sistema VoIP.md",
     "attachments/Pasted image 20251021142158.png",
     "Aleatórios/IHC-Observatório Legislativo.md",
-    "Aleatórios/Como funciona rep.md",
-    "Aleatórios/Apresentação Entrevista.md",
     "13_Autoescola/8_Primeiros Socorros.pdf",
     "13_Autoescola/7_Mecânica-basica.pdf",
     "13_Autoescola/6_Mecânica Básica.md",
