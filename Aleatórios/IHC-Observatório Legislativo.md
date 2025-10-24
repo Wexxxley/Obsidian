@@ -55,3 +55,70 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
 
 - Web push
 - Exportar gráficos como imagens
+
+
+
+---
+### **Plano de Coleta de Dados**
+#### Estratégia 1: Entrevistas semiestruturadas com Cidadãos Engajados
+
+1. **Equipe:** A equipe possui 4 integrantes e cada um será responsável pela condução.
+
+2. **Recrutamento:** Cada membro da equipe identificará de 2 a 3 pessoas que se enquadrem no perfil de "Cidadão Engajado". A meta é realizar entre 8 e 12 entrevistas no total.
+
+3. **Roteiro:** Um roteiro semiestruturado será criado e compartilhado entre todos os entrevistadores. Este roteiro conterá os tópicos principais (ex: "Hábitos de consumo de informação política", "Experiências (positivas e negativas) com dados oficiais", "Como lida com _fake news_").
+
+4. **Condução:** Os entrevistadores devem evitar influenciar as respostas dos entrevistados, seja na formulação das perguntas ou com expressões. 
+
+---
+#### Estratégia 2: Entrevista com páginas de redes sociais
+
+Esta estratégia foca no público-alvo "multiplicador", que é profissional, de difícil acesso e com pouco tempo disponível. 
+
+- **Público-Alvo:** Jornalistas e Criadores de Conteúdo (Multiplicadores de Informação).
+- **Amostragem:** Proativa, via contato direto em redes sociais (ex: Instagram, X, LinkedIn).
+
+
+O contato será feito via Mensagem Direta com um "pitch acadêmico", explicando que se trata de um estudo de IHC da universidade e solicitando 10 minutos do tempo do especialista.
+
+**Níve 1: Entrevista Semiestruturada Curta**
+- Se o profissional aceitar uma chamada. Usaremos 15 minutos para uma entrevista focada, com 3-5 perguntas abertas sobre suas maiores frustrações, "gargalos" de tempo e processos manuais no seu fluxo de trabalho.
+    
+
+**Nível 3 (Fallback 1): Questionário de Especialista**
+
+- **Técnica:** Questionário.
+    
+- **Gatilho:** Se o participante responder que quer ajudar, mas não tem tempo para uma chamada.
+    
+- **Execução:** Envia-se um link para um formulário curto (3-5 minutos). As perguntas serão majoritariamente **fechadas** (ex: escalas Likert ou Diferencial Semântico para classificar a dificuldade de uso dos portais atuais) para permitir coleta rápida de feedback.
+    
+
+**Nível 4 (Fallback 2): Entrevista Assíncrona (Áudio)**
+
+- **Técnica:** Adaptação de Entrevista não estruturada.
+    
+- **Gatilho:** Se o participante responder "mande as perguntas por aqui mesmo".
+    
+- **Execução:** O pesquisador envia as 2 perguntas mais cruciais do Nível 2 por texto e sugere que a resposta pode ser por áudio. O áudio pode ser gravado e analisado posteriormente, capturando a entonação e detalhes que seriam perdidos no texto.
+    
+
+#### Resultado Esperado
+
+_Insights_ profundos sobre o fluxo de trabalho profissional, identificação de "conhecimento tácito" e a validação de quais problemas e "dores" são mais críticos para o público multiplicador, o que informará os requisitos de uma futura solução.
+
+---
+
+### Considerações Éticas (Aplicáveis a Ambas as Estratégias)
+
+Conforme a Resolução 510/2016 e as diretrizes de IHC, todo o processo de coleta de dados seguirá os seguintes princípios éticos:
+
+1. **Consentimento:** Todos os participantes serão informados sobre os objetivos do estudo e deverão concordar com a participação. Para entrevistas gravadas, um Termo de Consentimento Livre e Esclarecido (TCLE) será apresentado.
+    
+2. **Permissão para Gravar:** Solicitaremos permissão explícita para gravar qualquer áudio ou vídeo (tela) antes do início da sessão.
+    
+3. **Anonimato e Confidencialidade:** A identidade dos participantes será mantida anônima em qualquer divulgação dos resultados. Usaremos nomes fictícios ou códigos (ex: "P-S1", "Jornalista A") e garantiremos a privacidade dos dados brutos coletados.
+    
+4. **Conforto:** Os participantes serão tratados com respeito. Será enfatizado que o estudo busca entender _suas experiências_ e que não há respostas "certas" ou "erradas".
+    
+5. **Direito de Retirada:** Os participantes serão informados de que podem abandonar o estudo a qualquer momento, sem necessidade de justificativa.
