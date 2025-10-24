@@ -1,22 +1,24 @@
 
+### **1. Contextualização**
+Na era da informação digital, as redes sociais ampliaram drasticamente o alcance e a notoriedade dos debates políticos e da atuação dos deputados federais. No entanto, essa visibilidade nem sempre se traduz em clareza.
 
----
+Isso gera um novo paradoxo: embora o volume de informação disponível seja o maior da história, encontrar a _verdade_ sobre a atuação parlamentar tornou-se uma tarefa mais difícil. O cidadão vê-se preso entre dois extremos:
 
-**1. Contextualização**
-Na era da informação digital, as redes sociais ampliaram o alcance e a notoriedade dos debates políticos e da atuação dos deputados federais. No entanto, essa visibilidade nem sempre se traduz em clareza. Há um paradoxo: enquanto o volume de informação aumenta, a capacidade do cidadão comum de compreender e fiscalizar o trabalho de seus representantes diminui, devido à complexidade e à fragmentação dos dados públicos. Este projeto nasce da necessidade de preencher essa lacuna, transformando dados brutos em conhecimento acessível.
+1. **Dados Oficiais:** Ricos e precisos, mas apresentados de forma complexa, fragmentada e em jargão técnico nos portais governamentais.
+2. **Narrativas de Redes Sociais:** De fácil consumo e alto poder de engajamento, mas frequentemente repletas de desinformação, gráficos enganosos e estatísticas falsas que acabam ofuscando os fatos.    
 
-**2. O Problema Central**
-Os portais oficiais, como o da Câmara dos Deputados, são ricos em dados, mas os apresentam de forma técnica, em planilhas, documentos extensos e com jargão político específico. Isso cria barreiras significativas para o cidadão que deseja:
-- Entender como um deputado votou em pautas importantes.
-- Acompanhar os projetos de lei propostos.
-- Analisar os gastos de verba parlamentar.
+Este projeto nasce da necessidade de preencher essa lacuna. Nosso objetivo não é apenas "mostrar os dados", mas sim _competir_ com a desinformação, transformando dados públicos brutos em conhecimento acessível, visualmente claro e fácil de compartilhar.
+### 2. Objetivo do Projeto
+Desenvolver uma plataforma web que atue como um **antídoto à desinformação**, quebrando a barreira de complexidade dos dados oficiais.
 
-**3. Objetivo Geral do Projeto**
-Desenvolver uma plataforma web acessível, intuitiva e visualmente clara que traduza dados públicos da Câmara dos Deputados em informações compreensíveis, permitindo que qualquer cidadão possa fiscalizar, entender e interagir com a atuação de seus representantes.
+O objetivo é reequilibrar o debate público ao traduzir os dados brutos da Câmara dos Deputados em um formato acessível, intuitivo e visualmente claro. A plataforma permitirá que qualquer cidadão possa fiscalizar, entender e formar opinião sobre a atuação de seus representantes com base em **fatos verificados**.
 
-**4. Público-Alvo**
-- **Cidadãos Engajados:** Pessoas com interesse em política que desejam acompanhar a atuação dos deputados de forma rápida e confiável, sem a necessidade de conhecimento técnico em análise de dados.
-- **Jornalistas e Criadores de Conteúdo:** Profissionais que necessitam de dados consolidados, gráficos e visualizações para embasar reportagens, análises e publicações em redes sociais, agilizando seu trabalho e enriquecendo o debate público.
+### 3. Público-Alvo
+Para combater a desinformação de forma eficaz, o projeto foca em dois públicos estratégicos:
+
+- **O Cidadão Fiscalizador:** Pessoas com interesse em política, mas que hoje se sentem frustradas com o volume de narrativas conflitantes e _fake news_. Elas buscam uma fonte  confiável e de fácil digestão para verificar fatos, acompanhar votações-chave e entender os gastos parlamentares, sem a necessidade de conhecimento técnico em análise de dados.
+    
+- **Os Multiplicadores de Informação:** Jornalistas e criadores de conteúdo digital. Eles necessitam de dados já consolidados, gráficos  e visualizações fáceis de exportar para agilizar seu trabalho de apuração, embasar reportagens, análises e publicações, enriquecendo o debate público com fatos verificados em larga escala.
 
 **5. Proposta de Solução**
 Criar uma interface web centrada no usuário, guiada pelos seguintes princípios de Interação Humano-Computador (IHC):
@@ -47,11 +49,8 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
 	    - **Por que é interessante:** Oferece uma visão visual e instantânea sobre os temas que mais interessam a um parlamentar (ex: "segurança", "educação", "agronegócio").
         
 
-**6. Caráter Extensionista do Projeto**
-O caráter extensionista refere-se à capacidade de um projeto de transcender seus próprios muros e dialogar com a sociedade, aplicando o conhecimento gerado para promover transformação social, cultural e cívica. Este projeto é inerentemente extensionista pelos seguintes motivos:
-- **Ponte entre a Academia e a Sociedade:** Ele aplica conceitos de Ciência da Computação, Design e Ciência Política (IHC, visualização de dados, análise política) para resolver um problema real da comunidade: a falta de acesso à informação.
-- **Empoderamento do Cidadão:** Fornecer informação clara e acessível é uma forma de poder. O projeto empodera o cidadão ao dar-lhe as ferramentas necessárias para cobrar seus representantes com base em dados concretos, e não apenas em discursos.
-- **Recurso para a Comunidade:** A ferramenta serve como um bem público digital. Jornalistas, líderes comunitários e outros cidadãos podem utilizar seus recursos gratuitamente para gerar conhecimento, promover debates e fortalecer a democracia local e nacional.
+
+
 
 
 - Web push
