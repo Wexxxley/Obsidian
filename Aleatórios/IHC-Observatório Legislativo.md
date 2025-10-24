@@ -20,7 +20,7 @@ Para combater a desinformação de forma eficaz, o projeto foca em dois público
     
 - **Os Multiplicadores de Informação:** Jornalistas e criadores de conteúdo digital. Eles necessitam de dados já consolidados, gráficos  e visualizações fáceis de exportar para agilizar seu trabalho de apuração, embasar reportagens, análises e publicações, enriquecendo o debate público com fatos verificados em larga escala.
 
-**5. Proposta de Solução**
+### **4. Proposta de Solução**
 Criar uma interface web centrada no usuário, guiada pelos seguintes princípios de Interação Humano-Computador (IHC):
 
 - **Clareza e Simplicidade:** A interface será minimalista, focando no que realmente importa: a informação.
