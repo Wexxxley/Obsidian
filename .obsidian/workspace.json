@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aleatórios/IHC-Observatório Legislativo.md",
+                "file": "Aleatórios/Pedido de crenciais GIT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IHC-Observatório Legislativo"
+              "title": "Pedido de crenciais GIT"
             }
           }
         ]
@@ -180,8 +180,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aba0cdd550a1fa08",
+  "active": "07036c246e01a975",
   "lastOpenFiles": [
+    "Aleatórios/Como funciona rep.md",
+    "Aleatórios/IHC-Observatório Legislativo.md",
     "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "4_Algorítmos e Estruturas de dados/Grafos/1_Introdução a grafos.md",
     "4_Algorítmos e Estruturas de dados/Grafos/2_Buscas em grafos.md",
@@ -194,7 +196,6 @@
     "11_Engenharia de Software/7_Arquitetura",
     "Aleatórios/Decisões tomadas.md",
     "attachments/Pasted image 20251023185455.png",
-    "Aleatórios/Como funciona rep.md",
     "Aleatórios/Apresentação Entrevista.md",
     "11_Engenharia de Software/4_Modelos/1_UML.md",
     "11_Engenharia de Software/3_Requisitos/4_MVP.md",
@@ -218,7 +219,6 @@
     "attachments/Pasted image 20251022165352.png",
     "Aleatórios/SDT-Sistema VoIP.md",
     "attachments/Pasted image 20251021142158.png",
-    "Aleatórios/IHC-Observatório Legislativo.md",
     "13_Autoescola/8_Primeiros Socorros.pdf",
     "13_Autoescola/7_Mecânica-basica.pdf",
     "13_Autoescola/5_Sinalização.pdf",
