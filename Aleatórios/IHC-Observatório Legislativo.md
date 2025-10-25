@@ -1,4 +1,5 @@
 
+---
 ### **1. Contextualização**
 Na era da informação digital, as redes sociais ampliaram drasticamente o alcance e a notoriedade dos debates políticos e da atuação dos deputados federais. No entanto, essa visibilidade nem sempre se traduz em clareza.
 
@@ -23,10 +24,6 @@ Para combater a desinformação de forma eficaz, o projeto foca em dois público
 ### **4. Proposta de Solução**
 Criar uma interface web centrada no usuário, guiada pelos seguintes princípios de Interação Humano-Computador (IHC):
 
-- **Clareza e Simplicidade:** A interface será minimalista, focando no que realmente importa: a informação.
-- **Navegação Intuitiva:** Organizar a jornada do usuário de forma lógica, desde a visão geral até os detalhes específicos, com o mínimo de cliques possível.
-- **Acessibilidade:** Garantir que a plataforma seja utilizável por pessoas com diferentes níveis de habilidade digital e necessidades especiais (e.g., contraste de cores, compatibilidade com leitores de tela).
-
 **Funcionalidades Principais:**
 
 1. **Perfil do Deputado:** Uma página dedicada para cada parlamentar com:
@@ -49,17 +46,8 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
 	    - **Por que é interessante:** Oferece uma visão visual e instantânea sobre os temas que mais interessam a um parlamentar (ex: "segurança", "educação", "agronegócio").
         
 
-
-
-
-
-- Web push
-- Exportar gráficos como imagens
-
-
-
 ---
-### **Plano de Coleta de Dados**
+### **5. Plano de Coleta de Dados**
 #### Estratégia 1: Entrevistas semiestruturadas com Cidadãos Engajados
 
 1. **Equipe:** A equipe possui 4 integrantes e cada um será responsável pela condução.
@@ -78,47 +66,34 @@ Esta estratégia foca no público-alvo "multiplicador", que é profissional, de 
 - **Público-Alvo:** Jornalistas e Criadores de Conteúdo (Multiplicadores de Informação).
 - **Amostragem:** Proativa, via contato direto em redes sociais (ex: Instagram, X, LinkedIn).
 
-
 O contato será feito via Mensagem Direta com um "pitch acadêmico", explicando que se trata de um estudo de IHC da universidade e solicitando 10 minutos do tempo do especialista.
 
-**Níve 1: Entrevista Semiestruturada Curta**
+**Níve 1: Entrevista semiestruturada Curta**
 - Se o profissional aceitar uma chamada. Usaremos 15 minutos para uma entrevista focada, com 3-5 perguntas abertas sobre suas maiores frustrações, "gargalos" de tempo e processos manuais no seu fluxo de trabalho.
-    
 
-**Nível 3 (Fallback 1): Questionário de Especialista**
+**Nível 2: Questionário de Especialista**
+- **Gatilho:** Se o profissional responder que quer ajudar, mas não tem tempo para uma chamada. Enviaremos um link para um formulário curto (3-5 minutos). As perguntas serão majoritariamente **fechadas** para permitir coleta rápida de feedback.
 
-- **Técnica:** Questionário.
-    
-- **Gatilho:** Se o participante responder que quer ajudar, mas não tem tempo para uma chamada.
-    
-- **Execução:** Envia-se um link para um formulário curto (3-5 minutos). As perguntas serão majoritariamente **fechadas** (ex: escalas Likert ou Diferencial Semântico para classificar a dificuldade de uso dos portais atuais) para permitir coleta rápida de feedback.
-    
-
-**Nível 4 (Fallback 2): Entrevista Assíncrona (Áudio)**
-
-- **Técnica:** Adaptação de Entrevista não estruturada.
-    
-- **Gatilho:** Se o participante responder "mande as perguntas por aqui mesmo".
-    
-- **Execução:** O pesquisador envia as 2 perguntas mais cruciais do Nível 2 por texto e sugere que a resposta pode ser por áudio. O áudio pode ser gravado e analisado posteriormente, capturando a entonação e detalhes que seriam perdidos no texto.
-    
-
-#### Resultado Esperado
-
-_Insights_ profundos sobre o fluxo de trabalho profissional, identificação de "conhecimento tácito" e a validação de quais problemas e "dores" são mais críticos para o público multiplicador, o que informará os requisitos de uma futura solução.
+**Nível 3: Entrevista semiestruturada Assíncrona**    
+- **Gatilho:** Se o participante responder "mande as perguntas por aqui mesmo". Iremos envia as 2 perguntas mais cruciais do Nível 2 por texto sugerindo que a resposta seja por aúdio. 
 
 ---
+### Considerações Éticas
 
-### Considerações Éticas (Aplicáveis a Ambas as Estratégias)
-
-Conforme a Resolução 510/2016 e as diretrizes de IHC, todo o processo de coleta de dados seguirá os seguintes princípios éticos:
-
-1. **Consentimento:** Todos os participantes serão informados sobre os objetivos do estudo e deverão concordar com a participação. Para entrevistas gravadas, um Termo de Consentimento Livre e Esclarecido (TCLE) será apresentado.
+1. **Consentimento:** Todos os participantes serão informados sobre os objetivos do estudo e deverão concordar com a participação. 
     
 2. **Permissão para Gravar:** Solicitaremos permissão explícita para gravar qualquer áudio ou vídeo (tela) antes do início da sessão.
     
-3. **Anonimato e Confidencialidade:** A identidade dos participantes será mantida anônima em qualquer divulgação dos resultados. Usaremos nomes fictícios ou códigos (ex: "P-S1", "Jornalista A") e garantiremos a privacidade dos dados brutos coletados.
+3. **Anonimato e Confidencialidade:** A identidade dos participantes será mantida anônima em qualquer divulgação dos resultados. 
     
-4. **Conforto:** Os participantes serão tratados com respeito. Será enfatizado que o estudo busca entender _suas experiências_ e que não há respostas "certas" ou "erradas".
-    
-5. **Direito de Retirada:** Os participantes serão informados de que podem abandonar o estudo a qualquer momento, sem necessidade de justificativa.
+4. **Direito de Retirada:** Os participantes serão informados de que podem abandonar o estudo a qualquer momento, sem necessidade de justificativa.
+
+
+
+
+
+---
+
+- Web push
+- Exportar gráficos como imagens
+
