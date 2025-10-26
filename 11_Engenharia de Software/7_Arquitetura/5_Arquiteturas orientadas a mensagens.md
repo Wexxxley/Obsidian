@@ -4,9 +4,7 @@
 ---
 
 Em sistemas distribuídos, como aqueles baseados em microsserviços, a comunicação direta entre serviços pode criar acoplamento temporal e de disponibilidade. Se o serviço B estiver indisponível quando o serviço A tentar chamá-lo, a operação em A falhará.  Além disso, picos de carga em um serviço podem sobrecarregar outros serviços que dependem dele diretamente.    
-
 ### **Fila de mensagens**
-**Conceito de Fila de Mensagens:**
 - Para resolver esses problemas, introduz-se um componente intermediário: uma **fila de mensagens**.
 - Em vez de se comunicarem diretamente, os serviços se comunicam através dessa fila.
 
@@ -27,19 +25,3 @@ Em sistemas distribuídos, como aqueles baseados em microsserviços, a comunica�
 - **Escalabilidade:** É fácil escalar produtores e consumidores de forma independente. Se o processamento das mensagens estiver lento, basta adicionar mais instâncias do serviço consumidor lendo da mesma fila.
 - **Desacoplamento Temporal e Lógico:** Produtores e consumidores não precisam estar ativos ao mesmo tempo e não precisam conhecer detalhes uns dos outros.
     
-
-**Exemplos de Uso:**
-
-- Processamento de pedidos em e-commerce (o serviço de front-end publica um pedido na fila, e serviços de back-end de estoque, pagamento, envio consomem a mensagem).
-    
-- Envio de e-mails ou notificações.
-    
-- Processamento de tarefas em background que podem levar mais tempo.
-    
-
-**Tecnologias Comuns:**
-
-- RabbitMQ, Apache Kafka, ActiveMQ, Amazon SQS, Google Cloud Pub/Sub (embora alguns desses também implementem o padrão Publish/Subscribe, que veremos a seguir).
-    
-
-Cobrimos o essencial sobre Arquiteturas Orientadas por Filas de Mensagens. Digite "next" para passarmos ao padrão Publish/Subscribe.
