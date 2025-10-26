@@ -1,8 +1,11 @@
 
+#Concluded 
 
 ---
 
-**Componentes Principais:** O MVC divide as classes de um sistema em três grupos principais com responsabilidades distintas:
+Surgiu na década de 80 com a proposta de  implementar interfaces gráficas (GUIs). O MVC não foi pensado para aplicações distribuídas; mas para aplicações desktop monolíticas como Microsoft Word, Calculadora, etc.
+### **Componentes Principais** 
+O MVC divide as classes de um sistema em três grupos principais com responsabilidades distintas:
 
 1. **Visão (View):**    
     - Classes responsáveis pela **apresentação da interface gráfica** para o usuário.
@@ -14,20 +17,19 @@
     - Classes que **armazenam os dados** da aplicação e implementam a **lógica de negócio** (regras do domínio) .
     - **Importante:** Classes de Modelo **não têm conhecimento ou dependência** das classes de Visão ou Controladoras. Elas são independentes da interface.
     - Contêm os dados e os métodos que manipulam esses dados.
-        
 
-**Interação e Dependências:**
+---
+### **Interação e Dependências**
 
-- A Interface Gráfica é formada pela combinação da Visão e das Controladoras . Muitas vezes, na prática, a separação entre Visão e Controladora não é tão rígida .
+- A Interface Gráfica é formada pela combinação da Visão e dos controladores . Muitas vezes, na prática, a separação entre Visão e Controladora não é tão rígida .
     
-- A **Interface Gráfica (Visão/Controladora) pode depender do Modelo** para exibir seus dados.
+- A **Interface Gráfica pode depender do Modelo** para exibir seus dados. Mas o **modelo NÃO depende da Interface Gráfica**.
     
-- O **Modelo NÃO depende da Interface Gráfica**.
-    
-- Geralmente, a Interface Gráfica atua como **observadora** do Modelo (usando o padrão Observer, visto no Cap. 6). Quando o estado do Modelo muda, ele notifica a Interface Gráfica para que ela se atualize .
+- Geralmente, a Interface Gráfica atua como **observadora** do Modelo (usando o padrão Observer). Quando o estado do Modelo muda, ele notifica a Interface Gráfica para que ela se atualize .
     
 
-**Vantagens do MVC:**
+---
+### **Vantagens do MVC**
 
 - **Separação de Responsabilidades e Especialização:** Permite que desenvolvedores se especializem (ex: front-end focado na Interface Gráfica, back-end focado no Modelo) .
     
@@ -36,9 +38,6 @@
 - **Testabilidade:** Facilita os testes, especialmente do Modelo, pois ele pode ser testado independentemente da interface gráfica (que é geralmente mais difícil de testar automaticamente) .
     
 
-**Resumo (Fowler e Beck):**
-
-- O ponto central do MVC é a **separação entre a Interface com o Usuário (Apresentação) e a Lógica de Domínio (Modelo)** . Isso torna as partes complexas mais fáceis de modificar e permite múltiplas apresentações para a mesma lógica .
     
 
 **Pergunta Frequente: Qual a diferença entre MVC e Três Camadas?** A resposta envolve a evolução histórica:
