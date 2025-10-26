@@ -1,24 +1,12 @@
 
 ---
-rão também visa construir sistemas distribuídos fracamente acoplados, mas com uma dinâmica de comunicação diferente das filas de mensagens ponto a ponto.
 
-**Contexto:**
+Similar às filas, queremos desacoplar componentes em um sistema distribuído. No entanto, em vez de uma única entidade (produtor) enviando uma mensagem para outra entidade (consumidor) processar, queremos que uma entidade possa **anunciar um evento** sem saber quem (ou quantos) estão interessados nele. Baseia-se na ideia de **eventos** ou **tópicos**.
 
-- Similar às filas, queremos desacoplar componentes em um sistema distribuído.
-    
-- No entanto, em vez de uma única entidade (produtor) enviando uma mensagem para outra entidade (consumidor) processar, queremos que uma entidade possa **anunciar um evento** sem saber quem (ou quantos) estão interessados nele.
-    
 
-**Conceito de Publish/Subscribe (Pub/Sub):**
-
-- Baseia-se na ideia de **eventos** ou **tópicos**.
-    
-- Componentes podem assumir dois papéis principais (e às vezes ambos):
-    
-    - **Publicador (Publisher):** Anuncia (publica) mensagens sobre um determinado **tópico** ou evento para um intermediário (o _message broker_ ou _event bus_). O publicador não sabe quem vai receber a mensagem.
-        
-    - **Assinante (Subscriber):** Registra seu interesse (assina) em um ou mais **tópicos** junto ao intermediário. Quando uma mensagem é publicada em um tópico que ele assinou, o intermediário entrega a mensagem para ele.
-        
+Componentes podem assumir dois papéis principais (e às vezes ambos):    
+- **Publicador:** Anuncia mensagens sobre um determinado **tópico** ou evento para um intermediário. O publicador não sabe quem vai receber a mensagem.
+- **Assinante:** Registra seu interesse em um ou mais **tópicos** junto ao intermediário. Quando uma mensagem é publicada em um tópico que ele assinou, o intermediário entrega a mensagem para ele.
 
 **Componentes e Fluxo:**
 
