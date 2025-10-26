@@ -25,3 +25,6 @@ Em sistemas distribuídos, como aqueles baseados em microsserviços, a comunica�
 - **Escalabilidade:** É fácil escalar produtores e consumidores de forma independente. Se o processamento das mensagens estiver lento, basta adicionar mais instâncias do serviço consumidor lendo da mesma fila.
 - **Desacoplamento Temporal e Lógico:** Produtores e consumidores não precisam estar ativos ao mesmo tempo e não precisam conhecer detalhes uns dos outros.
     
+**Exemplos de Uso:**
+- Processamento de pedidos em e-commerce (o serviço de front-end publica um pedido na fila, e serviços de back-end de estoque, pagamento, envio consomem a mensagem).
+- Processamento de tarefas em background que podem levar mais tempo.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_Engenharia de Software/7_Arquitetura/6_Publish subscribe.md",
+                "file": "11_Engenharia de Software/7_Arquitetura/7_Anti-padrão Arquitetural.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6_Publish subscribe"
+              "title": "7_Anti-padrão Arquitetural"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11_Engenharia de Software/7_Arquitetura/6_Publish subscribe.md",
+                "file": "11_Engenharia de Software/7_Arquitetura/7_Anti-padrão Arquitetural.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 6_Publish subscribe"
+              "title": "Backlinks for 7_Anti-padrão Arquitetural"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11_Engenharia de Software/7_Arquitetura/6_Publish subscribe.md",
+                "file": "11_Engenharia de Software/7_Arquitetura/7_Anti-padrão Arquitetural.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 6_Publish subscribe"
+              "title": "Outgoing links from 7_Anti-padrão Arquitetural"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11_Engenharia de Software/7_Arquitetura/6_Publish subscribe.md",
+                "file": "11_Engenharia de Software/7_Arquitetura/7_Anti-padrão Arquitetural.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 6_Publish subscribe"
+              "title": "Outline of 7_Anti-padrão Arquitetural"
             }
           },
           {
@@ -180,11 +180,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07036c246e01a975",
+  "active": "0c52f17c64e87cbf",
   "lastOpenFiles": [
+    "11_Engenharia de Software/7_Arquitetura/7_.md",
+    "11_Engenharia de Software/7_Arquitetura/7_Anti-padrão Arquitetural.md",
     "11_Engenharia de Software/7_Arquitetura/5_Arquiteturas orientadas a mensagens.md",
-    "Aleatórios/IHC-Observatório Legislativo.md",
     "11_Engenharia de Software/7_Arquitetura/6_Publish subscribe.md",
+    "attachments/Pasted image 20251026174022.png",
+    "attachments/Pasted image 20251026173953.png",
+    "Aleatórios/IHC-Observatório Legislativo.md",
     "attachments/Pasted image 20251026162626.png",
     "11_Engenharia de Software/7_Arquitetura/4_Microsserviços.md",
     "attachments/Pasted image 20251026161855.png",
@@ -212,8 +216,6 @@
     "11_Engenharia de Software/4_Modelos/1_UML.md",
     "11_Engenharia de Software/3_Requisitos/4_MVP.md",
     "11_Engenharia de Software/3_Requisitos/3_Casos de uso.md",
-    "11_Engenharia de Software/3_Requisitos/2_Historia de usuários.md",
-    "11_Engenharia de Software/3_Requisitos/1_Requisitos.md",
     "11_Engenharia de Software/4_Modelos",
     "11_Engenharia de Software/3_Requisitos",
     "11_Engenharia de Software/2_Processos",
@@ -221,13 +223,11 @@
     "attachments/Pasted image 20251023064838.png",
     "attachments/Pasted image 20251022184630.png",
     "attachments/Pasted image 20251022165352.png",
-    "attachments/Pasted image 20251021142158.png",
     "13_Autoescola/8_Primeiros Socorros.pdf",
     "13_Autoescola/7_Mecânica-basica.pdf",
     "13_Autoescola/5_Sinalização.pdf",
     "13_Autoescola/Documentação de Requisitos.docx",
     "13_Autoescola/Unconfirmed 298243.crdownload",
-    "attachments/Pasted image 20250505155824.png",
     "Sem título.canvas"
   ]
 }
