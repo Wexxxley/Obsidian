@@ -26,7 +26,6 @@ O MVC divide as classes de um sistema em três grupos principais com responsabil
 - A **Interface Gráfica pode depender do Modelo** para exibir seus dados. Mas o **modelo NÃO depende da Interface Gráfica**.
     
 - Geralmente, a Interface Gráfica atua como **observadora** do Modelo (usando o padrão Observer). Quando o estado do Modelo muda, ele notifica a Interface Gráfica para que ela se atualize .
-    
 
 ---
 ### **Vantagens do MVC**
@@ -36,40 +35,33 @@ O MVC divide as classes de um sistema em três grupos principais com responsabil
 - **Múltiplas Visões:** Permite que os mesmos dados do Modelo sejam apresentados de diferentes formas por diferentes Visões (ex: um relógio com a mesma hora mostrada em formato analógico e digital) .
     
 - **Testabilidade:** Facilita os testes, especialmente do Modelo, pois ele pode ser testado independentemente da interface gráfica (que é geralmente mais difícil de testar automaticamente) .
-    
 
-    
 
-**Pergunta Frequente: Qual a diferença entre MVC e Três Camadas?** A resposta envolve a evolução histórica:
+---
+### **MVC vs 3 CAMaDAS**
 
-1. **MVC Clássico (anos 70/80):** Focado em aplicações desktop com interfaces gráficas (como Smalltalk, ou pacotes Office) . Separa Modelo (dados/lógica) da Interface (Visão/Controlador) dentro da _mesma aplicação_.
+1. **MVC Clássico:** Focado em aplicações desktop com interfaces gráficas. Separa Modelo (dados/lógica) da Interface (Visão/Controlador) dentro da _mesma aplicação_.
     
-2. **Três Camadas (anos 90):** Surge com redes e bancos de dados distribuídos. Separa fisicamente a **Apresentação** (cliente), a **Lógica de Negócio** (servidor de aplicação) e o **Banco de Dados** (servidor de BD) . Uma aplicação desktop seguindo MVC poderia ser a camada de apresentação de um sistema de três camadas .
+2. **Três Camadas:** Surge com redes e bancos de dados distribuídos. Separa fisicamente a **Apresentação** (cliente), a **Lógica de Negócio** (servidor de aplicação) e o **Banco de Dados** (servidor de BD) . 
     
-3. **MVC para Web (anos 2000):** Com a popularização da Web, frameworks como Spring, Ruby on Rails, Django adotaram a terminologia MVC, mas adaptada . Neles:
-    
-    - **Visão:** Páginas HTML (geradas dinamicamente).
-        
+3. **MVC para Web:** Com a popularização da Web, frameworks como Spring e Ruby on Rails adotaram a terminologia MVC, mas adaptada . Neles:
+
+    - **Visão:** Páginas HTML (geradas dinamicamente).   
     - **Controlador:** Processa requisições HTTP e decide qual Visão gerar.
-        
     - **Modelo:** Interage com o banco de dados (camada de persistência).
-        
     - Essa estrutura **lembra muito a arquitetura em três camadas**, mas usa a nomenclatura MVC .
         
 
-**Exemplo: Single Page Applications (SPAs)**
+---
+### **Single Page Applications (SPAs)**
 
-- São aplicações Web modernas (como o GMail) que carregam a maior parte do código (HTML, CSS, JS) para o navegador de uma vez .
-    
-- A interação do usuário ocorre principalmente no navegador, sem recarregar a página inteira a cada ação, proporcionando uma experiência mais fluida, similar a um desktop .
+- São aplicações Web modernas (como o GMail) que <mark style="background: #BBFABBA6;">carregam a maior parte do código (HTML, CSS, JS) para o navegador de uma vez .</mark>
+
+- <mark style="background: #BBFABBA6;">A interação do usuário ocorre principalmente no navegador, sem recarregar a página inteira a cada ação, proporcionando uma experiência mais fluida, similar a um desktop .</mark>
     
 - A comunicação com o servidor ainda existe (ex: para buscar novos e-mails), mas é feita de forma assíncrona .
     
 - Frameworks JavaScript para SPAs (como Vue.js, React, Angular) frequentemente seguem uma arquitetura parecida com MVC no lado do cliente (navegador) :
     
-    - **Visão/Controle:** Implementados em HTML e manipulados pelo framework JS.
-        
-    - **Modelo:** Gerenciado pelo framework JS (ex: o objeto `data` no exemplo Vue.js).
-        
-
-Terminamos a seção sobre Arquitetura MVC. Digite "next" para passarmos para Microsserviços.
+    - **Visão/Controle:** Implementados em HTML e manipulados pelo framework JS.        
+    - **Modelo:** Gerenciado pelo framework JS.
