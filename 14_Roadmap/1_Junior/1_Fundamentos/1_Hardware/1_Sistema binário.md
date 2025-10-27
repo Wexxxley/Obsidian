@@ -19,14 +19,10 @@ Tudo, absolutamente tudo que um computador faz, desde mostrar este texto até ro
 
 ### **2. Binário e o sistema Decimal**
 
-O sistema que usamos no dia a dia é o decimal (base 10). No sistema decimal, cada "casa" de um número vale 10 vezes mais que a anterior.
-    
-    - O número **123** é, na verdade:
-        
-    - (1 x 100) + (2 x 10) + (3 x 1)
-        
-- O sistema **binário (base 2)** funciona da mesma forma, mas cada "casa" vale 2 vezes mais que a anterior.
-    
+1. No sistema **decimal (base 10)** cada "casa" de um número vale 10 vezes mais que a anterior.
+	- O número **123  = (1 x 100) + (2 x 10) + (3 x 1)**
+
+2. No sistema **binário (base 2)** mas cada "casa" vale 2 vezes mais que a anterior.
 
 **Subtópico 1.3: Como contar em binário (usando o exemplo das lâmpadas)**
 
