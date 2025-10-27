@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/1_Introdução.md",
+                "file": "11_Engenharia de Software/8_Testes de Software/1_Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Introdução"
+              "title": "1_Intro"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/1_Introdução.md",
+                "file": "11_Engenharia de Software/8_Testes de Software/1_Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1_Introdução"
+              "title": "Backlinks for 1_Intro"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/1_Introdução.md",
+                "file": "11_Engenharia de Software/8_Testes de Software/1_Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1_Introdução"
+              "title": "Outgoing links from 1_Intro"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6_FrontEnd/3_JavaScript/1_Introdução.md",
+                "file": "11_Engenharia de Software/8_Testes de Software/1_Intro.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1_Introdução"
+              "title": "Outline of 1_Intro"
             }
           },
           {
@@ -182,10 +182,12 @@
   },
   "active": "07036c246e01a975",
   "lastOpenFiles": [
+    "11_Engenharia de Software/7_Arquitetura/7_Anti-padrão Arquitetural.md",
+    "11_Engenharia de Software/8_Testes de Software/1_Intro.md",
+    "11_Engenharia de Software/8_Testes de Software",
+    "6_FrontEnd/3_JavaScript/1_Introdução.md",
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
-    "6_FrontEnd/3_JavaScript/1_Introdução.md",
-    "11_Engenharia de Software/7_Arquitetura/7_Anti-padrão Arquitetural.md",
     "11_Engenharia de Software/7_Arquitetura/7_.md",
     "11_Engenharia de Software/7_Arquitetura/5_Arquiteturas orientadas a mensagens.md",
     "11_Engenharia de Software/7_Arquitetura/6_Publish subscribe.md",
@@ -213,7 +215,6 @@
     "4_Algorítmos e Estruturas de dados/Grafos/2_Buscas em grafos.md",
     "4_Algorítmos e Estruturas de dados/Grafos/3_Caminho mínimo de fonte única (Dijkstra).md",
     "attachments/Pasted image 20251023202231.png",
-    "11_Engenharia de Software/4_Modelos/2_Diagrama de classes.md",
     "11_Engenharia de Software/7_Arquitetura",
     "attachments/Pasted image 20251023185455.png",
     "11_Engenharia de Software/4_Modelos",
@@ -227,7 +228,6 @@
     "13_Autoescola/7_Mecânica-basica.pdf",
     "13_Autoescola/5_Sinalização.pdf",
     "13_Autoescola/Documentação de Requisitos.docx",
-    "13_Autoescola/Unconfirmed 298243.crdownload",
     "Sem título.canvas"
   ]
 }
