@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 Ao contrário da RAM, o armazenamento é não-volátil, o que significa que ele guarda seus dados permanentemente, mesmo sem energia elétrica. É onde o seu sistema operacional, seus programas (Chrome, Word), suas fotos e seus documentos são armazenados.
