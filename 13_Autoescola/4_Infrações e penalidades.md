@@ -3,12 +3,12 @@
 
 ---
 ## 1. Penalidades e Medidas Administrativas
-Toda infração gera uma **penalidade**. Algumas infrações também preveem uma **medida administrativa**, que é uma ação prática do agente de trânsito para impedir que o condutor continue dirigindo em condições irregulares.
+Toda infração gera uma **penalidade**. Algumas infrações também preveem uma **medida administrativa**.
 ### **A. Penalidades**
 - **Advertência por Escrito:** Aplicada em infrações leves ou médias, quando o condutor não for reincidente na mesma infração nos últimos 12 meses.
 - **Multa:** Punição financeira.
 - **Suspensão do Direito de Dirigir:** O condutor perde o direito de dirigir por um período determinado.
-- **Cassação da CNH:** Cancelamento definitivo do documento (punição mais severa).
+- **Cassação da CNH:** Cancelamento definitivo do documento.
 - **Cassação da Permissão para Dirigir (PPD):** Ocorre quando o condutor probatório comete infração Grave, Gravíssima, ou é reincidente em Média.
 - **Frequência obrigatória em curso de reciclagem:** Aplicada após a suspensão ou por decisão do CONTRAN ou DETRAN.
 ### B. Medidas administrativas
@@ -56,7 +56,8 @@ Os prazos variam de acordo com a gravidade e o histórico do condutor:
 | **Reincidente** em infração de suspensão **direta** (em 1 ano).  | **8 a 18 meses**.     |
 
 ---
-## 3. Cassação da C.N.H.
+## 3. Cassação da C.N.H
+
 A cassação é a penalidade mais grave e resulta no **cancelamento definitivo** do documento.
 
 - **Dirigir Durante a Suspensão:** Ocorre se o motorista for surpreendido **dirigindo durante o período de suspensão** do direito de dirigir.
