@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/6_A Hierarquia de Memória e o Cache.md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/6_A Hierarquia de Memória e o Cache.md",
                 "mode": "source",
                 "source": false
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/6_A Hierarquia de Memória e o Cache.md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/6_A Hierarquia de Memória e o Cache.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -182,15 +182,15 @@
   },
   "active": "a53d155c20f5a7d4",
   "lastOpenFiles": [
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/5_Placa mãe.md",
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/6_A Hierarquia de Memória e o Cache.md",
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/5_Placa mãe.md",
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/6_A Hierarquia de Memória e o Cache.md",
     "attachments/Pasted image 20251027162443.png",
     "attachments/Pasted image 20251027161645.png",
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/4_Armazenamento.md",
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/4_Armazenamento.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/Untitled",
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/3_RAM (Random Access Memory).md",
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/2_CPU (Unidade Central de Processamento).md",
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/1_Sistema binário.md",
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/3_RAM (Random Access Memory).md",
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/2_CPU (Unidade Central de Processamento).md",
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/1_Sistema binário.md",
     "11_Engenharia de Software/8_Testes de Software/6_Testes de integração.md",
     "11_Engenharia de Software/8_Testes de Software/5_TDD Test-Driven Development.md",
     "attachments/Pasted image 20251027144219.png",
@@ -205,7 +205,7 @@
     "attachments/Pasted image 20251027112628.png",
     "attachments/Pasted image 20251027111759.png",
     "attachments/Pasted image 20251027111645.png",
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware",
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador",
     "14_Roadmap/1_Junior/1_Fundamentos",
     "14_Roadmap/1_Junior",
     "14_Roadmap",
