@@ -7,38 +7,49 @@ Testes de unidade são t<mark style="background: #ADCCFFA6;">estes automatizados
     - **Classes de produção:** Implementam os requisitos do sistema.
     - **Classes de teste:** Contêm o código que testa as classes de produção .
 
+---
+### **Frameworks xUnit**
 
-**Frameworks xUnit:**
+Testes de unidade são implementados usando frameworks específicos. Os mais conhecidos são da família **xUnit**, onde 'x' indica a linguagem (JUnit, NUnit, pytest, etc.) .
 
-- Testes de unidade são implementados usando frameworks específicos. Os mais conhecidos são da família **xUnit**, onde 'x' indica a linguagem (JUnit para Java, NUnit para .NET, pytest para Python, etc.) .
-    
-- O primeiro foi o sUnit (para Smalltalk), criado por Kent Beck. O JUnit (para Java) foi criado por Kent Beck e Erich Gamma em 1997 .
-    
-- Uma vantagem é que os testes são escritos na **mesma linguagem** do sistema, facilitando para os desenvolvedores.
-    
+**Exemplo:** A classe Stack tem métodos como `size()`, `isEmpty()`, `push()` e `pop()`, usando um `ArrayList` internamente.
+```java
+import java.util.ArrayList;
+ import java.util.EmptyStackException;
 
-**Exemplo: Classe `Stack`** O livro usa uma classe `Stack` simples em Java como exemplo para testes . Ela tem métodos como `size()`, `isEmpty()`, `push()` e `pop()`, usando um `ArrayList` internamente.
+ public class Stack<T> {
+  private ArrayList<T> elements = new ArrayList<T>();
+  private int size = 0;
 
-**Exemplo: Classe `StackTest` (JUnit)**
+  public int size() {
+  return size;
+  }
 
-- **Convenção de Nomenclatura:** Classes de teste geralmente têm o mesmo nome da classe testada, com sufixo `Test` (ex: `StackTest`) .
-    
-- **Métodos de Teste:**
-    
-    - Começam com o prefixo `test` (convenção antiga, hoje a anotação `@Test` é suficiente).
-        
-    - Devem ser `public`.
-        
-    - Não podem ter parâmetros.
-        
-    - Precisam da anotação `@Test` para serem reconhecidos pelo JUnit .
-        
+  public boolean isEmpty() {
+  return (size == 0);
+  }
 
-**Primeiro Teste Simples:**
+  public void push(T elem) {
+  elements.add(elem);
+  size++;
+  }
 
-Java
-
+  public T pop() throws EmptyStackException {
+  if (isEmpty())
+	  throw new EmptyStackException();
+	  T elem = elements.remove(size-1);
+	  size--;
+	  return elem;
+  }
+ }
 ```
+
+- **Métodos de Teste:**        
+    - Devem ser `public`.
+    - Não podem ter parâmetros.
+    - Precisam da anotação `@Test` para serem reconhecidos pelo JUnit .
+
+```java
  import org.junit.Test;
  import static org.junit.Assert.assertTrue;
 
@@ -46,7 +57,7 @@ Java
 
   @Test
   public void testEmptyStack() {
-   Stack<Integer> stack = new Stack<Integer>(); // 1. Setup (Fixture)
+   Stack<Integer> stack = new Stack<Integer>(); // 1. Setup
    boolean empty = stack.isEmpty(); // 2. Call method
    assertTrue(empty); // 3. Assert
   }
@@ -55,20 +66,13 @@ Java
 ```
 
 - **Estrutura de um Método de Teste:**
-    
-    1. **Setup (Fixture):** Cria o contexto, instanciando e inicializando os objetos a serem testados . No exemplo, `new Stack<Integer>()`.
-        
+    1. **Setup :** Cria o contexto, instanciando e inicializando os objetos a serem testados.
     2. **Chamada do Método:** Executa o método da classe que está sendo testado . No exemplo, `stack.isEmpty()`.
-        
-    3. **Assert:** Verifica se o resultado obtido é o esperado, usando comandos `assert` fornecidos pelo framework JUnit (como `assertTrue`, `assertEquals`, `assertFalse`, etc.) .
-        
+    3. **Assert:** Verifica se o resultado obtido é o esperado, usando comandos `assert` fornecidos pelo framework JUnit.
 
 **Execução e Resultados:**
-
-- IDEs permitem rodar os testes separadamente da execução normal do programa (opção "Run as Test") .
-    
 - O resultado é visual:
-    
+
     - **Barra Verde:** Todos os testes passaram.
         
     - **Barra Vermelha:** Pelo menos um teste falhou.
