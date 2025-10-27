@@ -11,14 +11,12 @@
             "id": "8af1751b2eafe924",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "13_Autoescola/4_Infrações e penalidades.md",
-                "mode": "source",
-                "source": false
+                "file": "13_Autoescola/8_Primeiros Socorros.pdf"
               },
-              "icon": "lucide-file",
-              "title": "4_Infrações e penalidades"
+              "icon": "lucide-file-text",
+              "title": "8_Primeiros Socorros"
             }
           }
         ]
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13_Autoescola/4_Infrações e penalidades.md",
+                "file": "13_Autoescola/8_Primeiros Socorros.pdf",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 4_Infrações e penalidades"
+              "title": "Outline of 8_Primeiros Socorros"
             }
           },
           {
@@ -182,6 +180,10 @@
   },
   "active": "8af1751b2eafe924",
   "lastOpenFiles": [
+    "13_Autoescola/7_Mecânica-basica.pdf",
+    "13_Autoescola/6_Mecânica Básica.md",
+    "13_Autoescola/5_Sinalização.pdf",
+    "13_Autoescola/4_Infrações e penalidades.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/3_RAM (Random Access Memory).md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/1_Sistema binário.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/6_A Hierarquia de Memória e o Cache.md",
@@ -221,12 +223,8 @@
     "11_Engenharia de Software/7_Arquitetura/4_Microsserviços.md",
     "11_Engenharia de Software/7_Arquitetura/3_MVC.md",
     "11_Engenharia de Software/7_Arquitetura/1_Arquitetura de Software.md",
-    "11_Engenharia de Software/7_Arquitetura/2_Arquitetura em camadas.md",
-    "12_Sistemas Distribuídos/Cap4/2_Representação Externa de Dados.md",
     "11_Engenharia de Software/7_Arquitetura",
     "11_Engenharia de Software/4_Modelos",
-    "11_Engenharia de Software/3_Requisitos",
-    "11_Engenharia de Software/2_Processos",
     "Sem título.canvas"
   ]
 }
