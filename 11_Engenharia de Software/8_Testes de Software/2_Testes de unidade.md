@@ -1,4 +1,6 @@
 
+#Concluded 
+
 ---
 
 Testes de unidade são t<mark style="background: #ADCCFFA6;">estes automatizados que verificam pequenas unidades de código, geralmente classes, de forma isolada</mark> do restante do sistema. Um teste de unidade é, essencialmente, um programa que chama métodos de uma classe e verifica se os resultados retornados são os esperados.    
@@ -68,53 +70,38 @@ import java.util.ArrayList;
 - **Estrutura de um Método de Teste:**
     1. **Setup :** Cria o contexto, instanciando e inicializando os objetos a serem testados.
     2. **Chamada do Método:** Executa o método da classe que está sendo testado . No exemplo, `stack.isEmpty()`.
-    3. **Assert:** Verifica se o resultado obtido é o esperado, usando comandos `assert` fornecidos pelo framework JUnit.
+    3. **Assert:** Verifica se o resultado obtido é o esperado, usando comandos `assert` fornecidos pelo framework JUnit. Como `assertTrue`, `assertEquals`, `assertFalse`, etc.) .
 
-**Execução e Resultados:**
-- O resultado é visual:
+---
+### **Quando Escrever Testes de Unidade?**
 
-    - **Barra Verde:** Todos os testes passaram.
-        
-    - **Barra Vermelha:** Pelo menos um teste falhou.
-        
-- Testes de unidade são rápidos (ex: 0.025 segundos no exemplo).
-    
-- **Falha (Failure):** Ocorre quando um `assert` não é satisfeito . A IDE indica qual teste e qual linha do `assert` falhou.
-    
+1. **Após Implementar Pequenas Funcionalidades:** Você pode implementar alguns métodos ou uma pequena parte de uma funcionalidade e, logo em seguida, escrever os testes de unidade para ela.
 
-**Exemplo Completo `StackTest`:** O livro apresenta uma versão mais completa com:
+<mark style="background: #ADCCFFA6;">	programar um pouco -> escrever testes -> programar mais um pouco -> escrever mais testes .</mark>
 
-- **`@Before`:** Uma anotação para um método (ex: `init()`) que o JUnit executa _antes_ de _cada_ método `@Test` naquela classe . Útil para inicializar objetos comuns a vários testes (como a `stack`) .
+2. **Antes de Implementar o Código (TDD):** Escrever o teste _primeiro_. Ele inicialmente falhará (pois o código de produção ainda não existe ou está incompleto). Em seguida, implementa-se o código de produção mínimo necessário para fazer o teste passar, e depois refatora-se o código . Veremos TDD em detalhes mais adiante (Seção 8.7).
     
-- **Múltiplos `@Test`:** Cada um foca em um aspecto diferente (`testNotEmptyStack`, `testSizeStack`, `testPushPopStack`).
+3. **Ao Corrigir um Bug:** Quando um bug é reportado, comece escrevendo um teste de unidade que reproduza o bug (esse teste deve falhar). Depois, corrija o bug no código de produção. Se a correção foi bem-sucedida, o teste que você escreveu passará, e ele fica na suíte de testes para evitar que o mesmo bug retorne no futuro (regressão) .
     
-- **Diferentes `Asserts`:** `assertFalse`, `assertEquals(expected, actual)`.
-    
-- **Teste de Exceções:** Para testar se uma exceção esperada é lançada, usa-se um parâmetro na anotação `@Test`: `@Test(expected = ExpectedException.class)`. O teste passa _se_ a exceção especificada for lançada durante a execução do método . Não se usa `assert` nesses casos, pois a exceção interromperia o fluxo antes do `assert`.
+4. **Durante a Depuração:** Em vez de usar `System.out.println` ou comandos similares para verificar o comportamento de um método durante a depuração, escreva um teste de unidade. O `println` é temporário e será removido, enquanto o teste permanece como um ativo para a suíte de testes .
     
 
-**Fluxo de Execução do JUnit:** Para cada classe de teste, o JUnit:
+**O que NÃO é recomendado:**
 
-1. Para cada método `@Test` `m`:
+- Deixar para escrever **todos** os testes **após** o sistema ficar pronto (como no Waterfall). Isso aumenta o risco de os testes serem feitos às pressas, com baixa qualidade, ou nem serem feitos .
     
-2. Cria uma _nova instância_ da classe de teste .
-    
-3. Se houver um método `@Before` `b`, executa `b` nessa instância .
-    
-4. Executa o método `@Test` `m` nessa instância.
+- Ter os testes implementados por **outra equipe** ou empresa. O ideal é que o desenvolvedor que implementa uma classe seja também o responsável por escrever seus testes de unidade.
     
 
-**Definições Importantes:**
+**Benefícios dos Testes de Unidade**
 
-- **Teste (Test):** O método anotado com `@Test` .
+Embora o objetivo mais óbvio seja encontrar bugs, os testes de unidade oferecem outras vantagens importantes:
+
+1. **Encontrar Bugs Cedo:** Permitem detectar defeitos ainda na fase de desenvolvimento, antes que o código chegue à produção, onde os custos de correção e os prejuízos causados pelo bug são muito maiores .
     
-- **Fixture:** O estado (objetos, dados) preparado para a execução de um ou mais testes .
+2. **Rede de Proteção Contra Regressões:** Testes de unidade funcionam como uma segurança. Quando você faz uma modificação no código (para corrigir um bug, adicionar funcionalidade ou refatorar), rodar a suíte de testes ajuda a garantir que sua mudança não quebrou algo que antes funcionava . Se um teste que passava começa a falhar após a mudança, você detectou uma regressão imediatamente .
     
-- **Caso de Teste (Test Case):** A classe que contém os métodos de teste .
-    
-- **Suíte de Testes (Test Suite):** Um conjunto de casos de teste executados juntos.
-    
-- **Sistema sob Teste (System Under Test - SUT):** O código (classe, método) que está sendo testado; também chamado de código de produção .
+3. **Documentação Viva e Especificação:** Os testes mostram como usar as classes e métodos do código de produção e qual comportamento é esperado deles . Frequentemente, para entender um código desconhecido, um desenvolvedor começa analisando seus testes de unidade.
     
 
-Terminamos os conceitos básicos de Testes de Unidade. Digite "next" para passarmos às seções sobre quando escrever testes e seus benefícios.
+**Mundo Real:** O livro cita Google e Facebook como exemplos de grandes empresas onde testes de unidade são amplamente praticados e incentivados, sendo parte integral do processo de desenvolvimento e revisão de código .
