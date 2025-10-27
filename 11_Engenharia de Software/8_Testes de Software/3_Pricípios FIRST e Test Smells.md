@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 ### **Princípios FIRST** 
@@ -37,6 +38,5 @@ São sinais de problemas potenciais no código dos testes, indicando que eles po
         
 - **Duplicação de Código em Testes:**
     - Código repetido em vários métodos de teste (ex: código de setup/fixture).
-        
     - Pode ser resolvido usando métodos `@Before` ou métodos auxiliares privados dentro da classe de teste.
         

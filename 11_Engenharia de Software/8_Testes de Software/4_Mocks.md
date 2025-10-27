@@ -39,7 +39,7 @@ Chamar o serviço externo _real_ dentro de um teste de unidade é **ruim** porqu
 - O teste fica **não determinístico / frágil** (pode falhar se a rede estiver fora, o serviço externo estiver indisponível ou os dados externos mudarem).
 
 ---
-### **A Solução: Usar Mocks (ou Stubs)**
+### **A Solução: Usar Mocks**
 
 Criamos uma **implementação "falsa"** da dependência (`BookService`), chamada de mock. Essa implementação falsa **simula** o comportamento da dependência real, mas de forma controlada e previsível, **sem acessar o sistema externo**. Ela retorna dados pré-definidos que são necessários para o teste.
 
