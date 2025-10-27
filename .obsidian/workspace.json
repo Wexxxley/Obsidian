@@ -180,8 +180,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07036c246e01a975",
+  "active": "0c52f17c64e87cbf",
   "lastOpenFiles": [
+    "14_Roadmap/1_Junior",
+    "14_Roadmap",
     "11_Engenharia de Software/7_Arquitetura/7_Anti-padrão Arquitetural.md",
     "11_Engenharia de Software/8_Testes de Software/1_Introdução.md",
     "11_Engenharia de Software/8_Testes de Software",
@@ -213,7 +215,6 @@
     "Aleatórios/SDT-Sistema VoIP.md",
     "4_Algorítmos e Estruturas de dados/Grafos/1_Introdução a grafos.md",
     "4_Algorítmos e Estruturas de dados/Grafos/2_Buscas em grafos.md",
-    "4_Algorítmos e Estruturas de dados/Grafos/3_Caminho mínimo de fonte única (Dijkstra).md",
     "attachments/Pasted image 20251023202231.png",
     "11_Engenharia de Software/7_Arquitetura",
     "attachments/Pasted image 20251023185455.png",
@@ -227,7 +228,6 @@
     "13_Autoescola/8_Primeiros Socorros.pdf",
     "13_Autoescola/7_Mecânica-basica.pdf",
     "13_Autoescola/5_Sinalização.pdf",
-    "13_Autoescola/Documentação de Requisitos.docx",
     "Sem título.canvas"
   ]
 }
