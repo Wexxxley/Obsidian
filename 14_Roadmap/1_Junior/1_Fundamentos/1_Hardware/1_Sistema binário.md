@@ -3,6 +3,8 @@
 
 ---
 
+https://www.youtube.com/watch?v=6mbFO0ZLMW8&t=14s
+
 Tudo, absolutamente tudo que um computador faz, desde mostrar este texto até rodar um jogo complexo, é baseado em um conceito muito simples: o **sistema binário**.
 
 ### **1. Conceitos fundamentais**
