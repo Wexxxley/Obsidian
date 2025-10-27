@@ -4,35 +4,52 @@
 
 A CPU (_Central Processing Unit_) é, sem dúvida, o componente mais importante. 
 
-### **1: O que a CPU faz?**
+### **1. O que a CPU faz?**
 
 - A CPU é o componente que **executa instruções**. Ela que<mark style="background: #ADCCFFA6;"> realiza calculos lógicos e matemáticos</mark>
 - Quando você pede para somar 2 + 2, é a CPU quem faz o cálculo. Quando você move o mouse, é a CPU que calcula a nova posição do cursor.
 - Ela busca dados da memória, processa esses dados e, em seguida, envia o resultado de volta para a memória ou para um dispositivo.
 - A velocidade da CPU é medida em **Gigahertz (GHz)**. Um processador de 3.1 GHz pode, teoricamente, realizar 3.1 bilhões de ciclos (operações básicas) por segundo.
 
-**Subtópico 3.2: O que são "Núcleos" (Cores)?**
+---
+#### **2.  Núcleos/Cores**
 
-- Antigamente, uma CPU tinha apenas um "cérebro" e só podia fazer uma única coisa de cada vez.
-    
-- Os engenheiros descobriram como colocar _várias CPUs_ dentro de um único chip. Cada uma dessas CPUs internas é chamada de **Núcleo (Core)**.
-    
-- Um computador "dual-core" (dois núcleos) pode, literalmente, fazer duas coisas ao mesmo tempo. Um "quad-core" pode fazer quatro.
-    
+- Antigamente, uma CPU tinha apenas um "cérebro" e só podia fazer uma única coisa de cada vez. Os engenheiros descobriram como colocar _várias CPUs_ dentro de um único chip. Cada uma dessas CPUs internas é chamada de **Núcleo (Core)**.
+- Um computador "dual-core" pode, literalmente, fazer duas coisas ao mesmo tempo. Um "quad-core" pode fazer quatro.
 - É por isso que hoje você pode ouvir música, navegar na internet e ter um antivírus rodando ao fundo, tudo ao mesmo tempo e sem que o computador trave. Cada núcleo pode estar cuidando de uma tarefa diferente.
-    
 
-**Subtópico 3.3: O que é "Hyper-Threading"?**
+---
+### **3. O que é "Hyper-Threading"?**
 
-- O _Hyper-Threading_ (uma tecnologia da Intel) é um truque inteligente para fazer um único núcleo físico se parecer com _dois_ núcleos para o sistema operacional.
-    
+- O _Hyper-Threading_ (tecnologia da Intel) é um truque inteligente para fazer um único núcleo físico se parecer com _dois_ núcleos para o sistema operacional.    
 - Pense em um chef de cozinha (o núcleo) que é tão rápido que consegue preparar dois pratos diferentes (duas tarefas) ao mesmo tempo, alternando entre eles muito rapidamente.
-    
 - Para o gerente do restaurante (o sistema operacional), parece que há dois chefs trabalhando.
-    
-- Um processador com 2 núcleos físicos e Hyper-Threading aparecerá para o Windows ou macOS como tendo 4 processadores. Isso otimiza o uso do núcleo, garantindo que ele esteja sempre ocupado e não fique "parado" esperando por dados.
-    
+- Um processador com 2 núcleos físicos e Hyper-Threading aparecerá para o Windows como tendo 4 processadores. Isso otimiza o uso do núcleo, garantindo que ele esteja sempre ocupado e não fique ocioso esperando por dados.
+
+---
+### **4. Meu processador**
+
+Meu processado atual é um **AMD Ryzen 7 5700U**:
+
+- **Cores:** Ele possui **8 núcleos** físicos. Esse processador pode, literalmente, trabalhar em 8 tarefas físicas diferentes ao mesmo tempo.
+
+- **Threads da CPU:** Ele possui **16 threads**. Isso acontece graças à tecnologia da AMD chamada **SMT (Simultaneous Multithreading)**. Ela permite que cada um desses 8 núcleos físicos se comporte como _dois_ núcleos lógicos para o sistema operacional. Isso otimiza o tempo, permitindo que o processador gerencie 16 "filas de tarefas" (threads) de uma vez, tornando-o excelente em multitarefa.
 
 ---
 
-Digite `next` para irmos ao Tópico 4. Veremos onde a CPU busca os dados que ela precisa processar (a Memória RAM).
+**O que isso significa (reforçando o que vimos):**
+
+1. **8 Núcleos:** 
+    
+2. **16 Threads:** 
+    
+
+**Sobre a "Radeon Graphics × 8":**
+
+Minha pesquisa também confirma o que eu suspeitava. Esse "× 8" se refere aos **8 Núcleos Gráficos** (ou Unidades de Computação - CUs) da placa de vídeo integrada (a AMD Radeon Graphics). Esses são "cérebros" separados, especializados apenas em processar gráficos (vídeos, jogos, interface do sistema operacional), e não se somam aos 8 núcleos da CPU.
+
+**Resumo:** Você tem um processador com **8 núcleos e 16 threads** para tarefas gerais (CPU) + uma placa de vídeo integrada com **8 núcleos gráficos** (GPU).
+
+---
+
+Pronto para o `next`? Vamos falar sobre a Memória RAM.
