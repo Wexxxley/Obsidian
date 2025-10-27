@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_Engenharia de Software/7_Arquitetura/7_Anti-padrão Arquitetural.md",
+                "file": "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_Anti-padrão Arquitetural"
+              "title": "3_Estruturas de programação"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11_Engenharia de Software/7_Arquitetura/7_Anti-padrão Arquitetural.md",
+                "file": "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 7_Anti-padrão Arquitetural"
+              "title": "Backlinks for 3_Estruturas de programação"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11_Engenharia de Software/7_Arquitetura/7_Anti-padrão Arquitetural.md",
+                "file": "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 7_Anti-padrão Arquitetural"
+              "title": "Outgoing links from 3_Estruturas de programação"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11_Engenharia de Software/7_Arquitetura/7_Anti-padrão Arquitetural.md",
+                "file": "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 7_Anti-padrão Arquitetural"
+              "title": "Outline of 3_Estruturas de programação"
             }
           },
           {
@@ -180,10 +180,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c52f17c64e87cbf",
+  "active": "07036c246e01a975",
   "lastOpenFiles": [
-    "11_Engenharia de Software/7_Arquitetura/7_.md",
+    "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
+    "6_FrontEnd/3_JavaScript/1_Introdução.md",
     "11_Engenharia de Software/7_Arquitetura/7_Anti-padrão Arquitetural.md",
+    "11_Engenharia de Software/7_Arquitetura/7_.md",
     "11_Engenharia de Software/7_Arquitetura/5_Arquiteturas orientadas a mensagens.md",
     "11_Engenharia de Software/7_Arquitetura/6_Publish subscribe.md",
     "attachments/Pasted image 20251026174022.png",
@@ -214,8 +216,6 @@
     "11_Engenharia de Software/7_Arquitetura",
     "attachments/Pasted image 20251023185455.png",
     "11_Engenharia de Software/4_Modelos/1_UML.md",
-    "11_Engenharia de Software/3_Requisitos/4_MVP.md",
-    "11_Engenharia de Software/3_Requisitos/3_Casos de uso.md",
     "11_Engenharia de Software/4_Modelos",
     "11_Engenharia de Software/3_Requisitos",
     "11_Engenharia de Software/2_Processos",
