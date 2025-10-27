@@ -8,6 +8,7 @@ No frontend, o **JavaScript** tem a função de **tornar as páginas web interat
 ![Pasted image 20250505134015](../../attachments/Pasted%20image%2020250505134015.png)
 
 ![Pasted image 20250505134204](../../attachments/Pasted%20image%2020250505134204.png)
+obs: <mark style="background: #ADCCFFA6;">o melhor é colocar o script depois do body.</mark>
 
 Ou você pode escrever o código diretamente no body do HTML.
 
