@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0cda97d4aa98b2eb",
+        "id": "a1fc309a7ec9741c",
         "type": "tabs",
         "children": [
           {
-            "id": "07036c246e01a975",
+            "id": "a53d155c20f5a7d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/1_Sistema binário.md",
+                "file": "11_Engenharia de Software/8_Testes de Software/2_Testes de unidade.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Sistema binário"
+              "title": "2_Testes de unidade"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/1_Sistema binário.md",
+                "file": "11_Engenharia de Software/8_Testes de Software/2_Testes de unidade.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1_Sistema binário"
+              "title": "Backlinks for 2_Testes de unidade"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/1_Sistema binário.md",
+                "file": "11_Engenharia de Software/8_Testes de Software/2_Testes de unidade.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1_Sistema binário"
+              "title": "Outgoing links from 2_Testes de unidade"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/1_Sistema binário.md",
+                "file": "11_Engenharia de Software/8_Testes de Software/2_Testes de unidade.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1_Sistema binário"
+              "title": "Outline of 2_Testes de unidade"
             }
           },
           {
@@ -180,11 +180,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07036c246e01a975",
+  "active": "a53d155c20f5a7d4",
   "lastOpenFiles": [
+    "11_Engenharia de Software/8_Testes de Software/1_Introdução.md",
+    "11_Engenharia de Software/8_Testes de Software/2_Testes de unidade.md",
+    "attachments/Pasted image 20251027133352.png",
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/1_Sistema binário.md",
     "attachments/Pasted image 20251027132253.png",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/4_Armazenamento.md",
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/1_Sistema binário.md",
     "attachments/Pasted image 20251027112958.png",
     "attachments/Pasted image 20251027112628.png",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/3_RAM (Random Access Memory).md",
@@ -195,8 +198,6 @@
     "attachments/Pasted image 20251027111531.png",
     "attachments/Pasted image 20251027105124.png",
     "attachments/Pasted image 20251027102534.png",
-    "attachments/Pasted image 20251027102250.png",
-    "11_Engenharia de Software/8_Testes de Software/1_Introdução.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware",
     "14_Roadmap/1_Junior/1_Fundamentos",
     "14_Roadmap/1_Junior",
@@ -209,7 +210,6 @@
     "11_Engenharia de Software/7_Arquitetura/7_.md",
     "11_Engenharia de Software/7_Arquitetura/5_Arquiteturas orientadas a mensagens.md",
     "11_Engenharia de Software/7_Arquitetura/6_Publish subscribe.md",
-    "attachments/Pasted image 20251026174022.png",
     "Aleatórios/IHC-Observatório Legislativo.md",
     "11_Engenharia de Software/7_Arquitetura/4_Microsserviços.md",
     "11_Engenharia de Software/7_Arquitetura/3_MVC.md",
