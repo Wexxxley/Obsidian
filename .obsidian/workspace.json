@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_Engenharia de Software/8_Testes de Software/1_Introdução.md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/1_Introdução.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11_Engenharia de Software/8_Testes de Software/1_Introdução.md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/1_Introdução.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11_Engenharia de Software/8_Testes de Software/1_Introdução.md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/1_Introdução.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11_Engenharia de Software/8_Testes de Software/1_Introdução.md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/1_Introdução.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -180,12 +180,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c52f17c64e87cbf",
+  "active": "07036c246e01a975",
   "lastOpenFiles": [
+    "11_Engenharia de Software/8_Testes de Software/1_Introdução.md",
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/1_Introdução.md",
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware",
+    "14_Roadmap/1_Junior/1_Fundamentos",
     "14_Roadmap/1_Junior",
     "14_Roadmap",
     "11_Engenharia de Software/7_Arquitetura/7_Anti-padrão Arquitetural.md",
-    "11_Engenharia de Software/8_Testes de Software/1_Introdução.md",
     "11_Engenharia de Software/8_Testes de Software",
     "6_FrontEnd/3_JavaScript/1_Introdução.md",
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
@@ -225,9 +228,6 @@
     "attachments/Pasted image 20251023064838.png",
     "attachments/Pasted image 20251022184630.png",
     "attachments/Pasted image 20251022165352.png",
-    "13_Autoescola/8_Primeiros Socorros.pdf",
-    "13_Autoescola/7_Mecânica-basica.pdf",
-    "13_Autoescola/5_Sinalização.pdf",
     "Sem título.canvas"
   ]
 }
