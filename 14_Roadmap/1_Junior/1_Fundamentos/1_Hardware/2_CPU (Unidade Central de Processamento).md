@@ -12,6 +12,8 @@ A CPU (_Central Processing Unit_) é, sem dúvida, o componente mais importante.
 - Ela busca dados da memória, processa esses dados e, em seguida, envia o resultado de volta para a memória ou para um dispositivo.
 - A velocidade da CPU é medida em **Gigahertz (GHz)**. Um processador de 3.1 GHz pode, teoricamente, realizar 3.1 bilhões de ciclos (operações básicas) por segundo.
 
+![](attachments/Pasted%20image%2020251027111531.png)
+
 ---
 #### **2.  Núcleos/Cores**
 

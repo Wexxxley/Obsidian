@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/3_RAM (Random Access Memory).md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/4_Armazenamento.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_RAM (Random Access Memory)"
+              "title": "4_Armazenamento"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/3_RAM (Random Access Memory).md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/4_Armazenamento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 3_RAM (Random Access Memory)"
+              "title": "Backlinks for 4_Armazenamento"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/3_RAM (Random Access Memory).md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/4_Armazenamento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 3_RAM (Random Access Memory)"
+              "title": "Outgoing links from 4_Armazenamento"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/3_RAM (Random Access Memory).md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/4_Armazenamento.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_RAM (Random Access Memory)"
+              "title": "Outline of 4_Armazenamento"
             }
           },
           {
@@ -182,8 +182,13 @@
   },
   "active": "07036c246e01a975",
   "lastOpenFiles": [
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/2_CPU (Unidade Central de Processamento).md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/3_RAM (Random Access Memory).md",
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/4_Armazenamento.md",
+    "attachments/Pasted image 20251027111759.png",
+    "attachments/Pasted image 20251027111645.png",
+    "attachments/Pasted image 20251027111620.png",
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/2_CPU (Unidade Central de Processamento).md",
+    "attachments/Pasted image 20251027111531.png",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/1_Sistema binário.md",
     "attachments/Pasted image 20251027105124.png",
     "attachments/Pasted image 20251027102534.png",
@@ -206,8 +211,6 @@
     "Aleatórios/IHC-Observatório Legislativo.md",
     "attachments/Pasted image 20251026162626.png",
     "11_Engenharia de Software/7_Arquitetura/4_Microsserviços.md",
-    "attachments/Pasted image 20251026161855.png",
-    "attachments/Pasted image 20251026161835.png",
     "11_Engenharia de Software/7_Arquitetura/3_MVC.md",
     "11_Engenharia de Software/7_Arquitetura/1_Arquitetura de Software.md",
     "11_Engenharia de Software/7_Arquitetura/2_Arquitetura em camadas.md",
@@ -220,10 +223,7 @@
     "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "Aleatórios/Decisões tomadas.md",
     "Aleatórios/Pedido de crenciais GIT.md",
-    "Aleatórios/SDT-Sistema VoIP.md",
-    "attachments/Pasted image 20251023202231.png",
     "11_Engenharia de Software/7_Arquitetura",
-    "attachments/Pasted image 20251023185455.png",
     "11_Engenharia de Software/4_Modelos",
     "11_Engenharia de Software/3_Requisitos",
     "11_Engenharia de Software/2_Processos",
