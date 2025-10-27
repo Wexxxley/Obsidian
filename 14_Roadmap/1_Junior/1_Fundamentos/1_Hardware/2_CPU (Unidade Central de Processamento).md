@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 
@@ -33,23 +34,5 @@ Meu processado atual é um **AMD Ryzen 7 5700U**:
 
 - **Cores:** Ele possui **8 núcleos** físicos. Esse processador pode, literalmente, trabalhar em 8 tarefas físicas diferentes ao mesmo tempo.
 
-- **Threads da CPU:** Ele possui **16 threads**. Isso acontece graças à tecnologia da AMD chamada **SMT (Simultaneous Multithreading)**. Ela permite que cada um desses 8 núcleos físicos se comporte como _dois_ núcleos lógicos para o sistema operacional. Isso otimiza o tempo, permitindo que o processador gerencie 16 "filas de tarefas" (threads) de uma vez, tornando-o excelente em multitarefa.
+- **Threads da CPU:** Ele possui **16 threads**. Isso acontece graças à tecnologia da AMD chamada **SMT (Simultaneous Multithreading)**. Ela permite que cada um desses 8 núcleos físicos se comporte como _dois_ núcleos lógicos para o sistema operacional. Isso permite que o processador gerencie 16 "filas de tarefas" (threads) de uma vez.
 
----
-
-**O que isso significa (reforçando o que vimos):**
-
-1. **8 Núcleos:** 
-    
-2. **16 Threads:** 
-    
-
-**Sobre a "Radeon Graphics × 8":**
-
-Minha pesquisa também confirma o que eu suspeitava. Esse "× 8" se refere aos **8 Núcleos Gráficos** (ou Unidades de Computação - CUs) da placa de vídeo integrada (a AMD Radeon Graphics). Esses são "cérebros" separados, especializados apenas em processar gráficos (vídeos, jogos, interface do sistema operacional), e não se somam aos 8 núcleos da CPU.
-
-**Resumo:** Você tem um processador com **8 núcleos e 16 threads** para tarefas gerais (CPU) + uma placa de vídeo integrada com **8 núcleos gráficos** (GPU).
-
----
-
-Pronto para o `next`? Vamos falar sobre a Memória RAM.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/2_CPU (Unidade Central de Processamento).md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/3_RAM (Random Access Memory).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_CPU (Unidade Central de Processamento)"
+              "title": "3_RAM (Random Access Memory)"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/2_CPU (Unidade Central de Processamento).md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/3_RAM (Random Access Memory).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2_CPU (Unidade Central de Processamento)"
+              "title": "Backlinks for 3_RAM (Random Access Memory)"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/2_CPU (Unidade Central de Processamento).md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/3_RAM (Random Access Memory).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2_CPU (Unidade Central de Processamento)"
+              "title": "Outgoing links from 3_RAM (Random Access Memory)"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/2_CPU (Unidade Central de Processamento).md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/3_RAM (Random Access Memory).md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_CPU (Unidade Central de Processamento)"
+              "title": "Outline of 3_RAM (Random Access Memory)"
             }
           },
           {
@@ -182,9 +182,10 @@
   },
   "active": "07036c246e01a975",
   "lastOpenFiles": [
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/2_CPU (Unidade Central de Processamento).md",
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/3_RAM (Random Access Memory).md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/1_Sistema binário.md",
     "attachments/Pasted image 20251027105124.png",
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/2_CPU (Unidade Central de Processamento).md",
     "attachments/Pasted image 20251027102534.png",
     "attachments/Pasted image 20251027102250.png",
     "11_Engenharia de Software/8_Testes de Software/1_Introdução.md",
