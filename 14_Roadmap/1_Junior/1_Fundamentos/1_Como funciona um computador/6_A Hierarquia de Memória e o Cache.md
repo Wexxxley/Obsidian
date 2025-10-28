@@ -5,7 +5,7 @@
 Existe um "abismo" de velocidade entre os componentes. A CPU opera em nanossegundos, enquanto a RAM opera em dezenas ou centenas de nanossegundos. Para a CPU, esperar pela RAM é como se você tivesse que esperar 10 minutos por um papel que está na sua própria mesa.
 ### **1. Cache**
 
-<mark style="background: #ADCCFFA6;">O Cache é uma quantidade muito pequena de memória extremamente rápida (e cara) que fica localizada _dentro_ do próprio chip da CPU ou muito, muito perto dela.</mark>
+<mark style="background: #ADCCFFA6;">O Cache é uma quantidade muito pequena de memória extremamente rápida (e cara) que fica localizada dentro do próprio chip da CPU ou muito, muito perto dela.</mark>
 
 A função do cache é armazenar os dados e instruções que a CPU acabou de usar ou que ela _provavelmente_ usará no próximo instante.
 

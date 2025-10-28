@@ -4,7 +4,7 @@
 ---
 ### 1. Placa-Mãe (Motherboard)
 
-Pense na placa-mãe como o sistema nervoso e o esqueleto do computador. É a grande <mark style="background: #ADCCFFA6;">placa de circuito (geralmente verde, preta ou azul) na qual todos os outros componentes são encaixados.</mark>
+Pense na placa-mãe como o sistema nervoso e o esqueleto do computador. É a grande <mark style="background: #ADCCFFA6;">placa de circuito na qual todos os outros componentes são encaixados.</mark>
 
 - A função da placa-mãe é <mark style="background: #D2B3FFA6;">conectar e comunicar.</mark>
     
