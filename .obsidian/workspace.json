@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/6_A Hierarquia de Memória e o Cache.md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/7_Processos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6_A Hierarquia de Memória e o Cache"
+              "title": "7_Processos"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/6_A Hierarquia de Memória e o Cache.md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/7_Processos.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 6_A Hierarquia de Memória e o Cache"
+              "title": "Outline of 7_Processos"
             }
           },
           {
@@ -183,10 +183,11 @@
   },
   "active": "af24ecb12081286d",
   "lastOpenFiles": [
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/6_A Hierarquia de Memória e o Cache.md",
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/7_Processos.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/3_RAM (Random Access Memory).md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/4_Armazenamento.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/5_Placa mãe.md",
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/6_A Hierarquia de Memória e o Cache.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/1_Sistema binário.md",
     "13_Autoescola/7_Mecânica-basica.pdf",
     "13_Autoescola/6_Mecânica Básica.md",
