@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7bce2de0f1575008",
+        "id": "4f09677a17257d17",
         "type": "tabs",
         "children": [
           {
-            "id": "8af1751b2eafe924",
+            "id": "af24ecb12081286d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "13_Autoescola/8_Primeiros Socorros.pdf"
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/3_RAM (Random Access Memory).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "8_Primeiros Socorros"
+              "icon": "lucide-file",
+              "title": "3_RAM (Random Access Memory)"
             }
           }
         ]
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13_Autoescola/8_Primeiros Socorros.pdf",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/3_RAM (Random Access Memory).md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 8_Primeiros Socorros"
+              "title": "Outline of 3_RAM (Random Access Memory)"
             }
           },
           {
@@ -164,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,14 +181,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8af1751b2eafe924",
+  "active": "af24ecb12081286d",
   "lastOpenFiles": [
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/1_Sistema binário.md",
     "13_Autoescola/7_Mecânica-basica.pdf",
     "13_Autoescola/6_Mecânica Básica.md",
     "13_Autoescola/5_Sinalização.pdf",
+    "13_Autoescola/8_Primeiros Socorros.pdf",
     "13_Autoescola/4_Infrações e penalidades.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/3_RAM (Random Access Memory).md",
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/1_Sistema binário.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/6_A Hierarquia de Memória e o Cache.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/5_Placa mãe.md",
     "attachments/Pasted image 20251027162443.png",
@@ -224,7 +228,6 @@
     "11_Engenharia de Software/7_Arquitetura/3_MVC.md",
     "11_Engenharia de Software/7_Arquitetura/1_Arquitetura de Software.md",
     "11_Engenharia de Software/7_Arquitetura",
-    "11_Engenharia de Software/4_Modelos",
     "Sem título.canvas"
   ]
 }
