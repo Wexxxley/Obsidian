@@ -29,27 +29,24 @@ Um **protocolo de requisição-resposta** é projetado especificamente para supo
 8. **Cliente:** Recebe a resposta, "desbloqueia" e continua sua execução.
 
 ---
-### **Estrutura da Mensagem**
+### **2. Estrutura da Mensagem**
 
 - **Tipo de Mensagem**: Request ou Resposta.
-    
 - **ID da Requisição**: Um identificador único gerado pelo cliente para cada requisição. O servidor copia esse ID na resposta correspondente, permitindo que o cliente associe a resposta à requisição correta e descarte respostas de requisições antigas ou duplicadas.
-    
 - **Referência Remota**: Identifica o objeto ou serviço remoto sendo invocado.
-    
 - **ID da Operação**: Identifica qual operação específica deve ser executada.
     
 ![](attachments/Pasted%20image%2020251029105832.png)
 
 ---
-
-### Uso com o UDP
+### 3. Uso com o UDP
 
 Implementar um protocolo de requisição-resposta diretamente sobre datagramas UDP pode ser mais eficiente do que usar TCP para interações simples, pois evita sobrecargas desnecessárias do TCP:
 
 - **Confirmações:** São redundantes, já que a resposta do servidor confirma a requisição.
 - **Estabelecimento de Conexão**: O TCP exige trocas extras de mensagens para estabelecer e fechar uma conexão.
 - **Controle de Fluxo**: Geralmente desnecessário para invocações que passam apenas pequenos argumentos e resultados.
+
 Quando implementado sobre UDP, o protocolo herda suas falhas (mensagens podem ser perdidas ou chegar fora de ordem) e precisa lidar com elas e também com falhas de processo:
 
 - **Timeouts**: A operação `doOperation` no cliente usa um timeout ao esperar pela resposta. Se o timeout expirar, a ação mais comum é **retransmitir a mensagem de requisição** várias vezes antes de desistir e relatar um erro.
@@ -59,7 +56,8 @@ Quando implementado sobre UDP, o protocolo herda suas falhas (mensagens podem se
 - **Respostas Perdidas e Idempotência**: Se a resposta se perder, o cliente retransmitirá a requisição. Se a operação no servidor for **idempotente** (pode ser executada várias vezes com o mesmo efeito que uma única execução), o servidor pode simplesmente reexecutá-la. Se não for idempotente, o servidor precisa manter um **histórico** das respostas enviadas (indexado pelo `requestId`) para poder retransmitir a resposta sem reexecutar a operação.
     
 
-#### **Estilos de Protocolos de Troca (R, RR, RRA)**
+---
+### **Estilos de Protocolos de Troca (R, RR, RRA)**
 
 Existem variações na troca de mensagens:
 
@@ -69,8 +67,8 @@ Existem variações na troca de mensagens:
     
 - **RRA (Request-Reply-Acknowledge Reply)**: Uma terceira mensagem (confirmação da resposta) é enviada pelo cliente de volta ao servidor. Isso permite que o servidor descarte com segurança as entradas do histórico de respostas.
     
-
-#### **Uso de TCP**
+---
+### **Uso de TCP**
 
 Apesar das vantagens do UDP para casos simples, o TCP é frequentemente usado para implementar protocolos de requisição-resposta:
 
