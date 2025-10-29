@@ -5,24 +5,28 @@
 Um **protocolo de requisição-resposta** é projetado especificamente para suportar a troca de mensagens típica entre um cliente e um servidor.
 
 - Normalmente, a comunicação é **síncrona**: o cliente envia uma requisição e fica bloqueado esperando a resposta do servidor.
+
 - Pode ser projetado para ser **confiável**, pois a resposta do servidor serve como uma confirmação implícita de que a requisição foi recebida.
 
-Implementar um protocolo de requisição-resposta diretamente sobre datagramas UDP pode ser mais eficiente do que usar TCP para interações simples, pois evita sobrecargas desnecessárias do TCP:
-
-- **Confirmações:** São redundantes, já que a resposta do servidor confirma a requisição.
-- **Estabelecimento de Conexão**: O TCP exige trocas extras de mensagens para estabelecer e fechar uma conexão.
-- **Controle de Fluxo**: Geralmente desnecessário para invocações que passam apenas pequenos argumentos e resultados.
-
 ---
-#### **Primitivas de Comunicação**
+### **1. Primitivas de Comunicação**
 
-1. **doOperation**: Usada pelo cliente para invocar uma operação remota. Envia a mensagem de requisição e bloqueia esperando a mensagem de resposta. Os argumentos e resultados são empacotados/desempacotados pelo cliente.
+1. **doOperation**: Usada pelo cliente para invocar uma operação remota. Envia a mensagem de requisição e bloqueia esperando a mensagem de resposta. 
     
 2. **getRequest**: Usada pelo servidor para receber uma mensagem de requisição de um cliente.
     
 3. **sendReply**: Usada pelo servidor para enviar a mensagem de resposta de volta ao cliente que fez a requisição.
     
 ![](attachments/Pasted%20image%2020251029105559.png)
+
+1. **Cliente:** Monta uma mensagem contendo a operação desejada e os dados necessários. 
+2. **Cliente:** Envia essa mensagem pela rede para o endereço do servidor (IP e porta).
+3. **Cliente:** Entra em estado de espera (bloqueio).
+4. **Servidor:** Está em um "loop de escuta". Ao receber a mensagem, ele a interpreta.
+5. **Servidor:** Executa a ação solicitada.
+6. **Servidor:** Monta uma mensagem de resposta contendo o resultado.
+7. **Servidor:** Envia a resposta de volta ao cliente.
+8. **Cliente:** Recebe a resposta, "desbloqueia" e continua sua execução.
 
 ---
 ### **Estrutura da Mensagem**
@@ -38,7 +42,14 @@ Implementar um protocolo de requisição-resposta diretamente sobre datagramas U
 ![](attachments/Pasted%20image%2020251029105832.png)
 
 ---
+
 ### Uso com o UDP
+
+Implementar um protocolo de requisição-resposta diretamente sobre datagramas UDP pode ser mais eficiente do que usar TCP para interações simples, pois evita sobrecargas desnecessárias do TCP:
+
+- **Confirmações:** São redundantes, já que a resposta do servidor confirma a requisição.
+- **Estabelecimento de Conexão**: O TCP exige trocas extras de mensagens para estabelecer e fechar uma conexão.
+- **Controle de Fluxo**: Geralmente desnecessário para invocações que passam apenas pequenos argumentos e resultados.
 Quando implementado sobre UDP, o protocolo herda suas falhas (mensagens podem ser perdidas ou chegar fora de ordem) e precisa lidar com elas e também com falhas de processo:
 
 - **Timeouts**: A operação `doOperation` no cliente usa um timeout ao esperar pela resposta. Se o timeout expirar, a ação mais comum é **retransmitir a mensagem de requisição** várias vezes antes de desistir e relatar um erro.
