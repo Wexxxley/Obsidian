@@ -22,22 +22,23 @@ Implementar um protocolo de requisição-resposta diretamente sobre datagramas U
     
 3. **sendReply**: Usada pelo servidor para enviar a mensagem de resposta de volta ao cliente que fez a requisição.
     
+![](attachments/Pasted%20image%2020251029105559.png)
 
-#### **Estrutura da Mensagem**
+---
+### **Estrutura da Mensagem**
 
-As mensagens trocadas geralmente contêm:
-
-- **Tipo de Mensagem**: Indica se é uma Requisição (Request) ou Resposta (Reply).
+- **Tipo de Mensagem**: Request ou Resposta.
     
-- **ID da Requisição (requestId)**: Um identificador único gerado pelo cliente para cada requisição. O servidor copia esse ID na resposta correspondente, permitindo que o cliente associe a resposta à requisição correta e descarte respostas de requisições antigas ou duplicadas.
+- **ID da Requisição**: Um identificador único gerado pelo cliente para cada requisição. O servidor copia esse ID na resposta correspondente, permitindo que o cliente associe a resposta à requisição correta e descarte respostas de requisições antigas ou duplicadas.
     
 - **Referência Remota**: Identifica o objeto ou serviço remoto sendo invocado.
     
 - **ID da Operação**: Identifica qual operação específica deve ser executada.
     
+![](attachments/Pasted%20image%2020251029105832.png)
 
-#### **Tratamento de Falhas (sobre UDP)**
-
+---
+### Uso com o UDP
 Quando implementado sobre UDP, o protocolo herda suas falhas (mensagens podem ser perdidas ou chegar fora de ordem) e precisa lidar com elas e também com falhas de processo:
 
 - **Timeouts**: A operação `doOperation` no cliente usa um timeout ao esperar pela resposta. Se o timeout expirar, a ação mais comum é **retransmitir a mensagem de requisição** várias vezes antes de desistir e relatar um erro.
