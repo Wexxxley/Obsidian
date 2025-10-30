@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_Engenharia de Software/8_Testes de Software/7_Teste de sistema.md",
+                "file": "11_Engenharia de Software/9_Refatoração/1_Introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_Teste de sistema"
+              "title": "1_Introdução"
             }
           }
         ]
@@ -183,8 +183,10 @@
   },
   "active": "af24ecb12081286d",
   "lastOpenFiles": [
-    "11_Engenharia de Software/8_Testes de Software/6_Testes de integração.md",
     "11_Engenharia de Software/8_Testes de Software/7_Teste de sistema.md",
+    "11_Engenharia de Software/9_Refatoração/1_Introdução.md",
+    "11_Engenharia de Software/9_Refatoração",
+    "11_Engenharia de Software/8_Testes de Software/6_Testes de integração.md",
     "11_Engenharia de Software/8_Testes de Software/3_Pricípios FIRST e Test Smells.md",
     "11_Engenharia de Software/8_Testes de Software/5_TDD Test-Driven Development.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/7_Processos.md",
@@ -224,11 +226,9 @@
     "14_Roadmap/1_Junior",
     "14_Roadmap",
     "11_Engenharia de Software/7_Arquitetura/7_Anti-padrão Arquitetural.md",
-    "11_Engenharia de Software/8_Testes de Software",
     "6_FrontEnd/3_JavaScript/1_Introdução.md",
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
-    "11_Engenharia de Software/7_Arquitetura/7_.md",
     "Sem título.canvas"
   ]
 }
