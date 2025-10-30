@@ -57,26 +57,21 @@ Quando implementado sobre UDP, o protocolo herda suas falhas (mensagens podem se
     
 
 ---
-### **Estilos de Protocolos de Troca (R, RR, RRA)**
+### **4. Estilos de Protocolos de Troca (R, RR, RRA)**
 
-Existem variações na troca de mensagens:
-
-- **R (Request)**: Apenas uma mensagem de requisição é enviada (sem resposta). Útil quando não há resultado e a confirmação não é necessária (semântica "talvez").
+- **R (Request)**: Apenas uma mensagem de requisição. Útil quando não há resultado e a confirmação não é necessária.
     
-- **RR (Request-Reply)**: O padrão normal, com uma requisição seguida por uma resposta. A resposta age como confirmação da requisição.
+- **RR (Request-Reply)**: O padrão normal, com uma requisição seguida por uma resposta. 
     
 - **RRA (Request-Reply-Acknowledge Reply)**: Uma terceira mensagem (confirmação da resposta) é enviada pelo cliente de volta ao servidor. Isso permite que o servidor descarte com segurança as entradas do histórico de respostas.
     
 ---
-### **Uso de TCP**
+### **5. Uso de TCP**
 
 Apesar das vantagens do UDP para casos simples, o TCP é frequentemente usado para implementar protocolos de requisição-resposta:
 
-- Simplifica a implementação, pois o TCP já garante a entrega confiável e ordenada, eliminando a necessidade de retransmissões, filtros de duplicatas e históricos no protocolo de requisição-resposta.
+- Simplifica a implementação, pois o TCP já garante a entrega confiável e ordenada, eliminando a necessidade de retransmissões.
     
 - O controle de fluxo do TCP permite a transmissão de argumentos e resultados de tamanho arbitrário.
     
 - A sobrecarga da conexão TCP pode ser amortizada se a mesma conexão for reutilizada para múltiplas requisições (conexões persistentes).
-    
-
-O **HTTP** é citado como um exemplo proeminente de um protocolo de requisição-resposta, implementado sobre TCP, que evoluiu para usar conexões persistentes (HTTP 1.1) para melhorar a eficiência.
