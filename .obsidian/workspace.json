@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/9_Stack vs Heap**.md",
+                "file": "11_Engenharia de Software/8_Testes de Software/7_Teste de sistema.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9_Stack vs Heap**"
+              "title": "7_Teste de sistema"
             }
           }
         ]
@@ -183,6 +183,10 @@
   },
   "active": "af24ecb12081286d",
   "lastOpenFiles": [
+    "11_Engenharia de Software/8_Testes de Software/6_Testes de integração.md",
+    "11_Engenharia de Software/8_Testes de Software/7_Teste de sistema.md",
+    "11_Engenharia de Software/8_Testes de Software/3_Pricípios FIRST e Test Smells.md",
+    "11_Engenharia de Software/8_Testes de Software/5_TDD Test-Driven Development.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/7_Processos.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/6_A Hierarquia de Memória e o Cache.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/8_Thread.md",
@@ -207,11 +211,8 @@
     "attachments/Pasted image 20251027161645.png",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/Untitled",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/2_CPU (Unidade Central de Processamento).md",
-    "11_Engenharia de Software/8_Testes de Software/6_Testes de integração.md",
-    "11_Engenharia de Software/8_Testes de Software/5_TDD Test-Driven Development.md",
     "attachments/Pasted image 20251027144219.png",
     "11_Engenharia de Software/8_Testes de Software/4_Mocks.md",
-    "11_Engenharia de Software/8_Testes de Software/3_Pricípios FIRST e Test Smells.md",
     "11_Engenharia de Software/8_Testes de Software/2_Testes de unidade.md",
     "attachments/Pasted image 20251027140715.png",
     "11_Engenharia de Software/8_Testes de Software/1_Introdução.md",
@@ -228,7 +229,6 @@
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
     "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
     "11_Engenharia de Software/7_Arquitetura/7_.md",
-    "11_Engenharia de Software/7_Arquitetura/5_Arquiteturas orientadas a mensagens.md",
     "Sem título.canvas"
   ]
 }
