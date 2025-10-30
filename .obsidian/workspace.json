@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Concluded",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,7 +181,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af24ecb12081286d",
+  "active": "0c52f17c64e87cbf",
   "lastOpenFiles": [
     "Untitled 1.md",
     "11_Engenharia de Software/10_DevOps/3_Deployment Contínuo (CD).md",
