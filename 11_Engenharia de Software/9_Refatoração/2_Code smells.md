@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 Code Smells são os **indicadores** de que um trecho de código pode precisar de refatoração . 
@@ -17,8 +18,11 @@ Code Smells são os **indicadores** de que um trecho de código pode precisar de
     
 - **Obsessão por Tipos Primitivos:** Ocorre quando tipos primitivos são usados no lugar de classes pequenas para representar conceitos (ex: usar `String` para um CEP) .
     
-- **Objetos Mutáveis:** Objetos cujo estado pode ser modificado após a criação. O livro considera isso um _smell_, pois objetos imutáveis (que não podem ser alterados) são mais simples e seguros de usar, especialmente em programação concorrente .
-    
+- **Objetos Mutáveis:** Objetos cujo estado pode ser modificado após a criação. A crítica não é sobre a existência da mutabilidade em si, mas sobre o **uso desnecessário** dela
+	    
+	1. A recomendação é "minimizar o número de tais objetos, sem, no entanto, imaginar que vamos eliminá-los por completo".
+	2. A crítica é direcionada principalmente a **objetos que representam valores simples**. O livro sugere que classes como `CEP`, `Moeda`, `Endereco`, `Data`, `Hora`, `Fone` e `Email` deveriam, preferencialmente, ser imutáveis.
+	    
 - **Classes de Dados:** Classes que possuem apenas atributos, mas nenhuma lógica. 
     
 - **Comentários:** Comentários podem ser um _smell_ quando são usados para explicar um código ruim. A recomendação é: "Não comente código ruim, reescreva-o" . 

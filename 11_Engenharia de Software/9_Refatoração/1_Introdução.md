@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 
@@ -16,14 +17,7 @@ Refactoring é um <mark style="background: #ADCCFFA6;">conjunto de transformaç�
 - A forma mais comum e recomendada é o **Refactoring Oportunista**:
     - É feito em pequenos passos, o tempo todo, misturado com as tarefas normais de desenvolvimento .
     - Ao corrigir um bug ou adicionar uma nova funcionalidade, você percebe um trecho de código ruim e o melhora _imediatamente_ para facilitar seu trabalho atual .
+    
+- O **Planejado** é usado para modificações mais profundas, demoradas e complexas. Por ser complexo, esse tipo de refatoração é realizado em **sessões planejadas e dedicadas**.
 
 ---
-
-
-**6. Exemplos Chave de Operações de Refactoring**
-
-- **Extração de Método:** É o refactoring mais comum. Pega-se um trecho de código dentro de um método longo e o move para um novo método (privado) com um nome claro. Isso combate o _smell_ de Métodos Longos.
-    
-- **Movimentação de Método:** Move um método de uma classe A para uma classe B, geralmente porque o método usa mais recursos da classe B (combatendo o _smell_ de _Feature Envy_) . Melhora a coesão.
-    
-- **Renomeação:** Um dos refatorings mais simples e importantes. Dar nomes claros a variáveis, métodos e classes é fundamental para a legibilidade .
