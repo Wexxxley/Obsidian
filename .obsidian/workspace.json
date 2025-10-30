@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Concluded",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,8 +184,9 @@
   },
   "active": "af24ecb12081286d",
   "lastOpenFiles": [
-    "11_Engenharia de Software/10_DevOps/2_Integração contínua (CI).md",
+    "Untitled 1.md",
     "11_Engenharia de Software/10_DevOps/3_Deployment Contínuo (CD).md",
+    "11_Engenharia de Software/10_DevOps/2_Integração contínua (CI).md",
     "11_Engenharia de Software/10_DevOps/1_Introdução.md",
     "11_Engenharia de Software/9_Refatoração/3_Exemplos de Operações de Refactoring.md",
     "11_Engenharia de Software/10_DevOps",
@@ -221,7 +223,6 @@
     "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/Untitled",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/2_CPU (Unidade Central de Processamento).md",
     "attachments/Pasted image 20251027144219.png",
-    "11_Engenharia de Software/8_Testes de Software/2_Testes de unidade.md",
     "attachments/Pasted image 20251027140715.png",
     "attachments/Pasted image 20251027133352.png",
     "attachments/Pasted image 20251027132253.png",

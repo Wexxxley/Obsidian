@@ -2,68 +2,38 @@
 
 
 ---
+### 1. Deployment Contínuo vs. Integração Contínua
 
-### Deployment Contínuo vs. Integração Contínua (CI)
-
-Primeiro, é crucial entender a diferença:
-
-- **Integração Contínua (CI):** Garante que o código dos desenvolvedores seja integrado _frequentemente_ (ex: diariamente) no _branch_ principal, passando por _build_ e _testes automatizados_. **Mas esse código não precisa estar pronto para produção**; pode ser uma funcionalidade incompleta ou com problemas de desempenho 1.
+- **Integração Contínua (CI):** Garante que o código dos desenvolvedores seja integrado _frequentemente_ (ex: diariamente) no _branch_ principal, passando por _build_ e _testes automatizados_. Mas esse código não precisa estar pronto para produção; pode ser uma funcionalidade incompleta ou com problemas de desempenho .
     
-- **Deployment Contínuo (CD):** É o próximo passo. Com CD, todo _commit_ que passa com sucesso pelo processo de CI (build e todos os testes) é **automaticamente implantado em produção**, muitas vezes em questão de horas 2.
+- **Deployment Contínuo (CD):** Com CD, todo _commit_ que passa com sucesso pelo processo de CI (build e todos os testes) é  implantado em produção, muitas vezes em questão de horas .
     
-
 **O Fluxo de Trabalho com Deployment Contínuo:**
 
-1. O desenvolvedor testa localmente e faz o _commit_3.
-    
-2. O Servidor de CI executa o _build_ e os testes rápidos (ex: testes de unidade)4.
-    
-3. Se passar, o servidor executa testes mais exaustivos (testes de integração, testes de interface, testes de desempenho) 5.
-    
-4. Se **todos** os testes passarem, o sistema é **automaticamente implantado em produção** 6.
-    
+1. O desenvolvedor testa localmente e faz o _commit_.
+2. O Servidor de CI executa o _build_ e os testes rápidos.    
+3. Se passar, o servidor executa testes mais exaustivos (testes de integração, testes de interface, testes de desempenho).
+4. Se **todos** os testes passarem, o sistema é **automaticamente implantado em produção**.
 
 **Vantagens do Deployment Contínuo:**
+- **Reduz o tempo de entrega:** Novas funcionalidades chegam aos usuários assim que ficam prontas, em vez de esperar meses por uma grande _release_. O resultado são _releases_ menores e mais frequentes.
+    
+- **Feedback rápido e motivação:** Os desenvolvedores veem seu trabalho em produção rapidamente e recebem feedback de usuários reais.
+    
+- **Favorece experimentação:** Permite validar ideias rapidamente com usuários reais e, se necessário, cancelar ou alterar funcionalidades.
 
-- **Reduz o tempo de entrega:** Novas funcionalidades chegam aos usuários assim que ficam prontas, em vez de esperar meses por uma grande _release_. O resultado são _releases_ menores e mais frequentes 7.
-    
-- **Implantação vira um "não-evento":** Remove o estresse e a pressão dos _deadlines_ de entrega 8.
-    
-- **Feedback rápido e motivação:** Os desenvolvedores veem seu trabalho em produção rapidamente e recebem feedback de usuários reais (em vez de esperar meses) 9.
-    
-- **Favorece experimentação:** Permite validar ideias rapidamente com usuários reais e, se necessário, cancelar ou alterar funcionalidades (como vimos nos Testes A/B e MVPs) 10.
-    
-- **Requer código pequeno:** Para funcionar, o CD exige que os desenvolvedores quebrem tarefas complexas em partes muito pequenas que possam ser implementadas e entregues rapidamente (como o Facebook, que implanta mudanças de, em média, 92 linhas de código) 11.
-    
+---
+### **2. Entrega Contínua**
+
+Deployment Contínuo não é recomendável para todos os sistemas, como aplicativos desktop ou mobile, onde o usuário teria que atualizar o app várias vezes ao dia. Para esses casos, existe uma variação, a entrega continua.
+
+O fluxo é o mesmo do Deployment Contínuo, a diferença é que a implantação final em produção não é automática. Ela requer uma **autorização manual** (ex: um gerente de produto aperta o "botão" para liberar a _release_ para a loja de aplicativos).
+
+Empresas de software não-Web (como Google Chrome, Eclipse, Facebook App) têm usado a Entrega Contínua para encurtar seus ciclos de _release_ entregando valor mais rápido.
 
 ---
 
-Entrega Contínua (Continuous Delivery)
-
-Deployment Contínuo (automático) não é recomendável para todos os sistemas, como aplicativos desktop ou mobile, onde o usuário teria que atualizar o app várias vezes ao dia 12.
-
-Para esses casos, existe uma variação mais "fraca":
-
-- **Entrega Contínua (Continuous Delivery):**
-    
-    - O fluxo é o mesmo do Deployment Contínuo: todo _commit_ passa por _build_ e testes automatizados, ficando **tecnicamente pronto para ir à produção** 13.
-        
-    - **A diferença chave:** A implantação final em produção **não é automática**. Ela requer uma **autorização manual** (ex: um gerente de produto aperta o "botão" para liberar a _release_ para a loja de aplicativos) 14141414.
-        
-- **Resumo da Diferença:**
-    
-    - **Delivery (Entrega):** Deixar a nova versão _pronta_ para implantação.
-        
-    - **Deployment (Implantação):** Liberar a nova versão para os _usuários_.
-        
-    - Em Deployment Contínuo, ambos são automáticos. Em Entrega Contínua, a _Delivery_ é automática, mas o _Deployment_ é manual.
-        
-
-Empresas de software não-Web (como Google Chrome, Eclipse, Facebook App) têm usado a Entrega Contínua para encurtar seus ciclos de _release_ de anuais para semestrais, trimestrais ou até semanais, entregando valor mais rápido 15.
-
----
-
-**Feature Flags (ou Feature Toggles)**
+### **Feature Flags** 
 
 - **O Problema:** Se estamos usando Integração Contínua (commitando todo dia no _master_) e Deployment Contínuo (tudo no _master_ vai para produção), como fazemos para trabalhar em uma funcionalidade grande (X) que levará semanas, sem quebrar a produção com código incompleto? 16
     
