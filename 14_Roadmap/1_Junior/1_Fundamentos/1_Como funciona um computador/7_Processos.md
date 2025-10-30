@@ -51,96 +51,47 @@ Trocar de um processo para outro é "caro" computacionalmente. O SO precisa salv
 Ambos **Stack** (pilha )e **Heap** (pilha de alocação) são apenas **regiões da memória RAM** que o seu processo usa. Mas a _forma_ como eles são usados e gerenciados é completamente diferente.
 
 #### **5.1 Stack (Pilha)**
-A Stack é uma região de memória altamente organizada, usada para armazenar dados de escopo local. Ela funciona como uma pilha de pratos, seguindo o princípio LIFO (Last-In, First-Out): o último prato que você coloca é o primeiro que você tira.
+A Stack é uma região de memória altamente organizada, usada para armazenar dados de escopo local. Ela funciona como uma pilha de pratos.
 
-**1.2. Gerenciamento: Automático e Rápido**
 
-- **Quem gerencia:** O **compilador** e a **CPU**. O programador não tem controle direto sobre a Stack.
+- **Como funciona:** Quando você chama uma função (ex: calcularMedia(a, b)), o programa "empilha" um Stack Frame nessa pilha.
     
-- **Como funciona:** Quando você chama uma função (ex: `calcularMedia(a, b)`), o programa "empilha" (push) um "quadro" (Stack Frame) nessa pilha.
-    
-- **O que tem nesse "quadro"?**
-    
-    - Os argumentos da função (os valores de `a` e `b`).
+- **O Stack Frame possui:**
+    - Os argumentos da função.
+    - As variáveis locais declaradas _dentro_ da função.
+    - Para onde a CPU deve pular de volta quando a função terminar.
         
-    - As variáveis locais declaradas _dentro_ da função (ex: `double resultado;`).
-        
-    - O "endereço de retorno" (para onde a CPU deve pular de volta quando a função terminar).
-        
-- Quando a função termina (`return`), seu quadro é "desempilhado" (pop) automaticamente. Todo o seu conteúdo (variáveis locais, etc.) é instantaneamente destruído.
+- **Termino:** Quando a função termina, seu o Stack Frame é "desempilhado"  e todo o seu conteúdo é destruído.
     
 - **Velocidade:** Isso é _extremamente_ rápido. O gerenciamento é feito apenas mudando um ponteiro de CPU (o "Stack Pointer") para cima ou para baixo.
     
-
-**1.3. O que vai para a Stack?**
-
-- **Variáveis locais:** `int i = 5;` (Se `i` for declarado dentro de uma função).
-    
-- **Ponteiros (Pointers):** O próprio ponteiro (o endereço), mas _não_ o dado para o qual ele aponta (se esse dado foi alocado dinamicamente).
-    
-- **Argumentos de função.**
-    
-- **Praticamente qualquer variável de "tamanho fixo" conhecido em tempo de compilação.**
-    
-
-**1.4. Limitações e Problemas**
-
 - **Tamanho Fixo:** A Stack tem um tamanho fixo (definido quando o processo/thread é criado, geralmente 1MB a 8MB).
     
-- **Problema Comum: `Stack Overflow` (Estouro de Pilha)**
+- **Stack Overflow**: Acontece quando você tenta "empilhar" mais coisas do que cabem na Stack. Por exemplo quand você usar **Recursão infinita**. 
+
+#### **5.1 Heap (Pilha de Alocação)**
+
+É um grande "depósito" desorganizado, usado para alocar dados de forma dinâmica, ou seja, dados que você não sabe o tamanho ou o tempo de vida quando está escrevendo o código.
+
+- **Como funciona:**    
+    1. **Alocação**: Você _pede_ ao SO/runtime: "Ei, preciso de 500 bytes de memória no Heap para guardar um objeto". (Ex: new no Java/C#)
+    2. O SO procura um bloco de memória livre desse tamanho.
+    3. Ele "aluga" esse bloco para você e te devolve um ponteiro.
+    4. Esse ponteiro é armazenado em uma variável na sua **Stack**.
+            
+- **Velocidade:** A alocação no Heap é _muito mais lenta_ que na Stack.
     
-    - O que é: Acontece quando você tenta "empilhar" mais coisas do que cabem na Stack.
+- **O que vai para o Heap?**
+	- **Objetos:** Em linguagens como Java e C#, _todos_ os objetos vão para o Heap.
+	- **Dados de "Tempo de Vida Longo":** Qualquer dado que precise sobreviver _depois_ que a função que o criou terminar. Se estivesse na Stack, ele morreria. No Heap, ele vive até ser explicitamente destruído.
+    
+##### **5.1.1 Limitações e Problemas**
+
+- **Gerenciamento Manual:** Você é responsável por "devolver" a memória quando não precisar mais (Ex: `delete` no C++)
+    
+- **Memory Leak**: Ocorre quando você aloca memória no Heap, e perde o ponteiro antes de devolver o espaço. O espaço fica "alugado" para sempre, inacessível. 
         
-    - Causa Comum: **Recursão infinita**. Uma função que chama a si mesma sem parar. Cada chamada empilha um novo "quadro", e a pilha rapidamente transborda.
-        
-
----
-
-### Tópico 2: O Heap (Pilha de Alocação)
-
-2.1. O que é?
-
-O Heap é a outra região de memória do processo. É um grande "depósito" desorganizado, usado para alocar dados de forma dinâmica, ou seja, dados que você não sabe o tamanho ou o tempo de vida quando está escrevendo o código.
-
-**2.2. Gerenciamento: Manual e Lento**
-
-- **Quem gerencia:** **O programador** (explicitamente) e o **Sistema Operacional/Runtime** (por baixo dos panos).
-    
-- **Como funciona:**
-    
-    1. **Alocação (Ex: `new` no Java/C#, `malloc` no C):** Você _pede_ ao SO/runtime: "Ei, preciso de 500 bytes de memória no Heap para guardar um objeto".
-        
-    2. O SO procura um bloco de memória livre desse tamanho (um processo lento chamado "memory walk").
-        
-    3. Ele "aluga" esse bloco para você e te devolve um **ponteiro** (um endereço).
-        
-    4. Esse ponteiro (o endereço) é armazenado em uma variável na sua **Stack**.
-        
-- **O dado (o objeto) vive no Heap.** A "coleira" (o ponteiro) vive na Stack.
-    
-- **Velocidade:** A alocação no Heap é _muito mais lenta_ que na Stack, pois envolve uma busca do SO.
-    
-
-**2.3. O que vai para o Heap?**
-
-- **Objetos (Classes):** Em linguagens como Java e C#, _todos_ os objetos (criados com `new`) vão para o Heap.
-    
-- **Dados Dinâmicos:** Qualquer coisa alocada com `malloc` (C) ou `new` (C++).
-    
-- **Dados de "Tempo de Vida Longo":** Qualquer dado que precise sobreviver _depois_ que a função que o criou terminar. Se estivesse na Stack, ele morreria. No Heap, ele vive até ser explicitamente destruído.
-    
-
-**2.4. Limitações e Problemas**
-
-- **Gerenciamento Manual (O Perigo):** Você é responsável por "devolver" a memória quando não precisar mais (Ex: `delete` no C++, `free` no C).
-    
-- **Problema 1: `Memory Leak` (Vazamento de Memória)**
-    
-    - Ocorre quando você aloca memória no Heap (aluga um espaço), mas "perde a coleira" (o ponteiro da Stack é destruído) antes de devolver o espaço.
-        
-    - O espaço fica "alugado" para sempre, inacessível. Se isso acontecer muitas vezes, seu processo consome toda a RAM do sistema e trava.
-        
-- **Linguagens Modernas (Java, C#, Python):** Elas têm um **Garbage Collector (Coletor de Lixo)**, um processo de fundo que automaticamente encontra e libera memória do Heap que não está mais sendo usada, prevenindo a maioria dos vazamentos.
+- ****Garbage Collector (Java, C#, Python):** Linguagens como java, cElas têm um **Garbage Collector (Coletor de Lixo)**, um processo de fundo que automaticamente encontra e libera memória do Heap que não está mais sendo usada, prevenindo a maioria dos vazamentos.
     
 - **Problema 2: Fragmentação:** Com o tempo, o Heap fica parecendo um queijo suíço, cheio de pequenos blocos alugados e liberados. Pode ser difícil encontrar um bloco _contínuo_ grande o suficiente, mesmo que o total de memória livre seja alto.
     
