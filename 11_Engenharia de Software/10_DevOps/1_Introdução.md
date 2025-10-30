@@ -1,5 +1,5 @@
 
-#Concluded 
+
 
 ---
 ### **1. Antes do DevOps**
@@ -39,5 +39,4 @@ Como software é desenvolvido em equipe, precisamos de um servidor central para 
       
 2. **Monorepos:** Uma abordagem adotada por grandes empresas (Google, Facebook) onde **todos** os projetos da organização residem em um **único repositório gigante**, organizados em subdiretórios.
     - **Desvantagem:** Requer ferramentas especializadas para lidar com o tamanho imenso da base de código.
-    - **Vantagens:** Fonte única da verdade, incentiva reúso, mudanças que afetam múltiplos projetos podem ser feitas em um único _commit_ e facilita refatorações em larga escala.
-    
+    - **Vantagens:** Fonte única da verdade, incentiva reúso, mudanças que afetam múltiplos projetos podem ser feitas em um único _commit_ e facilita refatorações em larga escala.    

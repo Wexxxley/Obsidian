@@ -26,4 +26,3 @@ Era comum usar **branches de longa duração**.
         
 4. **Desenvolvimento Baseado no Trunk (Trunk Based Development - TBD):**
     - TBD significa que todos os desenvolvedores trabalham diretamente no branch principal, evitando _merges_ complexos. É a prática usada por Google e Facebook.
-        

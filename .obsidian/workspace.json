@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_Engenharia de Software/10_DevOps/3_Deployment Contínuo (CD).md",
+                "file": "11_Engenharia de Software/10_DevOps/1_Introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Deployment Contínuo (CD)"
+              "title": "1_Introdução"
             }
           }
         ]
@@ -183,10 +183,10 @@
   },
   "active": "af24ecb12081286d",
   "lastOpenFiles": [
-    "Aleatórios/1_Blocos obsidian.md",
-    "11_Engenharia de Software/10_DevOps/3_Deployment Contínuo (CD).md",
-    "Untitled 1.md",
     "11_Engenharia de Software/10_DevOps/2_Integração contínua (CI).md",
+    "11_Engenharia de Software/10_DevOps/3_Deployment Contínuo (CD).md",
+    "Aleatórios/1_Blocos obsidian.md",
+    "Untitled 1.md",
     "11_Engenharia de Software/10_DevOps/1_Introdução.md",
     "11_Engenharia de Software/9_Refatoração/3_Exemplos de Operações de Refactoring.md",
     "11_Engenharia de Software/10_DevOps",
