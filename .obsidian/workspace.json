@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_Engenharia de Software/9_Refatoração/1_Introdução.md",
+                "file": "11_Engenharia de Software/9_Refatoração/2_Code smells.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Introdução"
+              "title": "2_Code smells"
             }
           }
         ]
@@ -183,12 +183,14 @@
   },
   "active": "af24ecb12081286d",
   "lastOpenFiles": [
-    "11_Engenharia de Software/8_Testes de Software/7_Teste de sistema.md",
     "11_Engenharia de Software/9_Refatoração/1_Introdução.md",
-    "11_Engenharia de Software/9_Refatoração",
-    "11_Engenharia de Software/8_Testes de Software/6_Testes de integração.md",
+    "11_Engenharia de Software/9_Refatoração/2_Code smells.md",
     "11_Engenharia de Software/8_Testes de Software/3_Pricípios FIRST e Test Smells.md",
+    "11_Engenharia de Software/8_Testes de Software/4_Mocks.md",
     "11_Engenharia de Software/8_Testes de Software/5_TDD Test-Driven Development.md",
+    "11_Engenharia de Software/8_Testes de Software/6_Testes de integração.md",
+    "11_Engenharia de Software/8_Testes de Software/7_Teste de sistema.md",
+    "11_Engenharia de Software/9_Refatoração",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/7_Processos.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/6_A Hierarquia de Memória e o Cache.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/8_Thread.md",
@@ -214,7 +216,6 @@
     "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/Untitled",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/2_CPU (Unidade Central de Processamento).md",
     "attachments/Pasted image 20251027144219.png",
-    "11_Engenharia de Software/8_Testes de Software/4_Mocks.md",
     "11_Engenharia de Software/8_Testes de Software/2_Testes de unidade.md",
     "attachments/Pasted image 20251027140715.png",
     "11_Engenharia de Software/8_Testes de Software/1_Introdução.md",
@@ -228,7 +229,6 @@
     "11_Engenharia de Software/7_Arquitetura/7_Anti-padrão Arquitetural.md",
     "6_FrontEnd/3_JavaScript/1_Introdução.md",
     "6_FrontEnd/3_JavaScript/2_Tipos de dados e variável.md",
-    "6_FrontEnd/3_JavaScript/3_Estruturas de programação.md",
     "Sem título.canvas"
   ]
 }
