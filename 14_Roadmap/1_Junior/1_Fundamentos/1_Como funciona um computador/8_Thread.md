@@ -54,70 +54,40 @@ O que cada Thread tem de **ÚNICO**:
 ---
 ### **4. Exemplo real**
 
-
-1. **O Processo do Servidor (O "Contêiner")**
-    
-    - Você inicia seu servidor (seja ele um script Python, um programa em Java ou C#). O Sistema Operacional (SO) cria **um Processo** para ele.
-        
-    - Esse processo é "pesado": ele recebe seu próprio espaço de memória isolado, suas permissões de segurança, etc., como vimos.
-        
+1. **O Processo do Servidor**
+    - Você inicia seu servidor. O Sistema Operacional (SO) cria **um Processo** para ele.
+    - Esse processo é "pesado": ele recebe seu próprio espaço de memória isolado, suas permissões de segurança, etc.
     - Esse processo começa, por padrão, com **uma Thread** (a thread principal).
         
-2. **A Thread Principal (O "Recepcionista")**
-    
-    - A sua thread principal é a que executa o `loop` que você mencionou. A função dela é uma só: ficar "bloqueada" (Waiting) na instrução `accept()`, esperando um novo cliente bater à porta.
+2. **A Thread Principal**
+    - A sua thread principal é a que executa o `loop`. A função dela é uma só: ficar "bloqueada" (Waiting) na instrução `accept()`, esperando um novo cliente bater à porta.
         
-3. **Chega o Cliente 1 (O "Trabalhador Leve")**
-    
+3. **Chega o Cliente**
     - Quando o Cliente 1 se conecta, a thread principal "desbloqueia".
-        
     - Ela executa a próxima instrução: "alocar uma thread para lidar com o cliente".
-        
-    - O seu processo (o "Contêiner") agora cria uma **nova Thread (Thread 2)**.
-        
-    - Essa Thread 2 é "leve" (lightweight). Ela vive _dentro_ do espaço de memória do processo principal. Ela compartilha o `Heap` e os `Dados Globais`, mas ganha sua própria `Pilha` (Stack) privada.
-        
+    - O seu processo agora cria uma **nova Thread (Thread 2)**.
+    - Essa Thread 2 é "leve". Ela vive _dentro_ do espaço de memória do processo principal. Ela compartilha o `Heap` e os `Dados Globais`, mas ganha sua própria Stack privada.
     - A Thread 2 agora assume a comunicação com o Cliente 1.
+    - A Thread principal volta imediatamente para o `loop` e fica "bloqueada" em `accept()` de novo, esperando o Cliente 2.
         
-    - A Thread 1 (principal) volta imediatamente para o `loop` e fica "bloqueada" em `accept()` de novo, esperando o Cliente 2.
+4. **Mapeando para o meu Hardware (AMD 8C/16T)**
+    - O SO vê **16 núcleos lógicos** (graças ao SMT) disponíveis para agendar tarefas.
         
-4. **Mapeando para o seu Hardware (AMD 8C/16T)**
-    
-    - O seu SO (Windows, Linux, etc.) é o gerente. Ele vê **16 núcleos lógicos** (graças ao SMT) disponíveis para agendar tarefas.
-        
-    - **Cenário (8 Clientes):** Você tem 8 clientes. O seu processo de servidor agora tem 9 threads (1 principal + 8 de clientes). O SO vai agendar essas 9 threads nos seus 16 "slots" lógicos.
+    - **8 Clientes:** O seu processo de servidor agora tem 9 threads (1 principal + 8 de clientes). O SO vai agendar essas 9 threads.
         
     - **Paralelismo Real:** Se todas as 8 threads de clientes precisarem fazer um cálculo _exatamente ao mesmo tempo_, seu computador é capaz de executar todas elas em **paralelismo real**, usando 8 núcleos físicos. O desempenho será fantástico.
         
-    - **Cenário (16 Clientes):** Você tem 17 threads (1 principal + 16 de clientes). Seu CPU é a máquina perfeita para isso. O SO pode agendar as 16 threads de clientes nos 16 núcleos lógicos. A SMT (a tecnologia que transforma 8 núcleos em 16 threads) garante que os núcleos estejam sempre ocupados, preenchendo as pequenas pausas de uma thread com o trabalho de outra.
-        
 
----
-
-### Parte 2: O que Acontece com 100 Usuários Simultâneos
-
-Aqui é onde vemos a diferença entre **Paralelismo** (hardware) e **Concorrência** (software).
-
-Seu hardware tem **16** núcleos lógicos. Você está pedindo para ele lidar com **101** threads (1 principal + 100 de clientes).
-
-**A resposta curta é: Sim, funciona. Mas como?**
-
-1. **Criação das Threads:** O seu processo de servidor vai, de fato, criar 101 threads. Elas existirão todas ao mesmo tempo dentro do seu processo.
-    
-2. **O Papel do Agendador (Scheduler) do SO:** O SO agora tem 101 threads, mas apenas 16 "slots" para executá-las. A "mágica" é o **Context Switching (Troca de Contexto)**.
-    
-3. **Concorrência (A Ilusão):** O SO vai dar a _ilusão_ de que todas as 101 threads estão rodando ao mesmo tempo. Ele fará isso da seguinte forma:
-    
-    - Ele pega 16 das 101 threads e as coloca para rodar nos núcleos lógicos.
-        
-    - Depois de uma fração de segundo (um "time slice"), ele **pausa** essas 16 threads (salva o estado delas, como os registradores e o Program Counter).
-        
-    - Ele então **carrega** outras 16 threads que estavam na fila ("Ready") e as deixa rodar.
-        
-    - Ele repete isso milhares de vezes por segundo.
-        
-4. **Troca de Contexto "Leve":** Como estamos trocando _threads_ (que compartilham memória) e não _processos_ (que são isolados), essa troca é muito "leve" e rápida, como vimos.
-    
+5.  **O que Acontece com 100 Usuários Simultâneos**: Aqui é onde vemos a diferença entre **Paralelismo** (hardware) e **Concorrência** (software).
+	
+	- **Criação das Threads:** O seu processo de servidor vai, de fato, criar 101 threads. Elas existirão todas ao mesmo tempo dentro do seu processo. O SO agora tem 101 threads, mas apenas 16 "slots" para executá-las. 
+	    
+	- **Concorrência:** O SO vai dar a _ilusão_ de que todas as 101 threads estão rodando ao mesmo tempo. Ele fará isso da seguinte forma:
+	    - Ele pega 16 das 101 threads e as coloca para rodar nos núcleos lógicos.
+	    - Depois de uma fração de segundo, ele **pausa** essas 16 threads (salva o estado delas)  
+	    - Ele então **carrega** outras 16 threads que estavam na fila ("Ready") e as deixa rodar
+	    - Ele repete isso milhares de vezes por segundo.
+	        
 
 ### Onde Estão os Gargalos? (Por que 1000 pode ser um problema)
 
