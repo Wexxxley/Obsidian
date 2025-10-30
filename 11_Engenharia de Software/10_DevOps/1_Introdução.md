@@ -22,16 +22,21 @@ O problema dessa divisão era um "muro" entre as equipes. A equipe de Ops, muita
 - **Automatização Total:** DevOps defende a **automatização de tudo** no processo de entrega: build, testes, configuração e ativação de servidores, carga de banco de dados, etc. O objetivo é que a implantação seja "tão simples como apertar um botão" .
 
 ---
-### **Princípios Chave**
+### **Sistema de Controle de Versões**
 
-- Crie um processo **repetível e confiável** para entrega de software.
+Como software é desenvolvido em equipe, precisamos de um servidor central para armazenar o código-fonte, permitindo que os desenvolvedores colaborem. Um VCS mantém o histórico de todas as versões dos arquivos (código, documentação, configuração, etc.). Isso permite recuperar versões antigas de um arquivo
     
-- **Automatize tudo** que for possível.
+1. **VCS Centralizado:** Existe u **único servidor central** que armazena o repositório principal.
+
+2. **VCS Distribuído:** Cada desenvolvedor possui um servidor completo e um repositório inteiro em sua máquina local.
+	- **Trabalho Offline:** Você pode fazer _commits_ e gerenciar versões sem estar conectado à rede.
+	- **Commits Frequentes e Rápidos:** Como os _commits_ são locais, eles são muito rápidos e podem ser feitos com mais frequência.
+        
+**Multirepos vs. Monorepos:**
+
+1. **Multirepos:** A abordagem tradicional, onde cada projeto ou sistema tem seu próprio repositório separado (ex: `empresa/sistema1`, `empresa/sistema2`).
+      
+2. **Monorepos:** Uma abordagem adotada por grandes empresas (Google, Facebook) onde **todos** os projetos da organização residem em um **único repositório gigante**, organizados em subdiretórios.
+    - **Desvantagem:** Requer ferramentas especializadas para lidar com o tamanho imenso da base de código.
+    - **Vantagens:** Fonte única da verdade, incentiva reúso, mudanças que afetam múltiplos projetos podem ser feitas em um único _commit_ e facilita refatorações em larga escala.
     
-- Mantenha **tudo em um sistema de controle de versões** (não apenas o código-fonte, mas também scripts de build, configuração, documentação, etc.).
-    
-- **Se um passo causa dor, execute-o com mais frequência** (ex: integração de código causa dor? Faça-a continuamente em pequenas partes, o que veremos como Integração Contínua) .
-    
-- **"Concluído" significa "pronto para entrega"** (não "pronto, mas falta testar, documentar...") .
-    
-- **Todos são responsáveis** pela entrega (quebrando os silos) .
