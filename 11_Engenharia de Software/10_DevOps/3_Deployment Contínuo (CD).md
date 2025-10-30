@@ -6,18 +6,22 @@
 
 - **Integração Contínua (CI):** Garante que o código dos desenvolvedores seja integrado _frequentemente_ (ex: diariamente) no _branch_ principal, passando por _build_ e _testes automatizados_. Mas esse código não precisa estar pronto para produção; pode ser uma funcionalidade incompleta ou com problemas de desempenho .
     
-- **Deployment Contínuo (CD):** Com CD, todo _commit_ que passa com sucesso pelo processo de CI (build e todos os testes) é  implantado em produção, muitas vezes em questão de horas .
-    
-**O Fluxo de Trabalho com Deployment Contínuo:**
-1. O desenvolvedor testa localmente e faz o _commit_.
-2. O Servidor de CI executa o _build_ e os testes rápidos.    
-3. Se passar, o servidor executa testes mais exaustivos (testes de integração, testes de interface, testes de desempenho).
-4. Se **todos** os testes passarem, o sistema é **automaticamente implantado em produção**.
+- **Deployment Contínuo (CD):** Com CD, todo _commit_ que passa com sucesso pelo processo de CI (build e todos os testes) é  implantado em produção, muitas vezes em questão de horas .    
 
-**Vantagens do Deployment Contínuo:**
-- **Reduz o tempo de entrega:** Novas funcionalidades chegam aos usuários assim que ficam prontas, em vez de esperar meses por uma grande _release_. O resultado são _releases_ menores e mais frequentes
-- **Feedback rápido e motivação:** Os desenvolvedores veem seu trabalho em produção rapidamente e recebem feedback de usuários reais.
-- **Favorece experimentação:** Permite validar ideias rapidamente com usuários reais e, se necessário, cancelar ou alterar funcionalidades.
+> [!NOTE]
+> **O Fluxo de Trabalho com Deployment Contínuo:**
+> 1. O desenvolvedor testa localmente e faz o _commit_.
+> 2. O Servidor de CI executa o _build_ e os testes rápidos.    
+> 3. Se passar, o servidor executa testes de integração, testes de interface, testes de desempenho.
+> 4. Se **todos** os testes passarem, o sistema é **automaticamente implantado em produção**.
+> 
+> 
+
+> [!INFO]
+> **Vantagens do Deployment Contínuo:**
+> - **Reduz o tempo de entrega:** Novas funcionalidades chegam aos usuários assim que ficam prontas, em vez de esperar meses por uma grande _release_.
+> - **Feedback rápido e motivação:** Os desenvolvedores veem seu trabalho em produção rapidamente e recebem feedback de usuários reais.
+> - **Favorece experimentação:** Permite validar ideias rapidamente com usuários reais e, se necessário, cancelar ou alterar funcionalidades.
 
 ---
 ### **2. Entrega Contínua**
