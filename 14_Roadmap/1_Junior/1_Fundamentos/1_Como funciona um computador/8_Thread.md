@@ -52,7 +52,7 @@ O que cada Thread tem de **ÚNICO**:
 | **Analogia**          | O canteiro de obras.                           | Um trabalhador _no_ canteiro.                                |
 
 ---
-### **4. Exemplo real**
+### **4. Exemplo: Thread por cliente**
 
 1. **O Processo do Servidor**
     - Você inicia seu servidor. O Sistema Operacional (SO) cria **um Processo** para ele.
@@ -89,37 +89,9 @@ O que cada Thread tem de **ÚNICO**:
 	    - Ele repete isso milhares de vezes por segundo.
 	        
 
-### Onde Estão os Gargalos? (Por que 1000 pode ser um problema)
-
-Seu computador _consegue_ gerenciar 100 threads, mas o desempenho que cada cliente vê dependerá do **tipo de trabalho** que a thread faz.
-
-**Gargalo 1: Carga de CPU (CPU-Bound)**
-
-- **Se a tarefa for "pesada"** (ex: cada cliente envia um número e a thread faz um cálculo complexo), os clientes sentirão lentidão.
+6. **O Limite Real desse Modelo:** Este é o verdadeiro problema do modelo "thread-por-cliente".
+	- Cada thread, por mais "leve" que seja, exige sua própria pilha (Stack). O SO reserva um espaço de memória para essa pilha (por padrão, algo entre 1MB e 8MB).
+	- **100 threads:** 100 * 1MB = 100MB de RAM (só para as pilhas). Fácil.
+	- **10.000 threads:** 10.000 * 1MB = 10.000MB (ou 10GB) de RAM.	    
+	- **O que acontece:** O seu sistema quebra por **falta de RAM** muito antes de a sua CPU se tornar o gargalo.
     
-- **Por quê?** Porque a thread de um cliente agora está competindo com outras 100 pelo tempo da CPU. Em vez de ter um núcleo só para ela, ela só pode rodar por 1/100 (ou, no seu caso, 16/100) do tempo.
-    
-
-**Gargalo 2: Carga de I/O (I/O-Bound)** - _O Cenário Mais Provável_
-
-- **Se a tarefa for "leve"** (ex: um servidor de chat, onde a thread fica a maior parte do tempo _esperando_ o cliente digitar algo), seu computador lidará com 100 usuários _facilmente_.
-    
-- **Por quê?** Quando uma thread está "esperando" por algo (como dados da rede ou uma leitura do SSD), o SO a coloca no estado **"Blocked" (Esperando)**. Ela **não usa CPU** nesse estado. O SO, então, usa o núcleo que ficou livre para rodar outra das 101 threads que esteja "Ready" (Pronta).
-    
-- Nesse cenário, 100 usuários não significa 100 threads usando a CPU. Significa 100 threads _existindo_, mas talvez só 5 ou 10 usando a CPU em um dado momento.
-    
-
-**Gargalo 3: Memória (O Limite Real desse Modelo)**
-
-- Este é o verdadeiro problema do modelo "thread-por-cliente".
-    
-- Cada thread, por mais "leve" que seja, exige sua própria pilha (Stack). O SO reserva um espaço de memória para essa pilha (por padrão, algo entre 1MB e 8MB).
-    
-- **100 threads:** 100 * 1MB = 100MB de RAM (só para as pilhas). Fácil.
-    
-- **10.000 threads:** 10.000 * 1MB = 10.000MB (ou 10GB) de RAM.
-    
-- **O que acontece:** O seu sistema quebra por **falta de RAM** (esgota a memória) muito antes de a sua CPU (8C/16T) se tornar o gargalo.
-    
-
-**Conclusão:** Seu computador (8C/16T) é uma excelente máquina para rodar esse tipo de servidor. Ele lidaria com 100 usuários simultâneos tranquilamente (assumindo que o trabalho de cada thread seja leve, como um chat ou uma API web simples), gerenciando as 101 threads através de trocas de contexto rápidas. O problema desse _modelo_ (thread-por-cliente) não é a CPU, mas sim o limite de memória que ele impõe quando escalamos para milhares de usuários.
