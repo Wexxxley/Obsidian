@@ -2,7 +2,7 @@
 #Concluded 
 
 ---
-## **1. Grafos**
+### **1. Grafos**
 
  Um grafo ==$G = (V, E)$== consiste em um ==conjunto de vértices (V)== e um ==conjunto de arestas (E)==. Cada aresta é um par $(v,w)$,  onde $v,w ∈ V$.
 
@@ -14,27 +14,22 @@
  - Um **grafo completo** é um grafo em que existe uma aresta entre cada par de vértices.
 
 ___
-### **1.1 Representação de grafos**
-
-  
+### **2. Representação de grafos**
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfH6clvRtr8C23J8Ff5Hq-LOek1BcgvQ7StRsr3FmFQiLs1i_-vgQJWCJBnUY7vs-7SJSnKZZ4f9EsjekLAO7UgKKkUe5X08iaNu5_H1E89xEHhlyJuxiU_-_cbzcRHNm-suELs?key=VJjD-GQ4BeMLFSL3weHQfxOz)
 
-#### **1.1.1 Matriz de Adjacência**
-
+#### **2.1 Matriz de Adjacência**
 Para um grafo com N vértices, a matriz de adjacência é uma matriz quadrada N×N.
 
 - Para cada aresta (u,v), a entrada `A[u][v]` é definida como `verdadeiro`(`1`).
 - Caso contrário, a entrada será `falsa`(`0`).
-- Se a aresta tiver um **peso** associado, `A[u][v]` pode armazenar esse peso. Nesse caso:
-    - Um valor muito grande (∞) pode indicar a inexistência de uma aresta.
+- Se a aresta tiver um **peso** associado, `A[u][v]` pode armazenar esse peso. Nesse caso: Um valor muito grande (∞) pode indicar a inexistência de uma aresta.
 
 **Desvantagens da Matriz de Adjacência:**
 - Embora seja **simples** de entender e implementar, é **muito ineficiente** em termos de espaço.
 - Isso ocorre porque, em **grafos esparsos** (aqueles com relativamente poucas arestas em comparação com o número máximo possível de arestas), a maioria dos valores na matriz será nula, resultando em **desperdício de memória**.
 
-#### **1.1.2 Listas de Adjacência**
-
+#### **2.2 Listas de Adjacência**
 Uma solução melhor para **grafos não densos (esparsos)** é o uso de listas de adjacência.
 
 - Para cada vértice v, mantemos uma **lista de todos os vértices adjacentes** a ele.
@@ -42,42 +37,7 @@ Uma solução melhor para **grafos não densos (esparsos)** é o uso de listas d
 - Em **grafos não direcionados**, cada aresta (u,v) aparecerá em duas listas: v estará na lista de adjacência de u, e u estará na lista de adjacência de v.
 
   
-___________________________________________________________________________
 
-___________________________________________________________________________
-
-### 1.5 Problema da árvore geradora mínima![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfWMRbyy5wl6gMQzlBRe4Pf-V2yG7RZm2M6OhNHSDLYXPtRSoArFEtENF1jrQGiOGT7ewIuBCGP7-IcGM39CugcEXywvXXcIUftsfdszB0DuADVtLnzbrNT_LhY-0dxjRFIaiktXg?key=VJjD-GQ4BeMLFSL3weHQfxOz)
-
-  Uma árvore é um grafo conexo e acíclico; Se é conexo, para qualquer par de vértices do grafo, existe pelo menos um caminho ligando esses dois vértices. Se é acíclico, o grafo não possui ciclos.
-
-  
-
-1. Em uma árvore, a quantidade de arestas(E) é o número de vértices(V) - 1. |E|=|V| - 1.
-    
-2. Se removermos uma aresta da árvore, ela deixa de ser conexa. Ou seja, uma árvore é um grafo onde os vértices estão minimamente conectados.
-    
-3. Se T for árvore, ao adicionarmos uma nova aresta, criamos um ciclo em T. E podemos criar uma nova árvore ao removermos uma aresta do ciclo, diferente da aresta adicionada.
-    
-
-  
-
-Subgrafo e subgrafo gerador
-
-Subgrafo: Se G′ = (V′ , E′ ) for subgrafo de um grafo G = (V, E), então V′ ⊆ V e E′ ⊆ E.
-
-Subgrafo gerador: Um subgrafo G′ = (V′ , E′ ) é gerador quando V′ = V e E′ ⊆ E. Eles são ditos geradores, por que a partir deles é possível retornar ao grafo original somente adicionando arestas.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcP097izxYt702KbZySGfpYR3sAjf9lVPr3muZFdtuB_bsktVnlUvBM65aBB8qxBk6FbplE5XQmJfg-SMsd7JCSSX3NxUQc7MJVJDb-8akqB1U3hObN49wDBX-Igid7TsVjEj62?key=VJjD-GQ4BeMLFSL3weHQfxOz)
-
-Exemplos de subgrafos geradores. 
-
-  
-  
-
- Seja um grafo G = (V, E) conexo e ponderado. No problema da árvore geradora mínima, deseja-se encontrar a árvore geradora T de peso mais baixo. O peso de uma árvore geradora é o somatório de todos os pesos associados a uma aresta.
-
-  
-  
   
 
 ___________________________________________________________________________
