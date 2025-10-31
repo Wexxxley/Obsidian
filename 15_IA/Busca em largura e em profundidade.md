@@ -26,6 +26,7 @@ Queremos descobrir um caminho de Arad para qualquer uma das outras cidades.
 ![](attachments/Pasted%20image%2020251031091210.png)
 
 **Busca em largura**
+Levando em consideração que "problema" possui a estrutura que salva o mapa e todas as informações necessárias.
 ```python
 from collections import deque
 import typing
@@ -59,6 +60,7 @@ def BUSCA(problema):
 ```
 
 **Busca em profundidade**
+Levando em consideração que "problema" possui a estrutura que salva o mapa e todas as informações necessárias.
 ```python
 from collections import deque
 import typing
