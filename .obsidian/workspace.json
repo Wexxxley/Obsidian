@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15_IA/Busca em largura.md",
+                "file": "15_IA/Busca em largura e em profundidade.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Busca em largura"
+              "title": "Busca em largura e em profundidade"
             }
           }
         ]
@@ -185,7 +185,7 @@
   "lastOpenFiles": [
     "attachments/Pasted image 20251031091210.png",
     "11_Engenharia de Software/10_DevOps/1_Introdução.md",
-    "15_IA/Busca em largura.md",
+    "15_IA/Busca em largura e em profundidade.md",
     "15_IA",
     "11_Engenharia de Software/10_DevOps/2_Integração contínua (CI).md",
     "11_Engenharia de Software/10_DevOps/3_Deployment Contínuo (CD).md",
