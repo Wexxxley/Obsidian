@@ -126,6 +126,9 @@ def BUSCA_CUSTO_UNIFORME(Problema):
         if problema.is_objetivo(no_atual.estado):
             return no_atual
 
+		# Se já exploramos (com um custo menor), pulamos
+		if noAtual.estado.nome in explorados:
+			continue
         explorados.add(no_atual.estado.nome) # adicionar no a explorados
         
         # "Para cada sucessor do nó..." 
