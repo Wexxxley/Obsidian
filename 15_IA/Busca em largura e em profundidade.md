@@ -20,7 +20,16 @@ A estratégia da DFS, ao contrário da BFS, é sempre expandir o vértice "mais 
 Para isso, a DFS utiliza uma estrutura de dados do tipo **Pilha (Stack)**
 
 ---
-### 3. Exemplo: Mapa de cidades
+### 3. Busca de Custo Uniforme (UCS - Uniform Cost Search)
+
+A Busca de Custo Uniforme é um algoritmo que explora o grafo $G(V,A)$ para encontrar o caminho de **menor custo total** (e não apenas o de menor número de arestas) de um vértice de origem $s$ até um vértice de destino.
+
+A sua propriedade fundamental é que ela sempre expande o nó $n$ na fronteira (borda) que tem o **menor custo de caminho total** desde a origem $s$. Por causa disso, a UCS garante encontrar o caminho de menor custo para o destino (desde que os custos das arestas não sejam negativos).
+
+Para isso, a UCS utiliza uma estrutura de dados do tipo **Fila de Prioridade (Priority Queue)**.
+
+---
+### 4. Exemplo: Mapa de cidades
 
 Queremos descobrir um caminho de Arad para qualquer uma das outras cidades.
 ![](attachments/Pasted%20image%2020251031091210.png)
@@ -122,6 +131,16 @@ def BUSCA_CUSTO_UNIFORME(problema):
             
         # "Para cada sucessor do nó..." 
         for sucessor in problema.sucessores(no_atual):
-            if (sucessor not in explorados) and (sucessor not in borda):
+            if (sucessor not in explorados) or (sucessor not in borda):
                 heapq.heappush(borda, sucessor)
+            else:
+	            sucessor 
 ```
+
+
+para cada ação aplicável em nó.estado
+10. filho ← criar nó filho
+11. se filho.estado não está em explorados ou borda
+12. adicionar filho em borda
+13. senão se filho.estado está na borda com maior custo
+14. substituir nó na borda por filho
