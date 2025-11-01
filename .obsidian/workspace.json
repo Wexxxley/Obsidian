@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_Engenharia de Software/2_Processos/4_KANBAN.md",
+                "file": "11_Engenharia de Software/4_Modelos/1_UML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_KANBAN"
+              "title": "1_UML"
             }
           }
         ]
@@ -183,6 +183,11 @@
   },
   "active": "af24ecb12081286d",
   "lastOpenFiles": [
+    "11_Engenharia de Software/3_Requisitos/2_Historia de usuários.md",
+    "11_Engenharia de Software/3_Requisitos/4_MVP.md",
+    "11_Engenharia de Software/3_Requisitos/3_Casos de uso.md",
+    "11_Engenharia de Software/3_Requisitos/1_Requisitos.md",
+    "11_Engenharia de Software/2_Processos/4_KANBAN.md",
     "11_Engenharia de Software/2_Processos/2_Extreme Programming.md",
     "11_Engenharia de Software/1_Introdução/1_Introdução.md",
     "11_Engenharia de Software/1_Introdução/2_Fluxo de processos.md",
@@ -208,11 +213,6 @@
     "Untitled 1.md",
     "11_Engenharia de Software/9_Refatoração/3_Exemplos de Operações de Refactoring.md",
     "11_Engenharia de Software/10_DevOps",
-    "11_Engenharia de Software/9_Refatoração/1_Introdução.md",
-    "11_Engenharia de Software/9_Refatoração/2_Code smells.md",
-    "11_Engenharia de Software/8_Testes de Software/3_Pricípios FIRST e Test Smells.md",
-    "11_Engenharia de Software/8_Testes de Software/4_Mocks.md",
-    "11_Engenharia de Software/8_Testes de Software/5_TDD Test-Driven Development.md",
     "11_Engenharia de Software/9_Refatoração",
     "attachments/Pasted image 20251029105832.png",
     "attachments/Pasted image 20251029105559.png",
