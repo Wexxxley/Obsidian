@@ -35,9 +35,3 @@ Uma solução melhor para **grafos não densos (esparsos)** é o uso de listas d
 - Para cada vértice v, mantemos uma **lista de todos os vértices adjacentes** a ele.
 - As listas de adjacência são o **padrão** para representar grafos na maioria das aplicações.
 - Em **grafos não direcionados**, cada aresta (u,v) aparecerá em duas listas: v estará na lista de adjacência de u, e u estará na lista de adjacência de v.
-
-
-  
-  
-  
-**
