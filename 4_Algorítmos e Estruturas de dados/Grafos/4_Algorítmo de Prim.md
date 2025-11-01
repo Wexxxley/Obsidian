@@ -14,10 +14,9 @@ Cada vértice do grafo é inicializado: 
 - u.key  = infinity: representa o custo para incluir o vértice na árvore.
 - u.pai = null: indica que o vértice ainda não foi conectado à árvore.
   
- Depois é definido r.key = 0, pois ele é o vértice inicial. Então, é criado Q com todos os vértices. Q é uma fila de prioridade, ou seja, os elementos com as menores chaves são retirados primeiro.
+ Depois é definido r.key = 0, pois ele é o vértice inicial. Então, é criado Q com todos os vértices. Q é uma **fila de prioridade**, ou seja, os elementos com as menores chaves são retirados primeiro.
 
-  Temos um loop nas linhas 6-11. Enquanto a fila não for vazia é retirado o vértice u com menor chave. Para cada vétice u retirado da fila, é feito um for com cada vértice v adjacente a u. Então, cada vértice adjacente a u tem seu pai e peso atualizado. Após verificar todos os vértices adjacentes a u o for acaba e o vértice com menor peso da fila é retirado. O processo se repete até a fila estar vazia.
-
+Temos um loop. Enquanto a fila não for vazia é retirado o vértice u com menor chave. Para cada vétice u retirado da fila, é feito um for com cada vértice v adjacente a u. Então, cada vértice adjacente a u tem seu pai e peso atualizado. Após verificar todos os vértices adjacentes a u o for acaba e o vértice com menor peso da fila é retirado. O processo se repete até a fila estar vazia.
   
 **Complexidade**: Ambos Kruskal e Prim são da ordem O(m log n).
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcSx2XwO8LWqzqZnnxM6PiGIYrN9AslE7tf0w26OsnYcSDl6RiLaUkDNxY26aA9h_ELymVHql3FvF4_iAqxlWvkIwomSWAfGcgUJOWEfsF4y7v0pOJrHZ_-FkWh0GbUFmfUaWNlxQ?key=VJjD-GQ4BeMLFSL3weHQfxOz)
