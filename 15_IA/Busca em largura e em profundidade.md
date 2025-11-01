@@ -136,7 +136,65 @@ def BUSCA_CUSTO_UNIFORME(problema):
 
 ```
 
+```python
+import heapq # Biblioteca para Fila de Prioridade
+import typing
 
+def BUSCA_CUSTO_UNIFORME(Problema):
+    no_inicial = problema.get_estado_inicial()
+    
+    # A Borda será uma Fila de Prioridade (heap)
+    # A fila armazena os Nós.
+    borda_heap: typing.List[No] = []
+    heapq.heappush(borda_heap, no_inicial)
+
+    # Armazena: {nome_do_estado: custo_atual_na_borda}
+    borda_estados: typing.Dict[str, float] = {}
+    borda_estados[no_inicial.estado.nome] = no_inicial.custoCaminho
+
+    # Conjunto para estados já expandidos (Linha 07)
+    explorados = set() 
+
+    # (Linha 03) repita
+    while True:
+        # (Linha 04) se borda está vazia retorne falha
+        if not borda_heap:
+            return None # Falha
+        
+        # (Linha 05) nó ← remover elemento de menor custo da borda
+        no_atual = heapq.heappop(borda_heap)
+
+        # Se este nó foi "substituído" por um mais barato (Linha 14), 
+        # seu custo no heap será maior do que o custo no nosso dict.
+        # Nesse caso, nós o ignoramos e pegamos o próximo.
+        if no_atual.custoCaminho > borda_estados[no_atual.estado.nome]:
+            continue
+
+        # (Linha 06) se nó.estado é objetivo retorne solução
+        if problema.is_objetivo(no_atual.estado):
+            return no_atual
+        
+        # (Linha 07) adicionar nó.estado a explorados
+        explorados.add(no_atual.estado.nome)
+        
+        # O nó foi explorado, então não está mais na "borda"
+        del borda_estados[no_atual.estado.nome]
+
+        # (Linha 09) para cada ação...
+        # (Linha 10) filho ← criar nó filho
+        for filho (No) in problema.sucessores(no_atual):
+            
+            # (Linha 11) se filho.estado não está em explorados...
+            if filho.estado.nome not in explorados:
+                
+                # ...ou borda (com custo menor)
+                if (filho.estado.nome not in borda_estados) or \
+                   (filho.custoCaminho < borda_estados[filho.estado.nome]):
+                    
+                    # (Linha 12 ou 14) Adicionar ou Substituir
+                    heapq.heappush(borda_heap, filho)
+                    borda_estados[filho.estado.nome] = filho.custoCaminho
+```
 para cada ação aplicável em nó.estado
 10. filho ← criar nó filho
 11. se filho.estado não está em explorados ou borda
