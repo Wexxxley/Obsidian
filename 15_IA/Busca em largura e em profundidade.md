@@ -102,40 +102,8 @@ def BUSCA(problema):
                 borda.append(sucessor)
 ```
 
-**Busca de custo uniforme**
-```python
-import heapq  # Biblioteca para Fila de Prioridade
-import typing
-
-def BUSCA_CUSTO_UNIFORME(problema):
-    no_inicial = problema.get_estado_inicial() 
-    
-    # A borda agora é uma Fila de Prioridade (um heap).
-    # É uma lista gerenciada pelo 'heapq'.
-    borda: typing.List[No] = []
-    heapq.heappush(borda, no_inicial)
-    
-    explorados = set() # Conjunto de ESTADOS ja explorados
-
-    while True:
-        if not borda: # Se não tiver nós na borda
-            return None 
-    
-        no_atual = heapq.heappop(borda) # remover no da borda
-
-        # Se o nó atual for o alvo, retorne a solução
-        if problema.is_objetivo(no_atual.estado):
-            return no_atual 
-
-        explorados.add(no_atual.estado) # adicionar no a explorados
-            
-        # "Para cada sucessor do nó..." 
-        for sucessor in problema.sucessores(no_atual):
-            if (sucessor not in explorados) or (sucessor not in borda):
-                heapq.heappush(borda, sucessor)
-
-```
-
+**Busca custo uniforme**
+Levando em consideração que "problema" possui a estrutura que salva o mapa e todas as informações necessárias.
 ```python
 import heapq  # Biblioteca para Fila de Prioridade (heap)
 import typing
@@ -166,11 +134,6 @@ def BUSCA_CUSTO_UNIFORME(Problema):
             # Se filho NÃO está em explorados
             # NÃO precisamos checar se ele está na borda
             if filho.estado.nome not in explorados:
+	            filho.dist += no_atual.dist
                 heapq.heappush(borda, filho)
 ```
-para cada ação aplicável em nó.estado
-10. filho ← criar nó filho
-11. se filho.estado não está em explorados ou borda
-12. adicionar filho em borda
-13. senão se filho.estado está na borda com maior custo
-14. substituir nó na borda por filho
