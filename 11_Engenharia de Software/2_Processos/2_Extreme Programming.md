@@ -2,48 +2,57 @@
 #Concluded 
 
 ---
-Sendo um **método ágil**, XP possui todas as características dos processos agéis, isto é: adota **ciclos curtos** e iterativos de desenvolvimento, concede **menos ênfase para documentação** e para planos detalhados, propõe que o design de um sistema também seja definido de forma incremental e sugere que as equipes de desenvolvimento sejam pequenas.
+Sendo um **método ágil**, XP possui todas as características dos processos agéis, isto é: adota **ciclos curtos** e iterativos de desenvolvimento, concede **menos ênfase para documentação**, propõe que o design de um sistema também seja definido de forma incremental e sugere que as equipes de desenvolvimento sejam pequenas.
 
 XP não é um método prescritivo. Em vez disso, <mark style="background: #ADCCFFA6;">XP é definido por meio de um conjunto de valores, princípios e práticas de desenvolvimento. Ou seja, XP é definido de forma abstrata. </mark>
 
 ---
-## **Valores Centrais**
+### 1. Valores e Princípios
 
-1. **Comunicação:** A mais crucial, enfatiza a comunicação frequente e face a face, muitas vezes com o auxílio de um quadro branco, para garantir que todos estejam na mesma página.
-2. **Simplicidade:** Focar em fazer a coisa mais simples que possa funcionar no momento. Evitar desperdício e designs excessivamente complexos para o futuro.
-3. **Feedback:** Buscar feedback constante e rápido sobre o trabalho realizado, através de testes de unidade automatizados, testes de aceitação e entregas frequentes ao cliente.
-4. **Coragem:** Ter a coragem de fazer a coisa certa, como refatorar o código, descartar uma solução que não funciona, e comunicar a verdade sobre o status do projeto.
-5. **Respeito:** Respeito mútuo entre todos os membros da equipe e com o cliente, essencial para uma comunicação aberta e para a adoção das práticas.
+Os **Valores** são a base cultural do XP. Os principais são:
 
----
-## **Princípios**
-
-1. **Humanidade** 
-
-2. **Economicidade:** Software é uma atividade cara. Logo, tem-se que ter consciência de quem está pagando as contas do projeto, espera resultados econômicos. Por isso, o software não pode ser desenvolvido apenas para satisfazer a vaidade intelectual de seus desenvolvedores. 
-
-3. **Benefícios Mútuos**: XP defende que as decisões tomadas em um projeto de software têm que beneficiar múltiplos stakeholders. Por exemplo, o contratante do software deve garantir um bom ambiente de trabalho; em contrapartida, a equipe deve entregar um sistema que agregue valor ao seu negócio. 
-
-	**Exemplo**: ao escrever testes um desenvolvedor se beneficia, pois eles ajudam a detectar
-	bugs no seu código; mas testes também ajudam outros desenvolvedores, que
-	futuramente terão mais segurança de que o seu código não vai introduzir
-	bugs em código que está funcionando. 
-
-4. **Melhorias Contínuas:** Nenhum processo de desenvolvimento de software é perfeito. Por isso, é mais seguro trabalhar com um sistema que vai sendo continuamente aprimorado. Pelo mesmo motivo, XP não recomenda investir um grande montante de tempo em um design inicial e completo. 
-
-5. **Falhas Acontecem:** Falhas incluem bugs, funcionalidades que não se mostraram interessantes para os usuários finais e requisitos não-funcionais que não estão sendo plenamente atendidos. Evidentemente, XP não advoga que essas falhas devem ser acobertadas. Porém, elas não devem ser usadas para punir membros de um time.
-
-6. **Baby Steps:** É melhor um progresso seguro, testado e validado, mesmo que pequeno, do que grandes implementações com riscos de serem descartadas pelos usuários. 
+- Comunicação    
+- Simplicidade
+- Feedback
+- Coragem
+- Respeito
+- Qualidade de Vida
 
 ---
-## **Principais Práticas**
+### 2. Práticas do XP
 
-O coração do XP é o conjunto de práticas de engenharia de software:
+#### 2.1 Práticas sobre o Processo de Desenvolvimento
 
-- **Jogo do Planejamento:** Clientes e desenvolvedores trabalham juntos para determinar o escopo e as prioridades das **Histórias de Usuário** (descrições curtas e simples de requisitos) a serem implementadas em ciclos curtos, chamados **Iterações** (geralmente de 1 a 2 semanas).
+- **Representante dos Clientes:** Um representante do cliente trabalha junto com o time de desenvolvimento, em tempo integral, para escrever histórias e tirar dúvidas .
     
-- **Metáfora do Sistema:** Uma visão compartilhada e um conjunto comum de nomes para as classes e métodos principais, que ajuda a equipe a entender o design do sistema.
+- **Histórias de Usuários :** Requisitos escritos em linguagem simples pelo cliente .
     
-- **Desenvolvimento Orientado a Testes:** Escrever os testes de unidade **antes** de escrever o código de produção. O código só é considerado completo quando todos os testes passam.
+- **Iterações:** Ciclos de trabalho curtos (1 a 3 semanas).
     
-- **Programação em Par:** Dois desenvolvedores trabalham juntos em uma única estação de trabalho, com um escrevendo o código e o outro revisando e pensando na estrutura. 
+- **Releases:** Ciclos mais longos (2 a 3 meses) compostos por várias iterações.
+    
+- **Planning Poker:** Técnica de estimativa em grupo para definir o tamanho das histórias .
+    
+- **Slack (Folga):** Adicionar tarefas de baixa prioridade (ou tempo de estudo) no planejamento da iteração. 
+    
+#### 2.2 Práticas de Programação
+
+- **Design Incremental:** O design (arquitetura) do sistema evolui a cada iteração, em vez de ser definido completamente no início (sem "Big Design Up Front").
+    
+- **Pair Programming:** Técnica onde o código é escrito por **dois desenvolvedores** trabalhando juntos no mesmo computador.
+    
+- **TDD (Desenvolvimento Dirigido por Testes):** A prática de **escrever os testes de unidade _antes_** de escrever o código de produção que faz o teste passar .
+    
+- **Build Automatizado:** O processo de compilar o sistema e rodar os testes deve ser totalmente automatizado e rápido.
+    
+- **Integração Contínua (CI):** Os desenvolvedores devem integrar seu código no _branch_ principal (master/trunk) frequentemente, pelo menos uma vez por dia .
+    
+- **Propriedade Coletiva do Código:** Qualquer desenvolvedor da equipe pode alterar qualquer parte do código do sistema a qualquer momento, sem pedir permissão ao "dono" original .
+    
+#### 2.3 Práticas de Gerenciamento de Projetos
+
+- **Ambiente de Trabalho:** O time deve ser pequeno, dedicado 100% ao projeto e, idealmente, trabalhar na mesma sala para facilitar a comunicação .
+    
+- **Jornadas de Trabalho Sustentáveis:** A equipe deve trabalhar em ritmo sustentável (ex: 40 horas semanais) e evitar horas extras excessivas, que levam à exaustão e queda de qualidade .
+    
+- **Contratos com Escopo Aberto:** O XP prefere contratos onde o cliente paga por hora/iteração, permitindo que ele mude os requisitos (o escopo) ao longo do projeto, em vez de contratos de escopo fechado.
