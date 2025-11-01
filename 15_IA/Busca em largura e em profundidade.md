@@ -133,8 +133,7 @@ def BUSCA_CUSTO_UNIFORME(problema):
         for sucessor in problema.sucessores(no_atual):
             if (sucessor not in explorados) or (sucessor not in borda):
                 heapq.heappush(borda, sucessor)
-            else:
-	            sucessor 
+
 ```
 
 
