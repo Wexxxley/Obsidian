@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15_IA/Busca em largura e em profundidade.md",
+                "file": "15_IA/Busca em largura, profundidade e custo uniforme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Busca em largura e em profundidade"
+              "title": "Busca em largura, profundidade e custo uniforme"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -185,7 +184,7 @@
   "active": "af24ecb12081286d",
   "lastOpenFiles": [
     "15_IA/Busca uniforme.md",
-    "15_IA/Busca em largura e em profundidade.md",
+    "15_IA/Busca em largura, profundidade e custo uniforme.md",
     "4_Algorítmos e Estruturas de dados/Grafos/6_Busca em profundidade.md",
     "4_Algorítmos e Estruturas de dados/Grafos/5_Busca em largura.md",
     "4_Algorítmos e Estruturas de dados/Grafos/4_Algorítmo de Prim.md",
