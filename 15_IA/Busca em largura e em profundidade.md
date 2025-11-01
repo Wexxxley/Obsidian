@@ -92,3 +92,36 @@ def BUSCA(problema):
             if (sucessor not in explorados) and (sucessor not in borda):
                 borda.append(sucessor)
 ```
+
+**Busca de custo uniforme**
+```python
+import heapq  # Biblioteca para Fila de Prioridade
+import typing
+
+def BUSCA_CUSTO_UNIFORME(problema):
+    no_inicial = problema.get_estado_inicial() 
+    
+    # A borda agora é uma Fila de Prioridade (um heap).
+    # É uma lista gerenciada pelo 'heapq'.
+    borda: typing.List[No] = []
+    heapq.heappush(borda, no_inicial)
+    
+    explorados = set() # Conjunto de ESTADOS ja explorados
+
+    while True:
+        if not borda: # Se não tiver nós na borda
+            return None 
+    
+        no_atual = heapq.heappop(borda) # remover no da borda
+
+        # Se o nó atual for o alvo, retorne a solução
+        if problema.is_objetivo(no_atual.estado):
+            return no_atual 
+
+        explorados.add(no_atual.estado)# adicionar no a explorados
+            
+        # "Para cada sucessor do nó..." 
+        for sucessor in problema.sucessores(no_atual):
+            if (sucessor not in explorados) and (sucessor not in borda):
+                heapq.heappush(borda, sucessor)
+```
