@@ -26,3 +26,6 @@ O Quadro Kanban é o coração do método e é  totalmente customizável, mas ge
 Para garantir um ritmo de trabalho sustentável, Kanban utiliza os **Limites WIP**. Eles definem o **número máximo de tarefas** que podem estar em cada etapa do quadro, somando as tarefas "em execução" e "concluídas" (com exceção da última etapa, onde o limite se aplica apenas às tarefas em andamento).
 
 **O objetivo principal dos limites WIP é evitar que a equipe fique sobrecarregada**, pois o excesso de tarefas simultâneas tende a diminuir a qualidade do trabalho.  
+
+
+

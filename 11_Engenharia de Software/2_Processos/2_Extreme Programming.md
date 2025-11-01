@@ -56,3 +56,25 @@ Os **Valores** são a base cultural do XP. Os principais são:
 - **Jornadas de Trabalho Sustentáveis:** A equipe deve trabalhar em ritmo sustentável (ex: 40 horas semanais) e evitar horas extras excessivas, que levam à exaustão e queda de qualidade .
     
 - **Contratos com Escopo Aberto:** O XP prefere contratos onde o cliente paga por hora/iteração, permitindo que ele mude os requisitos (o escopo) ao longo do projeto, em vez de contratos de escopo fechado.
+
+---
+## Planning Poker.  
+
+Planning Poker é uma técnica usada para estimar o tamanho das Histórias de Usuário.
+
+1. **Apresentação**: Representante dos clientes seleciona uma história e a lê para os devs.
+    
+2. **Esclarecimento**: Os desenvolvedores tiram suas dúvidas sobre a história diretamente com o representante dos clientes para entendê-la melhor.
+    
+3. **Estimativa Individual:** Cada desenvolvedor faz sua estimativa independente para o tamanho da história.
+    
+4. **Revelação Simultânea**: Todos os desenvolvedores, ao mesmo tempo, levantam cartões mostrando a estimativa que pensaram.
+    
+5. **Verificação de consenso**: Se houver consenso o tamanho da história está estimado e o time passa para a próxima. Se não houver consenso o time inicia uma discussão.
+    
+6. **Discussão**: Os desenvolvedores com as estimativas mais discrepantes explicam o porquê de suas propostas.
+    
+7. **Repetição**: Após a discussão, o time realiza uma nova votação.
+
+
+
