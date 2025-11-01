@@ -127,7 +127,7 @@ def BUSCA_CUSTO_UNIFORME(problema):
         if problema.is_objetivo(no_atual.estado):
             return no_atual 
 
-        explorados.add(no_atual.estado)# adicionar no a explorados
+        explorados.add(no_atual.estado) # adicionar no a explorados
             
         # "Para cada sucessor do nó..." 
         for sucessor in problema.sucessores(no_atual):
@@ -152,29 +152,28 @@ def BUSCA_CUSTO_UNIFORME(Problema):
     borda_estados: typing.Dict[str, float] = {}
     borda_estados[no_inicial.estado.nome] = no_inicial.custoCaminho
 
-    # Conjunto para estados já expandidos (Linha 07)
+    # Conjunto para estados já expandidos
     explorados = set() 
 
-    # (Linha 03) repita
-    while True:
-        # (Linha 04) se borda está vazia retorne falha
-        if not borda_heap:
-            return None # Falha
-        
-        # (Linha 05) nó ← remover elemento de menor custo da borda
-        no_atual = heapq.heappop(borda_heap)
 
-        # Se este nó foi "substituído" por um mais barato (Linha 14), 
+    while True:
+        if not borda_heap: # Se não tiver nós na borda
+            return None 
+        
+
+        no_atual = heapq.heappop(borda_heap) # remover elemento de menor c
+
+        # Se este nó foi "substituído" por um mais barato, 
         # seu custo no heap será maior do que o custo no nosso dict.
         # Nesse caso, nós o ignoramos e pegamos o próximo.
         if no_atual.custoCaminho > borda_estados[no_atual.estado.nome]:
             continue
 
-        # (Linha 06) se nó.estado é objetivo retorne solução
+        # Se o nó atual for o alvo, retorne a solução
         if problema.is_objetivo(no_atual.estado):
             return no_atual
         
-        # (Linha 07) adicionar nó.estado a explorados
+
         explorados.add(no_atual.estado.nome)
         
         # O nó foi explorado, então não está mais na "borda"
