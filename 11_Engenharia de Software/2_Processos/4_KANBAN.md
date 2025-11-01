@@ -27,5 +27,24 @@ Para garantir um ritmo de trabalho sustentável, Kanban utiliza os **Limites WIP
 
 **O objetivo principal dos limites WIP é evitar que a equipe fique sobrecarregada**, pois o excesso de tarefas simultâneas tende a diminuir a qualidade do trabalho.  
 
+---
+### 4. Prinípios e práticas 
 
+**Princípios:**
 
+- Visualização do Trabalho: Todo o fluxo de trabalho deve ser visível para o time, através do Quadro Kanban.
+    
+- Limitação do Trabalho em Progresso (WIP): O princípio fundamental é evitar a sobrecarga do time. Em vez de "empurrar" trabalho, o time "puxa" novas tarefas apenas quando há capacidade.
+    
+- Gestão do Fluxo: O foco é otimizar o fluxo de trabalho, identificando e eliminando gargalos para que as tarefas se movam suavemente do início ao fim.
+    
+- Melhoria Contínua: A equipe deve analisar seu fluxo (visualizado no quadro) para fazer melhorias constantes.
+    
+**Práticas:**
+
+- Quadro Kanban: O quadro é dividido em colunas que representam os passos do fluxo de trabalho da equipe (ex: Backlog, Especificação, Implementação, Revisão de Código, Concluído).
+    
+- Limites WIP (Work in Progress): Cada coluna do fluxo de trabalho (exceto o backlog e a coluna final "Done") recebe um limite numérico explícito de quantas tarefas podem estar nela ao mesmo tempo. O objetivo é prevenir sobrecarga e garantir um ritmo sustentável.
+    
+- Sistema Pull: Novas tarefas não são "empurradas" para a próxima etapa. Uma etapa só "puxa" uma nova tarefa da coluna anterior quando ela tem capacidade.
+    
