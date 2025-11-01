@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15_IA/Busca em largura, profundidade e custo uniforme.md",
+                "file": "11_Engenharia de Software/1_Introdução/2_Fluxo de processos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Busca em largura, profundidade e custo uniforme"
+              "title": "2_Fluxo de processos"
             }
           }
         ]
@@ -183,8 +183,11 @@
   },
   "active": "af24ecb12081286d",
   "lastOpenFiles": [
-    "15_IA/Busca uniforme.md",
+    "11_Engenharia de Software/Lista de Exercícios AP1 - Engenharia  de Software.md",
+    "11_Engenharia de Software/1_Introdução/2_Fluxo de processos.md",
+    "11_Engenharia de Software/1_Introdução/1_Introdução.md",
     "15_IA/Busca em largura, profundidade e custo uniforme.md",
+    "15_IA/Busca uniforme.md",
     "4_Algorítmos e Estruturas de dados/Grafos/6_Busca em profundidade.md",
     "4_Algorítmos e Estruturas de dados/Grafos/5_Busca em largura.md",
     "4_Algorítmos e Estruturas de dados/Grafos/4_Algorítmo de Prim.md",
@@ -210,9 +213,6 @@
     "11_Engenharia de Software/8_Testes de Software/7_Teste de sistema.md",
     "11_Engenharia de Software/9_Refatoração",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/7_Processos.md",
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/6_A Hierarquia de Memória e o Cache.md",
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/8_Thread.md",
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/9_Stack vs Heap**.md",
     "attachments/Pasted image 20251029105832.png",
     "attachments/Pasted image 20251029105559.png",
     "attachments/Pasted image 20251029104835.png",
