@@ -17,14 +17,26 @@
 ---
 ### **2. Artefatos e Eventos Principais**
 
-![](attachments/Pasted%20image%2020251023064838.png)
-• **Product backlog**: Lista de histórias de usuário ordenada por prioridade. As histórias são escritas e priorizadas pelo PO. O backlog é um artefato dinâmico, continuamente atualizado para refletir mudanças nos requisitos e na visão do produto.
+![](attachments/Pasted%20image%2020251101140214.png)
 
-• **Sprint**: É o nome que o Scrum dá para uma **iteração**. É um ciclo de trabalho com duração fixa, durante o qual um incremento de produto é criado.
-
-• **Planejamento do** **Sprint**: É a reunião que marca o início de um _sprint_. O time se reúne para decidir quais histórias do _Backlog do Produto_ serão implementadas no _sprint_ que está começando. Na primeira parte, o PO propõe as histórias; na segunda, os desenvolvedores as decompõem em tarefas e estimam sua duração.
-
-• **Sprint backlog**: É o artefato gerado ao final do Planejamento do _Sprint_. <mark style="background: #ADCCFFA6;">Consiste na lista de tarefas a serem implementadas durante o sprint.</mark> Embora novas tarefas possam surgir ou serem alteradas. A lista de histórias selecionadas não pode ser modificado. Scrum permite adaptações entre os _sprints_, mas dentro de um _sprint_ a equipe deve ter a tranquilidade de trabalhar com uma lista fechada de histórias.
+1. **Vision**: Isso é representado por uma pessoa (geralmente o Product Owner) que tem o conceito geral do produto.
+    
+2. **Product Backlog**: A "Visão" alimenta o Product Backlog que serve como um repositório central de todas as funcionalidades, requisitos, melhorias e correções desejadas para o produto. É uma lista priorizada, onde os itens mais importantes ou de maior valor para o negócio ficam no topo.
+    
+3. **Sprint Planning 1**: O Product Backlog é a entrada para a primeira parte da reunião de planejamento do Sprint. A equipe se reúne para analisar os itens prioritários do Product Backlog. Nesta fase, o time seleciona o "o quê" será feito no próximo Sprint.
+    
+4. **Selected Product Backlog**: Artefato que representa o subconjunto de itens do Product Backlog que a equipe se comprometeu a desenvolver durante o Sprint.
+    
+5. **Sprint Planning 2**: A equipe realiza a segunda parte do planejamento. Pegando os itens selecionados,  a equipe agora detalha "como" eles serão implementados. Isso envolve quebrar os itens maiores em tarefas técnicas menores e estimáveis.
+    
+6. **Sprint Backlog:** O Sprint Backlog pertence à equipe de desenvolvimento e é usado por ela para gerenciar o trabalho durante o Sprint.
+    
+7. **Sprint:** Ciclo de trabalho onde o desenvolvimento acontece. É um período de tempo fixo (ex: 2, 3 ou 4 semanas).
+	- Every 24 hours: Representa a Daily Scrum. Nela, a equipe sincroniza o trabalho e planeja as próximas 24 horas.
+    
+8. **New Functionality**: Ao final da sprint o resultado é uma "Nova Funcionalidade". Este é o incremento de software funcionando, testado e potencialmente pronto para ser entregue.
+    
+9. **Retrospective:** O objetivo desta reunião é inspecionar o processo que acabaram de executar e identificar pontos positivos e pontos a melhorar no fluxo de trabalho, comunicação ou ferramentas.
 
 **Quadro scrum**
 ![](attachments/Pasted%20image%2020251001180945.png)
