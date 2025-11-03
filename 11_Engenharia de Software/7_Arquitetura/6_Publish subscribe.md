@@ -1,9 +1,9 @@
 
----
+#Concluded 
 
+---
 Similar às filas, queremos desacoplar componentes em um sistema distribuído. No entanto, em vez de uma única entidade (produtor) enviando uma mensagem para outra entidade (consumidor) processar, queremos que uma entidade possa **anunciar um evento** sem saber quem (ou quantos) estão interessados nele. Baseia-se na ideia de **eventos** ou **tópicos**.
 
-Componentes podem assumir dois papéis principais (e às vezes ambos):    
 - **Publicador:** Anuncia mensagens sobre um determinado **tópico** ou evento para um intermediário. O publicador não sabe quem vai receber a mensagem.
 - **Assinante:** Registra seu interesse em um ou mais **tópicos** junto ao intermediário. Quando uma mensagem é publicada em um tópico que ele assinou, o intermediário entrega a mensagem para ele.
 

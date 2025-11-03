@@ -1,13 +1,16 @@
 
-
 #Concluded 
 
 ---
 
-Em sistemas distribuídos, como aqueles baseados em microsserviços, a comunicação direta entre serviços pode criar acoplamento temporal e de disponibilidade. Se o serviço B estiver indisponível quando o serviço A tentar chamá-lo, a operação em A falhará.  Além disso, picos de carga em um serviço podem sobrecarregar outros serviços que dependem dele diretamente.    
-### **Fila de mensagens**
-- Para resolver esses problemas, introduz-se um componente intermediário: uma **fila de mensagens**.
-- Em vez de se comunicarem diretamente, os serviços se comunicam através dessa fila.
+Em sistemas distribuídos, a comunicação direta entre serviços pode criar acoplamento temporal e de disponibilidade. 
+- Se o serviço B estiver indisponível quando o serviço A tentar chamá-lo, a operação em A falhará.  
+- Além disso, picos de carga em um serviço podem sobrecarregar outros serviços que dependem dele diretamente.    
+
+---
+### **1. Fila de mensagens**
+
+Para resolver esses problemas, introduz-se um componente intermediário: uma **fila de mensagens**. Em vez de se comunicarem diretamente, os serviços se comunicam através dessa fila.
 
 **Fluxo:**
 1. **Produtor:** Um serviço que precisa enviar uma informação ou solicitar que uma tarefa seja realizada por outro serviço. Ele não envia a requisição diretamente ao destinatário, mas sim **publica uma mensagem** na fila.
@@ -18,6 +21,7 @@ Em sistemas distribuídos, como aqueles baseados em microsserviços, a comunica�
 
 ---
 ### **Características Principais**
+
 - **Comunicação Assíncrona:** O produtor publica a mensagem e não precisa esperar que o consumidor a processe. Ele pode seguir com suas outras tarefas. O consumidor processa a mensagem quando puder.
 - **Desacoplamento:** O produtor não precisa conhecer o consumidor e vice-versa. Eles só precisam conhecer a fila. Isso reduz as dependências diretas entre os serviços.
 - **Persistência (Opcional):** Muitas filas de mensagens oferecem persistência, garantindo que as mensagens não sejam perdidas mesmo que o consumidor esteja temporariamente indisponível ou que o sistema de filas falhe.    

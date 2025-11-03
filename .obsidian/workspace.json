@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12_Sistemas Distribuídos/Cap4/1_Comunicação entre processos.md",
+                "file": "11_Engenharia de Software/7_Arquitetura/6_Publish subscribe.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1_Comunicação entre processos"
+              "title": "Outline of 6_Publish subscribe"
             }
           },
           {
@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,6 +183,7 @@
   "active": "af24ecb12081286d",
   "lastOpenFiles": [
     "11_Engenharia de Software/7_Arquitetura/5_Arquiteturas orientadas a mensagens.md",
+    "11_Engenharia de Software/7_Arquitetura/6_Publish subscribe.md",
     "11_Engenharia de Software/7_Arquitetura/4_Microsserviços.md",
     "11_Engenharia de Software/7_Arquitetura/3_MVC.md",
     "Aleatórios/Ideias de tema.md",
@@ -210,7 +210,6 @@
     "4_Algorítmos e Estruturas de dados/Grafos/2_Problema da arvore geradora mínima.md",
     "4_Algorítmos e Estruturas de dados/Grafos/1_Introdução a grafos.md",
     "attachments/Pasted image 20251031091210.png",
-    "11_Engenharia de Software/10_DevOps/1_Introdução.md",
     "15_IA",
     "11_Engenharia de Software/10_DevOps",
     "11_Engenharia de Software/9_Refatoração",
