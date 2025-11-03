@@ -14,11 +14,9 @@ O problema dessa divisão era um "muro" entre as equipes. A equipe de Ops, muita
 ---
 ### **2. O Conceito de DevOps**
 
-<mark style="background: #ADCCFFA6;">DevOps é um que visa unificar as culturas de Desenvolvimento e Operações com o objetivo de permitir a implantação (deployment) mais rápida e menos traumática.</mark>
+<mark style="background: #ADCCFFA6;">DevOps visa unificar as culturas de Desenvolvimento e Operações com o objetivo de permitir a implantação (deployment) mais rápida e menos traumática.</mark>
     
 - A ideia é que a implantação deixe de ser um evento estressante e passe a ocorrer em qualquer dia útil, de forma automatizada e sem que os clientes percebam (exceto pelas novas funcionalidades).
-    
-- **Equipes Integradas:** Um profissional de Operações pode participar dos times ágeis, ajudando a antecipar problemas de infraestrutura, desempenho ou segurança desde os primeiros sprints.
     
 - **Automatização Total:** DevOps defende a **automatização de tudo** no processo de entrega: build, testes, configuração e ativação de servidores, carga de banco de dados, etc. O objetivo é que a implantação seja "tão simples como apertar um botão" .
 
