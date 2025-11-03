@@ -1,16 +1,13 @@
 
+#Concluded 
 
 ---
-
-Testes são fundamentais para evitar que esses erros cheguem aos usuários finais e causem prejuízos. Testar é uma das práticas de programação mais valorizadas atualmente.
-
 ### **1. Evolução das Práticas de Teste**
 
 - **Modelo Waterfall (Tradicional):**
     - Testes ocorriam em uma fase separada, _após_ a codificação.
     - Frequentemente realizados por uma equipe de testes separada.
     - Muitas vezes manuais (alguém usava o sistema e verificava as saídas).
-    - O objetivo principal era apenas detectar bugs antes da produção.
         
 - **Métodos Ágeis (Moderno):**
     - Grande parte dos testes passou a ser **automatizada**.
@@ -23,8 +20,7 @@ Testes são fundamentais para evitar que esses erros cheguem aos usuários finai
 
 1. **Testes de Unidade:**
 	- Verificam pequenas partes isoladas do código (geralmente uma classe) .
-	- São os mais numerosos.
-	- Simples, fáceis de implementar e rápidos de executar.
+	- São os mais numerosos, simples, fáceis de implementar e rápidos de executar.
 		
 2. **Testes de Integração ou de serviços:**
 	- Verificam uma funcionalidade ou transação completa, envolvendo diversas classes e, possivelmente, componentes externos (banco de dados, outros serviços).
