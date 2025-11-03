@@ -30,13 +30,6 @@ Testes de unidade de boa qualidade devem satisfazer às seguintes propriedades:
 
 São sinais de problemas potenciais no código dos testes, indicando que eles podem ser difíceis de entender ou manter. 
 
-- **Teste Obscuro:**
-    - Um teste muito longo, complexo ou difícil de entender.
-        
-- **Teste com Lógica Condicional :**
-    - O teste contém comandos `if`, `switch`, `for`, `while`. Isso torna o teste mais difícil de entender e pode fazer com que diferentes execuções do mesmo teste sigam caminhos distintos, ou que partes do teste não sejam executadas. Testes devem ser, idealmente, lineares.
-        
-- **Duplicação de Código em Testes:**
-    - Código repetido em vários métodos de teste (ex: código de setup/fixture).
-    - Pode ser resolvido usando métodos `@Before` ou métodos auxiliares privados dentro da classe de teste.
-        
+- **Teste Obscuro:**: Um teste muito longo, complexo ou difícil de entender.
+    
+- **Teste com Lógica Condicional :** O teste contém comandos `if`, `switch`, `for`, `while`. Isso torna o teste mais difícil de entender e pode fazer com que diferentes execuções do mesmo teste sigam caminhos distintos, ou que partes do teste não sejam executadas. Testes devem ser, idealmente, lineares.
