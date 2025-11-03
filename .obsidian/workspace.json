@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_Engenharia de Software/8_Testes de Software/2_Testes de unidade.md",
+                "file": "11_Engenharia de Software/9_Refatoração/2_Code smells.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Testes de unidade"
+              "title": "2_Code smells"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11_Engenharia de Software/8_Testes de Software/2_Testes de unidade.md",
+                "file": "11_Engenharia de Software/9_Refatoração/2_Code smells.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_Testes de unidade"
+              "title": "Outline of 2_Code smells"
             }
           },
           {
@@ -182,6 +182,7 @@
   },
   "active": "af24ecb12081286d",
   "lastOpenFiles": [
+    "11_Engenharia de Software/8_Testes de Software/2_Testes de unidade.md",
     "11_Engenharia de Software/8_Testes de Software/7_Teste de sistema.md",
     "11_Engenharia de Software/8_Testes de Software/6_Testes de integração.md",
     "11_Engenharia de Software/8_Testes de Software/5_TDD Test-Driven Development.md",
@@ -189,7 +190,6 @@
     "11_Engenharia de Software/8_Testes de Software/3_Pricípios FIRST e Test Smells.md",
     "11_Engenharia de Software/9_Refatoração/2_Code smells.md",
     "11_Engenharia de Software/9_Refatoração/3_Exemplos de Operações de Refactoring.md",
-    "11_Engenharia de Software/8_Testes de Software/2_Testes de unidade.md",
     "11_Engenharia de Software/8_Testes de Software/1_Introdução.md",
     "11_Engenharia de Software/7_Arquitetura/2_Arquitetura em camadas.md",
     "11_Engenharia de Software/7_Arquitetura/3_MVC.md",
