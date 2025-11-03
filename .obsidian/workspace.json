@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_Engenharia de Software/8_Testes de Software/2_Testes de unidade.md",
+                "file": "11_Engenharia de Software/8_Testes de Software/5_TDD Test-Driven Development.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Testes de unidade"
+              "title": "5_TDD Test-Driven Development"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11_Engenharia de Software/8_Testes de Software/2_Testes de unidade.md",
+                "file": "11_Engenharia de Software/8_Testes de Software/5_TDD Test-Driven Development.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_Testes de unidade"
+              "title": "Outline of 5_TDD Test-Driven Development"
             }
           },
           {
@@ -182,6 +182,8 @@
   },
   "active": "af24ecb12081286d",
   "lastOpenFiles": [
+    "11_Engenharia de Software/8_Testes de Software/3_Pricípios FIRST e Test Smells.md",
+    "11_Engenharia de Software/8_Testes de Software/2_Testes de unidade.md",
     "11_Engenharia de Software/8_Testes de Software/1_Introdução.md",
     "11_Engenharia de Software/7_Arquitetura/2_Arquitetura em camadas.md",
     "11_Engenharia de Software/7_Arquitetura/3_MVC.md",
@@ -207,8 +209,6 @@
     "15_IA/Busca uniforme.md",
     "4_Algorítmos e Estruturas de dados/Grafos/6_Busca em profundidade.md",
     "4_Algorítmos e Estruturas de dados/Grafos/5_Busca em largura.md",
-    "4_Algorítmos e Estruturas de dados/Grafos/4_Algorítmo de Prim.md",
-    "4_Algorítmos e Estruturas de dados/Grafos/6_Caminho mínimo de fonte única (Dijkstra).md",
     "attachments/Pasted image 20251031091210.png",
     "15_IA",
     "11_Engenharia de Software/10_DevOps",
