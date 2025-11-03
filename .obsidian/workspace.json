@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aleatórios/Ideias de tema.md",
-                "mode": "preview",
+                "file": "11_Engenharia de Software/7_Arquitetura/6_Publish subscribe.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ideias de tema"
+              "title": "6_Publish subscribe"
             }
           }
         ]
@@ -183,8 +183,11 @@
   },
   "active": "af24ecb12081286d",
   "lastOpenFiles": [
-    "11_Engenharia de Software/4_Modelos/1_UML.md",
+    "11_Engenharia de Software/7_Arquitetura/5_Arquiteturas orientadas a mensagens.md",
+    "11_Engenharia de Software/7_Arquitetura/4_Microsserviços.md",
+    "11_Engenharia de Software/7_Arquitetura/3_MVC.md",
     "Aleatórios/Ideias de tema.md",
+    "11_Engenharia de Software/4_Modelos/1_UML.md",
     "11_Engenharia de Software/3_Requisitos/2_Historia de usuários.md",
     "11_Engenharia de Software/3_Requisitos/4_MVP.md",
     "11_Engenharia de Software/3_Requisitos/3_Casos de uso.md",
@@ -209,9 +212,6 @@
     "attachments/Pasted image 20251031091210.png",
     "11_Engenharia de Software/10_DevOps/1_Introdução.md",
     "15_IA",
-    "11_Engenharia de Software/10_DevOps/2_Integração contínua (CI).md",
-    "11_Engenharia de Software/10_DevOps/3_Deployment Contínuo (CD).md",
-    "Aleatórios/1_Blocos obsidian.md",
     "11_Engenharia de Software/10_DevOps",
     "11_Engenharia de Software/9_Refatoração",
     "attachments/Pasted image 20251029105832.png",
