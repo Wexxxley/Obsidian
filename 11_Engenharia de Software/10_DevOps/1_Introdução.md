@@ -21,7 +21,7 @@ O problema dessa divisão era um "muro" entre as equipes. A equipe de Ops, muita
 - **Automatização Total:** DevOps defende a **automatização de tudo** no processo de entrega: build, testes, configuração e ativação de servidores, carga de banco de dados, etc. O objetivo é que a implantação seja "tão simples como apertar um botão" .
 
 ---
-### **Sistema de Controle de Versões**
+### **3. Sistema de Controle de Versões**
 
 Como software é desenvolvido em equipe, precisamos de um servidor central para armazenar o código-fonte, permitindo que os desenvolvedores colaborem. Um VCS mantém o histórico de todas as versões dos arquivos (código, documentação, configuração, etc.). Isso permite recuperar versões antigas de um arquivo
     

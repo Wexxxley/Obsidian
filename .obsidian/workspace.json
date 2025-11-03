@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_Engenharia de Software/9_Refatoração/3_Operações de Refactoring.md",
+                "file": "11_Engenharia de Software/9_Refatoração/2_Code smells.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Operações de Refactoring"
+              "title": "2_Code smells"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11_Engenharia de Software/9_Refatoração/3_Operações de Refactoring.md",
+                "file": "11_Engenharia de Software/9_Refatoração/2_Code smells.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_Operações de Refactoring"
+              "title": "Outline of 2_Code smells"
             }
           },
           {
@@ -183,6 +183,7 @@
   "active": "af24ecb12081286d",
   "lastOpenFiles": [
     "11_Engenharia de Software/10_DevOps/1_Introdução.md",
+    "11_Engenharia de Software/10_DevOps/2_Integração contínua (CI).md",
     "11_Engenharia de Software/9_Refatoração/3_Operações de Refactoring.md",
     "11_Engenharia de Software/9_Refatoração/2_Code smells.md",
     "11_Engenharia de Software/8_Testes de Software/2_Testes de unidade.md",
@@ -207,7 +208,6 @@
     "11_Engenharia de Software/2_Processos/4_KANBAN.md",
     "11_Engenharia de Software/2_Processos/2_Extreme Programming.md",
     "11_Engenharia de Software/1_Introdução/1_Introdução.md",
-    "11_Engenharia de Software/1_Introdução/2_Fluxo de processos.md",
     "attachments/Pasted image 20251101140214.png",
     "attachments/Pasted image 20251031091210.png",
     "15_IA",
