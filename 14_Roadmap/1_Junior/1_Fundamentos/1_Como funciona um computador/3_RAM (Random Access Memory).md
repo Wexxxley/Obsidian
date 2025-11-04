@@ -1,9 +1,7 @@
 
 #Concluded 
 
-
 ---
-
 ### **1. O que é RAM e qual sua função?**
 
 - Ram é a memória de **curto prazo** e **alta velocidade** do computador. Ela armazena temporariamente todos os dados que estão sendo usados ativamente no momento.
