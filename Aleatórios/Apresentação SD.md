@@ -121,18 +121,6 @@ Depois um (o que n fica chiando o som) fica na sala e o outro sai para testar a 
 1. **user_record.py**
     - Este arquivo define a estrutura de dados que será serializada.
         
-2. **stream_classes.py (A Implementação Principal)**
-    - Arquivo principal que responde  os requisitos  Q2.a e Q3.a.
-        
-    - **UserRecordOutputStream (Solução Q2.a):**            
-        - Ela define o **formato binário** para os seus dados:
-            1. Primeiro, escreve a contagem total de objetos (2 bytes, `FMT_COUNT`).
-            2. Depois, para cada objeto, serializa os 3 atributos (`nickname`, `name`, `description`) usando um método `_serialize_string`.
-            
-    - **UserRecordInputStream (Solução Q3.a):**            
-        - Ela sabe ler o formato binário exato que a `UserRecordOutputStream` escreveu.
-            
-
 - **Q2.a (Implementação):** A classe `UserRecordOutputStream` em `stream_classes.py` cumpre os requisitos do construtor:
     
     - **(i) um array de objetos:** Recebe `records_array: List[UserRecord]`.        
@@ -149,10 +137,7 @@ Depois um (o que n fica chiando o som) fica na sala e o outro sai para testar a 
     - Recebe `source_stream: BinaryIO` (o `InputStream` de origem).
         
 - **Q3.b, c, d (Testes de Origem):**
-    
     - **(b) Entrada padrão (`System.in`):** Cumprido por **`test_stdin.py`**. 
-        
     - **(c) Arquivo (`FileInputStream`):** Cumprido por **`test_file.py`**. 
-        
     - **(d) Servidor remoto (TCP):** Cumprido por **`test_tcp_server.py`**. 
         
