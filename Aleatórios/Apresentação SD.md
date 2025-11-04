@@ -74,45 +74,27 @@ Algumas classes pojos foram criadas como:
     
 - Envia respostas de volta ao cliente usando as funções do `client_handler` (ex: `send_binary_message`).    
 
+**Services**
+- Contém a regras de aplicação do servidor. Atua como um intermediário entre o `command_router` e o `db_manager`/`state_manager`.
+    
+- `AuthenticationService`: Lida com as regras de registro e login.
+    
+- `FriendshipService`: Gerencia a lógica de amizades.
+    
+- `CallService`: Lida com a lógica de chamadas.
+
 **Db_manager**
 
-- É a camada de acesso a dados (Data Access Layer - DAL) do aplicativo.
+- É a camada de acesso a dados do aplicativo.
     
 - Contém todas as funções que executam consultas SQL diretamente no banco de dados (ex: `INSERT`, `SELECT`, `UPDATE`).
     
-- Funções como `register_user` e `check_login` lidam com a lógica de banco de dados para usuários, incluindo _hashing_ de senhas.
-    
-- Funções como `add_friend_request_db` e `get_friends_list_db` gerenciam a lógica de amizades no banco de dados.
-    
-- É chamado pelos `services` para persistir ou recuperar dados.
-    
-
-**Interfaces**
-
-- Define "contratos" formais usando Classes Base Abstratas (ABC).
-    
-- Dita _quais_ métodos os serviços _devem_ implementar, mas não _como_ eles fazem isso (ex: `IAuthenticationService` exige um método `login_user`).
-    
-- Serve para garantir a consistência da arquitetura e permitir a inversão de dependência (embora não esteja totalmente explorada no projeto, ela define a estrutura para isso).
-    
+- Funções como `register_user` e `check_login` lidam com a lógica de banco de dados para usuários.    
 
 **Protocol**
 
-- Define o "idioma" binário exato que o cliente e o servidor usam para se comunicar.
-    
-- Lista todos os `CommandCode` (os "verbos" da comunicação, ex: `LOGIN`, `INVITE`) em um `IntEnum`.
+- Define o padrão binário exato que o cliente e o servidor usam para se comunicar.
     
 - Contém a classe `VoipProtocol` que herda do `BaseProtocol`, e é responsável por serializar (Python dict -> bytes) e desserializar (bytes -> Python dict) os payloads de cada comando.
     
 
-**Services**
-
-- Contém a **lógica de negócios** (regras de aplicação) do servidor.
-    
-- Atua como um intermediário entre o `command_router` e o `db_manager`/`state_manager`.
-    
-- `AuthenticationService`: Lida com as regras de registro e login (ex: verifica se o usuário já está online no `state_manager` _após_ verificar as credenciais no `db_manager`).
-    
-- `FriendshipService`: Gerencia a lógica de amizades (ex: buscar amigos e, em seguida, obter seu status online do `state_manager`).
-    
-- `CallService`: Lida com a lógica de chamadas (ex: gerar tokens de sessão e obter as informações do Relay do `config`).
