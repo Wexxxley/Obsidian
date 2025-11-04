@@ -53,4 +53,66 @@ Algumas classes pojos foram criadas como:
 - O server fica em espera com a a thread principal
 
 **Client_handler**
-- 
+- Gerencia o ciclo de vida da conexão de um _único_ cliente, rodando em sua própria thread. 
+
+- Fica em um loop aguardando dados especificamente daquele cliente.
+
+- Ele é responsável por ler os bytes da rede de forma estruturada: primeiro lê o cabeçalho (3 bytes), depois usa o tamanho lido do cabeçalho para ler o restante (o payload).    
+
+- Utiliza o `protocol.deserialize_payload` para traduzir os bytes brutos do payload em um dicionário Python que o servidor possa entender.
+    
+- Porém client handler NÃO sabe como funciona comandos; ele apenas encaminha o comando e o dicionário para o `command_router.route_command`.
+    
+- Quando o cliente desconecta,  o bloco `finally` é executado para limpar o estado: remove o usuário do `state_manager` e avisa os amigos que ele ficou 'Offline'.
+
+**Command_router**
+- Ele recebe o comando e o payload do `client_handler`.
+    
+- Usa o `COMMAND_MAP` para mapear o `CommandCode` (ex: `LOGIN`) para a função de tratamento correta (ex: `handle_login`).
+    
+- Orquestra a execução da lógica de negócios, chamando os `services` (ex: `auth_service.login_user`) e o `state_manager`.
+    
+- Envia respostas de volta ao cliente usando as funções do `client_handler` (ex: `send_binary_message`).    
+
+**Db_manager**
+
+- É a camada de acesso a dados (Data Access Layer - DAL) do aplicativo.
+    
+- Contém todas as funções que executam consultas SQL diretamente no banco de dados (ex: `INSERT`, `SELECT`, `UPDATE`).
+    
+- Funções como `register_user` e `check_login` lidam com a lógica de banco de dados para usuários, incluindo _hashing_ de senhas.
+    
+- Funções como `add_friend_request_db` e `get_friends_list_db` gerenciam a lógica de amizades no banco de dados.
+    
+- É chamado pelos `services` para persistir ou recuperar dados.
+    
+
+**Interfaces**
+
+- Define "contratos" formais usando Classes Base Abstratas (ABC).
+    
+- Dita _quais_ métodos os serviços _devem_ implementar, mas não _como_ eles fazem isso (ex: `IAuthenticationService` exige um método `login_user`).
+    
+- Serve para garantir a consistência da arquitetura e permitir a inversão de dependência (embora não esteja totalmente explorada no projeto, ela define a estrutura para isso).
+    
+
+**Protocol**
+
+- Define o "idioma" binário exato que o cliente e o servidor usam para se comunicar.
+    
+- Lista todos os `CommandCode` (os "verbos" da comunicação, ex: `LOGIN`, `INVITE`) em um `IntEnum`.
+    
+- Contém a classe `VoipProtocol` que herda do `BaseProtocol`, e é responsável por serializar (Python dict -> bytes) e desserializar (bytes -> Python dict) os payloads de cada comando.
+    
+
+**Services**
+
+- Contém a **lógica de negócios** (regras de aplicação) do servidor.
+    
+- Atua como um intermediário entre o `command_router` e o `db_manager`/`state_manager`.
+    
+- `AuthenticationService`: Lida com as regras de registro e login (ex: verifica se o usuário já está online no `state_manager` _após_ verificar as credenciais no `db_manager`).
+    
+- `FriendshipService`: Gerencia a lógica de amizades (ex: buscar amigos e, em seguida, obter seu status online do `state_manager`).
+    
+- `CallService`: Lida com a lógica de chamadas (ex: gerar tokens de sessão e obter as informações do Relay do `config`).
