@@ -4,7 +4,9 @@
 ### 1. Apresentação da estrutura da aplicação (kauan)
 
 Nosso projeto é um sistema de comunicação voice ip...
-Mostrar as imagens e explicar...
+
+Mostrar as imagens da arquitetura e explicar...
+
 
 ---
 ### 2. Mostrar que os conceitos principais de poo foram atendidos (wesley)
@@ -47,6 +49,8 @@ Algumas classes pojos foram criadas como:
 
 ---
 ### 3. Apresentação simplificada do serve de sinalização
+
+![](attachments/Pasted%20image%2020251104143419.png)
 
 **Server**
 - Quando o cliente se conecta é o arquivo server que vai fazer o primeiro contato e então encaminhar para client_dandler através de outra thread.
@@ -96,5 +100,16 @@ Algumas classes pojos foram criadas como:
 - Define o padrão binário exato que o cliente e o servidor usam para se comunicar.
     
 - Contém a classe `VoipProtocol` que herda do `BaseProtocol`, e é responsável por serializar (Python dict -> bytes) e desserializar (bytes -> Python dict) os payloads de cada comando.
-    
 
+
+---
+### 3. Explicar por cima o serve de relay (kauan)
+
+blablabla
+
+---
+### 4. Apresentação da estrutura da aplicação
+
+Iniciamos a chamada na sala mesmo pra mostrar os dois computadore, enviando convite, aceitando e tudo mais.
+
+Depois um (o que n fica chiando o som) fica na sala e o outro sai para testar a comunicação.
