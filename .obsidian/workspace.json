@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/3_Linux/2_.md",
+                "file": "Aleatórios/Apresentação SD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_"
+              "title": "Apresentação SD"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/3_Linux/2_.md",
+                "file": "Aleatórios/Apresentação SD.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_"
+              "title": "Outline of Apresentação SD"
             }
           },
           {
@@ -182,8 +182,9 @@
   },
   "active": "af24ecb12081286d",
   "lastOpenFiles": [
-    "14_Roadmap/1_Junior/1_Fundamentos/3_Linux/1_Introdução.md",
     "14_Roadmap/1_Junior/1_Fundamentos/3_Linux/2_.md",
+    "Aleatórios/Apresentação SD.md",
+    "14_Roadmap/1_Junior/1_Fundamentos/3_Linux/1_Introdução.md",
     "14_Roadmap/1_Junior/1_Fundamentos/3_Linux/Untitled",
     "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/4_Comparação.md",
     "14_Roadmap/1_Junior/1_Fundamentos/3_Linux",
@@ -212,7 +213,6 @@
     "11_Engenharia de Software/8_Testes de Software/7_Teste de sistema.md",
     "11_Engenharia de Software/8_Testes de Software/6_Testes de integração.md",
     "11_Engenharia de Software/8_Testes de Software/5_TDD Test-Driven Development.md",
-    "11_Engenharia de Software/8_Testes de Software/4_Mocks.md",
     "attachments/Pasted image 20251101140214.png",
     "attachments/Pasted image 20251031091210.png",
     "15_IA",
