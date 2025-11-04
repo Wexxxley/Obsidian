@@ -6,6 +6,7 @@
 Nosso projeto é um sistema de comunicação voice ip...
 Mostrar as imagens e explicar...
 
+---
 ### 2. Mostrar que os conceitos principais de poo foram atendidos (wesley)
 
 ![](attachments/Pasted%20image%2020251104125618.png)
@@ -15,34 +16,16 @@ Mostrar as imagens e explicar...
 	- Python para o servidor de sinalização. Servidor esse responsável por conectar os clientes e tratar tudo que não for a ligação em sí.
 	- Utilizamos Electron para a interface do cliente, permitindo o uso de node, html e css.
 
-
+#### Protocol
 - O `BaseProtocol` é uma **Superclasse Abstrata**. Sua principal função é fornecer métodos de serialização reutilizáveis para qualquer protocolo binário.
 - O `BaseProtocol` define o formato de cabeçalho que todas as mensagens devem seguir:1 byte para o CommandCode e 2 bytes para o tamanho do payload subsequente.
 - ![](attachments/Pasted%20image%2020251104131321.png)
-
-
-1. **Definição do _Framing_ da Mensagem:**
-    
-    - O `BaseProtocol` define o formato de cabeçalho (`FMT_HEADER = "!BH"`) que todas as mensagens devem seguir: 1 byte para o código do comando (CommandCode) e 2 bytes para o tamanho do payload subsequente.
-        
     - O método `create_message` implementa esse _framing_. Ele recebe um `command_code` e um dicionário `payload`, chama o método `serialize_payload` (que deve ser implementado pela subclasse) para obter os `payload_bytes`, e então constrói e retorna a mensagem completa: `header + payload_bytes`.
         
-2. **Utilitários de Serialização Primitiva:**
-    
-    - Ele fornece implementações concretas para serializar e desserializar tipos de dados complexos, mas comuns, como strings e listas de strings.
-        
-    - `serialize_string` e `deserialize_string`: Implementam um formato de **string com prefixo de comprimento**. A string é codificada em UTF-8, e seu comprimento é prefixado como um `unsigned short` (2 bytes, `FMT_COUNT`). Isso é crucial para que o receptor saiba exatamente quantos bytes ler para a string, evitando problemas de dessincronização de buffer.
-        
-    - `serialize_string_list` e `deserialize_string_list`: Estendem a lógica anterior, prefixando a lista inteira com sua contagem (quantos itens) e, em seguida, serializando cada string individualmente com seu próprio prefixo de comprimento.
-        
-3. **Contrato de Interface (Métodos Abstratos):**
-    
-    - `@abstractmethod def serialize_payload(...)`
-        
-    - `@abstractmethod def deserialize_payload(...)`
-        
-    - Estes métodos forçam qualquer subclasse (como a `VoipProtocol`) a implementar sua própria lógica para converter o _payload_ (os dados específicos de cada comando, como 'nickname' e 'password') de um dicionário Python para bytes, e vice-versa. O `BaseProtocol` não sabe _o que_ está no payload, apenas _que_ ele deve ser serializado.
-        
+
+- Ele fornece implementações para serializar e desserializar tipos de dados comuns, como strings e listas de strings.
+- ![](attachments/Pasted%20image%2020251104132110.png)
+- 
 
 ---
 
