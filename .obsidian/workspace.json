@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagem compilada.md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/2_Modelo Híbrido e Máquina Virtual.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Linguagem compilada"
+              "title": "2_Modelo Híbrido e Máquina Virtual"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagem compilada.md",
+                "file": "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/2_Modelo Híbrido e Máquina Virtual.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_Linguagem compilada"
+              "title": "Outline of 2_Modelo Híbrido e Máquina Virtual"
             }
           },
           {
@@ -180,12 +180,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c52f17c64e87cbf",
+  "active": "af24ecb12081286d",
   "lastOpenFiles": [
+    "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/1_Linguagem compilada.md",
+    "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/2_Modelo Híbrido e Máquina Virtual.md",
+    "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/Untitled",
     "attachments/Pasted image 20251104061213.png",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/9_Stack vs Heap.md",
-    "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagem compilada.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/8_Thread.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/7_Processos.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/6_A Hierarquia de Memória e o Cache.md",
@@ -226,8 +228,6 @@
     "14_Roadmap/1_Junior/1_Fundamentos/1_Hardware/Untitled",
     "attachments/Pasted image 20251027144219.png",
     "attachments/Pasted image 20251027140715.png",
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador",
-    "14_Roadmap/1_Junior/1_Fundamentos",
     "Sem título.canvas"
   ]
 }
