@@ -35,38 +35,22 @@ Mostrar as imagens e explicar...
 
 #### Interfaces e serviços
 - Definimos algumas interfaces para serviços.
-
 - Como por exemplo **AuthenticationService** que implementa a lógica de  `login_user` e `Register_user
-        
-    - Da mesma forma, `CallService` implementa `create_call_session` usando o módulo `secrets` e as variáveis do `config`.
-        
+- Da mesma forma, `CallService` implementa `create_call_session` que cria uma sessão com um token identificador da sessao que é enviado para ambos os participantes.
+
+#### Classes pojos
+Algumas classes pojos foram criadas como: 
+- ConnectedUser, que representa um user conectado
+- Friendship
+- UserProfile
+- ServerResponse
 
 ---
+### 3. Apresentação simplificada do serve de sinalização
 
-### 💡 Por que usar Interfaces? (O Benefício)
+**Server**
+- Quando o cliente se conecta é o arquivo server que vai fazer o primeiro contato e então encaminhar para client_dandler através de outra thread.
+- O server fica em espera com a a thread principal
 
-Usar interfaces (abstrações) em vez de depender diretamente das classes concretas (serviços) é um pilar da arquitetura de software, e os benefícios são enormes:
-
-1. **Testabilidade (Mocking)**
-    
-    - **Problema:** Como você testa o `command_router.py` (que lida com um login) sem precisar de um banco de dados real e do `state_manager` online?
-        
-    - **Solução:** Nos seus testes, você pode criar uma classe "falsa" chamada `MockAuthenticationService(IAuthenticationService)`. Como ela implementa a mesma interface, ela terá os métodos `register_user` e `login_user`. Você pode programar o `login_user` falso para simplesmente retornar `(True, "Login OK")` sem tocar em nenhum banco de dados.
-        
-    - Isso permite que você teste a lógica do `command_router` de forma **isolada**, o que é a base dos testes unitários eficazes.
-        
-2. **Desacoplamento (Princípio da Inversão de Dependência)**
-    
-    - Isso significa que módulos de alto nível (como o `command_router.py`) não devem depender de detalhes de baixo nível (como o `db_manager.py` ou o `state_manager`). Ambos devem depender de **abstrações** (`interfaces.py`).
-        
-    
-    - **Exemplo Prático:** Imagine que você queira trocar seu `AuthenticationService` (que usa SQLite) por um novo `RedisAuthService` (que valida tokens em um cache Redis).
-        
-    - Contanto que o seu novo `RedisAuthService` **implemente a interface `IAuthenticationService`**, o seu `command_router` não precisará de **nenhuma modificação**. Ele continuará chamando `auth_service.login_user(...)`, e não fará ideia (nem precisa saber) que a lógica por trás foi completamente substituída.
-        
-3. **Clareza e Contrato de API**
-    
-    - O arquivo `interfaces.py` age como uma documentação de alto nível. Um novo desenvolvedor pode ler _apenas_ esse arquivo e entender rapidamente _todas as capacidades_ do seu sistema (`register_user`, `send_request`, `create_call_session`, etc.) sem precisar se perder nos detalhes da implementação.
-        
-
-Em resumo, as **interfaces** definem o "o quê" (API), e os **serviços** definem o "como" (lógica). Usar essa separação torna seu código
+**Client_handler**
+- 
