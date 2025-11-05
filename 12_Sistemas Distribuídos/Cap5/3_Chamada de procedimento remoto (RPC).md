@@ -2,29 +2,21 @@
 
 ---
 A ideia é permitir que um programa cliente chame um procedimento em um servidor remoto **como se fosse um procedimento local**. O sistema de RPC, atuando como middleware, oculta todos os detalhes complexos da distribuição, como:
-- A codificação empacotamento) dos parâmetros da chamada em uma mensagem.
-    
+- Empacotamento dos parâmetros da chamada em uma mensagem.
 - A transmissão dessa mensagem de requisição ao servidor.
-    
 - O recebimento da mensagem de resposta.
-    
-- A decodificação (desempacotamento) dos resultados.
-    
+- Desempacotamento dos resultados.
 
-#### **Questões de Projeto para RPC (Seção 5.3.1)**
-
-O livro destaca três questões fundamentais no projeto de sistemas RPC:
+#### **Questões de Projeto para RPC**
 
 **1. Programação com Interfaces**
-
-- Em sistemas distribuídos, os módulos (como clientes e servidores) executam-se em processos distintos. Um servidor fornece uma **interface de serviço**, que é uma especificação dos procedimentos que os clientes podem chamar.
+- Em sistemas distribuídos, os módulos (cliente e servidor) executam-se em processos distintos. Um servidor fornece uma **interface de serviço**.
     
-- Para permitir que programas escritos em linguagens diferentes se comuniquem, os sistemas RPC usam uma **Linguagem de Definição de Interface (IDL - Interface Definition Language)**.
+- Para permitir que programas escritos em linguagens diferentes se comuniquem, os sistemas RPC usam uma **IDL - Interface Definition Language**.
     
-- Uma IDL é uma notação neutra em termos de linguagem usada para definir os procedimentos, seus parâmetros (especificando se são de **entrada (in)**, **saída (out)** ou **ambos (inout)**) e seus tipos de retorno.
+- Uma IDL é uma notação neutra usada para definir os procedimentos, seus parâmetros (especificando se são de **entrada (in)**, **saída (out)** ou **ambos (inout)**) e seus tipos de retorno.
     
-- **Restrições:** Como os processos estão em espaços de endereçamento diferentes, a passagem de parâmetros por "referência" (passar um ponteiro de memória) não é suportada. Em vez disso, os parâmetros são passados por valor.
-    
+- Como os processos estão em espaços de endereçamento diferentes, a passagem de parâmetros por "referência" não é suportada. Os parâmetros são passados por valor.   
 
 **2. Semântica de Chamada RPC** Como a RPC é construída sobre protocolos de requisição-resposta que podem falhar, ela não pode garantir a mesma semântica "exatamente uma vez" de uma chamada local. O livro define três semânticas possíveis:
 
