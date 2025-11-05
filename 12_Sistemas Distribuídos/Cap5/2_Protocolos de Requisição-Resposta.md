@@ -10,7 +10,7 @@ Um **protocolo de requisição-resposta** é projetado especificamente para supo
 ---
 ### **1. Primitivas de Comunicação**
 
-1. **doOperation**: Usada pelo cliente para invocar uma operação remota. Envia a mensagem de requisição e bloqueia esperando a mensagem de resposta. 
+1. **doOperation**: Usada pelo cliente. Envia a mensagem de requisição e bloqueia esperando a mensagem de resposta. 
     
 2. **getRequest**: Usada pelo servidor para receber uma mensagem de requisição de um cliente.
     
