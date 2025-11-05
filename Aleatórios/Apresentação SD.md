@@ -7,7 +7,6 @@ Nosso projeto é um sistema de comunicação voice ip...
 
 Mostrar as imagens da arquitetura e explicar...
 
-
 ---
 ### 2. Mostrar que os conceitos principais de poo foram atendidos (wesley)
 

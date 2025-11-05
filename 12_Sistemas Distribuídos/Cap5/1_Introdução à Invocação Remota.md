@@ -2,7 +2,6 @@
 #Concluded 
 
 ---
-
 O livro destaca três abordagens principais que serão examinadas no capítulo:
 
 1. **Protocolos de Requisição-Resposta**: Eles estabelecem um padrão sobre a passagem de mensagens para suportar a troca de uma mensagem de requisição seguida por uma mensagem de resposta. São a base para as outras duas técnicas mais sofisticadas.

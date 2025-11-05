@@ -1,7 +1,6 @@
 
 
 ---
-
 Um **protocolo de requisição-resposta** é projetado especificamente para suportar a troca de mensagens típica entre um cliente e um servidor.
 
 - Normalmente, a comunicação é **síncrona**: o cliente envia uma requisição e fica bloqueado esperando a resposta do servidor.
