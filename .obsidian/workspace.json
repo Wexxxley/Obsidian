@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15_IA/Heurística.md",
+                "file": "15_IA/Busca em largura, profundidade e custo uniforme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Heurística"
+              "title": "Busca em largura, profundidade e custo uniforme"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "15_IA/Heurística.md",
+                "file": "15_IA/Busca em largura, profundidade e custo uniforme.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Heurística"
+              "title": "Outline of Busca em largura, profundidade e custo uniforme"
             }
           },
           {
@@ -182,8 +182,8 @@
   },
   "active": "af24ecb12081286d",
   "lastOpenFiles": [
-    "15_IA/Busca em largura, profundidade e custo uniforme.md",
     "15_IA/Heurística.md",
+    "15_IA/Busca em largura, profundidade e custo uniforme.md",
     "12_Sistemas Distribuídos/Cap5/3_Chamada de procedimento remoto (RPC).md",
     "12_Sistemas Distribuídos/Cap5/2_Protocolos de Requisição-Resposta.md",
     "12_Sistemas Distribuídos/Cap5/1_Introdução à Invocação Remota.md",
