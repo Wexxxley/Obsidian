@@ -21,16 +21,16 @@ A RMI Java usa a **serialização de objetos** para empacotar argumentos e resul
     - A interface `Shape` é definida como `Remote`, de modo que cada figura no quadro branco é um objeto remoto individual.
     - A classe `GraphicalObject` (que contém os dados da figura, como cor e posição) é definida como `Serializable`.
     - O método `newShape(GraphicalObject g)` passa o objeto `g` **por valor** (uma cópia dos dados é enviada).
-    - O método retorna um objeto `Shape` (que é `Remote`), significando que ele retorna uma **referência** para o novo objeto `Shape` criado no servidor6.
-        
-- **Download Dinâmico de Classes**: Esta é uma das características mais poderosas do RMI Java7.
-    
+    - O método retorna um objeto `Shape` (que é `Remote`), significando que ele retorna uma **referência** para o novo objeto `Shape` criado no servidor.
+
+- **Download Dinâmico de Classes**:
     - Quando um processo recebe uma referência de objeto remoto para uma classe que ele nunca viu antes, ele pode baixar automaticamente a classe do **proxy (stub)** correspondente de um local de rede (geralmente um servidor Web).
         
     - Da mesma forma, quando recebe um objeto passado por valor (serializado), ele pode baixar dinamicamente a classe desse objeto se não a possuir localmente.
         
     - Isso permite que o sistema seja estendido dinamicamente (por exemplo, adicionando novos tipos de `Shape` ao quadro branco) sem precisar atualizar todos os clientes8.
-        
-- **O `RMIregistry`**: É o vinculador (binder) do RMI Java9. É um serviço simples de nomes que roda em um servidor e mantém um mapa de nomes textuais (strings) para referências de objetos remotos. Um servidor usa o `RMIregistry` para registrar ("bind") seus objetos remotos com um nome, e os clientes o usam para procurar ("lookup") esses objetos pelo nome10.
+
+
+- **RMIregistry**: É o binder do RMI Java. É um serviço simples de nomes que roda em um servidor e mantém um mapa de nomes textuais para referências de objetos remotos. Um servidor usa o RMIregistry para registrar seus objetos remotos com um nome, e os clientes o usam para procurar esses objetos pelo nome.
     
-- **Implementação (Reflexão)**: Versões modernas do RMI Java (a partir do Java 1.2) usam **reflexão**11. Em vez de exigir que o programador gere um "esqueleto" estático para o servidor (como na RPC), o RMI usa um **despachante genérico**. Esse despachante recebe a requisição, usa a reflexão para descobrir qual método deve ser chamado no servente, desempacota os argumentos e invoca o método12. Isso simplifica muito o desenvolvimento, pois o programador não precisa mais da etapa de compilação do esqueleto.
+- **Reflexão**: Em vez de exigir que o programador gere um "esqueleto" estático para o servidor (como na RPC), o RMI usa um **despachante genérico**. Esse despachante recebe a requisição, usa a reflexão para descobrir qual método deve ser chamado no servente, desempacota os argumentos e invoca o método. Isso simplifica muito o desenvolvimento, pois o programador não precisa mais da etapa de compilação do esqueleto.
