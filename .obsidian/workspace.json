@@ -11,12 +11,14 @@
             "id": "af24ecb12081286d",
             "type": "leaf",
             "state": {
-              "type": "audio",
+              "type": "markdown",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a"
+                "file": "15_IA/Busca em largura, profundidade e custo uniforme.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-audio",
-              "title": "ResumoEmAudio"
+              "icon": "lucide-file",
+              "title": "Busca em largura, profundidade e custo uniforme"
             }
           }
         ]
@@ -111,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a",
+                "file": "15_IA/Busca em largura, profundidade e custo uniforme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ResumoEmAudio"
+              "title": "Outgoing links from Busca em largura, profundidade e custo uniforme"
             }
           },
           {
@@ -180,11 +182,11 @@
   },
   "active": "af24ecb12081286d",
   "lastOpenFiles": [
+    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a",
     "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/4_Comparação.md",
     "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/3_Linguagens interpretadas.md",
     "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/2_Modelo Híbrido e Máquina Virtual.md",
     "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/1_Linguagem compilada.md",
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/9_Stack vs Heap.md",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/Unconfirmed 285681.crdownload",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/8_Thread.md",
@@ -207,7 +209,6 @@
     "11_Engenharia de Software/10_DevOps/3_Deployment Contínuo (CD).md",
     "11_Engenharia de Software/10_DevOps/2_Integração contínua (CI).md",
     "11_Engenharia de Software/3_Requisitos/2_Historia de usuários.md",
-    "11_Engenharia de Software/2_Processos/3_SCRUM.md",
     "attachments/Pasted image 20251104143419.png",
     "attachments/Pasted image 20251104132554.png",
     "attachments/Pasted image 20251104132110.png",

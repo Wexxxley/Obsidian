@@ -33,6 +33,7 @@ Para isso, a UCS utiliza uma estrutura de dados do tipo **Fila de Prioridade (Pr
 
 Queremos descobrir um caminho de Arad para qualquer uma das outras cidades.
 ![](attachments/Pasted%20image%2020251031091210.png)
+![](../attachments/Pasted%20image%2020251031091210.png)
 
 **Busca em largura**
 Levando em consideração que "problema" possui a estrutura que salva o mapa e todas as informações necessárias.
