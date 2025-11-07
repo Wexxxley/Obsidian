@@ -2,29 +2,30 @@
 #Concluded 
 
 ---
-Um **protocolo de requisição-resposta** é projetado especificamente para suportar a interação típica cliente-servidor. Na sua forma normal, a comunicação é:
-- **síncrona**: o processo cliente envia uma requisição e fica bloqueado até que a resposta do servidor chegue.
-- **confiável**: pois a mensagem de resposta do servidor atua como uma confirmação de que a requisição foi recebida.
+Um protocolo de requisição-resposta é projetado especificamente para suportar a interação típica cliente-servidor. Na sua forma normal, a comunicação é:
+
+- **síncrona**: o processo envia uma requisição e fica bloqueado até a resposta do servidor.
+- **confiável**: pois a mensagem de resposta do server atua como uma confirmação.
 
 #### **Primitivas de Comunicação**
 
-1. **`doOperation` (Cliente)**: Usada pelo cliente para invocar a operação remota. Ela envia a mensagem de requisição e bloqueia, esperando pela mensagem de resposta.
+1. **doOperation**: Usada pelo cliente para invocar a operação remota. Ela envia a mensagem de requisição e bloqueia, esperando pela mensagem de resposta.
 
-2. **`getRequest` (Servidor)**: Usada pelo servidor para receber uma mensagem de requisição de um cliente.
+2. **getRequest**: Usada pelo servidor para receber uma mensagem de requisição de um cliente.
 
-3. **`sendReply` (Servidor)**: Usada pelo servidor para enviar a mensagem de resposta de volta ao cliente que fez a requisição.
+3. **sendReply (Servidor**: Usada pelo servidor para enviar a mensagem de resposta de volta ao cliente que fez a requisição.
 
 ![](../../attachments/Pasted%20image%2020251029105559.png)
 #### **Estrutura da Mensagem**
 
-- **Tipo de Mensagem**: Request ou Resposta.
-- **ID da Requisição**: Um identificador único gerado pelo cliente para cada requisição. O servidor copia esse ID, permitindo que o cliente associe a resposta à requisição correta.
-- **Referência Remota**: Identifica o objeto ou serviço remoto sendo invocado.
-- **ID da Operação**: Identifica qual operação específica deve ser executada.
-    
 ![](../../attachments/Pasted%20image%2020251029105832.png)
 
-#### **Tratamento de Falhas (sobre UDP)**
+- **messageType**: Request ou Resposta.
+- **requestId**: Um identificador único gerado pelo cliente para cada requisição. O servidor copia esse ID, permitindo que o cliente associe a resposta à requisição correta.
+- **remoteReference**: Identifica o objeto ou serviço remoto sendo invocado.
+- **OperationId**: Identifica qual operação específica deve ser executada.
+
+#### **Tratamento de Falhas sobre UDP**
 
 Se o protocolo for implementado sobre UDP  ele herda as falhas do UDP, ou seja, as mensagens podem ser perdidas. Para fornecer uma comunicação confiável, o protocolo de requisição-resposta deve tratar dessas falhas:
 
@@ -37,9 +38,6 @@ Se o protocolo for implementado sobre UDP  ele herda as falhas do UDP, ou seja, 
     - Se a operação não for idempotente (como "sacar R$ 100"), o servidor armazena a resposta em um cache de respostas). Ao receber uma requisição duplicada, ele não reexecuta a operação, apenas retransmite a resposta salva no histórico.
 
 #### **Estilos de Protocolo**
-
 - **R (Request)**: Apenas uma mensagem de requisição é enviada (sem resposta). 
-    
 - **RR (Request-Reply)**: O padrão normal, com uma requisição seguida por uma resposta.
-    
 - **RRA (Request-Reply-Acknowledge Reply)**: Uma terceira mensagem (confirmação da resposta) é enviada pelo cliente de volta ao servidor. Isso permite que o servidor saiba que a resposta foi recebida e que ele pode descartar essa resposta do seu histórico.

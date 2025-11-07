@@ -1,12 +1,14 @@
 
+#Concluded 
 
 ---
-A ideia é permitir que um programa cliente chame um procedimento em um servidor remoto **como se fosse um procedimento local**. O sistema de RPC, atuando como middleware, oculta todos os detalhes complexos da distribuição, como:
+
+A ideia é permitir que um programa cliente chame um procedimento em um servidor remoto como se fosse um procedimento local. O sistema de RPC, atuando como middleware, oculta todos os detalhes complexos da distribuição, como:
+
 - Empacotamento dos parâmetros da chamada em uma mensagem.
 - A transmissão dessa mensagem de requisição ao servidor.
 - O recebimento da mensagem de resposta.
 - Desempacotamento dos resultados.
-
 #### **Questões de Projeto para RPC**
 
 **1. Programação com Interfaces**
