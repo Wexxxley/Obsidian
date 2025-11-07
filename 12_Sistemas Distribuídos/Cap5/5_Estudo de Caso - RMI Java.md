@@ -3,23 +3,24 @@
 
 ---
 Esta seção apresenta o **RMI Java** como uma implementação específica do modelo de RMI, mas com a particularidade de ser um sistema de **linguagem única** (Java para Java). 
-### **Interfaces Remotas em Java**
-Para definir um objeto como remoto, o programador cria uma interface Java que `extends` a interface `java.rmi.Remote`. Um requisito fundamental é que todos os métodos nessa interface devem declarar que disparam a exceção `RemoteException`1. Isso força o programador a lidar com as falhas de rede, tornando a natureza distribuída explícita (uma diferença em relação à transparência total da RPC).
+
+---
+### **1. Interfaces Remotas em Java**
+
+Para definir um objeto como remoto, o programador cria uma **interface que extends** a interface **java.rmi.Remote**. Um requisito fundamental é que todos os métodos nessa interface devem declarar que disparam a exceção **RemoteException**. Isso força o programador a lidar com as falhas de rede, tornando a natureza distribuída explícita.
+### **2. Passagem de Parâmetros**
+
+A RMI Java usa a **serialização de objetos** para empacotar argumentos e resultados. O comportamento da passagem de parâmetros depende do tipo do objeto:
     
-- **Passagem de Parâmetros**: A RMI Java usa a **serialização de objetos Java** para empacotar (marshal) argumentos e resultados2. O comportamento da passagem de parâmetros depende do tipo do objeto:
-    
-    1. **Objetos Remotos**: Se um argumento ou resultado é um objeto que implementa a interface `Remote`, ele é passado **por referência**. O sistema não envia o objeto, mas sim uma **referência de objeto remoto** (um stub/proxy). O receptor pode então fazer chamadas remotas de volta para esse objeto3.
+1. **Objetos Remotos**: Se um argumento ou resultado é um objeto que implementa a interface Remote, ele é passado **por referência**. O receptor pode então fazer chamadas remotas de volta para esse objeto.
+
+2. **Objetos Não Remoto**: Se um objeto não implementa `Remote` mas implementa `java.io.Serializable`, ele é passado **por valor**. O objeto é serializado, uma cópia completa dele é enviada pela rede, e um novo objeto é recriado no processo de destino.
         
-    2. **Objetos Não Remotos (Locais)**: Se um objeto **não** implementa `Remote` mas implementa `java.io.Serializable`, ele é passado **por valor**. O objeto é serializado, uma cópia completa dele é enviada pela rede, e um novo objeto (uma duplicata) é recriado no processo de destino4.
-        
-- **Exemplo `ShapeList`**: O livro usa o exemplo de um quadro branco (whiteboard)5.
-    
+- **Exemplo `ShapeList`**:
+
     - A interface `Shape` é definida como `Remote`, de modo que cada figura no quadro branco é um objeto remoto individual.
-        
     - A classe `GraphicalObject` (que contém os dados da figura, como cor e posição) é definida como `Serializable`.
-        
     - O método `newShape(GraphicalObject g)` passa o objeto `g` **por valor** (uma cópia dos dados é enviada).
-        
     - O método retorna um objeto `Shape` (que é `Remote`), significando que ele retorna uma **referência** para o novo objeto `Shape` criado no servidor6.
         
 - **Download Dinâmico de Classes**: Esta é uma das características mais poderosas do RMI Java7.
@@ -33,10 +34,3 @@ Para definir um objeto como remoto, o programador cria uma interface Java que `e
 - **O `RMIregistry`**: É o vinculador (binder) do RMI Java9. É um serviço simples de nomes que roda em um servidor e mantém um mapa de nomes textuais (strings) para referências de objetos remotos. Um servidor usa o `RMIregistry` para registrar ("bind") seus objetos remotos com um nome, e os clientes o usam para procurar ("lookup") esses objetos pelo nome10.
     
 - **Implementação (Reflexão)**: Versões modernas do RMI Java (a partir do Java 1.2) usam **reflexão**11. Em vez de exigir que o programador gere um "esqueleto" estático para o servidor (como na RPC), o RMI usa um **despachante genérico**. Esse despachante recebe a requisição, usa a reflexão para descobrir qual método deve ser chamado no servente, desempacota os argumentos e invoca o método12. Isso simplifica muito o desenvolvimento, pois o programador não precisa mais da etapa de compilação do esqueleto.
-    
-
----
-
-Com isso, concluímos o Capítulo 5, que cobriu os protocolos de requisição-resposta, a RPC e o modelo de RMI. O próximo capítulo abordará os paradigmas de **Comunicação Indireta**.
-
-Quando quiser começar o **Capítulo 6**, é só digitar **next**.
