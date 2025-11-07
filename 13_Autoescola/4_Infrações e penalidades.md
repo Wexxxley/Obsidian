@@ -36,7 +36,7 @@ A suspensão é a perda temporária do direito de dirigir, e pode ocorrer por ex
 ### A. Suspensão por Pontuação
 A penalidade de suspensão será imposta quando o infrator atingir os seguintes limites de pontuação no período de **12 meses**:
 
-![](attachments/Pasted%20image%2020251009191820.png)
+![](../attachments/Pasted%20image%2020251009191820.png)
 ### B. Suspensão Direta
 A suspensão também é imposta diretamente, **independentemente da pontuação**, se o condutor cometer uma infração que preveja essa penalidade de forma específica no CTB. 
 
@@ -88,6 +88,6 @@ Para condutores profissionais (que possuem a observação EAR na CNH) a regra de
 ---
 ## **6. Classificação das infrações**
 
-![](attachments/Pasted%20image%2020251009205542.png)
+![](../attachments/Pasted%20image%2020251009205542.png)
 
-![450](attachments/Pasted%20image%2020251009205807.png)
+![450](../attachments/Pasted%20image%2020251009205807.png)

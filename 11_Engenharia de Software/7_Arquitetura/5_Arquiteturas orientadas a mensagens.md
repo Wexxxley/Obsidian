@@ -17,7 +17,7 @@ Para resolver esses problemas, introduz-se um componente intermediário: uma **f
 2. **Fila de Mensagens:** Um repositório intermediário que armazena as mensagens enviadas pelos produtores de forma ordenada. Ela desacopla o produtor do consumidor.
 3. **Consumidor:** Um serviço que está interessado nas mensagens de uma determinada fila. Ele **recupera as mensagens** da fila e as processa no seu próprio ritmo.
 
-![](attachments/Pasted%20image%2020251026162626.png)
+![](../../attachments/Pasted%20image%2020251026162626.png)
 
 ---
 ### **Características Principais**

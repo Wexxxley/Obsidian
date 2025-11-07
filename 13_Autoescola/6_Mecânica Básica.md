@@ -8,7 +8,7 @@
 - **Resultado:** O motor gera o **cavalo-vapor (cv)** (potência) e o **torque** (força de tração).
 
 ### Principais Componentes do Motor
-![](attachments/Pasted%20image%2020251013194012.png)
+![](../attachments/Pasted%20image%2020251013194012.png)
 
 | Componente                  | Função Principal                                                                                                          |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
@@ -38,7 +38,7 @@ O veículo **Flex** é equipado com um motor que pode ser abastecido e funcionar
 A produção de movimento nos motores a álcool, gasolina ou flex ocorre em um ciclo repetitivo de quatro estágios (tempos) dentro da câmara de combustão.
 
 O **Pistão** sobe e desce dentro do **Cilindro**, acoplado à **Biela** e ao **Virabrequim**, completando o ciclo que transforma energia química em movimento de rotação:
-![](attachments/Pasted%20image%2020251013185810.png)
+![](../attachments/Pasted%20image%2020251013185810.png)
 
 | Tempo        | Nome                     | Movimento do Pistão | Ação Principal                                                                                                                            |
 | ------------ | ------------------------ | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -47,7 +47,7 @@ O **Pistão** sobe e desce dentro do **Cilindro**, acoplado à **Biela** e ao **
 | **3º Tempo** | **Combustão e Explosão** | Desce               | A **vela de ignição** dispara uma centelha (faísca), provocando a explosão da mistura comprimida. Essa força empurra o pistão para baixo. |
 | **4º Tempo** | **Escape**               | Sobe                | A **válvula de escape** se abre, e o pistão empurra os gases queimados (poluentes) para fora do cilindro, em direção ao escapamento.      |
 
-![](attachments/Pasted%20image%2020251013203012.png)
+![](../attachments/Pasted%20image%2020251013203012.png)
 
 ---
 ## 4. Características das Motocicletas
@@ -61,13 +61,13 @@ O **Pistão** sobe e desce dentro do **Cilindro**, acoplado à **Biela** e ao **
 - **Marchas:** Geralmente, cinco marchas à frente são selecionadas movimentando-se um pedal localizado frontalmente ao apoio do pé esquerdo.
 - **Transmissão Final:** A transmissão do movimento do motor para a roda traseira é comumente feita por uma **corrente**.
 ## **Sistema de arrefecimento**
-![400](attachments/Pasted%20image%2020251013210803.png)
-![600](attachments/Pasted%20image%2020251014084818.png)
+![400](../attachments/Pasted%20image%2020251013210803.png)
+![600](../attachments/Pasted%20image%2020251014084818.png)
     
 
 
 ## **Sistema de transmissão**
 
-![](attachments/Pasted%20image%2020251013211701.png)
+![](../attachments/Pasted%20image%2020251013211701.png)
 
-![](attachments/Pasted%20image%2020251013213032.png)
+![](../attachments/Pasted%20image%2020251013213032.png)

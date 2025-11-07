@@ -10,5 +10,5 @@
 - **Balanço de Edifícios:** Prédios altos podem balançar sutilmente devido ao vento. Esse movimento, embora imperceptível para nós, pode desalinhar os equipamentos.
 - **Custo :** Embora a implantação seja mais barata que a da fibra, os transceptores a laser de alta capacidade e confiabilidade ainda possuem um custo elevado.
 
-![](attachments/Pasted%20image%2020250716191953.png)
+![](../../attachments/Pasted%20image%2020250716191953.png)
 

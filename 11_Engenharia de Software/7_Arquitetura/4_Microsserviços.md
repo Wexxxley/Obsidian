@@ -42,7 +42,7 @@ Em contraste com os monolitos, <mark style="background: #ADCCFFA6;">a arquitetur
 
 Baseia-se no conceito de RPC, onde uma aplicação (cliente) pode chamar um método ou procedimento em outra aplicação (servidor) que está rodando em um processo diferente, possivelmente em outra máquina, como se fosse uma chamada local.
 
-![](attachments/Pasted%20image%2020251026161835.png)
+![](../../attachments/Pasted%20image%2020251026161835.png)
 
  **Linguagem de Definição de Interfaces (IDL)**:
 -  Com essa linguagem, você define a "forma" do serviço:
@@ -53,7 +53,7 @@ Baseia-se no conceito de RPC, onde uma aplicação (cliente) pode chamar um mét
 
 ---
 ### **Exemplo de Arquitetura**
-![](attachments/Pasted%20image%2020251026161855.png)  
+![](../../attachments/Pasted%20image%2020251026161855.png)  
 
 - A **Interface do Usuário** se comunica com um **Controller**.
 - O **Controller**, por sua vez, se comunica com serviços de backend usando **gRPC**.

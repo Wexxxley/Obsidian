@@ -14,7 +14,7 @@ Um **protocolo de requisição-resposta** é projetado especificamente para supo
 
 3. **`sendReply` (Servidor)**: Usada pelo servidor para enviar a mensagem de resposta de volta ao cliente que fez a requisição.
 
-![](attachments/Pasted%20image%2020251029105559.png)
+![](../../attachments/Pasted%20image%2020251029105559.png)
 #### **Estrutura da Mensagem**
 
 - **Tipo de Mensagem**: Request ou Resposta.
@@ -22,7 +22,7 @@ Um **protocolo de requisição-resposta** é projetado especificamente para supo
 - **Referência Remota**: Identifica o objeto ou serviço remoto sendo invocado.
 - **ID da Operação**: Identifica qual operação específica deve ser executada.
     
-![](attachments/Pasted%20image%2020251029105832.png)
+![](../../attachments/Pasted%20image%2020251029105832.png)
 
 #### **Tratamento de Falhas (sobre UDP)**
 

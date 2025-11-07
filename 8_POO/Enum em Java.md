@@ -22,7 +22,7 @@ O Enum soluciona tudo isso, além de melhorar a legibilidade.
 ---
 ### **Sintaxe Básica**
 A declaração mais simples.
-![](attachments/Pasted%20image%2020250809120536.png)
+![](../attachments/Pasted%20image%2020250809120536.png)
 
 Um `enum` não é apenas uma lista de nomes, ele é uma **classe especial**. Um enum pode ter:
 - **Atributos**    
@@ -43,4 +43,4 @@ Todo enum em Java já vem com alguns métodos estáticos úteis:
 ---
 ### **Uso avançado**
 
-![](attachments/Pasted%20image%2020250809122914.png)
+![](../attachments/Pasted%20image%2020250809122914.png)

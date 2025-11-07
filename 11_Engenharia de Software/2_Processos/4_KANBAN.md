@@ -14,7 +14,7 @@ Kanban é mais simples que o Scrum e se diferencia nos seguintes pontos:
 ### **2. O Quadro Kanban e o Fluxo de Trabalho**
 
 O Quadro Kanban é o coração do método e é  totalmente customizável, mas geralmente segue essa estrutura:
-![](attachments/Pasted%20image%2020251001181025.png)
+![](../../attachments/Pasted%20image%2020251001181025.png)
 
 - **Backlog do Produto**: A primeira coluna contém as histórias de usuários.
 - **Etapas do Processo**: As colunas seguintes representam os passos necessários para transformar uma história em uma funcionalidade pronta. Por exemplo: **Especificação**, **Implementação** e **Revisão de Código**.

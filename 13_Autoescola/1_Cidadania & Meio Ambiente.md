@@ -79,11 +79,11 @@ Estes são alguns dos órgãos que compõem o **SISNAMA (Sistema Nacional do Mei
 ### a) Catalisador
 - **Função:** O dispositivo mais importante no controle de emissões. ==Converte os gases de escape **tóxicos** (CO, HC, NOx​) em gases menos nocivos (CO2​, H2​O, N2​).== 
 
- ![](attachments/Pasted%20image%2020251007111649.png)
+ ![](../attachments/Pasted%20image%2020251007111649.png)
 ### b) Cânister
 - **Função:** É um filtro que **captura e armazena os vapores de combustível** que evaporam do tanque.  Em vez de liberar esses vapores poluentes na atmosfera, o Cânister os envia de volta ao motor para serem queimados.
 
-![](attachments/Pasted%20image%2020251007111808.png)
+![](../attachments/Pasted%20image%2020251007111808.png)
 
 ### c) Injeção Eletrônica (Inj. Eletrônica)
 - **Função:** Um sistema moderno que substituiu o carburador. Ele **controla automaticamente** a quantidade exata de combustível e ar que entra no motor.
@@ -91,7 +91,7 @@ Estes são alguns dos órgãos que compõem o **SISNAMA (Sistema Nacional do Mei
 
 ### d) Silenciador
 - **Função:** Dispositivo instalado no escapamento projetado com câmaras e perfurações que **reduzem o ruído** (poluição sonora) gerado pelo motor.
-![](attachments/Pasted%20image%2020251007112027.png)
+![](../attachments/Pasted%20image%2020251007112027.png)
 
 ### e) Kit GNV (Gás Natural Veicular)
 - **Função:** Permite que o veículo use Gás Natural Veicular.
@@ -115,7 +115,7 @@ O transporte de cargas que representam risco à saúde humana, segurança públi
     - **Número UN (Algarismo subsidiário):** identifica a substância específica (ex: 1203 para Gasolina).
     - **A letra 'X' na frente do Número de Risco** indica **perigo especial em contato com água**.
 
-![](attachments/Pasted%20image%2020251007112406.png)
+![](../attachments/Pasted%20image%2020251007112406.png)
 
 ### 2. O Triângulo do Fogo e Extintores
 O incêndio só ocorre se houver a união de três elementos (o **Triângulo do Fogo**):
@@ -128,4 +128,4 @@ O extintor mais comum e recomendado para veículos é o **Extintor ABC**, capaz 
 - **Classe B:** Líquidos e gases inflamáveis (combustíveis, álcool).
 - **Classe C:** Equipamentos elétricos energizados.
 
-![](attachments/Pasted%20image%2020251007112723.png)
+![](../attachments/Pasted%20image%2020251007112723.png)

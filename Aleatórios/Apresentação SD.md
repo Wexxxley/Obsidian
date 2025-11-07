@@ -10,7 +10,7 @@ Mostrar as imagens da arquitetura e explicar...
 ---
 ### 2. Mostrar que os conceitos principais de poo foram atendidos (wesley)
 
-![](attachments/Pasted%20image%2020251104125618.png)
+![](../attachments/Pasted%20image%2020251104125618.png)
 
 - Utilizamos 3 linguagens diferentes: 
 	- c++ para o server de relay por seu auto desempenho uma vez que ele vai precisar enviar os fluxos de audio dos clientes.
@@ -21,9 +21,9 @@ Mostrar as imagens da arquitetura e explicar...
 - O `BaseProtocol` é uma **Superclasse Abstrata**. Sua principal função é fornecer métodos de serialização reutilizáveis para qualquer protocolo binário.
 - O `BaseProtocol` define o formato de cabeçalho que todas as mensagens devem seguir:1 byte para o CommandCode e 2 bytes para o tamanho do payload subsequente.
 - O método `create_message` recebe um `command_code` e um dicionário `payload`, chama o método `serialize_payload` (que deve ser implementado pela subclasse) e então constrói e retorna a mensagem completa: `header + payload_bytes`.
-- ![](attachments/Pasted%20image%2020251104132554.png)
+- ![](../attachments/Pasted%20image%2020251104132554.png)
 - Ele fornece implementações para serializar e desserializar tipos de dados comuns, como strings e listas de strings.
-- ![](attachments/Pasted%20image%2020251104132110.png)
+- ![](../attachments/Pasted%20image%2020251104132110.png)
 - O `VoipProtocol` é a **implementação concreta**. Ele implementa a lógica de negócios específica da aplicação VoIP.
     - **`serialize_payload`**: Contém um grande bloco `if/elif` que atua como um despachante. Para cada `CommandCode`, ele sabe exatamente quais chaves esperar do dicionário `payload` e em que ordem serializá-las. 
         
@@ -49,7 +49,7 @@ Algumas classes pojos foram criadas como:
 ---
 ### 3. Apresentação simplificada do serve de sinalização
 
-![](attachments/Pasted%20image%2020251104143419.png)
+![](../attachments/Pasted%20image%2020251104143419.png)
 
 **Server**
 - Quando o cliente se conecta é o arquivo server que vai fazer o primeiro contato e então encaminhar para client_dandler através de outra thread.

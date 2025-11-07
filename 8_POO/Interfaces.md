@@ -7,12 +7,12 @@ Neste exemplo, temos um sistema de controle de um banco. Queremos que Diretor, G
 A forma abaixo é inadequada, pois
 1. Se um `Engenheiro` também precisar se autenticar no futuro? Seria necessário mudar sua herança de `Funcionario` para `FuncionarioAutenticavel`.
 2. A classe `Cliente` também precisa se autenticar, mas ela não é um `Funcionario`. 
-![](attachments/Pasted%20image%2020250825092255.png)
+![](../attachments/Pasted%20image%2020250825092255.png)
 
 No exemplo abaixo, em vez de uma classe, foi criada uma interface chamada `Autenticavel`. Ela representa uma capacidade do tipo "**sabe ou pode fazer"** . Agora, qualquer classe que precise ter a capacidade de se autenticar simplesmente implementa a interface.
 1. Se um `Engenheiro` precisar se autenticar, basta que a classe `Engenheiro` implemente a interface.
 2. O sistema pode agora tratar qualquer objeto simplesmente como um `Autenticavel`, permitindo que o mecanismo de login funcione para todos.
-![650](attachments/Pasted%20image%2020250825092213.png)
+![650](../attachments/Pasted%20image%2020250825092213.png)
 
 A comparação entre os dois diagramas ilustra uma lição: "**use herança para modelar o que um objeto "é" e use interfaces para modelar o que um objeto "pode fazer"**. 
 
@@ -36,8 +36,8 @@ Ao usar interfaces, você programa para a "interface" e não para a "implementa�
 
 Primeiro, definimos a interface **`ProcessadorDePagamento`**. Ela é o contrato que todos os gateways de pagamento devem seguir. O método `processarPagamento` é o único requisito.
 
-![](attachments/Pasted%20image%2020250825143122.png)
+![](../attachments/Pasted%20image%2020250825143122.png)
 
 Agora, criamos classes que implementam o contrato `ProcessadorDePagamento`, cada uma com sua própria lógica de processamento.
-![](attachments/Pasted%20image%2020250825143136.png)
-![](attachments/Pasted%20image%2020250825143148.png)
+![](../attachments/Pasted%20image%2020250825143136.png)
+![](../attachments/Pasted%20image%2020250825143148.png)

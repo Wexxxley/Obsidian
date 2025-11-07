@@ -32,7 +32,7 @@ Para isso, a UCS utiliza uma estrutura de dados do tipo **Fila de Prioridade (Pr
 ### 4. Exemplo: Mapa de cidades
 
 Queremos descobrir um caminho de Arad para qualquer uma das outras cidades.
-![](attachments/Pasted%20image%2020251031091210.png)
+![](../attachments/Pasted%20image%2020251031091210.png)
 ![](../attachments/Pasted%20image%2020251031091210.png)
 
 **Busca em largura**

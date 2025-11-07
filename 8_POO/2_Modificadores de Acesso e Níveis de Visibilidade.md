@@ -12,7 +12,7 @@ Os **modificadores de acesso** são palavras-chave usadas para definir o nível 
 | **Protected** | `protected` | Classes **dentro do mesmo pacote OU subclasses**       |
 | **Public**    | `public`    | Qualquer classe em qualquer lugar.                     |
 
-![](attachments/Pasted%20image%2020250917180449.png)
+![](../attachments/Pasted%20image%2020250917180449.png)
 
 ---
 ## **Encapsulamento e a Importância dos Modificadores**
@@ -21,7 +21,7 @@ Encapsulamento é o princípio de agrupar atributos e os métodos em uma única 
 
 Pense nisso como colocar sua classe em uma interface simples, na qual você consegue ver o lado de fora e pode interagir com ele através de botões (métodos públicos), mas não vê o que está dentro (os atributos e métodos privados).
 
-![500](attachments/1_GrarH2XqRi5iLw--RI5NMQ.png)
+![500](../attachments/1_GrarH2XqRi5iLw--RI5NMQ.png)
 
 1. **Segurança e Consistência dos Dados** 
 	- Em vez de permitir a modificação direta, você força o acesso através de métodos, onde você pode adicionar **regras de validação** antes de permitir uma mudança. 

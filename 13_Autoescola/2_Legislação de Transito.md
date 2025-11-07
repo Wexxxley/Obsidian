@@ -143,14 +143,14 @@ A sigla **EAR** é uma observação fundamental para motoristas que utilizam o v
 - **Obrigatoriedade:** É uma exigência do CTB para motoristas profissionais.
 - **Inclusão:** Pode ser incluída em **todas as categorias da CNH**.
 - **Processo:** A inclusão deve ser solicitada ao **Detran** da localidade. Se o candidato ainda não tem a CNH definitiva, a EAR deve ser solicitada ao iniciar o processo de habilitação. Após a solicitação, é necessário realizar uma **avaliação psicológica** e pagar as taxas obrigatórias.
-![](attachments/Pasted%20image%2020251007212650.png)
+![](../attachments/Pasted%20image%2020251007212650.png)
 
-![](attachments/Pasted%20image%2020251007213024.png)
+![](../attachments/Pasted%20image%2020251007213024.png)
 
-![](attachments/Pasted%20image%2020251007213138.png)
-![](attachments/Pasted%20image%2020251007213330.png)
-![](attachments/Pasted%20image%2020251007213502.png)
-![](attachments/Pasted%20image%2020251007213620.png)
+![](../attachments/Pasted%20image%2020251007213138.png)
+![](../attachments/Pasted%20image%2020251007213330.png)
+![](../attachments/Pasted%20image%2020251007213502.png)
+![](../attachments/Pasted%20image%2020251007213620.png)
 
 ---
 ## 8. Categorias de Habilitação
@@ -162,12 +162,12 @@ Existem **5 categorias** de habilitação no Brasil (A a E), além da Autorizaç
 ### B. ACC (Autorização para Conduzir Ciclomotor)
 - A ACC **não é considerada uma categoria de habilitação** (como A, B, C, D ou E), mas sim um tipo específico de habilitação destinado exclusivamente a conduzir **ciclomotores** (veículos de duas ou três rodas com motor de combustão interna. Velocidade máxima de 50 km/h).
 
-![](attachments/Pasted%20image%2020251007212205.png)
+![](../attachments/Pasted%20image%2020251007212205.png)
 
 
-![](attachments/Pasted%20image%2020251007212350.png)
+![](../attachments/Pasted%20image%2020251007212350.png)
 
-![](attachments/Pasted%20image%2020251007211855.png)
+![](../attachments/Pasted%20image%2020251007211855.png)
 
 ---
 ## 9. Permissão Internacional para Dirigir (PID)

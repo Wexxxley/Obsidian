@@ -128,7 +128,7 @@ O principal objetivo de se usar uma DHT não é permitir que cada peer tenha inf
 
 ---
 **Q11**
-![](attachments/Pasted%20image%2020250930143401.png)
+![](../../attachments/Pasted%20image%2020250930143401.png)
 
 ==cliente-servidor − servidor − cliente − cliente-servidor − cliente − servidor − sites==
 
@@ -371,7 +371,7 @@ e. Todos os computadores de uma rede executam tarefas de cliente e servidor, qu
 ---
 **Q28 Para cada aplicativo é oferecida a mesma interface. O sistema distribuído fornece os meios para os componentes de um único aplicativo distribuído se comunicarem entre si, mas também para permitir que diferentes aplicativos se comuniquem. Ao mesmo tempo, ele oculta, da melhor forma e razoavelmente possível, as diferenças de hardware e sistemas operacionais de cada aplicativo. Esse mecanismo de abstração, organizado como uma camada de um sistema distribuído, que se estende por várias máquinas e oferece a cada aplicação a mesma interface, é chamado:**
 
-![450](attachments/Pasted%20image%2020250930155802.png)
+![450](../../attachments/Pasted%20image%2020250930155802.png)
 ==Middleware==
 
 ---

@@ -19,7 +19,7 @@ A ideia central é organizar as classes ou módulos em **camadas** dispostas de 
 3. **Banco de Dados (Camada de Dados/Persistência):**    
     - Responsável por **armazenar e recuperar** os dados manipulados pelo sistema.
         
-![](attachments/Pasted%20image%2020251023202231.png)
+![](../../attachments/Pasted%20image%2020251023202231.png)
 
 **Distribuição Física (Típica):**
 - A **Interface com o Usuário** executa na máquina do cliente.

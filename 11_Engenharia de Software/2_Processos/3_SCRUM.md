@@ -12,12 +12,12 @@
 
 • **Desenvolvedores**: São os especialistas responsáveis por tomar as decisões técnicas, como definir a arquitetura e as tecnologias a serem usadas. Eles também estimam o tamanho das histórias, geralmente usando _story points_. Times Scrum são multidisciplinares, ou seja, devem incluir todos os especialistas necessários (front-end, back-end, banco de dados, etc.) para desenvolver o produto sem depender de membros externos.
 
-![450](attachments/Pasted%20image%2020251001175646.png)
+![450](../../attachments/Pasted%20image%2020251001175646.png)
 
 ---
 ### **2. Artefatos e Eventos Principais**
 
-![](attachments/Pasted%20image%2020251101140214.png)
+![](../../attachments/Pasted%20image%2020251101140214.png)
 
 1. **Vision**: Isso é representado por uma pessoa (geralmente o Product Owner) que tem o conceito geral do produto.
     
@@ -39,6 +39,6 @@
 9. **Retrospective:** O objetivo desta reunião é inspecionar o processo que acabaram de executar e identificar pontos positivos e pontos a melhorar no fluxo de trabalho, comunicação ou ferramentas.
 
 **Quadro scrum**
-![](attachments/Pasted%20image%2020251001180945.png)
+![](../../attachments/Pasted%20image%2020251001180945.png)
 
 

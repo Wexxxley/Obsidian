@@ -41,7 +41,7 @@ Este padrão organiza os serviços verticalmente em camadas de abstração. Cada
 - **Middleware**: Uma camada de software que mascara a heterogeneidade da plataforma e fornece um modelo de programação mais conveniente para os desenvolvedores.
 - **Aplicações e Serviços**: Camada superior que contém as aplicações utilizadas pelos users.
 
-![500](attachments/Pasted%20image%2020250925183214.png)
+![500](../../attachments/Pasted%20image%2020250925183214.png)
 #### **2. Camadas Físicas**
 
 1. **Arquitetura de Duas Camadas**: A lógica da aplicação é dividida entre o ==cliente e um servidor.==
@@ -68,7 +68,7 @@ Este padrão arquitetônico busca reduzir a complexidade do equipamento do usuá
 - Um **cliente magro** é uma ==camada de software que suporta uma interface de usuário localmente, enquanto executa os programas de aplicação em um computador remoto.==
 - A vantagem é que um dispositivo local simples pode acessar serviços e recursos de rede sofisticados.
 
-![](attachments/Pasted%20image%2020250925185406.png)
+![](../../attachments/Pasted%20image%2020250925185406.png)
 
 ---
 ## **4. Soluções de Middleware**

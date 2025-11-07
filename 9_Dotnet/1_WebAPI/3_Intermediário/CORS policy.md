@@ -7,7 +7,7 @@ CORS (Cross-Origin Resource Sharing) é um mecanismo que permite que recursos de
 
 **Definindo CORS**
 O código a seguir configura o CORS.
-![550](attachments/Pasted%20image%2020250910152855.png)
+![550](../../../attachments/Pasted%20image%2020250910152855.png)
 
 Outras Configurações Possíveis
 1. Permitir Qualquer Origem: Use AllowAnyOrigin(). Isso deve ser usado apenas em APIs públicas ou não sensíveis.

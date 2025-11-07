@@ -15,7 +15,7 @@ Pense na placa-mãe como o sistema nervoso e o esqueleto do computador. É a gra
         
 - Tudo o que você vê na parte de trás do seu computador (portas USB, saída de vídeo HDMI, entrada de rede, conectores de áudio) está, na verdade, soldado diretamente na placa-mãe.
 
-![](attachments/Pasted%20image%2020251027161645.png)
+![](../../../../attachments/Pasted%20image%2020251027161645.png)
 
 
 - A placa-mãe é coberta por milhares de linhas metálicas finas. Elas são chamadas de **"barramentos"**.

@@ -31,7 +31,7 @@ A tupla ==(local IP, local porta, remoto IP, remoto porta)== identifica  a cone
 - Os dados escritos em um fluxo são mantidos em uma fila no **soquete de destino**. Um processo que tenta ler dados será bloqueado até que os dados estejam disponíveis. Além disso, um processo de escrita pode ser bloqueado pelo controle de fluxo TCP se o soquete no outro lado estiver armazenando o volume máximo permitido de dados.
 - **Um para um orientado a conexão**
 
-![](attachments/Pasted%20image%2020251009124402.png)
+![](../../attachments/Pasted%20image%2020251009124402.png)
 
 ---
 ### **2. Comunicação Síncrona vs. Assíncrona**

@@ -8,7 +8,7 @@
 - **Suscetibilidade a Interferências Atmosféricas:** Chuva, neve e umidade podem  dispersar os sinais de micro-ondas.
 - **Custo de Instalação:** A necessidade de torres e a precisão no alinhamento das antenas podem tornar a instalação inicial de um sistema de micro-ondas mais cara.
 
-![](attachments/Pasted%20image%2020250716190547.png)
+![](../../attachments/Pasted%20image%2020250716190547.png)
 
 ### **Microondas vs rádio**
 

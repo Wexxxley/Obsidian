@@ -39,9 +39,9 @@ Com ReverseMap CursoRequest pode ser mapeado para Curso.
 
 #### **2.2 Criar sua própria classe** 
 
-![500](attachments/Pasted%20image%2020250808142754.png)
+![500](../../../attachments/Pasted%20image%2020250808142754.png)
 
 Como a classe é estatica, basta usar o using do mapper e utilizalo normalmente, nao precisa fazer injeção de dependencia.
 
-![](attachments/Pasted%20image%2020250808142810.png)
+![](../../../attachments/Pasted%20image%2020250808142810.png)
 

@@ -32,7 +32,7 @@ A **Computação em Nuvem** é um ==modelo onde recursos de computação são fo
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
 | **Físicos**  | **Processamento:**Alugar poder computacional (nós virtuais/físicos).   **Armazenamento:** Armazenamento remoto para arquivos e backups. |
 | **Software** | Software completo oferecido pela Internet (e-mail, calendários, aplicativos empresariais), como o Google Apps.                          |
-![](attachments/Pasted%20image%2020250920075804.png)
+![](../../attachments/Pasted%20image%2020250920075804.png)
 
 - **Virtualização:** É crucial, pois permite que os fornecedores aluguem **nós virtuais** em vez de máquinas físicas. Isso oferece maior flexibilidade no gerenciamento dos recursos.    
 - **Clusters de Computadores:** As nuvens são implementadas usando **clusters**. Um cluster consiste em computadores fracamente ou fortemente ligados que trabalham em conjunto, de modo que, em muitos aspectos, podem ser considerados como um único sistema. Clusters fornecem a **escala e o desempenho** necessários para atender a milhões de usuários.

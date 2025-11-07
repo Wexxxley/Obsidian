@@ -30,14 +30,14 @@ Por exemplo, se você alterar a forma como o saldo é armazenado em uma `Conta B
 
 ---
 ### **Estado de um objeto**
-![](attachments/Pasted%20image%2020250916153200.png)
+![](../attachments/Pasted%20image%2020250916153200.png)
 
 ---
 ### **Estrutura base do java**
-![600](attachments/Pasted%20image%2020250916153509.png)
+![600](../attachments/Pasted%20image%2020250916153509.png)
 
 ---
 ### **Criando e acessando um objeto**
-![](attachments/Pasted%20image%2020250916154308.png)
+![](../attachments/Pasted%20image%2020250916154308.png)
 ### **Refatorando com o uso de um Construtor**
-![](attachments/Pasted%20image%2020250916154614.png)
+![](../attachments/Pasted%20image%2020250916154614.png)

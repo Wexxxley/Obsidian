@@ -103,10 +103,10 @@ function BookList() {
 ---
 ### **5. Usando fragment**
 
-![550](attachments/Pasted%20image%2020250814092647.png)
+![550](../../attachments/Pasted%20image%2020250814092647.png)
 Fragment é um componente especial fornecido pelo React que permite agrupar uma lista de elementos filhos sem adicionar um nó extra ao DOM. No código de exemplo, a função App retorna dois elementos irmãos: o ``div`` e o ``ul``. Em React, um componente deve retornar um **único elemento pai**. 
 
 O `<Fragment>` resolve esse problema: ele atua como um "empacotador" invisível. Ele permite que você agrupe os elementos necessários para satisfazer a regra do React de retornar um único elemento pai, mas **sem criar um nó extra no DOM**.
 
 O React também oferece uma sintaxe abreviada para o `<Fragment>`.
-![550](attachments/Pasted%20image%2020250909175056.png)
+![550](../../attachments/Pasted%20image%2020250909175056.png)

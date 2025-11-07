@@ -37,10 +37,10 @@ O objetivo principal é construir interfaces de usuário interativas e reutiliz�
 1. **Velocidade de Desenvolvimento:** Quando você salva uma alteração em um arquivo, o Vite atualiza apenas aquele "módulo" específico no navegador, sem recarregar a página inteira. Gerando uma atualização quase imediata.
 2. **Otimização para Produção:** Quando você termina o projeto e precisa gerar os arquivos finais para hospedar na internet, o Vite otimiza tudo: ele minifica o código, divide o código em pedaços menores para um carregamento mais rápido, e muito mais.
 
-![550](attachments/Pasted%20image%2020250810082243.png)
-![170](attachments/Pasted%20image%2020250810082258.png)
-![600](attachments/Pasted%20image%2020250810082751.png)
-![500](attachments/Pasted%20image%2020250810082917.png)
+![550](../../attachments/Pasted%20image%2020250810082243.png)
+![170](../../attachments/Pasted%20image%2020250810082258.png)
+![600](../../attachments/Pasted%20image%2020250810082751.png)
+![500](../../attachments/Pasted%20image%2020250810082917.png)
 
 ---
 ### **3. Redux**

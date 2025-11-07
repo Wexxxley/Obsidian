@@ -13,7 +13,7 @@ O TDD (Desenvolvimento Dirigido por Testes) é uma das práticas de programaçã
         
 3. **REFACTOR:** Com o teste passando, olhe para o código e veja se há oportunidades de melhorá-lo: remover duplicação, melhorar nomes, simplificar a lógica e etc. Execute os testes novamente após a refatoração para garantir que nada foi quebrado. Após refatorar, o ciclo recomeça: escreve-se um novo teste que falha para a próxima pequena funcionalidade.
 
-![450](attachments/Pasted%20image%2020251027144219.png)
+![450](../../attachments/Pasted%20image%2020251027144219.png)
 
 ---
 

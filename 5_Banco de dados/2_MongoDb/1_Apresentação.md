@@ -4,7 +4,7 @@ O MongoDB é um sistema de banco de dados NoSQL, o que significa que ele se dife
 
 Em vez de tabelas, linhas e colunas, o MongoDB usa uma estrutura baseada em **documentos** e **coleções**.
 
-![500](attachments/Pasted%20image%2020250717141001.png)
+![500](../../attachments/Pasted%20image%2020250717141001.png)
 
 ### **1. Documentos**
 A unidade de dados no MongoDB é o **documento BSON** (Binary JSON). Um documento pode conter campos, arrays e até mesmo outros documentos aninhados. Essa flexibilidade permite representar dados complexos de forma natural.

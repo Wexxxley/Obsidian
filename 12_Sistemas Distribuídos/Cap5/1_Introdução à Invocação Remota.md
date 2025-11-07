@@ -16,4 +16,4 @@ O livro destaca três paradigmas principais de invocação remota que serão exa
 
 Esses mecanismos formam uma camada de **middleware** que oculta a complexidade da passagem de mensagens e da comunicação de rede, fornecendo uma base mais simples para a construção de aplicações e serviços distribuídos.
 
-![](attachments/Pasted%20image%2020251029104835.png)
+![](../../attachments/Pasted%20image%2020251029104835.png)

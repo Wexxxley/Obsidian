@@ -22,9 +22,9 @@
 #### C. Demais Casos
 - **Tem preferência:** O veículo que vier **pela direita do condutor**.
 
-![](attachments/Pasted%20image%2020251008201723.png)
+![](../attachments/Pasted%20image%2020251008201723.png)
 
-![](attachments/Pasted%20image%2020251008201842.png)
+![](../attachments/Pasted%20image%2020251008201842.png)
 
 ---
 ## 3. Via, pista de rolamento e faixas
@@ -36,7 +36,7 @@ Quando uma pista de rolamento comporta várias faixas de circulação no mesmo s
 - **Faixas da Direita:** Destinadas ao deslocamento dos veículos **mais lentos** e de **maior porte**. Também são usadas para entrar ou sair da via.
 - **Faixas da Esquerda:** Destinadas **à ultrapassagem** e ao deslocamento dos veículos de **maior velocidade**.
 
-![](attachments/Pasted%20image%2020251008185430.png)
+![](../attachments/Pasted%20image%2020251008185430.png)
 - Nessa imagem temos uma via, duas pistas e 6 faixas
 ### 1. Vias Urbanas 
 
@@ -49,13 +49,13 @@ Quando uma pista de rolamento comporta várias faixas de circulação no mesmo s
 1. **Rodovia:** Via rural pavimentada (asfaltada).    
 2. **Estrada:** Via rural não pavimentada (terra ou chão batido).
 
-![](attachments/Pasted%20image%2020251008213555.png)
+![](../attachments/Pasted%20image%2020251008213555.png)
 
 ---
 ## 4. Ultrapassagem
 
-![](attachments/Pasted%20image%2020251008214005.png)
+![](../attachments/Pasted%20image%2020251008214005.png)
 
-![](attachments/Pasted%20image%2020251008214126.png)
+![](../attachments/Pasted%20image%2020251008214126.png)
 
-![](attachments/Pasted%20image%2020251008205040.png)
+![](../attachments/Pasted%20image%2020251008205040.png)
