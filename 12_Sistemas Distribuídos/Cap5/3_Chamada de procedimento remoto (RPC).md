@@ -52,6 +52,3 @@ A RPC é implementada usando componentes de software gerados automaticamente a p
 - **Despachante**: Executado no servidor. Ele recebe a mensagem de requisição, examina o identificador do procedimento e chama o server stub.
     
 - **Server stub**: Um procedimento no servidor. Sua função é desempacotar os argumentos da mensagem de requisição, chamar o procedimento de serviço real (a implementação) e, em seguida, empacotar os resultados em uma mensagem de resposta para enviar de volta ao cliente.
-    
-
-O **Sun RPC** é apresentado como um estudo de caso que utiliza a linguagem XDR como IDL e pode ser executado sobre UDP (com semântica "pelo menos uma vez") ou TCP
