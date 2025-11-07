@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12_Sistemas Distribuídos/Cap5/4_ Invocação a Método Remoto.md",
+                "file": "12_Sistemas Distribuídos/Cap5/5_Estudo de Caso - RMI Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_ Invocação a Método Remoto"
+              "title": "5_Estudo de Caso - RMI Java"
             }
           }
         ]
@@ -182,10 +182,11 @@
   },
   "active": "a7c0314afc7f0671",
   "lastOpenFiles": [
+    "12_Sistemas Distribuídos/Cap5/4_ Invocação a Método Remoto.md",
+    "12_Sistemas Distribuídos/Cap5/5_Estudo de Caso - RMI Java.md",
     "attachments/Pasted image 20251107142504.png",
     "attachments/Pasted image 20251107142426.png",
     "12_Sistemas Distribuídos/Cap5/3_Chamada de procedimento remoto (RPC).md",
-    "12_Sistemas Distribuídos/Cap5/4_ Invocação a Método Remoto.md",
     "attachments/Pasted image 20251107141415.png",
     "12_Sistemas Distribuídos/Cap5/1_Introdução à Invocação Remota.md",
     "12_Sistemas Distribuídos/Cap5/2_Protocolos de Requisição-Resposta.md",
@@ -223,7 +224,6 @@
     "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/Untitled",
     "attachments/Pasted image 20251104061213.png",
-    "attachments/Pasted image 20251101140214.png",
     "15_IA",
     "11_Engenharia de Software/10_DevOps",
     "11_Engenharia de Software/9_Refatoração",

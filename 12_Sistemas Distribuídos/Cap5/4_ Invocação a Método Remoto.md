@@ -34,28 +34,22 @@ Assim como a RPC, a RMI é implementada usando componentes de software que autom
     
 - **Esqueleto**: Um objeto no lado do servidor que recebe a mensagem de requisição. Ele desempacota os argumentos e invoca o método correspondente no objeto de implementação real.
     
-- **Servente (Servant):** É a instância da classe no servidor que contém a lógica de negócios real e implementa os métodos da interface remota13.
+- **Servente:** É a instância da classe no servidor que contém a lógica de negócios real e implementa os métodos da interface remota
     
-- **Módulo de Referência Remota:** Um componente em cada processo que gerencia a tradução entre referências de objetos locais (para proxies ou serventes) e as **referências de objeto remoto** (identificadores globalmente únicos) que são transmitidas pela rede14.
-    
+- **Módulo de Referência Remota:** Um componente em cada processo que gerencia a tradução entre referências de objetos locais (para proxies ou serventes) e as **referências de objeto remoto** (identificadores globalmente únicos) que são transmitidas pela rede.
 
 O livro também menciona outros conceitos de implementação:
 
-- **Vinculador (Binder):** Um serviço separado (como o `RMIregistry` do Java ou o _Naming Service_ do CORBA) que atua como uma lista telefônica, permitindo que os clientes procurem um objeto remoto usando um nome textual (ex: "ServiçoDeImpressora") para obter sua referência de objeto remoto inicial15.
+- **Binder:** Um serviço separado que atua como uma lista telefônica, permitindo que os clientes procurem um objeto remoto usando um nome textual (ex: "ServiçoDeImpressora") para obter sua referência de objeto remoto inicial.
     
-- **Ativação:** Um mecanismo que permite que objetos fiquem em estado "passivo" (armazenados em disco) e sejam ativados (carregados na memória) sob demanda quando uma invocação para eles chega. Isso economiza recursos, pois o servidor não precisa manter todos os seus objetos na memória o tempo todo16.
-    
+- **Ativação:** Um mecanismo que permite que objetos fiquem em estado "passivo" (armazenados em disco) e sejam ativados (carregados na memória) sob demanda quando uma invocação para eles chega. Isso economiza recursos, pois o servidor não precisa manter todos os seus objetos na memória o tempo todo.
 
-#### **Coleta de Lixo Distribuída (Seção 5.4.3)**
+---
+### **3. Coleta de Lixo Distribuída**
 
-Como os objetos remotos são passados por referência, o sistema precisa de uma forma de saber quando um objeto remoto não é mais necessário e pode ser excluído (coletado).
+Como os objetos remotos são passados por referência, o sistema precisa de uma forma de saber quando um objeto remoto não é mais necessário e pode ser excluído.
 
-- A RMI Java usa um algoritmo de contagem de referência. O servidor (onde o objeto real vive) mantém um registro de quais clientes (processos) possuem uma referência (proxy) para seu objeto17.
-    
+- A RMI Java usa um algoritmo de contagem de referência. O servidor mantém um registro de quais clientes possuem uma referência para seu objeto.
 - Quando um cliente cria um proxy, ele chama `addRef()` no servidor.
-    
-- Quando o coletor de lixo local do cliente determina que o proxy não é mais usado, ele chama `removeRef()` no servidor18.
-    
-- Quando o número de referências de um objeto chega a zero, o servidor sabe que ele pode ser coletado.
-    
-- **Leasing (Arrendamento):** Para lidar com falhas de clientes (que podem falhar antes de chamar `removeRef()`), o servidor concede "arrendamentos" (leases) de curta duração para as referências. O cliente deve renovar periodicamente o arrendamento. Se um cliente falhar, seu arrendamento expirará, e o servidor removerá a referência automaticamente, permitindo que o objeto seja eventualmente coletado19.
+- Quando o coletor de lixo local do cliente determina que o proxy não é mais usado, ele chama `removeRef()` no servidor.    
+- **Leasing:** Para lidar com falhas de clientes (que podem falhar antes de chamar `removeRef()`), o servidor concede "arrendamentos"  de curta duração para as referências. O cliente deve renovar periodicamente o arrendamento. Se um cliente falhar, seu arrendamento expirará, e o servidor removerá a referência automaticamente.
