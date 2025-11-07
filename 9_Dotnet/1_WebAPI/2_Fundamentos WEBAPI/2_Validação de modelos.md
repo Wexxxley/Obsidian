@@ -7,7 +7,7 @@ Em ASP.NET Core, as validações de modelos podem ser classificadas em built-in�
 ### **1. Validações Built-in (DataAnnotations)**
 As validações built-in são aquelas fornecidas pela biblioteca ASP.NET Core através de Data Annotations. Elas são fáceis de usar e oferecem validações comuns prontas para uso. 
 
-[5_DataAnnotations](9_Dotnet/1_WebAPI/1_Criando%20uma%20WebAPI/5_DataAnnotations.md)
+[5_DataAnnotations](../1_Criando%20uma%20WebAPI/5_DataAnnotations.md)
 
 ---
 ### **2. Validações personalizadas**

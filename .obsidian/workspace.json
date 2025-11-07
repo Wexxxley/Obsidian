@@ -39,14 +39,14 @@
             "id": "a25af5d38d099133",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Aleatórios/1_Blocos obsidian.md",
-                "mode": "source",
-                "source": false
+                "aFile": "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
+                "bFile": "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "1_Blocos obsidian"
+              "icon": "diff",
+              "title": "Diff: 1_API e HTTP"
             }
           }
         ],
@@ -211,6 +211,7 @@
   },
   "active": "a25af5d38d099133",
   "lastOpenFiles": [
+    "Aleatórios/1_Blocos obsidian.md",
     "attachments/Pasted image 20251106212316.png",
     "15_IA/Busca em largura, profundidade e custo uniforme.md",
     "conflict-files-obsidian-git.md",
@@ -255,7 +256,6 @@
     "11_Engenharia de Software/10_DevOps",
     "11_Engenharia de Software/9_Refatoração",
     "attachments/Pasted image 20251029105832.png",
-    "attachments/Pasted image 20251029105559.png",
     "12_Sistemas Distribuídos/Cap5",
     "Sem título.canvas"
   ]
