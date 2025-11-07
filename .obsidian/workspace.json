@@ -34,23 +34,9 @@
               "icon": "lucide-file",
               "title": "Busca em largura, profundidade e custo uniforme"
             }
-          },
-          {
-            "id": "a25af5d38d099133",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
-                "bFile": "9_Dotnet/1_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 1_API e HTTP"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a25af5d38d099133",
+  "active": "4f57f88bace28f5e",
   "lastOpenFiles": [
     "Aleatórios/1_Blocos obsidian.md",
     "attachments/Pasted image 20251106212316.png",
