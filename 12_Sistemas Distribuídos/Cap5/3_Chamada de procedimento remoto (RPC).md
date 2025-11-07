@@ -25,40 +25,33 @@ Em sistemas distribuídos, os módulos (cliente e servidor) executam-se em proce
 
 **Semântica Pelo Menos Uma Vez :** O cliente retransmite a requisição até receber uma resposta. O servidor _não_ tem um filtro para detectar requisições duplicadas. O cliente sabe se receber uma resposta que o procedimento foi executado **uma ou mais vezes**.
 
-**Semântica No Máximo Uma Vez**: O cliente retransmite a requisição (como na "pelo menos uma vez"), MAS o servidor é "inteligente": ele usa **filtragem de duplicatas** (geralmente checando um ID de requisição) e um **histórico de respostas**.
-    
-- **O que o cliente sabe (se receber uma resposta):** Que o procedimento foi executado **exatamente uma vez**.
-    
-- **Por que isso acontece?** Se a resposta do servidor se perder, o cliente retransmite a requisição. O servidor recebe a requisição duplicada, detecta (pelo ID) que já a executou, **não a executa novamente** e, em vez disso, apenas retransmite a resposta que ele havia guardado em seu histórico.
-    
-- **Medidas de falha usadas:** Retransmissão da Requisição + Filtragem de Duplicatas + Retransmissão de Respostas (Histórico).
+**Semântica No Máximo Uma Vez**: O cliente retransmite a requisição, MAS o servidor usa filtragem de duplicatas (checando um ID de requisição) e um histórico de respostas. O cliente sabe ao receber uma resposta que o procedimento foi executado **exatamente uma vez**.
 
-**3. Transparência**
+---
+### 3. Transparência
+O objetivo original da RPC era fornecer transparência de acesso e localização, fazendo com que a chamada remota fosse sintaticamente idêntica a uma chamada local. No entanto, essa transparência não é total. Chamadas remotas são fundamentalmente diferentes das locais:
 
-- O objetivo original da RPC era fornecer **transparência de acesso e localização**, fazendo com que a chamada remota fosse sintaticamente idêntica a uma chamada local.
-    
-- No entanto, o livro aponta que essa transparência **não é total** e pode ser enganosa. Chamadas remotas são fundamentalmente diferentes das locais porque:
-    
-    - Estão sujeitas a **falhas de rede e de processos remotos** (falhas parciais).
-        
-    - Têm uma **latência significativamente maior**.
-        
-    - Não suportam passagem de parâmetros por referência (ponteiros de memória).
-        
-- Portanto, o consenso atual é que, embora a _sintaxe_ da chamada deva ser transparente, a _interface_ do serviço remoto deve deixar claro que se trata de uma operação distribuída, por exemplo, disparando exceções específicas de rede.
-    
+- Estão sujeitas a falhas de rede e de processos remotos.      
+- Têm uma latência significativamente maior.  
+- Não suportam passagem de parâmetros por referência. 
 
-#### **Implementação de RPC (Seção 5.3.2)**
+Portanto, o consenso atual é que, embora a _sintaxe_ da chamada deva ser transparente, a interface
+do serviço remoto deve deixar claro que se trata de uma operação distribuída, por exemplo, disparando exceções específicas de rede.
+
+---
+#### **Implementação de RPC**
 
 A RPC é implementada usando componentes de software gerados automaticamente a partir da definição da IDL:
 
-- **Stub do Cliente (Client Stub)**: Um procedimento que é executado no cliente. Ele se parece com o procedimento remoto real, mas sua única função é empacotar (marshal) os argumentos em uma mensagem de requisição e enviá-la ao servidor. Em seguida, ele espera pela resposta, desempacota os resultados e os retorna ao programa cliente.
+![600](../../attachments/Pasted%20image%2020251107141415.png)
+
+- **Client Stub**: Um procedimento que é executado no cliente. Ele se parece com o procedimento remoto real, mas sua única função é empacotar os argumentos em uma mensagem de requisição e enviá-la ao servidor. Em seguida, ele espera pela resposta, desempacota os resultados e os retorna ao programa cliente.
     
-- **Módulo de Comunicação**: Lida com a transmissão de mensagens (requisições e respostas) entre o cliente e o servidor, implementando a semântica de chamada desejada (ex: retransmissões).
+- **Módulo de Comunicação**: Lida com a transmissão de mensagens entre o cliente e o servidor, implementando a semântica de chamada desejada (ex: retransmissões).
     
-- **Despachante (Dispatcher)**: Executado no servidor. Ele recebe a mensagem de requisição, examina o identificador do procedimento e chama o esqueleto do servidor correspondente.
+- **Despachante**: Executado no servidor. Ele recebe a mensagem de requisição, examina o identificador do procedimento e chama o server stub.
     
-- **Esqueleto do Servidor (Server Skeleton)**: Um procedimento no servidor. Sua função é desempacotar os argumentos da mensagem de requisição, chamar o procedimento de serviço real (a implementação) e, em seguida, empacotar os resultados em uma mensagem de resposta para enviar de volta ao cliente.
+- **Server stub**: Um procedimento no servidor. Sua função é desempacotar os argumentos da mensagem de requisição, chamar o procedimento de serviço real (a implementação) e, em seguida, empacotar os resultados em uma mensagem de resposta para enviar de volta ao cliente.
     
 
 O **Sun RPC** é apresentado como um estudo de caso que utiliza a linguagem XDR como IDL e pode ser executado sobre UDP (com semântica "pelo menos uma vez") ou TCP
