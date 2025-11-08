@@ -39,7 +39,7 @@ A tupla ==(local IP, local porta, remoto IP, remoto porta)== identifica  a cone
 1. **Comunicação Síncrona:** O processo de origem é **bloqueado** até que a operação correspondente, como o recebimento (_receive_) da mensagem, seja concluída. 
 
 2. **Comunicação Assíncrona:** A operação de envio (_send_) é **não bloqueante**. O processo de origem pode continuar a execução assim que a mensagem for copiada para um _buffer_ local. A transmissão da mensagem ocorre em paralelo com o processo de origem.
-    - A operação de recebimento em comunicação assíncrona pode ter variantes com e sem bloqueio. Na variante **não bloqueante**, o processo destino continua a execução após executar o `receive`, e o _buffer_ é preenchido em _background_. O processo deve então receber uma notificação (por _polling_ ou interrupção) de que os dados estão prontos.
+    - A operação de recebimento em comunicação assíncrona pode ter variantes com e sem bloqueio. Na variante **não bloqueante**, o processo destino continua a execução após executar o `receive`, e o _buffer_ é preenchido em _background_. O processo deve então receber uma notificação de que os dados estão prontos.
 
 ---
 ### 3. Comunicação por Fluxo (Streams)

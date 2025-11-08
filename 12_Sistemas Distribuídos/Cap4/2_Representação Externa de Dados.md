@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 O principal desafio é que **diferentes computadores podem usar diferentes representações** para tipos de dados simples, como inteiros ou números de ponto flutuante (problema de heterogeneidade). O processo de transformar dados estruturados em uma sequência de bytes para transmissão é chamado de **empacotamento** (_marshalling_).
