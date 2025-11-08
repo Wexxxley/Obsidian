@@ -48,3 +48,48 @@ Os **servidores** usam portas fixas (bem conhecidas) para que os clientes possam
 e. um _Socket_, identificado por um número de porta de dezesseis bits, é uma interface de software para que aplicações enviem e/ou recebam mensagens, usando os protocolos TCP ou UDP da camada de transporte.
 
 ---
+**Em relação a comunicações baseadas em _Socket_ na linguagem de programação Java, são feitas as seguintes afirmações**
+
+**I.** Caso aconteça algum erro de entrada/saída ao fechar o socket, uma exceção do tipo _SocketException_ irá ocorrer.
+
+operações `send` e `receive` podem disparar uma `IOException`
+
+**II.** Um objeto da classe _InetAddress_ contém um endereço IP.
+
+**III.** A classe _DatagramSocket_ vincula o aplicativo a uma porta para transmissão de datagrama.
+
+Estão corretas as afirmativas
+
+Escolha uma opção:
+
+a. **I** e **II** apenas.
+
+b. **I**, **II** e **III**. 
+
+c. **I** e **III** apenas.
+
+<mark style="background: #BBFABBA6;">d. **II** e **III** apenas.
+</mark>
+
+---
+
+**Sobre classes de endereço de IP em sua versão 4 (IPv4), é correto afirmar que**
+
+a.  classe A: primeiro bit do endereço IP é 1.
+
+b. classe B: primeiros dois bits do endereço IP são 11.
+
+c. classe D (multicast): primeiros três bits do endereço IP são 101.
+
+d.  classe C: primeiros três bits do endereço IP são 110. 
+
+e.  classe E: primeiros quatro bits do endereço IP são 1010.
+
+| Classes | Intervalo do Primeiro Octeto | Padrão dos Primeiros Bits | Uso Principal        |
+| :------ | :--------------------------- | :------------------------ | :------------------- |
+| **A**   | 0 - 127                      | `0`xxxxxxx                | Grandes redes        |
+| **B**   | 128 - 191                    | `10`xxxxxx                | Médias/Grandes redes |
+| **C**   | 192 - 223                    | `110`xxxxx                | Pequenas redes       |
+| **D**   | 224 - 239                    | `1110`xxxx                | Multicast            |
+| **E**   | 240 - 255                    | `1111`xxxx                | Experimental/Testes  |
+As classes são calculadas com base no primeiro octeto de bits.
