@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15_IA/1_Agentes inteligentes.md",
+                "file": "15_IA/2_Programas de agentes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Agentes inteligentes"
+              "title": "2_Programas de agentes"
             }
           }
         ]
@@ -182,12 +182,13 @@
   },
   "active": "a7c0314afc7f0671",
   "lastOpenFiles": [
+    "15_IA/1_Agentes inteligentes.md",
+    "15_IA/2_Programas de agentes.md",
     "attachments/Pasted image 20251108181036.png",
     "attachments/Pasted image 20251108180737.png",
     "attachments/Pasted image 20251108180710.png",
     "attachments/Pasted image 20251108180452.png",
     "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
-    "15_IA/1_Agentes inteligentes.md",
     "attachments/Pasted image 20251108163145.png",
     "attachments/Pasted image 20251108163036.png",
     "attachments/Pasted image 20251108163022.png",
@@ -209,7 +210,6 @@
     "2_Redes de computadores/3_Camada de Transporte/3_ Socket e portas.md",
     "12_Sistemas Distribuídos/Cap5/5_Estudo de Caso - RMI Java.md",
     "12_Sistemas Distribuídos/Cap5/4_ Invocação a Método Remoto.md",
-    "attachments/Pasted image 20251107142504.png",
     "12_Sistemas Distribuídos/Cap5/3_Chamada de procedimento remoto (RPC).md",
     "12_Sistemas Distribuídos/Cap5/1_Introdução à Invocação Remota.md",
     "12_Sistemas Distribuídos/Cap5/2_Protocolos de Requisição-Resposta.md",

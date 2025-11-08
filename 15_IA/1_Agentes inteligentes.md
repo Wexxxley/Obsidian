@@ -51,29 +51,25 @@ Para projetar um agente racional, os slides introduzem o framework **PEAS**:
 
 ---
 **Determinístico:** O próximo estado do ambiente é totalmente previsível com base no estado atual e na ação do agente. Se o agente executa a ação "A" no estado "X", o resultado será _sempre_ o estado "Y".
-        
-    - **Estocástico:** O próximo estado do ambiente não é totalmente determinado; há um elemento de incerteza ou aleatoriedade. (Ex: Um robô que tenta andar pode escorregar; um carro autônomo não pode prever com certeza se o freio de outro carro falhará).
-        
-- **Episódico vs. Sequencial**
     
-    - **Episódico:** A experiência do agente é dividida em "episódios" independentes. Em cada episódio, o agente percebe o ambiente e realiza uma única ação. A ação tomada em um episódio não afeta os episódios futuros. (Ex: Um sistema que classifica imagens uma por uma).
-        
-    - **Sequencial:** As decisões atuais afetam todas as decisões futuras. O agente precisa planejar a longo prazo, pois suas ações têm consequências duradouras. (Ex: Em um jogo de xadrez, uma má jogada agora pode levar à derrota muitas jogadas depois).
-        
-- **Estático vs. Dinâmico**
+**Estocástico:** O próximo estado do ambiente não é totalmente determinado; há um elemento de aleatoriedade ou probabilidade. (Ex: um carro autônomo não pode prever com certeza se o freio de outro carro falhará).
+
+---
+**Episódico:** A experiência do agente é dividida em "episódios" independentes. Em cada episódio, o agente percebe o ambiente e realiza uma única ação. A ação tomada em um episódio não afeta os episódios futuros. (Ex: Um sistema que classifica imagens uma por uma).
     
-    - **Estático:** O ambiente não muda enquanto o agente está "pensando" ou decidindo qual ação tomar. O agente pode levar o tempo que precisar para deliberar.
-        
-    - **Dinâmico:** O ambiente pode mudar enquanto o agente está deliberando. Isso o força a tomar decisões rapidamente, pois o mundo não "pausa" para ele. (Ex: Dirigir um carro em tráfego intenso).
-        
-- **Discreto vs. Contínuo**
+**Sequencial:** As decisões atuais afetam todas as decisões futuras. O agente precisa planejar a longo prazo, pois suas ações têm consequências duradouras. (Ex: Em um jogo de xadrez, uma má jogada agora pode levar à derrota muitas jogadas depois).
+
+---
+**Estático:** O ambiente não muda enquanto o agente está "pensando" ou decidindo qual ação tomar. O agente pode levar o tempo que precisar para deliberar.
     
-    - **Discreto:** O estado do ambiente, o tempo e as ações do agente são finitos ou contáveis. (Ex: Jogo de xadrez, com um número finito de casas e peças).
-        
-    - **Contínuo:** O estado, o tempo ou as ações assumem valores em um intervalo contínuo (números reais). (Ex: Dirigir um carro, onde a velocidade, a posição e o ângulo do volante são valores contínuos).
-        
-- **Conhecido vs. Desconhecido**
+**Dinâmico:** O ambiente pode mudar enquanto o agente está pensando. Isso o força a tomar decisões rapidamente. (Ex: Dirigir um carro em tráfego intenso).
+
+---
+**Discreto:** O estado do ambiente, o tempo e as ações do agente são finitos ou contáveis. (Ex: Jogo de xadrez, com um número finito de casas e peças).
     
-    - **Conhecido:** O agente conhece as "regras" do ambiente. Ele sabe quais são os resultados de suas ações (ou as probabilidades de resultados, se for estocástico).
-        
-    - **Desconhecido:** O agente não sabe como o ambiente funciona e deve primeiro explorá-lo para aprender suas regras e como suas ações afetam o estado.
+**Contínuo:** O estado, o tempo ou as ações assumem valores em um intervalo contínuo (números reais). (Ex: Dirigir um carro, onde a velocidade, a posição e o ângulo do volante são valores contínuos).
+
+---
+**Conhecido:** O agente conhece as "regras" do ambiente. Ele sabe quais são os resultados de suas ações (ou as probabilidades de resultados, se for estocástico).
+    
+**Desconhecido:** O agente não sabe como o ambiente funciona e deve primeiro explorá-lo para aprender suas regras e como suas ações afetam o estado.
