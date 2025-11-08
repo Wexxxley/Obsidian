@@ -109,3 +109,56 @@ d. O _socket_ é uma construção de software que representa a parte intermed
 <mark style="background: #BBFABBA6;">e. Essa comunicação permite ao aplicativo visualizar a rede como se fosse uma entrada/saída de arquivo.</mark>
 
 Para usar um `Socket` TCP, o programador obtém um `InputStream` e um `OutputStream`. Essas são as mesmas classes abstratas do pacote `java.io` usadas para ler e escrever em arquivos. Isso permite ao aplicativo tratar a rede como se fosse um arquivo, lendo dados dela (`read`) e escrevendo dados para ela (`write`).
+
+
+---
+
+**Em relação à sincronização na comunicação entre processos, podemos afirmar que:**
+
+**I.** Na comunicação semi-bloqueante, o emissor espera indefinidamente pela possibilidade de enviar os dados.
+
+- Uma comunicação "semi-bloqueante" (ou com _timeout_) é definida por esperar por um tempo _limitado_. 
+
+**II.** Na comunicação síncrona ou bloqueante, o receptor espera até receber a mensagem.
+
+**III.** Um mecanismo de comunicação semi-bloqueante com prazo t = ∞ equivale a um mecanismo bloqueante.
+
+**IV.** Na comunicação síncrona ou bloqueante, o emissor retorna uma mensagem de erro caso o receptor não esteja pronto para receber a mensagem.
+
+- Na comunicação síncrona, o emissor espera até que o receptor esteja pronto para receber. Ele não retorna imediatamente com um erro. 
+
+**V.** A comunicação com semântica bloqueante usando canais sem buffer é chamada RendezVous.
+
+As afirmações corretas são:
+
+a. II, III.
+
+b. I, II, IV.
+
+<mark style="background: #BBFABBA6;">c. II, III, V. </mark>
+
+d. III, IV, V.
+
+e. I, III.
+
+---
+
+**Em relação a problemas de sincronização e acordo em sistemas distribuídos, é correto afirmar que:**
+
+a. As soluções desses problemas são relativamente simples, mas suas implementações são ainda muito lentas para serem utilizadas em sistemas distribuídos de produção.
+
+b. Sua possível solução depende das garantias de comunicação consideradas para o ambiente de execução do sistema (sistemas síncronos, assíncronos ou modelos intermediários). 
+
+c. São problemas presentes no desenvolvimento de sistemas de computação em nuvem, que não estão relacionados a sistemas distribuídos mais simples, tais como um sistema cliente-servidor.
+
+d. São problemas importantes na implementação de sistemas operacionais distribuídos, mas que não interferem no desenvolvimento de aplicações distribuídas que serão executadas nesses sistemas.
+
+e. Com o advento da internet e, mais recentemente, o desenvolvimento de sistemas de computação em nuvem, deixaram de ser problemas relevantes para quem desenvolve sistemas para esses ambientes.
+
+- **b. Correto.** O livro estabelece uma distinção fundamental entre **sistemas síncronos** (onde há limites conhecidos para tempos de execução e entrega de mensagens) e **sistemas assíncronos** (onde não há tais limites). A capacidade de resolver problemas de acordo depende diretamente dessas garantias. O livro afirma que "existem problemas que não podem ser resolvidos para um sistema assíncrono, mas que podem ser tratados quando alguns aspectos de tempo são usados".
+    
+- **c. Incorreto.** Problemas de sincronização, como a **concorrência**, são fundamentais até mesmo nos sistemas distribuídos mais simples. O livro descreve o desafio de "vários clientes tentem acessar um recurso compartilhado ao mesmo tempo" no contexto geral, o que se aplica diretamente ao modelo cliente-servidor.
+    
+- **d. Incorreto.** Esses problemas interferem diretamente no desenvolvimento de aplicações. O livro afirma que "qualquer programador que implemente um objeto que não foi destinado para uso em um sistema distribuído deve fazer o que for necessário para garantir que, em um ambiente concorrente, ele não assuma resultados inconsistentes".
+    
+- **e. Incorreto.** O advento da Internet e da computação em nuvem, por serem sistemas distribuídos massivos, heterogêneos e assíncronos, tornou os problemas de sincronização e acordo **ainda mais críticos e complexos**, e não menos relevantes.
