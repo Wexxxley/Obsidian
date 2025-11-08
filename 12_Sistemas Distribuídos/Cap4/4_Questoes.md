@@ -147,7 +147,9 @@ e. I, III.
 
 a. As soluções desses problemas são relativamente simples, mas suas implementações são ainda muito lentas para serem utilizadas em sistemas distribuídos de produção.
 
-b. Sua possível solução depende das garantias de comunicação consideradas para o ambiente de execução do sistema (sistemas síncronos, assíncronos ou modelos intermediários). 
+<mark style="background: #BBFABBA6;">b. Sua possível solução depende das garantias de comunicação consideradas para o ambiente de execução do sistema (sistemas síncronos, assíncronos ou modelos intermediários). </mark>
+
+-  A capacidade de resolver problemas de acordo depende diretamente dessas garantias. O livro afirma que "existem problemas que não podem ser resolvidos para um sistema assíncrono, mas que podem ser tratados quando alguns aspectos de tempo são usados".
 
 c. São problemas presentes no desenvolvimento de sistemas de computação em nuvem, que não estão relacionados a sistemas distribuídos mais simples, tais como um sistema cliente-servidor.
 
@@ -155,10 +157,7 @@ d. São problemas importantes na implementação de sistemas operacionais distr
 
 e. Com o advento da internet e, mais recentemente, o desenvolvimento de sistemas de computação em nuvem, deixaram de ser problemas relevantes para quem desenvolve sistemas para esses ambientes.
 
-- **b. Correto.** O livro estabelece uma distinção fundamental entre **sistemas síncronos** (onde há limites conhecidos para tempos de execução e entrega de mensagens) e **sistemas assíncronos** (onde não há tais limites). A capacidade de resolver problemas de acordo depende diretamente dessas garantias. O livro afirma que "existem problemas que não podem ser resolvidos para um sistema assíncrono, mas que podem ser tratados quando alguns aspectos de tempo são usados".
-    
-- **c. Incorreto.** Problemas de sincronização, como a **concorrência**, são fundamentais até mesmo nos sistemas distribuídos mais simples. O livro descreve o desafio de "vários clientes tentem acessar um recurso compartilhado ao mesmo tempo" no contexto geral, o que se aplica diretamente ao modelo cliente-servidor.
-    
-- **d. Incorreto.** Esses problemas interferem diretamente no desenvolvimento de aplicações. O livro afirma que "qualquer programador que implemente um objeto que não foi destinado para uso em um sistema distribuído deve fazer o que for necessário para garantir que, em um ambiente concorrente, ele não assuma resultados inconsistentes".
-    
-- **e. Incorreto.** O advento da Internet e da computação em nuvem, por serem sistemas distribuídos massivos, heterogêneos e assíncronos, tornou os problemas de sincronização e acordo **ainda mais críticos e complexos**, e não menos relevantes.
+---
+![](../../attachments/Pasted%20image%2020251108160134.png)
+
+---
