@@ -189,3 +189,16 @@ O problema é que  <mark style="background: #BBFABBA6;">dados no formato binári
 ![](../../attachments/Pasted%20image%2020251108163145.png)
 
 ---
+**Imagine um cenário no qual mensagens multicast enviadas por diferentes clientes são entregues em ordens diferentes a dois membros do grupo. Suponha que esteja em uso alguma forma de retransmissões de mensagem, mas que as mensagens que não são descartadas cheguem na ordem do remetente. Sugira o modo como os destinos poderiam remediar essa situação.**
+
+Quando você tem um grupo de processos (como servidores replicados) que devem ser cópias idênticas uns dos outros, a ordem em que eles processam as operações é crucial. 
+
+Para remediar essa situação, os destinos precisam implementar um protocolo de **multicast totalmente ordenado**.
+
+1. **Não entregar imediatamente:** Os processos de destino não devem entregar as mensagens para a aplicação assim que elas chegam.
+    
+2. **Armazenar em buffer:** As mensagens recebidas são primeiro armazenadas em um buffer temporário.
+    
+3. **Estabelecer uma ordem global:** Os processos de destino devem usar um **protocolo de acordo** para concordar com uma **única ordem de entrega global** para todas as mensagens de todos os remetentes (por exemplo, atribuindo um número de sequência global a cada mensagem).
+    
+4. **Entregar na ordem:** Os processos de destino só entregam as mensagens do buffer para suas aplicações locais após elas estarem na ordem global acordada.
