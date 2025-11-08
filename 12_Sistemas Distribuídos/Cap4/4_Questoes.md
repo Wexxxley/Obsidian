@@ -55,19 +55,13 @@ e. um _Socket_, identificado por um número de porta de dezesseis bits, é uma
 operações `send` e `receive` podem disparar uma `IOException`
 
 **II.** Um objeto da classe _InetAddress_ contém um endereço IP.
-
 **III.** A classe _DatagramSocket_ vincula o aplicativo a uma porta para transmissão de datagrama.
 
 Estão corretas as afirmativas
 
-Escolha uma opção:
-
 a. **I** e **II** apenas.
-
 b. **I**, **II** e **III**. 
-
 c. **I** e **III** apenas.
-
 <mark style="background: #BBFABBA6;">d. **II** e **III** apenas.
 </mark>
 
@@ -99,13 +93,9 @@ As classes são calculadas com base no primeiro octeto de bits.
 **Marque a alternativa correta em relação às comunicações baseadas em _socket_ da linguagem Java:**
 
 a. Essa comunicação permite ao aplicativo visualizar a rede como se fosse um _applet_.
-
 b. Os _sockets_ de datagrama através do protocolo UDP utilizam o serviço orientado para conexão.
-
-c. Os _sockets_ de fluxo através do protocolo TCP fornecem um serviço sem conexão.
-
+c. Os _sockets_ de fluxo através do protocolo TCP fornecem um serviço sem conexão
 d. O _socket_ é uma construção de software que representa a parte intermediária de uma conexão.
-
 <mark style="background: #BBFABBA6;">e. Essa comunicação permite ao aplicativo visualizar a rede como se fosse uma entrada/saída de arquivo.</mark>
 
 Para usar um `Socket` TCP, o programador obtém um `InputStream` e um `OutputStream`. Essas são as mesmas classes abstratas do pacote `java.io` usadas para ler e escrever em arquivos. Isso permite ao aplicativo tratar a rede como se fosse um arquivo, lendo dados dela (`read`) e escrevendo dados para ela (`write`).
@@ -132,13 +122,9 @@ Para usar um `Socket` TCP, o programador obtém um `InputStream` e um `OutputStr
 As afirmações corretas são:
 
 a. II, III.
-
 b. I, II, IV.
-
 <mark style="background: #BBFABBA6;">c. II, III, V. </mark>
-
 d. III, IV, V.
-
 e. I, III.
 
 ---
@@ -195,10 +181,6 @@ Quando você tem um grupo de processos (como servidores replicados) que devem se
 
 Para remediar essa situação, os destinos precisam implementar um protocolo de **multicast totalmente ordenado**.
 
-1. **Não entregar imediatamente:** Os processos de destino não devem entregar as mensagens para a aplicação assim que elas chegam.
+1. **Não entregar imediatamente:** Os processos de destino não devem entregar as mensagens para a aplicação assim que elas chegam. As mensagens recebidas são primeiro armazenadas em um buffer temporário.
     
-2. **Armazenar em buffer:** As mensagens recebidas são primeiro armazenadas em um buffer temporário.
-    
-3. **Estabelecer uma ordem global:** Os processos de destino devem usar um **protocolo de acordo** para concordar com uma **única ordem de entrega global** para todas as mensagens de todos os remetentes (por exemplo, atribuindo um número de sequência global a cada mensagem).
-    
-4. **Entregar na ordem:** Os processos de destino só entregam as mensagens do buffer para suas aplicações locais após elas estarem na ordem global acordada.
+2. **Estabelecer uma ordem global:** Os processos de destino devem usar um **protocolo de acordo** para concordar com uma **única ordem de entrega global**. Os processos de destino só entregam as mensagens do buffer para suas aplicações locais após elas estarem na ordem global acordada.
