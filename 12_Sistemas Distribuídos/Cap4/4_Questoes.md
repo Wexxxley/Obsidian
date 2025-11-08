@@ -171,20 +171,12 @@ e. Com o advento da internet e, mais recentemente, o desenvolvimento de sistema
 
 **Por que dados binários não podem ser representados diretamente em XML, por exemplo, como valores em Unicode? Os elementos XML podem transportar strings representados como base64. Discuta as vantagens ou desvantagens de usar esse método para representar dados binários.**
 
-Porque o XML é fundamentalmente uma **"codificação textual"**, todas as informações nos elementos XML são expressas com dados do tipo caractere.
+Porque o XML é fundamentalmente uma **"codificação textual"**, todas as informações nos elementos XML são expressos com dados do tipo caractere.
 
-O problema é que os dados binários são uma sequência de bytes que podem ter qualquer valor. Muitos desses valores não correspondem a caracteres de texto válidos em codificações como Unicode (UTF-8). Mais importante, alguns bytes binários podem ser idênticos aos caracteres que o XML usa para sua própria sintaxe (como `<`, `>`, `&`). Se um analisador (parser) XML encontrar esses bytes brutos, ele os interpretará como tags corrompidas, e não como dados, fazendo com que a leitura do documento falhe.
+O problema é que os <mark style="background: #BBFABBA6;">dados binários são uma sequência de bytes que podem ter qualquer valor.</mark> Alguns bytes binários podem ser idênticos aos caracteres que o XML usa para sua própria sintaxe (como `<`, `>`, `&`). Se um analisador XML encontrar esses bytes brutos, ele os interpretará como tags corrompidas, e não como dados. Por isso, os dados binários precisam ser _codificados_ em um formato que use apenas caracteres de texto seguros.
 
-Por isso, os dados binários precisam ser _codificados_ em um formato que use apenas caracteres de texto seguros.
-
-### Vantagens e Desvantagens de usar Base64
-
-O livro menciona o Base64 como a solução para esse problema.
-
-- **Vantagem:** A principal vantagem é a **compatibilidade**. O Base64 converte os dados binários em uma `string` que usa apenas "caracteres alfanuméricos, junto a +, / e =". Isso garante que os dados possam ser transportados com segurança dentro de um documento XML textual sem corromper sua estrutura ou ser mal interpretado pelo analisador.
+- **Vantagem base 64:** A principal vantagem é a **compatibilidade**. O Base64 converte os dados binários em uma `string` que usa apenas "caracteres alfanuméricos". Isso garante que os dados possam ser transportados com segurança dentro de um documento XML sem ser mal interpretado pelo analisador.
     
-- **Desvantagem:** A principal desvantagem é a **sobrecarga**. O livro afirma que "Existe uma sobrecarga de tempo e espaço considerável quando dados binários são convertidos para base64".
-    
-    - **Sobrecarga de Espaço:** A representação em Base64 é significativamente maior (cerca de 33%) do que os dados binários originais, exigindo mais largura de banda para transmissão.
-        
-    - **Sobrecarga de Tempo (Processamento):** É necessário tempo de CPU para realizar a codificação dos dados para Base64 no remetente e a decodificação de volta para o formato binário no destinatário.
+- **Desvantagem:** A principal desvantagem é a **sobrecarga**. Existe uma sobrecarga de tempo e espaço considerável quando dados binários são convertidos para base64.
+    - **Sobrecarga de Espaço:** A representação em Base64 é significativamente maior (cerca de 33%) do que os dados binários originais.
+    - **Sobrecarga de Tempo:** É necessário tempo de CPU para realizar a codificação dos dados para Base64 no remetente e a decodificação no destinatário.
