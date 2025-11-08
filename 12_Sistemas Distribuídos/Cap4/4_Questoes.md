@@ -173,10 +173,19 @@ e. Com o advento da internet e, mais recentemente, o desenvolvimento de sistema
 
 Porque o XML é fundamentalmente uma **"codificação textual"**, todas as informações nos elementos XML são expressos com dados do tipo caractere.
 
-O problema é que os <mark style="background: #BBFABBA6;">dados binários são uma sequência de bytes que podem ter qualquer valor.</mark> Alguns bytes binários podem ser idênticos aos caracteres que o XML usa para sua própria sintaxe (como `<`, `>`, `&`). Se um analisador XML encontrar esses bytes brutos, ele os interpretará como tags corrompidas, e não como dados. Por isso, os dados binários precisam ser _codificados_ em um formato que use apenas caracteres de texto seguros.
+O problema é que  <mark style="background: #BBFABBA6;">dados no formato binários são uma sequência de bytes que podem ter qualquer valor.</mark> Alguns bytes binários podem ser idênticos aos caracteres que o XML usa para sua própria sintaxe (como `<`, `>`, `&`). Se um analisador XML encontrar esses bytes brutos, ele os interpretará como tags corrompidas, e não como dados. Por isso, os dados binários precisam ser _codificados_ em um formato que use apenas caracteres de texto seguros.
 
 - **Vantagem base 64:** A principal vantagem é a **compatibilidade**. O Base64 converte os dados binários em uma `string` que usa apenas "caracteres alfanuméricos". Isso garante que os dados possam ser transportados com segurança dentro de um documento XML sem ser mal interpretado pelo analisador.
     
 - **Desvantagem:** A principal desvantagem é a **sobrecarga**. Existe uma sobrecarga de tempo e espaço considerável quando dados binários são convertidos para base64.
     - **Sobrecarga de Espaço:** A representação em Base64 é significativamente maior (cerca de 33%) do que os dados binários originais.
     - **Sobrecarga de Tempo:** É necessário tempo de CPU para realizar a codificação dos dados para Base64 no remetente e a decodificação no destinatário.
+---
+
+![](../../attachments/Pasted%20image%2020251108163022.png)
+![](../../attachments/Pasted%20image%2020251108163036.png)
+
+---
+![](../../attachments/Pasted%20image%2020251108163145.png)
+
+---
