@@ -76,6 +76,38 @@ e. É correta apenas a afirmativa 1.
     
 - **3. CORRETA.** O livro afirma que o SOAP suporta interações requisição-resposta usando pares de mensagens e "especificando como irá representar as operações, seus argumentos e resultados". 
 
+---
+
+**O modelo OSI divide as funções das redes de computadores em sete camadas de abstração. Cada protocolo realiza a inserção de uma funcionalidade assinada a uma camada específica. 
+
+**Cabe revelar que utilizando este tipo de modelo é possível realizar comunicação entre máquinas distintas e definir diretivas genéricas para a elaboração de redes de computadores independente da tecnologia utilizada, sejam estas redes de curta, média ou longa distância. Este modelo exige o cumprimento de certas etapas para atingir a compatibilidade, portabilidade, interoperabilidade e escalabilidade.** 
+
+**São elas: a definição do modelo, definição dos protocolos de camada e a seleção de perfis funcionais. Uma das camadas pode ser definida da seguinte maneira: "Esta camada é responsável por iniciar e encerrar conexões de rede.** 
+
+**Exemplo existente na camada é a função do RPC (Remote Procedure Call)." A definição se refere à camada: Escolha uma opção:** 
+
+a. <mark style="background: #BBFABBA6;">sessão</mark> 
+b. rede 
+c. transporte 
+d. física
+
+---
+**Relacione os seguintes middlewares (RPC, CORBA, JAVA RMI, JAVA EJB) com suas respectivas definições.** 
+1. RPC. 
+2. CORBA 
+3. JAVA RMI 
+4. JAVA EJB 
+
+(**CORBA**) É um middleware que fornece um modelo de objetos distribuído e um conjunto de serviços para a comunicação entre objetos remotos. 
+(**RPC**) É um protocolo que permite a comunicação entre processos em execução em máquinas diferentes. 
+(**JAVA EJB**) É um framework que fornece um modelo de componentes para a criação de aplicações distribuídas. 
+(**JAVA RMI**) É um framework que permite a criação de objetos remotos em Java. 
+
+a. 2 – 1 – 3 – 4. 
+<mark style="background: #BBFABBA6;">b. 2 – 1 – 4 – 3.  </mark>
+c. 3 – 2 – 4 – 1. 
+d. 2 – 3 – 1 – 4. 
+e. 1 – 2 – 4 – 3.
 
 ---
 
