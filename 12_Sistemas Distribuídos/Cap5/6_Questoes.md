@@ -1,6 +1,37 @@
 
 
 ---
+**O User Datagram Protocol (UDP) é um protocolo de transporte leve e sem conexão utilizado em redes de computadores. Ele oferece um serviço de entrega de dados não confiável, o que significa que não há garantia de entrega ou ordenação dos pacotes. Assinale a opção que apresenta exemplos de protocolos que utilizam o UDP Escolha uma opção:** 
+
+a. SNMP (Simple Network Management Protocol), HTTP (Hypertext Transfer Protocol) e RIP (Routing Information Protocol). 
+
+b. SMTP (Simple Mail Transfer Protocol), DNS (Domain Name System) e HTTP (Hypertext Transfer Protocol). 
+
+<mark style="background: #BBFABBA6;">c. RPC (Remote Procedure Call), SNMP (Simple Network Management Protocol) e RIP (Routing Information Protocol). </mark>
+
+d. DNS (Domain Name System), IMAP (Internet Message Access Protocol) e SNMP (Simple Network Management Protocol). 
+
+e. DNS (Domain Name System), RPC (Remote Procedure Call) e SMTP (Simple Mail Transfer Protocol)
+
+
+**HTTP:** Precisa de entrega confiável e ordenada para carregar páginas e, portanto, é implementado sobre TCP.
+**SMTP:** A entrega de e-mail precisa ser confiável. Portanto, o SMTP usa TCP.
+**IMAP:** Assim como o SMTP, é um protocolo de e-mail que requer uma conexão confiável e, portanto, usa **TCP**.
+    
+    - Isso elimina a opção **d**.
+        
+
+**Por que a opção "c" está correta:**
+
+A única opção restante é a **c**, que contém:
+
+- **RPC (Remote Procedure Call):** Conforme o livro (Seção 5.3.3), a RPC (como a Sun RPC) foi projetada para ser flexível e "Os implementadores têm a opção de usar chamadas de procedimento remoto sobre **UDP** ou TCP".
+    
+- **SNMP (Simple Network Management Protocol):** É um protocolo de gerenciamento que prioriza a velocidade e o baixo custo (sem conexão), sendo um usuário clássico do UDP.
+    
+- **RIP (Routing Information Protocol):** É um protocolo de roteamento que envia atualizações periódicas; a perda de uma atualização não é catastrófica, pois a próxima chegará em breve, tornando-o ideal para UDP.
+
+---
 **Descreva as maneiras pelas quais o protocolo de requisição-resposta mascara a heterogeneidade dos sistemas operacionais e das redes de computador.**
 
 - **Mascarando a Heterogeneidade de SO's:** O protocolo mascara essas diferenças usando empacotamento e uma representação externa de dados padronizada. Antes de enviar uma mensagem, o processo de empacotamento converte os dados do formato local da máquina para um formato externo padronizado. O processo receptor, então, desempacota, convertendo-os desse formato padrão de volta para o seu próprio formato local. Isso garante que os dados possam ser trocados, independentemente do hardware ou SO de cada máquina.
