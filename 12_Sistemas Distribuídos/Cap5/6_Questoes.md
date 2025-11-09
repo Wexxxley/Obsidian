@@ -18,3 +18,30 @@
 - **Protocolo RRA:** Este protocolo usa a **confirmação explícita**. Como o cliente envia uma mensagem de confirmação, o servidor sabe exatamente quando a resposta pode ser descartada. O server armazena a resposta por um curto período.
 
 ---
+
+**Suponha que o protocolo RRA esteja em uso. Por quanto tempo os servidores devem manter**
+**dados de resposta não confirmados? Os servidores devem enviar a resposta repetidamente, em uma tentativa de receber uma confirmação?**
+
+- **Por quanto tempo os servidores devem manter os dados?** O servidor deve manter os dados da resposta em seu histórico até que a mensagem de confirmação do cliente seja recebida. Se essa confirmação for perdida, o servidor geralmente manterá a resposta até que um **timeout** expire.
+    
+- **Os servidores devem enviar a resposta repetidamente para obter uma confirmação?** **Não.** Se a resposta original se perder, o cliente (que não a recebeu) fará um _timeout_ e retransmitirá a **requisição** original. O servidor, ao receber essa requisição duplicada, apenas reenvia a resposta.
+
+---
+
+![](../../attachments/Pasted%20image%2020251109065936.png)
+![](../../attachments/Pasted%20image%2020251109070021.png)
+
+---
+![](../../attachments/Pasted%20image%2020251109070416.png)
+
+**Semanticas rpc**
+
+**Semântica talvez:** O cliente envia a requisição apenas uma vez. Ele não tenta retransmitir se a resposta não chegar. 
+
+**Semântica Pelo Menos Uma Vez :** O cliente retransmite a requisição até receber uma resposta. O servidor _não_ tem um filtro para detectar requisições duplicadas. O cliente sabe se receber uma resposta que o procedimento foi executado **uma ou mais vezes**.
+
+**Semântica No Máximo Uma Vez**: O cliente retransmite a requisição, MAS o servidor usa filtragem de duplicatas (checando um ID de requisição) e um histórico de respostas. O cliente sabe ao receber uma resposta que o procedimento foi executado **exatamente uma vez**.
+
+
+---
+![](../../attachments/Pasted%20image%2020251109070618.png)
