@@ -140,3 +140,25 @@ Depois um (o que n fica chiando o som) fica na sala e o outro sai para testar a 
     - **(c) Arquivo (`FileInputStream`):** Cumprido por **`test_file.py`**. 
     - **(d) Servidor remoto (TCP):** Cumprido por **`test_tcp_server.py`**. 
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
