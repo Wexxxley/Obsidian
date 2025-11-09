@@ -7,22 +7,15 @@
 **Servidor Antigo (Socket):**
 - O servidor mantinha uma conexão de socket aberta com cada cliente.
 - Quando "Ana" convidava "Bruno", o servidor simplesmente usava a conexão de Bruno e avisava que a ana tinha convidado.
-- Isso é chamado de **Push**: o servidor _inicia_ a comunicação e empurra a notificação.
+- Isso é chamado de **Push**: o servidor pode empurrar uma notificação.
         
 **Servidor Novo (RMI):** 
 - O servidor RMI é stateless. O cliente faz uma chamada RMI, o servidor atende, responde e _desliga_. O servidor não pode ligar de volta para o cliente.
-- Então, quando "Ana" convida "Bruno", o servidor não pode mais "ligar" para o Bruno.
-- Em vez disso, o servidor vai até a fila/lista no `state_manager` de Bruno e "enfileira" um novo evento.
+- Então, quando "Ana" convida "Bruno", o servidor vai até a fila/lista no `state_manager` de Bruno e "enfileira" um novo evento.
 - O cliente de "Bruno", por sua vez, foi programado (no `main_html.js`) para checar sua fila a cada 2 segundos. Isso é o `setInterval` que chama `rmi_get_updates(token)`.
 - Esse processo de checagem é chamado de **Polling**.     
 
-
-
 ---
-
-### Explicação de Cada Método
-
-Aqui está o que cada um daqueles três métodos faz:
 
 #### 1. `send_request(...)`
 
