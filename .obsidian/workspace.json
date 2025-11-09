@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aleatórios/Apresentação SD 2.md",
+                "file": "7_Git and github/Branch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Apresentação SD 2"
+              "title": "Branch"
             }
           }
         ]
@@ -183,9 +183,9 @@
   },
   "active": "6a6ddf7f3397fdfd",
   "lastOpenFiles": [
+    "Aleatórios/Apresentação SD 2.md",
     "Aleatórios/Apresentação SD.md",
     "12_Sistemas Distribuídos/Cap5/4_ Invocação a Método Remoto.md",
-    "Aleatórios/Apresentação SD 2.md",
     "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
     "attachments/Pasted image 20251109102027.png",
     "2_Redes de computadores/1_Overview/6_Arquitetura TCP IP.md",
