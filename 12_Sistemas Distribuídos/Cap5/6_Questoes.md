@@ -13,25 +13,34 @@ d. DNS (Domain Name System), IMAP (Internet Message Access Protocol) e SNMP (Sim
 
 e. DNS (Domain Name System), RPC (Remote Procedure Call) e SMTP (Simple Mail Transfer Protocol)
 
-
 **HTTP:** Precisa de entrega confiável e ordenada para carregar páginas e, portanto, é implementado sobre TCP.
 **SMTP:** A entrega de e-mail precisa ser confiável. Portanto, o SMTP usa TCP.
-**IMAP:** Assim como o SMTP, é um protocolo de e-mail que requer uma conexão confiável e, portanto, usa **TCP**.
-    
-    - Isso elimina a opção **d**.
-        
+**IMAP:** Assim como o SMTP, é um protocolo de e-mail que requer uma conexão confiável e, portanto, usa TCP.
 
-**Por que a opção "c" está correta:**
-
-A única opção restante é a **c**, que contém:
-
-- **RPC (Remote Procedure Call):** Conforme o livro (Seção 5.3.3), a RPC (como a Sun RPC) foi projetada para ser flexível e "Os implementadores têm a opção de usar chamadas de procedimento remoto sobre **UDP** ou TCP".
-    
-- **SNMP (Simple Network Management Protocol):** É um protocolo de gerenciamento que prioriza a velocidade e o baixo custo (sem conexão), sendo um usuário clássico do UDP.
-    
-- **RIP (Routing Information Protocol):** É um protocolo de roteamento que envia atualizações periódicas; a perda de uma atualização não é catastrófica, pois a próxima chegará em breve, tornando-o ideal para UDP.
+**RPC:** Foi projetada para ser flexível e "Os implementadores têm a opção de usar chamadas de procedimento remoto sobre UDP ou TCP".
+**SNMP:** É um protocolo de gerenciamento que prioriza a velocidade e o baixo custo (sem conexão), sendo um usuário clássico do UDP.
+**RIP:** É um protocolo de roteamento que envia atualizações periódicas; a perda de uma atualização não é catastrófica.
 
 ---
+
+**No contexto de RPC (Remote Procedure Call), considerando uma chamada remota de procedimento (procedure) via rede de um cliente a um servidor, um dos papeis de objetos do tipo skeleton é:** 
+
+a. oferecer um mecanismo de persistência abstrato para os procedimentos que executam no lado do servidor, salvando informações que precisam ser persistidas em um banco de dados de forma transparente. 
+
+b. fornecer ao chamador do procedimento remoto, no lado do cliente, uma lista de servidores ativos que disponibilizam esse procedimento, permitindo que o cliente decida qual servidor chamar. 
+
+c. abrir uma conexão TCP com o servidor para trafegar os dados da chamada remota. 
+
+d. serializar os parâmetros da chamada remota, no cliente, para envio via rede ao servidor. 
+
+<mark style="background: #BBFABBA6;">e. traduzir dados recebidos da chamada remota, convertendo esses dados em uma chamada de procedimento local no servidor.</mark>
+
+![600](../../attachments/Pasted%20image%2020251107141415.png)
+
+**Server stub/skeleton**: Sua função é desempacotar os argumentos da mensagem de requisição, chamar o procedimento de serviço real e, em seguida, empacotar os resultados em uma mensagem de resposta para enviar de volta ao cliente.
+
+---
+
 **Descreva as maneiras pelas quais o protocolo de requisição-resposta mascara a heterogeneidade dos sistemas operacionais e das redes de computador.**
 
 - **Mascarando a Heterogeneidade de SO's:** O protocolo mascara essas diferenças usando empacotamento e uma representação externa de dados padronizada. Antes de enviar uma mensagem, o processo de empacotamento converte os dados do formato local da máquina para um formato externo padronizado. O processo receptor, então, desempacota, convertendo-os desse formato padrão de volta para o seu próprio formato local. Isso garante que os dados possam ser trocados, independentemente do hardware ou SO de cada máquina.

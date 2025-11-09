@@ -39,7 +39,7 @@ Portanto, o consenso atual é que, embora a _sintaxe_ da chamada deva ser transp
 do serviço remoto deve deixar claro que se trata de uma operação distribuída, por exemplo, disparando exceções específicas de rede.
 
 ---
-#### **Implementação de RPC**
+#### **4. Implementação de RPC**
 
 A RPC é implementada usando componentes de software gerados automaticamente a partir da definição da IDL:
 
