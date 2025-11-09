@@ -122,6 +122,20 @@ O NFSv4 permite **combinar várias operações** (busca, abertura, leitura) em u
 
 ---
 
+**O sistema de objetos distribuídos RMI (remote method invocation) permite que objetos Java e objetos não Java sejam acessados remotamente como se fossem locais.**
+
+<mark style="background: #BBFABBA6;">Falso</mark>
+
+- O **RMI Java** é apresentado como um sistema de linguagem única. O livro afirma que "o uso de RMI Java é restrito ao desenvolvimento baseado em Java.
+- O **CORBA** é apresentado como a solução "multilinguagem" projetada para permitir a interoperabilidade entre objetos escritos em diferentes linguagens.
+
+---
+**Chamadas de procedimento remoto (RPC — do inglês remote procedure call) são uma forma de comunicação entre processos na qual diferentes processos têm diferentes espaços de endereço.** 
+
+<mark style="background: #BBFABBA6;">Verdadeiro</mark>
+
+Um "processo" é uma unidade de gerenciamento de recursos que possui seu próprio espaço de endereçamento. O livro reforça essa separação na seção sobre RPC ao explicar por que a passagem de parâmetros por referência (ponteiros de memória) não é suportada: "os endereços de um processo não são válidos em outro processo remoto".
+
 ---
 
 **Descreva as maneiras pelas quais o protocolo de requisição-resposta mascara a heterogeneidade dos sistemas operacionais e das redes de computador.**
