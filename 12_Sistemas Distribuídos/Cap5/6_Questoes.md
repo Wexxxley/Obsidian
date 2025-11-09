@@ -40,6 +40,44 @@ d. serializar os parâmetros da chamada remota, no cliente, para envio via rede 
 **Server stub/skeleton**: Sua função é desempacotar os argumentos da mensagem de requisição, chamar o procedimento de serviço real e, em seguida, empacotar os resultados em uma mensagem de resposta para enviar de volta ao cliente.
 
 ---
+São exemplos de implementações de mecanismos de RPC (Remote Procedure Call): 
+
+a. DCOM, WWW, HTTP, CORBA 
+b. RAM,RMI, IRC, HTTP 
+c. FTP, HTTP,RM-ODP,TCP/IP 
+d. HTTP, FTP, CORBA, TCP/IP 
+<mark style="background: #BBFABBA6;">e. CORBA,RMI,DCOM, RM-ODP </mark>
+
+**RMI (Remote Method Invocation):** Extensão do RPC para o mundo dos objetos distribuídos.
+**CORBA:** Arquitetura de middleware que "permite às aplicações se comunicarem umas com as outras" através de um ORB (Object Request Broker), que é uma implementação da ideia de RMI/RPC.
+**DCOM e RM-ODP:** Eles são conceitualmente da mesma família de `CORBA` e `RMI`. 
+
+---
+
+**1.SOAP é baseado em XML e possui 3 partes: um envelope; um conjunto de regras e uma mensagem.** 
+
+**2.SOAP pode ser utilizado sobre HTTP ou até mesmo SMTP.** 
+
+**3.Pode-se implementar RPC (Remote Procedure Call) em webservices utilizando SOAP.** 
+
+**Assinale a alternativa que indica todas as afirmativas corretas.** 
+
+a. São corretas as afirmativas 1, 2 e 3. 
+b. São corretas apenas as afirmativas 1 e 3. 
+c. São corretas apenas as afirmativas 1 e 2. 
+<mark style="background: #BBFABBA6;">d. São corretas apenas as afirmativas 2 e 3. </mark>
+e. É correta apenas a afirmativa 1.
+
+**SOAP (Simple Object Access Protocol)** é um protocolo projetado para permitir a comunicação entre aplicações pela Internet. Ele usa XML para formatar e empacotar mensagens. Um cliente pode enviar uma mensagem SOAP para um servidor para executar uma operação, e o servidor retorna a resposta em outra mensagem SOAP.
+
+- **1. INCORRETA.** Uma mensagem SOAP possui três partes: **envelope**, **cabeçalho** (opc) e **corpo**. 
+    
+- **2. CORRETA.** normalmente, o protocolo SOAP era baseado apenas em HTTP, mas a versão atual é projetada para usar uma variedade de protocolos de transporte, incluindo SMTP, TCP ou UDP".
+    
+- **3. CORRETA.** O livro afirma que o SOAP suporta interações requisição-resposta usando pares de mensagens e "especificando como irá representar as operações, seus argumentos e resultados". 
+
+
+---
 
 **Descreva as maneiras pelas quais o protocolo de requisição-resposta mascara a heterogeneidade dos sistemas operacionais e das redes de computador.**
 
