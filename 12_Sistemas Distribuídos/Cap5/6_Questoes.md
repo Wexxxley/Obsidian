@@ -110,6 +110,19 @@ d. 2 – 3 – 1 – 4.
 e. 1 – 2 – 4 – 3.
 
 ---
+**O Network File System version 4 (NFSv4) foi aprimorado para reduzir a quantidade de trocas de mensagens entre cliente e servidor. Sem prévio contato com o servidor, um cliente é capaz de combinar as operações de busca, abertura e leitura de um arquivo em uma requisição usando uma:** 
+
+a. descrição ASN.1 (Abstract Syntax Notation One.) composta 
+b. única SPC (Single Procedure Call) composta 
+c. query SQL (Structured Query Language.) composta 
+<mark style="background: #BBFABBA6;">d. única RPC (Remote Procedure Call) composta </mark>
+e. descrição XML (eXtended Mark-up Language.) composta
+
+O NFSv4 permite **combinar várias operações** (busca, abertura, leitura) em uma **única requisição**. Isso é uma otimização do protocolo RPC, mas o mecanismo fundamental de invocação continua sendo uma RPC.
+
+---
+
+---
 
 **Descreva as maneiras pelas quais o protocolo de requisição-resposta mascara a heterogeneidade dos sistemas operacionais e das redes de computador.**
 
