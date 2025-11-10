@@ -100,9 +100,9 @@ O contato será feito via Mensagem Direta com um "pitch acadêmico", explicando 
 
 
 ---
-Olá, Nome do Criador ou da Página,
+Olá, NOME,
 
-Meu nome é Wesley e sou estudante de [Seu Curso] na [Nome da Sua Universidade].
+Meu nome é NOME e sou estudante de Ciências da Computação na UFC - Campus Quixadá.
 
 Escrevo em nome da minha equipe de pesquisa. Estamos realizando um estudo acadêmico em Interação Humano-Computador (IHC) sobre a dificuldade de acessar e compreender dados públicos parlamentares.
 
@@ -110,4 +110,27 @@ O objetivo é pesquisar e modelar uma plataforma-conceito que transforme os dado
 
 Como você é um(a) profissional que atua diretamente na linha de frente da informação, sua perspectiva é valiosa para esta fase de pesquisa. Gostaríamos de entender quais são suas maiores frustrações, "gargalos" de tempo ou processos manuais no seu fluxo de trabalho ao apurar esses dados.
 
-Você teria 10 a 15 minutos disponíveis para compartilhar sua experiência conosco?
+Você teria 10 a 15 minutos disponíveis nos próximos dias para uma breve chamada (áudio ou vídeo) e compartilhar sua experiência conosco? Caso não tenha tempo, podemos enviar as perguntas aqui mesmo (que são simples) e responder por mensagem ou aúdio. 
+
+Seu feedback será de muita ajuda. Agradeço pela atenção!
+
+---
+Muito obrigado(a) por se dispor a participar! 
+
+Não precisa escrever respostas longas, e **se for mais fácil, sinta-se à vontade para responder por áudio.**
+
+**1. O Gargalo Atual:** Qual é a sua **maior frustração** ou o que mais toma seu tempo hoje quando você precisa encontrar, organizar ou analisar dados oficiais (gastos, votações, projetos) sobre um deputado federal para uma pauta ou post?
+
+**2. A Ferramenta Ideal (Conceito):** Pensando no seu fluxo de trabalho, que tipo de informação, gráfico ou funcionalidade você mais gostaria que existisse "pronto para usar"?
+
+_(Ex: "Um ranking de gastos por partido", "Um alerta de votações polêmicas", "Gráficos de gastos fáceis de exportar", "Uma 'nuvem de palavras' dos temas de um deputado", etc.)_
+
+**3. Formato e Compartilhamento:** Se você encontrasse um dado ou gráfico interessante nessa plataforma-conceito, qual funcionalidade seria mais útil para o seu trabalho? 
+
+1. Exportar o gráfico como imagem (PNG/JPG).
+2. Baixar os dados brutos (CSV/Planilha). 
+3. Outro: _________________
+
+
+
+
