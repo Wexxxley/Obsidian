@@ -97,3 +97,35 @@ O contato será feito via Mensagem Direta com um "pitch acadêmico", explicando 
 - Web push
 - Exportar gráficos como imagens
 
+
+
+
+
+
+
+
+
+
+
+
+Olá, ,
+
+Meu nome é Wesley e sou estudante de Ciências da Computação na Universidade Federal do Ceará - Campus Quixadá.
+
+Escrevo em nome da minha equipe de pesquisa. Estamos desenvolvendo um projeto acadêmico de Interação Humano-Computador (IHC) focado em combater a desinformação política.
+
+Nosso objetivo estudar uma solução que transforma os dados públicos brutos da Câmara dos Deputados (como gastos, votações e projetos) em informações visuais, claras e fáceis de usar por qualquer cidadão.
+
+Como você é um(a) profissional que atua diretamente na linha de frente da informação, sua perspectiva sobre esse tema é incrivelmente valiosa para nós.
+
+Gostaríamos de entender quais são as suas maiores frustrações, "gargalos" de tempo ou processos manuais no seu fluxo de trabalho ao apurar dados de parlamentares.
+
+Você teria 10 a 15 minutos disponíveis nos próximos dias para uma breve chamada (áudio ou vídeo) e compartilhar sua experiência conosco?
+
+Seu feedback será fundamental para nos ajudar a construir uma ferramenta que realmente tenha impacto e auxilie o trabalho de multiplicadores de informação como você.
+
+Agradeço muito pela atenção!
+
+Atenciosamente,
+
+[Seu Nome] Equipe de Pesquisa, [Nome da Sua Universidade]
