@@ -14,6 +14,10 @@ O Multicast IP oferece um serviço de datagrama não confiável (semelhante ao U
 
 O Multicast IP é usado em sistemas que precisam disseminar informações para um grande número de destinatários, como o **NTP** (Network Time Protocol), ou em sistemas que requerem alta velocidade de comunicação, como a distribuição de dados de mercado no setor financeiro.
 
+**Multicast confiável**
+
+> Um multicast confiável é aquele que garante que qualquer mensagem transmitida ou é recebida por todos os membros de um grupo ou não é recebida por nenhum deles.
+
 ---
 ### 2. Redes de Sobreposição (Overlay Networks)
 

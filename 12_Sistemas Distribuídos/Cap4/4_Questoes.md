@@ -14,6 +14,8 @@ d. um protocolo de sinal para estabelecer chamadas e conferências por meio de 
 
 e. um protocolo do protocolo IP com a função de controlar os membros de um grupo de _multicast_ IP.
 
+> Um **multicast confiável** é aquele que garante que qualquer mensagem transmitida ou é recebida por todos os membros de um grupo ou não é recebida por nenhum deles.
+
 ---
 
 **_Sockets_ são uma abstração que permite a comunicação entre processos computacionais. Eles podem ser do tipo Datagrama, que faz uso do protocolo UDP, ou do tipo _Stream_, que faz uso do protocolo TCP. Sobre esta abstração é correto afirmar que**
@@ -44,8 +46,6 @@ c. uma aplicação que utiliza TCP possui dois _sockets_: um receptivo para re
 <mark style="background: #BBFABBA6;">d. uma aplicação Internet utiliza portas fixas para identificar os processos clientes.</mark>
 
 Os **servidores** usam portas fixas (bem conhecidas) para que os clientes possam encontrá-los. Os **clientes**, por outro lado, geralmente não usam portas fixas. Um cliente vincula seu soquete a **qualquer porta local livre**.
-
-e. um _Socket_, identificado por um número de porta de dezesseis bits, é uma interface de software para que aplicações enviem e/ou recebam mensagens, usando os protocolos TCP ou UDP da camada de transporte.
 
 ---
 **Em relação a comunicações baseadas em _Socket_ na linguagem de programação Java, são feitas as seguintes afirmações**
