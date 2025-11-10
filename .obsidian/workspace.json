@@ -11,14 +11,10 @@
             "id": "6a6ddf7f3397fdfd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/2_Modelo Híbrido e Máquina Virtual.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2_Modelo Híbrido e Máquina Virtual"
+              "title": "New tab"
             }
           }
         ]
@@ -181,11 +177,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a6ddf7f3397fdfd",
+  "active": "0c52f17c64e87cbf",
   "lastOpenFiles": [
+    "14_Roadmap/1_Junior/1_Fundamentos/3_Linux/1_Introdução.md",
+    "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/2_Modelo Híbrido e Máquina Virtual.md",
     "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/3_Linguagens interpretadas.md",
     "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/4_Comparação.md",
-    "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/2_Modelo Híbrido e Máquina Virtual.md",
     "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/1_Linguagem compilada.md",
     "Aleatórios/IHC-Observatório Legislativo.md",
     "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
@@ -215,7 +212,6 @@
     "15_IA/5_Heurística.md",
     "15_IA/4_O Processo de Busca.md",
     "15_IA/3_Agentes Baseados em Objetivos.md",
-    "15_IA/2_Programas de agentes.md",
     "attachments/Pasted image 20251108183523.png",
     "attachments/Pasted image 20251108181036.png",
     "attachments/Pasted image 20251108180737.png",
