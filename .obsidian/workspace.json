@@ -11,10 +11,12 @@
             "id": "6a6ddf7f3397fdfd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "9_Dotnet/1_Fundamentos CSHARP.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "1_Fundamentos CSHARP"
             }
           }
         ]
@@ -179,6 +181,10 @@
   },
   "active": "0c52f17c64e87cbf",
   "lastOpenFiles": [
+    "9_Dotnet/2_ECommerce FullStack/8_.md",
+    "9_Dotnet/1_Fundamentos CSHARP.pdf",
+    "9_Dotnet/Unconfirmed 295246.crdownload",
+    "9_Dotnet/Fundamentos C#.docx",
     "attachments/Pasted image 20251110202250.png",
     "image8.md",
     "9_Dotnet/1_Fundamentos CSHARP/1_Fundamentos C.md",
@@ -215,16 +221,12 @@
     "attachments/Pasted image 20251109064901.png",
     "attachments/Pasted image 20251108183523.png",
     "attachments/Pasted image 20251108181036.png",
-    "attachments/Pasted image 20251108180737.png",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/Unconfirmed 285681.crdownload",
     "14_Roadmap/1_Junior/1_Fundamentos/3_Linux/Untitled",
     "14_Roadmap/1_Junior/1_Fundamentos/3_Linux",
     "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/Untitled",
-    "15_IA",
-    "11_Engenharia de Software/10_DevOps",
-    "11_Engenharia de Software/9_Refatoração",
     "Sem título.canvas"
   ]
 }
