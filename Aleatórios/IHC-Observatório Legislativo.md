@@ -132,5 +132,7 @@ _(Ex: "Um ranking de gastos por partido", "Um alerta de votações polêmicas", 
 3. Outro: _________________
 
 
+---
+
 
 
