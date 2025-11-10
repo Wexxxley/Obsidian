@@ -11,10 +11,14 @@
             "id": "6a6ddf7f3397fdfd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "9_Dotnet/1_Fundamentos CSHARP/1_Introdução.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1_Introdução"
             }
           }
         ]
@@ -177,10 +181,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c52f17c64e87cbf",
+  "active": "6a6ddf7f3397fdfd",
   "lastOpenFiles": [
-    "14_Roadmap/1_Junior/1_Fundamentos/3_Linux/1_Introdução.md",
     "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/2_Modelo Híbrido e Máquina Virtual.md",
+    "9_Dotnet/1_Fundamentos CSHARP/1_Introdução.md",
+    "9_Dotnet/Untitled.md",
+    "9_Dotnet/1_Fundamentos CSHARP",
+    "14_Roadmap/1_Junior/1_Fundamentos/3_Linux/2_.md",
+    "14_Roadmap/1_Junior/1_Fundamentos/3_Linux/1_Introdução.md",
     "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/3_Linguagens interpretadas.md",
     "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/4_Comparação.md",
     "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/1_Linguagem compilada.md",
@@ -209,9 +217,6 @@
     "attachments/Pasted image 20251109065125.png",
     "attachments/Pasted image 20251109064901.png",
     "15_IA/4_Busca em largura, profundidade e custo uniforme.md",
-    "15_IA/5_Heurística.md",
-    "15_IA/4_O Processo de Busca.md",
-    "15_IA/3_Agentes Baseados em Objetivos.md",
     "attachments/Pasted image 20251108183523.png",
     "attachments/Pasted image 20251108181036.png",
     "attachments/Pasted image 20251108180737.png",
@@ -224,7 +229,6 @@
     "15_IA",
     "11_Engenharia de Software/10_DevOps",
     "11_Engenharia de Software/9_Refatoração",
-    "12_Sistemas Distribuídos/Cap5",
     "Sem título.canvas"
   ]
 }
