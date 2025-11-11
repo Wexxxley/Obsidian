@@ -1,12 +1,11 @@
 
-
+#Concluded 
 
 ---
 O nome funções de agregação vem do fato de que essas funções operam sobre um conjunto de valores para produzir um único resultado.<mark style="background: #ADCCFFA6;"> Elas condensam vários dados em um único valor.</mark>
 
 As funções de agregação podem receber a cláusula **distinct**. O uso de distinct  permite que a agregação seja realizada apenas sobre valores distintos de uma determinada coluna. Isso é útil quando você deseja evitar que valores duplicados sejam considerados ao calcular somas, médias, contagens, etc.
 
----
 ### 1. Média
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfz41XvT-Yp7sKWt8bXBzSdeD79lfOotDGqHdaNHQ9yz62BNHThhlRUcHpOCSKlksGxulyZ2hypY8DMaeO3aDn9THCS23yUpvVuRCXxnnitJXsI54UYKUcInAV4JtShrgq38hhUwE9SZkBXKEwiNCAnhRdr?key=jqcuw0c7mMfsTTEWWceZSw)
