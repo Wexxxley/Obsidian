@@ -187,107 +187,68 @@ Em um sistema **síncrono** (com tempo máximo T), a lentidão máxima já está
 
 ---
 
+**O cliente demora 5 milissegundos para computar os argumentos de cada requisição, e o servidor demora 10 milissegundos para processar cada requisição. O tempo de processamento do sistema operacional local para cada operação de envio ou recepção é de 0,5 milissegundos, e o tempo que a rede leva para transmitir cada mensagem de requisição ou resposta é de 3 milissegundos. O empacotamento ou desempacotamento demora 0,5 milissegundos por mensagem.
 
-Com base no livro "Sistemas Distribuídos: Conceitos e Projeto", vamos detalhar o cálculo e a discussão solicitada.
+**Calcule o tempo que leva para o cliente gerar e retornar duas requisições: 
+(i) se ele tiver só uma thread; 
+(ii) se ele tiver duas threads que podem fazer requisições concorrentes em um único processador. 
 
-### Cálculo Base: Tempo de uma RMI (Requisição-Resposta)
+**Você pode ignorar os tempos de troca de contexto. Há necessidade de invocação assíncrona se os processos cliente e servidor forem programados com múltiplas threads?**
 
-Primeiro, precisamos calcular o tempo total para uma única requisição ser concluída, seguindo todas as etapas de uma invocação remota síncrona (bloqueante).
+
+Primeiro, precisamos calcular o tempo total para uma única requisição ser concluída.
 
 1. **Cliente (Preparação):**
-    
     - Computar argumentos: 5,0 ms
-        
     - Empacotar (Marshalling): 0,5 ms
-        
     - SO (Envio): 0,5 ms
         
-    - _Subtotal Cliente (Início): 6,0 ms_
-        
 2. **Rede (Ida):**
-    
     - Transmissão da Requisição: 3,0 ms
         
 3. **Servidor (Processamento):**
-    
     - SO (Recepção): 0,5 ms
-        
     - Desempacotar (Unmarshalling): 0,5 ms
-        
     - Processar a requisição: 10,0 ms
-        
     - Empacotar (Marshalling) Resposta: 0,5 ms
-        
     - SO (Envio): 0,5 ms
         
-    - _Subtotal Servidor: 12,0 ms_
-        
 4. **Rede (Volta):**
-    
     - Transmissão da Resposta: 3,0 ms
         
 5. **Cliente (Finalização):**
-    
     - SO (Recepção): 0,5 ms
-        
     - Desempacotar (Unmarshalling) Resposta: 0,5 ms
-        
-    - _Subtotal Cliente (Fim): 1,0 ms_
         
 
 **Tempo total para uma RMI = 6,0 + 3,0 + 12,0 + 3,0 + 1,0 = 25,0 ms**
 
----
 
-### (i) Cenário com uma Thread (Sequencial)
-
-Se o cliente tiver apenas uma thread, as operações são puramente sequenciais. A thread do cliente fica bloqueada durante os 25,0 ms da primeira requisição antes de poder _começar_ a computar a segunda requisição.
-
+Se o cliente tiver apenas uma thread, as operações são puramente sequenciais. 
 - Tempo da Requisição 1: 25,0 ms
-    
 - Tempo da Requisição 2: 25,0 ms
     
-
 **Tempo Total (i) = 25,0 ms + 25,0 ms = 50,0 ms**
 
----
-
-### (ii) Cenário com Duas Threads (Concorrente)
-
-Neste cenário, temos dois recursos principais que são gargalos: a **CPU do Cliente** (que é única e compartilhada pelas duas threads) e a **CPU do Servidor** (que também é única e processa sequencialmente).
+No cenário com duas threads, temos dois recursos principais que são gargalos: a **CPU do Cliente** (que é única e compartilhada pelas duas threads) e a **CPU do Servidor** (que também é única e processa sequencialmente).
 
 Uma thread (T1) fará a Requisição 1 (Req 1) e a outra (T2) fará a Requisição 2 (Req 2). Elas podem sobrepor a computação do cliente com a E/S (rede) e o processamento do servidor.
 
-**Linha do Tempo (Gantt Chart):**
-
+**Linha do Tempo:**
 - `T=0`: **T1 (CPU Cliente)** começa a computar Req 1. (Duração: 5,0 ms)
-    
 - `T=5`: **T1 (CPU Cliente)** começa a Empacotar/Enviar Req 1. (Duração: 1,0 ms)
-    
 - `T=6`: Req 1 entra na Rede (E/S). (Chegará no servidor em T=9).
-    
 - `T=6`: A CPU do Cliente está livre (T1 está bloqueada em E/S). **T2 (CPU Cliente)** começa a computar Req 2. (Duração: 5,0 ms)
-    
 - `T=9`: Req 1 chega ao Servidor. **CPU Servidor** começa a processar Req 1. (Duração: 12,0 ms)
-    
 - `T=11`: **T2 (CPU Cliente)** começa a Empacotar/Enviar Req 2. (Duração: 1,0 ms)
-    
 - `T=12`: Req 2 entra na Rede (E/S). (Chegará no servidor em T=15).
-    
-- `T=15`: Req 2 chega ao Servidor, mas a CPU do Servidor está ocupada com a Req 1. Req 2 entra na **fila** do servidor.
-    
+- `T=15`: Req 2 chega ao Servidor, mas a CPU do Servidor está ocupada com a Req 1. Req 2 entra na **fila** do servidor. 
 - `T=21`: **CPU Servidor** termina Req 1. Resposta 1 entra na Rede (E/S). (Chegará no cliente em T=24).
-    
 - `T=21`: **CPU Servidor** (agora livre) começa a processar Req 2 (da fila). (Duração: 12,0 ms)
-    
 - `T=24`: Resposta 1 chega ao Cliente. **T1 (CPU Cliente)** começa a Receber/Desempacotar. (Duração: 1,0 ms)
-    
 - `T=25`: **Requisição 1 está completa.**
-    
 - `T=33`: **CPU Servidor** termina Req 2. Resposta 2 entra na Rede (E/S). (Chegará no cliente em T=36).
-    
 - `T=36`: Resposta 2 chega ao Cliente. **T2 (CPU Cliente)** começa a Receber/Desempacotar. (Duração: 1,0 ms)
-    
 - `T=37`: **Requisição 2 está completa.**
     
 
