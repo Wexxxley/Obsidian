@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 
@@ -109,13 +110,12 @@ No T3, o que o Relatório deve ler?
     
 2. O banco de dados não reescreve imediatamente os arquivos principais da tabela (que são grandes e lentos de modificar).
     
-3. Em vez disso, ele rapidamente escreve a mudança em um arquivo de log sequencial ( **Transaction Log**), que é muito rápido.
+3. Em vez disso, ele rapidamente escreve a mudança no arquivo **Transaction Log**, que é muito rápido.
     
 4. Assim que o _log_ é salvo no disco, o banco te responde "OK, comitado!".
     
-5. ... (Processos em segundo plano atualizam os arquivos principais depois) ...
+5. Processos em segundo plano atualizam os arquivos principais depois
     
-6. **O SERVIDOR CAI! (Queda de energia)**
-    
+6. **O SERVIDOR CAI!**
 
-**O que a Durabilidade faz:** Quando o servidor religar, antes de qualquer coisa, ele vai ler o **Transaction Log**. Ele verá: "Opa, a transação para `ContaID=1, Saldo=900` foi _comitada_, mas o servidor caiu antes que eu pudesse salvar no arquivo principal". O banco então usa esse log para **refazer** (roll forward) a operação e garantir que o saldo de Alice seja 900, como prometido. O `COMMIT` é uma promessa que não pode ser quebrada.
+Quando o servidor religar, antes de qualquer coisa, ele vai ler o **Transaction Log**. Ele verá: "Opa, a transação para `ContaID=1, Saldo=900` foi _comitada_, mas o servidor caiu antes que eu pudesse salvar no arquivo principal". O banco então usa esse log para refazer a operação e garantir que o saldo de Alice seja 900, como prometido. 
