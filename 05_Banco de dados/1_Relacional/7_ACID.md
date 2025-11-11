@@ -32,115 +32,31 @@ A transação é "transferir R$ 100 da Alice para o Beto". Isso envolve dois com
 ### **A - Atomicidade**
 Ou todas as operações da transação são concluídas com sucesso, ou nenhuma delas é. 
 
-Cenário de Sucesso (COMMIT)
-
 O SQL executa tudo dentro do `BEGIN` e, se chegar ao `COMMIT` sem erros, torna as mudanças permanentes.
 
-SQL
-
-```
-BEGIN TRANSACTION; -- Abre o "envelope"
-
--- 1. Debitar da Alice
-UPDATE Contas SET Saldo = Saldo - 100.00 WHERE ContaID = 1;
-
--- 2. Creditar ao Beto
-UPDATE Contas SET Saldo = Saldo + 100.00 WHERE ContaID = 2;
-
-COMMIT; -- Fecha o "envelope" e confirma TUDO.
-```
-
-**Resultado:** Alice = 900, Beto = 600. Perfeito.
-
-#### Cenário de Falha (ROLLBACK)
-
-E se o segundo `UPDATE` falhar? (Por exemplo, a `ContaID` 2 não existe).
-
-SQL
-
-```
-BEGIN TRANSACTION;
-
--- 1. Debitar da Alice (Funciona!)
-UPDATE Contas SET Saldo = Saldo - 100.00 WHERE ContaID = 1;
-
--- 2. Creditar ao Beto (Falha! A conta 999 não existe)
-UPDATE Contas SET Saldo = Saldo + 100.00 WHERE ContaID = 999;
--- O banco de dados gera um ERRO AQUI.
-
-ROLLBACK; -- O "envelope" é desfeito.
-```
-
-**O que a Atomicidade faz:** Como a transação terminou com `ROLLBACK` (ou um erro que o força), o banco **desfaz** a Operação 1. O saldo de Alice **volta** a ser 1000. O dinheiro não "desaparece no limbo". Isso é "Tudo ou Nada".
----
-
-### 🛡️ Consistência (Consistency)
-
-**"Mantenha as regras."**
-
-A consistência garante que qualquer transação levará o banco de dados de um **estado válido** para outro **estado válido**. A transação não pode violar as regras de integridade do banco (como _constraints_, _triggers_ ou _foreign keys_).
-
-- **Exemplo Prático (Saldo Negativo):** Se o banco de dados tem uma regra (uma _constraint_) que diz "o saldo de uma conta não pode ser negativo", a propriedade de Consistência impede qualquer transação que tente sacar mais dinheiro do que existe. A transação falhará e será revertida, mantendo o banco de dados em um estado válido.
+```sql
+BEGIN -- 1. Tenta executar a lógica de negócio
     
-
----
-
-### izolamento (Isolation)
-
-**"Não se metam uns com os outros."**
-
-O isolamento garante que transações que estão sendo executadas ao mesmo tempo (concorrentemente) não interfiram umas nas outras. Do ponto de vista de uma transação, deve parecer que ela é a **única** coisa sendo executada no banco de dados naquele momento.
-
-- **Exemplo Prático (Relatório vs. Pagamento):**
+    -- Debita da Alice
+    UPDATE Contas SET Saldo = Saldo - 100.00 WHERE ContaID = 1;
+    -- Credita ao Beto
+    UPDATE Contas SET Saldo = Saldo + 100.00 WHERE ContaID = 2;
     
-    - **Transação A:** Está rodando um relatório que soma o saldo de todas as contas.
-        
-    - **Transação B:** Está processando um pagamento (tirando dinheiro de uma conta).
-        
-- **O que o Isolamento garante:** A Transação A (o relatório) não verá um "estado fantasma" onde o dinheiro já saiu da conta, mas o total do relatório ainda não foi atualizado. Ela verá o estado do banco _antes_ da Transação B começar ou _depois_ que ela terminar, mas nunca um estado inconsistente no meio do caminho.
+    commit;
     
+EXCEPTION
+    rollback;
+END;
+
+```
 
 ---
+### **C - Consistência**
 
-### 💾 Durabilidade (Durability)
-
-**"Uma vez salvo, salvo para sempre."**
-
-A durabilidade garante que, uma vez que uma transação tenha sido **confirmada** (commit), ela é **permanente**. As mudanças sobreviverão a qualquer falha subsequente do sistema, como uma queda de energia ou uma falha do servidor.
-
-- **Exemplo Prático (Confirmação de Compra):** Quando você recebe a mensagem "Pagamento Aprovado", a durabilidade garante que essa transação foi registrada em um armazenamento não volátil (como um log de transações em um SSD/HD). Mesmo que o servidor do banco de dados caia um segundo depois, sua compra não será "esquecida". Quando o sistema voltar, a transação estará lá, completa.
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-
-
----
-
-### C - Consistência (Manter as Regras)
-
-A consistência garante que o banco de dados só pode ir de um **estado válido** para outro **estado válido**. O banco de dados **impõe as regras** que você define.
-
-**Como o SQL faz isso:** Através de `CONSTRAINTS` (restrições) como `NOT NULL`, `UNIQUE`, `FOREIGN KEY` e, o mais importante aqui, `CHECK`.
-
-#### Cenário de Falha (Violação de Regra)
+A consistência garante que o banco de dados só pode ir de um estado válido para outro estado válido. O banco de dados **impõe as regras** que você define. Através de `CONSTRAINTS` como `NOT NULL`, `UNIQUE`, `FOREIGN KEY` e, o mais importante aqui, `CHECK`.
 
 Vamos adicionar uma regra de negócio: "o saldo nunca pode ficar negativo".
-
-SQL
-
-```
+```sql
 -- Adicionando uma regra (CONSTRAINT) na tabela
 ALTER TABLE Contas
 ADD CONSTRAINT CHK_SaldoPositivo CHECK (Saldo >= 0);
