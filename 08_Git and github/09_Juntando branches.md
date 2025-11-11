@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 ### 1. Juntando Branches (git merge)
@@ -34,26 +35,18 @@ Isso é algo que assusta no começo, mas é normal. Um **conflito** acontece qua
     5. Salvar o arquivo.
     6. Fazer um novo commit para finalizar a resolução: `git commit -am "Resolve merge conflict"`.
 
-#### 3. Revertendo Mudanças e Corrigindo Commits (Páginas 91-95)
+---
+#### 3. Revertendo Mudanças e Corrigindo Commits 
 
 O que fazer se você "commitou" algo errado?
 
-- **Caso 1: Você acabou de fazer o commit e só quer corrigir (ex: esqueceu um arquivo).**
-    
+- **Caso 1: Você acabou de fazer o commit e só quer corrigir.
     - Use o comando `git commit --amend`.
-        
     - Isso permite que você adicione mais mudanças ao seu _último_ commit e até reescreva a mensagem dele.
-        
     - **Fluxo:** Faça a correção no código -> rode `git add .` -> rode `git commit --amend`.
         
-- **Caso 2: Você quer desfazer o último commit (ou commits).**
-    
-    - **Atenção:** O livro avisa que o comando `git reset` é **perigoso**, pois ele apaga commits do seu histórico.
-        
+- **Caso 2: Você quer desfazer o último commit.**
+
     - **`git reset --soft HEAD~1`**: Este comando desfaz o último commit, mas **mantém todas as suas alterações de código** na área de _staging_. É útil se você quer "desfazer" o commit para refazê-lo.
-        
-    - **`git reset --hard HEAD~1`**: Este é o mais perigoso. Ele desfaz o último commit e **apaga permanentemente todas as mudanças de código** daquele commit. Use com extremo cuidado.
-        
+    - **`git reset --hard HEAD~1`**: Este é o mais perigoso. Ele desfaz o último commit e **apaga permanentemente todas as mudanças de código** daquele commit. 
     - (`HEAD~1` significa "um commit antes do commit atual") .
-        
-- O livro também menciona `git revert` como outra abordagem, mas não entra em detalhes aqui.
