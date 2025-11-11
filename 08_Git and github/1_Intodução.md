@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 ### 1. O que é Git?
@@ -31,6 +32,5 @@ Git é um VCS **Distribuído**.  Significa que você não tem apenas uma cópia 
     - `cd NamePasta
     - `cd ..` (para voltar um nível).
         
-- `rm`: Deleta arquivos.
-    - Para deletar um diretório, você precisa usar a flag `-r` (ex: `rm -r nome-da-pasta`).
-    -
+- `rm`: Deleta arquivos.Para deletar um diretório, você precisa usar a flag `-r` (ex: `rm -r nome-da-pasta`).
+    ![](../attachments/Pasted%20image%2020251111152728.png)
