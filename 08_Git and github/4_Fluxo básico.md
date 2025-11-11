@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 ### 1. Inicializando um Projeto (git init)
@@ -51,30 +52,7 @@ Um "commit" cria um ponto de salvamento (checkpoint) permanente do seu projeto. 
 ---
 ### 5. Vendo as Diferenças (git diff)
 
-O comando `git diff` é usado para mostrar as diferenças exatas no conteúdo dos arquivos que foram alterados, mas que **ainda não foram para a área de staging** (você ainda não usou `git add`).
+O comando `git diff` é usado para mostrar as diferenças exatas no conteúdo dos arquivos que foram alterados, mas que **ainda não foram para a área de staging**.
 
-- **O que ele mostra?** 13
-    
-    - **Linhas removidas:** Começam com um sinal de menos (`-`).
-        
-    - **Linhas adicionadas:** Começam com um sinal de mais (`+`)14.
-        
-- No exemplo do livro, adicionar a linha "Git is awesome" ao `README.md` mostra a nova linha com um `+` na frente15151515.
-    
-
-É uma prática excelente **sempre** rodar `git status` e `git diff` antes de fazer um `git add` e `git commit`, para ter certeza de que você está salvando exatamente as mudanças que deseja16.
-
-**Variações do `git diff`:**
-
-O livro menciona duas outras variações úteis17171717:
-
-- `git diff --staged` (ou `git diff --cached`): Mostra as diferenças dos arquivos que você **já adicionou** ao _staging area_ (depois de rodar `git add`), comparando-os com o último commit.
-    
-- `git diff HEAD`: Mostra todas as mudanças nos arquivos rastreados desde o último commit, independentemente de estarem ou não no _staging_.
-    
-
----
-
-Agora sabemos como iniciar um projeto, salvar mudanças e, o mais importante, inspecionar _exatamente_ o que mudou.
-
-Quando estiver pronto para as **páginas 50-62** (que cobrem como ver o histórico com `git log` e como ignorar arquivos com `.gitignore`), me diga **next**.
+- **Linhas removidas:** Começam com um sinal de menos `-`.        
+- **Linhas adicionadas:** Começam com um sinal de mais `+`.

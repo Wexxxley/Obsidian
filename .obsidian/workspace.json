@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08_Git and github/4_Fluxo básico.md",
+                "file": "08_Git and github/3_Introdução ao github.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Fluxo básico"
+              "title": "3_Introdução ao github"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "08_Git and github/4_Fluxo básico.md",
+                "file": "08_Git and github/3_Introdução ao github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 4_Fluxo básico"
+              "title": "Outgoing links from 3_Introdução ao github"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08_Git and github/4_Fluxo básico.md",
+                "file": "08_Git and github/3_Introdução ao github.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 4_Fluxo básico"
+              "title": "Outline of 3_Introdução ao github"
             }
           },
           {
@@ -182,8 +182,10 @@
   },
   "active": "6a6ddf7f3397fdfd",
   "lastOpenFiles": [
-    "08_Git and github/3_Introdução ao github.md",
     "08_Git and github/4_Fluxo básico.md",
+    "08_Git and github/5_log e git ignore.md",
+    "attachments/Pasted image 20251111154931.png",
+    "08_Git and github/3_Introdução ao github.md",
     "08_Git and github/2_Configurações e .git.md",
     "15_Aleatorios/1_Blocos obsidian.md",
     "attachments/Pasted image 20251111153203.png",
@@ -216,8 +218,6 @@
     "image8.md",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
-    "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
-    "02_Dotnet/3_ECommerce FullStack/6_Hooks.md",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
@@ -227,7 +227,6 @@
     "attachments/Pasted image 20251110202250.png",
     "9_Dotnet/1_Fundamentos CSHARP",
     "attachments/Pasted image 20251109102027.png",
-    "attachments/Pasted image 20251109070618.png",
     "Sem título.canvas"
   ]
 }
