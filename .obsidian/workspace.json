@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08_Git and github/3_Introdução ao github.md",
+                "file": "08_Git and github/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Introdução ao github"
+              "title": "Untitled"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "08_Git and github/3_Introdução ao github.md",
+                "file": "08_Git and github/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 3_Introdução ao github"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08_Git and github/3_Introdução ao github.md",
+                "file": "08_Git and github/Untitled.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_Introdução ao github"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -182,10 +182,14 @@
   },
   "active": "6a6ddf7f3397fdfd",
   "lastOpenFiles": [
-    "08_Git and github/4_Fluxo básico.md",
+    "08_Git and github/7_Git push e pull.md",
+    "08_Git and github/Untitled.md",
+    "08_Git and github/6_Autenticação.md",
     "08_Git and github/5_log e git ignore.md",
-    "attachments/Pasted image 20251111154931.png",
+    "08_Git and github/Git and github.md",
     "08_Git and github/3_Introdução ao github.md",
+    "08_Git and github/4_Fluxo básico.md",
+    "attachments/Pasted image 20251111154931.png",
     "08_Git and github/2_Configurações e .git.md",
     "15_Aleatorios/1_Blocos obsidian.md",
     "attachments/Pasted image 20251111153203.png",
@@ -202,7 +206,6 @@
     "05_Banco de dados/1_Relacional/2_Consultas e Atualizações.md",
     "05_Banco de dados/1_Relacional/5_Alter Table.md",
     "05_Banco de dados/1_Relacional/6_Join.md",
-    "08_Git and github/Git and github.md",
     "05_Banco de dados/2_MongoDb/2_Relacionamentos.md",
     "05_Banco de dados/2_MongoDb/Modelagem.md",
     "05_Banco de dados/2_MongoDb/1_Apresentação.md",
@@ -214,8 +217,6 @@
     "12_Sistemas Distribuídos/Cap5/5_Estudo de Caso - RMI Java.md",
     "12_Sistemas Distribuídos/Cap5/4_ Invocação a Método Remoto.md",
     "12_Sistemas Distribuídos/Cap5/3_Chamada de procedimento remoto (RPC).md",
-    "12_Sistemas Distribuídos/Cap5/2_Protocolos de Requisição-Resposta.md",
-    "image8.md",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",

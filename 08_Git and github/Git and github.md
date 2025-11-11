@@ -1,21 +1,7 @@
 
 ---
-# **1. Introdução**
 
-**Versionamento**: Versionamento refere-se ao controle e registro das alterações feitas nos arquivos ao longo do tempo. O versionamento é geralmente realizado por meio de sistemas de controle de versão, como o Git.
 
-**Git x Github**
-- Git é um ==sistema de controle de versão==. Ele permite que você acompanhe as alterações em arquivos ao longo do tempo, reverta para versões anteriores e facilita a colaboração entre várias pessoas em um mesmo projeto. O ==Git opera localmente== no seu computador.
-
- - GitHub é uma plataforma de ==hospedagem para projetos Git==. O GitHub armazena os repositórios Git de forma centralizada na nuvem, o que facilita o compartilhamento e a colaboração em projetos entre desenvolvedores. 
-
-**Setando nome e email do Git**: Abra o Git Bash e digite os seguintes comandos:
-```
--git config - -global user.name  “Wesley Freitas”
--git config - -global user.email  wesleyfr.sobrinho@gmail.com
-```
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfz9QpSc4oRD6MOz0ClfPNPmJPLKqIQ4tQ2CMb6Nck6vYVjiRXLBLkyFaoUJgQ_2KWSSsUa1GDGW9lCFapVTj81rlNpf5Cfwxvux3b_jQcTyl8XAnlw2ie54VBzlYyrv6qaHCc8ahTZEd3dbCZ1HHb7vDmb?key=yiMe1b2VwU1jpN7Jf4vtog)
 
 ---
 ## **1.1 Fluxo básico**
@@ -177,46 +163,3 @@ Para você ver o histórico de commits basta usar o comando “`git log`”.
   
   
   
-  
-
-**___________________________________________________________________________**
-
-**___________________________________________________________________________**
-
-**<Ignorando arquivos**
-
- **Às vezes você não quer que todos os arquivos sejam vistos, pois ignorar arquivos ajuda a manter o repositório organizado e reduz o risco de compartilhamento de informações sensíveis.**
-
-**- É preciso criar um arquivo .gitignore**
-
-**- Editar o arquivo e colocar os files que precisam ser ignorados**
-
-**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdn6hJVLUKLbDSNyD4-AQicp3f8mdxGPMWc3IVOO6Q1GurGWnhMJX4wZ53EckSLorldIDqW1WTTbU98E_H2x-D4uyrxkN5wo6WAad-pBrcbq2Yij0BICKTFjG9EUF_TaUBzFz5je7Btiu9YVn_V26Jm5hqg?key=yiMe1b2VwU1jpN7Jf4vtog)**
-
-**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdWg0AH66i-2hrnl-a2aRsrOTSVQgTD9lj9TBZa-HT2fUey420uvUKgg5V_3NO3eiQRN_R63OSYawkbZBQTKxP2-437-hIkgMF3yQN-AsSbtVKNrFtE3e75TDhkSqZatLtPbV8kIj-g8U-SlEo0iRxzaHEL?key=yiMe1b2VwU1jpN7Jf4vtog)**
-
-**___________________________________________________________________________**
-
-**<README**
-
-   **O README é o primeiro ponto de contato para quem visita seu repositório. Ele fornece uma visão geral do projeto, suas finalidades e como começar a usá-lo ou contribuir para ele.**
-
-**1. Conteúdo**
-
- **- Descrição do projeto**
-
- **- Instruções de instalação**
-
- **- Exemplos de uso** 
-
- **- Link para documentação completa**   
-
-**2. Como editar**
-
- **O arquivo README é escrito com a linguagem Markdown. Você pode usar o [https://readme.so/pt/editor](https://readme.so/pt/editor) para codificar e visualizar.**
-
-**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe2xb5PKS-cRmL8KtZ58CZhOb9hPnOqeQweka3b9deUNBZkNZq3NnHrtSbFLd3-ExihxA24kOAXrhjPatlBGfHKJBOpTVGZfd3l4gaqH3G0PfKyNQrsbhHXmiOdmB1N6Pau0LgvZhGHOwsRKKyhOfM57whr?key=yiMe1b2VwU1jpN7Jf4vtog)**
-
-**___________________________________________________________________________**
-
-******
