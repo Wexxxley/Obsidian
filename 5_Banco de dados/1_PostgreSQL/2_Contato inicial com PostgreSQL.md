@@ -5,45 +5,7 @@
 
 
 ---
-### <Tipos de dados SQL 
 
-  
-
-1. Inteiros
-
-   - INT:  32 bits.
-
-   - SMALLINT: 16 bits.
-
-   - BIGINT: 64 bits.
-
-2. Decimais e Numéricos
-
-   - DECIMAL(p, s) Armazena números decimais com até ‘p’ dígitos,  dos quais ‘s’ podem estar à direita do ponto decimal. Por exemplo, 123.45.
-
-   - NUMERIC(p, s) Similar ao `DECIMAL`.
-
-   - FLOAT: Armazena números de ponto flutuante de precisão simples.
-
-   - REAL: Armazena números de ponto flutuante de precisão simples.
-
-3. Texto e Cadeias de Caracteres
-
-   - CHAR(n): Armazena caracteres de comprimento fixo. Ex: usado para cpf
-
-   - VARCHAR(n): Armazena caracteres de comprimento variável. 
-
-   - TEXT: Armazena desde grandes volumes de texto até pequenos volume.
-
-  4. Data e Hora:
-
-   - DATE: Armazena apenas a data.
-
-   - TIME: Armazena apenas o horário.
-
- 5. Booleano
-
-   - BOOLEAN: Armazena valores booleanos (0 ou 1).
 
 ___________________________________________________________________________
 

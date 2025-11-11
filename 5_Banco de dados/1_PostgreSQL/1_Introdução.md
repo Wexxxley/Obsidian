@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ___
 Um banco de dados é uma coleção de dados persistentes que é gerenciada e utilizada para suportar operações e processos. Os bancos de dados são projetados para armazenar informações relevantes para sistemas. 
@@ -46,4 +47,43 @@ Define um valor padrão para uma coluna caso o valor não seja especificado.
 Uma chave estrangeira (foreign key) estabelece uma relação entre duas tabelas e garante a integridade dos dados. Isso impede a criação de relações inconsistentes.
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe6VGHSoooo_zQG64VmnJxB0-dUSF2tdr0ZSkFWxSawv_GPuXY6MIJkA28uKWJpx-IS8uAiKEB8DIly0ufEsCwgnXeHBXu0kEs-jCcSwXP9eKKYx3Lw1v8cKzZAloumqY9YpRJjpYR3sOyJHL_DmkaFHb0?key=jqcuw0c7mMfsTTEWWceZSw)
 
+---
+## 4.Tipos de dados SQL 
 
+  
+
+1. Inteiros
+
+   - INT:  32 bits.
+
+   - SMALLINT: 16 bits.
+
+   - BIGINT: 64 bits.
+
+2. Decimais e Numéricos
+
+   - DECIMAL(p, s) Armazena números decimais com até ‘p’ dígitos,  dos quais ‘s’ podem estar à direita do ponto decimal. Por exemplo, 123.45.
+
+   - NUMERIC(p, s) Similar ao `DECIMAL`.
+
+   - FLOAT: Armazena números de ponto flutuante de precisão simples.
+
+   - REAL: Armazena números de ponto flutuante de precisão simples.
+
+3. Texto e Cadeias de Caracteres
+
+   - CHAR(n): Armazena caracteres de comprimento fixo. Ex: usado para cpf
+
+   - VARCHAR(n): Armazena caracteres de comprimento variável. 
+
+   - TEXT: Armazena desde grandes volumes de texto até pequenos volume.
+
+  4. Data e Hora:
+
+   - DATE: Armazena apenas a data.
+
+   - TIME: Armazena apenas o horário.
+
+ 5. Booleano
+
+   - BOOLEAN: Armazena valores booleanos (0 ou 1).
