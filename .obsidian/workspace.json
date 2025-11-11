@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5_Banco de dados/1_PostgreSQL/5_Subconsultas.md",
+                "file": "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Subconsultas"
+              "title": "4_Questoes"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5_Banco de dados/1_PostgreSQL/5_Subconsultas.md",
+                "file": "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 5_Subconsultas"
+              "title": "Outgoing links from 4_Questoes"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5_Banco de dados/1_PostgreSQL/5_Subconsultas.md",
+                "file": "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 5_Subconsultas"
+              "title": "Outline of 4_Questoes"
             }
           },
           {
@@ -182,8 +182,8 @@
   },
   "active": "6a6ddf7f3397fdfd",
   "lastOpenFiles": [
-    "5_Banco de dados/1_PostgreSQL/2_Contato inicial com PostgreSQL.md",
     "5_Banco de dados/1_PostgreSQL/5_Subconsultas.md",
+    "5_Banco de dados/1_PostgreSQL/2_Contato inicial com PostgreSQL.md",
     "5_Banco de dados/1_PostgreSQL/4_Funções de agregação.md",
     "5_Banco de dados/1_PostgreSQL/3_Consultas e Atualizações.md",
     "5_Banco de dados/1_PostgreSQL/1_Introdução.md",

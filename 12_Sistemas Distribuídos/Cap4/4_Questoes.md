@@ -20,7 +20,6 @@ e. um protocolo do protocolo IP com a função de controlar os membros de um gr
 
 **_Sockets_ são uma abstração que permite a comunicação entre processos computacionais. Eles podem ser do tipo Datagrama, que faz uso do protocolo UDP, ou do tipo _Stream_, que faz uso do protocolo TCP. Sobre esta abstração é correto afirmar que**
 
-
 a.  o sistema de coleta de lixo dos modernos sistemas operacionais, como o Linux, o Windows e o MacOSX, fecham automaticamente os _sockets_ criados pelos processos quando esses são finalizados.
 
 b. a primitiva _receive_ nos _sockets_ do tipo Datagrama tem como um dos seus parâmetros o endereço do processo remoto remetente.
@@ -45,14 +44,14 @@ c. uma aplicação que utiliza TCP possui dois _sockets_: um receptivo para re
 
 <mark style="background: #BBFABBA6;">d. uma aplicação Internet utiliza portas fixas para identificar os processos clientes.</mark>
 
-Os **servidores** usam portas fixas (bem conhecidas) para que os clientes possam encontrá-los. Os **clientes**, por outro lado, geralmente não usam portas fixas. Um cliente vincula seu soquete a **qualquer porta local livre**.
+Os **servidores** usam portas fixas (bem conhecidas) para que os clientes possam encontrá-los. Os **clientes**, por outro lado, não usam portas fixas. Um cliente vincula seu soquete a **qualquer porta local livre**.
 
 ---
 **Em relação a comunicações baseadas em _Socket_ na linguagem de programação Java, são feitas as seguintes afirmações**
 
 **I.** Caso aconteça algum erro de entrada/saída ao fechar o socket, uma exceção do tipo _SocketException_ irá ocorrer.
 
-operações `send` e `receive` podem disparar uma `IOException`
+	operações `send` e `receive` podem disparar uma `IOException`
 
 **II.** Um objeto da classe _InetAddress_ contém um endereço IP.
 **III.** A classe _DatagramSocket_ vincula o aplicativo a uma porta para transmissão de datagrama.

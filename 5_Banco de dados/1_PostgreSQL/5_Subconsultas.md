@@ -4,15 +4,13 @@
 ---
 Uma consulta aninhada é uma consulta que é executada dentro de outra consulta. Ela é usada para calcular ou buscar um resultado que será utilizado na consulta externa.
 
-
-Tipos de Subconsultas Aninhadas: Existem três principais tipos de retorno em uma consulta aninhada.
-
-1. Subconsulta Escalar: Retorna um único valor.    
-2. Subconsulta de Única Linha: Retorna uma linha completa
-3. Subconsulta de Tabela: Retorna várias linhas e várias colunas.
+Tipos de Subconsultas Aninhadas: 
+1. **Subconsulta Escalar:** Retorna um único valor.    
+2. **Subconsulta de Única Linha:** Retorna uma linha completa
+3. **Subconsulta de Tabela:** Retorna várias linhas e várias colunas.
     
-
-### <Any, some e all 
+---
+### 1. Any, some e all 
 
  Os operadores any, some e all são usados em conjunto com subconsultas e têm a função de realizar comparações entre valores de uma consulta externa e o conjunto de resultados de uma subconsulta.
 
