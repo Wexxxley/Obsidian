@@ -31,43 +31,29 @@ As funções de agregação podem receber a cláusula **distinct**. O uso de dis
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdFY0RyzT7FhSzJ7JHovJDZOvxi9G4gXLEPytxHRdYzY25rnoRxVSXh6_oh0uP5wii7JxftEYFd6ncVpoQnhb8b2cJQzDOqaDClZgqoPBF5OntD_EJzRnDGVbcmSxy5ebpfiMUHJUfJpH50nKWlaXft9-aW?key=jqcuw0c7mMfsTTEWWceZSw)
 
-
 ---  
 ### 6. Group by
 
 A cláusula Group by é usada para agrupar linhas que compartilham um valor comum e, em seguida, aplicar funções de agregação a cada grupo. É especialmente útil para realizar cálculos sobre grupos de registros.
 
-  
-
-//Valor de compra total feita por cada cliente.
-
+**Valor de compra total feita por cada cliente.**
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfeHCL4UmrWN3fhFpAgVFIT_ugf0rCRQmsBUQhnjoy_duCJnbDo8cm0ydvH5iUinKOcyoOkZGP-O3y2cKv92rdNKZhHLdmdSYo0VP7elu3WGFG6e4kpXsyxAYDjKriZhMj55xVNrQ0Mm9zxRb6Rkbwl7Syw?key=jqcuw0c7mMfsTTEWWceZSw)
 
+---
 ### 7. Group by mais condição
 
-//Agrupa pelo cliente, soma os valores, e apresenta os que são maiores que 700.
-
+**Agrupa pelo cliente, soma os valores, e apresenta os que são maiores que 700.**
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXePzB6PWR6pdcIJaCSqJZd9buNolfU-jgR4mcUAr_Se5kvPyF2Ml5VmziGxS2zJX1IRNCzTkl0hTNV34lHgaBrcpbrKuWd8C7as5Dc18s3ynCVbeePwEDs36e2YYjs7qePY6Zl-YAHEEBhq6-LmRQGaOJcG?key=jqcuw0c7mMfsTTEWWceZSw)
 
-### <Having
 
- A cláusula HAVING é usada para filtrar os resultados de uma consulta após o agrupamento de dados realizado pelo GROUP BY. Ela permite definir condições sobre os grupos formados.
+---
+### 8. Having
+A cláusula HAVING é usada para filtrar os resultados de uma consulta após o agrupamento de dados realizado pelo GROUP BY. Ela permite definir condições sobre os grupos formados.
 
-  
+**WHERE x HAVING:**
 
-WHERE x HAVING:
-
-- WHERE: Filtra linhas antes do agrupamento (filtra os dados brutos).
-    
+- WHERE: Filtra linhas antes do agrupamento (filtra os dados brutos).    
 - HAVING: Filtra os grupos após o agrupamento (filtra o resultado da agregação).
-    
 
-  
-
-Exemplos de agrupamento
-
-  
-
-// Exibe o nome do usuário e número total de postagens de cada usuário.
-
+**Exibe o nome do usuário e número total de postagens de cada usuário.**
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeIF1xm5yzEd2c-Uyrnw-mD_yhJX15oPaTlQkMIb-7XlwAoQdXjycyIyZA0uJT3rI9Zi6glknXU2Nb6E6dOZzEV4t3xDvPQu44wiAXTYf5-BgxpOP29ckOCMLy92o1A5_rsrqg6BAvppDdnwmL7lweQ0kHe?key=jqcuw0c7mMfsTTEWWceZSw)

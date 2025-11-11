@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5_Banco de dados/1_PostgreSQL/4_Funções de agregação.md",
+                "file": "5_Banco de dados/1_PostgreSQL/5_Subconsultas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Funções de agregação"
+              "title": "5_Subconsultas"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5_Banco de dados/1_PostgreSQL/4_Funções de agregação.md",
+                "file": "5_Banco de dados/1_PostgreSQL/5_Subconsultas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 4_Funções de agregação"
+              "title": "Outgoing links from 5_Subconsultas"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5_Banco de dados/1_PostgreSQL/4_Funções de agregação.md",
+                "file": "5_Banco de dados/1_PostgreSQL/5_Subconsultas.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 4_Funções de agregação"
+              "title": "Outline of 5_Subconsultas"
             }
           },
           {
@@ -183,6 +183,7 @@
   "active": "6a6ddf7f3397fdfd",
   "lastOpenFiles": [
     "5_Banco de dados/1_PostgreSQL/2_Contato inicial com PostgreSQL.md",
+    "5_Banco de dados/1_PostgreSQL/5_Subconsultas.md",
     "5_Banco de dados/1_PostgreSQL/4_Funções de agregação.md",
     "5_Banco de dados/1_PostgreSQL/3_Consultas e Atualizações.md",
     "5_Banco de dados/1_PostgreSQL/1_Introdução.md",
@@ -215,7 +216,6 @@
     "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
     "12_Sistemas Distribuídos/Cap4/3_Comunicação por multicast.md",
     "Aleatórios/1_Blocos obsidian.md",
-    "7_Git and github/Git and github.md",
     "attachments/Pasted image 20251109102027.png",
     "attachments/Pasted image 20251109070618.png",
     "attachments/Pasted image 20251109070416.png",
