@@ -149,15 +149,11 @@ e. Com o advento da internet e, mais recentemente, o desenvolvimento de sistema
 
 ---
 
-![](../../attachments/Pasted%20image%2020251108160620.png)
-
----
-
 **Por que dados binários não podem ser representados diretamente em XML, por exemplo, como valores em Unicode? Os elementos XML podem transportar strings representados como base64. Discuta as vantagens ou desvantagens de usar esse método para representar dados binários.**
 
-Porque o XML é fundamentalmente uma **"codificação textual"**, todas as informações nos elementos XML são expressos com dados do tipo caractere.
+Porque o XML é uma **"codificação textual"**, todas as informações nos elementos XML são expressos com dados do tipo caractere.
 
-O problema é que  <mark style="background: #BBFABBA6;">dados no formato binários são uma sequência de bytes que podem ter qualquer valor.</mark> Alguns bytes binários podem ser idênticos aos caracteres que o XML usa para sua própria sintaxe (como `<`, `>`, `&`). Se um analisador XML encontrar esses bytes brutos, ele os interpretará como tags corrompidas, e não como dados. Por isso, os dados binários precisam ser _codificados_ em um formato que use apenas caracteres de texto seguros.
+O problema é que  <mark style="background: #BBFABBA6;">dados no formato binários são uma sequência de bytes que podem ter qualquer valor.</mark> Alguns bytes binários podem ser idênticos aos caracteres que o XML usa para sua própria sintaxe (como `<`, `>`). Se um analisador XML encontrar esses bytes brutos, ele os interpretará como tags, e não como dados. Por isso, os dados binários precisam ser _codificados_ em um formato que use apenas caracteres de texto seguros.
 
 - **Vantagem base 64:** A principal vantagem é a **compatibilidade**. O Base64 converte os dados binários em uma `string` que usa apenas "caracteres alfanuméricos". Isso garante que os dados possam ser transportados com segurança dentro de um documento XML sem ser mal interpretado pelo analisador.
     
