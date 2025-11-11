@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08_Git and github/3_Introdução ao github.md",
+                "file": "08_Git and github/4_Fluxo básico.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Introdução ao github"
+              "title": "4_Fluxo básico"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "08_Git and github/3_Introdução ao github.md",
+                "file": "08_Git and github/4_Fluxo básico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 3_Introdução ao github"
+              "title": "Outgoing links from 4_Fluxo básico"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08_Git and github/3_Introdução ao github.md",
+                "file": "08_Git and github/4_Fluxo básico.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_Introdução ao github"
+              "title": "Outline of 4_Fluxo básico"
             }
           },
           {
@@ -182,8 +182,9 @@
   },
   "active": "6a6ddf7f3397fdfd",
   "lastOpenFiles": [
-    "08_Git and github/2_Configurações e .git.md",
     "08_Git and github/3_Introdução ao github.md",
+    "08_Git and github/4_Fluxo básico.md",
+    "08_Git and github/2_Configurações e .git.md",
     "15_Aleatorios/1_Blocos obsidian.md",
     "attachments/Pasted image 20251111153203.png",
     "attachments/Pasted image 20251111153152.png",
@@ -217,7 +218,6 @@
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
     "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
     "02_Dotnet/3_ECommerce FullStack/6_Hooks.md",
-    "02_Dotnet/3_ECommerce FullStack/5_Componentes React.md",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
