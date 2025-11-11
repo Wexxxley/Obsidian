@@ -173,8 +173,12 @@ O problema é que  <mark style="background: #BBFABBA6;">dados no formato binári
 
 Quando você tem um grupo de processos (como servidores replicados) que devem ser cópias idênticas uns dos outros, a ordem em que eles processam as operações é crucial. 
 
-Para remediar essa situação, os destinos precisam implementar um protocolo de **multicast totalmente ordenado**.
+Os destinos (membros do grupo) concordariam em não aceitar mais mensagens multicast de qualquer cliente. Em vez disso:
 
-1. **Não entregar imediatamente:** Os processos de destino não devem entregar as mensagens para a aplicação assim que elas chegam. As mensagens recebidas são primeiro armazenadas em um buffer temporário.
+1. Um dos membros do grupo seria designado como o **Sequenciador**.
     
-2. **Estabelecer uma ordem global:** Os processos de destino devem usar um **protocolo de acordo** para concordar com uma **única ordem de entrega global**. Os processos de destino só entregam as mensagens do buffer para suas aplicações locais após elas estarem na ordem global acordada.
+2. Todos os clientes remetentes enviariam suas mensagens (ex: "DEPOSITAR R$ 50")  **apenas para o Sequenciador**.
+    
+3. O Sequenciador receberia as mensagens de todos os clientes em uma ordem única, atribuiria a elas um **número de sequência global** (1, 2, 3...) e, então, faria o **multicast** da mensagem (agora numerada) para todos os membros do grupo.
+    
+4. Os membros de destino receberiam as mensagens do Sequenciador. Eles **não as entregariam imediatamente** à aplicação. Eles as colocariam em um buffer local e as processariam estritamente de acordo com o número de sequência global, garantindo que todos os membros processem todas as operações na **exatamente mesma ordem**.
