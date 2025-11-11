@@ -49,10 +49,11 @@ d. HTTP, FTP, CORBA, TCP/IP
 <mark style="background: #BBFABBA6;">e. CORBA,RMI,DCOM, RM-ODP </mark>
 
 **RMI (Remote Method Invocation):** Extensão do RPC para o mundo dos objetos distribuídos.
-**CORBA:** Arquitetura de middleware que "permite às aplicações se comunicarem umas com as outras" através de um ORB (Object Request Broker), que é uma implementação da ideia de RMI/RPC.
+**CORBA:** Arquitetura de middleware que "permite às aplicações se comunicarem umas com as outras" através de um Object Request Broker, que é uma implementação da ideia de RMI/RPC.
 **DCOM e RM-ODP:** Eles são conceitualmente da mesma família de `CORBA` e `RMI`. 
 
 ---
+**Assinale a alternativa que indica todas as afirmativas corretas.** 
 
 **1.SOAP é baseado em XML e possui 3 partes: um envelope; um conjunto de regras e uma mensagem.** 
 
@@ -60,15 +61,13 @@ d. HTTP, FTP, CORBA, TCP/IP
 
 **3.Pode-se implementar RPC (Remote Procedure Call) em webservices utilizando SOAP.** 
 
-**Assinale a alternativa que indica todas as afirmativas corretas.** 
-
 a. São corretas as afirmativas 1, 2 e 3. 
 b. São corretas apenas as afirmativas 1 e 3. 
 c. São corretas apenas as afirmativas 1 e 2. 
 <mark style="background: #BBFABBA6;">d. São corretas apenas as afirmativas 2 e 3. </mark>
 e. É correta apenas a afirmativa 1.
 
-**SOAP (Simple Object Access Protocol)** é um protocolo projetado para permitir a comunicação entre aplicações pela Internet. Ele usa XML para formatar e empacotar mensagens. Um cliente pode enviar uma mensagem SOAP para um servidor para executar uma operação, e o servidor retorna a resposta em outra mensagem SOAP.
+**SOAP (Simple Object Access Protocol)** é um protocolo que permitir a comunicação entre aplicações pela Internet. Ele usa XML para empacotar mensagens. Um cliente pode enviar uma mensagem SOAP para um servidor para executar uma operação, e o servidor retorna a resposta em outra mensagem SOAP.
 
 - **1. INCORRETA.** Uma mensagem SOAP possui três partes: **envelope**, **cabeçalho** (opc) e **corpo**. 
     
@@ -78,13 +77,7 @@ e. É correta apenas a afirmativa 1.
 
 ---
 
-**O modelo OSI divide as funções das redes de computadores em sete camadas de abstração. Cada protocolo realiza a inserção de uma funcionalidade assinada a uma camada específica. 
-
-**Cabe revelar que utilizando este tipo de modelo é possível realizar comunicação entre máquinas distintas e definir diretivas genéricas para a elaboração de redes de computadores independente da tecnologia utilizada, sejam estas redes de curta, média ou longa distância. Este modelo exige o cumprimento de certas etapas para atingir a compatibilidade, portabilidade, interoperabilidade e escalabilidade.** 
-
-**São elas: a definição do modelo, definição dos protocolos de camada e a seleção de perfis funcionais. Uma das camadas pode ser definida da seguinte maneira: "Esta camada é responsável por iniciar e encerrar conexões de rede.** 
-
-**Exemplo existente na camada é a função do RPC (Remote Procedure Call)." A definição se refere à camada: Escolha uma opção:** 
+**O modelo OSI divide as funções das redes de computadores em sete camadas de abstração. São elas: a definição do modelo, definição dos protocolos de camada e a seleção de perfis funcionais. Uma das camadas pode ser definida da seguinte maneira: "Esta camada é responsável por iniciar e encerrar conexões de rede. A definição se refere à camada: Escolha uma opção:** 
 
 a. <mark style="background: #BBFABBA6;">sessão</mark> 
 b. rede 
@@ -92,7 +85,8 @@ c. transporte
 d. física
 
 ---
-**Relacione os seguintes middlewares (RPC, CORBA, JAVA RMI, JAVA EJB) com suas respectivas definições.** 
+**Relacione os seguintes middlewares com suas respectivas definições.** 
+
 1. RPC. 
 2. CORBA 
 3. JAVA RMI 
