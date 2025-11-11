@@ -48,7 +48,7 @@ Uma chave estrangeira (foreign key) estabelece uma relação entre duas tabelas 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe6VGHSoooo_zQG64VmnJxB0-dUSF2tdr0ZSkFWxSawv_GPuXY6MIJkA28uKWJpx-IS8uAiKEB8DIly0ufEsCwgnXeHBXu0kEs-jCcSwXP9eKKYx3Lw1v8cKzZAloumqY9YpRJjpYR3sOyJHL_DmkaFHb0?key=jqcuw0c7mMfsTTEWWceZSw)
 
 ---
-## 4.Tipos de dados SQL 
+## 4. Tipos de dados SQL 
 
 **Inteiros**
    - INT:  32 bits.
