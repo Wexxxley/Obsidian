@@ -30,7 +30,8 @@ A transação é "transferir R$ 100 da Alice para o Beto". Isso envolve dois com
 
 ---
 ### **A - Atomicidade**
-Ou todas as operações da transação são concluídas com sucesso, ou nenhuma delas é. 
+
+<mark style="background: #ADCCFFA6;">Ou todas as operações da transação são concluídas com sucesso, ou nenhuma delas é. </mark>
 
 O SQL executa tudo dentro do `BEGIN` e, se chegar ao `COMMIT` sem erros, torna as mudanças permanentes.
 
@@ -53,78 +54,62 @@ END;
 ---
 ### **C - Consistência**
 
-A consistência garante que o banco de dados só pode ir de um estado válido para outro estado válido. O banco de dados **impõe as regras** que você define. Através de `CONSTRAINTS` como `NOT NULL`, `UNIQUE`, `FOREIGN KEY` e, o mais importante aqui, `CHECK`.
+<mark style="background: #ADCCFFA6;">A consistência garante que o banco de dados só pode ir de um estado válido para outro estado válido</mark>. O banco de dados **impõe as regras** que você define. Através de `CONSTRAINTS` como `NOT NULL`, `UNIQUE`, `FOREIGN KEY` e, o mais importante aqui, `CHECK`.
 
 Vamos adicionar uma regra de negócio: "o saldo nunca pode ficar negativo".
 ```sql
--- Adicionando uma regra (CONSTRAINT) na tabela
-ALTER TABLE Contas
+ALTER TABLE Contas 
 ADD CONSTRAINT CHK_SaldoPositivo CHECK (Saldo >= 0);
 ```
 
 Agora, vamos tentar fazer uma transação que viole essa regra: Alice (que tem 1000) tenta transferir 1500 para o Beto.
-
-SQL
-
-```
-BEGIN TRANSACTION;
-
--- 1. Debitar da Alice (1000 - 1500 = -500)
-UPDATE Contas SET Saldo = Saldo - 1500.00 WHERE ContaID = 1;
--- ERRO! A CONSTRAINT CHK_SaldoPositivo é violada AQUI.
-
--- 2. O comando abaixo nem chega a ser executado
-UPDATE Contas SET Saldo = Saldo + 1500.00 WHERE ContaID = 2;
-
-ROLLBACK;
+```sql
+BEGIN;
+	-- 1. Debitar da Alice (1000 - 1500 = -500)
+	UPDATE Contas SET Saldo = Saldo - 1500.00 WHERE ContaID = 1;
+	-- ERRO! A CONSTRAINT CHK_SaldoPositivo é violada AQUI.
+	-- 2. O comando abaixo nem chega a ser executado
+	UPDATE Contas SET Saldo = Saldo + 1500.00 WHERE ContaID = 2;
+    commit;
+    
+EXCEPTION
+    rollback;
+END;
 ```
 
-**O que a Consistência faz:** O banco de dados nem sequer _permite_ que o primeiro `UPDATE` seja concluído. Ele falha imediatamente porque a regra `CHECK (Saldo >= 0)` seria quebrada. O banco se recusa a entrar em um estado "inválido". A Atomicidade (acima) então garante que a transação inteira seja desfeita.
 
 ---
+### **I - Isolamento**
 
-### I - Isolamento (Não se Metam uns com os Outros)
-
-O isolamento garante que transações concorrentes (acontecendo ao mesmo tempo) não interfiram umas nas outras. Do ponto de vista de uma transação, parece que ela está sendo executada sozinha no banco.
-
-**Como o SQL faz isso:** Através de **mecanismos de travamento (Locking)**.
-
-#### Cenário de Falha (Leitura Suja - Dirty Read)
+<mark style="background: #ADCCFFA6;">O isolamento garante que transações concorrentes (acontecendo ao mesmo tempo) não interfiram umas nas outras.</mark>
 
 Imagine que a nossa transferência (Alice -> Beto) está demorando. Ao mesmo tempo, um "Relatório" tenta somar todo o dinheiro do banco.
 
-|**Tempo**|**Transação 1 (Transferência)**|**Transação 2 (Relatório)**|**Saldo (Alice/Beto)**|**Total**|
-|---|---|---|---|---|
-|T1|`BEGIN TRANSACTION;`||1000 / 500|1500|
-|T2|`UPDATE Contas SET Saldo = 900 WHERE ContaID = 1;`||900 / 500|1400|
-|T3||`SELECT SUM(Saldo) FROM Contas;`|||
-|T4|`UPDATE Contas SET Saldo = 600 WHERE ContaID = 2;`||900 / 600|1500|
-|T5|`COMMIT;`||900 / 600|1500|
+| **Tempo** | **Transferência**                                  | **Relatório**                    | **Saldo (Alice/Beto)** | **Total** |
+| --------- | -------------------------------------------------- | -------------------------------- | ---------------------- | --------- |
+| T1        | `BEGIN TRANSACTION;`                               |                                  | 1000 / 500             | 1500      |
+| T2        | `UPDATE Contas SET Saldo = 900 WHERE ContaID = 1;` |                                  | 900 / 500              | 1400      |
+| T3        |                                                    | `SELECT SUM(Saldo) FROM Contas;` |                        |           |
+| T4        | `UPDATE Contas SET Saldo = 600 WHERE ContaID = 2;` |                                  | 900 / 600              | 1500      |
+| T5        | `COMMIT;`                                          |                                  | 900 / 600              | 1500      |
 
-**O que o Isolamento faz:** No T3, o que o Relatório deve ler?
+No T3, o que o Relatório deve ler?
 
-- **Sem Isolamento:** O Relatório leria `900 + 500 = 1400`. Ele leria os dados "sujos" (meio-feitos) da Transação 1. O total do banco pareceria R$ 100 mais pobre!
+- **Sem Isolamento:** O Relatório leria `900 + 500 = 1400`. Ele leria os dados 'meio feitos" da Transação 1. 
     
-- **Com Isolamento:** O banco de dados "trava" (coloca um _lock_) as linhas que a Transação 1 está modificando. Quando o Relatório (Transação 2) tenta ler no T3, o banco de dados o faz **esperar**. Somente após o `COMMIT` no T5 é que o banco libera o _lock_, e o Relatório pode ler o estado _novo e consistente_ (`900 + 600 = 1500`).
-    
+- **Com Isolamento:** O banco de dados "trava" (coloca um _lock_) as linhas que a Transação 1 está modificando. Quando o Relatório  tenta ler no T3, o banco de dados o faz esperar. Somente após o `COMMIT` no T5 é que o banco libera o _lock_, e o Relatório pode ler o estado _novo e consistente_ (`900 + 600 = 1500`).
 
 ---
+### **D - Durabilidade**
 
-### D - Durabilidade (Salvo para Sempre)
+<mark style="background: #ADCCFFA6;">A durabilidade garante que, uma vez que a transação recebe o COMMIT, as mudanças são permanentes e sobreviverão a qualquer falha.</mark>
 
-A durabilidade garante que, uma vez que a transação recebe o `COMMIT`, as mudanças são **permanentes** e sobreviverão a qualquer falha (queda de energia, crash do servidor).
-
-**Como o SQL faz isso:** Através do **Transaction Log (Log de Transações)**, também conhecido como Write-Ahead Log (WAL).
-
-Isto não é um comando SQL, mas sim como o motor do banco funciona "por baixo dos panos".
-
-#### Cenário de Falha (Queda de Energia)
 
 1. Você executa: `COMMIT;`
     
-2. O banco de dados **não** reescreve imediatamente os arquivos principais da tabela (que são grandes e lentos de modificar).
+2. O banco de dados não reescreve imediatamente os arquivos principais da tabela (que são grandes e lentos de modificar).
     
-3. Em vez disso, ele **rapidamente** escreve a mudança (ex: "Conta 1, Saldo agora é 900") em um arquivo de log sequencial (o **Transaction Log**), que é muito rápido.
+3. Em vez disso, ele rapidamente escreve a mudança em um arquivo de log sequencial ( **Transaction Log**), que é muito rápido.
     
 4. Assim que o _log_ é salvo no disco, o banco te responde "OK, comitado!".
     
