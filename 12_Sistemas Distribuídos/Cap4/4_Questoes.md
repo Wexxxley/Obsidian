@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 
@@ -173,12 +174,16 @@ O problema é que  <mark style="background: #BBFABBA6;">dados no formato binári
 
 Quando você tem um grupo de processos (como servidores replicados) que devem ser cópias idênticas uns dos outros, a ordem em que eles processam as operações é crucial. 
 
-Os destinos (membros do grupo) concordariam em não aceitar mais mensagens multicast de qualquer cliente. Em vez disso:
-
-1. Um dos membros do grupo seria designado como o **Sequenciador**.
+1. Os destinos concordariam em não aceitar mais mensagens multicast de qualquer cliente. 
     
-2. Todos os clientes remetentes enviariam suas mensagens (ex: "DEPOSITAR R$ 50")  **apenas para o Sequenciador**.
+2. Um dos membros do grupo seria designado como o **Sequenciador**.
     
-3. O Sequenciador receberia as mensagens de todos os clientes em uma ordem única, atribuiria a elas um **número de sequência global** (1, 2, 3...) e, então, faria o **multicast** da mensagem (agora numerada) para todos os membros do grupo.
+3. Quando um remetente quer enviar uma mensagem,  ele anexa seu próprio **número de sequência local** à mensagem, para garantir a ordem FIFO. Ele envia a mensagem numerada apenas para o Sequenciador.
     
-4. Os membros de destino receberiam as mensagens do Sequenciador. Eles **não as entregariam imediatamente** à aplicação. Eles as colocariam em um buffer local e as processariam estritamente de acordo com o número de sequência global, garantindo que todos os membros processem todas as operações na **exatamente mesma ordem**.
+4.  O Sequenciador mantém um registro do próximo número de sequência que ele espera de cada cliente para ordenar as msgs.
+    
+5. Para cada mensagem que o sequenciador processa na ordem FIFO correta, ele anexa um número de sequência global atual à mensagem.        
+    
+6. O Sequenciador então faz o **multicast** dessa mensagem para todos os membros do grupo de destino.
+    
+7. Os membros de destino receberiam as mensagens do Sequenciador. Eles **não as entregariam imediatamente** à aplicação. Eles as colocariam em um buffer local e as processariam estritamente de acordo com o número de sequência global, garantindo que todos os membros processem todas as operações na **exatamente mesma ordem**.

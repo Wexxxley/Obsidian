@@ -11,14 +11,10 @@
             "id": "6a6ddf7f3397fdfd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "4_Questoes"
+              "title": "New tab"
             }
           }
         ]
@@ -113,12 +109,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 4_Questoes"
+              "title": "Outgoing links"
             }
           },
           {
@@ -142,13 +137,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 4_Questoes"
+              "title": "Outline"
             }
           },
           {
@@ -182,6 +176,8 @@
   },
   "active": "6a6ddf7f3397fdfd",
   "lastOpenFiles": [
+    "10_TeoriaComputação/2_MáquinaTuring.pdf",
+    "10_TeoriaComputação/1_AutômatosBásico.pdf",
     "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
     "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
     "5_Banco de dados/1_PostgreSQL/5_Subconsultas.md",
@@ -215,7 +211,6 @@
     "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/1_Linguagem compilada.md",
     "Aleatórios/IHC-Observatório Legislativo.md",
     "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
-    "12_Sistemas Distribuídos/Cap4/3_Comunicação por multicast.md",
     "attachments/Pasted image 20251109102027.png",
     "attachments/Pasted image 20251109070618.png",
     "attachments/Pasted image 20251109070416.png",
@@ -227,7 +222,6 @@
     "attachments/Pasted image 20251108181036.png",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a",
     "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/Unconfirmed 285681.crdownload",
-    "14_Roadmap/1_Junior/1_Fundamentos/3_Linux/Untitled",
     "Sem título.canvas"
   ]
 }
