@@ -15,7 +15,7 @@ e. DNS (Domain Name System), RPC (Remote Procedure Call) e SMTP (Simple Mail Tra
 
 **HTTP:** Precisa de entrega confiável e ordenada para carregar páginas e, portanto, é implementado sobre TCP.
 **SMTP:** A entrega de e-mail precisa ser confiável. Portanto, o SMTP usa TCP.
-**IMAP:** Assim como o SMTP, é um protocolo de e-mail que requer uma conexão confiável e, portanto, usa TCP.
+**IMAP:** Protocolo de e-mail que requer uma conexão confiável e, portanto, usa TCP.
 
 **RPC:** Foi projetada para ser flexível e "Os implementadores têm a opção de usar chamadas de procedimento remoto sobre UDP ou TCP".
 **SNMP:** É um protocolo de gerenciamento que prioriza a velocidade e o baixo custo (sem conexão), sendo um usuário clássico do UDP.

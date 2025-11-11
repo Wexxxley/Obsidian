@@ -4,7 +4,6 @@
 ---
 Esta seção apresenta o **RMI Java** como uma implementação específica do modelo de RMI, mas com a particularidade de ser um sistema de **linguagem única** (Java para Java). 
 
----
 ### **1. Interfaces Remotas em Java**
 
 Para definir um objeto como remoto, o programador cria uma **interface que extends** a interface **java.rmi.Remote**. Um requisito fundamental é que todos os métodos nessa interface devem declarar que disparam a exceção **RemoteException**. Isso força o programador a lidar com as falhas de rede, tornando a natureza distribuída explícita.

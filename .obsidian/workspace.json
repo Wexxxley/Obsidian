@@ -11,10 +11,14 @@
             "id": "6a6ddf7f3397fdfd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "6_Questoes"
             }
           }
         ]
@@ -109,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 6_Questoes"
             }
           },
           {
@@ -137,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 6_Questoes"
             }
           },
           {
@@ -176,41 +182,42 @@
   },
   "active": "6a6ddf7f3397fdfd",
   "lastOpenFiles": [
+    "12_Sistemas Distribuídos/Cap5/5_Estudo de Caso - RMI Java.md",
+    "12_Sistemas Distribuídos/Cap5/4_ Invocação a Método Remoto.md",
+    "12_Sistemas Distribuídos/Cap5/3_Chamada de procedimento remoto (RPC).md",
+    "12_Sistemas Distribuídos/Cap5/2_Protocolos de Requisição-Resposta.md",
+    "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
+    "image8.md",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
-    "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
     "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
-    "5_Banco de dados/1_PostgreSQL/5_Subconsultas.md",
-    "5_Banco de dados/1_PostgreSQL/2_Contato inicial com PostgreSQL.md",
-    "5_Banco de dados/1_PostgreSQL/4_Funções de agregação.md",
-    "5_Banco de dados/1_PostgreSQL/3_Consultas e Atualizações.md",
-    "5_Banco de dados/1_PostgreSQL/1_Introdução.md",
-    "9_Dotnet/3_ECommerce FullStack/6_Hooks.md",
-    "9_Dotnet/3_ECommerce FullStack/5_Componentes React.md",
-    "9_Dotnet/3_ECommerce FullStack/4_ODM (Object-Document Mapper).md",
-    "9_Dotnet/3_ECommerce FullStack/2_Iniciando o projeto.md",
-    "9_Dotnet/3_ECommerce FullStack/1_React, Vite e redux.md",
-    "9_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
-    "9_Dotnet/1_Fundamentos",
-    "9_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
+    "05_Banco de dados/1_PostgreSQL/5_Subconsultas.md",
+    "05_Banco de dados/1_PostgreSQL/2_Contato inicial com PostgreSQL.md",
+    "05_Banco de dados/1_PostgreSQL/4_Funções de agregação.md",
+    "05_Banco de dados/1_PostgreSQL/3_Consultas e Atualizações.md",
+    "05_Banco de dados/1_PostgreSQL/1_Introdução.md",
+    "02_Dotnet/3_ECommerce FullStack/6_Hooks.md",
+    "02_Dotnet/3_ECommerce FullStack/5_Componentes React.md",
+    "02_Dotnet/3_ECommerce FullStack/4_ODM (Object-Document Mapper).md",
+    "02_Dotnet/3_ECommerce FullStack/2_Iniciando o projeto.md",
+    "02_Dotnet/3_ECommerce FullStack/1_React, Vite e redux.md",
+    "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
+    "02_Dotnet/1_Fundamentos",
+    "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
     "9_Dotnet/Unconfirmed 438827.crdownload",
-    "9_Dotnet/3_ECommerce FullStack/8_.md",
+    "02_Dotnet/3_ECommerce FullStack/8_.md",
     "9_Dotnet/Unconfirmed 295246.crdownload",
     "9_Dotnet/Fundamentos C#.docx",
     "attachments/Pasted image 20251110202250.png",
-    "image8.md",
     "9_Dotnet/1_Fundamentos CSHARP/1_Fundamentos C.md",
     "9_Dotnet/1_Fundamentos CSHARP/1_Introdução.md",
-    "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/2_Modelo Híbrido e Máquina Virtual.md",
+    "01_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/2_Modelo Híbrido e Máquina Virtual.md",
     "9_Dotnet/Untitled.md",
     "9_Dotnet/1_Fundamentos CSHARP",
     "14_Roadmap/1_Junior/1_Fundamentos/3_Linux/2_.md",
     "14_Roadmap/1_Junior/1_Fundamentos/3_Linux/1_Introdução.md",
-    "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/3_Linguagens interpretadas.md",
-    "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/4_Comparação.md",
-    "14_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/1_Linguagem compilada.md",
-    "Aleatórios/IHC-Observatório Legislativo.md",
-    "Aleatórios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
+    "01_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/3_Linguagens interpretadas.md",
+    "01_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/4_Comparação.md",
     "attachments/Pasted image 20251109102027.png",
     "attachments/Pasted image 20251109070618.png",
     "attachments/Pasted image 20251109070416.png",
@@ -220,8 +227,7 @@
     "attachments/Pasted image 20251109064901.png",
     "attachments/Pasted image 20251108183523.png",
     "attachments/Pasted image 20251108181036.png",
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a",
-    "14_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/Unconfirmed 285681.crdownload",
+    "01_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a",
     "Sem título.canvas"
   ]
 }

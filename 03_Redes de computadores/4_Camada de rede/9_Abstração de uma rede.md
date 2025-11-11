@@ -1,7 +1,7 @@
 
 ---
 
-[1_Introdução a grafos](../../4_Algorítmos%20e%20Estruturas%20de%20dados/Grafos/1_Introdução%20a%20grafos.md)
+[1_Introdução a grafos](../../04_Algorítmos%20e%20Estruturas%20de%20dados/Grafos/1_Introdução%20a%20grafos.md)
 
 Redes são abstraidas através de um grafo não direcionado com pesos.
 
@@ -36,7 +36,7 @@ Computa caminhos de menor custo de um nó (fonte) para todos os outros nós:
 - Fornece uma tabela de roteamento para aquele nó.
 - Algoritmo global e estáticos.
 
-[6_Caminho mínimo de fonte única (Dijkstra)](../../4_Algorítmos%20e%20Estruturas%20de%20dados/Grafos/6_Caminho%20mínimo%20de%20fonte%20única%20(Dijkstra).md)
+[6_Caminho mínimo de fonte única (Dijkstra)](../../04_Algorítmos%20e%20Estruturas%20de%20dados/Grafos/6_Caminho%20mínimo%20de%20fonte%20única%20(Dijkstra).md)
 
 ### **4. Algoritmo Vetor de distância (VD)**
 
