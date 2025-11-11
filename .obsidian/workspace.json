@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Banco de dados/1_Relacional/7_ACID.md",
+                "file": "08_Git and github/1_Intodução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_ACID"
+              "title": "1_Intodução"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05_Banco de dados/1_Relacional/7_ACID.md",
+                "file": "08_Git and github/1_Intodução.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 7_ACID"
+              "title": "Outgoing links from 1_Intodução"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05_Banco de dados/1_Relacional/7_ACID.md",
+                "file": "08_Git and github/1_Intodução.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 7_ACID"
+              "title": "Outline of 1_Intodução"
             }
           },
           {
@@ -182,8 +182,9 @@
   },
   "active": "6a6ddf7f3397fdfd",
   "lastOpenFiles": [
-    "05_Banco de dados/1_Relacional/2_Consultas e Atualizações.md",
     "05_Banco de dados/1_Relacional/7_ACID.md",
+    "08_Git and github/1_Intodução.md",
+    "05_Banco de dados/1_Relacional/2_Consultas e Atualizações.md",
     "05_Banco de dados/1_Relacional/5_Alter Table.md",
     "05_Banco de dados/1_Relacional/6_Join.md",
     "08_Git and github/Git and github.md",
@@ -216,7 +217,6 @@
     "9_Dotnet/Unconfirmed 295246.crdownload",
     "9_Dotnet/Fundamentos C#.docx",
     "attachments/Pasted image 20251110202250.png",
-    "9_Dotnet/1_Fundamentos CSHARP/1_Fundamentos C.md",
     "9_Dotnet/1_Fundamentos CSHARP",
     "attachments/Pasted image 20251109102027.png",
     "attachments/Pasted image 20251109070618.png",
