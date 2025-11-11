@@ -124,17 +124,16 @@ O NFSv4 permite **combinar várias operações** (busca, abertura, leitura) em u
 - O **CORBA** é apresentado como a solução "multilinguagem" projetada para permitir a interoperabilidade entre objetos escritos em diferentes linguagens.
 
 ---
-**Chamadas de procedimento remoto (RPC — do inglês remote procedure call) são uma forma de comunicação entre processos na qual diferentes processos têm diferentes espaços de endereço.** 
+**Chamadas de procedimento remoto (RPC remote procedure call) são uma forma de comunicação entre processos na qual diferentes processos têm diferentes espaços de endereço.** 
 
 <mark style="background: #BBFABBA6;">Verdadeiro</mark>
 
 Um "processo" é uma unidade de gerenciamento de recursos que possui seu próprio espaço de endereçamento. O livro reforça essa separação na seção sobre RPC ao explicar por que a passagem de parâmetros por referência (ponteiros de memória) não é suportada: "os endereços de um processo não são válidos em outro processo remoto".
 
 ---
-
 **Descreva as maneiras pelas quais o protocolo de requisição-resposta mascara a heterogeneidade dos sistemas operacionais e das redes de computador.**
 
-- **Mascarando a Heterogeneidade de SO's:** O protocolo mascara essas diferenças usando empacotamento e uma representação externa de dados padronizada. Antes de enviar uma mensagem, o processo de empacotamento converte os dados do formato local da máquina para um formato externo padronizado. O processo receptor, então, desempacota, convertendo-os desse formato padrão de volta para o seu próprio formato local. Isso garante que os dados possam ser trocados, independentemente do hardware ou SO de cada máquina.
+- **Mascarando a Heterogeneidade de SO's:** O protocolo mascara essas diferenças usando uma representação externa de dados padronizada. Antes de enviar uma mensagem, o processo de empacotamento converte os dados do formato local da máquina para um formato externo padronizado. O processo receptor, então, desempacota, convertendo-os desse formato padrão de volta para o seu próprio formato local. Isso garante que os dados possam ser trocados, independentemente do hardware ou SO de cada máquina.
     
 - **Mascarando a Heterogeneidade de Rede:** O protocolo de requisição-resposta em si não mascara diretamente as redes. Em vez disso, ele **utiliza os protocolos Internet subjacentes (como IP, TCP e UDP)**, que são os responsáveis por mascarar as diferenças entre as diversas tecnologias de rede (como Ethernet, WiFi, etc.).
 
@@ -146,7 +145,7 @@ Um "processo" é uma unidade de gerenciamento de recursos que possui seu própri
 
 - **Protocolo RR:** Este protocolo usa a **confirmação implícita**. O servidor é forçado a manter a última resposta de um cliente armazenada até que esse cliente decida fazer uma _nova_ requisição (o que pode demorar muito ou nunca acontecer) ou até que um timeout expire.
     
-- **Protocolo RRA:** Este protocolo usa a **confirmação explícita**. Como o cliente envia uma mensagem de confirmação, o servidor sabe exatamente quando a resposta pode ser descartada. O server armazena a resposta por um curto período.
+- **Protocolo RRA:** Este protocolo usa a **confirmação explícita**. Como o cliente envia uma mensagem de confirmação, o servidor sabe exatamente quando a resposta pode ser descartada. 
 
 ---
 
@@ -155,7 +154,7 @@ Um "processo" é uma unidade de gerenciamento de recursos que possui seu própri
 
 - **Por quanto tempo os servidores devem manter os dados?** O servidor deve manter os dados da resposta em seu histórico até que a mensagem de confirmação do cliente seja recebida. Se essa confirmação for perdida, o servidor geralmente manterá a resposta até que um **timeout** expire.
     
-- **Os servidores devem enviar a resposta repetidamente para obter uma confirmação?** **Não.** Se a resposta original se perder, o cliente (que não a recebeu) fará um _timeout_ e retransmitirá a **requisição** original. O servidor, ao receber essa requisição duplicada, apenas reenvia a resposta.
+- **Os servidores devem enviar a resposta repetidamente para obter uma confirmação?** **Não.** Se a resposta original se perder, o cliente (que não a recebeu) fará um _timeout_ e retransmitirá a **requisição** original. 
 
 ---
 
