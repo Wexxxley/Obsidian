@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08_Git and github/Branch.md",
+                "file": "08_Git and github/10_Contribuições para projetos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Branch"
+              "title": "10_Contribuições para projetos"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "08_Git and github/Branch.md",
+                "file": "08_Git and github/10_Contribuições para projetos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Branch"
+              "title": "Outgoing links from 10_Contribuições para projetos"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08_Git and github/Branch.md",
+                "file": "08_Git and github/10_Contribuições para projetos.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Branch"
+              "title": "Outline of 10_Contribuições para projetos"
             }
           },
           {
@@ -183,6 +183,8 @@
   "active": "6a6ddf7f3397fdfd",
   "lastOpenFiles": [
     "08_Git and github/08_Branches.md",
+    "08_Git and github/10_Contribuições para projetos.md",
+    "08_Git and github/Branch.md",
     "08_Git and github/09_Juntando branches.md",
     "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
     "attachments/Pasted image 20251111161906.png",
@@ -198,7 +200,6 @@
     "15_Aleatorios/1_Blocos obsidian.md",
     "attachments/Pasted image 20251111153203.png",
     "attachments/Pasted image 20251111153152.png",
-    "08_Git and github/Branch.md",
     "attachments/Pasted image 20251111152728.png",
     "attachments/Pasted image 20251111152544.png",
     "temp",
@@ -217,7 +218,6 @@
     "05_Banco de dados/1_Relacional/1_Introdução.md",
     "05_Banco de dados/1_PostgreSQL/2_Contato inicial com PostgreSQL.md",
     "12_Sistemas Distribuídos/Cap5/5_Estudo de Caso - RMI Java.md",
-    "12_Sistemas Distribuídos/Cap5/4_ Invocação a Método Remoto.md",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
