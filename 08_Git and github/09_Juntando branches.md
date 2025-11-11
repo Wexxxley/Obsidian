@@ -3,28 +3,20 @@
 ---
 ### 1. Juntando Branches (git merge)
 
-Na última lição, criamos uma nova _branch_ para trabalhar em um recurso. Agora que o recurso está pronto, queremos trazê-lo de volta para a branch `main`. Esse processo é chamado de **merge** (mesclagem).
+Na última lição, criamos uma nova _branch_ para trabalhar em um recurso. Agora que o recurso está pronto, queremos trazê-lo de volta para a branch `main`.  O fluxo é o seguinte:
 
-O fluxo é o seguinte:
-
-1. **Mude para a branch de destino:** Você deve estar na branch que vai _receber_ as mudanças (geralmente a `main`).
-    
+1. **Mude para a branch de destino:** 
     - `git checkout main`
         
 2. **Execute o comando de merge:** Chame o `git merge` e diga qual branch você quer "puxar" para dentro da `main`.
-    
-    - `git merge newFeature` (onde `newFeature` é o nome da sua branch de recurso).
-        
+    - `git merge newFeature`
 
-**Resultado:** O Git vai pegar todos os commits da sua branch `newFeature` e aplicá-los à branch `main`. Agora, o arquivo `feature1.html` que você criou na outra branch existe também na `main`.
-
-#### 2. Conflitos de Merge (O que fazer quando dá errado) (Páginas 86-90)
+---
+#### 2. Conflitos de Merge
 
 Isso é algo que assusta no começo, mas é normal. Um **conflito** acontece quando o Git não sabe como juntar as mudanças automaticamente.
 
-- **Quando acontece?** Geralmente, quando duas pessoas (ou duas branches) modificam a **mesma linha do mesmo arquivo**. O Git não sabe qual versão deve ser mantida.
-    
-- **O que o Git faz?** Ele para a mesclagem e avisa: `CONFLICT (content): Merge conflict in...`.
+- Geralmente, quando duas pessoas (ou duas branches) modificam a mesma linha do mesmo arquivo. O Git não sabe qual versão deve ser mantida. Ele para a mesclagem e avisa: `CONFLICT (content): Merge conflict in...`.
     
 - **Como resolver?** O Git insere marcadores especiais no arquivo conflitante para mostrar onde está o problema.
     
@@ -35,19 +27,12 @@ Isso é algo que assusta no começo, mas é normal. Um **conflito** acontece qua
     - `>>>>>>> conflictDemo`: O fim do código como ele está na branch que você está tentando mesclar (`conflictDemo`, no exemplo).
         
 - **Seu trabalho é:**
-    
     1. Abrir o arquivo (ex: `feature1.html`).
-        
     2. Editar o arquivo manualmente.
-        
     3. **Remover todos os marcadores** (`<<<`, `===`, `>>>`).
-        
     4. Decidir qual código deve ficar (o seu? o do outro? uma combinação dos dois?).
-        
     5. Salvar o arquivo.
-        
     6. Fazer um novo commit para finalizar a resolução: `git commit -am "Resolve merge conflict"`.
-        
 
 #### 3. Revertendo Mudanças e Corrigindo Commits (Páginas 91-95)
 

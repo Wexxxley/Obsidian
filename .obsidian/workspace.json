@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08_Git and github/09_Juntando branches.md",
+                "file": "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09_Juntando branches"
+              "title": "6_Questoes"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "08_Git and github/09_Juntando branches.md",
+                "file": "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 09_Juntando branches"
+              "title": "Outgoing links from 6_Questoes"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08_Git and github/09_Juntando branches.md",
+                "file": "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 09_Juntando branches"
+              "title": "Outline of 6_Questoes"
             }
           },
           {
@@ -182,8 +182,8 @@
   },
   "active": "6a6ddf7f3397fdfd",
   "lastOpenFiles": [
-    "08_Git and github/08_Branches.md",
     "08_Git and github/09_Juntando branches.md",
+    "08_Git and github/08_Branches.md",
     "attachments/Pasted image 20251111161906.png",
     "08_Git and github/07_Git push e pull.md",
     "08_Git and github/06_Autenticação.md",
