@@ -99,7 +99,6 @@ d. O _socket_ é uma construção de software que representa a parte intermed
 
 Para usar um `Socket` TCP, o programador obtém um `InputStream` e um `OutputStream`. Essas são as mesmas classes abstratas do pacote `java.io` usadas para ler e escrever em arquivos. Isso permite ao aplicativo tratar a rede como se fosse um arquivo, lendo dados dela (`read`) e escrevendo dados para ela (`write`).
 
-
 ---
 
 **Em relação à sincronização na comunicação entre processos, podemos afirmar que:**
@@ -134,7 +133,7 @@ a. As soluções desses problemas são relativamente simples, mas suas implemen
 
 <mark style="background: #BBFABBA6;">b. Sua possível solução depende das garantias de comunicação consideradas para o ambiente de execução do sistema (sistemas síncronos, assíncronos ou modelos intermediários). </mark>
 
--  A capacidade de resolver problemas de acordo depende diretamente dessas garantias. O livro afirma que "existem problemas que não podem ser resolvidos para um sistema assíncrono, mas que podem ser tratados quando alguns aspectos de tempo são usados".
+-  A capacidade de resolver problemas depende diretamente dessas garantias. O livro afirma que "existem problemas que não podem ser resolvidos para um sistema assíncrono, mas que podem ser tratados quando alguns aspectos de tempo são usados".
 
 c. São problemas presentes no desenvolvimento de sistemas de computação em nuvem, que não estão relacionados a sistemas distribuídos mais simples, tais como um sistema cliente-servidor.
 
