@@ -1,5 +1,5 @@
 
-
+#Concluded 
 
 ---
 ### 1. **Select**
@@ -68,4 +68,27 @@ O Order by é usado para ordenar os resultados com base em uma ou mais colunas.
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe0yntAYSu8WKfgzBpAAsRWkCCtNOAaqYIZf3zruUgbiFL3eqHJ6GzWSjiiUWyUr-w545zG1SZvDjTwCn0GGamLoVygVim-R4mvj1HjdCegKoiuhjSSHBFUNrEOI_Rf5yWvIOrWyYf3v6P0D41I5_Qvao8?key=jqcuw0c7mMfsTTEWWceZSw)
 
   
+---
+### 7. Atualizações de forma segura
 
+#### Transações
+- **Beggin**: Marca o início de uma sequência de operações que devem ser tratadas atomicamente. 
+
+- **Rollback**: Se ocorrer erro na transação, o rollback reverterá as alterações feitas. 
+
+- **Commit**: Se a transação for concluída com sucesso, o commit confirma todas as alterações feitas dentro e as aplica permanentemente ao banco de dados. 
+
+#### Update
+Update é usado para modificar os dados existentes em uma tabela.  É necessário tomar muito cuidado com esse comando. Por isso é interessante usar as transações para garantir a integridade dos dados.
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd5YzP533gaxVczBqjoSX-W2vHLfaXB_5v0VW-LhgdGiFpoGzRY3aQBzoypmxIv2G_zuBS3oJMvqKdY6VzZDR6gfRsHA1VnEJw_ByaATqYFmammyEkC5sGLRrVY3m8iVwoB5lanNlLoqqRWQ64dXG63zQ6L?key=jqcuw0c7mMfsTTEWWceZSw)
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcIxp37RAgqWwZcil7LQV65tSAA4gnlgggnvbuUR6BwEC0xB2vV5xhJw_YSC24VVNsZLt2BBmdCOovdCiq5eezKLZBWNmVvOWLh4feDH18W3NLRIjSEtMT_8Dh_fctgOerUCIEEKOaDkjhzJ870jUxcd9UI?key=jqcuw0c7mMfsTTEWWceZSw)
+Você executa os updates, verifica se tudo está certo, em caso de erro executa o rollback, em caso de sucesso executa o commit.
+
+#### Delete
+Delete é usado para remover registros da tabela. É necessário tomar muito cuidado com esse comando. Por isso, novamente, é interessante usar as transações para garantir a integridade dos dados.
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfyVdYoMpyMQ4KggDj_U7YFq0gqkO2IFAxdP2hNUetEIfO29mCg9vFbmfz6n_G15aAS6mIVP0BFSBwkqUDpKbPMzHiJp1oRbRyy4viJ-zOXbYnTBUvUTuJsrFuFrVs0rfoajymX7X8IorIGSEd0A4dGK3Cp?key=jqcuw0c7mMfsTTEWWceZSw)
+
+  
