@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 ### **1. Clonando um Repositório (git clone)**
@@ -11,7 +12,6 @@ Na maioria das vezes, você não vai começar um projeto do zero. Você vai se j
 4. No seu terminal, navegue até a pasta onde você quer salvar o projeto e rode:
 	`git clone git@github.com:usuario/nome-do-repo.git`
 
-
 ---
 ### **2. Fork**
 
@@ -21,27 +21,9 @@ Aqui está um cenário comum: você quer contribuir para um projeto de código a
 - Agora você tem uma "versão sua" do projeto e pode fazer `push` para ela à vontade.
 
 ---
-### 3. O Fluxo Completo de Contribuição
-
-1. **Clone ou Inicie:** `git clone` um projeto existente ou `git init` um novo.
-    
-2. **Crie uma Branch:** **Sempre** crie uma nova branch para seu trabalho com `git checkout -b nome-da-branch`.
-    
-3. **Trabalhe:** Faça suas mudanças no código.
-    
-4. **Salve Localmente:** Use `git add .` e `git commit -m "mensagem"`.
-    
-5. **Envie para o Remoto:** `git push origin nome-da-branch`.
-    
-6. **Abra um Pull Request (PR):** Peça para suas mudanças serem mescladas na branch `main`.
-    
-7. **Revise:** Alguém vai revisar seu código e, se estiver tudo certo, vai aprová-lo e mesclá-lo.    
-
----
-### 4. Pull Request
+### **3. Pull Request**
 
 Um Pull Request é a forma de dizer no GitHub: "Eu fiz mudanças nesta branch e gostaria que vocês as puxassem e mesclassem na branch principal". É a versão "online" do comando `git merge`.
-
 
 1. **Faça o Fork** do repositório original (se não for seu).
     
@@ -57,7 +39,5 @@ Um Pull Request é a forma de dizer no GitHub: "Eu fiz mudanças nesta branch e 
     
 7. **Clique em "Pull Requests"** e depois em "New pull request".
     
-8. **Configure o PR:**
-    
-9. **Escreva** um título e uma descrição claros para o seu PR.
+8. **Configure o PR**
 

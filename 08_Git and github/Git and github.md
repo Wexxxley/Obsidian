@@ -1,54 +1,26 @@
 
----
-
 
 
 ---
-## **1.1 Fluxo básico**
+### **1. Fluxo básico**
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf7_55WBfYQZKkMPobGSjeXrfoes34gdmd8LrM2sJvX8en_zWSEIRbskh7J_majyrp-QjNq3xghsnUkhCg8nFTq6ICcYRZMTqghF9FBaK65IZV5MjXlmePTXSL67tJvj5b6quSrEw?key=yiMe1b2VwU1jpN7Jf4vtog)
 
 **Diretório de Trabalho:** É onde você realmente edita os arquivos do projeto.
-
-- add: Move os arquivos modificados do diretório para a área de staging.  
+- `add`: Move os arquivos modificados do diretório para a área de staging.  
 
 **Staging**: É onde você prepara os arquivos que deseja enviar para o repositório.
-- commit: Grava os arquivos preparados no repositório local.
+- `commit`: Grava os arquivos preparados no repositório local.
 
 **Repositório Local:** Contém o histórico de commits da sua máquina.
-- push: Envia os commits para o repositório remoto.
-- git fetch: Baixa o histórico mais recente do repositório remoto sem aplicar ao seu código.
-- git merge: mescla as mudanças que vieram do fetch ao seu repositório local.
-- git pull: Faz fetch + merge de uma vez: traz e aplica atualizações do repositório remoto.
-- checkout: Alterna entre branches diferentes do projeto no repositório local. 
+- `push`: Envia os commits para o repositório remoto.
+- `git fetch`: Baixa o histórico recente do repositório remoto sem aplicar ao seu código.
+- `git merge`: Mescla as mudanças que vieram do fetch ao seu repositório local.
+- `git pull`: Faz fetch + merge de uma vez: traz e aplica atualizações do rep remoto.
+- `checkout`: Alterna entre branches diferentes do projeto no repositório local. 
 
 **Repositório Remoto:** É onde o código fica hospedado online.
-- git clone: Copia um repositório remoto para a sua máquina, criando um repositório local com diretório de trabalho.  
-
-___
-## **1.2 Criando e clonando repositórios**
-
-**Criando**: no Github, você faz um new repositório, copia as instruções e cola no terminal da pasta desejada.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc5t6zjrXh6BrrXsoWivLLmSJVdK6Yn_zWStugW3btoJ4FfuQ8Ta4f7BOE_S4jutkHm_9B5-jM6JCwZzIdfbQ1gCGIKhrcN1BcUGA8-isSwCqsM3Sz0AnrignTvQU5_YtJipse4ePQ0smGOpGMvQQgx6ls?key=yiMe1b2VwU1jpN7Jf4vtog)
-
-- git init: inicia o repositório local
-- git branch: cria uma nova branch
-- git remote: conecta com o repositório remoto
-- git push: envia as alterações para o repositório remoto  
-
-**Clonando repositório público**: Você copia a URL do repositório e usa o git clone.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf7MKgbOE_nylkyyQg9-Dxjqs3Lnj2PqMGvo291V2tLCHwpkF6OxmYY9akEwgfUXQGgxp39TvTybjI_nn-kpU83NeqoIwUulsM9l_0Fj4bvEKCizyyd1P5h43O9JD0QcwIbJrR9LWU7LOBsja07KR4JY3lV?key=yiMe1b2VwU1jpN7Jf4vtog)
-  
-
-__________________________________________________________________________
-## **1.3 Salvando alterações**
-
-**Tipos de estados dos arquivos**
-1. **Modified: arquivos modificados**
-2. **Staging: arquivos prontos para serem enviados**
-3. **Committed: arquivos comitados**
+- `git clone`: Copia um repositório remoto para a sua máquina, criando um repositório local com diretório de trabalho.  
 
 **Git status**: Mostra os estados dos arquivos.
 **![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXerJgctqNG1vAFPYLkfjohm3BpEFZrhOIpovTRphPEoDI0Uy4czesw3kPA95IZYMeIrspyhkQT514YL1CZSkZgY-JUSoscwDYes8ybMmuCcFvqDOnhQNBYZi4fxv_ydSDABdEUxXibIC-foZ6DkWHj8LVWS?key=yiMe1b2VwU1jpN7Jf4vtog)
