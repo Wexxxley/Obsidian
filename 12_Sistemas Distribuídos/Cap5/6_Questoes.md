@@ -258,7 +258,7 @@ O tempo total é o tempo até que a _última_ thread (T2) termine seu trabalho.
 
 ---
 
-### Há necessidade de invocação assíncrona?
+### **Há necessidade de invocação assíncrona?**
 
 A questão é se a **invocação assíncrona** (onde a chamada `doOperation` retorna imediatamente, sem bloquear a thread) é _necessária_ se o cliente e o servidor já são multi-thread.
 

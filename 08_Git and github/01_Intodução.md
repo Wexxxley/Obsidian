@@ -2,15 +2,13 @@
 #Concluded 
 
 ---
-### 1. O que é Git?
+### **1. O que é Git?**
 
-Git é o sistema de controle de versão (VCS) de código aberto mais popular que existe. Ele foi criado por Linus Torvalds.
+Git é o **Sistema de Controle de Versão (VCS)** de código aberto mais popular que existe. E foi criado por Linus Torvalds. Seu objetivo principal é<mark style="background: #ADCCFFA6;"> rastrear mudanças no código-fonte e ajudar os programadores a coordenar o trabalho em equipe.</mark>
 
-Seu objetivo principal é **rastrear mudanças no código-fonte** e ajudar os programadores a coordenar o trabalho em equipe.
-
-Git é um VCS **Distribuído**.  Significa que você não tem apenas uma cópia do código. Você tem:
-1. Um **repositório local**.
-2. Um **repositório remoto** (em um servidor, como o GitHub).
+- Git é um **VCS Distribuído**. Significa que você não tem apenas uma cópia do código. Você tem:
+	1. Repositório local.
+	2. Repositório remoto.
 
 ---
 ### 2. Instalando o Git

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
+                "file": "08_Git and github/01_Intodução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Questoes"
+              "title": "01_Intodução"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
+                "file": "08_Git and github/01_Intodução.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 4_Questoes"
+              "title": "Outgoing links from 01_Intodução"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
+                "file": "08_Git and github/01_Intodução.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 4_Questoes"
+              "title": "Outline of 01_Intodução"
             }
           },
           {
