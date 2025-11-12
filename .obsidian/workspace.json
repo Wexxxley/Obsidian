@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08_Git and github/Git and github.md",
+                "file": "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git and github"
+              "title": "6_Questoes"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "08_Git and github/Git and github.md",
+                "file": "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Git and github"
+              "title": "Outgoing links from 6_Questoes"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08_Git and github/Git and github.md",
+                "file": "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Git and github"
+              "title": "Outline of 6_Questoes"
             }
           },
           {
@@ -182,19 +182,20 @@
   },
   "active": "6a6ddf7f3397fdfd",
   "lastOpenFiles": [
+    "12_Sistemas Distribuídos/Cap5/5_Estudo de Caso - RMI Java.md",
+    "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
     "08_Git and github/09_Contribuições para projetos.md",
-    "08_Git and github/Git and github.md",
+    "08_Git and github/10_Fluxo geral.md",
     "08_Git and github/08_Git merge e revertendo mudanças.md",
+    "08_Git and github/02_Configurações e .git.md",
     "08_Git and github/07_Branches.md",
     "08_Git and github/06_Git push e pull.md",
-    "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
     "12_Sistemas Distribuídos/Cap5/4_Invocação a Método Remoto.md",
     "12_Sistemas Distribuídos/Cap5/3_Chamada de procedimento remoto (RPC).md",
     "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
     "08_Git and github/05_Autenticação.md",
     "08_Git and github/04_Log e .gitignore.md",
     "08_Git and github/03_Fluxo inicial.md",
-    "08_Git and github/02_Configurações e .git.md",
     "08_Git and github/01_Introdução.md",
     "08_Git and github/03_Introdução ao Github.md",
     "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
@@ -208,7 +209,6 @@
     "01_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/1_Linguagem compilada.md",
     "01_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/4_Armazenamento.md",
     "01_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/5_Placa mãe.md",
-    "01_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/6_A Hierarquia de Memória e o Cache.md",
     "attachments/Pasted image 20251111161906.png",
     "attachments/Pasted image 20251111154931.png",
     "attachments/Pasted image 20251111153203.png",

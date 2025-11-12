@@ -45,4 +45,8 @@ O que fazer se você "commitou" algo errado?
 - **Caso 2: Você quer desfazer o último commit.**
     - **`git reset --soft HEAD~1`**: Este comando desfaz o último commit, mas mantém todas as suas alterações de código na área de _staging_. 
     - **`git reset --hard HEAD~1`**: Este é o mais perigoso. Ele desfaz o último commit e apaga permanentemente todas as mudanças de código daquele commit. 
+        
+- **Caso 2:Desfazendo alteração de um arquivo**.
+**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfzFc86pAUA_cmIXPb3L3BZNYDBKjeBaC2gGu5EXXAu7lWMSP5DUxILu2csdN5wg900gzZy5HluHTT1xTHosCS0qMf4D0-9FnesZlV1tdLhduVYs8GEDir5PP4F36m7tpU3AqcUybvLNEAGXIHIBmoOzmpi?key=yiMe1b2VwU1jpN7Jf4vtog)**
 
+  
