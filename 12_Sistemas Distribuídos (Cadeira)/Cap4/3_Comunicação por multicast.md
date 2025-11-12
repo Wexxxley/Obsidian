@@ -3,7 +3,6 @@
 
 ---
 O multicast permite a um processo enviar uma única mensagem para um **grupo de processos**. É importante notar que o multicast é uma das formas de comunicação que exibe **desacoplamento espacial**, pois o remetente não precisa conhecer a identidade dos destinatários.
-
 ### **1. Multicast IP**
 
 O Multicast IP oferece um serviço de datagrama não confiável (semelhante ao UDP) de um para muitos.

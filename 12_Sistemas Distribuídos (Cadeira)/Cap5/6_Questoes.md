@@ -149,8 +149,7 @@ Um "processo" é uma unidade de gerenciamento de recursos que possui seu própri
 
 ---
 
-**Suponha que o protocolo RRA esteja em uso. Por quanto tempo os servidores devem manter**
-**dados de resposta não confirmados? Os servidores devem enviar a resposta repetidamente, em uma tentativa de receber uma confirmação?**
+**Suponha que o protocolo RRA esteja em uso. Por quanto tempo os servidores devem manter dados de resposta não confirmados? Os servidores devem enviar a resposta repetidamente, em uma tentativa de receber uma confirmação?**
 
 - **Por quanto tempo os servidores devem manter os dados?** O servidor deve manter os dados da resposta em seu histórico até que a mensagem de confirmação do cliente seja recebida. Se essa confirmação for perdida, o servidor geralmente manterá a resposta até que um **timeout** expire.
     
@@ -257,7 +256,6 @@ O tempo total é o tempo até que a _última_ thread (T2) termine seu trabalho.
 **Tempo Total (ii) = 37,0 ms**
 
 ---
-
 ### **Há necessidade de invocação assíncrona?**
 
 A questão é se a **invocação assíncrona** (onde a chamada `doOperation` retorna imediatamente, sem bloquear a thread) é _necessária_ se o cliente e o servidor já são multi-thread.
