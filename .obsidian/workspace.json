@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08_Git and github/01_Introdução.md",
+                "file": "08_Git and github ✅/02_Configurações e .git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_Introdução"
+              "title": "02_Configurações e .git"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "08_Git and github/01_Introdução.md",
+                "file": "08_Git and github ✅/02_Configurações e .git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 01_Introdução"
+              "title": "Outgoing links from 02_Configurações e .git"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08_Git and github/01_Introdução.md",
+                "file": "08_Git and github ✅/02_Configurações e .git.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01_Introdução"
+              "title": "Outline of 02_Configurações e .git"
             }
           },
           {
@@ -162,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -180,25 +180,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a6ddf7f3397fdfd",
+  "active": "4f57f88bace28f5e",
   "lastOpenFiles": [
-    "08_Git and github/03_Fluxo inicial.md",
-    "08_Git and github/02_Configurações e .git.md",
-    "08_Git and github/04_Log e .gitignore.md",
-    "08_Git and github/05_Autenticação.md",
-    "08_Git and github/06_Git push e pull.md",
-    "08_Git and github/07_Branches.md",
-    "08_Git and github/08_Git merge e revertendo mudanças.md",
-    "08_Git and github/09_Contribuições para projetos.md",
+    "08_Git and github ✅/01_Introdução.md",
+    "08_Git and github ✅/03_Fluxo inicial.md",
+    "08_Git and github ✅/04_Log e .gitignore.md",
+    "08_Git and github ✅/05_Autenticação.md",
+    "08_Git and github ✅/06_Git push e pull.md",
+    "08_Git and github ✅/07_Branches.md",
+    "08_Git and github ✅/08_Git merge e revertendo mudanças.md",
+    "08_Git and github ✅/09_Contribuições para projetos.md",
+    "08_Git and github ✅/10_Fluxo geral.md",
     "08_Git and github/10_Git Stash.md",
-    "08_Git and github/12_Fluxo geral.md",
     "08_Git and github/11_Git rebase.md",
+    "08_Git and github ✅/02_Configurações e .git.md",
     "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
     "12_Sistemas Distribuídos/Cap5/5_Estudo de Caso - RMI Java.md",
     "12_Sistemas Distribuídos/Cap5/4_Invocação a Método Remoto.md",
     "12_Sistemas Distribuídos/Cap5/3_Chamada de procedimento remoto (RPC).md",
     "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
-    "08_Git and github/01_Introdução.md",
     "08_Git and github/03_Introdução ao Github.md",
     "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
     "15_Aleatorios/Apresentação Entrevista.md",
