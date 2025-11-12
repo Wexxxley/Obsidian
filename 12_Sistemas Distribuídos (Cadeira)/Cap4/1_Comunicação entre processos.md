@@ -3,7 +3,7 @@
 
 ---
 
-[3_ Socket e portas](../../03_Redes%20de%20computadores/3_Camada%20de%20Transporte/3_%20Socket%20e%20portas.md)
+[3_ Socket e portas](../../03_Redes%20de%20computadores%20(Cadeira)/3_Camada%20de%20Transporte/3_%20Socket%20e%20portas.md)
 ### 1. Socket
 O socket é definido como uma **abstração** que serve como ponto de destino para a comunicação entre processos em um sistema distribuído.
 
@@ -14,7 +14,7 @@ O socket é definido como uma **abstração** que serve como ponto de destino pa
 
 3. **Protocolos Associados:** Cada soquete está sempre associado a um **protocolo em particular**: **UDP** (User Datagram Protocol) ou **TCP** (Transmission Control Protocol).
 
-[1_Protocolos da camada de transporte da internet](../../03_Redes%20de%20computadores/3_Camada%20de%20Transporte/1_Protocolos%20da%20camada%20de%20transporte%20da%20internet.md)
+[1_Protocolos da camada de transporte da internet](../../03_Redes%20de%20computadores%20(Cadeira)/3_Camada%20de%20Transporte/1_Protocolos%20da%20camada%20de%20transporte%20da%20internet.md)
 #### **1.1 Comunicação por Datagrama (UDP)**
 - O soquete UDP é usado para enviar e receber datagramas **sem garantia de entrega**.
 - Um servidor associa seu soquete a uma **porta de serviço conhecida** para que os clientes possam enviar mensagens para lá.
