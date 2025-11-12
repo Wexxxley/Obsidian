@@ -79,13 +79,13 @@ c. classe D (multicast): primeiros três bits do endereço IP são 101.
 
 e.  classe E: primeiros quatro bits do endereço IP são 1010.
 
-| Classes | Intervalo do Primeiro Octeto | Padrão dos Primeiros Bits | Uso Principal        |
-| :------ | :--------------------------- | :------------------------ | :------------------- |
-| **A**   | 0 - 127      (128)           | `0`xxxxxxx                | Grandes redes        |
-| **B**   | 128 - 191 (64)               | `10`xxxxxx                | Médias/Grandes redes |
-| **C**   | 192 - 223 (32)               | `110`xxxxx                | Pequenas redes       |
-| **D**   | 224 - 239 (16)               | `1110`xxxx                | Multicast            |
-| **E**   | 240 - 255 (16)               | `1111`xxxx                | Experimental/Testes  |
+| Classes | Primeiro Octeto    | Padrão Primeiros Bits | Uso Principal        |
+| :------ | :----------------- | :-------------------- | :------------------- |
+| **A**   | 0 - 127      (128) | `0`xxxxxxx            | Grandes redes        |
+| **B**   | 128 - 191 (64)     | `10`xxxxxx            | Médias/Grandes redes |
+| **C**   | 192 - 223 (32)     | `110`xxxxx            | Pequenas redes       |
+| **D**   | 224 - 239 (16)     | `1110`xxxx            | Multicast            |
+| **E**   | 240 - 255 (16)     | `1111`xxxx            | Experimental/Testes  |
 As classes são calculadas com base no primeiro octeto de bits.
 
 ---
@@ -156,7 +156,7 @@ Porque o XML é uma **"codificação textual"**, todas as informações nos elem
 
 O problema é que  <mark style="background: #BBFABBA6;">dados no formato binários são uma sequência de bytes que podem ter qualquer valor.</mark> Alguns bytes binários podem ser idênticos aos caracteres que o XML usa para sua própria sintaxe (como `<`, `>`). Se um analisador XML encontrar esses bytes brutos, ele os interpretará como tags e não como dados. Por isso, os dados binários precisam ser _codificados_ em um formato que use apenas caracteres de texto seguros.
 
-- **Vantagem base 64:** O Base64 converte os dados binários em uma `string` que usa apenas "caracteres alfanuméricos". Isso garante que os dados possam ser transportados com segurança dentro de um  XML sem ser mal interpretado.
+- **Vantagem base 64:** O Base64 converte os dados binários em uma `string` que usa apenas "caracteres alfanuméricos". Isso garante que os dados possam ser transportados com segurança dentro de um XML sem ser mal interpretado.
     
 - **Desvantagem:** A principal desvantagem é a **sobrecarga**.
     - **Sobrecarga de Espaço:** A representação em Base64 é significativamente maior do que os dados binários originais.
