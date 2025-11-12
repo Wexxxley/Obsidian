@@ -2,18 +2,18 @@
 #Concluded 
 
 ---
-### 1.  Histórico de commits (git log)
+### **1.  Histórico de commits (git log)**
 
 Lista todos os commits feitos, começando pelo mais recente.
-	
-- **ID do Commit (hash):** Um código longo e único para cada commit 
-- **Author:** Quem fez o commit (nome e email).
+
+- **ID do Commit:** Um código longo e único para cada commit 
+- **Author:** Quem fez o commit.
 - **Date:** Quando o commit foi feito.
 - **Mensagem do Commit:** A descrição que você escreveu.
 
 ![](../attachments/Pasted%20image%2020251111154931.png)
 
-- **`git log --oneline`**: Mostra uma versão compacta do seu histórico, com apenas os primeiros 7 caracteres do ID do commit e a mensagem, tudo em uma linha por commit.    
+- **`git log --oneline`**: Mostra uma versão compacta do seu histórico    
 
 ---
 ### 2. Ignorando Arquivos (.gitignore)

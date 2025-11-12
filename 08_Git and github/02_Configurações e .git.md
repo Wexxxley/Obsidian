@@ -2,23 +2,21 @@
 #Concluded 
 
 ---
-### 1. Configuração Inicial do Git (git config)
+### **1. Configuração Inicial do Git (git config)**
 
-Antes de começar a usar o Git, você precisa fazer uma configuração inicial. O Git armazena essas informações em todos os _commits_ que você faz. Usamos o comando `git config` para isso.
+Antes de começar a usar o Git, você precisa fazer uma configuração inicial. O Git armazena essas informações em todos os _commits_ que você faz.
 
-As três configurações mais importantes são:
-
-1. **Configurar seu Nome de Usuário:** Nome que aparecerá como autor dos seus commits.    
+1. **Configurar come de esuário:** Nome que aparecerá como autor dos seus commits.    
     - `git config --global user.name "Seu Nome"` 
         
 2. **Configurar seu Email:**
     - `git config --global user.email "seuemail@exemplo.com"`
         
-3. **Configurar o Nome da Branch Padrão:** Este comando garante que seus novos repositórios locais usem "main" por padrão.
+3. **Configurar nome da Branch Padrão:** Este comando garante que seus novos repositórios locais usem "main" por padrão.
     - `git config --global init.defaultBranch main`
 
 >[!note]
-> `--global` Flag que diz ao Git para usar essas configs para todos os projetos no seu pc.
+> `--global` é uma flag que diz ao Git para usar essas configs para todos os projetos no seu pc.
 > 
 > As configurações globais são salvas em um arquivo chamado `.gitconfig` na sua pasta de usuário (home).
 
@@ -28,4 +26,5 @@ As três configurações mais importantes são:
 
 ---
 ### **2. Diretório .git**
+
 Quando você transforma uma pasta em um repositório Git, o Git cria uma pasta oculta chamada `.git`. É dentro desta pasta que o Git armazena todo o histórico, configurações e tudo o que ele precisa para rastrear seu projeto.

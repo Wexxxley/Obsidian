@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08_Git and github/01_Intodução.md",
+                "file": "08_Git and github/05_Log e gitignore.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_Intodução"
+              "title": "05_Log e gitignore"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "08_Git and github/01_Intodução.md",
+                "file": "08_Git and github/05_Log e gitignore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 01_Intodução"
+              "title": "Outgoing links from 05_Log e gitignore"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08_Git and github/01_Intodução.md",
+                "file": "08_Git and github/05_Log e gitignore.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01_Intodução"
+              "title": "Outline of 05_Log e gitignore"
             }
           },
           {
@@ -182,6 +182,10 @@
   },
   "active": "6a6ddf7f3397fdfd",
   "lastOpenFiles": [
+    "08_Git and github/04_Fluxo inicial.md",
+    "08_Git and github/02_Configurações e .git.md",
+    "08_Git and github/01_Introdução.md",
+    "08_Git and github/03_Introdução ao Github.md",
     "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
     "12_Sistemas Distribuídos/Cap4/4_Questoes.md",
     "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
@@ -205,11 +209,7 @@
     "08_Git and github/10_Contribuições para projetos.md",
     "08_Git and github/08_Branches.md",
     "08_Git and github/Branch.md",
-    "08_Git and github/09_Juntando branches.md",
     "attachments/Pasted image 20251111161906.png",
-    "08_Git and github/07_Git push e pull.md",
-    "08_Git and github/06_Autenticação.md",
-    "08_Git and github/05_log e git ignore.md",
     "attachments/Pasted image 20251111154931.png",
     "attachments/Pasted image 20251111153203.png",
     "attachments/Pasted image 20251111153152.png",
