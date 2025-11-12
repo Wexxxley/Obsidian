@@ -1,14 +1,17 @@
 
+#Concluded 
 
 ---
 ### **1. Enviando mudanças (Git push)**
-Agora que você tem um repositório local com commits e (opcionalmente) o SSH configurado, é hora de enviar seu trabalho para o GitHub.
 
-**1. Crie um Repositório Remoto (no GitHub)**
+Agora que você tem um repositório local com commits, é hora de enviar seu trabalho.
 
-- Primeiro, você precisa ir ao site do GitHub e criar um novo repositório. Não adicione um `README` ou `.gitignore` pelo site, crie-o como um repositório "vazio".
+**1. Crie um Repositório Remoto (GitHub)**
+
+- Primeiro, você precisa ir ao site do GitHub e criar um novo repositório. Não adicione um README, crie-o como um repositório vazio.
 
 **2. Linkando seu Repositório Local ao Remoto**
+
 - O GitHub lhe dará a URL (HTTPS ou SSH) do seu repositório.
     
 - No seu terminal, dentro da pasta do seu projeto, use o comando:
