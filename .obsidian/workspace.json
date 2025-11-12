@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
+                "file": "08_Git and github/10_Stash and Alias.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6_Questoes"
+              "title": "10_Stash and Alias"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
+                "file": "08_Git and github/10_Stash and Alias.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 6_Questoes"
+              "title": "Outgoing links from 10_Stash and Alias"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
+                "file": "08_Git and github/10_Stash and Alias.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 6_Questoes"
+              "title": "Outline of 10_Stash and Alias"
             }
           },
           {
@@ -182,8 +182,9 @@
   },
   "active": "6a6ddf7f3397fdfd",
   "lastOpenFiles": [
-    "12_Sistemas Distribuídos/Cap5/5_Estudo de Caso - RMI Java.md",
     "12_Sistemas Distribuídos/Cap5/6_Questoes.md",
+    "08_Git and github/10_Stash and Alias.md",
+    "12_Sistemas Distribuídos/Cap5/5_Estudo de Caso - RMI Java.md",
     "08_Git and github/09_Contribuições para projetos.md",
     "08_Git and github/10_Fluxo geral.md",
     "08_Git and github/08_Git merge e revertendo mudanças.md",
@@ -208,7 +209,6 @@
     "01_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/2_Modelo Híbrido e Máquina Virtual.md",
     "01_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/1_Linguagem compilada.md",
     "01_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/4_Armazenamento.md",
-    "01_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/5_Placa mãe.md",
     "attachments/Pasted image 20251111161906.png",
     "attachments/Pasted image 20251111154931.png",
     "attachments/Pasted image 20251111153203.png",
