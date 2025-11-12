@@ -31,7 +31,7 @@ Este modelo é conhecido por sua simplicidade, flexibilidade e rapidez no desenv
 4. **Operating System e Hardware:** O interpretador faz a ponte, enviando os comandos traduzidos para o SO, que por sua vez os executa no Hardware (CPU).
     
 > [!NOTE]
-> **Nota importante:** A imagem simplifica um pouco. Interpretadores modernos, como o do Python e o V8 do JavaScript, são muito inteligentes. Eles _também_ usam Bytecode e Compiladores JIT por baixo dos panos para otimizar o desempenho, tornando-os muito parecidos com o modelo híbrido do Java. No entanto, o modelo _fundamental_ e a forma como o desenvolvedor interage com eles é "interpretado": não há um passo de compilação explícito.
+> A imagem simplifica um pouco. Interpretadores modernos, como o do Python e o V8 do JavaScript, são muito inteligentes. Eles _também_ usam Bytecode e Compiladores JIT por baixo dos panos para otimizar o desempenho, tornando-os muito parecidos com o modelo híbrido do Java. No entanto, o modelo _fundamental_ e a forma como o desenvolvedor interage com eles é "interpretado": não há um passo de compilação explícito.
 
 #### **1.3 Conclusão**
 

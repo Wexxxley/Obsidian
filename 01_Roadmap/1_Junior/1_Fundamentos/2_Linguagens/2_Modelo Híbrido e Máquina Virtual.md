@@ -5,7 +5,7 @@
 ![650](../../../../attachments/Pasted%20image%2020251104061213.png)
 
 ---
-### 1. O Modelo Híbrido / Máquina Virtual (Ex: Java, C#)
+### **1. O Modelo Híbrido / Máquina Virtual (Ex: Java, C#)**
 
 Este modelo foi criado para resolver o _grande problema de portabilidade_ do modelo compilado. A ideia é "Escreva uma vez, rode em qualquer lugar" (Write Once, Run Anywhere).
 

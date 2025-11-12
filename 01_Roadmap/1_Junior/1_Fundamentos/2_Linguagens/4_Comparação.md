@@ -2,9 +2,9 @@
 #Concluded 
 
 ---
-### 1. Onde Cada Tipo de Linguagem é Mais Usada?
+### **1. Onde Cada Tipo de Linguagem é Mais Usada?**
 
-#### 1.1 Compiladas (C, C++, Go)
+#### **1.1 Compiladas (C, C++, Go)**
 
 Onde o Desempenho Bruto e o Acesso ao Hardware são Reis. Essas linguagens são usadas quando a velocidade e o controle de memória são a prioridade máxima e inegociável.
 
@@ -14,7 +14,7 @@ Onde o Desempenho Bruto e o Acesso ao Hardware são Reis. Essas linguagens são 
         
 - **Go:** Infraestrutura de nuvem (Docker e Kubernetes são feitos em Go), serviços de backend que precisam lidar com milhares de conexões ao mesmo tempo.        
 
-#### 1.2 Híbridas (Java, C#)
+#### **1.2 Híbridas (Java, C#)**
 
 O Padrão para Grandes Aplicações Corporativas e de Larga Escala. Essas linguagens oferecem o melhor dos dois mundos: são portáteis (rodam em qualquer lugar) e, graças ao JIT, têm um desempenho excelente após o "aquecimento".
 
@@ -22,7 +22,7 @@ O Padrão para Grandes Aplicações Corporativas e de Larga Escala. Essas lingua
         
 - **C#:**  Aplicações corporativas no ecossistema Microsoft (.NET), desenvolvimento de jogos (a linguagem principal da **Unity**) e aplicações web (ASP.NET).
 
-#### 1.3 Interpretadas (Python, JavaScript, Ruby)
+#### **1.3 Interpretadas (Python, JavaScript, Ruby)**
 
 Essas linguagens dominam onde a rapidez para construir, prototipar e automatizar é mais importante que o último pingo de performance da CPU.
 
@@ -37,16 +37,16 @@ Essas linguagens dominam onde a rapidez para construir, prototipar e automatizar
 
 > **Aviso Importante:** A maioria das aplicações web não são limitadas pela CPU. Elas são <mark style="background: #ADCCFFA6;">I/O-bound, o que significa que o gargalo é a lentidão da rede ou a espera por uma consulta ao banco de dados</mark>. É por isso que o Node.js (lento em CPU, rápido em I/O) e o Python (lento em CPU, rápido para desenvolver) são tão populares.
 
-#### Tier 1: Performance Bruta (C, C++, Rust)
+#### **Performance Bruta (C, C++, Rust)**
 
-- **Resultado:** São os reis indiscutíveis da velocidade.    
-#### Tier 2: Desempenho de Pico (Java, C#, Go)
+- São os reis indiscutíveis da velocidade.    
+#### **Desempenho de Pico (Java, C#, Go)**
 
-- **Resultado:** Surpreendentemente próximos do Tier 1, especialmente após o "aquecimento" do JIT. O JIT otimiza o código _enquanto ele roda_, às vezes fazendo otimizações que um compilador estático (como o do C++) não poderia prever.
+- Surpreendentemente próximos do Tier 1, especialmente após o "aquecimento" do JIT. O JIT otimiza o código _enquanto ele roda_, às vezes fazendo otimizações que um compilador estático (como o do C++) não poderia prever.
 
-#### Tier 3: Foco na Produtividade (Python, Ruby)
+#### **Foco na Produtividade (Python, Ruby)**
 
-- **Resultado:** São significativamente mais lentos em tarefas de CPU.
+- São significativamente mais lentos em tarefas de CPU.
     
 - **Por quê:** O interpretador padrão do Python (CPython) não usa JIT. Ele foca na compatibilidade e simplicidade, não na velocidade de execução.
     
