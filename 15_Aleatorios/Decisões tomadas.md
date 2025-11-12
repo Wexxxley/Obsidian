@@ -188,9 +188,9 @@ Criar um componente "Card de Recurso" padronizado (bordas arredondadas).
     
 - Nome do Autor (em cinza claro, fonte menor).
     
-- Ícone indicando o tipo (PDF, URL, Nota Simples).
+- Ícone indicando o tipo (PDF, URL, Nota Simples). e tbm uma img indicando o tipo.
     
-- Tags (em formato de "pills" ou emblemas).
+- Tags (em formato de "pills").
     
 - Métricas (Ícone de olho para visualizações, ícone de download, ícone de coração para curtidas).
     
@@ -230,7 +230,7 @@ Layout Geral: Um layout de 2 colunas: um Painel de Navegação Estático à esqu
 
 Header da Área: Contém a Barra de Busca (RF15). Placeholder: "Procurar por conteudo".
 
-Filtros (RF16): Abaixo da barra de busca, exibir as opções de filtro ("Matéria", "Formato", "tags") como botões de seleção ou dropdowns (usar tags fixas gerenciadas pelo Gestor).
+Filtros (RF16): Abaixo da barra de busca, exibir as opções de filtro ("Matéria", "Formato", "tags") como botões de seleção. O gestor pode mudar as tags
 
 **Seções de Conteúdo (Carrosséis):**
 
