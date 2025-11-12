@@ -12,21 +12,17 @@ Agora que você tem um repositório local com commits, é hora de enviar seu tra
 
 **2. Linkando seu Repositório Local ao Remoto**
 
-- O GitHub lhe dará a URL (HTTPS ou SSH) do seu repositório.
-    
+- O GitHub lhe dará a URL (HTTPS ou SSH) do seu repositório.    
 - No seu terminal, dentro da pasta do seu projeto, use o comando:
 	`git remote add origin git@github.com:seu_usuario/seu_repo.git`
-    
-- Para verificar se o link foi feito, rode: `git remote -v`.
 
 **3. Enviando os Commits (git push)**
 
 - Este é o comando que pega seus commits locais e os envia para o repositório remoto.
-    - `git push -u origin main`
-        
+     `git push -u origin main`    
 
 ---
-### 2. Baixando Mudanças (git pull) 
+### **2. Baixando Mudanças (git pull)** 
 
 O que acontece quando outra pessoa (ou você mesmo, de outro computador) envia mudanças para o repositório remoto? Seu repositório local fica desatualizado.
 

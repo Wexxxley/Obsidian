@@ -2,28 +2,26 @@
 #Concluded 
 
 ---
-### 1. Juntando Branches (git merge)
+### **1. Juntando Branches (git merge)**
 
-Na última lição, criamos uma nova _branch_ para trabalhar em um recurso. Agora que o recurso está pronto, queremos trazê-lo de volta para a branch `main`.  O fluxo é o seguinte:
+Na última lição, criamos uma nova branch para trabalhar em um recurso. Agora que o recurso está pronto, queremos trazê-lo de volta para a branch `main`.  O fluxo é:
 
 1. **Mude para a branch de destino:** 
     - `git checkout main`
         
-2. **Execute o comando de merge:** Chame o `git merge` e diga qual branch você quer "puxar" para dentro da `main`.
+2. **Execute o comando:** Execute `git merge` e diga qual branch você quer "puxar" para dentro da `main`.
     - `git merge newFeature`
 
 ---
-#### 2. Conflitos de Merge
+### **2. Conflitos de Merge**
 
-Isso é algo que assusta no começo, mas é normal. Um **conflito** acontece quando o Git não sabe como juntar as mudanças automaticamente.
+Um conflito acontece quando o Git não sabe como juntar as mudanças automaticamente. Geralmente, quando duas pessoas (ou duas branches) modificam a mesma linha do mesmo arquivo. O Git não sabe qual versão deve ser mantida.
 
-- Geralmente, quando duas pessoas (ou duas branches) modificam a mesma linha do mesmo arquivo. O Git não sabe qual versão deve ser mantida. Ele para a mesclagem e avisa: `CONFLICT (content): Merge conflict in...`.
+**Como resolver?** O Git insere marcadores especiais no arquivo conflitante para mostrar onde está o problema.
     
-- **Como resolver?** O Git insere marcadores especiais no arquivo conflitante para mostrar onde está o problema.
-    
-    - `<<<<<<< HEAD`: O início do código como ele está na sua branch atual (`main`, no exemplo).
+    - <<<<<<< HEAD: O início do código como ele está na sua branch atual
         
-    - `=======`: Um separador.
+    - =======`: Um separador.
         
     - `>>>>>>> conflictDemo`: O fim do código como ele está na branch que você está tentando mesclar (`conflictDemo`, no exemplo).
         
