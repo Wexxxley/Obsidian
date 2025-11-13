@@ -39,13 +39,10 @@
 
 O design deve refletir 4 modos de visualização baseados no perfil:
 
-Gestor (Admin): Vê tudo. Tem acesso ao "Painel de Administração" no menu lateral.
-
-Coordenador (Moderador): Vê tudo (Público/Privado). Vê botões "Adicionar Recurso", "Criar Playlist". Pode "Editar", "Excluir" e "Marcar como Destaque" qualquer recurso.
-
-Professor (Criador): Vê tudo (Público/Privado). Vê botões "Adicionar Recurso", "Criar Playlist". Só pode "Editar" e "Excluir" os seus próprios recursos.
-
-Aluno (Consumidor): Visão mais simples. Vê apenas recursos "Públicos". Não vê botões de admin, edição ou criação. Pode "Curtir" e "Baixar".
+- Gestor (Admin): Vê tudo. Tem acesso ao "Painel de Administração" no menu lateral.
+- Coordenador (Moderador): Vê tudo (Público/Privado). Vê botões "Adicionar Recurso", "Criar Playlist". Pode "Editar", "Excluir" e "Marcar como Destaque" qualquer recurso.
+- Professor (Criador): Vê tudo (Público/Privado). Vê botões "Adicionar Recurso", "Criar Playlist". Só pode "Editar" e "Excluir" os seus próprios recursos.
+- Aluno (Consumidor): Visão mais simples. Vê apenas recursos "Públicos". Não vê botões de admin, edição ou criação. Pode "Curtir" e "Baixar".
 
 ---
 ### **Componente Principal (Resource Card)**
@@ -69,34 +66,34 @@ Criar um componente "Card de Recurso" padronizado bordas arredondadas).
 **A. Tela de Login (RF01)**
 Conteúdo: Logo "Acervo Mestre" centralizado no topo. Formulário centralizado com campos "E-mail Institucional" e "Senha". Link "Esqueci minha senha".
 
-(Nota: O cadastro é feito pelo Gestor [RF02], então não há link de "Cadastre-se").
+(Nota: O cadastro é feito pelo Gestor, então não há link de "Cadastre-se").
 
 **B. Tela Inicial / Dashboard (Layout do Wireframe - Crítico)**
-
-Layout Geral: Um layout de 2 colunas: um Painel de Navegação Estático à esquerda e uma área de conteúdo principal à direita. As seções de conteúdo terão rolagem horizontal.
+Layout Geral: Um Painel de Navegação Estático à esquerda e uma área de conteúdo principal à direita. As seções de conteúdo terão rolagem horizontal.
 
 **Painel Estático (Esquerda):**
 - Logo "Acervo Mestre" no topo.
-- Links de navegação com ícones (ex: Início, Minhas Playlists, Meu Perfil). O ícone ativo deve usar a cor de acento azul.
+- Links de navegação com ícones (ex: Início, Minhas Playlists, Meu Perfil, Painel de Administração). O ícone ativo deve usar a cor de acento azul.
 
 - "Painel de Administração" (visível apenas para Gestor).
 - Link "Sair" na parte inferior.
 
 **Área de Conteúdo (Direita):**
 
-Header da Área: Contém a Barra de Busca (RF15). Placeholder: "Procurar por conteudo".
-
-Filtros (RF16): Abaixo da barra de busca, exibir as opções de filtro ("Matéria", "Formato", "tags") como botões de seleção ou dropdowns (usar tags fixas gerenciadas pelo Gestor).
+- Header da Área: Contém a Barra de Busca. Placeholder: "Procurar por conteudo".
+- Tags: Abaixo da barra de busca, exibir as opções de tag ("Matéria", "Formato", "tags") (tags fixas gerenciadas pelo Gestor) em formato de pilula.
 
 **Seções de Conteúdo (Carrosséis):**
 
-DESTAQUE (RF14): Título da seção. Abaixo, um carrossel de "Cards de Recurso" com scroll horizontal (overflow-x: auto).
+DESTAQUE: Título da seção. Abaixo, um carrossel de "Cards de Recurso" com scroll horizontal (overflow-x: auto).
 
-MAIS CURTIDOS (RF21): Título da seção. Abaixo, um carrossel de "Cards de Recurso" com scroll horizontal.
+MAIS CURTIDOS: Título da seção. Abaixo, um carrossel de "Cards de Recurso" com scroll horizontal.
 
-RECENTES (RF18): Título da seção. Abaixo, um carrossel de "Cards de Recurso" com scroll horizontal.
+RECENTES: Título da seção. Abaixo, um carrossel de "Cards de Recurso" com scroll horizontal.
 
 Botão de Ação (FAB): (Visível apenas para Professor/Coordenador) Um botão flutuante no canto inferior direito com um ícone de "+" para "Adicionar Recurso" (usar cor de acento azul).
+
+Todo esse conteudo deve ser mostrado na tela sem precisar de rolagem vertical (não é para ter rolagem vetical na tela inicial)
 
 **C. Página de Detalhes do Recurso (RF17, RF19, RF20)**
 
@@ -134,29 +131,31 @@ Tab "Nota Simples": Editor de texto Markdown (react-markdown).
 
 Botões: "Salvar Recurso" (com acento azul).
 
-E. Página do Autor (RF19)
+**E. Página do Autor (RF19)**
 
 Layout: Uma página de perfil.
 
-Header: Avatar/Foto do autor, Nome Completo, E-mail Institucional.
+Header: Avatar, Nome Completo, E-mail Institucional, perfil(aluno, gestor, etc).
 
 Tabs: "Recursos" e "Playlists" (mostrando apenas os itens criados por esse autor).
 
 Conteúdo: Um grid padrão de "Cards de Recurso" ou "Cards de Playlist".
 
-F. Painel de Administração (Apenas Gestor - RF02, RF03, RF22)
+**F. Painel de Administração (Apenas Gestor - RF02, RF03, RF22)**
 
-Layout: Funcional, baseado em tabelas (Dark Mode).
+Layout: Funcional, baseado em tabelas **(seguindo a paleta Light Mode definida)**.
 
 Navegação (Tabs): "Gestão de Usuários", "Gestão de Metadados".
 
 Tab "Gestão de Usuários": Botão "Cadastrar Novo Usuário" (RF02). Tabela de usuários com ações de "Desativar/Ativar" (RF03) e "Editar Perfil".
 
-Tab "Gestão de Metadados" (RF22): Seções para gerenciar as tags fixas (ex: "Matérias", "Séries", "Formatos"). Cada seção deve ter um campo "Adicionar novo..." e uma lista dos itens existentes com botões de "Editar" e "Excluir"
+Tab "Gestão de Metadados" (RF22): Seções para gerenciar as tags fixas (ex: "Matérias", "Séries", "Formatos"). Cada seção deve ter um campo "Adicionar novo..." e uma lista dos itens existentes com botões de "Editar" e "Excluir".
 
 
 
-conserte esse prompt em relação as cores. tem um moment oque usa cores dark, mas n quer oisso, so claro.
+
+
+---
 ### **Telas Principais (Wireframes de Alta Fidelidade)**
 
 **A. Tela de Login (RF01)** Conteúdo: Logo "Acervo Mestre" centralizado no topo. Formulário centralizado com campos "E-mail Institucional" e "Senha". Link "Esqueci minha senha".
@@ -217,7 +216,7 @@ Conteúdo:
 
 **D. Formulário de Adicionar/Editar Recurso (RF04, RF05, RF06, RF07, RF11)**
 
-Layout: Um modal.
+Layout: Um modal(light mode) que fica na frente da tela inicial.
 
 Seleção de Tipo (Tabs): "Upload de Arquivo", "Link Externo", "Nota Simples".
 
@@ -236,20 +235,11 @@ Botões: "Salvar Recurso" (com acento azul).
 
 **E. Página do Autor (RF19)**
 
-Layout: Uma página de perfil.
+Layout: Uma página de perfil em light mode.
 
-Header: Avatar/Foto do autor, Nome Completo, E-mail Institucional.
+Header: Nome Completo, E-mail Institucional.
 
 Tabs: "Recursos" e "Playlists" (mostrando apenas os itens criados por esse autor).
 
 Conteúdo: Um grid padrão de "Cards de Recurso" ou "Cards de Playlist".
 
-**F. Painel de Administração (Apenas Gestor - RF02, RF03, RF22)**
-
-Layout: Funcional, baseado em tabelas **(seguindo a paleta Light Mode definida)**.
-
-Navegação (Tabs): "Gestão de Usuários", "Gestão de Metadados".
-
-Tab "Gestão de Usuários": Botão "Cadastrar Novo Usuário" (RF02). Tabela de usuários com ações de "Desativar/Ativar" (RF03) e "Editar Perfil".
-
-Tab "Gestão de Metadados" (RF22): Seções para gerenciar as tags fixas (ex: "Matérias", "Séries", "Formatos"). Cada seção deve ter um campo "Adicionar novo..." e uma lista dos itens existentes com botões de "Editar" e "Excluir".
