@@ -2,7 +2,7 @@
 #Concluded 
 
 ---
-### 1. Busca em Largura (BFS - Breadth-First Search)
+### **1. Busca em Largura (BFS - Breadth-First Search)**
 
 A Busca em Largura é um algoritmo que explora as arestas de um grafo $G(V,A)$ para "descobrir" todos os vértices alcançáveis a partir de um vértice de origem $s \in V$.
 
@@ -11,7 +11,7 @@ A sua propriedade fundamental é que ela descobre todos os vértices a uma dist�
 Para isso, a BFS utiliza uma estrutura de dados do tipo **Fila (Queue)**.
 
 ---
-### 2. Busca em Profundidade (DFS - Depth-First Search)
+### **2. Busca em Profundidade (DFS - Depth-First Search)**
 
 A Busca em Profundidade é um algoritm que explora o mais fundo possível ao longo de cada ramo antes de retroceder.
 
@@ -20,7 +20,7 @@ A estratégia da DFS, ao contrário da BFS, é sempre expandir o vértice "mais 
 Para isso, a DFS utiliza uma estrutura de dados do tipo **Pilha (Stack)**
 
 ---
-### 3. Busca de Custo Uniforme (UCS - Uniform Cost Search)
+### **3. Busca de Custo Uniforme (UCS - Uniform Cost Search)**
 
 A Busca de Custo Uniforme é um algoritmo que explora o grafo $G(V,A)$ para encontrar o caminho de **menor custo total** (e não apenas o de menor número de arestas) de um vértice de origem $s$ até um vértice de destino.
 
@@ -29,7 +29,7 @@ A sua propriedade fundamental é que ela sempre expande o nó $n$ na fronteira (
 Para isso, a UCS utiliza uma estrutura de dados do tipo **Fila de Prioridade (Priority Queue)**.
 
 ---
-### 4. Exemplo: Mapa de cidades
+### **4. Exemplo: Mapa de cidades**
 
 Queremos descobrir um caminho de Arad para qualquer uma das outras cidades.
 ![](../attachments/Pasted%20image%2020251031091210.png)
@@ -112,6 +112,7 @@ import typing
 def BUSCA_CUSTO_UNIFORME(Problema):
     no_inicial = problema.get_estado_inicial() 
     
+    # Borda contem os nós que o algoritmo já descobriu mas não explorou 
     borda: typing.List[No] = []
     heapq.heappush(borda, no_inicial)
     
@@ -121,7 +122,7 @@ def BUSCA_CUSTO_UNIFORME(Problema):
         if not borda: # Se não tiver nós na borda
             return None 
         
-        no_atual = heapq.heappop(borda) # remover no da borda (menor path)
+        no_atual = heapq.heappop(borda) # rm no da borda(menor path)
 
         # Se o nó atual for o alvo, retorne a solução
         if problema.is_objetivo(no_atual.estado):

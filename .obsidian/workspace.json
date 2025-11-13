@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15_Aleatorios/Decisões tomadas.md",
+                "file": "14_IA (Cadeira)/4_Busca em largura, profundidade e custo uniforme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Decisões tomadas"
+              "title": "4_Busca em largura, profundidade e custo uniforme"
             }
           }
         ],
@@ -197,6 +197,8 @@
   },
   "active": "07123d4aa71f030c",
   "lastOpenFiles": [
+    "14_IA (Cadeira)/5_Heurística.md",
+    "15_Aleatorios/Decisões tomadas.md",
     "15_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap4/3_Comunicação por multicast.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap4/2_Representação Externa de Dados.md",
@@ -221,9 +223,7 @@
     "12_Sistemas Distribuídos (Cadeira)/Cap5/3_Chamada de procedimento remoto (RPC).md",
     "08_Git and github/03_Introdução ao Github.md",
     "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
-    "15_Aleatorios/Apresentação SD 2.md",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
-    "01_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/4_Comparação.md",
     "attachments/Pasted image 20251111161906.png",
     "attachments/Pasted image 20251111154931.png",
     "attachments/Pasted image 20251111153203.png",
