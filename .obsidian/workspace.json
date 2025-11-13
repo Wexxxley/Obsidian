@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14_IA (Cadeira)/4_Busca em largura, profundidade e custo uniforme.md",
+                "file": "12_Sistemas Distribuídos (Cadeira)/Cap4/3_Comunicação por multicast.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Busca em largura, profundidade e custo uniforme"
+              "title": "3_Comunicação por multicast"
             }
           }
         ],
@@ -197,6 +197,7 @@
   },
   "active": "07123d4aa71f030c",
   "lastOpenFiles": [
+    "14_IA (Cadeira)/4_Busca em largura, profundidade e custo uniforme.md",
     "14_IA (Cadeira)/5_Heurística.md",
     "15_Aleatorios/Decisões tomadas.md",
     "15_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
@@ -222,7 +223,6 @@
     "12_Sistemas Distribuídos (Cadeira)/Cap5/4_Invocação a Método Remoto.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap5/3_Chamada de procedimento remoto (RPC).md",
     "08_Git and github/03_Introdução ao Github.md",
-    "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "attachments/Pasted image 20251111161906.png",
     "attachments/Pasted image 20251111154931.png",
