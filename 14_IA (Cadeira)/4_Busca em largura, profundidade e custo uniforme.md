@@ -106,7 +106,7 @@ def BUSCA(problema):
 **Busca custo uniforme**
 Levando em consideração que "problema" possui a estrutura que salva o mapa e todas as informações necessárias.
 ```python
-import heapq  # Biblioteca para Fila de Prioridade (heap)
+PriorityQueue  # Biblioteca para Fila de Prioridade (heap)
 import typing
 
 def BUSCA_CUSTO_UNIFORME(Problema):
