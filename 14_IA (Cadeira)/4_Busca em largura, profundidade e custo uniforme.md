@@ -13,7 +13,7 @@ A sua propriedade fundamental é que ela <mark style="background: #ADCCFFA6;">de
 
 Para isso, a BFS utiliza uma estrutura de dados do tipo **Fila (Queue)**.
 
-![](../attachments/Pasted%20image%2020251113193240.png)
+![](../attachments/Pasted%20image%2020251113194337.png)
 
 ---
 ### **2. Busca em Profundidade (DFS - Depth-First Search)**
@@ -24,7 +24,7 @@ A estratégia da DFS, ao contrário da BFS, <mark style="background: #ADCCFFA6;"
 
 Para isso, a DFS utiliza uma estrutura de dados do tipo **Pilha (Stack)**
 
-![](../attachments/Pasted%20image%2020251113193628.png)
+![](../attachments/Pasted%20image%2020251113194400.png)
 
 ---
 ### **3. Busca de Custo Uniforme (UCS - Uniform Cost Search)**
@@ -35,44 +35,4 @@ A sua propriedade fundamental é que ela sempre expande o nó $n$ na fronteira q
 
 Para isso, a UCS utiliza uma estrutura de dados do tipo **Fila de Prioridade (Priority Queue)**.
 
-
-
-**Busca custo uniforme**
-Levando em consideração que "problema" possui a estrutura que salva o mapa e todas as informações necessárias.
-```python
-PriorityQueue  # Biblioteca para Fila de Prioridade (heap)
-import typing
-
-def BUSCA_CUSTO_UNIFORME(Problema):
-    no_inicial = problema.get_estado_inicial() 
-    
-    # Borda contem os nós que o algoritmo já descobriu mas não explorou 
-    borda: typing.List[No] = []
-    heapq.heappush(borda, no_inicial)
-    
-    explorados = set() # Armazena nomes de estados
-    
-    while True:
-        if not borda: # Se não tiver nós na borda
-            return None 
-        
-        no_atual = heapq.heappop(borda) # rm no da borda(menor path)
-
-        # Se o nó atual for o alvo, retorne a solução
-        if problema.is_objetivo(no_atual.estado):
-            return no_atual
-
-		# Se já exploramos (com um custo menor), pulamos
-		if noAtual.estado.nome in explorados:
-			continue
-        explorados.add(no_atual.estado.nome) # adicionar no a explorados
-        
-        # "Para cada sucessor do nó..." 
-        for filho in problema.sucessores(no_atual):
-            
-            # Se filho NÃO está em explorados
-            # NÃO precisamos checar se ele está na borda
-            if filho.estado.nome not in explorados:
-	            filho.dist += no_atual.dist
-                heapq.heappush(borda, filho)
-```
+![](../attachments/Pasted%20image%2020251113194608.png)
