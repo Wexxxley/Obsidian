@@ -2,38 +2,14 @@
 #Concluded 
 
 ---
+![](../attachments/Pasted%20image%2020251031091210.png)
 ### **1. Busca em Largura (BFS - Breadth-First Search)**
 
-A Busca em Largura é um algoritmo que explora as arestas de um grafo $G(V,A)$ para "descobrir" todos os vértices alcançáveis a partir de um vértice de origem $s \in V$.
+A Busca em Largura é um algoritmo que explora as arestas de um grafo $G(V,A)$ para descobrir todos os vértices alcançáveis a partir de um vértice de origem $s \in V$.
 
-A sua propriedade fundamental é que ela descobre todos os vértices a uma distância $k$ de $s$ antes de descobrir quaisquer vértices a uma distância $k+1$.
+A sua propriedade fundamental é que ela <mark style="background: #ADCCFFA6;">descobre todos os vértices a uma distância k de s antes de descobrir quaisquer vértices a uma distância k+1.</mark>
 
 Para isso, a BFS utiliza uma estrutura de dados do tipo **Fila (Queue)**.
-
----
-### **2. Busca em Profundidade (DFS - Depth-First Search)**
-
-A Busca em Profundidade é um algoritm que explora o mais fundo possível ao longo de cada ramo antes de retroceder.
-
-A estratégia da DFS, ao contrário da BFS, é sempre expandir o vértice "mais novo" (o último descoberto) na fronteira. Assim que um vértice $u$ é descoberto, a DFS explora iterativamente a partir de $u$, e só retorna para explorar outras arestas de $u$ quando toda a exploração descendente de $u$ estiver completa.
-
-Para isso, a DFS utiliza uma estrutura de dados do tipo **Pilha (Stack)**
-
----
-### **3. Busca de Custo Uniforme (UCS - Uniform Cost Search)**
-
-A Busca de Custo Uniforme é um algoritmo que explora o grafo $G(V,A)$ para encontrar o caminho de **menor custo total** (e não apenas o de menor número de arestas) de um vértice de origem $s$ até um vértice de destino.
-
-A sua propriedade fundamental é que ela sempre expande o nó $n$ na fronteira (borda) que tem o **menor custo de caminho total** desde a origem $s$. Por causa disso, a UCS garante encontrar o caminho de menor custo para o destino (desde que os custos das arestas não sejam negativos).
-
-Para isso, a UCS utiliza uma estrutura de dados do tipo **Fila de Prioridade (Priority Queue)**.
-
----
-### **4. Exemplo: Mapa de cidades**
-
-Queremos descobrir um caminho de Arad para qualquer uma das outras cidades.
- 
-![](../attachments/Pasted%20image%2020251031091210.png)
 
 **Busca em largura**
 Levando em consideração que "problema" possui a estrutura que salva o mapa e todas as informações necessárias.
@@ -69,6 +45,17 @@ def BUSCA(problema):
                 borda.append(sucessor)
 ```
 
+
+---
+### **2. Busca em Profundidade (DFS - Depth-First Search)**
+
+A Busca em Profundidade é um algoritm que explora o mais fundo possível ao longo de cada ramo antes de retroceder.
+
+A estratégia da DFS, ao contrário da BFS, é sempre expandir o vértice "mais novo" (o último descoberto) na fronteira. Assim que um vértice $u$ é descoberto, a DFS explora iterativamente a partir de $u$, e só retorna para explorar outras arestas de $u$ quando toda a exploração descendente de $u$ estiver completa.
+
+Para isso, a DFS utiliza uma estrutura de dados do tipo **Pilha (Stack)**
+
+
 **Busca em profundidade**
 Levando em consideração que "problema" possui a estrutura que salva o mapa e todas as informações necessárias.
 ```python
@@ -102,6 +89,17 @@ def BUSCA(problema):
             if (sucessor not in explorados) and (sucessor not in borda):
                 borda.append(sucessor)
 ```
+
+---
+### **3. Busca de Custo Uniforme (UCS - Uniform Cost Search)**
+
+A Busca de Custo Uniforme é um algoritmo que explora o grafo $G(V,A)$ para encontrar o caminho de **menor custo total** (e não apenas o de menor número de arestas) de um vértice de origem $s$ até um vértice de destino.
+
+A sua propriedade fundamental é que ela sempre expande o nó $n$ na fronteira (borda) que tem o **menor custo de caminho total** desde a origem $s$. Por causa disso, a UCS garante encontrar o caminho de menor custo para o destino (desde que os custos das arestas não sejam negativos).
+
+Para isso, a UCS utiliza uma estrutura de dados do tipo **Fila de Prioridade (Priority Queue)**.
+
+
 
 **Busca custo uniforme**
 Levando em consideração que "problema" possui a estrutura que salva o mapa e todas as informações necessárias.

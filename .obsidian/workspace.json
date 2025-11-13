@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15_Aleatorios/Prompt prototipo es.md",
+                "file": "14_IA (Cadeira)/4_Busca em largura, profundidade e custo uniforme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prompt prototipo es"
+              "title": "4_Busca em largura, profundidade e custo uniforme"
             }
           },
           {
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -180,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,8 +198,9 @@
   },
   "active": "07123d4aa71f030c",
   "lastOpenFiles": [
-    "15_Aleatorios/Decisões tomadas.md",
+    "14_IA (Cadeira)/3_Agentes Baseados em Objetivos.md",
     "15_Aleatorios/Prompt prototipo es.md",
+    "15_Aleatorios/Decisões tomadas.md",
     "15_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "14_IA (Cadeira)/4_Busca em largura, profundidade e custo uniforme.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap4/3_Comunicação por multicast.md",
@@ -221,7 +224,6 @@
     "08_Git and github/11_Git rebase.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap5/5_Estudo de Caso - RMI Java.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap5/4_Invocação a Método Remoto.md",
-    "12_Sistemas Distribuídos (Cadeira)/Cap5/3_Chamada de procedimento remoto (RPC).md",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "attachments/Pasted image 20251111161906.png",
     "attachments/Pasted image 20251111154931.png",
