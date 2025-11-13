@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15_Aleatorios/prompt prototipo es.md",
+                "file": "15_Aleatorios/Prompt prototipo es.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "prompt prototipo es"
+              "title": "Prompt prototipo es"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Decisões tomadas"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,10 +194,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f831c2bbd9994107",
+  "active": "07123d4aa71f030c",
   "lastOpenFiles": [
-    "15_Aleatorios/prompt prototipo es.md",
     "15_Aleatorios/Decisões tomadas.md",
+    "15_Aleatorios/Prompt prototipo es.md",
     "15_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "14_IA (Cadeira)/4_Busca em largura, profundidade e custo uniforme.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap4/3_Comunicação por multicast.md",
