@@ -36,3 +36,6 @@ A sua propriedade fundamental é que ela sempre expande o nó $n$ na fronteira q
 Para isso, a UCS utiliza uma estrutura de dados do tipo **Fila de Prioridade (Priority Queue)**.
 
 ![](../attachments/Pasted%20image%2020251113194608.png)
+
+
+  
