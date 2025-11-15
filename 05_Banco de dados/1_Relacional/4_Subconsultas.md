@@ -19,7 +19,7 @@ Tipos de Subconsultas Aninhadas:
 2. All: é usado para comparar um valor com todos os valores retornados por uma subconsulta. A comparação é verdadeira somente se o valor na consulta externa satisfizer a condição para todos os valores retornados.
 
 ---
-### 2. Exists e not exists
+### **2. Exists e not exists**
 
  Os operadores EXISTS e NOT EXISTS são usados para testar a existência (ou não existência) de registros que atendem a uma condição em uma subconsulta. São úteis para consultas que precisam realizar operações baseadas na presença ou ausência de dados em outra tabela.
 

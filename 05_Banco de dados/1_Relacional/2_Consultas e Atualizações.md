@@ -2,7 +2,7 @@
 #Concluded 
 
 ---
-### 1. **Select**
+### **1. Select**
 Com o select é possível selecionar colunas específicas ou todas com *.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdDhyKukNZP5q6yxEhgJEzA3AudM1snWBq0eKx4K837JwDxahirNwzgHUyhWmuU_yDp3GdW3s4u9M4ofXSWLQ1cPPu6U4wHETiUoujffYFzUWvjmtXl4Z_VPOkWpfluuAmO4UWBo2I-Qn3Y5TFegR3RB8A?key=jqcuw0c7mMfsTTEWWceZSw)
@@ -65,8 +65,7 @@ Com o Alias é possível renomear uma coluna.
   
 ---
 ### **7. Atualizações de forma segura**
-
-#### Transações
+#### **Transações**
 - **Beggin**: Marca o início de uma sequência de operações que devem ser tratadas atomicamente. 
 
 - **Rollback**: Se ocorrer erro na transação, o rollback reverterá as alterações feitas. 
@@ -75,15 +74,10 @@ Com o Alias é possível renomear uma coluna.
 
 #### **Update**
 Update é usado para modificar os dados existentes em uma tabela.  É necessário tomar muito cuidado com esse comando. Por isso é interessante usar as transações para garantir a integridade dos dados.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd5YzP533gaxVczBqjoSX-W2vHLfaXB_5v0VW-LhgdGiFpoGzRY3aQBzoypmxIv2G_zuBS3oJMvqKdY6VzZDR6gfRsHA1VnEJw_ByaATqYFmammyEkC5sGLRrVY3m8iVwoB5lanNlLoqqRWQ64dXG63zQ6L?key=jqcuw0c7mMfsTTEWWceZSw)
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcIxp37RAgqWwZcil7LQV65tSAA4gnlgggnvbuUR6BwEC0xB2vV5xhJw_YSC24VVNsZLt2BBmdCOovdCiq5eezKLZBWNmVvOWLh4feDH18W3NLRIjSEtMT_8Dh_fctgOerUCIEEKOaDkjhzJ870jUxcd9UI?key=jqcuw0c7mMfsTTEWWceZSw)
-Você executa os updates, verifica se tudo está certo, em caso de erro executa o rollback, em caso de sucesso executa o commit.
-
+	![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd5YzP533gaxVczBqjoSX-W2vHLfaXB_5v0VW-LhgdGiFpoGzRY3aQBzoypmxIv2G_zuBS3oJMvqKdY6VzZDR6gfRsHA1VnEJw_ByaATqYFmammyEkC5sGLRrVY3m8iVwoB5lanNlLoqqRWQ64dXG63zQ6L?key=jqcuw0c7mMfsTTEWWceZSw)
+	![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcIxp37RAgqWwZcil7LQV65tSAA4gnlgggnvbuUR6BwEC0xB2vV5xhJw_YSC24VVNsZLt2BBmdCOovdCiq5eezKLZBWNmVvOWLh4feDH18W3NLRIjSEtMT_8Dh_fctgOerUCIEEKOaDkjhzJ870jUxcd9UI?key=jqcuw0c7mMfsTTEWWceZSw)
 #### **Delete**
-Delete é usado para remover registros da tabela. É necessário tomar muito cuidado com esse comando. Por isso, novamente, é interessante usar as transações para garantir a integridade dos dados.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfyVdYoMpyMQ4KggDj_U7YFq0gqkO2IFAxdP2hNUetEIfO29mCg9vFbmfz6n_G15aAS6mIVP0BFSBwkqUDpKbPMzHiJp1oRbRyy4viJ-zOXbYnTBUvUTuJsrFuFrVs0rfoajymX7X8IorIGSEd0A4dGK3Cp?key=jqcuw0c7mMfsTTEWWceZSw)
+Delete é usado para remover registros da tabela. É necessário tomar muito cuidado com esse comando.
+	![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfyVdYoMpyMQ4KggDj_U7YFq0gqkO2IFAxdP2hNUetEIfO29mCg9vFbmfz6n_G15aAS6mIVP0BFSBwkqUDpKbPMzHiJp1oRbRyy4viJ-zOXbYnTBUvUTuJsrFuFrVs0rfoajymX7X8IorIGSEd0A4dGK3Cp?key=jqcuw0c7mMfsTTEWWceZSw)
 
   
