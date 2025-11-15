@@ -10,7 +10,7 @@ Tipos de Subconsultas Aninhadas:
 3. **Subconsulta de Tabela:** Retorna várias linhas e várias colunas.
 
 ---
-### 1. Any, some e all 
+### **1. Any, some e all** 
 
  Os operadores any, some e all são usados em conjunto com subconsultas e têm a função de realizar comparações entre valores de uma consulta externa e o conjunto de resultados de uma subconsulta.
 

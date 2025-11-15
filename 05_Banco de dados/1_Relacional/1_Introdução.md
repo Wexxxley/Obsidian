@@ -70,3 +70,32 @@ As constraints (restrições) são regras que você pode aplicar às suas tabela
    - BOOLEAN: Armazena valores booleanos (0 ou 1).
 
 ---
+### **5. Insert into**
+
+```sql
+INSERT INTO clinte (
+    id_cliente, 
+    nome, 
+    cpf, 
+    rg, 
+    genero, 
+    profissao
+) 
+VALUES 
+(
+    1, 
+    'Ana Clara Souza', 
+    '11122233344', 
+    '123456789', 
+    'F', 
+    'Advogada', 
+),
+(
+    2, 
+    'Bruno Costa Lima', 
+    '99988877766',
+    '987654321',
+    'M',
+    'Estudante',
+);
+```
