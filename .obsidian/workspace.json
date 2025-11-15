@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2f00bff2ddad87c0",
+        "id": "59b8969d4a9f26f1",
         "type": "tabs",
         "children": [
           {
-            "id": "07123d4aa71f030c",
+            "id": "1cb783d5697cd93b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14_IA (Cadeira)/4_Busca em largura, profundidade e custo uniforme.md",
+                "file": "08_Git and github ✅/10_Fluxo geral.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Busca em largura, profundidade e custo uniforme"
-            }
-          },
-          {
-            "id": "f831c2bbd9994107",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "15_Aleatorios/Decisões tomadas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Decisões tomadas"
+              "title": "10_Fluxo geral"
             }
           }
         ]
@@ -92,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -196,8 +181,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07123d4aa71f030c",
+  "active": "1cb783d5697cd93b",
   "lastOpenFiles": [
+    "08_Git and github ✅/09_Contribuições para projetos.md",
+    "08_Git and github ✅/08_Git merge e revertendo mudanças.md",
+    "08_Git and github ✅/07_Branches.md",
+    "08_Git and github ✅/06_Git push e pull.md",
+    "08_Git and github ✅/05_Autenticação.md",
+    "08_Git and github ✅/04_Log e .gitignore.md",
+    "08_Git and github ✅/03_Fluxo inicial.md",
+    "08_Git and github ✅/02_Configurações e .git.md",
+    "08_Git and github ✅/01_Introdução.md",
+    "14_IA (Cadeira)/4_Busca em largura, profundidade e custo uniforme.md",
+    "15_Aleatorios/Decisões tomadas.md",
     "attachments/Pasted image 20251113194608.png",
     "attachments/Pasted image 20251113194421.png",
     "attachments/Pasted image 20251113194400.png",
@@ -206,9 +202,7 @@
     "attachments/Pasted image 20251113193240.png",
     "14_IA (Cadeira)/3_Agentes Baseados em Objetivos.md",
     "15_Aleatorios/Prompt prototipo es.md",
-    "15_Aleatorios/Decisões tomadas.md",
     "15_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
-    "14_IA (Cadeira)/4_Busca em largura, profundidade e custo uniforme.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap4/3_Comunicação por multicast.md",
     "14_IA (Cadeira)/5_Heurística.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap4/2_Representação Externa de Dados.md",
@@ -216,15 +210,6 @@
     "15_Aleatorios/1_Blocos obsidian.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap4/4_Questoes.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap5/6_Questoes.md",
-    "08_Git and github ✅/02_Configurações e .git.md",
-    "08_Git and github ✅/01_Introdução.md",
-    "08_Git and github ✅/03_Fluxo inicial.md",
-    "08_Git and github ✅/04_Log e .gitignore.md",
-    "08_Git and github ✅/05_Autenticação.md",
-    "08_Git and github ✅/06_Git push e pull.md",
-    "08_Git and github ✅/07_Branches.md",
-    "08_Git and github ✅/08_Git merge e revertendo mudanças.md",
-    "08_Git and github ✅/09_Contribuições para projetos.md",
     "08_Git and github ✅/10_Fluxo geral.md",
     "08_Git and github/10_Git Stash.md",
     "08_Git and github/11_Git rebase.md",
@@ -234,7 +219,6 @@
     "attachments/Pasted image 20251111154931.png",
     "attachments/Pasted image 20251111153203.png",
     "attachments/Pasted image 20251111153152.png",
-    "attachments/Pasted image 20251111152728.png",
     "temp",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
