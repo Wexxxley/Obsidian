@@ -12,7 +12,7 @@ ___
 - Pode perder pacotes
 - Roteia os pacotes por caminhos diferentes 
 
-**TCP (Transmission Control Protocol):** Cuida da confiabilidade da comunicação e garante que os dados cheguem completos, na ordem correta, sem duplicação e sem perda.  Esse protocolo divide os dados em pacotes numerados, confirma o recebimento e reenvia caso algum pedaço se perca.
+**TCP (Transmission Control Protocol):** Protocolo (Camada de transporte) que <mark style="background: #ADCCFFA6;">cuida da confiabilidade da comunicação e garante que os dados cheguem completos, na ordem correta, sem duplicação e sem perda</mark>.  Esse protocolo divide os dados em pacotes numerados, confirma o recebimento e reenvia caso algum pedaço se perca.
 
 **Camadas**
 1. **Aplicação:** Onde vivem os protocolos a aplicações que os usuários usam.  É o navegador, o app de e-mail, o YouTube, etc. [1_Arquiteturas da camada de aplicação](../2_Camada%20Aplicação/1_Arquiteturas%20da%20camada%20de%20aplicação.md)

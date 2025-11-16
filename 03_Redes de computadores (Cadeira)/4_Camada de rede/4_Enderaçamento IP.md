@@ -61,7 +61,7 @@ No exemplo `223.1.1.0/24`, os primeiros 24 bits são o **prefixo da sub-rede**, 
     4. O ISP então usa esse bloco para atribuir endereços IP a seus clientes 
 
 ---
-### **5. Como um host obtém endereço IP?**
+### **5. Atribuição de enderços IP**
 
 1. **Definido pelo administrador do sistema:**    
     - Neste método, o endereço IP, a máscara de sub-rede, o gateway padrão e os servidores DNS são **manualmente inseridos** nas configurações de rede do host.
@@ -77,3 +77,55 @@ No exemplo `223.1.1.0/24`, os primeiros 24 bits são o **prefixo da sub-rede**, 
 
 ---
 
+### Atribuição de Endereços (DHCP)
+
+Um dispositivo não vem com um IP pré-definido. Ele precisa solicitar um endereço ao se conectar à rede.
+
+- **DHCP (Dynamic Host Configuration Protocol):** É o protocolo usado para a atribuição automática de endereços IP em uma rede.
+    
+- **Processo:**
+    
+    1. Quando seu dispositivo (ex: laptop) se conecta à LAN (via Wi-Fi ou cabo), ele envia uma mensagem de _DHCP Request_ (um "broadcast" para a rede local) pedindo um endereço.
+        
+    2. O **Roteador**, que geralmente atua como o **Servidor DHCP** da rede, recebe essa solicitação.
+        
+    3. O roteador seleciona um endereço IP disponível de um "pool" (intervalo) pré-configurado e o oferece ao dispositivo.
+        
+    4. Junto com o IP, ele também fornece informações críticas de configuração, como a **Subnet Mask** (Máscara de Sub-rede) e o **Default Gateway** (Gateway Padrão, que é o endereço IP do próprio roteador).
+        
+
+### Tópico 4: Tradução de Endereços (NAT)
+
+O vídeo aborda um ponto crucial: o seu laptop e o seu celular podem ter o mesmo IP (`192.168.1.100`) que o laptop do seu vizinho. Isso funciona devido à divisão entre IPs públicos e privados.
+
+- **Endereços IP Privados:** São blocos de endereços não roteáveis na internet, reservados para uso em redes locais (LANs). Exemplos comuns são os blocos `192.168.x.x` ou `10.x.x.x`. Seu roteador atribui esses IPs aos _seus_ dispositivos.
+    
+- **Endereço IP Público:** É o **único** endereço IP que seu ISP (provedor) atribui ao seu modem/roteador. Este é o seu endereço visível para a Internet global.
+    
+- **NAT (Network Address Translation):** É o processo que o roteador executa para permitir que múltiplos dispositivos (com IPs privados) compartilhem um único IP público.
+    
+    - **Saída:** Quando seu laptop (`192.168.1.100`) acessa um site, o roteador "traduz" o pacote: ele troca o IP de origem privado pelo seu IP público.
+        
+    - **Entrada:** Quando o site responde ao IP público, o roteador consulta sua "tabela NAT", lembra qual dispositivo privado fez a solicitação original e traduz o IP de destino de volta para `192.168.1.100`.
+        
+
+### Tópico 5: Resolução de Nomes (DNS)
+
+Os usuários não digitam endereços IP para acessar sites, eles usam nomes de domínio (hostnames) como `google.com`.
+
+- **DNS (Domain Name System):** É o protocolo hierárquico e distribuído responsável por traduzir nomes de domínio legíveis por humanos em endereços IP roteáveis.
+    
+- **Processo de Resolução:**
+    
+    1. O usuário digita `google.com` no navegador.
+        
+    2. O sistema operacional envia uma consulta DNS para um **Servidor DNS** (geralmente fornecido via DHCP pelo seu ISP, ou um público como `8.8.8.8` do Google).
+        
+    3. O servidor DNS responde à consulta com o endereço IP público correspondente ao `google.com` (ex: `172.217.14.228`).
+        
+    4. Com o IP de destino em mãos, o navegador pode então iniciar a conexão.
+        
+
+---
+
+Aperte `next` para o próximo tópico, que aborda como os dados são realmente enviados (TCP) e como vários aplicativos usam a mesma conexão (Portas).
