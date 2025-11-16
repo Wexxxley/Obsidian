@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Banco de dados/1_Relacional/2_Consultas e Atualizações.md",
+                "file": "03_Redes de computadores (Cadeira)/1_Overview/1_Introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Consultas e Atualizações"
+              "title": "1_Introdução"
             }
           }
         ]
@@ -181,8 +181,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c52f17c64e87cbf",
+  "active": "7f8fd8163df5a521",
   "lastOpenFiles": [
+    "05_Banco de dados/1_Relacional/2_Consultas e Atualizações.md",
     "05_Banco de dados/1_Relacional/1_Introdução.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap5/6_Questoes.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap4/4_Questoes.md",
@@ -192,7 +193,6 @@
     "01_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a",
     "05_Banco de dados/1_Relacional/4_Subconsultas.md",
     "05_Banco de dados/1_Relacional/3_Funções de agregação.md",
-    "05_Banco de dados/1_Relacional/2_Consultas e Atualizações.md",
     "08_Git and github ✅/04_Log e .gitignore.md",
     "06_Pyhon/FastAPI/1_Introdução.md",
     "08_Git and github ✅/03_Fluxo inicial.md",
