@@ -1,18 +1,16 @@
-Status: #Concluded 
+
+#Concluded 
 
 ___
-### **1. TCP/IP**
+### **1. Arquitetura TCP/IP**
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfm0yiF7VCzT2a3-JAYru0-quEMlNGUffyxN3fS5Fw5FcE-dLzkcmRKVMUy9w_TElxVHpZoiixrmQQvHFQSTNLnfufA9-vIj1QFtH5j-5k5OO6kciHH31tXXDk5hjJlJ5ULqPUS?key=HrOhHC0_-ked6RNCpQ0o3PZn)
+<mark style="background: #ADCCFFA6;">A arquitetura TCP/IP é um conjunto de protocolos de comunicação que permite a troca de dados entre dispositivos em uma rede</mark>. 
+![500](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfm0yiF7VCzT2a3-JAYru0-quEMlNGUffyxN3fS5Fw5FcE-dLzkcmRKVMUy9w_TElxVHpZoiixrmQQvHFQSTNLnfufA9-vIj1QFtH5j-5k5OO6kciHH31tXXDk5hjJlJ5ULqPUS?key=HrOhHC0_-ked6RNCpQ0o3PZn)
 
-TCP/IP é um conjunto de protocolos de comunicação que permite a troca de dados entre dispositivos em uma rede. Os principais protocolos são o TCP e o IP.
-
-**IP(Internet protocol):** É o protocolo responsável por endereçar e encaminhar os pacotes na rede. Ele não garante que os dados cheguem corretamente ou na ordem certa. Só se preocupa em levar o pacote.
+**IP(Internet protocol):** É o <mark style="background: #ADCCFFA6;">protocolo (Camada de rede) responsável por endereçar e encaminhar os pacotes na rede. Ele não garante que os dados cheguem corretamente ou na ordem certa. Só se preocupa em levar o pacote</mark>.
 - Usa endereços IP (ex: 192.168.1.1)
 - Pode perder pacotes
 - Roteia os pacotes por caminhos diferentes 
-
-[1_Protocolos da camada de transporte da internet](../3_Camada%20de%20Transporte/1_Protocolos%20da%20camada%20de%20transporte%20da%20internet.md)
 
 **TCP (Transmission Control Protocol):** Cuida da confiabilidade da comunicação e garante que os dados cheguem completos, na ordem correta, sem duplicação e sem perda.  Esse protocolo divide os dados em pacotes numerados, confirma o recebimento e reenvia caso algum pedaço se perca.
 
