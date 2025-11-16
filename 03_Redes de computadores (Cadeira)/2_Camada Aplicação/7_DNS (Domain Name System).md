@@ -1,6 +1,6 @@
 
 ---
-# 1 DNS (Domain Name System)
+### **1 DNS (Domain Name System)**
 
 Há duas maneiras de identificar um hospedeiro: por um ==nome de hospedeiro== e por um ==endereço IP.== As pessoas preferem o identificador nome de hospedeiro, ao passo que roteadores preferem endereços IP. Para conciliar essas preferências, é necessário um serviço que traduza nomes de hospedeiro para endereços IP. Esta é a tarefa principal do DNS (domain name system) 
 
@@ -15,7 +15,7 @@ Exemplo, Para que a máquina do usuário possa enviar uma mensagem HTTP ao servi
 5. Tão logo o navegador receba o endereço do DNS, pode abrir uma conexão TCP com o processo servidor HTTP localizado na porta 80 naquele endereço IP.
   
 ---
-# 2. Serviços fornecidos pelo DNS
+### 2. Serviços fornecidos pelo DNS
 
 1. **Resolução de nomes de domínio:** Tradução de nomes legíveis para endereços IP.  
     Ex: gaia.cs.umass.edu → 200.17.37.2
@@ -41,7 +41,7 @@ Base de dados distribuída e hierárquica:  O DNS é dividido em camadas, forma
  Um servidor de nomes local é o servidor de DNS que fica mais próximo do usuário final, geralmente mantido pelo provedor de internet. Quando você digita um endereço no navegador, seu computador não sabe de imediato o IP desse site. Ele envia a consulta ao servidor de nomes local.
  
 ---
-# **3.Registros de recursos(RR)**
+### **3.Registros de recursos(RR)**
 
 Os servidores DNS armazenam registros de recursos (RR) que fornecem mapeamentos de nomes de hospedeiros para endereços IP. Cada mensagem de resposta DNS carrega um ou mais registros de recursos. 
 
@@ -57,7 +57,7 @@ Um registro de recurso é uma tupla de  que contém os seguintes campos: ==(Name
 6. **PTR**: recebe um ipv4/ipv6 e retorna o nome canônico. Aconsulta precisa ser explicita.
 
 ___
-# 4 **DNS - Protocolo de mensagem**
+### 4 **DNS - Protocolo de mensagem**
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeFlyt4CkUZKCo75XcWVH4Ks02zOnnJI46ZXkjTm2IzybuvzELRDs-ifIkRVDYmcbV210mkRzQ98TRhCJazDWJnnfDprOMhLpX0yUlTJZjiV2atu13e6I7YKAWNgB9y5E23kh0i?key=HrOhHC0_-ked6RNCpQ0o3PZn)
 

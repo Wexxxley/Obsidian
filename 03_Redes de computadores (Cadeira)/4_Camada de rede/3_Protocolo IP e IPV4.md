@@ -40,8 +40,10 @@ O Protocolo IP por si só não garante _nada_.
 - Ele não garante que os pacotes chegarão na ordem correta.
 - Ele não pede reenvio se um pacote se perder.
 
-É o trabalho do protocolo da camada de t (o protocolo da camada de cima) receber os pacotes do IP, organizá-los, verificar se falta algum, pedir o reenvio (ex: "Ei, Google, o pacote 1 de 4 não chegou!") e garantir que a foto do gato seja montada corretamente.
-### **1. Campos**
+É o trabalho do protocolo da camada de transporte receber os pacotes do IP, organizá-los, verificar se falta algum, pedir o reenvio.
+
+---
+### **5. IPV4 Campos**
 
  Um pacote de camada de rede é denominado um **datagrama**. Os principais campos do datagrama ipv4 são os seguintes: 
 
@@ -61,7 +63,7 @@ O Protocolo IP por si só não garante _nada_.
 - **Dados:** Contém o segmento da camada de transporte (TCP ou UDP) a ser entregue ao destino. Contudo, o campo de dados pode carregar outros tipos de dados, como mensagens ICMP.
 
 ---
-### **2. Classes do IPv4**
+### **6. Classes do IPv4**
 
 | Classes | Intervalo do Primeiro Octeto | Padrão dos Primeiros Bits | Uso Principal        |
 | :------ | :--------------------------- | :------------------------ | :------------------- |
