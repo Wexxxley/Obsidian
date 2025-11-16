@@ -1,76 +1,46 @@
 #Concluded 
 
 ---
-### **1. Protocolo IP vs. Endereço IP **
+### **1. Protocolo IP vs. Endereço IP**
 
-- **O Protocolo (IP - Internet Protocol):** É o **manual de regras**. É o conjunto de padrões que define _como_ os dados devem ser formatados e enviados pela internet. Ele é a parte do "TCP/IP".
+- **IP - Internet Protocol:** É o conjunto de padrões que define como os dados devem ser formatados e enviados pela internet. Ele é a parte da arquitetura TCP/IP e atual na camada de rede.
     
-- **O Endereço (Endereço IP):** É o **identificador numérico** (ex: `5.6.7.8`) que o protocolo usa para saber para onde enviar os dados.
-    
-
-Portanto, **IP é o protocolo**, e **Endereço IP é o endereço** que esse protocolo utiliza.
+- **Endereço IP:** É o identificador numérico que o protocolo usa para saber para onde enviar os dados.
 
 ---
+### **2. O Endereço IP é Globalmente Exclusivo?**
 
-### 2. O Endereço IP é Globalmente Exclusivo?
-
-Essa é a sua principal dúvida. A resposta é **sim e não**, e a distinção é crucial:
-
-- **SIM (Endereço IP Público):** O endereço IP que o seu provedor de internet (ISP) dá ao seu roteador **é globalmente único**. Nenhum outro dispositivo no mundo pode ter esse mesmo IP público naquele momento. É assim que o Google sabe para onde enviar a foto do gato de volta.
+- **SIM (Endereço IP Público):** O endereço IP que o seu provedor de internet (ISP) dá ao seu roteador é globalmente único. Nenhum outro dispositivo no mundo pode ter esse mesmo IP público naquele momento.
     
-- **NÃO (Endereço IP Privado):** O endereço IP que o seu roteador dá aos seus dispositivos _dentro_ da sua casa (ex: `192.168.1.100` ou `10.0.1.34`) **não é globalmente único**. Milhões de laptops em milhões de casas diferentes têm exatamente o mesmo IP privado `192.168.1.100`.
+- **NÃO (Endereço IP Privado):** O endereço IP que o seu roteador dá aos seus dispositivos dentro da sua casa não é globalmente único. Milhões de laptops em milhões de casas diferentes têm exatamente o mesmo IP privado.
     
-
-Isso funciona graças ao **NAT (Network Address Translation)**, um processo que o seu roteador faz. Ele atua como um "porteiro" do prédio:
-
-1. Quando seu notebook (privado `192.168.1.100`) pede algo ao Google, o roteador pega o pedido, anota quem pediu, e o envia para a internet usando o IP **público** e único do "prédio".
-    
-2. Quando o Google responde ao IP público, o roteador recebe, olha sua lista e diz: "Ah, essa resposta é para o notebook no apartamento `192.168.1.100`" e a entrega.
-    
+Isso funciona graças ao NAT (Network Address Translation): [8_NAT](8_NAT.md)
 
 ---
+### **3. O que o Protocolo IP faz, de Fato?**
 
-### 3. Em Qual Camada o Protocolo IP Fica?
+A função real do Protocolo IP é <mark style="background: #BBFABBA6;">endereçar e rotear pacotes.</mark>
 
-O protocolo IP atua na **Camada 3 (A Camada de Rede)** do Modelo OSI.
-
-Se usarmos o modelo TCP/IP (que é mais simples e o que a internet realmente usa), ele fica na **Camada de Internet**.
-
-A função dessa camada é uma só: **roteamento**.
-
----
-
-### 4. O que o Protocolo IP faz, de Fato?
-
-A função real do **Protocolo IP** é **endereçar e rotear pacotes**.
-
-Pense no IP como o serviço de correio que _só se importa com o envelope_.
-
-1. Um protocolo da camada de cima (como o TCP) entrega ao IP um bloco de dados (ex: um pedaço da foto do gato).
+1. Um protocolo da camada de cima (como o TCP) entrega ao IP um bloco de dados.
     
-2. O **Protocolo IP** pega esse bloco e o "encapsula" em um **Pacote IP**. A parte mais importante que ele adiciona é o **Cabeçalho IP (IP Header)**.
+2. O Protocolo IP pega esse bloco e o "encapsula" em um Pacote IP. A parte mais importante que ele adiciona é o **IP Header**.
     
 3. Esse cabeçalho contém, entre outras coisas:
-    
-    - **Endereço IP de Origem** (De: `1.2.3.4`)
+    - **Endereço IP de Origem**
+    - **Endereço IP de Destino**
         
-    - **Endereço IP de Destino** (Para: `5.6.7.8`)
-        
-4. O trabalho do IP é apenas "entregar na próxima esquina". Ele envia o pacote para o primeiro roteador. Esse roteador lê o IP de Destino, consulta sua tabela de roteamento e envia o pacote para o próximo roteador que esteja "mais perto" do destino. Isso se repete várias vezes (são os "saltos" ou "hops" que vimos no `traceroute`) até chegar ao destino.
+4. O IP envia o pacote para o primeiro roteador. Esse roteador lê o IP de Destino, consulta sua tabela de roteamento e envia o pacote para o próximo roteador. Isso se repete várias vezes até chegar ao destino.
     
 
-#### O Ponto Crucial: IP não é Confiável
+---
+### **4. IP não é Confiável**
 
-O **Protocolo IP** por si só não garante _nada_.
-
+O Protocolo IP por si só não garante _nada_.
 - Ele não garante que o pacote vai chegar.
-    
 - Ele não garante que os pacotes chegarão na ordem correta.
-    
 - Ele não pede reenvio se um pacote se perder.
-    
 
-O IP é um protocolo "best-effort" (de melhor esforço). É o trabalho do **TCP** (o protocolo da camada de cima) receber os pacotes do IP, organizá-los, verificar se falta algum, pedir o reenvio (ex: "Ei, Google, o pacote 1 de 4 não chegou!") e garantir que a foto do gato seja montada corretamente.
+É o trabalho do protocolo da camada de t (o protocolo da camada de cima) receber os pacotes do IP, organizá-los, verificar se falta algum, pedir o reenvio (ex: "Ei, Google, o pacote 1 de 4 não chegou!") e garantir que a foto do gato seja montada corretamente.
 ### **1. Campos**
 
  Um pacote de camada de rede é denominado um **datagrama**. Os principais campos do datagrama ipv4 são os seguintes: 
