@@ -25,33 +25,48 @@ Cada interface em cada hospedeiro da Internet global tem de ter um endereço IP 
     
 O computador faz uma operação lógica **AND** bit a bit entre o Endereço IP e a Máscara de Sub-rede. O resultado dessa operação é sempre o **ID da Rede**.
 
-**Exemplo:**
+>[!EXAMPLE]
+>- IP do seu PC: 192.168.1.100
+>- Máscara de Sub-rede: 255.255.255.0
+> 
+|                 | **Em Binário**                                        |
+| --------------- | ----------------------------------------------------- |
+| **IP**          | `11000000.10101000.00000001.01100100`                 |
+| **Máscara**     | `11111111.11111111.11111111.00000000`                 |
+| >**ID da Rede** | `11000000.10101000.00000001.00000000` = `192.168.1.0` |
+Isso diz ao seu computador: Você está na rede 192.168.1.0. Qualquer IP que comece com 192.168.1 está na mesma sub-rede. 
 
-- **IP do seu PC:** `192.168.1.100`
+**CIDR (Classless InterDomain Routing)**: A CIDR é apenas uma forma mais curta de escrever a máscara. Em vez de escrever o número 255.255.255.0 inteiro, o CIDR simplesmente conta quantos bits 1 existem na máscara.
+- Na nossa máscara `255.255.255.0`, quantos bits `1` temos?   24  
+- Portanto, a máscara `255.255.255.0` é escrita como **/24**, o prefixo de sub-rede.
+
+**O que 223.1.1.0/24  nos diz?**
+
+1. De um total de 32 bits, os primeiros 24 bits são o "prefixo da sub-rede" e os  8 bits restantes são para os Hosts.
     
-- **Máscara de Sub-rede:** `255.255.255.0`
+2. **ID da Rede:** O endereço da rede é 223.1.1.0. 223.1.1 são fixos para todos nessa rede.
+    
+3. **Bits de Host:** Os 8 bits restantes (o último número, `.0`) são a parte que pode mudar para identificar os dispositivos.
+    
+4. **Capacidade da Rede:** Quantos dispositivos cabem nessa rede? Com 8 bits de host, temos $2^8 = 256$ endereços possíveis.
     
 
-Vamos ver isso em binário (que é como o computador vê):
+**Os 256 endereços são:**
 
-|                | **Em Binário**                        |
-| -------------- | ------------------------------------- |
-| **IP**         | `11000000.10101000.00000001.01100100` |
-| **Máscara**    | `11111111.11111111.11111111.00000000` |
-|                |                                       |
-| **ID da Rede** | `11000000.10101000.00000001.00000000` |
+- `223.1.1.0` (o primeiro endereço, todos os 8 bits de host são `0`). Este é reservado como o **endereço da rede**.
+    
+- `223.1.1.1` (o primeiro host utilizável).
+    
+- ... (passando por `223.1.1.2`, `223.1.1.3` ...)
+    
+- `223.1.1.254` (o último host utilizável).
+    
+- `223.1.1.255` (o último endereço, todos os 8 bits de host são `1`). Este é reservado como o **endereço de broadcast** (para "falar" com todos na rede de uma vez).
+    
 
-O resultado `11000000.10101000.00000001.00000000` é `192.168.1.0`.
+**Conclusão:** O endereço `223.1.1.0/24` descreve uma rede que contém 256 endereços, indo de `223.1.1.0` até `223.1.1.255`.
 
-Isso diz ao seu computador: "Você está na rede `192.168.1.0`. Qualquer IP que comece com `192.168.1` está aqui comigo (mesma sub-rede). Qualquer IP que _não_ comece com isso está lá fora (na internet ou em outra rede)."
 
-**CIDR (Classless InterDomain Routing)**: 
-- **A porção da rede:** O CIDR permite que a porção de rede tenha tamanho variável entre entre 0 e 32 bits.
-- **Formato do endereço: ==a.B.C.D/x==
-    - **a.B.C.D:** é o endereço IP.
-    - **/x:** é a máscara de rede em notação de prefixo, indicando quantos bits compõem a porção de rede do endereço.
-
-No exemplo `223.1.1.0/24`, os primeiros 24 bits são o **prefixo da sub-rede**, e os 8 bits restantes servem para identificar os hosts.
 
 ---
 ### **3. Endereços IP reservados**
