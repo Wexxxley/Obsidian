@@ -2,6 +2,123 @@
 #Concluded 
 
 ---
+Uma consulta aninhada (ou subconsulta) é uma consulta `SELECT` que é executada _dentro_ de outra consulta SQL (a consulta externa). Ela é usada para buscar dados que servem como condição ou como um valor para a consulta principal.
+
+### **1. Subconsulta Escalar**
+Retorna exatamente um único valor (uma linha, uma coluna). 
+
+**Exemplo:** Você quer listar todos os produtos que custam _acima da média_ de preços de todos os produtos.
+```sql
+SELECT Nome,Preco FROM Produtos
+WHERE Preco > (
+        SELECT AVG(Preco) FROM Produtos 
+	  );
+```
+
+### **2. Subconsulta de Única Linha**
+Retorna uma linha completa.
+
+**Exemplo:** Você quer encontrar os dados do cliente que fez um pedido específico.
+```sql
+SELECT Nome,Cidade FROM Clientes
+WHERE ClienteID = (
+        SELECT ClienteID FROM Pedidos WHERE PedidoID = 101
+      );
+```
+
+### **3. Subconsulta de Tabela**
+Retorna um conjunto de resultados com várias linhas e várias colunas, como se fosse uma tabela temporária.
+
+**Exemplo:** Você quer ver o nome de todos os clientes que moram no "Rio de Janeiro" e que também fizeram pedidos.
+
+```sql
+SELECT ClientesRJ.Nome, ClientesRJ.Cidade
+FROM(
+        SELECT ClienteID, Nome, Cidade
+        FROM Clientes
+        WHERE Cidade = 'Rio de Janeiro'
+    ) AS ClientesRJ
+JOIN Pedidos ON ClientesRJ.ClienteID = Pedidos.ClienteID;
+```
+
+### **4. ANY, SOME e ALL**
+
+Esses operadores são usados na cláusula `WHERE` para comparar um valor com uma _lista_ de valores retornada pela subconsulta.
+
+- **`ANY` / `SOME`:** A condição é verdadeira se o valor da consulta externa for verdadeiro para **pelo menos um** dos valores retornados pela subconsulta.
+    
+    **Exemplo:** Encontrar produtos que custam mais caro que _qualquer_ (pelo menos um) produto da categoria 'Eletrônicos' (CategoriaID = 5).
+    
+    SQL
+    
+    ```
+    SELECT Nome, Preco
+    FROM Produtos
+    WHERE Preco > ANY (
+        SELECT Preco FROM Produtos WHERE CategoriaID = 5
+    );
+    -- Se 'Eletrônicos' tiver produtos de R$100, R$500 e R$1000,
+    -- este comando retornará produtos que custam mais que R$100.
+    ```
+    
+- **`ALL`:** A condição é verdadeira se o valor da consulta externa for verdadeiro para **todos** os valores retornados pela subconsulta.
+    
+    **Exemplo:** Encontrar produtos que custam mais caro que _todos_ os produtos da categoria 'Eletrônicos'.
+    
+    SQL
+    
+    ```
+    SELECT Nome, Preco
+    FROM Produtos
+    WHERE Preco > ALL (
+        SELECT Preco FROM Produtos WHERE CategoriaID = 5
+    );
+    -- Usando o mesmo caso, este comando só retornará produtos que custam mais que R$1000.
+    ```
+    
+
+### 2. `EXISTS` e `NOT EXISTS`
+
+Esses operadores não olham para os _valores_, mas apenas testam se a subconsulta **retorna alguma linha** (existência) ou não. São considerados muito eficientes.
+
+- **`EXISTS`:** A condição é verdadeira se a subconsulta retornar **pelo menos uma linha**.
+    
+    **Exemplo:** Listar todos os clientes que _já fizeram_ (existe) pelo menos um pedido.
+    
+    SQL
+    
+    ```
+    SELECT
+        Nome
+    FROM
+        Clientes AS C
+    WHERE
+        EXISTS (
+            SELECT 1 -- O "1" é um truque, pode ser qualquer coisa
+            FROM Pedidos AS P
+            WHERE P.ClienteID = C.ClienteID -- A subconsulta procura um pedido para o cliente atual
+        );
+    ```
+    
+- **`NOT EXISTS`:** A condição é verdadeira se a subconsulta **não retornar nenhuma linha**.
+    
+    **Exemplo:** Listar todos os clientes que _nunca_ (não existe) fizeram um pedido.
+    
+    SQL
+    
+    ```
+    SELECT
+        Nome
+    FROM
+        Clientes AS C
+    WHERE
+        NOT EXISTS (
+            SELECT 1
+            FROM Pedidos AS P
+            WHERE P.ClienteID = C.ClienteID
+        );
+    ```
+
 Uma consulta aninhada é uma consulta que é executada dentro de outra consulta. Ela é usada para calcular ou buscar um resultado que será utilizado na consulta externa.
 
 Tipos de Subconsultas Aninhadas: 
@@ -10,24 +127,4 @@ Tipos de Subconsultas Aninhadas:
 3. **Subconsulta de Tabela:** Retorna várias linhas e várias colunas.
 
 ---
-### **1. Any, some e all** 
-
- Os operadores any, some e all são usados em conjunto com subconsultas e têm a função de realizar comparações entre valores de uma consulta externa e o conjunto de resultados de uma subconsulta.
-
-1. Any e Some: Ambos operadores são equivalentes e são usados para comparar um valor com qualquer valor do conjunto retornado por uma subconsulta.
-    
-2. All: é usado para comparar um valor com todos os valores retornados por uma subconsulta. A comparação é verdadeira somente se o valor na consulta externa satisfizer a condição para todos os valores retornados.
-
----
-### **2. Exists e not exists**
-
- Os operadores EXISTS e NOT EXISTS são usados para testar a existência (ou não existência) de registros que atendem a uma condição em uma subconsulta. São úteis para consultas que precisam realizar operações baseadas na presença ou ausência de dados em outra tabela.
-
-**Exibe usuário que não segue ninguém**
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcc_Qroqc1llPjOljsjzY6-icpwE3feVVFHQnSviEL-MGWfpBUTl_bNELd8zx_kksv9sao7h0vVI_CNIlkwCjd5t0Lp93oxvXewtiqy_b5cL0CQ3rutxDX2sXGNUi5-cEg6bh1QVsQu9EHsiK7XE3QzI5g?key=jqcuw0c7mMfsTTEWWceZSw)
-
-**Exibe data do pedido, valor  e a quantidade de produtos por pedido**
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf7g_U3o25ZD1YStGOy5ehcVSNTdVzkTQmP6ud_uh3DDgowWyqKg4OAZhH61eAppRSBJmUnnP5xTsIughZmCTGrYxc8T-pjTDfC4M_bPVWWLocD5n6cUrL5S-q5AnhQ9hLOJu_hj6eIdKnUcxSJHOE1Hcc?key=jqcuw0c7mMfsTTEWWceZSw)
-
-
-
+### **1.
