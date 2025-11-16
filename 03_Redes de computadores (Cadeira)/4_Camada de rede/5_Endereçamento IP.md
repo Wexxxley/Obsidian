@@ -1,10 +1,12 @@
 
+#Concluded 
 
 ---
 ### **1. Como um ISP obtém seu bloco de endereço?**
 
 - **ICANN (Internet Corporation for Assigned Names and Numbers):** A ICANN é a autoridade global máxima responsável por coordenar a atribuição de identificadores únicos na Internet. 
-
+	![](../../attachments/Pasted%20image%2020251116182346.png)
+	
 - **RIRs (Regional Internet Registries):** A ICANN delega a alocação de grandes blocos de endereços IP para cinco RIRs, que cobrem diferentes regiões do mundo:
     
     1. A **ICANN** aloca grandes blocos de endereços IP para cada **RIR**.
