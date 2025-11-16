@@ -11,12 +11,14 @@
             "id": "1cb783d5697cd93b",
             "type": "leaf",
             "state": {
-              "type": "audio",
+              "type": "markdown",
               "state": {
-                "file": "01_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a"
+                "file": "05_Banco de dados/1_Relacional/7_ACID.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-audio",
-              "title": "ResumoEmAudio"
+              "icon": "lucide-file",
+              "title": "7_ACID"
             }
           }
         ]
@@ -181,9 +183,10 @@
   },
   "active": "1cb783d5697cd93b",
   "lastOpenFiles": [
-    "05_Banco de dados/1_Relacional/7_ACID.md",
-    "05_Banco de dados/1_Relacional/6_Join.md",
     "05_Banco de dados/1_Relacional/5_Alter Table.md",
+    "05_Banco de dados/1_Relacional/6_Join.md",
+    "01_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a",
+    "05_Banco de dados/1_Relacional/7_ACID.md",
     "05_Banco de dados/1_Relacional/4_Subconsultas.md",
     "05_Banco de dados/1_Relacional/3_Funções de agregação.md",
     "05_Banco de dados/1_Relacional/1_Introdução.md",
@@ -212,7 +215,6 @@
     "15_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap4/3_Comunicação por multicast.md",
     "14_IA (Cadeira)/5_Heurística.md",
-    "12_Sistemas Distribuídos (Cadeira)/Cap4/2_Representação Externa de Dados.md",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "attachments/Pasted image 20251111161906.png",
     "attachments/Pasted image 20251111154931.png",
@@ -226,7 +228,6 @@
     "9_Dotnet/Unconfirmed 438827.crdownload",
     "9_Dotnet/Unconfirmed 295246.crdownload",
     "9_Dotnet/Fundamentos C#.docx",
-    "9_Dotnet/1_Fundamentos CSHARP",
     "Sem título.canvas"
   ]
 }

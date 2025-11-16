@@ -105,7 +105,6 @@ No T3, o que o Relatório deve ler?
 
 <mark style="background: #ADCCFFA6;">A durabilidade garante que, uma vez que a transação recebe o COMMIT, as mudanças são permanentes e sobreviverão a qualquer falha.</mark>
 
-
 1. Você executa: `COMMIT;`
     
 2. O banco de dados não reescreve imediatamente os arquivos principais da tabela (que são grandes e lentos de modificar).
