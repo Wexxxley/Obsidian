@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 411
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -182,7 +181,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f8fd8163df5a521",
+  "active": "0c52f17c64e87cbf",
   "lastOpenFiles": [
     "05_Banco de dados/1_Relacional/1_Introdução.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap5/6_Questoes.md",
