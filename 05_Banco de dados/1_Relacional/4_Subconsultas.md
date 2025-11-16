@@ -41,90 +41,72 @@ FROM(
 JOIN Pedidos ON ClientesRJ.ClienteID = Pedidos.ClienteID;
 ```
 
-### **4. ANY, SOME e ALL**
+---
+### **4. ANY e SOME**
 
-Esses operadores são usados na cláusula `WHERE` para comparar um valor com uma _lista_ de valores retornada pela subconsulta.
+A condição é verdadeira se o valor da consulta externa for verdadeiro para pelo menos um dos valores retornados pela subconsulta.
+    
+**Exemplo:** Encontrar produtos que custam mais caro que qualquer produto da categoria 'Eletrônicos' (CategoriaID = 5).
 
-- **`ANY` / `SOME`:** A condição é verdadeira se o valor da consulta externa for verdadeiro para **pelo menos um** dos valores retornados pela subconsulta.
-    
-    **Exemplo:** Encontrar produtos que custam mais caro que _qualquer_ (pelo menos um) produto da categoria 'Eletrônicos' (CategoriaID = 5).
-    
-    SQL
-    
-    ```
-    SELECT Nome, Preco
-    FROM Produtos
-    WHERE Preco > ANY (
-        SELECT Preco FROM Produtos WHERE CategoriaID = 5
-    );
-    -- Se 'Eletrônicos' tiver produtos de R$100, R$500 e R$1000,
-    -- este comando retornará produtos que custam mais que R$100.
-    ```
-    
-- **`ALL`:** A condição é verdadeira se o valor da consulta externa for verdadeiro para **todos** os valores retornados pela subconsulta.
-    
-    **Exemplo:** Encontrar produtos que custam mais caro que _todos_ os produtos da categoria 'Eletrônicos'.
-    
-    SQL
-    
-    ```
-    SELECT Nome, Preco
-    FROM Produtos
-    WHERE Preco > ALL (
-        SELECT Preco FROM Produtos WHERE CategoriaID = 5
-    );
-    -- Usando o mesmo caso, este comando só retornará produtos que custam mais que R$1000.
-    ```
-    
-
-### 2. `EXISTS` e `NOT EXISTS`
-
-Esses operadores não olham para os _valores_, mas apenas testam se a subconsulta **retorna alguma linha** (existência) ou não. São considerados muito eficientes.
-
-- **`EXISTS`:** A condição é verdadeira se a subconsulta retornar **pelo menos uma linha**.
-    
-    **Exemplo:** Listar todos os clientes que _já fizeram_ (existe) pelo menos um pedido.
-    
-    SQL
-    
-    ```
-    SELECT
-        Nome
-    FROM
-        Clientes AS C
-    WHERE
-        EXISTS (
-            SELECT 1 -- O "1" é um truque, pode ser qualquer coisa
-            FROM Pedidos AS P
-            WHERE P.ClienteID = C.ClienteID -- A subconsulta procura um pedido para o cliente atual
-        );
-    ```
-    
-- **`NOT EXISTS`:** A condição é verdadeira se a subconsulta **não retornar nenhuma linha**.
-    
-    **Exemplo:** Listar todos os clientes que _nunca_ (não existe) fizeram um pedido.
-    
-    SQL
-    
-    ```
-    SELECT
-        Nome
-    FROM
-        Clientes AS C
-    WHERE
-        NOT EXISTS (
-            SELECT 1
-            FROM Pedidos AS P
-            WHERE P.ClienteID = C.ClienteID
-        );
-    ```
-
-Uma consulta aninhada é uma consulta que é executada dentro de outra consulta. Ela é usada para calcular ou buscar um resultado que será utilizado na consulta externa.
-
-Tipos de Subconsultas Aninhadas: 
-1. **Subconsulta Escalar:** Retorna um único valor.    
-2. **Subconsulta de Única Linha:** Retorna uma linha completa
-3. **Subconsulta de Tabela:** Retorna várias linhas e várias colunas.
+```sql
+SELECT Nome, Preco
+FROM Produtos
+WHERE Preco > ANY (
+	SELECT Preco FROM Produtos WHERE CategoriaID = 5
+);
+-- Se 'Eletrônicos' tiver produtos de R$100, R$500 e R$1000,
+-- este comando retornará produtos que custam mais que R$100.
+```
 
 ---
-### **1.
+### **4. ALL** 
+A condição é verdadeira se o valor da consulta externa for verdadeiro para todos os valores retornados pela subconsulta.
+    
+**Exemplo:** Encontrar produtos que custam mais caro que _todos_ os produtos da categoria 'Eletrônicos'.
+
+```sql
+SELECT Nome, Preco
+FROM Produtos
+WHERE Preco > ALL (
+	SELECT Preco FROM Produtos WHERE CategoriaID = 5
+);
+-- Usando o mesmo caso, este comando só retornará produtos que custam mais que R$1000.
+```
+
+---
+### **5. EXISTS e NOT EXISTS**
+
+Esses operadores não olham para os _valores_, mas apenas testam se a subconsulta retorna alguma linha ou não. 
+
+**EXISTS:** A condição é verdadeira se a subconsulta retornar pelo menos uma linha.
+    
+**Exemplo:** Listar todos os clientes que já fizeram (existe) pelo menos um pedido.
+```sql
+SELECT
+	Nome
+FROM
+	Clientes AS C
+WHERE
+	EXISTS (
+		SELECT 1 -- O "1" é um truque, pode ser qualquer coisa
+		FROM Pedidos AS P
+		WHERE P.ClienteID = C.ClienteID 
+	);
+```
+    
+**NOT EXISTS:** A condição é verdadeira se a subconsulta não retornar nenhuma linha.
+    
+**Exemplo:** Listar todos os clientes que nunca (não existe) fizeram um pedido.
+```sql
+SELECT
+	Nome
+FROM
+	Clientes AS C
+WHERE
+	NOT EXISTS (
+		SELECT 1
+		FROM Pedidos AS P
+		WHERE P.ClienteID = C.ClienteID
+	);
+```
+
