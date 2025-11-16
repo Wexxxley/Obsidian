@@ -3,7 +3,6 @@
 
 ---
 ### **1.  Histórico de commits (git log)**
-
 Lista todos os commits feitos, começando pelo mais recente.
 
 - **ID do Commit:** Um código longo e único para cada commit 
@@ -36,3 +35,4 @@ Quase todo projeto tem arquivos ou pastas que você não quer salvar no Git. O a
 - **.gitignore pronto**
     - Existem geradores para isso. O livro recomenda o site gitignore.io. 
     - https://www.toptal.com/developers/gitignore/
+
