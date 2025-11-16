@@ -39,7 +39,6 @@ As constraints (restrições) são regras que você pode aplicar às suas tabela
 
 **Default**: Define um valor padrão para uma coluna caso o valor não seja especificado.
 	 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdbDNUf1lTtbcWHKIC03erIedXsJZj9VX3XNGrjcMVYrdLdqdUEyf6bRxMxCVs3b4Zdd1I3ruglcL5i6WOWEGfg24Dr3e682NghpQZHGDUI-JkQFw2DrLP7sx14bkVPfFBxBeohqGv9Szo0sS2elkaj-PWK?key=jqcuw0c7mMfsTTEWWceZSw)
-
 **Foreign key**: Uma chave estrangeira (foreign key) estabelece uma relação entre duas tabelas e garante a integridade dos dados. Isso impede a criação de relações inconsistentes.
 	![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe6VGHSoooo_zQG64VmnJxB0-dUSF2tdr0ZSkFWxSawv_GPuXY6MIJkA28uKWJpx-IS8uAiKEB8DIly0ufEsCwgnXeHBXu0kEs-jCcSwXP9eKKYx3Lw1v8cKzZAloumqY9YpRJjpYR3sOyJHL_DmkaFHb0?key=jqcuw0c7mMfsTTEWWceZSw)
 
