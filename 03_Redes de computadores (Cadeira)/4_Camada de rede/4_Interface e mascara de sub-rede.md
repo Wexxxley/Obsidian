@@ -10,19 +10,42 @@ Considere um roteador e suas interfaces. Como a tarefa de um roteador é receber
 
 Como todos os hospedeiros e roteadores podem enviar e receber datagramas IP, o IP exige que cada interface tenha seu próprio endereço. Desse modo, <mark style="background: #ADCCFFA6;">um endereço IP está tecnicamente associado com uma interface enão a um dispositivo.</mark>
 
-Cada interface em cada hospedeiro da Internet global tem de ter um endereço IP exclusivo. Uma parte do endereço IP de uma interface será determinada pela sub-rede à qual ela está conectada e a outra parte referente a própria interface.
+Cada interface em cada hospedeiro da Internet global tem de ter um endereço IP exclusivo. Uma <mark style="background: #ADCCFFA6;">parte do endereço IP de uma interface será determinada pela sub-rede à qual ela está conectada e a outra parte referente a própria interface.</mark>
 
 ![Pasted image 20250524113525](../../attachments/Pasted%20image%2020250524113525.png)
 
-==Cada endereço IPv4 tem comprimento de 32 bits (equivalente a 4 bytes).==
-
 ---
-### **2 Máscara de sub-rede**
+### **2. Máscara de sub-rede**
 
-Uma **sub-rede** é definida como um conjunto de interfaces de rede que são interconectadas e que compartilham uma parte comum do endereço IP. 
+**Sub-rede** é definida como um conjunto de interfaces de rede que são interconectadas e que compartilham uma parte comum do endereço IP. 
 
-**Máscara de sub-rede** é um conceito utilizado para identificar qual parte de um endereço IP representa a sub-rede e qual parte identifica o dispositivo dentro dessa sub-rede. 
-#### **2.1 CIDR (Classless InterDomain Routing)**
+**Máscara de sub-rede** é um conceito utilizado para identificar qual parte de um endereço IP representa a sub-rede e qual parte identifica a interface dentro dessa sub-rede. A máscara de sub-rede é um número de 32 bits. A regra é:
+- Bits `1` na máscara = **Endereço da Rede**.
+- Bits `0` na máscara = **Endereço do Host**.
+    
+O computador faz uma operação lógica **AND** bit a bit entre o Endereço IP e a Máscara de Sub-rede. O resultado dessa operação é sempre o **ID da Rede**.
+
+**Exemplo:**
+
+- **IP do seu PC:** `192.168.1.100`
+    
+- **Máscara de Sub-rede:** `255.255.255.0`
+    
+
+Vamos ver isso em binário (que é como o computador vê):
+
+|                | **Em Binário**                        |
+| -------------- | ------------------------------------- |
+| **IP**         | `11000000.10101000.00000001.01100100` |
+| **Máscara**    | `11111111.11111111.11111111.00000000` |
+|                |                                       |
+| **ID da Rede** | `11000000.10101000.00000001.00000000` |
+
+O resultado `11000000.10101000.00000001.00000000` é `192.168.1.0`.
+
+Isso diz ao seu computador: "Você está na rede `192.168.1.0`. Qualquer IP que comece com `192.168.1` está aqui comigo (mesma sub-rede). Qualquer IP que _não_ comece com isso está lá fora (na internet ou em outra rede)."
+
+**CIDR (Classless InterDomain Routing)**: 
 - **A porção da rede:** O CIDR permite que a porção de rede tenha tamanho variável entre entre 0 e 32 bits.
 - **Formato do endereço: ==a.B.C.D/x==
     - **a.B.C.D:** é o endereço IP.

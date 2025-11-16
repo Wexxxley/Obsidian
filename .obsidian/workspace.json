@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Redes de computadores (Cadeira)/4_Camada de rede/4_Enderaçamento IP.md",
+                "file": "03_Redes de computadores (Cadeira)/4_Camada de rede/4_Interface e mascara de sub-rede.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Enderaçamento IP"
+              "title": "4_Interface e mascara de sub-rede"
             }
           }
         ]
@@ -183,9 +183,10 @@
   },
   "active": "7f8fd8163df5a521",
   "lastOpenFiles": [
-    "03_Redes de computadores (Cadeira)/4_Camada de rede/1_Introdução.md",
-    "03_Redes de computadores (Cadeira)/4_Camada de rede/4_Enderaçamento IP.md",
+    "03_Redes de computadores (Cadeira)/4_Camada de rede/5_Endereçamento ip.md",
+    "03_Redes de computadores (Cadeira)/4_Camada de rede/4_Interface e mascara de sub-rede.md",
     "03_Redes de computadores (Cadeira)/4_Camada de rede/3_IPv4.md",
+    "03_Redes de computadores (Cadeira)/4_Camada de rede/1_Introdução.md",
     "03_Redes de computadores (Cadeira)/4_Camada de rede/2_Por dentro do roteador.md",
     "03_Redes de computadores (Cadeira)/1_Introdução/6_Arquitetura TCP IP.md",
     "03_Redes de computadores (Cadeira)/1_Introdução/4_Classificação das redes de telecomunicação.md",
@@ -209,7 +210,6 @@
     "05_Banco de dados/1_Relacional/4_Subconsultas.md",
     "05_Banco de dados/1_Relacional/3_Funções de agregação.md",
     "08_Git and github ✅/04_Log e .gitignore.md",
-    "06_Pyhon/FastAPI/1_Introdução.md",
     "attachments/Pasted image 20251113194608.png",
     "attachments/Pasted image 20251113194421.png",
     "attachments/Pasted image 20251113194400.png",
