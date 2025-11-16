@@ -1,7 +1,7 @@
 Status: #Concluded 
 
 ___
-# TCP/IP
+### **1. TCP/IP**
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfm0yiF7VCzT2a3-JAYru0-quEMlNGUffyxN3fS5Fw5FcE-dLzkcmRKVMUy9w_TElxVHpZoiixrmQQvHFQSTNLnfufA9-vIj1QFtH5j-5k5OO6kciHH31tXXDk5hjJlJ5ULqPUS?key=HrOhHC0_-ked6RNCpQ0o3PZn)
 
@@ -24,7 +24,7 @@ TCP/IP é um conjunto de protocolos de comunicação que permite a troca de dado
 5. **Física:** Converte os bits em sinais elétricos, ondas ou luz. Define tensão, frequência, velocidade de bits, etc.
 
 ___________________________________________________________________________
-# Encapsulamento
+### **2. Encapsulamento**
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfXDxDj8GdgLtFqpgESr7V211Ij_eflTjcu7TGmJPmWbHVgKl3nyTo7oGCvHfGQmf9RAsBDhGbJRqwAuKYkPsA4qHkgvenmcHmo6KOLdgcm8wHsx0WU_--fsg_nmyjROetFATgu?key=HrOhHC0_-ked6RNCpQ0o3PZn)
 

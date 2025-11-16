@@ -18,7 +18,7 @@ Um switch é um **dispositivo de camada de enlace**. Diferente dos hubs, os swit
 - **Armazena e encaminha quadros Ethernet:** Ao receber um quadro de dados, o switch o armazena temporariamente antes de tomar uma decisão de encaminhamento.
 - **Unicast**: Um switch lê o **end MAC** de destino e encaminha o quadro apenas para a porta específica. Isso cria segmentos, onde cada porta se torna um domínio de colisão individual.
 - **Transparente:** Isso significa que os computadores conectados à rede não "percebem" a presença do switch; Não há necessidade de configuração.
-- **Full-duplex**. [7_Modos de transmissão de dados](../1_Overview/7_Modos%20de%20transmissão%20de%20dados.md)
+- **Full-duplex**. [7_Modos de transmissão de dados](../1_Introdução/7_Modos%20de%20transmissão%20de%20dados.md)
 
 ![400](../../attachments/Pasted%20image%2020250717181203.png)
 

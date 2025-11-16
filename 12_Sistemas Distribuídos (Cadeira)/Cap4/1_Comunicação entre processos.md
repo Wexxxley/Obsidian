@@ -3,7 +3,7 @@
 
 ---
 
-[3_ Socket e portas](../../03_Redes%20de%20computadores%20(Cadeira)/3_Camada%20de%20Transporte/3_%20Socket%20e%20portas.md)
+[3_Socket e portas](../../03_Redes%20de%20computadores%20(Cadeira)/3_Camada%20de%20Transporte/3_Socket%20e%20portas.md)
 ### 1. Socket
 O socket é definido como uma **abstração** que serve como ponto de destino para a comunicação entre processos em um sistema distribuído.
 

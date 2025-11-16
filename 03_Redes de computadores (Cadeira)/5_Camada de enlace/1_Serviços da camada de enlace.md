@@ -28,5 +28,5 @@ Erros são comuns e podem ser causados por diversos fatores, como:
 #### **5. Correção de Erros**  
 - Permite que o receptor **identifique e corrija os bits sem precisar pedir a retransmissão**. Isso é feito com o uso de **algoritmos de correção.** A correção de erros é mais complexa e adiciona mais sobrecarga aos dados. Os algoritmos adicionam **bits de redundância** (informação extra) aos dados originais. 
 ####  **6. Simplex, Half-duplex e Full-duplex**: 
-[7_Modos de transmissão de dados](../1_Overview/7_Modos%20de%20transmissão%20de%20dados.md)
+[7_Modos de transmissão de dados](../1_Introdução/7_Modos%20de%20transmissão%20de%20dados.md)
 
