@@ -47,6 +47,5 @@ Apesar de sua utilidade e de ter salvado o IPv4, a NAT é frequentemente critica
 3. **Violação do Argumento Fim-a-Fim:** Esse princípio afirma que a complexidade de uma rede devem estar nas **extremidades (hosts)**, e a rede em si (roteadores) deve ser o mais simples possível. A NAT **modifica os cabeçalhos dos pacotes** (endereços IP e portas). Isso impede que os hosts finais se comuniquem "diretamente" de ponta a ponta.
     
 4. **NAT e aplicações P2P:** Aplicações como torrents e alguns jogos online dependem de que os "peers" possam se conectar diretamente uns aos outros. Com a NAT, os hosts internos estão "escondidos" atrás do IP público do roteador. Para que essas aplicações funcionem, muitas vezes são necessárias técnicas adicionais
-    - Isso impõe uma carga extra aos desenvolvedores de software, que precisam projetar suas aplicações para lidar com o ambiente NAT.
-
-5. **NAT vs. IPv6:** Com a adoção crescente do IPv6, a necessidade de NAT para conservação de endereços é muito menor, pois o IPv6 oferece um espaço de endereçamento praticamente ilimitado. Em um ambiente puramente IPv6, cada dispositivo pode ter seu próprio endereço IP público globalmente roteável, eliminando a necessidade de NAT para esse fim. No entanto, a NAT ainda pode ser usada para propósitos de segurança ou para traduzir entre IPv4 e IPv6 
+    
+5. **NAT vs. IPv6:** Com a adoção crescente do IPv6, a necessidade de NAT para conservação de endereços é muito menor, pois o IPv6 oferece um espaço de endereçamento praticamente ilimitado. Em um ambiente puramente IPv6, cada dispositivo pode ter seu próprio endereço IP público globalmente roteável. No entanto, a NAT ainda pode ser usada para propósitos de segurança ou para traduzir entre IPv4 e IPv6.

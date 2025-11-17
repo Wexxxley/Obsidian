@@ -1,21 +1,28 @@
 
+#Concluded 
+
 ---
-### **1 DNS (Domain Name System)**
+### **1. DNS (Domain Name System)**
 
-Há duas maneiras de identificar um hospedeiro: por um ==nome de hospedeiro== e por um ==endereço IP.== As pessoas preferem o identificador nome de hospedeiro, ao passo que roteadores preferem endereços IP. Para conciliar essas preferências, é necessário um serviço que traduza nomes de hospedeiro para endereços IP. Esta é a tarefa principal do DNS (domain name system) 
+Há duas maneiras de identificar um hospedeiro: 
+1. Nome de hospedeiro
+2. Endereço IP
+ 
+As pessoas preferem o identificador nome de hospedeiro, ao passo que roteadores preferem endereços IP.<mark style="background: #ADCCFFA6;"> A tarefa principal do DNS é traduzir nomes de hospedeiro para endereços IP. </mark>
 
-O DNS ==é um banco de dados== distribuído executado em uma hierarquia de servidores de DNS, e ==um protocolo de camada de aplicação== que permite que hospedeiros consultem o banco de dados distribuído. O protocolo DNS utiliza UDP. O DNS costuma ser empregado por outras entidades da camada de aplicação — inclusive HTTP, SMTP e FTP.
+O DNS é um **banco de dados** distribuído executado em uma **hierarquia** de servidores de DNS, e um **protocolo de camada de aplicação** que **permite** que hospedeiros consultem o banco de dados distribuído. O protocolo DNS utiliza UDP. 
 
-Exemplo, Para que a máquina do usuário possa enviar uma mensagem HTTP ao servidor: www.someschool.edu, ela precisa primeiro obter o endereço IP. Isso é feito da seguinte maneira: 
+> [!EXAMPLE]
+> Exemplo, Para que a máquina do usuário possa enviar uma mensagem HTTP ao servidor: www.someschool.edu, ela precisa primeiro obter o endereço IP.
+>
+> 1. O usuário digita o nome do site no navegador.
+> 2. O sistema operacional envia uma consulta DNS para um **Servidor DNS** (geralmente fornecido via DHCP pelo seu ISP, ou um público como `8.8.8.8` do Google).
+> 3. O servidor DNS responde à consulta com o endereço IP público correspondente (ex: `172.217.14.228`).
+> 4. Com o IP de destino em mãos, o navegador pode então iniciar a conexão.
 
-1. A própria máquina do usuário executa o lado cliente da aplicação DNS. 
-2. O navegador extrai o nome de hospedeiro, www.someschool.edu, do URL e passa o nome para o lado cliente da aplicação DNS. 
-3. O cliente DNS envia uma consulta contendo o nome do hospedeiro para um servidor DNS. 
-4. O cliente DNS por fim recebe uma resposta, que inclui o endereço IP correspondente ao nome de hospedeiro. 
-5. Tão logo o navegador receba o endereço do DNS, pode abrir uma conexão TCP com o processo servidor HTTP localizado na porta 80 naquele endereço IP.
-  
+
 ---
-### 2. Serviços fornecidos pelo DNS
+### **2. Serviços fornecidos pelo DNS**
 
 1. **Resolução de nomes de domínio:** Tradução de nomes legíveis para endereços IP.  
     Ex: gaia.cs.umass.edu → 200.17.37.2

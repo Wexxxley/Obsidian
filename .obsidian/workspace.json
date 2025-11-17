@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Redes de computadores (Cadeira)/4_Camada de rede/8_NAT.md",
+                "file": "03_Redes de computadores (Cadeira)/2_Camada Aplicação/7_DNS (Domain Name System).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_NAT"
+              "title": "7_DNS (Domain Name System)"
             }
           }
         ]
@@ -183,9 +183,9 @@
   },
   "active": "7f8fd8163df5a521",
   "lastOpenFiles": [
+    "03_Redes de computadores (Cadeira)/4_Camada de rede/8_NAT.md",
     "15_Aleatorios/1_Blocos obsidian.md",
     "15_Aleatorios/Apresentação Entrevista.md",
-    "03_Redes de computadores (Cadeira)/4_Camada de rede/8_NAT.md",
     "08_Git and github ✅/10_Fluxo geral.md",
     "08_Git and github ✅/08_Git merge e revertendo mudanças.md",
     "08_Git and github ✅/06_Git push e pull.md",
