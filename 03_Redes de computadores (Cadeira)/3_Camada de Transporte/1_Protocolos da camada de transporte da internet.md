@@ -2,10 +2,10 @@
 #Concluded 
 
 ---
- Se a camada de rede leva dados de máquina para máquina. ==A camada de transporte leva dados de programa para programa.== É a parte responsável por oferecer comunicação entre processos que estão sendo executados em diferentes dispositivos. 
+ Se a camada de rede leva dados de máquina para máquina. <mark style="background: #ADCCFFA6;">A camada de transporte leva dados de programa para programa</mark>. É a parte responsável por oferecer comunicação entre processos que estão sendo executados em diferentes dispositivos. 
 
 ---
-## **TCP (Transmission control protocol)**
+### **1. TCP (Transmission control protocol)**
 
 - **Transmissão confiável**: garante que todos os pacotes cheguem. Reenvia caso necessário.
 - **Orientado à conexão:** antes de enviar, ele estabelece uma conexão com o outro lado.
@@ -15,7 +15,7 @@
 - ==Ideias para aplicações que não toleram erros, como o download de um arquivo==
 
 ---
-## **UDP (User Datagram Protocol)**
+### **2. UDP (User Datagram Protocol)**
 
 - **Não possui transimissao confiável.** Não garante que os dados cheguem ao destino, nem que cheguem corretamente ou na ordem certa.
 - **Não oferece estabelecimento de conexão**. Os pacotes são enviados sem garantir que o destino esteja pronto para recebê-los.
