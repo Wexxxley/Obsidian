@@ -30,20 +30,16 @@
 
 - **O que faz:** O usuário "B" aceita o pedido de amizade do usuário "A" (requester).
     
-- **Ação de Enfileirar:** O servidor precisa notificar **ambos** os usuários de que a amizade foi aceita.
-    
-- **Quem Recebe a Fila:** `requester_nickname` (usuário "A") **E** `acceptor_nickname` (usuário "B").
-    
+- **Ação de Enfileirar:** O servidor precisa notificar ambos de que a amizade foi aceita.
+
 - **O que é Enfileirado (para "A"):** `{'command': 'FRIEND_REQUEST_ACCEPTED', 'by_nickname': 'B', 'status': ...}`
     
 - **O que é Enfileirado (para "B"):** `{'command': 'FRIEND_REQUEST_ACCEPTED', 'by_nickname': 'A', 'status': ...}`
     
-- **Resultado:** Ambos os clientes, em seu próximo _polling_, receberão este evento e adicionarão um ao outro em suas listas de contatos (e removerão o pedido pendente).
-    
-
+- **Resultado:** Ambos os clientes, em seu próximo _polling_, receberão este evento e adicionarão um ao outro em suas listas de contatos (e removerão o pedido pendente).   
 #### **3. broadcast_status_update(...)**
 
-- **O que faz:** O usuário "A" (`changed_user_nickname`) acabou de logar ou entrar em uma chamada. Seu status (`new_status_str`) mudou.
+- **O que faz:** O usuário "A"  acabou de logar ou entrar em uma chamada. Seu status (`new_status_str`) mudou.
     
 - **Ação de Enfileirar:** O servidor precisa notificar **todos os amigos** de "A" sobre essa mudança.
     
@@ -51,4 +47,4 @@
     
 - **O que é Enfileirado (para "B", "C", "D"...):** `{'command': 'STATUS_UPDATE', 'nickname': 'A', 'status': 'Online'}`
     
-- **Resultado:** Todos os amigos de "A", em seu próximo _polling_, receberão esse evento e atualizarão o indicador de status (a "bolinha" verde/cinza) ao lado do nome de "A" em suas listas de contato.
+- **Resultado:** Todos os amigos de "A", em seu próximo _polling_, receberão esse evento e atualizarão o indicador de status ao lado do nome de "A" em suas listas de contato.
