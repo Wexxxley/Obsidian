@@ -20,7 +20,6 @@ O DNS é um **banco de dados** distribuído executado em uma **hierarquia** de s
 > 3. O servidor DNS responde à consulta com o endereço IP público correspondente (ex: `172.217.14.228`).
 > 4. Com o IP de destino em mãos, o navegador pode então iniciar a conexão.
 
-
 ---
 ### **2. Serviços fornecidos pelo DNS**
 
