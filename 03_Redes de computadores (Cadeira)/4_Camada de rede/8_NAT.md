@@ -12,25 +12,24 @@ A NAT é tipicamente implementada em um roteador que atua como um "gateway" entr
 
 **Exemplo simples:**
 - Sua rede doméstica: `10.0.0/24`
-- O roteador tem o IP privado `10.0.0.4` e um IP público `138.76.29.7` (end que o ISP fornece).
+- O roteador tem o IP privado `10.0.0.4` e um IP público `138.76.29.7` (ISP fornece).
 - Notebook: 10.0.0.1
 - Smartphone: 10.0.0.2
 - Console: 10.0.0.3
 
 - Quando o notebook acessa um site:
-	1. Ele envia um pacote para o IP externo do site.
+	1. Ele envia um pacote para o IP público do site.
 	2. O **roteador intercepta** o pacote e substitui o IP de origem por seu **IP público**.
 	3. Ele **anota o endereço e a porta original** em uma tabela chamada **tabela NAT**.
-	4. Quando o server responde, o pacote chega ao roteador com o endereço nat e a porta nat referente ao processo.
+	4. Quando o server responde, o pacote chega ao roteador com o endereço nat e a porta NAT referente ao processo.
 	5. O roteador NAT **olha na tabela** e sabe que deve enviar a resposta para o notebook.
 
 ![Pasted image 20250526193147](../../attachments/Pasted%20image%2020250526193147.png)
 
-- Quando seu roteador usa NAT, ele atribui uma porta para cada conexão que sai da sua rede. 
-- Por exemplo, o Notebook abre uma conexão usando a porta de origem 50000 e o Celular abre outra conexão usando a porta de origem 50001, o roteador NAT traduz ambas para o mesmo IP público mas usando portas traduzidas distintas.
-- Ex: Notebook para`138.76.29.7:10001` e Celular para `138.76.29.7:10002`.
+<mark style="background: #ADCCFFA6;">Seu roteador com NAT atribui uma porta para cada conexão que sai da sua rede. </mark>
 
-Na teoria, um único IP público com NAT pode suportar até 65.535 conexões _simultâneas de saída_ para **cada protocolo** (TCP ou UDP).  Na prática, o limite é menor devido a recursos do roteador.
+
+Na teoria, um único IP público com NAT pode suportar até 65.535 conexões simultâneas de saída para.  Na prática, o limite é menor devido a recursos do roteador.
 
 ![Pasted image 20250610102909](../../attachments/Pasted%20image%2020250610102909.png)
 
@@ -44,7 +43,7 @@ Na teoria, um único IP público com NAT pode suportar até 65.535 conexões _si
 - **Protocolo:** O protocolo da Camada de transporte que está sendo usado para a conexão.
 
 ---
-### **1.2 NAT é Controverso**
+### **2 NAT é Controverso**
 
 Apesar de sua utilidade e de ter "salvado" o IPv4, a NAT é frequentemente criticada por ir contra princípios fundamentais do design da Internet.
 
