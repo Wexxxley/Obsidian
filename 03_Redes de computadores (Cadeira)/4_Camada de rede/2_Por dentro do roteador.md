@@ -71,4 +71,4 @@ Resultado: a **fila inteira fica bloqueada**, mesmo tendo pacotes que poderiam s
 - Aqui, o pacote IP é **encapsulado novamente** em um **quadro de camada de enlace**.
 ##### 3. **Terminação de linha**
 - A etapa final: **conversão dos dados digitais** para sinais físicos.
-- [5_Perdas e atrasos](../1_Introdução/5_Perdas%20e%20atrasos.md)
+- [4_Perdas e atrasos](../1_Introdução/4_Perdas%20e%20atrasos.md)

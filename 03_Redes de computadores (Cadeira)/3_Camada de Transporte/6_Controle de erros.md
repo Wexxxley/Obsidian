@@ -1,9 +1,10 @@
 
+#Concluded 
 
 ___
-# **1. Protocolos de controle de erro**
+## **1. Protocolos de controle de erro**
 
-## **1.1 Go-Back-N**
+### **1.1 Go-Back-N**
 
  Protocolo onde o transmissor pode enviar até N pacotes consecutivos sem esperar ACKs para cada um. No entanto, se um pacote for perdido, todos os pacotes após ele serão reenviados.
 
@@ -19,7 +20,7 @@ O receptor envia o ACK para o último pacote recebido em ordem.
 - Se o pacote 3 for perdido, mesmo que 4 e 5 cheguem, o receptor os ignora e continua manda ACK 3. isso força o transmissor a reenviar do 3 em diante.
 
 ---
-## **1.2 Retransmissão seletiva**
+### **1.2 Retransmissão seletiva**
 
  Mais eficiente que o Go-Back-N em redes com alta latência ou perda, porque evita o reenvio desnecessário de pacotes já entregues corretamente.
 
@@ -33,9 +34,9 @@ O TCP é híbrido
 - Armazena segmentos recebidos corretamente e fora de ordem e retransmite somente segmentos não recebidos.
 
 ________________________________________________________________________
-# **2. Controle de fluxo e congestionamento**
+## **2. Controle de fluxo e congestionamento**
 
-## **2.1 Controle de fluxo**
+### **2.1 Controle de fluxo**
 
  O receptor tem um buffer de recepção. Nem sempre o receptor consegue processar os dados na mesma velocidade que os recebe. Para evitar que o buffer fique cheio e ocorra perda de dados, o TCP usa o controle de fluxo.  
 
@@ -50,9 +51,9 @@ Componentes da imagem:
  O receptor informa ao emissor, em cada ACK, o valor de RcvWindow. O transmissor só pode enviar dados que caibam Isso previne sobrecarga.
 
 ---
-## **2.2 Controle de congestionamento**
+### **2.2 Controle de congestionamento**
 
-### **2.2.1 Fim-a-Fim (End-to-End)**
+#### **2.2.1 Fim-a-Fim (End-to-End)**
 - Não depende da rede (roteadores) para detectar congestionamento.
 - O emissor TCP infere que há congestionamento observando:
 	- Perda de pacotes (ex: ACKs não chegam ou chegam duplicados).
@@ -60,7 +61,7 @@ Componentes da imagem:
 - Quando detecta perda ou atraso ele reduz o tamanho da janela de envio.
 - Mais reativo do que preventivo (espera o problema aparecer para agir) e pode demorar mais para estabilizar a rede.
 - Abordagem usada pelo TCP.  
-### **2.2.1 Controle de Congestionamento Assistido pela Rede**
+#### **2.2.1 Controle de Congestionamento Assistido pela Rede**
 - A própria rede (roteadores) participa do controle. Os roteadores informam aos emissores se estão sobrecarregados.
 - Roteadores usam um bit para indicar consgestionamento.
 - O host, ao receber essas informações, ajusta sua taxa de envio.
