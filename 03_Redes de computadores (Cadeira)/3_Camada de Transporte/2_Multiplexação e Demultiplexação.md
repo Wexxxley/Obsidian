@@ -1,14 +1,15 @@
-Status: #Concluded 
+
+#Concluded 
 
 ---
-# Multiplexação e Demultiplexação
+### **1. Multiplexação e Demultiplexação**
 
-**Multiplexação** é uma técnica que permite transmitir múltiplos fluxos de dados por um único canal de comunicação, otimizando o uso de recursos. Ela combina vários sinais em um só meio físico ou lógico, permitindo que diferentes comunicações compartilhem a mesma infraestrutura.
+**Multiplexação** é uma técnica que permite transmitir múltiplos fluxos de dados por um único canal de comunicação, otimizando o uso de recursos.
  
 **Multiplexação (no host emissor):**
    - Processo de coletar dados de múltiplos sockets (aplicações)
-   - Envelopar cada um desses dados com cabeçalhos (adicionando informações como portas de origem/destino)
-   - Enviar os pacotes resultantes para a rede através da camada IP
+   - Envelopar cada um desses dados com cabeçalhos (como portas de origem/destino)
+   - Enviar os pacotes resultantes para a rede através do IP
   
 **Demultiplexação (no host receptor):**
    - Processo de receber segmentos da camada IP

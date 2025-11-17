@@ -1,34 +1,30 @@
 
+#Concluded 
 
 ---
-# Segmento tcp
+### **1. Segmento tcp**
 
 ![Pasted image 20250509134237](../../attachments/Pasted%20image%2020250509134237.png)
 
-- O campo de opções, opcional e de comprimento variável, é usado quando um remetente e um destinatário negociam o MSS, ou como um fator de aumento de escala da janela para utilização em redes de alta velocidade. 
-- O campo de **flag** contém 6 bits. O bit **ACK** é usado para indicar se o valor carregado no campo de reconhecimento é válido, isto é, se o segmento contém um reconhecimento para um segmento que foi recebido com sucesso. 
 
 ---
-# **Buffers de envio e de recepção**
+### **2. Buffers de envio e de recepção**
 
 ![Pasted image 20250509133804](../../attachments/Pasted%20image%2020250509133804.png)
 
-#### **Buffer de Envio** 
-- Tem a função de armazenar dados que a aplicação quer enviar, mas que ainda não foram transmitidos (ou não foram confirmados pelo receptor).
-#### **Buffer de Recepção**
-- **Função:** Armazena dados recebidos da rede, mas ainda não lidos pela aplicação. 
-- **Se encher:** O TCP avisa o remetente para **parar de enviar** (controle de fluxo).
-### **Janela Deslizante (Sliding Window) do TCP**
+#### **2.1 Buffer de Envio**
+Tem a função de armazenar dados que a aplicação quer enviar, mas que ainda não foram transmitidos (ou não foram confirmados pelo receptor).
+#### **2.2 Buffer de Recepção**
+Armazena dados recebidos da rede, mas ainda não lidos pela aplicação. 
+**Se encher:** O TCP avisa o remetente para parar de enviar (controle de fluxo).
+### **2.3 Janela Deslizante do TCP**
+É um mecanismo que controla quantos dados podem ser enviados antes de receber uma confirmação (ACK). Usado no controle de fluxo do TCP.
 
-É um mecanismo que controla **quantos dados podem ser enviados antes de receber uma confirmação (ACK)**. Usado no controle de fluxo do TCP.
-
-1. **O receptor controla a janela deslizante**    
-    - Ele diz ao transmissor: _"Tenho espaço para X bytes no buffer"_ (via campo `Window Size` ).
-2. **O transmissor obedece**
-    - Só envia novos dados se couberem na janela atual. Se o buffer estiver cheio, ele espera até o receptor liberar espaço.
+1. **O receptor controla a janela deslizante**: Ele diz ao transmissor: _"Tenho espaço para X bytes no buffer"_ (via campo `Window Size` ).
+2. **O transmissor obedece**: Só envia novos dados se couberem na janela atual. Se o buffer estiver cheio, ele espera até o receptor liberar espaço.
 
 ---
-# Apresentação TCP
+### **3. Apresentação TCP**
 
 **Número de sequência e de reconhecimento**
 O **número de sequência** para um segmento é o número do primeiro byte do segmento. Suponha que um processo no hospedeiro A queira enviar uma cadeia de dados para um processo no hospedeiro B. O TCP do hospedeiro A vai implicitamente numerar cada byte da cadeia de dados. Suponha que a cadeia de dados consista em um arquivo composto de 500 mil bytes, que o MSS(maximun segment size) seja de 1.000 bytes e que seja atribuído o número 0 ao primeiro byte.

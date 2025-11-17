@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12_Sistemas Distribuídos (Cadeira)/Cap5/1_Introdução à Invocação Remota.md",
+                "file": "03_Redes de computadores (Cadeira)/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Introdução à Invocação Remota"
+              "title": "4_Segmento TCP e apresentação TCP"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 498
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -183,13 +183,18 @@
   },
   "active": "7f8fd8163df5a521",
   "lastOpenFiles": [
+    "03_Redes de computadores (Cadeira)/3_Camada de Transporte/3_Socket e portas.md",
+    "03_Redes de computadores (Cadeira)/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
+    "03_Redes de computadores (Cadeira)/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
+    "03_Redes de computadores (Cadeira)/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
+    "03_Redes de computadores (Cadeira)/3_Camada de Transporte/5_Controle de erros.md",
+    "03_Redes de computadores (Cadeira)/4_Camada de rede/2_Por dentro do roteador.md",
+    "03_Redes de computadores (Cadeira)/4_Camada de rede/1_Introdução.md",
+    "12_Sistemas Distribuídos (Cadeira)/Cap5/1_Introdução à Invocação Remota.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap4/2_Representação Externa de Dados.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap4/3_Comunicação por multicast.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap4/1_Comunicação entre processos.md",
     "15_Aleatorios/Apresentação SD 2.md",
-    "03_Redes de computadores (Cadeira)/3_Camada de Transporte/3_Socket e portas.md",
-    "03_Redes de computadores (Cadeira)/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
-    "03_Redes de computadores (Cadeira)/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/5_FTP Protocolo de tranferência de arquivo.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/4_Proxy.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/8_Proxy reverso.md",
@@ -204,11 +209,6 @@
     "05_Banco de dados/1_Relacional/4_Subconsultas.md",
     "05_Banco de dados/1_Relacional/5_Alter Table.md",
     "05_Banco de dados/1_Relacional/3_Funções de agregação.md",
-    "05_Banco de dados/1_Relacional/1_Introdução.md",
-    "05_Banco de dados/1_Relacional/2_Consultas e Atualizações.md",
-    "03_Redes de computadores (Cadeira)/4_Camada de rede/5_Endereçamento IP.md",
-    "03_Redes de computadores (Cadeira)/1_Introdução/6_Arquitetura TCP IP.md",
-    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
     "attachments/Pasted image 20251116182346.png",
     "01_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a",
     "attachments/Pasted image 20251113194608.png",
