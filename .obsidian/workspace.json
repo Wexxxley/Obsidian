@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Redes de computadores (Cadeira)/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
+                "file": "03_Redes de computadores (Cadeira)/3_Camada de Transporte/3_Socket e portas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Multiplexação e Demultiplexação"
+              "title": "3_Socket e portas"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "7f8fd8163df5a521",
   "lastOpenFiles": [
+    "03_Redes de computadores (Cadeira)/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
     "03_Redes de computadores (Cadeira)/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/5_FTP Protocolo de tranferência de arquivo.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/4_Proxy.md",
@@ -209,7 +210,6 @@
     "attachments/Pasted image 20251116182346.png",
     "03_Redes de computadores (Cadeira)/4_Camada de rede/4_Interface e mascara de sub-rede.md",
     "03_Redes de computadores (Cadeira)/4_Camada de rede/5_Fragmentação.md",
-    "03_Redes de computadores (Cadeira)/1_Introdução/4_Classificação das redes de telecomunicação.md",
     "01_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a",
     "attachments/Pasted image 20251113194608.png",
     "attachments/Pasted image 20251113194421.png",

@@ -2,16 +2,15 @@
 #Concluded 
 
 ---
-# Socket e porta
-
-Sockets são uma interface de programação de aplicativos ==API que permite a comunicação entre processos em diferentes computadores através de uma rede==. Eles são usados para enviar e receber dados entre processos e permitem que os desenvolvedores criem programas que possam se comunicar por meio de uma rede de computadores.
+### **1. Socket e porta**
 
 **Porta**: Número (0 - 65.535) que serve para identificar qual processo está usando uma conexão dentro de um computador.
 - O endereço IP leva até o computador.
 - A porta diz qual o programa em execução que vai enviar ou receber algo.
 
-**Exemplo**: Digamos que você está acessando um site. A conexão é feita assim:
+**Socket**: Combinação de um Endereço IP e um Número de Porta(`172.217.14.228:443`). As portas permitem que o TCP ou UDP (Transporte) entregue os dados ao aplicativo correto, enquanto o IP (Rede) os entrega ao computador correto.
 
+**Exemplo**: Digamos que você está acessando um site. A conexão é feita assim:
 1. Seu navegador cria um socket local com:
 	- IP da sua máquina e Porta aleatória local.
 2. E se conecta a um socket remoto com:
@@ -19,28 +18,13 @@ Sockets são uma interface de programação de aplicativos ==API que permite a c
 3. Esse par ==(local IP, local porta, remoto IP, remoto porta)== identifica  a conexão.
 
 ---
-# Programação com sockets
+### **2. Programação com sockets**
 
-### **Socket UDP (Sem Conexão)**: 
-Um socket UDP é identificado por dois valores:
-- IP de destino e Porta de destino.  
-![Pasted image 20250509132053](../../attachments/Pasted%20image%2020250509132053.png)
+#### **Socket UDP (Sem Conexão)**: 
+Um socket UDP é identificado por dois valores: IP de destino e Porta de destino.  
+![500](../../attachments/Pasted%20image%2020250509132053.png)
 
-### **Socket TCP (com  Conexão):** 
-Um socket TCP é identificado por quatro valores:
-- IP de origem, Porta de origem, IP de destino e Porta de destino.  
+#### **Socket TCP (com  Conexão):** 
+Um socket TCP é identificado por quatro valores: IP de origem, Porta de origem, IP de destino e Porta de destino.  
 
-![Pasted image 20250509132033](../../attachments/Pasted%20image%2020250509132033.png)
-
-As principais funções necessárias para o uso de sockets incluem: 
-
-1. **socket():** cria um novo socket e retorna seu descritor de arquivo. (GERAL)
-2. **bind():** associa o socket a um endereço IP e porta local. (GERAL)
-3. **listen():** coloca o socket em modo de escuta e aguarda por **conexões**. (usado no TCP)
-4. **accept():** aceita uma **conexão** e cria um novo socket para comunicação. (usado no TCP)
-5. **connect():** inicia uma **conexão** de saída com um servidor. (usado no TCP) 
-6. **close():** fecha o socket e libera todos os recursos associados a ele. (GERAL)
-7. **sendto():** Envia um datagrama especificando o endereço. (usado no UDP)
-8. **recvfrom**(): Recebe um datagrama e guarda o endereço do emisssor (usado no UDP)
-9. **write():** Escreve dados em uma **conexão** (usado no TCP)
-10. **read()**: Lê dados de uma **conexão** (usado no TCP)
+![500](../../attachments/Pasted%20image%2020250509132033.png)
