@@ -30,8 +30,44 @@ ___________________________________________________________________________
 
 Na subida (no receptor), os cabeçalhos são removidos um por um, no processo inverso: **desencapsulamento**.
 
-1. **Camada de Aplicação:** Mensagem M. Não adiciona cabeçalho específico no modelo, mas o protocolo da aplicação (ex: HTTP, SMTP) define um formato.
-2. **Camada de Transporte**: Ht: Número de porta de origem e destino, número de sequência e etc.
-3. **Camada de Rede:** Hn: Endereço IP de origem e destino, Tempo de vida (TTL).
-4. **Camada de Enlace:** Hl: Endereço físico (MAC) de origem e destino. Tipo do protocolo da camada superior (ex: IP), Detecção de erro (CRC)
-5. **Camada Física:** Não há cabeçalho real, os dados são apenas convertidos em sinais elétricos, ópticos ou de rádio.
+1. **Camada de Aplicação:**
+    - **Protocolos:** HTTP, HTTPS, SMTP, FTP, DNS.
+    - A Mensagem original (M).
+        
+2. **Camada de Transporte:**
+    - **Protocolos:** TCP ou UDP.
+    - **Encapsulamento:** A Camada de Transporte pega a Mensagem (M) e adiciona o cabeçalho de transporte (Ht). A unidade resultante é chamada de **Segmento** (se TCP) ou **Datagrama** (se UDP).
+        
+    - **Cabeçalho (Ht):** Número da porta de origem e destino, número de sequência (para TCP), etc.
+        
+    - **Resultado:** `[ Ht | M ]`
+        
+- **Camada de Rede:**
+    
+    - **Protocolos:** **IP** (Internet Protocol - IPv4 ou IPv6), ICMP.
+        
+    - **Encapsulamento:** A Camada de Rede pega o Segmento/Datagrama e adiciona o cabeçalho de rede (Hn). A unidade resultante é chamada de **Pacote** (Packet).
+        
+    - **Cabeçalho (Hn):** Endereço IP de origem e destino, Tempo de Vida (TTL).
+        
+    - **Resultado:** `[ Hn | Ht | M ]`
+        
+- **Camada de Enlace:**
+    
+    - **Protocolos:** **Ethernet** (para cabos), **Wi-Fi** (IEEE 802.11 - para redes sem fio).
+        
+    - **Encapsulamento:** A Camada de Enlace pega o Pacote e adiciona o cabeçalho de enlace (Hl) e, geralmente, um trailer/rodapé (T2) para verificação de erros. A unidade resultante é chamada de **Quadro** (Frame).
+        
+    - **Cabeçalho (Hl):** Endereço físico (MAC) de origem e destino.
+        
+    - **Trailer (T2):** Detecção de erro (CRC).
+        
+    - **Resultado:** `[ Hl | Hn | Ht | M | T2 ]`
+        
+- **Camada Física:**
+    
+    - **Protocolos:** (Não há protocolos de software aqui, apenas padrões de hardware/sinalização, como 100BASE-TX, 802.11g).
+        
+    - **Encapsulamento:** Não há cabeçalho. O Quadro é convertido em uma sequência de **Bits** (0s e 1s) para transmissão.
+        
+    - **Resultado:** Os bits são enviados como sinais elétricos (cabo Ethernet), ondas de rádio (Wi-Fi) ou pulsos de luz (Fibra Óptica).
