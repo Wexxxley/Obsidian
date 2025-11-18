@@ -1,5 +1,5 @@
 
-
+#Concluded 
 
 ---
 ### **1. Interface**
@@ -70,39 +70,19 @@ O autor Kammersgaard identificou quatro perspectivas de interação usuário
 #### **A. Affordance Real (Mundo Físico)**
 São características físicas e óbvias. Existem independentemente da interpretação cultural.
 
-- **Exemplos:**
-    - Um copo tem um buraco em cima: Affordance de "colocar líquido".
-    - Uma pedra pesada no chão: Affordance de "segurar peso" ou "calçar a porta".
-        
+- **Exemplo:** Um copo tem um buraco em cima: Affordance de "colocar líquido".
 
 #### **B. Affordance Percebida (Mundo Digital/Interfaces)**
 
-Nas telas (celular, monitor), tudo é plano e feito de pixels. Você não consegue "apertar" fisicamente um botão na tela; você toca num vidro liso. Por isso, dependemos de **convenções aprendidas** que _imitam_ o mundo real.
+Nas telas tudo é plano e feito de pixels. Você não consegue "apertar" fisicamente um botão na tela; você toca num vidro liso. Por isso, dependemos de convenções aprendidas que "imitam" o mundo real.
 
-- **Exemplos:**
-    
-    - **Botões com sombra (3D):** Um retângulo na tela com uma sombra embaixo cria a ilusão de relevo. Isso é uma _affordance percebida_ que diz "eu sou clicável".
-        
-    - **Texto Azul Sublinhado:** Aprendemos (convenção) que isso significa "Hyperlink". Se o texto for apenas azul sem sublinhado, alguns usuários podem não perceber a affordance de clique.
-        
-    - **Ícone de "X" no canto:** Aprendemos que isso serve para fechar, mesmo que não exista um botão físico ali.
-        
+- **Exemplos:** Botões 3D, Texto Azul Sublinhado (Hyperlink), Ícone de "X" no canto.        
 
----
+#### **C. Falsas Affordances**
 
-### 3. Falsas Affordances (O Pesadelo do Usuário)
-
-Acontece quando o objeto "diz" que faz uma coisa, mas faz outra (ou nada). Isso frustra o usuário e gera erros.
+Acontece quando o objeto "diz" que faz uma coisa, mas faz outra.
 
 **Exemplos:**
 
-1. **A Porta de Norman (Físico):** Sabe aquela porta de loja que tem um puxador gigante (que convida a puxar), mas você precisa **empurrar** para abrir? O design te enganou. Isso é uma falsa affordance clássica (mostrada no slide 30).
-    
-2. **O Texto "Morto" (Digital):** Você vê um texto em negrito e colorido num site, clica nele achando que é um link, mas nada acontece. O design sugeriu interatividade onde não havia.
-    
-3. **Painel de Elevador Confuso (Slide 34):** O slide mostra um painel onde os números dos andares (1, 2, 3...) não estão alinhados logicamente com os botões ao lado. Você aperta o botão achando que é do 4º andar, mas ele acende o 5º. A disposição visual te enganou .
-    
-
----
-
-**Para encerrar, o conceito de Affordance serve para garantir que o usuário olhe para a tela e saiba intuitivamente onde clicar, sem precisar testar tudo. Se quiser que eu faça um resumo final ou exercícios de fixação sobre esses temas, é só pedir!**
+1. **A Porta de Norman :** Porta com puxador (que convida a puxar), mas você precisa empurrar para abrir. 
+2. **O Texto "Morto":** Você vê um texto colorido num site, clica nele achando que é um link, mas nada acontece. 
