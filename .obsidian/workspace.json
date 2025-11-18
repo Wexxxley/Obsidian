@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Redes de computadores (Cadeira)/2_Camada Aplicação/3_.md",
+                "file": "03_Redes de computadores (Cadeira)/2_Camada Aplicação/3_Web server vs. Application server.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_"
+              "title": "3_Web server vs. Application server"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_Redes de computadores (Cadeira)/2_Camada Aplicação/3_.md",
+                "file": "03_Redes de computadores (Cadeira)/2_Camada Aplicação/3_Web server vs. Application server.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_"
+              "title": "Outline of 3_Web server vs. Application server"
             }
           },
           {
@@ -183,7 +183,7 @@
   "active": "ce5f3fb0cdf0f8a4",
   "lastOpenFiles": [
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/2_Requisitos de aplicações.md",
-    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/3_.md",
+    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/3_Web server vs. Application server.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/3_Http e cookies.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/4_Proxy.md",
