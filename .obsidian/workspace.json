@@ -11,14 +11,12 @@
             "id": "7f8fd8163df5a521",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "03_Redes de computadores (Cadeira)/4_Camada de rede/8_NAT.md",
-                "mode": "source",
-                "source": false
+                "file": "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf"
               },
-              "icon": "lucide-file",
-              "title": "8_NAT"
+              "icon": "lucide-file-text",
+              "title": "1_Fundamentos CSHARP"
             }
           }
         ]
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_Redes de computadores (Cadeira)/4_Camada de rede/8_NAT.md",
+                "file": "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 8_NAT"
+              "title": "Outline of 1_Fundamentos CSHARP"
             }
           },
           {
@@ -182,6 +180,7 @@
   },
   "active": "7f8fd8163df5a521",
   "lastOpenFiles": [
+    "03_Redes de computadores (Cadeira)/4_Camada de rede/8_NAT.md",
     "03_Redes de computadores (Cadeira)/1_Introdução/7_Tipos de comunicação em redes de computadores.md",
     "03_Redes de computadores (Cadeira)/1_Introdução/6_Modos de transmissão de dados.md",
     "03_Redes de computadores (Cadeira)/1_Introdução/5_Arquitetura TCP IP.md",
@@ -207,7 +206,6 @@
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/4_Proxy.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/8_Proxy reverso.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/7_DNS (Domain Name System).md",
-    "03_Redes de computadores (Cadeira)/4_Camada de rede/8_NAT.md",
     "attachments/Pasted image 20251116182346.png",
     "01_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a",
     "attachments/Pasted image 20251113194608.png",
