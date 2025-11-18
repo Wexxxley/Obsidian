@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Redes de computadores (Cadeira)/2_Camada Aplicação/9_URL.md",
+                "file": "03_Redes de computadores (Cadeira)/2_Camada Aplicação/3_.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9_URL"
+              "title": "3_"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_Redes de computadores (Cadeira)/2_Camada Aplicação/9_URL.md",
+                "file": "03_Redes de computadores (Cadeira)/2_Camada Aplicação/3_.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 9_URL"
+              "title": "Outline of 3_"
             }
           },
           {
@@ -182,11 +182,15 @@
   },
   "active": "ce5f3fb0cdf0f8a4",
   "lastOpenFiles": [
-    "attachments/Pasted image 20251118164306.png",
-    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/7_DNS (Domain Name System).md",
-    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/9_URL.md",
-    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/4_Proxy.md",
+    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/2_Requisitos de aplicações.md",
+    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/3_.md",
+    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/3_Http e cookies.md",
+    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/4_Proxy.md",
+    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/5_FTP.md",
+    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/7_DNS.md",
+    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/9_URL.md",
+    "attachments/Pasted image 20251118164306.png",
     "15_IHC (Cadeira)/2_Processos de design de IHC.md",
     "attachments/Pasted image 20251118145537.png",
     "attachments/Pasted image 20251118145153.png",
@@ -216,12 +220,8 @@
     "03_Redes de computadores (Cadeira)/1_Introdução/4_Perdas e atrasos.md",
     "03_Redes de computadores (Cadeira)/4_Camada de rede/1_Introdução.md",
     "03_Redes de computadores (Cadeira)/1_Introdução/4_Classificação das redes de telecomunicação.md",
-    "03_Redes de computadores (Cadeira)/3_Camada de Transporte/6_Controle de erros.md",
-    "03_Redes de computadores (Cadeira)/3_Camada de Transporte/5_Apresentação TCP.md",
-    "03_Redes de computadores (Cadeira)/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
     "attachments/Pasted image 20251116182346.png",
     "01_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a",
-    "attachments/Pasted image 20251113194608.png",
     "temp",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
