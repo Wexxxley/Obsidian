@@ -30,7 +30,7 @@ Design é um processo de resolução de problemas composto por três atividades 
 - **O que avaliar:** Se for software, avaliamos usabilidade e acessibilidade.
 - **Exemplo:** Após lançar o app, os pedidos errados diminuíram? Os clientes idosos conseguem usar o app ou acharam difícil?
 
-Design é iterativo. Isso significa que você nunca acerta de primeira. É um ciclo contínuo de refinamento.
+Design é **iterativo**. É um ciclo contínuo de refinamento.
 
 **Design dirigido pelo problema** 
 + + tempo → analisando a situação, as necessidades e as oportunidades de melhoria.
@@ -61,7 +61,10 @@ Este modelo enfatiza a importância do design centrado no usuário, da avaliaç�
 - A atividade de **Avaliação** está no centro e conecta todas as outras atividades.
 - Após concluir qualquer atividade, o designer deve passar por uma avaliação antes de iniciar a próxima.
 
-- **Análise** é dividida em Análise de tarefas/usuário e Especificação de requisitos.
+- **Análise** é dividida em:
+	- Análise de tarefas, usuário e funções. Responsável pelo aprendizado da situação atual e pelo levantamento das necessidades e oportunidades de melhoria.
+	- A especificação de requisitos. Consolida uma interpretação da análise, definindo os problemas que devem ser resolvidos.
+
 - **Síntese** é dividida em Projeto Conceitual, Prototipação e Implementação.
-        
+
 	![500](../attachments/Pasted%20image%2020251118145537.png)
