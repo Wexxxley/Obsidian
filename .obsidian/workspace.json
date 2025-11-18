@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15_IHC (Cadeira)/2_Processos de design de IHC.md",
+                "file": "03_Redes de computadores (Cadeira)/2_Camada Aplicação/9_URL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Processos de design de IHC"
+              "title": "9_URL"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "15_IHC (Cadeira)/2_Processos de design de IHC.md",
+                "file": "03_Redes de computadores (Cadeira)/2_Camada Aplicação/9_URL.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_Processos de design de IHC"
+              "title": "Outline of 9_URL"
             }
           },
           {
@@ -182,12 +182,17 @@
   },
   "active": "ce5f3fb0cdf0f8a4",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251118164306.png",
+    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/7_DNS (Domain Name System).md",
+    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/9_URL.md",
+    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/4_Proxy.md",
+    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/3_Http e cookies.md",
+    "15_IHC (Cadeira)/2_Processos de design de IHC.md",
     "attachments/Pasted image 20251118145537.png",
     "attachments/Pasted image 20251118145153.png",
     "attachments/Pasted image 20251118145045.png",
     "attachments/Pasted image 20251118144636.png",
     "15_IHC (Cadeira)/1_Conceitos basicos.md",
-    "15_IHC (Cadeira)/2_Processos de design de IHC.md",
     "attachments/Pasted image 20251118140512.png",
     "attachments/Pasted image 20251118135736.png",
     "attachments/Pasted image 20251118135727.png",
@@ -214,14 +219,9 @@
     "03_Redes de computadores (Cadeira)/3_Camada de Transporte/6_Controle de erros.md",
     "03_Redes de computadores (Cadeira)/3_Camada de Transporte/5_Apresentação TCP.md",
     "03_Redes de computadores (Cadeira)/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
-    "03_Redes de computadores (Cadeira)/3_Camada de Transporte/3_Socket e portas.md",
-    "03_Redes de computadores (Cadeira)/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
-    "03_Redes de computadores (Cadeira)/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
-    "03_Redes de computadores (Cadeira)/4_Camada de rede/2_Por dentro do roteador.md",
     "attachments/Pasted image 20251116182346.png",
     "01_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a",
     "attachments/Pasted image 20251113194608.png",
-    "attachments/Pasted image 20251113194421.png",
     "temp",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
