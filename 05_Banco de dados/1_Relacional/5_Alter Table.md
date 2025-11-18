@@ -11,7 +11,7 @@
 
 3. Alter column: Altera o tipo da coluna
 	![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeCUpy4M79o0d3OG8TAl2KNXBChCpRxpw_LqKjMVbCp6wiOK_9nKEt8qA-FvGzoCJyZdTG1_a7oHZfiXexIQ7yyo2L3vuZC5F1sIKD67bDsy1sbk1oqAgrdDkVrIkZ36H26dEkR0jAIwngj3ygmuGXAZcoS?key=jqcuw0c7mMfsTTEWWceZSw)
-	![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcP7P-E1Tq8JYl8L-J-2w9JyH791h-Ej34FNAHblgS82MdGxfUo0f5-GGsqXQdwqhznUXQf7w-MUatFJBxWBeNOcg73VcuGpiNK_pYBqHkuYVtf-ZONXQdZgs0eXxVbfZhu7Rp0mLJTz8rmZfely13Mf7Km?key=jqcuw0c7mMfsTTEWWceZSw)4. 
+	![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcP7P-E1Tq8JYl8L-J-2w9JyH791h-Ej34FNAHblgS82MdGxfUo0f5-GGsqXQdwqhznUXQf7w-MUatFJBxWBeNOcg73VcuGpiNK_pYBqHkuYVtf-ZONXQdZgs0eXxVbfZhu7Rp0mLJTz8rmZfely13Mf7Km?key=jqcuw0c7mMfsTTEWWceZSw)
 
 4. Rename column: Renomeia uma coluna da tabela.
 	![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXekV7Bl3DHdwOxXJQUSUexl4ipjCmQ2rlHYZqOPIOdTLgNOOzJoW2C5fyOvcJviFr9wI0caGDMp38fsDaJnNXIsFEIXx5XEsF255M4tjDuA-hxOeihcBzwaQO6M6EtgeKHFLW8zFrITyfSWha9aELZ1VUk?key=jqcuw0c7mMfsTTEWWceZSw)
