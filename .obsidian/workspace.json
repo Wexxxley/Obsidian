@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Banco de dados/1_Relacional/7_ACID.md",
+                "file": "03_Redes de computadores (Cadeira)/1_Introdução/2_Comutadores.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_ACID"
+              "title": "2_Comutadores"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05_Banco de dados/1_Relacional/7_ACID.md",
+                "file": "03_Redes de computadores (Cadeira)/1_Introdução/2_Comutadores.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 7_ACID"
+              "title": "Outline of 2_Comutadores"
             }
           },
           {
@@ -180,8 +180,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c52f17c64e87cbf",
+  "active": "7f8fd8163df5a521",
   "lastOpenFiles": [
+    "03_Redes de computadores (Cadeira)/1_Introdução/1_Introdução.md",
+    "03_Redes de computadores (Cadeira)/1_Introdução/2_Estrutura da rede.md",
+    "05_Banco de dados/1_Relacional/7_ACID.md",
     "attachments/Pasted image 20251118065153.png",
     "05_Banco de dados/1_Relacional/6_Join.md",
     "05_Banco de dados/1_Relacional/5_Alter Table.md",
@@ -196,10 +199,8 @@
     "03_Redes de computadores (Cadeira)/1_Introdução/5_Arquitetura TCP IP.md",
     "03_Redes de computadores (Cadeira)/1_Introdução/4_Perdas e atrasos.md",
     "03_Redes de computadores (Cadeira)/4_Camada de rede/1_Introdução.md",
-    "03_Redes de computadores (Cadeira)/1_Introdução/3_Comutadores.md",
-    "03_Redes de computadores (Cadeira)/1_Introdução/2_Estrutura da rede.md",
+    "03_Redes de computadores (Cadeira)/1_Introdução/2_Comutadores.md",
     "03_Redes de computadores (Cadeira)/1_Introdução/4_Classificação das redes de telecomunicação.md",
-    "03_Redes de computadores (Cadeira)/1_Introdução/1_Introdução.md",
     "03_Redes de computadores (Cadeira)/3_Camada de Transporte/6_Controle de erros.md",
     "03_Redes de computadores (Cadeira)/3_Camada de Transporte/5_Apresentação TCP.md",
     "03_Redes de computadores (Cadeira)/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
@@ -220,7 +221,6 @@
     "attachments/Pasted image 20251113193240.png",
     "attachments/Pasted image 20251111161906.png",
     "attachments/Pasted image 20251111154931.png",
-    "attachments/Pasted image 20251111153203.png",
     "temp",
     "10_TeoriaComputação/2_MáquinaTuring.pdf",
     "10_TeoriaComputação/1_AutômatosBásico.pdf",

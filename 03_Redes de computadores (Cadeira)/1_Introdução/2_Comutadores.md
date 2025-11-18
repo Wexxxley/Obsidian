@@ -4,9 +4,9 @@
 ---
 ### **1. Comutadores**
 
-**Sistemas finais** são conectados entre si por **enlaces de comunicação** e **comutadores de pacotes.** Quando um sistema final possui dados para enviar a outro, o sistema emissor segmenta esses dados e adiciona bytes de cabeçalho a cada segmento. Os pacotes resultantes, conhecidos como pacotes/datagrama são enviados ao sistema final de destino, onde são remontados para os dados originais. 
+Sistemas finais são conectados entre si por **enlaces de comunicação** e **comutadores de pacotes.** 
 
-Um <mark style="background: #ADCCFFA6;">comutador de pacotes é um dispositivo responsável por encaminhar pacotes de dados em uma rede</mark>. Ele recebe um pacote e decide para qual enlace de saída ele deve enviá-lo, com base nas informações do pacote e nas regras da rede. Existem dois principais tipos de comutadores:
+Um <mark style="background: #ADCCFFA6;">comutador de pacotes é um dispositivo responsável por encaminhar pacotes de dados em uma rede</mark>. Ele recebe um pacote e decide para qual enlace de saída ele deve enviá-lo. Existem dois principais tipos de comutadores:
 
 1. **Roteadores:** Faz o encaminhamento de pacotes entre redes de computadores distintas, baseados em endereços IP.     
 	![300](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcvHvHRxM-n17unge1tgm-6hfOQWwMIkzkllRcbUnykpkdeRaDCLmgzeyvRPl6psinEjBad8GRM3naY6IFqUcvNMRTPShVov_Hzzx96M8eLey9ubNpa7oKOxv7mbRCYxLPJnykahg?key=HrOhHC0_-ked6RNCpQ0o3PZn)
