@@ -45,46 +45,23 @@ Design é iterativo. Isso significa que você nunca acerta de primeira. É um ci
 
 #### **A. Processo de Design de Lawson**
 
-- **Filosofia:** Cabe ao designer decidir qual atividade iniciar primeiro e as transições que fará8 A única exigência é a lógica: começar com um **problema** e terminar com uma **solução**9.
-    
-- **Estrutura:** É representado como um **triângulo** (Análise, Síntese, Avaliação), onde as setas indicam que o fluxo é livre entre qualquer atividade 10.
-    
-![550](../attachments/Pasted%20image%2020251118145045.png)
+- **Filosofia:** Cabe ao designer decidir qual atividade iniciar primeiro e as transições que fará8 A única exigência é a lógica: começar com um **problema** e terminar com uma **solução**.
+	![550](../attachments/Pasted%20image%2020251118145045.png)
 
 #### **B. Modelo Simples (Preece, Sharp e Rogers)**
 
-Este modelo enfatiza a importância do **design centrado no usuário**, da avaliação e da iteração.
+Este modelo enfatiza a importância do design centrado no usuário, da avaliação e da iteração.
 
-- **Fases:** O ciclo de design é claro, mas permite retornos constantes (iteração)11111111:
-    
-    1. Identificar necessidades e definir requisitos12.
-        
-    2. [cite_start](https://www.google.com/search?q=Re) Design13.
-        
-    3. Construir uma versão interativa14.
-        
-    4. Avaliar (que leva ao Produto Final ou de volta para a identificação de necessidades)15151515.
-        
-- **Diferencial:** Segmenta a atividade de Síntese em duas partes: design (o projeto em si) e a construção da versão interativa (o protótipo)16.
-    
+- Segmenta a atividade de síntese em duas: design/redesign e construção de uma versão interativa (protótipo)
 
+- Cada atividade pode revelar a necessidade de retornar a uma atividade anterior para ampliar, refinar ou retificar algum entendimento ou artefato produzido
+	![550](../attachments/Pasted%20image%2020251118145153.png)
 #### **C. Ciclo de Vida em Estrela (Star Lifecycle)**
 
-Um dos primeiros modelos voltados especificamente para IHC17, sua característica mais marcante é a **centralidade da Avaliação**.
+- A atividade de **Avaliação** está no centro e conecta todas as outras atividades.
+- Após concluir qualquer atividade, o designer deve passar por uma avaliação antes de iniciar a próxima.
 
-- **Centralidade da Avaliação:** A atividade de **Avaliação** está no centro e conecta todas as outras atividades18181818.
-    
-- **https://www.google.com/search?q=Regra:** Após concluir qualquer atividade (Análise de Tarefas, Prototipação ou Implementação), o designer **deve** passar por uma avaliação antes de iniciar a próxima19.
-    
-- **Estrutura:**
-    
-    - **Análise** é dividida em Análise de tarefas/usuário e Especificação de https://www.google.com/search?q=Requisitos20.
+- **Análise** é dividida em Análise de tarefas/usuário e Especificação de requisitos.
+- **Síntese** é dividida em Projeto Conceitual, Prototipação e Implementação.
         
-    - **Síntese** é dividida em Projeto Conceitual, Prototipação e Implementação21.
-        
-
----
-
-O material prossegue comparando esses modelos (e outros como o AURORA e Double Diamond) em tabelas.
-
-**Você gostaria de focar em algum desses modelos em específico (Estrela, por exemplo) ou podemos encerrar a explicação da Aula 03 por aqui?**
+	![500](../attachments/Pasted%20image%2020251118145537.png)
