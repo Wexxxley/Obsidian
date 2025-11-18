@@ -118,3 +118,5 @@ No T3, o que o Relatório deve ler?
 6. **O SERVIDOR CAI!**
 
 Quando o servidor religar, antes de qualquer coisa, ele vai ler o **Transaction Log**. Ele verá: "Opa, a transação para `ContaID=1, Saldo=900` foi _comitada_, mas o servidor caiu antes que eu pudesse salvar no arquivo principal". O banco então usa esse log para refazer a operação e garantir que o saldo de Alice seja 900, como prometido. 
+
+
