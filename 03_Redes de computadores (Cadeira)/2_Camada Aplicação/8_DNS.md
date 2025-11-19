@@ -5,19 +5,19 @@
 ### **1. DNS (Domain Name System)**
 
 Há duas maneiras de identificar um hospedeiro: 
-1. Nome de hospedeiro
-2. Endereço IP
+1. **Nome de hospedeiro**
+2. **Endereço IP**
  
-As pessoas preferem o identificador nome de hospedeiro, ao passo que roteadores preferem endereços IP.<mark style="background: #ADCCFFA6;"> A tarefa principal do DNS é traduzir nomes de hospedeiro para endereços IP. </mark>
+As pessoas preferem o identificador nome de hospedeiro e os roteadores preferem endereços IP.<mark style="background: #ADCCFFA6;"> A tarefa principal do DNS é traduzir nomes de hospedeiro para endereços IP. </mark>
 
-O DNS é um **banco de dados** distribuído executado em uma **hierarquia** de servidores de DNS, e um **protocolo de camada de aplicação** que **permite** que hospedeiros consultem o banco de dados distribuído. O protocolo DNS utiliza UDP. 
+O DNS é um **banco de dados** distribuído executado em uma **hierarquia** de servidores de DNS, e um **protocolo de camada de aplicação** que permite que hospedeiros consultem o banco de dados distribuído. O protocolo DNS utiliza UDP. 
 
 > [!EXAMPLE]
 > Exemplo, Para que a máquina do usuário possa enviar uma mensagem HTTP ao servidor: www.someschool.edu, ela precisa primeiro obter o endereço IP.
 >
 > 1. O usuário digita o nome do site no navegador.
-> 2. O sistema operacional envia uma consulta DNS para um **Servidor DNS** (geralmente fornecido via DHCP pelo seu ISP, ou um público como `8.8.8.8` do Google).
-> 3. O servidor DNS responde à consulta com o endereço IP público correspondente (ex: `172.217.14.228`).
+> 2. O SO envia uma consulta DNS para um **Servidor DNS** (geralmente fornecido via DHCP pelo seu ISP, ou um público como `8.8.8.8` do Google).
+> 3. O servidor DNS responde à consulta com o endereço IP público correspondente.
 > 4. Com o IP de destino em mãos, o navegador pode então iniciar a conexão.
 
 ---
