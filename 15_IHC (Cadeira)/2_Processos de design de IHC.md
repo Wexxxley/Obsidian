@@ -3,6 +3,8 @@
 
 
 ---
+Design é a atividade intencional de planejar e criar algo para resolver um problema existente ou atender a uma necessidade específica, respeitando um conjunto de restrições.
+
 ### **1. A Tríade do Design**
 
 Design é um processo de resolução de problemas composto por três atividades básicas que se repetem:

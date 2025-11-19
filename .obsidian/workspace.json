@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Redes de computadores (Cadeira)/2_Camada Aplicação/3_Web server vs. Application server.md",
+                "file": "15_IHC (Cadeira)/3_Design participativo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Web server vs. Application server"
+              "title": "3_Design participativo"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_Redes de computadores (Cadeira)/2_Camada Aplicação/3_Web server vs. Application server.md",
+                "file": "15_IHC (Cadeira)/3_Design participativo.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_Web server vs. Application server"
+              "title": "Outline of 3_Design participativo"
             }
           },
           {
@@ -182,8 +182,12 @@
   },
   "active": "ce5f3fb0cdf0f8a4",
   "lastOpenFiles": [
-    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/2_Requisitos de aplicações.md",
+    "15_IHC (Cadeira)/2_Processos de design de IHC.md",
+    "15_IHC (Cadeira)/3_Design participativo.md",
+    "15_IHC (Cadeira)/Untitled",
+    "15_IHC (Cadeira)/1_Conceitos basicos.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/3_Web server vs. Application server.md",
+    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/2_Requisitos de aplicações.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/3_Http e cookies.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/4_Proxy.md",
@@ -191,12 +195,10 @@
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/7_DNS.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/9_URL.md",
     "attachments/Pasted image 20251118164306.png",
-    "15_IHC (Cadeira)/2_Processos de design de IHC.md",
     "attachments/Pasted image 20251118145537.png",
     "attachments/Pasted image 20251118145153.png",
     "attachments/Pasted image 20251118145045.png",
     "attachments/Pasted image 20251118144636.png",
-    "15_IHC (Cadeira)/1_Conceitos basicos.md",
     "attachments/Pasted image 20251118140512.png",
     "attachments/Pasted image 20251118135736.png",
     "attachments/Pasted image 20251118135727.png",
@@ -219,7 +221,6 @@
     "03_Redes de computadores (Cadeira)/1_Introdução/5_Arquitetura TCP IP.md",
     "03_Redes de computadores (Cadeira)/1_Introdução/4_Perdas e atrasos.md",
     "03_Redes de computadores (Cadeira)/4_Camada de rede/1_Introdução.md",
-    "03_Redes de computadores (Cadeira)/1_Introdução/4_Classificação das redes de telecomunicação.md",
     "attachments/Pasted image 20251116182346.png",
     "01_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a",
     "temp",
@@ -227,7 +228,6 @@
     "10_TeoriaComputação/1_AutômatosBásico.pdf",
     "02_Dotnet/1_Fundamentos",
     "9_Dotnet/Unconfirmed 438827.crdownload",
-    "9_Dotnet/Unconfirmed 295246.crdownload",
     "Sem título.canvas"
   ]
 }
