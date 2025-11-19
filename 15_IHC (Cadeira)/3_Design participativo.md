@@ -26,36 +26,30 @@
 
 #### **A. Aspecto Político e Sociológico**
 
-- **Direito de Influência:** Os usuários devem ter a oportunidade de influenciar o próprio local de trabalho.
-- **Responsabilidade Ética:** A atividade de design carrega a responsabilidade de melhorar a qualidade de vida dos indivíduos impactados pelo sistema ou ambiente.
+- **Direito de Influência:** Usuários devem ter o poder de influenciar o próprio local de trabalho.
+- **Responsabilidade Ética:** A atividade de design carrega a responsabilidade de melhorar a qualidade de vida dos indivíduos impactados pelo sistema.
 - **Participação como Poder:** É o processo pelo qual as pessoas podem ter influência nas decisões que as afetam, ao contrário das decisões impostas.
-
 #### **B. Aspecto Contextual**
 
 - **Mundos Diferentes:** Usuários e designers compreendem o mundo de maneira diferente.
 - **Conhecimento Local:** O usuário traz a perspectiva prática e contextual do dia a dia, que é inacessível ao designer.
-
 #### **C. Aspecto Pragmático (Benefício para o Negócio)**
 
-- **Eficiência e Satisfação:** Ajuda a elaborar sistemas que possibilitem a realização de tarefas de modo mais eficiente, eficaz e satisfatório.
-- **Aceitação:** Contribui para o aumento da qualidade, aceitação, frequência de uso e desempenho do sistema proposto.
-- **Evitar Desperdício:** Ajuda a evitar a implementação de funções caras, dispendiosas e sem utilidade real para o usuário.
+- **Eficiência:** Ajuda a criar sistemas que propiciam a realização de tarefas de modo mais eficiente.
+- **Aceitação:** Contribui para o aumento da qualidade, aceitação e frequência de uso do sistema.
+- **Evitar Desperdício:** Ajuda a evitar a implementação de funções sem utilidade real.
 
 ---
-
 ### **4. Consequências e benefícios**
 
 O DP tende a levar os projetistas, designers e pesquisadores a um pensamento a respeito do papel do design que considere: 
-- Questões éticas: relacionadas ao direito do trabalhador em influenciar seu trabalho, sua saúde, qualidade de vida.
-- Questões econômicas: relacionadas ao desempenho, eficácia e eficiência, e recursos envolvidos nas relações de trabalho.
+- **Questões éticas**: relacionadas ao direito do trabalhador em influenciar seu trabalho, sua saúde, qualidade de vida.
+- **Questões econômicas:** relacionadas ao desempenho, eficácia e eficiência, e recursos envolvidos nas relações de trabalho.
 
 **Benefícios**
 - Aproximação entre a equipe de desenvolvimento e os usuários.
-    
 - Levantamento de necessidades e requisitos funcionais mais detalhados nas fases iniciais de projeto.
-    
 - Redução de erros de interpretação e entendimento pelos desenvolvedores.
-
 
 ---
 ## **5. Níveis de Envolvimento do Usuário**
@@ -68,39 +62,33 @@ O DP tende a levar os projetistas, designers e pesquisadores a um pensamento a r
 | **Fraco Controle**      | Pouca responsabilidade em cada fase do projeto.                       | O usuário é um revisor ocasional.                    |
 | **Pela Atividade**      | Membro ativo da equipe ou ligação oficial.                            | O usuário ajuda a definir as funcionalidades.        |
 | **Forte Controle**      | Os usuários exercem o controle do projeto.                            | Os usuários vetam ou aprovam todas as mudanças.      |
-
 O Design Participativo visa atingir a participação **Pela Atividade** ou **Forte Controle**.
-
 
 ---
 ## 6. Seleção dos Colaboradores no DP
 
-- **Necessidade de Tempo:** Projetos baseados em DP exigem **muito tempo** dos usuários. Esse tempo é investido nas fases iniciais para gerar especificações mais embasadas e centradas no usuário.
+- **Necessidade de Tempo:** Projetos baseados em DP exigem **muito tempo** dos usuários.
     
 - **Risco de Acomodação:** Em projetos longos, há um risco de os usuários envolvidos passarem a ter um **modelo mental semelhante ao dos designers**. Isso faz com que eles deixem de ser representativos do usuário médio.
     
 - **Troca Periódica:** Em projetos maiores, é recomendada a troca periódica do grupo de usuários. 
     
-- **Usuários não são Designers:** Não se deve esperar que o usuário gere ideias de design do zero ou a partir de um esboço. No entanto, eles são **ótimos em reagir** a soluções que não gostam ou que não funcionariam na prática. Por isso, o uso de **protótipos em papel mock-ups)** é essencial para despertar a discussão.
+- **Usuários não são Designers:** Não se deve esperar que o usuário gere ideias de design do zero ou a partir de um esboço. No entanto, eles são **ótimos em reagir** a soluções que não gostam ou que não funcionariam na prática. Por isso, o uso de **protótipos em papel (mock-ups)** é essencial para despertar a discussão.
     
 - **Designers não são Usuários:** O designer não deve pressupor que algo intuitivo para ele será intuitivo para o usuário.
-
 
 ---
 ## **7. Estágios Básicos em Pesquisa**
 
-As pesquisas em DP geralmente seguem três estágios básicos e iterativos:
 #### **A. Exploração Inicial do Trabalho**
 
 - **Familiarização:** O designer-pesquisador se familiariza com os participantes, os ambientes e as ferramentas de trabalho.
 - **Métodos:** Envolvem a observação, entrevistas, análise de artefatos e visitas organizacionais.
 - **Discussão:** Workshops são organizados para que os colaboradores discutam suas experiências usando as tecnologias atuais.
-
 #### **B. Processo de Descoberta**
 
 - **Cooperação:** Designers e participantes utilizam técnicas para compreender e priorizar a organização do trabalho e esclarecer objetivos e valores.    
 - **Métodos Comuns:** Incluem jogos organizacionais, jogos baseados em dramatização, _storyboards_, modelos de fluxo de trabalho e sessões de interpretação.
-
 #### **C. Prototipação** 
 
 - **Modelagem Iterativa:** Designers e participantes modelam iterativamente os artefatos tecnológicos.
