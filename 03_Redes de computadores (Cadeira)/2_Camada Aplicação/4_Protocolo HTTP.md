@@ -45,29 +45,11 @@ Enquanto o HTTP transmite dados em texto simples, o que significa que qualquer p
 ---
 ### **3. HTTP Cache**
 
-### Parte 1: Visão Geral e Vantagens do Cache HTTP
-
-O **cache HTTP** é um mecanismo essencial que armazena uma resposta associada a uma solicitação e a reutiliza para solicitações subsequentes. A correta operação do cache é fundamental para a integridade e eficiência do sistema.
-
-#### 1.1. Funcionamento e Benefícios
+O cache HTTP é um mecanismo essencial que armazena uma resposta associada a uma solicitação e a reutiliza para solicitações subsequentes. 
 
 A **reutilização** de respostas armazenadas apresenta várias vantagens funcionais:
 
-1. **Latência Reduzida:** A resposta é entregue mais rapidamente, pois a solicitação não precisa ser roteada ao servidor de origem. Quanto mais próximos o cliente e o cache estiverem, mais rápida será a resposta. O exemplo típico é o cache armazenado no próprio navegador.
+1. **Latência Reduzida:** A resposta é entregue mais rapidamente, pois a solicitação não precisa ser roteada ao servidor de origem. O exemplo típico é o cache armazenado no próprio navegador.
     
-2. **Redução da Carga do Servidor de Origem:** Quando uma resposta é reutilizável, o servidor de origem não precisa processar a solicitação. Isso significa que não há necessidade de:
-    
-    - Analisar e rotear a requisição.
-        
-    - Restaurar a sessão com base no _cookie_.
-        
-    - Consultar o banco de dados.
-        
-    - Renderizar o mecanismo de modelo (_template engine_).
-        
-    - Consequentemente, a carga computacional no servidor é reduzida.
-        
+2. **Redução da Carga do Servidor de Origem:** Quando uma resposta é reutilizável, o servidor de origem não precisa processar a solicitação.
 
----
-
-Aguardando `next` para a explicação dos Tipos de Caches.
