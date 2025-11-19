@@ -1,28 +1,25 @@
 
+#Concluded 
 
 ---
-### **1. Contexto Histórico e Objeto de Estudo**
+### **1. Objeto de Estudo**
 
-O Design Participativo tem raízes fortes em movimentos sociais e trabalhistas:
-
-- Surgiu na Escandinávia entre o final dos anos 60 e o início dos anos 701.
-    
-- O objetivo era estabelecer gestões mais democráticas no design de sistemas e produtos, especialmente no contexto de informatização dos postos de trabalho.
-    
-- Melhorar a comunicação e a interação na indústria, garantindo que os trabalhadores tivessem controle democrático sobre as mudanças em suas ferramentas, ambiente e relações de trabalho.
-    
-- A partir dos anos 80, o DP passou a ser uma metodologia de design focada em valorizar o **conhecimento tácito** (aquele que é difícil de descrever e formalizar) desenvolvido por quem executa o trabalho.
+- O Design Participativo (DP) tem raízes fortes em movimentos sociais e trabalhistas:
+- Surgiu na Escandinávia entre o final dos anos 60 e o início dos anos 70.
+- O objetivo era <mark style="background: #ADCCFFA6;">estabelecer gestões mais democráticas no design de sistemas e produtos</mark>.
+- <mark style="background: #ADCCFFA6;">Melhorar a comunicação e a interação na indústria, garantindo que os trabalhadores tivessem controle democrático sobre as mudanças</mark> em suas ferramentas, ambiente e relações de trabalho.
+- A partir dos anos 80, o DP passou a ser uma **metodologia de design** focada em valorizar o **conhecimento tácito** (conhecimento advidno de experiência, dificil de formalizar).
 
 ---
 ### **2. Usuario como Coprojetista**
 
-O DP é o **"Design COM o Usuário, e não apenas Design PARA o Usuário"**.
+"<mark style="background: #ADCCFFA6;">Design COM o Usuário, e não apenas Design PARA o Usuário</mark>".
 
-- **Design para o usuario**: Usuários são apenas fonte de dados para que os designers tomem decisões de forma hierarquizada e, muitas vezes, autoritária.
+- **Design para o usuario**: Usuários são apenas fonte de dados para que os designers tomem decisões de forma hierarquizada e autoritária.
 
 - **Design participativo:** Usuários se envolvem e participam ativamente nas decisões de projeto de forma mais democrática.
-- No DP, o envolvimento do usuário vai muito além de apenas testar protótipos. Eles devem atuar como **coprojetistas** e membros ativos da equipe de design.
-- O usuário final deve dar contribuições efetivas que reflitam suas necessidades em todo o ciclo de vida do sistema.
+	- No DP, os usuários devem atuar como coprojetistas
+	- O usuário final deve dar contribuições em todo o ciclo de vida do sistema.
 
 ---
 ### **3. Motivações para Adotar o Design Participativo**
@@ -98,68 +95,31 @@ As pesquisas em DP geralmente seguem três estágios básicos e iterativos:
 - **Familiarização:** O designer-pesquisador se familiariza com os participantes, os ambientes e as ferramentas de trabalho.
 - **Métodos:** Envolvem a observação, entrevistas, análise de artefatos e visitas organizacionais.
 - **Discussão:** Workshops são organizados para que os colaboradores discutam suas experiências usando as tecnologias atuais.
-    
 
-#### **B. 2. Processo de Descoberta** ✨
+#### **B. Processo de Descoberta**
 
-Esta fase se concentra na **Síntese** cooperativa e na modelagem do trabalho:
-
-- **Cooperação:** Designers e participantes utilizam técnicas para compreender e priorizar a organização do trabalho e esclarecer objetivos e valores.
-    
-- **Objetivo:** Cooperativamente, dar **sentido** ao trabalho, em vez de simplesmente descrevê-lo.
-    
+- **Cooperação:** Designers e participantes utilizam técnicas para compreender e priorizar a organização do trabalho e esclarecer objetivos e valores.    
 - **Métodos Comuns:** Incluem jogos organizacionais, jogos baseados em dramatização, _storyboards_, modelos de fluxo de trabalho e sessões de interpretação.
-    
 
-#### **C. 3. Prototipação** 🏗️
-
-É a fase de criação e **Avaliação** contínua:
+#### **C. Prototipação** 
 
 - **Modelagem Iterativa:** Designers e participantes modelam iterativamente os artefatos tecnológicos.
-    
 - **Coexploração:** Promovem uma coexploração iterativa, onde a prototipação ocorre várias vezes até que o sistema esteja de acordo com as necessidades e os objetivos dos usuários.
-    
-- **Avaliações:** São necessárias avaliações formativas (durante o processo) e somativas (ao final).
-    
+- **Avaliações:** São necessárias avaliações.
 
 ---
+## **8. Técnicas de Inclusão do Usuários no Projeto**
 
-### 2. Técnicas de Inclusão de Usuários no Projeto
-
-O Design Participativo se baseia em uma ampla gama de técnicas para envolver os usuários em todas as fases. Algumas das mais relevantes para a inclusão de usuários, citadas nos slides, são:
-
-#### **A. Técnicas de Descoberta (Análise/Imersão)**
-
+#### **A. Técnicas de Descoberta**
 - **Questionário e Entrevistas**
-    
 - **Análise Contextual**
-    
-- **_Fly on the wall_** (Observação discreta)
-    
-- **Observação Participante**
-    
+#### **B. Técnicas de Co-criação**
 
-#### **B. Técnicas de Co-criação (Síntese/Ideação)**
-
-- **Workshops**
-    
-- **Brainstorming**
-    
-- **Prototipagem em Papel** (_Paper Prototyping_)
-    
-- **_Storytelling Workshop_**
-    
-- **PICTIVE** (_Plastic Interface for Collaborative Technology Initiatives through Video Exploration_): Usa materiais de _mock-ups_ plásticos para co-criação.
-    
-- **CARD** (_Collaborative Analysis of Requirements and Design_): Para análise colaborativa de requisitos.
-    
-
+- **Brainstorming**    
+- **Prototipagem em Papel**
 #### **C. Técnicas de Estrutura e Avaliação**
 
 - **Diagrama de Afinidades:** Para organizar ideias e dados de forma colaborativa.
-    
-- **Cardsorting:** Usado para definir a **taxonomia** e o fluxo de informação com a participação do usuário.
-    
+- **Cardsorting**
 - **Teste de Usabilidade**.
-    
 - **Avaliação Cooperativa**.
