@@ -61,8 +61,7 @@ O DP tende a levar os projetistas, designers e pesquisadores a um pensamento a r
 
 
 ---
-## **3. Níveis de Envolvimento do Usuário**
-
+## **5. Níveis de Envolvimento do Usuário**
 
 | **Categoria**           | **Controle do Usuário**                                               | **Exemplo de Papel do Usuário**                      |
 | ----------------------- | --------------------------------------------------------------------- | ---------------------------------------------------- |
@@ -76,16 +75,91 @@ O DP tende a levar os projetistas, designers e pesquisadores a um pensamento a r
 O Design Participativo visa atingir a participação **Pela Atividade** ou **Forte Controle**.
 
 
-## 4. Seleção dos Colaboradores no DP
+---
+## 6. Seleção dos Colaboradores no DP
 
-Envolver o usuário exige estratégia. O designer precisa escolher cuidadosamente os colaboradores e gerenciar o processo23232323:
+- **Necessidade de Tempo:** Projetos baseados em DP exigem **muito tempo** dos usuários. Esse tempo é investido nas fases iniciais para gerar especificações mais embasadas e centradas no usuário.
+    
+- **Risco de Acomodação:** Em projetos longos, há um risco de os usuários envolvidos passarem a ter um **modelo mental semelhante ao dos designers**. Isso faz com que eles deixem de ser representativos do usuário médio.
+    
+- **Troca Periódica:** Em projetos maiores, é recomendada a troca periódica do grupo de usuários. 
+    
+- **Usuários não são Designers:** Não se deve esperar que o usuário gere ideias de design do zero ou a partir de um esboço. No entanto, eles são **ótimos em reagir** a soluções que não gostam ou que não funcionariam na prática. Por isso, o uso de **protótipos em papel mock-ups)** é essencial para despertar a discussão.
+    
+- **Designers não são Usuários:** O designer não deve pressupor que algo intuitivo para ele será intuitivo para o usuário.
 
-- **Necessidade de Tempo:** Projetos baseados em DP exigem **muito tempo** dos usuários. Esse tempo é investido nas fases iniciais para gerar especificações mais embasadas e centradas no usuário24.
+
+---
+## **7. Estágios Básicos em Pesquisa**
+
+As pesquisas em DP geralmente seguem três estágios básicos e iterativos:
+#### **A. Exploração Inicial do Trabalho**
+
+- **Familiarização:** O designer-pesquisador se familiariza com os participantes, os ambientes e as ferramentas de trabalho.
+- **Métodos:** Envolvem a observação, entrevistas, análise de artefatos e visitas organizacionais.
+- **Discussão:** Workshops são organizados para que os colaboradores discutam suas experiências usando as tecnologias atuais.
     
-- **Risco de Endogenia (Acomodação):** Em projetos longos, há um risco de os usuários envolvidos passarem a ter um **modelo mental semelhante ao dos designers**25. Isso faz com que eles racionalizem elementos indesejáveis de design, deixando de ser representativos do usuário médio26262626.
+
+#### **B. 2. Processo de Descoberta** ✨
+
+Esta fase se concentra na **Síntese** cooperativa e na modelagem do trabalho:
+
+- **Cooperação:** Designers e participantes utilizam técnicas para compreender e priorizar a organização do trabalho e esclarecer objetivos e valores.
     
-- **Solução (Troca Periódica):** Em projetos maiores, é recomendada a **troca periódica** do grupo de usuários. Novos usuários têm mais probabilidade de questionar problemas de design, pois desconhecem o histórico do projeto27272727.
+- **Objetivo:** Cooperativamente, dar **sentido** ao trabalho, em vez de simplesmente descrevê-lo.
     
-- **Usuários não são Designers:** Não se deve esperar que o usuário gere ideias de design do zero ou a partir de um esboço. No entanto, eles são **ótimos em reagir** a soluções que não gostam ou que não funcionariam na prática 28. Por isso, o uso de **protótipos em papel (mock-ups)** é essencial para despertar a discussão29292929.
+- **Métodos Comuns:** Incluem jogos organizacionais, jogos baseados em dramatização, _storyboards_, modelos de fluxo de trabalho e sessões de interpretação.
     
-- **Designers não são Usuários:** O designer não deve pressupor que algo intuitivo para ele será intuitivo para o usuário. Há diferenças entre os modelos mentais, e o desenvolvedor não pode simular as reações psicológicas e fisiológicas do usuário 30.
+
+#### **C. 3. Prototipação** 🏗️
+
+É a fase de criação e **Avaliação** contínua:
+
+- **Modelagem Iterativa:** Designers e participantes modelam iterativamente os artefatos tecnológicos.
+    
+- **Coexploração:** Promovem uma coexploração iterativa, onde a prototipação ocorre várias vezes até que o sistema esteja de acordo com as necessidades e os objetivos dos usuários.
+    
+- **Avaliações:** São necessárias avaliações formativas (durante o processo) e somativas (ao final).
+    
+
+---
+
+### 2. Técnicas de Inclusão de Usuários no Projeto
+
+O Design Participativo se baseia em uma ampla gama de técnicas para envolver os usuários em todas as fases. Algumas das mais relevantes para a inclusão de usuários, citadas nos slides, são:
+
+#### **A. Técnicas de Descoberta (Análise/Imersão)**
+
+- **Questionário e Entrevistas**
+    
+- **Análise Contextual**
+    
+- **_Fly on the wall_** (Observação discreta)
+    
+- **Observação Participante**
+    
+
+#### **B. Técnicas de Co-criação (Síntese/Ideação)**
+
+- **Workshops**
+    
+- **Brainstorming**
+    
+- **Prototipagem em Papel** (_Paper Prototyping_)
+    
+- **_Storytelling Workshop_**
+    
+- **PICTIVE** (_Plastic Interface for Collaborative Technology Initiatives through Video Exploration_): Usa materiais de _mock-ups_ plásticos para co-criação.
+    
+- **CARD** (_Collaborative Analysis of Requirements and Design_): Para análise colaborativa de requisitos.
+    
+
+#### **C. Técnicas de Estrutura e Avaliação**
+
+- **Diagrama de Afinidades:** Para organizar ideias e dados de forma colaborativa.
+    
+- **Cardsorting:** Usado para definir a **taxonomia** e o fluxo de informação com a participação do usuário.
+    
+- **Teste de Usabilidade**.
+    
+- **Avaliação Cooperativa**.
