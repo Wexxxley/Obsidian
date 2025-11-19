@@ -13,7 +13,7 @@ Web Service é um serviço que permite a comunicação entre diferentes aplicaç
 ### **2. Protocolo HTTP**
 HTTP (Hypertext Transfer Protocol) é um protocolo de comunicação utilizado na web para a transferência de informações entre clientes e servidores. 
 
-[4_Protocolo HTTP e cookies](../../../03_Redes%20de%20computadores%20(Cadeira)/2_Camada%20Aplicação/4_Protocolo%20HTTP%20e%20cookies.md)
+[4_Protocolo HTTP](../../../03_Redes%20de%20computadores%20(Cadeira)/2_Camada%20Aplicação/4_Protocolo%20HTTP.md)
   
 **Requisição http**
 1. Request line (Método HTTP + URI + protocolo HTTP)

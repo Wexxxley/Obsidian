@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Redes de computadores (Cadeira)/2_Camada Aplicação/11_Correio eletrônico.md",
+                "file": "03_Redes de computadores (Cadeira)/2_Camada Aplicação/4_Protocolo HTTP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11_Correio eletrônico"
+              "title": "4_Protocolo HTTP"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_Redes de computadores (Cadeira)/2_Camada Aplicação/11_Correio eletrônico.md",
+                "file": "03_Redes de computadores (Cadeira)/2_Camada Aplicação/4_Protocolo HTTP.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 11_Correio eletrônico"
+              "title": "Outline of 4_Protocolo HTTP"
             }
           },
           {
@@ -182,13 +182,13 @@
   },
   "active": "ce5f3fb0cdf0f8a4",
   "lastOpenFiles": [
+    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/11_Correio eletrônico.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/10_FTP.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/9_DNS.md",
-    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/11_Correio eletrônico.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/8_Proxy reverso.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/7_Proxy.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/6_Cookies.md",
-    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/4_Protocolo HTTP e cookies.md",
+    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/4_Protocolo HTTP.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/5_URL.md",
     "03_Redes de computadores (Cadeira)/4_Camada de rede/5_Endereçamento IP.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/3_Web server vs. Application server.md",
