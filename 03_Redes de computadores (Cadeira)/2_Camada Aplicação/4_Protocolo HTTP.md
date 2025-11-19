@@ -41,15 +41,3 @@ São códigos utilizados nas respostas http para informar ao cliente se a requis
 Enquanto o HTTP transmite dados em texto simples, o que significa que qualquer pessoa interceptando a comunicação pode ler as informações, o<mark style="background: #ADCCFFA6;"> HTTPS criptografa os dados transmitidos, protegendo-os contra interceptação</mark>. Para implementar HTTPS, o servidor precisa de um certificado TLS. Este certificado autentica a identidade do servidor e permite a criação de uma conexão criptografada.
 
 **TLS (Transport Layer Security)** é o protocolo de segurança que permite a implementação de HTTPS. O TLS garante que o servidor (e opcionalmente o cliente) seja autenticado, confirmando que ambas as partes são quem dizem ser.
-
----
-### **3. HTTP Cache**
-
-O cache HTTP é um mecanismo essencial que armazena uma resposta associada a uma solicitação e a reutiliza para solicitações subsequentes. 
-
-A **reutilização** de respostas armazenadas apresenta várias vantagens funcionais:
-
-1. **Latência Reduzida:** A resposta é entregue mais rapidamente, pois a solicitação não precisa ser roteada ao servidor de origem. O exemplo típico é o cache armazenado no próprio navegador.
-    
-2. **Redução da Carga do Servidor de Origem:** Quando uma resposta é reutilizável, o servidor de origem não precisa processar a solicitação.
-
