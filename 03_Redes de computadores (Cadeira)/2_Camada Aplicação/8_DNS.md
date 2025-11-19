@@ -23,29 +23,39 @@ O DNS é um **banco de dados** distribuído executado em uma **hierarquia** de s
 ---
 ### **2. Serviços fornecidos pelo DNS**
 
-1. **Resolução de nomes de domínio:** Tradução de nomes legíveis para endereços IP.  
+1. **Resolução de nomes de domínio:** 
     Ex: gaia.cs.umass.edu → 200.17.37.2
-2. **Mapeamento de apelidos:** Um nome canônico pode ter vários apelidos. Ex: 
-	- Nome canônico: relay1.west-coast.enterprise.com
-	- Apelidos: www.enterprise.com, enterprise.com
-3. **Mapeamento de apelidos para servidores de e-mail:** Direciona e-mails ao servidor correto. Ex: empresa.com → mail.empresa.com
+    
+2. **Mapeamento de apelidos:** Um nome canônico pode ter vários apelidos. 
+	Ex: Nome canônico: relay1.west-coast.enterprise.com → Apelidos: www.enterprise.com, enterprise.com
+	
+3. **Mapeamento de apelidos para servidores de e-mail:** Direciona e-mails ao servidor correto.
+	Ex: empresa.com → mail.empresa.com
+	
 4. **Balanceamento de carga:** O DNS pode retornar vários endereços IP para um único nome de domínio, alternando a ordem desses IPs para distribuir a carga entre múltiplos servidores.  
 
-Base de dados distribuída e hierárquica:  O DNS é dividido em camadas, formando uma hierarquia.![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf1kCPoUnJMxtbjf7Rl7DQz4SarLgvt-fevAXbitRFqyI__NfNkSoVKCGKF2QBqjDLqYUBBoEiASABPG5439WTUY437KBTDwy21EgEAF7V52258iyiVu8PMwAgg96G1Gqo8-zpJpw?key=HrOhHC0_-ked6RNCpQ0o3PZn)
+ O DNS é dividido em camadas, formando uma **hierarquia**.
+ ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf1kCPoUnJMxtbjf7Rl7DQz4SarLgvt-fevAXbitRFqyI__NfNkSoVKCGKF2QBqjDLqYUBBoEiASABPG5439WTUY437KBTDwy21EgEAF7V52258iyiVu8PMwAgg96G1Gqo8-zpJpw?key=HrOhHC0_-ked6RNCpQ0o3PZn)
 
 1. **Servidores raiz:** Sabem onde encontrar os servidores TLDs (.com, .org)
-2. **Servidores TLD(Top-Level-Domain):** Sabem onde encontrar os servidores autoritativos para domínios (ex: google.com)
+2. **Servidores TLD(Top-Level-Domain):** Sabem onde encontrar os servidores autoritativos.
 3. **Servidores autoritativos:** Contêm os registros DNS definitivos.  
 
-  
+**Exemplo**
+![450](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc13MwakxHmnjm7iRHQIwIXgrAN-a4C2pNu0AeWsPK3JhfGNRSpAPX_vSRaD7VMpswNIRzCvOFFyX6UbPB9iCxOc35nSa2e4PlHD9hHYUoPkhJDkTihDwf1HczLxFVG20eQ6w898A?key=HrOhHC0_-ked6RNCpQ0o3PZn)  
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc13MwakxHmnjm7iRHQIwIXgrAN-a4C2pNu0AeWsPK3JhfGNRSpAPX_vSRaD7VMpswNIRzCvOFFyX6UbPB9iCxOc35nSa2e4PlHD9hHYUoPkhJDkTihDwf1HczLxFVG20eQ6w898A?key=HrOhHC0_-ked6RNCpQ0o3PZn)  
+**Servidor de nomes local:** Sua função é processar a consulta do hospedeiro requisitante. Ele atua como um intermediário. Por padrão, a configuração do Servidor de Nomes Local é definida pelo ISP.
+
+O ISP atribui esse endereço ao seu roteador (o Customer Premises Equipment - CPE) durante a fase de estabelecimento de link. O roteador, por sua vez, usa o protocolo **DHCP** (Dynamic Host Configuration Protocol) para distribuir esse endereço aos dispositivos da sua rede local (LAN).
+    
+- **Motivação:** Os ISPs fazem isso para direcionar o tráfego de DNS através de seus próprios servidores de alta velocidade. Isso permite que eles **cacheiem** resultados de consultas frequentes (como Google, Facebook), melhorando a velocidade de resolução e economizando largura de banda em seu backbone. (O usuário tem a liberdade técnica de substituir esse endereço por resolvers públicos, como o Google DNS (`8.8.8.8`), mas o padrão é o do ISP.)
+
 
  Atualmente existem 13 DNS raiz no mundo. Cada um desses 13 representa uma rede de servidores espalhados pelo mundo. Vários servidores físicos em diferentes localizações compartilham o mesmo endereço IP. O roteamento faz com que o cliente seja conectado ao servidor mais próximo.  Embora existam 13 identificadores principais, o número total de instâncias físicas ultrapassa os 1600.
 
 **Servidor de nomes**
  Um servidor de nomes local é o servidor de DNS que fica mais próximo do usuário final, geralmente mantido pelo provedor de internet. Quando você digita um endereço no navegador, seu computador não sabe de imediato o IP desse site. Ele envia a consulta ao servidor de nomes local.
- 
+
 ---
 ### **3.Registros de recursos(RR)**
 
