@@ -73,20 +73,19 @@ Estes requisitos definem critérios de qualidade, desempenho e restrições téc
 
 Com base na imagem do cristal roxo em um fundo escuro, a paleta será focada em um esquema "Dark Mode" de alta contraste e sofisticação.
 
-|**Nome da Cor**|**Código HEX Sugerido**|**Uso Principal**|
-|---|---|---|
-|**Fundo Principal (Primary Background)**|`#0D0616` (Roxo Quase Preto)|Fundo da tela inteira, painéis laterais.|
-|**Destaque (Amethyst Accent)**|`#9933FF` (Roxo Magenta Brilhante)|Cor primária para botões, ícones ativos, _highlights_ de texto (RF 1.5), foco.|
-|**Amethyst Escuro (Dark Amethyst)**|`#4C007F`|Borda de botões inativos, divisores, cards não selecionados.|
-|**Texto Principal (Primary Text)**|`#F0F0F0` (Branco Suave)|Textos longos, títulos.|
-|**Texto Secundário (Secondary Text)**|`#AAAAAA`|Legendas bilíngues não ativas, descrições secundárias.|
-|**Interativo (Call to Action/Botões)**|`#3366FF` (Azul Elétrico - Alternativo)|Usado para o botão "Processar URL" e links essenciais, para garantir alto contraste com o roxo.|
+| **Nome da Cor**                          | **Código HEX Sugerido**                 | **Uso Principal**                                                                               |
+| ---------------------------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Fundo Principal (Primary Background)** | `#0D0616` (Roxo Quase Preto)            | Fundo da tela inteira, painéis laterais.                                                        |
+| **Destaque (Amethyst Accent)**           | `#9933FF` (Roxo Magenta Brilhante)      | Cor primária para botões, ícones ativos, _highlights_ de texto (RF 1.5), foco.                  |
+| **Amethyst Escuro (Dark Amethyst)**      | `#4C007F`                               | Borda de botões inativos, divisores, cards não selecionados.                                    |
+| **Texto Principal (Primary Text)**       | `#F0F0F0` (Branco Suave)                | Textos longos, títulos.                                                                         |
+| **Texto Secundário (Secondary Text)**    | `#AAAAAA`                               | Legendas bilíngues não ativas, descrições secundárias.                                          |
+| **Interativo (Call to Action/Botões)**   | `#3366FF` (Azul Elétrico - Alternativo) | Usado para o botão "Processar URL" e links essenciais, para garantir alto contraste com o roxo. |
 
 ---
 
 ## ✏️ Prompt para Criação de Protótipo no Figma
 
-Este _prompt_ detalha as três telas principais (Login/Home, Estudo e Modo de Estudo) e instrui o designer a usar a paleta e os requisitos formais (RFs).
 
 **Instruções de Criação:**
 

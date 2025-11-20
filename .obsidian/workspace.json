@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15_IHC (Cadeira)/5_Coleta de dados.md",
+                "file": "16_Aleatorios/Amethyst.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Coleta de dados"
+              "title": "Amethyst"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "15_IHC (Cadeira)/5_Coleta de dados.md",
+                "file": "16_Aleatorios/Amethyst.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 5_Coleta de dados"
+              "title": "Outline of Amethyst"
             }
           },
           {
@@ -182,11 +182,12 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
+    "15_IHC (Cadeira)/5_Coleta de dados.md",
     "attachments/Pasted image 20251120083118.png",
     "attachments/Pasted image 20251120083044.png",
     "attachments/Pasted image 20251120080824.png",
     "16_Aleatorios/Amethyst.md",
-    "15_IHC (Cadeira)/5_Coleta de dados.md",
     "16_Aleatorios/IHC-Observatório Legislativo.md",
     "16_Aleatorios/Pedido de crenciais GIT.md",
     "16_Aleatorios/Prompt prototipo Acervo Mestre.md",
@@ -209,7 +210,6 @@
     "15_IHC (Cadeira)/1_Conceitos basicos.md",
     "attachments/Pasted image 20251119131249.png",
     "03_Redes de computadores (Cadeira)/4_Camada de rede/5_Endereçamento IP.md",
-    "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
     "03_Redes de computadores (Cadeira)/1_Introdução/1_Introdução.md",
     "attachments/Pasted image 20251119071508.png",
     "attachments/Pasted image 20251119071350.png",
@@ -217,7 +217,6 @@
     "attachments/Pasted image 20251118164306.png",
     "attachments/Pasted image 20251118145537.png",
     "attachments/Pasted image 20251118145153.png",
-    "attachments/Pasted image 20251118145045.png",
     "03_Redes de computadores (Cadeira)/1_Introdução/2_Comutadores.md",
     "15_IHC (Cadeira)",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",

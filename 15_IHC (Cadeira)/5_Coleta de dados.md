@@ -94,14 +94,10 @@ O pesquisador visita usuários finais no seu ambiente real para **observar o com
     
 - **Objetivo:** Tornar explícito o **conhecimento tácito** sobre o trabalho e desvendar a **estrutura da rotina**.
     
-
 ### C. Diários de Usuário
 
-O usuário mantém **registros regulares** sobre eventos em sua vida, no momento em que ocorrem.
+O participante recebe instruções para registrar informações (texto, áudio, fotos ou vídeos) sobre suas atividades, sentimentos e pensamentos relacionados ao tópico de estudo.
 
-- **Vantagem:**  Excelente para registrar informações fluidas, **humor e sentimentos** (frustração, raiva) e entender **o POR QUE** os usuários estão fazendo algo.
+- O objetivo é que a anotação seja feita **em tempo real**, ou seja, logo após o evento ocorrer. Isso garante que a informação esteja "fresca" na memória. Excelente para registrar informações fluidas, **humor e sentimentos** (frustração, raiva) e entender **o POR QUE** os usuários estão fazendo algo.
     
 - **Uso:** Ideal para atividades **longas e multilocalizadas** (ex: uso de celulares, dispositivos GPS) e para registrar incidentes definidos pelo usuário (ex: quando decidiram não realizar uma tarefa).
-    
-- **Enriquecimento:** Pode ser complementado com registros em áudio, vídeo ou fotografias, e ícones de emoções.
-    
