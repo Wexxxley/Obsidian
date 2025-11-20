@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15_IHC (Cadeira)/5_.md",
+                "file": "15_IHC (Cadeira)/5_Coleta de dados.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_"
+              "title": "5_Coleta de dados"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "15_IHC (Cadeira)/5_.md",
+                "file": "15_IHC (Cadeira)/5_Coleta de dados.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 5_"
+              "title": "Outline of 5_Coleta de dados"
             }
           },
           {
@@ -186,7 +186,7 @@
     "attachments/Pasted image 20251120083044.png",
     "attachments/Pasted image 20251120080824.png",
     "16_Aleatorios/Amethyst.md",
-    "15_IHC (Cadeira)/5_.md",
+    "15_IHC (Cadeira)/5_Coleta de dados.md",
     "16_Aleatorios/IHC-Observatório Legislativo.md",
     "16_Aleatorios/Pedido de crenciais GIT.md",
     "16_Aleatorios/Prompt prototipo Acervo Mestre.md",
