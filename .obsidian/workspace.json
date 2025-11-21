@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Node.js/3_Buffers, Streams e Sistema de Arquivos.md",
+                "file": "17_Node.js/2_Gerenciamento de dependências.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Buffers, Streams e Sistema de Arquivos"
+              "title": "2_Gerenciamento de dependências"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "17_Node.js/3_Buffers, Streams e Sistema de Arquivos.md",
+                "file": "17_Node.js/2_Gerenciamento de dependências.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_Buffers, Streams e Sistema de Arquivos"
+              "title": "Outline of 2_Gerenciamento de dependências"
             }
           },
           {
@@ -182,12 +182,12 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "17_Node.js/3_Buffers e Streams.md",
     "17_Node.js/2_Gerenciamento de dependências.md",
     "attachments/Pasted image 20251121091351.png",
     "attachments/Pasted image 20251121090553.png",
     "attachments/Pasted image 20251121090514.png",
     "17_Node.js/1_Runtime e Módulos.md",
-    "17_Node.js/3_Buffers, Streams e Sistema de Arquivos.md",
     "16_Aleatorios/Amethyst.md",
     "17_Node.js",
     "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
