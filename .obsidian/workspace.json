@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Node.js/2_Gerenciamento de dependências.md",
+                "file": "17_Node.js/4_Dotenv.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Gerenciamento de dependências"
+              "title": "4_Dotenv"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "17_Node.js/2_Gerenciamento de dependências.md",
+                "file": "17_Node.js/4_Dotenv.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_Gerenciamento de dependências"
+              "title": "Outline of 4_Dotenv"
             }
           },
           {
@@ -182,8 +182,9 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "17_Node.js/3_Buffers e Streams.md",
     "17_Node.js/2_Gerenciamento de dependências.md",
+    "17_Node.js/4_Dotenv.md",
+    "17_Node.js/3_Buffers e Streams.md",
     "attachments/Pasted image 20251121091351.png",
     "attachments/Pasted image 20251121090553.png",
     "attachments/Pasted image 20251121090514.png",
