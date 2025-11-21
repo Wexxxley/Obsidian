@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Node.js/2_Gerenciamento de dependências.md",
+                "file": "17_Node.js/3_Buffers, Streams e Sistema de Arquivos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Gerenciamento de dependências"
+              "title": "3_Buffers, Streams e Sistema de Arquivos"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "17_Node.js/2_Gerenciamento de dependências.md",
+                "file": "17_Node.js/3_Buffers, Streams e Sistema de Arquivos.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_Gerenciamento de dependências"
+              "title": "Outline of 3_Buffers, Streams e Sistema de Arquivos"
             }
           },
           {
@@ -182,11 +182,12 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "17_Node.js/2_Gerenciamento de dependências.md",
+    "attachments/Pasted image 20251121091351.png",
     "attachments/Pasted image 20251121090553.png",
     "attachments/Pasted image 20251121090514.png",
     "17_Node.js/1_Runtime e Módulos.md",
-    "17_Node.js/2_Gerenciamento de dependências.md",
-    "17_Node.js/3_.md",
+    "17_Node.js/3_Buffers, Streams e Sistema de Arquivos.md",
     "16_Aleatorios/Amethyst.md",
     "17_Node.js",
     "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
@@ -218,8 +219,6 @@
     "attachments/Pasted image 20251119071508.png",
     "attachments/Pasted image 20251119071350.png",
     "15_IHC (Cadeira)/Untitled",
-    "attachments/Pasted image 20251118164306.png",
-    "attachments/Pasted image 20251118145537.png",
     "15_IHC (Cadeira)",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
