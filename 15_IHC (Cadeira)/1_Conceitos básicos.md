@@ -64,8 +64,7 @@ O autor Kammersgaard identificou quatro perspectivas de interação usuário
 
 1. **Cadeira:** O formato dela "diz" para o seu cérebro: "Sente-se aqui". 
 2. **Botão Físico:** Se algo parece clicavel, a affordance "convida" você a apertar.
-3. **Maçaneta de Alavanca:** O formato alongado "convida" sua mão a abaixar a peça.
-    
+3. **Maçaneta de Alavanca:** O formato alongado "convida" sua mão a abaixar a peça.    
 
 #### **A. Affordance Real (Mundo Físico)**
 São características físicas e óbvias. Existem independentemente da interpretação cultural.
