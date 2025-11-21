@@ -62,13 +62,9 @@ O Design Participativo visa atingir a participação **Pela Atividade** ou **For
 #### **A. Exploração Inicial do Trabalho**
 O designer-pesquisador se familiariza com os participantes, os ambientes e as ferramentas de trabalho. Envolve observação, entrevistas, visitas organizacionais.
 #### **B. Processo de Descoberta**
-- **Cooperação:** Designers e participantes utilizam técnicas para compreender e priorizar a organização do trabalho e esclarecer objetivos e valores.    
-- **Métodos Comuns:** Incluem jogos organizacionais, jogos baseados em dramatização, _storyboards_, modelos de fluxo de trabalho e sessões de interpretação.
+Designers e participantes utilizam técnicas para compreender e priorizar a organização do trabalho e esclarecer objetivos e valores.   Incluem jogos organizacionais, _storyboards_, modelos de fluxo de trabalho.
 #### **C. Prototipação** 
-
-- **Modelagem Iterativa:** Designers e participantes modelam iterativamente os artefatos tecnológicos.
-- **Coexploração:** Promovem uma coexploração iterativa, onde a prototipação ocorre várias vezes até que o sistema esteja de acordo com as necessidades e os objetivos dos usuários.
-- **Avaliações:** São necessárias avaliações.
+Designers e participantes modelam iterativamente os artefatos tecnológicos.  A prototipação ocorre várias vezes até que o sistema esteja de acordo com os objetivos. São necessárias avaliações.
 
 ---
 ## **7. Técnicas de Inclusão do Usuários no Projeto**
@@ -77,11 +73,9 @@ O designer-pesquisador se familiariza com os participantes, os ambientes e as fe
 - **Questionário e Entrevistas**
 - **Análise Contextual**
 #### **B. Técnicas de Co-criação**
-
 - **Brainstorming**    
 - **Prototipagem em Papel**
 #### **C. Técnicas de Estrutura e Avaliação**
-
 - **Diagrama de Afinidades:** Para organizar ideias e dados de forma colaborativa.
 - **Cardsorting**
 - **Teste de Usabilidade**.
