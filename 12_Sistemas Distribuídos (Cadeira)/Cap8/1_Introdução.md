@@ -48,27 +48,13 @@ A arquitetura do CORBA é projetada para desacoplar o cliente da implementação
 
 - **ORB (Object Request Broker):** É a biblioteca de middleware que deve estar presente tanto no cliente quanto no servidor. Sua função é localizar o objeto, transmitir a requisição e devolver a resposta.
 - **Stub do Cliente (Proxy Estático):** Código gerado pelo compilador IDL que roda no cliente. Ele expõe a interface do servidor na linguagem nativa do cliente.
-    
 - **Skeleton do Servidor:** Código gerado pelo compilador IDL que roda no servidor. Ele recebe a requisição do ORB, desempacota os parâmetros e chama o método real no objeto de implementação.
-    
-- **Adaptador de Objeto (Object Adapter - POA):** Este é um componente crucial que fica entre o ORB e o objeto de implementação (o servo).
-    
-    - Ele gerencia o ciclo de vida dos objetos servidores.
-        
-    - Ele mapeia as referências de objeto remoto para as instâncias reais das classes (servos).
-        
-    - Ele permite ativar servidores sob demanda.
-        
+- **Adaptador de Objeto:** Ele gerencia o ciclo de vida dos objetos servidores. Ele mapeia as referências de objeto remoto para as instâncias reais das classes.  Ele permite ativar servidores sob demanda.
 
 #### **3. Invocação Dinâmica vs. Estática**
 
-O livro destaca que o CORBA oferece duas formas de invocação:
-
-1. **Invocação Estática (via Stubs):** O cliente precisa ter o código do stub compilado junto com ele (o jeito tradicional). É mais rápido e verificável em tempo de compilação.
-    
+1. **Invocação Estática (via Stubs):** O cliente precisa ter o código do stub compilado junto com ele. É mais rápido e verificável em tempo de compilação.
 2. **Invocação Dinâmica (DII - Dynamic Invocation Interface):** O cliente pode descobrir interfaces em tempo de execução (usando um Repositório de Interfaces) e construir requisições dinamicamente, sem ter os stubs compilados. É mais flexível, mas mais complexo e lento.
-    
-
 #### **4. Protocolo de Interoperabilidade (GIOP/IIOP)**
 
 Para garantir que um ORB de um fabricante (ex: ORB da IBM em Java) converse com um ORB de outro fabricante (ex: ORB da IONA em C++), o CORBA define o **GIOP (General Inter-ORB Protocol)**.
