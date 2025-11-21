@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Node.js/3_.md",
+                "file": "17_Node.js/2_.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_"
+              "title": "2_"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "17_Node.js/3_.md",
+                "file": "17_Node.js/2_.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_"
+              "title": "Outline of 2_"
             }
           },
           {
@@ -182,9 +182,9 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "17_Node.js/2_.md",
+    "17_Node.js/1_Introdução.md",
     "17_Node.js/3_.md",
-    "17_Node.js/1_.md",
+    "17_Node.js/2_.md",
     "16_Aleatorios/Amethyst.md",
     "17_Node.js",
     "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
