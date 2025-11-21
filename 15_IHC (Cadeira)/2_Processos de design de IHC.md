@@ -40,7 +40,7 @@ Design é **iterativo**. É um ciclo contínuo de refinamento.
 
 #### **A. Processo de Design de Lawson**
 
-- **Filosofia:** Cabe ao designer decidir qual atividade iniciar primeiro e as transições que fará8 A única exigência é a lógica: começar com um **problema** e terminar com uma **solução**.
+- **Filosofia:** Cabe ao designer decidir qual atividade iniciar primeiro e as transições que fará. A única exigência é a lógica: começar com um **problema** e terminar com uma **solução**.
 	![550](../attachments/Pasted%20image%2020251118145045.png)
 
 #### **B. Modelo Simples (Preece, Sharp e Rogers)**
