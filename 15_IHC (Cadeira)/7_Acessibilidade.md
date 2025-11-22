@@ -41,3 +41,65 @@ Pessoas cegas interagem principalmente pelo teclado e utilizam um software **lei
 | **Informações por cor**  | Legendas textuais para informações não textuais (ex.: cores diferentes).                 |
 | **Navegação (HTML)**     | Associar rótulos e campos (label, name), cabeçalhos e células de uma tabela (header, id) |
 | **Sessões Curta**        | Prever a possibilidade de prolongar as sessões na Web.                                   |
+
+---
+## 3. Deficiência Auditiva
+
+A deficiência auditiva apresenta um desafio de comunicação, pois o surdo de nascença, na maioria das vezes, não é capaz de falar. O surdo aprende a ler os lábios e se comunica por meio de linguagens de sinais (como LIBRAS).
+
+- **Problemas Comuns:**
+    - Percepção de **feedback sonoro**.
+    - **Compreender a linguagem escrita**, pois muitas vezes ela é tratada como uma segunda língua.
+        
+- **Ações de Design para Surdez:**
+    - **Conteúdo:** Adotar uma linguagem mais simples nos textos.
+    - **Organização:** Apresentar as informações importantes no início do conteúdo.
+    - **Visual:** Favorecer ilustrações visuais.
+    - **Mídia:** Prover **legendas ou transcrição textual** para os conteúdos em áudio e vídeo.
+    - **Assistência:** Oferecer a transcrição para a linguagem dos sinais (Tecnologias Assistivas como o VLIBRAS).
+
+---
+## 4. Deficiência Física
+
+Pessoas com deficiências físicas têm dificuldades para deslocar, controlar e coordenar movimentos, que têm alcance limitado e força reduzida .
+
+- **Problemas Comuns:**
+    - Interagir com **menus em cascata não persistentes**.
+    - Clicar em comandos ou _links_ que são **pequenos, numerosos e muito próximos** uns dos outros.
+        
+- **Ações de Design para Deficiência Física:**
+    - **Alvos Maiores** 
+    - **Teclado:** Estabelecer uma **ordem de tabulação lógica** e criar **atalhos de teclado** .
+    - **Tecnologias Assistivas:** O usuário pode usar dispositivos adaptados, como _trackballs_ (mouse invertido), teclados de uma só mão, ou teclados virtuais .        
+
+---
+### 4. Deficiência Cognitiva e Idade
+
+Esta categoria engloba desde déficits de atenção e dislexia até condições como Autismo, Síndrome de Down e Demência .
+
+- **Dificuldades:** Interpretação de estímulos visuais e auditivos, dificuldade para conversar, raciocinar, memorizar e aprender de maneira geral .
+    
+- **Ações de Design (Simplicidade):**
+    
+    - **Redução:** Diminuir a quantidade de opções, comandos e _links_.
+        
+    - **Linguagem:** Usar linguagem simples em frases e parágrafos curtos.
+        
+    - **Visual:** Ilustrar textos com imagens e vídeos.
+        
+- **Foco em Pessoas Idosas:** O envelhecimento traz dificuldades de leitura de textos pequenos, e de controle e coordenação do _mouse_ .
+    
+    - **Ações:** Exigem fontes grandes e ajustáveis, contraste adequado, e áreas clicáveis maiores e mais distantes umas das outras .
+        
+
+### 4. Analfabetismo e Limitações Tecnológicas
+
+A acessibilidade também considera quem tem dificuldades com a linguagem e tecnologia .
+
+- **Analfabetismo Funcional:** É a dificuldade de compreender textos simples.
+    
+    - **Ações:** Priorizar **linguagem visual e sonora** e usar frases curtas e simples .
+        
+- **Limitações Tecnológicas:** Conexão de baixa velocidade ou equipamentos ultrapassados.
+    
+    - **Ações:** Otimizar o desempenho dos sites e prover equivalentes de texto para imagens e vídeos (para que o sistema funcione mesmo se o gráfico não carregar).
