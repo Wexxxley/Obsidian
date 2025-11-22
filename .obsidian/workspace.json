@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15_IHC (Cadeira)/3_Design participativo.md",
+                "file": "15_IHC (Cadeira)/4_Coleta de dados.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Design participativo"
+              "title": "4_Coleta de dados"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "15_IHC (Cadeira)/3_Design participativo.md",
+                "file": "15_IHC (Cadeira)/4_Coleta de dados.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_Design participativo"
+              "title": "Outline of 4_Coleta de dados"
             }
           },
           {
@@ -182,13 +182,13 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "15_IHC (Cadeira)/3_Design participativo.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap8/2_Componentes Distribuidos.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap8/1_Introdução.md",
     "attachments/Pasted image 20251121185916.png",
     "15_IHC (Cadeira)/5_Técnicas de coleta de dados.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap8",
     "15_IHC (Cadeira)/4_Coleta de dados.md",
-    "15_IHC (Cadeira)/3_Design participativo.md",
     "15_IHC (Cadeira)/2_Processos de design de IHC.md",
     "15_IHC (Cadeira)/1_Conceitos básicos.md",
     "17_Node.js/1_Runtime e Módulos.md",
