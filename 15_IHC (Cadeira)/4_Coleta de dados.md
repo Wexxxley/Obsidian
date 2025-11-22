@@ -11,6 +11,10 @@ A coleta de dados começa na **atividade de Análise**, cujo principal objetivo 
 - **Informações Obrigatórias:** Requisitos vindos de regras de negócio, normas ou restrições.
 - **Informações Desejáveis:** Requisitos passíveis de negociação, adaptações ou descarte.
 
+
+- **Contexto Real de Uso (Ambientes Naturais):** Fornece dados de situações típicas de uso que não seriam percebidas em laboratório. É difícil controlar sua execução.
+- **Laboratório (Ambientes Controlados):** Oferece **maior controle** sobre as interferências do ambiente, facilitando o registro de dados e permitindo a redução de influências externas.
+    
 ---
 ### A. Objetivos Comuns da Avaliação
 - Compreender como o sistema afeta a vida pessoal e profissional dos usuários e em que grau satisfaz suas necessidades.
@@ -23,13 +27,9 @@ A coleta de dados começa na **atividade de Análise**, cujo principal objetivo 
 - **Avaliação Somativa:** Ocorre **depois que a solução estiver pronta**. É usada para avaliar qualquer objetivo e pode utilizar protótipos de alta fidelidade ou o sistema.
 
 ---
-### A. Onde Coletar?
 
-- **Contexto Real de Uso (Ambientes Naturais):** Fornece dados de situações típicas de uso que não seriam percebidas em laboratório. É difícil controlar sua execução.
-- **Laboratório (Ambientes Controlados):** Oferece **maior controle** sobre as interferências do ambiente, facilitando o registro de dados e permitindo a redução de influências externas.
-    
 
-### B. Que Tipo de Método? Os métodos se dividem em duas grandes categorias:
+### Métodos
 
 ![](../attachments/Pasted%20image%2020251119131249.png)
 
