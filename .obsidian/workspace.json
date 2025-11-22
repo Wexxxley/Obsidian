@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Aleatorios/Amethyst.md",
+                "file": "15_IHC (Cadeira)/6_Personas e perfis de user.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amethyst"
+              "title": "6_Personas e perfis de user"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "16_Aleatorios/Amethyst.md",
+                "file": "15_IHC (Cadeira)/6_Personas e perfis de user.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Amethyst"
+              "title": "Outline of 6_Personas e perfis de user"
             }
           },
           {
@@ -182,6 +182,9 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251122150936.png",
+    "16_Aleatorios/Amethyst.md",
+    "15_IHC (Cadeira)/6_Personas e perfis de user.md",
     "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/7_Criando endpoints.md",
     "02_Dotnet/2_WebAPI/2_Fundamentos WEBAPI/2_Validação de modelos.md",
     "02_Dotnet/2_WebAPI/2_Fundamentos WEBAPI/1_Modelo de rotas.md",
@@ -202,7 +205,6 @@
     "attachments/Pasted image 20251121091351.png",
     "attachments/Pasted image 20251121090553.png",
     "attachments/Pasted image 20251121090514.png",
-    "16_Aleatorios/Amethyst.md",
     "17_Node.js",
     "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
     "attachments/Pasted image 20251120083118.png",
@@ -215,8 +217,6 @@
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/10_FTP.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/9_DNS.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/8_Proxy reverso.md",
-    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/7_Proxy.md",
-    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/6_Cookies.md",
     "attachments/Pasted image 20251119133603.png",
     "attachments/Pasted image 20251119131249.png",
     "attachments/Pasted image 20251119071508.png",
