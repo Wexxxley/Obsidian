@@ -23,13 +23,9 @@ A coleta de dados começa na **atividade de Análise**, cujo principal objetivo 
 - **Avaliação Somativa:** Ocorre **depois que a solução estiver pronta**. É usada para avaliar qualquer objetivo e pode utilizar protótipos de alta fidelidade ou o sistema.
 
 ---
-
-## 3. Onde e Como Coletar Dados
-
 ### A. Onde Coletar?
 
 - **Contexto Real de Uso (Ambientes Naturais):** Fornece dados de situações típicas de uso que não seriam percebidas em laboratório. É difícil controlar sua execução.
-    
 - **Laboratório (Ambientes Controlados):** Oferece **maior controle** sobre as interferências do ambiente, facilitando o registro de dados e permitindo a redução de influências externas.
     
 
