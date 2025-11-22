@@ -2,42 +2,25 @@
 #Concluded 
 
 ---
-## **1. Foco da Análise e Requisitos do Usuário**
 
 A coleta de dados começa na **atividade de Análise**, cujo principal objetivo é identificar os **requisitos dos usuários** e as **metas de design de IHC**.
 
 **Requisitos do Usuário**: São os objetivos, características e funcionalidades que o produto deve ter para ser considerado bem-sucedido, do ponto de vista do usuário.
-
-- **O que buscar:**
-    - **Objetivos** que o produto deve apoiar.
-    - **Características e atributos** que o produto deve ter.
-    - De que maneira o sistema deve se comportar
-    - **Funcionalidades** de que os usuários precisam.
-        
 
 É crucial distinguir entre:
 - **Informações Obrigatórias:** Requisitos vindos de regras de negócio, normas ou restrições.
 - **Informações Desejáveis:** Requisitos passíveis de negociação, adaptações ou descarte.
 
 ---
-## 2. Objetivos e Tipos de Avaliação
-
 ### A. Objetivos Comuns da Avaliação
-
 - Compreender como o sistema afeta a vida pessoal e profissional dos usuários e em que grau satisfaz suas necessidades.
-    
 - Comparar diferentes soluções, muitas vezes usando protótipos.
-    
-- Verificar se o sistema segue padrões estabelecidos (W3C, Windows, ou padrões internos).
-    
 - Identificar falhas que prejudiquem a qualidade de uso, classificando-as por gravidade e frequência.
 
 ### B. Quando avaliar?
-
-- **Avaliação Formativa (Construtiva):** Ocorre **antes de haver uma solução pronta**. É usada para analisar ideias, comparar alternativas e identificar problemas iniciais, usando esboços.
+- **Avaliação Formativa:** Ocorre **antes de haver uma solução pronta**. É usada para analisar ideias, comparar alternativas e identificar problemas iniciais, usando esboços.
     
-- **Avaliação Somativa (Conclusiva):** Ocorre **depois que a solução estiver pronta**. É usada para avaliar qualquer objetivo e pode utilizar protótipos de alta fidelidade ou o sistema.
-    
+- **Avaliação Somativa:** Ocorre **depois que a solução estiver pronta**. É usada para avaliar qualquer objetivo e pode utilizar protótipos de alta fidelidade ou o sistema.
 
 ---
 
