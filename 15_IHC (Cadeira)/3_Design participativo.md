@@ -13,9 +13,9 @@
 
 "<mark style="background: #ADCCFFA6;">Design COM o Usuário, e não apenas Design PARA o Usuário</mark>".
 
-- **Design para o usuario**: Usuários são apenas fonte de dados para que os designers tomem decisões de forma hierarquizada e autoritária.
+- **Design PARA o usuario**: Usuários são apenas fonte de dados para que os designers tomem decisões de forma hierarquizada e autoritária.
 
-- **Design participativo:** Usuários se envolvem e participam ativamente.
+- **Design COM o user:** Usuários se envolvem e participam ativamente.
 	- No DP, os usuários devem atuar como coprojetistas
 	- O usuário final deve dar contribuições em todo o ciclo de vida do sistema.
 
