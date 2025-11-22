@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 Ambos são modelos usados para representar o público-alvo, mas com focos diferentes:
@@ -14,41 +15,33 @@ Ambos são modelos usados para representar o público-alvo, mas com focos difere
 	- **Serventia:**
 	    - Torna os usuários **indivíduos concretos** na mente da equipe.
 	    - Serve como **ferramenta de discussão** e ajuda a equipe a justificar decisões de design.
-	    - **Definição:** Uma persona é definida principalmente por seus **objetivos**, que tornam claro o que o produto deve fazer .
+	    - Uma persona é definida principalmente por seus **objetivos**, que tornam claro o que o produto deve fazer .
         
-- **Proto-personas:** São um "protótipo de persona", criadas **antes das pesquisas de campo**, baseadas em suposições ou _desk research_. Elas são usadas para iniciar a conversa e devem ser **validadas ou refutadas** com a pesquisa real .
-    
+- **Proto-personas:** São um "protótipo de persona", criadas **antes das pesquisas de campo**, baseadas em suposições. Elas são usadas para iniciar a conversa e devem ser **validadas ou refutadas** com a pesquisa real .
 
 ---
+## 2. Tipos de Objetivos
 
-## 2. Tipos de Objetivos (O Porquê)
+Projetar a partir de **tarefas** em vez de **objetivos** é uma das principais causas de interação ineficiente.
 
-Um conceito central em Persona é o **Objetivo**. Projetar a partir de **tarefas** em vez de **objetivos** é uma das principais causas de interação ineficiente.
+Um **Objetivo** é uma **condição final** que o usuário deseja alcançar. Uma **Tarefa** é um **processo intermediário** que muda com a tecnologia 
 
-- **Objetivo vs. Tarefa:** Um **Objetivo** é uma **condição final** (mais estável) que o usuário deseja alcançar. Uma **Tarefa** é um **processo intermediário** que muda com a tecnologia (ex: o objetivo de "viajar" é estável, mas a tarefa de "comprar a passagem" muda de uma agência para um app) .
-    
+(ex: o objetivo é "viajar" e "comprar a passagem" é uma tarefa)
 
-### Tipos de Objetivos (Níveis de Importância)
 
 Os objetivos de uma persona se dividem em três níveis de importância geral:
 
 1. **Objetivos Pessoais:** São os **mais importantes** e não devem ser violados.
-    
-    - Ex: Não cometer erros, ter uma quantidade de trabalho razoável, **não se sentir estúpido**.
+    - Ex: Não cometer erros, ão se sentir estúpido.
         
 2. **Objetivos Corporativos:** Relacionados à empresa (aumentar lucro, contratar mais). Os usuários só se esforçam para atingir esses objetivos após seus objetivos pessoais terem sido satisfeitos .
     
-3. **Objetivos Práticos:** Tarefas do dia a dia (processar requisições, evitar reuniões).
-    
+3. **Objetivos Práticos:** Tarefas do dia a dia (processar requisições, registrar o pedido de um cliente).
 
-### Falsos Objetivos
-
-São **meios** para se atingir um fim, e não objetivos finais.
+**Falsos Objetivos**: São **meios** para se atingir um fim, e não objetivos finais.
 
 - **Exemplo:** O falso objetivo é "Rodar o sistema no navegador". O objetivo **verdadeiro** é "Ter acesso ao sistema em qualquer lugar" .
-    
-- **Como descobrir:** Perguntar **"Por que"** a persona gostaria de atingir aquele objetivo, até chegar ao objetivo final verdadeiro.
-    
+
 
 ---
 
@@ -61,19 +54,13 @@ Um **Cenário** é basicamente uma **história** que descreve pessoas (as Person
 - **Estrutura:** Possui um enredo com sequência de **ações** e **eventos** dirigidos pelos **objetivos** dos atores .
     
 
-### Cenário de Análise (ou de Problema)
+---
+### Cenário
 
-Este é o tipo de cenário usado na **Atividade de Análise**.
+**Cenário** é uma **narrativa rica em detalhes** que descreve uma Persona realizando atividades em um contexto específico. Ele transforma dados e objetivos em uma história para a equipe de design.
 
-- **Foco:** Descreve a história do domínio de atividade **tal como ele existe antes da introdução da nova tecnologia**.
+O tipo de cenário mais usado na fase de **Análise** é o **Cenário de Análise**
+
+- **Objetivo:** Descrever o domínio de atividade **como ele existe hoje**, antes da intervenção tecnológica. Ele deve destacar **pontos de atrito**, **ineficiências** e **frustrações** do usuário, ou seja, onde o design atual falha.
     
-- **Serventia (Design Baseado em Cenários):** Ao concretizar o problema (o cenário), os designers têm melhores condições de investigar:
-    
-    - Quais atividades dos usuários poderiam ser executadas de forma mais eficiente.
-        
-    - O que pode ser modificado nos processos e sistemas atuais.
-        
-    - Como um sistema novo pode melhor apoiar essas atividades.
-        
-
-**Exemplo (Cenário do Projeto Final, Slide 28):** O cenário detalha o processo frustrante onde a secretária (Joana) precisa **interromper** o cadastro (problema de eficiência), buscar o e-mail do aluno em uma ficha impressa (problema de integração) e **reiniciar** o cadastro no dia seguinte. O cenário revela **pontos problemáticos** e as **oportunidades de melhoria** (ex: o sistema deveria permitir o cadastro do coorientador externo na hora) .
+- **Serventia:** Ao concretizar o problema, o cenário serve como ponto de partida para o **Design Baseado em Cenários**, ajudando a equipe a perguntar: "Como podemos reprojetar esta história para que seja mais eficiente?".
