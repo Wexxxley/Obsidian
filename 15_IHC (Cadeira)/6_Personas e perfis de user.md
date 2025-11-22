@@ -38,8 +38,7 @@ Os objetivos de uma persona se dividem em três níveis de importância geral:
 
 ---
 
-## 3. Cenários (O Como e Onde)
-
+## 3. Cenários
 Um **Cenário** é basicamente uma **história** que descreve pessoas (as Personas) realizando uma atividade em um contexto específico.
 
 - **O que é:** É uma narrativa (textual ou pictórica) **concreta e rica em detalhes contextuais**, de uma situação de uso.Ele deve destacar **pontos de atrito**, **ineficiências** e **frustrações** do usuário, ou seja, onde o design atual falha.
