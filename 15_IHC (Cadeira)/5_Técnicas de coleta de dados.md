@@ -4,15 +4,15 @@
 ---
 ## 1. Entrevistas e questionarios
 ### A. Entrevistas
-Conversa guiada por um roteiro de perguntas ou tópicos. É a melhor forma de coletar informações detalhadas e profundas de usuários individuais.
+Conversa guiada por um roteiro de perguntas ou tópicos
 
 - **Tipos de Perguntas:**
     - **Abertas:** Natureza exploratória (Ex: "Como o computador te auxilia diariamente?" ).
     - **Fechadas:** Conjunto pré-definido de respostas (Ex: Frequência de compras online).
         
 - **Tipos de Entrevista:**
-    - **Estruturada:** Segue fielmente o roteiro e a ordem predefinida das perguntas8.
-    - **Não Estruturada:** Totalmente flexível, guiada apenas pelo tópico9.
+    - **Estruturada:** Segue fielmente o roteiro e a ordem predefinida das perguntas.
+    - **Não Estruturada:** Totalmente flexível, guiada apenas pelo tópico.
     - **Semiestruturada:** Permite modificar a ordem dos tópicos, mas mantendo o foco nos objetivos.
 
 - A análise **Interparticipante** (entre participantes) foca nas **tendências gerais e centrais** de todas as respostas.O objetivo é ver o que a maioria pensa. 
