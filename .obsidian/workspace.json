@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_FrontEnd/5_React/2_.md",
+                "file": "07_FrontEnd/5_React/2_Componente.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_"
+              "title": "2_Componente"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_FrontEnd/5_React/2_.md",
+                "file": "07_FrontEnd/5_React/2_Componente.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_"
+              "title": "Outline of 2_Componente"
             }
           },
           {
@@ -183,7 +183,7 @@
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
     "07_FrontEnd/5_React/1_Introdução.md",
-    "07_FrontEnd/5_React/2_.md",
+    "07_FrontEnd/5_React/2_Componente.md",
     "attachments/Pasted image 20251123164152.png",
     "attachments/Pasted image 20251123164023.png",
     "attachments/Pasted image 20251123163935.png",
