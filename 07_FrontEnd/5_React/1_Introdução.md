@@ -17,50 +17,42 @@ Para o desenvolvimento moderno em React, o ambiente requer: **Node.js e NPM**, n
 O **Vite** é a ferramenta de build adotada pelo livro para orquestrar o ambiente de desenvolvimento. Ele resolve a complexidade de configurar manualmente transpiladores e empacotadores.
 
 ```
-npm create vite@latest nomePro -- --template react
+npm create vite@latest nomeProj -- --template react
 ```
 
-Após a criação da estrutura de pastas, é necessário instalar as dependências listadas no manifesto do projeto (`package.json`) através do `npm install`. 
-
-cd hacker-stories
+```
+cd nomeProj
 npm install
 npm run dev
-#### 3. Análise da Estrutura de Arquivos (Páginas 18-19)
+```
 
-Ao abrir o projeto, você encontrará uma estrutura específica. Vamos analisar tecnicamente os arquivos críticos mencionados no livro:
+---
+### **3. Análise da Estrutura de Arquivos**
 
-- **`index.html` (O Entry Point do Navegador):**
-    
-    - Este é o arquivo que o navegador carrega primeiro.
-        
-    - Ele contém o nó raiz: `<div id="root"></div>`.
-        
-    - Crucialmente, ele contém uma tag `<script type="module" src="/src/main.jsx">`. Isso instrui o navegador a carregar o ponto de entrada JavaScript da aplicação .
-        
-- **`src/main.jsx` (O Entry Point do React):**
-    
-    - Este arquivo é responsável por inicializar a árvore de componentes do React e anexá-la ao elemento DOM `#root` definido no HTML.
-        
-- **`src/App.jsx`:**
-    
-    - Contém a definição do componente raiz. É aqui que a lógica da aplicação começa a ser implementada.
-        
-- **`package.json`:**
-    
-    - O arquivo de manifesto que define as dependências (bibliotecas) e os metadados do projeto.
-        
-- **`vite.config.js`:**
-    
-    - Arquivo de configuração do Vite. Nele, o plugin do React é ativado para permitir que o Vite entenda e transpile a sintaxe JSX.
-        
+![](../../attachments/Pasted%20image%2020251123163549.png)
 
-#### 4. Scripts de Automação (NPM Scripts) (Página 20)
-
-O `package.json` define scripts que abstraem comandos complexos do Vite. Eles são executados via `npm run <script>`:
-
-- **`dev` (`vite`):** Inicia o servidor de desenvolvimento local. Ele suporta _Hot Module Replacement_ (HMR), o que significa que alterações no código são refletidas no navegador sem recarregar a página inteira.
+- **index.htm:** Este é o arquivo que o navegador carrega primeiro. Ele contém uma tag `src="/src/main.jsx">`. Isso instrui o navegador a carregar o ponto de entrada js.
+	![](../../attachments/Pasted%20image%2020251123163711.png)
+        
+- **src/main.jsx:** Arquivo é responsável por inicializar a árvore de componentes do React e anexá-la ao elemento DOM `#root` definido no HTML.
+    ![](../../attachments/Pasted%20image%2020251123163935.png)
     
-- **`build` (`vite build`):** Compila a aplicação para produção. Cria a pasta `dist/` com arquivos HTML/CSS/JS prontos para deploy.
+- **src/App.jsx:** Contém a definição do componente raiz. É aqui que a lógica da aplicação começa a ser implementada.
+    ![](../../attachments/Pasted%20image%2020251123164023.png)
+    
+- **package.json:** O arquivo que define as dependências e os metadados do projeto.
+        
+- **vite.config.js:** Arquivo de configuração do Vite. Nele, o plugin do React é ativado para permitir que o Vite entenda e transpile a sintaxe JSX.
+	![](../../attachments/Pasted%20image%2020251123164152.png)
+
+---
+### **4. Scripts de Automação** 
+
+O package.json define scripts que abstraem comandos complexos do Vite.
+
+- **npm run dev:** Inicia o servidor de desenvolvimento local. Ele suporta Hot Module Replacement, o que significa que alterações no código são refletidas no navegador sem recarregar a página.
+    
+- **npm run build:** Compila a aplicação para produção. Cria a pasta `dist/` com arquivos HTML/CSS/JS prontos para deploy.
     
 - **`preview` (`vite preview`):** Serve localmente os arquivos da pasta `dist/` para testar como a aplicação se comportará em produção.
     
