@@ -3,7 +3,7 @@
 ---
 ## **1. Qualidade em IHC**
 
-A qualidade em IHC é avaliada pela adequação da interface e interação, garantindo que o usuário aproveite ao máximo o apoio computacional oferecido.
+A qualidade em IHC é <mark style="background: #ADCCFFA6;">avaliada pela adequação da interface e interação, garantindo que o usuário aproveite ao máximo o apoio computacional</mark> oferecido.
 
 Os principais **Critérios de Qualidade de Uso** que enfatizam as características adequadas são:
 - **Usabilidade**
@@ -15,25 +15,23 @@ A acessibilidade é a base, pois um sistema inacessível não pode ser usado.
 
 Durante a interação, o usuário emprega :
 - **Habilidade Motora:** para agir nos dispositivos de entrada.
-- **Sentidos (Visão, Audição, Tato) e Percepção:** para identificar as respostas do sistema nos dispositivos de saída.
+- **Sentidos e Percepção:** para identificar as respostas do sistema nos dispositivos de saída.
 - **Capacidade Cognitiva:** para interpretar, raciocinar e planejar os próximos passos.
 
 A acessibilidade se concentra em garantir que o sistema não crie barreiras para usuários que possuem limitações em uma ou mais dessas habilidades.
 
 ---
-## 2. Deficiência Visual
+## **2. Deficiência Visual**
 
-#### **Dificuldades para Baixa Visão**
-
+#### **A. Baixa Visão**
 A redução do campo periférico dificulta a visão do todo, exigindo que a pessoa realize um grande número de varreduras visuais para perceber uma cena e, depois, integre essas visões parciais.
 
 - **Contraste:** Prover contraste adequado entre o texto e o fundo.
 - **Fontes:** Apresentar fontes grandes e ampliáveis.
-- **Layout:** Pessoas com baixa visão enfrentam obstáculos devido à distância excessiva entre os componentes 
+- **Layout:** Evitar distância excessiva entre os componentes 
 - **Ferramentas de Apoio:** Utilizam ferramentas de ampliação de imagens e ferramentas de inversão de contraste.
-#### Cegueira
-
-Pessoas cegas interagem principalmente pelo teclado e utilizam um software **leitor de tela**. O usuário cego tem uma carga mnemônica considerável para memorizar a infinidade de atalhos de teclado e para **percorrer a tela diversas vezes** para montar o modelo mental a partir do que o leitor anuncia. Em interfaces de toque, isso é simplificado, pois os dedos funcionam como o cursor do leitor.
+#### B. Cegueira
+Pessoas cegas interagem principalmente pelo teclado e utilizam um software de **leitor de tela**. O usuário cego que memorizar a infinidade de atalhos de teclado e para **percorrer a tela diversas vezes** para montar o modelo mental a partir do que o leitor anuncia. Em interfaces de toque, isso é simplificado, pois os dedos funcionam como o cursor do leitor.
 
 | **Problema Comum**       | **Ações de Design Recomendadas**                                                         |
 | ------------------------ | ---------------------------------------------------------------------------------------- |
@@ -41,6 +39,7 @@ Pessoas cegas interagem principalmente pelo teclado e utilizam um software **lei
 | **Informações por cor**  | Legendas textuais para informações não textuais (ex.: cores diferentes).                 |
 | **Navegação (HTML)**     | Associar rótulos e campos (label, name), cabeçalhos e células de uma tabela (header, id) |
 | **Sessões Curta**        | Prever a possibilidade de prolongar as sessões na Web.                                   |
+![300](../attachments/Pasted%20image%2020251123070501.png)
 
 ---
 ## 3. Deficiência Auditiva
@@ -57,6 +56,7 @@ A deficiência auditiva apresenta um desafio de comunicação, pois o surdo de n
     - **Visual:** Favorecer ilustrações visuais.
     - **Mídia:** Prover **legendas ou transcrição textual** para os conteúdos em áudio e vídeo.
     - **Assistência:** Oferecer a transcrição para a linguagem dos sinais (Tecnologias Assistivas como o VLIBRAS).
+	![300](../attachments/Pasted%20image%2020251123070349.png)
 
 ---
 ## 4. Deficiência Física
@@ -65,7 +65,7 @@ Pessoas com deficiências físicas têm dificuldades para deslocar, controlar e 
 
 - **Problemas Comuns:**
     - Interagir com **menus em cascata não persistentes**.
-    - Clicar em comandos ou _links_ que são **pequenos, numerosos e muito próximos** uns dos outros.
+    - Clicar em comandos ou links que são pequenos, numerosos e muito próximos.
         
 - **Ações de Design para Deficiência Física:**
     - **Alvos Maiores** 
