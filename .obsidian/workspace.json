@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_FrontEnd/5_React/3_Component tree.md",
+                "file": "07_FrontEnd/5_React/4_React DOM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Component tree"
+              "title": "4_React DOM"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_FrontEnd/5_React/3_Component tree.md",
+                "file": "07_FrontEnd/5_React/4_React DOM.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_Component tree"
+              "title": "Outline of 4_React DOM"
             }
           },
           {
@@ -182,20 +182,20 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "07_FrontEnd/5_React/3_Component tree.md",
+    "07_FrontEnd/5_React/4_React DOM.md",
     "attachments/Pasted image 20251123180611.png",
     "attachments/Pasted image 20251123180312.png",
     "attachments/Pasted image 20251123180227.png",
     "attachments/Pasted image 20251123180211.png",
     "attachments/Pasted image 20251123180151.png",
     "07_FrontEnd/5_React/2_Componente.md",
-    "07_FrontEnd/5_React/3_Component tree.md",
     "07_FrontEnd/5_React/1_Introdução.md",
     "attachments/Pasted image 20251123171325.png",
     "attachments/Pasted image 20251123171225.png",
     "attachments/Pasted image 20251123171205.png",
     "attachments/Pasted image 20251123164152.png",
     "attachments/Pasted image 20251123164023.png",
-    "attachments/Pasted image 20251123163935.png",
     "07_FrontEnd/4_Node.js/1_Runtime e Módulos.md",
     "07_FrontEnd/4_Node.js/2_Gerenciamento de dependências.md",
     "07_FrontEnd/4_Node.js/4_Dotenv.md",
