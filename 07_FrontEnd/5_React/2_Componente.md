@@ -58,3 +58,13 @@ Dentro do JSX, utiliza-se chaves {} para executar o código JavaScript. O métod
 ![](../../attachments/Pasted%20image%2020251123171325.png)
 
 O React <mark style="background: #ADCCFFA6;">exige que cada elemento renderizado via iteração de array possua um atributo key</mark>. O key é um identificador estável que permite ao algoritmo de reconciliação do React rastrear quais itens mudaram, foram adicionados ou removidos. O uso do índice do array é desencorajado, pois a reordenação da lista pode causar bugs de estado no componente.
+
+---
+### **4. React DOM**
+
+O arquivo `src/main.jsx` é o ponto de conexão entre o React e o DOM nativo do navegador.
+![](../../attachments/Pasted%20image%2020251123192509.png)
+
+- **createRoot:** Método que inicializa a árvore de renderização do React concorrente.
+- **document.getElementById('root'):** Seleciona a div vazia no index.html onde a aplicação será injetada.
+- **render(<App />):** Instancia o componente raiz, iniciando o processo de renderização recursiva de toda a árvore de componentes.

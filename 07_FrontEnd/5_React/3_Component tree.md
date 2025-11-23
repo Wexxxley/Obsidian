@@ -24,6 +24,8 @@ O componente App passa a atuar como um orquestrador, instanciando os componentes
 - Componentes que não renderizam outros componentes são chamados de folhas.
 	![](../../attachments/Pasted%20image%2020251123180611.png)
 
+---
+### **3. Arrow functions**
 
 O livro propõe a refatoração das declarações de função padrão para **Arrow Functions**, alinhando-se aos padrões modernos de JavaScript.
 
