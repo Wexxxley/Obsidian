@@ -54,11 +54,7 @@ O package.json define scripts que abstraem comandos complexos do Vite.
     
 - **npm run build:** Compila a aplicação para produção. Cria a pasta `dist/` com arquivos HTML/CSS/JS prontos para deploy.
     
-- **`preview` (`vite preview`):** Serve localmente os arquivos da pasta `dist/` para testar como a aplicação se comportará em produção.
-    
+- **npm run preview:** Serve localmente os arquivos da pasta `dist/` para testar como a aplicação se comportará em produção.
 
 ---
 
-**Conceito Chave:** O Vite atua como o intermediário que pega seu código moderno (JSX, React 19) e o entrega de forma que o navegador consiga executar, seja via transpilacao em tempo real (dev) ou empacotamento (build).
-
-Isso cobre detalhadamente a infraestrutura do Vite.
