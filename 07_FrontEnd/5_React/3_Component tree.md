@@ -22,24 +22,18 @@ O componente App passa a atuar como um orquestrador, instanciando os componentes
 ---
 ### **2. Component Tree**
 
-Esta estrutura cria uma árvore onde:
-
-- `App` é o **Parent Component** (componente pai) ou Root.
-    
-- `List` e `Search` são **Child Components** (filhos) de `App` e **Sibling Components** (irmãos) entre si.
-    
-- Componentes que não renderizam outros componentes são chamados de **Leaf Components** (folhas)5.
-    
+- App é o componente pai ou Root.
+- List e Search são filhos de App e irmãos entre si.
+- Componentes que não renderizam outros componentes são chamados de folhas.
+	![](../../attachments/Pasted%20image%2020251123180611.png)
 
 ---
 
-### **9. React Component Instantiation (Páginas 36-38)**
+### **9. Intanciação vs declaração de componentes 
 
-O livro formaliza a distinção entre declaração e instância:
+- **Declaração:** É a definição da função (o código fonte).
 
-- **Component Declaration (Declaração):** É a definição da função (o código fonte). Ex: `function List() { ... }`. É o "blueprint"6.
-    
-- **Component Instantiation (Instanciação):** Ocorre quando o componente é invocado dentro do JSX usando a sintaxe de tag `<List />`. O React cria uma instância desse componente para ser montada no DOM. É possível criar múltiplas instâncias independentes a partir de uma única declaração 7.
+- **Instanciação:** Ocorre quando o componente é invocado dentro do JSX usando a sintaxe de tag `<List />`. O React cria uma instância desse componente para ser montada no DOM. É possível criar múltiplas instâncias independentes a partir de uma única declaração 7.
     
 
 ---
