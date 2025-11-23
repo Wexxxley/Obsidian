@@ -2,6 +2,8 @@
 
 
 ---
+### **1. Event Handlers**
+
 Para adicionar interatividade, o React utiliza **Event Handlers**.  Diferente do HTML nativo (onclick), o React utiliza a convenção camelCase para eventos (onClick, onChange) e espera uma função.
 
 **Synthetic Events:** O React não passa eventos nativos do navegador para os handlers. Ele encapsula o evento nativo em um **SyntheticEvent**. Isso garante compatibilidade entre diferentes navegadores e otimiza a performance .
@@ -12,17 +14,19 @@ Deve-se passar a referência da função, não a sua execução.
 - **Correto:** onChange={handleChange}. Passa a func para ser executada quando o evento ocorrer
 - **Incorreto:** onChange={handleChange()}. Executa a função durante a renderização.
 
+Nesse exemplo, toda vez que digito algo no input, o console imprime.
+![](../../attachments/Pasted%20image%2020251123193353.png)
+
 ---
+### **2. React Props**
 
-### **13. React Props (Páginas 48-51)**
+As Props são o mecanismo para passar dados de um componente pai para um componente filho.
 
-As **Props** (propriedades) são o mecanismo para passar dados de um componente pai (Parent) para um componente filho (Child) na hierarquia.
-
-**Refatoração da Lista:** A variável `stories` (anteriormente `list`) é movida para o escopo do componente `App` e passada para o componente `List` via atributo JSX.
+**Refatoração da Lista:** A variável stories (anteriormente list) é movida para o escopo do componente `App` e passada para o componente `List` via atributo JSX.
 
 JavaScript
 
-```
+```js
 const App = () => {
   const stories = [ ... ]; // Vetor de dados definido aqui
 
