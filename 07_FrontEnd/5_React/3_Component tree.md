@@ -1,89 +1,26 @@
 
+#Concluded 
 
 ---
 
-
-
-A renderização de listas em React utiliza o JavaScript nativo. O método map() de arrays é o padrão para iterar sobre dados e retornar elementos JSX.
-
-Inicialmente, a lista de dados é definida como uma variável fora do componente, simulando dados que viriam de uma API JSON.
-
-![](../../attachments/Pasted%20image%2020251123171205.png)
-
-Dentro do JSX, utiliza-se chaves {} para executar o código JavaScript. O método map itera sobre cada objeto item da lista e retorna um elemento 1.
-![](../../attachments/Pasted%20image%2020251123171325.png)
-
-O React exige que cada elemento renderizado via iteração de array possua um atributo key.
-
-- **Propósito Técnico:** O `key` é um identificador estável que permite ao algoritmo de reconciliação do React rastrear quais itens mudaram, foram adicionados ou removidos. Isso otimiza a performance de re-renderização 2.
-    
-- **Valor do `key`:** Deve ser um identificador único e estável (como `item.objectID`). O uso do índice do array (`index`) é desencorajado, pois a reordenação da lista pode causar problemas de performance e bugs de estado no componente 3.
-    
-
----
-
-### **8. Meet another React Component (Páginas 32-35)**
-
+### **1. Extraindo componentes**
 À medida que a aplicação cresce, manter toda a lógica no componente `App` torna-se insustentável. O processo de refatoração envolve extrair partes da UI para componentes dedicados.
 
-Extração do Componente List:
+**Extração do Componente List**
+![](../../attachments/Pasted%20image%2020251123180211.png)
 
-A responsabilidade de renderizar a lista é movida para um novo componente.
-
-JavaScript
-
-```
-function List() {
-  return (
-    <ul>
-      {list.map(function (item) {
-        return (
-           // ... conteúdo do item da lista com key ...
-           <li key={item.objectID}>...</li>
-        );
-      })}
-    </ul>
-  );
-}
-```
-
-Extração do Componente Search:
-
-Os elementos de input e label são movidos para um componente Search.
-
-JavaScript
-
-```
-function Search() {
-  return (
-    <div>
-      <label htmlFor="search">Search: </label>
-      <input id="search" type="text" />
-    </div>
-  );
-}
-```
-
+**Extração do Componente Search**
+![](../../attachments/Pasted%20image%2020251123180227.png)
 Composição no App:
 
-O componente App passa a atuar como um orquestrador, instanciando os componentes filhos 4.
+O componente App passa a atuar como um orquestrador, instanciando os componentes filhos.
 
-JavaScript
+![](../../attachments/Pasted%20image%2020251123180312.png)
+![](../../attachments/Pasted%20image%2020251123180151.png)
 
-```
-function App() {
-  return (
-    <div>
-      <h1>My Hacker Stories</h1>
-      <Search />
-      <hr />
-      <List />
-    </div>
-  );
-}
-```
 
-Hierarquia de Componentes (Component Tree):
+---
+### **2. Component Tree**
 
 Esta estrutura cria uma árvore onde:
 

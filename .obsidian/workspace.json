@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_FrontEnd/5_React/3_Listando valores com componente.md",
+                "file": "07_FrontEnd/5_React/3_Component tree.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Listando valores com componente"
+              "title": "3_Component tree"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_FrontEnd/5_React/3_Listando valores com componente.md",
+                "file": "07_FrontEnd/5_React/3_Component tree.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_Listando valores com componente"
+              "title": "Outline of 3_Component tree"
             }
           },
           {
@@ -182,26 +182,26 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251123180312.png",
+    "attachments/Pasted image 20251123180227.png",
+    "attachments/Pasted image 20251123180211.png",
+    "attachments/Pasted image 20251123180151.png",
+    "07_FrontEnd/5_React/2_Componente.md",
+    "07_FrontEnd/5_React/3_Component tree.md",
+    "07_FrontEnd/5_React/1_Introdução.md",
     "attachments/Pasted image 20251123171325.png",
     "attachments/Pasted image 20251123171225.png",
     "attachments/Pasted image 20251123171205.png",
-    "07_FrontEnd/5_React/2_Componente.md",
-    "07_FrontEnd/5_React/3_Listando valores com componente.md",
-    "07_FrontEnd/5_React/1_Introdução.md",
     "attachments/Pasted image 20251123164152.png",
     "attachments/Pasted image 20251123164023.png",
     "attachments/Pasted image 20251123163935.png",
     "attachments/Pasted image 20251123163711.png",
-    "attachments/Pasted image 20251123163549.png",
     "07_FrontEnd/4_Node.js/1_Runtime e Módulos.md",
     "07_FrontEnd/4_Node.js/2_Gerenciamento de dependências.md",
     "07_FrontEnd/4_Node.js/4_Dotenv.md",
     "07_FrontEnd/17_Node.js/3_Buffers e Streams.md",
     "15_IHC (Cadeira)/7_Acessibilidade.md",
     "07_FrontEnd/5_React",
-    "attachments/Pasted image 20251123072120.png",
-    "attachments/Pasted image 20251123071610.png",
-    "attachments/Pasted image 20251123070501.png",
     "15_IHC (Cadeira)/6_Personas e perfis de user.md",
     "01_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/1_Linguagem compilada.md",
     "03_Redes de computadores (Cadeira)/4_Camada de rede/3_Protocolo IP e IPV4.md",
