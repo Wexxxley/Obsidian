@@ -97,3 +97,28 @@ Esta categoria engloba desde déficits de atenção e dislexia até condições 
         
 - **Limitações Tecnológicas:** Conexão de baixa velocidade ou equipamentos ultrapassados.
     - **Ações:** Otimizar o desempenho dos sites e prover equivalentes de texto para imagens e vídeos (para que o sistema funcione mesmo se o gráfico não carregar).
+
+---
+
+## **7. Recomendações de acessibilidade**
+
+WCAG 2 (Diretrizes de Acessibilidade para Conteúdo Web)
+![550](../attachments/Pasted%20image%2020251123072120.png)
+
+**Princípios do design universal**
+
+**Equiparação nas possibilidades de uso:** pode ser utilizado por qualquer usuário em condições equivalentes.
+
+**Flexibilidade de uso:** atende a uma ampla gama de indivíduos, preferências e habilidades individuais.
+
+**Uso simples e intuitivo:** fácil de compreender, independentemente da experiência do usuário, de seus conhecimentos, aptidões linguísticas ou nível de concentração.
+
+**Informação perceptível:** fornece de forma eficaz a informação necessária, quaisquer que sejam as condições ambientais/físicas existentes ou as capacidades sensoriais do usuário.
+
+**Tolerância ao erro:** minimiza riscos e consequências negativas decorrentes de ações acidentais ou involuntárias.
+
+**Mínimo esforço físico:** pode ser utilizado de forma eficiente e confortável, com um mínimo de fadiga.
+
+**Dimensão e espaço para uso e interação:** espaço e dimensão adequados para a interação, o manuseio e a utilização, independentemente da estatura, da mobilidade ou da postura do usuário.
+
+
