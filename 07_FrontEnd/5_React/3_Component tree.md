@@ -24,4 +24,14 @@ O componente App passa a atuar como um orquestrador, instanciando os componentes
 - Componentes que não renderizam outros componentes são chamados de folhas.
 	![](../../attachments/Pasted%20image%2020251123180611.png)
 
----
+
+O livro propõe a refatoração das declarações de função padrão para **Arrow Functions**, alinhando-se aos padrões modernos de JavaScript.
+
+**Refatoração para Arrow Functions**
+![](../../attachments/Pasted%20image%2020251123182606.png)
+
+**Retorno Implícito**
+Se o componente não possui lógica antes do return , pode-se omitir as chaves {} e a palavra-chave return. Esta é uma boa forma para componentes "stateless" ou puramente visuais, tornando o código mais limpo.
+![](../../attachments/Pasted%20image%2020251123183448.png)
+
+

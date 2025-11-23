@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_FrontEnd/5_React/4_React DOM.md",
+                "file": "07_FrontEnd/5_React/3_Component tree.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_React DOM"
+              "title": "3_Component tree"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_FrontEnd/5_React/4_React DOM.md",
+                "file": "07_FrontEnd/5_React/3_Component tree.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 4_React DOM"
+              "title": "Outline of 3_Component tree"
             }
           },
           {
@@ -182,20 +182,21 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "07_FrontEnd/5_React/3_Component tree.md",
+    "attachments/Pasted image 20251123183448.png",
+    "07_FrontEnd/5_React/2_Componente.md",
     "07_FrontEnd/5_React/4_React DOM.md",
+    "07_FrontEnd/5_React/3_Component tree.md",
+    "attachments/Pasted image 20251123182827.png",
+    "attachments/Pasted image 20251123182606.png",
     "attachments/Pasted image 20251123180611.png",
     "attachments/Pasted image 20251123180312.png",
     "attachments/Pasted image 20251123180227.png",
     "attachments/Pasted image 20251123180211.png",
     "attachments/Pasted image 20251123180151.png",
-    "07_FrontEnd/5_React/2_Componente.md",
     "07_FrontEnd/5_React/1_Introdução.md",
     "attachments/Pasted image 20251123171325.png",
     "attachments/Pasted image 20251123171225.png",
     "attachments/Pasted image 20251123171205.png",
-    "attachments/Pasted image 20251123164152.png",
-    "attachments/Pasted image 20251123164023.png",
     "07_FrontEnd/4_Node.js/1_Runtime e Módulos.md",
     "07_FrontEnd/4_Node.js/2_Gerenciamento de dependências.md",
     "07_FrontEnd/4_Node.js/4_Dotenv.md",
@@ -218,7 +219,6 @@
     "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
     "15_IHC (Cadeira)/5_Técnicas de coleta de dados.md",
     "15_IHC (Cadeira)/4_Coleta de dados.md",
-    "15_IHC (Cadeira)/3_Design participativo.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap8",
     "07_FrontEnd/4_Node.js",
     "15_IHC (Cadeira)/Untitled",
