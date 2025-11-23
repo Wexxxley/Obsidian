@@ -32,44 +32,14 @@ export default App;
 
 O retorno da função do componente não é HTML puro, mas sim **JSX (JavaScript XML)**. O JSX é uma extensão de sintaxe que permite misturar HTML e JavaScript. Para renderizar conteúdo dinâmico (variáveis JavaScript) dentro do JSX, utiliza-se a sintaxe de chaves `{}`.
 
-**Atributos HTML no JSX:** Devido ao JSX ser transpilado para JavaScript, algumas palavras reservadas não podem ser usadas como atributos HTML nativos. O React adota o padrão camelCase 4:
+**Atributos HTML no JSX:** Devido ao JSX ser transpilado para JavaScript, algumas palavras reservadas não podem ser usadas como atributos HTML nativos. 
 
-- **`className`:** Substitui o atributo `class` do HTML (pois `class` é uma palavra reservada em JS para definição de classes).
-    
-- **`htmlFor`:** Substitui o atributo `for` usado em labels (pois `for` é usado em loops).
-    
+- **`className`:** Substitui o atributo `class` do HTML.
+- **`htmlFor`:** Substitui o atributo for usado em labels 
 
-**Exemplo de implementação com atributos JSX:**
+**Transpilar**:  Processo de converter código-fonte de uma linguagem para outra  mantendo um nível de abstração similar. O processo de transpilação (feito pelo Vite) pega esse código JSX e o transforma em JavaScript padrão.
 
-JavaScript
-
-```
-const title = 'React';
-
-function App() {
-  return (
-    <div>
-      <h1>Hello {title}</h1>
-      <label htmlFor="search">Search: </label>
-      <input id="search" type="text" />
-    </div>
-  );
-}
-
-export default App;
-```
-
-Interpolação de Dados:
-
-O JSX permite a interpolação de qualquer expressão JavaScript dentro das chaves, não apenas strings primitivas. Isso inclui:
+**Interpolação de Dados:** O JSX permite a interpolação de qualquer expressão JavaScript dentro das chaves, não apenas strings primitivas. Isso inclui:
 
 - Propriedades de objetos (ex: `{welcome.text}`).
-    
 - Execução de funções (ex: `{getTitle('React')}`).
-    
-
-Internamente, ferramentas como Babel/Vite transpilam esse JSX para métodos `React.createElement()`, que o navegador consegue interpretar 5.
-
----
-
-Diga **next** para ir para a próxima parte (Lists in React).
