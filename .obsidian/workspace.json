@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_FrontEnd/4_React/11_Componente reutilizavel.md",
+                "file": "07_FrontEnd/4_React/12_.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11_Componente reutilizavel"
+              "title": "12_"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_FrontEnd/4_React/11_Componente reutilizavel.md",
+                "file": "07_FrontEnd/4_React/12_.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 11_Componente reutilizavel"
+              "title": "Outline of 12_"
             }
           },
           {
@@ -182,8 +182,10 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "07_FrontEnd/4_React/11_Componente reutilizavel e inner content.md",
     "07_FrontEnd/4_React/12_.md",
-    "07_FrontEnd/4_React/11_Componente reutilizavel.md",
+    "attachments/Pasted image 20251124180745.png",
+    "attachments/Pasted image 20251124180728.png",
     "attachments/Pasted image 20251124180057.png",
     "attachments/Pasted image 20251124175307.png",
     "07_FrontEnd/4_React/10_Fragmentos.md",
@@ -212,13 +214,10 @@
     "attachments/Pasted image 20251124144440.png",
     "attachments/Pasted image 20251124144328.png",
     "attachments/Pasted image 20251124144304.png",
-    "attachments/Pasted image 20251124142359.png",
-    "attachments/Pasted image 20251124141942.png",
     "07_FrontEnd/4_React/3_Component tree.md",
     "07_FrontEnd/4_React/2_Componente.md",
     "07_FrontEnd/4_React/1_Introdução.md",
     "07_FrontEnd/4_React/4_Event handlers e props.md",
-    "07_FrontEnd/4_React/5_useState.md",
     "07_FrontEnd/4_React",
     "12_Sistemas Distribuídos (Cadeira)/Cap8",
     "07_FrontEnd/3_JavaScript/3_Node.js",
