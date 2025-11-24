@@ -14,7 +14,7 @@
 
 O componente App passa a atuar como um orquestrador, instanciando os componentes filhos.
 ![](../../attachments/Pasted%20image%2020251123180312.png)
-![](../../attachments/Pasted%20image%2020251123180151.png)
+![300](../../attachments/Pasted%20image%2020251123180151.png)
 
 ---
 ### **2. Component Tree**
@@ -33,7 +33,7 @@ O livro propõe a refatoração das declarações de função padrão para **Arr
 ![](../../attachments/Pasted%20image%2020251123182606.png)
 
 **Retorno Implícito**
-Se o componente não possui lógica antes do return , pode-se omitir as chaves {} e a palavra-chave return. Esta é uma boa forma para componentes "stateless" ou puramente visuais, tornando o código mais limpo.
+Se o componente não possui lógica antes do return , pode-se omitir as chaves {} e a palavra-chave return. Esta é uma boa forma para componentes "stateless" ou puramente visuais.
 ![](../../attachments/Pasted%20image%2020251123183448.png)
 
 
