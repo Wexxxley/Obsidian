@@ -33,107 +33,16 @@ Para que o termo de busca afete a lista, precisamos **elevar o estado** para o c
 3. **Filtragem de Dados:** Utilizamos o método `filter()` do JavaScript no `App` para criar uma nova lista derivada antes de passá-la para o componente `List`.
 
 **Código Refatorado (`src/App.jsx`):**
+![](../../attachments/Pasted%20image%2020251124101046.png)
+![](../../attachments/Pasted%20image%2020251124101113.png)
 
-JavaScript
-
-```jsx
-import * as React from 'react';
-
-const App = () => {
-  const stories = [
-    {
-      title: 'React',
-      url: 'https://react.dev/',
-      author: 'Jordan Walke',
-      objectID: 0,
-    },
-    {
-      title: 'Redux',
-      url: 'https://redux.js.org/',
-      author: 'Dan Abramov, Andrew Clark',
-      objectID: 1,
-    },
-  ];
-
-  // 1. O Estado é instanciado no Pai (Lifting State)
-  const [searchTerm, setSearchTerm] = React.useState('');
-
-  // 2. O Callback Handler atualiza o estado no Pai
-  const handleSearch = (event) => {
-    setSearchTerm(event.target.value);
-  };
-
-  // 3. Os dados são filtrados baseados no estado atual antes da renderização
-  // O método filter cria um novo array contendo apenas os itens que satisfazem a condição
-  const searchedStories = stories.filter(function (story) {
-    return story.title.toLowerCase().includes(searchTerm.toLowerCase());
-  });
-
-  return (
-    <div>
-      <h1>My Hacker Stories</h1>
-
-      {/* Passamos o callback para permitir que o Search atualize o estado */}
-      <Search onSearch={handleSearch} />
-
-      <hr />
-
-      {/* Passamos a lista JÁ FILTRADA para o componente de visualização */}
-      <List list={searchedStories} />
-    </div>
-  );
-};
-
-const Search = (props) => {
-  // O componente agora é stateless (sem estado interno de busca)
-  // Ele apenas repassa o evento para o pai via props
-  
-  return (
-    <div>
-      <label htmlFor="search">Search: </label>
-      <input id="search" type="text" onChange={props.onSearch} />
-    </div>
-  );
-};
-
-const List = (props) => (
-  <ul>
-    {props.list.map((item) => (
-      <Item key={item.objectID} item={item} />
-    ))}
-  </ul>
-);
-
-const Item = (props) => (
-  <li>
-    <span>
-      <a href={props.item.url}>{props.item.title}</a>
-    </span>
-    <span>{props.item.author}</span>
-    <span>{props.item.num_comments}</span>
-    <span>{props.item.points}</span>
-  </li>
-);
-
-export default App;
-```
-
-**Análise do Fluxo de Dados:**
-
-1. **Input:** O usuário digita no `Search`.
-    
-2. **Propagação:** O evento `onChange` dispara `props.onSearch`, que executa `handleSearch` no `App`.
-    
+1. **Input:** O usuário digita no `Search`.    
+2. **Propagação:** O evento `onChange` dispara `props.onSearch`, que executa `handleSearch`.
 3. **State Update:** `handleSearch` atualiza o estado `searchTerm` no `App` via `setSearchTerm`.
-    
 4. **Re-renderização:** O `App` é re-renderizado.
-    
 5. **Cálculo Derivado:** Durante a renderização, a constante `searchedStories` é recalculada filtrando o array original `stories` com o novo `searchTerm` .
-    
 6. **Atualização de Props:** O componente `List` recebe a nova lista filtrada via prop `list`.
-    
-7. **DOM Update:** O React atualiza a lista na tela, removendo os itens que não correspondem à busca.
-    
 
-A regra técnica fundamental aqui é: **Gerencie o estado no componente onde todos os componentes dependentes desse estado possam acessá-lo (seja para leitura ou escrita)** .
+![](../../attachments/Pasted%20image%2020251124101004.png)
 
+A regra é: <mark style="background: #ADCCFFA6;">Gerencie o estado no componente onde todos os componentes dependentes desse estado possam acessá-lo.</mark>
