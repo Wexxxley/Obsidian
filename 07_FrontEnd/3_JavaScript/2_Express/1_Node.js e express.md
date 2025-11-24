@@ -12,9 +12,8 @@ Node.js não é uma linguagem de programação. É um ambiente de execução. Su
 
 Express.js é um framework para Node.js. Você instala com:``npm install express``
 
-Seu objetivo é **simplificar e organizar a criação de APIs**. O Express fornece um conjunto de ferramentas e uma estrutura que tornam o processo muito mais fácil e rápido.
+Seu objetivo é **simplificar e organizar a criação de APIs**. O Express fornece um conjunto de ferramentas e uma estrutura que tornam o processo mais fácil.
 
 Na imagem vemos uma estrutura padrão de uma API usando express.
-
 ![](../../../attachments/Pasted%20image%2020250706073714.png)
 

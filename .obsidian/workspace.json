@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_FrontEnd/3_JavaScript/2_Express/2_Criando uma API simples.md",
+                "file": "15_IHC (Cadeira)/1_Conceitos básicos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Criando uma API simples"
+              "title": "1_Conceitos básicos"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_FrontEnd/3_JavaScript/2_Express/2_Criando uma API simples.md",
+                "file": "15_IHC (Cadeira)/1_Conceitos básicos.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_Criando uma API simples"
+              "title": "Outline of 1_Conceitos básicos"
             }
           },
           {
@@ -182,44 +182,44 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "15_IHC (Cadeira)/2_Processos de design de IHC.md",
+    "15_IHC (Cadeira)/3_Design participativo.md",
+    "15_IHC (Cadeira)/7_Acessibilidade.md",
+    "07_FrontEnd/3_JavaScript/3_Node.js/3_Dotenv.md",
+    "07_FrontEnd/3_JavaScript/3_Node.js/2_Gerenciamento de dependências.md",
+    "07_FrontEnd/3_JavaScript/3_Node.js/1_Runtime e Módulos.md",
+    "07_FrontEnd/3_JavaScript/2_Express/5_Consumindo API.md",
+    "07_FrontEnd/3_JavaScript/2_Express/4_Configurações finais.md",
+    "07_FrontEnd/3_JavaScript/2_Express/3_Criando rotas.md",
+    "07_FrontEnd/3_JavaScript/2_Express/2_Criando uma API simples.md",
     "07_FrontEnd/3_JavaScript/2_Express/1_Node.js e express.md",
     "07_FrontEnd/3_JavaScript/1_Introdução/1_Introdução.md",
-    "07_FrontEnd/5_React/10_Fragmentos.md",
+    "07_FrontEnd/4_React/10_Fragmentos.md",
     "07_FrontEnd/3_JavaScript/1_Introdução",
     "attachments/Pasted image 20251124151416.png",
     "attachments/Pasted image 20251124151206.png",
     "attachments/Pasted image 20251124151047.png",
-    "07_FrontEnd/5_React/9_Hooks customizados.md",
+    "07_FrontEnd/4_React/9_Hooks customizados.md",
     "attachments/Pasted image 20251124144440.png",
     "attachments/Pasted image 20251124144328.png",
     "attachments/Pasted image 20251124144304.png",
-    "07_FrontEnd/5_React/8_useEffect.md",
+    "07_FrontEnd/4_React/8_useEffect.md",
     "attachments/Pasted image 20251124142359.png",
     "attachments/Pasted image 20251124141942.png",
-    "07_FrontEnd/5_React/7_Componentes controlados.md",
-    "07_FrontEnd/5_React/6_Callback handlers.md",
+    "07_FrontEnd/4_React/7_Componentes controlados.md",
+    "07_FrontEnd/4_React/6_Callback handlers.md",
     "attachments/Pasted image 20251124140417.png",
-    "07_FrontEnd/5_React/3_Component tree.md",
+    "07_FrontEnd/4_React/3_Component tree.md",
     "attachments/Pasted image 20251124140412.png",
-    "07_FrontEnd/5_React/2_Componente.md",
-    "07_FrontEnd/5_React/1_Introdução.md",
-    "07_FrontEnd/5_React/4_Event handlers e props.md",
-    "07_FrontEnd/5_React/5_useState.md",
+    "07_FrontEnd/4_React/2_Componente.md",
+    "07_FrontEnd/4_React/1_Introdução.md",
+    "07_FrontEnd/4_React/4_Event handlers e props.md",
+    "07_FrontEnd/4_React/5_useState.md",
     "Untitled.md",
-    "07_FrontEnd/3_JavaScript/3_Node.js/1_Runtime e Módulos.md",
-    "07_FrontEnd/3_JavaScript/3_Node.js/2_Gerenciamento de dependências.md",
-    "07_FrontEnd/3_JavaScript/3_Node.js/4_Dotenv.md",
     "07_FrontEnd/17_Node.js/3_Buffers e Streams.md",
-    "15_IHC (Cadeira)/7_Acessibilidade.md",
-    "07_FrontEnd/5_React",
+    "07_FrontEnd/4_React",
     "15_IHC (Cadeira)/6_Personas e perfis de user.md",
     "01_Roadmap/1_Junior/1_Fundamentos/2_Linguagens/1_Linguagem compilada.md",
-    "03_Redes de computadores (Cadeira)/4_Camada de rede/3_Protocolo IP e IPV4.md",
-    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/11_Correio eletrônico.md",
-    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/9_DNS.md",
-    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/8_Proxy reverso.md",
-    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/7_Proxy.md",
-    "03_Redes de computadores (Cadeira)/2_Camada Aplicação/6_Cookies.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap8",
     "07_FrontEnd/3_JavaScript/3_Node.js",
     "15_IHC (Cadeira)/Untitled",
