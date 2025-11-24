@@ -49,26 +49,7 @@ O fluxo de dados no React é unidirecional (pai para filho via props). Para que 
 3. O Filho executa essa função prop quando o evento ocorre.
 
 **Implementação no Pai (App):**
-```jsx
-const App = () => {
-  const stories = [ ... ];
-
-  // Callback definido no Pai
-  const handleSearch = (event) => {
-    console.log(event.target.value);
-  };
-
-  return (
-    <div>
-      <h1>My Hacker Stories</h1>
-      {/* Passagem do callback via prop 'onSearch' */}
-      <Search onSearch={handleSearch} />
-      <hr />
-      <List list={stories} />
-    </div>
-  );
-};
-```
+![](../../attachments/Pasted%20image%2020251124075953.png)
 
 **Implementação no Filho (Search):**
 ```jsx
@@ -93,7 +74,6 @@ const Search = (props) => {
 
 Isso estabelece um canal de comunicação onde o componente filho controla quando o evento ocorre, mas a lógica de resposta ao evento (ou parte dela) reside no componente pai.
 
-
 No React, o Pai (App) consegue "ver" e enviar dados para o Filho (Search). Mas o Filho não tem acesso às variáveis ou funções do Pai. Para que o Filho consiga executar algo no Pai, o Pai precisa enviar uma **Função de Callback**.
 
 1. **No Pai:** O `App` cria uma função chamada `handleSearch`. Ela tem permissão para mexer nas coisas do `App`.
@@ -105,7 +85,7 @@ No React, o Pai (App) consegue "ver" e enviar dados para o Filho (Search). Mas o
 
 Ele está pegando a **referência** da função handleSearch e entregando para o componente Search dentro de uma variável chamada onSearch.
 
-Agora, dentro do componente `Search`, `props.onSearch` **aponta para o mesmo lugar na memória** que `handleSearch` do Pai.
+Agora, dentro do componente filho, props.onSearch **aponta para o mesmo lugar na memória**.
     
 3. **Execução (No Filho - `Search`):** Dentro do `Search`, quando o usuário digita, a função `handleChange` é acionada.
     
