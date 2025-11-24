@@ -57,5 +57,3 @@ O package.json define scripts que abstraem comandos complexos do Vite.
     
 - **npm run preview:** Serve localmente os arquivos da pasta `dist/` para testar como a aplicação se comportará em produção.
 
----
-

@@ -2,8 +2,8 @@
 #Concluded 
 
 ---
-
 ### **1. Extraindo componentes**
+
 À medida que a aplicação cresce, manter toda a lógica no componente `App` torna-se insustentável. O processo de refatoração envolve extrair partes da UI para componentes dedicados.
 
 **Extração do Componente List**

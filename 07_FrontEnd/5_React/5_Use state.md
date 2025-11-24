@@ -21,8 +21,15 @@ O `useState` é um React Hook que permite adicionar estado a componentes funcion
 ![](../../attachments/Pasted%20image%2020251124103903.png)
 
 ---
+### **3. Exemplo mostrar detalhes**
 
-### **3. Diferenças de uso**
+![](../../attachments/Pasted%20image%2020251124105017.png)
+![150](../../attachments/Pasted%20image%2020251124105032.png)
+![200](../../attachments/Pasted%20image%2020251124105049.png)
+
+---
+
+### **4. Diferenças de uso**
 
 A diferença fundamental está na **origem do novo dado**. Você precisa se perguntar: "De onde vem o valor que eu quero salvar?"
 
