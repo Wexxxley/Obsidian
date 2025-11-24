@@ -20,10 +20,28 @@ A afirmação é **Verdadeira**. A SIGCHI (Special Interest Group on Computer-Hu
 
 **E) Apple Macintosh, lançado em 1984, foi o primeiro computador comercial com interface gráfica (GUI).**
 
-Explicação:
-
-A afirmação é Falsa. Embora o Apple Macintosh (1984) seja o computador mais famoso por popularizar a Interface Gráfica do Usuário (GUI) 14e o mouse, o primeiro computador comercial a apresentar uma GUI foi o Xerox Star 8010, lançado em 198115.
+A afirmação é Falsa. Embora o Apple Macintosh (1984) seja o computador mais famoso por popularizar a Interface Gráfica do Usuário (GUI) e o mouse, o primeiro computador comercial a apresentar uma GUI foi o Xerox Star 8010, lançado em 1981.
 
 ---
 
-**Podemos prosseguir para a Questão 2? Digite "okay" para continuar.**
+## Questão 2
+
+**A) Na perspectiva parceiro de discurso, a interação é descrita como comunicação entre usuários.**
+
+A afirmação é Falsa. Na perspectiva Parceiro de Discurso, a interação é entendida como uma conversa usuário-sistema, onde o sistema assume o papel de interlocutor, raciocinando e adquirindo informação, comportando-se como uma pessoa.
+
+**B) Na perspectiva de sistema, o principal fator de qualidade é a eficiência.**
+
+A afirmação é **Verdadeira**. Na perspectiva de Sistema, o principal objetivo é aumentar a eficiência e a transmissão correta de dados. 
+ 
+**C) A perspectiva de mídia também inclui a comunicação entre designers e usuários.**
+
+A afirmação é **Verdadeira**. A perspectiva de Mídia trata o sistema como um meio de comunicação. Embora o foco principal seja a comunicação entre usuários, ela também inclui a comunicação unilateral dos designers do sistema para os usuários.
+
+**D) A principal característica da perspectiva de ferramenta é o foco na transmissão de dados.**
+
+A afirmação é Falsa. Na perspectiva de Ferramenta, a interação é vista como um processo de aplicar e manipular um instrumento (o sistema).
+
+**E) Na perspectiva de mídia, o principal fator de qualidade é a adequação da interpretação e geração de textos.**
+
+A afirmação é Falsa. A adequação da interpretação e geração de textos é o principal fator de qualidade na perspectiva de Parceiro de Discurso (onde a interação é uma conversa). Na perspectiva de Mídia, os fatores de qualidade mais evidentes são a qualidade da comunicação mediada e o entendimento mútuo entre os interlocutores (usuários e designer-usuário).
