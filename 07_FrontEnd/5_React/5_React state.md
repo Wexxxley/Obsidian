@@ -5,45 +5,14 @@
 
 Enquanto props são usadas para passar informações, o state é usado para gerenciar informações que mudam ao longo do tempo dentro de um componente.
 
-**Hook `useState`:** O `useState` é um React Hook que permite adicionar estado a componentes funcionais.
-
-JavaScript
-
-```js
-const Search = () => {
-  // Desestruturação de array: [estadoAtual, funçãoAtualizadora]
-  const [searchTerm, setSearchTerm] = React.useState('');
-
-  const handleChange = (event) => {
-    // Atualiza o estado com o valor do input
-    setSearchTerm(event.target.value);
-  };
-
-  return (
-    <div>
-      <label htmlFor="search">Search: </label>
-      <input id="search" type="text" onChange={handleChange} />
-      <p>
-        Searching for <strong>{searchTerm}</strong>.
-      </p>
-    </div>
-  );
-};
-```
-
-**Ciclo de Renderização:**
+**Hook useState:** O `useState` é um React Hook que permite adicionar estado a componentes funcionais.
+![](../../attachments/Pasted%20image%2020251124063152.png)
 
 1. **Inicialização:** O `useState('')` define o valor inicial.
-    
 2. **Interação:** O usuário digita, disparando `handleChange`.
-    
 3. **Atualização:** `setSearchTerm` é chamado com o novo valor.
-    
 4. **Re-renderização:** O React detecta a mudança de estado e re-executa a função do componente `Search`. O valor atualizado de `searchTerm` é refletido no JSX .
     
-
-O livro enfatiza que a atualização de estado é o gatilho primário para a re-renderização da interface do usuário (UI).
-
 ---
 
 ### **15. Callback Handlers in JSX (Páginas 57-59)**

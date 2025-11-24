@@ -1,12 +1,10 @@
 
-
+#Concluded 
 
 ---
 ### **1. Event Handlers**
 
 Para adicionar interatividade, o React utiliza **Event Handlers**.  Diferente do HTML nativo (onclick), o React utiliza a convenção camelCase para eventos (onClick, onChange) e espera uma função.
-
-**Synthetic Events:** O React não passa eventos nativos do navegador para os handlers. Ele encapsula o evento nativo em um **SyntheticEvent**. Isso garante compatibilidade entre diferentes navegadores e otimiza a performance .
 
 **Implementação no Componente Search:** Define-se uma função handleChange dentro do componente para capturar a interação.
 ![](../../attachments/Pasted%20image%2020251123193132.png)
