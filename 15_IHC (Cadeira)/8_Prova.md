@@ -98,3 +98,44 @@ A afirmação é **Falsa** (F). A permissão para gravar voz ou imagem deve ser 
 **O modelo "mestre-aprendiz" se refere a que tipo de coleta de dados?**
 
 O modelo "mestre-aprendiz" se refere à **Investigação/Pesquisa Contextual**. Nesta técnica, o usuário atua como **mestre**, ensinando o seu trabalho ao pesquisador, que atua como **aprendiz**. O pesquisador tem a oportunidade de entrevistar e observar o usuário enquanto ele realiza as atividades em seu ambiente real. O objetivo do aprendiz não é aprender a executar a função, mas sim **compreender como o mestre (usuário) realiza suas atividades**.
+
+---
+## Questão 6
+
+Aqui está a correlação entre a técnica (Coluna 1) e sua característica ou contexto (Coluna 2), seguida da explicação de cada par.
+
+| **Coluna 1: Técnicas**              | **Coluna 2: Características / Contexto**                                                                                                                             | **Relação Correta** |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| **A Entrevista**                    | [1] É adequada para capturar a experiência prolongada dos usuários com a tecnologia, registrada no dia a dia.                                                        | **[4]**             |
+| **B Questionário**                  | [2] Técnica qualitativa que permite obter respostas aprofundadas diretamente do usuário, por meio de perguntas de acompanhamento (_follow-up_).                      | **A**               |
+| **C Grupos de foco**                | [3] É recomendada para levantar opiniões de muitas pessoas de forma rápida e com baixo custo, especialmente se os participantes estiverem geograficamente dispersos. | **B**               |
+| **D Brainstorming de necessidades** | [4] Permite a investigação do comportamento dos usuários em seu ambiente natural, sem interferência direta.                                                          | **F**               |
+| **E Classificação de cartões**      | [5] É apropriada para investigar como os usuários executam suas tarefas no contexto real de trabalho, enquanto interagem com o sistema.                              | **[8]**             |
+| **F Estudos de campo**              | [6] Facilita a discussão em grupo, geralmente com moderação, para explorar percepções, opiniões e atitudes dos usuários.                                             | **[3]**             |
+| **G Investigação contextual**       | [7] Ajuda a organizar conteúdos e entender como os usuários estruturam informações, sendo útil no design da arquitetura de informação.                               | **[2]**             |
+| **H Diários de usuário**            | [8] É usada para levantar e explorar ideias iniciais com os usuários, geralmente em sessões criativas e colaborativas.                                               | **[1]**             |
+
+        
+- **Grupos de foco ↔ [6] Facilita a discussão em grupo...**
+    
+    - **Justificativa:** Grupos de Foco são, por definição, uma **discussão em grupo** que, com um moderador, explora percepções e atitudes em um contexto social, disparando novas ideias 2.
+        
+- **Brainstorming de necessidades ↔ [8] É usada para levantar e explorar ideias iniciais...**
+    
+    - **Justificativa:** O Brainstorming é mais útil no **estágio conceitual** do desenvolvimento, gerando uma lista priorizada de **necessidades e desejos** dos usuários, geralmente em sessões criativas e orientadas pelo moderador.
+        
+- **Classificação de cartões (Card Sorting) ↔ [7] Ajuda a organizar conteúdos e entender como os usuários estruturam informações...**
+    
+    - **Justificativa:** O Card Sorting é a técnica principal para guiar o design da **arquitetura de informação**, revelando como os usuários agrupam informações, o que é crucial para menus e navegação.
+        
+- **Estudos de campo ↔ [4] Permite a investigação do comportamento dos usuários em seu ambiente natural, sem interferência direta.**
+    
+    - **Justificativa:** Estudos de Campo (como observação simples, _fly on the wall_ ou observação pura) são realizados no ambiente natural do usuário (contexto real) para entender o **comportamento natural**, capturando informações que não seriam reproduzidas em laboratório.
+        
+- **Investigação contextual ↔ [5] É apropriada para investigar como os usuários executam suas tarefas no contexto real de trabalho...**
+    
+    - **Justificativa:** A Investigação Contextual é um tipo de estudo de campo **com envolvimento intenso** do pesquisador (modelo mestre-aprendiz), focado em desvendar a **estrutura da rotina de trabalho** e o **conhecimento tácito** no contexto real 3.
+        
+- **Diários de usuário ↔ [1] É adequada para capturar a experiência prolongada dos usuários com a tecnologia, registrada no dia a dia.**
+    
+    - **Justificativa:** Diários são úteis para registrar informações fluidas, humor e alterações **ao longo do tempo**, no momento em que ocorrem, preenchendo a lacuna entre a observação pontual e a lembrança tardia 4.
