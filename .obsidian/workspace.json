@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_FrontEnd/5_React/9_Hooks customizados.md",
+                "file": "07_FrontEnd/5_React/8_useEffect.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9_Hooks customizados"
+              "title": "8_useEffect"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_FrontEnd/5_React/9_Hooks customizados.md",
+                "file": "07_FrontEnd/5_React/8_useEffect.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 9_Hooks customizados"
+              "title": "Outline of 8_useEffect"
             }
           },
           {
@@ -182,8 +182,8 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "07_FrontEnd/5_React/8_useEffect.md",
     "07_FrontEnd/5_React/9_Hooks customizados.md",
+    "07_FrontEnd/5_React/8_useEffect.md",
     "attachments/Pasted image 20251124142359.png",
     "attachments/Pasted image 20251124141942.png",
     "07_FrontEnd/5_React/7_Componentes controlados.md",
