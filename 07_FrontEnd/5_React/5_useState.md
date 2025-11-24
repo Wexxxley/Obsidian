@@ -21,7 +21,7 @@ Enquanto props são usadas para passar informações, o state é <mark style="ba
 ---
 ### **3. Exemplo mostrar detalhes**
 
-![](../../attachments/Pasted%20image%2020251124105017.png)
+![](../../attachments/Pasted%20image%2020251124131323.png)
 ![150](../../attachments/Pasted%20image%2020251124105032.png)
 ![200](../../attachments/Pasted%20image%2020251124105049.png)
 
