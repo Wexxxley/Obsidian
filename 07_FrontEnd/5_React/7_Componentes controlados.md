@@ -3,6 +3,8 @@
 
 ---
 
+### 1. Componentes controlados
+
 Elementos de formulário HTML (como `<input>`, `<textarea>`, `<select>`) mantêm nativamente seu próprio estado interno no DOM. Quando você digita em um campo de texto, o navegador atualiza o valor visualmente, independentemente do React.
 
 Atualmente, o componente `Search` é um **Uncontrolled Component**. O React recebe os eventos de mudança (`onChange`), mas não determina explicitamente o que está sendo exibido no input.
@@ -16,3 +18,12 @@ No `Search`, atribuímos essa prop ao atributo `value` do elemento HTML `<input>
 ![](../../attachments/Pasted%20image%2020251124135514.png)
 
 Ao adotar esse padrão, garantimos que o estado visual (DOM) e o estado lógico (React) estejam sempre perfeitamente sincronizados.
+
+---
+### **2. Desestruturação**
+
+A desestruturação de objetos permite extrair propriedades de um objeto diretamente para variáveis.
+
+Em vez de acessar props dentro da função, desestruturamos o objeto diretamente na assinatura da função. Isso torna explícito quais dados o componente requer para funcionar.
+![](../../attachments/Pasted%20image%2020251124140417.png)
+Isso elimina a necessidade de usar `props.` em todo lugar.
