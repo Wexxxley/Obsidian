@@ -10,14 +10,11 @@ O fluxo de dados no React é unidirecional (pai para filho via props). Para que 
 3. O Filho executa essa função prop quando o evento ocorre.
 
 **Implementação no Pai (App):**
-![](../../attachments/Pasted%20image%2020251124075953.png)
+![](../../attachments/Pasted%20image%2020251124093326.png)
 
 **Implementação no Filho (Search):**
-![](../../attachments/Pasted%20image%2020251124082739.png)
+![](../../attachments/Pasted%20image%2020251124093340.png)
 
-No React, o Pai (App) consegue "ver" e enviar dados para o Filho (Search). Mas o Filho não tem acesso às variáveis ou funções do Pai. Para que o Filho consiga executar algo no Pai, o Pai precisa enviar uma **Função de Callback**.
-
-1. **No Pai:** O `App` cria uma função chamada `handleSearch`. Ela tem permissão para mexer nas coisas do `App`.
     
 2. **Passagem por Referência:** Quando o `App` faz isso:
 ```jsx
