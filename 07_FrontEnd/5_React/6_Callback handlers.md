@@ -20,26 +20,23 @@ Dentro do `Search`, quando o usuário digita, a função `handleChange` é acion
 
 
 ---
-### **2. Lifting State in React**
+### **2. Lifting State**
 
 Atualmente, o estado `searchTerm` reside no componente `Search`. No entanto, o componente `List` (que renderiza os dados) é irmão do `Search`. No React, irmãos não compartilham dados diretamente.
 
-Para que o termo de busca afete a lista, precisamos **elevar o estado** (Lift State Up) para o componente pai comum mais próximo, que é o `App`. O `App` passará o estado para baixo: como _props_ para a `List` (os dados filtrados) e como _callback_ para o `Search` (para atualizar o estado).
+Para que o termo de busca afete a lista, precisamos **elevar o estado** para o componente pai comum mais próximo, que é o `App`. O `App` passará o estado para baixo: como _props_ para a `List` (os dados filtrados) e como _callback_ para o `Search` (para atualizar o estado).
 
 **Implementação Técnica:**
 
 1. **Remoção do Estado no Filho:** Removemos o hook `useState` do componente `Search`.
-    
 2. **Adição do Estado no Pai:** Adicionamos o hook `useState` no componente `App`.
-    
 3. **Filtragem de Dados:** Utilizamos o método `filter()` do JavaScript no `App` para criar uma nova lista derivada antes de passá-la para o componente `List`.
-    
 
 **Código Refatorado (`src/App.jsx`):**
 
 JavaScript
 
-```
+```jsx
 import * as React from 'react';
 
 const App = () => {
