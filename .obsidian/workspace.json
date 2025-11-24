@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_FrontEnd/5_React/8_useEffect.md",
+                "file": "07_FrontEnd/5_React/10_Fragmentos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_useEffect"
+              "title": "10_Fragmentos"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_FrontEnd/5_React/8_useEffect.md",
+                "file": "07_FrontEnd/5_React/10_Fragmentos.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 8_useEffect"
+              "title": "Outline of 10_Fragmentos"
             }
           },
           {
@@ -182,7 +182,14 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251124151416.png",
+    "attachments/Pasted image 20251124151206.png",
+    "attachments/Pasted image 20251124151047.png",
     "07_FrontEnd/5_React/9_Hooks customizados.md",
+    "07_FrontEnd/5_React/10_Fragmentos.md",
+    "attachments/Pasted image 20251124144440.png",
+    "attachments/Pasted image 20251124144328.png",
+    "attachments/Pasted image 20251124144304.png",
     "07_FrontEnd/5_React/8_useEffect.md",
     "attachments/Pasted image 20251124142359.png",
     "attachments/Pasted image 20251124141942.png",
@@ -193,14 +200,9 @@
     "attachments/Pasted image 20251124140412.png",
     "07_FrontEnd/5_React/2_Componente.md",
     "attachments/Pasted image 20251124140211.png",
-    "attachments/Pasted image 20251124135514.png",
-    "attachments/Pasted image 20251124135453.png",
-    "attachments/Pasted image 20251124134442.png",
     "07_FrontEnd/5_React/1_Introdução.md",
     "07_FrontEnd/5_React/4_Event handlers e props.md",
     "07_FrontEnd/5_React/5_useState.md",
-    "attachments/Pasted image 20251124131323.png",
-    "attachments/Pasted image 20251124105049.png",
     "Untitled.md",
     "07_FrontEnd/4_Node.js/1_Runtime e Módulos.md",
     "07_FrontEnd/4_Node.js/2_Gerenciamento de dependências.md",
@@ -217,8 +219,6 @@
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/7_Proxy.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/6_Cookies.md",
     "03_Redes de computadores (Cadeira)/2_Camada Aplicação/5_URL.md",
-    "16_Aleatorios/Amethyst.md",
-    "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/7_Criando endpoints.md",
     "12_Sistemas Distribuídos (Cadeira)/Cap8",
     "07_FrontEnd/4_Node.js",
     "15_IHC (Cadeira)/Untitled",
