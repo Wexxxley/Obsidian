@@ -29,15 +29,11 @@ Enquanto props são usadas para passar informações, o state é <mark style="ba
 
 ### **4. Diferenças de uso**
 
-A diferença fundamental está na **origem do novo dado**. Você precisa se perguntar: "De onde vem o valor que eu quero salvar?"
+A diferença fundamental está na **origem do novo dado**. "De onde vem o valor que eu quero salvar?"
 
-No exemplo da busca, o novo valor **não** está dentro do React; ele está vindo do mundo externo (do navegador/DOM), gerado pela ação do usuário de digitar.
-
-- **O Problema:** O usuário digita "A". O React precisa capturar esse "A".
-    
-- **A Solução (`event`):** O navegador empacota essa informação (quem disparou, qual o novo texto) dentro do objeto `event`.
-    
-- **O Acesso:** Precisamos do parâmetro `event` para acessar `event.target.value` (o texto dentro do input HTML).
+- No exemplo da busca, o novo valor não está dentro do React; ele está vindo do mundo externo (do navegador), gerado pela ação do usuário de digitar.
+- O navegador empacota essa informação (quem disparou, qual o novo texto) dentro do objeto `event`.
+- Precisamos do parâmetro `event` para acessar `event.target.value`.
     
 
 JavaScript
