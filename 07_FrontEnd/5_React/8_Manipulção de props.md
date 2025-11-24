@@ -1,53 +1,21 @@
 
 
 ---
-
 ### **1. Destructuring**
 
 A desestruturação de objetos permite extrair propriedades de um objeto diretamente para variáveis.
 
 Em vez de acessar props dentro da função, desestruturamos o objeto diretamente na assinatura da função. Isso torna explícito quais dados o componente requer para funcionar.
-![](../../attachments/Pasted%20image%2020251124140211.png)
-Isso elimina a necessidade de usar `props.` em todo lugar e também remove a necessidade do bloco de corpo da função (`{ ... }` e `return`) se o componente apenas retornar JSX 1.
+![](../../attachments/Pasted%20image%2020251124140417.png)
+Isso elimina a necessidade de usar `props.` em todo lugar.
 
-#### 2. Nested Destructuring (Desestruturação Aninhada)
+---
+### 2. Operadores Spread e Rest
 
-O livro explora um caso mais complexo no componente `Item`. O `Item` recebe um objeto `item` dentro das props. Podemos desestruturar o `item` e, simultaneamente, desestruturar as propriedades de dentro dele (`title`, `url`, etc.).
-
-JavaScript
-
-```
-// Variação: Desestruturação Aninhada (Página 73)
-const Item = ({
-  item: {
-    title,
-    url,
-    author,
-    num_comments,
-    points,
-  },
-}) => (
-  <li>
-    <span>
-      <a href={url}>{title}</a>
-    </span>
-    <span>{author}</span>
-    <span>{num_comments}</span>
-    <span>{points}</span>
-  </li>
-);
-```
-
-**Nota Técnica:** O livro observa que, embora possível, a desestruturação aninhada pode introduzir muito ruído ("clutter") e indentação na assinatura da função, prejudicando a legibilidade em certos casos 2.
-
-#### 3. Spread and Rest Operators (Operadores Spread e Rest)
-
-Esta é uma técnica avançada para passar props adiante.
-
-- **Spread Operator (`...`):** Permite "espalhar" todas as propriedades de um objeto como pares chave-valor (atributos) para um elemento JSX.
+- **Spread Operator ( ):** Permite "espalhar" todas as propriedades de um objeto como pares chave-valor para um elemento.
     
-- **Rest Operator (`...rest`):** Em uma desestruturação, coleta todas as propriedades que **não** foram extraídas explicitamente em um novo objeto.
-    
+- **Rest Operator ( ):** Em uma desestruturação, coleta todas as propriedades que não foram extraídas em um novo objeto.
+
 
 Aplicação no Componente List:
 
@@ -55,14 +23,14 @@ Podemos usar o Rest para separar o objectID (que é usado apenas como key na lis
 
 JavaScript
 
-```
+```jsx
 const List = ({ list }) => (
   <ul>
-    {list.map(({ objectID, ...item }) => (
-      // 1. objectID é extraído para ser usado na key
-      // 2. ...item (o resto) é espalhado como props individuais para o componente Item
-      <Item key={objectID} {...item} />
-    ))}
+    {
+	    list.map(({ objectID, ...item }) => (
+	      <Item key={objectID} {...item} />
+	    ))
+    }
   </ul>
 );
 ```
