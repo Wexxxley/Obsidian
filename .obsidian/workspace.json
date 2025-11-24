@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_FrontEnd/5_React/4_Event handlers.md",
+                "file": "07_FrontEnd/5_React/5_React state.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Event handlers"
+              "title": "5_React state"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_FrontEnd/5_React/4_Event handlers.md",
+                "file": "07_FrontEnd/5_React/5_React state.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 4_Event handlers"
+              "title": "Outline of 5_React state"
             }
           },
           {
@@ -182,11 +182,14 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "07_FrontEnd/5_React/4_Event handlers.md",
+    "07_FrontEnd/5_React/5_React state.md",
+    "attachments/Pasted image 20251123194555.png",
+    "attachments/Pasted image 20251123194538.png",
     "attachments/Pasted image 20251123193353.png",
     "attachments/Pasted image 20251123193132.png",
     "07_FrontEnd/5_React/2_Componente.md",
     "07_FrontEnd/5_React/3_Component tree.md",
-    "07_FrontEnd/5_React/4_Event handlers.md",
     "attachments/Pasted image 20251123192509.png",
     "07_FrontEnd/5_React/1_Introdução.md",
     "attachments/Pasted image 20251123183448.png",
@@ -194,9 +197,6 @@
     "attachments/Pasted image 20251123182606.png",
     "attachments/Pasted image 20251123180611.png",
     "attachments/Pasted image 20251123180312.png",
-    "attachments/Pasted image 20251123180227.png",
-    "attachments/Pasted image 20251123180211.png",
-    "attachments/Pasted image 20251123180151.png",
     "07_FrontEnd/4_Node.js/1_Runtime e Módulos.md",
     "07_FrontEnd/4_Node.js/2_Gerenciamento de dependências.md",
     "07_FrontEnd/4_Node.js/4_Dotenv.md",
