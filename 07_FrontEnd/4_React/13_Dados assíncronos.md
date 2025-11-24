@@ -28,7 +28,7 @@ Utilizamos o hook **`useEffect`** para disparar a busca dos dados assim que o co
 
 JavaScript
 
-```
+```jsx
 const App = () => {
   // ... useStorageState ...
 
