@@ -72,8 +72,6 @@ const Search = (props) => {
 };
 ```
 
-Isso estabelece um canal de comunicação onde o componente filho controla quando o evento ocorre, mas a lógica de resposta ao evento (ou parte dela) reside no componente pai.
-
 No React, o Pai (App) consegue "ver" e enviar dados para o Filho (Search). Mas o Filho não tem acesso às variáveis ou funções do Pai. Para que o Filho consiga executar algo no Pai, o Pai precisa enviar uma **Função de Callback**.
 
 1. **No Pai:** O `App` cria uma função chamada `handleSearch`. Ela tem permissão para mexer nas coisas do `App`.
@@ -84,8 +82,6 @@ No React, o Pai (App) consegue "ver" e enviar dados para o Filho (Search). Mas o
 ```
 
 Ele está pegando a **referência** da função handleSearch e entregando para o componente Search dentro de uma variável chamada onSearch.
-
-Agora, dentro do componente filho, props.onSearch **aponta para o mesmo lugar na memória**.
     
 3. **Execução (No Filho - `Search`):** Dentro do `Search`, quando o usuário digita, a função `handleChange` é acionada.
     
