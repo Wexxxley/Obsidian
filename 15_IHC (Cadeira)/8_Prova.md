@@ -119,3 +119,63 @@ Aqui está a correlação entre a técnica (Coluna 1) e sua característica ou c
 ## Questão 7
 
 **`<img alt="Acessível em Libras" src="libras.jpg">`**.
+
+---
+## Questão 8 
+
+**Explique a diferença entre affordance real e percebida.**
+
+- **Affordance Real:** É o conjunto de características físicas de um objeto que, por si só, **revelam as operações** que podem ser feitas com ele.
+        
+    - **Característica:** É óbvia e não precisa ser aprendida. Uma cadeira "aforda" sentar-se porque é sólida e tem um assento.
+        
+- **Affordance Percebida:** É o conjunto de características de um objeto digital que **sugere** ao usuário as operações que podem ser feitas.
+        
+    - **Característica:** É uma **convenção aprendida**. Por exemplo, um botão com sombras sugere que pode ser "apertado".
+
+---
+
+## Questão 9
+
+**Cite um exemplo de tecnologia assistiva para cada uma das situações de deficiência listadas abaixo e explique como a tecnologia mencionada funciona.**
+
+#### a) Deficiência Visual (Cegueira)
+
+- Leitor de Telar. É um software que **verbaliza em voz alta** o que está sendo escrito ou exibido na interface. O usuário cego interage predominantemente pelo **teclado**. O designer deve garantir que a interface seja estruturada e que as imagens tenham equivalente textual.
+
+#### b) Deficiência Auditiva
+- VLIBRAS (Tradutor para Língua Brasileira de Sinais). É uma tecnologia que oferece um **avatar virtual** para traduzir o conteúdo textual, de áudio ou vídeo (como em sites governamentais) para a **Linguagem Brasileira de Sinais (LIBRAS)**. 
+
+#### c) Deficiência Motora (Física)
+
+- Mouse Operado pela Boca. Estes dispositivos permitem que o usuário com alcance limitado ou força reduzida **controle o cursor na tela** utilizando movimentos da cabeça ou da boca. Isso substitui o mouse manual, permitindo que o usuário interaja com a interface. O design precisa auxiliar garantindo que os **alvos clicáveis sejam maiores** e mais distantes.
+
+---
+
+## Questão 10
+
+**Explique o conceito de Personas, informando o que significa, para que são usadas, como são criadas (baseadas em quê?) e quais informações são normalmente apresentadas.**
+
+**Conceito:** Uma **Persona** é um **personagem fictício** criado para representar um grupo significativo de usuários reais.
+
+**Significado:** Ela se torna um **indivíduo concreto** na mente da equipe, substituindo a vagueza de falar sobre "o usuário" em geral
+
+**Para que são Usadas**:  Ajudam a equipe de design a justificar decisões e a decidir o que o produto deve fazer. E tornam claros os objetivos dos usuários.
+
+**Como são Criadas**: As Personas são **derivadas de um processo de investigação e pesquisa real**  Apenas o **nome, a foto e os detalhes pessoais** são inventados; as **características, comportamentos e objetivos** são baseados rigorosamente nos dados coletados.
+
+#### 4. Informações Apresentadas
+
+As informações chaves da persona são:
+
+- **Identidade:** Nome, sobrenome, idade e foto.
+    
+- **Objetivos:** Os mais importantes, incluindo os **pessoais** (ex: não perder tempo, não se sentir estúpido).
+    
+- **Habilidades:** Educação, treinamento e competências específicas.
+    
+- **Tarefas:** Tarefas básicas e críticas, com frequência e importância.
+    
+- **Expectativas:** Como a persona acredita que o produto funciona.
+    
+- **Status:** Se é primária, secundária ou antiusuário.
