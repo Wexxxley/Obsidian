@@ -40,6 +40,7 @@ Para que o termo de busca afete a lista, precisamos **elevar o estado** para o c
 5. **Cálculo Derivado:** Durante a renderização, a constante `searchedStories` é recalculada filtrando o array original `stories` com o novo `searchTerm` .
 6. **Atualização de Props:** O componente `List` recebe a nova lista filtrada via prop `list`.
 
-![](../../attachments/Pasted%20image%2020251124101004.png)
+![300](../../attachments/Pasted%20image%2020251124101004.png)
 
+![](../../attachments/Pasted%20image%2020251124134442.png)
 A regra é: <mark style="background: #ADCCFFA6;">Gerencie o estado no componente onde todos os componentes dependentes desse estado possam acessá-lo.</mark>
