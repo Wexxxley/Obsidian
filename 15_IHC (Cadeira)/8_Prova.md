@@ -68,3 +68,33 @@ A afirmação é **Verdadeira**. A **avaliação** é uma das atividades básica
 **E) O design participativo consiste em a equipe de design ter acesso permanente a um conjunto de usuários tido como representantes da população-alvo de usuários.**
 
 A afirmação é **Verdadeira**. O **Design Participativo (DP)** exige o envolvimento intenso do usuário, que atua como **coprojetista**. A essência do DP é a participação ativa e permanente dos **usuários finais** em todo o ciclo de vida do sistema, sendo eles representantes da população-alvo.
+
+---
+## Questão 4
+
+**A) No Brasil não é permitido pagar para as pessoas participarem de uma pesquisa científica.**
+
+A afirmação é **Verdadeira** .
+
+**B)O uso de nomes fictícios pode afetar a credibilidade da pesquisa.**
+
+ Afirmação é **Falsa** (F). O pesquisador deve manter a identidade dos participantes **anônima** ao divulgar os resultados. É comum utilizar **nomes fictícios**.
+
+**C) Uma pesquisa de IHC não deve deixar os participantes exaustos, nervosos ou levá-los ao pranto.**
+
+A afirmação é **Verdadeira** (V). O pesquisador deve proteger o **bem-estar físico e psicológico** dos participantes.
+
+**D) A participação na pesquisa deve ocorrer apenas com o consentimento livre e esclarecido dos participantes (ou de seus representantes legais).**
+
+A afirmação é **Verdadeira** (V). O **Consentimento Livre e Esclarecido** é um direito fundamental. 
+
+**E) Após a gravação de áudio e vídeo, o participante deve autorizar o seu uso.**
+
+A afirmação é **Falsa** (F). A permissão para gravar voz ou imagem deve ser obtida **antes de começar a gravação**, e não após.
+
+---
+## Questão 5
+
+**O modelo "mestre-aprendiz" se refere a que tipo de coleta de dados?**
+
+O modelo "mestre-aprendiz" se refere à **Investigação/Pesquisa Contextual**. Nesta técnica, o usuário atua como **mestre**, ensinando o seu trabalho ao pesquisador, que atua como **aprendiz**. O pesquisador tem a oportunidade de entrevistar e observar o usuário enquanto ele realiza as atividades em seu ambiente real. O objetivo do aprendiz não é aprender a executar a função, mas sim **compreender como o mestre (usuário) realiza suas atividades**.
