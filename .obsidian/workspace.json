@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_FrontEnd/5_React/8_useEffect.md",
+                "file": "07_FrontEnd/5_React/9_Hooks customizados.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_useEffect"
+              "title": "9_Hooks customizados"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_FrontEnd/5_React/8_useEffect.md",
+                "file": "07_FrontEnd/5_React/9_Hooks customizados.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 8_useEffect"
+              "title": "Outline of 9_Hooks customizados"
             }
           },
           {
@@ -182,9 +182,11 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "07_FrontEnd/5_React/8_useEffect.md",
+    "07_FrontEnd/5_React/9_Hooks customizados.md",
+    "attachments/Pasted image 20251124142359.png",
     "attachments/Pasted image 20251124141942.png",
     "07_FrontEnd/5_React/7_Componentes controlados.md",
-    "07_FrontEnd/5_React/8_useEffect.md",
     "07_FrontEnd/5_React/6_Callback handlers.md",
     "attachments/Pasted image 20251124140417.png",
     "07_FrontEnd/5_React/3_Component tree.md",
@@ -199,8 +201,6 @@
     "07_FrontEnd/5_React/5_useState.md",
     "attachments/Pasted image 20251124131323.png",
     "attachments/Pasted image 20251124105049.png",
-    "attachments/Pasted image 20251124105032.png",
-    "attachments/Pasted image 20251124105017.png",
     "Untitled.md",
     "07_FrontEnd/4_Node.js/1_Runtime e Módulos.md",
     "07_FrontEnd/4_Node.js/2_Gerenciamento de dependências.md",
