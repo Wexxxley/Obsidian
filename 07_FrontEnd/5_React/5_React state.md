@@ -12,6 +12,8 @@ Enquanto props são usadas para passar informações, o state é usado para gere
 2. **Atualização:** `setSearchTerm` é chamado com o novo valor.
 3. **Re-renderização:** O React detecta a mudança de estado e re-executa a função do componente `Search`. O valor atualizado de `searchTerm` é refletido no JSX .
 
+![](../../attachments/Pasted%20image%2020251124081903.png)
+
 ---
 ### **2. A Mecânica do useState**
 
