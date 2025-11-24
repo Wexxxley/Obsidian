@@ -45,3 +45,26 @@ A afirmação é Falsa. Na perspectiva de Ferramenta, a interação é vista com
 **E) Na perspectiva de mídia, o principal fator de qualidade é a adequação da interpretação e geração de textos.**
 
 A afirmação é Falsa. A adequação da interpretação e geração de textos é o principal fator de qualidade na perspectiva de Parceiro de Discurso (onde a interação é uma conversa). Na perspectiva de Mídia, os fatores de qualidade mais evidentes são a qualidade da comunicação mediada e o entendimento mútuo entre os interlocutores (usuários e designer-usuário).
+
+---
+## Questão 3
+
+**A) Uma característica básica dos processos é que eles são iterativos, permitindo refinamentos sucessivos da análise da situação atual e da proposta de intervenção.**
+
+A afirmação é **Verdadeira**. A iteração é, de fato, uma característica básica dos processos de design de IHC. Ela permite refinamentos sucessivos tanto da análise da situação atual quanto da proposta de intervenção.
+
+**B) A sequência de atividades, como executar cada atividade e os artefatos produzidos são padronizados para os processos de design.**
+
+A afirmação é Falsa. Os processos de design de IHC, como o modelo de Lawson ou o Ciclo de Vida em Estrela, são caracterizados pela **flexibilidade**. Cada modelo detalha as atividades de uma forma particular, e o designer muitas vezes decide qual será a **primeira atividade a ser executada e as transições entre elas**.
+
+**C) Boa parte dos processos de IHC são centrados nas tecnologias necessárias para executá-los.**
+
+A afirmação é Falsa. Os processos de IHC são fundamentalmente **centrados no usuário** e no problema, e não nas tecnologias
+
+**D) O processo de design deve permitir a realização de avaliações em que usuários usem simulações ou protótipos do sistema para realizarem suas atividades.**
+
+A afirmação é **Verdadeira**. A **avaliação** é uma das atividades básicas do design, e ela deve ocorrer ao longo de todo o processo. 
+
+**E) O design participativo consiste em a equipe de design ter acesso permanente a um conjunto de usuários tido como representantes da população-alvo de usuários.**
+
+A afirmação é **Verdadeira**. O **Design Participativo (DP)** exige o envolvimento intenso do usuário, que atua como **coprojetista**. A essência do DP é a participação ativa e permanente dos **usuários finais** em todo o ciclo de vida do sistema, sendo eles representantes da população-alvo.
