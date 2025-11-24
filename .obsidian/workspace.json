@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15_IHC (Cadeira)/8_Prova.md",
+                "file": "07_FrontEnd/4_React/11_Componente reutilizavel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_Prova"
+              "title": "11_Componente reutilizavel"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "15_IHC (Cadeira)/8_Prova.md",
+                "file": "07_FrontEnd/4_React/11_Componente reutilizavel.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 8_Prova"
+              "title": "Outline of 11_Componente reutilizavel"
             }
           },
           {
@@ -182,8 +182,14 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "15_IHC (Cadeira)/1_Conceitos básicos.md",
+    "07_FrontEnd/4_React/10_Fragmentos.md",
+    "07_FrontEnd/4_React/11_Componente reutilizavel.md",
+    "07_FrontEnd/4_React/9_Hooks customizados.md",
+    "07_FrontEnd/4_React/8_useEffect.md",
+    "07_FrontEnd/4_React/7_Componentes controlados.md",
+    "07_FrontEnd/4_React/6_Callback handlers.md",
     "15_IHC (Cadeira)/8_Prova.md",
+    "15_IHC (Cadeira)/1_Conceitos básicos.md",
     "15_IHC (Cadeira)/2_Processos de design de IHC.md",
     "15_IHC (Cadeira)/3_Design participativo.md",
     "15_IHC (Cadeira)/7_Acessibilidade.md",
@@ -196,20 +202,15 @@
     "07_FrontEnd/3_JavaScript/2_Express/2_Criando uma API simples.md",
     "07_FrontEnd/3_JavaScript/2_Express/1_Node.js e express.md",
     "07_FrontEnd/3_JavaScript/1_Introdução/1_Introdução.md",
-    "07_FrontEnd/4_React/10_Fragmentos.md",
     "07_FrontEnd/3_JavaScript/1_Introdução",
     "attachments/Pasted image 20251124151416.png",
     "attachments/Pasted image 20251124151206.png",
     "attachments/Pasted image 20251124151047.png",
-    "07_FrontEnd/4_React/9_Hooks customizados.md",
     "attachments/Pasted image 20251124144440.png",
     "attachments/Pasted image 20251124144328.png",
     "attachments/Pasted image 20251124144304.png",
-    "07_FrontEnd/4_React/8_useEffect.md",
     "attachments/Pasted image 20251124142359.png",
     "attachments/Pasted image 20251124141942.png",
-    "07_FrontEnd/4_React/7_Componentes controlados.md",
-    "07_FrontEnd/4_React/6_Callback handlers.md",
     "attachments/Pasted image 20251124140417.png",
     "07_FrontEnd/4_React/3_Component tree.md",
     "attachments/Pasted image 20251124140412.png",
@@ -218,7 +219,6 @@
     "07_FrontEnd/4_React/4_Event handlers e props.md",
     "07_FrontEnd/4_React/5_useState.md",
     "Untitled.md",
-    "07_FrontEnd/17_Node.js/3_Buffers e Streams.md",
     "07_FrontEnd/4_React",
     "12_Sistemas Distribuídos (Cadeira)/Cap8",
     "07_FrontEnd/3_JavaScript/3_Node.js",

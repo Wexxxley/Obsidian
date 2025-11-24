@@ -1,5 +1,7 @@
 
 
+#Concluded 
+
 ---
 
 O objetivo técnico aqui é extrair a lógica de persistência de estado (sincronização com `localStorage`) do componente `App` para uma função reutilizável. 

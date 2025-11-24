@@ -164,18 +164,9 @@ Aqui está a correlação entre a técnica (Coluna 1) e sua característica ou c
 
 **Como são Criadas**: As Personas são **derivadas de um processo de investigação e pesquisa real**  Apenas o **nome, a foto e os detalhes pessoais** são inventados; as **características, comportamentos e objetivos** são baseados rigorosamente nos dados coletados.
 
-#### 4. Informações Apresentadas
-
-As informações chaves da persona são:
-
+**Informações Apresentadas**
 - **Identidade:** Nome, sobrenome, idade e foto.
-    
-- **Objetivos:** Os mais importantes, incluindo os **pessoais** (ex: não perder tempo, não se sentir estúpido).
-    
+- Objetivos
 - **Habilidades:** Educação, treinamento e competências específicas.
-    
 - **Tarefas:** Tarefas básicas e críticas, com frequência e importância.
-    
 - **Expectativas:** Como a persona acredita que o produto funciona.
-    
-- **Status:** Se é primária, secundária ou antiusuário.

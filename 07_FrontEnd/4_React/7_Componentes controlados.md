@@ -2,7 +2,6 @@
 #Concluded 
 
 ---
-
 ### 1. Componentes controlados
 
 Elementos de formulário HTML (como `<input>`, `<textarea>`, `<select>`) mantêm nativamente seu próprio estado interno no DOM. Quando você digita em um campo de texto, o navegador atualiza o valor visualmente, independentemente do React.

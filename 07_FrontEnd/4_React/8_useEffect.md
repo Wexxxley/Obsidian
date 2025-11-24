@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 Atualmente, se você atualizar a página, o termo de busca e o estado da aplicação são resetados. O objetivo é persistir o `searchTerm` no **localStorage** do navegador para que a última busca seja lembrada.
