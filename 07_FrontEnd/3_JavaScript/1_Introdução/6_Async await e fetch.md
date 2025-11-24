@@ -5,7 +5,7 @@ ___
 
 `.then()` e `.catch()` não são a primeira escolha hoje ao lidar com promessas, porque a sintaxe **`async/await` é simplesmente superior** na maioria dos casos. Um dos motivos é que o código com `async/await` é linear e parece síncrono, o que é muito mais fácil para o cérebro humano entender do que os blocos aninhados ou encadeados do `.then()`.
 
-![600](../../attachments/Pasted%20image%2020250609152634.png)
+![600](../../../attachments/Pasted%20image%2020250609152634.png)
 
 ---
 ### **2. Fetch**
@@ -25,11 +25,11 @@ Esses métodos também **retornam uma Promise**, o que significa que temos um pr
 
 #### **2.1 Recenbendo dados com fetch**
 
-![550](../../attachments/Pasted%20image%2020250705144143.png)
+![550](../../../attachments/Pasted%20image%2020250705144143.png)
 
 #### **2.1 Enviando dados com fetch**
 
 Para enviar dados, você passa um segundo argumento para a `fetch`,um objeto de configuração.
 
-![](../../attachments/Pasted%20image%2020250705145309.png)
+![](../../../attachments/Pasted%20image%2020250705145309.png)
 
