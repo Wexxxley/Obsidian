@@ -19,15 +19,16 @@ O componente App passa a atuar como um orquestrador, instanciando os componentes
 ---
 ### **2. Component Tree**
 
-- App é o componente pai ou Root.
+![](../../attachments/Pasted%20image%2020251123180611.png)
+
+- App é o componente pai.
 - List e Search são filhos de App e irmãos entre si.
 - Componentes que não renderizam outros componentes são chamados de folhas.
-	![](../../attachments/Pasted%20image%2020251123180611.png)
 
 ---
 ### **3. Arrow functions**
 
-O livro propõe a refatoração das declarações de função padrão para **Arrow Functions**, alinhando-se aos padrões modernos de JavaScript.
+Vamos refatorar as declarações de função para o padrão **Arrow Functions**, alinhando-se aos padrões modernos de JavaScript.
 
 **Refatoração para Arrow Functions**
 ![](../../attachments/Pasted%20image%2020251123182606.png)

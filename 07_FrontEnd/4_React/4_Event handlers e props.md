@@ -4,13 +4,12 @@
 ---
 ### **1. Event Handlers**
 
-Para adicionar interatividade, o React utiliza **Event Handlers**.  Diferente do HTML nativo (onclick), o React utiliza a convenção camelCase para eventos (onClick, onChange) e espera uma função.
+Diferente do HTML nativo (onclick), o React utiliza a convenção camelCase para eventos (onClick, onChange) e espera uma função.
 
 **Implementação no Componente Search:** Define-se uma função handleChange dentro do componente para capturar a interação.
 ![](../../attachments/Pasted%20image%2020251123193132.png)
-Deve-se passar a referência da função, não a sua execução.
-- **Correto:** onChange={handleChange}. Passa a func para ser executada quando o evento ocorrer
-- **Incorreto:** onChange={handleChange()}. Executa a função durante a renderização.
+- **onChange={handleChange}**: Passa a refere para ser executada quando o evento ocorrer
+
 
 Nesse exemplo, toda vez que digito algo no input, o console imprime.
 ![](../../attachments/Pasted%20image%2020251123193353.png)
