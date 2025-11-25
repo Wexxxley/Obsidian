@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_FrontEnd/4_React/14_useReducer.md",
+                "file": "07_FrontEnd/4_React/14_Data fething.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14_useReducer"
+              "title": "14_Data fething"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_FrontEnd/4_React/14_useReducer.md",
+                "file": "07_FrontEnd/4_React/14_Data fething.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 14_useReducer"
+              "title": "Outline of 14_Data fething"
             }
           },
           {
@@ -182,10 +182,11 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251125145434.png",
     "attachments/Pasted image 20251125143604.png",
     "attachments/Pasted image 20251125143450.png",
     "07_FrontEnd/4_React/13_Renderização condicional de dados assíncronos.md",
-    "07_FrontEnd/4_React/14_useReducer.md",
+    "07_FrontEnd/4_React/14_Data fething.md",
     "attachments/Pasted image 20251125140949.png",
     "attachments/Pasted image 20251125140933.png",
     "attachments/Pasted image 20251125134436.png",
@@ -217,7 +218,6 @@
     "07_FrontEnd/4_React/3_Component tree.md",
     "07_FrontEnd/4_React/2_Componente.md",
     "attachments/Pasted image 20251124191100.png",
-    "attachments/Pasted image 20251124191041.png",
     "07_FrontEnd/3_JavaScript/1_Introdução",
     "07_FrontEnd/4_React",
     "12_Sistemas Distribuídos (Cadeira)/Cap8",
