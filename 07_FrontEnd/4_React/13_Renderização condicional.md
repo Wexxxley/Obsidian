@@ -18,44 +18,26 @@ O objetivo técnico é transformar a lista `stories` de um estado inicial síncr
 
 ---
 
-### 2. Renderização condicional 
-
 Com a introdução de dados assíncronos, criamos um problema de Experiência do Usuário: durante o atraso da requisição, a aplicação parece travada. Vamos focar em fornecer feedback visual (Loading e Erro) utilizando renderização condicional no JSX.
 
-#### 1. Loading State (Estado de Carregamento)
+### **2. Loading State** 
 
 Introduzimos um estado booleano `isLoading` para rastrear o status da requisição.
-
-- **Inicialização:** `false` (ou `true` se quisermos que já comece carregando, mas o livro inicia como `false`).
-    
 - **Fluxo no `useEffect`:**
-    
     1. Antes de iniciar a Promise: `setIsLoading(true)`.
-        
-    2. Quando a Promise resolve: `setIsLoading(false)` 1.
-        
+    2. Quando a Promise resolve: `setIsLoading(false)`.
 
-#### 2. Error State (Estado de Erro)
+### **3. Error State** 
 
 Em aplicações reais, requisições falham. Introduzimos o estado `isError` para capturar falhas na Promise.
+- **Fluxo:** Utilizamos o bloco `.catch()` da Promise para capturar erros e atualizar `setIsError(true)`.
 
-- **Fluxo:** Utilizamos o bloco `.catch()` da Promise para capturar erros e atualizar `setIsError(true)` 2.
+### 4. Renderização Condicional
+
+- **Operador Ternário (`? :`):** Ideal para situações "Se/Senão". Se `isLoading` for verdadeiro, renderiza o parágrafo de carregamento; caso contrário, renderiza o componente `List`.
     
+- **Operador Lógico AND (`&&`):** Ideal para situações "Se/Nada". Se `isError` for verdadeiro, renderiza a mensagem de erro; caso contrário, não renderiza nada.    
 
-#### 3. Renderização Condicional no JSX
-
-No React, utilizamos operadores JavaScript dentro do JSX para decidir o que renderizar.
-
-- **Operador Ternário (`? :`):** Ideal para situações "Se/Senão". Se `isLoading` for verdadeiro, renderiza o parágrafo de carregamento; caso contrário, renderiza o componente `List` 3.
-    
-- **Operador Lógico AND (`&&`):** Ideal para situações "Se/Nada". Se `isError` for verdadeiro, renderiza a mensagem de erro; caso contrário, não renderiza nada (o React ignora `false`/`null`) 4.
-    
-
-### Implementação Técnica (`src/App.jsx`)
-
-Aqui está o código atualizado com os novos estados e a lógica de renderização:
-
-JavaScript
 
 ```
 const App = () => {
