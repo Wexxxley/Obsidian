@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_FrontEnd/4_React/8_useEffect.md",
+                "file": "07_FrontEnd/4_React/9_Hooks customizados.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_useEffect"
+              "title": "9_Hooks customizados"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_FrontEnd/4_React/8_useEffect.md",
+                "file": "07_FrontEnd/4_React/9_Hooks customizados.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 8_useEffect"
+              "title": "Outline of 9_Hooks customizados"
             }
           },
           {
@@ -182,9 +182,12 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "07_FrontEnd/4_React/11_Componente reutilizavel e inner content.md",
+    "07_FrontEnd/4_React/10_Fragmentos.md",
+    "07_FrontEnd/4_React/8_useEffect.md",
+    "07_FrontEnd/4_React/9_Hooks customizados.md",
     "07_FrontEnd/4_React/7_Componentes controlados.md",
     "07_FrontEnd/4_React/6_Callback handlers e lifting state.md",
-    "07_FrontEnd/4_React/8_useEffect.md",
     "16_Aleatorios/1_Blocos obsidian.md",
     "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
     "16_Aleatorios/Apresentação Entrevista.md",
@@ -203,9 +206,6 @@
     "07_FrontEnd/4_React/2_Componente.md",
     "07_FrontEnd/4_React/1_Introdução.md",
     "15_IHC (Cadeira)/8_Prova.md",
-    "07_FrontEnd/4_React/9_Hooks customizados.md",
-    "07_FrontEnd/4_React/10_Fragmentos.md",
-    "07_FrontEnd/4_React/11_Componente reutilizavel e inner content.md",
     "07_FrontEnd/4_React/13_Dados assíncronos.md",
     "07_FrontEnd/4_React/12_Removendo itens da lista.md",
     "attachments/Pasted image 20251124191100.png",

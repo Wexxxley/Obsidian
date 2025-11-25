@@ -1,11 +1,8 @@
 
-
 #Concluded 
 
 ---
-
 O objetivo técnico aqui é extrair a lógica de persistência de estado (sincronização com `localStorage`) do componente `App` para uma função reutilizável. 
-
 ### 1. Criação do Hook useStorageState
 
 Movemos o useState e o useEffect para fora do App e para dentro da nova função useStorageState.
