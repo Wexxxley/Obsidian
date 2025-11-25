@@ -5,82 +5,31 @@ Até agora, utilizamos dados síncronos. Em aplicações reais, os dados vêm de
 
 O objetivo técnico é transformar a lista `stories` de um estado inicial síncrono para um estado que começa vazio e é preenchido após a resolução de uma _Promise_.
 
-#### 1. Simulando a API (Promise)
+![](../../attachments/Pasted%20image%2020251125133327.png)
 
-Primeiro, removemos a variável `initialStories` e criamos uma função que retorna uma **Promise**.
+**1. Simulação da API (`getAsyncStories`)** Criamos uma função fora do componente que retorna uma **Promise**.
 
-JavaScript
-
-```jsx
-const initialStories = [ ... ]; // Mantemos os dados aqui apenas como "banco de dados"
-
-// Função que simula uma requisição assíncrona
-const getAsyncStories = () =>
-  // Retorna uma Promise que resolve com um objeto contendo os dados
-  Promise.resolve({ data: { stories: initialStories } });
-```
-
-#### 2. Buscando os Dados (`useEffect`)
-
-No componente `App`, o estado `stories` agora deve ser inicializado como uma lista vazia `[]`, pois no momento da montagem do componente, os dados ainda não chegaram.
-
-Utilizamos o hook **`useEffect`** para disparar a busca dos dados assim que o componente for montado.
-
-JavaScript
-
-```jsx
-const App = () => {
-  // ... useStorageState ...
-
-  // Estado inicial vazio (estado síncrono)
-  const [stories, setStories] = React.useState([]);
-
-  // Efeito para buscar dados (assíncrono)
-  React.useEffect(() => {
-    getAsyncStories().then((result) => {
-      setStories(result.data.stories);
-    });
-  }, []); // Array de dependências vazio: executa apenas na montagem (mount)
-
-  // ... handlers ...
-
-  return ( ... );
-};
-```
-
-**Fluxo de Renderização:**
-
-1. **Mount:** O componente renderiza com `stories` vazio. O usuário vê uma lista vazia.
+- A Promise é usada em JavaScript para operações que vão terminar no futuro.
     
-2. **Effect:** O `useEffect` executa `getAsyncStories`.
+- Utilizamos o `setTimeout` para forçar um atraso de 2000ms (2 segundos), simulando a latência de rede de uma requisição real.
     
-3. **Promise Resolve:** A promise resolve (instantaneamente, por enquanto).
-    
-4. **State Update:** `setStories` atualiza o estado com os dados recebidos.
-    
-5. **Re-render:** O componente renderiza novamente, agora com a lista preenchida.
+- Quando o tempo acaba, a Promise "resolve" e entrega o objeto de dados (`{ data: { stories: ... } }`) .
     
 
-#### 3. Simulando Latência (Delay Real)
+**2. Inicialização do Estado (`useState([])`)** Mudamos a inicialização de `const [stories, setStories]`.
 
-Para tornar a simulação realista (uma requisição de rede nunca é instantânea), adicionamos um atraso artificial usando `setTimeout` dentro da Promise.
+- **Antes:** `useState(initialStories)` - Os dados já estavam lá na primeira renderização.
+    
+- **Agora:** `useState([])` - A aplicação inicia com uma lista vazia. Isso reflete a realidade: quando o componente monta, a "requisição" ainda não foi feita ou não retornou .
+    
 
-JavaScript
+**3. O Efeito de Busca (`useEffect`)** Introduzimos o hook `useEffect` para disparar a busca dos dados.
 
-```
-const getAsyncStories = () =>
-  new Promise((resolve) =>
-    setTimeout(
-      () => resolve({ data: { stories: initialStories } }),
-      2000 // Atraso de 2 segundos (2000ms)
-    )
-  );
-```
+- Chamamos `getAsyncStories()` dentro do efeito.
+    
+- Usamos `.then()` para esperar a Promise resolver. Quando os dados chegam (após 2 segundos), chamamos `setStories` para atualizar o estado.
+    
+- **Array de dependências vazio `[]`:** Isso é crucial. Garante que essa busca aconteça apenas **uma vez**, quando o componente é montado (aparece na tela pela primeira vez) .
+    
 
-Agora, ao recarregar a página, você perceberá um comportamento visual distinto: a aplicação carrega vazia, aguarda 2 segundos, e só então a lista aparece 1.
-
-Isso expõe uma falha de UX (Experiência do Usuário): o usuário não sabe se a aplicação travou ou se está carregando. Isso nos leva ao próximo passo.
-
----
-
-Diga **next** para prosseguir para **React Conditional Rendering**, onde implementaremos um indicador de carregamento (Loading State).
+**Resultado Visual:** Ao rodar este código, você verá a tela com o título e o input, mas a lista estará vazia. Após 2 segundos, a lista de histórias aparecerá.
