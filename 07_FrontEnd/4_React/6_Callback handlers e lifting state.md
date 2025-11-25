@@ -32,14 +32,6 @@ Para que o termo de busca afete a lista, precisamos **elevar o estado** para o c
 **Código Refatorado (`src/App.jsx`):**
 ![](../../attachments/Pasted%20image%2020251124101046.png)
 ![](../../attachments/Pasted%20image%2020251124101113.png)
-
-1. **Input:** O usuário digita no `Search`.    
-2. **Propagação:** O evento `onChange` dispara `props.onSearch`, que executa `handleSearch`.
-3. **State Update:** `handleSearch` atualiza o estado `searchTerm` no `App` via `setSearchTerm`.
-4. **Re-renderização:** O `App` é re-renderizado.
-5. **Cálculo Derivado:** Durante a renderização, a constante `searchedStories` é recalculada filtrando o array original `stories` com o novo `searchTerm` .
-6. **Atualização de Props:** O componente `List` recebe a nova lista filtrada via prop `list`.
-
 ![300](../../attachments/Pasted%20image%2020251124101004.png)
 
 ![](../../attachments/Pasted%20image%2020251124134442.png)
