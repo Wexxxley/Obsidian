@@ -6,6 +6,139 @@ No React, a estilização funciona de forma muito similar ao HTML padrão, mas c
 1. **clas vira className**
 2. **Estilos Inline são Objetos:** Ao usar o atributo `style`, você não passa uma string (`"color: red"`), mas sim um objeto JavaScript (`{{ color: 'red' }}`).
 
+### **1. A Orquestração dos Arquivos**
+
+**main.jsx e index.css**: main.jsx é o ponto de entrada da aplicação React. 
+- Ele importa o componente raiz (App). 
+- Ele importa o estilo global (index.css).
+- Ele injeta toda a aplicação na div com id root do seu HTML.
+- **index.css** Contém estilos globais que o Vite injeta na página inteira. As regras aqui afetam todos os elementos da aplicação, a menos que sejam sobrescritas por estilos mais específicos.
+
+**App.jsx App.css**: App.jsx é onde toda a sua lógica React reside, ele importa o App.css
+- **App.css:** Contém estilos específicos para os componentes definidos em App.jsx. 
+
+Para que a estilização funcione corretamente é preciso:
+
+1. **Conectar o CSS ao Componente**
+	No arquivo App.jsx, adicione a importação do CSS logo abaixo da importação do React.
+	![](../../attachments/Pasted%20image%2020251125185751.png)
+
+2. **Adicionar as Classes className no JSX**
+	O CSS define classes (ex: `.container`, `.button`), mas o seu JSX atual não está usando essas classes. Você precisa adicionar o atributo `className` aos elementos correspondentes.
+	
+	**Em `App`:**
+	
+	JavaScript
+	
+	```
+	return (
+	  // Adicione className="container"
+	  <div className="container">
+	    {/* Adicione className="headline-primary" */}
+	    <h1 className="headline-primary">My Hacker Stories</h1>
+	    
+	    {/* ... resto do código ... */}
+	  </div>
+	);
+	```
+	
+	**Em `SearchForm`:**
+	
+	JavaScript
+	
+	```
+	const SearchForm = ({ searchTerm, onSearchInput, onSearchSubmit }) => (
+	  // Adicione className="search-form"
+	  <form onSubmit={onSearchSubmit} className="search-form">
+	    {/* ... */}
+	    
+	    <button 
+	      type="submit" 
+	      disabled={!searchTerm}
+	      className="button button_large" // Adicione as classes de botão
+    >	
+	      Submit
+	    </button>
+	  </form>
+	);
+	```
+	
+	**Em `InputWithLabel`:**
+	
+	JavaScript
+	
+	```
+	const InputWithLabel = ({ id, value, type = 'text', onInputChange, children }) => (
+	  <>
+	    {/* Adicione className="label" */}
+	    <label htmlFor={id} className="label">{children}</label>
+	    &nbsp;
+	    <input
+	      id={id}
+	      type={type}
+	      value={value}
+	      onChange={onInputChange}
+	      className="input" // Adicione className="input"
+	    />
+	  </>
+	);
+	```
+	
+	**Em `Item`:**
+	
+	JavaScript
+	
+	```
+	const Item = ({ item, onRemoveItem }) => (
+	  // Adicione className="item"
+	  <li className="item">
+	    {/* Adicione estilos inline para largura das colunas */}
+	    <span style={{ width: '40%' }}>
+	      <a href={item.url}>{item.title}</a>
+	    </span>
+	    <span style={{ width: '30%' }}>{item.author}</span>
+	    <span style={{ width: '10%' }}>{item.num_comments}</span>
+	    <span style={{ width: '10%' }}>{item.points}</span>
+	    <span style={{ width: '10%' }}>
+	      <button 
+	        type="button" 
+	        onClick={() => onRemoveItem(item)}
+	        className="button button_small" // Adicione classes de botão
+      >	
+	        Dismiss
+	      </button>
+	    </span>
+	  </li>
+	);
+	```
+
+#### **Passo C: Limpar Conflitos do `index.css` (Opcional mas Recomendado)**
+
+O arquivo `index.css` que veio com o Vite tem estilos padrão (fundo escuro `#242424`, centralização flexbox no `body`) que podem brigar com o seu `App.css` (fundo gradiente azul).
+
+Para garantir que o estilo do livro prevaleça:
+
+1. Abra `src/index.css`.
+    
+2. Você pode apagar tudo ou comentar as linhas conflitantes (principalmente `background-color`, `color` e o `display: flex` do `body`).
+    
+3. Ou simplesmente confie que o `.container` do `App.css` vai cobrir a tela toda (`height: 100vw` e `padding: 20px`).
+    
+
+### **Resumo da Ação**
+
+1. **Importe** `import './App.css';` no topo de `App.jsx`.
+    
+2. **Preencha** os atributos `className="..."` nos elementos JSX conforme mostrei acima.
+    
+3. **Salve** todos os arquivos.
+    
+
+Se você fizer isso, sua aplicação passará de um HTML cru para uma interface estilizada com gradiente azul e itens alinhados.
+
+---
+
+Diga **next** para prosseguir para **Build Process** (Página 275), onde prepararemos essa aplicação para publicação.
 
 ### 1. Criando o CSS (`src/App.css`)
 
