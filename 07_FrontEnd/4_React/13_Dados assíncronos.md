@@ -5,31 +5,122 @@ Até agora, utilizamos dados síncronos. Em aplicações reais, os dados vêm de
 
 O objetivo técnico é transformar a lista `stories` de um estado inicial síncrono para um estado que começa vazio e é preenchido após a resolução de uma _Promise_.
 
+**Simulação da API**: Foi criado uma função fora do componente que retorna uma Promise.
 ![](../../attachments/Pasted%20image%2020251125133327.png)
 
-**1. Simulação da API (`getAsyncStories`)** Criamos uma função fora do componente que retorna uma **Promise**.
+**Inicialização do Estado**: Mudamos a inicialização de `const [stories, setStories]`. Agora a aplicação inicia com uma lista vazia. 
 
-- A Promise é usada em JavaScript para operações que vão terminar no futuro.
+**useEffect:**  Introduzimos o hook useEffect para disparar a busca dos dados. Note que o Array de dependências vazio, isso garante que essa busca aconteça apenas **uma vez**, quando o componente é montado (aparece na tela pela primeira vez) .
+![](../../attachments/Pasted%20image%2020251125133422.png)
+
+Seguindo a ordem do livro, chegamos ao capítulo **"React Conditional Rendering"** (Renderização Condicional).
+
+Com a introdução de dados assíncronos, criamos um problema de UX (Experiência do Usuário): durante o atraso da requisição, a aplicação parece travada ou vazia. Este capítulo foca em fornecer feedback visual (Loading e Erro) utilizando renderização condicional no JSX.
+
+---
+
+### **27. React Conditional Rendering (Páginas 114-118)**
+
+O objetivo técnico é gerenciar os estados intermediários da requisição de dados. Precisamos saber se os dados estão carregando, se chegaram com sucesso ou se houve falha.
+
+#### 1. Loading State (Estado de Carregamento)
+
+Introduzimos um estado booleano `isLoading` para rastrear o status da requisição.
+
+- **Inicialização:** `false` (ou `true` se quisermos que já comece carregando, mas o livro inicia como `false`).
     
-- Utilizamos o `setTimeout` para forçar um atraso de 2000ms (2 segundos), simulando a latência de rede de uma requisição real.
+- **Fluxo no `useEffect`:**
     
-- Quando o tempo acaba, a Promise "resolve" e entrega o objeto de dados (`{ data: { stories: ... } }`) .
+    1. Antes de iniciar a Promise: `setIsLoading(true)`.
+        
+    2. Quando a Promise resolve: `setIsLoading(false)` 1.
+        
+
+#### 2. Error State (Estado de Erro)
+
+Em aplicações reais, requisições falham. Introduzimos o estado `isError` para capturar falhas na Promise.
+
+- **Fluxo:** Utilizamos o bloco `.catch()` da Promise para capturar erros e atualizar `setIsError(true)` 2.
     
 
-**2. Inicialização do Estado (`useState([])`)** Mudamos a inicialização de `const [stories, setStories]`.
+#### 3. Renderização Condicional no JSX
 
-- **Antes:** `useState(initialStories)` - Os dados já estavam lá na primeira renderização.
-    
-- **Agora:** `useState([])` - A aplicação inicia com uma lista vazia. Isso reflete a realidade: quando o componente monta, a "requisição" ainda não foi feita ou não retornou .
-    
+No React, utilizamos operadores JavaScript dentro do JSX para decidir o que renderizar.
 
-**3. O Efeito de Busca (`useEffect`)** Introduzimos o hook `useEffect` para disparar a busca dos dados.
-
-- Chamamos `getAsyncStories()` dentro do efeito.
+- **Operador Ternário (`? :`):** Ideal para situações "Se/Senão". Se `isLoading` for verdadeiro, renderiza o parágrafo de carregamento; caso contrário, renderiza o componente `List` 3.
     
-- Usamos `.then()` para esperar a Promise resolver. Quando os dados chegam (após 2 segundos), chamamos `setStories` para atualizar o estado.
-    
-- **Array de dependências vazio `[]`:** Isso é crucial. Garante que essa busca aconteça apenas **uma vez**, quando o componente é montado (aparece na tela pela primeira vez) .
+- **Operador Lógico AND (`&&`):** Ideal para situações "Se/Nada". Se `isError` for verdadeiro, renderiza a mensagem de erro; caso contrário, não renderiza nada (o React ignora `false`/`null`) 4.
     
 
-**Resultado Visual:** Ao rodar este código, você verá a tela com o título e o input, mas a lista estará vazia. Após 2 segundos, a lista de histórias aparecerá.
+### Implementação Técnica (`src/App.jsx`)
+
+Aqui está o código atualizado com os novos estados e a lógica de renderização:
+
+JavaScript
+
+```
+const App = () => {
+  // ... (stories state) ...
+
+  const [searchTerm, setSearchTerm] = useStorageState('search', 'React');
+
+  // 1. Novos Estados de Controle
+  const [isLoading, setIsLoading] = React.useState(false);
+  const [isError, setIsError] = React.useState(false);
+
+  React.useEffect(() => {
+    // Inicia o carregamento
+    setIsLoading(true);
+
+    getAsyncStories()
+      .then((result) => {
+        setStories(result.data.stories);
+        // Finaliza o carregamento com sucesso
+        setIsLoading(false);
+      })
+      .catch(() => {
+        // Trata o erro caso a promise seja rejeitada
+        setIsError(true);
+        setIsLoading(false); // Finaliza o carregamento mesmo com erro
+      });
+  }, []);
+
+  // ... (handlers) ...
+
+  return (
+    <div>
+      <h1>Minha aplicação</h1>
+      <InputWithLabel ... >
+        Search:
+      </InputWithLabel>
+
+      <hr />
+
+      {/* Renderização Condicional de Erro (Curto-circuito) */}
+      {isError && <p>Something went wrong ...</p>}
+
+      {/* Renderização Condicional de Loading (Ternário) */}
+      {isLoading ? (
+        <p>Loading ...</p>
+      ) : (
+        <List list={searchedStories} onRemoveItem={handleRemoveStory} />
+      )}
+    </div>
+  );
+};
+```
+
+**Resultado Visual:**
+
+1. Ao recarregar a página, você verá "Loading ..." por 2 segundos.
+    
+2. Após 2 segundos, a lista aparecerá.
+    
+3. Se você modificar a função `getAsyncStories` para retornar `Promise.reject()`, verá a mensagem "Something went wrong ...".
+    
+
+---
+
+Esta seção completa a base para lidar com dados assíncronos.
+
+Diga **next** para prosseguir para **React Advanced State**, onde introduziremos o **Reducer** para gerenciar esses múltiplos estados (`stories`, `isLoading`, `isError`) de forma mais organizada e robusta.
