@@ -5,7 +5,6 @@
 ### **1. Componente**
 
 Toda aplicação React é construída sobre **componentes**. O ponto de partida é o arquivo `src/App.jsx`. Para simplificar, é melhor fazer a substituição do conteúdo de `src/App.jsx` por uma versão minimalista:
-
 ```jsx
 import * as React from 'react';
 
@@ -21,13 +20,8 @@ function App() {
 
 export default App;
 ```
-
 - O componente `App` é declarado como uma função JavaScript.  
-- O nome da função deve obrigatoriams dente começar com letra maiúscula. O React diferencia componentes personalizadoe tags HTML nativas através dessa convenção .
-    
-**Escopo de Variáveis:** Variáveis podem ser definidas dentro ou fora do componente.    
-- Dentro: A variável é redefinida a cada vez que a função do componente é executada.
-- Fora: Se a variável não depende de lógica interna, ela pode ser definida fora para evitar redefinição constante.
+- O nome da função deve obrigatoriams dente começar com letra maiúscula. <mark style="background: #ADCCFFA6;">O React diferencia componentes personalizado e tags HTML nativas através dessa convenção</mark>.
 
 ---
 ### **2. React JSX**
