@@ -19,10 +19,3 @@ No `Search`, atribuímos essa prop ao atributo `value` do elemento HTML `<input>
 Ao adotar esse padrão, garantimos que o estado visual (DOM) e o estado lógico (React) estejam sempre perfeitamente sincronizados.
 
 ---
-### **2. Desestruturação**
-
-A desestruturação de objetos permite extrair propriedades de um objeto diretamente para variáveis.
-
-Em vez de acessar props dentro da função, desestruturamos o objeto diretamente na assinatura da função. Isso torna explícito quais dados o componente requer para funcionar.
-![](../../attachments/Pasted%20image%2020251124140417.png)
-Isso elimina a necessidade de usar `props.` em todo lugar.

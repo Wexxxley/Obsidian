@@ -2,6 +2,7 @@
 #Concluded 
 
 ---
+
 Enquanto props são usadas para passar informações, o state é <mark style="background: #ADCCFFA6;">usado para gerenciar informações que mudam ao longo do tempo dentro de um componente</mark>. O State persiste os dados na memória do React entre renderizações.
 
 ---
@@ -9,7 +10,7 @@ Enquanto props são usadas para passar informações, o state é <mark style="ba
 ![](../../attachments/Pasted%20image%2020251124063152.png)
 1. **Interação:** O usuário digita, disparando `handleChange`.
 2. **Atualização:** `setSearchTerm` é chamado com o novo valor.
-3. **Re-renderização:** O React detecta a mudança de estado e re-executa a função do componente `Search`. O valor atualizado de `searchTerm` é refletido .
+3. **Re-renderização:** O React detecta a mudança de estado e re-executa a função do componente `Search`. 
 ![300](../../attachments/Pasted%20image%2020251124081903.png)
 
 ---
