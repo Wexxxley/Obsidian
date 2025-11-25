@@ -4,13 +4,13 @@
 ---
 ### **1. Callback Handlers**
 
-O fluxo de dados no React é unidirecional (pai para filho via props). Para que um filho comunique uma mudança para o pai (Search informar o App sobre o termo pesquisado), utiliza-se o padrão de **Callback Handler**.
+<mark style="background: #ADCCFFA6;">Permite um componente filho passar inforrmações para o componente pai </mark>(Search informar o App sobre o termo pesquisado).
 
-1. O componente Pai define uma função de callback.
+1. O componente Pai **define uma função de callback.**
 2. O Pai passa essa função como prop para o Filho.
 3. O Filho executa essa função prop quando o evento ocorre.
 
-**Implementação no Pai (App):**
+**Implementação no Pai:**
 ![](../../attachments/Pasted%20image%2020251124093326.png)
 Quando o `App` faz isso: `<Search onSearch={handleSearch}/>` Ele está pegando a **referência** da função handleSearch e entregando para o componente dentro de uma variável chamada onSearch.
 

@@ -27,7 +27,6 @@ Enquanto props são usadas para passar informações, o state é <mark style="ba
 ![200](../../attachments/Pasted%20image%2020251124105049.png)
 
 ---
-
 ### **4. Diferenças de uso**
 
 A diferença fundamental está na **origem do novo dado**. "De onde vem o valor que eu quero salvar?"
@@ -37,4 +36,6 @@ A diferença fundamental está na **origem do novo dado**. "De onde vem o valor 
 
 **Exemplo do contador:** No exemplo do contador, o novo valor é calculado com base em um dado que já existe na memória do componente.
 - A função `handleIncrement` tem acesso direto à variável `count` porque foi criada dentro do mesmo escopo.
-m comportamento do input.
+
+
+
