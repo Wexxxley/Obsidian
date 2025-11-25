@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_FrontEnd/4_React/11_Componente reutilizavel e inner content.md",
+                "file": "07_FrontEnd/4_React/12_Removendo itens da lista.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11_Componente reutilizavel e inner content"
+              "title": "12_Removendo itens da lista"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_FrontEnd/4_React/11_Componente reutilizavel e inner content.md",
+                "file": "07_FrontEnd/4_React/12_Removendo itens da lista.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 11_Componente reutilizavel e inner content"
+              "title": "Outline of 12_Removendo itens da lista"
             }
           },
           {
@@ -182,9 +182,9 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "07_FrontEnd/4_React/11_Componente reutilizavel e inner content.md",
     "07_FrontEnd/4_React/10_Fragmentos.md",
     "07_FrontEnd/4_React/9_Hooks customizados.md",
-    "07_FrontEnd/4_React/11_Componente reutilizavel e inner content.md",
     "07_FrontEnd/4_React/8_useEffect.md",
     "07_FrontEnd/4_React/7_Componentes controlados.md",
     "07_FrontEnd/4_React/6_Callback handlers e lifting state.md",

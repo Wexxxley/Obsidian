@@ -20,7 +20,6 @@ Agora precisamos atualizar o `App` para usar esse novo componente genérico, pas
 Ao generalizar, aumentamos a API de Superfície do componente (ele precisa de mais props para funcionar). Perdemos a simplicidade de <Search /> (que já sabia tudo o que tinha que fazer), mas ganhamos um componente que pode criar qualquer campo de texto na aplicação.
 
 ---
-
 ### 2. Componentes com conteúdo interno
 
 Até agora, tratamos nossos componentes  como tags de fechamento automático, passando dados exclusivamente através de atributos (props). No entanto, elementos HTML nativos frequentemente possuem conteúdo interno. O React permite imitar esse comportamento utilizando a prop especial **`children`**.
