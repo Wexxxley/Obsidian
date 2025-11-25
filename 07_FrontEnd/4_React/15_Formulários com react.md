@@ -2,31 +2,23 @@
 
 ---
 Para controlar o envio de dados, utilizamos o elemento nativo `<form>`. Ele oferece dois benefícios automáticos:
-1. **Submit via Enter**
-2. **Submit via Botão:** Qualquer botão com `type="submit"` dentro do form dispara o envio.
 
-#### 1. O Evento `onSubmit` e `preventDefault`
+1. **Submit via Enter do input**
+2. **Submit via Botão**
 
-Em HTML puro, ao submeter um formulário, o navegador recarrega a página inteira. Em uma SPA (Single-Page Application) com React, **não queremos que a página recarregue**.
+---
+### 1. O Evento onSubmit e preventDefault
+
+Em HTML puro, ao submeter um formulário, o navegador recarrega a página inteira. Em uma SPA com React, não queremos que a página recarregue.
 
 Para evitar isso, utilizamos o método `event.preventDefault()` dentro do manipulador de evento do formulário .
 
-#### 2. Extraindo o Componente `SearchForm`
+Para manter o código organizado, é bom extrair a parte visual do formulário para um componente dedicado `SearchForm`.
 
-Para manter o código organizado, o livro sugere extrair a parte visual do formulário para um componente dedicado `SearchForm`.
-
-### Implementação Técnica (`src/App.jsx`)
-
-Faremos três mudanças principais:
-
+**Faremos três mudanças principais:**
 1. Criar o componente `SearchForm`.
-    
 2. Alterar a lógica de busca no `App` para usar um estado de `url` (que só muda no submit) em vez de depender diretamente do `searchTerm`.
-    
 3. Atualizar o `useEffect` para depender dessa `url` e não mais do termo de busca digitado.
-    
-
-JavaScript
 
 ```
 import * as React from 'react';
