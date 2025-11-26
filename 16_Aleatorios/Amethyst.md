@@ -150,3 +150,7 @@ Com base na imagem do cristal roxo em um fundo escuro, a paleta será focada em 
     - **Ferramenta de Cópia (RF 3.6):** Adicionar um ícone de cópia ao lado de cada bloco de exemplo gerado pela LLM.
         
 - **Header:** Adicionar um botão `EXPORTAR` no header para demonstrar o RF 2.2.
+
+
+---
+
