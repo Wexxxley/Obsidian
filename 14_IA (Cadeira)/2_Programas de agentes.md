@@ -12,15 +12,15 @@ A "inteligência" do agente é definida pela fórmula: <mark style="background: 
 ---
 ### **1. Tipos de Programas de Agentes**
 
-1. Agentes reativos simples
+1. **Agentes reativos simples** Tomam decisões baseadas exclusivamente na **percepção atual**. Regras do tipo "se condição, então ação".
     
-2. Agentes reativos baseados em modelos
+2. **Agentes reativos baseados em modelos** Mantêm um **estado interno** para rastrear aspectos do mundo que não são visíveis no momento. 
     
-3. Agentes baseados em objetivos
+3. **Agentes baseados em objetivos** Além do estado atual, utilizam informações sobre **metas** (situações desejáveis) para decidir. Consideram o futuro ("o que acontece se eu fizer isso?") para alcançar seus objetivos.
     
-4. Agentes baseados em utilidade
+4. **Agentes baseados em utilidade** Avaliam quão "boa" ou eficiente é uma ação através de uma **função de utilidade** (grau de felicidade). Buscam não apenas atingir a meta, mas fazê-lo da melhor maneira possível (maximizando o desempenho).
     
-5. Agentes baseados em aprendizagem
+5. **Agentes baseados em aprendizagem** Capazes de operar em ambientes desconhecidos e melhorar seu desempenho com a **experiência**. Possuem um elemento de crítica que avalia o sucesso e permite alterar suas próprias regras de ação.
 
 ---
 ### 2. Agente Reativo Simples
