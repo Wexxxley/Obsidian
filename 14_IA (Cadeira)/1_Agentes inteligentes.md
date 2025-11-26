@@ -1,9 +1,10 @@
 
+#Concluded 
 
 ---
-### 1. O Conceito Central: Agentes e Ambientes
+### **1. Agentes**
 
-Um **Agente** é qualquer coisa que pode perceber seu **Ambiente** através de **Sensores** e agir sobre esse ambiente através de **Atuadores**.
+Um **Agente** é um sistema de software que pode perceber seu **Ambiente** através de **Sensores** e agir sobre esse ambiente através de **Atuadores**.
 
 ![400](../attachments/Pasted%20image%2020251108180452.png)
 
@@ -12,20 +13,20 @@ Exemplo: O Robô Aspirador de Pó Este exemplo é usado para ilustrar os conceit
 - **Agente:** O robô aspirador.    
 - **Sensores:** Sensores de penhasco (Cliff Sensor), sensor de sujeira, etc..
 - **Atuadores:** Extratores de detritos (Debris Extractors), escova lateral (Side Brush), rodas.
-- **Ambiente Simplificado:** Um mundo com duas localizações, A e B.
+
+- **Ambiente:** Um mundo com duas localizações, A e B.
 - **Percepções:** Localização, Estado (ex: `[A, Limpo]`, `[A, Sujo]`).
 - **Ações:** Mover para Direita, Mover para Esquerda, Aspirar.
 ![400](../attachments/Pasted%20image%2020251108181036.png)
 
 ---
-### 2. Agentes Racionais
+### **2. Agentes Racionais**
 
-Um Agente Racional é aquele que age para maximizar sua medida de desempenho.
-     
+Um Agente Racional é <mark style="background: #ADCCFFA6;">aquele que age para maximizar sua medida de desempenho.</mark>
+
 - **Racionalidade vs. Perfeição:** Ser racional não significa ser perfeito. 
-    - "Um agente jogador de pôquer racional nunca perde?".
-    - "O agente pode perder se seu oponente tiver cartas melhores". 
-	- Racionalidade é tomar a melhor decisão _com base nas percepções disponíveis_, e não saber o resultado de tudo.
+    - "Um agente jogador de pôquer racional nunca perde?". O agente pode perder se seu oponente tiver cartas melhores. 
+	- <mark style="background: #ADCCFFA6;">Racionalidade é tomar a melhor decisão com base nas percepções disponíveis.</mark>
 
 ---
 ### 3. O Framework PEAS

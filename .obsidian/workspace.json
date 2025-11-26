@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Aleatorios/Decisões tomadas es.md",
+                "file": "14_IA (Cadeira)/1_Agentes inteligentes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Decisões tomadas es"
+              "title": "1_Agentes inteligentes"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "16_Aleatorios/Decisões tomadas es.md",
+                "file": "14_IA (Cadeira)/1_Agentes inteligentes.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Decisões tomadas es"
+              "title": "Outline of 1_Agentes inteligentes"
             }
           },
           {
@@ -183,8 +183,12 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
+    "14_IA (Cadeira)/4_Busca em largura, profundidade e custo uniforme.md",
+    "14_IA (Cadeira)/3_Agentes Baseados em Objetivos.md",
+    "14_IA (Cadeira)/2_Programas de agentes.md",
+    "14_IA (Cadeira)/1_Agentes inteligentes.md",
     "16_Aleatorios/Decisões tomadas es.md",
+    "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "16_Aleatorios/Como funciona rep.md",
     "16_Aleatorios/Apresentação SD 2.md",
     "16_Aleatorios/Apresentação SD.md",
@@ -215,10 +219,6 @@
     "07_FrontEnd/4_React/7_Componentes controlados.md",
     "07_FrontEnd/4_React/6_Callback handlers e lifting state.md",
     "16_Aleatorios/1_Blocos obsidian.md",
-    "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
-    "16_Aleatorios/Apresentação Entrevista.md",
-    "16_Aleatorios/IHC-Observatório Legislativo.md",
-    "16_Aleatorios/Pedido de crenciais GIT.md",
     "07_FrontEnd/3_JavaScript/1_Introdução",
     "07_FrontEnd/4_React",
     "12_Sistemas Distribuídos (Cadeira)/Cap8",
