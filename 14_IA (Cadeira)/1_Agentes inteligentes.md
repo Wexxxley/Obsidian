@@ -41,7 +41,7 @@ Para projetar um agente racional, os slides introduzem o framework **PEAS**:
 ---
 ### 4. A Natureza dos Ambientes
 
-**Completamente Observável:** O agente tem acesso ao estado _completo_ do ambiente em todos os momentos.  (Ex: Um jogo de xadrez, onde o agente vê todas as peças no tabuleiro).
+**Completamente Observável:** O agente tem acesso ao estado completo do ambiente em todos os momentos.  (Ex: Um jogo de xadrez, onde o agente vê todas as peças no tabuleiro).
     
 **Parcialmente Observável:** O agente _não_ tem acesso ao estado completo. Isso pode ocorrer porque os sensores não captam tudo (ex: um robô vendo apenas o que está à sua frente) ou porque parte da informação está oculta (ex: as cartas do oponente em um jogo de pôquer).
 
