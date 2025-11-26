@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Aleatorios/Amethyst.md",
+                "file": "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amethyst"
+              "title": "ES-Plataforma Gestão de recursos pedagógicos Colaborativa"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "16_Aleatorios/Amethyst.md",
+                "file": "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Amethyst"
+              "title": "Outline of ES-Plataforma Gestão de recursos pedagógicos Colaborativa"
             }
           },
           {
@@ -182,6 +182,12 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "16_Aleatorios/Decisões tomadas es.md",
+    "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
+    "16_Aleatorios/Como funciona rep.md",
+    "16_Aleatorios/Apresentação SD 2.md",
+    "16_Aleatorios/Apresentação SD.md",
+    "16_Aleatorios/Amethyst.md",
     "07_FrontEnd/3_JavaScript/3_Node.js/1_Runtime e Módulos.md",
     "07_FrontEnd/3_JavaScript/3_Node.js/3_Dotenv.md",
     "07_FrontEnd/3_JavaScript/3_Node.js/2_Gerenciamento de dependências.md",
@@ -210,14 +216,8 @@
     "16_Aleatorios/1_Blocos obsidian.md",
     "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
     "16_Aleatorios/Apresentação Entrevista.md",
-    "16_Aleatorios/Apresentação SD.md",
-    "16_Aleatorios/Apresentação SD 2.md",
-    "16_Aleatorios/Como funciona rep.md",
-    "16_Aleatorios/Decisões tomadas.md",
-    "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "16_Aleatorios/IHC-Observatório Legislativo.md",
     "16_Aleatorios/Pedido de crenciais GIT.md",
-    "16_Aleatorios/Prompt prototipo Acervo Mestre.md",
     "07_FrontEnd/3_JavaScript/1_Introdução",
     "07_FrontEnd/4_React",
     "12_Sistemas Distribuídos (Cadeira)/Cap8",
