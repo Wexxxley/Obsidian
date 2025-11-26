@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14_IA (Cadeira)/1_Agentes inteligentes.md",
+                "file": "14_IA (Cadeira)/2_Programas de agentes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Agentes inteligentes"
+              "title": "2_Programas de agentes"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14_IA (Cadeira)/1_Agentes inteligentes.md",
+                "file": "14_IA (Cadeira)/2_Programas de agentes.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1_Agentes inteligentes"
+              "title": "Outline of 2_Programas de agentes"
             }
           },
           {
@@ -183,11 +183,11 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "14_IA (Cadeira)/1_Agentes inteligentes.md",
+    "14_IA (Cadeira)/2_Programas de agentes.md",
     "14_IA (Cadeira)/4_Busca em largura, profundidade e custo uniforme.md",
     "14_IA (Cadeira)/5_Heurística.md",
     "14_IA (Cadeira)/3_Agentes Baseados em Objetivos.md",
-    "14_IA (Cadeira)/2_Programas de agentes.md",
-    "14_IA (Cadeira)/1_Agentes inteligentes.md",
     "16_Aleatorios/Decisões tomadas es.md",
     "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "16_Aleatorios/Como funciona rep.md",
