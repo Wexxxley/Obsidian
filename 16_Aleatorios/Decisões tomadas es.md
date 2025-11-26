@@ -310,84 +310,12 @@ A arquitetura escolhida foi **MVC com API REST**. Ela deriva do MVC, mas com uma
 
 Tecnologia escolhida: Node.js para o backend, PostgreSQL para o banco de dados.
 
-- **V (View) = Frontend Desacoplado:**
+- **View = Frontend Desacoplado:**
     - A View será um projeto separado (React) que roda no navegador do usuário.
     - A única responsabilidade do backend é entregar dados puros, não layout.
         
-- **C (Controller) = API Endpoints:**
-    - Os Controllers (`ResourceController`, `AuthController`) são os **porteiros**.
+- **Controller = API Endpoints:**        
+    - Eles pegam os dados da requisição, validam se os campos obrigatórios vieram e chamam o método certo do Model. Eles **não** contêm regras de negócio complexas.
         
-    - Eles "falam" o protocolo HTTP (Recebem `GET/POST`, devolvem Status `200/403/404`).
-        
-    - **Responsabilidade:** Eles pegam os dados da requisição ( `req.body`), validam se os campos obrigatórios vieram e chamam o método certo do Model. Eles **não** contêm regras de negócio complexas.
-        
-- **M (Model) = Domínio Rico (Sua Lógica):**
-    
-    - Aqui está a grande mudança que fizemos nos últimos passos.
-        
-    - Seus Models (`User`, `Recurso`, `Playlist`) não são apenas espelhos do banco de dados (tabelas). Eles são **Classes Inteligentes**.
-        
-    - Eles contêm métodos como `verificarSenha()`, `vincularTag()`, `registrarVisualizacao()`.
-        
-    - **Responsabilidade:** Garantir a integridade dos dados e executar as regras do negócio (ex: "Se é aluno, não pode ver recurso privado").
-        
-
----
-
-### 2. O Fluxo de uma Requisição (Exemplo Prático)
-
-Imagine o cenário: **Um Professor tenta editar um Recurso.**
-
-1. **A View (Frontend):**
-    
-    - O usuário clica em "Salvar" no navegador.
-        
-    - O Front envia um JSON para `PUT /api/recursos/50` com os novos dados.
-        
-2. **O Controller (`ResourceController.update`):**
-    
-    - Recebe a requisição.
-        
-    - Identifica quem é o usuário logado (via token).
-        
-    - Instancia/Busca o objeto `Recurso` (ID 50) do banco.
-        
-    - **Pergunta crucial:** Ele chama um método de verificação, por exemplo:
-        
-        JavaScript
-        
-        ```
-        if (!recurso.podeSerEditadoPor(usuarioLogado)) {
-             return res.status(403).json({ erro: "Sem permissão" });
-        }
-        ```
-        
-    - Se passar, ele atualiza os dados e manda salvar.
-        
-    - Retorna um JSON `200 OK` com o recurso atualizado.
-        
-3. **O Model (`Recurso` e `User`):**
-    
-    - É onde a lógica `podeSerEditadoPor` reside. O Controller não sabe a regra, ele apenas pergunta ao modelo.
-        
-
----
-
-### 3. Por que essa arquitetura é boa para o seu projeto?
-
-1. **Independência de Interface:**
-    
-    - Como sua API só devolve dados, você pode criar um site hoje e um aplicativo de celular amanhã usando **exatamente o mesmo backend**.
-        
-2. **Testabilidade:**
-    
-    - Você pode testar suas regras de negócio (`User.spec.js`, `Recurso.spec.js`) sem precisar subir um servidor, sem banco de dados e sem navegador. É só testar se a lógica da classe funciona.
-        
-3. **Organização:**
-    
-    - O Controller fica limpo (fácil de ler as rotas).
-        
-    - O Model fica rico (toda a regra de negócio do Acervo Mestre está concentrada ali, e não espalhada).
-        
-
-Portanto, sim: é um **MVC onde a View foi "expulsa" do servidor** e mora no navegador do cliente, transformando o Controller em uma API de dados.
+- **Model:**
+    -  São classe que além de armazenar dados também possuem as regras de negócio.        
