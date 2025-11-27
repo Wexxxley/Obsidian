@@ -7,7 +7,7 @@
 
 Voltando ao arquivo App.jsx, após o cabeçalho, temos a área principal de conteúdo.
 ![](../../../attachments/Pasted%20image%2020251127080132.png)
-O React verifica se a variável de estado screen é igual a home. Se for, ele renderiza o componente HomeScreen. 
+O React verifica se a variável de estado screen é igual a home. Se for, ele renderiza o componente HomeScreen. Se for video, rendereza VideoScreen.
     
 **Props passadas:** 
 1. **isLoggedIn**: Para a tela saber se bloqueia ou libera o botão de processar.
