@@ -6,7 +6,7 @@
 
 Elementos de formulário HTML (como `<input>`, `<textarea>`, `<select>`) mantêm nativamente seu próprio estado interno no DOM. Quando você digita em um campo de texto, o navegador atualiza o valor visualmente, independentemente do React.
 
-Atualmente, o componente `Search` é um **Uncontrolled Component**. O React recebe os eventos de mudança (`onChange`), mas não determina explicitamente o que está sendo exibido no input.
+O componente `Search` é um **Uncontrolled Component**. O React recebe os eventos de mudança (`onChange`), mas não determina explicitamente o que está sendo exibido no input.
 
 **Controlled Components**: Para resolver isso, devemos converter o input em um Componente Controlado. Isso significa que o React se torna a "**única fonte da verdade**". 
 
