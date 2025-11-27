@@ -2,6 +2,7 @@
 #Concluded 
 
 ---
+![](../../../attachments/Pasted%20image%2020251127080555.png)
 ### **1. App.jsx estados e efeitos**
 
 App é o orquestrador de estados e componentes.
