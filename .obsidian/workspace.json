@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Aleatorios/Decisões tomadas es.md",
+                "file": "07_FrontEnd/4_React/2_ProjetoAmethyst/3_VideoScreen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Decisões tomadas es"
+              "title": "3_VideoScreen"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "16_Aleatorios/Decisões tomadas es.md",
+                "file": "07_FrontEnd/4_React/2_ProjetoAmethyst/3_VideoScreen.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Decisões tomadas es"
+              "title": "Outline of 3_VideoScreen"
             }
           },
           {
@@ -183,15 +183,17 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251127194620.png",
+    "07_FrontEnd/4_React/2_ProjetoAmethyst/4_.md",
+    "07_FrontEnd/4_React/2_ProjetoAmethyst/3_VideoScreen.md",
+    "16_Aleatorios/Decisões tomadas es.md",
     "16_Aleatorios/Prompt prototipo Acervo Mestre.md",
     "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "07_FrontEnd/3_JavaScript/3_Node.js/1_Runtime e Módulos.md",
     "07_FrontEnd/4_React/1_Fundamentos/1_Introdução.md",
-    "07_FrontEnd/4_React/2_ProjetoAmethyst/3_VideoScreen.md",
     "attachments/Pasted image 20251127084154.png",
     "07_FrontEnd/4_React/2_ProjetoAmethyst/2_HomeScreen.md",
     "07_FrontEnd/4_React/2_ProjetoAmethyst/1_App e header.md",
-    "07_FrontEnd/4_React/2_ProjetoAmethyst/4_.md",
     "attachments/Pasted image 20251127082401.png",
     "07_FrontEnd/4_React/1_Fundamentos/6_Callback handlers e lifting state.md",
     "attachments/Pasted image 20251127081819.png",
@@ -210,7 +212,6 @@
     "14_IA (Cadeira)/4_Busca em largura, profundidade e custo uniforme.md",
     "14_IA (Cadeira)/5_Heurística.md",
     "14_IA (Cadeira)/3_Agentes Baseados em Objetivos.md",
-    "16_Aleatorios/Decisões tomadas es.md",
     "16_Aleatorios/Como funciona rep.md",
     "16_Aleatorios/Apresentação SD 2.md",
     "16_Aleatorios/Apresentação SD.md",
@@ -220,7 +221,6 @@
     "07_FrontEnd/4_React/1_Fundamentos/16_Estilização no React.md",
     "07_FrontEnd/4_React/1_Fundamentos/15_Formulários com react.md",
     "07_FrontEnd/4_React/1_Fundamentos/14_Data fething.md",
-    "07_FrontEnd/4_React/1_Fundamentos/13_Renderização condicional de dados assíncronos.md",
     "07_FrontEnd/3_JavaScript/1_Introdução",
     "07_FrontEnd/4_React",
     "12_Sistemas Distribuídos (Cadeira)/Cap8",

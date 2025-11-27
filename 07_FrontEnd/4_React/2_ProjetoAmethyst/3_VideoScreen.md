@@ -22,77 +22,14 @@
     
 - **useRef([])**: O useRef cria uma variável que **não dispara re-renderização** quando muda. Usamos ele para guardar referências às divs de cada legenda, para podermos mandar o navegador "rolar a tela" até elas.
 
-
 ---
+### **2. Efeitos**
 
-### **2. O Motor de Sincronização (Effect 1)**
-
-Este é o trecho de código mais crítico para o funcionamento da legenda:
-
-JavaScript
-
-```
-useEffect(() => {
-  if (!player) return; // Se o player do YouTube não carregou, não faz nada.
-
-  const interval = setInterval(() => {
-    // 1. Pergunta ao YouTube: "Em que segundo estamos?"
-    const currentTime = player.getCurrentTime();
-
-    // 2. Procura na lista de legendas qual delas bate com esse tempo
-    const index = data.subtitles.findIndex(sub => 
-      currentTime >= sub.start && currentTime < (sub.start + sub.duration + 0.5)
-    );
-
-    // 3. Se mudou a legenda (index diferente do atual), atualiza o estado!
-    if (index !== -1 && index !== activeIndex) {
-      setActiveIndex(index);
-    }
-  }, 200); // Roda isso a cada 200 milissegundos (5 vezes por segundo)
-
-  return () => clearInterval(interval); // Limpeza: Mata o timer se sair da tela
-}, [player, data.subtitles, activeIndex]);
-```
-
-Vou dissecar essa lógica matemática. O objetivo desse trecho é responder à pergunta: **"Dado o segundo exato do vídeo agora, qual frase da lista devo pintar de amarelo?"**
-
-Imagine o vídeo como uma régua de tempo e cada legenda como um bloco colorido em cima dessa régua.
-
-### 1. O Ponto de Referência
-
-JavaScript
-
-```
-const currentTime = player.getCurrentTime();
-```
-
-- O player do YouTube devolve um número flutuante (com casas decimais), por exemplo: `12.453` (12 segundos e meio). Esse é o nosso "cursor".
-    
-
-### 2. A Busca (`findIndex`)
-
-O método `.findIndex` percorre o array de legendas item por item (`sub`). Para cada item, ele testa a **Fórmula de Intervalo**:
-
-JavaScript
-
-```
-currentTime >= sub.start && currentTime < (sub.start + sub.duration + 0.5)
-```
-
-Essa linha tem duas partes unidas por um `&&` (E). Para ser verdade, **ambas** têm que ser verdadeiras.
-
-#### **Parte A: "A frase já começou?"**
-
-`currentTime >= sub.start`
-
-- **Tradução:** O tempo atual do vídeo (12.4s) é maior ou igual ao tempo de início da frase (ex: 10.0s)?
-    
-- **Lógica:** Se o vídeo está no segundo 5 e a frase começa no 10, isso dá `false`. A frase está no futuro. Se o vídeo está no 12, dá `true`.
-    
-
-#### **Parte B: "A frase ainda não acabou?"**
-
-`currentTime < (sub.start + sub.duration + 0.5)`
+![](../../../attachments/Pasted%20image%2020251127194620.png)
+- **getCurrentTime**: por exemplo 12.453 . Esse é o nosso "cursor".
+- .**findIndex**:  percorre o array de legendas item por item. Para cada item, ele testa a fórmula de Intervalo.
+	- **currentTime >= sub.start**: O tempo atual do vídeo é maior ou igual ao tempo de início da frase ?
+	- **currentTime < (sub.start + sub.duration + 0.5)**`
 
 - Aqui calculamos o **Fim Teórico** da frase: `Início + Duração`.
     
