@@ -1,93 +1,34 @@
 
 
----
-### **Parte 1: O Container Principal (App.jsx) e o Cabeçalho**
-
-O arquivo `App.jsx` atua como o **Orquestrador de Estado**. Ele não tem muita lógica visual complexa, mas gerencia _quem_ está logado, _qual_ tela deve aparecer e _quais_ modais estão abertos.
-
-#### **1. Análise do `App.jsx` (Início)**
-
-**Imports:**
-
-- `useState`, `useEffect`: Hooks fundamentais para gerenciar memória do componente e ciclo de vida.
-    
-- Importação dos componentes filhos (`Header`, `HomeScreen`, etc.).
-    
-
-Estados (useState):
-
-Aqui definimos a "verdade única" da aplicação.
-
-1. `const [screen, setScreen] = React.useState('home');`
-    
-    - **Função:** Roteamento manual. Como não estamos usando `react-router`, essa string define o que o usuário vê.
-        
-    - **Valores:** `'home'` (tela inicial) ou `'video'` (tela do player).
-        
-2. `const [user, setUser] = React.useState(null);`
-    
-    - **Função:** Armazena o objeto do usuário logado `{ id, name, email, hasApiKey }`.
-        
-    - **Técnica:** Se for `null`, a aplicação entende como "deslogado".
-        
-3. `const [videoData, setVideoData] = React.useState(null);`
-    
-    - **Função:** Armazena o JSON pesado que vem do backend (legendas sincronizadas, ID do vídeo, título). É passado para a `VideoScreen`.
-        
-4. `const [isLoading, setIsLoading] = React.useState(false);`
-    
-    - **Função:** Feedback visual. Bloqueia a interface enquanto o backend processa o vídeo.
-        
-5. `const [showLoginModal, setShowLoginModal] = React.useState(false);` e `[showApiKeyModal, ...]`
-    
-    - **Função:** Booleanos simples para controlar a visibilidade dos modais (pop-ups). O React renderiza condicionalmente com base nisso.
-        
-
-**Efeitos (`useEffect`):**
-
-JavaScript
-
-```
-React.useEffect(() => {
-  const savedUser = localStorage.getItem('amethyst_user');
-  if (savedUser) {
-      setUser(JSON.parse(savedUser));
-  }
-}, []);
-```
-
-- **Objetivo:** Persistência de Sessão.
-    
-- **Funcionamento:** O array de dependências vazio `[]` garante que isso rode **apenas uma vez** quando o `App` é montado (ao atualizar a página). Ele verifica se há um usuário salvo no navegador (`localStorage`) para evitar que o usuário tenha que logar toda vez que der F5.
-    
 
 ---
+### **1. App.jsx estados e efeitos**
 
-#### **2. Renderização e o Componente `Header`**
+App é o orquestrador de estados e componentes.
 
-Agora entramos no `return (...)` do `App.jsx`. O primeiro componente encontrado é o `<Header />`.
+**Estados:**
+![](../../../attachments/Pasted%20image%2020251127073006.png)
+1.  **screen**: Essa string define o que o usuário vê. home, video.
+        
+2. **user:** Armazena o objeto do usuário logado { id, name, email, hasApiKey }. Se for null, a aplicação entende como "deslogado".
+        
+3. **videoData**: Armazena o JSON pesado que vem do backend (legendas, ID do vídeo, título). 
+        
+4. **isLoading**: Feedback visual. Bloqueia a interface enquanto há processamento.
+        
+5. **showLoginModal e showApiKeyModal:** Booleanos simples para controlar a visibilidade dos modais. 
 
-JavaScript
-
-```
-<Header 
-  isLoggedIn={!!user}
-  user={user} 
-  currentScreen={screen} 
-  onLoginClick={() => setShowLoginModal(true)} 
-  onLogoClick={() => setScreen('home')}
-  onLogout={handleLogout}
-  onOpenApiKeyModal={() => setShowApiKeyModal(true)}
-/>
-```
-
-Vamos pausar o `App.jsx` e entrar no arquivo `Header.jsx`.
+**Efeitos:**
+![](../../../attachments/Pasted%20image%2020251127073447.png)
+ - O array de dependências vazio garante que isso rode **apenas uma vez** quando o App é montado. Ele verifica se há um usuário salvo no navegador (localStorage) para evitar que o usuário tenha que logar toda vez que o user atualizar a página.
 
 ---
+### **2. Componente Header**
 
-### **Componente: Header.jsx**
+Agora entramos no return  do App. O primeiro componente encontrado é o Header.
+![](../../../attachments/Pasted%20image%2020251127073740.png)
 
-Este é um **Componente de Apresentação** (Dumb Component). Ele recebe dados e funções do pai e apenas mostra coisas na tela. Ele não tem `state` próprio complexo.
+Header recebe dados e funções do pai e apenas mostra coisas na tela. Ele não tem state próprio complexo.
 
 **Props (Parâmetros recebidos):**
 
