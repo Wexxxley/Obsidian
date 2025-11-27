@@ -27,68 +27,12 @@
 
 ![](../../../attachments/Pasted%20image%2020251127194620.png)
 - **getCurrentTime**: por exemplo 12.453 . Esse é o nosso "cursor".
-- .**findIndex**:  percorre o array de legendas item por item. Para cada item, ele testa a fórmula de Intervalo.
-	- **currentTime >= sub.start**: O tempo atual do vídeo é maior ou igual ao tempo de início da frase ?
-	- **currentTime < (sub.start + sub.duration + 0.5)**`
+- .**findIndex**:  percorre o array de legendas item por item. Para cada, ele testa a fórmula.
+	- **currentTime >= sub.start**: O tempo atual é maior ou igual ao tempo de início da frase?
+	- **currentTime < (sub.start + sub.duration + 0.5)**: O tempo atual é menor que o tempo final da legenda.
 
-- Aqui calculamos o **Fim Teórico** da frase: `Início + Duração`.
-    
-    - Exemplo: Se começa aos `10s` e dura `3s`, ela acaba aos `13s`.
-        
-- **A verificação:** O tempo atual (12.4s) é _menor_ que o fim (13.5s)?
-    
-    - Se for menor, significa que ainda estamos "dentro" do bloco da frase.
-        
-    - Se o vídeo já estiver em `14s`, isso dá `false`. A frase ficou no passado.
-        
+O setInterval roda isso a cada 200ms (5 vezes por segundo) mas só faz o React rendereizar quando o index da legenda muda.
 
----
-
-### 3. O "Pulo do Gato": Por que `+ 0.5`?
-
-Você notou o `+ 0.5` no final do cálculo do fim. Isso é uma **Margem de Segurança (Buffer)**.
-
-Sem esse 0.5, aconteceria um efeito visual irritante chamado "Flickering" (Piscada).
-
-Imagine duas frases:
-
-- Frase A: Acaba em 10.0s.
-    
-- Frase B: Começa em 10.2s.
-    
-
-Existe um buraco de 0.2 segundos onde nenhuma legenda estaria ativa. A lista piscaria (ficaria tudo branco) por uma fração de segundo e depois acenderia a próxima.
-
-Ao adicionar 0.5s, nós "esticamos" artificialmente a duração da Frase A para 10.5s.
-
-- Isso faz com que a Frase A continue amarela até que a Frase B comece. O destaque pula instantaneamente de uma para a outra, sem buracos. Fica muito mais fluido para o olho humano.
-    
-
----
-
-### 4. A Otimização de Performance
-
-JavaScript
-
-```
-if (index !== -1 && index !== activeIndex) {
-  setActiveIndex(index);
-}
-```
-
-O setInterval roda isso a cada 200ms (5 vezes por segundo).
-
-Imagine que a frase dura 3 segundos. O código vai confirmar que essa é a frase certa umas 15 vezes seguidas (index será igual a 5, por exemplo).
-
-- **Sem esse IF:** O React executaria `setActiveIndex(5)` 15 vezes. A cada vez, o React pensaria: "O estado mudou? Talvez. Vou renderizar a tela de novo só pra garantir". Isso deixa o site lento.
-    
-- **Com esse IF:** Nós dizemos: "Só avise o React se o índice **mudou** (ex: passou da 5 para a 6)". Se o resultado da conta for igual ao que já está na tela (`activeIndex`), não faz nada. Economiza processamento.
-    
-
-Diga **"next"** para analisarmos a **LoginModal** e como funciona a autenticação.
-
-
----
 
 ### **3. O Scroll Automático (Effect 2)**
 
