@@ -12,81 +12,15 @@
 - **loadingAnalysis**: É o sinalizador de espera. Quando vira true, a caixa da esquerda mostra o spinner girando.
 	- **disabled={loadingAnalysis}:** Isso impede que o usuário clique freneticamente em várias palavras enquanto a IA ainda está pensando na primeira.
 
+- **selectedText**:  É a memória do clique. Guarda a string exata que o usuário quer investigar.
 
-- selectedText: 
-
-- **O que é:** É a **memória do clique**. Guarda a string exata que o usuário quer investigar.
-    
-- **Exemplo:** Se você clicar na palavra "Apple", este estado vira `"Apple"`.
-    
-- **Por que separar do `analysis`?**
-    
-    - Existe um "delay" entre você clicar e a resposta chegar.
-        
-    - Nesse intervalo de 1 ou 2 segundos, queremos mostrar ao usuário: _"Estamos analisando a palavra **Apple**..."_.
-        
-    - O `selectedText` muda **instantaneamente** ao clicar, enquanto o `analysis` demora para chegar. Isso melhora a percepção de velocidade da interface.
-        
-
----
-
-### **4. `const [outputLang, setOutputLang] = useState('pt-br');`**
-
-- **O que é:** É o **estado de configuração**. Define em qual língua a explicação deve ser gerada.
-    
-- **Valores:** `'pt-br'` (Português) ou `'en'` (Inglês).
-    
-- **Impacto Visual:** Controla qual botão fica roxo (classe `.active`) na sidebar: 🇺🇸 ou 🇧🇷.
-    
-- **Impacto na Lógica:** Quando chamamos a função `fetch`, este valor é enviado no corpo da requisição:
-    
-    JavaScript
-    
-    ```
-    body: JSON.stringify({
-      // ...
-      outputLang: outputLang // Envia 'pt-br' ou 'en' pro backend
-    }),
-    ```
-    
-    Isso diz ao Prompt da IA se a explicação gramatical deve vir traduzida ou no idioma original.
-    
-
----
-
-### **Resumo do Fluxo Combinado**
-
-Imagine que o usuário clica na palavra **"Run"**. Veja como os 4 estados dançam juntos:
-
-1. **Clique:**
-    
-    - `setSelectedText("Run")` (Atualiza o título da caixa).
-        
-    - `setLoadingAnalysis(true)` (Mostra o spinner e bloqueia cliques).
-        
-    - `setAnalysis(null)` (Limpa a explicação anterior da tela).
-        
-2. **Processamento:**
-    
-    - O React faz o `fetch` enviando o texto "Run" e o `outputLang` atual.
-        
-3. **Resposta:**
-    
-    - O Backend responde.
-        
-    - `setAnalysis({... dados ...})` (Guarda a explicação).
-        
-    - `setLoadingAnalysis(false)` (Esconde o spinner e libera a tela).
-        
-
-Diga **"next"** para irmos para os **Modais (Login e API Key)**.
+- **outputLang**: Define em qual língua a explicação deve ser gerada.
 
 - **player**: Diferente de um vídeo HTML normal, o YouTube roda dentro de um iframe. A biblioteca `react-youtube` nos devolve um **objeto** que tem métodos especiais. Precisamos guardar esse objeto no estado para usá-lo depois.
     
 - **activeIndex**: Se for 5, significa que a 6ª frase da lista deve estar em destaque. Se for -1, ninguém está falando nada.
     
 - **useRef([])**: O useRef cria uma variável que **não dispara re-renderização** quando muda. Usamos ele para guardar referências às divs de cada legenda, para podermos mandar o navegador "rolar a tela" até elas.
-
 
 
 ---
