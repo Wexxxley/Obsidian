@@ -27,37 +27,12 @@ App é o orquestrador de estados e componentes.
 
 Agora entramos no return  do App. O primeiro componente encontrado é o Header.
 ![](../../../attachments/Pasted%20image%2020251127073740.png)
-
 Header recebe dados e funções do pai e apenas mostra coisas na tela. Ele não tem state próprio complexo.
 
-**Props (Parâmetros recebidos):**
-
-1. `isLoggedIn`: Booleano (convertido de `!!user` no App). Define se mostra o botão "Entrar" ou o Avatar do usuário.
+**Props:**
+1. **isLoggedIn**: Define se mostra o botão "Entrar" ou o Avatar do usuário.
+2. **currentScreen**: Se for video, mostra o botão "Exportar Transcrição".
+3. **onLoginClick**: É um callback handler. Quando clicada, avisa ao App para mudar o estado showLoginModal para true.
+4. **onLogoClick:** Callback para resetar a tela para home.    
     
-2. `currentScreen`: String. Usada para renderização condicional. Se for `'video'`, ele mostra o botão extra "Exportar Transcrição".
-    
-3. `onLoginClick`: Função de callback. Quando clicada, avisa ao `App.js` para mudar o estado `showLoginModal` para `true`.
-    
-4. `onLogoClick`: Callback para resetar a tela para `'home'`.
-    
-
-**Lógica Interna:**
-
-- **Renderização Condicional Ternária:**
-    
-    JavaScript
-    
-    ```
-    {!isLoggedIn ? ( ...Botão Entrar... ) : ( ...Avatar e Ações... )}
-    ```
-    
-    Isso é clássico do React. O componente muda drasticamente sua aparência baseado apenas em uma prop.
-    
-- **Interatividade:** O `Header` não sabe _como_ fazer login. Ele apenas dispara o evento `onClick={onLoginClick}`, delegando a responsabilidade de volta para o `App.jsx`.
-    
-
----
-
-**Resumo até aqui:** O `App` inicializou seus estados e montou o cabeçalho. O cabeçalho sabe se o usuário está logado e, se o usuário clicar em "Entrar", ele chama a função do pai para abrir o modal.
-
-Quando estiver pronto para ver a **HomeScreen** e como os dados fluem para o processamento de vídeo, diga **"next"**.
+![](../../../attachments/Pasted%20image%2020251127074747.png)

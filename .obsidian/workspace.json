@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 350.5
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -183,6 +183,8 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251127074747.png",
+    "attachments/Pasted image 20251127073907.png",
     "attachments/Pasted image 20251127073740.png",
     "attachments/Pasted image 20251127073447.png",
     "attachments/Pasted image 20251127073006.png",
@@ -213,8 +215,6 @@
     "attachments/Pasted image 20251125180547.png",
     "07_FrontEnd/4_React/1_Fundamentos/14_Data fething.md",
     "attachments/Pasted image 20251125150222.png",
-    "attachments/Pasted image 20251125145434.png",
-    "attachments/Pasted image 20251125143604.png",
     "07_FrontEnd/4_React/1_Fundamentos/13_Renderização condicional de dados assíncronos.md",
     "07_FrontEnd/4_React/1_Fundamentos/12_Removendo itens da lista.md",
     "07_FrontEnd/4_React/1_Fundamentos/11_Componente reutilizavel e inner content.md",
