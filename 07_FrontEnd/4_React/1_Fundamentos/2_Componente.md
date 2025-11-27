@@ -39,9 +39,9 @@ Devido ao JSX ser transpilado para JavaScript, algumas palavras reservadas não 
 ### **3. Listando itens**
 
 O método map() de arrays é o padrão para iterar sobre dados e retornar elementos JSX. Inicialmente, vamos definir uma lista fora do componente, simulando dados de uma API.
-![](../../attachments/Pasted%20image%2020251123171205.png)
+![](../../../attachments/Pasted%20image%2020251123171205.png)
 
 Dentro do JSX, utiliza-se chaves {} para executar o código JavaScript. 
-![](../../attachments/Pasted%20image%2020251123171325.png)
+![](../../../attachments/Pasted%20image%2020251123171325.png)
 
 O React <mark style="background: #ADCCFFA6;">exige que cada elemento renderizado via iteração de array possua um atributo key</mark>. O key é um identificador que permite o React rastrear quais itens mudaram. O uso do índice do array é desencorajado, pois a reordenação da lista pode causar bugs de estado no componente.

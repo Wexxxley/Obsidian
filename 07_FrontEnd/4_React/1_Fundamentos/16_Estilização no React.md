@@ -22,11 +22,11 @@ Para que a estilização funcione corretamente é preciso:
 
 1. **Conectar o CSS ao Componente**
 	No arquivo App.jsx, adicione a importação do CSS logo abaixo da importação do React.
-	![](../../attachments/Pasted%20image%2020251125185751.png)
+	![](../../../attachments/Pasted%20image%2020251125185751.png)
 
 2. **Adicionar as Classes className no JSX**
 	O CSS define classes (ex: `.container`, `.button`), mas o seu JSX atual não está usando essas classes. Você precisa adicionar o atributo `className` aos elementos correspondentes.
-	![](../../attachments/Pasted%20image%2020251125190128.png)
+	![](../../../attachments/Pasted%20image%2020251125190128.png)
 	
 3. **Limpar Conflitos do index.css**
 	O arquivo `index.css` que veio com o Vite tem estilos padrão  que podem brigar com o estilo de app. Para garantir que o estilo do livro prevaleça você pode apagar tudo em index ou comentar as linhas conflitantes.

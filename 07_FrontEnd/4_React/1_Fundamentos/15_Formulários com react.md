@@ -19,10 +19,10 @@ Para manter o código organizado, é bom extrair a parte visual do formulário p
 1. Criar o componente `SearchForm`.
 2. Alterar a lógica de busca no `App` para usar um estado de `url` (que só muda no submit) em vez de depender diretamente do `searchTerm`.
 3. Atualizar o `useEffect` para depender dessa `url` e não mais do termo de busca digitado.
-![](../../attachments/Pasted%20image%2020251125180606.png)
-![](../../attachments/Pasted%20image%2020251125180832.png)
+![](../../../attachments/Pasted%20image%2020251125180606.png)
+![](../../../attachments/Pasted%20image%2020251125180832.png)
 
-![](../../attachments/Pasted%20image%2020251125180547.png)
+![](../../../attachments/Pasted%20image%2020251125180547.png)
 ### Resumo da Lógica
 
 1. O usuário digita → `handleSearchInput` atualiza `searchTerm`. (O input muda, mas nenhuma requisição é feita).

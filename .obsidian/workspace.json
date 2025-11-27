@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14_IA (Cadeira)/2_Programas de agentes.md",
+                "file": "07_FrontEnd/4_React/2_ProjetoAmethyst/1_.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Programas de agentes"
+              "title": "1_"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14_IA (Cadeira)/2_Programas de agentes.md",
+                "file": "07_FrontEnd/4_React/2_ProjetoAmethyst/1_.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_Programas de agentes"
+              "title": "Outline of 1_"
             }
           },
           {
@@ -183,8 +183,11 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "14_IA (Cadeira)/1_Agentes inteligentes.md",
     "14_IA (Cadeira)/2_Programas de agentes.md",
+    "07_FrontEnd/4_React/2_ProjetoAmethyst/1_.md",
+    "07_FrontEnd/4_React/2_ProjetoAmethyst",
+    "07_FrontEnd/4_React/1_Fundamentos",
+    "14_IA (Cadeira)/1_Agentes inteligentes.md",
     "14_IA (Cadeira)/4_Busca em largura, profundidade e custo uniforme.md",
     "14_IA (Cadeira)/5_Heurística.md",
     "14_IA (Cadeira)/3_Agentes Baseados em Objetivos.md",
@@ -197,28 +200,27 @@
     "07_FrontEnd/3_JavaScript/3_Node.js/1_Runtime e Módulos.md",
     "07_FrontEnd/3_JavaScript/3_Node.js/3_Dotenv.md",
     "07_FrontEnd/3_JavaScript/3_Node.js/2_Gerenciamento de dependências.md",
-    "07_FrontEnd/4_React/1_Introdução.md",
-    "07_FrontEnd/4_React/16_Estilização no React.md",
+    "07_FrontEnd/4_React/1_Fundamentos/1_Introdução.md",
+    "07_FrontEnd/4_React/1_Fundamentos/16_Estilização no React.md",
     "attachments/Pasted image 20251125190128.png",
     "attachments/Pasted image 20251125185751.png",
-    "07_FrontEnd/4_React/15_Formulários com react.md",
+    "07_FrontEnd/4_React/1_Fundamentos/15_Formulários com react.md",
     "attachments/Pasted image 20251125180832.png",
     "attachments/Pasted image 20251125180606.png",
     "attachments/Pasted image 20251125180547.png",
-    "07_FrontEnd/4_React/14_Data fething.md",
+    "07_FrontEnd/4_React/1_Fundamentos/14_Data fething.md",
     "attachments/Pasted image 20251125150222.png",
     "attachments/Pasted image 20251125145434.png",
     "attachments/Pasted image 20251125143604.png",
     "attachments/Pasted image 20251125143450.png",
-    "07_FrontEnd/4_React/13_Renderização condicional de dados assíncronos.md",
+    "07_FrontEnd/4_React/1_Fundamentos/13_Renderização condicional de dados assíncronos.md",
     "attachments/Pasted image 20251125140949.png",
-    "07_FrontEnd/4_React/12_Removendo itens da lista.md",
-    "07_FrontEnd/4_React/11_Componente reutilizavel e inner content.md",
-    "07_FrontEnd/4_React/10_Fragmentos.md",
-    "07_FrontEnd/4_React/9_Hooks customizados.md",
-    "07_FrontEnd/4_React/8_useEffect.md",
-    "07_FrontEnd/4_React/7_Componentes controlados.md",
-    "07_FrontEnd/4_React/6_Callback handlers e lifting state.md",
+    "07_FrontEnd/4_React/1_Fundamentos/12_Removendo itens da lista.md",
+    "07_FrontEnd/4_React/1_Fundamentos/11_Componente reutilizavel e inner content.md",
+    "07_FrontEnd/4_React/1_Fundamentos/10_Fragmentos.md",
+    "07_FrontEnd/4_React/1_Fundamentos/9_Hooks customizados.md",
+    "07_FrontEnd/4_React/1_Fundamentos/8_useEffect.md",
+    "07_FrontEnd/4_React/1_Fundamentos/7_Componentes controlados.md",
     "07_FrontEnd/3_JavaScript/1_Introdução",
     "07_FrontEnd/4_React",
     "12_Sistemas Distribuídos (Cadeira)/Cap8",
@@ -227,8 +229,6 @@
     "15_IHC (Cadeira)",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
-    "01_Roadmap/1_Junior/1_Fundamentos/1_Como funciona um computador/ResumoEmAudio.m4a",
-    "temp",
     "Sem título.canvas"
   ]
 }

@@ -3,8 +3,8 @@
 ---
 O objetivo técnico é consumir dados reais de uma API remota. Para isso, utilizaremos o endpoint de busca da API do Hacker News.
 
-![](../../attachments/Pasted%20image%2020251125145434.png)
-![](../../attachments/Pasted%20image%2020251125150222.png)
+![](../../../attachments/Pasted%20image%2020251125145434.png)
+![](../../../attachments/Pasted%20image%2020251125150222.png)
 1. **`fetch(url)`**: Inicia uma requisição de rede. Retorna uma Promise.
     
 2. **`.then(response => response.json())`**: O `fetch` não retorna os dados JSON diretamente. Ele retorna um objeto de resposta HTTP. 

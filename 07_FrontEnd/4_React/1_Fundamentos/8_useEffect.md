@@ -7,7 +7,7 @@ Atualmente, se você atualizar a página, o termo de busca e o estado da aplica�
 O hook `useEffect` permite executar efeitos após o React renderizar o componente.
 
 **Sincronizar Estado com LocalStorage**
-![](../../attachments/Pasted%20image%2020251124142359.png)
+![](../../../attachments/Pasted%20image%2020251124142359.png)
 - **Função de efeito:** A função passada para o `useEffect` é executada após o **componente ser montado** e após cada **atualização**.
 
 - **Array de dependencias:** Ao passar `[searchTerm]`, instruímos o React a executar o efeito **apenas se** a variável `searchTerm` tiver mudado. Se o array estivesse vazio `[]`, o efeito rodaria apenas uma vez na montagem . 

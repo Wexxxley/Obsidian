@@ -11,9 +11,9 @@ Atualmente, o componente `Search` é um **Uncontrolled Component**. O React rece
 **Controlled Components**: Para resolver isso, devemos converter o input em um Componente Controlado. Isso significa que o React se torna a "**única fonte da verdade**". 
 
 No `App`, passamos o valor atual de `searchTerm` como uma prop para o `Search`. 
-![](../../attachments/Pasted%20image%2020251124135453.png)
+![](../../../attachments/Pasted%20image%2020251124135453.png)
 
 No `Search`, atribuímos essa prop ao atributo `value` do elemento HTML `<input>`.
-![](../../attachments/Pasted%20image%2020251124135514.png)
+![](../../../attachments/Pasted%20image%2020251124135514.png)
 
 Ao adotar esse padrão, garantimos que o estado visual (DOM) e o estado lógico (React) estejam sempre perfeitamente sincronizados.

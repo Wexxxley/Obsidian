@@ -30,21 +30,21 @@ npm run dev
 ---
 ### **3. Análise da Estrutura de Arquivos**
 
-![](../../attachments/Pasted%20image%2020251123163549.png)
+![](../../../attachments/Pasted%20image%2020251123163549.png)
 
 - **index.htm:** Este é o arquivo que o navegador carrega primeiro. Ele contém uma tag `src="/src/main.jsx">`. Isso instrui o navegador a carregar o ponto de entrada js.
-	![](../../attachments/Pasted%20image%2020251123163711.png)
+	![](../../../attachments/Pasted%20image%2020251123163711.png)
         
 - **src/main.jsx:** Arquivo é responsável por inicializar a árvore de componentes do React e anexá-la ao elemento root definido no HTML.
-    ![](../../attachments/Pasted%20image%2020251123163935.png)
+    ![](../../../attachments/Pasted%20image%2020251123163935.png)
     
 - **src/App.jsx:** Contém a definição do componente raiz. É aqui que a lógica da aplicação começa a ser implementada.
-    ![](../../attachments/Pasted%20image%2020251123164023.png)
+    ![](../../../attachments/Pasted%20image%2020251123164023.png)
     
 - **package.json:** O arquivo que define as dependências e os metadados do projeto.
         
 - **vite.config.js:** Arquivo de configuração do Vite. Nele, o plugin do React é ativado para permitir que o Vite entenda e transpile a sintaxe JSX.
-	![](../../attachments/Pasted%20image%2020251123164152.png)
+	![](../../../attachments/Pasted%20image%2020251123164152.png)
 
 ---
 ### **4. Scripts de Automação** 
