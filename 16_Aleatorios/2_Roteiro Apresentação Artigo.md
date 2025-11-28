@@ -1,102 +1,43 @@
 
 
 ---
-#### **1. Apresentação dos integrantes e do tema:** 
-
-Este artigo apresenta uma prova de conceito (POC) de uma arquitetura de software integrada, distribuída como um aplicativo, projetada para simplificar a coleta, tratamento, armazenamento e a análise de dados abertos da Câmara dos Deputados. 
-
-O objetivo deste protótipo é validar uma arquitetura de fácil distribuição que sirva como um ponto de partida para a análise de dados parlamentares. A solução consiste em um sistema automatizado que extrai e estrutura dados de deputados, despesas, partidos e sessões e votações em um banco de dados local. 
-
-Uma API local serve esses dados para uma amostra de interface de visualização em HTML, que apresenta gráficos sobre as principais consultas de interesse público, como gastos por parlamentar e alinhamento de votos.
-
-### 2. Problematização
-
-O principal desafio enfrentado neste projeto foi a extrema heterogeneidade dos dados fornecidos pela Câmara.
-
-- **Lógicas de Extração Distintas:** A obtenção de um conjunto completo de dados raramente é uma única chamada de API. Frequentemente, é preciso primeiro fazer uma requisição-mãe (ex: votações, em JSON) e, em seguida, acessar links internos dessa resposta (ex: os votos individuais, em XML) para obter detalhes e até mesmo acessar outros endpoints para completar as informações relevantes de uma entidade.
-
-- **Formatos Múltiplos:** Os dados não estão em formato único. Dependendo do endpoint, as informações vêm em JSON, XML ou CSV.
-
-### 3. 
-
-
-
-
-
-#### **Slide 1**
+#### **1. Abertura**
 **(Tempo estimado: 1 min)**
 
-- **Fala Sugerida:** "Olá a todos. Me chamo [Seu Nome] e, juntamente com meus colegas, desenvolvemos o trabalho intitulado **'Ferramenta Integrada para Extração e Visualização de Dados Parlamentares Abertos'**1111.
-    
-- **Contexto:** Este projeto foi desenvolvido no contexto da Universidade Federal do Ceará 2 e visa apresentar uma Prova de Conceito (POC) de software para facilitar o controle social sobre a Câmara dos Deputados."
-    
+- "Olá a todos. Me chamo Wesley e, juntamente com meu colega George, desenvolvemos o projeo intitulado **'Ferramenta para Extração e Visualização de Dados Parlamentares'**.
 
-#### **Slide 2: A Problematização (O Cenário Atual)**
-
+- Este projeto apresenta uma prova de conceito (POC) de uma arquitetura de software integrada, distribuída como um aplicativo, projetada para simplificar a coleta, tratamento, armazenamento e a análise de dados abertos da Câmara dos Deputados do Brasil.
+#### **2. A Problematização**
 **(Tempo estimado: 2 min)**
 
-- **Tópico Principal:** A transparência vs. Acessibilidade Técnica.
+- Vivemos hoje numa era de 'dilúvio de dados'. Embora a transparência governamental seja essencial e existam portais como o da Câmara dos Deputados que oferecem um volume massivo de informações, existem barreiras:
     
-- **Fala Sugerida:** "Vivemos hoje numa era de 'dilúvio de dados'3. Embora a transparência governamental seja essencial e existam portais como o da Câmara dos Deputados que oferecem um volume massivo de informações4444, existe uma barreira invisível.
-    
-    - A mera existência do dado não garante transparência5.
-        
-    - Para o cidadão comum, e até para jornalistas, os dados estão fragmentados em formatos heterogêneos como JSON, XML e CSV6666.
-        
-    - **O Problema Central:** Sem conhecimento em programação para consumir APIs complexas, o cidadão não consegue transformar esses dados brutos em informação útil para fiscalização7777. É aqui que nosso trabalho atua."
-        
+    - A mera existência do dado não garante transparência.
+    - Para o cidadão comum, e até para jornalistas, os dados estão fragmentados em formatos heterogêneos como JSON, XML e CSV.
+    - As infomações estão separadas em locais e com métodos de acesso diferentes.
+    - Sem conhecimento em programação para consumir APIs complexas, o cidadão não consegue transformar esses dados em informação útil. É aqui que nosso trabalho atua.
 
-#### **Slide 3: A Solução Proposta (O Analisador Parlamentar)**
-
+#### **3. Simplificação e Automação**
 **(Tempo estimado: 1 min)**
 
-- **Tópico Principal:** Simplificação e Automação.
-    
-- **Fala Sugerida:** "Para resolver isso, propomos uma arquitetura de software distribuída como um aplicativo desktop único888.
-    
-- O objetivo não é apenas baixar dados, mas encapsular todo o ciclo de vida da informação: Coleta, Tratamento, Armazenamento e Visualização9.
-    
-- Nós criamos uma ferramenta que automatiza o processo de ETL (_Extract, Transform, Load_), entregando ao usuário final gráficos prontos e, ao pesquisador, um banco de dados limpo e estruturado10101010."
-    
+- Nós criamos uma ferramenta que automatiza o processo de ETL (_Extract, Transform, Load_), entregando ao usuário final gráficos prontos e, ao pesquisador, um banco de dados limpo e estruturado."
 
-#### **Slide 4: Demonstração Prática (Ao Vivo)**
+#### **4. Demonstração Prática**
+**(Tempo estimado: 2 min)**
 
-**(Tempo estimado: 2 min - Foco na execução)**
+- Vou demonstrar a execução da ferramenta agora. Como se trata de uma Prova de Conceito, focamos na facilidade de distribuição. O usuário seleciona o ano desejado — vamos usar 2012 como exemplo — e inicia o processamento.
 
-- **Ação:** _[Trocar a tela para a aplicação. Abrir o executável.]_
-    
-- **Fala durante a preparação:** "Vou demonstrar a execução da ferramenta agora. Como se trata de uma Prova de Conceito, focamos na facilidade de distribuição. O usuário seleciona o ano desejado — vamos usar 2011 como exemplo — e inicia o processamento11."
-    
-- **Ação:** _[Clicar em "Iniciar Processamento" e deixar o log rolando na tela - ver Fig 3 do PDF]._
-    
-- **Fala durante o processamento (enquanto a barra carrega):** "O que vocês estão vendo no log é o sistema lidando com a complexidade técnica que mencionamos.
-    
-    - Ele está fazendo requisições concorrentes (até 10 ao mesmo tempo) para acelerar a coleta12.
-        
-    - Ele está lidando com falhas de rede automaticamente e garantindo que não haja dados duplicados (idempotência)13131313.
-        
-    - Neste momento, ele está baixando dados de deputados, despesas, partidos e votações, normalizando tudo isso para um banco de dados local14141414."
-        
-- **Conclusão da Demo:** "Ao finalizar, o sistema abre automaticamente o dashboard no navegador." _[Mostrar o Dashboard aberto na tela]._
-    
-
-#### **Slide 5: Detalhes da Arquitetura (Explicando o que aconteceu)**
-
+#### **5. Detalhes da Arquitetura**
 **(Tempo estimado: 1.5 min)**
 
-- **Visual:** Diagrama de Arquitetura (Figura 1 do PDF).
-    
-- **Fala Sugerida:** "O que aconteceu nos bastidores dessa demonstração segue esta arquitetura:
-    
-    1. Temos um **Módulo de Coleta** em Python que faz o trabalho pesado de buscar dados na API da Câmara15.
-        
-    2. Esses dados são limpos e salvos em um banco **SQLite** local. Escolhemos SQLite pela portabilidade, pois não exige que o usuário instale um servidor de banco de dados complexo16.
-        
-    3. Por fim, uma **API Local** leve serve esses dados para a interface que acabamos de ver17171717. Essa separação é crucial: permite que, no futuro, a interface mude sem quebrar a coleta de dados."
-        
+1. Temos um **Módulo de Coleta** em Python que faz o trabalho pesado de buscar dados na API da Câmara.
+	
+2. Esses dados são limpos e salvos em um banco **SQLite** local. Escolhemos SQLite pela portabilidade, pois não exige que o usuário instale um servidor de banco de dados complexo.
+	
+3. Por fim, uma API Local leve serve esses dados para a interface que acabamos de ver. Essa separação permite que, no futuro, a interface mude sem quebrar a coleta de dados.
 
-#### **Slide 6: Visualização e Modelo de Dados**
 
+#### **6. Modelo de Dados**
 **(Tempo estimado: 1 min)**
 
 - **Visual:** Diagrama do Banco (Figura 2) ou Print do Gráfico (Figura 4).
