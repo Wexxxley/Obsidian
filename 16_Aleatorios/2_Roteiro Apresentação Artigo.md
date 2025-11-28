@@ -34,10 +34,9 @@
 	
 3. Por fim, uma API Local leve serve esses dados para a interface que acabamos de ver. Essa separação permite que, no futuro, a interface mude sem quebrar a coleta de dados.
 
-
 #### **5. Visualização e Modelo de Dados**
 
-- "O resultado para o cidadão comum são visualizações imediatas.
+- O resultado para o cidadão comum são visualizações imediatas.
     
 - Porém, o maior valor para pesquisadores e jornalistas está no **Banco de Dados**. Entregamos tabelas relacionais prontas, eliminando a etapa custosa de limpeza de dados para quem quer fazer análises mais profundas com ferramentas de Business Intelligence (BI)"
 
