@@ -25,13 +25,13 @@
 ---
 ### **2. Efeitos**
 
-![](../../../attachments/Pasted%20image%2020251127194620.png)
+![](../../../attachments/Pasted%20image%2020251128080137.png)
 - **getCurrentTime**: por exemplo 12.453 . Esse é o nosso "cursor".
 - .**findIndex**:  percorre o array de legendas item por item. Para cada, ele testa a fórmula.
 	- **currentTime >= sub.start**: O tempo atual é maior ou igual ao tempo de início da frase?
-	- **currentTime < (sub.start + sub.duration + 0.5)**: O tempo atual é menor que o tempo final da legenda.
+	- **currentTime < (sub.start + sub.duration)**: O tempo atual é menor que o tempo final da legenda.
 
-O setInterval roda isso a cada 200ms (5 vezes por segundo) mas só faz o React rendereizar quando o index da legenda muda.
+O setInterval roda isso a cada 50ms, mas só faz o React rendereizar quando o index da legenda muda.
 
 
 ### **3. O Scroll Automático (Effect 2)**
