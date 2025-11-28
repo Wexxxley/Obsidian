@@ -33,26 +33,9 @@
 	- **currentTime < (sub.start + sub.duration)**: O tempo atual é menor que o tempo final da legenda.
 - **Dependencies Array**: Se o 'player', as 'legendas' ou o 'índice ativo' mudarem, reinicie essa função useEffect.
 
-
 ![](../../../attachments/Pasted%20image%2020251128081456.png)
-Quando o `activeIndex` muda (graças ao efeito anterior), precisamos que a lista role sozinha para acompanhar.
-
-JavaScript
-
-```
-useEffect(() => {
-  if (activeIndex !== -1 && subtitleRefs.current[activeIndex]) {
-    // Pega o elemento HTML específico daquele índice e rola até ele
-    subtitleRefs.current[activeIndex].scrollIntoView({
-      behavior: 'smooth', // Rola suavemente
-      block: 'center',    // Tenta deixar o item no meio da caixa
-    });
-  }
-}, [activeIndex]);
-```
-
-- **Conexão:** Aqui usamos o `subtitleRefs` que criamos lá em cima. Se a legenda ativa é a 10, ele pega `subtitleRefs.current[10]` e chama a função nativa do navegador `scrollIntoView`.
-    
+- Quando o activeIndex muda é preciso que a lista role sozinha para acompanhar.
+- Aqui usamos o subtitleRefs. Se a legenda ativa é a 10, ele pega subtitleRefs.current[10] e chama a função nativa do navegador scrollIntoView.
 
 ---
 
