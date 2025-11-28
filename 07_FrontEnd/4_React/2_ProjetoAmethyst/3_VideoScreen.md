@@ -26,16 +26,15 @@
 ### **2. Efeitos**
 
 ![](../../../attachments/Pasted%20image%2020251128080137.png)
-- **getCurrentTime**: por exemplo 12.453 . Esse é o nosso "cursor".
+- **setInterval**: Função nativa do Javascript. Diz "Execute o que está aqui dentro repetidamente, a cada X milissegundos." O timer é guardado dentro de interval.
+- **clearInterval**: Pega a variável 'interval' e MATA o timer. Se não fizermos isso, o navegador continua rodando o código pra sempre.
 - .**findIndex**:  percorre o array de legendas item por item. Para cada, ele testa a fórmula.
 	- **currentTime >= sub.start**: O tempo atual é maior ou igual ao tempo de início da frase?
 	- **currentTime < (sub.start + sub.duration)**: O tempo atual é menor que o tempo final da legenda.
+- **Dependencies Array**: Se o 'player', as 'legendas' ou o 'índice ativo' mudarem, reinicie essa função useEffect.
 
-O setInterval roda isso a cada 50ms, mas só faz o React rendereizar quando o index da legenda muda.
 
-
-### **3. O Scroll Automático (Effect 2)**
-
+![](../../../attachments/Pasted%20image%2020251128081456.png)
 Quando o `activeIndex` muda (graças ao efeito anterior), precisamos que a lista role sozinha para acompanhar.
 
 JavaScript
