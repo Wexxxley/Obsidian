@@ -11,7 +11,7 @@
 - Vivemos hoje numa era de 'dilúvio de dados'. Embora a transparência governamental seja essencial e existam portais como o da Câmara dos Deputados que oferecem um volume massivo de informações, existem barreiras:
     
     - A mera existência do dado não garante transparência.
-    - Para o cidadão comum, e até para jornalistas, os dados estão fragmentados em formatos heterogêneos como JSON, XML e CSV.
+    - Para o cidadão comum, e até para jornalistas ou pesquisadores, os dados estão fragmentados em formatos heterogêneos como JSON, XML e CSV.
     - As infomações estão separadas em locais e com métodos de acesso diferentes.
     - Sem conhecimento em programação para consumir APIs complexas, o cidadão não consegue transformar esses dados em informação útil. É aqui que nosso trabalho atua.
 #### **3. Nosso projeto**
@@ -27,7 +27,7 @@
 #### **6. Conclusão**
 - Este trabalho demonstrou a viabilidade de uma arquitetura que encapsula a complexidade da engenharia de dados. Ao focar na simplicidade, o projeto reduz a barreira técnica inicial.
 
-- Como uma POC, a solução possui limitações. A escolha do SQLite é um gargalo para a escalabilidade, sendo ideal sua substituição por um Data Warehouse.
+- Como uma POC, a solução possui limitações. A escolha do SQLite é um gargalo para a escalabilidade, sendo ideal sua substituição por um Data Warehouse, que é um banco de dados projetado especificamente para **realizar análise e gerar relatórios**.
 
 - A interface de visualização é estática. A evolução natural seria expor a API Local a ferramentas de Business Intelligence, permitindo que o usuário tenha como criar suas próprias análises dinâmicas.
 
