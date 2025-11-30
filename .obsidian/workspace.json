@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Aleatorios/Decisões tomadas es.md",
+                "file": "06_Pyhon/FastAPI/1_Introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Decisões tomadas es"
+              "title": "1_Introdução"
             }
           }
         ]
@@ -183,11 +183,11 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "16_Aleatorios/Decisões tomadas es.md",
     "16_Aleatorios/Prompt prototipo Acervo Mestre.md",
     "16_Aleatorios/Pedido de crenciais GIT.md",
     "06_Pyhon/FastAPI/9_Tornando asyncrono.md",
     "06_Pyhon/FastAPI/1_Introdução.md",
-    "16_Aleatorios/Decisões tomadas es.md",
     "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
     "07_FrontEnd/3_JavaScript/2_Express/5_Consumindo API.md",
     "07_FrontEnd/3_JavaScript/2_Express/4_Configurações finais.md",
