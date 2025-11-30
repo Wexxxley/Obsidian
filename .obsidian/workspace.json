@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
+                "file": "07_FrontEnd/3_JavaScript/2_Express/3_Criando rotas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Roteiro Apresentação Artigo"
+              "title": "3_Criando rotas"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 310.5
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -184,6 +183,10 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "07_FrontEnd/3_JavaScript/2_Express/2_Criando uma API simples.md",
+    "07_FrontEnd/3_JavaScript/2_Express/3_Criando rotas.md",
+    "07_FrontEnd/3_JavaScript/2_Express/1_Node.js e express.md",
+    "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
     "07_FrontEnd/4_React/1_Fundamentos/5_useState.md",
     "07_FrontEnd/4_React/1_Fundamentos/4_Event handlers e props.md",
     "07_FrontEnd/4_React/1_Fundamentos/6_Callback handlers e lifting state.md",
@@ -218,10 +221,6 @@
     "16_Aleatorios/Apresentação SD 2.md",
     "16_Aleatorios/Apresentação SD.md",
     "16_Aleatorios/Amethyst.md",
-    "07_FrontEnd/3_JavaScript/3_Node.js/3_Dotenv.md",
-    "07_FrontEnd/3_JavaScript/3_Node.js/2_Gerenciamento de dependências.md",
-    "07_FrontEnd/4_React/1_Fundamentos/16_Estilização no React.md",
-    "07_FrontEnd/4_React/1_Fundamentos/15_Formulários com react.md",
     "07_FrontEnd/3_JavaScript/1_Introdução",
     "07_FrontEnd/4_React",
     "12_Sistemas Distribuídos (Cadeira)/Cap8",
