@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_FrontEnd/3_JavaScript/2_Express/3_Criando rotas.md",
+                "file": "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Criando rotas"
+              "title": "2_Roteiro Apresentação Artigo"
             }
           }
         ]
@@ -183,8 +183,10 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "07_FrontEnd/3_JavaScript/2_Express/2_Criando uma API simples.md",
+    "07_FrontEnd/3_JavaScript/2_Express/5_Consumindo API.md",
+    "07_FrontEnd/3_JavaScript/2_Express/4_Configurações finais.md",
     "07_FrontEnd/3_JavaScript/2_Express/3_Criando rotas.md",
+    "07_FrontEnd/3_JavaScript/2_Express/2_Criando uma API simples.md",
     "07_FrontEnd/3_JavaScript/2_Express/1_Node.js e express.md",
     "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
     "07_FrontEnd/4_React/1_Fundamentos/5_useState.md",
@@ -219,8 +221,6 @@
     "14_IA (Cadeira)/3_Agentes Baseados em Objetivos.md",
     "16_Aleatorios/Como funciona rep.md",
     "16_Aleatorios/Apresentação SD 2.md",
-    "16_Aleatorios/Apresentação SD.md",
-    "16_Aleatorios/Amethyst.md",
     "07_FrontEnd/3_JavaScript/1_Introdução",
     "07_FrontEnd/4_React",
     "12_Sistemas Distribuídos (Cadeira)/Cap8",
