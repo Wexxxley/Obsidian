@@ -4,7 +4,7 @@
 #### **1. Abertura**
 - "Olá a todos. Me chamo Wesley e, juntamente com meu colega George, desenvolvemos o projeto **'Ferramenta para Extração e Visualização de Dados Parlamentares'**.
 
-- Este projeto apresenta uma prova de conceito (POC) de uma arquitetura de software integrada, distribuída como um aplicativo, projetada para simplificar a coleta, tratamento, armazenamento e a análise de dados abertos da Câmara dos Deputados.
+- Este projeto apresenta uma prova de conceito de uma arquitetura de software , distribuída como um aplicativo, projetada para simplificar a coleta, tratamento, armazenamento e a análise de dados abertos da Câmara dos Deputados.
 
  - Lembrando que o projeto é de código aberto.
 #### **2. A Problematização**
