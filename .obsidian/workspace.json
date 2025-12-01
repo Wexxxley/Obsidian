@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_Pyhon/FastAPI/5_Migrations.md",
+                "file": "06_Pyhon/FastAPI/1_Introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Migrations"
+              "title": "1_Introdução"
             }
           }
         ]
@@ -183,9 +183,13 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "06_Pyhon/FastAPI/4_ORM.md",
-    "06_Pyhon/FastAPI/5_Migrations.md",
+    "16_Aleatorios/3_Testes.md",
+    "attachments/Pasted image 20251201065401.png",
+    "attachments/Pasted image 20251201065349.png",
     "06_Pyhon/FastAPI/1_Introdução.md",
+    "06_Pyhon/FastAPI/5_Migrations.md",
+    "06_Pyhon/FastAPI/10_Tornando assíncrono.md",
+    "06_Pyhon/FastAPI/4_ORM.md",
     "16_Aleatorios/Decisões tomadas es.md",
     "16_Aleatorios/Prompt prototipo Acervo Mestre.md",
     "16_Aleatorios/Pedido de crenciais GIT.md",
@@ -214,13 +218,8 @@
     "attachments/Pasted image 20251127081819.png",
     "attachments/Pasted image 20251127081607.png",
     "attachments/Pasted image 20251127081259.png",
-    "07_FrontEnd/4_React/1_Fundamentos/7_Componentes controlados.md",
-    "attachments/Pasted image 20251127080908.png",
-    "attachments/Pasted image 20251127080627.png",
-    "14_IA (Cadeira)/2_Programas de agentes.md",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
-    "14_IA (Cadeira)/1_Agentes inteligentes.md",
     "07_FrontEnd/3_JavaScript/1_Introdução",
     "07_FrontEnd/4_React",
     "12_Sistemas Distribuídos (Cadeira)/Cap8",
