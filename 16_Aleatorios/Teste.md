@@ -134,7 +134,7 @@ O objetivo é criar as tabelas no banco.
 
 **Arquivo: `api/models.py`** 
 
-```
+```python
 from django.db import models
 
 class Category(models.Model):
@@ -161,6 +161,7 @@ class Product(models.Model):
 ```
 sudo docker-compose exec web python manage.py makemigrations
 sudo docker-compose exec web python manage.py migrate
+
 sudo docker-compose exec web python manage.py createsuperuser
 ```
 
@@ -285,3 +286,25 @@ sudo docker-compose exec web python manage.py migrate
 2. **Crie uma Categoria** (POST).
     
 3. **Crie um Produto** (POST) usando o ID da categoria criada e enviando uma imagem.
+
+---
+
+# api/admin.py
+
+
+```python
+from django.contrib import admin
+from .models import Category, Product 
+  
+@admin.register(Category)
+class CategoryAdmin(admin.ModelAdmin):
+	list_display = ('id', 'name') 
+
+@admin.register(Product)
+class ProductAdmin(admin.ModelAdmin):
+	list_display = ('name', 'price', 'category')
+	list_filter = ('category',) 
+	search_fields = ('name',) 
+```
+
+http://127.0.0.1:8000/admin/
