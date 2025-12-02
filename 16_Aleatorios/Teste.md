@@ -123,14 +123,11 @@ ALLOWED_HOSTS = ['*']
     MEDIA_URL = '/media/'
     MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
     ```
-    
 
 
 ---
 
 ### Fase 3: Modelagem de Dados
-
-O objetivo é criar as tabelas no banco.
 
 **Arquivo: `api/models.py`** 
 
@@ -138,23 +135,26 @@ O objetivo é criar as tabelas no banco.
 from django.db import models
 
 class Category(models.Model):
-    name = models.CharField(max_length=100)
-    class Meta:
-        verbose_name_plural = "Categories"
-    def __str__(self):
-        return self.name
+	name = models.CharField(max_length=100)
+	
+	class Meta:
+		verbose_name_plural = "Categories" # Corrige pluralização
+	
+	def __str__(self):
+		return self.name # Representação legível
 
 class Product(models.Model):
-    name = models.CharField(max_length=100)
-    description = models.TextField()
-    price = models.DecimalField(max_digits=10, decimal_places=2)
-    # Requisito: Proteção ao deletar categoria pai
-    category = models.ForeignKey(Category, on_delete=models.PROTECT, related_name='products')
-    # Bônus: Upload de imagem
-    image = models.ImageField(upload_to='products/', null=True, blank=True)
-
-    def __str__(self):
-        return self.name
+	
+	name = models.CharField(max_length=100)
+	description = models.TextField()
+	price = models.DecimalField(max_digits=10, decimal_places=2)
+	
+	category = models.ForeignKey(Category, on_delete=models.PROTECT, related_name='products')
+	
+	image = models.ImageField(upload_to='products/', null=True, blank=True)
+	
+	def __str__(self):
+		return self.name # Representação legível
 ```
 
 **Rode as Migrações:**
@@ -173,27 +173,26 @@ Objetivo: Criar a lógica de entrada e saída de dados.
 
 **Arquivo: `api/serializers.py` (Crie este arquivo)**
 
-```
+```python
 from rest_framework import serializers
 from .models import Category, Product
 
 class CategorySerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Category
-        fields = '__all__'
+	class Meta:
+		model = Category
+		fields = ['id', 'name']
 
 class ProductSerializer(serializers.ModelSerializer):
-    # Truque: Mostra o nome na leitura, mas pede ID na escrita
-    category_name = serializers.CharField(source='category.name', read_only=True)
-
-    class Meta:
-        model = Product
-        fields = ['id', 'name', 'description', 'price', 'category', 'category_name', 'image']
+	category_name = serializers.CharField(source='category.name', read_only=True) # So para ler, ignora quando criar/atualizar
+	
+	class Meta:
+		model = Product
+		fields = ['id', 'name', 'description', 'price', 'category', 'category_name', 'image']
 ```
 
 **Arquivo: `api/views.py`**
 
-```
+```python
 from rest_framework import viewsets
 from rest_framework.parsers import MultiPartParser, FormParser
 from drf_spectacular.utils import extend_schema
@@ -242,7 +241,7 @@ _Objetivo: Ligar tudo na internet._
 
 **Arquivo: `store_api/urls.py`**
 
-```
+```python
 from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
