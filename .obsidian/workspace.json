@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
+                "file": "06_Pyhon/FastAPI/1_Introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Roteiro Apresentação Artigo"
+              "title": "1_Introdução"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
     "06_Pyhon/FastAPI/1_Introdução.md",
     "16_Aleatorios/3_Testes.md",
     "attachments/Pasted image 20251201065401.png",
@@ -194,7 +195,6 @@
     "16_Aleatorios/Prompt prototipo Acervo Mestre.md",
     "16_Aleatorios/Pedido de crenciais GIT.md",
     "06_Pyhon/FastAPI/9_Tornando asyncrono.md",
-    "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
     "07_FrontEnd/3_JavaScript/2_Express/5_Consumindo API.md",
     "07_FrontEnd/3_JavaScript/2_Express/4_Configurações finais.md",
     "07_FrontEnd/3_JavaScript/2_Express/3_Criando rotas.md",
