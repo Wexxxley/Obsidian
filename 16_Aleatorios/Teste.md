@@ -72,9 +72,6 @@ drf-spectacular
 ```
 
 **Arquivo: `Dockerfile`**
-
-Dockerfile
-
 ```
 FROM python:3.10-slim
 ENV PYTHONDONTWRITEBYTECODE=1
@@ -90,8 +87,6 @@ COPY . /app/
 
 **Arquivo: `docker-compose.yml`**
 
-YAML
-
 ```
 version: '3.8'
 
@@ -99,8 +94,8 @@ services:
   db:
     image: postgres:15-alpine
     environment:
-      - POSTGRES_DB=acervo_mestre_db
-      - POSTGRES_USER=user_acervo
+      - POSTGRES_DB=teste_db
+      - POSTGRES_USER=user_teste
       - POSTGRES_PASSWORD=senha_segura
     volumes:
       - postgres_data:/var/lib/postgresql/data
@@ -115,8 +110,8 @@ services:
     depends_on:
       - db
     environment:
-      - DB_NAME=acervo_mestre_db
-      - DB_USER=user_acervo
+      - DB_NAME=teste_db
+      - DB_USER=user_teste
       - DB_PASSWORD=senha_segura
       - DB_HOST=db
       - DB_PORT=5432
@@ -127,8 +122,6 @@ volumes:
 
 **2. Subir o ambiente:**
 
-Bash
-
 ```
 sudo docker-compose up -d --build
 ```
@@ -136,19 +129,16 @@ sudo docker-compose up -d --build
 _(Se der erro de permissão, use `sudo chown -R $USER:$USER .`)_
 
 ---
+### Fase 2: Configuração do Django
 
-### ⚙️ Fase 2: Configuração do Django
-
-_Objetivo: Conectar o Django ao Postgres e instalar libs._
+O objetivo é conectar o Django ao Postgres e instalar libs.
 
 **Edite `store_api/settings.py`:**
 
 1. **Imports:** Adicione `import os` no topo.
     
 2. **Apps:** Atualize `INSTALLED_APPS` 2:
-    
-    Python
-    
+        
     ```
     INSTALLED_APPS = [
         # ... apps nativos ...
@@ -158,16 +148,13 @@ _Objetivo: Conectar o Django ao Postgres e instalar libs._
     ]
     ```
     
-3. **Banco de Dados:** Atualize `DATABASES` para ler do Docker 3:
-    
-    Python
-    
+1. **Banco de Dados:** Atualize `DATABASES` para ler do Docker 3:
     ```
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
-            'NAME': os.environ.get('DB_NAME', 'acervo_mestre_db'),
-            'USER': os.environ.get('DB_USER', 'user_acervo'),
+            'NAME': os.environ.get('DB_NAME', 'teste_db'),
+            'USER': os.environ.get('DB_USER', 'user_teste'),
             'PASSWORD': os.environ.get('DB_PASSWORD', 'senha_segura'),
             'HOST': os.environ.get('DB_HOST', 'db'),
             'PORT': os.environ.get('DB_PORT', '5432'),
@@ -175,9 +162,7 @@ _Objetivo: Conectar o Django ao Postgres e instalar libs._
     }
     ```
     
-4. **Swagger:** Adicione no final do arquivo 4:
-    
-    Python
+2. **Swagger:** Adicione no final do arquivo:
     
     ```
     REST_FRAMEWORK = {
@@ -195,13 +180,11 @@ _Objetivo: Conectar o Django ao Postgres e instalar libs._
 
 ---
 
-### 🧠 Fase 3: Modelagem de Dados
+### Fase 3: Modelagem de Dados
 
-_Objetivo: Criar as tabelas no banco._
+O objetivo é criar as tabelas no banco.
 
-**Arquivo: `api/models.py`** 5
-
-Python
+**Arquivo: `api/models.py`** 
 
 ```
 from django.db import models
@@ -227,24 +210,19 @@ class Product(models.Model):
 ```
 
 **Rode as Migrações:**
-
-Bash
-
 ```
-sudo docker-compose exec web python manage.py makemigrations [cite: 111]
-sudo docker-compose exec web python manage.py migrate [cite: 112]
+sudo docker-compose exec web python manage.py makemigrations
+sudo docker-compose exec web python manage.py migrate
 sudo docker-compose exec web python manage.py createsuperuser
 ```
 
 ---
 
-### 🔌 Fase 4: API e Serializers
+### Fase 4: API e Serializers
 
-_Objetivo: Criar a lógica de entrada e saída de dados._
+Objetivo: Criar a lógica de entrada e saída de dados.
 
 **Arquivo: `api/serializers.py` (Crie este arquivo)**
-
-Python
 
 ```
 from rest_framework import serializers
@@ -265,8 +243,6 @@ class ProductSerializer(serializers.ModelSerializer):
 ```
 
 **Arquivo: `api/views.py`**
-
-Python
 
 ```
 from rest_framework import viewsets
@@ -291,13 +267,11 @@ class ProductViewSet(viewsets.ModelViewSet):
 
 ---
 
-### 🌐 Fase 5: Rotas (URLs)
+### Fase 5: Rotas (URLs)
 
 _Objetivo: Ligar tudo na internet._
 
 **Arquivo: `store_api/urls.py`**
-
-Python
 
 ```
 from django.contrib import admin
