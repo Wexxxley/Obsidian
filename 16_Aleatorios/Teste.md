@@ -206,10 +206,30 @@ class CategoryViewSet(viewsets.ModelViewSet):
 class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
-    parser_classes = (MultiPartParser, FormParser) # Habilita upload
+    # 1. Habilita o suporte a upload de arquivos
+    parser_classes = (MultiPartParser, FormParser)
 
-    @extend_schema(request={'multipart/form-data': ProductSerializer})
+    # 2. Força o Swagger a desenhar o botão de arquivo
+    @extend_schema(
+        operation_id='create_product',
+        request={
+            'multipart/form-data': {
+                'type': 'object',
+                'properties': {
+                    'name': {'type': 'string'},
+                    'description': {'type': 'string'},
+                    'price': {'type': 'number'},
+                    'category': {'type': 'integer'},
+                    'image': {'type': 'string', 'format': 'binary'}, 
+                },
+                'required': ['name', 'description', 'price', 'category']
+            }
+        }
+    )
     def create(self, request, *args, **kwargs):
+        """
+        Cria um novo produto com upload de imagem.
+        """
         return super().create(request, *args, **kwargs)
 ```
 
@@ -246,6 +266,8 @@ if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ```
 
+![](../attachments/Pasted%20image%2020251202081852.png)
+
 ---
 
 ### ✅ Fase 6: Testar
@@ -256,7 +278,10 @@ Se der erro:
 sudo docker-compose down
 sudo docker-compose build --no-cache
 sudo docker-compose up -d
-    
+sudo docker-compose exec web python manage.py makemigrations
+sudo docker-compose exec web python manage.py migrate
+
+
 2. **Crie uma Categoria** (POST).
     
 3. **Crie um Produto** (POST) usando o ID da categoria criada e enviando uma imagem.
