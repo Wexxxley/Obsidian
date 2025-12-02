@@ -147,7 +147,9 @@ O objetivo é conectar o Django ao Postgres e instalar libs.
         'api', 
     ]
     ```
-    
+
+ALLOWED_HOSTS = ['*']
+
 1. **Banco de Dados:** Atualize `DATABASES` para ler do Docker 3:
     ```
     DATABASES = {
@@ -177,6 +179,7 @@ O objetivo é conectar o Django ao Postgres e instalar libs.
     MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
     ```
     
+
 
 ---
 
