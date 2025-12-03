@@ -1,7 +1,7 @@
 
 ---
 
-### Fase 1: Docker
+### Fase 1: Infra inicial
 O objetivo é fazer o projeto rodar antes de escrever código Python. O projeto django vai ficar encapsulad em um container e o db em outro.
 
 **1. Crie os arquivos na raiz do projeto**
@@ -270,7 +270,7 @@ if settings.DEBUG:
 
 ---
 
-### ✅ Fase 6: Testar
+### ✅ Fase 6: verificando
 
 1. **Acesse:** `http://127.0.0.1:8000/api/docs/`
 
@@ -307,3 +307,9 @@ class ProductAdmin(admin.ModelAdmin):
 ```
 
 http://127.0.0.1:8000/admin/
+
+---
+
+### Testes
+
+sudo docker-compose exec web python manage.py test api
