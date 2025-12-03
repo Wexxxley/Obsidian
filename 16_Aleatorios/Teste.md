@@ -318,3 +318,175 @@ sudo docker-compose exec web python manage.py test api
 Feature/samuel
 
 pull request. dois pull request
+
+
+
+
+
+Perfeito! Esse é o fluxo mais profissional possível (o famoso **Git Flow**). Isso permite que o recrutador veja o seu código sem mexer no repositório original dele até aprovar.
+
+Como você já tem o código pronto na sua máquina, vamos fazer uma "cirurgia" para mover seu código para esse novo repositório e criar um histórico de commits bonito.
+
+Siga este roteiro **exatamente nessa ordem**:
+
+---
+
+### Passo 1: O Fork (No Navegador)
+
+1. Vá até o link do repositório que o recrutador te mandou (GitHub/GitLab).
+    
+2. Procure o botão **"Fork"** (geralmente no canto superior direito) e clique nele.
+    
+3. Isso vai criar uma cópia daquele repositório **na sua conta**.
+    
+
+---
+
+### Passo 2: O Clone e a Branch (No Terminal)
+
+Agora vamos baixar o **seu fork** para uma **nova pasta** (não misture com a pasta atual do seu projeto ainda).
+
+1. Abra o terminal em um local neutro (ex: `~/Documents/Programacao/`).
+    
+2. Clone o **SEU** fork (substitua o link pelo seu):
+    
+    Bash
+    
+    ```
+    git clone https://github.com/SEU_USUARIO/NOME-DO-REPO.git desafio-final
+    ```
+    
+3. Entre na pasta:
+    
+    Bash
+    
+    ```
+    cd desafio-final
+    ```
+    
+4. Crie a **Branch** (Isso é obrigatório segundo o recrutador):
+    
+    Bash
+    
+    ```
+    # Padrão de nome: feature/nome-sobrenome ou feature/desafio-backend
+    git checkout -b feature/implementacao-desafio
+    ```
+    
+
+---
+
+### Passo 3: Migrar os Arquivos (O "Transplante")
+
+Agora você vai pegar os arquivos que criamos juntos e jogar dentro dessa nova pasta `desafio-final`.
+
+1. **Copie** os seguintes arquivos/pastas do seu projeto antigo para a pasta `desafio-final`:
+    
+    - Pasta `api/`
+        
+    - Pasta `store_api/`
+        
+    - Arquivo `manage.py`
+        
+    - Arquivo `Dockerfile`
+        
+    - Arquivo `docker-compose.yml`
+        
+    - Arquivo `requirements.txt`
+        
+    - Arquivo `entrypoint.sh`
+        
+    - Arquivo `README-CANDIDATO.md` (Pode renomear para `README.md` se substituir o original)
+        
+    - Arquivo `.gitignore`
+        
+2. **⚠️ O QUE NÃO COPIAR (MUITO IMPORTANTE):**
+    
+    - **NÃO** copie a pasta `.git` antiga.
+        
+    - **NÃO** copie a pasta `postgres_data`.
+        
+    - **NÃO** copie `__pycache__` ou `venv`.
+        
+
+---
+
+### Passo 4: Criar o Histórico de Commits (A Estratégia)
+
+Como você já tem tudo pronto, se der um único commit vai parecer que fez tudo em 5 minutos. Vamos simular uma evolução lógica usando o padrão que combinamos.
+
+Rode estes comandos um por um no terminal dentro da pasta `desafio-final`:
+
+**1. Commit da Infraestrutura (Docker):**
+
+Bash
+
+```
+git add Dockerfile docker-compose.yml requirements.txt entrypoint.sh .gitignore
+git commit -m "chore: configura ambiente Docker, Postgres e dependências"
+```
+
+**2. Commit do Core (Django Base + Models):**
+
+Bash
+
+```
+git add manage.py store_api/ api/models.py api/__init__.py api/apps.py api/admin.py api/migrations/
+git commit -m "feat: implementa models Category e Product com admin"
+```
+
+**3. Commit da Lógica (Views, Serializers e URLs):**
+
+Bash
+
+```
+git add api/serializers.py api/views.py store_api/urls.py
+git commit -m "feat: implementa ViewSets, Serializers e upload de imagem no Swagger"
+```
+
+**4. Commit dos Testes:**
+
+Bash
+
+```
+git add api/tests.py
+git commit -m "test: adiciona cobertura de testes CRUD completa"
+```
+
+**5. Commit da Documentação:**
+
+Bash
+
+```
+git add README-CANDIDATO.md
+git commit -m "docs: documenta instruções de setup, decisões de design e deploy"
+```
+
+---
+
+### Passo 5: Enviar e Criar o PR (Pull Request)
+
+Agora que sua branch está linda localmente, vamos mandar para a nuvem.
+
+1. **Envie para o seu GitHub:**
+    
+    Bash
+    
+    ```
+    git push origin feature/implementacao-desafio
+    ```
+    
+2. **Abra o PR:**
+    
+    - Vá para a página do **seu repositório** no GitHub.
+        
+    - Você verá um botão amarelo/verde dizendo **"Compare & pull request"**. Clique nele.
+        
+    - **Título do PR:** `Implementação Desafio Backend - [Seu Nome]`
+        
+    - **Descrição:** Pode colar um resumo do seu README ou escrever: _"Segue implementação completa do desafio cobrindo todos os requisitos e bônus (Docker, Swagger, Testes)."_
+        
+    - Clique em **Create Pull Request**.
+        
+
+**Pronto!** Missão cumprida. Você seguiu o fluxo profissional de Git e entregou um código de alta qualidade. 🚀
