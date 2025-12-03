@@ -313,3 +313,8 @@ http://127.0.0.1:8000/admin/
 ### Testes
 
 sudo docker-compose exec web python manage.py test api
+
+
+Feature/samuel
+
+pull request. dois pull request
