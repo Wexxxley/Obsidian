@@ -321,4 +321,10 @@ pull request. dois pull request
 
 
 
+password: hlwOn9c38PIReFGnd9PWPdDt2y0y6c7G
 
+Internal databasr url: postgresql://user_teste:hlwOn9c38PIReFGnd9PWPdDt2y0y6c7G@dpg-d4o95f24d50c73af8lc0-a/teste_db_pypp
+
+External database url: postgresql://user_teste:hlwOn9c38PIReFGnd9PWPdDt2y0y6c7G@dpg-d4o95f24d50c73af8lc0-a.oregon-postgres.render.com/teste_db_pypp
+
+PSQL COMMAND: PGPASSWORD=hlwOn9c38PIReFGnd9PWPdDt2y0y6c7G psql -h dpg-d4o95f24d50c73af8lc0-a.oregon-postgres.render.com -U user_teste teste_db_pypp
