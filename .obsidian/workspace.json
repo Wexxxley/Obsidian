@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_Engenharia de Software (Cadeira)/10_DevOps/3_Deployment Contínuo (CD).md",
+                "file": "16_Aleatorios/Teste.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Deployment Contínuo (CD)"
+              "title": "Teste"
             }
           }
         ]
@@ -183,15 +183,17 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "16_Aleatorios/Teste.md",
+    "16_Aleatorios/Apresentação Entrevista.md",
+    "16_Aleatorios/Amethyst.md",
     "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
+    "11_Engenharia de Software (Cadeira)/10_DevOps/3_Deployment Contínuo (CD).md",
+    "16_Aleatorios/Teste.md",
     "attachments/Pasted image 20251202081852.png",
     "attachments/Pasted image 20251202074029.png",
     "16_Aleatorios/SDT-Sistema VoIP.md",
     "16_Aleatorios/Pedido de crenciais GIT.md",
     "16_Aleatorios/IHC-Observatório Legislativo.md",
     "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
-    "16_Aleatorios/Apresentação Entrevista.md",
     "06_Pyhon/FastAPI/1_Introdução.md",
     "16_Aleatorios/3_Testes.md",
     "attachments/Pasted image 20251201065401.png",
@@ -214,7 +216,6 @@
     "attachments/Pasted image 20251128081456.png",
     "attachments/Pasted image 20251128080137.png",
     "attachments/Pasted image 20251127194620.png",
-    "07_FrontEnd/3_JavaScript/3_Node.js/1_Runtime e Módulos.md",
     "attachments/Pasted image 20251127084154.png",
     "attachments/Pasted image 20251127082401.png",
     "attachments/Pasted image 20251127081819.png",
