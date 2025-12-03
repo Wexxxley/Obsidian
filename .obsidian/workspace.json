@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Aleatorios/Teste.md",
+                "file": "11_Engenharia de Software (Cadeira)/10_DevOps/3_Deployment Contínuo (CD).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Teste"
+              "title": "3_Deployment Contínuo (CD)"
             }
           }
         ]
@@ -183,8 +183,8 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
     "16_Aleatorios/Teste.md",
+    "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
     "attachments/Pasted image 20251202081852.png",
     "attachments/Pasted image 20251202074029.png",
     "16_Aleatorios/SDT-Sistema VoIP.md",
