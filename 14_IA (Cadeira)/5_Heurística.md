@@ -8,8 +8,8 @@ Tenta expandir o nó que está mais perto do objetivo, ignorando o custo já pag
 
 - Não é ótima. Por ignorar o custo de deslocamento, ela pode escolher um caminho visualmente curto, mas custoso.        
 
-![](../attachments/Pasted%20image%2020251204080040.png)
+![](../attachments/Pasted%20image%2020251204153017.png)
 
 ### Busca estrela
-![](../attachments/Pasted%20image%2020251204080101.png)
+![](../attachments/Pasted%20image%2020251204153227.png)
 
