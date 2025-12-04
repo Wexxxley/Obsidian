@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14_IA (Cadeira)/4_Buscas sem informação.md",
+                "file": "14_IA (Cadeira)/5_Heurística.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Buscas sem informação"
+              "title": "5_Heurística"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "14_IA (Cadeira)/4_Buscas sem informação.md",
     "attachments/Pasted image 20251204145647.png",
     "attachments/Pasted image 20251204145628.png",
     "attachments/Pasted image 20251204145544.png",
@@ -191,7 +192,6 @@
     "attachments/Pasted image 20251204144506.png",
     "attachments/Pasted image 20251204144409.png",
     "06_Pyhon/FastAPI/1_Introdução.md",
-    "14_IA (Cadeira)/4_Buscas sem informação.md",
     "14_IA (Cadeira)/5_Heurística.md",
     "attachments/Pasted image 20251204080101.png",
     "attachments/Pasted image 20251204080040.png",
@@ -204,7 +204,6 @@
     "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
     "11_Engenharia de Software (Cadeira)/10_DevOps/3_Deployment Contínuo (CD).md",
     "attachments/Pasted image 20251202081852.png",
-    "attachments/Pasted image 20251202074029.png",
     "16_Aleatorios/SDT-Sistema VoIP.md",
     "16_Aleatorios/Pedido de crenciais GIT.md",
     "16_Aleatorios/IHC-Observatório Legislativo.md",
