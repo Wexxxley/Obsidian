@@ -12,7 +12,10 @@ Expande a fronteira uniformemente em camadas. Primeiro visita todos os nós a um
 - Para isso, a BFS utiliza uma estrutura de dados do tipo **Fila (Queue)**.
 - Ela é ótima se todos as arestas tiverem mesmo peso.
 - Ela precisa manter toda a fronteira em memória.
-![](../attachments/Pasted%20image%2020251113194337.png)
+![](../attachments/Pasted%20image%2020251204144409.png)
+
+Mas para priorityQUeue funcionar, é preciso definir como comarar dois nós
+![](../attachments/Pasted%20image%2020251204145013.png)
 
 ---
 ### **2. Busca em Profundidade (DFS - Depth-First Search)**
@@ -22,7 +25,7 @@ A Busca em Profundidade é um algoritm que explora o mais fundo possível ao lon
 - Para isso, a DFS utiliza uma estrutura de dados do tipo **Pilha (Stack)**
 - Seu resultado não é ótimo
 
-![](../attachments/Pasted%20image%2020251113194400.png)
+![](../attachments/Pasted%20image%2020251204144506.png)
 
 ---
 ### **3. Busca de Custo Uniforme (UCS - Uniform Cost Search)**
@@ -33,7 +36,11 @@ A sua propriedade fundamental é que ela sempre expande o nó $n$ na fronteira q
 
 Para isso, a UCS utiliza uma estrutura de dados do tipo **Fila de Prioridade (Priority Queue)**.
 
-![](../attachments/Pasted%20image%2020251113194608.png)
+![](../attachments/Pasted%20image%2020251204144614.png)
 
 
   
+
+DEQUE
+- popleft(), pop()
+- 
