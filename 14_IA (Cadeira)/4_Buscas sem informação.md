@@ -12,10 +12,7 @@ Expande a fronteira uniformemente em camadas. Primeiro visita todos os nós a um
 - Para isso, a BFS utiliza uma estrutura de dados do tipo **Fila (Queue)**.
 - Ela é ótima se todos as arestas tiverem mesmo peso.
 - Ela precisa manter toda a fronteira em memória.
-![](../attachments/Pasted%20image%2020251204144409.png)
-
-Mas para priorityQUeue funcionar, é preciso definir como comarar dois nós
-![](../attachments/Pasted%20image%2020251204145013.png)
+![](../attachments/Pasted%20image%2020251204145544.png)
 
 ---
 ### **2. Busca em Profundidade (DFS - Depth-First Search)**
@@ -25,22 +22,26 @@ A Busca em Profundidade é um algoritm que explora o mais fundo possível ao lon
 - Para isso, a DFS utiliza uma estrutura de dados do tipo **Pilha (Stack)**
 - Seu resultado não é ótimo
 
-![](../attachments/Pasted%20image%2020251204144506.png)
+![](../attachments/Pasted%20image%2020251204145647.png)
 
 ---
 ### **3. Busca de Custo Uniforme (UCS - Uniform Cost Search)**
 
-A Busca de Custo Uniforme é um algoritmo que explora o grafo $G(V,A)$ para encontrar o caminho de **menor custo total** de um vértice de origem $s$ até um vértice de destino.
-
-A sua propriedade fundamental é que ela sempre expande o nó $n$ na fronteira que tem o **menor custo de caminho total** desde a origem $s$. Por causa disso, a UCS garante encontrar o caminho de menor custo para o destino.
+A sua propriedade fundamental é que ela sempre expande o nó $n$ na fronteira que tem o **menor custo de caminho total** desde a origem $s$. A UCS garante encontrar o caminho de menor custo para o destino.
 
 Para isso, a UCS utiliza uma estrutura de dados do tipo **Fila de Prioridade (Priority Queue)**.
 
-![](../attachments/Pasted%20image%2020251204144614.png)
+![](../attachments/Pasted%20image%2020251204145628.png)
 
+Mas para priorityQUeue funcionar, é preciso definir como comarar dois nós
+![](../attachments/Pasted%20image%2020251204145013.png)
 
-  
+---  
 
-DEQUE
+**DEQUE**
 - popleft(), pop()
-- 
+- append()
+
+**PRIORITYQUEUE**
+- get()
+- put()
