@@ -2,17 +2,16 @@
 #Concluded 
 
 ---
-![](../attachments/Pasted%20image%2020251031091210.png)
+Esses algoritmos não possuem nenhuma informação sobre a "proximidade" do estado atual em relação ao estado objetivo. Eles conseguem apenas gerar sucessores e distinguir se um estado é o objetivo ou não.
 
 ---
 ### **1. Busca em Largura (BFS - Breadth-First Search)**
 
-A Busca em Largura é um algoritmo que explora as arestas de um grafo $G(V,A)$ para descobrir todos os vértices alcançáveis a partir de um vértice de origem $s \in V$.
+Expande a fronteira uniformemente em camadas. Primeiro visita todos os nós a uma distância $k$ da origem antes de visitar qualquer nó a distância $k+1$.
 
-A sua propriedade fundamental é que ela <mark style="background: #ADCCFFA6;">descobre todos os vértices a uma distância k de s antes de descobrir quaisquer vértices a uma distância k+1.</mark>
-
-Para isso, a BFS utiliza uma estrutura de dados do tipo **Fila (Queue)**.
-
+- Para isso, a BFS utiliza uma estrutura de dados do tipo **Fila (Queue)**.
+- Ela é ótima se todos as arestas tiverem mesmo peso.
+- Ela precisa manter toda a fronteira em memória.
 ![](../attachments/Pasted%20image%2020251113194337.png)
 
 ---
@@ -20,9 +19,8 @@ Para isso, a BFS utiliza uma estrutura de dados do tipo **Fila (Queue)**.
 
 A Busca em Profundidade é um algoritm que explora o mais fundo possível ao longo de cada ramo antes de retroceder.
 
-A estratégia da DFS, ao contrário da BFS, <mark style="background: #ADCCFFA6;">é sempre expandir o último vértice descoberto na fronteira.</mark> Assim que um vértice $u$ é descoberto, a DFS explora iterativamente a partir de $u$, e só retorna para explorar outras arestas de $u$ quando toda a exploração descendente de $u$ estiver completa.
-
-Para isso, a DFS utiliza uma estrutura de dados do tipo **Pilha (Stack)**
+- Para isso, a DFS utiliza uma estrutura de dados do tipo **Pilha (Stack)**
+- Seu resultado não é ótimo
 
 ![](../attachments/Pasted%20image%2020251113194400.png)
 

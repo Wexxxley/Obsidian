@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_Pyhon/FastAPI/1_Introdução.md",
+                "file": "14_IA (Cadeira)/4_Buscas sem informação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Introdução"
+              "title": "4_Buscas sem informação"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "06_Pyhon/FastAPI/1_Introdução.md",
     "14_IA (Cadeira)/4_Buscas sem informação.md",
     "14_IA (Cadeira)/5_Heurística.md",
     "attachments/Pasted image 20251204080101.png",
@@ -201,7 +202,6 @@
     "16_Aleatorios/Pedido de crenciais GIT.md",
     "16_Aleatorios/IHC-Observatório Legislativo.md",
     "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
-    "06_Pyhon/FastAPI/1_Introdução.md",
     "16_Aleatorios/3_Testes.md",
     "attachments/Pasted image 20251201065401.png",
     "attachments/Pasted image 20251201065349.png",
