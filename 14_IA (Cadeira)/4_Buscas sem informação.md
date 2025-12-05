@@ -21,6 +21,7 @@ A Busca em Profundidade é um algoritm que explora o mais fundo possível ao lon
 
 - Para isso, a DFS utiliza uma estrutura de dados do tipo **Pilha (Stack)**
 - Seu resultado não é ótimo
+- Mantem só o caminho atual em memória
 
 ![](../attachments/Pasted%20image%2020251204145647.png)
 

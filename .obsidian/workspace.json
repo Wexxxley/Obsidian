@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14_IA (Cadeira)/5_Heurística.md",
+                "file": "14_IA (Cadeira)/4_Buscas sem informação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Heurística"
+              "title": "4_Buscas sem informação"
             }
           }
         ]
@@ -183,11 +183,11 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "14_IA (Cadeira)/4_Buscas sem informação.md",
+    "14_IA (Cadeira)/3_Agentes Baseados em Objetivos.md",
     "14_IA (Cadeira)/5_Heurística.md",
+    "14_IA (Cadeira)/4_Buscas sem informação.md",
     "attachments/Pasted image 20251204153227.png",
     "attachments/Pasted image 20251204153017.png",
-    "14_IA (Cadeira)/3_Agentes Baseados em Objetivos.md",
     "attachments/Pasted image 20251204145647.png",
     "attachments/Pasted image 20251204145628.png",
     "attachments/Pasted image 20251204145544.png",
