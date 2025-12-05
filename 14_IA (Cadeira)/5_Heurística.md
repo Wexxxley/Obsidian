@@ -11,5 +11,7 @@ Tenta expandir o nó que está mais perto do objetivo, ignorando o custo já pag
 ![](../attachments/Pasted%20image%2020251204153017.png)
 
 ### Busca estrela
+
+A prioridade é a soma do custo real com a heurística: (custoCaminho + heuristica, new_no).
 ![](../attachments/Pasted%20image%2020251204153227.png)
 
