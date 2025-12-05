@@ -12,6 +12,7 @@ Expande a fronteira uniformemente em camadas. Primeiro visita todos os nós a um
 - Para isso, a BFS utiliza uma estrutura de dados do tipo **Fila (Queue)**.
 - Ela é ótima se todos as arestas tiverem mesmo peso.
 - Ela precisa manter toda a fronteira em memória.
+
 ![](../attachments/Pasted%20image%2020251204145544.png)
 
 ---
