@@ -5,45 +5,58 @@
 
 O Docker é uma plataforma para executar aplicações em unidades leves chamadas **containers**. Você junta a aplicação com todas as suas dependências, permitindo que ela rode da mesma maneira em qualquer lugar, no seu pc, no data center ou cloud.
 
-#### 1. Construção de novas aplicações Cloud-Native
+### 1 Conceitos Técnicos Essenciais
 
-Para projetos novos, o padrão moderno é a arquitetura de **microserviços**:
-
-- Cada componente roda em seu próprio container.
+- **Containers são efêmeros (Throwaway:** Diferente de servidores que você "cuida", containers são leves e descartáveis. Você pode rodar dezenas no seu laptop e eles não deixam rastro quando removidos.
     
-- Cada container pode usar a tecnologia que for melhor para ele (um em Java, outro em Node.js, banco de dados em outro).
+- **Dependência de Plataforma:** Um container empacota binários e dependências. Isso significa que um container Linux não roda nativamente no Windows e vice-versa.
     
-- **Vantagem para o Dev:** O desenvolvedor não precisa instalar mil ferramentas na máquina. Basta ter o Docker, clonar o código e rodar um comando para subir todo o ambiente complexo.
+- **Isolamento vs. Orquestração:** O Docker em si gerencia containers em _uma_ máquina. Para conectar vários servidores e ter alta disponibilidade, você precisa de um **orquestrador** (como Kubernetes).
 
-#### 4. Inovação Técnica (Serverless e além)
-
-O Docker permite consistência. Você pode usar containers para rodar desde monolitos .NET antigos até apps Go modernos e funções Serverless no mesmo cluster11.
-
-- **Sobre Serverless:** Por baixo dos panos, serviços como AWS Lambda usam containers. Usar Docker permite que você rode arquiteturas Serverless no seu próprio data center ou evite ficar preso a um único provedor de nuvem, usando frameworks open source12.
-    
-
-#### 5. Transformação Digital com DevOps
-
-Este ponto é crucial para sua área de interesse. O maior problema em TI muitas vezes não é técnico, mas cultural: a barreira entre **Dev** (desenvolvimento) e **Ops** (operações)13.
-
-- **O problema:** Devs usam um conjunto de ferramentas; Ops usam outro. Isso gera falhas na hora do deploy.
-    
-- **A solução Docker:** O Docker funciona como uma linguagem comum. Ambos os times trabalham com os mesmos artefatos (`Dockerfiles` e `docker-compose.yml`). Isso facilita a automação, CI/CD e a cultura de responsabilidade compartilhada14.
-    
 
 ---
 
-### Resumo Visual da Seção 1.1
+## Resumo: Capítulo 2 - Entendendo o Docker e o "Hello World"
 
-|**Cenário**|**Problema Anterior**|**Solução com Docker**|
+Aqui começamos a parte prática. O objetivo deste capítulo é desmistificar o que realmente acontece quando você roda um container.
+
+### 2.1 O Fluxo "Build, Share, Run"
+
+O primeiro exercício é rodar o clássico "Hello World".
+
+Comando: docker run diamol/ch02-hello-diamol:2e10.
+
+O que acontece nos bastidores (o output do terminal revela o fluxo) 11:
+
+1. **Check Local:** O Docker verifica se você já tem a imagem (o pacote da aplicação) na sua máquina. Se não tiver (`Unable to find image...`), ele vai buscar.
+    
+2. **Pull (Download):** O Docker baixa a imagem de um registro público (Docker Hub). Note que ele baixa em "camadas" (layers), não um arquivo único gigante12.
+    
+3. **Run (Execução):** O Docker cria um container a partir dessa imagem e inicia a aplicação.
+    
+4. **Output:** A aplicação roda (neste caso, um script que imprime "Hello from Chapter 2!"), exibe informações do sistema (Hostname, IP) e encerra 13.
+    
+
+Se você rodar o comando novamente, será instantâneo, pois a imagem já está no cache local (não precisa fazer o download/pull novamente)14.
+
+### 2.2 Teoria: O que é um Container vs. Máquina Virtual (VM)
+
+Esta é a parte teórica mais importante para sua base em CC.
+
+O container funciona como uma "caixa" onde a aplicação roda. Dentro dessa caixa, a aplicação "acha" que tem um computador só para ela, com seu próprio **Hostname**, **Endereço IP** e **Disco**15.
+
+A grande diferença arquitetural entre Containers e VMs é o **compartilhamento de recursos**:
+
+|**Característica**|**Máquina Virtual (VM)**|**Container**|
 |---|---|---|
-|**Nuvem**|Escolha difícil entre VMs caras ou PaaS restritivo.|Portabilidade total com baixo custo.|
-|**Legado**|Monolitos difíceis de alterar e arriscados de reescrever.|"Containerizar" o monolito e criar novos recursos como microserviços ao redor dele.|
-|**Novos Apps**|Ambientes de desenvolvimento complexos e difíceis de configurar.|`git clone` + `docker run` sobe a arquitetura inteira.|
-|**DevOps**|Times isolados (silos) usando ferramentas diferentes.|Uma ferramenta e formato único para Dev e Ops.|
+|**Sistema Operacional**|Cada VM tem seu próprio SO completo (pesado, ocupa GBs de RAM/Disco)16161616.|Todos os containers compartilham o **mesmo Kernel do SO** do host17.|
+|**Isolamento**|Isolamento físico via Hypervisor.|Isolamento lógico via recursos do Kernel (Namespaces/Cgroups)18.|
+|**Desempenho**|Menor densidade (menos apps por servidor).|Alta densidade (muitos apps leves no mesmo servidor)19.|
+
+**Conclusão:** Os containers resolvem o conflito entre **isolamento** (necessário para segurança e estabilidade) e **densidade** (necessário para eficiência de custos e recursos). Você consegue rodar 5 a 10 vezes mais containers do que VMs no mesmo hardware20.
 
 ---
 
 Próximo passo:
 
-Você gostaria que eu continuasse com o resumo do Capítulo 1.2 em diante, onde o livro aborda a configuração do ambiente, ou quer pular direto para o Capítulo 2, onde começamos a rodar os primeiros containers na prática?
+Quer continuar com o restante do Capítulo 2 (seções 2.3 e 2.4), onde aprenderemos a conectar interativamente dentro de um container (como se fosse SSH) e a hospedar um site real, ou prefere pular para a criação das suas próprias imagens no Capítulo 3?
