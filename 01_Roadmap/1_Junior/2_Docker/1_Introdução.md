@@ -27,54 +27,18 @@ git checkout 2e
 
 - **docker container ls**: Por padrão, este comando lista apenas os contêineres que estão **rodando** no momento. 
 	- **`-a` (all)**: O Docker passa a listar não só os que estão rodando, mas também os que estão com status parados.
-	- **`-q` (quiet)**: Em vez de mostrar a tabela enorme com nomes e datas, ele retorna **apenas o ID numérico** do contêiner.
-        
-    - _Por que usar aqui?_ Porque o comando de deletar (que veremos a seguir) precisa receber apenas os números de identificação, não uma tabela de texto.
-        
+	- **`-q` (quiet)**: Retorna apenas o ID do contêiner.
+	-  `docker container ls -aq`: O terminal gera uma lista simples de IDs, um por linha.
 
-Resultado da Parte 1 + Parte 2 (docker container ls -aq):
+- **docker container rm**: É o comando para apagar um contêiner. Normalmente, você digitaria `docker container rm ID`.
+	- **`-f` (force)**: O Docker tem uma trava de segurança: ele proíbe você de apagar um contêiner que ainda está rodando.        
 
-O terminal gera uma lista simples de IDs, um por linha, de todos os contêineres da sua máquina.
+- O símbolo `$()` não é do Docker, mas sim do bash, é chamado de substituição de comando
 
----
+- **docker container rm -f $(docker container ls -aq)**: procura todos os contêineres (ativos e parados) e pega só os IDs e os entrega para o comando de remover e apaga todos eles de uma vez, sem pedir confirmação. 
+	- Ele apaga absolutamente todos os contêineres da sua máquina. Se você quiser apagar apenas os contêineres da aula, precisaria usar um **filtro** (igual ao comando de imagens que vou explicar abaixo).
 
-### Parte 3: A "Mágica" do Shell `$(...)`
-
-O símbolo `$()` não é um comando do Docker, mas sim do seu terminal (Shell/PowerShell).
-
-- Ele diz ao computador: _"Execute o comando que está aqui dentro primeiro, pegue o resultado (a lista de IDs que vimos acima) e coloque-o aqui como se eu tivesse digitado manualmente"_. 4
-    
-
----
-
-### Parte 4: Removendo (`docker container rm -f`)
-
-Agora a parte externa do comando, que recebe a lista de IDs:
-
-- **`docker container rm`**: É o comando para remover (apagar) um contêiner. Normalmente, você digitaria `docker container rm <ID_DO_CONTAINER>`.
-    
-- **`-f` (force)**: Significa "forçar".
-    
-    - O Docker tem uma trava de segurança: ele proíbe você de apagar um contêiner que ainda está rodando5.
-        
-    - O `-f` ignora essa trava. Ele força a parada imediata do contêiner e o remove logo em seguida.
-        
-
----
-
-### Juntando tudo (O Resumo)
-
-Quando você roda:
-
-docker container rm -f $(docker container ls -aq)
-
-O que acontece passo a passo é:
-
-1. O **`ls -aq`** procura todos os contêineres (ativos e parados) e pega só os números de ID.
-    
-2. O **`$()`** pega esses números e os entrega para o comando de remover.
-    
-3. O **`rm -f`** pega essa lista e apaga todos eles de uma vez, sem pedir confirmação.
+Aqui está a explicação do comando de imagens seguindo exatamente o seu padrão. Note que ele é **mais seguro** justamente por ter o filtro:
     
 
 Ficou mais claro agora como as partes se conectam? Posso prosseguir para o **Capítulo 2**?
