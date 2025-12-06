@@ -22,34 +22,32 @@ cd diamol
 git checkout 2e
 ```
 
-
-### 1. Alguns comandos
+---
+### 1. Apagando containers
 
 - **docker container ls**: Por padrão, este comando lista apenas os contêineres que estão **rodando** no momento. 
-	- **`-a` (all)**: O Docker passa a listar não só os que estão rodando, mas também os que estão com status parados.
+	- **`-a` (all)**: O Docker passa a listar os que estão parados.
 	- **`-q` (quiet)**: Retorna apenas o ID do contêiner.
-	-  `docker container ls -aq`: O terminal gera uma lista simples de IDs, um por linha.
 
-- **docker container rm**: É o comando para apagar um contêiner. Normalmente, você digitaria `docker container rm ID`.
-	- **`-f` (force)**: O Docker tem uma trava de segurança: ele proíbe você de apagar um contêiner que ainda está rodando.        
+- **docker container rm**: Apaga um contêiner. Normalmente, você usa `docker container rm ID`
+	- **`-f` (force)**: O Docker proíbe você de apagar um contêiner que ainda está rodando.        
 
-- O símbolo `$()` não é do Docker, mas sim do bash, é chamado de substituição de comando
+- **$():** Comando do bash. Chamado de substituição de comando
 
-- **docker container rm -f $(docker container ls -aq)**: procura todos os contêineres (ativos e parados) e pega só os IDs e os entrega para o comando de remover e apaga todos eles de uma vez, sem pedir confirmação. 
-	- Ele apaga absolutamente todos os contêineres da sua máquina. Se você quiser apagar apenas os contêineres da aula, precisaria usar um **filtro** (igual ao comando de imagens que vou explicar abaixo).
+- **docker container rm -f $(docker container ls -aq)**: procura todos os contêineres e pega só os IDs e os entrega para o comando de remover e apaga todos eles de uma vez.
+	- Ele apaga absolutamente todos os contêineres da sua máquina. Se você quiser apagar apenas os contêineres da aula, precisaria usar um **filtro**.
+	- **docker container rm -f $(docker container ls -aq -f ancestor=diamol/*)**: liste apenas os contêineres que nasceram de imagens que começam com diamol.
 
-Aqui está a explicação do comando de imagens seguindo exatamente o seu padrão. Note que ele é **mais seguro** justamente por ter o filtro:
+---
+### 2. Apagando imagens
+
+- **docker image ls**: Lista todas as imagens que foram baixadas ou criadas no seu computador.
+    - **`-f` (filter)**:  Argumento `reference='diamol/*'` diz ao Docker: Pegue apenas as imagens cujo nome começa com `diamol/`.
     
-
-Ficou mais claro agora como as partes se conectam? Posso prosseguir para o **Capítulo 2**?
-
-
-- Para recuperar espaço em disco (remove imagens do livro):
+- **docker image rm**: É o comando para apagar uma imagem do disco.
+    - **`-f` (force)**: Docker não deixa apagar uma imagem se existir algum contêiner usando ela. 
     
-    `docker image rm -f $(docker image ls -f reference='diamol/*' -q)`
-    
-- O Docker é inteligente: se você rodar um comando no futuro e a imagem não estiver lá, ele fará o download novamente.
-    
+- **docker image rm -f $(docker image ls -f reference='diamol/*'-q)**: O comando interno lista os IDs apenas das imagens que começam com "diamol". O comando externo recebe essa lista específica e força a remoção delas, preservando suas outras imagens.
 
 ---
 
