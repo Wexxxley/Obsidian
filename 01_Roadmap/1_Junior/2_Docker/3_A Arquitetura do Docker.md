@@ -12,8 +12,14 @@ Existem dois componentes principais que você precisa distinguir:
 
 Porque essa sepração é importante?
 - **Gerenciamento Remoto:** Como o CLI fala com o Engine via API, você pode usar o CLI no seu laptop para controlar um Docker Engine rodando em um servidor remoto.
-- **Interfaces Gráficas:** O CLI não é o único cliente. Interfaces visuais (como o dashboard do Docker Desktop ou ferramentas como Portainer) também se conectam à mesma API para desenhar gráficos de uso de CPU, memória e logs.    
+- **Interfaces Gráficas:** O CLI não é o único cliente. Interfaces visuais (como o dashboard do Docker Desktop, Portainer ou lazydocker) também se conectam à mesma API para desenhar gráficos de uso de CPU, memória e logs.    
 
+Lazydocker não é uma "GUI" tradicional, é uma TUI (Terminal User Interface). É uma interface gráfica que roda dentro do terminal.
+```
+curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
+```
+
+![](../../../attachments/Pasted%20image%2020251207145101.png)
 
 ---
 
