@@ -2,19 +2,20 @@
 
 
 ---
-### 2.1 Executando o Hello World em um contêiner
-
-Vamos começar com o Docker da mesma forma que começamos com qualquer novo conceito de computação: rodando um "Hello World"2.
-
-Como você já instalou o Docker no Capítulo 1, abra seu terminal favorito (PowerShell no Windows, Terminal no Mac ou Bash no Linux). Você enviará um comando ao Docker dizendo para ele rodar um contêiner que imprime um texto simples3.
-
-#### Tente agora (Try it now)
 
 Digite o seguinte comando para rodar o contêiner Hello World:
+```bash
+docker run hello-world
+```
 
-`docker run diamol/ch02-hello-diamol:2e`
+O objetivo desse contêiner é ser o mais leve possível e confirmar que o docker está funcionando na sua máquina.
 
-Nota: "diamol" é a sigla para **D**ocker **I**n **A** **M**onth **O**f **L**unches. O `2e` indica a segunda edição. 444
+1. O Docker checa se você já tem a imagem `hello-world` salva localmente.
+2. Se não tiver, ele busca e baixa a imagem (faz o pull) do repositório Docker Hub.
+3. O Docker cria e inicia um novo contêiner a partir dessa imagem.
+4. O código dentro do contêiner é executado. Esse código simplesmente imprime uma mensagem no seu terminal, e então o contêiner encerra a execução.
+
+![](../../../attachments/Pasted%20image%2020251207140344.png)
 
 ---
 
