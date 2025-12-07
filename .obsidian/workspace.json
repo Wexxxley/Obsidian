@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Roadmap/1_Junior/2_Docker/4_.md",
+                "file": "01_Roadmap/1_Junior/2_Docker/5_Construindo sua própria imagem de contêiner.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_"
+              "title": "5_Construindo sua própria imagem de contêiner"
             }
           }
         ]
@@ -183,8 +183,11 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "01_Roadmap/1_Junior/2_Docker/4_Variável de ambiente e dockerfile.md",
+    "01_Roadmap/1_Junior/2_Docker/5_Construindo sua própria imagem de contêiner.md",
+    "attachments/Pasted image 20251207155245.png",
+    "attachments/Pasted image 20251207154916.png",
     "01_Roadmap/1_Junior/2_Docker/3_A Arquitetura do Docker e gui.md",
-    "01_Roadmap/1_Junior/2_Docker/4_.md",
     "attachments/Pasted image 20251207145101.png",
     "attachments/Pasted image 20251207143330.png",
     "attachments/Pasted image 20251207143316.png",
@@ -195,13 +198,11 @@
     "attachments/Pasted image 20251207141954.png",
     "attachments/Pasted image 20251207141745.png",
     "attachments/Pasted image 20251207141013.png",
-    "attachments/Pasted image 20251207140344.png",
     "06_Pyhon/FastAPI/1_Introdução.md",
     "01_Roadmap/1_Junior/2_Docker",
     "14_IA (Cadeira)/4_Buscas sem informação.md",
     "14_IA (Cadeira)/3_Agentes Baseados em Objetivos.md",
     "14_IA (Cadeira)/5_Heurística.md",
-    "attachments/Pasted image 20251204153227.png",
     "14_IA (Cadeira)/1_Agentes inteligentes.md",
     "16_Aleatorios/Teste.md",
     "08_Git and github ✅/07_Branches.md",
@@ -219,7 +220,6 @@
     "06_Pyhon/FastAPI/4_ORM.md",
     "16_Aleatorios/Decisões tomadas es.md",
     "06_Pyhon/FastAPI/9_Tornando asyncrono.md",
-    "07_FrontEnd/3_JavaScript/2_Express/5_Consumindo API.md",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
     "07_FrontEnd/3_JavaScript/1_Introdução",
