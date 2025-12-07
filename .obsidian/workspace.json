@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Roadmap/1_Junior/2_Docker/3_Rodando um servidor web.md",
+                "file": "01_Roadmap/1_Junior/2_Docker/3_A Arquitetura do Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Rodando um servidor web"
+              "title": "3_A Arquitetura do Docker"
             }
           }
         ]
@@ -187,7 +187,7 @@
     "attachments/Pasted image 20251207143316.png",
     "attachments/Pasted image 20251207143012.png",
     "01_Roadmap/1_Junior/2_Docker/2_Rodando os primeiros containers.md",
-    "01_Roadmap/1_Junior/2_Docker/3_Rodando um servidor web.md",
+    "01_Roadmap/1_Junior/2_Docker/3_A Arquitetura do Docker.md",
     "attachments/Pasted image 20251207142758.png",
     "01_Roadmap/1_Junior/2_Docker/1_Introdução.md",
     "attachments/Pasted image 20251207141954.png",
