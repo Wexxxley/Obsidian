@@ -51,7 +51,30 @@ Você verá que o prompt do seu terminal mudou (algo como / #). Agora você est�
 ![](../../../attachments/Pasted%20image%2020251207141745.png)
 
 ---
-### **3. Gerenciando containers**
+### **3. Rodando servidor web**
+
+A maioria das aplicações reais não são scripts interativos, mas sim servidores que rodam continuamente em segundo plano.
+
+Antes de prosseguir, entenda o **ciclo de vida**:
+
+1. Um contêiner roda apenas enquanto o processo principal dele estiver rodando.
+2. Quando o processo para, o contêiner entra no estado parado.
+3. Um contêiner parado não consome CPU/RAM, mas seus arquivos e logs ainda existem no disco até você removê-lo explicitamente.
+
+Vamos rodar um servidor web simples:
+```
+docker container run --detach --publish 8088:80 diamol/ch02-hello-diamol-web:2e
+```
+
+- `--detach` /`-d`: Roda em segundo plano. O terminal não fica preso; você recebe o ID do contêiner de volta e pode continuar digitando outros comandos.
+- `--publish 8088:80` /`-p`: Isso é o mapeamento de portas.
+
+Agora, abra seu navegador e acesse: http://localhost:8088.
+
+![](../../../attachments/Pasted%20image%2020251207142758.png)
+
+---
+### **4. Gerenciando containers**
 
 1. **Listar rodando:** `docker container ls` mostra apenas os ativos.
     
