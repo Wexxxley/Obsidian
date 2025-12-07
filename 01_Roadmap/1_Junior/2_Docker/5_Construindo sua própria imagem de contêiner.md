@@ -2,58 +2,21 @@
 
 
 ---
-O Docker precisa saber algumas coisas antes de construir uma imagem a partir de um Dockerfile:
-
-1. Um **nome** para a imagem.
-    
-2. A **localização** dos arquivos que ele vai empacotar.
-    
-
-Como você já está com o terminal aberto na pasta correta (`ch03/exercises/web-ping`), estamos prontos.
-
-#### Tente agora: O comando de Build
+O Docker precisa saber a localização dos arquivos que ele vai empacotar. Fique na pasta que deseja empacotar.
 
 Execute o seguinte comando para transformar seu Dockerfile em uma imagem:
-
 `docker image build --tag web-ping .`
 
-- **`--tag` (ou `-t`):** Define o nome da imagem como `web-ping`.
+- `--tag`/`-t`: Define o nome da imagem como web-ping.
     
-- **`.` (ponto):** O argumento final é crucial. Ele diz ao Docker que o **contexto de construção** (build context) é o **diretório atual**. O Docker vai pegar todos os arquivos desta pasta e enviar para o motor construir a imagem.
-    
+- `.`: O argumento final é crucial. Ele diz ao Docker que o **contexto de construção** (build context) é o **diretório atual**. O Docker vai pegar todos os arquivos desta pasta e enviar para o motor construir a imagem.
 
-O que acontece na saída?
+Você verá o Docker executando cada instrução do Dockerfile sequencialmente 
 
-Você verá o Docker executando cada instrução do Dockerfile sequencialmente (Step 1/5, Step 2/5...).
+- Se for a primeira vez, ele baixa a imagem base
+- Depois, executa os comandos (`ENV`, `WORKDIR`, `COPY`, `CMD`).    
 
-- Se for a primeira vez, ele baixa a imagem base (`node:2e`).
-    
-- Depois, executa os comandos (`ENV`, `WORKDIR`, `COPY`, `CMD`).
-    
-- Ao final, ele diz `Successfully tagged web-ping:latest`.
-    
-
-#### Verificando a Imagem
-
-Agora que a imagem foi construída, ela está armazenada no cache local do seu computador (não na internet).
-
-Tente agora:
-
-Liste as imagens que começam com a letra "w":
-
-docker image ls 'w*'
-
-Você verá sua imagem `web-ping` na lista, com cerca de **154MB**1.
-
-#### Testando sua nova imagem
-
-Agora você pode usar essa imagem exatamente como usou a imagem pública do autor.
-
-Tente agora:
-
-Rode um contêiner usando sua imagem, configurando-o para pingar o site do Docker a cada 5 segundos:
-
-`docker container run -e TARGET=docker.com -e INTERVAL=5000 web-ping`
+Agora que a imagem foi construída, ela está armazenada no seu computador. Agora você pode executala: `docker container run -e TARGET=docker.com -e INTERVAL=5000 web-ping`
 
 Você verá nos logs que o app está lendo suas configurações e pingando `docker.com`. Pare o contêiner com `Ctrl+C`.
 
