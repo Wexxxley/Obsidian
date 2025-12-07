@@ -36,7 +36,7 @@ git checkout 2e
 
 - **docker container rm -f $(docker container ls -aq)**: procura todos os contêineres e pega só os IDs e os entrega para o comando de remover e apaga todos eles de uma vez.
 	- Ele apaga absolutamente todos os contêineres da sua máquina. Se você quiser apagar apenas os contêineres da aula, precisaria usar um **filtro**.
-	- **docker container rm -f $(docker container ls -aq -f ancestor=diamol/*)**: liste apenas os contêineres que nasceram de imagens que começam com diamol.
+	- **docker container rm -f $(docker container ls -aq -f ancestor=diamol/*)**: apague apenas os contêineres que nasceram de imagens que começam com diamol.
 
 ---
 ### 2. Apagando imagens
@@ -48,37 +48,3 @@ git checkout 2e
     - **`-f` (force)**: Docker não deixa apagar uma imagem se existir algum contêiner usando ela. 
     
 - **docker image rm -f $(docker image ls -f reference='diamol/*'-q)**: O comando interno lista os IDs apenas das imagens que começam com "diamol". O comando externo recebe essa lista específica e força a remoção delas, preservando suas outras imagens.
-
----
-
-### Sobre o Docker ser "inteligente"
-
-A frase _"se você rodar um comando no futuro e a imagem não estiver lá, ele fará o download novamente"_ significa o seguinte:
-
-Quando você apaga uma imagem do seu computador (usando o comando acima), você não a perdeu para sempre. Essas imagens ficam hospedadas na nuvem (no **Docker Hub**).
-
-Se amanhã você decidir refazer um exercício e rodar `docker run diamol/hello-world`:
-
-1. O Docker vai procurar a imagem no seu PC.
-    
-2. Ele vai ver que você apagou.
-    
-3. Automaticamente, ele vai se conectar à internet, baixar a imagem de novo e rodar.
-    
-
-Isso permite que você limpe seu disco sem medo de "quebrar" os exercícios futuros.
-
-Ficou mais claro o funcionamento técnico dos comandos? Podemos ir para o Capítulo 2? 1
----
-
-### 1.5 Sendo imediatamente eficaz (Página 14)
-
-"Imediatamente eficaz" é um princípio da série _Month of Lunches_.
-
-- Cada capítulo começa com uma introdução, seguida de exercícios "Try it now" (Tente agora) onde você pratica.
-    
-- Depois há uma recapitulação com mais detalhes teóricos para preencher as lacunas.
-    
-- Por fim, um laboratório "Hands-on" para você ir para o próximo estágio.
-    
-- Todos os tópicos focam em tarefas genuinamente úteis no mundo real.
