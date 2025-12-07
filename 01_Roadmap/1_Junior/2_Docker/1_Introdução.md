@@ -51,8 +51,6 @@ git checkout 2e
 
 Um contêiner Docker é como uma caixa física: você coloca sua aplicação dentro dele. Dentro dessa caixa, a aplicação "pensa" que tem um computador inteiro só para ela, com seu próprio hostname, endereço IP e disco. Esses recursos são **virtuais**, criados e gerenciados pelo Docker.
 
-![](../../../attachments/Pasted%20image%2020251207141013.png)
-
 Como o Docker equilibra dois problemas conflitantes da computação:
 
 1. **Isolamento:** Aplicações precisam ser separadas. Se uma travar ou consumir muita CPU, não deve afetar as outras.
@@ -65,3 +63,4 @@ As VMs resolvem o isolamento, mas são pesadas. Cada VM precisa de seu próprio 
 
 Cada contêiner tem seu ambiente virtual isolado. Mas todos compartilham o mesmo Sistema Operacional do computador. Isso os torna extremamente leves. Você pode rodar de 5 a 10 vezes mais contêineres do que VMs no mesmo hardware.
 
+![](../../../attachments/Pasted%20image%2020251207141954.png)

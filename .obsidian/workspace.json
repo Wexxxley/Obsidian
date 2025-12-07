@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Roadmap/1_Junior/2_Docker/2_Rodando o primeiro container.md",
+                "file": "01_Roadmap/1_Junior/2_Docker/3_.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Rodando o primeiro container"
+              "title": "3_"
             }
           }
         ]
@@ -183,9 +183,12 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "01_Roadmap/1_Junior/2_Docker/2_Rodando os primeiros containers.md",
+    "01_Roadmap/1_Junior/2_Docker/3_.md",
     "01_Roadmap/1_Junior/2_Docker/1_Introdução.md",
+    "attachments/Pasted image 20251207141954.png",
+    "attachments/Pasted image 20251207141745.png",
     "attachments/Pasted image 20251207141013.png",
-    "01_Roadmap/1_Junior/2_Docker/2_Rodando o primeiro container.md",
     "attachments/Pasted image 20251207140344.png",
     "06_Pyhon/FastAPI/1_Introdução.md",
     "01_Roadmap/1_Junior/2_Docker",
@@ -198,8 +201,6 @@
     "attachments/Pasted image 20251204145628.png",
     "attachments/Pasted image 20251204145544.png",
     "attachments/Pasted image 20251204145013.png",
-    "attachments/Pasted image 20251204144614.png",
-    "attachments/Pasted image 20251204144506.png",
     "14_IA (Cadeira)/1_Agentes inteligentes.md",
     "16_Aleatorios/Teste.md",
     "08_Git and github ✅/07_Branches.md",
@@ -218,7 +219,6 @@
     "16_Aleatorios/Decisões tomadas es.md",
     "06_Pyhon/FastAPI/9_Tornando asyncrono.md",
     "07_FrontEnd/3_JavaScript/2_Express/5_Consumindo API.md",
-    "07_FrontEnd/3_JavaScript/2_Express/4_Configurações finais.md",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
     "07_FrontEnd/3_JavaScript/1_Introdução",
