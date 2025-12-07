@@ -1,8 +1,7 @@
 
-
+#Concluded 
 
 ---
-
 O Docker é uma plataforma para executar aplicações em unidades leves chamadas **containers**. Você junta a aplicação com todas as suas dependências, permitindo que ela rode da mesma maneira em qualquer lugar, no seu pc, no data center ou cloud.
 
 Alguns pontos para te situar antes de começar:
