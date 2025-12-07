@@ -1,5 +1,5 @@
 
-
+#Concluded 
 
 ---
 
@@ -17,90 +17,144 @@ O objetivo desse contêiner é ser o mais leve possível e confirmar que o docke
 
 ![](../../../attachments/Pasted%20image%2020251207140344.png)
 
+- Cada vez que você roda `docker run`, o Docker cria um **novo contêiner**. É uma nova "caixa" com seu próprio nome e identificação, mesmo que esteja rodando a mesma aplicação.
 ---
+### **1. Fluxo Build, Share and Run**
 
-### Análise do Resultado (O que aconteceu?)
+Este exemplo simples demonstra o fluxo principal do Docker:
 
-Quando você roda esse comando, verá uma saída similar à da **Figura 2.1** do livro. Vamos dissecar o que aconteceu linha por linha5555:
+1. **Build:** Alguém empacotou a aplicação.
+2. **Share:** Alguém publicou a imagem em um site público para que outros pudessem acessar.
+3. **Run:** Você, com acesso, rodou a aplicação.
 
-1. **O comando:** `docker run ...` diz ao Docker para rodar uma aplicação dentro de um contêiner.
-    
-2. **A Imagem:** A aplicação já foi empacotada e publicada com o nome `diamol/ch02-hello-diamol:2e`. No Docker, esse pacote de aplicação é chamado de **Imagem**6.
-    
-3. **O Download (Pull):**
-    
-    - O Docker precisa ter uma cópia da imagem localmente antes de rodar o contêiner.
-        
-    - Como é a primeira vez que você roda, você não tem a imagem.
-        
-    - O Docker avisa: `Unable to find image '...' locally` (Incapaz de encontrar a imagem localmente)7.
-        
-    - Então, ele baixa a imagem (o termo técnico é **pulling**). Você verá linhas com códigos (ex: `690e87... Pull complete`). Esses são os **layers** (camadas) da imagem sendo baixados 8.
-        
-4. **A Execução:**
-    
-    - Agora o Docker inicia um contêiner usando essa imagem.
-        
-    - A imagem contém todo o conteúdo da aplicação e instruções de como iniciá-la.
-        
-    - A aplicação neste exemplo é um script simples que escreve na tela9.
-        
-
-A Saída da Aplicação:
-
-O script imprime informações sobre o ambiente onde está rodando 10:
-
-- `Hello from Chapter 2!`
-    
-- `My name is: 2f97e02a5924` (Este é o **Hostname** ou nome da máquina virtual do contêiner).
-    
-- `I'm running on: Linux...` (O Sistema Operacional).
-    
-- `My address is: 172.17.0.2...` (O endereço IP do contêiner na rede virtual do Docker).
-    
-
-_Observação:_ Os detalhes exatos (como o ID `2f97...` e o IP) serão diferentes na sua máquina, pois o Docker gera isso dinamicamente11. Se você estiver no Windows, verá que o sistema operacional listado pode ser Windows, e se estiver num Raspberry Pi, verá que o processador é ARM 12.
+A grande vantagem é que esse fluxo é o mesmo se a aplicação for um script simples ou um sistema bancário complexo em Java. 
 
 ---
 
-### O Fluxo "Build, Share, Run"
+### 2. 
 
-Este exemplo simples demonstra o fluxo principal do Docker13:
-
-1. **Build (Construir):** Alguém empacotou a aplicação (o autor fez isso).
-    
-2. **Share (Compartilhar):** Alguém publicou a imagem em um site público (Docker Hub) para que outros pudessem acessar.
-    
-3. **Run (Rodar):** Você, com acesso, rodou a aplicação.
-    
-
-A grande vantagem é que esse fluxo é o mesmo se a aplicação for um script simples ou um sistema bancário complexo em Java. A aplicação é **portátil**: roda em qualquer computador que tenha Docker14.
-
----
-
-### Rodando pela segunda vez
-
-O que acontece se você rodar o mesmo comando novamente?
+Até agora, os contêineres que rodamos executaram uma tarefa rápida e saíram. Mas você pode rodar um contêiner interativo e conectar um terminal a ele, como se estivesse acessando um servidor remoto.
 
 #### Tente agora
 
-Repita o comando exato:
+Execute o seguinte comando para rodar um contêiner base e entrar nele:
 
-`docker run diamol/ch02-hello-diamol:2e`
+`docker run --interactive --tty diamol/base:2e`
 
-**O que mudou?**
-
-1. O Docker **não** baixou a imagem novamente. Ele viu que já tinha uma cópia local (`Unable to find image...` não aparece) e foi direto para a execução15.
+- **`--interactive` (ou `-i`):** Mantém a conexão aberta para você interagir.
     
-2. O resultado na tela é quase o mesmo, mas:
+- **`--tty` (ou `-t`):** Simula um terminal de texto.
     
-    - O **Nome (Hostname)** mudou (ex: de `2f97...` para `d147...`).
-        
-    - O **IP** pode ter mudado.
-        
 
-Isso acontece porque cada vez que você roda `docker run`, o Docker cria um **novo contêiner** fresco. É uma nova "caixa" com seu próprio nome e identificação, mesmo que esteja rodando a mesma aplicação 16.
+O que acontece?
+
+Você verá que o prompt do seu terminal mudou (algo como / #). Agora você está dentro do contêiner7.
+
+Tente rodar comandos lá dentro:
+
+1. `hostname`: Vai mostrar o ID do contêiner (ex: `a41ad3...`), provando que ele tem um nome próprio8.
+    
+2. `date`: Mostra a data/hora.
+    
+
+Para sair, digite `exit`. O contêiner irá parar porque o processo do terminal foi encerrado.
+
+#### Gerenciando Contêineres
+
+Agora que você já rodou alguns contêineres, vamos ver como gerenciá-los usando comandos fundamentais.
+
+1. **Listar rodando:** `docker container ls` mostra apenas os ativos.
+    
+2. **Ver processos:** `docker container top <ID>` mostra os processos rodando dentro de um contêiner específico (como o Gerenciador de Tarefas)9.
+    
+3. **Ver logs:** `docker container logs <ID>` mostra tudo que o aplicativo escreveu na tela (stdout). Isso é crucial para debugar apps que rodam em segundo plano10.
+    
+4. **Inspecionar:** `docker container inspect <ID>` mostra todos os detalhes técnicos (IP, caminhos de disco, variáveis de ambiente) em formato JSON11.
+    
+
+**Ponto chave:** Para o Docker, todos os contêineres são iguais. Seja um app Java antigo ou um script Python novo, você usa os mesmos comandos (`run`, `ls`, `logs`, `inspect`) para gerenciá-los12.
 
 ---
 
-Podemos avançar para a seção **2.2: Então, o que é um contêiner?**
+### 2.4 Hospedando um website em um contêiner
+
+A maioria das aplicações reais não são scripts interativos, mas sim servidores (como sites ou APIs) que rodam continuamente em segundo plano.
+
+Antes de prosseguir, entenda o **ciclo de vida**:
+
+- Um contêiner roda apenas enquanto o processo principal dele estiver rodando.
+    
+- Quando o processo para, o contêiner entra no estado **Exited** (Parado).
+    
+- Um contêiner parado não consome CPU/RAM, mas seus arquivos e logs ainda existem no disco até você removê-lo explicitamente13.
+    
+
+#### Tente agora: Rodando um site "Detached" (em segundo plano)
+
+Vamos rodar um servidor web simples:
+
+`docker container run --detach --publish 8088:80 diamol/ch02-hello-diamol-web:2e`
+
+- **`--detach` (ou `-d`):** Roda em segundo plano. O terminal não fica preso; você recebe o ID do contêiner de volta e pode continuar digitando outros comandos14.
+    
+- **`--publish 8088:80` (ou `-p`):** Isso é o mapeamento de portas (Port Mapping).
+    
+    - O tráfego chega no seu computador na porta **8088**.
+        
+    - O Docker pega esse tráfego e envia para a porta **80** _dentro_ do contêiner15.
+        
+
+Agora, abra seu navegador e acesse: http://localhost:8088.
+
+Você verá uma página web simples ("Hello from Chapter 2!"). O site está rodando dentro do contêiner isolado, mas acessível através da porta publicada16.
+
+#### Limpeza
+
+Como aprendemos no Cap. 1, vamos limpar a bagunça:
+
+docker container rm -f $(docker container ls -all -quiet)
+
+Isso para e remove todos os contêineres (rodando ou parados)17.
+
+---
+
+### 2.5 Entendendo como o Docker roda contêineres (Arquitetura)
+
+Por trás dos comandos simples, existe uma arquitetura robusta18:
+
+1. **Docker Client (CLI):** É onde você digita os comandos (`docker run...`). Ele envia requisições para a API do Docker.
+    
+2. **Docker Engine (Server):** É o processo que fica rodando em segundo plano. Ele recebe os comandos da API e faz o trabalho pesado: baixa imagens, cria contêineres, gerencia redes.
+    
+3. **Containerd:** O Docker Engine usa um componente chamado _containerd_ para gerenciar o ciclo de vida real dos contêineres. O _containerd_ é um padrão da indústria (usado também pelo Kubernetes), o que significa que o Docker segue padrões abertos (OCI)19.
+    
+
+---
+
+### 2.6 Laboratório (Lab)
+
+Chegamos ao desafio prático do capítulo. O objetivo é testar seu conhecimento sem um guia passo-a-passo.
+
+**Desafio:**
+
+1. Rode o contêiner do website (`diamol/ch02-hello-diamol-web:2e`) novamente.
+    
+2. Substitua o arquivo `index.html` dentro do contêiner por um arquivo seu (com qualquer conteúdo, ex: "Meu Site Hackeado!").
+    
+3. Acesse o site no navegador e veja sua mudança.
+    
+
+Dicas do autor 20:
+
+- Lembre-se que o contêiner tem seu próprio sistema de arquivos.
+    
+- Nesta imagem específica, o site fica na pasta: `/usr/local/apache2/htdocs/`.
+    
+- Você precisará de um comando para copiar arquivos do seu computador para dentro do contêiner (lembra do `docker container cp` que mencionei na explicação anterior?).
+    
+
+---
+
+**Fim do Capítulo 2.**
+
+Você gostaria da solução do Laboratório ou prefere seguir direto para o **Capítulo 3: Construindo suas próprias imagens Docker**?

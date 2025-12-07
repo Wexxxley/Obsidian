@@ -45,3 +45,23 @@ git checkout 2e
     - `-f` (force): Docker não deixa apagar uma imagem se existir algum contêiner usando ela. 
     
 - `docker image rm -f $(docker image ls -f reference='diamol/*'-q)`: O comando interno lista os IDs das imagens que começam com "diamol". O comando externo recebe essa lista e força a remoção delas, preservando suas outras imagens.
+
+---
+### **3. Mas o que é um contêiner?**
+
+Um contêiner Docker é como uma caixa física: você coloca sua aplicação dentro dele. Dentro dessa caixa, a aplicação "pensa" que tem um computador inteiro só para ela, com seu próprio hostname, endereço IP e disco. Esses recursos são **virtuais**, criados e gerenciados pelo Docker.
+
+![](../../../attachments/Pasted%20image%2020251207141013.png)
+
+Como o Docker equilibra dois problemas conflitantes da computação:
+
+1. **Isolamento:** Aplicações precisam ser separadas. Se uma travar ou consumir muita CPU, não deve afetar as outras.
+2. **Densidade:** Você quer rodar o máximo possível de aplicações em um único computador para economizar dinheiro e recursos.
+
+#### **3.1 A Solução Antiga (Máquinas Virtuais):**
+
+As VMs resolvem o isolamento, mas são pesadas. Cada VM precisa de seu próprio Sistema Operacional completo. Se você tem 3 apps em 3 VMs, você tem 3 sistemas operacionais consumindo memória e CPU só para manter a VM ligada.
+#### **3.2 A Solução Docker (Contêineres):**
+
+Cada contêiner tem seu ambiente virtual isolado. Mas todos compartilham o mesmo Sistema Operacional do computador. Isso os torna extremamente leves. Você pode rodar de 5 a 10 vezes mais contêineres do que VMs no mesmo hardware.
+
