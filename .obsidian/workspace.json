@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Roadmap/1_Junior/2_Docker/1_Introdução.md",
+                "file": "01_Roadmap/1_Junior/2_Docker/7_Respondendo perguntas importantes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Introdução"
+              "title": "7_Respondendo perguntas importantes"
             }
           }
         ]
@@ -184,6 +184,8 @@
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
     "01_Roadmap/1_Junior/2_Docker/6_Entendendo imagens Docker.md",
+    "01_Roadmap/1_Junior/2_Docker/7_Respondendo perguntas importantes.md",
+    "01_Roadmap/1_Junior/2_Docker/1_Introdução.md",
     "attachments/Pasted image 20251207184656.png",
     "attachments/Pasted image 20251207183656.png",
     "attachments/Pasted image 20251207183501.png",
@@ -198,7 +200,6 @@
     "attachments/Pasted image 20251207143330.png",
     "attachments/Pasted image 20251207143316.png",
     "attachments/Pasted image 20251207143012.png",
-    "01_Roadmap/1_Junior/2_Docker/1_Introdução.md",
     "06_Pyhon/FastAPI/1_Introdução.md",
     "01_Roadmap/1_Junior/2_Docker",
     "14_IA (Cadeira)/4_Buscas sem informação.md",
