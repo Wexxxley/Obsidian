@@ -51,11 +51,10 @@ git checkout 2e
 
 Um contêiner Docker é como uma caixa física: você coloca sua aplicação dentro dele. Dentro dessa caixa, a aplicação "pensa" que tem um computador inteiro só para ela, com seu próprio hostname, endereço IP e disco. Esses recursos são **virtuais**, criados e gerenciados pelo Docker.
 
-Como o Docker equilibra dois problemas conflitantes da computação:
+O Docker equilibra dois problemas conflitantes da computação:
 
 1. **Isolamento:** Aplicações precisam ser separadas. Se uma travar ou consumir muita CPU, não deve afetar as outras.
 2. **Densidade:** Você quer rodar o máximo possível de aplicações em um único computador para economizar dinheiro e recursos.
-
 #### **3.1 A Solução Antiga (Máquinas Virtuais):**
 
 As VMs resolvem o isolamento, mas são pesadas. Cada VM precisa de seu próprio Sistema Operacional completo. Se você tem 3 apps em 3 VMs, você tem 3 sistemas operacionais consumindo memória e CPU só para manter a VM ligada.
