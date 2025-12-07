@@ -1,43 +1,8 @@
 
-
-
----
-
-Vamos executar o execício web-ping. O objetivo dela é verificar se um site está no ar. Ela roda em um contêiner e faz requisições HTTP para uma URL (por padrão, o blog do autor) a cada 3 segundos.
-
-Baixe a imagem da aplicação web-ping:
-```
-docker image pull diamol/ch03-web-ping:2e
-```
-
-A imagem veio do **Docker Hub**, que é o registro padrão onde o Docker procura imagens.
-
-Rode o contêiner em segundo plano (--detach ou -d) e dê um nome a ele (--name):
-```
-docker container run -d --name web-ping diamol/ch03-web-ping:2e
-```
-
-Agora, verifique os logs para ver o app funcionando:
-```
-docker container logs web-ping
-```
-
-Você verá que o app está pingando o blog do autor (`blog.sixeyed.com`) a cada 3000ms.
+#Concluded 
 
 ---
-### **1. Variáveis de ambiente**
-
-Esse aplicativo foi programado para ler configurações a partir de variáveis de Ambiente do sistema. No Docker, você pode injetar essas variáveis quando inicia o contêiner. Remova o contêiner antigo e inicie um novo, mas desta vez alterando o alvo.
-`docker container run --env TARGET=google.com diamol/ch03-web-ping:2e`
-
-- --env ou -e define a variável.
-
-A imagem Docker vem com configurações padrão, mas o autor da imagem deve permitir flexibilidade. O código da aplicação web-ping procura uma variável chamada TARGET. Se você fornecer um valor diferente na hora de rodar (docker run), o comportamento do app muda sem você precisar alterar o código ou reconstruir a imagem.
-
-![](../../../attachments/Pasted%20image%2020251207155245.png)
-
----
-### **2. Escrevendo seu primeiro Dockerfile**
+### **1. Escrevendo seu primeiro Dockerfile**
 
 O Dockerfile é um script simples contendo instruções para empacotar uma aplicação. A saída desse script é uma Imagem Docker.
 
@@ -71,3 +36,25 @@ Essas 5 instruções são praticamente tudo o que você precisa para empacotar s
 Para construir essa imagem, você precisa dos arquivos no seu computador Navegue até a pasta do exercício. Você verá dois arquivos: `Dockerfile` e `app.js`. O `app.js` é o código da aplicação Node.js
 
 ![](../../../attachments/Pasted%20image%2020251207154916.png)
+
+---
+### **2. Construindo a imagem**
+
+O Docker precisa saber a localização dos arquivos que ele vai empacotar. Fique na pasta que deseja empacotar.
+
+Execute o seguinte comando para transformar seu Dockerfile em uma imagem:
+`docker image build --tag web-ping .`
+
+- `--tag`/`-t`: Define o nome da imagem como web-ping.
+    
+- `.`: O argumento final é crucial. Ele diz ao Docker que o **contexto de construção** (build context) é o **diretório atual**. O Docker vai pegar todos os arquivos desta pasta e enviar para o motor construir a imagem.
+
+Você verá o Docker executando cada instrução do Dockerfile sequencialmente 
+
+- Se for a primeira vez, ele baixa a imagem base
+- Depois, executa os comandos (`ENV`, `WORKDIR`, `COPY`, `CMD`).    
+
+Agora que a imagem foi construída, ela está armazenada no seu computador. Agora você pode executala: 
+![](../../../attachments/Pasted%20image%2020251207183011.png)
+
+---

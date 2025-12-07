@@ -2,81 +2,33 @@
 
 
 ---
-O Docker precisa saber a localização dos arquivos que ele vai empacotar. Fique na pasta que deseja empacotar.
 
-Execute o seguinte comando para transformar seu Dockerfile em uma imagem:
-`docker image build --tag web-ping .`
-
-- `--tag`/`-t`: Define o nome da imagem como web-ping.
-    
-- `.`: O argumento final é crucial. Ele diz ao Docker que o **contexto de construção** (build context) é o **diretório atual**. O Docker vai pegar todos os arquivos desta pasta e enviar para o motor construir a imagem.
-
-Você verá o Docker executando cada instrução do Dockerfile sequencialmente 
-
-- Se for a primeira vez, ele baixa a imagem base
-- Depois, executa os comandos (`ENV`, `WORKDIR`, `COPY`, `CMD`).    
-
-Agora que a imagem foi construída, ela está armazenada no seu computador. Agora você pode executala: `docker container run -e TARGET=docker.com -e INTERVAL=5000 web-ping`
-
-Você verá nos logs que o app está lendo suas configurações e pingando `docker.com`. Pare o contêiner com `Ctrl+C`.
-
----
-
-### 3.4 Entendendo imagens Docker e camadas de imagem
-
-Uma imagem Docker não é um bloco sólido. Ela é uma coleção lógica de **camadas** (layers)2.
-
+Uma imagem Docker não é um bloco sólido. Ela é uma coleção lógica de **camadas**.
 - A imagem contém os arquivos que você empacotou.
-    
 - Ela também contém metadados e um histórico de como foi construída.
-    
-
-#### Histórico da Imagem
 
 Você pode ver exatamente como uma imagem foi criada olhando seu histórico.
-
-Tente agora:
-
+```
 docker image history web-ping
+```
 
-Você verá uma lista de camadas.
+- A coluna **CREATED BY** mostra a instrução do Dockerfile que criou aquela camada.
+- Note que as instruções do topo são as mais recentes do seu Dockerfile, e as de baixo vêm da imagem base.
+![](../../../attachments/Pasted%20image%2020251207183501.png)
 
-- A coluna **CREATED BY** mostra a instrução do Dockerfile que criou aquela camada (ex: `CMD ["node"...]`, `COPY app.js...`).
-    
-- Note que as instruções do topo são as mais recentes (do seu Dockerfile), e as de baixo vêm da imagem base (`node:2e`).
-    
+---
+### **1. O Conceito de Camadas Compartilhadas**
 
-#### O Conceito de Camadas Compartilhadas
+Isso é fundamental para a eficiência do Docker. As camadas são **somente leitura** e podem ser **compartilhadas** entre diferentes imagens.
 
-Isso é fundamental para a eficiência do Docker. As camadas são **somente leitura** e podem ser **compartilhadas** entre diferentes imagens3.
-
-Imagine o seguinte cenário (ilustrado na **Figura 3.8**):
-
-1. A imagem `diamol/node:2e` (base) tem o Sistema Operacional e o Node.js.
-    
+Imagine o seguinte cenário:
+1. A imagem `diamol/node:2e` base tem o Sistema Operacional e o Node.js.
 2. Sua imagem `web-ping` usa essa base e adiciona o arquivo `app.js`.
-    
 3. Se você criar outra imagem Node.js, ela também usará a mesma base.
-    
 
-Economia de Espaço:
+Se você tiver 10 imagens diferentes que usam node:2e como base, o Docker não duplica os arquivos do Node.js 10 vezes. Ele armazena a camada base apenas uma vez e a compartilha com todas as imagens.
 
-O Docker é inteligente. Se você tiver 10 imagens diferentes que usam node:2e como base, o Docker não duplica os arquivos do Node.js 10 vezes no disco. Ele armazena a camada base apenas uma vez e a compartilha com todas as imagens.
-
-Tente agora:
-
-Vamos provar isso verificando o espaço em disco real.
-
-1. Liste as imagens Node que você tem: `docker image ls`
-    
-    - Você verá que `web-ping`, `diamol/node` e outras parecem ter o mesmo tamanho (aprox. 154MB). Se somar tudo, daria quase 500MB.
-        
-2. Agora veja o uso real do disco pelo sistema:
-    
-    docker system df
-    
-
-A coluna **Images** mostrará um tamanho muito menor do que a soma simples. Isso prova que as camadas base estão sendo reutilizadas, economizando centenas de megabytes4.
+![](../../../attachments/Pasted%20image%2020251207183656.png)
 
 ---
 
