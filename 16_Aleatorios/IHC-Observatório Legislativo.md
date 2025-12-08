@@ -49,64 +49,6 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
 ---
 
 ![](../attachments/Pasted%20image%2020251208145502.png)
-### **1. Tela Inicial
-
-A home deve ser um painel do que está acontecendo agora.
-
-- **Funcionalidade "Sessão de Hoje":** Um card simples dizendo se há votação no plenário hoje, qual a pauta principal e um link para assistir ao vivo (incorporado da TV Câmara).
-- **Noticias recentes.**
-
-### **2. Tela do deputado**
-
-
-### **3. Tela de Comparação
-
-Uma das maiores dúvidas do eleitor é escolher entre dois candidatos ou comparar seu deputado com o "rival".
-
-- **Funcionalidade:** Permite selecionar dois deputados (ou um Deputado x Média do Estado) e coloca seus dados lado a lado.
-    
-- **O que compara:**
-    - Presença em plenário.
-    - Gasto total de cota.
-    - Alinhamento com o Governo (Votações iguais à orientação do governo %).
-        
-- **Recurso para Multiplicadores:** Botão "Gerar Card de Batalha". O sistema cria uma imagem.png pronta com a marca d'água do seu projeto (verificação).
-
-### **4. Match Legislativo**
-
-- **Como funciona:** O usuário não escolhe um deputado. O sistema apresenta 5 votações polêmicas recentes (sem dizer como quem votou). O usuário clica em "A Favor", "Contra" ou "Indiferente".
-    
-- **Resultado:** O sistema cruza os dados e mostra: _"Você votou 90% igual ao Deputado Fulano"_ ou _"Você pensa o oposto do deputado que você elegeu"_.
-
-### **5. Tela de Bancada: "Raio-X dos Partidos"**
-
-Muitas vezes o deputado é obrigado a seguir o partido. É crucial fiscalizar a agremiação.
-
-- **Coesão Partidária:** Um gráfico mostrando se o partido vota sempre unido ou se é "bagunçado" (cada um vota como quer).
-    
-- **Top Gastos do Partido:** Ranking de quem são os deputados mais "caros" e mais "econômicos" dentro daquela sigla.
-    
-- **Nuvem de Ideias:** Quais palavras mais aparecem nos projetos daquele partido? (Ex: Um partido pode falar muito de "Família", outro de "Trabalho", outro de "Liberdade").
-
-### **6. Área do Criador (Hub de Exportação)**
-
-Focada exclusivamente na persona "Multiplicador de Informação".
-
-- **Gerador de Gráficos:** O jornalista configura o gráfico (cor, tipo de dado) e baixa em alta resolução (SVG/PNG) ou embeda o código HTML no site de notícias dele.
-
-### **7. Modo Resumo**
-
-Para projetos de lei (que são textos jurídicos longos e complexos).
-
-- **Funcionalidade:** Uso de IA (Processamento de Linguagem Natural) para resumir a Ementa do Projeto.
-    
-    - _Texto Original:_ "Altera a Lei nº 9.394... para dispor sobre..."
-        
-    - _Tradução do Sistema:_ "Este projeto quer obrigar o ensino de robótica em todas as escolas públicas."    
-
-
-
----
 
 ## **Definição de Telas e Funcionalidades
 
@@ -183,19 +125,10 @@ Para projetos de lei (que são textos jurídicos longos e complexos).
 - **Resultado:** O sistema cruza as respostas do usuário com a base de dados e exibe:
     - "Você pensa 85% igual a esses deputados".
 
-### **6. Área do Criador**
-
-**Objetivo:** Fornecer ferramentas para jornalistas e influenciadores disseminarem dados verificados.
-
-- **Construtor de Gráficos:** Interface para selecionar dados (Gastos, Votações), escolher o tipo de visualização (Pizza, Barras) e personalizar cores.
-    
-- **Exportação:** Opções de download em alta resolução (SVG, PNG) ou código de incorporação (Embed) para sites de notícias.
-    
-
-### **7. Funcionalidades Transversais (Sistema)**
+### **6. Funcionalidades Transversais 
 
 Estas funcionalidades aparecem em várias telas para suporte cognitivo:
 
 - **Modo Resumo (IA):** Botão presente em qualquer menção a Projetos de Lei. Ao clicar, utiliza Processamento de Linguagem Natural para traduzir o "juridiquês" da ementa em uma frase simples de 2 linhas.
     
-- **Glossário Político Interativo:** Tooltips (balões de texto) que aparecem automaticamente ao passar o mouse sobre termos técnicos (ex: "Obstrução", "PEC", "Quórum"), explicando-os sem tirar o usuário da página.
+- **Glossário Político Interativo:** Tooltips (balões de texto) que aparecem automaticamente ao passar o mouse sobre termos técnicos (ex: "Obstrução", "PEC"), explicando-os sem tirar o usuário da página.
