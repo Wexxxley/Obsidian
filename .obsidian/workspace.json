@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15_IHC (Cadeira)/3_Design participativo.md",
+                "file": "16_Aleatorios/IHC-Observatório Legislativo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Design participativo"
+              "title": "IHC-Observatório Legislativo"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "15_IHC (Cadeira)/3_Design participativo.md",
     "16_Aleatorios/IHC-Observatório Legislativo.md",
     "01_Roadmap/1_Junior/2_Docker/7_Respondendo perguntas importantes.md",
     "01_Roadmap/1_Junior/2_Docker/8_Empacotando aplicações a partir do código-fonte em imagens Docker.md",
@@ -219,7 +220,6 @@
     "11_Engenharia de Software (Cadeira)/10_DevOps/3_Deployment Contínuo (CD).md",
     "16_Aleatorios/SDT-Sistema VoIP.md",
     "16_Aleatorios/Pedido de crenciais GIT.md",
-    "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
     "07_FrontEnd/3_JavaScript/1_Introdução",
