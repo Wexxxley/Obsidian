@@ -67,31 +67,12 @@ Uma das maiores dúvidas do eleitor é escolher entre dois candidatos ou compara
     - Alinhamento com o Governo (Votações iguais à orientação do governo %).
         
 - **Recurso para Multiplicadores:** Botão "Gerar Card de Batalha". O sistema cria uma imagem.png pronta com a marca d'água do seu projeto (verificação).
-    
 
-### **3. Tela Interativa: O "Match Legislativo"**
-
-Gamificação para ajudar o cidadão a descobrir quem o representa de verdade, além das narrativas.
+### **3. Match Legislativo**
 
 - **Como funciona:** O usuário não escolhe um deputado. O sistema apresenta 5 votações polêmicas recentes (sem dizer como quem votou). O usuário clica em "A Favor", "Contra" ou "Indiferente".
     
 - **Resultado:** O sistema cruza os dados e mostra: _"Você votou 90% igual ao Deputado Fulano"_ ou _"Você pensa o oposto do deputado que você elegeu"_.
-    
-- **Por que é importante:** Quebra o viés de confirmação. O usuário foca no **fato (voto)** e não na **pessoa (político)**.
-    
-
-### **4. Funcionalidade de Gastos: "O Preço do Mandato" (Conversor)**
-
-Os números oficiais (R$ 45.000,00) são abstratos. Esta funcionalidade traduz valores monetários para a realidade do brasileiro.
-
-- **Visualização:** Ao ver que um deputado gastou R$ 10.000 em "Divulgação da Atividade Parlamentar", o sistema mostra um ícone de equivalência:
-    
-    - _"Isso equivale a 7 Salários Mínimos."_
-        
-    - _"Isso compraria 20 Cestas Básicas."_
-        
-- **Detalhe da Nota Fiscal:** Se possível via API, um botão "Ver Nota Fiscal" que leva direto ao documento digitalizado, permitindo auditoria cidadã (crowdsourcing).
-    
 
 ### **5. Tela de Bancada: "Raio-X dos Partidos"**
 
