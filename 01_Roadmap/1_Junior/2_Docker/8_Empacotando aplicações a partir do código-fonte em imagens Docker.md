@@ -6,15 +6,12 @@ Você aprendeu que precisa apenas de algumas instruções em um Dockerfile para 
 
 Comandos executados durante o build salvam as alterações do sistema de arquivos na camada da imagem. Isso torna os Dockerfiles o formato de empacotamento mais flexível que existe; você pode descompactar arquivos, rodar instaladores e fazer praticamente qualquer coisa.
 
-### 4.1 Quem precisa de um servidor de build quando você tem um Dockerfile?
 
 No desenvolvimento de software tradicional, existe um processo rigoroso. O código vai para um repositório central e um servidor de build baixa o código, compila e gera o executável. Manter servidores de build é difícil.
 
 - Eles precisam ter **todas** as ferramentas instaladas (Java, .NET, Node, etc.).
 - As versões das ferramentas no servidor de build precisam ser idênticas às do seu computador, senão o build falha.
-    
-- A **Figura 4.1** do livro ilustra essa complexidade: todos precisam ter o mesmo conjunto de ferramentas .
-    
+    ![](../../../attachments/Pasted%20image%2020251208081313.png)
 
 **A Solução Docker:** Você pode empacotar o próprio conjunto de ferramentas de build em uma imagem Docker.
 
