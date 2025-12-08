@@ -32,9 +32,9 @@ Se você tiver 10 imagens diferentes que usam node:2e como base, o Docker não d
 ---
 ### **2. Otimizando Dockerfiles para usar o cache de camadas**
 
-Como as camadas são somente leitura, o Docker pode usar um **cache** durante o processo de _build_ para economizar tempo.
+Como as camadas são somente leitura, o Docker pode usar um cache durante o processo de _build_ para economizar tempo.
 
-Se você rodar o comando `docker build` novamente sem mudar nada, ele terminará quase instantaneamente. O Docker verifica se a instrução mudou e se os arquivos copiados mudaram. Se nada mudou, ele reutiliza a camada existente (você verá `Using cache` na saída).
+Se você rodar o comando `docker build` novamente sem mudar nada, ele terminará quase instantaneamente. O Docker verifica se a instrução mudou e se os arquivos copiados mudaram. Se nada mudou, ele reutiliza a camada existente.
 
 Para builds rápidos, você deve ordenar suas instruções no Dockerfile **da menos frequente para a mais frequente**.
 
@@ -47,6 +47,6 @@ Um Dockerfile otimizado ficaria assim:
 3. `ENV ...` (Muda raramente)
 4. `WORKDIR ...`
 5. `COPY app.js .` (Muda frequentemente - **Coloque por último!**)
-![](../../../attachments/Pasted%20image%2020251207184656.png)
 
-Ao mover o COPY para o final, você garante que as etapas anteriores (1, 2, 3 e 4) sejam sempre pegas do cache, tornando o build ultra-rápido mesmo quando você altera o código.
+Ao mover o COPY para o final, você garante que as etapas anteriores sejam sempre pegas do cache, tornando o build mais rápido mesmo quando você altera o código.
+![](../../../attachments/Pasted%20image%2020251208065556.png)
