@@ -68,13 +68,11 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
 - **Cabeçalho do Perfil:** Foto oficial, Nome Parlamentar, Partido, Estado (UF), links para redes sociais e botões de ação ("Comparar", "Copiar Link").
     
 - **Painel de Desempenho (KPIs):**
-    
     - **Presença:** Gráfico de rosca.        
     - **Produção:** Contagem de projetos apresentados vs. aprovados.
         
 - **Seção Financeira:**
-    - **Evolução de Gastos:** Gráfico de linha (Deputado vs. Média da Câmara).
-    - **Top 3 Gastos:** Ícones destacando as categorias mais numerosas (ex: Passagens, Divulgação).
+	- Gráfico mostranod os gastos parlamentares por tipo (viagem, divulgação, abastecimento e etc.) e a comparação com a media de gastos dos parlmantares
         
 - **Seção de Votações:** Lista filtrada das votações de alto impacto (sim/não/abstenção) com link para o "Modo Resumo".
 ### **3. Tela de Partidos
@@ -91,7 +89,7 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
     - Deputado que mais vota contra a orientação do partido.
         
 - **Foco Ideológico:** Nuvem de palavras agregada de todos os membros, revelando as prioridades reais da sigla (ex: Costumes, Economia, Agronegócio).
-    
+- Deputados ssociados.
 ### **4. Tela de Comparação
 
 **Objetivo:** Permitir a análise lado a lado para decisão de voto ou fiscalização comparativa.
@@ -126,8 +124,6 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
 Estas funcionalidades aparecem em várias telas para suporte cognitivo:
 
 - **Modo Resumo (IA):** Botão presente em qualquer menção a Projetos de Lei. Ao clicar, utiliza Processamento de Linguagem Natural para traduzir o "juridiquês" da ementa em uma frase simples de 2 linhas.
-    
-- **Glossário Político Interativo:** Tooltips (balões de texto) que aparecem automaticamente ao passar o mouse sobre termos técnicos (ex: "Obstrução", "PEC"), explicando-os sem tirar o usuário da página.
 
 ### **7. Tela de Detalhes da Proposição**
 
@@ -142,3 +138,5 @@ Estas funcionalidades aparecem em várias telas para suporte cognitivo:
 - **Enquete Cidadã:** Um widget de engajamento perguntando: _"Você apoiaria esse projeto?"_ (Sim / Não). Exibe a porcentagem da opinião dos usuários da plataforma em tempo real.     
     
 - **Documentos Originais:** Para o perfil "Multiplicador/Jornalista", um link discreto para baixar o PDF original do projeto e ver o histórico técnico completo.
+
+- Se ja votado, uma lista exportavel com os votos de cada deputado.
