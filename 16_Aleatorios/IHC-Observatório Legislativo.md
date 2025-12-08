@@ -55,7 +55,10 @@ A home deve ser um painel do que está acontecendo agora.
 - **Funcionalidade "Sessão de Hoje":** Um card simples dizendo se há votação no plenário hoje, qual a pauta principal e um link para assistir ao vivo (incorporado da TV Câmara).
 - **Noticias recentes.**
 
-### **2. Tela de Comparação
+### **2. Tela do deputado**
+
+
+### **3. Tela de Comparação
 
 Uma das maiores dúvidas do eleitor é escolher entre dois candidatos ou comparar seu deputado com o "rival".
 
@@ -68,7 +71,7 @@ Uma das maiores dúvidas do eleitor é escolher entre dois candidatos ou compara
         
 - **Recurso para Multiplicadores:** Botão "Gerar Card de Batalha". O sistema cria uma imagem.png pronta com a marca d'água do seu projeto (verificação).
 
-### **3. Match Legislativo**
+### **4. Match Legislativo**
 
 - **Como funciona:** O usuário não escolhe um deputado. O sistema apresenta 5 votações polêmicas recentes (sem dizer como quem votou). O usuário clica em "A Favor", "Contra" ou "Indiferente".
     
@@ -83,33 +86,14 @@ Muitas vezes o deputado é obrigado a seguir o partido. É crucial fiscalizar a 
 - **Top Gastos do Partido:** Ranking de quem são os deputados mais "caros" e mais "econômicos" dentro daquela sigla.
     
 - **Nuvem de Ideias:** Quais palavras mais aparecem nos projetos daquele partido? (Ex: Um partido pode falar muito de "Família", outro de "Trabalho", outro de "Liberdade").
-    
 
-### **6. Tela de Ferramentas: "O Verificador de Narrativa" (Fact-Checking Automatizado)**
-
-Uma ferramenta específica para jornalistas e cidadãos desconfiados.
-
-- **Input:** O usuário cola um texto curto ou escolhe um tema (ex: "Deputado X votou para aumentar o próprio salário?").
-    
-- **Output:** O sistema busca na base de dados de votações oficiais e retorna um "Selo de Realidade":
-    
-    - 🔴 **Falso:** Não há registro dessa votação.
-        
-    - 🟢 **Verdadeiro:** Votou SIM no dia XX/XX.
-        
-    - 🟡 **Fora de Contexto:** Votou SIM, mas o projeto era sobre outra coisa.
-        
-
-### **7. Área do Criador (Hub de Exportação)**
+### **6. Área do Criador (Hub de Exportação)**
 
 Focada exclusivamente na persona "Multiplicador de Informação".
 
 - **Gerador de Gráficos:** O jornalista configura o gráfico (cor, tipo de dado) e baixa em alta resolução (SVG/PNG) ou embeda o código HTML no site de notícias dele.
-    
-- **Newsletter de Alertas:** Opção de assinar alertas específicos: _"Me avise sempre que o Deputado X gastar mais de R$ 5.000 em aluguel de veículos."_
-    
 
-### **8. Tela de Acessibilidade Cognitiva: "Modo Resumo" (TL;DR)**
+### **7. Modo Resumo**
 
 Para projetos de lei (que são textos jurídicos longos e complexos).
 
@@ -117,21 +101,4 @@ Para projetos de lei (que são textos jurídicos longos e complexos).
     
     - _Texto Original:_ "Altera a Lei nº 9.394... para dispor sobre..."
         
-    - _Tradução do Sistema:_ "Este projeto quer obrigar o ensino de robótica em todas as escolas públicas."
-        
-- **Impacto:** Essencial para que o cidadão entenda o que está sendo votado sem precisar de um advogado ao lado.
-    
-
----
-
-### Resumo da Priorização (MVP)
-
-Se tiver que cortar escopo, foque nestas 4 para o lançamento:
-
-1. **Perfil do Deputado** (Seu item original).
-    
-2. **Comparador** (Item 2 acima - alto potencial viral).
-    
-3. **Match Legislativo** (Item 3 acima - alta retenção).
-    
-4. **Gerador de Cards** (Item 7 acima - essencial para distribuição nas redes)
+    - _Tradução do Sistema:_ "Este projeto quer obrigar o ensino de robótica em todas as escolas públicas."    
