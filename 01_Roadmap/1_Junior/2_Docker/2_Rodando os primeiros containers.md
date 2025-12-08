@@ -2,6 +2,7 @@
 #Concluded 
 
 ---
+### **1. Hello world** 
 
 Digite o seguinte comando para rodar o contêiner Hello World:
 ```bash
@@ -17,22 +18,23 @@ O objetivo desse contêiner é ser o mais leve possível e confirmar que o docke
 
 ![](../../../attachments/Pasted%20image%2020251207140344.png)
 
-- Cada vez que você roda `docker run`, o Docker cria um **novo contêiner**. É uma nova "caixa" com seu próprio nome e identificação, mesmo que esteja rodando a mesma aplicação.
+- Cada vez que você roda `docker run`, o Docker cria um **novo contêiner**. É uma nova "caixa" com seu próprio nome e identificação, mesmo rodando a mesma aplicação.
+
 ---
-### **1. Fluxo Build, Share and Run**
+### **2. Fluxo Build, Share and Run**
 
 Este exemplo simples demonstra o fluxo principal do Docker:
 
 1. **Build:** Alguém empacotou a aplicação.
-2. **Share:** Alguém publicou a imagem em um site público para que outros pudessem acessar.
+2. **Share:** Alguém publicou a imagem em um site público.
 3. **Run:** Você, com acesso, rodou a aplicação.
 
 A grande vantagem é que esse fluxo é o mesmo se a aplicação for um script simples ou um sistema bancário complexo em Java. 
 
 ---
-### **2. Containers interativos** 
+### **3. Containers interativos** 
 
-Até agora, os contêineres que rodamos executaram uma tarefa rápida e saíram. Mas você pode rodar um contêiner interativo e conectar um terminal a ele, como se estivesse acessando um servidor remoto.
+Até agora, os contêineres que rodamos executaram uma tarefa rápida e saíram. Mas você pode rodar um contêiner interativo e conectar um terminal a ele.
 
 Execute o seguinte comando para rodar um contêiner base e entrar nele:
 ```
@@ -42,16 +44,15 @@ docker run --interactive --tty diamol/base:2e
 - `--interactive` /`-i`: Mantém a conexão aberta para você interagir.
 - `--tty` /`-t`: Simula um terminal de texto.
 
-Você verá que o prompt do seu terminal mudou (algo como / #). Agora você está dentro do contêiner. Tente rodar comandos lá dentro:
-
-1. `hostname`: Vai mostrar o ID do contêiner (ex: `a41ad3...`), provando que ele tem um nome próprio8.
+Agora você está dentro do contêiner. Tente rodar comandos lá dentro:
+1. `hostname`: Vai mostrar o ID do contêiner.
 2. `date`: Mostra a data/hora.
 3. Para sair, digite `exit`. 
 
 ![](../../../attachments/Pasted%20image%2020251207141745.png)
 
 ---
-### **3. Rodando servidor web**
+### **4. Rodando servidor web**
 
 A maioria das aplicações reais não são scripts interativos, mas sim servidores que rodam continuamente em segundo plano.
 
@@ -66,7 +67,7 @@ Vamos rodar um servidor web simples:
 docker container run --detach --publish 8088:80 diamol/ch02-hello-diamol-web:2e
 ```
 
-- `--detach` /`-d`: Roda em segundo plano. O terminal não fica preso; você recebe o ID do contêiner de volta e pode continuar digitando outros comandos.
+- `--detach` /`-d`: Roda em segundo plano. O terminal não fica preso.
 - `--publish 8088:80` /`-p`: Isso é o mapeamento de portas.
 
 Agora, abra seu navegador e acesse: http://localhost:8088.
@@ -74,7 +75,7 @@ Agora, abra seu navegador e acesse: http://localhost:8088.
 ![](../../../attachments/Pasted%20image%2020251207142758.png)
 
 ---
-### **4. Gerenciando containers**
+### **5. Gerenciando containers**
 
 1. **Listar rodando:** `docker container ls` mostra apenas os ativos.
     

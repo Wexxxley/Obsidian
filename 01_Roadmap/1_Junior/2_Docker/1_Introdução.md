@@ -52,17 +52,15 @@ Cada contêiner tem seu ambiente virtual isolado. Mas todos compartilham o mesmo
 - `$()`: Chamado de substituição de comando.
 
 - `docker container rm -f $(docker container ls -aq)`: Ele apaga absolutamente todos os contêineres da sua máquina. Se você quiser apagar apenas os contêineres da aula, precisaria usar um filtro.
-	- `docker container rm -f $(docker container ls -aq -f ancestor=diamol/*)`: apague apenas os contêineres que nasceram de imagens que começam com diamol.
+	- `docker container rm -f $(docker container ls -aq -f ancestor=diamol/*)`: apague os contêineres que nasceram de imagens que começam com diamol.
 
 ---
 ### **2. Apagando imagens**
 
-- `docker image ls`: Lista todas as imagens que foram baixadas ou criadas no seu computador.
-    - `-f` (filter):  Argumento `reference='diamol/*'` diz ao Docker: Pegue apenas as imagens cujo nome começa com `diamol/`.
+- `docker image ls`: Lista todas as imagens que foram baixadas ou criadas.
+    - `-f` (filter):  Argumento `reference='diamol/*'` diz ao Docker: Pegue apenas as imagens cujo nome começa com diamol/.
     
 - `docker image rm`: É o comando para apagar uma imagem do disco.
-    - `-f` (force): Docker não deixa apagar uma imagem se existir algum contêiner usando ela. 
+    - `-f` (force): Docker não apaga uma imagem se existir algum contêiner usando-a.
     
 - `docker image rm -f $(docker image ls -f reference='diamol/*'-q)`: O comando interno lista os IDs das imagens que começam com "diamol". O comando externo recebe essa lista e força a remoção delas, preservando suas outras imagens.
-
----
