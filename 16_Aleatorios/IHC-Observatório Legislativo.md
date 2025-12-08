@@ -89,3 +89,23 @@ O contato será feito via Mensagem Direta com um "pitch acadêmico", explicando 
 4. **Direito de Retirada:** Os participantes serão informados de que podem abandonar o estudo a qualquer momento, sem necessidade de justificativa.
 
 
+
+5. **Perfil do Deputado:** Uma página dedicada para cada parlamentar com:
+    - Dados básicos (partido, estado, foto, redes sociais).
+    - **Termômetro de Atividade:** Um indicador visual que resume a frequência de presença, discursos e propostas.
+    - **Como Votou:** Um registro claro e simplificado das votações mais relevantes, com tags como "A Favor", "Contra", "Abstenção", e um link para o texto do projeto.
+    - **Gastos Parlamentares:** Gráficos interativos (pizza, barras) que detalham o uso da cota parlamentar, comparando com a média da casa.
+    - **Projetos Apresentados:** Lista de propostas de sua autoria, com status atual.
+        
+6. **Glossário Político Interativo:** Explicações curtas e acessíveis sobre termos técnicos (ex: "PEC", "Medida Provisória", "Obstrução") que aparecem ao passar o mouse sobre a palavra.
+        
+7. **Consultas facilitadas:**
+	1. **"Raio-X dos Gastos do Deputado"**: Um gráfico de pizza que detalha as categorias de gastos de um parlamentar específico (passagens aéreas, divulgação, etc.).
+	    - **Por que é interessante:** Responde à pergunta: "Ok, o deputado gastou R$ 100 mil este mês, mas com o quê?". Permite identificar gastos incomuns 
+	        
+	2. **"Evolução dos Gastos no Tempo"**: Um gráfico que mostra a variação mensal dos gastos de um deputado, de um partido ou da Câmara como um todo ao longo do ano.
+	    - **Por que é interessante:** Permite identificar tendências e picos de gastos. Por exemplo: "Os gastos com divulgação aumentam perto de anos eleitorais?".
+	        
+	3. **"Principais Focos de Atuação"** Uma nuvem de palavras gerada a partir dos títulos ou ementas dos projetos de lei propostos por um deputado ou partido.
+	    - **Por que é interessante:** Oferece uma visão visual e instantânea sobre os temas que mais interessam a um parlamentar (ex: "segurança", "educação", "agronegócio").
+        
