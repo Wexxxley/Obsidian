@@ -13,18 +13,12 @@ No desenvolvimento de software tradicional, existe um processo rigoroso. O códi
 - As versões das ferramentas no servidor de build precisam ser idênticas às do seu computador, senão o build falha.
     ![](../../../attachments/Pasted%20image%2020251208081313.png)
 
-**A Solução Docker:** Você pode empacotar o próprio conjunto de ferramentas de build em uma imagem Docker.
-
+Com docker você pode empacotar o próprio conjunto de ferramentas de build em uma imagem Docker.
 - Você escreve um Dockerfile que usa uma imagem com as ferramentas de compilação.
-    
 - O Docker compila seu código dentro desse contêiner.
-    
-- O resultado final é o seu aplicativo empacotado.
-    
+- O resultado final é o seu aplicativo empacotado.    
 
 Isso elimina a necessidade de instalar ferramentas no seu PC ou no servidor. Só o Docker é necessário.
-
-#### Entendendo Dockerfiles de Múltiplos Estágios (Multi-stage)
 
 Para fazer isso de forma eficiente, usamos **múltiplos estágios**.
 
