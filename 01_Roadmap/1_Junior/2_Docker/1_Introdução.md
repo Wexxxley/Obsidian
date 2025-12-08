@@ -2,14 +2,17 @@
 #Concluded 
 
 ---
-O Docker é uma plataforma para executar aplicações em unidades leves chamadas **containers**. Você junta a aplicação com todas as suas dependências, permitindo que ela rode da mesma maneira em qualquer lugar, no seu pc, no data center ou cloud.
 
-1. **Contêineres são leves e descartáveis:** Você pode rodar dezenas no seu laptop e centenas em um servidor. Eles não exigem muita memória e não deixam rastros quando removidos.
+![](../../../attachments/Pasted%20image%2020251208062224.png)
+
+O Docker é uma plataforma para executar aplicações em unidades leves chamadas **containers**. Você junta a aplicação com todas as suas dependências, permitindo que ela rode da mesma maneira em qualquer lugar: no seu pc, no data center ou cloud.
+
+1. **Contêineres são leves e descartáveis:** Você pode rodar dezenas no seu laptop. Eles não exigem muita memória e não deixam rastros quando removidos.
     
 2. **Plataforma Específica:** Um contêiner construído para uma plataforma não rodará em outra nativamente. Em produção, você precisa de servidores correspondentes.
     
-3. **Docker Desktop:** O Docker Desktop suporta múltiplas plataformas. Ele tem emulação embutida, então num Mac você pode rodar contêineres Intel e Arm juntos. No Windows, ele usa o WSL para rodar contêineres Linux e Windows juntos.
-    
+3. **Docker Desktop:** O Docker Desktop suporta múltiplas plataformas. Ele tem emulação embutida.
+
 4. **Rede Virtual:** O Docker pode rodar múltiplos contêineres e juntá-los numa rede virtual, permitindo rodar aplicações distribuídas complexas no seu laptop. Porém, o Docker sozinho não conecta múltiplas máquinas físicas (para isso, você precisa de Kubernetes ou serviços de nuvem).    
 
 **Código-fonte do livro** 
