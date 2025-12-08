@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Roadmap/1_Junior/2_Docker/8_Empacotando aplicações a partir do código-fonte em imagens Docker.md",
+                "file": "16_Aleatorios/IHC-Observatório Legislativo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_Empacotando aplicações a partir do código-fonte em imagens Docker"
+              "title": "IHC-Observatório Legislativo"
             }
           }
         ]
@@ -183,13 +183,13 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "01_Roadmap/1_Junior/2_Docker/7_Respondendo perguntas importantes.md",
+    "01_Roadmap/1_Junior/2_Docker/8_Empacotando aplicações a partir do código-fonte em imagens Docker.md",
     "08_Git and github/07_Branches.md",
     "08_Git and github/10_Fluxo geral.md",
     "08_Git and github/06_Git push e pull.md",
     "08_Git and github/05_Autenticação.md",
-    "01_Roadmap/1_Junior/2_Docker/8_Empacotando aplicações a partir do código-fonte em imagens Docker.md",
     "attachments/Pasted image 20251208081313.png",
-    "01_Roadmap/1_Junior/2_Docker/7_Respondendo perguntas importantes.md",
     "01_Roadmap/1_Junior/2_Docker/6_Camadas de imagens Docker.md",
     "attachments/Pasted image 20251208065556.png",
     "01_Roadmap/1_Junior/2_Docker/5_Dockerfile.md",
