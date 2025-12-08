@@ -44,7 +44,6 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
 	        
 	3. **"Principais Focos de Atuação"** Uma nuvem de palavras gerada a partir dos títulos ou ementas dos projetos de lei propostos por um deputado ou partido.
 	    - **Por que é interessante:** Oferece uma visão visual e instantânea sobre os temas que mais interessam a um parlamentar (ex: "segurança", "educação", "agronegócio").
-        
 
 ---
 
@@ -87,11 +86,8 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
 - **Alinhamento com o Governo:** Taxa percentual de votos favoráveis às pautas do Executivo (define se é Base, Oposição ou Independente).
     
 - **Ranking Interno (Gamificação da Bancada):**
-    
     - Deputado com maior uso da cota.
-        
     - Deputado com menor uso da cota.
-        
     - Deputado que mais vota contra a orientação do partido.
         
 - **Foco Ideológico:** Nuvem de palavras agregada de todos os membros, revelando as prioridades reais da sigla (ex: Costumes, Economia, Agronegócio).
@@ -132,3 +128,17 @@ Estas funcionalidades aparecem em várias telas para suporte cognitivo:
 - **Modo Resumo (IA):** Botão presente em qualquer menção a Projetos de Lei. Ao clicar, utiliza Processamento de Linguagem Natural para traduzir o "juridiquês" da ementa em uma frase simples de 2 linhas.
     
 - **Glossário Político Interativo:** Tooltips (balões de texto) que aparecem automaticamente ao passar o mouse sobre termos técnicos (ex: "Obstrução", "PEC"), explicando-os sem tirar o usuário da página.
+
+### **7. Tela de Detalhes da Proposição**
+
+**Objetivo:** Traduzir o "juridiquês" de projetos complexos e permitir que o cidadão rastreie o andamento das leis com a mesma facilidade que rastreia uma encomenda de e-commerce.
+
+- **Cabeçalho do Projeto:** Título oficial em destaque (ex: PL 2630/2020), Autor principal (com link para o perfil) e Data de apresentação.     
+    
+- **"O Que Muda na Minha Vida?" (IA):** Este é o coração da tela. Um box em destaque que utiliza o **Modo Resumo** para explicar o impacto prático da lei, substituindo a ementa técnica.     - _Exemplo:_ Em vez de "Altera a lei 12.3...", exibe: _"Este projeto proíbe o uso de celulares em salas de aula de escolas públicas e privadas."_     
+    
+- **Timeline Visual (Rastreador de Tramitação):** Uma barra de progresso horizontal (estilo status de pedido de app de entrega) mostrando visualmente onde o projeto está travado ou andando:     - _Etapas:_ Apresentação ➔ Comissões ➔ Plenário ➔ Senado ➔ Sanção Presidencial.     
+    
+- **Enquete Cidadã:** Um widget de engajamento perguntando: _"Você apoiaria esse projeto?"_ (Sim / Não). Exibe a porcentagem da opinião dos usuários da plataforma em tempo real.     
+    
+- **Documentos Originais:** Para o perfil "Multiplicador/Jornalista", um link discreto para baixar o PDF original do projeto e ver o histórico técnico completo.
