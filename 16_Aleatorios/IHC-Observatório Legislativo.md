@@ -48,6 +48,7 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
 
 ---
 
+![](../attachments/Pasted%20image%2020251208145502.png)
 ### **1. Tela Inicial
 
 A home deve ser um painel do que está acontecendo agora.
@@ -102,3 +103,99 @@ Para projetos de lei (que são textos jurídicos longos e complexos).
     - _Texto Original:_ "Altera a Lei nº 9.394... para dispor sobre..."
         
     - _Tradução do Sistema:_ "Este projeto quer obrigar o ensino de robótica em todas as escolas públicas."    
+
+
+
+---
+
+## **Definição de Telas e Funcionalidades
+
+### **1. Tela Inicial**
+
+**Objetivo:** Capturar o interesse imediato do usuário pelo "agora" e oferecer portas de entrada rápidas para a fiscalização.
+
+- **Cabeçalho Global:** Logo, Menu de Navegação (Deputados, Partidos, Comparador, Match, Sobre) e Barra de Busca Geral (pesquisa por nome de deputado, partido ou tema).
+    
+- **Card "Sessão de Hoje":** Widget em destaque informando se há sessão no Plenário, qual a pauta principal do dia e link incorporado para a transmissão ao vivo da TV Câmara.
+    
+- **Destaques de Notícias:** Feed curado de atualizações relevantes sobre votações e tramitações.
+
+### **2. Tela do Deputado**
+
+**Objetivo:** Centralizar a fiscalização individual, traduzindo dados técnicos em métricas de desempenho e custo compreensíveis.
+
+- **Cabeçalho do Perfil:** Foto oficial, Nome Parlamentar, Partido, Estado (UF), links para redes sociais e botões de ação ("Comparar", "Copiar Link").
+    
+- **Painel de Desempenho (KPIs):**
+    
+    - **Presença:** Gráfico de rosca.        
+    - **Produção:** Contagem de projetos apresentados vs. aprovados.
+        
+- **Seção Financeira:**
+    - **Evolução de Gastos:** Gráfico de linha (Deputado vs. Média da Câmara).
+    - **Top 3 Gastos:** Ícones destacando as categorias mais numerosas (ex: Passagens, Divulgação).
+        
+- **Seção de Votações:** Lista filtrada das votações de alto impacto (sim/não/abstenção) com link para o "Modo Resumo".
+### **3. Tela de Partidos
+
+**Objetivo:** Fiscalizar a instituição partidária, revelando coesão, ideologia real e comportamento de grupo.
+
+- **Cabeçalho da Sigla:** Logo, Nome, Número Eleitoral e tamanho da bancada atual.
+    
+- **Alinhamento com o Governo:** Taxa percentual de votos favoráveis às pautas do Executivo (define se é Base, Oposição ou Independente).
+    
+- **Ranking Interno (Gamificação da Bancada):**
+    
+    - Deputado com maior uso da cota.
+        
+    - Deputado com menor uso da cota.
+        
+    - Deputado que mais vota contra a orientação do partido.
+        
+- **Foco Ideológico:** Nuvem de palavras agregada de todos os membros, revelando as prioridades reais da sigla (ex: Costumes, Economia, Agronegócio).
+    
+### **4. Tela de Comparação
+
+**Objetivo:** Permitir a análise lado a lado para decisão de voto ou fiscalização comparativa.
+
+- **Seletor de Entidades:** Campos de busca para selecionar "Deputado A" vs. "Deputado B" (ou Deputado vs. Média do Estado).
+    
+- **Quadro Comparativo:** Tabela visual confrontando:
+    
+    - Presença em Plenário.
+        
+    - Gasto total acumulado no ano.
+        
+    - Alinhamento com o Governo (%).
+        
+    - Posicionamento em votações chaves.
+        
+- **Gerador de Card de Batalha:** Botão para exportar a comparação como imagem (PNG) otimizada para redes sociais (Stories/Feed).
+
+### **5. Tela "Match Legislativo"
+
+**Objetivo:** Quebrar viés de confirmação e conectar o cidadão ao representante baseado em ideias, não em nomes.
+
+- **Fluxo do Quiz:** Apresentação sequencial de 5 votações polêmicas recentes (sem revelar autores ou partidos).
+    
+- **Interação:** O usuário vota "A Favor", "Contra" ou "Indiferente".
+    
+- **Resultado:** O sistema cruza as respostas do usuário com a base de dados e exibe:
+    - "Você pensa 85% igual a esses deputados".
+
+### **6. Área do Criador**
+
+**Objetivo:** Fornecer ferramentas para jornalistas e influenciadores disseminarem dados verificados.
+
+- **Construtor de Gráficos:** Interface para selecionar dados (Gastos, Votações), escolher o tipo de visualização (Pizza, Barras) e personalizar cores.
+    
+- **Exportação:** Opções de download em alta resolução (SVG, PNG) ou código de incorporação (Embed) para sites de notícias.
+    
+
+### **7. Funcionalidades Transversais (Sistema)**
+
+Estas funcionalidades aparecem em várias telas para suporte cognitivo:
+
+- **Modo Resumo (IA):** Botão presente em qualquer menção a Projetos de Lei. Ao clicar, utiliza Processamento de Linguagem Natural para traduzir o "juridiquês" da ementa em uma frase simples de 2 linhas.
+    
+- **Glossário Político Interativo:** Tooltips (balões de texto) que aparecem automaticamente ao passar o mouse sobre termos técnicos (ex: "Obstrução", "PEC", "Quórum"), explicando-os sem tirar o usuário da página.
