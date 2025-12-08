@@ -31,7 +31,7 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
     - **Termômetro de Atividade:** Um indicador visual que resume a frequência de presença, discursos e propostas.
     - **Como Votou:** Um registro claro e simplificado das votações mais relevantes, com tags como "A Favor", "Contra", "Abstenção", e um link para o texto do projeto.
     - **Gastos Parlamentares:** Gráficos interativos (pizza, barras) que detalham o uso da cota parlamentar, comparando com a média da casa.
-    - **Projetos Apresentados:** Lista de propostas de sua autoria, com status atual.
+
         
 2. **Glossário Político Interativo:** Explicações curtas e acessíveis sobre termos técnicos (ex: "PEC", "Medida Provisória", "Obstrução") que aparecem ao passar o mouse sobre a palavra.
         
@@ -72,7 +72,7 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
     - **Produção:** Contagem de projetos apresentados vs. aprovados.
         
 - **Seção Financeira:**
-	- Gráfico mostranod os gastos parlamentares por tipo (viagem, divulgação, abastecimento e etc.) e a comparação com a media de gastos dos parlmantares
+	- Gráfico mostranod os gastos parlamentares por tipo (viagem, divulgação, abastecimento e etc.) e a comparação com a media de gastos dos parlmantares. Use um gráfico de barras lado a lado horizontalmente, comparando cada ctegoria e o total.
         
 - **Seção de Votações:** Lista filtrada das votações de alto impacto (sim/não/abstenção) com link para o "Modo Resumo".
 ### **3. Tela de Partidos
