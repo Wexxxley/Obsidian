@@ -23,22 +23,19 @@ CMD ["node", "/web-ping/app.js"]
 	- Vai fazer um script em Python? `FROM python:3.9`
 	- Vai fazer um programa em Java? `FROM openjdk:17`
 	
-2. **`ENV`**: Define valores para variáveis de ambiente (Environment Variables). Aqui 
+2. **`ENV`**: Define valores para variáveis de ambiente.
     
 3. **`WORKDIR`**: Cria um diretório dentro do sistema de arquivos da imagem e define ele como o diretório atual de trabalho.
     
-4. **`COPY`**: Copia arquivos ou diretórios do seu computador local (o host) para dentro da imagem. Aqui, estamos copiando o código da aplicação (`app.js`) para a pasta de trabalho.
+4. **`COPY`**: Copia arquivos ou diretórios do seu computador local para dentro da imagem. Aqui, estamos copiando o código da aplicação (`app.js`) para a pasta de trabalho.
     
 5. **`CMD`**: Especifica o comando que será executado quando o Docker iniciar um contêiner a partir desta imagem. Aqui, ele manda o Node executar o arquivo javascript.
 
-Essas 5 instruções são praticamente tudo o que você precisa para empacotar suas próprias aplicações.
-
 Para construir essa imagem, você precisa dos arquivos no seu computador Navegue até a pasta do exercício. Você verá dois arquivos: `Dockerfile` e `app.js`. O `app.js` é o código da aplicação Node.js
-
 ![](../../../attachments/Pasted%20image%2020251207154916.png)
 
 ---
-### **2. Construindo a imagem**
+### **2. Construindo imagem a partir do Dockerfile**
 
 O Docker precisa saber a localização dos arquivos que ele vai empacotar. Fique na pasta que deseja empacotar.
 
@@ -47,7 +44,7 @@ Execute o seguinte comando para transformar seu Dockerfile em uma imagem:
 
 - `--tag`/`-t`: Define o nome da imagem como web-ping.
     
-- `.`: O argumento final é crucial. Ele diz ao Docker que o **contexto de construção** (build context) é o **diretório atual**. O Docker vai pegar todos os arquivos desta pasta e enviar para o motor construir a imagem.
+- `.`: O argumento final é crucial. Ele diz ao Docker que o build context é o diretório atual. O Docker vai pegar todos os arquivos desta pasta e enviar para o motor construir a imagem.
 
 Você verá o Docker executando cada instrução do Dockerfile sequencialmente 
 
@@ -56,5 +53,3 @@ Você verá o Docker executando cada instrução do Dockerfile sequencialmente
 
 Agora que a imagem foi construída, ela está armazenada no seu computador. Agora você pode executala: 
 ![](../../../attachments/Pasted%20image%2020251207183011.png)
-
----

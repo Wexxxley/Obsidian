@@ -1,8 +1,7 @@
 
-
+#Concluded 
 
 ---
-
 Uma imagem Docker não é um bloco sólido. Ela é uma coleção lógica de **camadas**.
 - A imagem contém os arquivos que você empacotou.
 - Ela também contém metadados e um histórico de como foi construída.
