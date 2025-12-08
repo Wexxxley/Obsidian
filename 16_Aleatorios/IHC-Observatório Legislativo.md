@@ -47,65 +47,110 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
         
 
 ---
-### **5. Plano de Coleta de Dados**
-#### Estratégia 1: Entrevistas semiestruturadas com Cidadãos Engajados
 
-1. **Equipe:** A equipe possui 4 integrantes e cada um será responsável pela condução.
+### **1. Tela Inicial
 
-2. **Recrutamento:** Cada membro da equipe identificará de 2 a 3 pessoas que se enquadrem no perfil de "Cidadão Engajado". A meta é realizar entre 8 e 12 entrevistas no total.
+A home deve ser um painel do que está acontecendo agora.
 
-3. **Roteiro:** Um roteiro semiestruturado será criado e compartilhado entre todos os entrevistadores. Este roteiro conterá os tópicos principais (ex: "Hábitos de consumo de informação política", "Experiências (positivas e negativas) com dados oficiais", "Como lida com _fake news_").
+- **Funcionalidade "Sessão de Hoje":** Um card simples dizendo se há votação no plenário hoje, qual a pauta principal e um link para assistir ao vivo (incorporado da TV Câmara).
+- **Noticias recentes.**
 
-4. **Condução:** Os entrevistadores devem evitar influenciar as respostas dos entrevistados, seja na formulação das perguntas ou com expressões. 
+### **2. Tela de Comparação
+
+Uma das maiores dúvidas do eleitor é escolher entre dois candidatos ou comparar seu deputado com o "rival".
+
+- **Funcionalidade:** Permite selecionar dois deputados (ou um Deputado x Média do Estado) e coloca seus dados lado a lado.
+    
+- **O que compara:**
+    - Presença em plenário.
+    - Gasto total de cota.
+    - Alinhamento com o Governo (Votações iguais à orientação do governo %).
+        
+- **Recurso para Multiplicadores:** Botão "Gerar Card de Batalha". O sistema cria uma imagem.png pronta com a marca d'água do seu projeto (verificação).
+    
+
+### **3. Tela Interativa: O "Match Legislativo"**
+
+Gamificação para ajudar o cidadão a descobrir quem o representa de verdade, além das narrativas.
+
+- **Como funciona:** O usuário não escolhe um deputado. O sistema apresenta 5 votações polêmicas recentes (sem dizer como quem votou). O usuário clica em "A Favor", "Contra" ou "Indiferente".
+    
+- **Resultado:** O sistema cruza os dados e mostra: _"Você votou 90% igual ao Deputado Fulano"_ ou _"Você pensa o oposto do deputado que você elegeu"_.
+    
+- **Por que é importante:** Quebra o viés de confirmação. O usuário foca no **fato (voto)** e não na **pessoa (político)**.
+    
+
+### **4. Funcionalidade de Gastos: "O Preço do Mandato" (Conversor)**
+
+Os números oficiais (R$ 45.000,00) são abstratos. Esta funcionalidade traduz valores monetários para a realidade do brasileiro.
+
+- **Visualização:** Ao ver que um deputado gastou R$ 10.000 em "Divulgação da Atividade Parlamentar", o sistema mostra um ícone de equivalência:
+    
+    - _"Isso equivale a 7 Salários Mínimos."_
+        
+    - _"Isso compraria 20 Cestas Básicas."_
+        
+- **Detalhe da Nota Fiscal:** Se possível via API, um botão "Ver Nota Fiscal" que leva direto ao documento digitalizado, permitindo auditoria cidadã (crowdsourcing).
+    
+
+### **5. Tela de Bancada: "Raio-X dos Partidos"**
+
+Muitas vezes o deputado é obrigado a seguir o partido. É crucial fiscalizar a agremiação.
+
+- **Coesão Partidária:** Um gráfico mostrando se o partido vota sempre unido ou se é "bagunçado" (cada um vota como quer).
+    
+- **Top Gastos do Partido:** Ranking de quem são os deputados mais "caros" e mais "econômicos" dentro daquela sigla.
+    
+- **Nuvem de Ideias:** Quais palavras mais aparecem nos projetos daquele partido? (Ex: Um partido pode falar muito de "Família", outro de "Trabalho", outro de "Liberdade").
+    
+
+### **6. Tela de Ferramentas: "O Verificador de Narrativa" (Fact-Checking Automatizado)**
+
+Uma ferramenta específica para jornalistas e cidadãos desconfiados.
+
+- **Input:** O usuário cola um texto curto ou escolhe um tema (ex: "Deputado X votou para aumentar o próprio salário?").
+    
+- **Output:** O sistema busca na base de dados de votações oficiais e retorna um "Selo de Realidade":
+    
+    - 🔴 **Falso:** Não há registro dessa votação.
+        
+    - 🟢 **Verdadeiro:** Votou SIM no dia XX/XX.
+        
+    - 🟡 **Fora de Contexto:** Votou SIM, mas o projeto era sobre outra coisa.
+        
+
+### **7. Área do Criador (Hub de Exportação)**
+
+Focada exclusivamente na persona "Multiplicador de Informação".
+
+- **Gerador de Gráficos:** O jornalista configura o gráfico (cor, tipo de dado) e baixa em alta resolução (SVG/PNG) ou embeda o código HTML no site de notícias dele.
+    
+- **Newsletter de Alertas:** Opção de assinar alertas específicos: _"Me avise sempre que o Deputado X gastar mais de R$ 5.000 em aluguel de veículos."_
+    
+
+### **8. Tela de Acessibilidade Cognitiva: "Modo Resumo" (TL;DR)**
+
+Para projetos de lei (que são textos jurídicos longos e complexos).
+
+- **Funcionalidade:** Uso de IA (Processamento de Linguagem Natural) para resumir a Ementa do Projeto.
+    
+    - _Texto Original:_ "Altera a Lei nº 9.394... para dispor sobre..."
+        
+    - _Tradução do Sistema:_ "Este projeto quer obrigar o ensino de robótica em todas as escolas públicas."
+        
+- **Impacto:** Essencial para que o cidadão entenda o que está sendo votado sem precisar de um advogado ao lado.
+    
 
 ---
-#### Estratégia 2: Entrevista com páginas de redes sociais
 
-Esta estratégia foca no público-alvo "multiplicador", que é profissional, de difícil acesso e com pouco tempo disponível. 
+### Resumo da Priorização (MVP)
 
-- **Público-Alvo:** Jornalistas e Criadores de Conteúdo (Multiplicadores de Informação).
-- **Amostragem:** Proativa, via contato direto em redes sociais (ex: Instagram, X, LinkedIn).
+Se tiver que cortar escopo, foque nestas 4 para o lançamento:
 
-O contato será feito via Mensagem Direta com um "pitch acadêmico", explicando que se trata de um estudo de IHC da universidade e solicitando 10 minutos do tempo do especialista.
-
-**Níve 1: Entrevista semiestruturada Curta**
-- Se o profissional aceitar uma chamada. Usaremos 15 minutos para uma entrevista focada, com 3-5 perguntas abertas sobre suas maiores frustrações, "gargalos" de tempo e processos manuais no seu fluxo de trabalho.
-
-**Nível 2: Questionário de Especialista**
-- **Gatilho:** Se o profissional responder que quer ajudar, mas não tem tempo para uma chamada. Enviaremos um link para um formulário curto (3-5 minutos). As perguntas serão majoritariamente **fechadas** para permitir coleta rápida de feedback.
-
-**Nível 3: Entrevista semiestruturada Assíncrona**    
-- **Gatilho:** Se o participante responder "mande as perguntas por aqui mesmo". Iremos envia as 2 perguntas mais cruciais do Nível 2 por texto sugerindo que a resposta seja por aúdio. 
-
----
-### Considerações Éticas
-
-1. **Consentimento:** Todos os participantes serão informados sobre os objetivos do estudo e deverão concordar com a participação. 
+1. **Perfil do Deputado** (Seu item original).
     
-2. **Permissão para Gravar:** Solicitaremos permissão explícita para gravar qualquer áudio ou vídeo (tela) antes do início da sessão.
+2. **Comparador** (Item 2 acima - alto potencial viral).
     
-3. **Anonimato e Confidencialidade:** A identidade dos participantes será mantida anônima em qualquer divulgação dos resultados. 
+3. **Match Legislativo** (Item 3 acima - alta retenção).
     
-4. **Direito de Retirada:** Os participantes serão informados de que podem abandonar o estudo a qualquer momento, sem necessidade de justificativa.
-
-
-
-5. **Perfil do Deputado:** Uma página dedicada para cada parlamentar com:
-    - Dados básicos (partido, estado, foto, redes sociais).
-    - **Termômetro de Atividade:** Um indicador visual que resume a frequência de presença, discursos e propostas.
-    - **Como Votou:** Um registro claro e simplificado das votações mais relevantes, com tags como "A Favor", "Contra", "Abstenção", e um link para o texto do projeto.
-    - **Gastos Parlamentares:** Gráficos interativos (pizza, barras) que detalham o uso da cota parlamentar, comparando com a média da casa.
-    - **Projetos Apresentados:** Lista de propostas de sua autoria, com status atual.
-        
-6. **Glossário Político Interativo:** Explicações curtas e acessíveis sobre termos técnicos (ex: "PEC", "Medida Provisória", "Obstrução") que aparecem ao passar o mouse sobre a palavra.
-        
-7. **Consultas facilitadas:**
-	1. **"Raio-X dos Gastos do Deputado"**: Um gráfico de pizza que detalha as categorias de gastos de um parlamentar específico (passagens aéreas, divulgação, etc.).
-	    - **Por que é interessante:** Responde à pergunta: "Ok, o deputado gastou R$ 100 mil este mês, mas com o quê?". Permite identificar gastos incomuns 
-	        
-	2. **"Evolução dos Gastos no Tempo"**: Um gráfico que mostra a variação mensal dos gastos de um deputado, de um partido ou da Câmara como um todo ao longo do ano.
-	    - **Por que é interessante:** Permite identificar tendências e picos de gastos. Por exemplo: "Os gastos com divulgação aumentam perto de anos eleitorais?".
-	        
-	3. **"Principais Focos de Atuação"** Uma nuvem de palavras gerada a partir dos títulos ou ementas dos projetos de lei propostos por um deputado ou partido.
-	    - **Por que é interessante:** Oferece uma visão visual e instantânea sobre os temas que mais interessam a um parlamentar (ex: "segurança", "educação", "agronegócio").
-        
+4. **Gerador de Cards** (Item 7 acima - essencial para distribuição nas redes)
