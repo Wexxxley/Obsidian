@@ -37,6 +37,14 @@
 	- 🔒 **Nível:** Todos os autenticados
 	- Retorna os dados do usuário logado (baseado no token JWT).
 
+**O comportamento dos tokens:**
+1. O usuário faz login na Segunda. Ganha um Token (30m) e um Refresh Token (7 dias).
+2. No outro dia, com um Access Token vencido o user tenta acessar algo. O sistema chama `/refresh_token`.
+3. A API devolve um Access Token novo, mas devolve o mesmo Refresh Token antigo.
+4. Na próxima Segunda esse Refresh Token vence.
+5. O usuário tenta renovar, a API diz "Token expirado". O usuário é deslogado forçadamente e precisa digitar e-mail e senha novamente.
+
+
 **Fluxo de Ativação por E-mail.**
 
 1. **O Cadastro:** O Gestor preenche nome e e-mail. Envia `password: null`
