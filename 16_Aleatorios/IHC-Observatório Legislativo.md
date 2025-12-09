@@ -92,17 +92,17 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
 - **Seletor de Entidades:** Campos de busca para selecionar "Deputado A" vs. "Deputado B" (ou Deputado vs. Média do Estado).
     
 - **Quadro Comparativo:** Tabela visual confrontando:
-    
-    - Presença em Plenário.
-        
+    - Presença em Plenário
     - Gasto total acumulado no ano.
-        
     - Alinhamento com o Governo (%).
-        
     - Posicionamento em votações chaves.
+    
+- Gastos por gategoria, comparação
+
+- Posicionamento em algumas votaçoes importantes
         
 - **Gerador de Card de Batalha:** Botão para exportar a comparação como imagem (PNG) otimizada para redes sociais (Stories/Feed).
-
+![](../attachments/Pasted%20image%2020251209080515.png)
 ### **5. Tela "Match Legislativo"
 
 **Objetivo:** Quebrar viés de confirmação e conectar o cidadão ao representante baseado em ideias, não em nomes.
@@ -112,7 +112,8 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
 - **Interação:** O usuário vota "A Favor", "Contra" ou "Indiferente".
     
 - **Resultado:** O sistema cruza as respostas do usuário com a base de dados e exibe:
-    - "Você pensa 85% igual a esses deputados".
+
+![](../attachments/Pasted%20image%2020251209080835.png)
 
 ### **6. Funcionalidades Transversais 
 
@@ -121,8 +122,6 @@ Estas funcionalidades aparecem em várias telas para suporte cognitivo:
 - **Modo Resumo (IA):** Botão presente em qualquer menção a Projetos de Lei. Ao clicar, utiliza Processamento de Linguagem Natural para traduzir o "juridiquês" da ementa em uma frase simples de 2 linhas.
 
 ### **7. Tela de Detalhes da Proposição**
-
-**Objetivo:** Traduzir o "juridiquês" de projetos complexos e permitir que o cidadão rastreie o andamento das leis com a mesma facilidade que rastreia uma encomenda de e-commerce.
 
 - **Cabeçalho do Projeto:** Título oficial em destaque (ex: PL 2630/2020), Autor principal (com link para o perfil) e Data de apresentação.     
     
