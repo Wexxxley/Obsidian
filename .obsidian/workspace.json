@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Aleatorios/Controllers.md",
+                "file": "16_Aleatorios/IHC-Observatório Legislativo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Controllers"
+              "title": "IHC-Observatório Legislativo"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -183,8 +183,12 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
+    "attachments/Pasted image 20251209075113.png",
+    "16_Aleatorios/Pedido de crenciais GIT.md",
+    "16_Aleatorios/SDT-Sistema VoIP.md",
     "16_Aleatorios/Controllers.md",
+    "16_Aleatorios/Teste.md",
+    "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "16_Aleatorios/IHC-Observatório Legislativo.md",
     "attachments/Pasted image 20251208145502.png",
     "15_IHC (Cadeira)/3_Design participativo.md",
@@ -215,11 +219,7 @@
     "14_IA (Cadeira)/3_Agentes Baseados em Objetivos.md",
     "14_IA (Cadeira)/5_Heurística.md",
     "14_IA (Cadeira)/1_Agentes inteligentes.md",
-    "16_Aleatorios/Teste.md",
     "16_Aleatorios/Apresentação Entrevista.md",
-    "16_Aleatorios/Amethyst.md",
-    "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
-    "11_Engenharia de Software (Cadeira)/10_DevOps/3_Deployment Contínuo (CD).md",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
     "07_FrontEnd/3_JavaScript/1_Introdução",

@@ -53,14 +53,12 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
 
 ### **1. Tela Inicial**
 
-**Objetivo:** Capturar o interesse imediato do usuário pelo "agora" e oferecer portas de entrada rápidas para a fiscalização.
-
 - **Cabeçalho Global:** Logo, Menu de Navegação (Deputados, Partidos, Comparador, Match, Sobre) e Barra de Busca Geral (pesquisa por nome de deputado, partido ou tema).
     
 - **Card "Sessão de Hoje":** Widget em destaque informando se há sessão no Plenário, qual a pauta principal do dia e link incorporado para a transmissão ao vivo da TV Câmara.
     
 - **Destaques de Notícias:** Feed curado de atualizações relevantes sobre votações e tramitações.
-
+![](../attachments/Pasted%20image%2020251209075113.png)
 ### **2. Tela do Deputado**
 
 **Objetivo:** Centralizar a fiscalização individual, traduzindo dados técnicos em métricas de desempenho e custo compreensíveis.
