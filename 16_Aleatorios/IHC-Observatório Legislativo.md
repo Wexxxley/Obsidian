@@ -61,8 +61,6 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
 ![](../attachments/Pasted%20image%2020251209075113.png)
 ### **2. Tela do Deputado**
 
-**Objetivo:** Centralizar a fiscalização individual, traduzindo dados técnicos em métricas de desempenho e custo compreensíveis.
-
 - **Cabeçalho do Perfil:** Foto oficial, Nome Parlamentar, Partido, Estado (UF), links para redes sociais e botões de ação ("Comparar", "Copiar Link").
     
 - **Painel de Desempenho (KPIs):**
@@ -70,24 +68,23 @@ Criar uma interface web centrada no usuário, guiada pelos seguintes princípios
     - **Produção:** Contagem de projetos apresentados vs. aprovados.
         
 - **Seção Financeira:**
-	- Gráfico mostranod os gastos parlamentares por tipo (viagem, divulgação, abastecimento e etc.) e a comparação com a media de gastos dos parlmantares. Use um gráfico de barras lado a lado horizontalmente, comparando cada ctegoria e o total.
+	- Gráfico mostranod os gastos parlamentares por tipo (viagem, divulgação, abastecimento e etc.) e a comparação com a media de gastos dos parlmantares. Gráfico de barras lado a lado horizontalmente
         
 - **Seção de Votações:** Lista filtrada das votações de alto impacto (sim/não/abstenção) com link para o "Modo Resumo".
+
+![](../attachments/Pasted%20image%2020251209075618.png)
 ### **3. Tela de Partidos
 
-**Objetivo:** Fiscalizar a instituição partidária, revelando coesão, ideologia real e comportamento de grupo.
-
 - **Cabeçalho da Sigla:** Logo, Nome, Número Eleitoral e tamanho da bancada atual.
-    
-- **Alinhamento com o Governo:** Taxa percentual de votos favoráveis às pautas do Executivo (define se é Base, Oposição ou Independente).
     
 - **Ranking Interno (Gamificação da Bancada):**
     - Deputado com maior uso da cota.
     - Deputado com menor uso da cota.
     - Deputado que mais vota contra a orientação do partido.
-        
-- **Foco Ideológico:** Nuvem de palavras agregada de todos os membros, revelando as prioridades reais da sigla (ex: Costumes, Economia, Agronegócio).
-- Deputados ssociados.
+
+- Deputados asociados.
+
+![](../attachments/Pasted%20image%2020251209080053.png)
 ### **4. Tela de Comparação
 
 **Objetivo:** Permitir a análise lado a lado para decisão de voto ou fiscalização comparativa.
