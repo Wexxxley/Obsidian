@@ -18,65 +18,71 @@ Isso elimina a necessidade de instalar ferramentas no seu PC ou no servidor. Só
     
 2. **Estágio 2 (Final):** Usa uma imagem leve (só o runtime). Copia **apenas** o binário gerado no Estágio 1. O resto do lixo (código fonte, compiladores) é descartado.
 
+### O Exemplo Prático: FastAPI
+
+Vamos criar uma API simples. 
+
+main.py
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"Mensagem": "Múltiplos estágios funcionam!"}
+```
+
+**requirements.txt**
+```
+fastapi
+uvicorn
+```
+
+**Dockerfile**
+Aqui está o segredo. Vamos dividir o Dockerfile em dois blocos `FROM`.
+
 ```Dockerfile
-FROM diamol/base:2e AS build-stage
-RUN echo 'Building...' > /build.txt
+# ==========================================
+# ESTÁGIO 1: Builder
 
-FROM diamol/base:2e AS test-stage
-COPY --from=build-stage /build.txt /build.txt
-RUN echo 'Testing...' >> /build.txt
+FROM python:3.9 AS builder # Dando nome ao estágio
 
-FROM diamol/base:2e
-COPY --from=test-stage /build.txt /build.txt
-CMD ["cat", "/build.txt"]
+WORKDIR /app # Diretorio de trabalho
+
+RUN python -m venv /opt/venv # Cria um ambiente virtual
+
+ENV PATH="/opt/venv/bin:$PATH" # Ativa o venv para próximos comandos
+
+COPY requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# ==========================================
+# ESTÁGIO 2: A Imagem Final (Produção)
+
+FROM python:3.9-slim
+
+WORKDIR /app # Define o diretório de trabalho na imagem final
+
+# Copiamos APENAS a pasta do ambiente virtual de 'Builder'
+# Todo o resto (caches, compiladores, logs do pip) fica para trás.
+
+COPY --from=builder /opt/venv /opt/venv
+
+# Adicionamos o venv ao PATH desta nova imagem
+ENV PATH="/opt/venv/bin:$PATH"
+
+# Copiamos o código da aplicação
+COPY main.py .
+
+# Comando para rodar o servidor
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
 ```
 
-
-- **`AS nome-estagio`**: Dá um apelido para aquela etapa.
-- **`COPY --from=...`**: Essa é a mágica. Em vez de copiar do seu computador, ele copia um arquivo de um estágio anterior para o atual.
+1. **No Estágio `builder`:** Nós baixamos uma imagem Python completa. Criamos um ambiente virtual e instalamos o FastAPI e o Uvicorn dentro dele. Essa imagem ficou "suja" e pesada.
     
-- **`RUN`**: Executa um comando dentro do contêiner durante o build (aqui, apenas criando um arquivo de texto para simular uma compilação).
+2. **No Estágio Final:** O Docker iniciou uma nova imagem limpa.
     
-
-O resultado final é uma imagem única contendo apenas o que está no último estágio (`FROM`), mas que carrega o resultado dos estágios anteriores.
-
-#### Tente agora: Construindo com múltiplos estágios
-
-Vamos ver isso na prática com o exemplo simples acima.
-
-1. Navegue para a pasta do exercício: `cd ch04/exercises/multi-stage`
+3. **A Cópia (`COPY --from=builder`):** Nós pegamso apenas a pasta `/opt/venv` (onde as bibliotecas foram instaladas) do primeiro estágio e jogamos no segundo.
     
-2. Construa a imagem: `docker image build -t multi-stage .`
-    
-
-Observe a saída. Você verá o Docker executando cada estágio sequencialmente (`Step 1/x : FROM...`, `Step x/x : RUN...`).
-
----
-
-### 4.2 Passo a passo do App: Código-fonte Java
-
-Agora vamos para um exemplo do mundo real. Vamos construir uma aplicação **Java Spring Boot**.
-
-**Nota importante:** Você **não** precisa ter Java ou Maven instalados na sua máquina. O Docker vai baixar tudo o que precisa.
-
-O código está em `ch04/exercises/image-of-the-day`. Ele usa **Maven** (ferramenta de build) e **OpenJDK** (kit de desenvolvimento Java).
-
-A **Listagem 4.2** mostra o Dockerfile para esse app:
-
-Dockerfile
-
-```
-FROM diamol/maven:2e AS builder
-WORKDIR /usr/src/iotd
-COPY pom.xml .
-RUN mvn -B dependency:go-offline
-COPY . .
-RUN mvn package
-
-# app
-FROM diamol/openjdk:2e
-WORKDIR /app
-COPY --from=builder /usr/src/iotd/target/iotd-service-0.1.0.jar .
-EXPOSE 80
-ENTRYPOINT ["java", "-jar", "/app/iotd-service-0.1.0.jar"]
-```
+4. **O Resultado:** O Estágio 1 é descartado. Sua imagem final tem apenas o Linux básico, o Python e as pastas do seu projeto.
