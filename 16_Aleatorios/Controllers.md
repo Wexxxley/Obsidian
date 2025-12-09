@@ -42,9 +42,12 @@
 	- Deve permitir setar para vazio.
 	
 - **POST** `/auth/forgot_password`
+	- 🔒**Nível:** Dono da conta. 
 	- Envia e-mail com link de recuperação.
     
-- **POST** `/auth/reset_password`: Recebe o token do e-mail e a nova senha.
+- **POST** `/auth/reset_password`
+	- 🔒**Nível:** Dono da conta. 
+	- Recebe o token do e-mail e a nova senha.
 		
 - **PATCH** `/users/patch/{user_id}`
     - 🔒 **Nível:** Autor e coordenador e gestor
@@ -54,13 +57,92 @@
     - 🔒 **Nível:** Gestor
     - Realiza a desativação (soft delete) do usuário.
 
+
+**Fluxo de Ativação por E-mail.**
+
+1. **O Cadastro:** O Gestor preenche nome e e-mail. Envia `password: null`
+2. **O Backend:**
+    - Cria o usuário no banco com status `PENDING` ou `AGUARDANDO_ATIVACAO`.
+    - Gera um token único (ex: UUID).
+    - Envia um e-mail para o usuário: _"Bem-vindo ao Acervo! Clique aqui para criar sua senha."_
+        
+3. **A Ação do Usuário:** O usuário clica no link, vai para uma tela de "Definir Senha", preenche e o sistema ativa a conta.
+
+
+---
+
+### Ajustes nos Endpoints sugeridos
+
+Fiz pequenas correções nos seus endpoints baseados nessas abordagens (note a correção nos níveis de acesso de recuperação de senha):
+
+#### UserController
+
+- **POST** `/users/create`
+    - 🔒 **Nível:** Gestor e coordenador
+    - **Comportamento:**
+        - Recebe JSON: `{ nome, email, perfil, password (opcional) }`.
+        - Se `password` vier vazio -> Backend gera token de ativação e envia e-mail (ou retorna senha temporária).
+            
+        - Se `avatar` não vier -> Salva como `null`.
+            
+- **POST** `/users/{id}/avatar`
     
+    - 🔒 **Nível:** Dono da conta (O próprio usuário)
+        
+    - **Comportamento:** Recebe arquivo `multipart/form-data`. Se receber um corpo vazio ou comando de delete, seta a url no banco para `null` (remove a foto).
+        
 
-**2. Recuperação de Senha**
+#### AuthController (Correção Importante)
 
+Aqui tem um detalhe: Quem esqueceu a senha **não está logado**, logo ele não tem token. O nível não pode ser "Dono da conta" (autenticado), tem que ser **Público**.
 
+- **POST** `/auth/forgot_password`
     
-    - _Por que:_ Usuários sempre esquecem senhas.
+    - 🔒 **Nível:** Público
+        
+    - **Lógica:** O usuário informa o e-mail. O sistema verifica se existe. Se existir, envia o link. Não exige autenticação prévia.
+        
+- **POST** `/auth/reset_password`
+    
+    - 🔒 **Nível:** Público (com Token de validação)
+        
+    - **Lógica:** O usuário envia `{ token_do_email, nova_senha }`. O sistema valida o token e altera a senha.
+        
+- **POST** `/auth/activate_account` (Sugestão para o fluxo de convite)
+    
+    - 🔒 **Nível:** Público (com Token de ativação)
+        
+    - **Lógica:** Endpoint usado quando o usuário clica no e-mail de "Bem-vindo" para definir a primeira senha.
+        
+
+---
+
+### Resumo da Lógica para o Programador
+
+Se você for implementar o `create`:
+
+Python
+
+```
+# Exemplo de lógica (pseudocódigo)
+def create_user(data):
+    # 1. Valida dados básicos
+    
+    # 2. Tratamento da Senha
+    if not data.password:
+        token = gerar_token_ativacao()
+        enviar_email_boas_vindas(data.email, token)
+        senha_hash = null # Ou uma flag de "precisa_definir_senha"
+    else:
+        senha_hash = hash(data.password)
+
+    # 3. Tratamento do Avatar
+    avatar = data.avatar if data.avatar else null
+    
+    # 4. Salva no banco
+    db.save(..., password=senha_hash, avatar=avatar)
+```
+
 
 ---
 
