@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Roadmap/1_Junior/3_Docker/8_Empacotando aplicações a partir do código-fonte em imagens Docker.md",
+                "file": "01_Roadmap/1_Junior/3_Docker/8_Multi-Stage Builds no Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_Empacotando aplicações a partir do código-fonte em imagens Docker"
+              "title": "8_Multi-Stage Builds no Docker"
             }
           }
         ]
@@ -199,7 +199,7 @@
     "attachments/Pasted image 20251208145502.png",
     "15_IHC (Cadeira)/3_Design participativo.md",
     "01_Roadmap/1_Junior/3_Docker/7_Respondendo perguntas importantes.md",
-    "01_Roadmap/1_Junior/3_Docker/8_Empacotando aplicações a partir do código-fonte em imagens Docker.md",
+    "01_Roadmap/1_Junior/3_Docker/8_Multi-Stage Builds no Docker.md",
     "08_Git and github/07_Branches.md",
     "08_Git and github/10_Fluxo geral.md",
     "08_Git and github/06_Git push e pull.md",
