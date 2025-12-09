@@ -1,77 +1,41 @@
 
 
 ---
-
 No desenvolvimento de software tradicional, existe um processo rigoroso e muitas vezes doloroso. O código vai para um repositório central e um **servidor de build** precisa baixar o código, compilar e gerar o executável.
-
-Manter esses servidores é difícil e caro:
 
 - Eles precisam ter **todas** as ferramentas instaladas e atualizadas (Java JDK, .NET SDK, Node.js, Python, Make, GCC, etc.).
     
 - As versões das ferramentas no servidor de build precisam ser **idênticas** às do computador do desenvolvedor.
-    
-
-A Solução Docker:
 
 Com o Docker, você empacota o próprio conjunto de ferramentas de build dentro de uma imagem.
 
-- Você escreve um `Dockerfile` que usa uma imagem "pesada" contendo os compiladores.
-    
-- O Docker compila seu código **dentro** desse contêiner.
-    
-- O resultado final é apenas o seu aplicativo empacotado, sem as ferramentas que o criaram.
-    
+A técnica de **Multi-Stage Build** divide o processo em duas fases lógicas dentro do mesmo arquivo:
 
-Isso elimina a necessidade de instalar ferramentas no seu PC ou no servidor de CI/CD. Se você tem o Docker, você tem tudo.
-
----
-
-### 2. O Conceito: Canteiro de Obras vs. Casa Pronta
-
-A técnica de **Multi-Stage Build** (Múltiplos Estágios) divide o processo em duas fases lógicas dentro do mesmo arquivo:
-
-1. **Estágio 1 (Builder / Canteiro de Obras):**
-    
+1. **Estágio 1 (Builder):**
     - Usa uma imagem base pesada (SDKs, Compiladores).
+    - Baixa dependências, compila código fonte.
+    - Gera o artefato final (o binário ou o ambiente virtual).
         
-    - Baixa dependências, compila código fonte, roda testes.
-        
-    - Gera o artefato final (o binário, o arquivo .jar, a pasta `dist` ou o ambiente virtual).
-        
-    - _Destino:_ Será descartado.
-        
-2. **Estágio 2 (Final / Casa Pronta):**
-    
-    - Usa uma imagem base leve (apenas o Runtime, o mínimo necessário para rodar o app).
-        
-    - Copia **apenas** o artefato gerado no Estágio 1.
-        
+2. **Estágio 2 (Final):**
+    - Usa uma imagem base leve (o mínimo necessário para rodar o app).
+    - Copia apenas o artefato gerado no Estágio 1.
     - O resto do "entulho" (código fonte original, caches do gerenciador de pacotes, compiladores) é destruído junto com o Estágio 1.
-        
 
 ---
-
-### 3. Exemplo Prático 1: Python (Interpretado)
+### **1. Exemplo: Python (Interpretado)**
 
 Linguagens interpretadas como Python não geram um binário único, mas podemos isolar as dependências em um ambiente virtual para manter a imagem final limpa.
 
-**Arquivos:** `main.py` e `requirements.txt` (conforme fornecidos).
-
-**Dockerfile:**
-
-Dockerfile
-
-```
+**Dockerfile**
+```Dockerfile
 # ==========================================
-# ESTÁGIO 1: Builder (O Construtor)
-# ==========================================
-FROM python:3.9 AS builder
+# ESTÁGIO 1: Builder
 
-WORKDIR /app
+FROM python:3.9 AS builder # Dando nome ao estagio
 
-# Cria um ambiente virtual para isolar as bibliotecas
-RUN python -m venv /opt/venv
-
+WORKDIR /app # Diretorio de trabalho
+ 
+RUN python -m venv /opt/venv # Cria um ambiente virtual para isolar as bibliotecas
 # Ativa o venv para os próximos comandos
 ENV PATH="/opt/venv/bin:$PATH"
 
