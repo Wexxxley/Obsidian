@@ -32,4 +32,4 @@ A função do cache é armazenar os dados e instruções que a CPU acabou de usa
     
 O objetivo de todo o sistema é manter esse funil sempre cheio, para que a CPU (no topo) nunca pare de trabalhar esperando por dados que estão lá embaixo.
 
-![400](../../../../attachments/Pasted%20image%2020251027162443.png)
+![400](../../../attachments/Pasted%20image%2020251027162443.png)

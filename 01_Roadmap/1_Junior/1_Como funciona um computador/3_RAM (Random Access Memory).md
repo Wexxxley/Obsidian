@@ -10,7 +10,7 @@
     
 - A partir daí, a CPU pode acessar e modificar esses dados na RAM de forma quase instantânea. É muito, muito mais rápido para a CPU buscar dados na RAM do que no armazenamento principal.
 
-![350](../../../../attachments/Pasted%20image%2020251027111645.png)![300](../../../../attachments/Pasted%20image%2020251027111759.png)
+![350](../../../attachments/Pasted%20image%2020251027111645.png)![300](../../../attachments/Pasted%20image%2020251027111759.png)
 
 ---
 ### 2. **Volatidade da RAM**

@@ -27,14 +27,14 @@ Tudo, absolutamente tudo que um computador faz, desde mostrar este texto até ro
 
 2. No sistema **binário (base 2)** mas cada "casa" vale 2 vezes mais que a anterior.
 
-![350](../../../../attachments/Pasted%20image%2020251027102250.png)
+![350](../../../attachments/Pasted%20image%2020251027102250.png)
 
 ---
 ### **3. De Bits para Letras**
 Computadores não armazenam "letras". Eles armazenam números que _representam_ letras. Para que isso funcione, foi preciso definir um padrão que diz qual número corresponde a qual caractere.
 
 **O Padrão ASCII (American Standard Code for Information Interchange)**: O ASCII foi um dos primeiros padrões criados para isso. Quando você digita a tecla 'H' no seu teclado, o computador não armazena um 'H'. Ele armazena o número decimal **72**. Quando ele precisa exibir esse dado, ele consulta a tabela ASCII, vê que 72 significa 'H', e desenha um 'H' na tela.
-	![](../../../../attachments/Pasted%20image%2020251027102534.png)
+	![](../../../attachments/Pasted%20image%2020251027102534.png)
 - Cada número era representado por 7 bits
 
 **Unicode**: O UNICODE utiliza códigos de valor bem maiores. Com isso, pode representar todos os caracteres específicos de diversos idiomas.
@@ -55,4 +55,4 @@ Rapidamente se tornou inconveniente falar de números em sequências longas de b
 - Com 8 bits, você pode criar 256 combinações diferentes (de 0 a 255).
 - Isso era mais do que suficiente para cobrir todas as letras (maiúsculas e minúsculas), números e símbolos de pontuação do padrão ASCII. Por isso, por muito tempo, 1 caractere = 1 byte.
 
-![](../../../../attachments/Pasted%20image%2020251027105124.png)
+![](../../../attachments/Pasted%20image%2020251027105124.png)

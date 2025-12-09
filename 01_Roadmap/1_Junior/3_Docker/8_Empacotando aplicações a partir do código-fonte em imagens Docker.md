@@ -2,16 +2,10 @@
 
 
 ---
-Você aprendeu que precisa apenas de algumas instruções em um Dockerfile para empacotar um aplicativo. Mas há mais uma coisa que você precisa saber para empacotar seus próprios aplicativos: você também pode **rodar comandos** dentro dos Dockerfiles.
-
-Comandos executados durante o build salvam as alterações do sistema de arquivos na camada da imagem. Isso torna os Dockerfiles o formato de empacotamento mais flexível que existe; você pode descompactar arquivos, rodar instaladores e fazer praticamente qualquer coisa.
-
-
 No desenvolvimento de software tradicional, existe um processo rigoroso. O código vai para um repositório central e um servidor de build baixa o código, compila e gera o executável. Manter servidores de build é difícil.
 
 - Eles precisam ter **todas** as ferramentas instaladas (Java, .NET, Node, etc.).
 - As versões das ferramentas no servidor de build precisam ser idênticas às do seu computador, senão o build falha.
-    ![](../../../attachments/Pasted%20image%2020251208081313.png)
 
 Com docker você pode empacotar o próprio conjunto de ferramentas de build em uma imagem Docker.
 - Você escreve um Dockerfile que usa uma imagem com as ferramentas de compilação.
@@ -20,18 +14,11 @@ Com docker você pode empacotar o próprio conjunto de ferramentas de build em u
 
 Isso elimina a necessidade de instalar ferramentas no seu PC ou no servidor. Só o Docker é necessário.
 
-Para fazer isso de forma eficiente, usamos **múltiplos estágios**.
-
 1. **Estágio 1 (Build):** Usa uma imagem pesada com todas as ferramentas (compiladores, SDKs). Compila o código e gera o binário.
     
 2. **Estágio 2 (Final):** Usa uma imagem leve (só o runtime). Copia **apenas** o binário gerado no Estágio 1. O resto do lixo (código fonte, compiladores) é descartado.
-    
 
-A **Listagem 4.1** mostra um exemplo básico desse fluxo :
-
-Dockerfile
-
-```
+```Dockerfile
 FROM diamol/base:2e AS build-stage
 RUN echo 'Building...' > /build.txt
 
@@ -44,10 +31,8 @@ COPY --from=test-stage /build.txt /build.txt
 CMD ["cat", "/build.txt"]
 ```
 
-**Análise do Script:**
 
-- **`AS nome-do-estagio`**: Dá um apelido para aquela etapa (ex: `build-stage`).
-    
+- **`AS nome-estagio`**: Dá um apelido para aquela etapa.
 - **`COPY --from=...`**: Essa é a mágica. Em vez de copiar do seu computador, ele copia um arquivo de um estágio anterior para o atual.
     
 - **`RUN`**: Executa um comando dentro do contêiner durante o build (aqui, apenas criando um arquivo de texto para simular uma compilação).
@@ -95,48 +80,3 @@ COPY --from=builder /usr/src/iotd/target/iotd-service-0.1.0.jar .
 EXPOSE 80
 ENTRYPOINT ["java", "-jar", "/app/iotd-service-0.1.0.jar"]
 ```
-
-**O que está acontecendo aqui?**
-
-1. **Estágio `builder`:**
-    
-    - Usa a imagem `diamol/maven`. Ela é grande e tem todas as ferramentas para compilar Java.
-        
-    - `COPY pom.xml .` e `RUN mvn ...`: Copia o arquivo de dependências e as baixa da internet. Isso é feito antes de copiar o resto do código para aproveitar o **cache** (se você não mudou as dependências, o Docker não baixa tudo de novo).
-        
-    - `RUN mvn package`: Compila o código Java e cria um arquivo **.jar** (o aplicativo executável).
-        
-2. **Estágio Final (`app`):**
-    
-    - Usa a imagem `diamol/openjdk`. Ela é menor, contendo apenas o necessário para _rodar_ Java, não para compilar.
-        
-    - `COPY --from=builder ...`: Pega apenas o arquivo **.jar** pronto do estágio anterior.
-        
-    - `ENTRYPOINT`: Define o comando para iniciar o aplicativo.
-        
-
-#### Tente agora: Construindo o App Java
-
-1. Vá para a pasta do exercício: `cd ch04/exercises/image-of-the-day`
-    
-2. Construa a imagem: `docker image build -t image-of-the-day .`
-    
-
-_Seja paciente:_ A primeira vez pode demorar um pouco porque o Docker está baixando as imagens do Maven e todas as dependências do Java dentro do contêiner. Você verá muitos logs do Maven baixando bibliotecas da internet.
-
-#### Rodando a Aplicação Java
-
-Essa aplicação é uma API que consome dados da NASA (Astronomy Picture of the Day). Ela precisa de uma rede para funcionar corretamente.
-
-1. Crie uma rede Docker (para que contêineres possam conversar entre si no futuro): `docker network create nat` _(Se der erro dizendo que já existe, pode ignorar)._
-    
-2. Rode o contêiner: `docker container run --name iotd -d -p 800:80 --network nat image-of-the-day`
-    
-3. Teste no navegador: Acesse `http://localhost:800/image`. Você deve ver um JSON com detalhes sobre a foto astronômica do dia (buracos negros, galáxias, etc.).
-    
-
-**Conclusão da seção:** Você acabou de compilar e rodar uma aplicação Java complexa sem instalar uma única ferramenta de Java no seu Linux Mint. Tudo foi feito isolado dentro do Docker.
-
----
-
-**Fim da Seção 4.2.**

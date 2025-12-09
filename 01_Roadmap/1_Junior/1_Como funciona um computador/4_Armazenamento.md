@@ -12,7 +12,7 @@ Ao contrário da RAM, o armazenamento é não-volátil, o que significa que ele 
 - Por ter partes mecânicas (o prato girando e a cabeça se movendo), ele é muito mais lento que a RAM ou um SSD.
 - Um impacto forte pode fazer a cabeça de leitura "arranhar" o disco, danificando seus dados permanentemente.
 
-![400](../../../../attachments/Pasted%20image%2020251027112628.png)
+![400](../../../attachments/Pasted%20image%2020251027112628.png)
 
 ---
 ### **2. SSD (Solid-State Drive) - A Unidade de Estado Sólido**
@@ -24,7 +24,7 @@ Ao contrário da RAM, o armazenamento é não-volátil, o que significa que ele 
 - É muito mais resistente a quedas e impactos.
 - É significativamente mais caro por Gigabyte do que um HDD.
 
-![](../../../../attachments/Pasted%20image%2020251027112958.png)
+![](../../../attachments/Pasted%20image%2020251027112958.png)
 
 A maior diferença que um usuário comum sente em um computador hoje não é (necessariamente) a CPU, mas a troca de um HDD por um SSD. Por quê?
 
