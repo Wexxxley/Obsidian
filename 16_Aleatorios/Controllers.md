@@ -32,7 +32,10 @@
 - **POST** `/auth/activate_account` (Para o fluxo de convite)
     - 🔒 **Nível:** Público (com Token de ativação)
     - **Lógica:** Endpoint usado quando o usuário clica no e-mail de "Bem-vindo" para definir a primeira senha.
-
+    
+- **GET** `/users/me`
+	- 🔒 **Nível:** Todos os autenticados
+	- Retorna os dados do usuário logado (baseado no token JWT).
 
 **Fluxo de Ativação por E-mail.**
 
@@ -51,7 +54,7 @@
     - Retorna os dados de um único usuário pelo ID.
     
 - **GET** `/users/get_all/{user_id}`
-    - 🔒 **Nível:** Gestor e cordenador
+    - 🔒 **Nível:** Gestor e coordenador
     - Retorna os dados de todos os users.
         
 - **POST** `/users/create`
@@ -62,7 +65,7 @@
         - Se `avatar` não vier -> Salva como `null`.
     
 - **POST** `/users/{id}/avatar`
-	- 🔒**Nível:** Dono da conta. 
+	- 🔒**Nível:** Dono da conta OU Gestor/Coordenador
 	- Para lidar com o upload da imagem separadamente dos dados de texto.
 	- Deve permitir setar para vazio.
 		
