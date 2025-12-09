@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Roadmap/1_Junior/3_Docker/9_Compartilhando imagens.md",
+                "file": "16_Aleatorios/Controllers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9_Compartilhando imagens"
+              "title": "Controllers"
             }
           }
         ]
@@ -184,7 +184,7 @@
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
     "01_Roadmap/1_Junior/3_Docker/8_Multi-Stage Builds no Docker.md",
-    "01_Roadmap/1_Junior/3_Docker/9_Compartilhando imagens.md",
+    "01_Roadmap/1_Junior/3_Docker/9_Volumes docker.md",
     "16_Aleatorios/IHC-Observatório Legislativo.md",
     "attachments/Pasted image 20251209081402.png",
     "attachments/Pasted image 20251209081236.png",
