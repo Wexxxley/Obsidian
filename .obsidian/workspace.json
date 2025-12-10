@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_Pyhon/FastAPI/7_Segurança/3_Criando endpoint de autenticação.md",
+                "file": "06_Pyhon/FastAPI/7_Segurança/2_Secury.py.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Criando endpoint de autenticação"
+              "title": "2_Secury.py"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 373
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -183,18 +183,20 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251210075644.png",
+    "attachments/Pasted image 20251210075113.png",
+    "06_Pyhon/FastAPI/7_Segurança/3_Endpoint de autenticação.md",
+    "06_Pyhon/FastAPI/7_Segurança/4_Refresh Token.md",
+    "06_Pyhon/FastAPI/7_Segurança/2_Secury.py.md",
     "attachments/Pasted image 20251210074518.png",
     "attachments/Pasted image 20251210073900.png",
     "attachments/Pasted image 20251210073458.png",
     "attachments/Pasted image 20251210073401.png",
-    "06_Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
     "attachments/Pasted image 20251210072932.png",
     "attachments/Pasted image 20251210072916.png",
     "attachments/Pasted image 20251210072453.png",
     "attachments/Pasted image 20251210072422.png",
     "06_Pyhon/FastAPI/7_Segurança/1_Token JWT.md",
-    "06_Pyhon/FastAPI/7_Segurança/4_Refresh Token.md",
-    "06_Pyhon/FastAPI/7_Segurança/3_Criando endpoint de autenticação.md",
     "16_Aleatorios/Controllers.md",
     "16_Aleatorios/Apresentação Entrevista.md",
     "08_Git and github/07_Branches.md",
@@ -202,8 +204,6 @@
     "01_Roadmap/1_Junior/3_Docker/9_Volumes docker.md",
     "16_Aleatorios/IHC-Observatório Legislativo.md",
     "attachments/Pasted image 20251209081402.png",
-    "attachments/Pasted image 20251209081236.png",
-    "attachments/Pasted image 20251209080835.png",
     "16_Aleatorios/Pedido de crenciais GIT.md",
     "16_Aleatorios/SDT-Sistema VoIP.md",
     "16_Aleatorios/Teste.md",
