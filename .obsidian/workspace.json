@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Aleatorios/Controllers.md",
+                "file": "06_Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Controllers"
+              "title": "2_Secury.py e rota"
             }
           }
         ]
@@ -183,9 +183,15 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251210072453.png",
+    "attachments/Pasted image 20251210072422.png",
+    "06_Pyhon/FastAPI/7_Segurança/1_Token JWT.md",
+    "06_Pyhon/FastAPI/7_Segurança/4_Refresh Token.md",
+    "06_Pyhon/FastAPI/7_Segurança/3_Criando endpoint de autenticação.md",
+    "06_Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
+    "16_Aleatorios/Controllers.md",
     "16_Aleatorios/Apresentação Entrevista.md",
     "08_Git and github/07_Branches.md",
-    "16_Aleatorios/Controllers.md",
     "01_Roadmap/1_Junior/3_Docker/8_Multi-Stage Builds no Docker.md",
     "01_Roadmap/1_Junior/3_Docker/9_Volumes docker.md",
     "16_Aleatorios/IHC-Observatório Legislativo.md",
@@ -208,18 +214,12 @@
     "08_Git and github/05_Autenticação.md",
     "attachments/Pasted image 20251208081313.png",
     "01_Roadmap/1_Junior/3_Docker/6_Camadas de imagens Docker.md",
-    "attachments/Pasted image 20251208065556.png",
     "01_Roadmap/1_Junior/3_Docker/5_Dockerfile.md",
     "01_Roadmap/1_Junior/3_Docker/4_Variáveis de ambiente.md",
     "01_Roadmap/1_Junior/3_Docker/3_A Arquitetura do Docker e GUI.md",
     "01_Roadmap/1_Junior/3_Docker/2_Rodando os primeiros containers.md",
     "01_Roadmap/1_Junior/3_Docker/1_Introdução.md",
-    "06_Pyhon/FastAPI/1_Introdução.md",
     "01_Roadmap/1_Junior/3_Docker",
-    "14_IA (Cadeira)/4_Buscas sem informação.md",
-    "14_IA (Cadeira)/3_Agentes Baseados em Objetivos.md",
-    "14_IA (Cadeira)/5_Heurística.md",
-    "14_IA (Cadeira)/1_Agentes inteligentes.md",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
     "07_FrontEnd/3_JavaScript/1_Introdução",
