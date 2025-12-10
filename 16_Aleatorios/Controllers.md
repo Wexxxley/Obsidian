@@ -72,7 +72,7 @@
         - Se `password` vier vazio -> Backend gera token de ativação e envia e-mail.
         - Se `avatar` não vier -> Salva como `null`.
     
-- **POST** `/users/{id}/avatar`
+- **<mark style="background: #FF5582A6;">POST</mark>** `/users/{id}/avatar`
 	- 🔒**Nível:** Dono da conta OU Gestor/Coordenador
 	- Para lidar com o upload da imagem separadamente dos dados de texto.
 	- Deve permitir setar para vazio.
