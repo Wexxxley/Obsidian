@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_Pyhon/FastAPI/7_Segurança/4_Activation account.md",
+                "file": "06_Pyhon/FastAPI/7_Segurança/4_Lógica de convite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Activation account"
+              "title": "4_Lógica de convite"
             }
           }
         ]
@@ -183,10 +183,12 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251210080846.png",
+    "attachments/Pasted image 20251210080717.png",
     "06_Pyhon/FastAPI/7_Segurança/1_Token JWT.md",
     "06_Pyhon/FastAPI/7_Segurança/2_Secury.py.md",
     "06_Pyhon/FastAPI/7_Segurança/3_Endpoints de autenticação.md",
-    "06_Pyhon/FastAPI/7_Segurança/4_Activation account.md",
+    "06_Pyhon/FastAPI/7_Segurança/4_Lógica de convite.md",
     "attachments/Pasted image 20251210080339.png",
     "attachments/Pasted image 20251210080134.png",
     "attachments/Pasted image 20251210075644.png",
@@ -196,7 +198,6 @@
     "attachments/Pasted image 20251210073458.png",
     "attachments/Pasted image 20251210073401.png",
     "attachments/Pasted image 20251210072932.png",
-    "attachments/Pasted image 20251210072916.png",
     "16_Aleatorios/Controllers.md",
     "16_Aleatorios/Apresentação Entrevista.md",
     "08_Git and github/07_Branches.md",
