@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
+                "file": "06_Pyhon/FastAPI/7_Segurança/3_Criando endpoint de autenticação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Secury.py e rota"
+              "title": "3_Criando endpoint de autenticação"
             }
           }
         ]
@@ -183,12 +183,16 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251210073458.png",
+    "attachments/Pasted image 20251210073401.png",
+    "06_Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
+    "attachments/Pasted image 20251210072932.png",
+    "attachments/Pasted image 20251210072916.png",
     "attachments/Pasted image 20251210072453.png",
     "attachments/Pasted image 20251210072422.png",
     "06_Pyhon/FastAPI/7_Segurança/1_Token JWT.md",
     "06_Pyhon/FastAPI/7_Segurança/4_Refresh Token.md",
     "06_Pyhon/FastAPI/7_Segurança/3_Criando endpoint de autenticação.md",
-    "06_Pyhon/FastAPI/7_Segurança/2_Secury.py e rota.md",
     "16_Aleatorios/Controllers.md",
     "16_Aleatorios/Apresentação Entrevista.md",
     "08_Git and github/07_Branches.md",
@@ -200,19 +204,15 @@
     "attachments/Pasted image 20251209080835.png",
     "attachments/Pasted image 20251209080515.png",
     "attachments/Pasted image 20251209080053.png",
-    "attachments/Pasted image 20251209075618.png",
-    "attachments/Pasted image 20251209075113.png",
     "16_Aleatorios/Pedido de crenciais GIT.md",
     "16_Aleatorios/SDT-Sistema VoIP.md",
     "16_Aleatorios/Teste.md",
     "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
-    "attachments/Pasted image 20251208145502.png",
     "15_IHC (Cadeira)/3_Design participativo.md",
     "01_Roadmap/1_Junior/3_Docker/7_Respondendo perguntas importantes.md",
     "08_Git and github/10_Fluxo geral.md",
     "08_Git and github/06_Git push e pull.md",
     "08_Git and github/05_Autenticação.md",
-    "attachments/Pasted image 20251208081313.png",
     "01_Roadmap/1_Junior/3_Docker/6_Camadas de imagens Docker.md",
     "01_Roadmap/1_Junior/3_Docker/5_Dockerfile.md",
     "01_Roadmap/1_Junior/3_Docker/4_Variáveis de ambiente.md",

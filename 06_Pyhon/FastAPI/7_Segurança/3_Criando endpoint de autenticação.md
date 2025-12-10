@@ -1,16 +1,12 @@
 
 ---
-### **1. Criando endpoint para logar**
+### **1. Criando endpoint de login**
 
-Primeiramente é preciso criar um modelo para nosso token.
+Primeiramente é preciso criar um modelos para nossos tokens.
+![](../../../attachments/Pasted%20image%2020251210073401.png)
 
-![Pasted image 20250626160514](../../../attachments/Pasted%20image%2020250626160514.png)
-
-- "Bearer" é um tipo de token de acesso que deve ser enviado no cabeçalho Authorization, e basta possuir o token para acessar os recursos protegidos.
-
-Endpoint de login
-
-![Pasted image 20250626161237](../../../attachments/Pasted%20image%2020250626161237.png) 
+**Endpoint de login**
+![](../../../attachments/Pasted%20image%2020251210073458.png) 
 
 - Esse endpoint envia o token para o cliente.
 - O **OAuth2PasswordRequestForm** representa um formulário com os campos username e password.
