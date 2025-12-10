@@ -1,4 +1,6 @@
 
+#Concluded 
+
 ---
 ### **1. Criando endpoint de login**
 
@@ -9,9 +11,14 @@ Primeiramente é preciso criar um modelos para nossos tokens.
 ![](../../../attachments/Pasted%20image%2020251210073458.png) 
 
 ---
-### **2. Get_current_user**
+### **2. Refresh_token**
 
-Nesse ponto, criaremos uma função `get_current_user` que será responsável por extrair o token do header `Authorization`, decodificar esse token, extrair as informações do usuário e obter finalmente o usuário do banco de dados. 
+![](../../../attachments/Pasted%20image%2020251210080134.png)
+
+---
+### **3. Get_current_user**
+
+Nesse ponto, criaremos uma função `get_current_user` em security.py que será responsável por extrair o token do header `Authorization`, decodificar esse token, extrair as informações do usuário e obter finalmente o usuário do banco de dados. 
 ![](../../../attachments/Pasted%20image%2020251210073900.png)
 - O protocolo HTTP é stateless. O servidor não "lembra" quem fez a requisição anterior. Portanto, cada requisição precisa provar sua identidade e autorização isoladamente.
 - A função `get_current_user` resolve isso executando quatro validações críticas de segurança em tempo de execução
