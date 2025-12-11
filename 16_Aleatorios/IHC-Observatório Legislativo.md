@@ -189,22 +189,8 @@ Para combater a desinformação de forma eficaz, o projeto foca em dois público
 - **Lista de Votos Exportável:** Se o projeto já foi votado, exibe e permite exportar a lista de votos de cada deputado.
 
 ---
-## **6. Técnicas design participativo**
 
-### **1. Card Sorting**
-
-O maior desafio para o nosso projeto é a  Arquitetura da Informação. Precisamos alocar as informações em locais onde sejam logicos de acessar.
-
-1. Vamos criar os cartões com os nomes das funcionalidades e dados listados.
-    - Exemplos: "Gráfico de Presença", "Comparar dois deputados" , "Quiz de Match" , "Gastos com viagem".
-        
-2. Vamos entregar os cartões. E vamos pedir para o participante: "Agrupe os cartões da maneira que faz mais sentido para você e dê um nome para cada grupo."
-    
-3. Se a maioria dos usuários agrupar diferente da forma pensada, devemos alterar a estrutura do protótipo para facilitar a navegação.
-
----
-
-## 7. Roteiro
+## **6. Roteiro**
 
 **Parte 1: Card Sorting**
 1. Vamos dar os cartões misturados ao participante.
@@ -213,11 +199,16 @@ O maior desafio para o nosso projeto é a  Arquitetura da Informação. Precisam
     
 3. Quando ele terminar e nomear os grupos, vamos utilizar esses nomes no menu do prototipo.
 
-**Parte 2: Intervalo para Configuração** 
-- "Agora vou montar a interface do sistema baseado no que você acabou de organizar."
-
-**Parte 3: Prototipagem em Papel** 
+**Parte 2: Co-Design
 
 Essa imagem sera a base utilizada pelo participante.
 ![450](../attachments/Pasted%20image%2020251211094525.png)
+
+- "Agora que organizamos os grupos, vamos desenhar como isso aparece na tela. Imagine que esta moldura vazia é a tela inicial do site."
+    
+- Vamos pedir ao participante para desenhar (formas geométricas) nas telas e ordenar como ele deciciu anteriormente. A ideia é ir modelando de tela em tela.
+    
+- **Perguntas Guias:**
+    - "Qual desses grupos deve aparecer primeiro ou ser maior na tela?"
+    - "Se você quiser ver a funcionalide X, onde você clicaria?"
 
