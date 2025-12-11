@@ -111,3 +111,106 @@ Para combater a desinformação de forma eficaz, o projeto foca em dois público
 - Se ja votado, uma lista exportavel com os votos de cada deputado.
 
 ![](../attachments/Pasted%20image%2020251209081236.png)
+
+---
+
+## **Funcionalidades**
+### **1. Funcionalidades Globais**
+
+- **Menu de Navegação:** Acesso rápido às seções Deputados, Partidos, Comparador, Match e Sobre.
+- **Barra de Busca Geral:** Permite pesquisar por nome de deputado, partido ou tema.
+    
+
+### 2. Tela Inicial
+
+- **Card "Sessão de Hoje":** Widget que informa se há sessão no Plenário e qual a pauta principal3.
+    
+- **Transmissão ao Vivo:** Link incorporado para assistir à TV Câmara diretamente no card da sessão4.
+    
+- **Feed de Notícias:** Destaques curados sobre votações e tramitações relevantes5.
+    
+
+### 3. Tela do Deputado
+
+- **Perfil do Parlamentar:** Exibição de foto, nome, partido, estado, links para redes sociais e botões de ação ("Comparar", "Copiar Link")6.
+    
+- **Painel de Presença:** Gráfico de rosca mostrando a assiduidade do deputado7.
+    
+- **Indicador de Produção:** Contagem comparativa de projetos apresentados versus aprovados8.
+    
+- **Análise Financeira:**
+    
+    - Gráfico de gastos por tipo (viagem, divulgação, etc.)9.
+        
+    - Comparação dos gastos do deputado com a média dos parlamentares10.
+        
+- **Histórico de Votações:** Lista filtrada de votações de alto impacto (Sim/Não/Abstenção)11.
+    
+- **Modo Resumo:** Link para uma explicação simplificada das votações listadas12.
+    
+- **Notícias Relacionadas:** Feed de últimas notícias específicas sobre o deputado13.
+    
+
+### 4. Tela de Partidos
+
+- **Cabeçalho da Sigla:** Exibição de logo, nome, número eleitoral e tamanho da bancada14.
+    
+- **Ranking Interno (Gamificação):** Exibição de destaques da bancada, incluindo:
+    
+    - Deputado com maior uso da cota parlamentar15.
+        
+    - Deputado com menor uso da cota16.
+        
+    - Deputado mais "rebelde" (que mais vota contra a orientação do partido)17.
+        
+- **Feed do Partido:** Últimas notícias relacionadas à sigla18.
+    
+- **Lista de Membros:** Relação dos deputados associados ao partido19.
+    
+
+### 5. Tela de Comparação
+
+- **Seletor de Entidades:** Busca para selecionar "Deputado A" vs. "Deputado B" (ou vs. Média do Estado) para confronto direto20.
+    
+- **Quadro Comparativo Visual:** Tabela lado a lado exibindo:
+    
+    - Presença em Plenário21.
+        
+    - Gasto total acumulado e gastos por categoria22222222.
+        
+    - Porcentagem de alinhamento com o Governo23.
+        
+    - Posicionamento em votações-chave24242424.
+        
+- **Gerador de "Card de Batalha":** Botão para exportar a comparação como uma imagem (PNG) otimizada para redes sociais (Stories/Feed)25.
+    
+
+### 6. Tela "Match Legislativo"
+
+- **Quiz Interativo:** Apresentação sequencial de 5 votações polêmicas recentes, sem revelar autores ou partidos26.
+    
+- **Sistema de Votação do Usuário:** Interface para o usuário votar "A Favor", "Contra" ou "Indiferente"27.
+    
+- **Resultado do Match:** Cruzamento das respostas do usuário com a base de dados para exibir os deputados com maior afinidade ideológica28.
+    
+
+### 7. Tela de Detalhes da Proposição
+
+- **Cabeçalho do Projeto:** Título oficial (ex: PL 2630/2020), autor principal e data29.
+    
+- Funcionalidade "O Que Muda na Minha Vida?" (IA): Box que utiliza IA para traduzir a ementa técnica em uma explicação do impacto prático da lei30.
+    
+- **Timeline Visual (Rastreador):** Barra de progresso (estilo status de delivery) mostrando a etapa atual da tramitação (Comissões, Plenário, Senado, Sanção)31.
+    
+- **Enquete Cidadã:** Widget de engajamento perguntando se o usuário apoiaria o projeto32.
+    
+- **Resultado da Enquete:** Exibição em tempo real da porcentagem de opinião dos usuários da plataforma33.
+    
+- **Download de Documentos:** Link para baixar o PDF original do projeto (foco em jornalistas/multiplicadores)34.
+    
+- **Lista de Votos Exportável:** Se o projeto já foi votado, exibe e permite exportar a lista de votos de cada deputado35.
+    
+
+---
+
+**Gostaria que eu transformasse essa lista de funcionalidades em um Backlog do Produto ou em Histórias de Usuário para facilitar o desenvolvimento?**
