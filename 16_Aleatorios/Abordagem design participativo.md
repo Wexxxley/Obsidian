@@ -25,7 +25,9 @@ Essa imagem sera a base utilizada pelo participante.
 
 **Parte 3: Escolha de paleta de cores**:
 - Vamos selecionar umas 3 paletas distintas e pedir feedback. E, claro, aceitar sugestões.  
+- Iremos testar também a reação e a leitura de diferentes fontes.
 - https://www.realtimecolors.com/?colors=04005b-ffffff-4f4aba-020024-0600c2&fonts=Inter-Inter
+
 	![](../attachments/Pasted%20image%2020251211153811.png)
 
 ---
