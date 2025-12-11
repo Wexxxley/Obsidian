@@ -23,6 +23,11 @@ Essa imagem sera a base utilizada pelo participante.
     - "Qual desses grupos deve aparecer primeiro ou ser maior na tela?"
     - "Se você quiser ver a funcionalide X, onde você clicaria?"
 
+**Parte 3: Escolha de paleta de cores**:
+- Vamos selecionar umas 3 paletas distintas e pedir feedback. E, claro, aceitar sugestões.  
+- https://www.realtimecolors.com/?colors=04005b-ffffff-4f4aba-020024-0600c2&fonts=Inter-Inter
+	![](../attachments/Pasted%20image%2020251211153811.png)
+
 ---
 ### **Lista de Cartões**
 
