@@ -23,7 +23,7 @@ Para combater a desinformação de forma eficaz, o projeto foca em dois público
 
 
 ---
-## **4. Definição de Telas e Funcionalidades**
+## **4. Possíveis telas**
 
 ### **1. Tela Inicial**
 
