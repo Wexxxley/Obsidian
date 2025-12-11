@@ -245,3 +245,45 @@ Ela é ideal para design participativo individual porque coloca o usuário como 
 ### Próximo Passo Sugerido
 
 Gostaria que eu criasse um **Roteiro de Teste** específico para a sessão de Prototipagem em Papel, com as perguntas exatas que você deve fazer ao usuário enquanto ele navega pelas telas de "Match" e "Comparação"?
+
+
+---
+
+## 7. Roteiro Integrado
+
+**Parte 1: Card Sorting**
+
+1. Vamos dar os cartões misturados ao participante.
+    
+2. Peça para ele agrupar.
+    
+3. **O Pulo do Gato:** Quando ele terminar e nomear os grupos, esses nomes viram o menu do seu protótipo.
+    
+    - _Exemplo:_ Você planejou o menu "Partidos". O usuário criou um grupo chamado "Bancadas".
+        
+    - _Ação:_ Você pega um Post-it, escreve "Bancadas" e cola no lugar do menu no seu protótipo de papel.
+        
+
+#### Parte 2: Intervalo de Configuração (2 min)
+
+1. Diga ao usuário: _"Ótimo, agora vou montar a interface do sistema baseado no que você acabou de organizar."_
+    
+2. Ajuste os Post-its de menu no seu "chassi" de papel.
+    
+
+#### Parte 3: Prototipagem em Papel (20 min)
+
+1. Agora comece as tarefas: _"Imagine que você quer ver quem é o deputado que mais gasta. Onde você clica?"_
+    
+2. Como o menu foi "montado" por ele na fase anterior, a navegação será fluida.
+    
+3. O foco do teste passa a ser **o conteúdo da tela** (se o gráfico dá para entender, se o botão de match é visível) e não mais se ele acha o menu (porque ele mesmo criou o menu).
+    
+
+### Resumo da Estratégia
+
+Não desenhe os nomes dos menus ("Deputados", "Partidos", "Match") direto na folha do protótipo de papel. **Use Post-its para os menus.**
+
+Assim, se o Card Sorting mudar a estrutura, você só troca o Post-it e aproveita todo o resto do desenho das telas que você fez baseado nos wireframes do documento.
+
+Faz sentido essa abordagem modular para você? Posso ajudar a definir quais cartões exatos escrever para o Card Sorting.
