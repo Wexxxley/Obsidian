@@ -202,51 +202,6 @@ O maior desafio para o nosso projeto é a  Arquitetura da Informação. Precisam
     
 3. Se a maioria dos usuários agrupar diferente da forma pensada, devemos alterar a estrutura do protótipo para facilitar a navegação.
 
-### **2. Prototipagem em Papel**
-
-O documento fornecido já contém esboços manuais (wireframes de baixa fidelidade) das telas. A prototipagem em papel é a evolução natural disso. Ela permite testar fluxos complexos, como o **"Match Legislativo"** ou o **"Comparador"**, de forma rápida e barata antes de gastar tempo codificando ou desenhando no Figma.
-
-Ela é ideal para design participativo individual porque coloca o usuário como "co-autor", permitindo que ele desenhe ou rasgue pedaços do papel para sugerir melhorias na hora.
-
-#### Como aplicar na prática (Passo a Passo)
-
-1. **Materialize os Esboços:** Desenhe as telas principais em folhas A4 baseando-se no PDF:
-    
-    - Tela Inicial com o card "Sessão de Hoje".
-        
-    - Tela de Comparação com os slots vazios para "Deputado A" e "Deputado B".
-        
-    - Tela do Match com as perguntas do Quiz.
-        
-2. **Crie Elementos Móveis:** Recorte pedaços de papel menores para simular interações.
-    
-    - _Exemplo:_ Um pedaço de papel pequeno que diz "Aprovado" ou "Reprovado" para colocar sobre a barra de tramitação.
-        
-    - _Exemplo:_ Recortes com fotos de deputados para o usuário "arrastar" para a área de comparação.
-        
-3. **Defina Tarefas (Cenários de Uso):** Não mostre o desenho e pergunte "está bonito?". Dê uma missão ao usuário.
-    
-    - _Tarefa 1 (Match):_ "Você quer descobrir qual deputado pensa igual a você. Onde você clica? O que você espera que aconteça agora?" (Simule a troca de telas trocando os papéis na mesa).
-        
-    - _Tarefa 2 (Fiscalização):_ "Você quer ver se o Deputado X gasta mais que o Deputado Y. Como você faz isso?".
-        
-4. **Co-criação (O "Pulo do Gato"):** Se o usuário travar ou disser "eu achei que o botão estaria aqui", entregue uma caneta para ele e diga: _"Desenhe onde você clicaria"_. Isso valida se a posição do botão de exportar card ou do seletor de entidades está intuitiva.
-    
-
----
-
-### Por que não as outras?
-
-- **Brainstorming:** Geralmente funciona melhor em grupo para gerar volume de ideias. Como suas funcionalidades já estão bem definidas no documento (já existe um escopo claro do que é o Match, o Comparador, etc.), o brainstorming pode dispersar o foco.
-    
-- **Análise Contextual:** Envolve observar o usuário em seu ambiente natural. Embora útil, para um projeto acadêmico ou de portfólio, é logisticamente difícil e consome muito tempo. Dado que o objetivo é validar uma interface web, testar a interface (Prototipagem) e a organização (Card Sorting) trará retornos mais imediatos.
-    
-
-### Próximo Passo Sugerido
-
-Gostaria que eu criasse um **Roteiro de Teste** específico para a sessão de Prototipagem em Papel, com as perguntas exatas que você deve fazer ao usuário enquanto ele navega pelas telas de "Match" e "Comparação"?
-
-
 ---
 
 ## 7. Roteiro
@@ -258,15 +213,11 @@ Gostaria que eu criasse um **Roteiro de Teste** específico para a sessão de Pr
     
 3. Quando ele terminar e nomear os grupos, vamos utilizar esses nomes no menu do prototipo.
 
-Parte 2: Intervalo para Configuração 
+**Parte 2: Intervalo para Configuração** 
 - "Agora vou montar a interface do sistema baseado no que você acabou de organizar."
 
-Parte 3: Prototipagem em Papel 
+**Parte 3: Prototipagem em Papel** 
 
 Essa imagem sera a base utilizada pelo participante.
-![40](../attachments/Pasted%20image%2020251211094525.png)
-1. Agora comece as tarefas: "Imagine que você quer ver quem é o deputado que mais gasta. Onde você clica?"
-    
-2. Como o menu foi "montado" por ele na fase anterior, a navegação será fluida.
-    
-3. O foco do teste passa a ser **o conteúdo da tela** (se o gráfico dá para entender, se o botão de match é visível) e não mais se ele acha o menu (porque ele mesmo criou o menu).
+![450](../attachments/Pasted%20image%2020251211094525.png)
+
