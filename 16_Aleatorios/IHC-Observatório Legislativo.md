@@ -193,34 +193,16 @@ Para combater a desinformação de forma eficaz, o projeto foca em dois público
 
 ### **1. Card Sorting**
 
-O maior desafio para o nosso projeto é a  Arquitetura da Informação. Precisamos alocar as informações em locais onde sejam logicos garantir que o termo "Uso da cota parlamentar" ou "Votações de alto impacto" estejam onde o usuário mentalmente espera encontrá-los.
+O maior desafio para o nosso projeto é a  Arquitetura da Informação. Precisamos alocar as informações em locais onde sejam logicos de acessar.
 
-Como o foco é individual, o Card Sorting é perfeito para entender o modelo mental de cada usuário sem a influência de grupo.
-
-#### Como aplicar na prática (Passo a Passo)
-
-1. **Prepare os Cartões:** Crie cartões físicos (post-its) ou digitais (Miro/FigJam) com os nomes das funcionalidades e dados listados no documento.
-    
-    - _Exemplos de cartões:_ "Gráfico de Presença" , "Ranking dos mais rebeldes" , "Comparar dois deputados" , "Quiz de Match" , "Link para TV Câmara" , "Gastos com viagem".
+1. Vamos criar os cartões com os nomes das funcionalidades e dados listados.
+    - Exemplos: "Gráfico de Presença", "Comparar dois deputados" , "Quiz de Match" , "Gastos com viagem".
         
-2. **Sessão Individual:** Sente-se com um usuário por vez (recomenda-se 3 a 5 usuários).
+2. Vamos entregar os cartões. E vamos pedir para o participante: "Agrupe os cartões da maneira que faz mais sentido para você e dê um nome para cada grupo."
     
-3. **Execução (Card Sorting Aberto):**
-    
-    - Entregue os cartões embaralhados.
-        
-    - Peça: _"Agrupe esses itens da maneira que faz mais sentido para você e dê um nome para cada grupo."_
-        
-    - _O que observar:_ O usuário colocou o "Ranking dos mais rebeldes" dentro da tela de "Partidos" (como você planejou ) ou ele criou um grupo separado chamado "Curiosidades"? Ele agrupou "Comparação" junto com "Match" ou separou?
-        
-4. **Análise:** Se a maioria dos usuários agrupar diferente do seu menu planejado (Deputados, Partidos, Comparador, Match ), você deve alterar a estrutura do seu site para facilitar a navegação.
-    
+3. Se a maioria dos usuários agrupar diferente da forma pensada, devemos alterar a estrutura do protótipo para facilitar a navegação.
 
----
-
-### 2. Prototipagem em Papel
-
-#### Por que escolher?
+### **2. Prototipagem em Papel**
 
 O documento fornecido já contém esboços manuais (wireframes de baixa fidelidade) das telas. A prototipagem em papel é a evolução natural disso. Ela permite testar fluxos complexos, como o **"Match Legislativo"** ou o **"Comparador"**, de forma rápida e barata antes de gastar tempo codificando ou desenhando no Figma.
 
