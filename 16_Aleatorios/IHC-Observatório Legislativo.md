@@ -192,9 +192,8 @@ Para combater a desinformação de forma eficaz, o projeto foca em dois público
 
 O Observatório Legislativo lida com dados complexos. O maior desafio é a Arquitetura da Informação. 
 
-
 **Parte 1: Card Sorting**
-1. Vamos dar os cartões misturados ao participante. 
+1. Vamos dar cartões físicos misturados ao participante. 
     
 2. Pedir para ele agrupar.
     
@@ -207,7 +206,7 @@ O Observatório Legislativo lida com dados complexos. O maior desafio é a Arqui
 Essa imagem sera a base utilizada pelo participante.
 ![450](../attachments/Pasted%20image%2020251211094525.png)
 
-- "Agora que organizamos os grupos, vamos desenhar como isso aparece na tela. Imagine que esta moldura vazia é a tela inicial do site."
+- "Agora que organizamos os grupos, vamos desenhar como isso aparece na tela. Imagine esta moldura é a tela inicial do site."
     
 - Vamos pedir ao participante para desenhar (formas geométricas) nas telas e ordenar como ele deciciu anteriormente. A ideia é ir modelando de tela em tela.
     
