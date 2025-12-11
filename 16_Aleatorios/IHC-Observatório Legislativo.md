@@ -23,10 +23,7 @@ Para combater a desinformação de forma eficaz, o projeto foca em dois público
 
 
 ---
-
-![](../attachments/Pasted%20image%2020251209081402.png)
-
-## **Definição de Telas e Funcionalidades
+## **4. Definição de Telas e Funcionalidades**
 
 ### **1. Tela Inicial**
 
@@ -52,7 +49,7 @@ Para combater a desinformação de forma eficaz, o projeto foca em dois público
 - Ultimas noticias relacionadas a esse deputado
 
 ![](../attachments/Pasted%20image%2020251209075618.png)
-### **3. Tela de Partidos
+### **3. Tela de Partidos**
 
 - **Cabeçalho da Sigla:** Logo, Nome, Número Eleitoral e tamanho da bancada atual.
     
@@ -66,7 +63,7 @@ Para combater a desinformação de forma eficaz, o projeto foca em dois público
 - Deputados asociados.
 
 ![](../attachments/Pasted%20image%2020251209080053.png)
-### **4. Tela de Comparação
+### **4. Tela de Comparação**
 
 **Objetivo:** Permitir a análise lado a lado para decisão de voto ou fiscalização comparativa.
 
@@ -84,7 +81,7 @@ Para combater a desinformação de forma eficaz, o projeto foca em dois público
         
 - **Gerador de Card de Batalha:** Botão para exportar a comparação como imagem (PNG) otimizada para redes sociais (Stories/Feed).
 ![](../attachments/Pasted%20image%2020251209080515.png)
-### **5. Tela "Match Legislativo"
+### **5. Tela "Match Legislativo"**
 
 **Objetivo:** Quebrar viés de confirmação e conectar o cidadão ao representante baseado em ideias, não em nomes.
 
@@ -114,16 +111,15 @@ Para combater a desinformação de forma eficaz, o projeto foca em dois público
 
 ---
 
-## **Funcionalidades**
-### **1. Funcionalidades Globais**
+## **5. Funcionalidades**
+### 1. Funcionalidades Globais
 
 - **Menu de Navegação:** Acesso rápido às seções Deputados, Partidos, Comparador, Match e Sobre.
 - **Barra de Busca Geral:** Permite pesquisar por nome de deputado, partido ou tema.
-    
 
 ### 2. Tela Inicial
 
-- **Card "Sessão de Hoje":** Widget que informa se há sessão no Plenário e qual a pauta principal3.
+- **Card "Sessão de Hoje":** Widget que informa se há sessão, qual a pauta principal.
     
 - **Transmissão ao Vivo:** Link incorporado para assistir à TV Câmara diretamente no card da sessão4.
     
