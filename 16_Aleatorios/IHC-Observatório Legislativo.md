@@ -249,41 +249,24 @@ Gostaria que eu criasse um **Roteiro de Teste** específico para a sessão de Pr
 
 ---
 
-## 7. Roteiro Integrado
+## 7. Roteiro
 
 **Parte 1: Card Sorting**
-
 1. Vamos dar os cartões misturados ao participante.
     
-2. Peça para ele agrupar.
+2. Pedir para ele agrupar.
     
-3. **O Pulo do Gato:** Quando ele terminar e nomear os grupos, esses nomes viram o menu do seu protótipo.
-    
-    - _Exemplo:_ Você planejou o menu "Partidos". O usuário criou um grupo chamado "Bancadas".
-        
-    - _Ação:_ Você pega um Post-it, escreve "Bancadas" e cola no lugar do menu no seu protótipo de papel.
-        
+3. Quando ele terminar e nomear os grupos, vamos utilizar esses nomes no menu do prototipo.
 
-#### Parte 2: Intervalo de Configuração (2 min)
+Parte 2: Intervalo para Configuração 
+- "Agora vou montar a interface do sistema baseado no que você acabou de organizar."
 
-1. Diga ao usuário: _"Ótimo, agora vou montar a interface do sistema baseado no que você acabou de organizar."_
-    
-2. Ajuste os Post-its de menu no seu "chassi" de papel.
-    
+Parte 3: Prototipagem em Papel 
 
-#### Parte 3: Prototipagem em Papel (20 min)
-
-1. Agora comece as tarefas: _"Imagine que você quer ver quem é o deputado que mais gasta. Onde você clica?"_
+Essa imagem sera a base utilizada pelo participante.
+![40](../attachments/Pasted%20image%2020251211094525.png)
+1. Agora comece as tarefas: "Imagine que você quer ver quem é o deputado que mais gasta. Onde você clica?"
     
 2. Como o menu foi "montado" por ele na fase anterior, a navegação será fluida.
     
 3. O foco do teste passa a ser **o conteúdo da tela** (se o gráfico dá para entender, se o botão de match é visível) e não mais se ele acha o menu (porque ele mesmo criou o menu).
-    
-
-### Resumo da Estratégia
-
-Não desenhe os nomes dos menus ("Deputados", "Partidos", "Match") direto na folha do protótipo de papel. **Use Post-its para os menus.**
-
-Assim, se o Card Sorting mudar a estrutura, você só troca o Post-it e aproveita todo o resto do desenho das telas que você fez baseado nos wireframes do documento.
-
-Faz sentido essa abordagem modular para você? Posso ajudar a definir quais cartões exatos escrever para o Card Sorting.
