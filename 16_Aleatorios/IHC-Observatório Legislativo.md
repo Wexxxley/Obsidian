@@ -121,92 +121,145 @@ Para combater a desinformação de forma eficaz, o projeto foca em dois público
 
 - **Card "Sessão de Hoje":** Widget que informa se há sessão, qual a pauta principal.
     
-- **Transmissão ao Vivo:** Link incorporado para assistir à TV Câmara diretamente no card da sessão4.
+- **Transmissão ao Vivo:** Link incorporado para assistir à TV Câmara diretamente no card da sessão.
     
-- **Feed de Notícias:** Destaques curados sobre votações e tramitações relevantes5.
-    
+- **Feed de Notícias:** Destaques curados sobre votações e tramitações relevantes.
 
 ### 3. Tela do Deputado
 
-- **Perfil do Parlamentar:** Exibição de foto, nome, partido, estado, links para redes sociais e botões de ação ("Comparar", "Copiar Link")6.
+- **Perfil do Parlamentar:** Exibição de foto, nome, partido, estado, links para redes sociais e botões de ação ("Comparar", "Copiar Link").
     
-- **Painel de Presença:** Gráfico de rosca mostrando a assiduidade do deputado7.
+- **Painel de Presença:** Gráfico de rosca mostrando a assiduidade do deputado.
     
-- **Indicador de Produção:** Contagem comparativa de projetos apresentados versus aprovados8.
+- **Indicador de Produção:** Contagem comparativa de projetos apresentados versus aprovados.
     
 - **Análise Financeira:**
+    - Gráfico de gastos por tipo (viagem, divulgação, etc.).
+    - Comparação dos gastos do deputado com a média dos parlamentares.
     
-    - Gráfico de gastos por tipo (viagem, divulgação, etc.)9.
-        
-    - Comparação dos gastos do deputado com a média dos parlamentares10.
-        
-- **Histórico de Votações:** Lista filtrada de votações de alto impacto (Sim/Não/Abstenção)11.
+- **Histórico de Votações:** Lista filtrada de votações de alto impacto (Sim/Não/Abstenção).
     
-- **Modo Resumo:** Link para uma explicação simplificada das votações listadas12.
-    
-- **Notícias Relacionadas:** Feed de últimas notícias específicas sobre o deputado13.
-    
+- **Notícias Relacionadas:** Feed de últimas notícias específicas sobre o deputado.
 
 ### 4. Tela de Partidos
 
-- **Cabeçalho da Sigla:** Exibição de logo, nome, número eleitoral e tamanho da bancada14.
+- **Cabeçalho:** Exibição de logo, nome, número eleitoral e tamanho da bancada.
     
-- **Ranking Interno (Gamificação):** Exibição de destaques da bancada, incluindo:
+- **Ranking Interno:** Exibição de destaques da bancada, incluindo:
+    - Deputado com maior uso da cota parlamentar.
+    - Deputado com menor uso da cota.
+    - Deputado mais "rebelde" (que mais vota contra a orientação do partido).
     
-    - Deputado com maior uso da cota parlamentar15.
-        
-    - Deputado com menor uso da cota16.
-        
-    - Deputado mais "rebelde" (que mais vota contra a orientação do partido)17.
-        
-- **Feed do Partido:** Últimas notícias relacionadas à sigla18.
+- **Feed do Partido:** Últimas notícias relacionadas à sigla.
     
-- **Lista de Membros:** Relação dos deputados associados ao partido19.
-    
+- **Lista de Membros:** Relação dos deputados associados ao partido.
 
 ### 5. Tela de Comparação
 
-- **Seletor de Entidades:** Busca para selecionar "Deputado A" vs. "Deputado B" (ou vs. Média do Estado) para confronto direto20.
+- **Seletor de Entidades:** Busca para selecionar "Deputado A" vs. "Deputado B" (ou vs. Média do Estado) para confronto direto.
     
 - **Quadro Comparativo Visual:** Tabela lado a lado exibindo:
-    
-    - Presença em Plenário21.
+    - Presença em Plenário.
+    - Gasto total acumulado e gastos por categoria.
+    - Porcentagem de alinhamento com o Governo.
+    - Posicionamento em votações-chave.
         
-    - Gasto total acumulado e gastos por categoria22222222.
-        
-    - Porcentagem de alinhamento com o Governo23.
-        
-    - Posicionamento em votações-chave24242424.
-        
-- **Gerador de "Card de Batalha":** Botão para exportar a comparação como uma imagem (PNG) otimizada para redes sociais (Stories/Feed)25.
-    
+- **Gerador de "Card de Batalha":** Botão para exportar a comparação como uma imagem (PNG) otimizada para redes sociais.
 
 ### 6. Tela "Match Legislativo"
 
-- **Quiz Interativo:** Apresentação sequencial de 5 votações polêmicas recentes, sem revelar autores ou partidos26.
-    
-- **Sistema de Votação do Usuário:** Interface para o usuário votar "A Favor", "Contra" ou "Indiferente"27.
-    
-- **Resultado do Match:** Cruzamento das respostas do usuário com a base de dados para exibir os deputados com maior afinidade ideológica28.
-    
+- **Quiz Interativo:** Apresentação sequencial de 5 votações polêmicas recentes, sem revelar autores ou partidos.
+- **Sistema de Votação do Usuário:** Interface para o usuário votar "A Favor", "Contra" ou "Indiferente".
+- **Resultado do Match:** Cruzamento das respostas do usuário com a base de dados para exibir os deputados com maior afinidade ideológica.
 
 ### 7. Tela de Detalhes da Proposição
 
-- **Cabeçalho do Projeto:** Título oficial (ex: PL 2630/2020), autor principal e data29.
+- **Cabeçalho do Projeto:** Título oficial (ex: PL 2630/2020), autor principal e data.
     
-- Funcionalidade "O Que Muda na Minha Vida?" (IA): Box que utiliza IA para traduzir a ementa técnica em uma explicação do impacto prático da lei30.
+- Funcionalidade "O Que Muda na Minha Vida?" (IA): Box que utiliza IA para traduzir a ementa técnica em uma explicação do impacto prático da lei.
     
-- **Timeline Visual (Rastreador):** Barra de progresso (estilo status de delivery) mostrando a etapa atual da tramitação (Comissões, Plenário, Senado, Sanção)31.
+- **Timeline Visual:** Barra de progresso mostrando a etapa atual da tramitação (Comissões, Plenário, Senado, Sanção).
     
-- **Enquete Cidadã:** Widget de engajamento perguntando se o usuário apoiaria o projeto32.
+- **Enquete Cidadã:** Widget de engajamento perguntando se o usuário apoiaria o projeto.
     
-- **Resultado da Enquete:** Exibição em tempo real da porcentagem de opinião dos usuários da plataforma33.
+- **Resultado da Enquete:** Exibição em tempo real da porcentagem de opinião dos usuários da plataforma.
     
-- **Download de Documentos:** Link para baixar o PDF original do projeto (foco em jornalistas/multiplicadores)34.
+- **Download de Documentos:** Link para baixar o PDF original do projeto.
     
-- **Lista de Votos Exportável:** Se o projeto já foi votado, exibe e permite exportar a lista de votos de cada deputado35.
+- **Lista de Votos Exportável:** Se o projeto já foi votado, exibe e permite exportar a lista de votos de cada deputado.
+
+---
+## **6. Técnicas design participativo**
+
+### **1. Card Sorting**
+
+O maior desafio para o nosso projeto é a  Arquitetura da Informação. Precisamos alocar as informações em locais onde sejam logicos garantir que o termo "Uso da cota parlamentar" ou "Votações de alto impacto" estejam onde o usuário mentalmente espera encontrá-los.
+
+Como o foco é individual, o Card Sorting é perfeito para entender o modelo mental de cada usuário sem a influência de grupo.
+
+#### Como aplicar na prática (Passo a Passo)
+
+1. **Prepare os Cartões:** Crie cartões físicos (post-its) ou digitais (Miro/FigJam) com os nomes das funcionalidades e dados listados no documento.
+    
+    - _Exemplos de cartões:_ "Gráfico de Presença" , "Ranking dos mais rebeldes" , "Comparar dois deputados" , "Quiz de Match" , "Link para TV Câmara" , "Gastos com viagem".
+        
+2. **Sessão Individual:** Sente-se com um usuário por vez (recomenda-se 3 a 5 usuários).
+    
+3. **Execução (Card Sorting Aberto):**
+    
+    - Entregue os cartões embaralhados.
+        
+    - Peça: _"Agrupe esses itens da maneira que faz mais sentido para você e dê um nome para cada grupo."_
+        
+    - _O que observar:_ O usuário colocou o "Ranking dos mais rebeldes" dentro da tela de "Partidos" (como você planejou ) ou ele criou um grupo separado chamado "Curiosidades"? Ele agrupou "Comparação" junto com "Match" ou separou?
+        
+4. **Análise:** Se a maioria dos usuários agrupar diferente do seu menu planejado (Deputados, Partidos, Comparador, Match ), você deve alterar a estrutura do seu site para facilitar a navegação.
     
 
 ---
 
-**Gostaria que eu transformasse essa lista de funcionalidades em um Backlog do Produto ou em Histórias de Usuário para facilitar o desenvolvimento?**
+### 2. Prototipagem em Papel
+
+#### Por que escolher?
+
+O documento fornecido já contém esboços manuais (wireframes de baixa fidelidade) das telas. A prototipagem em papel é a evolução natural disso. Ela permite testar fluxos complexos, como o **"Match Legislativo"** ou o **"Comparador"**, de forma rápida e barata antes de gastar tempo codificando ou desenhando no Figma.
+
+Ela é ideal para design participativo individual porque coloca o usuário como "co-autor", permitindo que ele desenhe ou rasgue pedaços do papel para sugerir melhorias na hora.
+
+#### Como aplicar na prática (Passo a Passo)
+
+1. **Materialize os Esboços:** Desenhe as telas principais em folhas A4 baseando-se no PDF:
+    
+    - Tela Inicial com o card "Sessão de Hoje".
+        
+    - Tela de Comparação com os slots vazios para "Deputado A" e "Deputado B".
+        
+    - Tela do Match com as perguntas do Quiz.
+        
+2. **Crie Elementos Móveis:** Recorte pedaços de papel menores para simular interações.
+    
+    - _Exemplo:_ Um pedaço de papel pequeno que diz "Aprovado" ou "Reprovado" para colocar sobre a barra de tramitação.
+        
+    - _Exemplo:_ Recortes com fotos de deputados para o usuário "arrastar" para a área de comparação.
+        
+3. **Defina Tarefas (Cenários de Uso):** Não mostre o desenho e pergunte "está bonito?". Dê uma missão ao usuário.
+    
+    - _Tarefa 1 (Match):_ "Você quer descobrir qual deputado pensa igual a você. Onde você clica? O que você espera que aconteça agora?" (Simule a troca de telas trocando os papéis na mesa).
+        
+    - _Tarefa 2 (Fiscalização):_ "Você quer ver se o Deputado X gasta mais que o Deputado Y. Como você faz isso?".
+        
+4. **Co-criação (O "Pulo do Gato"):** Se o usuário travar ou disser "eu achei que o botão estaria aqui", entregue uma caneta para ele e diga: _"Desenhe onde você clicaria"_. Isso valida se a posição do botão de exportar card ou do seletor de entidades está intuitiva.
+    
+
+---
+
+### Por que não as outras?
+
+- **Brainstorming:** Geralmente funciona melhor em grupo para gerar volume de ideias. Como suas funcionalidades já estão bem definidas no documento (já existe um escopo claro do que é o Match, o Comparador, etc.), o brainstorming pode dispersar o foco.
+    
+- **Análise Contextual:** Envolve observar o usuário em seu ambiente natural. Embora útil, para um projeto acadêmico ou de portfólio, é logisticamente difícil e consome muito tempo. Dado que o objetivo é validar uma interface web, testar a interface (Prototipagem) e a organização (Card Sorting) trará retornos mais imediatos.
+    
+
+### Próximo Passo Sugerido
+
+Gostaria que eu criasse um **Roteiro de Teste** específico para a sessão de Prototipagem em Papel, com as perguntas exatas que você deve fazer ao usuário enquanto ele navega pelas telas de "Match" e "Comparação"?
