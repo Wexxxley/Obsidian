@@ -206,7 +206,7 @@ O Observatório Legislativo lida com dados complexos. O maior desafio é a Arqui
 Essa imagem sera a base utilizada pelo participante.
 ![450](../attachments/Pasted%20image%2020251211094525.png)
 
-- "Agora que organizamos os grupos, vamos desenhar como isso aparece na tela. Imagine esta moldura é a tela inicial do site."
+- "Agora que organizamos os grupos, vamos desenhar como isso aparece na tela. Imagine esta moldura como a tela inicial do site."
     
 - Vamos pedir ao participante para desenhar (formas geométricas) nas telas e ordenar como ele deciciu anteriormente. A ideia é ir modelando de tela em tela.
     

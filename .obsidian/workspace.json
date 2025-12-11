@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Aleatorios/IHC-Observatório Legislativo.md",
+                "file": "16_Aleatorios/Abordagem design participativo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IHC-Observatório Legislativo"
+              "title": "Abordagem design participativo"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "16_Aleatorios/IHC-Observatório Legislativo.md",
+                "file": "16_Aleatorios/Abordagem design participativo.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of IHC-Observatório Legislativo"
+              "title": "Outline of Abordagem design participativo"
             }
           },
           {
@@ -182,6 +182,8 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "16_Aleatorios/IHC-Observatório Legislativo.md",
+    "16_Aleatorios/Abordagem design participativo.md",
     "attachments/Pasted image 20251211094525.png",
     "15_IHC (Cadeira)/2_Processos de design de IHC.md",
     "15_IHC (Cadeira)/3_Design participativo.md",
@@ -200,12 +202,10 @@
     "attachments/Pasted image 20251210080339.png",
     "attachments/Pasted image 20251210080134.png",
     "attachments/Pasted image 20251210075644.png",
-    "attachments/Pasted image 20251210075113.png",
     "16_Aleatorios/Apresentação Entrevista.md",
     "08_Git and github/07_Branches.md",
     "01_Roadmap/1_Junior/3_Docker/8_Multi-Stage Builds no Docker.md",
     "01_Roadmap/1_Junior/3_Docker/9_Volumes docker.md",
-    "16_Aleatorios/IHC-Observatório Legislativo.md",
     "16_Aleatorios/Pedido de crenciais GIT.md",
     "16_Aleatorios/SDT-Sistema VoIP.md",
     "16_Aleatorios/Teste.md",
