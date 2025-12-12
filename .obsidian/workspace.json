@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Roadmap/1_Junior/3_Docker/10. Volumes docker.md",
+                "file": "01_Roadmap/1_Junior/3_Docker/11_Bind mounts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10. Volumes docker"
+              "title": "11_Bind mounts"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Roadmap/1_Junior/3_Docker/10. Volumes docker.md",
+                "file": "01_Roadmap/1_Junior/3_Docker/11_Bind mounts.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 10. Volumes docker"
+              "title": "Outline of 11_Bind mounts"
             }
           },
           {
@@ -182,9 +182,10 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "01_Roadmap/1_Junior/3_Docker/10. Volumes docker.md",
+    "01_Roadmap/1_Junior/3_Docker/11_Bind mounts.md",
     "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
     "16_Aleatorios/1_Blocos obsidian.md",
-    "01_Roadmap/1_Junior/3_Docker/10. Volumes docker.md",
     "01_Roadmap/1_Junior/3_Docker/09_Multi-Stage Builds no Docker.md",
     "01_Roadmap/1_Junior/3_Docker/08_Respondendo perguntas importantes.md",
     "01_Roadmap/1_Junior/3_Docker/07_Camadas de imagens Docker.md",
@@ -213,7 +214,6 @@
     "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "07_FrontEnd/4_React/1_Fundamentos/2_Componente.md",
     "07_FrontEnd/4_React/1_Fundamentos/1_Introdução.md",
-    "16_Aleatorios/Abordagem design participativo.md",
     "attachments/Pasted image 20251211153811.png",
     "attachments/Pasted image 20251211094525.png",
     "attachments/Pasted image 20251210082346.png",
