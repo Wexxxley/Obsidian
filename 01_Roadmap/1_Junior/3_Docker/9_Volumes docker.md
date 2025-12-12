@@ -19,7 +19,7 @@ A sintaxe é simplesmente `VOLUME <diretório-alvo>`.
 Quando você executa um contêiner a partir desta imagem, o Docker cria automaticamente um volume e o anexa ao contêiner. O contêiner terá um diretório em `/data` no qual ele pode ler e escrever normalmente. Mas os dados estão, na verdade, sendo armazenados em um volume, que continuará existindo após o contêiner ser removido. 
 
 ---
-### 3. Criando volume manualmente
+### **3. Criando volume manualmente**
 
 **Criar um volume**
 ```bash
@@ -31,15 +31,13 @@ Usamos a flag -v (ou --mount)
 ```
 docker run -d -v nome-volume:/data nome-container
 ```
-- "Pegue o volume `nome-volume` e faça ele aparecer como a pasta `/data` dentro desse contêiner".
 
-```
-# Lista todos os volumes criados
-docker volume ls
+**Visualizando volumes**
+- Lista todos os volumes criados: docker volume ls
+- Mostra detalhes docker volume inspect nome-volume
 
-# Mostra detalhes (onde ele está fisicamente no seu Linux)
-docker volume inspect nome-volume
-```
+![](../../../attachments/Pasted%20image%2020251212164551.png)
+![](../../../attachments/Pasted%20image%2020251212164603.png)
 
 **Apagar volume**
 Isso apaga os dados permanentemente. O Docker não deixa você apagar um volume que está sendo usado por um contêiner (mesmo parado).

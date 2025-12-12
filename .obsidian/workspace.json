@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Roadmap/1_Junior/3_Docker/9_Volumes docker.md",
+                "file": "01_Roadmap/1_Junior/3_Docker/1_Introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9_Volumes docker"
+              "title": "1_Introdução"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Roadmap/1_Junior/3_Docker/9_Volumes docker.md",
+                "file": "01_Roadmap/1_Junior/3_Docker/1_Introdução.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 9_Volumes docker"
+              "title": "Outline of 1_Introdução"
             }
           },
           {
@@ -182,6 +182,15 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "01_Roadmap/1_Junior/3_Docker/2_Rodando os primeiros containers.md",
+    "01_Roadmap/1_Junior/3_Docker/4_Variáveis de ambiente.md",
+    "01_Roadmap/1_Junior/3_Docker/3_A Arquitetura do Docker e GUI.md",
+    "01_Roadmap/1_Junior/3_Docker/1_Introdução.md",
+    "01_Roadmap/1_Junior/3_Docker/9_Volumes docker.md",
+    "attachments/Pasted image 20251212164603.png",
+    "attachments/Pasted image 20251212164551.png",
+    "attachments/Pasted image 20251212164533.png",
+    "attachments/Pasted image 20251212164446.png",
     "attachments/Pasted image 20251212164045.png",
     "16_Aleatorios/Controllers.md",
     "06_Pyhon/FastAPI/10_Segurança/3_Endpoints de autenticação.md",
@@ -206,18 +215,9 @@
     "attachments/Pasted image 20251210082346.png",
     "attachments/Pasted image 20251210082322.png",
     "attachments/Pasted image 20251210082219.png",
-    "attachments/Pasted image 20251210082049.png",
-    "attachments/Pasted image 20251210080846.png",
-    "attachments/Pasted image 20251210080717.png",
     "06_Pyhon/FastAPI/10_Segurança/1_Token JWT.md",
     "06_Pyhon/FastAPI/10_Segurança/2_Secury.py.md",
-    "attachments/Pasted image 20251210080339.png",
-    "attachments/Pasted image 20251210080134.png",
     "16_Aleatorios/Apresentação Entrevista.md",
-    "08_Git and github/07_Branches.md",
-    "01_Roadmap/1_Junior/3_Docker/8_Multi-Stage Builds no Docker.md",
-    "01_Roadmap/1_Junior/3_Docker/9_Volumes docker.md",
-    "16_Aleatorios/Pedido de crenciais GIT.md",
     "01_Roadmap/1_Junior/3_Docker",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
