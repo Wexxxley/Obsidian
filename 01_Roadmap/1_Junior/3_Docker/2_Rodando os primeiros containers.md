@@ -21,42 +21,9 @@ O objetivo desse contêiner é ser o mais leve possível e confirmar que o docke
 - Cada vez que você roda `docker run`, o Docker cria um **novo contêiner**. É uma nova "caixa" com seu próprio nome e identificação, mesmo rodando a mesma aplicação.
 
 ---
-### **2. Fluxo Build, Share and Run**
+### **2. Rodando servidor web**
 
-Este exemplo simples demonstra o fluxo principal do Docker:
-
-1. **Build:** Alguém empacotou a aplicação.
-2. **Share:** Alguém publicou a imagem em um site público.
-3. **Run:** Você, com acesso, rodou a aplicação.
-
-A grande vantagem é que esse fluxo é o mesmo se a aplicação for um script simples ou um sistema bancário complexo em Java. 
-
----
-### **3. Containers interativos** 
-
-Até agora, os contêineres que rodamos executaram uma tarefa rápida e saíram. Mas você pode rodar um contêiner interativo e conectar um terminal a ele.
-
-Execute o seguinte comando para rodar um contêiner base e entrar nele:
-```
-docker run --interactive --tty diamol/base:2e
-```
-
-- `--interactive` /`-i`: Mantém a conexão aberta para você interagir.
-- `--tty` /`-t`: Simula um terminal de texto.
-
-Agora você está dentro do contêiner. Tente rodar comandos lá dentro:
-1. `hostname`: Vai mostrar o ID do contêiner.
-2. `date`: Mostra a data/hora.
-3. Para sair, digite `exit`. 
-
-![](../../../attachments/Pasted%20image%2020251207141745.png)
-
----
-### **4. Rodando servidor web**
-
-A maioria das aplicações reais não são scripts interativos, mas sim servidores que rodam continuamente em segundo plano.
-
-Antes de prosseguir, entenda o **ciclo de vida**:
+A maioria das aplicações reais são servidores que rodam continuamente em segundo plano. Antes de prosseguir, entenda o **ciclo de vida**:
 
 1. Um contêiner roda apenas enquanto o processo principal dele estiver rodando.
 2. Quando o processo para, o contêiner entra no estado parado.
@@ -75,9 +42,9 @@ Agora, abra seu navegador e acesse: http://localhost:8088.
 ![](../../../attachments/Pasted%20image%2020251207142758.png)
 
 ---
-### **5. Gerenciando containers**
+### **3. Gerenciando containers**
 
-1. **Listar rodando:** `docker container ls` mostra apenas os ativos.
+1. **Listar:** `docker container ls` mostra apenas os ativos.
     
 2. **Ver processos:** `docker container top <ID>` mostra os processos rodando dentro de um contêiner específico.
     
