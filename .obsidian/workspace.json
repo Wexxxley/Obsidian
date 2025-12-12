@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_Pyhon/FastAPI/9_Testes.md",
+                "file": "16_Aleatorios/Controllers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9_Testes"
+              "title": "Controllers"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06_Pyhon/FastAPI/9_Testes.md",
+                "file": "16_Aleatorios/Controllers.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 9_Testes"
+              "title": "Outline of Controllers"
             }
           },
           {
@@ -182,8 +182,11 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "06_Pyhon/FastAPI/8_Tornando assíncrono.md",
+    "06_Pyhon/FastAPI/10_Segurança/3_Endpoints de autenticação.md",
+    "06_Pyhon/FastAPI/3_Logging.md",
+    "06_Pyhon/FastAPI/6_Pagination.md",
     "06_Pyhon/FastAPI/9_Testes.md",
+    "06_Pyhon/FastAPI/8_Tornando assíncrono.md",
     "06_Pyhon/FastAPI/1.md",
     "06_Pyhon/FastAPI/8_Tornando asyncrono.md",
     "06_Pyhon/FastAPI/7_Servindo arquivos estáticos.md",
@@ -207,7 +210,6 @@
     "attachments/Pasted image 20251210080717.png",
     "06_Pyhon/FastAPI/10_Segurança/1_Token JWT.md",
     "06_Pyhon/FastAPI/10_Segurança/2_Secury.py.md",
-    "06_Pyhon/FastAPI/10_Segurança/3_Endpoints de autenticação.md",
     "attachments/Pasted image 20251210080339.png",
     "attachments/Pasted image 20251210080134.png",
     "16_Aleatorios/Apresentação Entrevista.md",
@@ -216,8 +218,6 @@
     "01_Roadmap/1_Junior/3_Docker/9_Volumes docker.md",
     "16_Aleatorios/Pedido de crenciais GIT.md",
     "16_Aleatorios/SDT-Sistema VoIP.md",
-    "16_Aleatorios/Teste.md",
-    "01_Roadmap/1_Junior/3_Docker/7_Respondendo perguntas importantes.md",
     "01_Roadmap/1_Junior/3_Docker",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",

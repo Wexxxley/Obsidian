@@ -32,10 +32,6 @@
 - **POST** `/auth/activate_account` (Para o fluxo de convite)
     - 🔒 **Nível:** Público (com Token de ativação)
     - **Lógica:** Endpoint usado quando o usuário clica no e-mail de "Bem-vindo" para definir a primeira senha.
-    
-- **GET** `/users/me`
-	- 🔒 **Nível:** Todos os autenticados
-	- Retorna os dados do usuário logado (baseado no token JWT).
 
 **O comportamento dos tokens:**
 1. O usuário faz login na Segunda. Ganha um Token (30m) e um Refresh Token (7 dias).
@@ -84,6 +80,10 @@
 - **DELETE** `/users/delete/{user_id}`
     - 🔒 **Nível:** Gestor
     - Realiza a desativação (soft delete) do usuário.
+
+- **GET** `/users/me`
+	- 🔒 **Nível:** Todos os autenticados
+	- Retorna os dados do usuário logado (baseado no token JWT).
 
 ---
 ### 3. RecursoController
