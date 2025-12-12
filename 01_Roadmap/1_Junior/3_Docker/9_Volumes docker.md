@@ -2,70 +2,16 @@
 
 
 ---
-Todo contêiner tem seu próprio sistema de arquivos, um disco virtual. Esse disco é montado pelo Docker juntando as camadas da imagem (que são fixas). Cada contêiner tem seu próprio disco isolado. Mesmo que você rode 10 contêineres da mesma imagem, se você alterar um arquivo no "Contêiner A", o "Contêiner B" não saberá disso.
-#### O Problema da Persistência (Ciclo de Vida)
+Todo contêiner tem seu próprio sistema de arquivos, um disco virtual. Esse disco é montado pelo Docker juntando as camadas da imagem (que são fixas). Mas quando um container é apagado, esses dados são perdidos. Você nunca deve confiar na camada de escrita do contêiner para dados importantes. Para isso, precisamos de Volumes.
 
-A camada de escrita (onde ficam seus dados novos) tem o mesmo ciclo de vida do contêiner.
-
-- Se você **parar** (`stop`) o contêiner, os dados permanecem lá.
-    
-- Se você **remover** (`rm`) o contêiner, **a camada de escrita é destruída e os dados são perdidos para sempre**3.
-    
-
-Vamos ver isso na prática com um contêiner que permite editar arquivos.
-
-**Tente agora:**
-
-1. Rode um contêiner chamado f1:
-    
-    docker container run --name f1 diamol/ch06-file-display:2e
-    
-    (Ele vai mostrar o conteúdo de um arquivo texto padrão).
-    
-2. Modifique esse arquivo dentro do contêiner (vamos sobrescrever o texto):
-    
-    echo "https://blog.sixeyed.com" > url.txt
-    
-    docker container cp url.txt f1:/input.txt
-    
-3. Inicie o contêiner novamente (ele vai ler o arquivo modificado):
-    
-    docker container start --attach f1
-    
-    (Agora ele mostra o novo texto, provando que a alteração persistiu enquanto o contêiner existia).
-    
-4. **Agora o teste destrutivo:** Remova o contêiner e crie um novo com o mesmo nome:
-    
-    Bash
-    
-    ```
-    docker container rm -f f1
-    docker container run --name f1 diamol/ch06-file-display:2e
-    ```
-    
-
-O que aconteceu?
-
-O novo contêiner f1 mostrou o texto original da imagem. A sua alteração foi perdida quando você rodou o comando rm.
-
-**Conclusão:** Você nunca deve confiar na camada de escrita do contêiner para dados importantes (banco de dados, uploads). Para isso, precisamos de **Volumes**.
-
----
-
-### 6.2 Executando contêineres com Volumes Docker
-
-Um **Volume Docker** é como um pen drive USB virtual.
-
+Um Volume Docker é como um pen drive USB virtual.
 - Ele existe independentemente do contêiner.
-    
 - Ele tem seu próprio ciclo de vida (você pode apagar o contêiner e o volume fica lá).
-    
 - Você pode "plugar" (anexar) esse volume em qualquer contêiner.
-    
 
-Você pode criar volumes manualmente ou instruir o Docker a criá-los automaticamente através do comando `VOLUME` dentro de um Dockerfile4.
+Você pode criar volumes manualmente ou instruir o Docker a criá-los automaticamente através do comando `VOLUME` dentro de um Dockerfile.
 
-#### Volumes definidos no Dockerfile
+### **Volumes definidos no Dockerfile**
 
 A imagem do próximo exercício (`diamol/ch06-todo-list:2e`) foi construída com a instrução `VOLUME /data`. Isso diz ao Docker: _"Sempre que alguém rodar este contêiner, crie um volume automaticamente e conecte-o na pasta `/data`"_.
 
