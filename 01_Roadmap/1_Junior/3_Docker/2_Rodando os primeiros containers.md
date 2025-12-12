@@ -40,14 +40,3 @@ docker container run --detach --publish 8088:80 diamol/ch02-hello-diamol-web:2e
 Agora, abra seu navegador e acesse: http://localhost:8088.
 
 ![](../../../attachments/Pasted%20image%2020251207142758.png)
-
----
-### **3. Gerenciando containers**
-
-1. **Listar:** `docker container ls` mostra apenas os ativos.
-    
-2. **Ver processos:** `docker container top <ID>` mostra os processos rodando dentro de um contêiner específico.
-    
-3. **Ver logs:** `docker container logs <ID>` mostra tudo que o aplicativo escreveu na tela. Isso é crucial para debugar apps que rodam em segundo plano.
-    
-4. **Inspecionar:** `docker container inspect <ID>` mostra todos os detalhes técnicos (IP, caminhos de disco, variáveis de ambiente) em formato JSON.

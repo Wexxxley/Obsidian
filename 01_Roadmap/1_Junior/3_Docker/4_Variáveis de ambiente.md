@@ -24,6 +24,6 @@ docker container logs web-ping
 Esse aplicativo foi programado para ler configurações a partir de variáveis de Ambiente. No Docker, você pode injetar essas variáveis quando inicia o contêiner. Remova o contêiner antigo e inicie um novo, mas desta vez alterando o alvo.
 `docker container run --env TARGET=google.com diamol/ch03-web-ping:2e`
 - --env define a variável.
-- 
+
 ![](../../../attachments/Pasted%20image%2020251207155245.png)
 
