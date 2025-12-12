@@ -10,58 +10,78 @@ Um Volume Docker é como um pen drive USB virtual.
 - Você pode "plugar" (anexar) esse volume em qualquer contêiner.
 
 Você pode criar volumes manualmente ou instruir o Docker a criá-los automaticamente através do comando `VOLUME` dentro de um Dockerfile.
+Vou explicar de forma direta, usando uma analogia que todo estudante de computação entende.
 
-### **Volumes definidos no Dockerfile**
+No Linux, o Docker guarda esses Volumes numa pasta segura (`/var/lib/docker/volumes/`), longe da bagunça dos seus arquivos pessoais.
 
-A imagem do próximo exercício (`diamol/ch06-todo-list:2e`) foi construída com a instrução `VOLUME /data`. Isso diz ao Docker: _"Sempre que alguém rodar este contêiner, crie um volume automaticamente e conecte-o na pasta `/data`"_.
+#### 1. Criar um Volume (Comprar o HD Externo)
 
-Tente agora:
+Você dá um nome para ele, para poder achá-lo depois.
 
-Rode o aplicativo de lista de tarefas (To-Do List):
+Bash
 
-1. Rode o contêiner em background:
-    
-    docker container run --name todo1 -d -p 8010:8080 diamol/ch06-todo-list:2e
-    
-2. Verifique se o Docker realmente criou um volume para ele:
-    
-    docker container inspect --format '{{json .Mounts}}' todo1
-    
+```
+docker volume create dados-do-banco
+```
 
-Você verá na saída que o `Type` é `volume` e que existe um `Name` (um ID longo aleatório) para esse volume5.
+#### 2. Usar o Volume (Plugar o HD no Contêiner)
 
-3. Acesse `http://localhost:8010` e adicione algumas tarefas na lista.
-    
-    - Esses dados estão sendo salvos num arquivo dentro da pasta `/data`, que agora vive em um **Volume**, não na camada de escrita descartável.
-        
+Essa é a parte mais importante. Usamos a flag -v (ou --mount).
 
-#### Compartilhando Volumes (O jeito rápido)
+A sintaxe é: -v nome-do-volume:/onde/ele/vai/aparecer/no/container
 
-Se você iniciar um segundo contêiner, ele terá o próprio volume vazio. Mas e se você quiser que o segundo contêiner veja os dados do primeiro?
+Bash
 
-Você pode usar a flag `--volumes-from`.
+```
+# Exemplo genérico
+docker run -d -v dados-do-banco:/data minha-imagem
+```
 
-**Tente agora:**
+_Isso diz: "Pegue o volume `dados-do-banco` e faça ele aparecer como a pasta `/data` dentro desse contêiner"._
 
-1. Rode um novo contêiner (t3) e diga para ele usar os volumes do todo1:
-    
-    docker container run -d --name t3 --volumes-from todo1 diamol/ch06-todo-list:2e
-    
-2. Verifique se o `t3` consegue ver os arquivos criados pelo `todo1`:
-    
-    - No Linux/Mac: `docker container exec t3 ls /data`
-        
-    - No Windows: `docker container exec t3 cmd /C "dir C:\data"`
-        
+#### 3. Listar e Inspecionar (Ver o que você tem)
 
-Você verá os arquivos de banco de dados (`todo-list.db`) lá dentro. O contêiner `t3` está lendo o mesmo "pen drive" que o `todo1` 6.
+Bash
+
+```
+# Lista todos os volumes criados
+docker volume ls
+
+# Mostra detalhes (onde ele está fisicamente no seu Linux)
+docker volume inspect dados-do-banco
+```
+
+#### 4. Apagar o Volume (Jogar o HD fora)
+
+Cuidado: isso apaga os dados permanentemente. O Docker não deixa você apagar um volume que está sendo usado por um contêiner (mesmo parado).
+
+Bash
+
+```
+docker volume rm dados-do-banco
+```
 
 ---
 
-**Fim da primeira parte do Capítulo 6.**
+### Resumo da Prática que acabamos de fazer
 
-Até aqui vimos que contêineres perdem dados ao serem apagados e que volumes anônimos (com IDs aleatórios) resolvem a persistência.
+Aplicando isso ao exercício do livro que você acabou de rodar:
 
-Na próxima parte, vamos ver como usar **Volumes Nomeados** (Named Volumes) para fazer a atualização de uma aplicação sem perder os dados do usuário.
+1. **O Problema:** O app To-Do salva as tarefas num arquivo dentro da pasta `/data` do contêiner. Se o contêiner morre, a pasta `/data` morre junto.
+    
+2. **A Solução:**
+    
+    - Criamos o "HD Externo": `docker volume create todo-list`.
+        
+    - Rodamos o container V1 plugando o HD na pasta do app: `-v todo-list:/data`.
+        
+    - O app gravou as tarefas no "HD Externo".
+        
+    - Destruímos o container V1 (o notebook queimou).
+        
+    - Rodamos o container V2 plugando o **mesmo** HD na mesma pasta: `-v todo-list:/data`.
+        
+    - **Mágica:** A versão 2 leu o "HD Externo" e achou as tarefas da versão 1.
+        
 
-Podemos continuar para a **Seção 6.2 (Continuação - Volumes Nomeados)**?
+Ficou mais claro e direto dessa forma?
