@@ -29,10 +29,7 @@ CMD ["node", "/web-ping/app.js"]
     
 4. **`COPY`**: Copia arquivos ou diretórios do seu computador local para dentro da imagem. Aqui, estamos copiando o código da aplicação (`app.js`) para a pasta de trabalho.
     
-5. **`CMD`**: Especifica o comando que será executado quando o Docker iniciar um contêiner a partir desta imagem. Aqui, ele manda o Node executar o arquivo javascript.
-
-Para construir essa imagem, você precisa dos arquivos no seu computador Navegue até a pasta do exercício. Você verá dois arquivos: `Dockerfile` e `app.js`. O `app.js` é o código da aplicação Node.js
-![](../../../attachments/Pasted%20image%2020251207154916.png)
+5. **`CMD`**: Especifica o comando que será executado quando o Docker iniciar um contêiner a partir desta imagem. 
 
 ---
 ### **2. Construindo imagem a partir do Dockerfile**
@@ -47,7 +44,6 @@ Execute o seguinte comando para transformar seu Dockerfile em uma imagem:
 - `.`: O argumento final é crucial. Ele diz ao Docker que o build context é o diretório atual. O Docker vai pegar todos os arquivos desta pasta e enviar para o motor construir a imagem.
 
 Você verá o Docker executando cada instrução do Dockerfile sequencialmente 
-
 - Se for a primeira vez, ele baixa a imagem base
 - Depois, executa os comandos (`ENV`, `WORKDIR`, `COPY`, `CMD`).    
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Roadmap/1_Junior/3_Docker/3_Gerenciando containers e imagens.md",
+                "file": "01_Roadmap/1_Junior/3_Docker/10. Volumes docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Gerenciando containers e imagens"
+              "title": "10. Volumes docker"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Roadmap/1_Junior/3_Docker/3_Gerenciando containers e imagens.md",
+                "file": "01_Roadmap/1_Junior/3_Docker/10. Volumes docker.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_Gerenciando containers e imagens"
+              "title": "Outline of 10. Volumes docker"
             }
           },
           {
@@ -182,12 +182,16 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "01_Roadmap/1_Junior/3_Docker/1_Introdução.md",
-    "01_Roadmap/1_Junior/3_Docker/3_Gerenciando containers e imagens.md",
-    "01_Roadmap/1_Junior/3_Docker/3_A Arquitetura do Docker e GUI.md",
-    "01_Roadmap/1_Junior/3_Docker/2_Rodando os primeiros containers.md",
-    "01_Roadmap/1_Junior/3_Docker/4_Variáveis de ambiente.md",
-    "01_Roadmap/1_Junior/3_Docker/9_Volumes docker.md",
+    "01_Roadmap/1_Junior/3_Docker/09_Multi-Stage Builds no Docker.md",
+    "01_Roadmap/1_Junior/3_Docker/08_Respondendo perguntas importantes.md",
+    "01_Roadmap/1_Junior/3_Docker/07_Camadas de imagens Docker.md",
+    "01_Roadmap/1_Junior/3_Docker/06_Dockerfile.md",
+    "01_Roadmap/1_Junior/3_Docker/10. Volumes docker.md",
+    "01_Roadmap/1_Junior/3_Docker/05_Variáveis de ambiente.md",
+    "01_Roadmap/1_Junior/3_Docker/04_A Arquitetura do Docker e GUI.md",
+    "01_Roadmap/1_Junior/3_Docker/03_Gerenciando containers e imagens.md",
+    "01_Roadmap/1_Junior/3_Docker/02_Rodando os primeiros containers.md",
+    "01_Roadmap/1_Junior/3_Docker/01_Introdução.md",
     "attachments/Pasted image 20251212164603.png",
     "attachments/Pasted image 20251212164551.png",
     "attachments/Pasted image 20251212164533.png",
@@ -211,13 +215,9 @@
     "attachments/Pasted image 20251211094525.png",
     "15_IHC (Cadeira)/2_Processos de design de IHC.md",
     "15_IHC (Cadeira)/3_Design participativo.md",
-    "06_Pyhon/FastAPI/10_Segurança/5_Autorização.md",
-    "06_Pyhon/FastAPI/10_Segurança/4_Lógica de convite.md",
     "attachments/Pasted image 20251210082346.png",
     "attachments/Pasted image 20251210082322.png",
     "attachments/Pasted image 20251210082219.png",
-    "06_Pyhon/FastAPI/10_Segurança/1_Token JWT.md",
-    "06_Pyhon/FastAPI/10_Segurança/2_Secury.py.md",
     "01_Roadmap/1_Junior/3_Docker",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
