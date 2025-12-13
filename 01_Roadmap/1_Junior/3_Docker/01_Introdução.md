@@ -28,3 +28,10 @@ As VMs resolvem o isolamento, mas são pesadas. Cada VM precisa de seu próprio 
 Cada contêiner tem seu ambiente virtual isolado. Mas todos compartilham o mesmo Sistema Operacional do computador. Isso os torna extremamente leves. V
 
 ![](../../../attachments/Pasted%20image%2020251207141954.png)
+
+---
+### **2. E o que é uma imagem?**
+
+Uma imagem é um modelo **somente leitura** com instruções para criar um contêiner Docker. Frequentemente, uma imagem é baseada em outra imagem, com alguma personalização adicional. Por exemplo, você pode construir uma imagem baseada na imagem `ubuntu`, mas que instala o servidor web Apache e sua aplicação, bem como os detalhes de configuração necessários para fazer sua aplicação rodar.
+
+Você pode criar suas próprias imagens ou usar apenas aquelas criadas por outros e publicadas em um registro. Para construir sua própria imagem, você cria um **Dockerfile** com uma sintaxe simples para definir os passos necessários para criar a imagem e executá-la. Cada instrução em um Dockerfile cria uma camada na imagem. Quando você altera o Dockerfile e reconstrói a imagem, apenas as camadas que mudaram são reconstruídas. Isso é parte do que torna as imagens tão leves, pequenas e rápidas quando comparadas a outras tecnologias de virtualização.
