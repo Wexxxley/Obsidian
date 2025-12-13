@@ -54,35 +54,22 @@ networks:       # Definição das redes
 
 
 ---
-### 3. Gerenciando a aplicação (Parar e Limpar)
+### **3. Gerenciando a aplicação**
 
-O poder do Compose também está em desligar as coisas. Lembra como era chato parar e remover vários contêineres e redes na mão?
-
-Iniciando a aplicação inteira:    
+**Iniciando a aplicação inteira:**    
 - `docker-compose up -d`
 - `up`: Cria e inicia tudo o que está no arquivo.
 - `-d`: Roda em segundo plano.
 
-Verificando status: 
+**Verificando status:** 
 - `docker-compose ps`
 - Isso mostra apenas os contêineres deste projeto, ignorando outros contêineres do seu sistema.
 
+**Parando containers:**
+- `docker-compose stop`
+- Só para os containers
 
-1. **Para parar e remover TUDO:**
-    
-    Bash
-    
-    ```
-    docker-compose down
-    ```
-    
-    - Esse comando para os contêineres.
-        
-    - Remove os contêineres.
-        
-    - **Remove a rede** que ele criou para o app.
-        
-    - (Ele só **não** remove volumes externos, para proteger seus dados).
-        
-
----
+**Para parar e remover TUDO:**
+- `docker-compose down`    
+- Deleta os contêineres. Remove a rede que foi criada para eles se comunicarem.
+- Mas mantem a imagem e os volumes.

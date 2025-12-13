@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Roadmap/1_Junior/3_Docker/12_Docker compose.md",
+                "file": "01_Roadmap/1_Junior/3_Docker/05_Dockerfile.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12_Docker compose"
+              "title": "05_Dockerfile"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Roadmap/1_Junior/3_Docker/12_Docker compose.md",
+                "file": "01_Roadmap/1_Junior/3_Docker/05_Dockerfile.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 12_Docker compose"
+              "title": "Outline of 05_Dockerfile"
             }
           },
           {
@@ -182,21 +182,21 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "01_Roadmap/1_Junior/3_Docker/10_Volumes docker.md",
-    "01_Roadmap/1_Junior/3_Docker/12_Docker compose.md",
+    "01_Roadmap/1_Junior/3_Docker/06_Variáveis de ambiente.md",
+    "01_Roadmap/1_Junior/3_Docker/05_Dockerfile.md",
+    "01_Roadmap/1_Junior/3_Docker/04_A Arquitetura do Docker e GUI.md",
+    "01_Roadmap/1_Junior/3_Docker/03_Gerenciando containers e imagens.md",
+    "01_Roadmap/1_Junior/3_Docker/02_Rodando os primeiros containers.md",
+    "01_Roadmap/1_Junior/3_Docker/01_Introdução.md",
+    "01_Roadmap/1_Junior/3_Docker/11_Docker compose.md",
     "01_Roadmap/1_Junior/3_Docker/11_Bind mounts.md",
+    "01_Roadmap/1_Junior/3_Docker/10_Volumes docker.md",
     "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
     "16_Aleatorios/1_Blocos obsidian.md",
     "01_Roadmap/1_Junior/3_Docker/09_Multi-Stage Builds no Docker.md",
     "01_Roadmap/1_Junior/3_Docker/08_Respondendo perguntas importantes.md",
     "01_Roadmap/1_Junior/3_Docker/07_Camadas de imagens Docker.md",
     "attachments/Pasted image 20251212190355.png",
-    "01_Roadmap/1_Junior/3_Docker/06_Dockerfile.md",
-    "01_Roadmap/1_Junior/3_Docker/05_Variáveis de ambiente.md",
-    "01_Roadmap/1_Junior/3_Docker/04_A Arquitetura do Docker e GUI.md",
-    "01_Roadmap/1_Junior/3_Docker/03_Gerenciando containers e imagens.md",
-    "01_Roadmap/1_Junior/3_Docker/02_Rodando os primeiros containers.md",
-    "01_Roadmap/1_Junior/3_Docker/01_Introdução.md",
     "attachments/Pasted image 20251212164603.png",
     "attachments/Pasted image 20251212164551.png",
     "attachments/Pasted image 20251212164533.png",

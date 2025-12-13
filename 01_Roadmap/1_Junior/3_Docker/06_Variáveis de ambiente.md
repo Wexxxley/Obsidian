@@ -2,7 +2,6 @@
 #Concluded 
 
 ---
-
 Vamos executar o execício web-ping. O objetivo é verificar se um site está no ar. Ela roda em um contêiner e faz requisições HTTP para uma URL (por padrão, o blog do autor) a cada 3 segundos.
 
 Baixe a imagem da aplicação web-ping:

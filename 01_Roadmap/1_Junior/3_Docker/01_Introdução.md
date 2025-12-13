@@ -28,5 +28,3 @@ As VMs resolvem o isolamento, mas são pesadas. Cada VM precisa de seu próprio 
 Cada contêiner tem seu ambiente virtual isolado. Mas todos compartilham o mesmo Sistema Operacional do computador. Isso os torna extremamente leves. V
 
 ![](../../../attachments/Pasted%20image%2020251207141954.png)
-
----

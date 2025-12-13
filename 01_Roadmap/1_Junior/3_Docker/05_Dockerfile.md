@@ -40,8 +40,7 @@ Execute o seguinte comando para transformar seu Dockerfile em uma imagem:
 `docker image build --tag web-ping .`
 
 - `--tag`/`-t`: Define o nome da imagem como web-ping.
-    
-- `.`: O argumento final é crucial. Ele diz ao Docker que o build context é o diretório atual. O Docker vai pegar todos os arquivos desta pasta e enviar para o motor construir a imagem.
+- `.`: Ele diz ao Docker que o build context é o diretório atual. O Docker vai pegar todos os arquivos desta pasta e enviar para o motor construir a imagem.
 
 Você verá o Docker executando cada instrução do Dockerfile sequencialmente 
 - Se for a primeira vez, ele baixa a imagem base
