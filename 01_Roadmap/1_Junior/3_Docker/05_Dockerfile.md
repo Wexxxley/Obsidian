@@ -42,9 +42,5 @@ Execute o seguinte comando para transformar seu Dockerfile em uma imagem:
 - `--tag`/`-t`: Define o nome da imagem como web-ping.
 - `.`: Ele diz ao Docker que o build context é o diretório atual. O Docker vai pegar todos os arquivos desta pasta e enviar para o motor construir a imagem.
 
-Você verá o Docker executando cada instrução do Dockerfile sequencialmente 
-- Se for a primeira vez, ele baixa a imagem base
-- Depois, executa os comandos (`ENV`, `WORKDIR`, `COPY`, `CMD`).    
-
 Agora que a imagem foi construída, ela está armazenada no seu computador. Agora você pode executala: 
 ![](../../../attachments/Pasted%20image%2020251207183011.png)
