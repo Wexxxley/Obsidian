@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Roadmap/1_Junior/3_Docker/12_Redes docker.md",
+                "file": "01_Roadmap/1_Junior/3_Docker/11_Docker compose.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12_Redes docker"
+              "title": "11_Docker compose"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Roadmap/1_Junior/3_Docker/12_Redes docker.md",
+                "file": "01_Roadmap/1_Junior/3_Docker/11_Docker compose.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 12_Redes docker"
+              "title": "Outline of 11_Docker compose"
             }
           },
           {
@@ -182,9 +182,9 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "01_Roadmap/1_Junior/3_Docker/10_Volumes docker.md",
     "01_Roadmap/1_Junior/3_Docker/11_Docker compose.md",
     "01_Roadmap/1_Junior/3_Docker/12_Redes docker.md",
-    "01_Roadmap/1_Junior/3_Docker/10_Volumes docker.md",
     "01_Roadmap/1_Junior/3_Docker/09_Multi-Stage Builds no Docker.md",
     "01_Roadmap/1_Junior/3_Docker/08_Respondendo perguntas importantes.md",
     "01_Roadmap/1_Junior/3_Docker/07_Camadas de imagens Docker.md",
