@@ -1,14 +1,16 @@
-'''''
+```json
+
 {
-  "roadmapTitle": "DevOps Basic",
+  "roadmapTitle": "Carreira BACKEND",
   "version": "1.0",
   "theme": "dark",
-  // CAMADA 1: O VISUAL (O que aparece na Imagem 1)
+
+  // Camada do roadmap visual
   "canvas": {
     "nodes": [
       {
         "id": "node-1",
-        "type": "start", // O ícone de largada
+        "type": "start",
         "position": { "x": 0, "y": 0 },
         "data": { "label": "Start" }
       },
@@ -18,8 +20,8 @@
         "position": { "x": 0, "y": 200 },
         "data": { 
           "label": "Fundamentos",
-          "color": "#E1BEE7", // A cor roxa da imagem
-          "sectionId": "section-abc" // <--- O ELO DE LIGAÇÃO
+          "color": "#E1BEE7", 
+          "sectionId": "section-abc" // O ELO DE LIGAÇÃO
         }
       },
       {
@@ -40,19 +42,19 @@
         "id": "edge-2",
         "source": "node-3",
         "target": "node-2",
-        "style": "dashed" // Linha tracejada da imagem
+        "style": "dashed" // Linha tracejada 
       }
     ]
   },
 
-  // CAMADA 2: OS DETALHES (O que aparece na Imagem 2 quando clica)
+  // Camadas de conteúdos
   "sections": {
-    "section-abc": { // Conteúdo do nó "Fundamentos"
+    "section-abc": {
       "title": "Fundamentos da Computação",
       "description": "Base teórica necessária antes de codar.",
       "groups": [
         {
-          "type": "book-shelf", // O grupo pontilhado da imagem 2
+          "type": "book-shelf",
           "title": "Livros que eu indico",
           "items": [
             {
@@ -78,3 +80,4 @@
     }
   }
 }
+```
