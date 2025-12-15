@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#f8fafc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,6 +184,12 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251215093514.png",
+    "attachments/Pasted image 20251215093457.png",
+    "attachments/Pasted image 20251215093409.png",
+    "attachments/Pasted image 20251215093350.png",
+    "attachments/Pasted image 20251215093316.png",
+    "attachments/Pasted image 20251215093125.png",
     "attachments/Pasted image 20251215092650.png",
     "attachments/Pasted image 20251215092452.png",
     "attachments/Pasted image 20251215092358.png",
@@ -208,17 +215,11 @@
     "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
     "16_Aleatorios/1_Blocos obsidian.md",
     "attachments/Pasted image 20251212190355.png",
-    "attachments/Pasted image 20251212164603.png",
-    "attachments/Pasted image 20251212164551.png",
-    "attachments/Pasted image 20251212164533.png",
-    "attachments/Pasted image 20251212164446.png",
-    "attachments/Pasted image 20251212164045.png",
     "16_Aleatorios/Controllers.md",
     "06_Pyhon/FastAPI/10_Segurança/3_Endpoints de autenticação.md",
     "06_Pyhon/FastAPI/3_Logging.md",
     "06_Pyhon/FastAPI/6_Pagination.md",
     "06_Pyhon/FastAPI/9_Testes.md",
-    "attachments/Pasted image 20251211153811.png",
     "01_Roadmap/1_Junior/3_Docker",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",

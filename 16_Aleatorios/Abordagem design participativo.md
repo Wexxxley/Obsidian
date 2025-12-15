@@ -28,31 +28,34 @@ Essa imagem sera a base utilizada pelo participante.
 - Iremos testar também a reação e a leitura de diferentes fontes.
 
 **OP1:**
-https://www.realtimecolors.com/?colors=00180d-ffffff-00ff84-006c41-008423&fonts=Inter-Inter
---text: #00180d;
---background: #ffffff;
---primary: #00ff84;
---secondary: #006c41;
---accent: #008423;
-![](../attachments/Pasted%20image%2020251215091318.png)
+https://www.realtimecolors.com/?colors=061e14-f7fcf9-00d66f-025939-d1fae5&fonts=Inter-Inter
+--text: #061e14;
+--background: #f7fcf9;
+--primary: #00d66f;
+--secondary: #025939;
+--accent: #d1fae5;
+![](../attachments/Pasted%20image%2020251215093125.png)
+![](../attachments/Pasted%20image%2020251215093316.png)
 
 **OP2:**
 https://www.realtimecolors.com/?colors=e2e8f0-0f172a-14b8a6-1e293b-818cf8&fonts=Inter-Inter
---text: #e2e8f0;
---background: #0f172a;
---primary: #14b8a6;
---secondary: #1e293b;
---accent: #818cf8;
+--text: #10161e;
+--background: #d6def0;
+--primary: #47ebd8;
+--secondary: #c5d0e2;
+--accent: #07137d;
+![](../attachments/Pasted%20image%2020251215093350.png)
 ![](../attachments/Pasted%20image%2020251215092650.png)
 
 **OP3**:
-https://www.realtimecolors.com/?colors=0f172a-f8fafc-3b82f6-334155-6366f1&fonts=Inter-Inter
---text: #0f172a;
---background: #f8fafc;
---primary: #3b82f6;
---secondary: #334155;
---accent: #6366f1;
-![](../attachments/Pasted%20image%2020251215092452.png)
+https://www.realtimecolors.com/?colors=d6def0-121212-0950c3-a9b7cb-0d0f9c&fonts=Inter-Inter
+--text: #0f1729;
+--background: #ededed;
+--primary: #3c83f6;
+--secondary: #344256;
+--accent: #6366f2;
+![](../attachments/Pasted%20image%2020251215093457.png)
+![](../attachments/Pasted%20image%2020251215093514.png)
 
 ---
 ### **Lista de Cartões**
