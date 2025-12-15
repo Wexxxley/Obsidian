@@ -2,10 +2,9 @@
 #Concluded 
 
 ---
-
 ### **1. URL (Uniform Resource Locator)**
 
-O URL identifica um recurso especificando sua localização na rede e o protocolo para acessá-lo.
+O URL(Uniform Resource Locator) identifica um recurso especificando sua localização na rede e o protocolo para acessá-lo.
 
 ![](../../attachments/Pasted%20image%2020251118164306.png)
 

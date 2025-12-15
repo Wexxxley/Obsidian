@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Redes de computadores/2_Camada Aplicação/3_Web server vs. Application server.md",
+                "file": "03_Redes de computadores/2_Camada Aplicação/5_URL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Web server vs. Application server"
+              "title": "5_URL"
             }
           }
         ]
@@ -183,6 +183,8 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "03_Redes de computadores/2_Camada Aplicação/4_Protocolo HTTP.md",
+    "03_Redes de computadores/2_Camada Aplicação/3_Servidor Web.md",
     "03_Redes de computadores/2_Camada Aplicação/2_Requisitos de aplicações.md",
     "03_Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
     "03_Redes de computadores/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
@@ -217,8 +219,6 @@
     "attachments/Pasted image 20251215093514.png",
     "attachments/Pasted image 20251215093457.png",
     "01_Roadmap/1_Junior/3_Docker/08_Respondendo perguntas importantes.md",
-    "16_Aleatorios/Untitled.md",
-    "01_Roadmap/1_Junior/3_Docker/06_Variáveis de ambiente.md",
     "01_Roadmap/1_Junior/3_Docker",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
