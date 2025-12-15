@@ -16,6 +16,8 @@ Vamos supor que duas aplicações HTTP rodam internamente, em portas diferentes 
         
 Para o usuário final, ambas as aplicações parecem estar rodando na porta 80, mas em domínios diferentes. A complexidade das portas internas (`:3000`, `:8080`) fica totalmente escondida do usuário. É assim que um único servidor pode hospedar centenas de sites diferentes usando um único endereço IP.
 
+![](../../attachments/Pasted%20image%2020251215190915.png)
+
 ---
 ### **2. Outras Funções de um Proxy Reverso**
 
@@ -26,6 +28,3 @@ Para o usuário final, ambas as aplicações parecem estar rodando na porta 80, 
 3. **Caching de Conteúdo Estático:** O proxy reverso pode armazenar em cache arquivos que não mudam com frequência, como imagens (`.png`), arquivos de estilo (`.css`) e scripts (`.js`). 
     
 4. **Segurança e WAF (Web Application Firewall):** Como todo o tráfego passa por ele, o proxy reverso é o local ideal para filtrar tráfego malicioso. Você pode instalar um **WAF** nele para bloquear automaticamente ataques comuns.
-    
-5. **Compressão:** O proxy pode comprimir as respostas antes de enviá-las ao usuário, mesmo que a aplicação interna não tenha feito isso. 
-    

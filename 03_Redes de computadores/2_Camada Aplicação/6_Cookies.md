@@ -2,8 +2,6 @@
 #Concluded 
 
 ---
-### **1. Cookies**
-
 São pequenos arquivos que os sites colocam no navegador do usuário para armazenar informações entre acessos.
 
 **O que os cookies podem trazer?**

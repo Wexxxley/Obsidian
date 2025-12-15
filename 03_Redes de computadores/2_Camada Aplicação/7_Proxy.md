@@ -2,7 +2,6 @@
 #Concluded 
 
 ---
-### **1.Proxy/cache Web**
 
 Proxy é um intermediário entre um cliente e um servidor. <mark style="background: #ADCCFFA6;">Você não acessa diretamente o site. O proxy que faz esse acesso.</mark>
 
