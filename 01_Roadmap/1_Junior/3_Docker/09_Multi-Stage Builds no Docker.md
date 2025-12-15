@@ -34,7 +34,7 @@ Linguagens interpretadas como Python não geram um binário único, mas podemos 
 
 FROM python:3.9 AS builder # Dando nome ao estagio
 
-WORKDIR /app # Diretorio de trabalho
+WORKDIR /app 
  
 RUN python -m venv /opt/venv # Cria um ambiente virtual 
 
