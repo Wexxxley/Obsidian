@@ -20,7 +20,7 @@
 10. **Onde o Projeto está parado** (Status da tramitação: Câmara, Senado, etc.)
 11. **Lista de Membros do Partido** (Quem são os deputados da sigla)
 12. **Leis Apresentadas vs. Aprovadas** (Produtividade do deputado)
-13. **Comparação de Gastos com a Média** (Gasta mais ou menos que os outros?)
+13. **Comparação de Gastos com a Média** (O deputado gasta mais ou menos que os outros?)
 14. **Ranking: O "Mais Econômico" do Partido** (Quem menos usa a cota)
 15. **Lista de Quem Votou Sim/Não** (Placar da votação de um projeto)
 16. **Informações da Bancada** (Tamanho e dados gerais do partido)
