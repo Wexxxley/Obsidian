@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Roadmap/1_Junior/3_Docker/08_Respondendo perguntas importantes.md",
+                "file": "16_Aleatorios/Abordagem design participativo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08_Respondendo perguntas importantes"
+              "title": "Abordagem design participativo"
             }
           }
         ]
@@ -183,9 +183,13 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "16_Aleatorios/IHC-Observatório Legislativo.md",
+    "16_Aleatorios/Pedido de crenciais GIT.md",
+    "16_Aleatorios/SDT-Sistema VoIP.md",
+    "01_Roadmap/1_Junior/3_Docker/08_Respondendo perguntas importantes.md",
+    "16_Aleatorios/Untitled.md",
     "01_Roadmap/1_Junior/3_Docker/06_Variáveis de ambiente.md",
     "01_Roadmap/1_Junior/3_Docker/09_Multi-Stage Builds no Docker.md",
-    "01_Roadmap/1_Junior/3_Docker/08_Respondendo perguntas importantes.md",
     "01_Roadmap/1_Junior/3_Docker/07_Camadas de imagens Docker.md",
     "01_Roadmap/1_Junior/3_Docker/05_Dockerfile.md",
     "01_Roadmap/1_Junior/3_Docker/12_Docker network.md",
@@ -195,7 +199,6 @@
     "01_Roadmap/1_Junior/3_Docker/02_Rodando os primeiros containers.md",
     "01_Roadmap/1_Junior/3_Docker/01_Introdução.md",
     "01_Roadmap/1_Junior/3_Docker/04_A Arquitetura do Docker e GUI.md",
-    "16_Aleatorios/Untitled.md",
     "01_Roadmap/1_Junior/3_Docker/12_Redes docker.md",
     "01_Roadmap/1_Junior/3_Docker/11_Bind mounts.md",
     "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
@@ -212,9 +215,6 @@
     "06_Pyhon/FastAPI/6_Pagination.md",
     "06_Pyhon/FastAPI/9_Testes.md",
     "06_Pyhon/FastAPI/8_Tornando assíncrono.md",
-    "06_Pyhon/FastAPI/1.md",
-    "06_Pyhon/FastAPI/8_Tornando asyncrono.md",
-    "06_Pyhon/FastAPI/7_Servindo arquivos estáticos.md",
     "attachments/Pasted image 20251211153811.png",
     "attachments/Pasted image 20251211094525.png",
     "attachments/Pasted image 20251210082346.png",
