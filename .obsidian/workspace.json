@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Aleatorios/Abordagem design participativo.md",
+                "file": "16_Aleatorios/IHC-Observatório Legislativo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Abordagem design participativo"
+              "title": "IHC-Observatório Legislativo"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,6 +183,18 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "16_Aleatorios/Como funciona rep.md",
+    "16_Aleatorios/Pedido de crenciais GIT.md",
+    "16_Aleatorios/SDT-Sistema VoIP.md",
+    "16_Aleatorios/IHC-Observatório Legislativo.md",
+    "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
+    "16_Aleatorios/Decisões tomadas es.md",
+    "16_Aleatorios/Controllers.md",
+    "16_Aleatorios/Amethyst.md",
+    "16_Aleatorios/Apresentação Entrevista.md",
+    "16_Aleatorios/Abordagem design participativo.md",
+    "16_Aleatorios/1_Blocos obsidian.md",
+    "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
     "attachments/Pasted image 20251215093514.png",
     "attachments/Pasted image 20251215093457.png",
     "attachments/Pasted image 20251215093409.png",
@@ -194,9 +205,6 @@
     "attachments/Pasted image 20251215092452.png",
     "attachments/Pasted image 20251215092358.png",
     "attachments/Pasted image 20251215091318.png",
-    "16_Aleatorios/IHC-Observatório Legislativo.md",
-    "16_Aleatorios/Pedido de crenciais GIT.md",
-    "16_Aleatorios/SDT-Sistema VoIP.md",
     "01_Roadmap/1_Junior/3_Docker/08_Respondendo perguntas importantes.md",
     "16_Aleatorios/Untitled.md",
     "01_Roadmap/1_Junior/3_Docker/06_Variáveis de ambiente.md",
@@ -211,15 +219,6 @@
     "01_Roadmap/1_Junior/3_Docker/01_Introdução.md",
     "01_Roadmap/1_Junior/3_Docker/04_A Arquitetura do Docker e GUI.md",
     "01_Roadmap/1_Junior/3_Docker/12_Redes docker.md",
-    "01_Roadmap/1_Junior/3_Docker/11_Bind mounts.md",
-    "16_Aleatorios/2_Roteiro Apresentação Artigo.md",
-    "16_Aleatorios/1_Blocos obsidian.md",
-    "attachments/Pasted image 20251212190355.png",
-    "16_Aleatorios/Controllers.md",
-    "06_Pyhon/FastAPI/10_Segurança/3_Endpoints de autenticação.md",
-    "06_Pyhon/FastAPI/3_Logging.md",
-    "06_Pyhon/FastAPI/6_Pagination.md",
-    "06_Pyhon/FastAPI/9_Testes.md",
     "01_Roadmap/1_Junior/3_Docker",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
