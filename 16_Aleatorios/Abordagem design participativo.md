@@ -47,7 +47,6 @@ Essa imagem sera a base utilizada pelo participante.
     - "Qual desses grupos deve aparecer primeiro ou ser maior na tela?"
     - "Se você quiser ver a funcionalide X, onde você clicaria?"
 
-
 ---
 ###  **Parte 3: Escolha de paleta de cores**:
 - Vamos selecionar umas 3 paletas distintas e pedir feedback. E, claro, aceitar sugestões.  
