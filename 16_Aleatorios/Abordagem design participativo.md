@@ -36,16 +36,23 @@ https://www.realtimecolors.com/?colors=00180d-ffffff-00ff84-006c41-008423&fonts=
 --accent: #008423;
 ![](../attachments/Pasted%20image%2020251215091318.png)
 
-
+**OP2:**
+https://www.realtimecolors.com/?colors=e2e8f0-0f172a-14b8a6-1e293b-818cf8&fonts=Inter-Inter
+--text: #e2e8f0;
+--background: #0f172a;
+--primary: #14b8a6;
+--secondary: #1e293b;
+--accent: #818cf8;
+![](../attachments/Pasted%20image%2020251215092650.png)
 
 **OP3**:
-https://www.realtimecolors.com/?colors=04005b-ffffff-4f4aba-020024-0600c2&fonts=Inter-Inter
---text: #04005b;
---background: #ffffff;
---primary: #4f4aba;
---secondary: #020024;
---accent: #0600c2;
-![](../attachments/Pasted%20image%2020251211153811.png)
+https://www.realtimecolors.com/?colors=0f172a-f8fafc-3b82f6-334155-6366f1&fonts=Inter-Inter
+--text: #0f172a;
+--background: #f8fafc;
+--primary: #3b82f6;
+--secondary: #334155;
+--accent: #6366f1;
+![](../attachments/Pasted%20image%2020251215092452.png)
 
 ---
 ### **Lista de Cartões**
