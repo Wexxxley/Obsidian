@@ -2,6 +2,10 @@
 #Concluded 
 
 ---
+==A camada de aplicação é a camada onde residem as aplicações de rede e seus respectivos protocolos. Esta camada é focada na interação direta com o software que o usuário utiliza.== 
+
+Os protocolos de aplicação são implementados via software apenas nos **sistemas finais**. Eles não residem nos dispositivos do núcleo da rede.
+
 ## **Cliente x Servidor**
 
 ==Um ou mais clientes se conectam a um servidor, que é responsável por fornecer serviços ou recursos.==
