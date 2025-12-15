@@ -8,7 +8,7 @@
 
 **Lista de Cartões**
 
-1. **Frequência no Plenário** (Faltas e presenças nas sessões)
+1. **Frequência no Plenário** (Faltas e presenças nas sessões de um deputado)
 2. **Ranking: O "Mais Gastão" do Partido** (Quem mais usa a cota)
 3. **Quiz de Afinidade ("Match")** (Descubra quem vota igual a você)
 4. **Comparar Dois Deputados** (Ver dados de dois políticos lado a lado)
