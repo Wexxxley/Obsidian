@@ -27,9 +27,8 @@
 12. **Comparação de Gastos com a Média** (O deputado gasta mais ou menos que os outros?)
 13. **Ranking: O "Mais Econômico" do Partido** (Quem menos usa a cota)
 14. **Lista de Quem Votou Sim/Não** (Placar da votação de um projeto)
-15. **Informações da Bancada** (Tamanho e dados gerais do partido)
-16. **Notícias e Destaques** (Últimas atualizações sobre política)
-17. **Explicação Simplificada da Lei** (Resumo fácil de entender sobre o impacto prático do projeto na sua vida)
+15. **Notícias e Destaques** (Últimas atualizações sobre política)
+16. **Explicação Simplificada da Lei** (Resumo fácil de entender sobre o impacto prático do projeto na sua vida)
 
 
 ---
