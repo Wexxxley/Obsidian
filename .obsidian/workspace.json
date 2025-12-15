@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Redes de computadores/2_Camada Aplicação/8_Proxy reverso.md",
+                "file": "03_Redes de computadores/2_Camada Aplicação/9_Firewall.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_Proxy reverso"
+              "title": "9_Firewall"
             }
           }
         ]
@@ -183,6 +183,10 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251215192125.png",
+    "attachments/Pasted image 20251215191721.png",
+    "03_Redes de computadores/2_Camada Aplicação/8_Proxy reverso.md",
+    "03_Redes de computadores/2_Camada Aplicação/9_Firewall.md",
     "attachments/Pasted image 20251215190915.png",
     "03_Redes de computadores/2_Camada Aplicação/7_Proxy.md",
     "03_Redes de computadores/2_Camada Aplicação/6_Cookies.md",
@@ -215,10 +219,6 @@
     "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "16_Aleatorios/1_Blocos obsidian.md",
     "16_Aleatorios/Como funciona rep.md",
-    "16_Aleatorios/Pedido de crenciais GIT.md",
-    "16_Aleatorios/SDT-Sistema VoIP.md",
-    "attachments/Pasted image 20251215093514.png",
-    "attachments/Pasted image 20251215093457.png",
     "01_Roadmap/1_Junior/3_Docker",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
