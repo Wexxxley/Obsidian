@@ -1,13 +1,18 @@
 
+
+
 ---
 ### **Parte 1: Card Sorting**
 1. Vamos dar cartões físicos misturados ao participante. 
-2. Pedir para ele agrupar.
+2. Pedir para ele agrupar, tipo (agrupar cards associados a "Deputado")
 3. Nesse momento ele pode criar novos cartões com novas funcionalidades!!!!!
-4. Quando ele terminar e nomear os grupos, vamos utilizar esses nomes no menu do prototipo.
+4. Vamos utilizar esse agrupamento no menu do prototipo.
+5. Depois de agrupar e nomear, o user vai definir o nivel de importancia de cada card:
+	- **Indispensável** Se o site não tiver isso, ele não serve para nada. 
+	- **Importante** Traz muito valor e eu usaria, mas o site ainda funciona sem. 
+	- **Interessante:** É legal, vusaria de vez em quando, mas não é urgente.
 
 **Lista de Cartões**
-
 1. **Frequência no Plenário** (Faltas e presenças nas sessões de um deputado)
 2. **Ranking: O "Mais Gastão" do Partido** (Quem mais usa a cota)
 3. **Quiz de Afinidade ("Match")** (Descubra quem vota igual a você)
@@ -25,6 +30,8 @@
 15. **Lista de Quem Votou Sim/Não** (Placar da votação de um projeto)
 16. **Informações da Bancada** (Tamanho e dados gerais do partido)
 17. **Notícias e Destaques** (Últimas atualizações sobre política)
+18. **Explicação Simplificada da Lei** (Resumo fácil de entender sobre o impacto prático do projeto na sua vida)
+
 
 ---
 ### **Parte 2: Co-Design
