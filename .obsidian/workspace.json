@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Redes de computadores/1_Introdução/4_Encapsulamento.md",
+                "file": "03_Redes de computadores/2_Camada Aplicação/14_HATEOAS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Encapsulamento"
+              "title": "14_HATEOAS"
             }
           }
         ]
@@ -183,8 +183,9 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "03_Redes de computadores/2_Camada Aplicação/14_API.md",
     "03_Redes de computadores/1_Introdução/4_Encapsulamento.md",
+    "03_Redes de computadores/2_Camada Aplicação/14_HATEOAS.md",
+    "03_Redes de computadores/2_Camada Aplicação/14_API.md",
     "03_Redes de computadores/1_Introdução/3_Arquitetura TCP IP.md",
     "03_Redes de computadores/1_Introdução/2_Comutadores.md",
     "03_Redes de computadores/1_Introdução/6_Tipos de comunicação em redes de computadores.md",
@@ -217,7 +218,6 @@
     "attachments/Pasted image 20251215191721.png",
     "attachments/Pasted image 20251215190915.png",
     "03_Redes de computadores/2_Camada Aplicação/7_Proxy.md",
-    "03_Redes de computadores/2_Camada Aplicação/5_Cache HTTP.md",
     "attachments/Pasted image 20251215165434.png",
     "01_Roadmap/1_Junior/3_Docker",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
