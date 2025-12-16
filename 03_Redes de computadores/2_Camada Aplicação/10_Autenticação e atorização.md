@@ -1,5 +1,5 @@
 
-
+#Concluded 
 
 ---
 ### **1. Eutenticação**
@@ -17,17 +17,10 @@ Para a autenticação de dois fatores, normalmente você deve inserir uma senha 
 - algo que você tem (sms de celular)
 - algo que você é (reconhecimento facial)
 
+![800](../../attachments/Pasted%20image%2020251216064935.png)
 
-![](../../attachments/Pasted%20image%2020251216064935.png)
+---
+### **2. Autorização**
 
-## O que é autorização?
-
-Autorização é o processo de verificar se você tem **permissão** para acessar uma área de uma aplicação ou executar ações específicas, com base em determinados critérios e condições estabelecidos pela aplicação. Você também pode ouvi-lo ser chamado de controle de acesso ou controle de privilégio.
-
-A autorização pode conceder ou negar permissão para realizar tarefas ou acessar áreas de uma aplicação.
-
-Vejamos um exemplo:
-
-Obtivemos acesso ao site de mídia social, mas o que podemos fazer lá depende do que estamos autorizados a fazer.
-
-Se tentarmos acessar o perfil de alguém de quem não somos amigos (eles não aceitaram nosso pedido de conexão), não estamos **autorizados** a visualizar seu perfil. Isso significa que não temos permissão para visualizar suas postagens compartilhadas.
+Autorização é o processo de verificar se você tem **permissão** para acessar uma área de uma aplicação ou executar ações específicas, com base em determinados critérios e condições estabelecidos pela aplicação.
+![](../../attachments/Pasted%20image%2020251216065228.png)

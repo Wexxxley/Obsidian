@@ -2,6 +2,9 @@
 #Concluded 
 
 ---
+Estude primeiro: [Token JWT](../../../03_Redes%20de%20computadores/2_Camada%20Aplicação/11_Token%20JWT.md)
+Usamos jwt no python com ``pip install pyjwt``
+
 ### **1. Funções de hash**
 Argon2 é um algorítimo de hash bastante seguro e confiável: ``pip install pwdlib[argon2]``
 
@@ -46,7 +49,6 @@ Criaremos um novo arquivo para gerenciar a segurança: `security.py`.
 - **Verificação de Assinatura:** A biblioteca pega o _Header_ e o _Payload_ do token recebido, combina com a SECRET_KEY e refaz o cálculo do hash. Se o hash calculado for idêntico ao hash que veio no token, a integridade é confirmada.
 - **jwt.ExpiredSignatureError**: O token foi emitido por nós, mas já venceu.
 - **jwt.InvalidTokenError**: Cobre qualquer outro erro, como assinatura inválida, formato incorreto e etc.
-
 
 ---
 ### **5. Create_activation_token**
