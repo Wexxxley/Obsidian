@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 ### **1. CORS (Cross-Origin Resource Sharing)**
@@ -23,9 +24,22 @@ Ao enviar uma requisição para uma API de origem diferente, o servidor precisa 
 É possível permitir o acesso de qualquer origem utilizando do símbolo **asterisco**:
 - `Access-Control-Allow-Origin: *`
 
-![](../../attachments/Pasted%20image%2020251216071644.png)
-**Access-Control-Allow-Methods:** Esta linha define quais verbos HTTP são permitidos para esse recurso. Você pode querer que uma API seja apenas de leitura para sites externos.
+---
+### **2. Preflight**
 
-**Access-Control-Allow-Headers:** Esta linha define quais cabeçalhos customizados o navegador tem permissão para enviar.
+O Preflight é um mecanismo de segurança do navegador que funciona como uma verificação de segurança antes de enviar a requisição real que você programou.
 
-**Access-Control-Max-Age**: Esta linha define por quanto tempo (em segundos) o navegador pode lembrar dessas regras.
+Antes de fazer uma operação que possa alterar dados no servidor, o navegador pergunta ao servidor se aquela operação é segura.
+
+Quando você escreve um código em JavaScript (usando `axios` ou `fetch`) para fazer uma requisição considerada "complexa", o navegador automaticamente intercepta:
+
+1. **Preflight:** O navegador envia uma requisição leve usando o método HTTP **OPTIONS**.
+    - Ele pergunta: "Servidor, você aceita o método `POST` vindo da origem `meusite.com` com o cabeçalho `Content-Type: application/json`?"
+
+2. **A Resposta do Servidor:** O servidor responde e envia os cabeçalhos  de acesso.
+		![](../../attachments/Pasted%20image%2020251216071644.png)
+		**Access-Control-Allow-Methods:** Define quais verbos HTTP são permitidos para esse recurso. Você pode querer que uma API seja apenas de leitura.
+		**Access-Control-Allow-Headers:** Esta linha define quais cabeçalhos customizados o navegador tem permissão para enviar.	
+		**Access-Control-Max-Age**: Esta linha define por quanto tempo o navegador pode lembrar dessas regras.
+
+Nem toda requisição dispara um preflight. O navegador só faz isso se a requisição for considerada **"Complexa"**.
