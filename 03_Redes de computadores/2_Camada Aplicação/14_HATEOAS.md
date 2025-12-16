@@ -67,13 +67,22 @@ application/hal+xml
 application/hal+json
 ```
 
-Que ao serem enviados na solicitação, a API REST deve retornar uma propriedade links, contendo as informações:
+>[!INFO]
+>
+**Mas o que é MIME type?**
+MIME Type diz qual é o tipo do arquivo que está sendo transmitido.
+>- `Content-Type:text/html`
+>- `Content-Type:image/png`
+>- `Content-Type:application/pdf`
+>- `Content-Type:application/json`
+>- `application/hal+json` (Dados em JSON seguindo a regra HAL)
+
+Ao ser enviados na solicitação o type `hal+json`, a API REST deve retornar uma propriedade links, contendo as informações:
 
 - **URI**: A URI do recurso, representada pelo atributo `href`;
-- **Tipo de relação:** Descreve como a URI se relaciona com o recurso atual, representado pelo atributo `rel`;
-- **Tipo:** Descreve o tipo de conteúdo obtido ou do tipo de verbo que deve ser utilizado para acessar a URI. 
+- **Relação:** Descreve como a URI se relaciona com o recurso atual, representado pelo atributo `rel`;
+- **Tipo:** Tipo de verbo que deve ser utilizado para acessar a URI. 
 
-Desta forma, na prática, uma API REST que implemente HATEOAS retornar uma resposta como a abaixo:
 ```json
 {
     "cursos": [
@@ -107,44 +116,13 @@ Desta forma, na prática, uma API REST que implemente HATEOAS retornar uma respo
 }
 ```
 
+**Então a resposta depende do MIME enviado?**
 
+Sim, Isso se chama **Negociação de Conteúdo**. No protocolo HTTP, quando o cliente faz uma requisição, ele envia um cabeçalho chamado **`Accept`**. 
 
-**MIME** (_Multipurpose Inte é, basicamente, uma etiqueta que diz ao computador **qual é o tipo do arquivo** que está sendo transmitido.
-
-Pense no MIME como a "extensão do arquivo" (como `.jpg`, `.txt`, `.pdf`) mas usada na comunicação da Web.
-
-- Quando seu navegador baixa uma imagem, o servidor diz: `Content-Type: image/png`. O navegador lê isso e pensa: "Ah, é uma imagem PNG, vou desenhar na tela".
-    
-- Se o servidor dissesse `Content-Type: application/pdf`, o navegador pensaria: "Ah, é um documento, vou abrir o leitor de PDF".
-    
-
-Estrutura do MIME: tipo / subtipo
-
-Exemplos:
-
-- `text/html` (Página web)
-    
-- `application/json` (Dados em JSON padrão)
-    
-- `application/hal+json` (Dados em JSON seguindo a regra HAL)
-    
-
----
-
-### 2. A resposta depende do MIME enviado? (Content Negotiation)
-
-**Sim!** Isso se chama **Negociação de Conteúdo** (_Content Negotiation_).
-
-No protocolo HTTP, quando o cliente (seu front-end ou Postman) faz uma requisição, ele envia um cabeçalho chamado **`Accept`**. É aqui que a mágica acontece.
-
-#### Cenário A: Cliente quer apenas os dados
-
-O cliente diz: _"Ei, servidor, me manda os dados. Eu só entendo JSON simples."_
-
-- **Requisição (Header):** `Accept: application/json`
-    
-- **Resposta do Servidor:** Manda o JSON "limpo", apenas com `id` e `nome`, sem os links, economizando banda.
-    
+- **Exemplo 1**: "Ei, servidor, me manda os dados. Eu só entendo JSON simples."
+	- Requisição: `Accept: application/json`
+	- Resposta: Manda o JSON apenas com id e nome, sem os links, 
 
 #### Cenário B: Cliente quer HATEOAS (Links)
 
