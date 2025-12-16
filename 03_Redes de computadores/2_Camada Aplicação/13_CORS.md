@@ -1,7 +1,7 @@
 
 
 ---
-### **1. CROS (Cross-Origin Resource Sharing)**
+### **1. CORS (Cross-Origin Resource Sharing)**
 
 A segurança do navegador geralmente impede uma página da Web de fazer solicitações para outro domínio. Essa restrição é chamada de política de mesma origem. A política impede que um site mal-intencionado leia dados confidenciais de outro site. No entanto, às vezes, talvez seja interessante permitir que outros sites chamem sua API Web. 
 
@@ -22,3 +22,10 @@ Ao enviar uma requisição para uma API de origem diferente, o servidor precisa 
 
 É possível permitir o acesso de qualquer origem utilizando do símbolo **asterisco**:
 - `Access-Control-Allow-Origin: *`
+
+![](../../attachments/Pasted%20image%2020251216071644.png)
+**Access-Control-Allow-Methods:** Esta linha define quais verbos HTTP são permitidos para esse recurso. Você pode querer que uma API seja apenas de leitura para sites externos.
+
+**Access-Control-Allow-Headers:** Esta linha define quais cabeçalhos customizados o navegador tem permissão para enviar.
+
+**Access-Control-Max-Age**: Esta linha define por quanto tempo (em segundos) o navegador pode lembrar dessas regras.
