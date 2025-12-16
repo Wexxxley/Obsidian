@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Redes de computadores/2_Camada Aplicação/13_CORS.md",
+                "file": "03_Redes de computadores/2_Camada Aplicação/6_Cookies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13_CORS"
+              "title": "6_Cookies"
             }
           }
         ]
@@ -183,10 +183,11 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251216073337.png",
+    "03_Redes de computadores/2_Camada Aplicação/13_CORS.md",
     "attachments/Pasted image 20251216071644.png",
     "attachments/Pasted image 20251216070635.png",
     "03_Redes de computadores/2_Camada Aplicação/12_DNS.md",
-    "03_Redes de computadores/2_Camada Aplicação/13_CORS.md",
     "03_Redes de computadores/2_Camada Aplicação/9_Firewall.md",
     "03_Redes de computadores/2_Camada Aplicação/10_Autenticação e atorização.md",
     "03_Redes de computadores/2_Camada Aplicação/11_Token JWT.md",
@@ -218,7 +219,6 @@
     "03_Redes de computadores/1_Introdução/6_Tipos de comunicação em redes de computadores.md",
     "attachments/Pasted image 20251215165434.png",
     "attachments/Pasted image 20251215165243.png",
-    "attachments/Pasted image 20251215165025.png",
     "01_Roadmap/1_Junior/3_Docker",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
