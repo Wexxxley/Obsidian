@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Redes de computadores/2_Camada Aplicação/9_Firewall.md",
+                "file": "03_Redes de computadores/2_Camada Aplicação/3_Servidor Web.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9_Firewall"
+              "title": "3_Servidor Web"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03_Redes de computadores/2_Camada Aplicação/9_Firewall.md",
+                "file": "03_Redes de computadores/2_Camada Aplicação/3_Servidor Web.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 9_Firewall"
+              "title": "Outgoing links from 3_Servidor Web"
             }
           },
           {
@@ -183,6 +183,7 @@
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
     "03_Redes de computadores/2_Camada Aplicação/8_Proxy reverso.md",
+    "03_Redes de computadores/2_Camada Aplicação/9_Firewall.md",
     "03_Redes de computadores/2_Camada Aplicação/7_Proxy.md",
     "03_Redes de computadores/2_Camada Aplicação/6_Cookies.md",
     "03_Redes de computadores/2_Camada Aplicação/5_URL.md",
@@ -207,7 +208,6 @@
     "attachments/Pasted image 20251216071644.png",
     "attachments/Pasted image 20251216070635.png",
     "03_Redes de computadores/2_Camada Aplicação/12_DNS.md",
-    "03_Redes de computadores/2_Camada Aplicação/9_Firewall.md",
     "03_Redes de computadores/2_Camada Aplicação/10_Autenticação e atorização.md",
     "03_Redes de computadores/2_Camada Aplicação/11_Token JWT.md",
     "06_Pyhon/FastAPI/10_Segurança/1_Secury.py.md",
