@@ -2,7 +2,7 @@
 #Concluded 
 
 ---
-O URL(Uniform Resource Locator) identifica um recurso especificando sua localização na rede e o protocolo para acessá-lo.
+O URL(Uniform Resource Locator) identifica um recurso especificando sua localização e o protocolo para acessá-lo.
 ![](../../attachments/Pasted%20image%2020251118164306.png)
 
 - **Protocolo:** Indica o protocolo que deve ser usado(ex: `https`, `http`,  `mailto`).

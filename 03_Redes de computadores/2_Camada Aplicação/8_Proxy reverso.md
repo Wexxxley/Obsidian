@@ -27,4 +27,4 @@ Para o usuário final, ambas as aplicações parecem estar rodando na porta 80, 
     
 3. **Caching de Conteúdo Estático:** O proxy reverso pode armazenar em cache arquivos que não mudam com frequência, como imagens (`.png`), arquivos de estilo (`.css`) e scripts (`.js`). 
     
-4. **Segurança e WAF (Web Application Firewall):** Como todo o tráfego passa por ele, o proxy reverso é o local ideal para filtrar tráfego malicioso. Você pode instalar um **WAF** nele para bloquear automaticamente ataques comuns.
+4. **WAF (Web Application Firewall):** Como todo o tráfego passa por ele, o proxy reverso é o local ideal para filtrar tráfego malicioso. Você pode instalar um **WAF** nele para bloquear automaticamente ataques comuns.

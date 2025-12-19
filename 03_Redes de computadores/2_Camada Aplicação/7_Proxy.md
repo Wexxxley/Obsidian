@@ -2,7 +2,6 @@
 #Concluded 
 
 ---
-
 Proxy é um intermediário entre um cliente e um servidor. <mark style="background: #ADCCFFA6;">Você não acessa diretamente o site. O proxy que faz esse acesso.</mark>
 
 O proxy tem tanto o papel de cliente como o de servidor. Quando um cliente faz uma requisição, o proxy **recebe essa requisição como um servidor**. Após receber a requisição do usuário, o proxy **encaminha a solicitação ao servidor web de destino**, agora atuando como um cliente.
@@ -16,7 +15,6 @@ O proxy tem tanto o papel de cliente como o de servidor. Quando um cliente faz u
   
 
 ![Pasted image 20250508161045](../../attachments/Pasted%20image%2020250508161045.png)
-
 
 **Proxy transparente** 
 O proxy transparente é feito no roteador, ele verifica que uma requisição http foi feita e ele envia para o proxy, que aí sim faz a requisição.
