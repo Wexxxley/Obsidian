@@ -4,7 +4,7 @@
 ___
 ### **1. HTTP**
 
-HTTP (protocolo de transferência de hipertexto) especifica como transferir arquivos de hipertexto (ou seja, documentos vinculados da web) entre dois computadores.
+O HTTP (_Hypertext Transfer Protocol_) é um protocolo que padroniza a troca de dados (HTML, JSON, imagens) na Web seguindo o modelo cliente-servidor. Ele opera sobre o TCP através de ciclos de requisição e resposta, onde o cliente (ex: navegador) solicita um recurso e o servidor o entrega. Sua principal característica é ser **stateless** (sem estado), tratando cada interação como independente e não guardando memória das requisições anteriores.
 - O Cliente (browser) solicita, o servidor envia os objetos e o browser os apresenta.
 - É stateless, o servidor não mantém informação sobre os pedidos passados.
 - Utiliza o protocolo de transporte TCP.
