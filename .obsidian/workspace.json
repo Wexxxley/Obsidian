@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12_Sistemas Distribuídos (Cadeira)/Cap4/4_Questoes.md",
+                "file": "03_Redes de computadores/2_Camada Aplicação/4_Protocolo HTTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 4_Questoes"
+              "title": "Outgoing links from 4_Protocolo HTTP"
             }
           },
           {
