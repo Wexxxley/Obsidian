@@ -11,7 +11,7 @@ Os cookies são utilizados principalmente para três fins:
 
 - **Gestão de sessão**: Status de login do usuário, conteúdo do carrinho de compras,ou quaisquer outros detalhes da sessão do usuário que o servidor precise lembrar.
 - **Personalização**: Preferências do usuário, como idioma de exibição e tema da interface do usuário.
-- **Rastreamento**: Registrar e analisar o comportamento do usuário.
+- **Rastreamento**: Registrar e analisar o comportamento do usuário. Por exemplo, empresas como o Google Ads utilizam cookies para registrar quais sites você visitou e quais produtos clicou, criando um perfil de consumo para exibir anúncios personalizados baseados no seu histórico.    
 
 **Cookies e a privacidade**
 Cookies permitem rastrear seu comportamento online. Se você preenche formulários com nome, e-mail, cpf, esses dados podem ficar associados a cookies. Empresas de propaganda (como o Google Ads) usam cookies para montar um perfil sobre você e exibir anúncios personalizados.
