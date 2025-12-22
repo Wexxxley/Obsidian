@@ -2,13 +2,11 @@
 #Concluded 
 
 ---
-### **1. Definição e Conceito Fundamental**
+### **1. Definição**
 
-O **firewall** é uma barreira de segurança essencial que isola a rede interna (confiável) da Internet (não confiável).
+O firewall é uma barreira de segurança essencial que isola a rede interna (confiável) da Internet (não confiável).
 
-- **Função:** Atua como um "porteiro", controlando o tráfego nas portas de comunicação.
-    
-- **Objetivo:** Permitir a passagem de pacotes autorizados e bloquear os não autorizados com base em regras predefinidas. Ele impede tanto a entrada de invasores quanto a saída de dados por malwares (como backdoors tentando se comunicar com hackers).
+Atua como um "porteiro", controlando o tráfego nas portas de comunicação. Ele permitir a passagem de pacotes autorizados e bloquea os não autorizados com base em regras predefinidas. Ele impede tanto a entrada de invasores quanto a saída de dados por malwares.
 
 ![600](../../attachments/Pasted%20image%2020251215191721.png)
 
