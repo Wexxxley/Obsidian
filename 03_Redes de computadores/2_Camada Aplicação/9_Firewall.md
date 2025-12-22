@@ -8,7 +8,7 @@ O firewall é uma barreira de segurança essencial que isola a rede interna (con
 
 Atua como um "porteiro", controlando o tráfego nas portas de comunicação. Ele permitir a passagem de pacotes autorizados e bloquea os não autorizados com base em regras predefinidas. Ele impede tanto a entrada de invasores quanto a saída de dados por malwares.
 
-![600](../../attachments/Pasted%20image%2020251215191721.png)
+![](../../attachments/Pasted%20image%2020251222070010.png)
 
 ---
 ### **2. Classificação: Hardware vs. Software**
