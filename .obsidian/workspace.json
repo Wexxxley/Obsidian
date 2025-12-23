@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Redes de computadores/2_Camada Aplicação/12_DNS.md",
+                "file": "16_Aleatorios/Testes acervo mestre.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12_DNS"
+              "title": "Testes acervo mestre"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -177,11 +178,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "16_Aleatorios/Pedido de crenciais GIT.md",
+    "16_Aleatorios/Testes acervo mestre.md",
+    "03_Redes de computadores/2_Camada Aplicação/12_DNS.md",
     "03_Redes de computadores/2_Camada Aplicação/11_Token JWT.md",
     "03_Redes de computadores/2_Camada Aplicação/10_Autenticação e atorização.md",
     "03_Redes de computadores/2_Camada Aplicação/9_Firewall.md",
@@ -191,7 +196,6 @@
     "03_Redes de computadores/2_Camada Aplicação/7_Proxy.md",
     "03_Redes de computadores/2_Camada Aplicação/6_Cookies.md",
     "16_Aleatorios/IHC-Observatório Legislativo.md",
-    "16_Aleatorios/Pedido de crenciais GIT.md",
     "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "16_Aleatorios/Como funciona rep.md",
     "16_Aleatorios/1_Blocos obsidian.md",
@@ -207,8 +211,6 @@
     "03_Redes de computadores/1_Introdução/4_Encapsulamento.md",
     "03_Redes de computadores/2_Camada Aplicação/14_API.md",
     "03_Redes de computadores/1_Introdução/3_Arquitetura TCP IP.md",
-    "03_Redes de computadores/1_Introdução/2_Comutadores.md",
-    "03_Redes de computadores/1_Introdução/6_Tipos de comunicação em redes de computadores.md",
     "attachments/Pasted image 20251216073337.png",
     "attachments/Pasted image 20251216071644.png",
     "attachments/Pasted image 20251216070635.png",
