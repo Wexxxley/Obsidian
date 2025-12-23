@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Redes de computadores/2_Camada Aplicação/13_CORS.md",
+                "file": "03_Redes de computadores/2_Camada Aplicação/9_Firewall.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13_CORS"
+              "title": "9_Firewall"
             }
           }
         ]
@@ -183,8 +183,12 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "03_Redes de computadores/2_Camada Aplicação/12_DNS.md",
+    "03_Redes de computadores/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
+    "03_Redes de computadores/3_Camada de Transporte/1_Protocolos da camada de transporte da internet.md",
+    "03_Redes de computadores/3_Camada de Transporte/4_Segmento TCP e apresentação TCP.md",
+    "03_Redes de computadores/3_Camada de Transporte/3_Socket e portas.md",
     "03_Redes de computadores/2_Camada Aplicação/14_HATEOAS.md",
+    "03_Redes de computadores/2_Camada Aplicação/12_DNS.md",
     "03_Redes de computadores/2_Camada Aplicação/13_CORS.md",
     "03_Redes de computadores/2_Camada Aplicação/15_Versionamento de APIS.md",
     "03_Redes de computadores/2_Camada Aplicação/4_Protocolo HTTP.md",
@@ -206,10 +210,6 @@
     "16_Aleatorios/Amethyst.md",
     "03_Redes de computadores/2_Camada Aplicação/2_Requisitos de aplicações.md",
     "03_Redes de computadores/2_Camada Aplicação/3_Servidor Web.md",
-    "03_Redes de computadores/2_Camada Aplicação/1_Arquiteturas da camada de aplicação.md",
-    "Untitled.md",
-    "03_Redes de computadores/1_Introdução/4_Encapsulamento.md",
-    "03_Redes de computadores/2_Camada Aplicação/14_API.md",
     "attachments/Pasted image 20251216073337.png",
     "attachments/Pasted image 20251216071644.png",
     "attachments/Pasted image 20251216070635.png",

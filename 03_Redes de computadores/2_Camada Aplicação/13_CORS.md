@@ -27,9 +27,7 @@ Ao enviar uma requisição para uma API de origem diferente, o servidor precisa 
 ---
 ### **2. Preflight**
 
-O Preflight é um mecanismo de segurança do navegador que funciona como uma verificação de segurança antes de enviar a requisição real que você programou.
-
-Antes de fazer uma operação que possa alterar dados no servidor, o navegador pergunta ao servidor se aquela operação é segura.
+O Preflight é um mecanismo de segurança do navegador que funciona como uma verificação de segurança antes de enviar a requisição real. Antes de fazer uma operação que possa alterar dados no servidor, o navegador pergunta ao servidor se aquela operação é segura.
 
 Quando você escreve um código em JavaScript (usando `axios` ou `fetch`) para fazer uma requisição considerada "complexa", o navegador automaticamente intercepta:
 
