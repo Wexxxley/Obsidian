@@ -13,10 +13,10 @@ Atua como um "porteiro", controlando o tráfego nas portas de comunicação. Ele
 ---
 ### **2. Classificação: Hardware vs. Software**
 
-Podemos classificar o firewall primeiramente pelo que ele _é_ fisicamente:
+Podemos classificar o firewall primeiramente pelo que ele é fisicamente:
 
 - **Firewall de Hardware:** É um equipamento físico dedicado, podendo ser um dispositivo específico ou um roteador com firewall integrado. Geralmente utilizado em grandes corporações para lidar com alto volume de tráfego. São soluções mais caras.
-        
+    
 - **Firewall de Software:** É um programa instalada no sistema operacional de um computador ou celular. Comum em dispositivos pessoais e servidores individuais.
 
 ---
@@ -24,21 +24,21 @@ Podemos classificar o firewall primeiramente pelo que ele _é_ fisicamente:
 
 Independentemente de ser hardware ou software, o firewall utiliza diferentes lógicas para inspecionar os dados. 
 
-1. **Filtros de Pacotes Tradicionais (Stateless):**
+1. **Filtros de Pacotes simples:**
     - Inspecionam cada pacote **isoladamente**.
     - Tomam decisões simples baseadas apenas no cabeçalho (IP origem/destino, Porta, Protocolo TCP/UDP).
     - Exemplo: "Bloquear todos os pacotes UDP vindos da porta 53".
         
-2. **Filtros de Pacote com Controle de Estado (Stateful):**
-    - Mais inteligentes, eles mantêm uma **tabela de conexões**.
+2. **Filtros de Pacote com Controle de Estado:**
+    - Mantêm uma **tabela de conexões**.
     - Eles sabem o contexto: "Este pacote que está chegando é uma resposta a um pedido que saiu daqui de dentro?". Se não for, ele bloqueia, impedindo ataques que tentam se disfarçar de respostas legítimas.
         
-3. **Gateways de Aplicação (Application Gateways):**
+3. **Application Gateways:**
     - Atuam como intermediários (**Proxies**) específicos para uma aplicação.
     - O usuário conecta no Gateway, que verifica credenciais e conteúdo antes de conectar ao destino final. É uma inspeção profunda do conteúdo, não apenas do cabeçalho.
 
 ---
-### **4. Escopo de Proteção: Corporativo vs. Pessoal**
+### **4. Corporativo vs. Pessoal**
 
 - **Firewall de Rede (Corporativo):**
     - **Onde fica:** Na borda da rede (roteadores de entrada).
