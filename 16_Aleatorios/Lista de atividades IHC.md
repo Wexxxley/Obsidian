@@ -41,12 +41,12 @@
 	- Use o diagrama MoLIC para prever onde o usuário pode se perder.
 	- Liste como o sistema ajudará o usuário quando ele errar (ex: sugerir nomes na busca) ou quando a IA de tradução técnica falhar em ser clara.
 
-5. Protótipo de Baixa/Média Fidelidade
+5. Protótipo de Baixa/Média Fidelidade (JUNIOR)
 
 6. Definição Técnica (Requisito 9)
 	- Liste as tecnologias, tecnicas e conhecimentos para se implantar o sistema.
     
-7. Montagem do Slide (Requisitos 1, 2 e 3)
+7. Montagem do Slide (Requisitos 1, 2 e 3) (ALICE)
 	- Use a contextualização e os objetivos.
 	- Use a justificativa de **Comunicação**.
     
