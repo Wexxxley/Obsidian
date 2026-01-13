@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "IHC-Observatório Legislativo"
             }
+          },
+          {
+            "id": "cd6461b0a48fa77e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "16_Aleatorios/Lista de atividades IHC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lista de atividades IHC"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,8 +196,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3f0f5608333b008d",
+  "active": "cd6461b0a48fa77e",
   "lastOpenFiles": [
+    "16_Aleatorios/IHC-Observatório Legislativo.md",
+    "16_Aleatorios/Lista de atividades IHC.md",
     "16_Aleatorios/Abordagem design participativo.md",
     "16_Aleatorios/1_Blocos obsidian.md",
     "16_Aleatorios/Pedido de crenciais GIT.md",
@@ -207,9 +224,7 @@
     "attachments/Pasted image 20251222070010.png",
     "03_Redes de computadores/2_Camada Aplicação/8_Proxy reverso.md",
     "03_Redes de computadores/2_Camada Aplicação/6_Cookies.md",
-    "16_Aleatorios/IHC-Observatório Legislativo.md",
     "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
-    "16_Aleatorios/Como funciona rep.md",
     "attachments/Pasted image 20251216073337.png",
     "attachments/Pasted image 20251216071644.png",
     "attachments/Pasted image 20251216070635.png",
