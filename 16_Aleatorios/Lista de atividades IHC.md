@@ -44,44 +44,10 @@
 
 5. Protótipo de Baixa/Média Fidelidade
 
-- **Ação:** Use ferramentas como Figma para criar as telas citadas no documento (Tela Inicial, Deputado, Partidos, Comparação, Match e Proposição)111111111111111111111111111111111111111111111111111111111111111111111111.
+6. Definição Técnica (Requisito 9)
+	- Liste as tecnologias, tecnicas e conhecimentos para se implantar o sistema.
     
-- **Aplicação Visual:** Lembre-se de aplicar a paleta de cores verde/escura sugerida no projeto12.
+7. Montagem do Slide (Requisitos 1, 2 e 3)
+	- Use a contextualização e os objetivos.
+	- Use a justificativa de **Comunicação**.
     
-
-### 6. Definição Técnica (Requisito 9)
-
-Agora que você sabe exatamente o que o sistema faz (protótipo) e como ele conversa (MoLIC), escolha as ferramentas.
-
-- **Ação:** Liste as tecnologias (ex: React para a web, Python para a IA de tradução da ementa 13, Integração com a API da Câmara dos Deputados 1414).
-    
-
-### 7. Montagem do Slide (Requisitos 1, 2 e 3)
-
-Deixe o slide por último. Você apenas "copiará e colará" os resultados das etapas anteriores para a apresentação.
-
-- **Resumo:** Use a contextualização 15151515e os objetivos 16 já descritos no PDF.
-    
-- **Área Temática:** Use a justificativa de **Comunicação** que estruturamos anteriormente, focando na transformação de dados em formatos visuais17171717.
-    
-
----
-
-### Resumo da Ordem de Trabalho:
-
-1. **Dados do Participativo** (Análise do que já tem).
-    
-2. **Cenário** (A história de uso).
-    
-3. **MoLIC** (O diagrama da conversa).
-    
-4. **Rupturas** (Prevenção de erros baseada no MoLIC).
-    
-5. **Protótipo** (Desenho das telas).
-    
-6. **Tecnologia** (Como construir).
-    
-7. **Slides** (Compilação de tudo).
-    
-
-**Gostaria que eu elaborasse um exemplo de "Cenário de Uso" ou de "Modelo MoLIC" baseado em uma das funcionalidades do projeto (como o Match Legislativo) para adiantar seu trabalho?**
