@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Aleatorios/Frases diárias.md",
+                "file": "16_Aleatorios/Abordagem design participativo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Frases diárias"
+              "title": "Abordagem design participativo"
             }
           }
         ]
@@ -183,8 +183,11 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "03_Redes de computadores/2_Camada Aplicação/7_Proxy.md",
+    "16_Aleatorios/1_Blocos obsidian.md",
+    "16_Aleatorios/Pedido de crenciais GIT.md",
+    "16_Aleatorios/Testes acervo mestre.md",
     "16_Aleatorios/Frases diárias.md",
+    "03_Redes de computadores/2_Camada Aplicação/7_Proxy.md",
     "03_Redes de computadores/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
     "03_Redes de computadores/3_Camada de Transporte/3_Socket e portas.md",
     "03_Redes de computadores/3_Camada de Transporte/4_Segmento TCP e buffers.md",
@@ -200,8 +203,6 @@
     "03_Redes de computadores/2_Camada Aplicação/5_URL.md",
     "03_Redes de computadores/2_Camada Aplicação/11_Token JWT.md",
     "03_Redes de computadores/2_Camada Aplicação/10_Autenticação e atorização.md",
-    "16_Aleatorios/Testes acervo mestre.md",
-    "16_Aleatorios/Pedido de crenciais GIT.md",
     "attachments/Pasted image 20251222070010.png",
     "03_Redes de computadores/2_Camada Aplicação/8_Proxy reverso.md",
     "16_Aleatorios/Abordagem design participativo.md",
@@ -209,7 +210,6 @@
     "16_Aleatorios/IHC-Observatório Legislativo.md",
     "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "16_Aleatorios/Como funciona rep.md",
-    "16_Aleatorios/1_Blocos obsidian.md",
     "attachments/Pasted image 20251216073337.png",
     "attachments/Pasted image 20251216071644.png",
     "attachments/Pasted image 20251216070635.png",
