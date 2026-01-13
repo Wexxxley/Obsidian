@@ -27,26 +27,34 @@
 ---
 ## **2. Ordem de execução**
 
-1. Consolidar o Design Participativo (Requisito 4 e 10)
+1. Consolidar o Design Participativo (Requisito 4 e 10) (WESLEY)
 	- Reunir as fts e fazer anotaçoes. Identifique em qual fase do **Ciclo de Vida em Estrela** você está.
     - Defina o nível de participação.
 
-2. Criar Cenários de Uso (Requisito 7)
-	- Descreva o "Cidadão Fiscalizador" ou o "Multiplicador de Informação" usando a plataforma para um objetivo real.
+2. Criar Cenários de Uso (Requisito 7) (ALICE)
+	- Descreva o "Cidadão Fiscalizador" ou o "Multiplicador de Informação" usando a plataforma para um objetivo real. 
 
-3. Modelagem MoLIC (Requisito 5)
+3. Modelagem MoLIC (Requisito 5) (GEORGE)
 	- Foque na conversa entre o sistema e o usuário. Como o usuário pede a comparação? Como o sistema responde se não encontrar o deputado?.    
 
-4. Apoio a Rupturas Comunicativas (Requisito 8)
+4. Apoio a Rupturas Comunicativas (Requisito 8) (GEORGE)
 	- Use o diagrama MoLIC para prever onde o usuário pode se perder.
 	- Liste como o sistema ajudará o usuário quando ele errar (ex: sugerir nomes na busca) ou quando a IA de tradução técnica falhar em ser clara.
 
 5. Protótipo de Baixa/Média Fidelidade (JUNIOR)
 
-6. Definição Técnica (Requisito 9)
+6. Definição Técnica (Requisito 9) (WESLEY)
 	- Liste as tecnologias, tecnicas e conhecimentos para se implantar o sistema.
+
+7. Relatório unindo tudo. (WESLEY)
     
-7. Montagem do Slide (Requisitos 1, 2 e 3) (ALICE)
+8. Montagem do Slide (Requisitos 1, 2 e 3) (ALICE)
 	- Use a contextualização e os objetivos.
 	- Use a justificativa de **Comunicação**.
     
+
+
+
+dia 14 entrega das dinamicas e E1
+dia 15 E2
+dia 16 E3 3 E4
