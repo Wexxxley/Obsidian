@@ -52,9 +52,9 @@
 	- Use a contextualização e os objetivos.
 	- Use a justificativa de **Comunicação**.
     
-dia 14 entrega das dinamicas e E1
-dia 15 E2
-dia 16 E3 3 E4
-dia 18, 12hrs E5
-dia 18 E8
+Dia 14 entrega das dinamicas e E1
+Dia 15 E2
+Dia 16 E3 3 E4
+Dia 18, 12hrs E5
+Dia 18 E8
 
