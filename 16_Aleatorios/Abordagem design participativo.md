@@ -8,7 +8,7 @@
 3. Nesse momento ele pode criar novos cartões com novas funcionalidades!!!!!
 4. Vamos utilizar esse agrupamento no menu do prototipo.
 5. Depois de agrupar e nomear, o user vai definir o nivel de importancia de cada card:
-	- **Indispensável** Se o site não tiver isso, ele não serve para nada. 
+	- **Indispensável** Se o ste não tiver isso, ele não serve para nada. 
 	- **Importante** Traz muito valor e eu usaria, mas o site ainda funciona sem. 
 	- **Interessante:** É legal, vusaria de vez em quando, mas não é urgente.
 
