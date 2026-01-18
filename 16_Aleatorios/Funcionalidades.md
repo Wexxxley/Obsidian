@@ -1,29 +1,6 @@
 
 
----
-### **1. Contextualização**
-Na era da informação digital, as redes sociais ampliaram drasticamente o alcance e a notoriedade dos debates políticos e da atuação dos deputados federais. No entanto, essa visibilidade nem sempre se traduz em clareza.
 
-Isso gera um novo paradoxo: embora o volume de informação disponível seja o maior da história, encontrar a _verdade_ sobre a atuação parlamentar tornou-se uma tarefa mais difícil. O cidadão vê-se preso entre dois extremos:
-
-1. **Dados Oficiais:** Ricos e precisos, mas apresentados de forma complexa, fragmentada e em jargão técnico nos portais governamentais.
-2. **Narrativas de Redes Sociais:** De fácil consumo e alto poder de engajamento, mas frequentemente repletas de desinformação, gráficos enganosos e estatísticas falsas que acabam ofuscando os fatos.    
-
-Este projeto nasce da necessidade de preencher essa lacuna. Nosso objetivo não é apenas "mostrar os dados", mas sim _competir_ com a desinformação, transformando dados públicos em conhecimento acessível, visualmente claro e fácil de compartilhar.
-### **2. Objetivo do Projeto**
-Desenvolver uma plataforma web que atue como um **antídoto à desinformação**, quebrando a barreira de complexidade dos dados oficiais.
-
-O objetivo é reequilibrar o debate público ao traduzir os dados brutos da Câmara dos Deputados em um formato acessível, intuitivo e visualmente claro. A plataforma permitirá que qualquer cidadão possa fiscalizar, entender e formar opinião sobre a atuação de seus representantes com base em **fatos verificados**.
-
-### **3. Público-Alvo**
-Para combater a desinformação de forma eficaz, o projeto foca em dois públicos estratégicos:
-
-- **O Cidadão Fiscalizador:** Pessoas com interesse em política, mas que hoje se sentem frustradas com o volume de narrativas conflitantes e _fake news_. Elas buscam uma fonte  confiável e de fácil digestão para verificar fatos, acompanhar votações-chave e entender os gastos parlamentares, sem a necessidade de conhecimento técnico em análise de dados.
-    
-- **Os Multiplicadores de Informação:** Jornalistas e criadores de conteúdo digital. Eles necessitam de dados já consolidados, gráficos  e visualizações fáceis de exportar para agilizar seu trabalho de apuração, embasar reportagens, análises e publicações, enriquecendo o debate público com fatos verificados em larga escala.
-
----
-## **5. Funcionalidades**
 ### 1. Funcionalidades Globais
 
 - **Menu de Navegação no cabeçalho:** Acesso rápido às seções.
@@ -99,20 +76,3 @@ Para combater a desinformação de forma eficaz, o projeto foca em dois público
 - **Download de Documentos:** Link para baixar o PDF original do projeto.
     
 - **Lista de Votos Exportável:** Se o projeto já foi votado, exibe e permite exportar a lista de votos de cada deputado.
-
-
-Paleta de cores
-
-Light
---text: #061e14;
---background: #f7fcf9;
---primary: #00d66f;
---secondary: #025939;
---accent: #d1fae5;
-
-Dark
---text: #061e14;
---background: #f7fcf9;
---primary: #00d66f;
---secondary: #025939;
---accent: #d1fae5;
