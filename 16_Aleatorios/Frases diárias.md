@@ -15,3 +15,19 @@ Para o Back End
 - Web Scraper: Para dados não disponíveis na API (como certas notícias), pode ser necessário usar técnicas de Web Scrapping
 - LLM: Integração via API com OpenAI (GPT-4o-mini) ou Google Gemini para simplificar textos técnicos.
 
+
+1. Etapa: Análise de Tarefas e Requisitos: Nesta fase, o objetivo é entender o que o sistema deve fazer e como a informação deve ser estruturada.
+
+- **Técnica Utilizada: Classificação de Cartões (Card Sorting)**
+    - **Aplicação Prática:** Os participantes receberam cartões físicos com funcionalidades (ex: "Frequência no Plenário", "Ranking") e foram solicitados a agrupá-los e nomeá-los..
+        
+    - **Levantamento de Requisitos:** Durante essa atividade, foi permitido aos usuários "criar novos cartões com novas funcionalidades", o que configura uma coleta de novos requisitos funcionais não previstos inicialmente.
+        
+    - **Priorização:** Os usuários também definiram o nível de importância (Indispensável, Importante, Interessante), o que é essencial para a análise de requisitos.
+
+2. Etapa: Prototipação: 
+- **Técnica Utilizada: Brainstorming e Prototipação em Papel (Baixa Fidelidade)**
+    - **Aplicação Prática:** Foi fornecida uma imagem de uma moldura (base de tela) e pedido para que o participante desenhasse formas geométricas organizando os grupos que ele criou anteriormente.
+        
+	- **Técnica Utilizada: Entrevista (Perguntas Abertas e Guiadas)** Durante o desenho da tela, foram feitas "Perguntas Guias" como: "Qual desses grupos deve aparecer primeiro?" ou "Se você quiser ver a funcionalidade X, onde você clicaria?".
+
