@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15_IHC (Cadeira)/8_Prova.md",
+                "file": "16_Aleatorios/Funcionalidades.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_Prova"
+              "title": "Funcionalidades"
             }
           }
         ],
@@ -198,10 +198,10 @@
   },
   "active": "cd6461b0a48fa77e",
   "lastOpenFiles": [
+    "15_IHC (Cadeira)/8_Prova.md",
     "15_IHC (Cadeira)/7_Acessibilidade.md",
     "15_IHC (Cadeira)/5_Técnicas de coleta de dados.md",
     "15_IHC (Cadeira)/4_Coleta de dados.md",
-    "15_IHC (Cadeira)/8_Prova.md",
     "15_IHC (Cadeira)/6_Personas e perfis de user.md",
     "16_Aleatorios/Frases diárias.md",
     "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
