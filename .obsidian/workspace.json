@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Aleatorios/Funcionalidades.md",
+                "file": "16_Aleatorios/Frases diárias.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Funcionalidades"
+              "title": "Frases diárias"
             }
           }
         ],
@@ -198,6 +198,7 @@
   },
   "active": "cd6461b0a48fa77e",
   "lastOpenFiles": [
+    "16_Aleatorios/Funcionalidades.md",
     "15_IHC (Cadeira)/8_Prova.md",
     "15_IHC (Cadeira)/7_Acessibilidade.md",
     "15_IHC (Cadeira)/5_Técnicas de coleta de dados.md",
@@ -209,7 +210,6 @@
     "16_Aleatorios/Amethyst.md",
     "16_Aleatorios/Abordagem design participativo.md",
     "16_Aleatorios/1_Blocos obsidian.md",
-    "16_Aleatorios/Funcionalidades.md",
     "16_Aleatorios/Pedido de crenciais GIT.md",
     "16_Aleatorios/Lista de atividades IHC.md",
     "16_Aleatorios/Testes acervo mestre.md",
