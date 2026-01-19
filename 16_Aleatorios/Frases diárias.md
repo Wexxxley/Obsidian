@@ -7,5 +7,13 @@ Normalmente para conseguir retirar informações úteis desses sites você não 
 
 Nosso objetivo é dispor esses dados dos dados abertos da câmara de uma forma mais organizada, intuitiva e sem muitos termos técnicos, permitindo que pessoas normais consigam extrair informações facilmente e acompanhar a atução de seus representantes.
 
-Na etapa de análise, a primeira entrega das entrevistas nós realizamos 8 entrevistas, 7 delas síncronas. Realizamos uma entrevista guiada e um teste de usabilidade do site da câmara, passamos alguns desafios para os participantes e, como ja era de se eesperar, a maioria dos participantes tiveram bastante dificuldade a
+---
+
+Na etapa de análise, a primeira entrega das entrevistas, nós realizamos 8 entrevistas, 7 delas síncronas. Realizamos uma entrevista guiada e um teste de usabilidade do site da câmara, passamos alguns desafios para os participantes e, como ja era de se esperar, a maioria dos participantes tiveram bastante dificuldade ao buscar informações. 
+
+As maiores dores dos usuários forma:
+- A desinformação em redes sociais
+- E a barreira de usabilidade do site da câmara.
+
+Com base nisso foram criadas duas personas principais...
 
