@@ -9,28 +9,34 @@
 - **Analista:** Exige nível superior. A prova é mais conceitual e gerencial, focando em uma visão sistêmica do conteúdo 
     
 - **Nível Topo:** Cargos como Auditor (TCU, Fazenda) ou Perito Federal. São os mais difíceis, pagam acima de R$ 20 mil e exigem conhecimentos jurídicos pesados além da TI.
-### **2. As 4 Etapas do Concurso:**
+### **2. As 4 Etapas do Concurso**
+
 1. **Prova Objetiva:** Dividida em conhecimentos básicos e específicos.
 2. **Prova Discursiva:** Pode ser redação, questões abertas ou estudo de caso (resolver um problema técnico).
 3. **Prova Prática:** Mais comum para cargos de técnico 
 4. **Prova de Títulos:** Etapa apenas classificatória onde certificados de TI e pós-graduações somam pontos importantes.
-Aqui está a **Parte 2: Estratégia de Hiperfoco e Divisão de Conteúdo**
 
-Nesta etapa, o professor detalha como organizar o que deve ser estudado, combatendo o erro comum de tentar "abraçar o mundo":
+### **3. Eixos Temáticos da TI** 
 
+Praticamente todos os editais se baseiam nestes pilares, mas a proporção entre eles muda conforme o órgão: 
+1. Engenharia de Software.
+2. Desenvolvimento de Sistemas.
+3. Infraestrutura de TI.     
+4. Gestão e Governança de TI.
 
-        
-- **Os 4 Eixos Temáticos da TI:** Praticamente todos os editais se baseiam nestes pilares, mas a proporção entre eles muda conforme o órgão:
+- É preciso analisar os últimos editais e identificar se o órgão tem um perfil mais voltado para **Desenvolvimento** ou **Infraestrutura/Suporte**. 
+
+### **4. Ordem de estudo**
+
+- O maior erro é começar pelas matérias básicas (Português, Direito). Você deve **começar pelos Conhecimentos Específicos**. Somente após fechar o conteúdo de TI, você deve migrar para as básicas, pois estas variam muito de um órgão para outro.
+
+- **Priorização por Peso:** Dentro da TI, você deve identificar qual dos quatro eixos temáticos é o mais cobrado nos concursos que você escolheu.
     
-    1. Engenharia de Software.
-        
-    2. Desenvolvimento de Sistemas.
-        
-    3. Infraestrutura de TI.
-        
-    4. Gestão e Governança de TI.
-        
-- **O Conceito de "Hiperfoco":** O professor alerta que você não deve estudar para "TI em geral". É preciso analisar os últimos editais e identificar se o órgão tem um perfil mais voltado para **Desenvolvimento** ou **Infraestrutura/Suporte**. Estudar sem esse direcionamento faz o candidato perder tempo em tópicos que terão pouco peso na prova específica dele.
+- **A Tarefa de Casa:** Para aplicar o método, ele sugere:
     
-
-Diga **"next"** para a terceira e última parte, onde ele explica o **passo a passo prático do cronograma** e a tarefa de casa para sua aprovação.
+    1. Selecionar **5 concursos** da área de TI que você pretende fazer (focando em editais que ainda vão sair).
+        
+    2. Montar uma **planilha de análise**, colocando as matérias de cada edital lado a lado.
+        
+    3. Identificar as semelhanças: foque nos 3 concursos que forem mais parecidos entre si.
+    
