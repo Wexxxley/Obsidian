@@ -45,18 +45,12 @@ Obs: Possuem som de ‘i’ ou de ‘u
     Ex: MetaFÍsica, LÂMpada, ÚLtimo.
 
   
-
-Monossílabos: São palavras formadas por uma única sílaba.
-
+ **Monossílabos**: São palavras formadas por uma única sílaba.
 - Monossílabos átonos: Monossílabos pronunciados com pouca intensidade.
-    
-
- Ex: O, me, lhe, de.
+     Ex: O, me, lhe, de.
 
 - Monossílabos tônicos: São os monossílabos pronunciados com intensidade. 
-    
-
- Ex: Mês, tu, mim, dê, dez.
+    Ex: Mês, tu, mim, dê, dez.
 
 ___________________________________________________________________________
 
