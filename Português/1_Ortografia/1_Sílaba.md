@@ -44,6 +44,7 @@ Obs: Possuem som de ‘i’ ou de ‘u
 - Palavras proparoxítonas: a sílaba tônica é a antepenúltima.
     Ex: MetaFÍsica, LÂMpada, ÚLtimo.
 
+Silabas átonas: São as sślabas masi fracas das palavras  
   
  **Monossílabos**: São palavras formadas por uma única sílaba.
 - Monossílabos átonos: Monossílabos pronunciados com pouca intensidade.
