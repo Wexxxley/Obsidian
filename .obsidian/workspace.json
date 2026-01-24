@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Português/1_Ortografia/1_Sílaba.md",
+                "file": "16_Aleatorios/3_Concorsos de TI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Sílaba"
+              "title": "3_Concorsos de TI"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -199,9 +198,10 @@
   },
   "active": "b8d663c87dc5c22f",
   "lastOpenFiles": [
+    "Português/1_Ortografia/1_Sílaba.md",
+    "16_Aleatorios/3_Concorsos de TI.md",
     "attachments/Pasted image 20260124140241.png",
     "16_Aleatorios/2_Técnica simples de estudo.md",
-    "Português/1_Ortografia/1_Sílaba.md",
     "Português/1_Ortografia",
     "Português",
     "16_Aleatorios/Pedido de crenciais GIT.md",
@@ -236,7 +236,6 @@
     "attachments/Pasted image 20251216064844.png",
     "attachments/Pasted image 20251215192125.png",
     "attachments/Pasted image 20251215191721.png",
-    "attachments/Pasted image 20251215190915.png",
     "01_Roadmap/1_Junior/3_Docker",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
