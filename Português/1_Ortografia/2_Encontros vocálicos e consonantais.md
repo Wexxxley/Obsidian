@@ -34,8 +34,15 @@ Reu-ni-ões → ditongo decrescente,hiáto e ditongo decrescente
 His-tó-ria → his-tó-ri-a 
 Pais →  Ditongo decrescente
 Pa-ís → Hiato
+Ga-ran-ti-a → Hiato
+
+
+Pin-guim →
+
 Im-por-tân-cia → im-por-tân-ci-a
-Obs: Ditongos crescentes podem, eventualmente virar um hiato.
+His-tó-ria → His-tó-ri-a
+Tê-nue → Tê-nu-e
+Obs: Ditongos crescentes podem, eventualmente, virar um hiato.
 
 
 
