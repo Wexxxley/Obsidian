@@ -44,8 +44,6 @@ His-tó-ria → His-tó-ri-a
 Tê-nue → Tê-nu-e
 Obs: Ditongos crescentes podem, eventualmente, virar um hiato.
 
-
-
 ### 2.2 Encontro consonantal
 
  São agrupamentos formados por mais de uma consoante sem vogal intermediária. 
@@ -57,15 +55,18 @@ Obs: Ditongos crescentes podem, eventualmente, virar um hiato.
 Obs: Para que consoantes formem encontros consonantais, elas não podem estar formando dígrafos 
 
 Ad-vo-ga-do → encontro consonantal
- Te-lha-do → dígrafo consonantal
- Gue-rra → Dígrafo consonantal e dígrafo consonantal 
- Pes-qui-sa-do-res → dígrafo consonantal
-
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Exemplos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| <br><br><br><br><br><br><br><br> Tem-plo →Dígrafo vocálico e encontro consonantal (pl)<br><br> Ex-ce-ção → Dígrafo consonantal (xc) e ditongo nasal<br><br> Des-cer → Dígrafo consonantal (sc)<br><br> Rit-mo → Encontro consonantal (tm)<br><br> Pneu → Encontro consonantal (pn) e ditongo<br><br> A-tle-ta → Encontro consonantal(tl) <br><br> Psi-có-lo-go → Encontro consonantal(ps)<br><br> Quei-jo → Dígrafo consonantal (qu) e  o ditongo ei<br><br> Chum-bo → Dígrafo consonantal (ch) e dígrafo vocálico (um)<br><br> Per-ma-nên-cia → dígrafo vocálico e ditongo. |
-
-  
-  
-**
+Te-lha-do → dígrafo consonantal
+Can-to → Dígrafo vocálico
+Gue-rra → Dígrafo consonantal e dígrafo consonantal 
+Pes-qui-sa-do-res → dígrafo consonantal
+Tam-pa → Dígrafo vocálico
+Tem-plo →Dígrafo vocálico e encontro consonantal (pl)
+Ex-ce-ção → Dígrafo consonantal (xc) e ditongo nasal
+Des-cer → Dígrafo consonantal (sc)
+Rit-mo → Encontro consonantal (tm)
+Pneu → Encontro consonantal (pn) e ditongo
+A-tle-ta → Encontro consonantal(tl) 
+Psi-có-lo-go → Encontro consonantal(ps)
+Quei-jo → Dígrafo consonantal (qu) e  o ditongo ei
+Chum-bo → Dígrafo consonantal (ch) e dígrafo vocálico (um)
+Per-ma-nên-cia → dígrafo vocálico e ditongo.
