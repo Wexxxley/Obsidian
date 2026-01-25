@@ -22,10 +22,11 @@ Encontros vocálicos são agrupamentos de vogais ou de vogais e semivogais sem c
 
   
 Mo-o-oca → Hiato
-Ti-re-oi-de → Hiato e ditongo decrescente.
+Ti-re-ói-de → Hiato e ditongo decrescente.
 Ca-be-lei-rei-ro → Dois ditongos decrescentes 
 Quão → tritongo
 Co-ar → Hiato
+O-ce-a-no → Hiato
 En-xa-guou → tritongo 
 Gua-ra-tin-gue-tá → Ditongo crescente (somente o Gua)
 Re-gi-o-nais → hiato e ditongo decrescente
