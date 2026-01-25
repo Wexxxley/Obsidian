@@ -9,32 +9,34 @@ Encontros vocálicos são agrupamentos de vogais ou de vogais e semivogais sem c
 - Ditongo decrescente:  vogal vem antes da semivogal.
     Ex: Pai, Põe.
 
-- Ditongo oral: Não possui nasalização
-    Ex: Má-goa
 - Ditongo nasal: possui nasalização
      Ex: Mão
+- Ditongo oral: Não possui nasalização
+    Ex: Má-goa
+
+**Tritongo**: É o encontro de uma semivogal com uma vogal e uma semivogal na mesma sílaba.
+	Ex: sa-guão, U-ru-guai, I-guais, Pa-ra-guai.
+
+**Hiato**: É o encontro imediato de duas vogais, em sílabas diferentes.
+	Ex: Ra-iz, Sa-ú-de, Mo-o-ca, di- ás-po-ra, O-ce-a-no
 
   
+Mo-o-oca → Hiato
+Ti-re-oi-de → Hiato e ditongo decrescente.
+Ca-be-lei-rei-ro → Dois ditongos decrescentes 
+Quão → tritongo
+Co-ar → Hiato
+En-xa-guou → tritongo 
+Gua-ra-tin-gue-tá → Ditongo crescente (somente o Gua)
+Re-gi-o-nais → hiato e ditongo decrescente
+Reu-ni-ões → ditongo decrescente,hiáto e ditongo decrescente
+His-tó-ria → his-tó-ri-a 
+Pais →  Ditongo decrescente
+Pa-ís → Hiato
+Im-por-tân-cia → im-por-tân-ci-a
+Obs: Ditongos crescentes podem, eventualmente virar um hiato.
 
-Tritongo: É o encontro de uma semivogal com uma vogal e uma semivogal na mesma sílaba.
 
- Ex: sa-guão, U-ru-guai, I-guais, Pa-ra-guai.
-
-  
-
-Hiato: É o encontro imediato de duas vogais, em sílabas diferentes.
-
- Ex: Ra-iz, Sa-ú-de, Mo-o-ca, di- ás-po-ra, O-ce-a-no
-
-  
-  
-
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Mais exemplos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Ti-re-oi-de → Hiato e ditongo decrescente.<br><br> Ca-be-lei-rei-ro → Dois ditongos decrescentes.<br><br> Quão → tritongo<br><br> Co-ar → Hiato<br><br> En-xa-guou → tritongo <br><br> Gua-ra-tin-gue-tá → Ditongo crescente (somente o Gua)<br><br> Re-gi-o-nais → hiato e ditongo decrescente<br><br> Reu-ni-ões → ditongo decrescente,hiáto e ditongo decrescente<br><br> Pa-ís → Hiato<br><br> Pais →  Ditongo decrescente<br><br>  <br><br>Obs: Ditongos crescentes podem, eventualmente virar um hiato.<br><br> His-tó-ria → his-tó-ri-a <br><br> Im-por-tân-cia → im-por-tân-ci-a |
-
-___________________________________________________________________________
 
 ### 2.2 Encontro consonantal
 
