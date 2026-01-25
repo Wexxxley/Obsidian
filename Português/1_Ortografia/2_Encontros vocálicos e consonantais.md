@@ -60,6 +60,8 @@ Can-to → Dígrafo vocálico
 Gue-rra → Dígrafo consonantal e dígrafo consonantal 
 Pes-qui-sa-do-res → dígrafo consonantal
 Tam-pa → Dígrafo vocálico
+Pa-sso → Diagafo consonantal
+Des-cer 
 Tem-plo →Dígrafo vocálico e encontro consonantal (pl)
 Ex-ce-ção → Dígrafo consonantal (xc) e ditongo nasal
 Des-cer → Dígrafo consonantal (sc)
