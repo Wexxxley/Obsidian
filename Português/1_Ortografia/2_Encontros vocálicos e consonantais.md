@@ -27,29 +27,34 @@ Encontros vocálicos são agrupamentos de vogais ou de vogais e semivogais sem c
 É o encontro imediato de duas vogais, em sílabas diferentes.
 	Ex: Ra-iz, Sa-ú-de, Mo-o-ca, di- ás-po-ra, O-ce-a-no
 
-  
-Mo-o-oca → Hiato
+---
+
+Mo-o-ca → Hiato
 Ti-re-ói-de → Hiato e ditongo decrescente.
 Ca-be-lei-rei-ro → Dois ditongos decrescentes 
 Quão → tritongo
 Co-ar → Hiato
 O-ce-a-no → Hiato
 En-xa-guou → tritongo 
-Gua-ra-tin-gue-tá → Ditongo crescente (somente o Gua)
+Gua-ra-tin-gue-tá → Ditongo crescente e dígrafo consonantal
 Re-gi-o-nais → hiato e ditongo decrescente
-Reu-ni-ões → ditongo decrescente,hiáto e ditongo decrescente
-His-tó-ria → his-tó-ri-a 
+Reu-ni-ões → Ditongo decrescente, hiáto e ditongo decrescente
 Pais →  Ditongo decrescente
 Pa-ís → Hiato
-Ga-ran-ti-a → Hiato
+
+>[!note]
+>Ditongos crescentes podem, eventualmente, virar um hiato.
+
+---
 
 
 Pin-guim →
-
+Ga-ran-ti-a → Hiato
 Im-por-tân-cia → im-por-tân-ci-a
 His-tó-ria → His-tó-ri-a
 Tê-nue → Tê-nu-e
-Obs: Ditongos crescentes podem, eventualmente, virar um hiato.
+His-tó-ria → his-tó-ri-a 
+
 
 ### 2.2 Encontro consonantal
 
