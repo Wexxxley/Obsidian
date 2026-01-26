@@ -1,23 +1,30 @@
 
 
+
 ---
+### **1. Encontros vocálicos**
+
 Encontros vocálicos são agrupamentos de vogais ou de vogais e semivogais sem consoante intermediaria.
 
-**Ditongo**: É o encontro de uma vogal e uma semivogal na mesma sílaba.
-- Ditongo crescente: semivogal vem antes da vogal.
+#### **1.1 Ditongo**
+É o encontro de uma vogal e uma semivogal na mesma sílaba.
+
+- **Ditongo crescente**: semivogal vem antes da vogal.
     Ex: Lí-rio, quan-do, fre-quen-te.
-- Ditongo decrescente:  vogal vem antes da semivogal.
+- **Ditongo decrescente**:  vogal vem antes da semivogal.
     Ex: Pai, Põe.
 
-- Ditongo nasal: possui nasalização
+- **Ditongo nasal:** possui nasalização
      Ex: Mão
-- Ditongo oral: Não possui nasalização
+- **Ditongo oral**: Não possui nasalização
     Ex: Má-goa
 
-**Tritongo**: É o encontro de uma semivogal com uma vogal e uma semivogal na mesma sílaba.
+#### **1.2 Tritongo**
+É o encontro de uma semivogal com uma vogal e uma semivogal na mesma sílaba.
 	Ex: sa-guão, U-ru-guai, I-guais, Pa-ra-guai.
 
-**Hiato**: É o encontro imediato de duas vogais, em sílabas diferentes.
+#### **1.3 Hiato**
+É o encontro imediato de duas vogais, em sílabas diferentes.
 	Ex: Ra-iz, Sa-ú-de, Mo-o-ca, di- ás-po-ra, O-ce-a-no
 
   
