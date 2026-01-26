@@ -43,29 +43,23 @@ Pais →  Ditongo decrescente
 Pa-ís → Hiato
 
 >[!note]
->Ditongos crescentes podem, eventualmente, virar um hiato.
+>Ditongos crescentes podem, eventualmente, virar um hiato. É o fenêmeo chamda de **Eventual proparoxítona**
+>
+>Im-por-tân-cia → im-por-tân-ci-a
+>His-tó-ria → His-tó-ri-a
 
 ---
+### **2 Encontro consonantal**
 
+São agrupamentos formados por mais de uma consoante sem vogal intermediária. 
 
-Pin-guim →
-Ga-ran-ti-a → Hiato
-Im-por-tân-cia → im-por-tân-ci-a
-His-tó-ria → His-tó-ri-a
-Tê-nue → Tê-nu-e
-His-tó-ria → his-tó-ri-a 
+- Pode ocorrer na mesma sílaba (**Encontro consonantal perfeito ECP**).
+- Pode ocorrer em sílabas diferentes (**Encontro consonantal imperfeito ECI**).
 
+>[!NOTE]
+>Para que consoantes formem encontros consonantais, elas não podem estar formando dígrafos.
 
-### 2.2 Encontro consonantal
-
- São agrupamentos formados por mais de uma consoante sem vogal intermediária. 
-
-- Pode ocorrer na mesma sílaba (Encontro consonantal perfeito).
-    
-- Pode ocorrer em sílabas diferentes (Encontro consonantal imperfeito).
-
-Obs: Para que consoantes formem encontros consonantais, elas não podem estar formando dígrafos 
-
+---
 Ad-vo-ga-do → encontro consonantal
 Te-lha-do → dígrafo consonantal
 Can-to → Dígrafo vocálico
@@ -84,3 +78,5 @@ Psi-có-lo-go → Encontro consonantal(ps)
 Quei-jo → Dígrafo consonantal (qu) e  o ditongo ei
 Chum-bo → Dígrafo consonantal (ch) e dígrafo vocálico (um)
 Per-ma-nên-cia → dígrafo vocálico e ditongo.
+
+---
