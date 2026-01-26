@@ -1,5 +1,5 @@
 
-
+#Concluded 
 
 ---
 ### **1. Encontros vocálicos**
@@ -60,23 +60,23 @@ São agrupamentos formados por mais de uma consoante sem vogal intermediária. 
 >Para que consoantes formem encontros consonantais, elas não podem estar formando dígrafos.
 
 ---
-Ad-vo-ga-do → encontro consonantal
-Te-lha-do → dígrafo consonantal
+Ad-vo-ga-do → Encontro consonantal imperfeito
+Te-lha-do → Dígrafo consonantal
 Can-to → Dígrafo vocálico
 Gue-rra → Dígrafo consonantal e dígrafo consonantal 
-Pes-qui-sa-do-res → dígrafo consonantal
+Pes-qui-sa-do-res → Dígrafo consonantal
 Tam-pa → Dígrafo vocálico
 Pa-sso → Diagafo consonantal
 Des-cer → Digrafo consonantal
-Tem-plo →Dígrafo vocálico e encontro consonantal (pl)
-Ex-ce-ção → Dígrafo consonantal (xc) e ditongo nasal
-Des-cer → Dígrafo consonantal (sc)
-Rit-mo → Encontro consonantal (tm)
-Pneu → Encontro consonantal (pn) e ditongo
-A-tle-ta → Encontro consonantal(tl) 
-Psi-có-lo-go → Encontro consonantal(ps)
-Quei-jo → Dígrafo consonantal (qu) e  o ditongo ei
+Tem-plo →Dígrafo vocálico e encontro consonantal perfeito
+Ex-ce-ção → Dígrafo consonantal e ditongo nasal
+Des-cer → Dígrafo consonantal
+Rit-mo → Encontro consonantal
+Pneu → Encontro consonantal e ditongo
+A-tle-ta → Encontro consonantal
+Psi-có-lo-go → Encontro consonantal
+Quei-jo → Dígrafo consonantal (qu) e ditongo (ei)
 Chum-bo → Dígrafo consonantal (ch) e dígrafo vocálico (um)
-Per-ma-nên-cia → dígrafo vocálico e ditongo.
+Per-ma-nên-cia → Encontro consonantal, dígrafo vocálico e ditongo.
 
 ---
