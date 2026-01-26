@@ -1,35 +1,43 @@
 
 
+
 ---
-### 1.1 Fonema 
+### **1. Fonema** 
 
-É a menor unidade de SOM, capaz de distinguir uma palavra da outra.
+==Fonema é a menor unidade de SOM, capaz de distinguir uma palavra da outra==. Pode-se dizer que fonemas são os sons e as letras são as representações visuais do som. 
+- O nosso alfabeto possui 26 letras, mas inúmeros sons diferentes.
 
-**Fonema x Letra:** Pode-se dizer que Fonemas são os sons e as letras são as representações visuais do som. O nosso alfabeto possui 26 letras, mas inúmeros sons diferentes.
+#### **1.1 Dífono**
+É uma letra que representa mais de um fonema. Só existe o /ks/.
+	Ex: Taxi → /taksi/. 4 letras e 5 fonemas.
 
-**Dífono**:  É uma letra que representa mais de um fonema. Só existe o /ks/.
-Ex: Taxi → /taksi/. 4 letras e 5 fonemas.
-
-**Dígrafo**: Sequência de duas letras que representam um único fonema na escrita. 
-Ex: Cachorro → /kaxoro/. 8 letras e 6 fonemas
+#### **1.2 Dígrafo**
+Sequência de duas letras que representam um fonema. 
 
 - **Dígrafo consonantal:** dígrafo com a letra mais forte sendo uma consoante.
-(ch, lh, nh, rr, sc, sç, xc, gu, qu)
-Ex: Chave, mulher, cresço
+	==(ch, lh, nh, rr, ss, sc, sç, xc, gu, qu)==
+	Ex: Chave, mulher, cresço
 
 - **Dígrafo vocálico**: vogal nasalizada por um m ou n.     
-(am,an,em,en,im,in,om,on,um,un)
-Ex: andar, sendo, limpo, tonto, chumbo.
+	==(am,an,em,en,im,in,om,on,um,un)==
+	Ex: andar, sendo, limpo, tonto, chumbo.
 
-### 1.2 Vogal x Semivogal
+---
+### **2 Vogal x Semivogal**
 
-**Vogal**: São sons que passam livremente pela nossa boca. Elas são a base da sílaba e toda sílaba possui uma única vogal.(a, e, i, o, u)
-Obs: ‘a’ é sempre vogal, nunca semivogal.
-Obs: Não há silaba sem vogal e so pode ter uma vogal por sílaba.
+**Vogal**: São sons que passam livremente pela nossa boca. Elas são a base da sílaba e toda sílaba possui uma única vogal.
+
+>[!INFO]
+>‘A’ é sempre vogal.
+>
+Não há silaba sem vogal e so pode ter uma vogal por sílaba.
 
 **Semivogal**: Possuem som mais fraco, pronúncia mais rápida e se apoiam nas vogais. 
-Obs: Possuem SOM de ‘i’ ou de ‘u
+>[!INFO]
+>Possuem SOM de ‘i’ ou de ‘u
+
 ![](../../attachments/Pasted%20image%2020260124140241.png)
+
 
 
 **Sílaba tônica:** Sílaba tônica é a sílaba da palavra pronunciada com maior intensidade. Obs: **vogal tônica** é a vogal da sílaba tônica. Lembrando que só existe uma vogal por sílaba 
