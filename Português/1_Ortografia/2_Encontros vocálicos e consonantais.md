@@ -77,3 +77,4 @@ Psi-có-lo-go → Encontro consonantal
 Quei-jo → Dígrafo consonantal (qu) e ditongo (ei)
 Chum-bo → Dígrafo consonantal (ch) e dígrafo vocálico (um)
 Per-ma-nên-cia → Encontro consonantal, dígrafo vocálico e ditongo.
+

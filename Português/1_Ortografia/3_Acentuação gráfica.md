@@ -20,46 +20,34 @@ São no total 8 regras de acentuação gráfica, 4 gerais e 4 casos especiais.
 ---
 ### **2. Casos especiais**
 
-Ditongos abertos (ÉI, ÉU, ÓI): Acentua-se quando nos finais das palavras.
+**Ditongos abertos (ÉI, ÉU, ÓI)**: Acentua-se quando nos finais das palavras.
+	Ex: a-néis, tro-féu, céu he-rói. 
 
- Ex: a-néis, tro-féu, céu,he-rói. 
+> [!Info]
+Méi-er e des-trói-er. São acentudas porque são paroxítonas terminadas em r.
 
- Exceções: Méi -er e des-trói-er. São paroxítonas terminadas em r
+**Paroxítonas terminadas em ditongo:** Acentua-se as palavras paroxítonas terminadas em ditongo.
+	Ex: Ór-fão, His-tó-ria
+	Obs: Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxítonas. Proparoxítonas eventuais.
+	Ex: His-tó-ria → his-tó-ri-a
 
-2. Paroxítonas terminadas em ditongo: Acentua-se as palavras paroxítonas terminadas em ditongo.
+**Hiato**: Acentuam-se quando a segunda vogal do hiato for I ou U e forem tônicas com ou sem s.
+	Obs: Se um nh aparecer logo após não acentua-se.
+	Ex: Saída, Sa-ís-te, sa-ú-de, ba-ú.
+	Ex: Sa-i-dei-ra não acentua-se porque o i não é tônica
+	Ex: Ra-i-nha, ju-iz, ca-ir-des não acentuam-se.
+	Obs: Hiato com u antecedido por ditongo não acentua. Ex: Bo-cai-u-va, Fei-u-ra
 
-Ex: Ór-fão, His-tó-ria
-
-Obs: Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxítonas. Proparoxítonas eventuais.
-
-Ex: His-tó-ria → his-tó-ri-a
-
-3. Hiato: Acentuam-se quando a segunda vogal do hiato for I ou U e forem tônicas com ou sem s.
-
-Obs: Se um nh aparecer logo após não acentua-se.
-
-Ex: Saída, Sa-ís-te, sa-ú-de, ba-ú.
-
-Ex: Sa-i-dei-ra não acentua-se porque o i não é tônica
-
-Ex: Ra-i-nha, ju-iz, ca-ir-des não acentuam-se.
-
-Obs: Hiato com u antecedido por ditongo não acentua. Ex: Bo-cai-u-va, Fei-u-ra
-
-  
-
-4. Acentos diferenciais: Servem para distinguir palavras iguais. 
-
-Existem 3 acentos diferenciais e sempre circunflexo (^) .
-
-1. Ter, vir e derivados recebem acentos quando no plural
-    
-
-Ex: Eles têm, retêm, vêm, intervêm.
-
-2. De intensidade: PÔR(Verbo) x POR(Preposição)
-    
-3. De timbre: PÔDE X PODE    
+**Acentos diferenciais:** Servem para distinguir palavras iguais. Existem 3 acentos diferenciais e sempre circunflexo (^) .
+	
+	1. Ter, vir e derivados recebem acentos quando no plural
+	    
+	
+	Ex: Eles têm, retêm, vêm, intervêm.
+	
+	2. De intensidade: PÔR(Verbo) x POR(Preposição)
+	    
+	3. De timbre: PÔDE X PODE    
 
 ---
 ### **3. Dicas**
