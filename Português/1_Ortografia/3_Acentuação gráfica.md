@@ -26,17 +26,21 @@ São no total 8 regras de acentuação gráfica, 4 gerais e 4 casos especiais.
 > [!Info]
 Méi-er e des-trói-er. São acentudas porque são paroxítonas terminadas em r.
 
-**Paroxítonas terminadas em ditongo:** Acentua-se as palavras paroxítonas terminadas em ditongo.
+**Paroxítonas terminadas em ditongo:** Acentua-se as paroxítonas terminadas em ditongo.
 	Ex: Ór-fão, His-tó-ria
-	Obs: Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxítonas. Proparoxítonas eventuais.
-	Ex: His-tó-ria → his-tó-ri-a
 
-**Hiato**: Acentuam-se quando a segunda vogal do hiato for I ou U e forem tônicas com ou sem s.
-	Obs: Se um nh aparecer logo após não acentua-se.
+>[!tip]
+Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxítonas. **Proparoxítonas eventuais**.
+>
+>Ex: His-tó-ria → his-tó-ri-a
+
+**Hiato**: Acentuam-se quando a segunda vogal do hiato for I ou U e forem TÔNICAS com ou sem s.
 	Ex: Saída, Sa-ís-te, sa-ú-de, ba-ú.
 	Ex: Sa-i-dei-ra não acentua-se porque o i não é tônica
+	**Exceção**: Se um nh aparecer logo após não acentua-se.
 	Ex: Ra-i-nha, ju-iz, ca-ir-des não acentuam-se.
-	Obs: Hiato com u antecedido por ditongo não acentua. Ex: Bo-cai-u-va, Fei-u-ra
+	**Exceção**: Hiato com u antecedido por ditongo não acentua. 
+	Ex: Bo-cai-u-va, Fei-u-ra
 
 **Acentos diferenciais:** Servem para distinguir palavras iguais. Existem 3 acentos diferenciais e sempre circunflexo (^) .
 	
