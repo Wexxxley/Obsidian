@@ -67,7 +67,7 @@ Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxíto
 	Ex: Eles têm. Eles vêm.
 
 4. Crê, dê, lê, vê. Essas palavras com vogal dobrada não acentuam-se
-	Ex: creem, veem.  
+	Ex: creem, leem, veem.  
 
 5. Cuidado com as proparoxítonas eventuais.
 	Ex: His-tó-ria pode ter a mesma regra de acentuação que pa-ra-le-le-pí-pe-do.
