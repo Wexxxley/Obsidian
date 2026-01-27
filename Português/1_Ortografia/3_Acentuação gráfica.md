@@ -1,8 +1,8 @@
 
+#Concluded 
 
 ---
 São no total 8 regras de acentuação gráfica, 4 gerais e 4 casos especiais.
-
 ### **1. Regras gerais**
 
 **Oxítonos**: Acentua oxítonos terminados em ==A/AS, E/ES, O/OS/ EM/ENS==.
@@ -15,16 +15,16 @@ São no total 8 regras de acentuação gráfica, 4 gerais e 4 casos especiais.
 	Ex: Lâm-pa-da, á-li-bi, ín-te-rim.
 
 **Monossílabos tônicos:** terminados em ==A/AS, E/ES, O/OS== acentua-se.
-	Ex: pá, gás, fé, mês, dó, pôs, pô-lo (ênclise)
+	Ex: pá, gás, fé, mês, dó, pôs, pô-lo (ênclise), dê
 
 ---
-### **2 Casos especiais**
+### **2. Casos especiais**
 
-1. Ditongos abertos (ÉI, ÉU, ÓI): Acentua-se quando nos finais das palavras.
+Ditongos abertos (ÉI, ÉU, ÓI): Acentua-se quando nos finais das palavras.
 
  Ex: a-néis, tro-féu, céu,he-rói. 
 
- Exceções: Méi-er e des-trói-er. São paroxítonas terminadas em r
+ Exceções: Méi -er e des-trói-er. São paroxítonas terminadas em r
 
 2. Paroxítonas terminadas em ditongo: Acentua-se as palavras paroxítonas terminadas em ditongo.
 
@@ -93,115 +93,55 @@ Ex: Eles têm, retêm, vêm, intervêm.
 	Ex: Ra-i-nha, ta-i-nha, ju-iz, la-da-i-nha, ru-im, ru-ir
 
   
-  
-  
-  
-  
-
-Exemplos
-
+>[!EXAMPLE]
 01- Pe-rí-o-do → Proparoxítona.
-
 02- Fa-vo-rá-vel → paroxítona terminada em l
-
 03- Co-mér-cio → Paroxítona terminada em Ditongo
-
 04- Ten-dên-cia → Paroxítona terminada em Ditongo
-
 05- Só → Monossílabo tônico terminado em o
-
 06- Até → Oxítona terminada em e
-
 07- Três → Monossílabo tônico terminado em es
-
 08- Pa-ís → Hiato com i
-
-09- Ju-í-zes → Hiato com i
-
+09-Ju-í-zes → Hiato com i
 10- Pa-péis → ditongo aberto no final
-
 11- Creem → Regra do crer (n acentua)
-
 12- Méi-er → paroxítona terminada em r
-
 13- Leem → Regra do ler (n acentua)
-
 14- Al-ca-loi-de → Paroxítona terminada em e (n acentua)
-
 15- Reveem → Regra do ver (n acentua)
-
 16- Cons-trói → Ditongo aberto ÓI no final
-
 17- Des-trói-er → Paroxítona terminada em r
-
 18- Descreem → Regra do crer (n acentua)
-
 19- I-ca-ra-í → Hiato com i 
-
 20- Ca-ra-cóis → Ditongo aberto ÓI no final
-
 21- Re-tém → Oxítona terminada em em
-
 22- Re–têm → Acento diferencial para indicar a 3 pessoa do plural da palavra ter.
-
 23- O-di-ssei-a → Paroxítona terminada em a (n acentua)
-
 24- Col-mei-a → Paroxítona terminada em a (n acentua)
-
 25- Ji-boi-a → Paroxítona terminada em a (n acentua)
-
 26- Pi-au-í → Hiato com I, antecedido por ditongo no final da palavra.
-
 27- Tra-í → Hiato com I 
-
-28- Bo-cai-u-va  → Hiato com u antecedido por ditongo (n acentua).
-
+28- Bo-cai-u-va  → Hiato com u antecedido p or ditongo (n acentua).
 29- Más → Monossílabo tônico (acentua)
-
 30- Mas → Monossílabo átono (n acentua)
-
 31- Tui-ui-ú → Hiato com U, antecedido por ditongo no final. 
-
 32- Gra-tui-to → (n acentua)
-
 33- Eles provêm → acento diferencial derivado do verbo vir
-
 34- Preveem → derivado de ver (n acentua)
-
 35- Prevê → Derivado de ver, mas pela regra geral é um oxítona terminada em e.
-
 36- Re-cons-trói → Ditongo aberto no final da palavra.
-
 37- Do-mí-nio → Paroxítona terminada em ditongo
-
 38- Eles têm → Acento diferencial
-
 39- Pô-neis → Paroxítona terminada em ditongo
-
 40- Pa-í-ses → Hiato com i
-
 41- Hífen → Paroxítona terminada em n
-
 42- Hifens ou hífenes → existem essas duas formas 
-
 43- Abdômen → Paroxítona terminada em n
-
 44- Abdomens/Abdômenes → existem essas duas formas
-
 45- Ra-i-nha → Hiato com i seguido por nh
-
 46- Ta-i-nha → Hiato com i seguido por nh
-
 47- Fi-éis → Ditongo aberto
-
 48- Tei-ú → Hiato com U antecedido por ditongo no final da palavra (acentua)
-
 49- Ho-téis → Ditongo aberto
-
 50- Sóis → Ditongo aberto
 
-  
-
-____________________________
-
-**
