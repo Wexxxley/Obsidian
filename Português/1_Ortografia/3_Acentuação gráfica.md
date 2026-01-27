@@ -37,14 +37,15 @@ Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxíto
 **Hiato**: Acentuam-se quando a segunda vogal do hiato for I ou U e forem TÔNICAS com ou sem s.
 	Ex: Saída, Sa-ís-te, sa-ú-de, ba-ú.
 	Ex: Sa-i-dei-ra não acentua-se porque o i não é tônica
-	**Exceção**: Se um nh aparecer logo após não acentua-se.
-	Ex: Ra-i-nha, ju-iz, ca-ir-des não acentuam-se.
-	**Exceção**: Hiato com u antecedido por ditongo não acentua. 
-	Ex: Bo-cai-u-va, Fei-u-ra
+
+>[!tip]
+>**Exceção**: Se um nh aparecer logo após não acentua-se.
+>	Ex: Ra-i-nha, ju-iz, ca-ir-des não acentuam-se.
+>**Exceção**: Hiato com u antecedido por ditongo não acentua. 
+>	Ex: Bo-cai-u-va, Fei-u-ra
 
 **Acentos diferenciais:** Servem para distinguir palavras iguais. Existem 3 acentos diferenciais e sempre circunflexo (^) .
-	
-	1. Ter, vir e derivados recebem acentos quando no plural
+		1. Ter, vir e derivados recebem acentos quando no plural
 	    
 	
 	Ex: Eles têm, retêm, vêm, intervêm.
@@ -62,7 +63,7 @@ Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxíto
 2.  Não acentua-se o primeiro o de palavras paroxítonas terminadas em oo.
 	Ex: Vo-o, A-ben-ço-o.
 
-3. Ter e vir no plural são acentuados.
+3. Ter e vir no plural são ac entuados.
 	Ex: Eles têm. Eles vêm.
 
 4. Crê, dê, lê, vê. Essas palavras com vogal dobrada não acentuam-se
@@ -78,7 +79,7 @@ Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxíto
 	Ex: Bo-cai-u-va → Hiato com u antecedido por ditongo (n acentua).
 
 8. Exceção da regra anterior. Se o hiato antecedido por ditongo estiver no final da palavra acentua.
-	Ex: Tui-ui-ú → Hiato com U antecedido por ditongo.
+	E x: Tui-ui-ú → Hiato com U antecedido por ditongo.
 	Ex: Pi-au-í → Hiato com I antecedido por ditongo no final da palavra.
   
 9. Hiato com I ou U seguido por nh não acentua
