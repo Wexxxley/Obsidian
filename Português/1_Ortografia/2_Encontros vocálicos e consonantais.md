@@ -27,8 +27,7 @@ Encontros vocálicos são agrupamentos de vogais ou de vogais e semivogais sem c
 É o encontro imediato de duas vogais, em sílabas diferentes.
 	Ex: Ra-iz, Sa-ú-de, Mo-o-ca, di- ás-po-ra, O-ce-a-no
 
----
-
+>[!EXAMPLE]
 Mo-o-ca → Hiato
 Ti-re-ói-de → Hiato e ditongo decrescente.
 Ca-be-lei-rei-ro → Dois ditongos decrescentes 
@@ -59,7 +58,7 @@ São agrupamentos formados por mais de uma consoante sem vogal intermediária. 
 >[!NOTE]
 >Para que consoantes formem encontros consonantais, elas não podem estar formando dígrafos.
 
----
+>[!EXAMPLE]
 Ad-vo-ga-do → Encontro consonantal imperfeito
 Te-lha-do → Dígrafo consonantal
 Can-to → Dígrafo vocálico
@@ -78,5 +77,3 @@ Psi-có-lo-go → Encontro consonantal
 Quei-jo → Dígrafo consonantal (qu) e ditongo (ei)
 Chum-bo → Dígrafo consonantal (ch) e dígrafo vocálico (um)
 Per-ma-nên-cia → Encontro consonantal, dígrafo vocálico e ditongo.
-
----
