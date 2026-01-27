@@ -8,18 +8,17 @@ São no total 8 regras de acentuação gráfica, 4 gerais e 4 casos especiais.
 **Oxítonos**: Acentua oxítonos terminados em ==A/AS, E/ES, O/OS/ EM/ENS==.
 	Ex: Sofá, encontrá-lo (ênclise, são duas palavras), café, alguém, contém, conténs
 
-**Paroxítonos**: São acentuadas as NÃO terminadas em A/AS, E/ES, O/OS/ EM/ENS.
-	Ex: Cá-qui, Ô-nix, Í-mã, Méi-er
+**Paroxítonos**: São acentuadas as ==NÃO terminadas em A/AS, E/ES, O/OS/ EM/ENS==.
+	Ex: Cá-qui, Ô-nix, Í-mã, Méi-er, Ór-fã.
 
-**Proparoxítonos**: toda proparoxítona é acentuada
+**Proparoxítonos**: ==TODA proparoxítona é acentuada==.
+	Ex: Lâm-pa-da, á-li-bi, ín-te-rim.
 
-Ex: Lâm-pa-da, á-li-bi, ín-te-rim
+**Monossílabos tônicos:** terminados em ==A/AS, E/ES, O/OS== acentua-se.
+	Ex: pá, gás, fé, mês, dó, pôs, pô-lo (ênclise)
 
-**Monossílabos tônicos:** terminados em A/AS, E/ES, O/OS acentua-se.
-
-Ex: pá, gás, fé, mês, dó, pôs, pô-lo
-
-### 3.2 Casos especiais
+---
+### **2 Casos especiais**
 
 1. Ditongos abertos (ÉI, ÉU, ÓI): Acentua-se quando nos finais das palavras.
 
@@ -60,67 +59,38 @@ Ex: Eles têm, retêm, vêm, intervêm.
 
 2. De intensidade: PÔR(Verbo) x POR(Preposição)
     
-3. De timbre: PÔDE X PODE
-    
+3. De timbre: PÔDE X PODE    
 
-  
-  
+---
+### **3. Dicas**
 
-### 3.3 Dicas
-
-1. ‘Ã’ não é considerado como ‘A’, portanto as regras que valem para A não valem para Ã. O que é levado em consideração é a fonética.
-
- Ex: Í-mã, Ór-fã, Ór-gão.
-
-  
+1. 'Ã’ não é considerado como ‘A’. O que é levado em consideração é a fonética.
+	Ex: Í-mã, Ór-fã, Ca-sa.
 
 2.  Não acentua-se o primeiro o de palavras paroxítonas terminadas em oo.
-
- Ex: Vo-o, A-ben-ço-o.
-
-  
+	Ex: Vo-o, A-ben-ço-o.
 
 3. Ter e vir no plural são acentuados.
-
- Ex: Eles têm. Eles vêm.
-
-  
+	Ex: Eles têm. Eles vêm.
 
 4. Crê, dê, lê, vê. Essas palavras com vogal dobrada não acentuam-se
-
- Ex: creem, veem.
-
-  
+	Ex: creem, veem.  
 
 5. Cuidado com as proparoxítonas eventuais.
-
- Ex: His-tó-ria pode ter a mesma regra de acentuação que pa-ra-le-le-pí-pe-do.
-
-  
+	Ex: His-tó-ria pode ter a mesma regra de acentuação que pa-ra-le-le-pí-pe-do.
 
 6. Existe um único acento diferencial na língua portuguesa
-
-Ex: Fôrma, forma.
-
-  
+	Ex: Fôrma, forma.
 
 7. Hiato com I ou U antecedido por ditongo.
-
- Ex: Bo-cai-u-va → Hiato com u antecedido por ditongo (n acentua).
-
-  
+	Ex: Bo-cai-u-va → Hiato com u antecedido por ditongo (n acentua).
 
 8. Exceção da regra anterior. Se o hiato antecedido por ditongo estiver no final da palavra acentua.
-
- Ex: Tui-ui-ú → Hiato com U antecedido por ditongo.
-
- Ex: Pi-au-í → Hiato com I antecedido por ditongo no final da palavra.
-
+	Ex: Tui-ui-ú → Hiato com U antecedido por ditongo.
+	Ex: Pi-au-í → Hiato com I antecedido por ditongo no final da palavra.
   
-
 9. Hiato com I ou U seguido por nh não acentua
-
-Ex: Ra-i-nha, ta-i-nha, ju-iz, la-da-i-nha, ru-im, ru-ir
+	Ex: Ra-i-nha, ta-i-nha, ju-iz, la-da-i-nha, ru-im, ru-ir
 
   
   
