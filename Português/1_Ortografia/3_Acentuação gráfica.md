@@ -64,14 +64,8 @@ Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxíto
 2.  Não acentua-se o primeiro o de palavras paroxítonas terminadas em oo.
 	Ex: Vo-o, A-ben-ço-o.
 
-3. Ter e vir no plural são acentuados.
-	Ex: Eles têm. Eles vêm, ele tem, ele vem
-
-4. Crê, dê, lê, vê. Essas palavras com vogal dobrada não acentuam-se
+3. Crê, dê, lê, vê. Essas palavras com vogal dobrada não acentuam-se
 	Ex: creem, leem, veem.  
-
-5. **Eventuais proparoxítonas**.
-	Ex: His-tó-ria pode ter a mesma regra de acentuação que pa-ra-le-le-pí-pe-do. 
   
 >[!EXAMPLE]
 01- Pe-rí-o-do → Proparoxítona.
