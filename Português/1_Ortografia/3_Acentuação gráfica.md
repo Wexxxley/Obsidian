@@ -41,14 +41,19 @@ Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxíto
 >[!tip]
 >**Exceção**: Se um nh aparecer logo após não acentua-se.
 >	Ex: Ra-i-nha, ju-iz, ca-ir-des não acentuam-se.
+>	
 >**Exceção**: Hiato com u antecedido por ditongo não acentua. 
 >	Ex: Bo-cai-u-va, Fei-u-ra
+>	
+> **Exceção da regra anterior:** Hiato com u antecedido por ditongo no final acentua.
+> Ex: Tui-ui-ú → Hiato com U antecedido por ditongo.
+> Ex: Pi-au-í → Hiato com I antecedido por ditongo no final da palavra.
 
 **Acentos diferenciais:** Servem para distinguir palavras iguais. Existem 3 acentos diferenciais e sempre circunflexo (^).
-1. ==Ter, vir e derivados recebem acentos na 3° pessoa do plural==
+1.  ==Ter, vir e derivados recebem acentos na 3° pessoa do plural==
 	Ex: Eles têm, Eles retêm, Eles vêm, Eles intervêm.	
 2. De intensidade: ==PÔR(Verbo) x POR(Preposição)==
-3. De timbre: ==PÔDE X PODE, FÔRMA(opcional), FORMA==   
+3. De timbre: ==PÔDE X PODE, FÔRMA(facultativo), FORMA==   
 
 ---
 ### **3. Dicas**
@@ -67,20 +72,6 @@ Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxíto
 
 5. **Eventuais proparoxítonas**.
 	Ex: His-tó-ria pode ter a mesma regra de acentuação que pa-ra-le-le-pí-pe-do. 
-
-6. Existe um único **acento diferencial** na língua portuguesa
-	Ex: Fôrma, forma.
-
-7. Hiato com I ou U antecedido por ditongo.
-	Ex: Bo-cai-u-va → Hiato com u antecedido por ditongo (n acentua).
-
-8. Exceção da regra anterior. Se o hiato antecedido por ditongo estiver no final da palavra acentua.
-	E x: Tui-ui-ú → Hiato com U antecedido por ditongo.
-	Ex: Pi-au-í → Hiato com I antecedido por ditongo no final da palavra.
-  
-9. Hiato com I ou U seguido por nh não acentua
-	Ex: Ra-i-nha, ta-i-nha, ju-iz, la-da-i-nha, ru-im, ru-ir
-
   
 >[!EXAMPLE]
 01- Pe-rí-o-do → Proparoxítona.
