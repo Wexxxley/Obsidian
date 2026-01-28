@@ -45,7 +45,7 @@ Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxíto
 >**Exceção**: Hiato com u antecedido por ditongo não acentua. 
 >	Ex: Bo-cai-u-va, Fei-u-ra
 >	
-> **Exceção da regra anterior:** Hiato com u antecedido por ditongo no final acentua.
+c> **Exceção da regra anterior:** Hiato com u antecedido por ditongo no final acentua.
 > Ex: Tui-ui-ú → Hiato com U antecedido por ditongo.
 > Ex: Pi-au-í → Hiato com I antecedido por ditongo no final da palavra.
 
