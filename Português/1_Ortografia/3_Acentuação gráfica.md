@@ -122,3 +122,11 @@ Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxíto
 
 
 
+
+3. Assistir aula/pdf/livro e fazer anotaçoes simples
+4. Estudar todo um conjunto lógico de aulas/pdfs
+5. Questões
+6. Fazer um resumo
+7. Anki
+
+
