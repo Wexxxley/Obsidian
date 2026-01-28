@@ -45,14 +45,10 @@ Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxíto
 >	Ex: Bo-cai-u-va, Fei-u-ra
 
 **Acentos diferenciais:** Servem para distinguir palavras iguais. Existem 3 acentos diferenciais e sempre circunflexo (^) .
-		1. Ter, vir e derivados recebem acentos quando no plural
-	    
-	
-	Ex: Eles têm, retêm, vêm, intervêm.
-	
-	2. De intensidade: PÔR(Verbo) x POR(Preposição)
-	    
-	3. De timbre: PÔDE X PODE    
+1. Ter, vir e derivados recebem acentos quando no plural
+	Ex: Eles têm, retêm, vêm, intervêm.	
+2. De intensidade: PÔR(Verbo) x POR(Preposição)
+3. De timbre: PÔDE X PODE    
 
 ---
 ### **3. Dicas**
