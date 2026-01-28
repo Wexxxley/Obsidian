@@ -15,7 +15,7 @@ São no total 8 regras de acentuação gráfica, 4 gerais e 4 casos especiais.
 	Ex: Lâm-pa-da, á-li-bi, ín-te-rim.
 
 **Monossílabos tônicos:** terminados em ==A/AS, E/ES, O/OS== acentua-se.
-	Ex: pá, gás, fé, mês, dó, pôs, pô-lo (ênclise), dê
+	Ex: pá, gás, fé, mês, dó, pôs, pô-lo (ênclise), dê.
 
 ---
 ### **2. Casos especiais**
