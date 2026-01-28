@@ -44,8 +44,8 @@ Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxíto
 >**Exceção**: Hiato com u antecedido por ditongo não acentua. 
 >	Ex: Bo-cai-u-va, Fei-u-ra
 
-**Acentos diferenciais:** Servem para distinguir palavras iguais. Existem 3 acentos diferenciais e sempre circunflexo (^) .
-1. Ter, vir e derivados recebem acentos quando no plural
+**Acentos diferenciais:** Servem para distinguir palavras iguais. Existem 3 acentos diferenciais e sempre circunflexo (^).
+1. Ter, vir e derivados recebem acentos na 3
 	Ex: Eles têm, retêm, vêm, intervêm.	
 2. De intensidade: PÔR(Verbo) x POR(Preposição)
 3. De timbre: PÔDE X PODE    
@@ -59,16 +59,16 @@ Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxíto
 2.  Não acentua-se o primeiro o de palavras paroxítonas terminadas em oo.
 	Ex: Vo-o, A-ben-ço-o.
 
-3. Ter e vir no plural são ac entuados.
-	Ex: Eles têm. Eles vêm.
+3. Ter e vir no plural são acentuados.
+	Ex: Eles têm. Eles vêm, ele tem, ele vem
 
 4. Crê, dê, lê, vê. Essas palavras com vogal dobrada não acentuam-se
 	Ex: creem, leem, veem.  
 
-5. Cuidado com as proparoxítonas eventuais.
-	Ex: His-tó-ria pode ter a mesma regra de acentuação que pa-ra-le-le-pí-pe-do.
+5. **Eventuais proparoxítonas**.
+	Ex: His-tó-ria pode ter a mesma regra de acentuação que pa-ra-le-le-pí-pe-do. 
 
-6. Existe um único acento diferencial na língua portuguesa
+6. Existe um único **acento diferencial** na língua portuguesa
 	Ex: Fôrma, forma.
 
 7. Hiato com I ou U antecedido por ditongo.
