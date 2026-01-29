@@ -14,11 +14,11 @@ Minissaia -> Regra 1.4 vogal + r ou s
 Anti-imperialismo -> Regra 1.1 Vogais iguais se repelem.
 Micro-onda -> Regra 1.1 Vogais iguais se repelem.
 Sub-região -> Regra 3.1. ab, ob, sob e sub se a segunda palavra começar por r ou b.
+Contraindicação -> vogais diferentes
+Multirracial -> Regra 1.4 vogal + r ou s
+Vice-imperador -> Regra 2.1. 
 
-
-
-
-**1.1.** Emprega-se o hífen quando a primeira palavra termina com vogal igual à que inicia a segunda palavra. ==Se as vogais são iguais, elas se repelem==
+**1.1.**==Se as vogais são iguais, elas se repelem==
 	Ex: Anti-inflamatório, eletro-óptico, sobre-estimar, auto-observação, Contra-atacar.
 	Ex: Antiético, anteontem, agroindustrial.
 	
@@ -37,7 +37,7 @@ Sub-região -> Regra 3.1. ab, ob, sob e sub se a segunda palavra começar por r 
 **1.6.** Com os prefixos **CIRCUM e PAN**, quando a segunda palavra começar com vogal, h, n ou m usa-se o hífen.
 	Ex: Circum-navegação, circum-escolar, pan-africano, pan-negritude, pan-helenismo.
 
-**1.7.** Quando não a perda de som da vogal final da primeira palavra e a segunda comça com h, as duas formas são válidas
+**1.7.** Quando não a perda de som da vogal final da primeira palavra e a segunda começa com h, as duas formas são válidas
 	Ex: Cardi-hepático, cardiepático; aero-hidropatia, **aeroidropatia**.
 
 >[!note]
@@ -46,17 +46,11 @@ Sub-região -> Regra 3.1. ab, ob, sob e sub se a segunda palavra começar por r 
 **1.8.** Quando há perda de som da vogal final da primeira palavra, não usa-se hífen.
 	Ex: Cloridrico (cloro + hídrico),
 
-**1.9.** Com os prefixos des e in não se emprega o hífen quando a segunda palavra começa com h.
-	Ex: Desumano, desidratar, inábil, inumanidade.
-
-**1.10.** Se a palavra NAO aparecer com função prefixal, não se emprega o hífen.
-	Ex: Não violência, não alinhado.
-
 ---
 ### **2° Regra**
 
 >[!note]
-Com os compostos: além, aquém, bem, ex, recém, sem, grão, grã, bel, soto, sota, vice, vizo, pré(tônico), pró(tônico), pós(tônico).
+**Com os compostos**: além, aquém, bem, ex, recém, sem, grão, grã, bel, soto, sota, vice, vizo, pré(tônico), pró(tônico), pós(tônico).
 
 **2.1.** Usa-se o hífen sempre.
 	Ex: Além-mar, bem-querer, recém-casado, sem-numero, grã-cruz, ex-presidente, sota-capitão, pré-escolar, pós-graduação, pró-germânico...
@@ -64,7 +58,7 @@ Com os compostos: além, aquém, bem, ex, recém, sem, grão, grã, bel, soto, s
 **2.2.** Quando pre, pro e pos forem átonos, se aglutina.
 	Ex: Precondicionamento, propor, pospor, promover.
 
-**2.3.** Emprega-se hífen com MAL quando a segunda palavra começar com vogal  ou h.
+**2.3.** Emprega-se hífen com MAL quando a segunda palavra começar com vogal ou h.
 	Ex: Mal-estar, mal-humorado.
 
 ---
@@ -76,22 +70,16 @@ Com os compostos: além, aquém, bem, ex, recém, sem, grão, grã, bel, soto, s
 ---
 ### **4° Regra**
 
-**4.1.** Existem sufixos com hífem. Emprega-se com os sufixos açu, graçu e mirin.
+**4.1.** Emprega-se com os sufixos açu, graçu e mirin.
 	Ex: Capim-açu, Ceará-mirim.
 
 ---
 ### **5° Regra**
 
-**5.1.** Compostas por Substantivo + Substantivo levam hífen
+**5.1.** Compostos por substantivo, adj, numeral ou verbo usa-se hífen.
 	Ex: Couve-flor, Navio-escola, Decreto-lei
-
-**5.2.** Compostas por Numeral + Substantivo. Usa-se hífen 
 	Ex: Segunda-feira, Primeira-dama, quatro-pés.
-
-**5.3.** Compostas por Verbo + Substantivo.
 	Ex: Guarda-chuva, Beija-flor, Para-choque, Quebra-cabeça.
-
-5.4. Compostos por adj + substantivo.
 	Ex: Alto-relevo
 	
 ![](../../attachments/Pasted%20image%2020260129124544.png)
