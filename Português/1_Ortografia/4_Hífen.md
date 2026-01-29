@@ -44,4 +44,14 @@ Infelizmente hífen não tem lógica, não tem exatamente regras, é so uma tent
 **1.10** Se a palavra NAO aparecer com função prefixal, não se emprega o hífen.
 	Ex: Não violência, não alinhado.
 
+---
+### **2° Regra**
 
+>[!note]
+Com os compostos: além, aquém, bem, ex, recém, sem, grão, grã, bel, soto, sota, vice, vizo, pré(tônico), pró(tônico), pós(tônico).
+
+**2.1** Usa-se o hífen sempre.
+	Ex: Além-mar, bem-querer, recém-casado, sem-numero, grã-cruz, ex-presidente, sota-capitão, pré-escolar, pós-graduação, pró-germânico...
+
+**2.2** Quando pŕe, pró e pós forem átonos, se aglutina.
+	Ex: Precondicionamento, propor, pospor, promover.
