@@ -7,9 +7,16 @@ Infelizmente hífen não tem lógica, não tem exatamente regras, é so uma tent
 >[!note]
 **Com os prefixos:** ante, anti, arqui, auto, circum, contra, entre, extra, hiper, infra, intra, semi, sobre, sub, ultra...
 >
-**Com os falsos prefixos:** aero, agro, anfi, audio, bio, eltro, foto, geo, hidro, macr, maxi, mega, micro, mini, multi, neo, orto, proto, pseudo, poli, retro, tele...
+**Com os falsos prefixos:** aero, agro, anfi, audio, bio, eltro, foto, geo, hidro, macro, maxi, mega, micro, mini, multi, neo, orto, proto, pseudo, poli, retro, tele...
 
 Contra-atacar -> Regra 1.1 Vogais iguais se repelem.
+Minissaia -> Regra 1.4 vogal + r ou s
+Anti-imperialismo -> Regra 1.1 Vogais iguais se repelem.
+Micro-onda -> Regra 1.1 Vogais iguais se repelem.
+Sub-região -> Regra 3.1. ab, ob, sob e sub se a segunda palavra começar por r ou b.
+
+
+
 
 **1.1.** Emprega-se o hífen quando a primeira palavra termina com vogal igual à que inicia a segunda palavra. ==Se as vogais são iguais, elas se repelem==
 	Ex: Anti-inflamatório, eletro-óptico, sobre-estimar, auto-observação, Contra-atacar.
