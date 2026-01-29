@@ -102,10 +102,10 @@
 24-Subutilizar -> Regra 3.1. ab, ob, sob e sub seguido por R ou B usa-se hífen.
 25-Sub-reitor ->  Regra 3.1. ab, ob, sob e sub seguido por R ou B usa-se hífen.
 26-Auto-hipnose -> Regra 1.2. Usa-se hífen com o H.
-27-Super-requintado
-28-
-29-
-30-
+27-Super-requintado -> Regra 1.5. HIPER, INTER, SUPER seguidos por H ou R, usa-se.
+28-Supersalário ->Regra 1.5. HIPER, INTER, SUPER seguidos por H ou R, usa-se.
+29-Superdosagem ->Regra 1.5. HIPER, INTER, SUPER seguidos por H ou R, usa-se.
+30-Hipersensibilidade ->  Regra 1.4 vogal + r ou s
 31-
 32-
 33-
