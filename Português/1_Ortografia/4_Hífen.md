@@ -106,10 +106,10 @@
 28-Supersalário ->Regra 1.5. HIPER, INTER, SUPER seguidos por H ou R, usa-se.
 29-Superdosagem ->Regra 1.5. HIPER, INTER, SUPER seguidos por H ou R, usa-se.
 30-Hipersensibilidade ->  Regra 1.4 vogal + r ou s
-31-
-32-
-33-
-34--
+31-Contrarregra ->  Regra 1.4 vogal + r ou s
+32-Autoanálise -> Regra 1.1 Vogais iguais se repelem.
+33-Prerrogativa -> Regra 2.2 pre, pro, pos átono  
+34-
 35-
 36-
 37-
