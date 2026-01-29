@@ -92,7 +92,7 @@
 14-Pré-gravação -> Regra 2.1
 15-Prefixado -> Regra 2.2 pre, pro, pos átono 
 16-Antessala -> Regra 1.4 vogal + r ou s
-17-Mal-assombrado -> 2.3 usa-se hífen com MAL seguido por vogal, h, n, m
+17-Mal-assombrado -> 2.3 usa-se hífen com MAL seguido por vogal ou h
 18-Bem-educado -> Regra 2.1
 19-Médico-cirurgião -> Regra 5.1
 20-Vaga-lume -> Regra 5.1
@@ -109,9 +109,9 @@
 31-Contrarregra ->  Regra 1.4 vogal + r ou s
 32-Autoanálise -> Regra 1.1 Vogais iguais se repelem.
 33-Prerrogativa -> Regra 2.2 pre, pro, pos átono  
-34-Pan-americano ->
-35-Malcriado -> 2.3 usa-se hífen com MAL seguido por vogal, h, n, m
-36-
+34-Pan-americano -> Regra 1.6 Usa-se com CIRCUM e PAN seguidos por vogal, h, n ou m.
+35-Malcriado -> 2.3 usa-se hífen com MAL seguido por vogal ou h
+36-Pancontinental -> Regra 1.6 Usa-se com CIRCUM e PAN seguidos por vogal, h, n ou m.
 37-
 38-
 39-
