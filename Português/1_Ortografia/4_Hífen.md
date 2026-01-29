@@ -25,7 +25,7 @@
 **1.5.** Com os prefixos **HIPER, INTER e SUPER**, usaremos hífen se a segunda palavra começar com H ou R.
 	Ex: Super-homem, hiper-requintado, super-revista.
 
-**1.6.** Com os prefixos **CIRCUM e PAN**, quando a segunda palavra começar com vogal, h, n ou m usa-se o hífen.
+**1.6.** Usa-se hífen com **CIRCUM e PAN**, quando seguidos por VOGAL, H, N ou M.
 	Ex: Circum-navegação, circum-escolar, pan-africano, pan-negritude, pan-helenismo.
 
 **1.7.** Quando não a perda de som da vogal final da primeira palavra e a segunda começa com h, as duas formas são válidas
@@ -50,7 +50,7 @@
 	Ex: Precondicionamento, propor, pospor, promover.
 
 **2.3.** Emprega-se hífen com MAL quando a segunda palavra começar com vogal ou h.
-	Ex: Mal-estar, mal-humorado.
+	Ex: Mal-estar, mal-humorado, malcriado.
 
 ---
 ### **3° Regra**
@@ -92,7 +92,7 @@
 14-Pré-gravação -> Regra 2.1
 15-Prefixado -> Regra 2.2 pre, pro, pos átono 
 16-Antessala -> Regra 1.4 vogal + r ou s
-17-Mal-assombrado -> 2.3 usa-se hífen com MAL seguido por vogal ou h
+17-Mal-assombrado -> 2.3 usa-se hífen com MAL seguido por vogal, h, n, m
 18-Bem-educado -> Regra 2.1
 19-Médico-cirurgião -> Regra 5.1
 20-Vaga-lume -> Regra 5.1
@@ -109,8 +109,8 @@
 31-Contrarregra ->  Regra 1.4 vogal + r ou s
 32-Autoanálise -> Regra 1.1 Vogais iguais se repelem.
 33-Prerrogativa -> Regra 2.2 pre, pro, pos átono  
-34-
-35-
+34-Pan-americano ->
+35-Malcriado -> 2.3 usa-se hífen com MAL seguido por vogal, h, n, m
 36-
 37-
 38-
