@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Português/1_Ortografia/3_Acentuação gráfica.md",
+                "file": "Português/1_Ortografia/4_Hífen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Acentuação gráfica"
+              "title": "4_Hífen"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -184,8 +183,8 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
-    "Português/1_Ortografia/Untitled.md",
     "Português/1_Ortografia/3_Acentuação gráfica.md",
+    "Português/1_Ortografia/4_Hífen.md",
     "Português/1_Ortografia/2_Encontros vocálicos e consonantais.md",
     "Português/1_Ortografia/1_Sílaba.md",
     "Direito Constitucional/Untitled 1.md",
