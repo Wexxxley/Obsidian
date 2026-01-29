@@ -118,7 +118,7 @@ Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxíto
 48- Tei-ú → Hiato com U antecedido por ditongo no final da palavra (acentua)
 49- Ho-téis → Ditongo aberto
 50- Sóis → Ditongo aberto
-51- Pi-au-í → Hiato com i
+
 
 
 
