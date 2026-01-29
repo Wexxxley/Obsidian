@@ -11,18 +11,25 @@ Infelizmente hífen não tem lógica, não tem exatamente regras, é so uma tent
 
 Contra-atacar -> Regra 1.1 Vogais iguais se repelem.
 Minissaia -> Regra 1.4 vogal + r ou s
+Pró-britânico -> Regra 2.1
 Anti-imperialismo -> Regra 1.1 Vogais iguais se repelem.
+Minirretrospectiva ->  Regra 1.4 vogal + r ou s
 Micro-onda -> Regra 1.1 Vogais iguais se repelem.
 Sub-região -> Regra 3.1. ab, ob, sob e sub se a segunda palavra começar por r ou b.
 Contraindicação -> vogais diferentes
+Preestabelecido -> Regra 2.2 pre, pro, pos átono 
 Multirracial -> Regra 1.4 vogal + r ou s
-Vice-imperador -> Regra 2.1. 
+Vice-imperador -> Regra 2.1 
+Antissociável ->  Regra 1.4 vogal + r ou s
+Pré-gravação -> Regra 2.1
+Prefixado -> Regra 2.2 pre, pro, pos átono 
+Antessala -> Regra 1.4 vogal + r ou s
 
 **1.1.**==Se as vogais são iguais, elas se repelem==
 	Ex: Anti-inflamatório, eletro-óptico, sobre-estimar, auto-observação, Contra-atacar.
 	Ex: Antiético, anteontem, agroindustrial.
 	
-**1.2.** Emprega-se o hífen quando a segunda palavra começa com h.
+**1.2.** Emprega-se o hífen quando a segunda palavra começa com H.
 	Ex: Bio-história, Poli-hidroxila, sub-horizonte.
 
 **1.3.** O prefixo **CO** se aglutina em geral.
@@ -81,5 +88,3 @@ Vice-imperador -> Regra 2.1.
 	Ex: Segunda-feira, Primeira-dama, quatro-pés.
 	Ex: Guarda-chuva, Beija-flor, Para-choque, Quebra-cabeça.
 	Ex: Alto-relevo
-	
-![](../../attachments/Pasted%20image%2020260129124544.png)
