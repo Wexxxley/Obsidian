@@ -80,26 +80,10 @@ Com os compostos: além, aquém, bem, ex, recém, sem, grão, grã, bel, soto, s
 **5.2.** Compostas por Numeral + Substantivo. Usa-se hífen 
 	Ex: Segunda-feira, Primeira-dama, quatro-pés.
 
-**5.3.** Compostas por Verbo + Substantivo
+**5.3.** Compostas por Verbo + Substantivo.
 	Ex: Guarda-chuva, Beija-flor, Para-choque, Quebra-cabeça.
 
----
-
-### Tabela de Consulta Rápida
-
-| **Estrutura**                 | **Exemplo**   | **Com Hífen?** |
-| ----------------------------- | ------------- | -------------- |
-| **Substantivo + Substantivo** | Porco-espinho | Sim            |
-| **Numeral + Substantivo**     | Quinta-feira  | Sim            |
-| **Verbo + Substantivo**       | Porta-malas   | Sim            |
-
-### Importante: A exceção do "sentido de união"
-
-Após o Novo Acordo Ortográfico, o hífen **deixou de ser usado** em palavras compostas que perderam a noção de composição e passaram a ser vistas como uma palavra única (unidades lexicais simplificadas).
-
-- **Exemplo clássico:** Girassol (V. girar + S. sol) — perdeu o hífen e ganhou um "s" extra para manter o som.
-    
-- **Locuções:** Locuções substantivas (corpo de delito, café com leite, dia a dia) geralmente **não** levam mais hífen, a menos que sejam nomes de espécies botânicas ou zoológicas (ex: bem-te-vi, cana-de-açúcar).
-    
-
-Você gostaria que eu mostrasse como fica o plural dessas palavras compostas? O comportamento costuma mudar dependendo da classe gramatical.
+5.4. Compostos por adj + substantivo.
+	Ex: Alto-relevo
+	
+![](../../attachments/Pasted%20image%2020260129124544.png)

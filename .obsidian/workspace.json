@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -183,6 +184,7 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260129124544.png",
     "Português/1_Ortografia/3_Acentuação gráfica.md",
     "Português/1_Ortografia/4_Hífen.md",
     "Português/1_Ortografia/2_Encontros vocálicos e consonantais.md",
@@ -212,7 +214,6 @@
     "16_Aleatorios/Testes acervo mestre.md",
     "03_Redes de computadores/2_Camada Aplicação/7_Proxy.md",
     "03_Redes de computadores/3_Camada de Transporte/2_Multiplexação e Demultiplexação.md",
-    "03_Redes de computadores/3_Camada de Transporte/3_Socket e portas.md",
     "attachments/Pasted image 20251222070010.png",
     "attachments/Pasted image 20251216073337.png",
     "attachments/Pasted image 20251216071644.png",
