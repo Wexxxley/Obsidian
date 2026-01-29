@@ -53,5 +53,16 @@ Com os compostos: além, aquém, bem, ex, recém, sem, grão, grã, bel, soto, s
 **2.1** Usa-se o hífen sempre.
 	Ex: Além-mar, bem-querer, recém-casado, sem-numero, grã-cruz, ex-presidente, sota-capitão, pré-escolar, pós-graduação, pró-germânico...
 
-**2.2** Quando pŕe, pró e pós forem átonos, se aglutina.
+**2.2** Quando pre, pro e pos forem átonos, se aglutina.
 	Ex: Precondicionamento, propor, pospor, promover.
+
+**2.3** Emprega-se hífen com MAL quando a segunda palavra começar com vogal  ou h.
+	Ex: Mal-estar, mal-humorado.
+
+### **3° Regra**
+
+**3.1** Com os prefixos ab, ob, sob e sub se a segunda palavra começar por r ou b será empregado o hífen.
+	Ex: Sub-base, Ab-reptício, ob-rogar, sub-reitor.
+
+
+
