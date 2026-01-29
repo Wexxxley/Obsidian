@@ -7,7 +7,7 @@
 >[!note]
 **Com os prefixos:** ante, anti, arqui, auto, circum, contra, entre, extra, hiper, infra, intra, semi, sobre, sub, ultra...
 >
-**Com os falsos prefixos:** aero, agro, anfi, audio, bio, eltro, foto, geo, hidro, macro, maxi, mega, micro, mini, multi, neo, orto, proto, pseudo, poli, retro, tele...
+**Com os falsos prefixos:** aero, agro, anfi, audio, bio, foto, geo, hidro, macro, mega, micro, mini, multi, neo, orto, proto, pseudo, poli, retro, tele...
 
 **1.1.**==Se as vogais são iguais, elas se repelem==
 	Ex: Anti-inflamatório, eletro-óptico, sobre-estimar, auto-observação, Contra-atacar.
@@ -112,10 +112,7 @@
 34-Pan-americano -> Regra 1.6 Usa-se com CIRCUM e PAN seguidos por vogal, h, n ou m.
 35-Malcriado -> 2.3 usa-se hífen com MAL seguido por vogal ou h
 36-Pancontinental -> Regra 1.6 Usa-se com CIRCUM e PAN seguidos por vogal, h, n ou m.
-37-
-38-
-39-
-40-
+
 
 
 
