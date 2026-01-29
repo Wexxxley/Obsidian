@@ -83,7 +83,7 @@
 05-Minirretrospectiva ->  Regra 1.4 vogal + r ou s
 06-Mal-humorado -> 2.3 usa-se hífen com MAL seguido por vogal ou h
 07-Micro-onda -> Regra 1.1 Vogais iguais se repelem.
-08-Sub-região -> Regra 3.1. ab, ob, sob e sub seguido por R ou B.
+08-Sub-região -> Regra 3.1. ab, ob, sob e sub seguido por R ou B usa-se hífen.
 09-Contraindicação -> vogais diferentes
 10-Preestabelecido -> Regra 2.2 pre, pro, pos átono 
 11-Multirracial -> Regra 1.4 vogal + r ou s
@@ -96,5 +96,26 @@
 18-Bem-educado -> Regra 2.1
 19-Médico-cirurgião -> Regra 5.1
 20-Vaga-lume -> Regra 5.1
+21-Porta-retrato -> Regra 5.1
+22-Arco-íris -> Regra 5.1
+23-Contrarregra -> Regra 1.4 vogal + r ou s
+24-Subutilizar -> Regra 3.1. ab, ob, sob e sub seguido por R ou B usa-se hífen.
+25-Sub-reitor ->  Regra 3.1. ab, ob, sob e sub seguido por R ou B usa-se hífen.
+26-Auto-hipnose -> Regra 1.2. Usa-se hífen com o H.
+27-Super-requintado
+28-
+29-
+30-
+31-
+32-
+33-
+34--
+35-
+36-
+37-
+38-
+39-
+40-
+
 
 
