@@ -1,7 +1,6 @@
 
 
 ---
-
 Infelizmente hífen não tem lógica, não tem exatamente regras, é so uma tentativa.
 ### **1° Regra**
 
@@ -10,8 +9,10 @@ Infelizmente hífen não tem lógica, não tem exatamente regras, é so uma tent
 >
 **Com os falsos prefixos:** aero, agro, anfi, audio, bio, eltro, foto, geo, hidro, macr, maxi, mega, micro, mini, multi, neo, orto, proto, pseudo, poli, retro, tele...
 
+Contra-atacar -> Regra 1.1 Vogais iguais se repelem.
+
 **1.1.** Emprega-se o hífen quando a primeira palavra termina com vogal igual à que inicia a segunda palavra. ==Se as vogais são iguais, elas se repelem==
-	Ex: Anti-inflamatório, eletro-óptico, sobre-estimar, auto-observação.
+	Ex: Anti-inflamatório, eletro-óptico, sobre-estimar, auto-observação, Contra-atacar.
 	Ex: Antiético, anteontem, agroindustrial.
 	
 **1.2.** Emprega-se o hífen quando a segunda palavra começa com h.
