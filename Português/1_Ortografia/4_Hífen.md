@@ -30,10 +30,18 @@ Infelizmente hífen não tem lógica, não tem exatamente regras, é so uma tent
 	Ex: Circum-navegação, circum-escolar, pan-africano, pan-negritude, pan-helenismo.
 
 **1.7** Quando não a perda de som da vogal final da primeira palavra e a segunda comça com h, as duas formas são válidas
-	Ex: Cardi-hepático, cardiepático; aero-hidropatia, aeroidropatia.
+	Ex: Cardi-hepático, cardiepático; aero-hidropatia, **aeroidropatia**.
 
-**1.8** Quando há perda de com da vogal final da primeira palavra, não usa-se hífen.
-	Ex: Cloridrico (cloro + hídrico), reidradatar ()
+>[!note]
+>**Exceção:** reabilitar (re + habilitar), reaver (re + haver),  reidratar (re + hidratar), reumanizar (re + humanizar). 
 
+**1.8** Quando há perda de som da vogal final da primeira palavra, não usa-se hífen.
+	Ex: Cloridrico (cloro + hídrico),
+
+**1.9** Com os prefixos des e in não se emprega o hífen quando a segunda palavra começa com h.
+	Ex: Desumano, desidratar, inábil, inumanidade.
+
+**1.10** Se a palavra NAO aparecer com função prefixal, não se emprega o hífen.
+	Ex: Não violência, não alinhado.
 
 
