@@ -1,29 +1,13 @@
 
+#Concluded 
 
 ---
-Infelizmente hífen não tem lógica, não tem exatamente regras, é so uma tentativa.
 ### **1° Regra**
 
 >[!note]
 **Com os prefixos:** ante, anti, arqui, auto, circum, contra, entre, extra, hiper, infra, intra, semi, sobre, sub, ultra...
 >
 **Com os falsos prefixos:** aero, agro, anfi, audio, bio, eltro, foto, geo, hidro, macro, maxi, mega, micro, mini, multi, neo, orto, proto, pseudo, poli, retro, tele...
-
-Contra-atacar -> Regra 1.1 Vogais iguais se repelem.
-Minissaia -> Regra 1.4 vogal + r ou s
-Pró-britânico -> Regra 2.1
-Anti-imperialismo -> Regra 1.1 Vogais iguais se repelem.
-Minirretrospectiva ->  Regra 1.4 vogal + r ou s
-Micro-onda -> Regra 1.1 Vogais iguais se repelem.
-Sub-região -> Regra 3.1. ab, ob, sob e sub se a segunda palavra começar por r ou b.
-Contraindicação -> vogais diferentes
-Preestabelecido -> Regra 2.2 pre, pro, pos átono 
-Multirracial -> Regra 1.4 vogal + r ou s
-Vice-imperador -> Regra 2.1 
-Antissociável ->  Regra 1.4 vogal + r ou s
-Pré-gravação -> Regra 2.1
-Prefixado -> Regra 2.2 pre, pro, pos átono 
-Antessala -> Regra 1.4 vogal + r ou s
 
 **1.1.**==Se as vogais são iguais, elas se repelem==
 	Ex: Anti-inflamatório, eletro-óptico, sobre-estimar, auto-observação, Contra-atacar.
@@ -88,3 +72,29 @@ Antessala -> Regra 1.4 vogal + r ou s
 	Ex: Segunda-feira, Primeira-dama, quatro-pés.
 	Ex: Guarda-chuva, Beija-flor, Para-choque, Quebra-cabeça.
 	Ex: Alto-relevo
+
+---
+
+>[!example]
+01-Contra-atacar -> Regra 1.1 Vogais iguais se repelem.
+02-Minissaia -> Regra 1.4 vogal + r ou s
+03-Pró-britânico -> Regra 2.1
+04-Anti-imperialismo -> Regra 1.1 Vogais iguais se repelem.
+05-Minirretrospectiva ->  Regra 1.4 vogal + r ou s
+06-Mal-humorado -> 2.3 usa-se hífen com MAL seguido por vogal ou h
+07-Micro-onda -> Regra 1.1 Vogais iguais se repelem.
+08-Sub-região -> Regra 3.1. ab, ob, sob e sub seguido por R ou B.
+09-Contraindicação -> vogais diferentes
+10-Preestabelecido -> Regra 2.2 pre, pro, pos átono 
+11-Multirracial -> Regra 1.4 vogal + r ou s
+12-Vice-imperador -> Regra 2.1 
+13-Antissociável ->  Regra 1.4 vogal + r ou s
+14-Pré-gravação -> Regra 2.1
+15-Prefixado -> Regra 2.2 pre, pro, pos átono 
+16-Antessala -> Regra 1.4 vogal + r ou s
+17-Mal-assombrado -> 2.3 usa-se hífen com MAL seguido por vogal ou h
+18-Bem-educado -> Regra 2.1
+19-Médico-cirurgião -> Regra 5.1
+20-Vaga-lume -> Regra 5.1
+
+
