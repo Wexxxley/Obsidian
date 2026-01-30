@@ -81,33 +81,29 @@ Os vocábulos substantivados são palavras que originalmente pertencem a outras 
 	Ex: João, o compositor, voltou. (O joão, O compositor)
 	Ex: Que secreto desígnio haveria atrás daquilo. (O desígnio).
 
-___________________________________________________________________________
-
+---
 ### 1.2 Artigo
 
- Os artigos são palavras que acompanham os substantivos para indicar gênero, número e, às vezes, definir ou indefinir algo dentro de um contexto.
+Os artigos são palavras que acompanham os substantivos para indicar gênero, número e, às vezes, definir ou indefinir algo dentro de um contexto.
 
-___________________________________________________________________________
-
+---
 ### 1.3 Adjetivo
 
 O adjetivo é a classe de palavras que caracteriza ou qualifica um substantivo, atribuindo a ele uma qualidade, estado, condição ou aspecto.  
 
 O adjetivo é uma classe que tem a finalidade de caracterizar o substantivo. Nem todo adjetivo traz uma qualidade, pode ser simplesmente uma característica.    
-	Ex: Os avanços empresariais ocorreram.
+![400](../../attachments/Pasted%20image%2020260130144636.png)
+**Locução adjetiva**
+	Ex: A moça tinha um sorriso ==de criança==. 
+	Ex: Era uma televisão ==em cores==. 
+	Ex: Vasos ==com flores== enfeitavam o jardim.
+	Ex: O vidro continha um líquido ==sem cheiro==.
+	Ex: Ele é um homem ==de inteligencia== -> eles são homens ==de inteligencia==.
 
-  
-
-Locução adjetiva
-
-Ex: A moça tinha um sorriso de criança.
-
-Ex: Era uma televisão em cores. 
-
-Ex: Vasos com flores enfeitavam o jardim.
-
-Ex: O vidro continha um líquido sem cheiro.
-
+>[!Note]
+>Locução é uma expressão formada por duas ou mais palavras.
+>
+>Locuções são **INVARIÁVEIS**.
   
   
   
