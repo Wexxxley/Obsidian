@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Português/2_Morfologia/1_.md",
+                "file": "Português/2_Morfologia/1_Classes de palavras.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_"
+              "title": "1_Classes de palavras"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -183,8 +184,9 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260130102922.png",
     "Português/1_Ortografia/5_Uso dos porques.md",
-    "Português/2_Morfologia/1_.md",
+    "Português/2_Morfologia/1_Classes de palavras.md",
     "Português/2_Morfologia",
     "Português/1_Ortografia/4_Hífen.md",
     "attachments/Pasted image 20260129124544.png",
@@ -214,7 +216,6 @@
     "15_IHC (Cadeira)/6_Personas e perfis de user.md",
     "16_Aleatorios/Abordagem design participativo.md",
     "16_Aleatorios/Testes acervo mestre.md",
-    "03_Redes de computadores/2_Camada Aplicação/7_Proxy.md",
     "attachments/Pasted image 20251222070010.png",
     "attachments/Pasted image 20251216073337.png",
     "attachments/Pasted image 20251216071644.png",
