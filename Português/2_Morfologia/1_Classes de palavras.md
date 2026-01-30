@@ -19,8 +19,8 @@ Classes Invariáveis: Não há flexão.
 ![](../../attachments/Pasted%20image%2020260130102922.png)
 
 ---
-## **2. Grupo dos nomes**
-### **2.1 Substantivo**
+
+### **2 Substantivo**
  É o nome com que designamos pessoas, animais e coisas. Se flexiona em gênero, número e grau.  Dentro das áreas dos nomes, o substantivo é considerado o termo principal/nuclear/regente. 
 
 Artigo, adjetivo, numeral e pronome são classes ligadas ao substantivo, dependem do substantivo para existir.
@@ -86,13 +86,15 @@ Os vocábulos substantivados são palavras que originalmente pertencem a outras 
 
 Os artigos são palavras que acompanham os substantivos para indicar gênero, número e, às vezes, definir ou indefinir algo dentro de um contexto.
 
+![](../../attachments/Pasted%20image%2020260130150121.png)
+
 ---
 ### 1.3 Adjetivo
 
 O adjetivo é a classe de palavras que caracteriza ou qualifica um substantivo, atribuindo a ele uma qualidade, estado, condição ou aspecto.  
 
 O adjetivo é uma classe que tem a finalidade de caracterizar o substantivo. Nem todo adjetivo traz uma qualidade, pode ser simplesmente uma característica.    
-![400](../../attachments/Pasted%20image%2020260130144636.png)
+![400](../../attachments/Pasted%20image%2020260130145847.png)
 **Locução adjetiva**
 	Ex: A moça tinha um sorriso ==de criança==. 
 	Ex: Era uma televisão ==em cores==. 
@@ -105,19 +107,8 @@ O adjetivo é uma classe que tem a finalidade de caracterizar o substantivo. Nem
 >
 >Locuções são **INVARIÁVEIS**.
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 
-___________________________________________________________________________
-
+---
 ### 1.4 Numeral
 
  O numeral é a classe que indica quantidade, posição, fração ou multiplicação de algo. Ele pode ser usado para contar, ordenar ou representar medidas.
