@@ -1,32 +1,34 @@
 
 ---
-### **1. Classes variáveis e invariáveis**
+## **1. Classes variáveis e invariáveis**
 
 **Classes variáveis**: Flexionam-se em NÚMERO e GÊNERO.
-Substantivos, adjetivos, pronome, numeral, verbo
-
-**Classes invariáveis**: Sem flexão.
+1. Artigo (_o, a, um, uns..._)
+2. Substantivo (_casa, carro, amor..._)
+3. Adjetivo (_bom, grande, azul..._)
+4. Numeral (_um, primeiro, dobro..._)
+5. Pronome (_eu, meu, aquele..._)
+6. Verbo (_correr, fiz, seremos..._)
+    
+Classes Invariáveis: Não há flexão.
+1. Advérbio (_ontem, aqui, muito..._)
+2. Preposição (_de, para, com..._)
+3. Conjunção (_e, mas, porque..._)
+4. Interjeição (_uau!, ei!, droga!_)
 
 ![](../../attachments/Pasted%20image%2020260130102922.png)
-## 1. Grupo dos nomes
-### 1.1 Substantivo
 
+---
+## **2. Grupo dos nomes**
+### **1.1 Substantivo**
  É o nome com que designamos pessoas, animais e coisas. Se flexiona em gênero, número e grau.  Dentro das áreas dos nomes, o substantivo é considerado o termo principal/nuclear/regente. 
-
-  
 
  Artigo, adjetivo, numeral e pronome são classes ligadas ao substantivo, dependem do substantivo para existir.
 
-  
-  
+==O substantivo sempre pode vir acompanhado de artigo==. O artigo tem o poder de substantivar.
+	Ex: O jovem deve estudar.  (Adjetivo substantivado)
+	Ex: O olhar do professor é carinhoso. (Verbo substantivado)
 
-Obs: O substantivo sempre pode vir acompanhado de artigo. O artigo tem o poder de substantivar.
-
- Ex: O jovem deve estudar.  (Adjetivo substantivado)
-
- Ex: O olhar do professor é carinhoso. (Olhar virou um verbo substantivado)
-
-___________________________________________________________________________
 
 #### 1.1.1 Tipos de substantivos
 
@@ -61,10 +63,6 @@ Abstrato: Designa ação, estado, sentimento, qualidade, conceito. Tudo que depe
 Designa vários seres da mesma espécie/tipo. Ex: Tropa(soldados), Cardume(peixes)
 
   
-  
-
-___________________________________________________________________________
-
 #### 1.1.2 Flexão Nominal e Concordância Nominal
 
  A principal característica que marca o grupo dos nomes é a possibilidade de haver flexão nominal.  A flexão nominal ocorre quando um nome muda sua forma para indicar gênero (masculino ou feminino) e/ou número (singular ou plural). 
