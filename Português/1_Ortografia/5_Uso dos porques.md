@@ -13,4 +13,13 @@ Quando vier antecedido de determinante (artigo, pronome, numeral).
 	Ex: É o caminho por que (pelo qual) costuma passar.
 
 **Pronome indefinido**: Referindo-se a substantivo que vem na sua sequência. 
-	Ex: Sei por que (por qual) caminhos passastes.
+	Ex: Sei por que (por quais) caminhos passastes.  
+
+**Pronome interrogativo:**  Referindo-se a substantivo que vem na sua sequência.  A diferença é que vem inserido em frases interrgoativas diretas ou indiretas.
+
+>[!note]
+**Frases interrogativas diretas**: Vem com ponto de interrogação.
+**Frases interrogativas indiretas**: Vem sem ponto de interrogação, mas há uma conjectura (suposição, formar suposição, perguntar)
+
+Para facilitar você pode passar a frase para interrogativa direta.
+Ex: ==Não sei== (con) por que caminho passastes -> Por que caminho passastes?
