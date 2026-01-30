@@ -17,13 +17,15 @@ Classes Invariáveis: Não há flexão.
 4. Interjeição (_uau!, ei!, droga!_)
 
 ![](../../attachments/Pasted%20image%2020260130102922.png)
+
 ---
 ### **2. Substantivo**
- É o nome com que designamos pessoas, animais e coisas. Se flexiona em gênero, número e grau.  Dentro das áreas dos nomes, o substantivo é considerado o termo principal/nuclear/regente. 
 
-Artigo, adjetivo, numeral e pronome são classes ligadas ao substantivo, dependem do substantivo para existir.
+É o nome com que designamos pessoas, animais e coisas. Se flexiona em gênero, número e grau.  Dentro das áreas dos nomes, o substantivo é considerado o termo principal/nuclear/regente. 
 
-==O substantivo sempre pode vir acompanhado de artigo==. O artigo tem o poder de substantivar.
+- Artigo, adjetivo, numeral e pronome são classes ligadas ao substantivo, dependem do substantivo para existir.
+
+- O substantivo sempre pode vir acompanhado de artigo. O artigo tem o poder de substantivar.
 	Ex: O jovem deve estudar.  (Adjetivo substantivado)
 	Ex: O olhar do professor é carinhoso. (Verbo substantivado)
 
@@ -45,7 +47,7 @@ Artigo, adjetivo, numeral e pronome são classes ligadas ao substantivo, depende
 	Ex: Mulher, cidade.
 
 **Próprio**: Representa um indivíduo específico. 
-	Ex: Maria, Paris
+	Ex: Maria, Paris 
 #### **2.4 Concreto x Abstrato**
 
 **Concreto**: Designa um ser que existe por si só, seja material, espiritual ou imaginário. 
