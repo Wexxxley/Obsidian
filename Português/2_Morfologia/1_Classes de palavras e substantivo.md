@@ -53,7 +53,21 @@ Designa vários seres da mesma espécie/tipo.
 	Ex: Tropa(soldados), Cardume(peixes)
 
 ---
-#### **2.6 Flexão Nominal e Concordância Nominal**
+### 2.6 Biforme e uniforme
+
+**Biformes**: Mudam de forma para indicar gênero
+	Ex: Lobo, loba; Ateu, ateia.
+	
+**Uniforme**: Possuem apenas uma forma para indicar ambos os gêneros.
+- **Epicenos**: Refere-se a animais que só tem uma forma para macho e fêmea.
+		Ex: A águia; A cobra; O gavião.
+- **Sobrecomuns**: Referem-se a pessoas de ambos os sexos
+		Ex: A criança, O cônjuge, O monstro.
+- **Comuns de dois gêneros:** O artigo define se é masculino ou feminino.
+		Ex: O chefe, A chefe; O cliente, A cliente;
+
+---
+#### **2.7 Flexão Nominal e Concordância Nominal**
  A principal característica que marca o grupo dos nomes é a possibilidade de haver flexão nominal. A **flexão nominal** ocorre quando um nome muda sua forma para indicar gênero (masculino ou feminino) e/ou número (singular ou plural). 
 	Ex: Menino → Menina (mudança de gênero)
 	Ex: Cão → Cães (mudança de número)
@@ -65,10 +79,11 @@ Designa vários seres da mesma espécie/tipo.
 	Ex: Minha irmã simpática ("minha" e "simpática" concordam com "irmã")
 	Ex: O menino e o rapaz estudiosos. (masculino plural)
 	Ex: O pai e a filha felizes. (masculino plural)
-#### **2.7 Vocábulos substantivados**
+#### **2.8 Vocábulos substantivados**
 Os vocábulos substantivados são palavras que originalmente pertencem a outras classes e que, em determinados contextos, passam a funcionar como substantivos. 
 	Ex: O verde da floresta é relaxante. (adjetivo substantivado)
 	Ex: O olhar do professor é carinhoso. (verbo substantivado)
 	Ex: O não que eu levei (advérbio substantivado)
 	Ex: João, o compositor, voltou. (O joão, O compositor)
 	Ex: Que secreto desígnio haveria atrás daquilo. (O desígnio). 
+
