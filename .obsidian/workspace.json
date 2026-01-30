@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Português/1_Ortografia/4_Hífen.md",
+                "file": "Português/1_Ortografia/5_Uso dos porques.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Hífen"
+              "title": "5_Uso dos porques"
             }
           }
         ]
@@ -184,9 +184,10 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "Português/1_Ortografia/4_Hífen.md",
+    "Português/1_Ortografia/5_Uso dos porques.md",
     "attachments/Pasted image 20260129124544.png",
     "Português/1_Ortografia/3_Acentuação gráfica.md",
-    "Português/1_Ortografia/4_Hífen.md",
     "Português/1_Ortografia/2_Encontros vocálicos e consonantais.md",
     "Português/1_Ortografia/1_Sílaba.md",
     "Direito Constitucional/Untitled 1.md",
@@ -222,7 +223,6 @@
     "attachments/Pasted image 20251216064935.png",
     "attachments/Pasted image 20251216064844.png",
     "attachments/Pasted image 20251215192125.png",
-    "attachments/Pasted image 20251215191721.png",
     "01_Roadmap/1_Junior/3_Docker",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
