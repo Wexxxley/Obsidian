@@ -112,6 +112,11 @@
 34-Pan-americano -> Regra 1.6 Usa-se com CIRCUM e PAN seguidos por vogal, h, n ou m.
 35-Malcriado -> 2.3 usa-se hífen com MAL seguido por vogal ou h
 36-Pancontinental -> Regra 1.6 Usa-se com CIRCUM e PAN seguidos por vogal, h, n ou m.
+37-Benfazer
+38-Benquerer ou bem-querer
+39-Bendizer ou bem-dizer
+40-Benfeitor
+41-Benquisto
 
 
 
