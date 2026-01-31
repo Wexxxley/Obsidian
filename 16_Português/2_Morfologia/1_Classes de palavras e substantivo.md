@@ -83,7 +83,8 @@ Designa vários seres da mesma espécie/tipo.
 
 ---
 #### **2.7 Flexão Nominal e Concordância Nominal**
- A principal característica que marca o grupo dos nomes é a possibilidade de haver flexão nominal. A **flexão nominal** ocorre quando um nome muda sua forma para indicar gênero (masculino ou feminino) e/ou número (singular ou plural). 
+
+A principal característica que marca o grupo dos nomes é a possibilidade de haver flexão nominal. A **flexão nominal** ocorre quando um nome muda sua forma para indicar gênero (masculino ou feminino) e/ou número (singular ou plural). 
 	Ex: Menino → Menina (mudança de gênero)
 	Ex: Cão → Cães (mudança de número)
 	Ex: Feliz → Felizes (flexão de número)
@@ -95,6 +96,7 @@ Designa vários seres da mesma espécie/tipo.
 	Ex: O menino e o rapaz estudiosos. (masculino plural)
 	Ex: O pai e a filha felizes. (masculino plural)
 #### **2.8 Vocábulos substantivados**
+
 Os vocábulos substantivados são palavras que originalmente pertencem a outras classes e que, em determinados contextos, passam a funcionar como substantivos. 
 	Ex: O verde da floresta é relaxante. (adjetivo substantivado)
 	Ex: O olhar do professor é carinhoso. (verbo substantivado)
