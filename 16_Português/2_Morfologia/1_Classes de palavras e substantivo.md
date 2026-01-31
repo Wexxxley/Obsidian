@@ -93,7 +93,10 @@ Os vocábulos substantivados são palavras que originalmente pertencem a outras 
 	Ex: O olhar do professor é carinhoso. (verbo substantivado)
 	Ex: O não que eu levei (advérbio substantivado)
 	Ex: João, o compositor, voltou. (O joão, O compositor)
-	Ex: Que secreto desígnio haveria atrás daquilo. (O desígnio). 
+	Ex: Que secreto desígnio haveria atrás daquilo. (O desígnio).
 
+---
+![](../../attachments/Pasted%20image%2020260131103915.png)
+![](../../attachments/Pasted%20image%2020260131103831.png)
 ![](../../attachments/Pasted%20image%2020260131102134.png)
 
