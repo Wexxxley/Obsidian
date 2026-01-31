@@ -17,6 +17,9 @@
 2. Preposição
 3. Conjunção
 4. Interjeição
+
+![](../../attachments/Pasted%20image%2020260131123731.png)
+
 ---
 ### **2. Substantivo**
 

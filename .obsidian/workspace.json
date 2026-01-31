@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
+                "file": "16_Português/2_Morfologia/4_Plural de nomes compostos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Classes de palavras e substantivo"
+              "title": "4_Plural de nomes compostos"
             }
           }
         ]
@@ -183,11 +183,12 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "16_Português/2_Morfologia/3_Pronome.md",
     "16_Português/2_Morfologia/2_Artigo, adjetivo e numeral.md",
     "16_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
+    "attachments/Pasted image 20260131123731.png",
     "16_Português/2_Morfologia/5_Verbo e advérbio.md",
     "16_Português/2_Morfologia/4_Plural de nomes compostos.md",
-    "16_Português/2_Morfologia/3_Pronome.md",
     "attachments/Pasted image 20260131110047.png",
     "attachments/Pasted image 20260131105733.png",
     "attachments/Pasted image 20260131105712.png",
@@ -197,7 +198,6 @@
     "attachments/Pasted image 20260131103915.png",
     "attachments/Pasted image 20260131103831.png",
     "attachments/Pasted image 20260131102939.png",
-    "attachments/Pasted image 20260131102134.png",
     "16_Português/1_Ortografia/4_Hífen.md",
     "16_Português/1_Ortografia/5_Uso dos porques.md",
     "16_Português/2_Morfologia",
@@ -222,7 +222,6 @@
     "15_IHC (Cadeira)/8_Prova.md",
     "15_IHC (Cadeira)/7_Acessibilidade.md",
     "15_IHC (Cadeira)/5_Técnicas de coleta de dados.md",
-    "15_IHC (Cadeira)/4_Coleta de dados.md",
     "01_Roadmap/1_Junior/3_Docker",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
