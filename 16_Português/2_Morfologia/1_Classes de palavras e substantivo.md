@@ -4,6 +4,7 @@
 ---
 ## **1. Classes variáveis e invariáveis**
 
+![](../../attachments/Pasted%20image%2020260131123731.png)
 **Classes variáveis**: Flexionam-se em NÚMERO e GÊNERO.
 1. Artigo
 2. Substantivo
@@ -17,22 +18,19 @@
 2. Preposição
 3. Conjunção
 4. Interjeição
-
-![](../../attachments/Pasted%20image%2020260131123731.png)
-
 ---
 ### **2. Substantivo**
 
-É o nome com que designamos pessoas, animais e coisas. Se flexiona em gênero, número e grau.  Dentro das áreas dos nomes, o substantivo é considerado o termo principal/nuclear/regente. 
+É o nome com que designamos pessoas, animais e coisas. Se flexiona em gênero, número e grau. Dentro das áreas dos nomes, o substantivo é considerado o termo principal/nuclear/regente. 
 
 - Artigo, adjetivo, numeral e pronome são classes ligadas ao substantivo, dependem do substantivo para existir.
 
-- O substantivo sempre pode vir acompanhado de artigo. O artigo tem o poder de substantivar. O nome dado é **vocábulo substantivado.**
+- O substantivo sempre pode vir acompanhado de artigo. O artigo tem o poder de substantivar. 
 	Ex: O **jovem** deve estudar.  (Adjetivo substantivado)
 	Ex: O **olhar** do professor é carinhoso. (Verbo substantivado)
 
 >[!Tip]
->Para diferenciar Substantivo e Adjetivo, você pode usar o macete (artigo + que é)
+>Macete para diferenciar Substantivo e Adjetivo: (artigo + que é)
 >Ex: Que secreto desígnio -> O desígnio que é secreto.
 >Ex: Tristeza morbida -> A tristeza que é morbida.  
 

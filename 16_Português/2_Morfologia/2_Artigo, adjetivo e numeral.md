@@ -8,6 +8,15 @@ Os artigos são palavras que acompanham os substantivos para indicar gênero, n�
 
 ![](../../attachments/Pasted%20image%2020260130150121.png)
 
+O artigo tem o poder de substantivar. 
+	Ex: O **jovem** deve estudar.  (Adjetivo substantivado)
+	Ex: O **olhar** do professor é carinhoso. (Verbo substantivado)
+
+>[!Tip]
+>Para diferenciar Substantivo e Adjetivo, você pode usar o macete (artigo + que é)
+>Ex: Que secreto desígnio -> O desígnio que é secreto.
+>Ex: Tristeza morbida -> A tristeza que é morbida.  
+
 ---
 ### **2. Adjetivo**
 
