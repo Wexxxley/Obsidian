@@ -71,8 +71,10 @@ Designa vários seres da mesma espécie/tipo.
 		Ex: A águia; A cobra; O gavião.
 - **Sobrecomuns**: Referem-se a pessoas de ambos os sexos
 		Ex: A criança, O cônjuge, O monstro.
-- **Comuns de dois gêneros:** O artigo define se é masculino ou feminino.
+- **Comum de dois gêneros:** O artigo define se é masculino ou feminino.
 		Ex: O chefe, A chefe; O cliente, A cliente;
+
+![](../../attachments/Pasted%20image%2020260131105712.png)
 
 ---
 #### **2.7 Flexão Nominal e Concordância Nominal**
@@ -96,7 +98,9 @@ Os vocábulos substantivados são palavras que originalmente pertencem a outras 
 	Ex: Que secreto desígnio haveria atrás daquilo. (O desígnio).
 
 ---
+![](../../attachments/Pasted%20image%2020260131102134.png)
 ![](../../attachments/Pasted%20image%2020260131103915.png)
 ![](../../attachments/Pasted%20image%2020260131103831.png)
-![](../../attachments/Pasted%20image%2020260131102134.png)
+![](../../attachments/Pasted%20image%2020260131105126.png)
+![](../../attachments/Pasted%20image%2020260131105052.png)
 
