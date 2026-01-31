@@ -17,7 +17,6 @@
 2. Preposição
 3. Conjunção
 4. Interjeição
-![](../../attachments/Pasted%20image%2020260130102922.png)
 ---
 ### **2. Substantivo**
 
@@ -30,7 +29,11 @@
 	Ex: O **olhar** do professor é carinhoso. (Verbo substantivado)
 
 >[!Tip]
->Para diferenciar Substantivo de Adjetivo, você pode usar o macete (artigo + que é
+>Para diferenciar Substantivo e Adjetivo, você pode usar o macete (artigo + que é)
+>Ex: Que secreto desígnio -> O desígnio que é secreto.
+>Ex: Tristeza morbida -> A tristeza que é morbida.  
+
+![](../../attachments/Pasted%20image%2020260131102939.png)
 
 ---
 #### **2.1 Primitivo x Derivado**
