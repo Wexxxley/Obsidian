@@ -38,7 +38,27 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 		- Bananas-maçã
 
 **1.4 Caso especial:** Varia o último elemento se:
-		1.4.1. Com as formas reduzidas grão, grã e bel.
+	**1.4.1.** Com as formas reduzidas grão, grã e bel.
+		- grão-duques
+		- grã-cruzes
+		- bel-prazeres
+	**1.4.2.** Palavras repetidas so varia o último elemento.
+		- Reco-recos
+		- Tique-taques
+	**1.4.3.** Compostos de 3 ou mais elementos, não sendo o segundo uma preposição.
+		- Bem-te-vis
+
+
+01-
+02-
+03-
+04-
+05-
+06-
+07-
+08-
+09-
+10-
 
 
 
