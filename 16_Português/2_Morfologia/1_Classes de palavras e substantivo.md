@@ -74,7 +74,11 @@ Designa vários seres da mesma espécie/tipo.
 - **Comum de dois gêneros:** O artigo define se é masculino ou feminino.
 		Ex: O chefe, A chefe; O cliente, A cliente;
 
-![](../../attachments/Pasted%20image%2020260131105712.png)
+![](../../attachments/Pasted%20image%2020260131105733.png)
+**Letra C. A alcoolista, o alcoolista**
+
+![](../../attachments/Pasted%20image%2020260131110047.png)
+**Letra E**
 
 ---
 #### **2.7 Flexão Nominal e Concordância Nominal**
