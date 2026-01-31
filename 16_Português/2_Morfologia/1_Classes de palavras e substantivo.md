@@ -29,6 +29,9 @@
 	Ex: O **jovem** deve estudar.  (Adjetivo substantivado)
 	Ex: O **olhar** do professor é carinhoso. (Verbo substantivado)
 
+>[!Tip]
+>Para diferenciar Substantivo de Adjetivo, você pode usar o macete (artigo + que é
+
 ---
 #### **2.1 Primitivo x Derivado**
 **Primitivo**: Não se origina de outra palavra. 
@@ -88,4 +91,6 @@ Os vocábulos substantivados são palavras que originalmente pertencem a outras 
 	Ex: O não que eu levei (advérbio substantivado)
 	Ex: João, o compositor, voltou. (O joão, O compositor)
 	Ex: Que secreto desígnio haveria atrás daquilo. (O desígnio). 
+
+![](../../attachments/Pasted%20image%2020260131102134.png)
 
