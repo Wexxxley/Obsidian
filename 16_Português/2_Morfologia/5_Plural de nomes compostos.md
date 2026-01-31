@@ -20,7 +20,7 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 - Alto-falantes(advérbio+adj)
 - Abaixo-assinados(advérbio+adj)
 
-**1.2 Caso especial 1:** Verbo não recebe S embora seja classe variável.
+**1.2 Caso especial:** Verbo não recebe S embora seja classe variável.
 - Guarda-roupas
 - Beija-flores
 - Arranha-céus
@@ -29,13 +29,17 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 >**Frases substantivadas** não ficam no plural
 >Ex: Os leva e traz
 
-**1.3 Caso especial 1:** Varia somente o primeiro elemento se:
+**1.3 Caso especial:** Varia somente o primeiro elemento se:
+	**1.3.1.** Se houver preposição clara ou oculta
+		- Pés-de-meia
+		- Cavalos-vapor (cavalo a vapor)
+	**1.3.2.** Se o composto for do tipo SUBS+ SUBS e o segundo elemento especificar o primeiro.
+		- Saias-balão
+		- Bananas-maçã
 
-Se houver preposição clara ou oculta
+**1.4 Caso especial:** Varia o último elemento se:
+		1.4.1. Com as formas reduzidas grão, grã e bel.
 
-Se o segundo elemento exprimir sim, smelhança, qualidade
-
-**1.4 Caso especial 1:** 
 
 
 
