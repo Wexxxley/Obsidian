@@ -63,8 +63,14 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 15-Os fora da lei
 16-Males
 17-Latino-americanos -> Regra geral. palavra var + palavra var
-18-Obras-primas -> 
-
+18-Obras-primas ->  Regra geral. palavra var + palavra var
+19-Pores-do-sol -> Preposição clara ou oculta
+20-Troféus
+21-Boias-frias -> Regra geral. palavra var + palavra var
+22-juniores e seniores
+23-Os tórax
+24-Cidadãos
+25-Tico-ticos -> Palavras repetidas so varia o último elemento.
 
 ---
 ### **2. Plural de adjetivos compostos**
@@ -98,7 +104,9 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 07-ítalo-americanas -> Segunda palavra é um adjetivo
 08-Verde-limão -> Cor representada por substantivo não varia
 09-Surdos-mudos
-10- 
+10-Sem-sal -> Substantivo no final
+11-Sem-par -> Substantivo no final
+ 
 
 
 
