@@ -61,6 +61,9 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 13-Álcoois
 14-Guardas-norturnos ->(Subs+adj, o guarda)
 15-Os fora da lei
+16-Males
+17-Latino-americanos -> Regra geral. palavra var + palavra var
+18-Obras-primas -> 
 
 
 ---
