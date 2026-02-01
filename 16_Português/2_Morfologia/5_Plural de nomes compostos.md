@@ -45,13 +45,20 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 	**1.4.3.** Compostos de 3 ou mais elementos, não sendo o segundo uma preposição.
 		- Bem-te-vis
 
-01-Ares-condicionados  -> Regra geral. Classe var + classe var
-02-Arcos-íris (subs) -> SUBS+SUBS onde o segundo especifica o primeiro
+>[!example]
+01-Ares-condicionados  -> Regra geral. palavra var + palavra var
+02-Arcos-íris (subs) ->  SUBS+SUBS onde o segundo especifica o primeiro
+03-Sextas-feiras ->  Regra geral. palavra var + palavra var
+04-Tenetes-coronéis -> Regra geral. palavra var + palavra var
+05-Decretos-leis -> Regra geral. palavra var + palavra var
+06-Mesinhas-de-cabeceira -> P reposição clara ou oculta
+07-
+08-
 
 ---
 ### **2. Plural de adjetivos compostos**
 
-**2.1 Regra geral**: Se a segunda palavra com um adjetivo, somente ele fica no plural.
+**2.1 Regra geral**: Se a segunda palavra for um adjetivo, somente ele fica no plural.
 - Amizades luso-brasileiras (adj+adj)
 - Unidades médico-veterinárias(subs+adj)
 - Crianças recém-nascidas(adj)
@@ -70,9 +77,10 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 **2.5 Obs:** Cor representada por substantivo não varia
 - Tecidos palha, Sapatos cinza, Esmaltes gelo, Sapatos rosa, Blusas laranja, carros vinho.
 
+>[!example]
 01-Blusas prata -> Cor representada por substantivo não varia
 02-Vestidos amarelo-claros -> Regra geral. Palavra invariável + adjetivo
-03-
+03-Luso-brasileiras -> Segunda palavra é um adjetivo
 04-
 05-
 06-
