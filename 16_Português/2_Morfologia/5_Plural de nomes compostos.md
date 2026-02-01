@@ -51,9 +51,10 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 03-Sextas-feiras ->  Regra geral. palavra var + palavra var
 04-Tenetes-coronéis -> Regra geral. palavra var + palavra var
 05-Decretos-leis -> Regra geral. palavra var + palavra var
-06-Mesinhas-de-cabeceira -> P reposição clara ou oculta
-07-
-08-
+06-Mesinhas-de-cabeceira -> Preposição clara ou oculta
+07-Bate-bocas ->Verbo + subs
+08-Chefes-de-baginete -> Preposição clara ou oculta
+09-Beija-flores->verbo + subs
 
 ---
 ### **2. Plural de adjetivos compostos**
@@ -81,11 +82,12 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 01-Blusas prata -> Cor representada por substantivo não varia
 02-Vestidos amarelo-claros -> Regra geral. Palavra invariável + adjetivo
 03-Luso-brasileiras -> Segunda palavra é um adjetivo
-04-
-05-
-06-
-07-
-08-
+04-Azul-claras -> Segunda palavra é um adjetivo
+05-Amarelo-palha -> Cor representada por substantivo não varia
+06-Físico-químicas -> Segunda palavra é um adjetivo
+07-ítalo-americanas -> Segunda palavra é um adjetivo
+08-Verde-limão -> Cor representada por substantivo não varia
+09-
 
 
 
