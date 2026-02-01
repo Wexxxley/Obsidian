@@ -55,6 +55,12 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 07-Bate-bocas ->Verbo + subs
 08-Chefes-de-baginete -> Preposição clara ou oculta
 09-Beija-flores->verbo + subs
+10-Escrivães
+11-Abaixo-assinado -> advérbio + adjetivo
+12-Meles/méis
+13-Álcoois
+14-Guardas-norturnos ->(Subs+adj, o guarda)
+
 
 ---
 ### **2. Plural de adjetivos compostos**
@@ -87,7 +93,7 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 06-Físico-químicas -> Segunda palavra é um adjetivo
 07-ítalo-americanas -> Segunda palavra é um adjetivo
 08-Verde-limão -> Cor representada por substantivo não varia
-09-
+09-Surdos-mudos
 
 
 
