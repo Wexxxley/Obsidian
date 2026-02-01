@@ -60,6 +60,7 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 12-Meles/méis
 13-Álcoois
 14-Guardas-norturnos ->(Subs+adj, o guarda)
+15-Os fora da lei
 
 
 ---
@@ -94,7 +95,7 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 07-ítalo-americanas -> Segunda palavra é um adjetivo
 08-Verde-limão -> Cor representada por substantivo não varia
 09-Surdos-mudos
-
+10- 
 
 
 
