@@ -60,14 +60,15 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 - Camisas verde-garrafa(adj+subs)
 - Vestidos vermelho-sangue(adj+subs)  
 
-2.3 Obs: Azul-marinho e azul-celeste são invariáveis.
+**2.3 Obs:** Azul-marinho e azul-celeste são invariáveis.
 - Blusas azul-marinho
 - Blusas azul-celeste
 
-2.4 Obs: Surdo-mudo varia os dois
+**2.4 Obs:** Surdo-mudo varia os dois
 - Os surdos-mudos
 
-2.5 Obs: Cor representada por substa
+**2.5 Obs:** Cor representada por substantivo não varia
+- Tecidos palha, Sapatos cinza, Esmaltes gelo, Sapatos rosa, Blusas laranja, carros vinho.
 
 
 01-Ares-condicionados -> Regra geral. Classe var + classe var
