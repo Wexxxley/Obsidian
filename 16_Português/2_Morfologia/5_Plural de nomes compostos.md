@@ -10,7 +10,7 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 ### **1. Plural de substantivos compostos**
 
 **1.1 Regra geral:** Deixa no plural os termos do composto que forem variáveis
-![](../../attachments/Pasted%20image%2020260131124618.png)
+![](../../attachments/Pasted%20image%2020260201122825.png)
 - Cirurgiões-dentistas (subs+subs)
 - Guardas-civis(subs+adj)
 - Altos-relevos(adj+subs)
@@ -24,10 +24,7 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 - Guarda-roupas
 - Beija-flores
 - Arranha-céus
-
->[!note]
->**Frases substantivadas** não ficam no plural
->Ex: Os leva e traz
+- Porta-retrato
 
 **1.3 Caso especial:** Varia somente o primeiro elemento se:
 	**1.3.1.** Se houver preposição clara ou oculta
@@ -38,7 +35,7 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 		- Bananas-maçã
 
 **1.4 Caso especial:** Varia o último elemento se:
-	**1.4.1.** Com as formas reduzidas grão, grã e bel.
+	**1.4.1.** Com as formas reduzidas **grão, grã e bel**.
 		- grão-duques
 		- grã-cruzes
 		- bel-prazeres
@@ -54,7 +51,7 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 ---
 ### **2. Plural de adjetivos compostos**
 
-**2.1 Regra geral**: Somente o último se flexiona quando formado por palavra invariável + adjetivo
+**2.1 Regra geral**: Se a segunda palavra com um adjetivo, somente ele fica no plural.
 - Amizades luso-brasileiras (adj+adj)
 - Unidades médico-veterinárias(subs+adj)
 - Crianças recém-nascidas(adj)
