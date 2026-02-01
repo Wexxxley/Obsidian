@@ -48,6 +48,9 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 	**1.4.3.** Compostos de 3 ou mais elementos, não sendo o segundo uma preposição.
 		- Bem-te-vis
 
+01-Ares-condicionados  -> Regra geral. Classe var + classe var
+02-Arcos-íris (subs) -> SUBS+SUBS onde o segundo especifica o primeiro
+
 ---
 ### **2. Plural de adjetivos compostos**
 
@@ -70,16 +73,14 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 **2.5 Obs:** Cor representada por substantivo não varia
 - Tecidos palha, Sapatos cinza, Esmaltes gelo, Sapatos rosa, Blusas laranja, carros vinho.
 
-01-Ares-condicionados -> Regra geral. Classe var + classe var
-02-Arcos-íris -> SUBS+SUBS onde o segundo especifica o primeiro
-03-Blusas prata -> Cor representada por substantivo não varia
+01-Blusas prata -> Cor representada por substantivo não varia
+02-Vestidos amarelo-claros -> Regra geral. Palavra invariável + adjetivo
+03-
 04-
 05-
 06-
 07-
 08-
-09-
-10-
 
 
 
