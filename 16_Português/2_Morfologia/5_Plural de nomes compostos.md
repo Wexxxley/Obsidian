@@ -70,10 +70,9 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 **2.5 Obs:** Cor representada por substantivo não varia
 - Tecidos palha, Sapatos cinza, Esmaltes gelo, Sapatos rosa, Blusas laranja, carros vinho.
 
-
 01-Ares-condicionados -> Regra geral. Classe var + classe var
 02-Arcos-íris -> SUBS+SUBS onde o segundo especifica o primeiro
-03-
+03-Blusas prata -> Cor representada por substantivo não varia
 04-
 05-
 06-

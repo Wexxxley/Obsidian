@@ -9,8 +9,8 @@
 >
 **Com os falsos prefixos:** aero, agro, anfi, audio, bio, foto, geo, hidro, macro, mega, micro, mini, multi, neo, orto, proto, pseudo, poli, retro, tele...
 
-**1.1.**==Se as vogais são iguais, elas se repelem==
-	Ex: Anti-inflamatório, eletro-óptico, sobre-estimar, auto-observação, Contra-atacar.
+**1.1.**==Se as letras são iguais, elas se repelem==
+	Ex: Anti-inflamatório, eletro-óptico, sobre-estimar, auto-observação, Contra-atacar, super-homem, hiper-requintado, super-revista.
 	Ex: Antiético, anteontem, agroindustrial.
 	
 **1.2.** Emprega-se o hífen quando a segunda palavra começa com H.
@@ -22,20 +22,8 @@
 **1.4.** Quando a primeira palavra terminar em vogal e a segunda começas por R ou S devemos sobrar as consoantes, sem hífen.
 	Ex: Biorritmo, infrassom, antessala.
 
-**1.5.** Com os prefixos **HIPER, INTER e SUPER**, usaremos hífen se a segunda palavra começar com H ou R.
-	Ex: Super-homem, hiper-requintado, super-revista.
-
-**1.6.** Usa-se hífen com **CIRCUM e PAN**, quando seguidos por VOGAL, H, N ou M.
+**1.5.** Usa-se hífen com **CIRCUM e PAN**, quando seguidos por VOGAL, H, N ou M.
 	Ex: Circum-navegação, circum-escolar, pan-africano, pan-negritude, pan-helenismo.
-
-**1.7.** Quando não a perda de som da vogal final da primeira palavra e a segunda começa com h, as duas formas são válidas
-	Ex: Cardi-hepático, cardiepático; aero-hidropatia, **aeroidropatia**.
-
->[!note]
->**Exceção:** reabilitar (re + habilitar), reaver (re + haver),  reidratar (re + hidratar), reumanizar (re + humanizar). 
-
-**1.8.** Quando há perda de som da vogal final da primeira palavra, não usa-se hífen.
-	Ex: Cloridrico (cloro + hídrico),
 
 ---
 ### **2° Regra**
@@ -55,7 +43,7 @@
 ---
 ### **3° Regra**
 
-**3.1.** Com os prefixos ab, ob, sob e sub se a segunda palavra começar por r ou b será empregado o hífen.
+**3.1.** Com os prefixos **ab, ob, sob e sub** se a segunda palavra começar por r ou b será empregado o hífen.
 	Ex: Sub-base, Ab-reptício, ob-rogar, sub-reitor.
 
 ---
@@ -70,7 +58,7 @@
 **5.1.** Compostos por substantivo, adj, numeral ou verbo usa-se hífen.
 	Ex: Couve-flor, Navio-escola, Decreto-lei
 	Ex: Segunda-feira, Primeira-dama, quatro-pés.
-	Ex: Guarda-chuva, Beija-flor, Para-choque, Quebra-cabeça.
+	Ex: Guarda-chuva, Beija-flor, Para-choque, Quebra-cabeça, Porta retrato.
 	Ex: Alto-relevo
 
 ---
