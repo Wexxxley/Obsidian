@@ -51,6 +51,25 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 ---
 ### **2. Plural de adjetivos compostos**
 
+**2.1 Regra geral**: Somente o último se flexiona quando formado por palavra invariável + adjetivo
+- Amizades luso-brasileiras (adj+adj)
+- Unidades médico-veterinárias(subs+adj)
+- Crianças recém-nascidas(adj)
+
+**2.2 Caso especial:** Não variam os compostos quando o segundo elemento for um substantivo.
+- Camisas verde-garrafa(adj+subs)
+- Vestidos vermelho-sangue(adj+subs)  
+
+2.3 Obs: Azul-marinho e azul-celeste são invariáveis.
+- Blusas azul-marinho
+- Blusas azul-celeste
+
+2.4 Obs: Surdo-mudo varia os dois
+- Os surdos-mudos
+
+2.5 Obs: Cor representada por substa
+
+
 01-Ares-condicionados -> Regra geral. Classe var + classe var
 02-Arcos-íris -> SUBS+SUBS onde o segundo especifica o primeiro
 03-
