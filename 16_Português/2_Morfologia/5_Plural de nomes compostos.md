@@ -48,9 +48,11 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 	**1.4.3.** Compostos de 3 ou mais elementos, não sendo o segundo uma preposição.
 		- Bem-te-vis
 
+---
+### **2. Plural de adjetivos compostos**
 
-01-
-02-
+01-Ares-condicionados -> Regra geral. Classe var + classe var
+02-Arcos-íris -> SUBS+SUBS onde o segundo especifica o primeiro
 03-
 04-
 05-
