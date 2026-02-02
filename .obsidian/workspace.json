@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Português/2_Morfologia/2_Artigo, adjetivo e numeral.md",
+                "file": "16_Português/2_Morfologia/5_Plural de nomes compostos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Artigo, adjetivo e numeral"
+              "title": "5_Plural de nomes compostos"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -183,16 +184,16 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "16_Português/2_Morfologia/4_Verbo e advérbio.md",
+    "16_Português/2_Morfologia/3_Pronome.md",
+    "16_Português/2_Morfologia/2_Artigo, adjetivo e numeral.md",
     "16_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
     "16_Português/2_Morfologia/5_Plural de nomes compostos.md",
     "attachments/Pasted image 20260201122825.png",
     "16_Português/1_Ortografia/4_Hífen.md",
     "16_Português/1_Ortografia/3_Acentuação gráfica.md",
     "16_Português/1_Ortografia/5_Uso dos porques.md",
-    "16_Português/2_Morfologia/2_Artigo, adjetivo e numeral.md",
-    "16_Português/2_Morfologia/4_Verbo e advérbio.md",
     "attachments/Pasted image 20260131124618.png",
-    "16_Português/2_Morfologia/3_Pronome.md",
     "attachments/Pasted image 20260131123731.png",
     "attachments/Pasted image 20260131110047.png",
     "attachments/Pasted image 20260131105733.png",
