@@ -101,12 +101,14 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 03-Luso-brasileiras -> Segunda palavra é um adjetivo
 04-Azul-claras -> Segunda palavra é um adjetivo
 05-Amarelo-palha -> Cor representada por substantivo não varia
-06-Físico-químicas -> Segunda palavra é um adjetivo
-07-ítalo-americanas -> Segunda palavra é um adjetivo
-08-Verde-limão -> Cor representada por substantivo não varia
-09-Surdos-mudos
-10-Sem-sal -> Substantivo no final
-11-Sem-par -> Substantivo no final
+06-Blusas azul-marinho
+07-Blusas azul-celeste
+08-Físico-químicas -> Segunda palavra é um adjetivo
+09-ítalo-americanas -> Segunda palavra é um adjetivo
+10-Verde-limão -> Cor representada por substantivo não varia
+11-Surdos-mudos
+12-Sem-sal -> Substantivo no final
+13-Sem-par -> Substantivo no final
  
 
 
