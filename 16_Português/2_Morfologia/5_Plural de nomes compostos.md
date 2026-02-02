@@ -72,7 +72,9 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 24-Cidadãos
 25-Tico-ticos -> Palavras repetidas so varia o último elemento.
 26-Pães
-27-Caráter -> 
+27-Caráter -> Caracteres
+28-Dólar -> Dolares
+29-O Til -> os tis
 
 ---
 ### **2. Plural de adjetivos compostos**
