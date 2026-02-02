@@ -62,21 +62,20 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 14-Guardas-norturnos ->(Subs+adj, o guarda)
 15-Os fora da lei
 16-Males
-17-Latino-americanos -> Regra geral. palavra var + palavra var
-18-Obras-primas ->  Regra geral. palavra var + palavra var
-19-Pores-do-sol -> Preposição clara ou oculta
-20-Troféus
-21-Réptil/reptil -> reptéis/reptis
-22-Boias-frias -> Regra geral. palavra var + palavra var
-23-juniores e seniores
-24-Os tórax
-25-Cidadãos
-26-Tico-ticos -> Palavras repetidas so varia o último elemento.
-27-Pães
-28-Caráter -> Caracteres
-29-Dólar -> Dolares
-30-O Til -> os tis
-31-Projetil/projétil -> projetis/projéteis 
+17-Obras-primas ->  Regra geral. palavra var + palavra var
+18-Pores-do-sol -> Preposição clara ou oculta
+19-Troféus
+20-Réptil/reptil -> reptéis/reptis
+21-Boias-frias -> Regra geral. palavra var + palavra var
+22-juniores e seniores
+23-Os tórax
+24-Cidadãos
+25-Tico-ticos -> Palavras repetidas so varia o último elemento.
+26-Pães
+27-Caráter -> Caracteres
+28-Dólar -> Dolares
+29-O Til -> os tis
+30-Projetil/projétil -> projetis/projéteis 
 
 ---
 ### **2. Plural de adjetivos compostos**
