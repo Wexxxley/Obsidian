@@ -37,15 +37,15 @@ O adjetivo é uma classe que tem a finalidade de caracterizar o substantivo. Nem
 >Locuções são **INVARIÁVEIS**.
 
 #### **2.1 Grau dos adjetivos**
-Alguns adjetivos podem variar em grau. Podem ser intensificados.
+Alguns adjetivos podem variar em grau, ou seja, podem ser intensificados.
 - Mariana é muito inteligente.
-- Desempenho muito admirável
-
-Note que advérbio também pode ser intensificado.
-- Adriana fala muito bem. 
+- Desempenho extremamente admirável.
 
 **Adjetivo de relação**: É aquele que não pode variar em grau.
 - Roupa importada -> roupa muito importada (N FAZ SENTIDO)
+
+Note que advérbio também pode ser intensificado.
+- Adriana fala muito bem. 
 
 **2.1.1 Comparativo**
 - De inferioridade:  Ela é menos discreto que a irmã
