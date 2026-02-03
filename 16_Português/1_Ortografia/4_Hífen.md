@@ -55,7 +55,7 @@
 ---
 ### **5° Regra**
 
-**5.1.** Compostos por substantivo, adj, numeral ou verbo usa-se hífen.
+**5.1.** Compostos por substantivo, adjetivo, numeral ou verbo usa-se hífen.
 	Ex: Couve-flor, Navio-escola, Decreto-lei
 	Ex: Segunda-feira, Primeira-dama, quatro-pés.
 	Ex: Guarda-chuva, Beija-flor, Para-choque, Quebra-cabeça, Porta retrato.
