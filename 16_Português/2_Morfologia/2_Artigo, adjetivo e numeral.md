@@ -37,7 +37,6 @@ O adjetivo é uma classe que tem a finalidade de caracterizar o substantivo. Nem
 >Locuções são **INVARIÁVEIS**.
 
 #### **2.1 Grau dos adjetivos**
-
 Alguns adjetivos podem variar em grau. Podem ser intensificados.
 - Mariana é muito inteligente.
 - Desempenho muito admirável
@@ -45,7 +44,7 @@ Alguns adjetivos podem variar em grau. Podem ser intensificados.
 Note que advérbio também pode ser intensificado.
 - Adriana fala muito bem. 
 
-**Adejtivo de relação**: É aquele que não pode variar em grau.
+**Adjetivo de relação**: É aquele que não pode variar em grau.
 - Roupa importada -> roupa muito importada (N FAZ SENTIDO)
 
 **2.1.1 Comparativo**
@@ -53,19 +52,33 @@ Note que advérbio também pode ser intensificado.
 - De igualdade: Ela é tão discreta quanto a irmã
 - De superioridade: Ela é mais discreta que a irmã
 
-**2.1.2 Superlativo**: É quando o adjetivo está destacando.
+**2.1.2 Superlativo**: É quando o adjetivo está destacando o ser.
 - **Absoluto**: Destaca sem relacionar a um grupo.
 	- Sintético(com sufixo): Ela é discretíssima
 	- Analítica(com advérbio): Ela é muito discreta
 - **Relativo**: Destaca em relação a um grupo
 	- De inferioridade: Ela é a menos discreta da turma
-	- De superioridade: Ela é  a mais discreta da turma.
+	- De superioridade: Ela é a mais discreta da turma.
 
 **Comparativo e superlativo irregulares**: Ocorre quando uma nova palavra é usado para indicar variação.
 ![](../../attachments/Pasted%20image%2020260203100934.png)
+- A varanda é mais grande do que a sala -> A varanda é maior do que a sala 
+- O junior é mais bom do que a luzia -> O junior é melhor do que a luzia.
+
+Quando se compara duas qualidades do mesmo ser empregam-se mais bom, mais grande... em vez de melhor, maior.
+- A varanda é mais grande do que pequena. 
+- A adriana é mais boa do que chata.
 
 ![](../../attachments/Pasted%20image%2020260203093834.png)
 ![](../../attachments/Pasted%20image%2020260203093858.png)
+
+01- A receita dela é tão saborosa quanto a sua -> Comparativo de igualdade
+02-
+03-
+04-
+05-
+06-
+07-
 
 ---
 ### **3. Numeral**
