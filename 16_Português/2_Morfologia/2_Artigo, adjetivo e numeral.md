@@ -38,6 +38,8 @@ O adjetivo é uma classe que tem a finalidade de caracterizar o substantivo. Nem
 
 #### **2.1 Grau dos adjetivos**
 
+![](../../attachments/Pasted%20image%2020260203093834.png)
+![](../../attachments/Pasted%20image%2020260203093858.png)
 
 
 
