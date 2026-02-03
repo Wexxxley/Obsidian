@@ -54,18 +54,18 @@ Note que advérbio também pode ser intensificado.
 - De superioridade: Ela é mais discreta que a irmã
 
 **2.1.2 Superlativo**: É quando o adjetivo está destacando.
-- Absoluto: Destaca sem relacionar a um grupo.
+- **Absoluto**: Destaca sem relacionar a um grupo.
 	- Sintético(com sufixo): Ela é discretíssima
 	- Analítica(com advérbio): Ela é muito discreta
-- Relativo: Destaca em relação a um grupo
+- **Relativo**: Destaca em relação a um grupo
 	- De inferioridade: Ela é a menos discreta da turma
-	- 
+	- De superioridade: Ela é  a mais discreta da turma.
 
+**Comparativo e superlativo irregulares**: Ocorre quando uma nova palavra é usado para indicar variação.
+![](../../attachments/Pasted%20image%2020260203100934.png)
 
 ![](../../attachments/Pasted%20image%2020260203093834.png)
 ![](../../attachments/Pasted%20image%2020260203093858.png)
-
-
 
 ---
 ### **3. Numeral**
