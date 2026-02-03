@@ -35,7 +35,12 @@ O adjetivo é uma classe que tem a finalidade de caracterizar o substantivo. Nem
 >Locução é uma expressão formada por duas ou mais palavras.
 >
 >Locuções são **INVARIÁVEIS**.
-  
+
+#### **2.1 Grau dos adjetivos**
+
+
+
+
 ---
 ### **3. Numeral**
 
