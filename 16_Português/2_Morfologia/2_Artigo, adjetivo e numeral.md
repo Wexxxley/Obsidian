@@ -38,7 +38,29 @@ O adjetivo é uma classe que tem a finalidade de caracterizar o substantivo. Nem
 
 #### **2.1 Grau dos adjetivos**
 
-	Adjtivo de relação: É aquele que não pode variar em grau.
+Alguns adjetivos podem variar em grau. Podem ser intensificados.
+- Mariana é muito inteligente.
+- Desempenho muito admirável
+
+Note que advérbio também pode ser intensificado.
+- Adriana fala muito bem. 
+
+**Adejtivo de relação**: É aquele que não pode variar em grau.
+- Roupa importada -> roupa muito importada (N FAZ SENTIDO)
+
+**2.1.1 Comparativo**
+- De inferioridade:  Ela é menos discreto que a irmã
+- De igualdade: Ela é tão discreta quanto a irmã
+- De superioridade: Ela é mais discreta que a irmã
+
+**2.1.2 Superlativo**: É quando o adjetivo está destacando.
+- Absoluto: Destaca sem relacionar a um grupo.
+	- Sintético(com sufixo): Ela é discretíssima
+	- Analítica(com advérbio): Ela é muito discreta
+- Relativo: Destaca em relação a um grupo
+	- De inferioridade: Ela é a menos discreta da turma
+	- 
+
 
 ![](../../attachments/Pasted%20image%2020260203093834.png)
 ![](../../attachments/Pasted%20image%2020260203093858.png)
