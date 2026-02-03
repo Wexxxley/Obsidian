@@ -69,24 +69,21 @@ Quando se compara duas qualidades do mesmo ser empregam-se mais bom, mais grande
 - A varanda é mais grande do que pequena. 
 - A adriana é mais boa do que chata.
 
-![](../../attachments/Pasted%20image%2020260203093834.png)
-![](../../attachments/Pasted%20image%2020260203093858.png)
-
+>[!EXAMPLE]
 01-A receita dela é tão saborosa quanto a sua -> Comparativo de igualdade
 02-Todos achavam que ele era extremamaente agradável -> Superlativo absoluto analítico
 03-Porém era menos racional que a média -> Comparativo de inferioridade
 04-A roupa a marcia é mais bonita do que a de clara -> Comparativo de superiodidade
 05-Ele era dotado de incredibilíssima sensibilidade -> Superlativo absoluto sintético
 06-O trabalho dele é menos rentável do que o anterior -> Comparativo de inferioridade
-07- 
+07- Hoje descorbi que ele é o mais forte de nós -> Superlativo relativo de superioridade
 08-Eventualmente, era muito legal -> Superlativo absoluto analítico
-09-
+09-Ele era o menos racional da turma ->  Superlativo relativo de inferioridade
 10-Este procedimento é melhor que o outro ->  Comparativo de superiodidade irregular
-11-
-12-
-13-
-14-
-15-
+
+
+![](../../attachments/Pasted%20image%2020260203093834.png)
+![](../../attachments/Pasted%20image%2020260203093858.png)
 
 ---
 ### **3. Numeral**
