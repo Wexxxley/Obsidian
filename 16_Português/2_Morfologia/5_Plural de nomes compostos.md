@@ -10,7 +10,7 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 ### **1. Plural de substantivos compostos**
 
 **1.1 Regra geral:** Deixa no plural os termos do composto que forem variáveis
-![](../../attachments/Pasted%20image%2020260201122825.png)
+![](../../attachments/Pasted%20image%2020260203072746.png)
 - Cirurgiões-dentistas (subs+subs)
 - Guardas-civis(subs+adj)
 - Altos-relevos(adj+subs)
@@ -22,7 +22,6 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 
 **1.2 Caso especial:** Verbo não recebe S embora seja classe variável.
 - Guarda-roupas
-- Beija-flores
 - Arranha-céus
 - Porta-retrato
 
@@ -56,7 +55,7 @@ Quando se fala em plural de nomes compostos estamos nos referindo a susbstantivo
 08-Chefes-de-baginete -> Preposição clara ou oculta
 09-Beija-flores->verbo + subs
 10-Escrivães
-11-Abaixo-assinado -> advérbio + adjetivo
+11-Abaixo-assinados -> advérbio + adjetivo
 12-Meles/méis
 13-Álcoois
 14-Guardas-norturnos ->(Subs+adj, o guarda)
