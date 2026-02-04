@@ -72,8 +72,11 @@ Retorma um termo já citado (antecedente/referente) que é substantivo, pronome 
 >A **regência** é a relação de dependência entre uma palavra (termo regente) e seus complementos (termos regidos), necessários para completar o sentido da frase.
 
 1. Olhar para a oração que vem após o pronome relativo (orção adjetiva).
-2. Comece pelo verbo da oração adjetiva
+2. Comece pelo verbo da oração adjetiva.
+3. Perguntar pelo sujeito.
+4. Coloque na ordem direta completando a frase com o antecedente do relativo.
 
+![](../../attachments/Pasted%20image%2020260204091435.png)
 
 **7. Indefinidos** : Referem-se a algo de forma vaga ou imprecisa.
 
