@@ -36,7 +36,7 @@ Os oblíquos funcionam como complemento.
 
 ---
 ### **Pronomes Relativos**
-Retorma um termo já citado (antecedente) e introduzem uma oração subordinada.
+Retorma um termo já citado (antecedente/referente) que é substantivo, pronome substantivo ou oração substantivada e introduzem uma oração subordinada.
 ![](../../attachments/Pasted%20image%2020260204083341.png)
 
 
