@@ -80,7 +80,7 @@ Retorma um termo já citado (antecedente/referente) que é substantivo, pronome 
 ![](../../attachments/Pasted%20image%2020260204094030.png)
 ![](../../attachments/Pasted%20image%2020260204094347.png)
 ![](../../attachments/Pasted%20image%2020260204094848.png)
-
+![](../../attachments/Pasted%20image%2020260204130520.png)
 **7. Indefinidos** : Referem-se a algo de forma vaga ou imprecisa.
 
 **8. Interrogativos**: Usados em perguntas diretas ou indiretas.
