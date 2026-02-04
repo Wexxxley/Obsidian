@@ -77,7 +77,8 @@ Retorma um termo já citado (antecedente/referente) que é substantivo, pronome 
 4. Coloque na ordem direta completando a frase com o antecedente do relativo.
 
 ![](../../attachments/Pasted%20image%2020260204091435.png)
-
+![](../../attachments/Pasted%20image%2020260204092007.png)
+![](../../attachments/Pasted%20image%2020260204092526.png)
 **7. Indefinidos** : Referem-se a algo de forma vaga ou imprecisa.
 
 **8. Interrogativos**: Usados em perguntas diretas ou indiretas.
