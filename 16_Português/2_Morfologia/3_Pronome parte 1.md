@@ -25,9 +25,13 @@ Os **Oblíquos** funcionam como complemento.
 - Eu falei **contigo**.
 - Ela **o** enganou.
 
-Os **oblíquos tônicos** sempre são precedidos de preposição.
+Os **oblíquos tônicos** sempre são precedidos de preposição, sempre são objetos indiretos.
 - Ele deu o livro a **ele**.
 - Nós confiamos em **nós**
+
+O **lhe** pode assumir papel de pronome possessivo
+- O vento beijou-lhe o rosto -> O vento beijou o rosto dele
+- Senti-lhe o perfume assim que entrou na sala -> Senti o perfume dela
 
 **2. Pronome Adjetivo**: Acompanha um substantivo, qualificando ou determinando-o.  
 	Ex: Este livro é meu. ("Este" acompanha "livro", funcionando como adjetivo.)
