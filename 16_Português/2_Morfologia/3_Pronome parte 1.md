@@ -34,7 +34,12 @@ Os oblíquos funcionam como complemento.
 
 ![](../../attachments/Pasted%20image%2020260130165027.png)
 
-**6. Relativos**: Substituem um termo já citado e introduzem uma oração subordinada.
+---
+### **Pronomes Relativos**
+Retorma um termo já citado (antecedente) e introduzem uma oração subordinada.
+![](../../attachments/Pasted%20image%2020260204083341.png)
+
+
 
 **7. Indefinidos** : Referem-se a algo de forma vaga ou imprecisa.
 
