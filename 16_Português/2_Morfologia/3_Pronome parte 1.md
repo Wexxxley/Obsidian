@@ -62,7 +62,7 @@ Retorma um termo já citado (antecedente/referente) que é substantivo, pronome 
 	 - É a cidade aonde vou -> é a cidade a que vou
 	 - É a cidade donde/de onde venho -> é a cidade de que venho.
 	 
-7. **Cujo** é usado para ideia de posso
+7. **Cujo** é usado para ideia de posso. Sempre tem a preposição 'de' dentro dele
 	- O **livro**, cujas páginas estão amareladas, é histórico.
 	- A **criança**, cujos pais estão nos Estados Unidos, vive com a tia.
 
@@ -79,8 +79,8 @@ Retorma um termo já citado (antecedente/referente) que é substantivo, pronome 
 ![](../../attachments/Pasted%20image%2020260204092007.png)
 ![](../../attachments/Pasted%20image%2020260204092526.png)
 ![](../../attachments/Pasted%20image%2020260204093307.png)
-
-
+![](../../attachments/Pasted%20image%2020260204094030.png)
+![](../../attachments/Pasted%20image%2020260204094347.png)
 **7. Indefinidos** : Referem-se a algo de forma vaga ou imprecisa.
 
 **8. Interrogativos**: Usados em perguntas diretas ou indiretas.
