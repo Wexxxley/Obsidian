@@ -5,6 +5,12 @@
 
 O verbo indica ação (correr), estado (ser) e fenômeno da natureza (chover). 
 
+**Verbo transitivo direto(VTD)** pede complemento sem preposição.
+- Ele devolveu(VTD) o carro.
+
+**Verbo transitivo indireto(VTI)** pede complemento com preposição.
+- O assunto intessou(VTI) a ela.
+
 >[!Note]
 >Locução é uma expressão formada por duas ou mais palavras.
 >

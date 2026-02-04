@@ -15,11 +15,19 @@ Substituem nomes de pessoas ou coisas.
 ![450](../../attachments/Pasted%20image%2020260204133257.png)
 
 Os **retos** funcionam como sujeito.
-- Eu sei tudo sobre pronome.
-- Ele passou de ano.
+- **Eu** sei tudo sobre pronome.
+- **Ele** passou de ano.
+- **Tu** vais embora?
+- **Vós** ides
 
-Os óbliquos funcionam como complemento.
-- 
+Os **Oblíquos** funcionam como complemento.
+- Eles não **me** governam
+- Eu falei **contigo**.
+- Ela **o** enganou.
+
+Os **oblíquos tônicos** sempre são precedidos de preposição.
+- Ele deu o livro a **ele**.
+- Nós confiamos em **nós**
 
 **2. Pronome Adjetivo**: Acompanha um substantivo, qualificando ou determinando-o.  
 	Ex: Este livro é meu. ("Este" acompanha "livro", funcionando como adjetivo.)
