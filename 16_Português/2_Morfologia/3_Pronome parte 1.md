@@ -63,7 +63,7 @@ Os pronomes possessivos **substituem** ou **acompanham** o substantivo para indi
 
 ![450](../../attachments/Pasted%20image%2020260204170534.png)
 O pronome possessivo concorda com o substantivo que vem após ele. Ele não concorda com o referente.
-- João chegou com sua mãe.
+![](../../attachments/Pasted%20image%2020260204175625.png)
 
 >[!tip]
 >A preposição **de** pode indicar posse.
@@ -81,7 +81,7 @@ Indicam posição no espaço ou tempo.
 
 ---
 ### **Pronomes Relativos**
-Retorma um termo já citado (antecedente/referente) que é substantivo, pronome substantivo ou numeral substantivo e introduzem uma oração subordinada.
+Retorma um termo já citado (antecedente/referente) que é substantivo, pronome subst antivo ou numeral substantivo e introduzem uma oração subordinada.
 ![](../../attachments/Pasted%20image%2020260204084846.png)
 
 ![](../../attachments/Pasted%20image%2020260204085403.png)
