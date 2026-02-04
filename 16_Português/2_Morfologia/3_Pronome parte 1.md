@@ -16,9 +16,11 @@ O pronome adjetivo é aquele que **acompanha** o substantivo. Ele não o substit
 
 ![](../../attachments/Pasted%20image%2020260204183623.png)
 ![](../../attachments/Pasted%20image%2020260204184323.png)
+![](../../attachments/Pasted%20image%2020260204185325.png)
 
 ---
 ### **2. Pronomes pessoais**
+
 Substituem nomes de pessoas ou coisas.
 ![450](../../attachments/Pasted%20image%2020260204133257.png)
 
@@ -52,6 +54,7 @@ O **lhe** (pronome pessoal oblíquo átono) pode exercer função de posse.
 > - O vento beijou-lhe o rosto -> O vento beijou o rosto dele
 > - Senti-lhe o perfume assim que entrou na sala -> Senti o perfume dela
 
+---
 ### **3. Pronomes possessivos**
 
 Os pronomes possessivos **substituem** ou **acompanham** o substantivo para indicar a quem ele pertence, variando em gênero e número.
@@ -68,4 +71,14 @@ O pronome possessivo concorda com o substantivo que vem após ele. Ele não conc
 O **lhe** (pronome pessoal oblíquo átono) pode exercer função de posse.
 > - O vento beijou-lhe o rosto -> O vento beijou o rosto dele
 > - Senti-lhe o perfume assim que entrou na sala -> Senti o perfume dela
+
+---
+### **4. Demonstrativos**
+
+Indicam posição no espaço ou tempo.
+![](../../attachments/Pasted%20image%2020260130165027.png)
+
+
+
+
 

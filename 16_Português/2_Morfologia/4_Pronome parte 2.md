@@ -1,14 +1,8 @@
 
 
 ---
+### **1. Pronomes Relativos**
 
-
-### **Demonstrativos**
-Indicam posição no espaço ou tempo.
-![](../../attachments/Pasted%20image%2020260130165027.png)
-
----
-### **Pronomes Relativos**
 Retorma um termo já citado (antecedente/referente) que é substantivo, pronome subst antivo ou numeral substantivo e introduzem uma oração subordinada.
 ![](../../attachments/Pasted%20image%2020260204084846.png)
 
@@ -56,8 +50,12 @@ Retorma um termo já citado (antecedente/referente) que é substantivo, pronome 
 ![](../../attachments/Pasted%20image%2020260204094347.png)
 ![](../../attachments/Pasted%20image%2020260204094848.png)
 ![](../../attachments/Pasted%20image%2020260204130520.png)
-**7. Indefinidos** : Referem-se a algo de forma vaga ou imprecisa.
+
+---
+### **2. Pronomes indefinidos** 
  
-**8. Interrogativos**: Usados em perguntas diretas ou indiretas.
+### **3. Interrogativos**
+
+Usados em perguntas diretas ou indiretas.
 
 ![](../../attachments/Pasted%20image%2020260130151335.png)
