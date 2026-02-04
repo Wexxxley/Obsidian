@@ -10,11 +10,16 @@ Substitui um substantivo, exercendo a função de sujeito ou complemento na ora�
 	Ex: Aquele parece mais interessante. (O pronome substitui um termo já citado.)
 	Ex: Alguém ligou para você. (Alguém exerce função de sujeito.)
 
-**2. Pronomes pessoais**: Substituem nomes de pessoas ou coisas.
-![](../../attachments/Pasted%20image%2020260130151220.png)
-Os retos funcionam como sujeito.
-	 Ex: Eu sei tudo sobre pronome.
-	 Ex: Ele passou de ano.
+### **2. Pronomes pessoais**
+Substituem nomes de pessoas ou coisas.
+![450](../../attachments/Pasted%20image%2020260204133257.png)
+
+Os **retos** funcionam como sujeito.
+- Eu sei tudo sobre pronome.
+- Ele passou de ano.
+
+Os óbliquos funcionam como complemento.
+- 
 
 **2. Pronome Adjetivo**: Acompanha um substantivo, qualificando ou determinando-o.  
 	Ex: Este livro é meu. ("Este" acompanha "livro", funcionando como adjetivo.)
