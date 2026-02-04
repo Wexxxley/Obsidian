@@ -40,26 +40,41 @@ Os **oblíquos átonos** não vem preposicionados.
 > - Eu lhe vi ontem ERRADO -> eu o vi ontem
 
 >[!tip]
-O **lhe** (pronome pessoal oblíquo átono) pode assumir papel de pronome possessivo.
+O **lhe** (pronome pessoal oblíquo átono) pode exercer função de posse.
 > - O vento beijou-lhe o rosto -> O vento beijou o rosto dele
 > - Senti-lhe o perfume assim que entrou na sala -> Senti o perfume dela
 
-**2. Pronome Adjetivo**: Acompanha um substantivo, qualificando ou determinando-o.  
+### **Pronome Adjetivo**
+Acompanha um substantivo, qualificando ou determinando-o.  
 	Ex: Este livro é meu. ("Este" acompanha "livro", funcionando como adjetivo.)
 	Ex: Aquele carro é muito caro. ("Aquele" acompanha "carro".)
 	Ex: Algum aluno faltou à aula. ("Algum" acompanha "aluno".)
 
 
-Os oblíquos funcionam como complemento.
+Os ob  líquos funcionam como complemento.
 	 Ex: João viu Maria e ==a== cumprimentou.
 	 Ex: O professor chamou os alunos e ==os== orientou sobre a prova.
 	 Ex: O presente é para ==mim==.
 	 Ex: Eles estavam conversando entre ==si==.
 
-**4. Pronomes possessivos**: Indicam posse.
-![](../../attachments/Pasted%20image%2020260130164729.png)
+### **Pronomes possessivos**
 
-**5. Demonstrativos**: Indicam posição no espaço ou tempo.
+Os pronomes possessivos **substituem** ou **acompanham** o substantivo para indicar a quem ele pertence, variando em gênero e número.
+
+![450](../../attachments/Pasted%20image%2020260204170534.png)
+
+>[!tip]
+>A preposição **de** pode pode exercer função de posse.
+> - O livro de maria
+
+
+>[!tip]
+O **lhe** (pronome pessoal oblíquo átono) pode exercer função de posse.
+> - O vento beijou-lhe o rosto -> O vento beijou o rosto dele
+> - Senti-lhe o perfume assim que entrou na sala -> Senti o perfume dela
+
+### **Demonstrativos**
+Indicam posição no espaço ou tempo.
 ![](../../attachments/Pasted%20image%2020260130165027.png)
 
 ---
