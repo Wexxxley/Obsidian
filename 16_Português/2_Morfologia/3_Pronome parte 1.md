@@ -51,10 +51,28 @@ Retorma um termo já citado (antecedente/referente) que é substantivo, pronome 
 	- É a maneira como ele se veste.
 	- Não gostei da forma como você me tratou.
 
-4. Quanto usado sempre que tiver que retornar ideia de quantidade.
+4. **Quanto** usado sempre que tiver que retornar ideia de quantidade.
 	- É tudo quanto eu quero
-	- 
 
+5.  **Quando** usado sempre que tiver que retornar ideia de tempo.
+	- Na época quando tudo aconteceu.
+ 
+6. **Onde(em)/aonde(a)/donde(de)** são usados para antecedente lugar.
+	 - É a cidade onde moro -> é a cidade em que moro
+	 - É a cidade aonde vou -> é a cidade a que vou
+	 - É a cidade donde/de onde venho -> é a cidade de que venho.
+	 
+7. **Cujo** é usado para ideia de posso
+	- O **livro**, cujas páginas estão amareladas, é histórico.
+	- A **criança**, cujos pais estão nos Estados Unidos, vive com a tia.
+
+#### **Regencia com pronome relativo**
+
+>[!note]
+>A **regência** é a relação de dependência entre uma palavra (termo regente) e seus complementos (termos regidos), necessários para completar o sentido da frase.
+
+1. Olhar para a oração que vem após o pronome relativo (orção adjetiva).
+2. Comece pelo verbo da oração adjetiva
 
 
 **7. Indefinidos** : Referem-se a algo de forma vaga ou imprecisa.
