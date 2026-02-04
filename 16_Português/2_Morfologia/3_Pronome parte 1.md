@@ -27,16 +27,14 @@ Os oblíquos funcionam como complemento.
 	 Ex: Eles estavam conversando entre ==si==.
 
 **4. Pronomes possessivos**: Indicam posse.
-
 ![](../../attachments/Pasted%20image%2020260130164729.png)
 
 **5. Demonstrativos**: Indicam posição no espaço ou tempo.
-
 ![](../../attachments/Pasted%20image%2020260130165027.png)
 
 ---
 ### **Pronomes Relativos**
-Retorma um termo já citado (antecedente/referente) que é substantivo, pronome substantivo, numeral substantivo ou oração substantivada e introduzem uma oração subordinada.
+Retorma um termo já citado (antecedente/referente) que é substantivo, pronome substantivo ou numeral substantivo e introduzem uma oração subordinada.
 ![](../../attachments/Pasted%20image%2020260204084846.png)
 
 ![](../../attachments/Pasted%20image%2020260204085403.png)
@@ -73,7 +71,7 @@ Retorma um termo já citado (antecedente/referente) que é substantivo, pronome 
 
 1. Olhar para a oração que vem após o pronome relativo (orção adjetiva).
 2. Comece pelo verbo da oração adjetiva.
-3. Perguntar pelo sujeito.
+3. Perguntae pelo sujeito.
 4. Coloque na ordem direta completando a frase com o antecedente do relativo.
 ![](../../attachments/Pasted%20image%2020260204091435.png)
 ![](../../attachments/Pasted%20image%2020260204092007.png)
