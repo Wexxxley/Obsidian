@@ -15,6 +15,7 @@ O pronome adjetivo é aquele que **acompanha** o substantivo. Ele não o substit
 - **Aquela** aula foi excelente. -> 'Aquela' está determinando qual foi a aula.
 
 ![](../../attachments/Pasted%20image%2020260204183623.png)
+![](../../attachments/Pasted%20image%2020260204184323.png)
 
 ---
 ### **2. Pronomes pessoais**
