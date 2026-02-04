@@ -36,8 +36,24 @@ Os oblíquos funcionam como complemento.
 
 ---
 ### **Pronomes Relativos**
-Retorma um termo já citado (antecedente/referente) que é substantivo, pronome substantivo ou oração substantivada e introduzem uma oração subordinada.
-![](../../attachments/Pasted%20image%2020260204083341.png)
+Retorma um termo já citado (antecedente/referente) que é substantivo, pronome substantivo, numeral substantivo ou oração substantivada e introduzem uma oração subordinada.
+![](../../attachments/Pasted%20image%2020260204084846.png)
+
+![](../../attachments/Pasted%20image%2020260204085403.png)
+
+1. **Que/o qual** são pronomes relativos coringas. Só não substituim **cujo** (indica posse). 
+
+2. **Quem** retoma pessoa e é sempre preposicionado
+	- É a mulher com quem falei
+	- É a mulher de quem falei.
+
+3. **Como** usa-se quando os antecedentes forem modo/maneira/forma.
+	- É a maneira como ele se veste.
+	- Não gostei da forma como você me tratou.
+
+4. Quanto usado sempre que tiver que retornar ideia de quantidade.
+	- É tudo quanto eu quero
+	- 
 
 
 
