@@ -62,16 +62,18 @@ Os ob  líquos funcionam como complemento.
 Os pronomes possessivos **substituem** ou **acompanham** o substantivo para indicar a quem ele pertence, variando em gênero e número.
 
 ![450](../../attachments/Pasted%20image%2020260204170534.png)
+O pronome possessivo concorda com o substantivo que vem após ele. Ele não concorda com o referente.
+- João chegou com sua mãe.
 
 >[!tip]
->A preposição **de** pode pode exercer função de posse.
+>A preposição **de** pode indicar posse.
 > - O livro de maria
-
 
 >[!tip]
 O **lhe** (pronome pessoal oblíquo átono) pode exercer função de posse.
 > - O vento beijou-lhe o rosto -> O vento beijou o rosto dele
 > - Senti-lhe o perfume assim que entrou na sala -> Senti o perfume dela
+
 
 ### **Demonstrativos**
 Indicam posição no espaço ou tempo.
