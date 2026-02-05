@@ -57,8 +57,13 @@ Retorma um termo já citado (antecedente/referente) que é substantivo, pronome 
 Tem sentido vago ou indefinido e aplicam-se na 3° pessoa.
 
 ![](../../attachments/Pasted%20image%2020260204192645.png)
- 
--  **Todo** dia ela faz **tudo** sempre igual.
+ ![](../../attachments/Pasted%20image%2020260205131819.png)
+
+**Locução pronominal indefinida**
+Grupo de palavras com valor de pronome idefinido: cada um, cada qual, qualquer um...
+
+
+
 ### **3. Interrogativos**
 
 Usados em perguntas diretas ou indiretas.

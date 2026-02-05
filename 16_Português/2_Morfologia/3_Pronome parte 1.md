@@ -5,7 +5,7 @@
 O pronome é a classe que ==substitui ou acompanha um substantivo==.
 ### **1. Pronome Substantivo X adjetivo**
 
-O pronome substantivo é aquele que substitui o substantivo. 
+O pronome substantivo é aquele que não vem ao lado de nenhum substantivo, ele substitui o substantivo. 
 - **Este** é meu livro. (Este substitui "o livro")
 - Wesley é estudante. **Ele** mora em Quixadá.
 - Muitos foram chamados, mas **poucos** foram escolhidos.        
