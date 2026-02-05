@@ -62,6 +62,7 @@ Tem sentido vago ou indefinido e aplicam-se na 3° pessoa.
 **Locução pronominal indefinida**
 Grupo de palavras com valor de pronome idefinido: cada um, cada qual, qualquer um...
 
+![](../../attachments/Pasted%20image%2020260205152159.png)
 
 
 ### **3. Interrogativos**
