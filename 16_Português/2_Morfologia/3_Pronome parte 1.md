@@ -5,8 +5,8 @@
 O pronome é a classe que ==substitui ou acompanha um substantivo==.
 ### **1. Pronome Substantivo X adjetivo**
 
-O pronome substantivo é aquele que **substitui** o substantivo. Ele passa a ocupar o lugar do nome.
-- Este é meu livro. (Este substitui "o livro")
+O pronome substantivo é aquele que substitui o substantivo. 
+- **Este** é meu livro. (Este substitui "o livro")
 - Wesley é estudante. **Ele** mora em Quixadá.
 - Muitos foram chamados, mas **poucos** foram escolhidos.        
 
@@ -29,11 +29,6 @@ Os **retos** funcionam como sujeito.
 - **Tu** vais embora?
 - **Vós** ides
 
-Os **Oblíquos** funcionam como complemento.
-- Eles não **me** governam
-- Eu falei **contigo**.
-- Ela **o** enganou.
-
 Os **oblíquos tônicos** sempre são precedidos de preposição.
 - Ele deu o livro **a ele**.
 - Nós confiamos **em nós**
@@ -42,7 +37,7 @@ Os **oblíquos tônicos** sempre são precedidos de preposição.
 Os **oblíquos átonos** não vem preposicionados. 
 - Ela **me** chamou.
 - Eu **o** encontrei no corredor.
-- Eu **lhe** entreguei o código.e
+- Eu **lhe** entreguei o código.
 
 >[!tip]
 >O **lhe** substitui o a ele/a ela

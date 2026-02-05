@@ -57,8 +57,8 @@ Retorma um termo já citado (antecedente/referente) que é substantivo, pronome 
 Tem sentido vago ou indefinido e aplicam-se na 3° pessoa.
 
 ![](../../attachments/Pasted%20image%2020260204192645.png)
-
-- **Todo** dia ela faz **tudo** sempre igual.
+ 
+-  **Todo** dia ela faz **tudo** sempre igual.
 ### **3. Interrogativos**
 
 Usados em perguntas diretas ou indiretas.
