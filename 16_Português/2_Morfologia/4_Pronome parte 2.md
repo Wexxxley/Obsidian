@@ -69,10 +69,10 @@ Grupo de palavras com valor de pronome idefinido: cada um, cada qual, qualquer u
 ![](../../attachments/Pasted%20image%2020260205153604.png)
 ![](../../attachments/Pasted%20image%2020260205154015.png)
 ![](../../attachments/Pasted%20image%2020260205154140.png)
-
-
+![](../../attachments/Pasted%20image%2020260205154611.png)
+![](../../attachments/Pasted%20image%2020260205154934.png)
 ### **3. Interrogativos**
 
-Usados em perguntas diretas ou indiretas.
+Usados em perguntas diretas ou indiretas. Todo pronome interrogativo é indefinido.
 
-![](../../attachments/Pasted%20image%2020260130151335.png)
+
