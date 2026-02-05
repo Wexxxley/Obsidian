@@ -66,6 +66,9 @@ Grupo de palavras com valor de pronome idefinido: cada um, cada qual, qualquer u
 
 ![](../../attachments/Pasted%20image%2020260205152607.png)
 ![](../../attachments/Pasted%20image%2020260205153443.png)
+![](../../attachments/Pasted%20image%2020260205153604.png)
+![](../../attachments/Pasted%20image%2020260205154015.png)
+![](../../attachments/Pasted%20image%2020260205154140.png)
 
 
 ### **3. Interrogativos**
