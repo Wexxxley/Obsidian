@@ -2,15 +2,14 @@
 #Concluded 
 
 ---
-O pronome é a classe que ==substitui ou acompanha um substantivo==.
+O pronome é a classe que ==substitui ou acompanha um substantivo==. Existem 6 tipos no total: Pessoais, possessivos, indefinidos, interrogativos, demonstrativos e relativos
 ### **1. Pronome Substantivo X adjetivo**
 
-O pronome substantivo é aquele que não vem ao lado de nenhum substantivo, ele substitui o substantivo. 
-- **Este** é meu livro. (Este substitui "o livro")
+O **pronome substantivo** é aquele que não vem ao lado de nenhum substantivo, ele substitui o substantivo. 
 - Wesley é estudante. **Ele** mora em Quixadá.
 - Muitos foram chamados, mas **poucos** foram escolhidos.        
 
-O pronome adjetivo é aquele que **acompanha** o substantivo. Ele não o substitui, mas sim o modifica, determina ou caracteriza.
+O **pronome adjetivo** é aquele que acompanha o substantivo. Ele não o substitui, mas sim o modifica, determina ou caracteriza.
 - **Meu** notebook é da Dell. -> 'Meu' acompanha o substantivo "notebook".
 - **Aquela** aula foi excelente. -> 'Aquela' está determinando qual foi a aula.
 

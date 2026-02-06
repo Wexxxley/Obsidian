@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Português/2_Morfologia/5_Pronome parte 3.md",
+                "file": "16_Português/2_Morfologia/3_Pronome parte 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Pronome parte 3"
+              "title": "3_Pronome parte 1"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "16_Português/2_Morfologia/5_Pronome parte 3.md",
+                "file": "16_Português/2_Morfologia/3_Pronome parte 1.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 5_Pronome parte 3"
+              "title": "Backlinks for 3_Pronome parte 1"
             }
           },
           {
@@ -197,24 +198,23 @@
   },
   "active": "0412f2567499ab6f",
   "lastOpenFiles": [
+    "16_Português/2_Morfologia/5_Pronome parte 3.md",
+    "16_Português/2_Morfologia/6_Plural de nomes compostos.md",
+    "16_Português/2_Morfologia/3_Pronome parte 1.md",
+    "16_Português/2_Morfologia/4_Pronome parte 2.md",
+    "attachments/Pasted image 20260206134830.png",
+    "attachments/Pasted image 20260206134818.png",
+    "attachments/Pasted image 20260206134758.png",
+    "attachments/Pasted image 20260206134735.png",
+    "attachments/Pasted image 20260206134722.png",
+    "attachments/Pasted image 20260206134711.png",
+    "attachments/Pasted image 20260206134600.png",
     "attachments/Pasted image 20260206130711.png",
     "attachments/Pasted image 20260206130526.png",
     "attachments/Pasted image 20260206130436.png",
-    "attachments/Pasted image 20260206130326.png",
-    "16_Português/2_Morfologia/6_Plural de nomes compostos.md",
     "16_Português/2_Morfologia/7_Verbo e advérbio.md",
-    "attachments/Pasted image 20260206082351.png",
-    "attachments/Pasted image 20260206082300.png",
-    "16_Português/2_Morfologia/3_Pronome parte 1.md",
-    "16_Português/2_Morfologia/4_Pronome parte 2.md",
-    "16_Português/2_Morfologia/5_Pronome parte 3.md",
-    "attachments/Pasted image 20260206075035.png",
-    "attachments/Pasted image 20260206074434.png",
     "16_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
     "16_Português/2_Morfologia/2_Artigo, adjetivo e numeral.md",
-    "attachments/Pasted image 20260205183542.png",
-    "attachments/Pasted image 20260205154934.png",
-    "attachments/Pasted image 20260205154611.png",
     "16_Português/1_Ortografia/4_Hífen.md",
     "16_Português/1_Ortografia/3_Acentuação gráfica.md",
     "16_Português/1_Ortografia/5_Uso dos porques.md",
