@@ -67,13 +67,3 @@ O **lhe** (pronome pessoal oblíquo átono) pode exercer função de posse.
 > - O vento beijou-lhe o rosto -> O vento beijou o rosto dele
 > - Senti-lhe o perfume assim que entrou na sala -> Senti o perfume dela
 
----
-### **4. Demonstrativos**
-
-Indicam posição no espaço ou tempo.
-![](../../attachments/Pasted%20image%2020260130165027.png)
-
-
-
-
-
