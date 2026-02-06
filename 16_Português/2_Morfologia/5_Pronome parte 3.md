@@ -36,7 +36,7 @@ Sempre ao usar um pronome demonstrativo é preciso saber se está indicando espa
 - **Com dois antecedentes:** José e joão estudaram, aquele foi aprovado(josé), este (joão) foi reprovado.
 
 >[!note]
-Cuidado ao tentar referenciar 3 ou mais antecedentes. Este é a para último, aquele para o primeiro, para os do meio usa-se numerais
+Cuidado ao tentar referenciar 3 ou mais antecedentes. 'Este' é a para último, 'aquele' para o primeiro, para os do meio usa-se numerais
 >![](../../attachments/Pasted%20image%2020260206130326.png)
 >![](../../attachments/Pasted%20image%2020260206130436.png)
 >![](../../attachments/Pasted%20image%2020260206130711.png)
