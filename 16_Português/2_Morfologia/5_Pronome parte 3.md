@@ -23,7 +23,7 @@ Sempre ao usar um pronome demonstrativo é preciso saber se está indicando espa
 
 **1.2 Uso no tempo**
 - **Presente**: **Estes** dias têm sido agradáveis. **Este** mês é o meu preferido
-- **Futuro próximo:** **Nestas** férias viajarei. Neste domingo irei ao maracanã
+- **Futuro próximo:** **Nestas** férias viajarei. **Neste** domingo irei ao maracanã
 
 - **Passado não distante:** **Nesse** domingo fui ao maracanã. 
 
