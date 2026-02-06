@@ -16,7 +16,7 @@ O **pronome adjetivo** é aquele que acompanha o substantivo. Ele não o substit
 ![](../../attachments/Pasted%20image%2020260204183623.png)
 ![](../../attachments/Pasted%20image%2020260204184323.png)
 ![](../../attachments/Pasted%20image%2020260204185325.png)
-
+ 
 ---
 ### **2. Pronomes pessoais**
 
