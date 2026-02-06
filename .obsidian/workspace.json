@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Português/2_Morfologia/4_Pronome parte 2.md",
+                "file": "16_Português/2_Morfologia/5_Plural de nomes compostos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Pronome parte 2"
+              "title": "5_Plural de nomes compostos"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -184,6 +183,9 @@
   },
   "active": "3f0f5608333b008d",
   "lastOpenFiles": [
+    "16_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
+    "16_Português/2_Morfologia/2_Artigo, adjetivo e numeral.md",
+    "16_Português/2_Morfologia/4_Pronome parte 2.md",
     "attachments/Pasted image 20260205183542.png",
     "attachments/Pasted image 20260205154934.png",
     "attachments/Pasted image 20260205154611.png",
@@ -195,12 +197,8 @@
     "attachments/Pasted image 20260205152159.png",
     "attachments/Pasted image 20260205131819.png",
     "16_Português/2_Morfologia/3_Pronome parte 1.md",
-    "16_Português/2_Morfologia/4_Pronome parte 2.md",
-    "attachments/Pasted image 20260205131308.png",
     "16_Português/2_Morfologia/6_Verbo e advérbio.md",
-    "16_Português/2_Morfologia/2_Artigo, adjetivo e numeral.md",
     "16_Português/2_Morfologia/5_Plural de nomes compostos.md",
-    "16_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
     "16_Português/1_Ortografia/4_Hífen.md",
     "16_Português/1_Ortografia/3_Acentuação gráfica.md",
     "16_Português/1_Ortografia/5_Uso dos porques.md",
