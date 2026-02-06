@@ -33,4 +33,7 @@ Sempre ao usar um pronome demonstrativo é preciso saber se está indicando espa
 **1.3 Uso no tempo**
 - **Informação adiante:** Este número é a dica do teste - 7.
 - **Informação passada:** 7 - Esse número é a dica do teste. 
-- 
+- **Com dois antecedentes:** José e joão estudaram, aquele foi aprovado(josé), este (joão) foi reprovado.
+
+![](../../attachments/Pasted%20image%2020260206130326.png)
+![](../../attachments/Pasted%20image%2020260206130436.png)
