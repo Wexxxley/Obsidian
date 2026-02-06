@@ -2,7 +2,7 @@
 
 
 ---
-### **Pronomes demonstrativos**
+### **1. Pronomes demonstrativos**
 
 Indicam posição no espaço, tempo ou texto.
 ![](../../attachments/Pasted%20image%2020260130165027.png)
@@ -16,5 +16,12 @@ Sempre ao usar um pronome demonstrativo é preciso saber se está indicando espa
 - Dezembro, **esse** mês é o meu preferido -> texto
 - **Este** mês é o meu preferido -> tempo
 
-**Uso no espaço**
-- Esse material ai é meu
+**1.1 Uso no espaço**
+- **Perto do falante:** **Este** material aqui é meu.  Encaminho **este** email.
+- **Perto do ouvinte: Esse** material ai é meu. Solicito informações acerca **desse** processo que tramita no seu tribunal
+- **Longe do falante e do ouvinte:** **Aquele** material ali é meu.
+
+**1.2 Uso no tempo**
+- **Presente**: **Estes** dias têm sido agradáveis. **Este** mês é o meu preferido
+- **Futuro próximo:** **Nestas** férias viajarei
+- **Passado não distante:** **Nesse** domingo fui ao maracanã. 
