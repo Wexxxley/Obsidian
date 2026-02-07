@@ -16,9 +16,9 @@ A Arquitetura de Von Neumann é o conceito teórico sobre o qual a maioria dos c
 
 ![](../attachments/Pasted%20image%2020260207131705.png)
 **Ciclo de Instrução**:
-- **Busca (Fetch):** A CPU busca a próxima instrução na memória principal.
-- **Decodificação (Decode):** A UC interpreta o que aquela instrução pede.
-- **Execução (Execute):** A ULA realiza a operação ou os dados são movimentados entre os componentes.
+- **Fetch:** A CPU busca a próxima instrução na memória principal.
+- **Decode:** A UC interpreta o que aquela instrução pede.
+- **Execute:** A ULA realiza a operação ou os dados são movimentados entre os componentes.
 
 >[!note]
 **Gargalo de Von Neumann**: Como existe apenas um barramento, a CPU precisa esperar que a memória entregue as informações. Hoje em dia, a velocidade de processamento da CPU cresceu muito mais rápido do que a velocidade de transferência de dados da memória, tornando a comunicação entre elas um limitador de desempenho.
@@ -26,17 +26,15 @@ A Arquitetura de Von Neumann é o conceito teórico sobre o qual a maioria dos c
 ---
 ### **2. Arquitetura de Harvard**
 
-A Arquitetura de Harvard utiliza memórias e barramentos separados para dados e instruções. Isso permite que o processador leia uma instrução e acesse um dado simultaneamente, evitando o gargalo mencionado acima.
+A Arquitetura de Harvard utiliza memórias e barramentos separados para dados e instruções. Isso permite que o processador leia uma instrução e acesse um dado simultaneamente, evitando o gargalo mencionado acima. Isso ==reduz significamente o gargalo de Von Neumann, mas encarece o sistema como um todo==.
 
-Isso reduz significamente o gargalo de Von Neumann, mas encarece o sistema como um todo.
-
-![](../attachments/Pasted%20image%2020260207101716.png)
+![](../attachments/Pasted%20image%2020260207131917.png)
 
 
 ---
 ### **3. Máquina multinível**
 
-O conceito de **Máquina Multinível** é uma abstração. Em vez de tentarmos ent  ender o computador como um emaranhado de elétrons e portas lógicas, nós o dividimos em **camadas de abstração**. Cada nível utiliza os serviços do nível inferior e oferece funcionalidades para o nível superior.
+O conceito de **Máquina Multinível** é uma abstração. Em vez de tentarmos ent ender o computador como um emaranhado de elétrons e portas lógicas, nós o dividimos em **camadas de abstração**. Cada nível utiliza os serviços do nível inferior e oferece funcionalidades para o nível superior.
 
 ![500](../attachments/Pasted%20image%2020260207105956.png)
 **Nível 5 -** Linguagens de alto nível.
