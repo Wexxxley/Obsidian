@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Português/2_Morfologia/5_Pronome parte 3.md",
+                "file": "14_Arquitetura de Computadores/1_Fundamentos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Pronome parte 3"
+              "title": "1_Fundamentos"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -198,10 +197,13 @@
   },
   "active": "0412f2567499ab6f",
   "lastOpenFiles": [
-    "16_Português/2_Morfologia/3_Pronome parte 1.md",
-    "16_Português/2_Morfologia/5_Pronome parte 3.md",
-    "16_Português/2_Morfologia/6_Plural de nomes compostos.md",
-    "16_Português/2_Morfologia/4_Pronome parte 2.md",
+    "attachments/Pasted image 20260207100406.png",
+    "09_Português/2_Morfologia/5_Pronome parte 3.md",
+    "14_Arquitetura de Computadores/1_Fundamentos.md",
+    "14_Arquitetura de Computadores",
+    "09_Português/2_Morfologia/3_Pronome parte 1.md",
+    "09_Português/2_Morfologia/6_Plural de nomes compostos.md",
+    "09_Português/2_Morfologia/4_Pronome parte 2.md",
     "attachments/Pasted image 20260206134830.png",
     "attachments/Pasted image 20260206134818.png",
     "attachments/Pasted image 20260206134758.png",
@@ -212,37 +214,35 @@
     "attachments/Pasted image 20260206130711.png",
     "attachments/Pasted image 20260206130526.png",
     "attachments/Pasted image 20260206130436.png",
-    "16_Português/2_Morfologia/7_Verbo e advérbio.md",
-    "16_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
-    "16_Português/2_Morfologia/2_Artigo, adjetivo e numeral.md",
-    "16_Português/1_Ortografia/4_Hífen.md",
-    "16_Português/1_Ortografia/3_Acentuação gráfica.md",
-    "16_Português/1_Ortografia/5_Uso dos porques.md",
-    "16_Português/2_Morfologia",
-    "16_Português/1_Ortografia/2_Encontros vocálicos e consonantais.md",
-    "16_Português/1_Ortografia/1_Sílaba.md",
+    "09_Português/2_Morfologia/7_Verbo e advérbio.md",
+    "09_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
+    "09_Português/2_Morfologia/2_Artigo, adjetivo e numeral.md",
+    "09_Português/1_Ortografia/4_Hífen.md",
+    "09_Português/1_Ortografia/3_Acentuação gráfica.md",
+    "09_Português/1_Ortografia/5_Uso dos porques.md",
+    "09_Português/2_Morfologia",
+    "09_Português/1_Ortografia/2_Encontros vocálicos e consonantais.md",
+    "09_Português/1_Ortografia/1_Sílaba.md",
     "Direito Constitucional/Untitled 1.md",
     "Direito Constitucional/Aplicabilidade das normas contiucionais.md",
     "Direito Constitucional",
-    "17_Aleatorios/1_Blocos obsidian.md",
-    "17_Aleatorios/3_Concursos de TI.md",
-    "17_Aleatorios/2_Técnica simples de estudo.md",
-    "16_Português/1_Ortografia",
-    "16_Português",
-    "17_Aleatorios/Pedido de crenciais GIT.md",
+    "16_Aleatorios/1_Blocos obsidian.md",
+    "16_Aleatorios/3_Concursos de TI.md",
+    "16_Aleatorios/2_Técnica simples de estudo.md",
+    "09_Português/1_Ortografia",
+    "09_Português",
+    "16_Aleatorios/Pedido de crenciais GIT.md",
     "16_Aleatorios/Lista de atividades IHC.md",
     "16_Aleatorios/Como funciona rep.md",
     "16_Aleatorios/Amethyst.md",
     "16_Aleatorios/Empresas quixada.md",
     "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "16_Aleatorios/Funcionalidades.md",
-    "15_IHC (Cadeira)/8_Prova.md",
     "01_Roadmap/1_Junior/3_Docker",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
     "07_FrontEnd/3_JavaScript/1_Introdução",
     "07_FrontEnd/4_React",
-    "12_Sistemas Distribuídos (Cadeira)/Cap8",
     "Sem título.canvas"
   ]
 }
