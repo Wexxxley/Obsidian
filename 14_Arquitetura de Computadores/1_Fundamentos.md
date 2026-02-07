@@ -8,13 +8,13 @@ A Arquitetura de Von Neumann é o conceito teórico sobre o qual a maioria dos c
 
 1. **Unidade Central de Processamento (CPU):** 
     - **Unidade de Controle (UC):** Gerencia dados e interpreta instruções.
-    - **Unidade Lógica e Aritmética (ULA):** Onde os cálculos matemáticos e operações lógicas acontecem.
-    - **Registradores:** Pequenas memórias ultravelozes dentro da CPU para armazenamento temporário imediato.
+    - **Unidade Lógica e Aritmética (ULA):** Onde acontece os cálculos
+    - **Registradores:** Pequenas memórias na CPU para armazenamento temporário.
 2. **Memória Principal (RAM):** Espaço único que armazena instruções e dados.
-3. **Sistemas de Entrada e Saída:** Dispositivos que permitem a interação com o mundo externo (teclado, monitor, discos).
-4. **Barramento:** Um barramento externo compartilahdo interligando todos os componentes.
-![500](../attachments/Pasted%20image%2020260207100406.png)
+3. **Sistemas de Entrada e Saída:** Dispositivos que permitem a interação com o externo.
+4. **Barramento:** Um barramento externo compartilahdo interligando os componentes.
 
+![](../attachments/Pasted%20image%2020260207131705.png)
 **Ciclo de Instrução**:
 - **Busca (Fetch):** A CPU busca a próxima instrução na memória principal.
 - **Decodificação (Decode):** A UC interpreta o que aquela instrução pede.
