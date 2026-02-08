@@ -43,3 +43,4 @@ O conceito de **Máquina Multinível** é uma abstração. Em vez de tentarmos e
 **Nível 2 -** O código de máquina real que o processa
 **Nível 1 -** Onde os componentes da arquitetura de Von Neumann residem
 **Nível 0 -** Portas lógicas e circuitos eletrônicos
+
