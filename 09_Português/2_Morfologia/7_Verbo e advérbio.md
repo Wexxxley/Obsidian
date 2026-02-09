@@ -23,8 +23,8 @@ O verbo indica ação (correr), estado (ser) e fenômeno da natureza (chover).
 
 ---
 ### **2. Adverbio**
-Ad é um prefixo que significa que está próximo, quando se fala em advérbio é o que está junto ao verbo. Mas o advérbio pode fazer referência a ==verbos, adjetivos, outros advérbios e orações inteiras==. O advérbio exprime circunstâncias.
-Essa classe é INVARIÁVEL.
+
+O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteiras==. O advérbio exprime circunstâncias. E é INVARIÁVEL.
 
 **01-Tempo:** hoje, ontem, cedo, tarde, quando.    
 **02-Lugar:** longe, aqui, ali, cá, lá.
