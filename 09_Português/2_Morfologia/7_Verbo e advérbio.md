@@ -24,8 +24,8 @@ O verbo indica ação (correr), estado (ser) e fenômeno da natureza (chover).
 ---
 ### **2. Adverbio**
 
-O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteiras==. O advérbio exprime circunstâncias. E é INVARIÁVEL.
-
+O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteiras==. O advérbio exprime circunstâncias. É INVARIÁVEL. Indica CIRCUNSTÂNCIA, uma .
+![](../../attachments/Pasted%20image%2020260209160737.png)
 **01-Tempo:** hoje, ontem, cedo, tarde, quando.    
 **02-Lugar:** longe, aqui, ali, cá, lá.
 **03-Modo:** apressadamente, depressa, bem, mal.
