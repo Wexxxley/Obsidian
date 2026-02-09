@@ -19,13 +19,17 @@ O verbo indica ação (correr), estado (ser) e fenômeno da natureza (chover).
 	Ex: Eu estou estudando para concurso.
 	Ex: Eles tentaram salvar o pedestre.
 	Ex: João foi investigado. 
-	Ex: Ele estava a investigar o caso.
+	 Ex: Ele estava a investigar o caso.
 
 ---
 ### **2. Adverbio**
 
-O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteiras==. O advérbio exprime circunstâncias. É INVARIÁVEL. Indica CIRCUNSTÂNCIA, uma .
+O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteiras==. O advérbio exprime circunstâncias. É INVARIÁVEL. Indica CIRCUNSTÂNCIA, uma informação adicional, é a pergunta do fofoqueiro.
 ![](../../attachments/Pasted%20image%2020260209160737.png)
+>[!note]
+**Locução adverbial**: Formada, normalmente,  de preposição mais susbstantivo.
+> - Às pressas, às vezes, sem dúvida, de repente, de vez em quando, à toa, cara a cara.
+
 **01-Tempo:** hoje, ontem, cedo, tarde, quando.    
 **02-Lugar:** longe, aqui, ali, cá, lá.
 **03-Modo:** apressadamente, depressa, bem, mal.
