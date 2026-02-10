@@ -53,8 +53,7 @@ O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteira
 
 ![](../../attachments/Pasted%20image%2020260210084428.png)
 
->[!tip]
-Sempre que se faz uma classificação morfológica, começa pelo **verbo**. Depois, se faz a **identificação do substantivo**. Em seguida, **identifica os termos ligados ao substantivo**: artigo, adjetivo, numeral e pronome, de acordo com a flexão nominal. 
+![](../../attachments/Pasted%20image%2020260210102822.png)
 
 Ex: A professora homenageada proferiu belas palavras ontem.
 Ex: Ele come muito lentamente. 
