@@ -26,10 +26,6 @@ O verbo indica ação (correr), estado (ser) e fenômeno da natureza (chover).
 
 O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteiras==. O advérbio exprime circunstâncias. É INVARIÁVEL. Indica CIRCUNSTÂNCIA, uma informação adicional, é a pergunta do fofoqueiro.
 ![](../../attachments/Pasted%20image%2020260209160737.png)
->[!note]
-**Locução adverbial**: Formada, normalmente,  de preposição mais susbstantivo.
-> - Às pressas, às vezes, sem dúvida, de repente, de vez em quando, à toa, cara a cara.
-
 **01-Tempo:** hoje, ontem, cedo, tarde, quando.    
 **02-Lugar:** longe, aqui, ali, cá, lá.
 **03-Modo:** apressadamente, depressa, bem, mal.
@@ -40,12 +36,21 @@ O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteira
 **08-Causa:** porque, devido.
 **09-Consequência:** logo, portanto, por conseguinte.
 **10-Negação:** não, tampouco, nunca, jamais. 
-**11-Afirmação:** sim, certamente, devera
+**11-Afirmação:** sim, certamente, devera, efetivamente
 **12-Dúvida:** talvez, quiçá, possivelmente, porventura.
 **13-Assunto:** Sobre política.
 **14-Companhia:** com o namorado.
 **15-Condição:** com autorizaçã
 **16-Concessão:** apesar da chuva.
+
+>[!note]
+**Locução adverbial**: Formada, normalmente,  de preposição mais susbstantivo.
+> - Às pressas, às vezes, sem dúvida, de repente, de vez em quando, à toa, cara a cara.
+
+![](../../attachments/Pasted%20image%2020260209163858.png)
+- Quando advérbio modifica verbo, ele pode trazer qualquer tipo de circunstância
+- Quando ele modifica adjetivo ou outro advérbio ele so pode ser de intensidade
+
 
 >[!tip]
 Sempre que se faz uma classificação morfológica, começa pelo **verbo**. Depois, se faz a **identificação do substantivo**. Em seguida, **identifica os termos ligados ao substantivo**: artigo, adjetivo, numeral e pronome, de acordo com a flexão nominal. 
