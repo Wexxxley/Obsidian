@@ -43,14 +43,15 @@ O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteira
 **15-Condição:** com autorizaçã
 **16-Concessão:** apesar da chuva.
 
->[!note]
-**Locução adverbial**: Formada, normalmente,  de preposição mais susbstantivo.
-> - Às pressas, às vezes, sem dúvida, de repente, de vez em quando, à toa, cara a cara.
-
 ![](../../attachments/Pasted%20image%2020260209163858.png)
 - Quando advérbio modifica verbo, ele pode trazer qualquer tipo de circunstância
 - Quando ele modifica adjetivo ou outro advérbio ele so pode ser de intensidade
 
+>[!note]
+**Locução adverbial**: Formada, normalmente,  de preposição mais susbstantivo.
+> - Às pressas, às vezes, sem dúvida, de repente, de vez em quando, à toa, cara a cara.
+
+![](../../attachments/Pasted%20image%2020260210084428.png)
 
 >[!tip]
 Sempre que se faz uma classificação morfológica, começa pelo **verbo**. Depois, se faz a **identificação do substantivo**. Em seguida, **identifica os termos ligados ao substantivo**: artigo, adjetivo, numeral e pronome, de acordo com a flexão nominal. 
