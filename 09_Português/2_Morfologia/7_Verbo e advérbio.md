@@ -54,28 +54,7 @@ O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteira
 ![](../../attachments/Pasted%20image%2020260210084428.png)
 
 ![](../../attachments/Pasted%20image%2020260210102822.png)
-
-Ex: A professora homenageada proferiu belas palavras ontem.
-Ex: Ele come muito lentamente. 
-Ex: A criança estava meio cansada. 
-Ex: Ontem João caminhou apressadamente e chegou longe.
-Ex: Talvez estejamos errados
-Ex: Ele estava muito cansado.
-Ex: O povo caminhava depressa.
-Ex: A moça mais bonita da festa é ela. Mais se refere ao adjetivo bonita.
-Ex: Ele foi muito bem na prova. Muito refere-se ao advérbio bem.
-Ex: Felizmente, todos os alunos passaram.
-Ex: Todos saíram da sala em silêncio. Locução adverbial.
-Ex: Comprei muito pão. Note que pão é substantivo, logo “muito” é pronome
-Note que no plural a frase fica: Compramos muitos pães. Mas advérbio é invariável.
-
-
->[!Note]
->Locução é uma expressão formada por duas ou mais palavras.
->
-  
-**Locuções adverbiais**: Nas locuções verbais temos o v. auxiliar + v.principal. O auxiliar deve realizar a concordância verbal e o principal carrega o significado da locução.
-O verbo principal vai sempre aparecer em uma das formas nominais:
+**Locuções adverbiais**: Nas locuções verbais temos o v. auxiliar + v.principal. O auxiliar deve realizar a concordância verbal e o principal carrega o significado da locução. O verbo principal vai sempre aparecer em uma das formas nominais:
 
 >[!note]
 >**Formas nominais**: 
@@ -83,10 +62,9 @@ O verbo principal vai sempre aparecer em uma das formas nominais:
 >- particípio: terminados em ado ou ido. Cantado, corrido, pulado
 >- gerúndio: terminado em ndo. cantando, correndo, pulando.
 
-
 Ex: Ele chegará com certeza. Afirmação
 Ex: Maria caiu de repente. Modo
-Ex: todos passaram por aqui. lugar
+Ex: Todos passaram por aqui. lugar
 Ex: Eles irão à tarde. Tempo
 Ex: Eles falavam sobre política. Assunto
 Ex: Ela saiu com o namorado. Companhia
