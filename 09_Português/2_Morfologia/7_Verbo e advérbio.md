@@ -54,6 +54,7 @@ O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteira
 ![](../../attachments/Pasted%20image%2020260210084428.png)
 
 ![](../../attachments/Pasted%20image%2020260210102822.png)
+![](../../attachments/Pasted%20image%2020260211175442.png)
 
 >[!note]
 >**Formas nominais**: 
@@ -67,3 +68,6 @@ Ex: Como fizeram isso?
 Ex: Onde trabalha? 
 Ex: Por que ele não veio?
 Ex: Esta é a cidade onde ele trabalha. Onde é um pronome**
+
+
+
