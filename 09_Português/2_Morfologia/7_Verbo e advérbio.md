@@ -54,22 +54,12 @@ O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteira
 ![](../../attachments/Pasted%20image%2020260210084428.png)
 
 ![](../../attachments/Pasted%20image%2020260210102822.png)
-**Locuções adverbiais**: Nas locuções verbais temos o v. auxiliar + v.principal. O auxiliar deve realizar a concordância verbal e o principal carrega o significado da locução. O verbo principal vai sempre aparecer em uma das formas nominais:
 
 >[!note]
 >**Formas nominais**: 
 >- infinitivo: cantar, correr e pular.
 >- particípio: terminados em ado ou ido. Cantado, corrido, pulado
 >- gerúndio: terminado em ndo. cantando, correndo, pulando.
-
-Ex: Ele chegará com certeza. Afirmação
-Ex: Maria caiu de repente. Modo
-Ex: Todos passaram por aqui. lugar
-Ex: Eles irão à tarde. Tempo
-Ex: Eles falavam sobre política. Assunto
-Ex: Ela saiu com o namorado. Companhia
-Ex: Só irá com autorização. autorização
-Ex: eles foram apesar da chuva.
 
 **Advérbios interrogativos**
 Ex: Quando partiremos? 
