@@ -55,8 +55,7 @@ O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteira
 ![](../../attachments/Pasted%20image%2020260210102822.png)
 ![](../../attachments/Pasted%20image%2020260211175442.png)
 ![](../../attachments/Pasted%20image%2020260211180104.png)
-
-
+![](../../attachments/Pasted%20image%2020260212110208.png)
 
 >[!note]
 >**Formas nominais**: 
