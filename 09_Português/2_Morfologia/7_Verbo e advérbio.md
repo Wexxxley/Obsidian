@@ -52,22 +52,14 @@ O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteira
 > - Às pressas, às vezes, sem dúvida, de repente, de vez em quando, à toa, cara a cara.
 
 ![](../../attachments/Pasted%20image%2020260210084428.png)
-
 ![](../../attachments/Pasted%20image%2020260210102822.png)
 ![](../../attachments/Pasted%20image%2020260211175442.png)
+![](../../attachments/Pasted%20image%2020260211180104.png)
+
+
 
 >[!note]
 >**Formas nominais**: 
 >- infinitivo: cantar, correr e pular.
 >- particípio: terminados em ado ou ido. Cantado, corrido, pulado
 >- gerúndio: terminado em ndo. cantando, correndo, pulando.
-
-**Advérbios interrogativos**
-Ex: Quando partiremos? 
-Ex: Como fizeram isso?
-Ex: Onde trabalha? 
-Ex: Por que ele não veio?
-Ex: Esta é a cidade onde ele trabalha. Onde é um pronome**
-
-
-
