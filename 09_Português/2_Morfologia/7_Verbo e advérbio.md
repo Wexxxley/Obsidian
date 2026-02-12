@@ -57,6 +57,8 @@ O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteira
 ![](../../attachments/Pasted%20image%2020260211180104.png)
 ![](../../attachments/Pasted%20image%2020260212110208.png)
 
+![](../../attachments/Pasted%20image%2020260212111811.png)
+
 >[!note]
 >**Formas nominais**: 
 >- infinitivo: cantar, correr e pular.
