@@ -14,9 +14,9 @@ O artigo tem o poder de substantivar.
 
 >[!Tip]
 >Para diferenciar Substantivo e Adjetivo, você pode usar o macete (artigo + que é)
->Ex: Que secreto desígnio -> O desígnio que é secreto.
->Ex: Tristeza morbida -> A tristeza que é morbida.  
-
+>- Que secreto desígnio -> O desígnio que é secreto.
+>- Tristeza morbida -> A tristeza que é morbida.  
+ 
 ---
 ### **2. Adjetivo**
 
