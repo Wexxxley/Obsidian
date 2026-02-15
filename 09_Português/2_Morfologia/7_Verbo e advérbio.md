@@ -44,13 +44,6 @@ O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteira
 **16-Concessão:** apesar da chuva.
 
 ![](../../attachments/Pasted%20image%2020260209163858.png)
-- Quando advérbio modifica verbo, ele pode trazer qualquer tipo de circunstância
-- Quando ele modifica adjetivo ou outro advérbio ele so pode ser de intensidade
-
->[!note]
-**Locução adverbial**: Formada, normalmente,  de preposição mais susbstantivo.
-> - Às pressas, às vezes, sem dúvida, de repente, de vez em quando, à toa, cara a cara.
-
 ![](../../attachments/Pasted%20image%2020260210084428.png)
 ![](../../attachments/Pasted%20image%2020260210102822.png)
 ![](../../attachments/Pasted%20image%2020260211175442.png)
