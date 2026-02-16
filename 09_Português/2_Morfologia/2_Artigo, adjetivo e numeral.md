@@ -95,4 +95,8 @@ Quando se compara duas qualidades do mesmo ser empregam-se mais bom, mais grande
 
 ![](../../attachments/Pasted%20image%2020260130150754.png)
 
-O numeral pode ser susbstantivo ou adjetivo.
+ O numeral pode ser susbstantivo ou adjetivo.
+![](../../attachments/Pasted%20image%2020260216071027.png)
+
+![](../../attachments/Pasted%20image%2020260216073839.png)
+
