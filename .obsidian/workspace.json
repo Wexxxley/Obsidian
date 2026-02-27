@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "09_Português/2_Morfologia/8_Interjeição.md",
+                "file": "16_Aleatorios/App para estoque e vendas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_Interjeição"
+              "title": "App para estoque e vendas"
             }
           }
         ],
@@ -197,8 +197,9 @@
   },
   "active": "0412f2567499ab6f",
   "lastOpenFiles": [
-    "09_Português/2_Morfologia/7_Verbo e advérbio.md",
     "09_Português/2_Morfologia/8_Interjeição.md",
+    "16_Aleatorios/App para estoque e vendas.md",
+    "09_Português/2_Morfologia/7_Verbo e advérbio.md",
     "09_Português/2_Morfologia/6_Plural de nomes compostos.md",
     "09_Português/2_Morfologia/2_Artigo, adjetivo e numeral.md",
     "09_Português/2_Morfologia/3_Pronome parte 1.md",
@@ -237,7 +238,6 @@
     "16_Aleatorios/Como funciona rep.md",
     "16_Aleatorios/Amethyst.md",
     "16_Aleatorios/Empresas quixada.md",
-    "16_Aleatorios/ES-Plataforma Gestão de recursos pedagógicos Colaborativa.md",
     "01_Roadmap/1_Junior/3_Docker",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
