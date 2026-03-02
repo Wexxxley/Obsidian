@@ -99,22 +99,17 @@
 **Pré-requisito:** N/A.
 
 **Fluxo Principal:**
-1. Usuário seleciona a opção "Venda Avulsa" na tela de vendas.
+1. Usuário seleciona a opção "item Avulso" na tela de vendas.
 2. Digita manualmente o Preço de Custo e o Preço de Venda.
 3. Adiciona ao carrinho.
 
-    **Mensagens do Sistema:**
-    
-
+**Mensagens do Sistema:**
 - **MSG01:** "Item avulso adicionado."
     
-    **Critérios de Aceitação:**
-    
+**Critérios de Aceitação:**    
 - Essa venda não deve descontar unidades de nenhum produto do cadastro fixo.
-    
 
 ---
-
 ### **[RF06] Finalizar Venda e Definir Pagamento**
 
 **Descrição:** Como Microempreendedor, quero fechar o carrinho, escolher a forma de pagamento e associar (ou não) a um cliente.
@@ -122,29 +117,19 @@
 **Pré-requisito:** Ter itens no carrinho [RF04 ou RF05].
 
 **Fluxo Principal:**
-
 1. Usuário clica em "Finalizar Venda".
-    
 2. Seleciona a Forma de Pagamento (Dinheiro, PIX, Cartão).
-    
 3. Seleciona o Status (Pago ou Pendente).
-    
 4. (Opcional) Seleciona um Cliente da lista.
-    
 5. Confirma a venda.
     
-    **Fluxos Alternativos:**
-    
-
+**Fluxos Alternativos:**    
 - **FA01:** Finalizar sem selecionar cliente (Sistema permite como "Consumidor Final").
     
-    **Critérios de Aceitação:**
-    
-- O estoque dos produtos envolvidos (se houver) deve ser baixado após a confirmação.
-    
+**Critérios de Aceitação:**    
+- O estoque dos produtos envolvidos (se houver) deve ser baixado após a confirmação.  
 
 ---
-
 ### **[RF07] Registrar Despesa Externa**
 
 **Descrição:** Como Microempreendedor, quero anotar gastos que não são mercadorias (luz, internet, sacolas) para controlar minhas saídas.
@@ -152,38 +137,26 @@
 **Pré-requisito:** N/A.
 
 **Fluxo Principal:**
-
 1. Usuário acessa "Despesas".
-    
 2. Digita a Descrição e o Valor.
-    
 3. Clica em "Salvar".
-    
-    **Critérios de Aceitação:**
-    
 
+**Critérios de Aceitação:**
 - A despesa deve ser subtraída do lucro líquido nos relatórios.
-    
 
 ---
-
 ### **[RF08] Consultar Lucro por Período**
 
-**Descrição:** Como Microempreendedor, quero ver o desempenho financeiro em intervalos de tempo específicos.
+**Descrição:** Como Microempreendedor, quero ver o desempenho financeiro dos meses.
 
 **Pré-requisito:** Existência de vendas registradas.
 
 **Fluxo Principal:**
-
 1. Usuário acessa "Relatórios".
     
-2. Escolhe o período (ex: últimos 7 dias, 30 dias).
+2. O sistema calcula: $\text{Total Vendido} - \text{Custo Total das Peças} - \text{Despesas}$ para os meses com registro.
     
-3. O sistema calcula: $\text{Total Vendido} - \text{Custo Total das Peças} - \text{Despesas}$.
-    
-    **Critérios de Aceitação:**
-    
-
+**Critérios de Aceitação:**
 - O sistema deve exibir o valor do "Lucro Real" de forma clara.
     
 
