@@ -209,6 +209,11 @@ Uma tela de lista acessível pelo menu principal ou pelos ícones de interrogaç
 
 
 ---
+
+Solução **totalmente local** (executada e armazenada apenas no celular do cliente), a arquitetura ideal é o uso de um banco de dados **SQLite** embarcado O "backend" será, na verdade, uma camada de serviço dentro do código do app.
+
+**Educação sobre Dados:** Você pode incluir uma função de "Backup Manual" (gerar um arquivo ou Excel), ensinando ao usuário a importância de cuidar do próprio registro histórico.
+
 ### **Roteiro entrevista**
 #### Parte A: Controle Mínimo e Hábitos (O Ponto de Partida)
 
@@ -217,7 +222,6 @@ Uma tela de lista acessível pelo menu principal ou pelos ícones de interrogaç
 2. "O que mais te impede de manter tudo anotadinho todo dia? (Falta de tempo, esquece o valor, preguiça de abrir o caderno?)"
     
 3. "Você costuma misturar o dinheiro da venda com o dinheiro para comprar o pão de casa? Como você se sente ao tentar separar isso no fim do mês?"
-    
 
 #### Parte B: Design para Economia de Tempo (UI/UX)
 
