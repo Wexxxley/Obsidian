@@ -1,7 +1,9 @@
 
 
 ---
-O EditText permite entrad de texto via teclado e possui alguns atributos importantes.
+### **1. EditText**
+
+Diferentemente do TextView, O EditText permite entrada de texto via teclado e possui alguns atributos importantes.
 
 1. **hint**: A dica desaparece quando o usuário começa a digitar. 
 
@@ -22,6 +24,15 @@ O EditText permite entrad de texto via teclado e possui alguns atributos importa
 
 ![](../attachments/Pasted%20image%2020260316163514.png)
 ![](../attachments/Pasted%20image%2020260316163529.png)
+
+**Atributos para fontes:**
+1. fontFamily: Ela define a família tipográfica.
+2. textSize: Define o tamanho. Use escala SP
+3. textStyle: Define a variação da fonte sem mudar a família.
+	- normal,  bold,  italic.
+4. lineSpacingExtra: Adiciona um valor fixo (ex: 8dp) entre as linhas.
+5. letterSpacin: Controla espaçamento entre caracteres. O valor é um float (ex: 0.05). 
+6. includeFontPadding: Por padrão, o Android adiciona um pequeno padding no topo e na base das fontes.
 
 ---
 ### **2. Button**

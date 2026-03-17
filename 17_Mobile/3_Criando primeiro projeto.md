@@ -2,7 +2,8 @@
 #Concluded 
 
 ---
-### 1. Arquivos iniciais
+### **1. Arquivos iniciais**
+
 ![350](../attachments/Pasted%20image%2020260316081028.png)
 1. **manifest**: O metadado do sistema. Ele define o pacote da aplicação, declara as permissões necessárias e etc...
 2. **MainActivity**: classe controladora da tela principal. Ela é responsável por gerenciar o ciclo de vida da interface (instanciação, pausa, destruição).
