@@ -17,7 +17,7 @@
 **Critérios de Aceitação:** Se "Produto", inicia com quantidade zero. Se "Serviço", controle de estoque fica bloqueado.    
 
 ---
-### **[RF03] Cadastrar Categoria**
+### **[RF02] Cadastrar Categoria**
 
 **Descrição:** Criar categorias para organizar itens e despesas.
     
@@ -31,7 +31,7 @@
 **Critérios de Aceitação:** Categorias de itens aparecem no [RF01] e de despesas no [RF13].  
 
 ---
-### **[RF04] Registrar Entrada de Estoque (Custo Médio)**
+### **[RF03] Registrar Entrada de Estoque (Custo Médio)**
 
 **Descrição:** Adicionar quantidades informando o valor pago para recalcular o custo médio.
 
@@ -50,7 +50,7 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 - **MSG01:** "Estoque atualizado. Novo custo médio: R$ [Valor]."
 
 ---
-### **[RF05] Cadastrar Cliente (Opcional)**
+### **[RF04] Cadastrar Cliente (Opcional)**
 
 **Descrição:** Como Microempreendedor, quero salvar dados de contato dos clientes para facilitar vendas e cobranças.
 
@@ -66,9 +66,8 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 **Critérios de Aceitação:**
 - O telefone deve ser limpo (apenas números) para garantir o funcionamento da API do WhatsApp [RF14].
 
-
 ---
-### **[RF07] Adicionar Itens ao Carrinho**
+### **[RF05] Adicionar Itens ao Carrinho**
 
 **Descrição:** Como Microempreendedor, quero selecionar produtos ou serviços para iniciar uma venda.
 
@@ -86,7 +85,7 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 **Critérios de aceitação**: O sistema deve mostrar o subtotal parcial conforme os itens são adicionados.
 
 ---
-### **[RF08] Realizar Venda Avulsa**
+### **[RF06] Realizar Venda Avulsa**
 
 **Descrição:** Como Microempreendedor, quero registrar uma venda de algo fora do catálogo ou um serviço rápido.
 
@@ -103,7 +102,7 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 **Critérios de Aceitação:** Essa venda não deve descontar unidades de nenhum produto cadastrado.
 
 ---
-### **[RF09] Definir Pagamento à Vista (Dinheiro/Pix/Débito)**
+### **[RF07] Definir Pagamento à Vista (Dinheiro/Pix/Débito)**
 
 **Descrição:** Como Microempreendedor, quero registrar pagamentos imediatos para finalizar a venda.
 
@@ -118,7 +117,7 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 **Mensagens do Sistema: MSG01:** "Pagamento registrado. Venda finalizada."
 
 ---
-### **[RF10] Registrar Venda Parcelada ou Fiado**
+### **[RF08] Registrar Venda Parcelada ou Fiado**
 
 **Descrição:** Como Microempreendedor, quero vender para receber depois, vinculando a dívida a um cliente.
 
@@ -139,7 +138,7 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 - MSG01: "Atenção: Selecione um cliente para realizar venda fiada/parcelada."
 
 ---
-### **[RF11] Gestão de Ciclo de Vida da Venda (Status)**
+### **[RF09] Gestão de Ciclo de Vida da Venda (Status)**
 
 **Descrição:** Como Microempreendedor, quero gerenciar o progresso das vendas.
 
@@ -152,7 +151,7 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 
 ---
 
-### **[RF12] Gerenciar Recebimentos (Contas a Receber)**
+### **[RF10] Gerenciar Recebimentos (Contas a Receber)**
 
 **Descrição:** Como Microempreendedor, quero dar baixa nas dívidas conforme recebo os pagamentos.
 
@@ -163,7 +162,7 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
     
 
 ---
-### **[RF13] Cadastrar Despesa Comercial X pessoal**
+### **[RF11] Cadastrar Despesa Comercial X pessoal**
 
 **Descrição:** Como Microempreendedor, quero registrar gastos fixos ou variáveis categorizados.
 
@@ -176,12 +175,7 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 2. Salva o registro.
 
 ---
-### **[RF14] Notificar Cobrança via WhatsApp (Integração API)**
-
-**Descrição:**  Enviar lembretes de cobrança automáticos. Sistema gera link de WhatsApp com template pronto.
-
----
-### **[RF15] Relatório de Lucratividade e Diagnóstico de Saúde**
+### **[RF12] Relatório de Lucratividade e Diagnóstico de Saúde**
 
 **Descrição:** Como Microempreendedor, quero visualizar meu lucro líquido mensal acompanhado de uma análise simplificada sobre a viabilidade do meu negócio.
 
@@ -190,8 +184,6 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 2. Seleciona o período (Mês/Ano).
 3. O sistema calcula o Lucro Real baseado apenas em **Vendas Finalizadas (Pagas)**.
 4. O sistema apresenta o **Diagnóstico de Saúde** (Camada de Extensão).
-
-**Detalhamento do Diagnóstico :** O sistema deve comparar três variáveis: **Receita**, **Custo de Mercadoria** e **Retiradas Pessoais (Pro-labore)**.
 	**Lucro Negativo**: "Atenção: Suas despesas superaram suas entradas. Verifique se seu Preço de Venda [RF01] está cobrindo seus custos ou se houve muitas despesas extras este mês."
 	**Retirada Pessoal > Lucro**: "Cuidado! Você está retirando para uso pessoal [RF13] mais do que a empresa lucrou. Isso pode deixar você sem dinheiro para repor o estoque amanhã."
 	**Inadimplência Alta**: "Você tem R$ [Valor] em vendas 'Pendentes' ou 'Atrasadas'. Seu lucro seria maior se esses pagamentos estivessem em dia. Use o lembrete do WhatsApp [RF14]."
@@ -199,7 +191,7 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
  $$Lucro = (\text{Vendas Pagas}) - (\text{Custo Médio dos Itens Vendidos}) - (\text{Despesas do Negócio})$$
 
 ---
-### **[RF16] Glossário de Termos** 
+### **[RF13] Glossário de Termos** 
 
 **Descrição:** Como Microempreendedor, quero uma central de ajuda que traduza o "economês" para uma linguagem simples e prática do dia a dia.
 
