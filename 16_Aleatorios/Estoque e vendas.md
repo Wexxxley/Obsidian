@@ -217,3 +217,168 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 
 $$Lucro = (\text{Vendas Recebidas}) - (\text{Custo de Aquisição dos Itens Vendidos}) - (\text{Despesas})$$
 
+
+
+
+
+----
+
+---
+
+### Documento de Requisitos V2
+
+### **[RF01] Cadastrar Produto/Serviço**
+
+**Descrição:** Como Microempreendedor, quero registrar itens (produtos ou serviços) para compor meu catálogo.
+    
+**Fluxo Principal:** 
+	1. Usuário acessa "Produtos/Serviços".
+    2. Seleciona Tipo: Produto (gerencia estoque) ou Serviço (não gerencia estoque).
+    3. Insere Nome, Preço de Custo (Referência) e Preço de Venda.
+    4. (Opcional) Seleciona uma categoria de item.
+    5. Salva o registro.
+    
+**Camada de Extensão:** Adição de um **Modal de Apoio "Como Precificar?"** ao lado do campo Preço de Venda, explicando que o valor deve cobrir o custo médio e as despesas fixas.
+    
+**Critérios de Aceitação:** Se "Produto", inicia com quantidade zero. Se "Serviço", controle de estoque fica bloqueado.    
+
+### **[RF02] Editar Produto/Serviço**
+
+**Descrição:** Como Microempreendedor, quero alterar preços ou nomes de itens sem afetar as vendas que já foram realizadas.
+
+**Pré-requisito:** Item cadastrado [RF01].
+**Fluxo Principal:**
+1. Usuário seleciona o item na lista e clica em "Editar".
+2. Altera as informações desejadas (ex: novo Preço de Venda).
+3. Salva as alterações.
+
+
+---
+### **[RF03] Cadastrar Categoria**
+
+
+
+**Fluxo Principal:**
+1. Usuário acessa o menu de "Categorias".
+2. Define se a categoria é para **Itens** ou **Despesas**.
+3. Insere o nome e salva.
+    
+**Critérios de Aceitação:**
+- Categorias de itens aparecem no [RF01] e categorias de despesas aparecem no [RF13].
+
+
+### [RF03] Cadastrar Categoria
+
+**Descrição:** Criar categorias para organizar itens e despesas.
+    
+- **Fluxo:** Acessa "Categorias" → Define se é para "Itens" ou "Despesas" → Insere nome → Salva.
+    
+- **Critérios de Aceitação:** Categorias de itens aparecem no [RF01] e de despesas no [RF13].
+    
+
+## [RF04] Registrar Entrada de Estoque (Custo Médio)
+
+- **Descrição:** Adicionar quantidades informando o valor pago para recalcular o custo médio.
+    
+- **Fórmula:**
+    
+    $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\text{Qtd Nova} \times \text{Preço de Compra Novo})}{\text{Qtd em Estoque} + \text{Qtd Nova}}$$
+    
+- **Camada de Extensão:** Modal informativo explicando que o Custo Médio Ponderado evita que o empreendedor perca dinheiro em épocas de inflação ou aumento de fornecedor.
+    
+
+## [RF05] Cadastrar Cliente (Opcional)
+
+- **Descrição:** Salvar dados de contato (Nome, Telefone, Endereço, Foto opcional) para facilitar vendas e cobranças.
+    
+- **Critério:** O telefone deve ser salvo apenas com números para integração com o [RF14].
+    
+
+## [RF06] Editar Cliente
+
+- **Descrição:** Manter os dados de contato dos clientes atualizados.
+    
+
+## [RF07] Adicionar Itens ao Carrinho
+
+- **Descrição:** Selecionar produtos ou serviços para iniciar uma venda.
+    
+- **Fluxo:** Nova Venda → Pesquisa Produto → Define Quantidade → Adiciona ao Carrinho.
+    
+- **Critério:** Exibir subtotal parcial em tempo real. Alerta se o estoque for insuficiente.
+    
+
+## [RF08] Realizar Venda Avulsa
+
+- **Descrição:** Registrar venda de algo fora do catálogo ou serviço rápido.
+    
+- **Fluxo:** Seleciona "Item Avulso" → Digita Nome, Preço de Custo (obrigatório) e Preço de Venda.
+    
+- **Critério:** Não desconta unidades de produtos cadastrados.
+    
+
+## [RF09] Definir Pagamento à Vista (Dinheiro/Pix/Débito)
+
+- **Descrição:** Registrar pagamentos imediatos.
+    
+- **Fluxo:** Seleciona método → Sistema captura Preço de Custo Atual → Status: Finalizada (Paga).
+    
+
+## [RF10] Registrar Venda Parcelada ou Fiado
+
+- **Descrição:** Vender para receber depois, vinculando a dívida a um cliente.
+    
+- **Camada de Extensão:** Ao selecionar "Fiado", o sistema exibe uma **Dica de Saúde Financeira**: _"Sugerir parcelas menores aumenta sua chance de receber em dia!"_
+    
+- **Critério:** Bloqueia venda se o cliente não estiver selecionado. Status: Pendente.
+    
+
+## [RF11] Gestão de Ciclo de Vida da Venda (Status)
+
+- **Descrição:** Gerenciar o progresso (Orçamento, Pendente, Atrasada, Finalizada, Cancelada).
+    
+
+## [RF12] Gerenciar Recebimentos (Contas a Receber)
+
+- **Descrição:** Dar baixa nas dívidas conforme recebo os pagamentos.
+    
+- **Fluxo:** Acessa "Contas a Receber" → Seleciona dívida → "Receber". Se saldo = 0, status vai para "Finalizada".
+    
+
+## [RF13] Cadastrar Despesa Comercial vs. Pessoal
+
+- **Descrição:** Registrar gastos fixos ou variáveis categorizados.
+    
+- **Camada de Extensão:** Inclusão de um checkbox: **"Esta despesa é do negócio ou retirada pessoal?"**.
+    
+- **Modal Educativo:** Explicação sobre a importância de separar as contas da casa das contas da empresa.
+    
+
+## [RF14] Notificar Cobrança via WhatsApp (Humanizada)
+
+- **Descrição:** Enviar lembretes de cobrança automáticos com foco comunitário.
+    
+- **Fluxo:** Sistema gera link de WhatsApp com template humanizado.
+    
+- **Exemplo:** _"Olá [Nome], sua parcela vence amanhã. Sua contribuição ajuda nosso comércio local!"_
+    
+
+## [RF15] Relatório de Lucratividade com Diagnóstico
+
+- **Descrição:** Ver o lucro líquido mensal e a saúde do negócio.
+    
+- **Fórmula:**
+    
+    $$Lucro = (\text{Vendas Recebidas}) - (\text{Custo de Aquisição}) - (\text{Despesas})$$
+    
+- **Camada de Extensão:** **O Diagnóstico Financeiro**. O sistema exibe mensagens educativas baseadas no resultado (ex: "Seu lucro está baixo devido às altas despesas pessoais").
+    
+
+## [RF16] Glossário de Termos (Novo - Apoio Extensão)
+
+- **Descrição:** Tela de consulta rápida para o microempreendedor entender termos técnicos de forma simples (ex: O que é Capital de Giro, O que é Inadimplência).
+    
+
+---
+
+**Gostaria que eu detalhasse agora os textos específicos desses "Modais de Educação" para você colocar nos anexos do projeto?**
