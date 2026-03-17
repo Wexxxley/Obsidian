@@ -20,8 +20,15 @@ Diferente de um ponto (que é apenas uma localização), o vetor representa um d
 $a = (1,2,3)$ e $b = (-1,-2,-3)$
 ![400](../attachments/Pasted%20image%2020260309085909.png)
 
+- **Ponto - Ponto = Vetor** (Distância e direção entre dois lugares).
+    
+- **Ponto + Vetor = Ponto** (Você está em um lugar e se desloca para outro).
+    
+- **Vetor + Vetor = Vetor** (Dois deslocamentos seguidos)
+
+
 ---
-### 2. **Soma de vetores**
+### **2. Soma de vetores**
 ![](../attachments/Pasted%20image%2020260312135419.png)
 
 ---
@@ -42,7 +49,7 @@ O valor do produto escalar revela a relação angular entre os vetores:
 - **Negativo** $90^\circ < \theta \leq 180^\circ$ ângulo obtuso
 
 ---
-### 4. Produto Vetorial
+### **4. Produto Vetorial**
 
 O resultado é um **novo vetor**. Esse novo vetor é especial porque ele é **perpendicular (90°)** aos dois vetores originais ao mesmo tempo. É exclusivo do espaço 3D.
 
@@ -96,71 +103,17 @@ A **projeção vetorial** é um vetor. É a sombra propriamente dita, com direç
 $$proj_{\vec{v}}\vec{u} = \left( \frac{\vec{u} \cdot \vec{v}}{|\vec{v}|^2} \right) \vec{v}$$    
 ![](../attachments/20260315_090053500.jpg)
 
-
 ---
+### **9. Vetor normal**
 
-- **Ponto - Ponto = Vetor** (Distância e direção entre dois lugares).
-    
-- **Ponto + Vetor = Ponto** (Você está em um lugar e se desloca para outro).
-    
-- **Vetor + Vetor = Vetor** (Dois deslocamentos seguidos resultam em um deslocamento final).
-
-Na Geometria Analítica e na Computação Gráfica, o termo **"Normal"** não tem nada a ver com ser "comum". Ele é um conceito puramente geométrico de **orientação**.
-
-## 1. O que é um Vetor Normal?
-
-Dizemos que um vetor é **Normal** a uma superfície (como um plano, um triângulo ou o polígono de um personagem) quando ele é **perpendicular** a essa superfície.
-
-- **Em 2D:** A normal é um vetor que forma **90°** com uma reta.
-    
-- **Em 3D:** A normal é um vetor que forma **90°** com todos os vetores contidos em um plano.
-    
-
-Imagine uma mesa: o vetor normal é uma caneta em pé sobre ela. Não importa para onde você gire a caneta (desde que ela continue em pé), ela estará apontando na direção "Normal" da mesa.
-
----
-
-## 2. O que significa "Encontrar a Normal"?
+Dizemos que um vetor é Normal a uma superfície (como um plano) quando ele é **perpendicular** a essa superfície.
 
 Encontrar a normal significa descobrir para qual direção uma face está "olhando". Na computação, as superfícies são feitas de triângulos. Para o computador saber qual é a "frente" e qual é a "costa" desse triângulo, ele calcula a normal.
 
-**Como se calcula?**
-
-Como vimos no exercício anterior, se você tem três pontos ($p_0, p_1, p_2$):
+Se você tem três pontos ($p_0, p_1, p_2$):
 
 1. Cria dois vetores: $\vec{A} = (p_1 - p_0)$ e $\vec{B} = (p_2 - p_0)$.
     
-2. Faz o **Produto Vetorial**: $\vec{n} = \vec{A} \times \vec{B}$.
+2. Produto Vetorial: $\vec{n} = \vec{A} \times \vec{B}$.
     
 3. O resultado $\vec{n}$ é a **Normal**.
-    
-
----
-
-## 3. Por que isso é vital para você (Dev)?
-
-Se você está criando um sistema ou um jogo no seu Linux Mint, a Normal serve para:
-
-- **Iluminação (Shading):** O computador calcula o ângulo entre o "Vetor da Luz" e a "Normal da Face". Se o ângulo for pequeno, a face fica clara. Se a luz estiver batendo "atrás" da normal, a face fica escura.
-    
-- **Colisão:** Quando uma bola bate numa parede, ela ricocheteia com base na Normal da parede. Sem a normal, a bola não saberia para onde voltar.
-    
-- **Backface Culling:** O computador usa a normal para saber se o triângulo está virado para a câmera. Se a normal estiver apontando para o lado oposto, o computador nem desenha aquele triângulo (para economizar processamento).
-    
-
----
-
-## 4. Normal vs. Normalizado (Cuidado!)
-
-Não confunda os nomes:
-
-- **Vetor Normal:** É o vetor perpendicular à superfície (pode ter qualquer tamanho).
-    
-- **Vetor Normalizado:** É qualquer vetor que foi "encolhido" ou "esticado" para ter **módulo igual a 1** (unitário).
-    
-
-> **Dica de Ouro:** Quase sempre, na Computação Gráfica, depois de encontrar a **Normal** (via produto vetorial), nós a **Normalizamos** (dividimos pelo módulo) para que os cálculos de luz funcionem corretamente.
-
-Ficou claro que ser "Normal" é apenas estar "em pé" em relação a uma superfície?
-
-Como você já está craque no produto vetorial, quer que eu te mostre como calcular a **Normal Unitária** (o passo final para a iluminação) usando os pontos $p_0, p_1$ e $p_2$?
