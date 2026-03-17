@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Mobile/5_EditText e Button.md",
+                "file": "17_Mobile/1_Kotlin Introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_EditText e Button"
+              "title": "1_Kotlin Introdução"
             }
           }
         ]
@@ -182,9 +182,11 @@
   },
   "active": "32aca92f904de10f",
   "lastOpenFiles": [
-    "17_Mobile/4_LinearLayout.md",
     "17_Mobile/5_EditText e Button.md",
+    "17_Mobile/4_LinearLayout.md",
     "17_Mobile/3_Criando primeiro projeto.md",
+    "17_Mobile/1_Kotlin Introdução.md",
+    "17_Mobile/2_Kotlin POO.md",
     "18_Algebra Linear e CG/9_Vetores.md",
     "attachments/Pasted image 20260302144639.png",
     "09_Português/2_Morfologia/8_Interjeição.md",
@@ -219,10 +221,8 @@
     "Direito Constitucional",
     "16_Aleatorios/1_Blocos obsidian.md",
     "16_Aleatorios/3_Concursos de TI.md",
-    "16_Aleatorios/2_Técnica simples de estudo.md",
     "09_Português/1_Ortografia",
     "09_Português",
-    "16_Aleatorios/Pedido de crenciais GIT.md",
     "01_Roadmap/1_Junior/3_Docker",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
     "07_FrontEnd/4_React/1_Fundamentos",
