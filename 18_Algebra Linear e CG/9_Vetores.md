@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 ### **1. Vetor**
@@ -32,7 +33,7 @@ $a = (1,2,3)$ e $b = (-1,-2,-3)$
 ![](../attachments/Pasted%20image%2020260312135419.png)
 
 ---
-### 3. Produto escalar
+### **3. Produto escalar**
 
 O resultado é um **número único**. Ele mede o quanto um vetor "projeta" sobre o outro ou o quanto eles apontam para a mesma direção.
 
