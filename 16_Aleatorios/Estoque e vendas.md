@@ -16,16 +16,6 @@
     
 **Critérios de Aceitação:** Se "Produto", inicia com quantidade zero. Se "Serviço", controle de estoque fica bloqueado.    
 
-### **[RF02] Editar Produto/Serviço**
-
-**Descrição:** Como Microempreendedor, quero alterar preços ou nomes de itens sem afetar as vendas que já foram realizadas.
-
-**Pré-requisito:** Item cadastrado [RF01].
-**Fluxo Principal:**
-1. Usuário seleciona o item na lista e clica em "Editar".
-2. Altera as informações desejadas (ex: novo Preço de Venda).
-3. Salva as alterações.
-
 ---
 ### **[RF03] Cadastrar Categoria**
 
@@ -76,20 +66,6 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 **Critérios de Aceitação:**
 - O telefone deve ser limpo (apenas números) para garantir o funcionamento da API do WhatsApp [RF14].
 
----
-### **[RF06] Editar Cliente**
-
-**Descrição:** Como Microempreendedor, quero manter os dados de contato dos meus clientes atualizados.
-
-**Pré-requisito**: Cliente deve estar cadastrado [RF05].
-
-**Fluxoprincipal**
-1. Usuário pesquisa e seleciona o cliente. 
-2. Altera os campos necessários (Telefone, Endereço, etc). 
-3. Salva a edição.
-
-**Critérios de Aceitação:**
-- O telefone deve ser limpo (apenas números) para garantir o funcionamento da API do WhatsApp [RF14].
 
 ---
 ### **[RF07] Adicionar Itens ao Carrinho**
@@ -163,7 +139,6 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 - MSG01: "Atenção: Selecione um cliente para realizar venda fiada/parcelada."
 
 ---
-
 ### **[RF11] Gestão de Ciclo de Vida da Venda (Status)**
 
 **Descrição:** Como Microempreendedor, quero gerenciar o progresso das vendas.
