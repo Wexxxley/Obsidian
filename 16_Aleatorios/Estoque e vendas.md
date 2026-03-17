@@ -336,77 +336,112 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 **Critérios de aceitação**: O sistema deve mostrar o subtotal parcial conforme os itens são adicionados.
 
 ---
-## [RF08] Realizar Venda Avulsa
+### **[RF08] Realizar Venda Avulsa**
 
-- **Descrição:** Registrar venda de algo fora do catálogo ou serviço rápido.
+**Descrição:** Como Microempreendedor, quero registrar uma venda de algo fora do catálogo ou um serviço rápido.
+
+**Pré-requisito**: N/A.
+
+**Fluxo Principal:**
+
+1. Usuário seleciona "Item Avulso".
+2. Digita Nome, Preço de Custo (obrigatório) e Preço de Venda.
+3. Adiciona ao carrinho.
+
+**Mensagens do Sistema:** MSG01: "Item avulso adicionado."
+
+**Critérios de Aceitação:** Essa venda não deve descontar unidades de nenhum produto cadastrado.
+
+---
+### **[RF09] Definir Pagamento à Vista (Dinheiro/Pix/Débito)**
+
+**Descrição:** Como Microempreendedor, quero registrar pagamentos imediatos para finalizar a venda.
+
+**Pré-requisito**: Itens no carrinho [RF07/RF08].
+
+**Fluxo Principal:**
+1. Usuário seleciona "Pagamento à Vista". 
+2. Escolhe o método: Dinheiro, PIX ou Débito. 
+3. O sistema captura o Preço de Custo Atual dos itens. 
+4. Venda é salva como "Status: Finalizada (Paga)". 
+
+**Mensagens do Sistema: MSG01:** "Pagamento registrado. Venda finalizada."
+
+---
+### **[RF10] Registrar Venda Parcelada ou Fiado**
+
+**Descrição:** Como Microempreendedor, quero vender para receber depois, vinculando a dívida a um cliente.
+
+**Pré-requisito:** Cliente selecionado e itens no carrinho.
+
+**Fluxo Principal:**
+1. Usuário seleciona "Parcelado" ou "Fiado".
+2. Define as datas das parcelas.
+3. O sistema grava o custo atual dos itens.
+4. Status vira "Pendente".
     
-- **Fluxo:** Seleciona "Item Avulso" → Digita Nome, Preço de Custo (obrigatório) e Preço de Venda.
-    
-- **Critério:** Não desconta unidades de produtos cadastrados.
+**Fluxos Alternativos:**
+- **FA01:** Cliente não selecionado (Bloqueia a venda).
+
+**Camada de Extensão:** Ao selecionar "Fiado", o sistema exibe uma **Dica de Saúde Financeira**: _"Sugerir parcelas menores aumenta sua chance de receber em dia!"_
+
+**Mensagens do Sistema:**
+- MSG01: "Atenção: Selecione um cliente para realizar venda fiada/parcelada."
+
+---
+
+### **[RF11] Gestão de Ciclo de Vida da Venda (Status)**
+
+**Descrição:** Como Microempreendedor, quero gerenciar o progresso das vendas.
+
+**Status:**
+- **Orçamento:** Rascunho. Não altera estoque nem financeiro.
+- **Pendente:** Pagamento incompleto (Fiado/Parcelado).
+- **Atrasada:** Parcela com vencimento ultrapassado sem baixa.
+- **Finalizada:** Tudo pago e estoque baixado.
+- **Cancelada:** Estorna estoque e invalida valores.
+
+---
+
+### **[RF12] Gerenciar Recebimentos (Contas a Receber)**
+
+**Descrição:** Como Microempreendedor, quero dar baixa nas dívidas conforme recebo os pagamentos.
+
+**Fluxo Principal:**
+1. Usuário acessa "Contas a Receber". 
+2. Seleciona a dívida do cliente e clica em "Receber". 
+3. Se o saldo devedor da venda chegar a zero, o sistema altera o status da venda para "Finalizada"
     
 
-## [RF09] Definir Pagamento à Vista (Dinheiro/Pix/Débito)
+---
+### **[RF13] Cadastrar Despesa Comercial X pessoal**
 
-- **Descrição:** Registrar pagamentos imediatos.
-    
-- **Fluxo:** Seleciona método → Sistema captura Preço de Custo Atual → Status: Finalizada (Paga).
-    
+**Descrição:** Como Microempreendedor, quero registrar gastos fixos ou variáveis categorizados.
 
-## [RF10] Registrar Venda Parcelada ou Fiado
+**Camada de Extensão:** Inclusão de um checkbox: **"Esta despesa é do negócio ou retirada pessoal?"**.
 
-- **Descrição:** Vender para receber depois, vinculando a dívida a um cliente.
-    
-- **Camada de Extensão:** Ao selecionar "Fiado", o sistema exibe uma **Dica de Saúde Financeira**: _"Sugerir parcelas menores aumenta sua chance de receber em dia!"_
-    
-- **Critério:** Bloqueia venda se o cliente não estiver selecionado. Status: Pendente.
-    
+**Modal Educativo:** Explicação sobre a importância de separar as contas da casa das contas da empresa.    
 
-## [RF11] Gestão de Ciclo de Vida da Venda (Status)
+**Fluxo Principal:**
+1. Usuário insere Descrição, Valor, Data e seleciona uma Categoria de Despesa (ex: "Aluguel", "Insumos").
+2. Salva o registro.
 
-- **Descrição:** Gerenciar o progresso (Orçamento, Pendente, Atrasada, Finalizada, Cancelada).
-    
+---
+### **[RF14] Notificar Cobrança via WhatsApp (Integração API)**
 
-## [RF12] Gerenciar Recebimentos (Contas a Receber)
+**Descrição:**  Enviar lembretes de cobrança automáticos. Sistema gera link de WhatsApp com template pronto.
 
-- **Descrição:** Dar baixa nas dívidas conforme recebo os pagamentos.
-    
-- **Fluxo:** Acessa "Contas a Receber" → Seleciona dívida → "Receber". Se saldo = 0, status vai para "Finalizada".
-    
+---
+### **[RF15] Relatório de Lucratividade**
 
-## [RF13] Cadastrar Despesa Comercial vs. Pessoal
+**Descrição:** Como Microempreendedor, quero ver o lucro líquido mensal.
 
-- **Descrição:** Registrar gastos fixos ou variáveis categorizados.
-    
-- **Camada de Extensão:** Inclusão de um checkbox: **"Esta despesa é do negócio ou retirada pessoal?"**.
-    
-- **Modal Educativo:** Explicação sobre a importância de separar as contas da casa das contas da empresa.
-    
+**Fórmula:**
 
-## [RF14] Notificar Cobrança via WhatsApp (Humanizada)
+$$Lucro = (\text{Vendas Recebidas}) - (\text{Custo de Aquisição dos Itens Vendidos}) - (\text{Despesas})$$
 
-- **Descrição:** Enviar lembretes de cobrança automáticos com foco comunitário.
-    
-- **Fluxo:** Sistema gera link de WhatsApp com template humanizado.
-    
-- **Exemplo:** _"Olá [Nome], sua parcela vence amanhã. Sua contribuição ajuda nosso comércio local!"_
-    
-
-## [RF15] Relatório de Lucratividade com Diagnóstico
-
-- **Descrição:** Ver o lucro líquido mensal e a saúde do negócio.
-    
-- **Fórmula:**
-    
-    $$Lucro = (\text{Vendas Recebidas}) - (\text{Custo de Aquisição}) - (\text{Despesas})$$
-    
-- **Camada de Extensão:** **O Diagnóstico Financeiro**. O sistema exibe mensagens educativas baseadas no resultado (ex: "Seu lucro está baixo devido às altas despesas pessoais").
-    
 
 ## [RF16] Glossário de Termos (Novo - Apoio Extensão)
 
 - **Descrição:** Tela de consulta rápida para o microempreendedor entender termos técnicos de forma simples (ex: O que é Capital de Giro, O que é Inadimplência).
-    
 
----
-
-**Gostaria que eu detalhasse agora os textos específicos desses "Modais de Educação" para você colocar nos anexos do projeto?**
