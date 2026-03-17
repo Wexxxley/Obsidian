@@ -217,10 +217,3 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 
 $$Lucro = (\text{Vendas Recebidas}) - (\text{Custo de Aquisição dos Itens Vendidos}) - (\text{Despesas})$$
 
-
----
-### IDEIAS FUTURAS
-
-- Seleção de dois métodos de pagamento
-
-
