@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "16_Aleatorios/Pedido de crenciais GIT.md",
+                "file": "roteiro.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pedido de crenciais GIT"
+              "title": "Outline of roteiro"
             }
           },
           {
@@ -180,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "32aca92f904de10f",
+  "active": "4f57f88bace28f5e",
   "lastOpenFiles": [
     "17_Mobile/1_Kotlin Introdução.md",
     "17_Mobile/5_EditText e Button.md",
