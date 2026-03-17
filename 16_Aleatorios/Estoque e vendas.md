@@ -252,62 +252,90 @@ $$Lucro = (\text{Vendas Recebidas}) - (\text{Custo de Aquisição dos Itens Vend
 2. Altera as informações desejadas (ex: novo Preço de Venda).
 3. Salva as alterações.
 
-
 ---
 ### **[RF03] Cadastrar Categoria**
 
-
-
+**Descrição:** Criar categorias para organizar itens e despesas.
+    
 **Fluxo Principal:**
 1. Usuário acessa o menu de "Categorias".
 2. Define se a categoria é para **Itens** ou **Despesas**.
 3. Insere o nome e salva.
-    
+
+**Extensão:** **Tela Informativa "O que são categorias?"**. Antes de criar as primeiras categorias, o sistema explica que categorias bem definidas ajudam a descobrir onde o dinheiro está sendo gasto (ex: Diferença entre _Insumos_ e _Manutenção_).
+
+**Critérios de Aceitação:** Categorias de itens aparecem no [RF01] e de despesas no [RF13].  
+
+---
+### **[RF04] Registrar Entrada de Estoque (Custo Médio)**
+
+**Descrição:** Adicionar quantidades informando o valor pago para recalcular o custo médio.
+
+**Pré-requisito:** Item ser do tipo "Produto".
+
+**Fluxo Principal:**
+1. Usuário seleciona o produto e clica em "Adicionar Estoque".
+2. Informa a **Quantidade Recebida** e o **Preço de Custo Unitário** atual.
+3. O sistema atualiza o saldo total e recalcula o **Custo Médio Ponderado**.
+$$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\text{Qtd Nova} \times \text{Preço de Compra Novo})}{\text{Qtd em Estoque} + \text{Qtd Nova}}$$
+4. Confirma a operação.
+
+**Camada de Extensão:** Modal informativo explicando que o Custo Médio Ponderado evita que o empreendedor perca dinheiro em épocas de inflação ou aumento de fornecedor.
+
+**Mensagens do Sistema:**
+- **MSG01:** "Estoque atualizado. Novo custo médio: R$ [Valor]."
+
+---
+### **[RF05] Cadastrar Cliente (Opcional)**
+
+**Descrição:** Como Microempreendedor, quero salvar dados de contato dos clientes para facilitar vendas e cobranças.
+
+**Fluxo Principal:**
+1. Usuário acessa a tela de "Clientes". 
+2. Insere Nome, Telefone e Endereço. 
+3. (Opcional) Anexa uma foto do cliente. 
+4. Clica em "Salvar"
+
+**Mensagens do Sistema**
+- MSG01: "Cliente salvo com sucesso.
+
 **Critérios de Aceitação:**
-- Categorias de itens aparecem no [RF01] e categorias de despesas aparecem no [RF13].
+- O telefone deve ser limpo (apenas números) para garantir o funcionamento da API do WhatsApp [RF14].
 
+---
+### **[RF06] Editar Cliente**
 
-### [RF03] Cadastrar Categoria
+**Descrição:** Como Microempreendedor, quero manter os dados de contato dos meus clientes atualizados.
 
-**Descrição:** Criar categorias para organizar itens e despesas.
-    
-- **Fluxo:** Acessa "Categorias" → Define se é para "Itens" ou "Despesas" → Insere nome → Salva.
-    
-- **Critérios de Aceitação:** Categorias de itens aparecem no [RF01] e de despesas no [RF13].
-    
+**Pré-requisito**: Cliente deve estar cadastrado [RF05].
 
-## [RF04] Registrar Entrada de Estoque (Custo Médio)
+**Fluxoprincipal**
+1. Usuário pesquisa e seleciona o cliente. 
+2. Altera os campos necessários (Telefone, Endereço, etc). 
+3. Salva a edição.
 
-- **Descrição:** Adicionar quantidades informando o valor pago para recalcular o custo médio.
-    
-- **Fórmula:**
-    
-    $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\text{Qtd Nova} \times \text{Preço de Compra Novo})}{\text{Qtd em Estoque} + \text{Qtd Nova}}$$
-    
-- **Camada de Extensão:** Modal informativo explicando que o Custo Médio Ponderado evita que o empreendedor perca dinheiro em épocas de inflação ou aumento de fornecedor.
-    
+**Critérios de Aceitação:**
+- O telefone deve ser limpo (apenas números) para garantir o funcionamento da API do WhatsApp [RF14].
 
-## [RF05] Cadastrar Cliente (Opcional)
+---
+### **[RF07] Adicionar Itens ao Carrinho**
 
-- **Descrição:** Salvar dados de contato (Nome, Telefone, Endereço, Foto opcional) para facilitar vendas e cobranças.
-    
-- **Critério:** O telefone deve ser salvo apenas com números para integração com o [RF14].
-    
+**Descrição:** Como Microempreendedor, quero selecionar produtos ou serviços para iniciar uma venda.
 
-## [RF06] Editar Cliente
+**Pré-requisito**: Existência de produtos cadastrados.
 
-- **Descrição:** Manter os dados de contato dos clientes atualizados.
-    
+**Fluxo principal**
+1. Usuário inicia uma "Nova Venda". 
+2. Pesquisa e seleciona um produto. 
+3. Define a quantidade para venda. 
+4. Adiciona ao carrinho.
 
-## [RF07] Adicionar Itens ao Carrinho
+**Fluxos Alternativos:**
+- **FA01: Estoque insuficiente:** O sistema exibe um alerta.
 
-- **Descrição:** Selecionar produtos ou serviços para iniciar uma venda.
-    
-- **Fluxo:** Nova Venda → Pesquisa Produto → Define Quantidade → Adiciona ao Carrinho.
-    
-- **Critério:** Exibir subtotal parcial em tempo real. Alerta se o estoque for insuficiente.
-    
+**Critérios de aceitação**: O sistema deve mostrar o subtotal parcial conforme os itens são adicionados.
 
+---
 ## [RF08] Realizar Venda Avulsa
 
 - **Descrição:** Registrar venda de algo fora do catálogo ou serviço rápido.
