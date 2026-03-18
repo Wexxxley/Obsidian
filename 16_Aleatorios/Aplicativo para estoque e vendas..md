@@ -1,6 +1,7 @@
 
 
 ---
+Solução **totalmente local** (executada e armazenada apenas no celular do cliente), a arquitetura ideal é o uso de um banco de dados **SQLite** embarcado. O "backend" será, na verdade, uma camada de serviço dentro do código do app.
 ### **[RF01] Cadastrar Produto/Serviço**
 
 **Descrição:** Como Microempreendedor, quero registrar itens (produtos ou serviços) para compor meu catálogo.
@@ -28,9 +29,17 @@ Como Microempreendedor, quero alterar as informações de um produto já cadastr
 **Pré-requisito:** Produto deve estar cadastrado [RF01].
 
 **Fluxo**
-1. Usuário seleciona um produto na lista. 2. Clica em "Editar". 3. Altera as informações desejadas. 4. Salva as alterações
+1. Usuário seleciona um produto na lista. 
+2. Clica em "Editar". 
+3. Altera as informações desejadas. 
+4. Salva as alterações
+
+**Mensagem do sitema:** MSG01: "Alterações salvas com sucesso."
+
+**Critérios de aceitação:** As novas informações devem refletir imediatamente no catálogo e futuras vendas.
+
 ---
-### **[RF02] Cadastrar Categoria**
+### **[RF03] Cadastrar Categoria**
 
 **Descrição:** Criar categorias para organizar itens e despesas.
     
@@ -44,7 +53,7 @@ Como Microempreendedor, quero alterar as informações de um produto já cadastr
 **Critérios de Aceitação:** Categorias de itens aparecem no [RF01] e de despesas no [RF13].  
 
 ---
-### **[RF03] Registrar Entrada de Estoque (Custo Médio)**
+### **[RF04] Registrar Entrada de Estoque (Custo Médio)**
 
 **Descrição:** Adicionar quantidades informando o valor pago para recalcular o custo médio.
 
@@ -63,7 +72,7 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 - **MSG01:** "Estoque atualizado. Novo custo médio: R$ [Valor]."
 
 ---
-### **[RF04] Cadastrar Cliente (Opcional)**
+### **[RF05] Cadastrar Cliente (Opcional)**
 
 **Descrição:** Como Microempreendedor, quero salvar dados de contato dos clientes para facilitar vendas e cobranças.
 
@@ -80,7 +89,20 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 - O telefone deve ser limpo (apenas números) para garantir o funcionamento da API do WhatsApp [RF14].
 
 ---
-### **[RF05] Adicionar Itens ao Carrinho**
+### **[RF06] Editar Cliente**
+
+Descrição: Como Microempreendedor, quero atualizar os dados de contato ou endereço de um cliente já cadastrado.
+
+**Pré-requisito**: Cliente deve estar cadastrado [RF05].
+
+1. Usuário pesquisa e seleciona o cliente. 
+2. Altera os campos necessários (Telefone, Endereço, etc). 
+3. Salva a edição.
+
+**Critérios de aceitação:** Os dados atualizados devem ser exibidos no perfil do cliente e em novos comprovantes de venda.
+
+---
+### **[RF07] Adicionar Itens ao Carrinho**
 
 **Descrição:** Como Microempreendedor, quero selecionar produtos ou serviços para iniciar uma venda.
 
@@ -98,7 +120,7 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 **Critérios de aceitação**: O sistema deve mostrar o subtotal parcial conforme os itens são adicionados.
 
 ---
-### **[RF06] Realizar Venda Avulsa**
+### **[RF08] Realizar Venda Avulsa**
 
 **Descrição:** Como Microempreendedor, quero registrar uma venda de algo fora do catálogo ou um serviço rápido.
 
@@ -115,7 +137,7 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 **Critérios de Aceitação:** Essa venda não deve descontar unidades de nenhum produto cadastrado.
 
 ---
-### **[RF07] Definir Pagamento à Vista (Dinheiro/Pix/Débito)**
+### **[RF09] Definir Pagamento à Vista (Dinheiro/Pix/Débito)**
 
 **Descrição:** Como Microempreendedor, quero registrar pagamentos imediatos para finalizar a venda.
 
@@ -127,10 +149,12 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 3. O sistema captura o Preço de Custo Atual dos itens. 
 4. Venda é salva como "Status: Finalizada (Paga)". 
 
+**Fluxos Alternativos:** FA01: Pagamento Misto: Usuário seleciona dois métodos (ex: R$ 50 Pix e R$ 20 Dinheiro).
+
 **Mensagens do Sistema: MSG01:** "Pagamento registrado. Venda finalizada."
 
 ---
-### **[RF08] Registrar Venda Parcelada ou Fiado**
+### **[RF10] Registrar Venda Parcelada ou Fiado**
 
 **Descrição:** Como Microempreendedor, quero vender para receber depois, vinculando a dívida a um cliente.
 
@@ -145,13 +169,11 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 **Fluxos Alternativos:**
 - **FA01:** Cliente não selecionado (Bloqueia a venda).
 
-**Camada de Extensão:** Ao selecionar "Fiado", o sistema exibe uma **Dica de Saúde Financeira**: _"Sugerir parcelas menores aumenta sua chance de receber em dia!"_
-
 **Mensagens do Sistema:**
 - MSG01: "Atenção: Selecione um cliente para realizar venda fiada/parcelada."
 
 ---
-### **[RF09] Gestão de Ciclo de Vida da Venda (Status)**
+### **[RF11] Gestão de Ciclo de Vida da Venda (Status)**
 
 **Descrição:** Como Microempreendedor, quero gerenciar o progresso das vendas.
 
@@ -164,7 +186,7 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 
 ---
 
-### **[RF10] Gerenciar Recebimentos (Contas a Receber)**
+### **[RF12] Gerenciar Recebimentos (Contas a Receber)**
 
 **Descrição:** Como Microempreendedor, quero dar baixa nas dívidas conforme recebo os pagamentos.
 
@@ -175,20 +197,7 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
     
 
 ---
-### **[RF11] Cadastrar Despesa Comercial X pessoal**
-
-**Descrição:** Como Microempreendedor, quero registrar gastos fixos ou variáveis categorizados.
-
-**Camada de Extensão:** Inclusão de um checkbox: **"Esta despesa é do negócio ou retirada pessoal?"**.
-
-**Modal Educativo:** Explicação sobre a importância de separar as contas da casa das contas da empresa.    
-
-**Fluxo Principal:**
-1. Usuário insere Descrição, Valor, Data e seleciona uma Categoria de Despesa (ex: "Aluguel", "Insumos").
-2. Salva o registro.
-
----
-### **[RF12] Relatório de Lucratividade e Diagnóstico de Saúde**
+### **[RF1] Relatório de Lucratividade e Diagnóstico de Saúde**
 
 **Descrição:** Como Microempreendedor, quero visualizar meu lucro líquido mensal acompanhado de uma análise simplificada sobre a viabilidade do meu negócio.
 
@@ -196,33 +205,12 @@ $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\t
 1. Usuário acessa a aba "Relatórios".
 2. Seleciona o período (Mês/Ano).
 3. O sistema calcula o Lucro Real baseado apenas em **Vendas Finalizadas (Pagas)**.
-4. O sistema apresenta o **Diagnóstico de Saúde** (Camada de Extensão).
-	**Lucro Negativo**: "Atenção: Suas despesas superaram suas entradas. Verifique se seu Preço de Venda [RF01] está cobrindo seus custos ou se houve muitas despesas extras este mês."
-	**Retirada Pessoal > Lucro**: "Cuidado! Você está retirando para uso pessoal [RF13] mais do que a empresa lucrou. Isso pode deixar você sem dinheiro para repor o estoque amanhã."
-	**Inadimplência Alta**: "Você tem R$ [Valor] em vendas 'Pendentes' ou 'Atrasadas'. Seu lucro seria maior se esses pagamentos estivessem em dia. Use o lembrete do WhatsApp [RF14]."
-	**Lucro Positivo**: "Parabéns! Seu negócio deu lucro. Que tal separar uma parte para um fundo de reserva ou reinvestir em novos produtos?"
  $$Lucro = (\text{Vendas Pagas}) - (\text{Custo Médio dos Itens Vendidos}) - (\text{Despesas do Negócio})$$
 
----
-### **[RF13] Glossário de Termos** 
-
-**Descrição:** Como Microempreendedor, quero uma central de ajuda que traduza o "economês" para uma linguagem simples e prática do dia a dia.
-
-Uma tela de lista acessível pelo menu principal ou pelos ícones de interrogação `(?)` espalhados pelo app.
-
-1. **Custo Médio Ponderado:** "É o preço real que você pagou pela sua mercadoria. Se você comprou uma caixa de leite por R$ 4 e outra por R$ 5, seu custo médio é R$ 4,50. O app usa isso para você nunca ter prejuízo."    
-2. **Capital de Giro:** "É o 'respiro' do seu negócio. É o dinheiro que você precisa ter guardado para comprar mercadoria antes mesmo de receber dos clientes que compraram fiado."
-3. **Margem de Contribuição:** "É o que sobra de cada venda para pagar suas contas fixas (aluguel, luz) e formar seu lucro. Se a margem for pequena, você precisa vender muito para não fechar no vermelho."
-4. **Inadimplência:** "É o famoso 'calote' ou atraso. É quando o dinheiro que deveria estar no seu caixa ainda está no bolso do cliente."
-5. **Pró-labore:** "É o seu salário. Definir um valor fixo para você evita que você use o dinheiro da empresa para pagar contas de casa, o que é a maior causa de fechamento de negócios."
-6. **Ponto de Equilíbrio:** "É o momento em que suas vendas pagaram exatamente todas as suas despesas. A partir daqui, tudo o que entrar é lucro de verdade."
-
 
 ---
 
-Solução **totalmente local** (executada e armazenada apenas no celular do cliente), a arquitetura ideal é o uso de um banco de dados **SQLite** embarcado O "backend" será, na verdade, uma camada de serviço dentro do código do app.
 
-**Educação sobre Dados:** Você pode incluir uma função de "Backup Manual" (gerar um arquivo ou Excel), ensinando ao usuário a importância de cuidar do próprio registro histórico.
 
 ### **Roteiro entrevista**
 #### Parte A: Controle Mínimo e Hábitos (O Ponto de Partida)

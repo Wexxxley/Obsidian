@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Aleatorios/Estoque e vendas.md",
+                "file": "16_Aleatorios/Aplicativo para estoque e vendas..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estoque e vendas"
+              "title": "Aplicativo para estoque e vendas."
             }
           }
         ]
@@ -201,7 +201,7 @@
     "17_Mobile/3_Declarativo",
     "17_Mobile/2_Imperativo",
     "17_Mobile/1_Kotlin",
-    "16_Aleatorios/Estoque e vendas.md",
+    "16_Aleatorios/Aplicativo para estoque e vendas..md",
     "16_Aleatorios/Pedido de crenciais GIT.md",
     "17_Mobile/2_Imperativo/5_EditText e Button.md",
     "roteiro.md",
