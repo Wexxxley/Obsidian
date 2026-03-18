@@ -19,76 +19,8 @@ Ele recebe como parâmetros:
 ### **2. Row**
 
 Recebe como parâmetros:
+- **modifier**
+- **verticalAlignment**: Controla o posicionamento no Eixo Secundário.
 - **horizontalArrangement**
-- **`verticalAlignment`**: Controla o posicionamento no **Eixo Cruzado** (Vertical).
-    
-    - Ex: `Alignment.CenterVertically` (alinha o texto e o ícone pelo meio).
-        
+![400](../../attachments/1_F0263XxPbXpoA9XdVL2mIw.gif)
 
-![](../../attachments/1_F0263XxPbXpoA9XdVL2mIw.gif)
-
----
-
-## 3. Os conceitos de Arrangement vs. Alignment
-
-Essa é a maior dúvida de quem está começando. A regra é simples:
-
-1. **Arrangement (Arranjo):** Cuida do **Eixo Principal** (onde os itens "andam"). Na Column é a altura; na Row é a largura. Ele decide o **espaçamento** entre os filhos.
-    
-2. **Alignment (Alinhamento):** Cuida do **Eixo Cruzado**. Na Column é a largura; na Row é a altura. Ele decide onde o bloco inteiro se "encosta" (esquerda, direita, topo, baixo).
-    
-
----
-
-## 4. O parâmetro `Weight` (Peso)
-
-Dentro de uma `Row` ou `Column`, você pode usar o `Modifier.weight()`. Isso é extremamente útil para o seu projeto de **Categorias**.
-
-Imagine que você quer uma linha com o nome da categoria e o valor da despesa, mas quer que o nome ocupe todo o espaço e o valor fique no cantinho:
-
-Kotlin
-
-```
-Row(modifier = Modifier.fillMaxWidth()) {
-    Text("Alimentação", modifier = Modifier.weight(1f)) // Ocupa o que sobrar
-    Text("R$ 50,00") // Ocupa apenas o seu próprio tamanho
-}
-```
-
----
-
-## 5. Como funcionam "por baixo do pano"
-
-Quando o Compose lê uma `Column`, ele faz o seguinte:
-
-1. Mede o tamanho de cada filho (cada `Text`, `Button`, etc).
-    
-2. Soma as alturas (se for Column) ou larguras (se for Row).
-    
-3. Aplica o `Arrangement` para decidir onde colocar os espaços vazios.
-    
-4. Desenha tudo na tela de uma vez.
-    
-
-## Exemplo Prático de Uso Combinado:
-
-No seu app, um item da lista de despesas seria uma mistura dos dois:
-
-- Uma **Row** principal (para ícone e textos lado a lado).
-    
-- Uma **Column** dentro dessa Row (para o título da categoria e a data, um embaixo do outro).
-    
-
-Kotlin
-
-```
-Row {
-    Icon(Icons.Default.Category, contentDescription = null)
-    Column {
-        Text("Mercado")
-        Text("18/03/2026", fontSize = 12.sp)
-    }
-}
-```
-
-**Ficou clara a diferença de quando usar `Arrangement` e quando usar `Alignment`? Se quiser, posso te passar um desafio rápido de layout para você testar no seu código!**
