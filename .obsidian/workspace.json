@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Mobile/6_Jetpack compose.md",
+                "file": "17_Mobile/3_Declarativo/2_Layout.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6_Jetpack compose"
+              "title": "2_Layout"
             }
           }
         ]
@@ -182,16 +182,21 @@
   },
   "active": "5937cc003d55938f",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260318063308.png",
+    "17_Mobile/3_Declarativo/1_Jetpack compose.md",
+    "17_Mobile/3_Declarativo/2_Layout.md",
+    "17_Mobile/3_Declarativo",
+    "17_Mobile/2_Imperativo",
+    "17_Mobile/1_Kotlin",
     "attachments/Pasted image 20260318054955.png",
     "16_Aleatorios/Estoque e vendas.md",
-    "17_Mobile/6_Jetpack compose.md",
     "16_Aleatorios/Pedido de crenciais GIT.md",
-    "17_Mobile/5_EditText e Button.md",
+    "17_Mobile/2_Imperativo/5_EditText e Button.md",
     "roteiro.md",
-    "17_Mobile/1_Kotlin Introdução.md",
-    "17_Mobile/4_LinearLayout.md",
-    "17_Mobile/3_Criando primeiro projeto.md",
-    "17_Mobile/2_Kotlin POO.md",
+    "17_Mobile/1_Kotlin/1_Kotlin Introdução.md",
+    "17_Mobile/2_Imperativo/4_LinearLayout.md",
+    "17_Mobile/2_Imperativo/3_Criando primeiro projeto.md",
+    "17_Mobile/1_Kotlin/2_Kotlin POO.md",
     "18_Algebra Linear e CG/9_Vetores.md",
     "attachments/Pasted image 20260302144639.png",
     "09_Português/2_Morfologia/8_Interjeição.md",
@@ -212,22 +217,17 @@
     "09_Português/2_Morfologia/4_Pronome parte 2.md",
     "09_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
     "attachments/Pasted image 20260210102822.png",
-    "attachments/Pasted image 20260210084428.png",
     "14_Arquitetura de Computadores/2_Mecanismos de conversão de linguagens.md",
     "14_Arquitetura de Computadores/1_Fundamentos.md",
     "14_Arquitetura de Computadores",
     "09_Português/1_Ortografia/3_Acentuação gráfica.md",
     "09_Português/1_Ortografia/5_Uso dos porques.md",
     "09_Português/2_Morfologia",
-    "09_Português/1_Ortografia/2_Encontros vocálicos e consonantais.md",
     "Direito Constitucional",
     "09_Português/1_Ortografia",
     "09_Português",
     "01_Roadmap/1_Junior/3_Docker",
     "07_FrontEnd/4_React/2_ProjetoAmethyst",
-    "07_FrontEnd/4_React/1_Fundamentos",
-    "07_FrontEnd/3_JavaScript/1_Introdução",
-    "07_FrontEnd/4_React",
     "Sem título.canvas"
   ]
 }

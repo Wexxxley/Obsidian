@@ -4,7 +4,7 @@
 ---
 ### **1. Arquivos iniciais**
 
-![350](../attachments/Pasted%20image%2020260316081028.png)
+![350](../../attachments/Pasted%20image%2020260316081028.png)
 1. **manifest**: O metadado do sistema. Ele define o pacote da aplicação, declara as permissões necessárias e etc...
 2. **MainActivity**: classe controladora da tela principal. Ela é responsável por gerenciar o ciclo de vida da interface (instanciação, pausa, destruição).
 3. **strings.xml:** Tabela de mapeamento de constantes do tipo `String`. Serve para centralizar textos, evitar o uso de strings literais no código e facilitar a internacionalização.
@@ -36,10 +36,10 @@ Existem duas formas de instanciar esses objetos:
 1. **Via XML:** Você define a hierarquia em arquivos .xml.
 2. **Via Código:** Você instancia os objetos manualmente no seu arquivo java ou kotlin
 
-![](../attachments/Pasted%20image%2020260316093445.png)
+![](../../attachments/Pasted%20image%2020260316093445.png)
 
 ---
 ### 3. Padrões de escala
 
-![](../attachments/Pasted%20image%2020260316093727.png)
+![](../../attachments/Pasted%20image%2020260316093727.png)
 

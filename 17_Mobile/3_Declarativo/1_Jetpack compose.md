@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
 ```
 
 A unidade básica do Compose é a função **@Composable.** Elas são funções Kotlin comuns, mas com uma anotação que diz ao compilador: "esta função transforma dados em elementos de UI".
-![](../attachments/Pasted%20image%2020260318054955.png)
+![](../../attachments/Pasted%20image%2020260318054955.png)
 
 
 

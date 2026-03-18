@@ -20,10 +20,10 @@ Diferentemente do TextView, O EditText permite entrada de texto via teclado e po
 	- `actionNext`: Move o foco para o próximo campo.
 	- `actionDone`: Fecha o teclado.
 	- `actionSearch`: Mostra uma lupa (ícone de busca).
-	![300](../attachments/Pasted%20image%2020260316162644.png)
+	![300](../../attachments/Pasted%20image%2020260316162644.png)
 
-![](../attachments/Pasted%20image%2020260316163514.png)
-![](../attachments/Pasted%20image%2020260316163529.png)
+![](../../attachments/Pasted%20image%2020260316163514.png)
+![](../../attachments/Pasted%20image%2020260316163529.png)
 
 **Atributos para fontes:**
 1. fontFamily: Ela define a família tipográfica.
