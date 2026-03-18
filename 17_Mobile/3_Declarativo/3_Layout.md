@@ -26,4 +26,4 @@ Recebe como parâmetros:
 
 
 ![](../../attachments/Pasted%20image%2020260318092916.png)
-
+![](../../attachments/Pasted%20image%2020260318093128.png)
