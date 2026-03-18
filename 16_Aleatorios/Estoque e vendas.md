@@ -21,9 +21,14 @@ Mensagens do Sistema:
 **Critérios de Aceitação:** Se "Produto", inicia com quantidade zero. Se "Serviço", controle de estoque fica bloqueado.    
 
 ---
+### **[RF02] Editar produto**
 
-[RF02] Editar produto
+Como Microempreendedor, quero alterar as informações de um produto já cadastrado.
 
+**Pré-requisito:** Produto deve estar cadastrado [RF01].
+
+**Fluxo**
+1. Usuário seleciona um produto na lista. 2. Clica em "Editar". 3. Altera as informações desejadas. 4. Salva as alterações
 ---
 ### **[RF02] Cadastrar Categoria**
 
@@ -244,3 +249,9 @@ Solução **totalmente local** (executada e armazenada apenas no celular do clie
 8. **Interrupção vs. Ajuda:** "Se o app perceber que você está vendendo algo com prejuízo , você prefere que ele te avise na hora com uma mensagem colorida ou que guarde isso para um relatório no fim do dia?"
     
 9. **Linguagem Visual:** "Nós temos um 'Glossário' para explicar termos como 'Capital de Giro'. Você prefere que essas explicações sejam em texto curto, áudios rápidos ou ícones que você clica quando tem dúvida?"
+
+
+
+Quinta - domg estarei por ai e podemos conversar
+
+mas antes era bom saber se relamente vai ser algo que vai fzer sentido para vc
