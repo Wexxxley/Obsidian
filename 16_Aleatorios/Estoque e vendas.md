@@ -1,9 +1,6 @@
 
 
 ---
-
-precisam focar em como o **design** pode reduzir a barreira da "falta de tempo" e da "falta de costume" em anotar gastos. O autônomo não quer ser um contador; ele quer que o app seja uma extensão rápida da mão dele.
-
 ### **[RF01] Cadastrar Produto/Serviço**
 
 **Descrição:** Como Microempreendedor, quero registrar itens (produtos ou serviços) para compor meu catálogo.
@@ -15,9 +12,17 @@ precisam focar em como o **design** pode reduzir a barreira da "falta de tempo" 
     4. (Opcional) Seleciona uma categoria de item.
     5. Salva o registro.
     
-**Camada de Extensão:** Adição de um **Modal de Apoio "Como Precificar?"** ao lado do campo Preço de Venda, explicando que o valor deve cobrir o custo médio e as despesas fixas.
+**Fluxos Alternativos:** 
+- FA01: Campos obrigatórios em branco (O sistema impede e sinaliza o campo).
+
+Mensagens do Sistema: 
+- MSG01: "Produto cadastrado com sucesso."
     
 **Critérios de Aceitação:** Se "Produto", inicia com quantidade zero. Se "Serviço", controle de estoque fica bloqueado.    
+
+---
+
+[RF02] Editar produto
 
 ---
 ### **[RF02] Cadastrar Categoria**

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Mobile/3_Declarativo/3_Layout.md",
+                "file": "16_Aleatorios/Estoque e vendas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Layout"
+              "title": "Estoque e vendas"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -166,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,6 +184,8 @@
   },
   "active": "5937cc003d55938f",
   "lastOpenFiles": [
+    "16_Aleatorios/App para estoque e vendas.md",
+    "17_Mobile/3_Declarativo/3_Layout.md",
     "attachments/Pasted image 20260318094250.png",
     "attachments/Pasted image 20260318094231.png",
     "attachments/Pasted image 20260318093128.png",
@@ -193,8 +197,6 @@
     "attachments/Pasted image 20260318084334.png",
     "attachments/Pasted image 20260318084306.png",
     "attachments/Pasted image 20260318084245.png",
-    "attachments/Pasted image 20260318084224.png",
-    "17_Mobile/3_Declarativo/3_Layout.md",
     "17_Mobile/3_Declarativo/1_Jetpack compose.md",
     "17_Mobile/3_Declarativo",
     "17_Mobile/2_Imperativo",
@@ -209,7 +211,6 @@
     "17_Mobile/1_Kotlin/2_Kotlin POO.md",
     "18_Algebra Linear e CG/9_Vetores.md",
     "09_Português/2_Morfologia/8_Interjeição.md",
-    "16_Aleatorios/App para estoque e vendas.md",
     "09_Português/2_Morfologia/7_Verbo e advérbio.md",
     "09_Português/2_Morfologia/6_Plural de nomes compostos.md",
     "09_Português/2_Morfologia/2_Artigo, adjetivo e numeral.md",
