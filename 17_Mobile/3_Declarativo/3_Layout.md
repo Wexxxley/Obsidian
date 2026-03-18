@@ -24,3 +24,6 @@ Recebe como parâmetros:
 - **horizontalArrangement**
 ![400](../../attachments/1_F0263XxPbXpoA9XdVL2mIw.gif)
 
+
+![](../../attachments/Pasted%20image%2020260318092916.png)
+
