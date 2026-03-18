@@ -4,32 +4,28 @@
 Existem basicamente 3 layouts em jetpack componentes: Column, row and box. Como o Compose não sabe onde colocar os elementos por padrão, você usa esses três "containers" para organizar o layout.
 
 ![](../../attachments/Pasted%20image%2020260318063308.png)
+
+---
 ### **1. Column**
 
 Ele recebe como parâmetros:
 - **modifier**
+- **horizontalAlignment**: Controla o posicionamento no Eixo secundário.
 - **verticalArrangement**: Controla o posicionamento no Eixo Principal.
-- **horizontalAlignment**: Controla o posicionamento no **Eixo Cruzado** (Horizontal).
-    
-    - Ex: `Alignment.CenterHorizontally`, `Alignment.End`.
-        
+
+![300](../../attachments/1_AcweX3i0odfh9hJp2kI6hA.gif)
 
 ---
+### **2. Row**
 
-## 2. Row (Linha)
-
-A **Row** organiza os elementos na **horizontal**.
-
-## O que ela recebe (Parâmetros principais):
-
-- **`horizontalArrangement`**: Controla o posicionamento no **Eixo Principal** (Horizontal).
-    
-    - Ex: `Arrangement.End` (empurra tudo para a direita), `Arrangement.spacedBy(8.dp)` (espaço fixo entre itens).
-        
+Recebe como parâmetros:
+- **horizontalArrangement**
 - **`verticalAlignment`**: Controla o posicionamento no **Eixo Cruzado** (Vertical).
     
     - Ex: `Alignment.CenterVertically` (alinha o texto e o ícone pelo meio).
         
+
+![](../../attachments/1_F0263XxPbXpoA9XdVL2mIw.gif)
 
 ---
 
