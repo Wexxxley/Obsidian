@@ -6,17 +6,7 @@ Existem basicamente 3 layouts em jetpack componentes: Column, row and box. Como 
 ![](../../attachments/Pasted%20image%2020260318063308.png)
 
 ---
-### **1. Column**
-
-Ele recebe como parâmetros:
-- **modifier**
-- **horizontalAlignment**: Controla o posicionamento no Eixo secundário.
-- **verticalArrangement**: Controla o posicionamento no Eixo Principal.
-
-![300](../../attachments/1_AcweX3i0odfh9hJp2kI6hA.gif)
-
----
-### **2. Row**
+### **1. Row**
 
 Recebe como parâmetros:
 - **modifier**
@@ -27,3 +17,15 @@ Recebe como parâmetros:
 
 ![](../../attachments/Pasted%20image%2020260318092916.png)
 ![](../../attachments/Pasted%20image%2020260318093128.png)
+
+---
+### **2 Column**
+
+Ele recebe como parâmetros:
+- **modifier**
+- **horizontalAlignment**: Controla o posicionamento no Eixo secundário.
+- **verticalArrangement**: Controla o posicionamento no Eixo Principal.
+
+![300](../../attachments/1_AcweX3i0odfh9hJp2kI6hA.gif)
+![](../../attachments/Pasted%20image%2020260318094231.png)
+![200](../../attachments/Pasted%20image%2020260318094250.png)
