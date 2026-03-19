@@ -44,4 +44,4 @@ Para um TextField funcionar, ele precisa de duas coisas obrigatoriamente:
 
 **Simulando uma tela de cadastro**
 ![500](../../attachments/Pasted%20image%2020260319144500.png)
-![200](../../attachments/tela%20cadastro.gif)
+![300](../../attachments/tela%20cadastro.gif)
