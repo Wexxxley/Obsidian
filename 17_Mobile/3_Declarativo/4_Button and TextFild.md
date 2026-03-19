@@ -42,15 +42,17 @@ Para um TextField funcionar, ele precisa de duas coisas obrigatoriamente:
 - **keyboardOptions**: Define o tipo de teclado (apenas números, e-mail, etc).
 - **readOnly = true**: O usuário pode selecionar o texto e copiar, mas não pode mudar (bom para datas escolhidas em calendários).
 
-
 **Diferença entre = e by**
-
 - Quando você usa o sinal de =, a sua variável se torna o "contêiner" do estado. Isso obriga você a escrever `.value` toda vez que quiser acessá-lo. 
-
 - Quando você usa o **`by`**, você usa uma funcionalidade do Kotlin chamada delegação. A variável se comporta como se fosse o próprio dado. Você lê e escreve nela diretamente, sem digitar `.value`. 
 
 **Remember**: No Compose, as funções são executadas de novo toda vez que algo muda na tela. Se você não usasse o remember, a sua variável seria resetada para o valor inicial toda vez que a tela fosse redesenhada.
 
+**MutableState**: MutableState representa um valor que pode mudar de estado em tempo de execução. Quando o valor contido nesse estado é alterado, o Compose agenda automaticamente a recomposição de todas as funções que leram esse valor específico.
+- **mutableStateOf**: implementação genérica. Ela aceita qualquer tipo de objeto. 
+- **mutableIntStateOf**: Uma implementação especializada para valores do tipo `Int`. 
+- **mutableFloatStateOf**: Especializada para o tipo `Float`. 
+- **mutableStateListOf**: Cria uma lista mutável.
 
 **Simulando uma tela de cadastro**
 ![500](../../attachments/Pasted%20image%2020260319144500.png)
