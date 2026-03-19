@@ -4,7 +4,7 @@
 ---
 Jetpack Compose é um kit de ferramentas para construir UI Android nativa. O Jetpack Compose usa programação declarativa.
 
-**Imperativa**: Este paradigma envolve ter um modelo separado da UI do aplicativo.
+**Imperativa**: Este paradigma envolve ter um layout separado da UI do aplicativo.
 ```xml
 <TextView
     android:id="@+id/tv_name"
