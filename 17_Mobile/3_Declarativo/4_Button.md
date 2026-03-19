@@ -16,3 +16,5 @@ Tudo o que você coloca dentro do conteudo do botão se comporta como se estives
 - **`shape`**: Define o arredondamento.
 - **`contentPadding`**: Ajusta o espaçamento interno.
 - `border`: Define borda
+
+![](../../attachments/Pasted%20image%2020260319105716.png)
