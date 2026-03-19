@@ -28,68 +28,18 @@ Usando estado no botão
 ---
 ### **2. TextFild**
 
-O TextField é o componente de entrada de texto. O TextField não "guarda" o texto sozinho. Se você digitar e não atualizar o estado, o texto não aparece na tela.
+O TextField é o componente de entrada de texto. O TextField não "guarda" o texto sozinho. Se você digitar e não atualizar o estado, o texto não aparece na tela. Existe também o **OutlinedTextFild** que tem borda completa ao redor. Usado em telas de login e cadastros.
 
 Para um TextField funcionar, ele precisa de duas coisas obrigatoriamente:
 - **value**: O que está escrito nele agora (o Estado).
 - **onValueChange**: O que fazer quando o usuário digita uma tecla nova.
-```kotlin
-var textoDigitado by remember { mutableStateOf("") }
 
-TextField(
-    value = textoDigitado,
-    onValueChange = { novoTexto -> 
-        textoDigitado = novoTexto 
-    },
-    label = { Text("Digite seu nome") }
-)
-```
-
----
-### **2. TextFild**
-## 2. Tipos de TextField (Material Design 3)
-
-Existem dois estilos principais que já vêm prontos:
-
-| **Componente**          | **Visual**                              | **Uso Comum**                             |
-| ----------------------- | --------------------------------------- | ----------------------------------------- |
-| **`TextField`**         | Fundo preenchido com uma linha embaixo. | Formulários rápidos, buscas.              |
-| **`OutlinedTextField`** | Borda completa ao redor do texto.       | Telas de login, cadastros (mais moderno). |
-
----
-
-## 3. Customizações Importantes
-
-O `TextField` tem muitos parâmetros para facilitar a vida do usuário:
-
-- **`label`**: O texto que "flutua" quando você clica.
+![](../../attachments/Pasted%20image%2020260319140505.png)
+- **label**: O texto que "flutua" quando você clica.
+- **placeholder**: O texto cinza que aparece quando está vazio (dica).
     
-- **`placeholder`**: O texto cinza que aparece quando está vazio (dica).
-    
-- **`leadingIcon` / `trailingIcon`**: Ícones no início ou no fim (ex: ícone de lupa ou de "olhinho" para senha).
-    
-- **`visualTransformation`**: Usado para esconder a senha: `PasswordVisualTransformation()`.
-    
-- **`keyboardOptions`**: Define o tipo de teclado (apenas números, e-mail, etc).
-    
-
-Kotlin
-
-```
-OutlinedTextField(
-    value = texto,
-    onValueChange = { texto = it },
-    label = { Text("E-mail") },
-    leadingIcon = { Icon(Icons.Default.Email, contentDescription = null) },
-    keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
-    singleLine = true // Impede que o usuário dê "Enter" para pular linha
-)
-```
-
----
-
-## 4. O "Pulo do Gato": Somente Leitura ou Desativado
-
+- **leadingIcon /trailingIcon**: Ícones no início ou no fim.
+- **visualTransformation**: Usado para esconder a senha: `PasswordVisualTransformation()`.
+- **keyboardOptions**: Define o tipo de teclado (apenas números, e-mail, etc).
 - **`readOnly = true`**: O usuário pode selecionar o texto e copiar, mas não pode mudar (bom para datas escolhidas em calendários).
-    
 - **`enabled = false`**: O campo fica cinza e o usuário não consegue nem clicar nele.
