@@ -36,10 +36,12 @@ Para um TextField funcionar, ele precisa de duas coisas obrigatoriamente:
 
 ![](../../attachments/Pasted%20image%2020260319140505.png)
 - **label**: O texto que "flutua" quando você clica.
-- **placeholder**: O texto cinza que aparece quando está vazio (dica).
-    
+- **placeholder**: Dica.
 - **leadingIcon /trailingIcon**: Ícones no início ou no fim.
-- **visualTransformation**: Usado para esconder a senha: `PasswordVisualTransformation()`.
+- **visualTransformation**: Usado para esconder a senha: PasswordVisualTransformation().
 - **keyboardOptions**: Define o tipo de teclado (apenas números, e-mail, etc).
-- **`readOnly = true`**: O usuário pode selecionar o texto e copiar, mas não pode mudar (bom para datas escolhidas em calendários).
-- **`enabled = false`**: O campo fica cinza e o usuário não consegue nem clicar nele.
+- **readOnly = true**: O usuário pode selecionar o texto e copiar, mas não pode mudar (bom para datas escolhidas em calendários).
+
+**Simulando uma tela de cadastro**
+![500](../../attachments/Pasted%20image%2020260319144500.png)
+![200](../../attachments/tela%20cadastro.gif)
