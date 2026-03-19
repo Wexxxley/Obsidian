@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Mobile/3_Declarativo/4_Button.md",
+                "file": "17_Mobile/3_Declarativo/4_Button and TextFild.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Button"
+              "title": "4_Button and TextFild"
             }
           }
         ]
@@ -183,10 +183,11 @@
   },
   "active": "5937cc003d55938f",
   "lastOpenFiles": [
+    "attachments/Peek 2026-03-19 13-50.gif",
     "attachments/Pasted image 20260319105716.png",
     "attachments/Pasted image 20260319102931.png",
     "17_Mobile/3_Declarativo/3_Layout.md",
-    "17_Mobile/3_Declarativo/4_Button.md",
+    "17_Mobile/3_Declarativo/4_Button and TextFild.md",
     "16_Aleatorios/RoteiroParaguai.md",
     "roteiro.md",
     "16_Aleatorios/Aplicativo para estoque e vendas..md",
@@ -203,7 +204,6 @@
     "attachments/1_F0263XxPbXpoA9XdVL2mIw.gif",
     "attachments/Pasted image 20260318090207.png",
     "attachments/Pasted image 20260318084334.png",
-    "attachments/Pasted image 20260318084306.png",
     "17_Mobile/3_Declarativo",
     "17_Mobile/2_Imperativo",
     "17_Mobile/1_Kotlin",
