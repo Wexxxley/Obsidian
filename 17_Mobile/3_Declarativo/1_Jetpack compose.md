@@ -25,26 +25,16 @@ fun Saudacao(nome: String) {
 }
 ```
 
-
-![](../../attachments/Pasted%20image%2020260318071737.png)
-Esse é o codigo padrão quando você cria um novo projeto com jetpack component
- 
+Esse é o codigo padrão quando você cria um novo projeto com jetpack component:
+![570](../../attachments/Pasted%20image%2020260318071737.png)
  1. **MainActivity**: Activity é a tela que o usuário vê.
 	- **`onCreate`**: É o primeiro método chamado quando o app abre.
-	
 	- **`enableEdgeToEdge()`**: Faz com que o conteúdo do app use toda a tela.
-	
     - **`setContent { ... }`**: É aqui que você define o que está dentro do app
-    
 	- **`TestesTheme`**: É o Composable de estilo do seu projeto. Esse nome foi gerado automaticamente com base no nome do projeto. Tudo o que você coloca dentro dele vai herdar as cores, fontes e estilos que estão definidos nos arquivo theme do seu projeto.
+	- **`Scaffold`**: O Scaffold é um componente com a estruturação da sua tela que já tem espaços reservados para: TopBar, BottomBar, Content.
 
-	- **`Scaffold`**: O Scaffold é um componente, pense nele como a estruturação da sua tela que já tem espaços reservados para:
-		- TopBar
-		- BottomBar
-		- Content
-	    Ele calcula os espaços automaticamente. Por exemplo, se você colocar uma TopBar, o Scaffold empurra o seu texto um pouco para baixo.
-
-2. O Componente Greeting: Função criada para mostrar algo na tela:
+2. **O Componente Greeting**: Função criada para mostrar algo na tela:
 	- **`modifier`**: No código de cima, ele recebe o `innerPadding` do Scaffold para garantir que o texto tenha o espaçamento correto.
 	
     - **`Text`**: A função pronta do Android que desenha o texto na tela.
