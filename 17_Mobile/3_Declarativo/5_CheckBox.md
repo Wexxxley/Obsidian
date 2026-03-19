@@ -8,29 +8,6 @@ O componente Checkbox é para permitir que o usuário selecione uma ou mais opç
 - **onCheckedChange:** Uma função de retorno (callback) disparada sempre que o usuário interage com o componente. 
 
 
-Implementação Básica
-```
-var isChecked by remember { mutableStateOf(false) }
-
-Checkbox(
-    checked = isChecked,
-    onCheckedChange = { isChecked = it }
-)
-```
-
-## 3. Estados do Checkbox (ToggleableState)
-
-Embora o uso mais comum seja binário (verdadeiro/falso), o Checkbox suporta o conceito de "Tri-state" através da enumeração `ToggleableState`:
-
-- **On (Ativado):** O item está selecionado.
-    
-- **Off (Desativado):** O item não está selecionado.
-    
-- **Indeterminate (Indeterminado):** Utilizado geralmente em listas onde apenas alguns subitens estão selecionados. O ícone exibido costuma ser um traço horizontal em vez de um "v".
-    
-
-## 4. Customização e Propriedades
-
 O componente aceita parâmetros específicos para ajustar seu comportamento e estética:
 
 - **enabled:** Um booleano que define se o componente responde a interações. Se `false`, o Checkbox assume uma aparência acinzentada.
