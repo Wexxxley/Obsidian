@@ -26,49 +26,8 @@ O componente possui as seguintes propriedades fundamentais em sua assinatura:
 - **selected:** Define se o botão está preenchido. 
 - **onClick**: O evento disparado ao clicar no botão. Diferente do Checkbox, ele não retorna um booleano, pois o clique em um RadioButton sempre significa a intenção de selecioná-lo.    
 
-
-
-Para garantir uma boa experiência de uso, os RadioButtons devem ser organizados dentro de uma `Column` ou `Row`, acompanhados de rótulos de texto.
-
-```
-// 1. Definição das opções possíveis
-val opcoesSet = listOf("Cartão de Crédito", "Boleto Bancário", "Pix")
-
-// 2. Estado que armazena a opção atualmente escolhida (inicialmente a primeira)
-var opcaoSelecionada by remember { mutableStateOf(opcoesSet[0]) }
-
-Column(modifier = Modifier.padding(16.dp)) {
-    Text(text = "Selecione a forma de pagamento:", fontSize = 18.sp)
-
-    opcoesSet.forEach { textoOpcao ->
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(56.dp)
-                // Centralização da lógica de clique na linha inteira
-                .selectable(
-                    selected = (textoOpcao == opcaoSelecionada),
-                    onClick = { opcaoSelecionada = textoOpcao }
-                )
-                .padding(horizontal = 16.dp),
-            verticalAlignment = Alignment.CenterVertically
-        ) {
-            RadioButton(
-                selected = (textoOpcao == opcaoSelecionada),
-                // Definimos como null para que o clique seja gerenciado pela Row (selectable)
-                onClick = null 
-            )
-            Text(
-                text = textoOpcao,
-                modifier = Modifier.padding(start = 16.dp),
-                fontSize = 16.sp
-            )
-        }
-    }
-}
-```
-
-## 4. O Modificador .selectable
+![550](../../attachments/Pasted%20image%2020260319212728.png)
+![300](../../attachments/Pasted%20image%2020260319212654.png)
 
 No exemplo acima, utilizamos `Modifier.selectable` em vez de `.clickable`.
 
