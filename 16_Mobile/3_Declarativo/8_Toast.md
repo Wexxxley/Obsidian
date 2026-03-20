@@ -28,40 +28,6 @@ Para exibir um Snackbar, o Compose utiliza quatro elementos trabalhando em conju
 - **SnackbarHostState:** O objeto que gerencia o estado.
 - **CoroutineScope:** Necessário porque a função de exibir o Snackbar é "suspensa" (executada de forma assíncrona).
 
-Ao disparar a mensagem através do `snackbarHostState.showSnackbar()`, podemos configurar:
+![](../../attachments/Pasted%20image%2020260320092206.png)
+![300](../../attachments/stackbar.gif)
 
-- **message:** O texto principal da mensagem.
-    
-- **actionLabel:** O texto do botão de ação (ex: "OK", "Desfazer").
-    
-- **withDismissAction:** Um booleano que, se `true`, adiciona um ícone "X" para fechar a mensagem manualmente.
-    
-- **duration:** Define o tempo de exibição:
-    
-    - `Short` / `Long`: Desaparece automaticamente.
-        
-    - `Indefinite`: Permanece na tela até que o usuário interaja.
-        
-## 4. Customização Visual
-
-A aula também demonstra que é possível personalizar as cores do Snackbar dentro do parâmetro `snackbarHost` do `Scaffold`. Utiliza-se o componente `Snackbar` e suas propriedades:
-
-- **containerColor:** Altera a cor de fundo (ex: `Color.Red`).
-    
-- **contentColor:** Altera a cor do texto da mensagem.
-    
-- **actionColor:** Altera a cor do texto do botão de ação.
-    
-- **dismissActionContentColor:** Altera a cor do ícone de fechar (X).
-    
-
-## 5. Resumo de Diferenças: Toast vs Snackbar
-
-- **Posição:** O Toast costuma ser centralizado ou flutuante; o Snackbar é fixado na base (Material Design).
-    
-- **Interação:** O Toast é apenas informativo; o Snackbar permite botões de ação e fechamento manual.
-    
-- **Fila:** O `SnackbarHostState` garante que apenas um Snackbar apareça por vez, colocando os outros em uma fila de espera automaticamente.
-    
-
-Deseja que eu explique como integrar o Snackbar com um **Floating Action Button (FAB)** para que o botão suba automaticamente quando a mensagem aparecer?
