@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fd03f513071a0b80",
+        "id": "9fc7e66f526c7a08",
         "type": "tabs",
         "children": [
           {
-            "id": "5937cc003d55938f",
+            "id": "8a1df320e11319c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "18_Aleatorios/Aplicativo para estoque e vendas..md",
+                "file": "16_Mobile/3_Declarativo/6_Switch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aplicativo para estoque e vendas."
+              "title": "6_Switch"
             }
           }
         ]
@@ -181,9 +181,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5937cc003d55938f",
+  "active": "8a1df320e11319c4",
   "lastOpenFiles": [
     "16_Mobile/3_Declarativo/5_CheckBox and RadioButtons.md",
+    "16_Mobile/3_Declarativo/6_Switch.md",
+    "18_Aleatorios/Aplicativo para estoque e vendas..md",
     "attachments/radioButton.gif",
     "attachments/Pasted image 20260319212728.png",
     "attachments/Pasted image 20260319212654.png",
@@ -198,7 +200,6 @@
     "attachments/Pasted image 20260319105716.png",
     "18_Aleatorios/RoteiroParaguai.md",
     "roteiro.md",
-    "18_Aleatorios/Aplicativo para estoque e vendas..md",
     "16_Aleatorios/App para estoque e vendas.md",
     "16_Mobile/3_Declarativo/2_Scallfold.md",
     "16_Mobile/3_Declarativo/1_Jetpack compose.md",
