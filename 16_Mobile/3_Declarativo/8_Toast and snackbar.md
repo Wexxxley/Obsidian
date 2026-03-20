@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 A ferramenta toast fornece feedbacks rápidos e não intrusivos ao usuário. O Toast aparece como um pequeno pop-up que não interrompe a interação com a tela e desaparece automaticamente após alguns segundos.

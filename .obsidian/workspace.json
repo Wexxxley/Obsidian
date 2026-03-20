@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Mobile/3_Declarativo/8_Toast.md",
+                "file": "16_Mobile/3_Declarativo/8_Toast and snackbar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_Toast"
+              "title": "8_Toast and snackbar"
             }
           }
         ]
@@ -188,7 +188,7 @@
     "attachments/Pasted image 20260320084924.png",
     "attachments/toast.gif",
     "16_Mobile/3_Declarativo/7_Dropdown menu.md",
-    "16_Mobile/3_Declarativo/8_Toast.md",
+    "16_Mobile/3_Declarativo/8_Toast and snackbar.md",
     "attachments/Pasted image 20260320083512.png",
     "attachments/dropdown.gif",
     "16_Mobile/3_Declarativo/6_Switch.md",
