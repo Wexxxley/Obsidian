@@ -27,26 +27,12 @@ O componente possui as seguintes propriedades fundamentais em sua assinatura:
 - **onClick**: O evento disparado ao clicar no botão. Diferente do Checkbox, ele não retorna um booleano, pois o clique em um RadioButton sempre significa a intenção de selecioná-lo.    
 
 ![550](../../attachments/Pasted%20image%2020260319212728.png)
-![300](../../attachments/Pasted%20image%2020260319212654.png)
+![300](../../attachments/radioButton.gif)
 
 No exemplo acima, utilizamos `Modifier.selectable` em vez de `.clickable`.
+- selectable é otimizado para componentes de seleção única. 
 
-- **Propósito Técnico:** O `selectable` é otimizado para componentes de seleção única. Ele lida internamente com a acessibilidade, informando ao sistema que aquele item faz parte de um grupo onde apenas um pode estar ativo.
-    
-- **Lógica de Comparação:** A propriedade `selected` recebe o resultado da expressão booleana `(textoOpcao == opcaoSelecionada)`. O Compose avalia isso para cada item da lista; apenas aquele que coincidir com o valor armazenado no estado será desenhado como selecionado.
-    
-
-## 5. Diferenças Cruciais entre Checkbox e RadioButton
-
-- **Intencionalidade:** O Checkbox é para múltiplas escolhas independentes. O RadioButton é para uma escolha única obrigatória entre várias.
-    
-- **Comportamento de Clique:** Um Checkbox pode ser desmarcado clicando nele novamente (toggle). Um RadioButton, por padrão, não é desmarcado ao ser clicado novamente; ele permanece selecionado até que outra opção do grupo seja escolhida.
-    
-
-## 6. Agrupamento com Data Classes
-
-Em sistemas complexos, em vez de usar uma lista de Strings, recomenda-se o uso de uma `data class` ou um `Enum` para representar as opções, garantindo que a comparação lógica seja feita através de IDs ou tipos específicos, evitando erros de digitação.
-
-Deseja que eu demonstre como integrar este grupo de RadioButtons ao formulário de cadastro que desenvolvemos anteriormente?
-
+**Checkbox e RadioButton**
+- O Checkbox é para múltiplas escolhas independentes. O RadioButton é para uma escolha única obrigatória entre várias.
+- Um Checkbox pode ser desmarcado clicando nele novamente. Um RadioButton, por padrão, não é desmarcado ao ser clicado novamente,
 
