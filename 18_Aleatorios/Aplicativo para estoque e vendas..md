@@ -211,37 +211,22 @@ Descrição: Como Microempreendedor, quero atualizar os dados de contato ou ende
 ---
 ### **Roteiro entrevista**
 
-1. Hoje, quando você vende algo ou paga uma conta do seu negócio, você anota? você tem controle dos gastos e lucros do seu egócio? 
+1. Hoje, quando você vende algo ou paga uma conta do seu negócio, você anota? você tem controle dos gastos e lucros do seu negócio? 
     
-2. Você possui clareza sobre o lucro  real do seu negócio ao final do mês, subtraindo custos de aquisição e despesas operacionais?
-
-3. Quais são os principais obstáculos (falta de tempo, esquecimento, complexidade) que impedem o registro imediato e diário de todas as transações?
-
-4. Você costuma misturar o dinheiro do seu negócio com o seu dinheiro pessoal?
-
-5. No caso de vendas não pagas no ato, quais informações você anota para garantir a cobrança (nome, data de vencimento, parcelas pagas)?
+2. Você possui clareza sobre o lucro real do seu negócio ao final do mês, subtraindo custos de aquisição e despesas operacionais?
     
-6. Você identifica facilmente quais clientes possuem parcelas em atraso e qual o montante total que você tem "na rua" para receber?
+3. Além do custo do produto, você registra gastos fixos (aluguel, luz) ou variáveis (embalagens, frete) separadamente para entender o peso de cada um no seu negócio?
     
-- **Uso de Comprovantes:** Você utiliza notas promissórias ou algum tipo de recibo físico para formalizar essas dívidas?
+4. Quais são os principais obstáculos (falta de tempo, esquecimento, complexidade) que impedem o registro imediato e diário de todas as transações?
     
-
-## 4. Relacionamento e Comunicação com o Cliente
-
-Focado em validar a integração com ferramentas de comunicação e cadastro.
-
-- **Base de Contatos:** Você mantém um histórico de compras por cliente para oferecer promoções ou realizar cobranças?
+5. Você costuma misturar o dinheiro do seu negócio com o seu dinheiro pessoal?
     
-- **Canais de Cobrança:** Qual a principal dificuldade em realizar a cobrança de clientes inadimplentes? O uso de ferramentas como o WhatsApp facilita ou dificulta esse processo?
+6. Você utiliza notas promissórias ou algum tipo de recibo físico para formalizar essas dívidas?
     
-
-## 5. Tecnologia e Mobilidade
-
-Validando a premissa de uma solução **totalmente local e mobile**.
-
-- **Acesso à Informação:** Em quais momentos você sente mais falta de ter os dados do seu negócio na palma da mão (durante uma venda externa, ao visitar fornecedores, etc)?
+7. No caso de vendas não pagas no ato, quais informações você anota para garantir a cobrança (nome, data de vencimento, parcelas pagas)?
     
-- **Segurança de Dados:** Qual sua percepção sobre armazenar todos os dados da sua empresa apenas no celular, sem dependência de internet para funcionar?
+8. Você identifica facilmente quais clientes possuem parcelas em atraso e qual o montante total que você tem para receber?
     
-
-Gostaria que eu elaborasse um modelo de formulário para você aplicar essas perguntas e tabular as respostas?
+9. Você mantém um histórico de compras por cliente para oferecer promoções ou realizar cobranças?
+    
+10. Você acha que um app descomplicado onde você poderia fazer suas vendas, anotar vendas, selecionar formas de pagamento, ver as parcelas a serem pagas, as datas a serem recebidas, de forma offline, na palma da sua mão seria prático para vc?
