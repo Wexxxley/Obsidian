@@ -209,37 +209,39 @@ Descrição: Como Microempreendedor, quero atualizar os dados de contato ou ende
 
 
 ---
-
-
-
 ### **Roteiro entrevista**
-#### Parte A: Controle Mínimo e Hábitos (O Ponto de Partida)
 
-1. "Hoje, quando você vende algo ou paga uma conta da empresa, onde você anota? (Papel, WhatsApp, memória, ou não anota nada?)"
+1. Hoje, quando você vende algo ou paga uma conta do seu negócio, você anota? você tem controle dos gastos e lucros do seu egócio? 
     
-2. "O que mais te impede de manter tudo anotadinho todo dia? (Falta de tempo, esquece o valor, preguiça de abrir o caderno?)"
-    
-3. "Você costuma misturar o dinheiro da venda com o dinheiro para comprar o pão de casa? Como você se sente ao tentar separar isso no fim do mês?"
+2. Você possui clareza sobre o lucro  real do seu negócio ao final do mês, subtraindo custos de aquisição e despesas operacionais?
 
-#### Parte B: Design para Economia de Tempo (UI/UX)
+3. Quais são os principais obstáculos (falta de tempo, esquecimento, complexidade) que impedem o registro imediato e diário de todas as transações?
 
-4. **Preferência de Entrada:** "Para cadastrar um produto novo, você prefere preencher um formulário completo ou apenas o nome e o preço, deixando o resto para depois?"
+4. Você costuma misturar o dinheiro do seu negócio com o seu dinheiro pessoal?
+
+5. No caso de vendas não pagas no ato, quais informações você anota para garantir a cobrança (nome, data de vencimento, parcelas pagas)?
     
-5. **Visibilidade de Dados:** "Ao abrir o aplicativo, qual informação você precisa ver em letras bem grandes para sentir que seu dia está indo bem? (Total vendido hoje, quem está te devendo, ou quanto tem no caixa?)"
+6. Você identifica facilmente quais clientes possuem parcelas em atraso e qual o montante total que você tem "na rua" para receber?
     
-6. **Hierarquia Visual:** "Na hora de registrar uma venda, o que facilitaria mais: uma lista de fotos dos seus produtos ou uma barra de pesquisa rápida por nome?"
-    
-7. **Interação com 'Fiado':** "Quando você registra uma venda para receber depois , você prefere que o sistema te mostre um calendário para escolher a data ou botões rápidos como 'Próxima Semana' e 'Fim do Mês'?"
+- **Uso de Comprovantes:** Você utiliza notas promissórias ou algum tipo de recibo físico para formalizar essas dívidas?
     
 
-#### Parte C: Design Educativo (A Camada de Extensão)
+## 4. Relacionamento e Comunicação com o Cliente
 
-8. **Interrupção vs. Ajuda:** "Se o app perceber que você está vendendo algo com prejuízo , você prefere que ele te avise na hora com uma mensagem colorida ou que guarde isso para um relatório no fim do dia?"
+Focado em validar a integração com ferramentas de comunicação e cadastro.
+
+- **Base de Contatos:** Você mantém um histórico de compras por cliente para oferecer promoções ou realizar cobranças?
     
-9. **Linguagem Visual:** "Nós temos um 'Glossário' para explicar termos como 'Capital de Giro'. Você prefere que essas explicações sejam em texto curto, áudios rápidos ou ícones que você clica quando tem dúvida?"
+- **Canais de Cobrança:** Qual a principal dificuldade em realizar a cobrança de clientes inadimplentes? O uso de ferramentas como o WhatsApp facilita ou dificulta esse processo?
+    
 
+## 5. Tecnologia e Mobilidade
 
+Validando a premissa de uma solução **totalmente local e mobile**.
 
-Quinta - domg estarei por ai e podemos conversar
+- **Acesso à Informação:** Em quais momentos você sente mais falta de ter os dados do seu negócio na palma da mão (durante uma venda externa, ao visitar fornecedores, etc)?
+    
+- **Segurança de Dados:** Qual sua percepção sobre armazenar todos os dados da sua empresa apenas no celular, sem dependência de internet para funcionar?
+    
 
-mas antes era bom saber se relamente vai ser algo que vai fzer sentido para vc
+Gostaria que eu elaborasse um modelo de formulário para você aplicar essas perguntas e tabular as respostas?
