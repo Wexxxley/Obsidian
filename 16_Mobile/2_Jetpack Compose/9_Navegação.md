@@ -4,63 +4,78 @@
 ---
 
 É recomendado criar arquivos Kotlin separados para cada tela.
-- **MainActivity.kt**: Fica apenas como o ponto de entrada.
-- **MainPage.kt**: Conterá a interface da primeira tela.
-- **SecondPage.kt**: Conterá a interface da segunda tela.
+![](../../attachments/Pasted%20image%2020260321090519.png)
 
-Antes de desenhar os componentes, o instrutor altera a cor da barra de status (onde fica o relógio e bateria) para combinar com o app. Isso é feito no arquivo `Theme.kt`.
+**MainPage**
+![500](../../attachments/Pasted%20image%2020260321090626.png)
+![520](../../attachments/Pasted%20image%2020260321090646.png)
+![200](../../attachments/tela1.gif)
 
-Kotlin
+Para que a navegação aconteça, você precisa de uma **Estrutura de Controle** que gerencie as telas. 
 
-```
-// Dentro do arquivo Theme.kt
-val myStatusBarColor = colorResource(id = R.color.purple_700)
-val view = LocalView.current
-if (!view.isInEditMode) {
-    SideEffect {
-        val window = (view.context as Activity).window
-        // Converte a cor para o formato ARGB que o Android entende
-        window.statusBarColor = myStatusBarColor.toARGB()
-    }
-}
-```
+O Jetpack Navigation é um Grafo Direcionado:
 
 
-## 4. Criando a TopAppBar na MainPage
+Até agora, você tem o código de um Nodo (`MainPage`), mas não declarou o Grafo no sistema Android.
 
-O instrutor define uma barra superior com fundo roxo e título branco.
+Você precisa de um lugar central (geralmente na sua `MainActivity` ou em uma função separada) para definir esse grafo. Para isso, usamos três componentes do Google:
+
+- **`navController`**: Ele sabe em qual tela o usuário está e guarda o histórico (pilha).
+    
+- **`NavHost`**: É o container visual. Ele decide qual Composable desenhar na tela baseada na rota ativa.
+    
+- **`composable("rota")`**: É onde você registra suas telas.
+
+Para consertar seu projeto agora, você deve criar uma função (pode ser no mesmo arquivo da `MainPage` ou na `MainActivity`) que organize isso:
 
 Kotlin
 
 ```
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun MainPage() {
-    Scaffold(
-        topBar = {
-            TopAppBar(
-                title = { Text(text = "Main Page", color = Color.White, fontSize = 20.sp) },
-                colors = TopAppBarDefaults.smallTopAppBarColors(
-                    containerColor = colorResource(id = R.color.purple_500)
-                )
-            )
-        },
-        content = { paddingValues ->
-            // O conteúdo da página entra aqui, usando o paddingValues
+fun AppNavigation() {
+    // 1. Criamos o motor de navegação
+    val navController = rememberNavController()
+
+    // 2. Definimos o Host (o palco) e a tela inicial
+    NavHost(navController = navController, startDestination = "tela_principal") {
+        
+        // 3. Registramos a sua MainPage
+        composable("tela_principal") {
+            // Importante: sua MainPage agora PRECISA receber o navController
+            MainPage(navController) 
         }
-    )
+
+        // 4. Registramos a SecondPage (que você criará a seguir)
+        composable("segunda_tela") {
+            SecondPage(navController)
+        }
+    }
 }
 ```
 
 ---
 
-**Destaques desta parte:**
+## Por que sua `MainPage` precisa mudar?
 
-- **`colorResource`**: Busca cores definidas no arquivo XML de recursos antigo (`colors.xml`), facilitando a transição.
-    
-- **`sp` vs `dp`**: Lembre-se, `sp` é para textos (escala baseada na preferência do usuário) e `dp` para tamanhos de componentes.
-    
-- **`toARGB()`**: Um método necessário porque a API de Janelas do Android é antiga e não entende o objeto `Color` do Compose diretamente.
-    
+Atualmente, o seu botão `Send` está vazio. Para ele funcionar, a função `MainPage` precisa "segurar" o `navController` para poder dar a ordem de navegação.
 
-Quando estiver pronto para ver como ele constrói o formulário da primeira página e gerencia os estados dos campos de texto, diga **next**.
+**Como deve ficar a assinatura da sua função:**
+
+Kotlin
+
+```
+@Composable
+fun MainPage(navController: NavController) { // <-- O controlador entra aqui
+    // ... seu código de estados e Scaffold ...
+
+    Button(
+        onClick = { 
+            // Agora o botão tem um destino!
+            navController.navigate("segunda_tela") 
+        }
+    ) {
+        Text("Send")
+    }
+}
+```
+
