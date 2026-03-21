@@ -25,13 +25,8 @@
 - **Adjacência:** No seu `NavHost`, todos os destinos definidos dentro do mesmo bloco são, por padrão, adjacentes entre si. Isso significa que, teoricamente, qualquer tela pode navegar para qualquer outra, desde que possua a referência do `NavController`.
 - **Propriedades da Aresta:** Você pode configurar propriedades na transição, como:
     - **Animações:** `enterTransition` e `exitTransition`.
-    - **Comportamento da Pilha:** `launchSingleTop` (evita duplicar o vértice na pilha) ou `popUpTo` (remove vértices intermediários durante a transição).        
+    - **launchSingleTop**: Este parâmetro evita duplicatas  de tela na árvore em caso de erro de logica ou duplo clique no topo da pilha
+    - **popUpTo**: Remove vértices intermediários durante a transição. Pense em um fluxo de Login: `Login` -> `Cadastro`. Quando o usuário finaliza o cadastro e vai para a `Home`, você não quer que ele consiga voltar para a tela de `Cadastro` ou `Login`.
 
-
-## 2. Níveis de Telas: O conceito de Subgrafos (Nested Navigation)
-
-Se você quer um "nível a mais" de telas que não sejam acessíveis diretamente pelo nó principal (ou para organizar melhor a arquitetura), você utiliza o **Nested Navigation** (Navegação Aninhada).
-
-- **O que é:** É a capacidade de criar um **Grafo dentro de outro Grafo**.
-    
-- **Encapsulamento:** Você agrupa destinos relacionados (ex: um fluxo de Login com 3 telas) dentro de um bloco `navigation`. Esse grupo passa a se comportar como um único "Super-Vértice" para o grafo principal.
+**MainPage**
+![](../../attachments/Pasted%20image%2020260321101244.png)
