@@ -3,20 +3,10 @@
 
 ---
 
-Nesta fase inicial, o objetivo é preparar o terreno. No Compose, para que a navegação funcione bem e o código seja sustentável, não colocamos tudo em um único arquivo.
-
-## 1. Estrutura de Arquivos (Clean Code)
-
-O instrutor recomenda criar arquivos Kotlin separados para cada tela. Isso evita que a `MainActivity.kt` se torne um "arquivo gigante".
-
+É recomendado criar arquivos Kotlin separados para cada tela.
 - **MainActivity.kt**: Fica apenas como o ponto de entrada.
-    
 - **MainPage.kt**: Conterá a interface da primeira tela.
-    
 - **SecondPage.kt**: Conterá a interface da segunda tela.
-    
-
-## 2. Estilização da Status Bar
 
 Antes de desenhar os componentes, o instrutor altera a cor da barra de status (onde fica o relógio e bateria) para combinar com o app. Isso é feito no arquivo `Theme.kt`.
 
@@ -35,14 +25,6 @@ if (!view.isInEditMode) {
 }
 ```
 
-## 3. O uso do Scaffold
-
-O `Scaffold` é um componente fundamental. Ele serve como uma "moldura" que implementa a estrutura visual básica do Material Design, fornecendo slots prontos para:
-
-- **topBar**: Barra superior fixa.
-    
-- **content**: Onde o conteúdo principal da tela reside (respeitando o espaço da barra).
-    
 
 ## 4. Criando a TopAppBar na MainPage
 
