@@ -3,63 +3,50 @@
 
 ---
 
-Antes de codificar, é preciso entender três pilares do Navigation Compose:
+Nesta fase inicial, o objetivo é preparar o terreno. No Compose, para que a navegação funcione bem e o código seja sustentável, não colocamos tudo em um único arquivo.
 
-- **NavController:** É o motor central. Ele mantém o estado da "pilha de telas" (back stack) e permite realizar a navegação entre elas.
+## 1. Estrutura de Arquivos (Clean Code)
+
+O instrutor recomenda criar arquivos Kotlin separados para cada tela. Isso evita que a `MainActivity.kt` se torne um "arquivo gigante".
+
+- **MainActivity.kt**: Fica apenas como o ponto de entrada.
     
-- **NavHost:** É um container visual que exibe o conteúdo da rota atual. Ele associa o `NavController` a um gráfico de navegação.
+- **MainPage.kt**: Conterá a interface da primeira tela.
     
-- **NavGraph (Gráfico de Navegação):** Define quais são as telas (destinos) disponíveis no app e como elas se conectam via rotas (strings que funcionam como URLs).
+- **SecondPage.kt**: Conterá a interface da segunda tela.
     
 
-No exemplo da aula, o instrutor preparou o ambiente criando arquivos separados para manter o código limpo (_Clean Code_).
+## 2. Estilização da Status Bar
 
-## 1.1 Preparação da MainActivity
-
-A `MainActivity` deixa de conter a lógica da interface e passa a chamar apenas a função principal que gerenciará o fluxo.
+Antes de desenhar os componentes, o instrutor altera a cor da barra de status (onde fica o relógio e bateria) para combinar com o app. Isso é feito no arquivo `Theme.kt`.
 
 Kotlin
 
 ```
-// No MainActivity.kt
-class MainActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContent {
-            NavigationExampleTheme {
-                // Aqui chamaremos o componente de navegação que veremos adiante
-                MainPage() 
-            }
-        }
+// Dentro do arquivo Theme.kt
+val myStatusBarColor = colorResource(id = R.color.purple_700)
+val view = LocalView.current
+if (!view.isInEditMode) {
+    SideEffect {
+        val window = (view.context as Activity).window
+        // Converte a cor para o formato ARGB que o Android entende
+        window.statusBarColor = myStatusBarColor.toARGB()
     }
 }
 ```
 
----
+## 3. O uso do Scaffold
 
-## Parte 2: Construção da UI da Main Page (Primeira Tela)
+O `Scaffold` é um componente fundamental. Ele serve como uma "moldura" que implementa a estrutura visual básica do Material Design, fornecendo slots prontos para:
 
-Nesta etapa, o foco é criar os componentes de entrada de dados e aplicar o estado (_State_) para capturar o que o usuário digita.
-
-## 2.1 Gerenciamento de Estado
-
-Para que o Compose "lembre" o que foi digitado, usamos o `remember` e `mutableStateOf`.
-
-- **`mutableStateOf("")`**: Cria um estado que, ao ser alterado, dispara uma recomposição (atualização da tela).
+- **topBar**: Barra superior fixa.
     
-- **`remember`**: Garante que o valor não seja resetado toda vez que a função for executada novamente.
+- **content**: Onde o conteúdo principal da tela reside (respeitando o espaço da barra).
     
 
-Kotlin
+## 4. Criando a TopAppBar na MainPage
 
-```
-val username = remember { mutableStateOf("") }
-val userAge = remember { mutableStateOf("") }
-```
-
-## 2.2 Estrutura com Scaffold e TopAppBar
-
-O `Scaffold` é um layout padrão do Material Design que facilita a inserção de barras superiores, barras inferiores e botões flutuantes.
+O instrutor define uma barra superior com fundo roxo e título branco.
 
 Kotlin
 
@@ -72,73 +59,26 @@ fun MainPage() {
             TopAppBar(
                 title = { Text(text = "Main Page", color = Color.White, fontSize = 20.sp) },
                 colors = TopAppBarDefaults.smallTopAppBarColors(
-                    containerColor = Color(0xFF6200EE) // Purple 500
+                    containerColor = colorResource(id = R.color.purple_500)
                 )
             )
         },
         content = { paddingValues ->
-            Column(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(paddingValues),
-                verticalArrangement = Arrangement.Center,
-                horizontalAlignment = Alignment.CenterHorizontally
-            ) {
-                // Campos de Texto e Botão aqui
-            }
+            // O conteúdo da página entra aqui, usando o paddingValues
         }
     )
 }
 ```
 
-## 2.3 Componentes de Entrada (TextField e Button)
-
-Detalhes importantes explicados na aula:
-
-- **`onValueChange`**: Atualiza a variável de estado com o novo caractere digitado (`it`).
-    
-- **`keyboardOptions`**: No campo de idade, foi usado `KeyboardType.Number` para forçar o teclado numérico, melhorando a UX (User Experience).
-    
-- **Estilização**: Uso de `RoundedCornerShape` para bordas arredondadas e `TextFieldDefaults` para remover a linha inferior padrão (indicador transparente).
-    
-
 ---
 
-## Parte 3: Construção da Second Page (Segunda Tela)
+**Destaques desta parte:**
 
-A segunda tela é mais simples, focada em exibir os dados que serão recebidos.
-
-## 3.1 Ícone de Navegação (Botão Voltar)
-
-Diferente da primeira tela, a `TopAppBar` da segunda tela inclui o `navigationIcon`.
-
-Kotlin
-
-```
-navigationIcon = {
-    IconButton(onClick = { /* Lógica de voltar virá depois */ }) {
-        Icon(
-            imageVector = Icons.Filled.ArrowBack,
-            contentDescription = "Back",
-            tint = Color.White
-        )
-    }
-}
-```
-
-Nesta tela, foram usados apenas componentes `Text` e `Spacer` para organizar a exibição do Nome e da Idade que foram enviados.
-
----
-
-## Resumo Técnico dos Termos Usados:
-
-- **Composable Function:** Funções marcadas com `@Composable` que definem a interface.
+- **`colorResource`**: Busca cores definidas no arquivo XML de recursos antigo (`colors.xml`), facilitando a transição.
     
-- **Modifier:** Ferramenta para alterar o comportamento ou aparência de um componente (tamanho, padding, cliques).
+- **`sp` vs `dp`**: Lembre-se, `sp` é para textos (escala baseada na preferência do usuário) e `dp` para tamanhos de componentes.
     
-- **Arrangement vs Alignment:** No `Column`, _Arrangement_ cuida do espaçamento vertical e _Alignment_ do alinhamento horizontal.
-    
-- **sp vs dp:** `sp` (Scale-independent Pixels) é usado para fontes, respeitando as configurações de acessibilidade do usuário. `dp` (Density-independent Pixels) é usado para dimensões de layout.
+- **`toARGB()`**: Um método necessário porque a API de Janelas do Android é antiga e não entende o objeto `Color` do Compose diretamente.
     
 
-**Deseja que eu prossiga para a explicação da lógica de implementação do NavHost e a passagem de parâmetros propriamente dita?**
+Quando estiver pronto para ver como ele constrói o formulário da primeira página e gerencia os estados dos campos de texto, diga **next**.

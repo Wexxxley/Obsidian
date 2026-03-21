@@ -29,7 +29,7 @@ Usando estado no botão
 ---
 ### **2. TextFild**
 
-O TextField é o componente de entrada de texto. O TextField não "guarda" o texto sozinho. Se você digitar e não atualizar o estado, o texto não aparece na tela. Existe também o **OutlinedTextFild** que tem borda completa ao redor. Usado em telas de login e cadastros.
+O TextField é o componente de entrada de texto. O TextField não "guarda" o texto sozinho. Se você digitar e não atualizar o estado, o texto não aparece na tela. 
 
 Para um TextField funcionar, ele precisa de duas coisas obrigatoriamente:
 - **value**: O que está escrito nele agora (o Estado).
@@ -49,7 +49,7 @@ Para um TextField funcionar, ele precisa de duas coisas obrigatoriamente:
 
 **Remember**: No Compose, as funções são executadas de novo toda vez que algo muda na tela. Se você não usasse o remember, a sua variável seria resetada para o valor inicial toda vez que a tela fosse redesenhada.
 
-**MutableState**: MutableState representa um valor que pode mudar de estado em tempo de execução. Quando o valor contido nesse estado é alterado, o Compose agenda automaticamente a recomposição de todas as funções que leram esse valor específico.
+**MutableState**: Quando o valor contido nesse estado é alterado, o Compose agenda automaticamente a recomposição de todas as funções que leram esse valor específico.
 - **mutableStateOf**: implementação genérica. Ela aceita qualquer tipo de objeto. 
 - **mutableIntStateOf**: Uma implementação especializada para valores do tipo `Int`. 
 - **mutableFloatStateOf**: Especializada para o tipo `Float`. 

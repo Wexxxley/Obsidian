@@ -40,20 +40,4 @@ Ele recebe como parâmetros:
 
 - **Variável Comum:** Toda vez que a função do componente é executada novamente, a variável comum é reinicializada com seu valor padrão. 
     
-- **Variável de Estado:** Através de mecanismos como o remember, o framework reserva um espaço na memória fora da execução imediata da função. Isso permite que o valor sobreviva mesmo quando a função é destruída e reconstruída.
-    
-
-## 3. A Natureza da Declaração
-
-Frameworks modernos seguem o paradigma **Declarativo**: você descreve _como_ a tela deve estar baseada no estado atual, e não _como_ alterar cada elemento manualmente.
-
-- **Fluxo com Estado:** `Estado Muda` -> `Framework Notifica` -> `Função Roda com Novo Valor` -> `UI Atualiza`.
-    
-- Sem o conceito de estado, você teria que fazer manipulação imperativa (como o antigo `findViewById().text = "novo valor"`), o que é propenso a erros em apps complexos.
-    
-
-## 4. Encapsulamento de Observáveis
-
-Tecnicamente, uma variável de estado geralmente não é apenas um tipo primitivo (como um `String` ou `Int`), mas sim um objeto **Observable** ou **Wrapper**.
-
-- No Jetpack Compose, usamos o `MutableState<T>`. Quando você acessa `.value`, o Compose registra que aquele componente "depende" daquela variável. Se ela mudar no futuro, o Compose sabe exatamente qual parte da tela precisa ser redesenhada, otimizando a performance.
+- **Variável de Estado:** Através de mecanismos como o remember, o framework reserva um espaço na memória permitindo que o valor seja lembrado.
