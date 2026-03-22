@@ -1,5 +1,5 @@
 
-
+#Concluded
 
 ---
 É recomendado criar arquivos Kotlin separados para cada tela.
@@ -35,26 +35,5 @@
 
 **SecondPage**
 ![](../../attachments/Pasted%20image%2020260321102409.png)
-Diferente da versão anterior onde os dados eram fixos ("David", "25"), agora a função recebe `name: String` e `age: String`.
-
-- **O Conceito:** No Jetpack Compose, as telas devem ser, idealmente, **Stateless** (sem estado interno próprio sobre os dados que exibem).
-    
-- **A Importância:** Ao receber os dados via parâmetros, a `SecondPage` torna-se um componente de exibição puro. Ela não precisa saber de onde os dados vieram (se foi da `MainPage`, de um banco de dados ou de uma API); ela apenas renderiza o que o `NavHost` injetou nela durante a extração do `backStackEntry`.
-    
-
-## 2. O Método `popBackStack()` (Desempilhamento)
-
-No `IconButton` da `TopAppBar`, temos a instrução: `navController.popBackStack()`.
-
-- **Operação de Pilha:** Como estudante de CC, você reconhece isso como a operação **Pop** em uma estrutura de dados de Pilha (**Stack**).
-    
-- **O que acontece na memória:** 1. O `NavController` identifica a `NavBackStackEntry` atual (a da `SecondPage`). 2. Ele remove esse objeto do topo da pilha. 3. O ciclo de vida dessa tela é encerrado e ela é removida da memória (Garbage Collected). 4. O foco volta para o nó imediatamente abaixo na pilha (a `MainPage`).
-    
-- **Estado Preservado:** Como a `MainPage` não foi destruída (ela estava apenas em "stop" na pilha), ao voltar, os campos de texto (`username` e `userAge`) ainda conterão os valores que você digitou anteriormente.
-    
-
-## 3. Navigation Icon e Acessibilidade
-
-O uso do parâmetro `navigationIcon` dentro da `TopAppBar` é o padrão de design para navegação hierárquica.
-
-- **`Icons.AutoMirrored.Filled.ArrowBack`**: Esta é uma escolha técnica importante para internacionalização. O "AutoMirrored" garante que, em sistemas de escrita da direita para a esquerda (como o árabe), a seta aponte automaticamente para o lado correto sem que você precise mudar o código.
+**popBackStack**: NavController identifica a tela atual, a fecha e volta para a anterior.
+**Icons.AutoMirrored.Filled.ArrowBack**: Esta é uma escolha técnica importante para internacionalização. O "AutoMirrored" garante que, em sistemas de escrita da direita para a esquerda (como o árabe), a seta aponte automaticamente para o lado correto.
