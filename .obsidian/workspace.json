@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Mobile/2_Jetpack Compose/10_Lists.md",
+                "file": "16_Mobile/2_Jetpack Compose/7_Image.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10_Lists"
+              "title": "7_Image"
             }
           }
         ]
@@ -183,9 +183,12 @@
   },
   "active": "8a1df320e11319c4",
   "lastOpenFiles": [
+    "16_Mobile/2_Jetpack Compose/6_Switch.md",
+    "16_Mobile/2_Jetpack Compose/5_CheckBox and RadioButtons.md",
+    "16_Mobile/2_Jetpack Compose/7_Image.md",
+    "16_Mobile/2_Jetpack Compose/10_Lists.md",
     "attachments/Pasted image 20260321103319.png",
     "16_Mobile/2_Jetpack Compose/9_Navegação.md",
-    "16_Mobile/2_Jetpack Compose/10_Lists.md",
     "attachments/Pasted image 20260321102409.png",
     "attachments/telas.gif",
     "attachments/Pasted image 20260321101545.png",
@@ -196,14 +199,10 @@
     "attachments/Pasted image 20260321090519.png",
     "attachments/tela1.gif",
     "16_Mobile/2_Jetpack Compose/8_Toast and snackbar.md",
-    "16_Mobile/2_Jetpack Compose/7_Dropdown menu.md",
-    "16_Mobile/2_Jetpack Compose/6_Switch.md",
-    "16_Mobile/2_Jetpack Compose/5_CheckBox and RadioButtons.md",
     "16_Mobile/2_Jetpack Compose/4_Button and TextFild.md",
     "16_Mobile/2_Jetpack Compose/3_Layout.md",
     "16_Mobile/2_Jetpack Compose/2_Scaffold.md",
     "16_Mobile/2_Jetpack Compose/1_Jetpack compose.md",
-    "attachments/Pasted image 20260320092206.png",
     "18_Aleatorios/Aplicativo para estoque e vendas..md",
     "18_Aleatorios/RoteiroParaguai.md",
     "roteiro.md",
