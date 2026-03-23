@@ -203,6 +203,11 @@ Descrição: Como Microempreendedor, quero atualizar os dados de contato ou ende
 3. O sistema calcula o Lucro Real baseado apenas em **Vendas Finalizadas (Pagas)**.
  $$Lucro = (\text{Vendas Pagas}) - (\text{Custo Médio dos Itens Vendidos}) - (\text{Despesas do Negócio})$$
 
+---
+
+### **[RF13] Central de ajuda**
+
+Tela simples com cards clicaveis com infromação acerca do conteudo que levam a tutoriais no yotube.
 
 ---
 ### **Roteiro entrevista**
