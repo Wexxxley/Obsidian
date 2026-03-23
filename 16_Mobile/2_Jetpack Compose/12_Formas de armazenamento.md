@@ -1,5 +1,6 @@
 
 
+
 ---
 ### **1. SharedPreferences**
 
@@ -32,31 +33,3 @@ O Android traz nativamente o motor de banco de dados SQLite, que é um banco de 
 Atualmente, a recomendação oficial do Google não é usar o SQLite puro, mas sim o **Room**. O Room é uma camada de abstração (ORM - Object-Relational Mapping) sobre o SQLite. Ele mapeia objetos Kotlin diretamente para tabelas do banco.
 
 
----
-## 6. DataStore (Jetpack)
-
-O **Jetpack DataStore** é o sucessor moderno das SharedPreferences.
-
-- **Funcionamento:** Baseado em **Kotlin Coroutines** e **Flow**, ele armazena dados de forma totalmente assíncrona, consistente e transacional.
-    
-- **Tipos:**
-    
-    - **Preferences DataStore:** Similar às SharedPreferences (chave-valor).
-        
-    - **Proto DataStore:** Armazena objetos customizados usando _Protocol Buffers_ (mais rápido e tipado).
-        
-- **Cenário de uso:** Substituição das SharedPreferences em apps novos que exigem alta performance e segurança contra corrupção de dados.
-    
-
----
-
-## Resumo de Escolha Técnica:
-
-|**Tipo de Dado**|**Volume**|**Recomendação**|
-|---|---|---|
-|Configurações simples|Baixo|**SharedPreferences** ou **DataStore**|
-|Documentos/Mídia|Alto|**External Storage** (MediaStore)|
-|Dados Relacionais|Médio/Alto|**Room (SQLite)**|
-|Cache temporário|Médio|**Internal Storage** (Cache folder)|
-
-**Gostaria que eu explicasse como implementar o código para salvar um valor simples usando SharedPreferences ou prefere ver como o Room organiza as tabelas?**

@@ -48,8 +48,6 @@ Como Microempreendedor, quero alterar as informações de um produto já cadastr
 2. Define se a categoria é para **Itens** ou **Despesas**.
 3. Insere o nome e salva.
 
-**Extensão:** **Tela Informativa "O que são categorias?"**. Antes de criar as primeiras categorias, o sistema explica que categorias bem definidas ajudam a descobrir onde o dinheiro está sendo gasto (ex: Diferença entre _Insumos_ e _Manutenção_).
-
 **Critérios de Aceitação:** Categorias de itens aparecem no [RF01] e de despesas no [RF13].  
 
 ---
@@ -65,8 +63,6 @@ Como Microempreendedor, quero alterar as informações de um produto já cadastr
 3. O sistema atualiza o saldo total e recalcula o **Custo Médio Ponderado**.
 $$CMédio = \frac{(\text{Qtd em Estoque} \times \text{Custo Médio Atual}) + (\text{Qtd Nova} \times \text{Preço de Compra Novo})}{\text{Qtd em Estoque} + \text{Qtd Nova}}$$
 4. Confirma a operação.
-
-**Camada de Extensão:** Modal informativo explicando que o Custo Médio Ponderado evita que o empreendedor perca dinheiro em épocas de inflação ou aumento de fornecedor.
 
 **Mensagens do Sistema:**
 - **MSG01:** "Estoque atualizado. Novo custo médio: R$ [Valor]."
@@ -197,7 +193,7 @@ Descrição: Como Microempreendedor, quero atualizar os dados de contato ou ende
     
 
 ---
-### **[RF1] Relatório de Lucratividade e Diagnóstico de Saúde**
+### **[RF13] Relatório de Lucratividade e Diagnóstico de Saúde**
 
 **Descrição:** Como Microempreendedor, quero visualizar meu lucro líquido mensal acompanhado de uma análise simplificada sobre a viabilidade do meu negócio.
 
@@ -230,3 +226,43 @@ Descrição: Como Microempreendedor, quero atualizar os dados de contato ou ende
 9. Você mantém um histórico de compras por cliente para oferecer promoções ou realizar cobranças?
     
 10. Você acha que um app descomplicado onde você poderia fazer suas vendas, anotar vendas, selecionar formas de pagamento, ver as parcelas a serem pagas, as datas a serem recebidas, de forma offline, na palma da sua mão seria prático para vc?
+
+
+---
+
+## 1. Onde salvar os arquivos (Imagens)
+
+Você **não** deve salvar os bits da imagem (ByteArray) diretamente dentro do banco de dados SQLite. Isso tornaria o banco extremamente pesado, degradando a performance das consultas de vendas e estoque.
+
+- **Armazenamento Interno (Internal Storage):** Salve o arquivo físico (.jpg ou .png) no diretório privado do seu aplicativo (`context.filesDir`).
+    
+- **Vantagem:** Segurança. Outros aplicativos (como a Galeria) não terão acesso às fotos dos seus clientes ou produtos, e os dados são apagados se o app for desinstalado.
+    
+- **Nomeação:** Utilize uma convenção única para o nome do arquivo, como `prod_ID.jpg` ou `cli_UUID.jpg`, para evitar sobreposições.
+    
+
+## 2. O que salvar no Banco de Dados (Room)
+
+No seu banco de dados SQLite, você deve armazenar apenas a **referência (Path)** para o arquivo.
+
+- **Campo:** No seu `ProductEntity` ou `ClientEntity`, crie uma coluna do tipo `String` chamada `imagePath`.
+    
+- **Valor:** Salve o caminho absoluto ou o nome do arquivo. Ao carregar a lista (LazyColumn ou Grid), você usa esse caminho para buscar o arquivo no disco.
+    
+
+## 3. Preparando para a Sincronização Futura
+
+Como você pretende sincronizar dispositivos depois, precisa evitar conflitos de IDs e facilitar o rastreamento de arquivos.
+
+- **Use UUIDs:** Em vez de IDs inteiros auto-incrementais (1, 2, 3...), use **UUIDs** (Strings únicas como `550e8400-e29b...`) para os produtos e clientes. Assim, quando dois dispositivos sincronizarem, não haverá dois produtos diferentes com o "ID 1".
+    
+- **Flag de Sincronização:** Adicione uma coluna `isSynced` (Boolean) e `lastUpdated` (Long/Timestamp) em cada tabela. Isso permitirá que o sistema de sincronização saiba qual imagem precisa ser enviada para o servidor e qual já está lá.
+    
+
+## 4. Processamento de Imagens (Otimização)
+
+Microempreendedores costumam ter celulares com pouco espaço. Salvar uma foto de 10MB tirada pela câmera para um simples ícone de produto é ineficiente.
+
+- **Compressão e Redimensionamento:** Antes de salvar no Internal Storage, redimensione a imagem. Para um app de estoque, uma resolução de 800x800px costuma ser mais que suficiente.
+    
+- **Biblioteca Recomendada:** Utilize a **Coil** ou **Glide** para carregar essas imagens na UI. Elas gerenciam o cache de memória e evitam que o app trave (OOM - Out of Memory) ao rolar o Grid de produtos.
