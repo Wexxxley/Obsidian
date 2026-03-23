@@ -20,3 +20,14 @@ A LazyColumn é um componente de lista vertical que utiliza um algoritmo de virt
 - No **Scaffold**, você usa **topBarBehavior.nestedScrollConnection.** Quando o usuário arrasta a lista, o evento de scroll é enviado para o topBarBehavior. 
 - **scrolledContainerColor**: Quando o sensor de scroll detecta que a lista não está no t
 - **items(count = countryList.size)**: É um iterador. Para cada índice, ele cria o card.
+
+---
+### 2. Card
+
+Ele delimita um espaço na interface para um conjunto de componentes (imagem, texto e botão), tratando-os como uma unidade lógica.
+
+Ao definir onClick o Card deixa de ser apenas um elemento visual e passa a se comportar como um Surface Clicável. Ele gerencia internamente o efeito ondulação e o feedback visual de toque.
+
+![](../../attachments/Pasted%20image%2020260323074934.png)
+
+- **elevation**: Define a posição do componente no eixo Z. O sistema calcula a difusão da sombra com base no valor de densidade de pixels para simular profundidade.
