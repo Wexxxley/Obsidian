@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Mobile/2_Jetpack Compose/10_Lazy column e Dard.md",
+                "file": "16_Mobile/2_Jetpack Compose/11_Lazy row e Lazy grid.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10_Lazy column e Dard"
+              "title": "11_Lazy row e Lazy grid"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.01103591918945
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -183,6 +184,8 @@
   },
   "active": "8a1df320e11319c4",
   "lastOpenFiles": [
+    "16_Mobile/2_Jetpack Compose/10_Lazy column e Card.md",
+    "16_Mobile/2_Jetpack Compose/11_Lazy row e Lazy grid.md",
     "attachments/Pasted image 20260323080712.png",
     "attachments/Pasted image 20260323080638.png",
     "attachments/Pasted image 20260323080609.png",
@@ -201,8 +204,6 @@
     "16_Mobile/2_Jetpack Compose/1_Jetpack compose.md",
     "attachments/Pasted image 20260322081957.png",
     "attachments/Pasted image 20260322081954.png",
-    "attachments/Pasted image 20260322081943.png",
-    "16_Mobile/2_Jetpack Compose/10_Lazy column e Dard.md",
     "16_Mobile/2_Jetpack Compose/4_Button and TextFild.md",
     "18_Aleatorios/Aplicativo para estoque e vendas..md",
     "18_Aleatorios/RoteiroParaguai.md",
