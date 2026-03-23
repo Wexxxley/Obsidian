@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 
@@ -31,8 +32,8 @@ Ele delimita um espaço na interface para um conjunto de componentes (imagem, te
 Ao definir onClick o Card deixa de ser apenas um elemento visual e passa a se comportar como um Surface Clicável. Ele gerencia internamente o efeito ondulação e o feedback visual de toque.
 
 ![](../../attachments/Pasted%20image%2020260323074934.png)
-
-- **elevation**: Define a posição do componente no eixo Z. O sistema calcula a difusão da sombra com base no valor de densidade de pixels para simular profundidade.
+ **elevation**: Define a posição do componente no eixo Z. O sistema calcula a difusão da sombra com base no valor de densidade de pixels para simular profundidade.
+![300](../../attachments/Pasted%20image%2020260323080712.png)
 
 **SecondPage**
 ![](../../attachments/Pasted%20image%2020260323080609.png)
