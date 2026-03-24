@@ -104,58 +104,24 @@ App mobile. 9:16
     - Ao clicar em uma venda "Pendente", abre a lista de parcelas geradas no checkout.
     - **Botão "Dar Baixa":** Registra o pagamento daquela parcela.
         
-
 ### **5. Tela de Clientes**
 
 - **Lista de Clientes (LazyColumn):** Exibe foto (se houver), nome e telefone.
-- **Indicador de Débito:** Abaixo do nome do cliente, aparece em destaque o saldo total que ele deve à empresa (soma de todas as parcelas pendentes).
-    
-- **Perfil do Cliente [RF06]:** Ao clicar, abre os detalhes com:
-    
-    - **Botão WhatsApp [RF14]:** Abre conversa direta usando o número limpo (apenas dígitos).
-        
+- **Perfil do Cliente:** Ao clicar, abre os detalhes com:
+    - **Botão WhatsApp:** Abre conversa direta usando o número limpo.
     - **Histórico de Compras:** Lista de todos os pedidos vinculados àquele UUID.
         
-- **Cadastro [RF05]:** Nome, Telefone e Endereço.
+- **Cadastro:** Nome, Telefone e Endereço.
     
+### **6. Tela de Despesas**
 
----
-
-## **6. Tela de Despesas**
-
-Gestão de saídas que não são compra de mercadoria.
-
-- **Fluxo de Cadastro:** Semelhante ao de produtos, mas focado em custos operacionais.
-    
-- **Campos:** Nome da despesa, Valor, Data e Categoria de Despesa (ex: Água, Luz, Aluguel).
-    
-- **Visualização:** Lista mensal de gastos para que o usuário entenda para onde o dinheiro está indo fora do estoque.
-    
-- **Impacto no Relatório:** Estes valores serão subtraídos automaticamente no cálculo do Lucro Real do **[RF13]**.
-    
 
 ---
 
 ## **7. Tela "Mais" (Submenu)**
 
-Reúne inteligência de negócio e suporte ao usuário.
-
-- **Relatório de Lucratividade [RF13]:**
-    
-    - **Seletor de Período:** Mês e Ano.
-        
-    - **Cálculo Automático:** Exibe o Lucro Real:
-        
-        $$(Vendas Pagas) - (Custo Médio dos Itens Vendidos) - (Despesas)$$
-        
-        .
-        
-    - **Diagnóstico de Saúde:** Texto formal explicando a viabilidade baseada nos custos fixos.
-        
-- **Central de Ajuda [RF13]:**
-    
+- **Central de Ajuda:**
     - Grid de cards com miniaturas e títulos de tutoriais (ex: "Como cadastrar produtos", "Como fazer uma venda fiada").
-        
     - Ao clicar, redireciona para o link do YouTube correspondente
 
 
