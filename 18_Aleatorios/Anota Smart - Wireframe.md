@@ -42,21 +42,18 @@ App mobile. 9:16
 	- Se a unidade for Unidade: Teclado numérico apenas para inteiros.
 	- Se a unidade for **Kg, Gramas, Litro ou Metro**: Teclado com ponto flutuante.
 	- **Modal Alerta de Estoque:** Caso a quantidade desejada supere o saldo, um texto em vermelho indica "Estoque Insuficiente".
-
+#### Botões para carrinho
+- Em vez de depender apenas do ícone no topo, utilize uma barra fixa (que sobrepoe os produtos) que aparece assim que o primeiro item é adicionado. Logo acima da `BottomNavigationBar`.
+- Lado esquerdo: "Total: R$ 00,00" e a quantidade de itens.
+- Lado direito: Botão de ação escrito **"VER CARRINHO"**.
 #### Carrinho e Checkout
 
-- **LazyColumn do Carrinho:** Exibe cada item, sua quantidade, preço. E o total.
-    
-- **Vinculação de Cliente:** Um seletor "Vincular Cliente" (obrigatório se a venda for Pendente/Fiada).
-    
-- **Seleção de Pagamento:**
-    
-    - **Botão À Vista:** Abre opções de Dinheiro, PIX ou Débito. Finaliza como status "Finalizada".
-        
-    - **Botão Parcelado/Fiado:** Abre calendário para definir datas de vencimento. Finaliza como status "Pendente".
-        
-- **Botão Finalizar:** Grande, na cor verde, executando a baixa automática no estoque e gerando o registro financeiro.
-    
+- Duas boxes em cima, uma com a quantidade de itens e outra com o preço total.
+- **LazyColumn do Carrinho:** Exibe cada item, sua quantidade, preço, Ícone de "Lápis" para reabrir o Modal de Quantidade e ícone de "Lixeira" (na cor vermelha) para remoção imediata do item. 
+- Botao "**Finalizar venda**" no canto inferior direito sobrepondo os elementos se preciso.
+
+#### Finalizando venda
+
 
 ---
 
