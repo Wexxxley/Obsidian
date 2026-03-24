@@ -68,3 +68,8 @@ Use icones simples, e somente as caixas (sem curvas) de conteudo com texto gener
     - Subtração das "Despesas do Negócio" cadastradas via categoria de despesas.
         
 
+
+![300](../attachments/Pasted%20image%2020260324090925.png)
+![300](../attachments/Pasted%20image%2020260324090952.png)
+![](../attachments/Pasted%20image%2020260324091025.png)
+![300](../attachments/Pasted%20image%2020260324090812.png)
