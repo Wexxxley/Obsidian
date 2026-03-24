@@ -82,59 +82,32 @@ App mobile. 9:16
 
 ### **3. Tela de Produtos (Gestão de Estoque)**
 
+- **Lista Principal (LazyColumn):** Exibe todos os itens cadastrados com imagem, nome, categoria e saldo atual com 3 colunas. 
+
+- **Filtros:** Barra de busca por nome e filtro por categorias iguais as criadas na tela de vendas.
+
 - **Ação:** Ao clicar no Botão abre-se um pequeno menu ou _overlay_ com duas opções: **"Novo Produto"** ou **"Novo Serviço"**.
     - **Modal de Produto:** Exibe campos para Nome, Preço de Venda, Categoria e Unidade de Medida (Unidade, Kg, etc.). Inicia com estoque zero.
     - **Modal de Serviço:** Exibe apenas Nome, Preço de Venda e Categoria. Campos de estoque e unidade de peso ficam ocultos por serem irrelevantes.
         
-- **Gestão de Entrada [RF04]:**
-    
-    - Botão "Adicionar Estoque" visível nos cards de itens do tipo "Produto". Solicita **Quantidade** e **Novo Preço de Custo** para recalcular o **Custo Médio Ponderado**.
-    
-- **Lista Principal (LazyColumn):** Exibe todos os itens cadastrados com imagem, nome, categoria e saldo atual. 
-    
-- **Botão Flutuante "+":** Abre o fluxo de Cadastrar Produto/Serviço**.
-    - **Campos:** Nome, Preço de Custo, Preço de Venda e Unidade de Medida (Unidade, Kg, Litro, etc.).
-    - **Toggle de Tipo:** Alternar entre "Produto" ou "Serviço" (não gerencia estoque).
-        
-- **Ações por Item:**
-    - **Entrada de Estoque [RF04]:** Botão destacado para "Adicionar Estoque". Abre modal solicitando a **Quantidade Recebida** e o **Preço de Custo Unitário Atual**. 
-    - **Editar** Permite alterar preços e nomes.
-        
-- **Filtros:** Barra de busca por nome e filtro por categorias criadas no Navigation Drawer.
+- **Gestão de Entrada:** Botão "Adicionar" visível nos cards de itens do tipo "Produto". Solicita **Quantidade** e **Preço de Custo unitario**.
 
----
-
-## **4. Tela de Pedidos (Histórico e Contas a Receber)**
+### **4. Tela de Pedidos (Histórico e Contas a Receber)**
 
 Área destinada ao acompanhamento financeiro e gestão de dívidas.
 
 - **Abas Superiores (Tabs):**
-    
     - **Histórico:** Lista cronológica de todas as vendas (Finalizadas, Pendentes e Canceladas).
+    - **A Receber:** Filtra apenas vendas com status "Pendente" ou "Atrasada".
         
-    - **A Receber [RF12]:** Filtra apenas vendas com status "Pendente" ou "Atrasada".
-        
-- **Card de Pedido:**
-    
-    - Exibe Nome do Cliente (se houver), Data, Valor Total e **Status da Venda [RF11]**.
-        
-    - **Cores de Status:** Verde (Finalizada), Amarelo (Pendente), Vermelho (Atrasada) e Cinza (Cancelada).
-        
-- **Gestão de Recebimento [RF12]:**
-    
+- **Gestão de Recebimento**
     - Ao clicar em uma venda "Pendente", abre a lista de parcelas geradas no checkout.
+    - **Botão "Dar Baixa":** Registra o pagamento daquela parcela.
         
-    - **Botão "Dar Baixa":** Registra o pagamento daquela parcela. Quando a última parcela é paga, o status da venda muda automaticamente para "Finalizada".
-        
 
----
-
-## **5. Tela de Clientes**
-
-Foco na organização de contatos e análise de inadimplência.
+### **5. Tela de Clientes**
 
 - **Lista de Clientes (LazyColumn):** Exibe foto (se houver), nome e telefone.
-    
 - **Indicador de Débito:** Abaixo do nome do cliente, aparece em destaque o saldo total que ele deve à empresa (soma de todas as parcelas pendentes).
     
 - **Perfil do Cliente [RF06]:** Ao clicar, abre os detalhes com:
