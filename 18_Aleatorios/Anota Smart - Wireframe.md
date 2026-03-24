@@ -77,6 +77,8 @@ App mobile. 9:16
 	- **Animação:** Um ícone de check animado ocupando o centro da tela.
 	- **Resumo Rápido:** "Venda de R$ 150,00 finalizada com sucesso!".
 	- Botão voltar para tela inicial.
+
+![](../attachments/Pasted%20image%2020260324143128.png)
 ---
 
 ## **Estrutura de Dados e Persistência (Back-end Local)**
