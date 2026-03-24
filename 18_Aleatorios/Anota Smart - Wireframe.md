@@ -7,6 +7,8 @@ Wireframe Textual, estruturado formalmente para servir de guia absoluto para o d
 Cores para o wireframe: cinza 1 (escuro), cinza 2(tonalidade média), cinza 3 (claro)
 
 Use icones simples, e somente as caixas (sem curvas) de conteudo com texto generico. 
+
+App mobile. 9:16
 ### **1. Estrutura de Navegação e Componentes Fixos**
 #### Top App Bar
 - **Ícone de Menu (Lado Esquerdo):** Três traços que disparam o _Navigation Drawer_.
@@ -34,12 +36,12 @@ Use icones simples, e somente as caixas (sem curvas) de conteudo com texto gener
 - **LazyRow** com categorias de produtos para filtrar abaixo do campo de pesquisa.
 
 #### Seção B: Catálogo de Seleção (Grid)
-- **Cards de Produto:** Exibem a imagem (800x800px), nome, preço de venda e saldo atual em estoque indicando a medida correspondente. 3 colunas
+- **Cards de Produto:** As informaçoes do card aparecem como colunas. Exibem a imagem (800x800px), nome, preço de venda e saldo atual em estoque indicando a medida correspondente. 3 colunas
     
 - **Modal de Quantidade:**
 	- Se a unidade for Unidade: Teclado numérico apenas para inteiros.
 	- Se a unidade for **Kg, Gramas, Litro ou Metro**: Teclado com ponto flutuante.
-	- **Alerta de Estoque:** Caso a quantidade desejada supere o saldo, um texto em vermelho indica "Estoque Insuficiente".
+	- **Modal Alerta de Estoque:** Caso a quantidade desejada supere o saldo, um texto em vermelho indica "Estoque Insuficiente".
 
 #### Carrinho e Checkout
 
