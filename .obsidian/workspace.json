@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Mobile/2_Jetpack Compose/13_.md",
+                "file": "16_Mobile/2_Jetpack Compose/13_Transformando estados em UI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13_"
+              "title": "13_Transformando estados em UI"
             }
           }
         ]
@@ -188,7 +188,7 @@
     "attachments/Pasted image 20260324065327.png",
     "attachments/Pasted image 20260324065138.png",
     "16_Mobile/2_Jetpack Compose/13_Formas de armazenamento.md",
-    "16_Mobile/2_Jetpack Compose/13_.md",
+    "16_Mobile/2_Jetpack Compose/13_Transformando estados em UI.md",
     "16_Mobile/2_Jetpack Compose/12_Modal Navigation Drawer.md",
     "attachments/modaldrawer.gif",
     "attachments/Pasted image 20260323184700.png",
