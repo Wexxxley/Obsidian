@@ -80,17 +80,90 @@ App mobile. 9:16
 
 ![](../attachments/Pasted%20image%2020260324143128.png)
 
-### **3. Tela de Produtos (Gestão de Estoque)**
+### **3. Tela de Produtos**
 
-- **Lista Principal (LazyColumn):** Exibe todos os itens cadastrados com imagem, nome, categoria e saldo atual com 3 colunas. 
+#### **A. Área de Cabeçalho e Filtros**
+- **Barra de Busca:** Campo de texto com bordas arredondadas e ícone de lupa. O texto inserido filtra a `LazyVerticalGrid` em tempo real pelo nome do item.
+- **LazyRow de Categorias**
+	Note que a barra de busca e a row de cateogiras ja existe na tela de vendas, basta copiar e colar aqui
+- **Contador de Itens:** Pequeno texto discreto indicando o total de itens listados (Ex: "42 itens encontrados").
+    
+#### **B. Catálogo de Itens (LazyVerticalGrid - 3 Colunas)**
 
-- **Filtros:** Barra de busca por nome e filtro por categorias iguais as criadas na tela de vendas.
-
-- **Ação:** Ao clicar no Botão abre-se um pequeno menu ou _overlay_ com duas opções: **"Novo Produto"** ou **"Novo Serviço"**.
-    - **Modal de Produto:** Exibe campos para Nome, Preço de Venda, Categoria e Unidade de Medida (Unidade, Kg, etc.). Inicia com estoque zero.
-    - **Modal de Serviço:** Exibe apenas Nome, Preço de Venda e Categoria. Campos de estoque e unidade de peso ficam ocultos por serem irrelevantes.
+Cada card de produto/serviço segue uma estrutura de coluna vertical para otimizar o espaço:
+- **Topo do Card:** Imagem quadrada (800x800px).
+- **Meio do Card (Informações):**
+    - **Nome:** 
+    - **Preço de Venda:**R$ 25,00.
+    - **Saldo e Unidade:** Texto indicando a quantidade e a medida 
         
-- **Gestão de Entrada:** Botão "Adicionar" visível nos cards de itens do tipo "Produto". Solicita **Quantidade** e **Preço de Custo unitario**.
+- **Base do Card (Ações):**
+    - **Botão "Adicionar" (Apenas para Produtos):** Ícone de "+" que abre o modal de entrada de estoque.
+    - **Ícone de "Lápis":** No canto superior direito da imagem para acesso rápido à edição.
+
+#### **C. Fluxo de Adição (Menu e Modais)**
+
+- **Botão Flutuante (FAB):** Um botão com o símbolo "+" no canto inferior direito da tela.
+- **Overlay de Escolha:** Ao clicar no FAB, surgem dois botões menores acima dele: "Novo Produto" e "Novo Serviço".
+- **Modal de Novo Produto:**
+    - Campo para Upload de Imagem.
+    - Campo de Texto: Nome.
+    - Dropdown: Seleção de Categorias.
+    - Campo Numérico: Preço de Venda.        
+    - Campo Numérico (Referência): Preço de Custo Inicial.
+    - Dropdown: Unidade de Medida (Unidade, Kg, Gramas, Litro, Metro).
+        
+- **Modal de Novo Serviço:**
+    - Campo para Upload de Imagem.
+    - Campo de Texto: Nome.
+    - Dropdown: Seleção de Categoria.
+    - Campo Numérico: Preço de Venda.
+
+#### **D. Modal de Gestão de Entrada**
+
+Acionado pelo botão "Adicionar" nos cards de produtos:
+- **Informativo:** Exibe o "Custo Médio Atual" para comparação.
+- **Entrada de Dados:**
+    - Campo: Quantidade Recebida (aceita decimais para Kg/Metro).
+    - Campo: Novo Preço de Custo Unitário.
+        
+- **Rodapé do Modal:** Botão "Confirmar Entrada".
+
+---
+
+## **4. Tela de Pedidos (Histórico e Recebimentos)**
+
+## **A. Navegação por Abas (Tabs)**
+
+- **Aba "Vendas":** Lista cronológica de todos os registros (Finalizadas, Pendentes, Canceladas).
+    
+- **Aba "A Receber":** Lista filtrada apenas por vendas com status "Pendente" ou "Atrasada".
+    
+
+## **B. Design do Card de Pedido**
+
+- **Cabeçalho:** Nome do Cliente (ou "Consumidor") e Data/Hora.
+    
+- **Corpo:** Valor Total da venda e ícone indicando o método de pagamento (PIX, Dinheiro, etc).
+    
+- **Status Visual:** Uma etiqueta (Tag) colorida no canto:
+    
+    - **Verde:** Finalizada.
+        
+    - **Amarelo:** Pendente (Fiado/Parcelado).
+        
+    - **Vermelho:** Atrasada (Vencimento ultrapassado).
+        
+
+## **C. Detalhe e Baixa de Parcelas**
+
+Ao clicar em um pedido "Pendente":
+
+- Exibe a lista de parcelas geradas no checkout.
+    
+- Cada linha mostra: "Parcela X - R$ XX,XX - Vencimento DD/MM".
+    
+- **Botão "Baixar":** Localizado ao lado de cada parcela pendente. Ao clicar, o status daquela parcela muda para "Paga".
 
 ### **4. Tela de Pedidos (Histórico e Contas a Receber)**
 
