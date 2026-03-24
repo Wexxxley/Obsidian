@@ -47,13 +47,21 @@ App mobile. 9:16
 - Lado esquerdo: "Total: R$ 00,00" e a quantidade de itens.
 - Lado direito: Botão de ação escrito **"VER CARRINHO"**.
 #### Carrinho e Checkout
-
-- Duas boxes em cima, uma com a quantidade de itens e outra com o preço total.
 - **LazyColumn do Carrinho:** Exibe cada item, sua quantidade, preço, Ícone de "Lápis" para reabrir o Modal de Quantidade e ícone de "Lixeira" (na cor vermelha) para remoção imediata do item. 
+- **Valor Total:** Exibido em destaque no canto inferior esquerdo.
 - Botao "**Finalizar venda**" no canto inferior direito sobrepondo os elementos se preciso.
 
-#### Finalizando venda
+#### Tela Seleção de pagamento
 
+- **Seleção de Cliente (Obrigatório para Fiado):**
+    - Um campo de busca que consulta a lista de clientes cadastrados (RF05). Caso o cliente n exista, deve aparecer um botao para cadastrar cliente. Ao clicar em adicionar, abre-se um pequeno formulário (Overlay) solicitando apenas **Nome** e **Telefone**.
+    - Se o usuário selecionar "Parcelado" ou "Fiado" sem escolher um cliente, o sistema deve exibir um alerta bloqueando a operação (FA01 do RF10).
+        
+- **Métodos de Pagamento: (grid 3x3)**
+    - **Opção À Vista:** Botões grandes para "Dinheiro", "PIX" ou "Débito". Ao selecionar, a venda é gravada com o status "Finalizada".
+    - **Parcelado:** Abre um seletor de parcelas. O usuário define as datas de vencimento, e a venda é gravada com status "Pendente".
+        
+- **Botão de confirmação**
 
 ---
 
