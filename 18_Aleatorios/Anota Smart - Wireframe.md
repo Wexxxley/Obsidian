@@ -16,7 +16,7 @@ App mobile. 9:16
 - **Carrinho de Vendas (Lado Direito):** Ícone de carrinho de compras com um contador numérico, indicando o total de itens atualmente no rascunho da venda.
 
 #### Navigation Drawer (Menu Lateral)
-- **Cabeçalho:** Nome do usuário/empresa.
+- **Cabeçalho:** Foto e nome do usuário/empresa.
 - **Categorias:** Tela de gerenciamento para criar categorias de "Itens" ou "Despesas". 
 - **Tema claro/escuro**
 - **Inserir chave pix**:
@@ -71,19 +71,12 @@ App mobile. 9:16
 	- **Seletor de Quantidade de Parcelas:** Um componente de incremento/decremento (botões `+` e `-`). Ao alterar o número de parcelas, o sistema divide automaticamente o valor total da venda e exibe o valor de cada prestação. "3 parcelas de R$ 50,00".
         
 	- **Definição de Datas de Vencimento:**
-	    - **Data da Primeira Parcela:** Um campo de seleção de data (Date Picker) que, por padrão, sugere 30 dias após a data atual.
+	    - **Data da Primeira Parcela:** Um campo de seleção de data (Date Picker) que, por padrão, sugere 30 dias após a data atual. O resto das datas serao consideradas de 30 em 30 dias.    
 	        
-	    - **Intervalo entre Parcelas:** Opções rápidas para definir o intervalo (Mensal, Quinzenal ou Semanal).
-	        
-	    - **Lista de Vencimentos (Preview):** Uma pequena `LazyColumn` interna que lista as datas calculadas (Ex: Parcela 1 - 20/04; Parcela 2 - 20/05) para que o usuário possa ajustar datas específicas manualmente se o cliente solicitar.
-	        
-- **Confirmação do Status "Pendente":**
-    
-    - Um lembrete visual abaixo das parcelas indica: "Esta venda será salva com Status: Pendente".
-        
-    - Isso sinaliza que o valor entrará no relatório de "Contas a Receber".
-        
-
+- **Botão Finalizar**: Fixo no rodapé da tela. Só é habilitado após a seleção de um método de pagamento válido. Ao clicar app deve exibir um **Overlay de Sucesso**:
+	- **Animação:** Um ícone de check animado ocupando o centro da tela.
+	- **Resumo Rápido:** "Venda de R$ 150,00 finalizada com sucesso!".
+	- Botão voltar para tela inicial.
 ---
 
 ## **Estrutura de Dados e Persistência (Back-end Local)**
