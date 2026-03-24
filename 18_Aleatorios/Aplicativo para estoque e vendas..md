@@ -9,7 +9,9 @@ Solução **totalmente local** (executada e armazenada apenas no celular do clie
 **Fluxo Principal:** 
 	1. Usuário acessa "Produtos/Serviços".
     2. Seleciona Tipo: Produto (gerencia estoque) ou Serviço (não gerencia estoque).
-    3. Insere Nome, Preço de Custo (Referência) e Preço de Venda.
+    3. Insere:
+		- Nome, Preço de Custo (Referência) e Preço de Venda.
+	    - **Campo de Unidade:** Unidade, Kg, Gramas, Litro, Metro.
     4. (Opcional) Seleciona uma categoria de item.
     5. Salva o registro.
     
@@ -107,7 +109,7 @@ Descrição: Como Microempreendedor, quero atualizar os dados de contato ou ende
 **Fluxo principal**
 1. Usuário inicia uma "Nova Venda". 
 2. Pesquisa e seleciona um produto. 
-3. Define a quantidade para venda. 
+3. Define a quantidade para venda. Se o iten for do tipo metro, grama ou kg. deve ser aceito decimais (ponto flutuante).
 4. Adiciona ao carrinho.
 
 **Fluxos Alternativos:**
