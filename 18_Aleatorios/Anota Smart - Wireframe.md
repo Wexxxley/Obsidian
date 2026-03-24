@@ -57,11 +57,57 @@ App mobile. 9:16
     - Um campo de busca que consulta a lista de clientes cadastrados (RF05). Caso o cliente n exista, deve aparecer um botao para cadastrar cliente. Ao clicar em adicionar, abre-se um pequeno formulário (Overlay) solicitando apenas **Nome** e **Telefone**.
     - Se o usuário selecionar "Parcelado" ou "Fiado" sem escolher um cliente, o sistema deve exibir um alerta bloqueando a operação (FA01 do RF10).
         
-- **Métodos de Pagamento: (grid 3x3)**
-    - **Opção À Vista:** Botões grandes para "Dinheiro", "PIX" ou "Débito". Ao selecionar, a venda é gravada com o status "Finalizada".
-    - **Parcelado:** Abre um seletor de parcelas. O usuário define as datas de vencimento, e a venda é gravada com status "Pendente".
+- **Bloco A: Pagamento Imediato (À Vista)**
+    - Três botões grandes e táteis: **Dinheiro**, **PIX** e **Débito**. Caso a opção seja dinheiro, um modal ira se abrir para informar o dinheiro recebido e informar o troco.
+    - Ao clicar em um deles, o sistema seleciona o método e destaca a borda do botão.
+    - O status da venda é definido internamente como **"Finalizada"**.
         
-- **Botão de confirmação**
+- **Bloco B: Pagamento Futuro (Parcelado/Fiado)**
+    - Botão destacado: **"Parcelar / Fiado"**.
+    - **Validação Ativa (FA01 do RF10):** Se este botão for acionado sem um cliente selecionado, o sistema deve exibir um alerta visual  bloqueando o avanço.
+    - Se tudo ok, vai ser aberto um modal de parcelas.
+
+- **Modal de parcelas:** 
+	- **Seletor de Quantidade de Parcelas:** Um componente de incremento/decremento (botões `+` e `-`). Ao alterar o número de parcelas, o sistema divide automaticamente o valor total da venda e exibe o valor de cada prestação. "3 parcelas de R$ 50,00".
+        
+	- **Definição de Datas de Vencimento:**
+	    - **Data da Primeira Parcela:** Um campo de seleção de data (Date Picker) que, por padrão, sugere 30 dias após a data atual.
+	        
+	    - **Intervalo entre Parcelas:** Opções rápidas para definir o intervalo (Mensal, Quinzenal ou Semanal).
+	        
+	    - **Lista de Vencimentos (Preview):** Uma pequena `LazyColumn` interna que lista as datas calculadas (Ex: Parcela 1 - 20/04; Parcela 2 - 20/05) para que o usuário possa ajustar datas específicas manualmente se o cliente solicitar.
+	        
+- **Confirmação do Status "Pendente":**
+    
+    - Um lembrete visual abaixo das parcelas indica: "Esta venda será salva com Status: Pendente".
+        
+    - Isso sinaliza que o valor entrará no relatório de "Contas a Receber".
+        
+
+---
+
+## **Estrutura de Dados e Persistência (Back-end Local)**
+
+Para suportar essa interface no banco de dados SQLite (Room), a lógica deve seguir estas regras:
+
+- **Vínculo de UUID:** A venda parcelada armazena o `UUID` do cliente para permitir a gestão de cobrança posterior.
+    
+- **Tabela de Parcelas:** Deve existir uma tabela relacionada à venda (`SaleEntity`) chamada `InstallmentEntity`, contendo:
+    
+    - `saleId` (chave estrangeira).
+        
+    - `dueDate` (data de vencimento).
+        
+    - `amount` (valor da parcela).
+        
+    - `status` (Pendente ou Paga).
+        
+- **Registro de Custo Médio:** No momento da confirmação, o sistema captura o **Custo Médio Ponderado** atual dos produtos para que, mesmo que a dívida demore meses para ser paga, o lucro calculado no relatório [RF13] seja baseado no custo da época da venda.
+    
+
+---
+        
+- **Botão de confirmação**: Fixo no rodapé da tela. Só é habilitado após a seleção de um método de pagamento válido.
 
 ---
 
