@@ -9,7 +9,6 @@ Cores para o wireframe: cinza 1 (escuro), cinza 2(tonalidade média), cinza 3 (c
 Use icones simples, e somente as caixas (sem curvas) de conteudo com texto generico. 
 ### **1. Estrutura de Navegação e Componentes Fixos**
 #### Top App Bar
-
 - **Ícone de Menu (Lado Esquerdo):** Três traços que disparam o _Navigation Drawer_.
 - **Identidade Visual (Centro):** Círculo de avatar exibindo a foto do microempreendedor ou o logotipo da empresa.
 - **Carrinho de Vendas (Lado Direito):** Ícone de carrinho de compras com um contador numérico, indicando o total de itens atualmente no rascunho da venda.
@@ -28,30 +27,23 @@ Use icones simples, e somente as caixas (sem curvas) de conteudo com texto gener
 - **Despesas**: local para cadastrar despesas fora da aquisição de estoque, como manutenção, transporte, insumos, agua, energia...
 - **Mais:** Submenu contendo os Relatórios de Lucratividade e a Central de Ajuda.
 
-### **2. Detalhamento da Tela de Venda **
-#### **Seção A: Entrada e Busca**
-
-- **Campo de Pesquisa:** Input de texto com lupa para filtrar a LazyVerticalGrid (4 colunas) de produtos pelo nome.
-    
+### **2. Detalhamento da Tela de Venda**
+#### Seção A: Entrada e Busca
+- **Campo de Pesquisa:** Input de texto com lupa para filtrar a LazyVerticalGrid (3 colunas) de produtos pelo nome.
 - **Botão de Venda Avulsa:** Um card destacado para itens não cadastrados, exigindo Nome, Preço de Custo e Preço de Venda.
+- **LazyRow** com categorias de produtos para filtrar abaixo do campo de pesquisa.
+
+#### Seção B: Catálogo de Seleção (Grid)
+- **Cards de Produto:** Exibem a imagem (800x800px), nome, preço de venda e saldo atual em estoque indicando a medida correspondente. 3 colunas
     
+- **Modal de Quantidade:**
+	- Se a unidade for Unidade: Teclado numérico apenas para inteiros.
+	- Se a unidade for **Kg, Gramas, Litro ou Metro**: Teclado com ponto flutuante.
+	- **Alerta de Estoque:** Caso a quantidade desejada supere o saldo, um texto em vermelho indica "Estoque Insuficiente".
 
-## **Seção B: Catálogo de Seleção (Grid)**
+#### Carrinho e Checkout
 
-- **Cards de Produto:** Exibem a imagem (processada em 800x800px via Coil/Glide), nome, preço de venda e saldo atual em estoque.
-    
-- **Seletor de Quantidade Fracionada [RF07]:** Ao tocar no card, um diálogo sobrepõe a tela:
-    
-    - Se a unidade for **Unidade ou Pinto**: Teclado numérico apenas para inteiros.
-        
-    - Se a unidade for **Kg, Gramas, Litro ou Metro**: Teclado com ponto flutuante (decimal) habilitado.
-        
-    - **Alerta de Estoque:** Caso a quantidade desejada supere o saldo, um texto em vermelho indica "Estoque Insuficiente" (FA01 do RF07).
-        
-
-## **Seção C: Carrinho e Checkout [RF09/RF10]**
-
-- **Lista do Carrinho:** Exibe cada item, sua quantidade fracionada e o subtotal parcial calculado em tempo real.
+- **LazyColumn do Carrinho:** Exibe cada item, sua quantidade, preço. E o total.
     
 - **Vinculação de Cliente:** Um seletor "Vincular Cliente" (obrigatório se a venda for Pendente/Fiada).
     
