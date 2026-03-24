@@ -6,6 +6,7 @@ Wireframe Textual, estruturado formalmente para servir de guia absoluto para o d
 
 Cores para o wireframe: cinza 1 (escuro), cinza 2(tonalidade média), cinza 3 (claro)
 
+Use icones simples, e somente as caixas (sem curvas) de conteudo com texto generico. 
 ### **1. Estrutura de Navegação e Componentes Fixos**
 #### Top App Bar
 
@@ -19,26 +20,20 @@ Cores para o wireframe: cinza 1 (escuro), cinza 2(tonalidade média), cinza 3 (c
 - **Tema claro/escuro**
 - **Inserir chave pix**:
 - **Sobre:** Informações da versão do software.
-...
 #### Bottom Navigation Bar
-- **Catálogo:**
 - **Venda:** O ponto central de operação (PDV).
+- **Produtos**: local onde vai ser possivel gerenciar estoque
+- **Pedidos**: area onde fica o hisotrico de vendas e o gerenciamento de valores a receber.
 - **Clientes:** Gestão de contatos e histórico devedor.
+- **Despesas**: local para cadastrar despesas fora da aquisição de estoque, como manutenção, transporte, insumos, agua, energia...
 - **Mais:** Submenu contendo os Relatórios de Lucratividade e a Central de Ajuda.
 
----
+### **2. Detalhamento da Tela de Venda **
+#### **Seção A: Entrada e Busca**
 
-## **2. Detalhamento da Tela de Venda (O Coração do App)**
-
-Esta tela deve ser otimizada para operação rápida em campo.
-
-## **Seção A: Entrada e Busca**
-
-- **Campo de Pesquisa:** Input de texto com lupa para filtrar a `LazyVerticalGrid` de produtos pelo nome.
+- **Campo de Pesquisa:** Input de texto com lupa para filtrar a LazyVerticalGrid (4 colunas) de produtos pelo nome.
     
-- **Scanner:** Botão flutuante ou ícone na barra de busca para ativar a câmera e ler códigos de barras, vinculando ao UUID do produto.
-    
-- **Botão de Venda Avulsa [RF08]:** Um card destacado para itens não cadastrados, exigindo Nome, Preço de Custo e Preço de Venda.
+- **Botão de Venda Avulsa:** Um card destacado para itens não cadastrados, exigindo Nome, Preço de Custo e Preço de Venda.
     
 
 ## **Seção B: Catálogo de Seleção (Grid)**
@@ -71,36 +66,13 @@ Esta tela deve ser otimizada para operação rápida em campo.
 
 ---
 
-## **3. Detalhamento da Tela de Relatórios e Gestão [RF13]**
+### **3. Detalhamento da Tela de Relatórios e Ajuda**
 
 - **Filtro Temporal:** Seleção de Mês/Ano para consulta.
     
 - **Métricas de Lucro Real:**
-    
     - Soma de todas as "Vendas Finalizadas" (Pagas).
-        
     - Subtração automática do Custo Médio Ponderado dos itens vendidos (CMV).
-        
     - Subtração das "Despesas do Negócio" cadastradas via categoria de despesas.
         
-- **Diagnóstico de Saúde:** Texto formal explicando se o lucro é suficiente para cobrir os custos fixos (aluguel, luz) baseados na entrevista do roteiro.
-    
 
----
-
-## **4. Prompt Estruturado para Geração de Interface (IA/Dev)**
-
-> "Crie um protótipo de alta fidelidade para um App de Gestão Local (SQLite/Room) seguindo estas especificações:
-> 
-> 1. **Arquitetura de UI:** Utilize Scaffold com TopAppBar (Avatar central, Menu lateral à esquerda, Carrinho com badge à direita) e BottomNavigation com 4 abas (Catálogo, Venda, Clientes, Relatórios).
->     
-> 2. **Lógica de Venda [RF07/RF08]:** Implemente uma tela de PDV que suporte busca por nome e venda avulsa. O seletor de quantidade deve aceitar `Double` (ponto flutuante) para unidades como Kg, Litro e Metro, e `Int` para unidades simples.
->     
-> 3. **Gestão de Imagens:** Configure o carregamento de fotos de produtos e clientes a partir do `Internal Storage` (`context.filesDir`) utilizando caminhos de string armazenados no banco de dados. Use Coil para renderizar as imagens redimensionadas em cards.
->     
-> 4. **Financeiro [RF09/RF10/RF13]:** Crie o fluxo de checkout que diferencie vendas 'Pagas' de 'Pendentes' (Fiado), vinculando obrigatoriamente um UUID de cliente às vendas pendentes. O relatório de lucro deve calcular o Lucro Real subtraindo o Custo Médio Ponderado e as despesas."
->     
-
----
-
-**Deseja que eu detalhe agora a estrutura exata das tabelas do Room (entidades e relacionamentos) para garantir que o 'Custo Médio Ponderado' seja calculado corretamente em cada venda?**
