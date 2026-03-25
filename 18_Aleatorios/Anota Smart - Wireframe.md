@@ -108,7 +108,7 @@ Cada card de produto/serviço segue uma estrutura de coluna vertical para otimiz
 - **Modal de Novo Produto:**
     - Campo para Upload de Imagem.
     - Campo de Texto: Nome.
-    - Dropdown: Seleção de Categorias.
+    - FlowRow: Seleção de Categorias.
     - Campo Numérico: Preço de Venda.        
     - Campo Numérico (Referência): Preço de Custo Inicial.
     - Dropdown: Unidade de Medida (Unidade, Kg, Gramas, Litro, Metro).
@@ -116,7 +116,7 @@ Cada card de produto/serviço segue uma estrutura de coluna vertical para otimiz
 - **Modal de Novo Serviço:**
     - Campo para Upload de Imagem.
     - Campo de Texto: Nome.
-    - Dropdown: Seleção de Categoria.
+    - FlowRow: Seleção de Categoria.
     - Campo Numérico: Preço de Venda.
 
 #### **D. Modal de Gestão de Entrada**
@@ -129,54 +129,30 @@ Acionado pelo botão "Adicionar" nos cards de produtos:
         
 - **Rodapé do Modal:** Botão "Confirmar Entrada".
 
----
+### **4. Tela de Pedidos 
 
-## **4. Tela de Pedidos (Histórico e Recebimentos)**
-
-## **A. Navegação por Abas (Tabs)**
+### A. Navegação por Abas
 
 - **Aba "Vendas":** Lista cronológica de todos os registros (Finalizadas, Pendentes, Canceladas).
     
 - **Aba "A Receber":** Lista filtrada apenas por vendas com status "Pendente" ou "Atrasada".
-    
 
-## **B. Design do Card de Pedido**
+## B. Design do Card de Pedido
 
-- **Cabeçalho:** Nome do Cliente (ou "Consumidor") e Data/Hora.
-    
+- **Cabeçalho:** Nome do Cliente, se houver e data/Hora.
 - **Corpo:** Valor Total da venda e ícone indicando o método de pagamento (PIX, Dinheiro, etc).
-    
 - **Status Visual:** Uma etiqueta (Tag) colorida no canto:
-    
     - **Verde:** Finalizada.
-        
     - **Amarelo:** Pendente (Fiado/Parcelado).
-        
     - **Vermelho:** Atrasada (Vencimento ultrapassado).
-        
 
-## **C. Detalhe e Baixa de Parcelas**
+## C. Detalhe e Baixa de Parcelas
 
 Ao clicar em um pedido "Pendente":
-
-- Exibe a lista de parcelas geradas no checkout.
-    
+- Exibe a lista de parcelas geradas no checkout. 
 - Cada linha mostra: "Parcela X - R$ XX,XX - Vencimento DD/MM".
-    
 - **Botão "Baixar":** Localizado ao lado de cada parcela pendente. Ao clicar, o status daquela parcela muda para "Paga".
 
-### **4. Tela de Pedidos (Histórico e Contas a Receber)**
-
-Área destinada ao acompanhamento financeiro e gestão de dívidas.
-
-- **Abas Superiores (Tabs):**
-    - **Histórico:** Lista cronológica de todas as vendas (Finalizadas, Pendentes e Canceladas).
-    - **A Receber:** Filtra apenas vendas com status "Pendente" ou "Atrasada".
-        
-- **Gestão de Recebimento**
-    - Ao clicar em uma venda "Pendente", abre a lista de parcelas geradas no checkout.
-    - **Botão "Dar Baixa":** Registra o pagamento daquela parcela.
-        
 ### **5. Tela de Clientes**
 
 - **Lista de Clientes (LazyColumn):** Exibe foto (se houver), nome e telefone.
