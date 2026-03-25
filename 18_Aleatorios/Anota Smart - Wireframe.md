@@ -162,7 +162,7 @@ Ao clicar em um pedido "Pendente":
         
 - **Cadastro:** Nome, Telefone e Endereço.
     
-### **6. Tela de Despesas**
+
 
 
 ---
