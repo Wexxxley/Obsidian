@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 
@@ -60,33 +61,3 @@ $$\text{Resíduo} = \| b - A \cdot x^{(k+1)} \|$$
 
 - **Como funciona:** Se você multiplicar a matriz $A$ pelo seu resultado $x$, o valor deve ser quase igual a $b$. Se a diferença for quase zero, você atingiu a precisão.
     
-
----
-
-## 3. O "Watchdog" (Cão de Guarda)
-
-Para evitar que o programa consuma 100% da CPU em um loop infinito, você usa dois limites rígidos:
-
-- **Contador de Iterações:** Pare se chegar em 500 ou 1000 iterações, mesmo que não tenha atingido a precisão.
-    
-- **Detecção de Divergência:** Se o erro da iteração $k+1$ for muito maior que o da iteração $k$, pare tudo. Isso indica que a matriz não vai convergir e você está apenas gastando processamento.## 1. O Filtro de Entrada: Permutação de Linhas
-
-
-
-QUESTÃO: Resolver sistema linear pelo método de Jacobi usando matrizes. Entrada,
-
-- C: matriz de coeficientes;
-    
-- f: vetor de termos independentes;
-    
-- approx: valor inicial de aproximação da solução;
-    
-- n: total de iterações permitidas;
-    
-- tol: tolerância para norma do máximo;
-    
-- res : solução calculada (retorne um vetor vazio se não puder encontrar solução);
-
-function res = ativ01_mat(C, f, approx, n, tol)    
-
-endfunction,
