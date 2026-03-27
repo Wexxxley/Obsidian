@@ -43,7 +43,7 @@ O resultado é um **número único**. Ele mede o quanto um vetor "projeta" sobre
 
 ![500](../attachments/20260310_080016587.jpg)
 
-O valor do produto escalar revela a relação angular entre os vetores:
+O valor do produto es![](../attachments/20260310_080016587.jpg)calar revela a relação angular entre os vetores:
 
 - **Positivo** $0^\circ \leq \theta < 90^\circ$. Ângulo agudo.
 - **Zero** $\theta = 90^\circ$ Ortogonais/perpendiculares.

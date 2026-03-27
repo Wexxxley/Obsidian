@@ -18,15 +18,12 @@ A mudança de base é o processo de converter as coordenadas de um vetor de um s
 
 - A **Base Canônica** no $\mathbb{R}^2$ é formada por $(1, 0) ,(0, 1)$.
 - Mas você pode inventar outra base $\beta = \{v_1, v_2\}$ qualquer.
-#### **1. Maneira simples**
 
 **Mudança de vetor da conônica para nova base**
 ![](../attachments/20260312_194344648.jpg)
 
 **Mudança de base para a canônica**
 ![](../attachments/20260312_194409843.jpg)
-
-#### **2. Matriz de mudança de base**
 
 Considere duas bases no $\mathbb{R}^2$:
 - **Base Canônica ($\epsilon$):** $e_1 = (1, 0), e_2 = (0, 1)$
@@ -46,41 +43,48 @@ $$[v]_\beta = M^{-1} \cdot [v]_\epsilon$$
 
 ---
 
-## 2. Aplicação com Valores Reais
+### **3. Base ortonormal
 
-### Problema A: Converter de $\beta$ para a Canônica
+Para que um conjunto de vetores (como uma base de um espaço vetorial) seja considerado ortonormal, ele deve satisfazer simultaneamente duas condições: a **ortogonalidade** e a **normalidade**.
 
-Seja o vetor $[v]_\beta = \begin{bmatrix} 5 \\ -2 \end{bmatrix}$ (ou seja, ele é feito de $5 \cdot v_1 - 2 \cdot v_2$). Qual o valor dele em $(x, y)$ normal?
+**Ortogonalidade**: Dizemos que dois vetores são ortogonais quando o produto escalar entre eles é igual a zero. Isso significa que eles são perpendiculares entre si, formando um ângulo de 90°.
 
-**Cálculo:**
+- Se temos dois vetores distintos $\vec{u}$ e $\vec{v}$ de um conjunto, a condição de ortogonalidade exige que:
+    
+    $$\vec{u} \cdot \vec{v} = 0$$
+    
+- Em termos práticos, se você projetar um vetor sobre o outro, a projeção será nula, indicando que um vetor não possui "componente" na direção do outro.
+    
 
-$$[v]_\epsilon = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix} \begin{bmatrix} 5 \\ -2 \end{bmatrix} = \begin{bmatrix} 1(5) + 3(-2) \\ 2(5) + 4(-2) \end{bmatrix} = \begin{bmatrix} 5 - 6 \\ 10 - 8 \end{bmatrix} = \mathbf{\begin{bmatrix} -1 \\ 2 \end{bmatrix}}$$
+## **2. Normalidade (Vetores Unitários)**
+
+Um vetor é considerado "normal" ou "normalizado" quando o seu comprimento (módulo ou norma) é exatamente igual a 1. Esses são os chamados **vetores unitários**.
+
+- Para um vetor $\vec{u}$ ser normal, o produto escalar dele por ele mesmo deve ser 1, pois:
+    
+    $$\vec{u} \cdot \vec{u} = \|\vec{u}\|^2 = 1^2 = 1$$
+    
+- Se um vetor não for unitário, podemos normalizá-lo dividindo cada um de seus componentes pelo seu módulo total.
+    
+
+## **3. Definição Sintetizada**
+
+Portanto, um conjunto de vetores $\{v_1, v_2, ..., v_n\}$ é **ortonormal** se, para quaisquer índices $i$ e $j$, o produto escalar seguir a regra do Delta de Kronecker ($\delta_{ij}$):
+
+- **Se $i \neq j$:** O produto escalar é **0** (são ortogonais).
+    
+- **Se $i = j$:** O produto escalar é **1** (são unitários).
+    
+
+## **4. Importância na Computação**
+
+Como você estuda Ciência da Computação, a ortonormalidade é fundamental por dois motivos principais:
+
+- **Simplificação de Cálculos:** Em bases ortonormais, encontrar as coordenadas de um ponto é muito mais simples (basta usar produtos escalares diretos, sem resolver grandes sistemas lineares).
+    
+- **Matrizes Ortogonais:** Como vimos no exercício anterior, as matrizes cujas colunas são vetores ortonormais possuem a propriedade de que sua **inversa é igual à sua transposta** ($M^{-1} = M^T$). Isso é o padrão ouro em transformações de rotação em computação gráfica, pois economiza processamento.
+    
 
 ---
 
-### Problema B: Converter da Canônica para $\beta$
-
-Seja o vetor $[v]_\epsilon = \begin{bmatrix} 7 \\ 10 \end{bmatrix}$. Quais as coordenadas dele na base $\beta$?
-
-**1. Primeiro, ache a inversa de $M$:**
-
-$\text{det}(M) = (1 \cdot 4) - (3 \cdot 2) = -2$
-
-$$M^{-1} = \frac{1}{-2} \begin{bmatrix} 4 & -3 \\ -2 & 1 \end{bmatrix} = \begin{bmatrix} -2 & 1.5 \\ 1 & -0.5 \end{bmatrix}$$
-
-**2. Aplique a fórmula:**
-
-$$[v]_\beta = \begin{bmatrix} -2 & 1.5 \\ 1 & -0.5 \end{bmatrix} \begin{bmatrix} 7 \\ 10 \end{bmatrix} = \begin{bmatrix} -2(7) + 1.5(10) \\ 1(7) - 0.5(10) \end{bmatrix} = \begin{bmatrix} -14 + 15 \\ 7 - 5 \end{bmatrix} = \mathbf{\begin{bmatrix} 1 \\ 2 \end{bmatrix}}$$
-
----
-
-## 3. Resumo de Uso (Checklist)
-
-- **Vetor na base nova $\to$ Vetor "normal" $(x,y)$:** Multiplique pela matriz das colunas.
-    
-- **Vetor "normal" $(x,y) \to$ Vetor na base nova:** Multiplique pela inversa da matriz.
-    
-- **Entre duas bases doidas ($\beta \to \gamma$):** $[v]_\gamma = (M_\gamma)^{-1} \cdot M_\beta \cdot [v]_\beta$.
-    
-
-Precisa que eu resolva algum exercício específico da sua lista da UFC usando esse passo a passo?
+Gostaria que eu demonstrasse como verificar se um conjunto específico de vetores é ortonormal através de um exemplo numérico?
