@@ -49,42 +49,7 @@ Para que um conjunto de vetores (como uma base de um espaço vetorial) seja cons
 
 **Ortogonalidade**: Dizemos que dois vetores são ortogonais quando o produto escalar entre eles é igual a zero. Isso significa que eles são perpendiculares entre si, formando um ângulo de 90°.
 
-- Se temos dois vetores distintos $\vec{u}$ e $\vec{v}$ de um conjunto, a condição de ortogonalidade exige que:
-    
-    $$\vec{u} \cdot \vec{v} = 0$$
-    
-- Em termos práticos, se você projetar um vetor sobre o outro, a projeção será nula, indicando que um vetor não possui "componente" na direção do outro.
-    
-
-## **2. Normalidade (Vetores Unitários)**
-
-Um vetor é considerado "normal" ou "normalizado" quando o seu comprimento (módulo ou norma) é exatamente igual a 1. Esses são os chamados **vetores unitários**.
-
+**Normalidade**: Um vetor é considerado "normal"quando o seu comprimento é exatamente igual a 1. 
 - Para um vetor $\vec{u}$ ser normal, o produto escalar dele por ele mesmo deve ser 1, pois:
-    
-    $$\vec{u} \cdot \vec{u} = \|\vec{u}\|^2 = 1^2 = 1$$
-    
-- Se um vetor não for unitário, podemos normalizá-lo dividindo cada um de seus componentes pelo seu módulo total.
-    
+$$\vec{u} \cdot \vec{u} = \|\vec{u}\|^2 = 1^2 = 1$$
 
-## **3. Definição Sintetizada**
-
-Portanto, um conjunto de vetores $\{v_1, v_2, ..., v_n\}$ é **ortonormal** se, para quaisquer índices $i$ e $j$, o produto escalar seguir a regra do Delta de Kronecker ($\delta_{ij}$):
-
-- **Se $i \neq j$:** O produto escalar é **0** (são ortogonais).
-    
-- **Se $i = j$:** O produto escalar é **1** (são unitários).
-    
-
-## **4. Importância na Computação**
-
-Como você estuda Ciência da Computação, a ortonormalidade é fundamental por dois motivos principais:
-
-- **Simplificação de Cálculos:** Em bases ortonormais, encontrar as coordenadas de um ponto é muito mais simples (basta usar produtos escalares diretos, sem resolver grandes sistemas lineares).
-    
-- **Matrizes Ortogonais:** Como vimos no exercício anterior, as matrizes cujas colunas são vetores ortonormais possuem a propriedade de que sua **inversa é igual à sua transposta** ($M^{-1} = M^T$). Isso é o padrão ouro em transformações de rotação em computação gráfica, pois economiza processamento.
-    
-
----
-
-Gostaria que eu demonstrasse como verificar se um conjunto específico de vetores é ortonormal através de um exemplo numérico?
