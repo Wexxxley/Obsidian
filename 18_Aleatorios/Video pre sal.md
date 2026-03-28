@@ -1,4 +1,5 @@
 
+Por que somos autossuficientes em petróleo, mas reféns do preço do dólar?
 
 A descoberta do Pré-Sal, em 2006, mudou a geologia mundial e colocou o Brasil na elite dos produtores de petróleo. Somos autossuficientes em extrair o óleo bruto, mas aqui começa o paradoxo: nossas plataformas batem recordes de produção, enquanto o brasileiro continua refém dos preços internacionais.
 
