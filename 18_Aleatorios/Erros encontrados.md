@@ -57,3 +57,6 @@ Sua responsabilidade inclui o registro de **marcas**, concessão de **patentes**
 
 [E02] Senhas fracas são aceitas 
 
+### Análises
+Pq tem a opção de excluir revistas? no caso essa tela so indica as resvistas que ja foram processadas?
+![](../attachments/Pasted%20image%2020260330074350.png)
