@@ -11,8 +11,20 @@ Sua responsabilidade inclui o registro de **marcas**, concessão de **patentes**
 - **Caducidade:** Quando um registro perde a validade por falta de uso ou renovação.
 
 **Portal do INPI:** [gov.br/inpi](https://www.gov.br/inpi/pt-br).
-**Download da RPI:** Na seção "Comunicados" ou "RPI", é possível baixar a revista integral em formato PDF ou XML. Empresas de tecnologia (como parece ser o foco da IPDelve) geralmente utilizam o formato **XML** para processar esses dados automaticamente via software e alertar clientes sobre novidades.
+**Download da RPI:** https://revistas.inpi.gov.br/rpi/
+
+![](../attachments/Pasted%20image%2020260330072438.png)
+
+
+---
+
+## Nulidades Administrativas
+
+Ocorre quando uma marca foi concedida, mas depois se percebe que houve um erro legal ou que ela fere direitos de terceiros.
+
+- **Decisão da nulidade (Provimento):** O INPI concorda que a marca nunca deveria ter sido registrada e anula o registro.
     
+- **Negado provimento:** O INPI mantém a marca ativa, rejeitando o pedido de nulidade.
 
 ---
 
