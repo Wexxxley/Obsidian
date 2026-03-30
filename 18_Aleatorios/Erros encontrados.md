@@ -60,3 +60,15 @@ Sua responsabilidade inclui o registro de **marcas**, concessão de **patentes**
 ### Análises
 Pq tem a opção de excluir revistas? no caso essa tela so indica as resvistas que ja foram processadas?
 ![](../attachments/Pasted%20image%2020260330074350.png)
+
+### Kanban
+
+[E03] Tento editar as colunas e n consigo, a descrição nem aparece
+[E04] Erro no front, as boinhas estao ovais
+	![](../attachments/Pasted%20image%2020260330075437.png)
+
+
+### Configurações
+
+[E05] Front meu perfil, cores dos textos.
+	![](../attachments/Pasted%20image%2020260330075923.png)
