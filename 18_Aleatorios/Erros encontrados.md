@@ -86,5 +86,10 @@ Pq tem a opção de excluir revistas? no caso essa tela so indica as resvistas q
 [E07] A descrição dos planos está muito vago. De cara eu nao entendi as diferenças e benefícios
 ![](../attachments/Pasted%20image%2020260330080737.png)
 
+[E08] Erro ao tentar voltar da tela de pagamento dos creditos
+![400](../attachments/Pasted%20image%2020260330081834.png)
+
 Na minha opnião faz mais sentido e é ate mais lucrativo ter so as opçoes de recargas fixas e tirar o valor avulso.
 ![](../attachments/Pasted%20image%2020260330081010.png)
+
+
