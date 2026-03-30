@@ -5,7 +5,7 @@
 ### **1. SharedPreferences**
 
 É um framework para armazenar pequenas quantidades de dados primitivos. Os dados são salvos em um arquivo XML no diretório privado do aplicativo. 
-- **Uso:** Configurações de usuário (tema claro), flags de status e pontuações em jogos.
+- **Uso:** Configurações de usuário, flags de status e pontuações em jogos.
 - **Limitação:** Não deve ser usado para dados grandes ou complexos, pois a leitura/escrita do XML pode bloquear a thread principal se o arquivo for muito pesado.  
 
 ### **2. Armazenamento Interno**
