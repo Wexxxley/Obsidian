@@ -57,18 +57,34 @@ Sua responsabilidade inclui o registro de **marcas**, concessão de **patentes**
 
 [E02] Senhas fracas são aceitas 
 
+### **Dashboard**
+
+[E03] erro no front, design do monitoramento
+![600](../attachments/Pasted%20image%2020260330080600.png)
+### Marcas
+[E03] Falta uma descrição do termo "temperature", está muito vago.
+![500](../attachments/Pasted%20image%2020260330080351.png)
 ### Análises
 Pq tem a opção de excluir revistas? no caso essa tela so indica as resvistas que ja foram processadas?
 ![](../attachments/Pasted%20image%2020260330074350.png)
 
 ### Kanban
 
-[E03] Tento editar as colunas e n consigo, a descrição nem aparece
-[E04] Erro no front, as boinhas estao ovais
+[E04] Tento editar as colunas e n consigo, a descrição nem aparece
+[E05] Erro no front, as boinhas estao ovais
 	![](../attachments/Pasted%20image%2020260330075437.png)
 
 
 ### Configurações
 
-[E05] Front meu perfil, cores dos textos.
-	![](../attachments/Pasted%20image%2020260330075923.png)
+[E06] Front meu perfil, cores dos textos.
+	![400](../attachments/Pasted%20image%2020260330075923.png)
+
+
+### Planos
+
+[E07] A descrição dos planos está muito vago. De cara eu nao entendi as diferenças e benefícios
+![](../attachments/Pasted%20image%2020260330080737.png)
+
+Na minha opnião faz mais sentido e é ate mais lucrativo ter so as opçoes de recargas fixas e tirar o valor avulso.
+![](../attachments/Pasted%20image%2020260330081010.png)
