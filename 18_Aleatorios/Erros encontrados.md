@@ -13,29 +13,45 @@ Sua responsabilidade inclui o registro de **marcas**, concessão de **patentes**
 **Portal do INPI:** [gov.br/inpi](https://www.gov.br/inpi/pt-br).
 **Download da RPI:** https://revistas.inpi.gov.br/rpi/
 
-![](../attachments/Pasted%20image%2020260330072438.png)
+![450](../attachments/Pasted%20image%2020260330072438.png)
+
+**Pedidos de Registro de Marca em Andamento**
+- **Publicação de pedido para oposição:** O marco inicial onde o pedido se torna público. Abre-se o prazo legal de 60 dias para que terceiros contestem o registro.
+- **Republicação de pedido para oposição:** Ocorre quando houve erro na publicação original ou alteração nos dados da marca. O prazo de 60 dias é reiniciado.
+- **Notificação de oposição para manifestação:** Se alguém contestou sua marca, o INPI publica este aviso para que você apresente sua defesa (manifestação).
+- **Exame de mérito - Exigência:** O técnico do INPI encontrou uma pendência. O não cumprimento resulta no arquivamento do processo.
+- **Exame de mérito - Sobrestamento:** O processo é "congelado" aguardando o desfecho de outro processo anterior que pode impedir ou permitir este registro.
+- **Exame de mérito - Indeferimento:** O INPI negou o pedido de registro por entender que ele fere a Lei de Propriedade Industrial.
+- **Exame de mérito - Deferimento:** O INPI aprovou a marca. O titular agora deve pagar as taxas finais para obter o certificado.    
+
+**Pedidos de Registro de Marca Definitivamente Arquivados**: Oprocesso é encerrado sem análise do nome da marca por falhas do solicitante.
+
+**Pedidos de Registro de Marca Arquivados de Ofício:** Ocorre quando o próprio INPI decide encerrar o processo por razões administrativas previstas em lei.
+
+**Desistências de Pedidos de Registro de Marca**
+- **Exame de mérito em petição de desistência:** O INPI analisa se aceita o pedido de desistência (geralmente aceito, a menos que haja impedimento legal).
+
+**Concessões de Registros de Marca**: Aqui estão as marcas que superaram todas as fases e agora possuem proteção legal.
+- **Exigência de pagamento:** O último aviso antes da marca ser concedida; o titular deve pagar a taxa de proteção pelos primeiros 10 anos.
+- **Registro de marca concedido:** A confirmação final.
+- **Registro de marca concedido em designação:** Refere-se a marcas estrangeiras que pediram proteção no Brasil.
+
+**Registros de Marca Extintos**: Marcas que já foram válidas, mas perderam sua proteção jurídica.
+- **Pelo fim da vigência:** O dono não pagou a renovação após os 10 anos de validade.
+- **Pela caducidade:** A marca foi extinta porque um terceiro provou que ela não estava sendo usada comercialmente há mais de 5 anos.
+
+**Registros de Marca Cancelados de Ofício**: O INPI cancela um registro já existente por identificar irregularidades administrativas internas ou erros processuais que não foram notados anteriormente.
+
+**Renúncias a Registros de Marca**: a renúncia acontece quando o dono de uma marca já registrada decide abrir mão do seu direito de propriedade voluntariamente.
+
+**Nulidades Administrativas de Registros de Marca**: Processos para anular uma marca que já foi concedida, mas que supostamente viola a lei.
+
+**Caducidades de Registros de Marca**: Processos específicos para investigar se uma marca está em uso.
+- **Notificação de caducidade para manifestação:** Alguém alegou que você não usa sua marca. Você deve apresentar notas fiscais ou provas de uso.
 
 
 ---
-
-## Nulidades Administrativas
-
-Ocorre quando uma marca foi concedida, mas depois se percebe que houve um erro legal ou que ela fere direitos de terceiros.
-
-- **Decisão da nulidade (Provimento):** O INPI concorda que a marca nunca deveria ter sido registrada e anula o registro.
-    
-- **Negado provimento:** O INPI mantém a marca ativa, rejeitando o pedido de nulidade.
-
----
-
-## Explicação de Termos Técnicos
-
-- **Número do Processo:** É a identidade única de um pedido de registro (geralmente uma sequência de 9 dígitos). É o que a tela que você enviou está solicitando para iniciar o monitoramento.
-    
-- **Despacho:** É o nome dado a qualquer decisão ou movimentação oficial proferida pelo INPI dentro de um processo.
-    
-- **Colidência:** Termo usado quando uma marca nova é muito parecida com uma já existente, gerando confusão no consumidor e impedindo o registro.
-
+### **Login/cadastro**
 
 [E01] Ao acessar o "começar free" na landing page direciona diretamente para o cadastro de pj, sendo que tbm tem o de pessoa física.
 
