@@ -2,7 +2,12 @@
 
 ---
 
-O mvp não vai considerar Convênio
+- Consulta, exames (loboratorial e de imagem).
+- O mvp não vai considerar Convênio?
+
+![300](../attachments/Screenshot_20260331_180610_Medclub.jpg)
+![300](../attachments/Screenshot_20260331_180450_Medclub.jpg)
+![](../attachments/Pasted%20image%2020260331181103.png)
 
 ## **Módulo do Paciente**
 ### **[RF01] Buscar Clínicas e Especialidades**
