@@ -13,7 +13,7 @@ fun Saudacao(nome: String) {
 ```
 
 Esse é o codigo padrão quando você cria um novo projeto com jetpack component:
-![570](../../attachments/Pasted%20image%2020260318071737.png)
+![570](../../../attachments/Pasted%20image%2020260318071737.png)
  1. **MainActivity**: Activity é a tela que o usuário vê.
 	- **`onCreate`**: É o primeiro método chamado quando o app abre.
 	- **`enableEdgeToEdge()`**: Faz com que o conteúdo do app use toda a tela.

@@ -30,7 +30,7 @@ O parâmetro **contentScale** determina como a imagem deve se comportar quando o
 - **Fit:** Mantém a proporção mas pode deixar espaços vazios.
 - **FillBounds:** Estica a imagem para preencher o espaço, ignorando a proporção.
 
-![450](../../attachments/Pasted%20image%2020260322081943.png)
-![200](../../attachments/Pasted%20image%2020260322081957.png)
+![450](../../../attachments/Pasted%20image%2020260322081943.png)
+![200](../../../attachments/Pasted%20image%2020260322081957.png)
 
 

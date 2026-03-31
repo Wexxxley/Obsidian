@@ -3,7 +3,7 @@
 ---
 O Room é uma camada de abstração (ORM - Object-Relational Mapping) sobre o SQLite. Ele mapeia objetos Kotlin diretamente para tabelas do banco.
 
-![550](../../attachments/Pasted%20image%2020260330144101.png)
+![550](../../../attachments/Pasted%20image%2020260330144101.png)
 
 A arquitetura moderna do Android não permite que a UI fale diretamente com o database. Existe uma hierarquia lógica:
 

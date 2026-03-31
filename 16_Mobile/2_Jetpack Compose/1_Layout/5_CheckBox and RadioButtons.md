@@ -8,8 +8,8 @@ O componente Checkbox é para permitir que o usuário selecione uma ou mais opç
 - **value:** Um parâmetro booleano.
 - **onCheckedChange:** Uma função de retorno (callback) disparada sempre que o usuário interage com o componente. 
 
-![](../../attachments/Pasted%20image%2020260319181215.png)
-![](../../attachments/checkBoxSimples.gif)
+![](../../../attachments/Pasted%20image%2020260319181215.png)
+![](../../../attachments/checkBoxSimples.gif)
 
 
 Por padrão, o componente `Checkbox` do Material Design é apenas o quadrado de marcação. Ele não inclui um rótulo de texto automaticamente.
@@ -27,8 +27,8 @@ O componente possui as seguintes propriedades fundamentais em sua assinatura:
 - **selected:** Define se o botão está preenchido. 
 - **onClick**: O evento disparado ao clicar no botão. Diferente do Checkbox, ele não retorna um booleano, pois o clique em um RadioButton sempre significa a intenção de selecioná-lo.    
 
-![550](../../attachments/Pasted%20image%2020260319212728.png)
-![300](../../attachments/radioButton.gif)
+![550](../../../attachments/Pasted%20image%2020260319212728.png)
+![300](../../../attachments/radioButton.gif)
 
 No exemplo acima, utilizamos `Modifier.selectable` em vez de `.clickable`.
 - selectable é otimizado para componentes de seleção única. 

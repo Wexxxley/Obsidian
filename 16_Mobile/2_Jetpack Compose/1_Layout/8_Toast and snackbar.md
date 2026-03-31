@@ -13,8 +13,8 @@ Para criar um Toast, utiliza-se o método estático makeText. Ele exige três pa
     - Toast.LENGTH_SHORT: Exibição por cerca de 2 segundos.
     - Toast.LENGTH_LONG: Exibição por cerca de 3.5 segundos.
 
-![500](../../attachments/Pasted%20image%2020260320084924.png)
-![300](../../attachments/toast.gif)
+![500](../../../attachments/Pasted%20image%2020260320084924.png)
+![300](../../../attachments/toast.gif)
 
 
 
@@ -29,6 +29,6 @@ Para exibir um Snackbar, o Compose utiliza quatro elementos trabalhando em conju
 - **SnackbarHostState:** O objeto que gerencia o estado.
 - **CoroutineScope:** Necessário porque a função de exibir o Snackbar é "suspensa" (executada de forma assíncrona).
 
-![](../../attachments/Pasted%20image%2020260320092206.png)
-![300](../../attachments/stackbar.gif)
+![](../../../attachments/Pasted%20image%2020260320092206.png)
+![300](../../../attachments/stackbar.gif)
 
