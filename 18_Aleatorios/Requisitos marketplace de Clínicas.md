@@ -1,9 +1,13 @@
 
 
 ---
-
 - Consulta, exames (loboratorial e de imagem).
-- O mvp não vai considerar Convênio?
+- O mvp não vai considerar Convênio.
+- O cadastro de clinicas é feito pelos admins do sistema.
+- Faz sentido ter os doutores individualmente.
+- Cobrança individua para cada clinica.
+- Pagamento de consulta/exame fica pela clinica
+- Historico de resultados e consultas/exames (sugestão)
 
 ![300](../attachments/Screenshot_20260331_180610_Medclub.jpg)
 ![300](../attachments/Screenshot_20260331_180450_Medclub.jpg)
