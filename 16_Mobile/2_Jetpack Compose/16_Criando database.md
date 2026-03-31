@@ -51,6 +51,7 @@ O Repository é uma camada de abstração que atua como um mediador entre as fon
 - **Decisão de Dados:** O repositório contém a lógica para decidir, por exemplo, se deve carregar dados da internet ou usar o que está salvo localmente.
 
 O repositório recebe o DAO via construtor. O repositório só tem acesso aos comandos que ele realmente precisa usar.
-- **`suspend`**: Essencial em todas as funções de escrita/leitura (exceto no Flow) para garantir que o trabalho seja feito fora da Main Thread.
+
+- **`suspend`**: Uma função suspensa garante que ela pode ser pausada e retomada, permitindo que o Room execute a tarefa em background sem travar o app. Essencial em todas as funções de escrita/leitura (exceto no Flow).
 
 ![](../../attachments/Pasted%20image%2020260331091702.png)
