@@ -14,9 +14,9 @@
 ![](../attachments/Pasted%20image%2020260331181103.png)
 
 ## **Módulo do Paciente**
-### **[RF01] Buscar Clínicas e Especialidades**
+### **[RF01] Buscar Consultas e exames**
 
-**Descrição:** Como Paciente, quero pesquisar por especialidades(dentista, oftamologista...), procedimentos ou nomes de clínicas para encontrar o atendimento necessário.
+**Descrição:** Como Paciente, quero pesquisar por especialidades(dentista, oftamologista...), procedimentos ou nomes de clínicas para encontrar o atendimento necessário. Consulta e exame.
 
 **Fluxo Principal:**
 1. Usuário acessa a barra de busca na tela inicial.
@@ -30,7 +30,7 @@
 **Mensagens do Sistema:**
 - MSG01: "Nenhum prestador encontrado nesta região."
     
-**Critérios de Aceitação:** A busca deve retornar os resultados podendo filtrar por preço.
+**Critérios de Aceitação:** A busca deve retornar os resultados podendo filtrar.
 
 ### **[RF02] Agendar Consulta/Exame**
 
@@ -38,58 +38,27 @@
 
 **Fluxo Principal:**
 1. Usuário seleciona uma clínica/profissional.
-2. Visualiza o calendário de horários disponíveis...
-3. Confirma os dados do paciente (Próprio ou Dependente).
-4. Finaliza o agendamento.    
-### **[RF03] Pagamento Online**
+2. Formulario para mensagem pronta.
+3. Redirecionamento para o whatsapp/site.
 
-**Descrição:** Como Paciente, quero pagar pela consulta via app para garantir a reserva e agilizar o atendimento presencial.
+### **[RF03] Feedback para a clínica**
 
-**Fluxo Principal:**
-1. Usuário escolhe a forma de pagamento.
-2. Insere dados de pagamento.
-3. O sistema processa a transação através do gateway.
-    
-**Fluxos Alternativos:**
-- FA01: Pagamento negado (O sistema informa o erro e solicita outra forma).
-    
-**Mensagens do Sistema:**
-- MSG01: "Pagamento confirmado."
-    
-**Critérios de Aceitação:** O sistema deve gerar um comprovante e enviá-lo.
+**Descrição:** Como Paciente, quero poder dar um feedback da clínica
 
-
-
-- Opção de dar feedback para a clínica/profissional
+**Fluxo principal:**
+1. Usários acessam o perfil da clinica
+2. Opção de feedback
 
 ---
+## **Módulo da Clínica**
 
-## **Módulo da Clínica/Profissional**
+### **[RF05] Edição de informações**
 
-- Cadastro na platorma...
-- Feedbacks da clinica/profissional
-### **[RF04] Gestão de Agenda e Disponibilidade**
+**Descrição**: Eu como profissional, gostaria de poder editar horarios, localização, descrição, profissionais, serviços, especialidades, foto.
+### **[RF06] Upload de resultados/documentos (DADOS SENSÍVEIS)**
 
-**Descrição:** Como Gestor da Clínica, quero configurar os horários de atendimento dos profissionais para que fiquem visíveis no marketplace.
+**Descrição**: Eu como profissional gostaria de fazer uploads de resultados por cpf.
 
- ...
-### **[RF05] Confirmar/Cancelar Agendamento**
-
-**Descrição:** Como Clínica, quero validar os pedidos de agendamento recebidos para organizar o fluxo de pacientes.
-
-**Fluxo Principal:**
-1. Usuário recebe notificação de novo agendamento.
-2. Acessa "Pedidos Pendentes".
-3. Visualiza detalhes (Paciente, Especialidade, Pagamento, hora).
-4. Seleciona "Confirmar" ou "Cancelar".
-    
-**Fluxos Alternativos:**
-- FA01: Cancelamento pela clínica (O sistema exige o preenchimento de um motivo e notifica o paciente imediatamente).
-    
-**Mensagens do Sistema:**
-- MSG01: "Agendamento confirmado. O paciente foi notificado."
-    
-**Critérios de Aceitação:** Se o agendamento for cancelado pela clínica, o estorno financeiro deve ser disparado  caso tenha havido pagamento prévio.
 
 ---
 ## **Módulo Administrativo** 
