@@ -18,7 +18,7 @@ Solução **totalmente local** (executada e armazenada apenas no celular do clie
 **Fluxos Alternativos:** 
 - FA01: Campos obrigatórios em branco (O sistema impede e sinaliza o campo).
 
-Mensagens do Sistema: 
+**Mensagens do Sistema:** 
 - MSG01: "Produto cadastrado com sucesso."
     
 **Critérios de Aceitação:** Se "Produto", inicia com quantidade zero. Se "Serviço", controle de estoque fica bloqueado.    
