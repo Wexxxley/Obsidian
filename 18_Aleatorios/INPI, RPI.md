@@ -1,5 +1,5 @@
 
----
+
 
 O **Instituto Nacional da Propriedade Industrial (INPI)** é uma autarquia federal vinculada ao Ministério do Desenvolvimento, Indústria, Comércio e Serviços. Ele é o órgão oficial responsável pelo aperfeiçoamento, disseminação e gestão do sistema brasileiro de concessão e garantia de direitos de propriedade intelectual para a indústria.
 
@@ -48,48 +48,4 @@ Sua responsabilidade inclui o registro de **marcas**, concessão de **patentes**
 
 **Caducidades de Registros de Marca**: Processos específicos para investigar se uma marca está em uso.
 - **Notificação de caducidade para manifestação:** Alguém alegou que você não usa sua marca. Você deve apresentar notas fiscais ou provas de uso.
-
-
----
-### **Login/cadastro**
-
-[E01] Ao acessar o "começar free" na landing page direciona diretamente para o cadastro de pj, sendo que tbm tem o de pessoa física.
-
-[E02] Senhas fracas são aceitas 
-
-### **Dashboard**
-
-[E03] erro no front, design do monitoramento
-![600](../attachments/Pasted%20image%2020260330080600.png)
-### Marcas
-[E03] Falta uma descrição do termo "temperature", está muito vago.
-![500](../attachments/Pasted%20image%2020260330080351.png)
-### Análises
-Pq tem a opção de excluir revistas? no caso essa tela so indica as resvistas que ja foram processadas?
-![](../attachments/Pasted%20image%2020260330074350.png)
-
-### Kanban
-
-[E04] Tento editar as colunas e n consigo, a descrição nem aparece
-[E05] Erro no front, as boinhas estao ovais
-	![](../attachments/Pasted%20image%2020260330075437.png)
-
-
-### Configurações
-
-[E06] Front meu perfil, cores dos textos.
-	![400](../attachments/Pasted%20image%2020260330075923.png)
-
-
-### Planos
-
-[E07] A descrição dos planos está muito vago. De cara eu nao entendi as diferenças e benefícios
-![](../attachments/Pasted%20image%2020260330080737.png)
-
-[E08] Erro ao tentar voltar da tela de pagamento dos creditos
-![400](../attachments/Pasted%20image%2020260330081834.png)
-
-Na minha opnião faz mais sentido e é ate mais lucrativo ter so as opçoes de recargas fixas e tirar o valor avulso.
-![](../attachments/Pasted%20image%2020260330081010.png)
-
 
