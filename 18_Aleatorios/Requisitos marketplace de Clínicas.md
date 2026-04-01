@@ -110,11 +110,13 @@
 **Mensagens do Sistema:**    
 - **MSG01:** "Arquivo enviado com sucesso para o paciente." **
 
-**Critérios de Aceitação:**** O arquivo deve ser armazenado em ambiente criptografado e ficar disponível apenas para o CPF informado através de login seguro.
+**Critérios de Aceitação:** Os laudos (PDFs/Imagens) devem ser armazenados em um Bucket onde a chave de acesso é gerada apenas para o CPF do paciente. O Admin da plataforma não deve ter essa chave "na mão".
 
 No Brasil, o tratamento de dados de saúde exige consentimento explícito. Recomendo adicionar um termo de aceite no **RF01** para o paciente autorizar o recebimento de laudos via plataforma.
 
+
 ---
+
 ### **3. Módulo Administrativo (Gestor Único)**
 
 **[RF08] Painel de Controle de Clínicas**: Como Administrador, quero cadastrar, ativar ou suspender clínicas para controlar quem aparece na plataforma para os pacientes. 
@@ -155,12 +157,3 @@ No Brasil, o tratamento de dados de saúde exige consentimento explícito. Recom
 2. O sistema mascara dados sensíveis de pacientes nas listagens gerais.
 3. O sistema impede que o Administrador visualize ou faça download dos arquivos de laudo enviados pelas clínicas. 
 
-
----
-
-
-1. **Isolamento de Arquivos:** Os laudos (PDFs/Imagens) devem ser armazenados em uma pasta (Bucket) onde a chave de acesso é gerada apenas para o CPF do paciente ou para o usuário da clínica. O Admin da plataforma não deve ter essa chave "na mão".
-    
-2. **MFA Obrigatório:** Como o Admin tem "poder total" sobre as clínicas, o login dele **precisa** de um segundo fator de autenticação (como um código no celular). Se a senha vazar, o sistema continua protegido.
-    
-3. **Logs de Atividade:** Crie uma tabela simples no banco de dados chamada `logs_atividades`. Toda vez que o admin mudar um preço ou deletar um comentário, o sistema grava: `[Data] - [Admin] - [Ação]`. Isso desencoraja má conduta e ajuda a rastrear erros humanos.
