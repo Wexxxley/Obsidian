@@ -4,20 +4,13 @@
 ---
 ### **1. Button**
 
-O botão mais simples exige dois itens: onClick e content.
-
-```kotlin
-Button(onClick = { println("Botão clicado!") }) {
-    Text("Clique aqui")
-}
-```
-
 Tudo o que você coloca dentro do conteudo do botão se comporta como se estivesse dentro de uma Row. Por isso, se você colocar um `Icon` e um `Text`, eles ficarão automaticamente um ao lado do outro.
 
 ![](../../../attachments/Pasted%20image%2020260319102931.png)
 - **`shape`**: Define o arredondamento.
 - **`contentPadding`**: Ajusta o espaçamento interno.
 - `border`: Define borda
+- `OnClick`: Recebe uma função
 
 Usando estado no botão
 ![560](../../../attachments/Pasted%20image%2020260319105716.png)
@@ -26,8 +19,19 @@ Usando estado no botão
 2. **mutableStateOf:** É um tipo de variável especial. O Compose fica "vigiando" essa variável; se o valor dela muda, o Compose entende que teve mudanças.
 3. **onClick:** Dentro do clique do botão, você altera o valor dessa variável. Essa mudança avisa o sistema: "Ei, o estado mudou, redesenhe a tela agora!".
 
+--- 
+### **2. Estado vs Variável comum**
+
+- **Variável Comum:** Se você altera o valor de uma variável local comum, o valor muda na memória, mas a UI não sabe disso. Ela continua exibindo o valor antigo.
+    
+- **Variável de Estado:** Quando você altera um estado, o framework detecta essa mudança e dispara automaticamente o processo de Recomposição. 
+
+- **Variável Comum:** Toda vez que a função do componente é executada novamente, a variável comum é reinicializada com seu valor padrão. 
+    
+- **Variável de Estado:** Através de mecanismos como o remember, o framework reserva um espaço na memória permitindo que o valor seja lembrado.
+
 ---
-### **2. TextFild**
+### **3. TextFild**
 
 O TextField é o componente de entrada de texto. O TextField não "guarda" o texto sozinho. Se você digitar e não atualizar o estado, o texto não aparece na tela. 
 

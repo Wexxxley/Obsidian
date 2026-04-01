@@ -30,14 +30,3 @@ Ele recebe como parâmetros:
 ![300](../../../attachments/1_AcweX3i0odfh9hJp2kI6hA.gif)
 ![](../../../attachments/Pasted%20image%2020260318094231.png)
 ![200](../../../attachments/Pasted%20image%2020260318094250.png)
-
---- 
-### **3. Estado vs Variável comum**
-
-- **Variável Comum:** Se você altera o valor de uma variável local comum, o valor muda na memória, mas a UI não sabe disso. Ela continua exibindo o valor antigo.
-    
-- **Variável de Estado:** Quando você altera um estado, o framework detecta essa mudança e dispara automaticamente o processo de Recomposição. 
-
-- **Variável Comum:** Toda vez que a função do componente é executada novamente, a variável comum é reinicializada com seu valor padrão. 
-    
-- **Variável de Estado:** Através de mecanismos como o remember, o framework reserva um espaço na memória permitindo que o valor seja lembrado.
