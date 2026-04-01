@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "18_Aleatorios/Erros e sugestões.md",
+                "file": "18_Aleatorios/Requisitos marketplace de Clínicas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Erros e sugestões"
+              "title": "Requisitos marketplace de Clínicas"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -184,15 +183,15 @@
   },
   "active": "8a1df320e11319c4",
   "lastOpenFiles": [
-    "attachments/Pasted image 20260401064610.png",
+    "18_Aleatorios/Anota Smart - Requisitos.md",
+    "18_Aleatorios/Requisitos marketplace de Clínicas.md",
     "18_Aleatorios/INPI, RPI.md",
     "18_Aleatorios/Erros e sugestões.md",
+    "attachments/Pasted image 20260401064610.png",
     "18_Aleatorios/Pedido de crenciais GIT.md",
-    "18_Aleatorios/Requisitos marketplace de Clínicas.md",
     "attachments/Pasted image 20260331181103.png",
     "attachments/Screenshot_20260331_180610_Medclub.jpg",
     "attachments/Screenshot_20260331_180450_Medclub.jpg",
-    "18_Aleatorios/Anota Smart - Requisitos.md",
     "18_Aleatorios/Anota Smart - Wireframe.md",
     "16_Mobile/2_Jetpack Compose/3_Armazenamento/5_Usando a viewModel.md",
     "attachments/Pasted image 20260331135141.png",
@@ -208,7 +207,6 @@
     "attachments/Pasted image 20260331100237.png",
     "attachments/Pasted image 20260331091702.png",
     "attachments/Pasted image 20260331090539.png",
-    "attachments/Pasted image 20260331090218.png",
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados/13_Transformando estados em UI.md",
     "18_Aleatorios/Video cpmi.md",
     "18_Aleatorios/Video ram.md",
