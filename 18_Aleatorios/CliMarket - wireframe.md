@@ -46,66 +46,37 @@ App mobile. 9:16. 360*640
 
 ### B. Tela de Login
 - **Campo de Entrada:** Inputs para CPF e Senha.
+- **Ações:** Botão "Entrar" e link "Criar conta" (direciona para a Tela de Cadastro).
 
 ### C. Detalhamento da Tela Inicial (Funil de Intenção)
-#### **A. Estrutura de Navegação Superior** 
-- **Top App Bar:** Ícone de menu (esquerda), Identidade Visual (centro) e Foto de Perfil (direita).
-    
-- **Saudação Personalizada:** Texto em destaque: "Olá, [Nome], o que você busca hoje?".
-    
 
-### B. Seção de Seleção Primária (Cards de Grande Formato)
+- **Saudação Personalizada:** Texto em destaque: "Olá, [Nome], o que você busca hoje?".  
+#### 1. Seção de Seleção Primária (Cards de Grande Formato)
+- **Card "Preciso de Consulta":** Card com ícone de estetoscópio. Ao clicar, abre a tela de Especialidades.
+- **Card "Preciso de Exame":** Card com ícone de frasco de ensaio. Ao clicar, abre a tela de Tipo de Exame.
 
-Em vez de uma lista genérica, o usuário escolhe o "Caminho" logo no topo da tela:
-
-- **Card "Preciso de Consulta":** Card com ícone de estetoscópio. Ao clicar, abre o **Modal de Especialidades**.
-    
-- **Card "Preciso de Exame":** Card com ícone de frasco de ensaio/raio-x. Ao clicar, abre o **Modal de Tipo de Exame**.
-    
-
-### C. Modais de Fluxo Sequencial (O "Cérebro" da Tela)
-
-#### 1. Modal de Especialidades (Caminho: Consulta)
-
-- **Trigger:** Clique no Card "Consulta".
-    
-- **Conteúdo:** * Barra de busca interna: "Qual especialidade?" (ex: Cardiologia).
-    
-    - **LazyVerticalGrid (3 colunas):** Ícones circulares com texto abaixo para as especialidades mais comuns (Pediatria, Clínica Geral, etc).
-        
-    - **Ação:** Ao selecionar, o modal fecha e a tela de resultados carrega as clínicas que atendem essa especialidade.
-        
-
-#### 2. Modal de Tipo de Exame (Caminho: Exame)
-
-- **Trigger:** Clique no Card "Exame".
-    
-- **Passo 1 (Subtipo):** Dois botões grandes: "Laboratorial" (sangue, urina) ou "Imagem" (Raio-X, Ultrassom).
-    
-- **Passo 2 (Especificação):** Após escolher o subtipo, abre-se uma lista/busca para o exame específico (ex: "Hemograma" ou "Ressonância").
-    
-- **Ação:** Ao selecionar o exame específico, a tela de resultados carrega as clínicas/laboratórios que realizam o procedimento.
-    
-
-### D. Seção de Localização Automática (Barra de Contexto)
-
-- **Componente:** Uma barra fina logo abaixo dos Cards Primários indicando: "Mostrando resultados para: **[Nome da Rua/Bairro ou Cidade]**".
-    
-- **Ícone de Lápis:** Permite alterar o local manualmente caso o GPS falhe (FA01).
-    
+#### 2. tela de Especialidades (Caminho: Consulta)
+- Breadcrumbs
+- **Conteúdo:**  Barra de busca interna: "Qual especialidade?" (ex: Cardiologia).
+- **LazyVerticalGrid (2 colunas):** Ícones circulares com texto ao lado para as especialidades comuns (Pediatria, Clínica Geral, cardilogia, ginecologia, etc).  
+- Ao selecionar, o modal fecha e a tela de resultados carrega os componentes de  consutas.
+#### 3. tela de Tipo de Exame (Caminho: Exame)
+- Breadcrumbs
+- **Subtipo:** Dois botões grandes: "Laboratorial" (sangue, urina) ou "Imagem" (Raio-X, Ultrassom).
+- Após escolher o subtipo
+	- Barra de busca interna: "Qual exame?"
+	- **LazyVerticalGrid (3 colunas):** Ícones circulares com texto abaixo para os exames. Hemograma, Ressonância e etc...
+- Ao selecionar, o modal fecha e a tela de resultados carrega os componentes de exames.
 
 ---
 
-## 4. Detalhamento da Tela de Resultados (Pós-Seleção)
+## 4. Tela de Resultados (Pós-Seleção)
 
 Após o usuário completar o fluxo sequencial acima, os resultados aparecem seguindo esta ordem:
 
 ### A. Cabeçalho de Filtro Ativo
-
 - **Breadcrumbs:** Início > Busca > [Especialidade ou Exame Selecionado].
-    
 - **Tag de Filtro:** Um "chip" destacado no topo indicando o que foi filtrado (ex: "Exame: Laboratorial - Hemograma"). Um ícone de "X" no chip permite voltar ao início.
-    
 
 ### B. Listagem de Clínicas (LazyColumn)
 
