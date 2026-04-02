@@ -7,9 +7,7 @@ Crie um Wireframe para minha aplicação segundo instruções.
 
 Cores para o wireframe: Cinza 1 (Fundo/Textos principais), Cinza 2 (Componentes/Cards), Cinza 3 (Bordas/Inputs).
 
-Use icones simples, e somente as caixas (sem curvas).
-
-App mobile. 9:16. 360 * 640px
+App mobile. 9:16. 
 
 ## 1. Estrutura de Navegação e Componentes Fixos
 
@@ -97,65 +95,38 @@ App mobile. 9:16. 360 * 640px
 - **Interatividade de Clínica:**  Ao clicar no componente da clinica é redirecionado para o perfil da clinica mas sem perder o estado do breadcrumbs
 - **Botão de Ação:** "Agendar via WhatsApp".
 
-
 ## 4. Detalhamento das Telas: Clínicas, Laudos e Perfil
 
 ### **H. Tela de Clínicas (Busca Institucional - Aba Bottom Bar)**
-
 Esta tela é o ponto de entrada para quem busca uma instituição específica, independentemente de um exame já selecionado.
-
 - **Breadcrumbs**: Oculto na tela inicial da aba. Torna-se `Clínicas > [Nome da Clínica]` ao acessar o perfil.
-    
 - **Barra de Busca**: Input retangular "Pesquisar clínica pelo nome".
-    
 - **Grid (2 colunas)**: Cards focados na identidade da clínica:
-    
-    - **Topo**: Foto da fachada ou recepção em tons de Cinza 2.
-        
+    - **Topo**: Foto do perfil da clinica
     - **Centro**: Nome da Clínica em negrito e Nota média (estrelas de 1 a 5).
-        
     - **Base**: Tags retangulares pequenas indicando especialidades principais (Ex: "Cardiologia", "Raio-X").
         
 - **Ação de Clique**: Redireciona para o **Perfil Detalhado da Clínica**.
-    
     - **Estado**: Se o usuário acessou esta tela vindo da "Tela de Detalhes da Oferta" (Seção G), o _Breadcrumb_ deve preservar a trilha anterior: `Início > Busca > [Serviço] > Detalhes > [Nome da Clínica]`.
-        
 
-### **I. Tela de Laudos e Resultados (Aba Bottom Bar)**
+### **I. Tela de Laudos e Resultados**
 
 Espaço restrito para acesso a documentos sensíveis, garantindo a privacidade exigida.
 
-- **Breadcrumbs**: Início > Laudos.
-    
 - **Lista de Documentos (LazyColumn)**:
-    
     - **Card de Laudo**:
-        
         - **Lado Esquerdo**: Ícone retangular de "Documento/PDF".
-            
         - **Centro**: Nome do Exame, Data do Upload e Nome da Clínica emissora.
-            
         - **Lado Direito**: Status "Disponível" ou "Novo".
             
 - **Ação de Visualização**: Ao clicar, o sistema gera a chave de acesso temporária para o CPF do paciente e abre o visualizador de PDF/Imagem do sistema.
-    
-- **Segurança**: O Administrador do sistema não possui acesso a esta visualização.
-    
 
-### **J. Tela de Perfil e Configurações (Aba Bottom Bar)**
-
+### **J. Tela de Perfil e Configurações**
 Área de gestão de dados pessoais e segurança da conta.
-
-- **Breadcrumbs**: Início > Perfil.
-    
 - **Seção de Dados Pessoais**: Exibição dos dados cadastrados (Nome, CPF mascarado, E-mail, Telefone, Endereço) com botão "Editar".
-    
 - **Gestão de Consentimento**: _Switch_ (chave) para "Autorizo o recebimento de laudos via plataforma", conforme exigência de dados de saúde.
-    
 - **Segurança**: Opção para "Alterar Senha" e configuração de Autenticação de Dois Fatores (2FA).
-    
 - **Botão de Ação**: Botão retangular Cinza 1 para "Sair da Conta".
-    
 
 ---
 
@@ -166,35 +137,27 @@ Espaço restrito para acesso a documentos sensíveis, garantindo a privacidade e
 Interface completa acessada tanto pela busca de serviços quanto pela aba de Clínicas.
 
 - **Breadcrumbs**: Mantém a trilha de origem (Ex: `Início > Busca > [Serviço] > Detalhes > Clínica` ou `Clínicas > [Nome da Clínica]`).
-    
-- **Cabeçalho**: Carrossel de fotos retangulares e Descrição textual da infraestrutura.
-    
+- **Perfil**: Icone, nome
+- Carrossel de fotos retangulares e Descrição textual da infraestrutura.
 - **Abas de Conteúdo (TabRow)**:
-    
-    - **Aba Informações**: Exibe Localização (mapa simples), Horário de Funcionamento e Corpo Clínico (Lista de nomes e especialidades).
-        
+    - **Aba Informações**: Exibe Localização (mapa simples), Horário de Funcionamento, informaçoes de contato e Corpo Clínico (Lista de nomes e especialidades).
     - **Aba Serviços**: Lista de todas as Consultas e Exames oferecidos com seus respectivos preços.
-        
-    - **Aba Avaliações**: Lista de comentários e notas deixadas por outros pacientes.
+    - **Aba Avaliações**: Lista de avaliaçoes e botão Avaliar clinica
         
 - **Ação de Agendamento**: Botão fixo no rodapé "Agendar via WhatsApp" que carrega a mensagem formatada.
-    
 
-### **L. Painel da Clínica (Gestão de Laudos - Visão Profissional)**
+### **M. Fluxo de Avaliação (Feedback do Paciente)**
 
-Interface exclusiva para funcionários da clínica realizarem a entrega digital.
+#### **1. Ponto de Entrada (Trigger)**
 
-- **Breadcrumbs**: Painel Clínica > Documentos > Enviar Laudo.
-    
-- **Área de Seleção**:
-    
-    1. **Campo CPF**: Input para digitar o CPF do paciente destinatário.
-        
-    2. **Upload**: Botão "Selecionar Arquivo" (PDF/Imagem).
-        
-- **Validação (FA01)**: Se o CPF não estiver cadastrado, exibe Overlay: "Paciente não encontrado. Solicite o cadastro antes de enviar".
-    
-- **Confirmação**: Botão "Confirmar Envio" que dispara a MSG01: "Arquivo enviado com sucesso para o paciente".
-    
+- **Localização**: Dentro da aba "Avaliações" do Perfil da Clínica.
+- **Componente**: Botão retangular proeminente em **Cinza 1** escrito "Avaliar Clínica".
 
----
+#### **2. Modal de Avaliação (Overlay)**
+
+Ao clicar no botão, um modal centralizado (sem curvas) sobrepõe a tela atual:
+- **Seletor de Nota**: Cinco ícones de estrelas (1 a 5). O paciente clica na estrela correspondente à sua nota; as estrelas selecionadas mudam de **Cinza 3** para **Cinza 1**.
+- **Campo de Comentário**: Input de texto multilinha (TextArea) com a etiqueta "Conte-nos sobre sua experiência (opcional)".
+- **Botão de Ação**: Botão retangular "Salvar Avaliação".
+
+
