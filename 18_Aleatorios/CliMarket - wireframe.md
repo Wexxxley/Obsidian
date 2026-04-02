@@ -94,196 +94,107 @@ App mobile. 9:16. 360 * 640px
 - **Breadcrumbs:** Início > Busca > [Serviço] > Detalhes.
 - **Informações do Serviço:** Bloco de texto detalhando o que está incluso e orientações de preparo.
 - **Informações da Clínica:** Endereço, horário de funcionamento e logo da clinica.
-- **Interatividade de Clínica:** Link "Ver Perfil desta Clínica" para acessar o catálogo completo institucional sem perder o filtro de busca atual.
-    
+- **Interatividade de Clínica:**  Ao clicar no componente da clinica é redirecionado para o perfil da clinica mas sem perder o estado do breadcrumbs
 - **Botão de Ação:** "Agendar via WhatsApp".
+
+
+## 4. Detalhamento das Telas: Clínicas, Laudos e Perfil
+
+### **H. Tela de Clínicas (Busca Institucional - Aba Bottom Bar)**
+
+Esta tela é o ponto de entrada para quem busca uma instituição específica, independentemente de um exame já selecionado.
+
+- **Breadcrumbs**: Oculto na tela inicial da aba. Torna-se `Clínicas > [Nome da Clínica]` ao acessar o perfil.
     
-- **Modal de Redirecionamento:** Exibe a mensagem pré-definida com dados do paciente e o serviço desejado antes de abrir o aplicativo externo.
+- **Barra de Busca**: Input retangular "Pesquisar clínica pelo nome".
+    
+- **Grid (2 colunas)**: Cards focados na identidade da clínica:
+    
+    - **Topo**: Foto da fachada ou recepção em tons de Cinza 2.
+        
+    - **Centro**: Nome da Clínica em negrito e Nota média (estrelas de 1 a 5).
+        
+    - **Base**: Tags retangulares pequenas indicando especialidades principais (Ex: "Cardiologia", "Raio-X").
+        
+- **Ação de Clique**: Redireciona para o **Perfil Detalhado da Clínica**.
+    
+    - **Estado**: Se o usuário acessou esta tela vindo da "Tela de Detalhes da Oferta" (Seção G), o _Breadcrumb_ deve preservar a trilha anterior: `Início > Busca > [Serviço] > Detalhes > [Nome da Clínica]`.
+        
+
+### **I. Tela de Laudos e Resultados (Aba Bottom Bar)**
+
+Espaço restrito para acesso a documentos sensíveis, garantindo a privacidade exigida.
+
+- **Breadcrumbs**: Início > Laudos.
+    
+- **Lista de Documentos (LazyColumn)**:
+    
+    - **Card de Laudo**:
+        
+        - **Lado Esquerdo**: Ícone retangular de "Documento/PDF".
+            
+        - **Centro**: Nome do Exame, Data do Upload e Nome da Clínica emissora.
+            
+        - **Lado Direito**: Status "Disponível" ou "Novo".
+            
+- **Ação de Visualização**: Ao clicar, o sistema gera a chave de acesso temporária para o CPF do paciente e abre o visualizador de PDF/Imagem do sistema.
+    
+- **Segurança**: O Administrador do sistema não possui acesso a esta visualização.
+    
+
+### **J. Tela de Perfil e Configurações (Aba Bottom Bar)**
+
+Área de gestão de dados pessoais e segurança da conta.
+
+- **Breadcrumbs**: Início > Perfil.
+    
+- **Seção de Dados Pessoais**: Exibição dos dados cadastrados (Nome, CPF mascarado, E-mail, Telefone, Endereço) com botão "Editar".
+    
+- **Gestão de Consentimento**: _Switch_ (chave) para "Autorizo o recebimento de laudos via plataforma", conforme exigência de dados de saúde.
+    
+- **Segurança**: Opção para "Alterar Senha" e configuração de Autenticação de Dois Fatores (2FA).
+    
+- **Botão de Ação**: Botão retangular Cinza 1 para "Sair da Conta".
     
 
 ---
 
-## 4. Seções Adicionais e Gestão
+## 5. Módulo da Clínica: Gestão de Informações e Documentos
 
-### **H. Tela de Clínicas (Busca Institucional)**
+### **K. Perfil Detalhado da Clínica (Visão Paciente)**
 
-- **Breadcrumbs:** Clínicas.
+Interface completa acessada tanto pela busca de serviços quanto pela aba de Clínicas.
+
+- **Breadcrumbs**: Mantém a trilha de origem (Ex: `Início > Busca > [Serviço] > Detalhes > Clínica` ou `Clínicas > [Nome da Clínica]`).
     
-- **Barra de Busca:** Input "Pesquisar clínica pelo nome".
+- **Cabeçalho**: Carrossel de fotos retangulares e Descrição textual da infraestrutura.
     
-- **Grid (2 colunas):** Cards institucionais com foto da fachada, nome da clínica, tags de especialidades e nota média.
+- **Abas de Conteúdo (TabRow)**:
     
-- **Ação:** Abre o Perfil da Clínica, listando todos os serviços e corpo clínico.
-    
-
-### **I. Gestão de Laudos (Módulo Clínica)**
-
-- **Breadcrumbs:** Gestão > Enviar Laudo.
-    
-- **Busca de Destinatário:** Input para inserir o CPF do paciente.
-    
-- **Upload:** Botão "Anexar PDF/Imagem".
-    
-- **Modal de Erro (FA01):** "CPF não encontrado na base de dados".
-    
-- **Overlay de Sucesso (MSG01):** Check animado com texto "Arquivo enviado com sucesso".
-    
-
-### **J. Modal de Localização Obrigatória (FA01)**
-
-- **Trigger:** Disparado se o usuário tentar buscar serviços com o GPS desativado.
-    
-- **Conteúdo:** "Precisamos saber onde você está para encontrar as clínicas mais próximas".
-    
-- **Input:** Campo para inserção manual do CEP.
-
-
-
-
-----
-
-
-
-
-
-
-
-## **1. Estrutura de Navegação e Componentes Fixos**
-
-### Top App Bar
-- **Ícone de Menu (Esquerda):** Três traços que disparam o Navigation Drawer.
-- **Logotipo (Centro):** Espaço para branding da plataforma.
-- **Direita:** Ícone de "Sino" para notificações de novos laudos.
-### Breadcrumbs (Trilha de Navegação)
-- **Localização:** Barra horizontal fixa logo abaixo da Top App Bar. Tome cuidado para não ficar grande, quero algo pequeno.
-- **Componente:** Seta para a esquerda (Voltar) seguida pela trilha de texto (Ex: Início > Clínica X > Agendar). As telas iniciais (busca, laudo, perfil), não possui nada, afinal, ela são as iniciais
-- **Comportamento:** O texto da tela anterior é clicável para retorno rápido.
-### Navigation Drawer 
-- Ocupado 50% da parte horizontal da tela.
-- **Cabeçalho:** Foto do usuário, Nome Completo e E-mail. 
-- **Meus Agendamentos:** Lista de redirecionamentos realizados. 
-- **Configurações:** Gerenciamento de conta e segurança.
-- **Termos de Uso:** Incluindo o consentimento explícito para dados sensíveis.
-### Bottom Navigation Bar
-- **Início:** Funil de intenção (Consultas/Exames).
-- **Clínicas:** Seção para busca e listagem direta de estabelecimentos.
-- **Laudos:** Acesso aos resultados digitalizados.
-- **Perfil:** Dados do paciente e configurações.
-
-## 2. Detalhamento das Telas e Componentes
-
-### A. Tela de Cadastro
-
-- **Formulário de Registro:** Nome Completo, CPF, E-mail, Telefone e informaçoes de endereço.
-- **Botão de Ação:** "Finalizar Cadastro"
-    
-- **Modal de Erro:**
-    - **Título:** "Erro no Cadastro"
-    - **Conteúdo:** Mensagem indicando CPF já cadastrado/invalido ou senha incorreta.
-    - **Botão:** "Tentar Novamente".       
-
-### B. Tela de Login
-- **Campo de Entrada:** Inputs para CPF e Senha.
-- **Ações:** Botão "Entrar" e link "Criar conta" (direciona para a Tela de Cadastro).
-
-### C. Detalhamento da Tela Inicial (Funil de Intenção)
-
-#### 1. Seção de Seleção Primária (Cards de Grande Formato)
-- **Saudação Personalizada:** Texto em destaque: "Olá, [Nome], o que você busca hoje?".  
-- **Card "Preciso de Consulta":** Card com ícone de estetoscópio. Ao clicar, abre a tela de Especialidades.
-- **Card "Preciso de Exame":** Card com ícone de frasco de ensaio. Ao clicar, abre a tela de Tipo de Exame.
-
-#### 2. tela de Especialidades (Caminho: Consulta)
-- **Conteúdo:**  Barra de busca interna: "Qual especialidade?" (ex: Cardiologia).
-- Breadcrumbs: Início > Especialidades.
-- grid (2 colunas): Ícones circulares com texto ao lado para as especialidades (Pediatria, Clínica Geral, cardilogia, ginecologia, etc).  
-- Ao clicar, abre a Tela de Resultados de Consultas para aquela especialidade.
-#### 3. tela de Tipo de Exame (Caminho: Exame)
-- **Breadcrumbs:** Início > Exames.
-- **Barra de Busca Superior:** Input de texto com a etiqueta "Qual exame você procura?" (Ex: Hemograma, Ressonância).
-- **Seleção de Subtipo (Filtros Alternados):** Dois botões de destaque (Chips) posicionados logo abaixo da busca:
-    - **Botão "Laboratorial":** Ao ser ativado, filtra a grade apenas para exames de análise clínica (sangue, urina, etc.) e desativa automaticamente o filtro "Imagem".
-    - **Botão "Imagem":** Ao ser ativado, filtra a grade para procedimentos radiológicos (Raio-X, Ultrassom, etc.) e desativa automaticamente o filtro "Laboratorial".
-    - **Estado Neutro:** Se o usuário clicar no filtro ativo para desativá-lo, a grade volta a exibir todos os tipos de exames disponíveis.
+    - **Aba Informações**: Exibe Localização (mapa simples), Horário de Funcionamento e Corpo Clínico (Lista de nomes e especialidades).
         
-- grid (2 colunas): Ícones circulares com texto ao lado para os exames.
-- Ao clicar, abre a Tela de Resultados de Exames para aquela especialidade.
-
-### 4. Tela de Resultados (Pós-Seleção)
-
-Nesta tela, o foco não é a clínica, mas sim as ofertas do serviço selecionado em diferentes locais para comparação.
-
-#### A. Listagem de Ofertas (LazyColumn)
-
-- **Breadcrumbs:** Início > Busca > [Nome do Exame ou Especialidade].
-- **Card de Oferta de Serviço:**
-    - **Topo:** Nome do Serviço em destaque (Ex: "Hemograma Completo").
-    - **Corpo (Lado Esquerdo):** Logo da Clínica que oferece o serviço.
-    - **Corpo (Centro):** Nome da Clínica, nota de avaliação e distância.
-    - **Corpo (Lado Direito):** Preço do serviço naquela clínica específica (Ex: "R$ 45,00").
-    - **Botão de Ação:** "Ver Detalhes".
-
-#### E. Tela de Detalhes da Oferta (Ao clicar no Card)
-- **Breadcrumbs:** Início > Busca > [Nome do Exame ou Especialidade] > Detalhes 
-- **Informações do Serviço:** Descrição do que está incluso no exame ou consulta.
-- **Informações da Clínica:** Endereço, horário e fotos do local.
-- **Botão:** "Agendar via WhatsApp".
-
-### 4. Tela de Clínicas (Bottom Bar)
-
-F. Busca Institucional
-- **Breadcrumbs:** Clínicas.
-- **Barra de Busca:** "Pesquisar clínica pelo nome".
-- **LazyVerticalGrid (2 colunas):** Cards focados na instituição:
-    - Foto da fachada.
-
-    - Nome da Clínica.
+    - **Aba Serviços**: Lista de todas as Consultas e Exames oferecidos com seus respectivos preços.
         
-    - Especialidades atendidas (Tags).
+    - **Aba Avaliações**: Lista de comentários e notas deixadas por outros pacientes.
         
-    - Nota média de avaliação.
+- **Ação de Agendamento**: Botão fixo no rodapé "Agendar via WhatsApp" que carrega a mensagem formatada.
+    
+
+### **L. Painel da Clínica (Gestão de Laudos - Visão Profissional)**
+
+Interface exclusiva para funcionários da clínica realizarem a entrega digital.
+
+- **Breadcrumbs**: Painel Clínica > Documentos > Enviar Laudo.
+    
+- **Área de Seleção**:
+    
+    1. **Campo CPF**: Input para digitar o CPF do paciente destinatário.
         
-- **Ação:** Ao clicar, abre o **Perfil da Clínica**, que lista todos os serviços disponíveis e corpo clínico.
-## 5. Componentes de Erro e Suporte na Tela Inicial
-
-### Modal de Localização Obrigatória (FA01)
-
-- **Trigger:** Usuário tenta selecionar uma categoria sem o GPS estar ativo e sem local definido.
-    
-- **Conteúdo:** Texto "Precisamos saber onde você está para encontrar as clínicas mais próximas".
-    
-- **Input:** Campo para digitar o CEP.
-
-
-
-### A. Tela de Edição de Perfil
-
-- **Breadcrumbs:** Gestão > Meu Perfil.
-    
-- **Seção de Dados:** Inputs para horário, localização (mapa) e descrição.
-    
-- **Gestão de Profissionais:** Lista com botão "+" para novo profissional.
-    
-- **Gestão de Serviços:** Cadastro de consultas e exames com valores individuais.
-    
-
-### B. Tela de Gestão de Laudos
-
-- **Breadcrumbs:** Gestão > Enviar Laudo.
-    
-- **Busca de Destinatário:** Campo de CPF para localizar o paciente no banco de dados.
-    
-- **Upload:** Botão para anexar PDF ou Imagem do dispositivo.
-    
-- **Modal de CPF não Encontrado (FA01):**
-    
-    - **Conteúdo:** Texto alertando que o paciente não possui cadastro na plataforma.
+    2. **Upload**: Botão "Selecionar Arquivo" (PDF/Imagem).
         
-    - **Ação:** Botão "Solicitar que o paciente se cadastre".
-        
-- **Overlay de Sucesso (MSG01):**
+- **Validação (FA01)**: Se o CPF não estiver cadastrado, exibe Overlay: "Paciente não encontrado. Solicite o cadastro antes de enviar".
     
-    - **Animação:** Check animado verde.
-        
-    - **Texto:** "Arquivo enviado com sucesso para o paciente".
-        
+- **Confirmação**: Botão "Confirmar Envio" que dispara a MSG01: "Arquivo enviado com sucesso para o paciente".
+    
+
+---
