@@ -2,12 +2,8 @@
 #Concluded 
 
 ---
-**Vídeo com o conteúdo base desse capítulo.**
-[![Capa do vídeo](https://img.youtube.com/vi/6mbFO0ZLMW8/hqdefault.jpg)](https://www.youtube.com/watch?v=6mbFO0ZLMW8&t=14s)
 
 Tudo, absolutamente tudo que um computador faz, desde mostrar este texto até rodar um jogo complexo, é baseado em um conceito muito simples: o **sistema binário**.
-
----
 ### **1. Conceitos fundamentais**
 
 **Definição**: <mark style="background: #ADCCFFA6;">Sistema binário é um sistema de numeração que usa apenas dois dígitos: 0 e 1. Cada um desses dígitos é chamado de "bit".</mark>
@@ -25,27 +21,25 @@ Tudo, absolutamente tudo que um computador faz, desde mostrar este texto até ro
 1. No sistema **decimal (base 10)** cada "casa" de um número vale 10 vezes mais que a anterior.
 	- O número **123  = (1 x 100) + (2 x 10) + (3 x 1)**
 
-2. No sistema **binário (base 2)** mas cada "casa" vale 2 vezes mais que a anterior.
+2. No sistema **binário (base 2)** cada "casa" vale 2 vezes mais que a anterior.
 
 ![350](../../../attachments/Pasted%20image%2020251027102250.png)
 
 ---
 ### **3. De Bits para Letras**
-Computadores não armazenam "letras". Eles armazenam números que _representam_ letras. Para que isso funcione, foi preciso definir um padrão que diz qual número corresponde a qual caractere.
 
-**O Padrão ASCII (American Standard Code for Information Interchange)**: O ASCII foi um dos primeiros padrões criados para isso. Quando você digita a tecla 'H' no seu teclado, o computador não armazena um 'H'. Ele armazena o número decimal **72**. Quando ele precisa exibir esse dado, ele consulta a tabela ASCII, vê que 72 significa 'H', e desenha um 'H' na tela.
+Computadores não armazenam "letras". Eles armazenam números que representam letras. Para que isso funcione, foi preciso definir um padrão que diz qual número corresponde a qual caractere.
+
+**O Padrão ASCII**: O ASCII foi um dos primeiros padrões criados. Quando você digita a tecla 'H' no seu teclado, o computador armazena o número decimal 72. Quando ele precisa exibir o dado, ele consulta a tabela, vê que 72 significa 'H', e desenha um 'H' na tela.
 	![](../../../attachments/Pasted%20image%2020251027102534.png)
-- Cada número era representado por 7 bits
+- Utiliza 7 bits para representar caracteres, permitindo um total de 128.
+- Abrange apenas o alfabeto inglês (sem acentuação), números e alguns caracteres de controle. Ou seja, é insuficiente para idiomas que utilizam acentuação ou alfabetos diferentes 
 
-**Unicode**: O UNICODE utiliza códigos de valor bem maiores. Com isso, pode representar todos os caracteres específicos de diversos idiomas.
+**Unicode**:  Cada caractere recebe um codigo e cobre todos os sistemas de escrita do mundo, símbolos matemáticos e até emojis. Mas, obviamente consome bem mais espaço.
 
-**UTF-8:** Normalmente, em UNICODE, um caractere usa **2 bytes**. Em outras palavras, qualquer texto usa duas vezes mais espaço do que no ASCII. É um desperdício. Além disso, se tomarmos como exemplo um texto em português, a grande maioria dos caracteres só utiliza o código ASCII. 
+**UTF-8**: Ele pode usar de 1 a 4 bytes para representar um caractere. Os primeiros 128 caracteres do UTF-8 são idênticos ao ASCII. Isso significa que qualquer arquivo ASCII puro também é um arquivo UTF-8 válido.
 
-Um texto em UTF-8 é simples, é feito completamente em ASCII e, quando precisamos de um caractere do UNICODE, usamos um caractere especial, que indica 'Atenção, o seguinte caractere está em UNICODE'. 
-
-Por exemplo, no texto 'Bienvenue chez Sébastien', apenas o '**é**' não faz parte do código ASCII. Então, escrevemos em UTF-8:
-
-![](https://img-21.ccm2.net/BOIbEY_90hxL2sadzTa1GdPTjQ8=/247x/2aec22c0f13b45618a3ee6d8970eb798/ccm-faq/3CnBkSiYkrUzslO0-s-.png)
+Caracteres comuns ocupam apenas 1 byte, enquanto símbolos mais complexos ou emojis ocupam mais espaço.
 
 ---
 ### **4. Byte**
