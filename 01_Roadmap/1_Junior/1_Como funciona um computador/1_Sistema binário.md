@@ -44,9 +44,9 @@ Caracteres comuns ocupam apenas 1 byte, enquanto símbolos mais complexos ou emo
 ---
 ### **4. Byte**
 
-Rapidamente se tornou inconveniente falar de números em sequências longas de bits. A indústria padronizou um agrupamento chamado **Byte**, que é simplesmente um conjunto de **8 bits**.
+Rapidamente se tornou inconveniente falar de números em sequências longas de bits. A indústria padronizou um agrupamento chamado **Byte**, que é  um conjunto de **8 bits**.
     
 - Com 8 bits, você pode criar 256 combinações diferentes (de 0 a 255).
-- Isso era mais do que suficiente para cobrir todas as letras (maiúsculas e minúsculas), números e símbolos de pontuação do padrão ASCII. Por isso, por muito tempo, 1 caractere = 1 byte.
+- Isso era mais do que suficiente para cobrir todas as letras (maiúsculas e minúsculas), números e símbolos de pontuação do padrão ASCII. 
 
-![](../../../attachments/Pasted%20image%2020251027105124.png)
+![300](../../../attachments/Pasted%20image%2020251027105124.png)
