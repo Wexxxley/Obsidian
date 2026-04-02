@@ -212,27 +212,7 @@ Descrição: Como Microempreendedor, quero atualizar os dados de contato ou ende
 Tela simples com cards clicaveis com infromação acerca do conteudo que levam a tutoriais no yotube.
 
 ---
-### **Roteiro entrevista**
 
-1. Hoje, quando você vende algo ou paga uma conta do seu negócio, você anota? você tem controle dos gastos e lucros do seu negócio? 
-    
-2. Você possui clareza sobre o lucro real do seu negócio ao final do mês, subtraindo custos de aquisição e despesas operacionais?
-    
-3. Além do custo do produto, você registra gastos fixos (aluguel, luz) ou variáveis (embalagens, frete) separadamente para entender o peso de cada um no seu negócio?
-    
-4. Quais são os principais obstáculos (falta de tempo, esquecimento, complexidade) que impedem o registro imediato e diário de todas as transações?
-    
-5. Você costuma misturar o dinheiro do seu negócio com o seu dinheiro pessoal?
-    
-6. Você utiliza notas promissórias ou algum tipo de recibo físico para formalizar essas dívidas?
-    
-7. No caso de vendas não pagas no ato, quais informações você anota para garantir a cobrança (nome, data de vencimento, parcelas pagas)?
-    
-8. Você identifica facilmente quais clientes possuem parcelas em atraso e qual o montante total que você tem para receber?
-    
-9. Você mantém um histórico de compras por cliente para oferecer promoções ou realizar cobranças?
-    
-10. Você acha que um app descomplicado onde você poderia fazer suas vendas, anotar vendas, selecionar formas de pagamento, ver as parcelas a serem pagas, as datas a serem recebidas, de forma offline, na palma da sua mão seria prático para vc?
 
 
 ---

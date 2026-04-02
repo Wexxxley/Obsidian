@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "18_Aleatorios/CliMarket - wireframe.md",
+                "file": "18_Aleatorios/Roteiro pesquisa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CliMarket - wireframe"
+              "title": "Roteiro pesquisa"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -184,10 +183,11 @@
   },
   "active": "8a1df320e11319c4",
   "lastOpenFiles": [
+    "18_Aleatorios/Anota Smart - Requisitos.md",
+    "18_Aleatorios/Roteiro pesquisa.md",
+    "18_Aleatorios/CliMarket - wireframe.md",
     "18_Aleatorios/Anota Smart - Wireframe.md",
     "18_Aleatorios/CliMarket - Requisitos.md",
-    "18_Aleatorios/CliMarket - wireframe.md",
-    "18_Aleatorios/Anota Smart - Requisitos.md",
     "16_Mobile/Comparativo tecnologias Web a Android.md",
     "16_Mobile/2_Jetpack Compose/1_Layout/4_Button and TextFild.md",
     "16_Mobile/2_Jetpack Compose/1_Layout/3_Layout.md",
@@ -214,7 +214,6 @@
     "attachments/Screenshot_20260331_180450_Medclub.jpg",
     "16_Mobile/2_Jetpack Compose/3_Armazenamento/5_Usando a viewModel.md",
     "attachments/Pasted image 20260331135141.png",
-    "16_Mobile/2_Jetpack Compose/3_Armazenamento/4_Application e viewModel.md",
     "16_Mobile/2_Jetpack Compose/3_Armazenamento",
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados",
     "16_Mobile/2_Jetpack Compose/1_Layout",
