@@ -47,9 +47,34 @@ App mobile. 9:16.
     - **Conteúdo:** Mensagem indicando CPF já cadastrado, formato inválido ou dados incompletos.
     - **Botão:** "Tentar Novamente" (fecha o modal para correção dos dados).
 
-### **B. Tela de Login**
-- **Campos de Entrada:** Inputs para CPF e Senha.
-- **Ações:** Botão "Entrar" em Cinza 1 e link de texto "Criar conta" que redireciona para a Tela de Cadastro.
+### **B. Tela de Login Unificada (Acesso Geral)**
+
+A tela inicial de acesso é dividida por abas para evitar confusão entre o usuário leigo (paciente) e o gestor (clínica).
+
+- **Top App Bar**: Fundo Cinza 1 com o espaço pro logotipo centralizado.
+- **Seletor de Perfil (TabRow)**: Duas abas retangulares que ocupam 100% da largura.
+    - **Aba 1: "Sou Paciente"**: Selecionada por padrão para o usuário comum.
+    - **Aba 2: "Sou Clínica"**: Destinada ao acesso profissional.
+#### **1. Aba: Sou Paciente**
+
+- **Campo de Entrada 1**: Input retangular com rótulo "CPF" (Máscara automática: 000.000.000-00).    
+- **Campo de Entrada 2**: Input retangular com rótulo "Senha" (Tipo password com ícone de "olho" para mostrar/esconder).
+- **Botão de Ação**: Botão retangular em Cinza 1 escrito "Entrar".
+- **Link de Navegação**: Texto "Não tem conta? Cadastre-se aqui" que redireciona para a **Tela de Cadastro**.
+- **Fluxo de Erro (FA02)**: Caso a senha esteja incorreta, exibe o link "Esqueci minha senha" logo abaixo do campo.
+#### **2. Aba: Sou Clínica**
+
+- **Campo de Entrada 1**: Input retangular com rótulo "E-mail Corporativo".
+- **Campo de Entrada 2**: Input retangular com rótulo "Senha de Acesso".
+- **Botão de Ação**: Botão retangular em Cinza 1 escrito "Acessar Painel Profissional".
+- **Aviso de Segurança**: Texto discreto no rodapé: "Acesso restrito a estabelecimentos parceiros. Se sua clínica ainda não está no HealthTech, entre em contato com o suporte: healttack@gmail.com"
+
+- **Modal de Primeiro Acesso (Exclusivo Clínica)**:    
+    - **Trigger**: Identificado que a clínica usa a senha gerada por SQL.
+    - Texto informado para crar senha segura no primeiro acesso.
+    - **Componentes**: Dois campos para "Nova Senha" e "Confirmar Nova Senha".
+    - **Regra**: O sistema bloqueia o acesso ao painel até que a senha temporária seja alterada por segurança.
+
 
 ### **C. Tela Inicial (Funil de Intenção)**
 - **Saudação Personalizada:** Texto em destaque no topo: "Olá, [Nome], o que você busca hoje?".
