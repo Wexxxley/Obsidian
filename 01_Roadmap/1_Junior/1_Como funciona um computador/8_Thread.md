@@ -2,24 +2,23 @@
 #Concluded 
 
 ---
+Se um Processo é o "canteiro de obras", uma Thread é um trabalhador dentro desse canteiro. Um processo sempre começa com pelo menos uma thread. Mas ele pode criar várias outras para dividir o trabalho.
 
-Se um Processo é o "canteiro de obras", uma Thread é um trabalhador dentro desse canteiro. Um processo sempre começa com pelo menos _uma_ thread (a "thread principal"). Mas ele pode criar várias outras para dividir o trabalho.
-
-### 1. Por que usar Threads? 
+### **1. Por que usar Threads?** 
 
 - **Processos são "pesados":**
-    - **Criação:** Criar um processo novo é lento. O SO precisa alocar um novo espaço de memória, criar o PCB, carregar o código, etc.
-    - **Troca de Contexto:** Como vimos, trocar de um Processo A para um Processo B é caro. O SO precisa salvar _todo_ o contexto de A e carregar _todo_ o contexto de B.
+    - Criar um processo novo é lento. O SO precisa alocar um novo espaço de memória, criar o PCB(Process Control Block), carregar o código, etc.
+    - A troca de um Processo A para um Processo B é caro. O SO precisa salvar todo o contexto de A e carregar todo o contexto de B.
         
 - **Threads são "leves":**
-    - **Criação:** Criar uma nova thread é muito rápido. Por quê? Porque <mark style="background: #ADCCFFA6;">ela reaproveita a memória e os recursos do processo que a criou</mark>.
-    - **Troca de Contexto:** Trocar da Thread 1 para a Thread 2 é barato. O SO só precisa salvar os registradores e o ponteiro da stack da Thread 1 e carregar os da Thread 2. 
+    - Criar uma nova thread é muito rápido. Por quê? Porque <mark style="background: #ADCCFFA6;">ela reaproveita a memória e os recursos do processo que a criou</mark>.
+    - Trocar da Thread 1 para a Thread 2 é barato. O SO só precisa salvar os registradores e o ponteiro da stack da Thread 1 e carregar os da Thread 2. 
         
 
 ---
 ### **2. A Anatomia da Thread**
 
-Todas as Threads do _mesmo_ Processo **COMPARTILHAM**:
+Todas as Threads do mesmo Processo **COMPARTILHAM**:
 
 - **Espaço de Endereçamento:**
     - **Code Segment:** Todas leem o mesmo código do programa.
@@ -30,12 +29,9 @@ Todas as Threads do _mesmo_ Processo **COMPARTILHAM**:
     - **File Descriptors:** Se a Thread 1 abre um arquivo, a Thread 2 pode ler e escrever nele.
     - **Conexões de Rede:** Todas compartilham as mesmas conexões.
 
-O que cada Thread tem de **ÚNICO**:
-
+O que cada Thread tem de único:
 - **Stack:** Cada thread tem sua própria pilha. Isso é crucial. A pilha armazena as variáveis locais e o histórico de chamadas de funções. 
-    
 - **Registradores:** Para salvar o contexto dela.
-    
 - **Estado:** Assim como um processo, a thread pode estar `Running`, `Ready` ou `Blocked`. 
 
 ---

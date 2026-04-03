@@ -3,10 +3,7 @@
 ---
 
 
-Crie um Wireframe para minha aplicação segundo instruções.
-
-Cores para o wireframe: Cinza 1 (Fundo/Textos principais), Cinza 2 (Componentes/Cards), Cinza 3 (Bordas/Inputs).
-
+Escolha uma paleta de cores condizente com um app de saude.
 App mobile. 9:16. 
 
 ## 1. Estrutura de Navegação e Componentes Fixos
