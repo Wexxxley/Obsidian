@@ -37,7 +37,7 @@ App mobile. 9:16.
 - **Perfil:** Gestão de dados pessoais do paciente e configurações de privacidade.
 
 ---
-## 2. Detalhamento das Telas e Componentes
+## 2. Detalhamento das Telas e Componentes (visao cliente)
 
 ### **A. Tela de Cadastro**
 - **Formulário de Registro:** Inputs de texto para Nome Completo, CPF, E-mail, Telefone e campos de endereço (Rua, Número, Bairro, CEP).
@@ -155,8 +155,7 @@ Espaço restrito para acesso a documentos sensíveis, garantindo a privacidade e
 
 ---
 
-## 5. Módulo da Clínica: Gestão de Informações e Documentos
-
+## 5. Módulo da Clínica: visao paciente
 ### **K. Perfil Detalhado da Clínica (Visão Paciente)**
 
 Interface completa acessada tanto pela busca de serviços quanto pela aba de Clínicas.
@@ -186,3 +185,90 @@ Ao clicar no botão, um modal centralizado (sem curvas) sobrepõe a tela atual:
 - **Botão de Ação**: Botão retangular "Salvar Avaliação".
 
 
+----
+
+## **6. Visão das clínicas**
+
+### 1. Estrutura de Navegação Fixa
+
+Diferente do paciente, a clínica possui uma navegação focada em gestão operacional.
+
+**Top App Bar**
+- **Esquerda**: Nome da Unidade (Ex: "Clínica São José").
+- **Centro**: Logo da plataforma
+- **Lado Direito**: Etiqueta retangular indicando o Status: "Ativa" ou "Suspensa"
+
+**Bottom  Bar**
+- **Painel (Dashboard)**: Ícone de gráfico ou casa, para visão geral.
+- **Serviços**: Ícone de lista, para gerenciar o catálogo de preços e profissionais.
+- **Laudos**: Ícone de documento, para envios e consulta de histórico (logs).
+- **Meu Perfil**: Ícone de engrenagem, para edição de dados institucionais e fotos
+
+### 2. Painel Administrativo da Clínica (Dashboard)
+
+A "Home" do profissional foca em produtividade e alertas rápidos.
+
+- **Cards de Resumo (LazyRow)**:
+    - **Serviços Ativos**: Contador total (Ex: "15 Ativos").
+    - **Financeiro**: Status de pagamento da mensalidade ("Em dia" ou "Pendente").
+    - **Métricas de Busca**: Contador de quantas vezes a clínica apareceu nos resultados dos pacientes.
+        
+- **Ações Rápidas (Botões Retangulares)**:
+    - Botão "Novo Envio de Laudo" (Atalho direto para a tela de upload).
+        
+
+### 3. Tela de Gestão de Laudos e Confirmação (Logs)
+
+Esta seção agora inclui o histórico para a clínica ter a prova do cumprimento da obrigação de entrega digital.
+
+#### **A. Tela de Envio de Laudo**
+- **Breadcrumbs**: Início > Laudos > Enviar Novo.
+- **Componentes do Formulário**:
+    - **Campo CPF**: Input retangular com máscara automática (000.**_._**-00).
+    - **Validação (FA01)**: Se o CPF não for encontrado, exibe o alerta: "Paciente não cadastrado. O envio só é permitido para usuários da plataforma".
+    - **Área de Seleção**: Um retângulo grande para anexar o PDF ou Imagem.
+    - **Botão de Ação**: "Confirmar Envio" (Gera a MSG01: "Arquivo enviado com sucesso").
+
+#### **B. Seção de Logs de Envio (Confirmação da Empresa)**
+
+Localizada abaixo do formulário ou em aba separada dentro de "Laudos", permite que a clínica monitore suas atividades passadas.
+
+- **Tabela de Logs (LazyColumn)**:
+    - **Data/Hora**: Registro exato do momento do envio.
+    - **Destinatário**: Nome do Paciente (Mascarado) e CPF.
+    - **Serviço**: Qual exame ou consulta o laudo refere-se.
+    
+- **Regra de Segurança**: O profissional vê o nome do arquivo enviado e o destinatário, mas o sistema bloqueia a visualização do conteúdo do documento após o envio para proteger a privacidade do paciente.
+
+### 4. Detalhamento da Tela de Edição de Perfil (Visão Clínica)
+
+Esta tela é o espelho administrativo do que o paciente consome. O gestor utiliza esta área para alimentar a "vitrine" da instituição.
+
+#### **A. Identidade Visual e Básica**
+- **Foto de Perfil/Logotipo**: Espaço retangular para upload da imagem que aparece nos cards de busca e na grid institucional.
+- **Carrossel de Fotos**: Lista horizontal com botão "+" para adicionar fotos da infraestrutura (recepção, salas de exame) que o paciente vê nos "Detalhes da Oferta" e uma botao para excluir do carrosel a imagem.
+- **Descrição da Clínica**: Campo de texto multilinha para a biografia e diferenciais da instituição.
+
+#### **B. Localização e Contato**
+- **Endereço e Mapa**: Inputs de texto para Ru, Número, Bairro e CEP.
+- **Horário de Funcionamento**: Campo de texto para descrição dos turnos (Ex: "Seg a Sex: 08h às 18h").
+- **Link de Atendimento**: Campo para inserir o número do WhatsApp ou link do site para o redirecionamento de agendamento.
+
+#### **C. Corpo Clínico (Equipe)**
+
+- **Lista de Profissionais**: Cada item contém dois inputs retangulares: "Nome do Profissional" e "Especialidade".
+- **Ação**: Botão "+" em Cinza 2 para adicionar nova linha de profissional e ícone de "Lixeira" para remover.
+
+#### **D. Catálogo de Serviços (Consultas e Exames)**
+
+- **Tabela de Preços**: Estrutura de linhas onde o gestor define o que aparece nos resultados de busca do paciente.
+    - **Coluna 1**: Nome do Procedimento (Ex: Hemograma, Consulta Cardiológica).
+    - **Coluna 2**: Preço Individual (Input numérico em R$).
+        
+- **Tags de Especialidade**: Seleção de palavras-chave que aparecerão como "Tags" nos cards da Grid Institucional (Ex: "Raio-X", "Pediatria").
+
+### **Botão de Ação e Persistência**
+
+- **Botão**: "Salvar Alterações"  fixo.
+    
+- **Mensagem (MSG01)**: Overlay centralizado com o texto "Perfil atualizado com sucesso" após a validação dos dados.

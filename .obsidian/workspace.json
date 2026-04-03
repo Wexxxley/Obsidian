@@ -89,14 +89,28 @@
         "type": "tabs",
         "children": [
           {
+            "id": "05015930807b4d22",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "18_Aleatorios/CliMarket - wireframe.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CliMarket - wireframe"
+            }
+          },
+          {
             "id": "d0227fc8f91b0d43",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "16_Português/2_Morfologia/5_Pronome parte 3.md",
-                "collapseAll": true,
-                "extraContext": true,
+                "file": "18_Aleatorios/CliMarket - wireframe.md",
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
@@ -104,21 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 5_Pronome parte 3"
-            }
-          },
-          {
-            "id": "05015930807b4d22",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "03_Redes de computadores/2_Camada Aplicação/2_Requisitos de aplicações.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from 2_Requisitos de aplicações"
+              "title": "Backlinks for CliMarket - wireframe"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "roteiro.md",
+                "file": "18_Aleatorios/CliMarket - wireframe.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of roteiro"
+              "title": "Outline of CliMarket - wireframe"
             }
           },
           {
@@ -162,12 +162,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8a1df320e11319c4",
+  "active": "284ac965fd9121d3",
   "lastOpenFiles": [
     "01_Roadmap/1_Junior/1_Como funciona um computador/9_Stack vs Heap.md",
     "01_Roadmap/1_Junior/1_Como funciona um computador/8_Thread.md",
