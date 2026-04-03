@@ -32,10 +32,10 @@ Todas as Threads do _mesmo_ Processo **COMPARTILHAM**:
 
 O que cada Thread tem de **ÚNICO**:
 
-- **Stack:** Cada thread tem sua própria pilha. Isso é _crucial_. A pilha armazena as variáveis locais e o histórico de chamadas de funções. 
+- **Stack:** Cada thread tem sua própria pilha. Isso é crucial. A pilha armazena as variáveis locais e o histórico de chamadas de funções. 
     
 - **Registradores:** Para salvar o contexto dela.
-        
+    
 - **Estado:** Assim como um processo, a thread pode estar `Running`, `Ready` ou `Blocked`. 
 
 ---
@@ -77,7 +77,6 @@ O que cada Thread tem de **ÚNICO**:
         
     - **Paralelismo Real:** Se todas as 8 threads de clientes precisarem fazer um cálculo _exatamente ao mesmo tempo_, seu computador é capaz de executar todas elas em **paralelismo real**, usando 8 núcleos físicos. O desempenho será fantástico.
         
-
 5.  **O que Acontece com 100 Usuários Simultâneos**: Aqui é onde vemos a diferença entre **Paralelismo** (hardware) e **Concorrência** (software).
 	
 	- **Criação das Threads:** O seu processo de servidor vai, de fato, criar 101 threads. Elas existirão todas ao mesmo tempo dentro do seu processo. O SO agora tem 101 threads, mas apenas 16 "slots" para executá-las. 
@@ -88,7 +87,6 @@ O que cada Thread tem de **ÚNICO**:
 	    - Ele então **carrega** outras 16 threads que estavam na fila ("Ready") e as deixa rodar
 	    - Ele repete isso milhares de vezes por segundo.
 	        
-
 6. **O Limite Real desse Modelo:** Este é o verdadeiro problema do modelo "thread-por-cliente".
 	- Cada thread, por mais "leve" que seja, exige sua própria pilha (Stack). O SO reserva um espaço de memória para essa pilha (por padrão, algo entre 1MB e 8MB).
 	- **100 threads:** 100 * 1MB = 100MB de RAM (só para as pilhas). Fácil.
