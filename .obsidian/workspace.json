@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "18_Aleatorios/CliMarket - wireframe.md",
+                "file": "02_Dotnet/2_WebAPI/3_Intermediário/CORS policy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CliMarket - wireframe"
+              "title": "CORS policy"
             }
           }
         ]
@@ -94,12 +94,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "18_Aleatorios/CliMarket - wireframe.md",
+                "file": "02_Dotnet/2_WebAPI/3_Intermediário/CORS policy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from CliMarket - wireframe"
+              "title": "Outgoing links from CORS policy"
             }
           },
           {
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "18_Aleatorios/CliMarket - wireframe.md",
+                "file": "02_Dotnet/2_WebAPI/3_Intermediário/CORS policy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CliMarket - wireframe"
+              "title": "Backlinks for CORS policy"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "18_Aleatorios/CliMarket - wireframe.md",
+                "file": "02_Dotnet/2_WebAPI/3_Intermediário/CORS policy.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CliMarket - wireframe"
+              "title": "Outline of CORS policy"
             }
           },
           {
@@ -180,8 +180,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "284ac965fd9121d3",
+  "active": "0c52f17c64e87cbf",
   "lastOpenFiles": [
+    "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
+    "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
+    "01_Roadmap/1_Junior/2_Linguagens/4_Comparação.md",
+    "01_Roadmap/1_Junior/2_Linguagens/3_Linguagens interpretadas.md",
+    "01_Roadmap/1_Junior/2_Linguagens/2_Modelo Híbrido e Máquina Virtual.md",
+    "01_Roadmap/1_Junior/2_Linguagens/1_Linguagem compilada.md",
+    "18_Aleatorios/CliMarket - wireframe.md",
     "01_Roadmap/1_Junior/1_Como funciona um computador/9_Stack vs Heap.md",
     "01_Roadmap/1_Junior/1_Como funciona um computador/8_Thread.md",
     "01_Roadmap/1_Junior/1_Como funciona um computador/ResumoEmAudio.m4a",
@@ -194,7 +201,6 @@
     "01_Roadmap/1_Junior/1_Como funciona um computador/1_Sistema binário.md",
     "18_Aleatorios/Roteiro pesquisa.md",
     "18_Aleatorios/Anota Smart - Requisitos.md",
-    "18_Aleatorios/CliMarket - wireframe.md",
     "18_Aleatorios/Anota Smart - Wireframe.md",
     "18_Aleatorios/CliMarket - Requisitos.md",
     "16_Mobile/Comparativo tecnologias Web a Android.md",
@@ -204,10 +210,6 @@
     "16_Mobile/2_Jetpack Compose/1_Layout/1_Jetpack compose.md",
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados/5_Transformando estados em UI.md",
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados/1_Navegação.md",
-    "16_Mobile/2_Jetpack Compose/1_Layout/8_Toast and snackbar.md",
-    "16_Mobile/2_Jetpack Compose/1_Layout/7_Image.md",
-    "16_Mobile/2_Jetpack Compose/1_Layout/5_CheckBox and RadioButtons.md",
-    "16_Mobile/2_Jetpack Compose/1_Layout/6_Switch e Dropdown menu.md",
     "attachments/Pasted image 20260401064610.png",
     "attachments/Pasted image 20260331181103.png",
     "attachments/Screenshot_20260331_180610_Medclub.jpg",
@@ -226,7 +228,6 @@
     "16_Mobile/2_Imperativo",
     "16_Mobile/1_Kotlin",
     "14_Arquitetura de Computadores",
-    "09_Português/2_Morfologia",
     "Sem título.canvas"
   ]
 }

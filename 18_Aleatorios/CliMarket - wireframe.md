@@ -215,23 +215,13 @@ A "Home" do profissional foca em produtividade e alertas rápidos.
         
 - **Ações Rápidas (Botões Retangulares)**:
     - Botão "Novo Envio de Laudo" (Atalho direto para a tela de upload).
-        
 
 ### 3. Tela de Gestão de Laudos e Confirmação (Logs)
 
 Esta seção agora inclui o histórico para a clínica ter a prova do cumprimento da obrigação de entrega digital.
+#### **A. Seção de Logs de Envio (Confirmação da Empresa)**
 
-#### **A. Tela de Envio de Laudo**
-- **Breadcrumbs**: Início > Laudos > Enviar Novo.
-- **Componentes do Formulário**:
-    - **Campo CPF**: Input retangular com máscara automática (000.**_._**-00).
-    - **Validação (FA01)**: Se o CPF não for encontrado, exibe o alerta: "Paciente não cadastrado. O envio só é permitido para usuários da plataforma".
-    - **Área de Seleção**: Um retângulo grande para anexar o PDF ou Imagem.
-    - **Botão de Ação**: "Confirmar Envio" (Gera a MSG01: "Arquivo enviado com sucesso").
-
-#### **B. Seção de Logs de Envio (Confirmação da Empresa)**
-
-Localizada abaixo do formulário ou em aba separada dentro de "Laudos", permite que a clínica monitore suas atividades passadas.
+Permite que a clínica monitore suas atividades passadas.
 
 - **Tabela de Logs (LazyColumn)**:
     - **Data/Hora**: Registro exato do momento do envio.
@@ -239,8 +229,17 @@ Localizada abaixo do formulário ou em aba separada dentro de "Laudos", permite 
     - **Serviço**: Qual exame ou consulta o laudo refere-se.
     
 - **Regra de Segurança**: O profissional vê o nome do arquivo enviado e o destinatário, mas o sistema bloqueia a visualização do conteúdo do documento após o envio para proteger a privacidade do paciente.
+- Botao para enviar novo laudo fixo na tela.
 
-### 4. Detalhamento da Tela de Edição de Perfil (Visão Clínica)
+#### **B. modal envio de Laudo**
+- **Breadcrumbs**: Início > Laudos
+- **Componentes do Formulário**:
+    - **Campo CPF**: Input retangular com máscara automática (000.**_._**-00).
+    - **Validação (FA01)**: Se o CPF não for encontrado, exibe o alerta: "Paciente não cadastrado. O envio só é permitido para usuários da plataforma".
+    - **Área de Seleção**: Um retângulo grande para anexar o PDF ou Imagem.
+    - **Botão de Ação**: "Confirmar Envio" (Gera a MSG01: "Arquivo enviado com sucesso").
+
+### 4. Detalhamento da Tela de Edição de Perfil
 
 Esta tela é o espelho administrativo do que o paciente consome. O gestor utiliza esta área para alimentar a "vitrine" da instituição.
 
@@ -267,7 +266,7 @@ Esta tela é o espelho administrativo do que o paciente consome. O gestor utiliz
         
 - **Tags de Especialidade**: Seleção de palavras-chave que aparecerão como "Tags" nos cards da Grid Institucional (Ex: "Raio-X", "Pediatria").
 
-### **Botão de Ação e Persistência**
+#### **Botão de Ação e Persistência**
 
 - **Botão**: "Salvar Alterações"  fixo.
     
