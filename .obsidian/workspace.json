@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Roadmap/1_Junior/1_Como funciona um computador/9_Stack vs Heap.md",
+                "file": "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9_Stack vs Heap"
+              "title": "1_API e HTTP"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Roadmap/1_Junior/1_Como funciona um computador/9_Stack vs Heap.md",
+                "file": "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 9_Stack vs Heap"
+              "title": "Outline of 1_API e HTTP"
             }
           },
           {
@@ -182,18 +182,28 @@
   },
   "active": "8a1df320e11319c4",
   "lastOpenFiles": [
+    "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/9_Otimizando desempenho.md",
+    "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/8_Ciclo de referencias.md",
+    "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/7_Criando endpoints.md",
+    "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/6_Database first.md",
+    "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/5_DataAnnotations.md",
+    "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/4_Migrações.md",
+    "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/3_Entity Framework Core.md",
+    "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/2_Criando o projeto.md",
+    "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
+    "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
+    "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
+    "18_Aleatorios/2_Técnica simples de estudo.md",
+    "01_Roadmap/1_Junior/1_Como funciona um computador/9_Stack vs Heap.md",
     "01_Roadmap/1_Junior/1_Como funciona um computador/8_Thread.md",
     "01_Roadmap/1_Junior/1_Como funciona um computador/7_Processos.md",
     "18_Aleatorios/HealthTech - wireframe.md",
     "18_Aleatorios/HelthTech - Requisitos.md",
     "02_Dotnet/2_WebAPI/3_Intermediário/CORS policy.md",
-    "02_Dotnet/2_WebAPI/1_Criando uma WebAPI/1_API e HTTP.md",
-    "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
     "01_Roadmap/1_Junior/2_Linguagens/4_Comparação.md",
     "01_Roadmap/1_Junior/2_Linguagens/3_Linguagens interpretadas.md",
     "01_Roadmap/1_Junior/2_Linguagens/2_Modelo Híbrido e Máquina Virtual.md",
     "01_Roadmap/1_Junior/2_Linguagens/1_Linguagem compilada.md",
-    "01_Roadmap/1_Junior/1_Como funciona um computador/9_Stack vs Heap.md",
     "01_Roadmap/1_Junior/1_Como funciona um computador/ResumoEmAudio.m4a",
     "01_Roadmap/1_Junior/1_Como funciona um computador/6_A Hierarquia de Memória e o Cache.md",
     "01_Roadmap/1_Junior/1_Como funciona um computador/5_Placa mãe.md",
@@ -201,15 +211,6 @@
     "01_Roadmap/1_Junior/1_Como funciona um computador/3_RAM (Random Access Memory).md",
     "01_Roadmap/1_Junior/1_Como funciona um computador/2_CPU (Unidade Central de Processamento).md",
     "01_Roadmap/1_Junior/1_Como funciona um computador/1_Sistema binário.md",
-    "18_Aleatorios/Roteiro pesquisa.md",
-    "18_Aleatorios/Anota Smart - Requisitos.md",
-    "18_Aleatorios/Anota Smart - Wireframe.md",
-    "16_Mobile/Comparativo tecnologias Web a Android.md",
-    "16_Mobile/2_Jetpack Compose/1_Layout/4_Button and TextFild.md",
-    "16_Mobile/2_Jetpack Compose/1_Layout/3_Layout.md",
-    "16_Mobile/2_Jetpack Compose/1_Layout/2_Scaffold.md",
-    "16_Mobile/2_Jetpack Compose/1_Layout/1_Jetpack compose.md",
-    "16_Mobile/2_Jetpack Compose/2_Navegação e estados/5_Transformando estados em UI.md",
     "attachments/Pasted image 20260401064610.png",
     "attachments/Pasted image 20260331181103.png",
     "attachments/Screenshot_20260331_180610_Medclub.jpg",
@@ -227,7 +228,6 @@
     "16_Mobile/2_Jetpack Compose",
     "16_Mobile/2_Imperativo",
     "16_Mobile/1_Kotlin",
-    "14_Arquitetura de Computadores",
     "Sem título.canvas"
   ]
 }

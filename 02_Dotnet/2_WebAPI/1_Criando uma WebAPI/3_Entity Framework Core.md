@@ -30,7 +30,7 @@ O EF Core fornece o método de extensão **AddDbContext<>**.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfeRFle4vLIAlwGwatcCiCukNn9BfyMVimoFKH50apK1jY6NbVaoTZekMXydfFsA0d029SOpTLoWqSJbsC9QDTUDaRMSrs5_B3LbE3Pq1em1tMRQIL6bqiwfeX4Ac5XnK9ksUpLBnPwbmrWwTNmny4w47Fz?key=SZHaDLu24DLXyFgiFaRNLA)
 
-1️⃣  A string de conexão é obtida da configuração, da seção ConnectionStrings. 
+1️⃣ A string de conexão é obtida da configuração, da seção ConnectionStrings. 
 2️⃣ Registra o DbContext do seu aplicativo usando-o como parâmetro genérico. 
 3️⃣ Especifica o provedor de database nas opções para o DbContext.
 
