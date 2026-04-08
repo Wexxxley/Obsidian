@@ -1,1 +1,7 @@
+# Ignorar configurações de interface que variam por máquina
 .obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Ignorar caches e arquivos temporários
+.obsidian/cache/
+.obsidian/indexed-db/
