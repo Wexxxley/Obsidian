@@ -8,23 +8,28 @@ O Room é uma camada de abstração (ORM - Object-Relational Mapping) sobre o SQ
 A arquitetura moderna do Android não permite que a UI fale diretamente com o database. Existe uma hierarquia lógica:
 
 1. **Room (Database):** Armazena os dados localmente.
-2. **Repository:** Atua como o mediador entre diferentes fontes de dados. Se o celular estiver offline, ele busca no Room. Se online, pode buscar na API e atualizar o Room.
+2. **Repository:** 
 3. **ViewModel:** Prepara o que a UI deve exibir.
 4. **Flow / LiveData:** Os canais de comunicação que levam os dados do banco até a tela automaticamente.
 
-### **1. ViewModel**
+### **1. DAO vs REPOSITORY** 
 
-Ele busca os dados no Repositório e os expõe para a UI, garantindo que o app não precise consultar o banco de dados novamente após um simples giro de tela.
+DAO É o nível mais baixo. Ele só entende de SQL. A função dele é converter comandos do banco de dados em objetos Kotlin. 
 
-No Android, quando você gira a tela, a Activity é destruída e recriada. O ViewModel permanece na memória enquanto o usuário está naquela tela, independentemente de rotações.
+O Repository Atua como o mediador entre diferentes fontes de dados. Se o celular estiver offline, ele busca no Room. Se online, pode buscar na API e atualizar o Room.
+### **2. ViewModel**
 
+A ViewModel é o intermediário de estado entre a UI e os dados. Suas duas funções principais são:
+1. **Sobrevivência ao Ciclo de Vida:** No Android, se você girar a tela, a sua Activity é destruída e recriada. Se os dados estivessem na tela, eles seriam apagados. A ViewModel permanece viva na memória, segurando os dados para que a tela os recupere instantaneamente ao "renascer".
+    
+2. **Preparação de Dados:** O Repositório entrega dados brutos. A ViewModel os transforma em algo que a UI consiga exibir facilmente. Por exemplo, o Repositório entrega uma lista de 100 notas, e a ViewModel filtra para mostrar apenas as notas "Favoritas" na tela.
 ### **2. LiveData e StateFlow**
 
 Essas formas de comunicaçao entregam dados da viewModel à UI do Compose.
 
 **LiveData**
 O LiveData foi criado especificamente para o Android. Ele é um Container que só entrega os dados se o componente estiver ativo
-- **Consciência de Ciclo de Vida:** Ele sabe se a sua `Activity` ou `Fragment` está aberta. Se o app for para o segundo plano, o `LiveData` para de enviar atualizações.
+- **Consciência de Ciclo de Vida:** Ele sabe se a sua `Activity`está aberta. Se o app for para o segundo plano, o `LiveData` para de enviar atualizações.
 - **Foco em UI Tradicional:** Ele funciona perfeitamente com os layouts antigos.
 
 **StateFlow**
