@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 O Compose não lê o banco de dados sozinho; ele precisa que o ViewModel entregue os dados em um formato que ele entenda (Estado), e para criar esse ViewModel com parâmetros, precisamos da Factory.

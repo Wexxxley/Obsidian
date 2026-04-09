@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 ### **1. Entities**
@@ -26,9 +27,9 @@ Para buscas personalizadas, usamos a anotação **@Query**.
 ---
 ### **3. Database**
 
-A classe Database é o ponto central que conecta as tabelas aos seus comandos (DAOs).
+A classe Database é o ponto central que conecta as tabelas aos seus comandos DAOs.
 
-O **padrão Singleton** garante que uma classe tenha apenas uma instância durante toda a vida útil do aplicativo. Usamos o **applicationContext** em vez do contexto Activity para evitar vazamentos de memória. 
+O **padrão Singleton** garante que uma classe tenha apenas uma instância durante toda a vida útil do app. Usamos o **applicationContext** em vez do contexto Activity para evitar vazamentos de memória. 
 
 Como seu app pode tentar acessar o banco de dados de vários lugares ao mesmo tempo:
 
@@ -46,12 +47,8 @@ Como seu app pode tentar acessar o banco de dados de vários lugares ao mesmo te
 
 O Repository é uma camada de abstração que atua como um mediador entre as fontes de dados (Banco de Dados Room, APIs externas, Cache). Embora não seja obrigatório, o Google o recomenda como uma boa prática de arquitetura.
 
-- **Centralização:** Se você decidir mudar o banco de dados de Room para outra tecnologia, só precisará alterar o código no Repository, e não em todas as suas telas.
-    
-- **Decisão de Dados:** O repositório contém a lógica para decidir, por exemplo, se deve carregar dados da internet ou usar o que está salvo localmente.
-
 O repositório recebe o DAO via construtor. O repositório só tem acesso aos comandos que ele realmente precisa usar.
 
-- **`suspend`**: Uma função suspensa garante que ela pode ser pausada e retomada, permitindo que o Room execute a tarefa em background sem travar o app. Essencial em todas as funções de escrita/leitura (exceto no Flow).
+- **suspend**: Uma função suspensa garante que ela pode ser pausada e retomada, permitindo que o Room execute a tarefa em background sem travar o app. Essencial em todas as funções de escrita/leitura (exceto no Flow).
 
 ![](../../../attachments/Pasted%20image%2020260331091702.png)

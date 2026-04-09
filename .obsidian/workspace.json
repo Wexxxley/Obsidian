@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Mobile/2_Jetpack Compose/3_Armazenamento/3_Criando database.md",
+                "file": "16_Mobile/2_Jetpack Compose/3_Armazenamento/5_Usando a viewModel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Criando database"
+              "title": "5_Usando a viewModel"
             }
           }
         ],
@@ -200,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "16_Mobile/2_Jetpack Compose/3_Armazenamento/3_Criando database.md",
+                "file": "16_Mobile/2_Jetpack Compose/3_Armazenamento/5_Usando a viewModel.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3_Criando database"
+              "title": "Outline of 5_Usando a viewModel"
             }
           },
           {
@@ -240,10 +240,10 @@
   },
   "active": "cdad6f00f1a49f0f",
   "lastOpenFiles": [
-    "16_Mobile/2_Jetpack Compose/3_Armazenamento/2_ROOM Overview.md",
-    "16_Mobile/2_Jetpack Compose/3_Armazenamento/3_Criando database.md",
-    "16_Mobile/2_Jetpack Compose/3_Armazenamento/5_Usando a viewModel.md",
     "16_Mobile/2_Jetpack Compose/3_Armazenamento/4_Application e viewModel.md",
+    "16_Mobile/2_Jetpack Compose/3_Armazenamento/5_Usando a viewModel.md",
+    "16_Mobile/2_Jetpack Compose/3_Armazenamento/3_Criando database.md",
+    "16_Mobile/2_Jetpack Compose/3_Armazenamento/2_ROOM Overview.md",
     "16_Mobile/2_Jetpack Compose/3_Armazenamento/1_Formas de armazenamento.md",
     "16_Mobile/2_Jetpack Compose/1_Layout/9_Gerenciamento de estados.md",
     "16_Mobile/2_Jetpack Compose/1_Layout/4_Button and TextFild.md",
