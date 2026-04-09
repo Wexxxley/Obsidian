@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "18_Aleatorios/HelthTech - Requisitos.md",
+                "file": "18_Aleatorios/HealthTech - Escopo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HelthTech - Requisitos"
+              "title": "HealthTech - Escopo"
             }
           }
         ],
@@ -200,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "18_Aleatorios/HelthTech - Requisitos.md",
+                "file": "18_Aleatorios/HealthTech - Escopo.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HelthTech - Requisitos"
+              "title": "Outline of HealthTech - Escopo"
             }
           },
           {
@@ -240,6 +240,8 @@
   },
   "active": "cdad6f00f1a49f0f",
   "lastOpenFiles": [
+    "18_Aleatorios/HelthTech - Requisitos.md",
+    "18_Aleatorios/HealthTech - Escopo.md",
     "attachments/Pasted image 20260409105440.png",
     "18_Aleatorios/HealthTech - wireframe.md",
     "18_Aleatorios/Logística Ágil.md",
@@ -270,7 +272,6 @@
     "16_Mobile/2_Jetpack Compose/1_Layout/6_Switch e Dropdown menu.md",
     "16_Mobile/2_Jetpack Compose/1_Layout/5_CheckBox and RadioButtons.md",
     "16_Mobile/2_Jetpack Compose/1_Layout/2_Scaffold.md",
-    "10_POO/SOLID/6_Dependency Inversion Principle (DIP).md",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
     "01_Roadmap/1_Junior/1_Como funciona um computador/ResumoEmAudio.m4a",
@@ -282,7 +283,6 @@
     "16_Mobile/2_Jetpack Compose/3_Armazenamento",
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados",
     "16_Mobile/2_Jetpack Compose/1_Layout",
-    "attachments/Pasted image 20260331133114.png",
     "Untitled",
     "16_Mobile/2_Jetpack Compose",
     "16_Mobile/2_Imperativo",
