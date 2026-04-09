@@ -111,7 +111,8 @@ Sugestao
 		- Pedro Arthur: Comunicador
 		- Vinicius: Construtor
 		- Kauã: Construtor
-    
+   ![](../attachments/Pasted%20image%2020260409105440.png)
+   
 - **Diagnóstico do Problema:** Através da Árvore de Problemas
 
 - **Estruturação do Valor:** Utiliza-se o **Canvas da Proposta de Valor** para alinhar as tarefas e dores do cliente aos produtos e aliviadores de dor da startup.
