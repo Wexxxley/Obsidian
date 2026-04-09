@@ -1,8 +1,8 @@
 
 ---
 
-- **Escopo**: Consulta e exames. A plataforma atua como intermediário entre o paciente e a clínica e a cobrança é individual para cada clínica.
-- Não vamos considerar convênio.
+
+A ideia é basicamente ter um app que sirva como como intermediário entre o paciente e a clínica, clínicas essas que podem ofercer exames ou consults.
 - O cadastro de clinicas é feito pelos admins do sistema.
 - O processamento do pagamento da consulta/exame fica pela clínica.
 ### **1. Módulo do Paciente**
@@ -95,65 +95,28 @@
 
 ---
 
-**[RF07] Upload de Resultados/Documentos** **Descrição:** Como Profissional, quero disponibilizar resultados de exames digitalizados diretamente para o paciente. 
+Sugestao
+**Sistema de "Check-in Antecipado" e Triagem Digital:**
 
-**Fluxo Principal:**
-1. Usuário (Clínica) acessa a área de "Documentos/Laudos".
-2. Seleciona a opção "Fazer Upload".
-3. Insere o CPF do paciente destinatário.
-4. Seleciona o arquivo (PDF ou Imagem) do dispositivo.
-5. Confirma o envio. 
-
-**Fluxos Alternativos:**
-- **FA01:** CPF não encontrado na base de dados (O sistema alerta que o paciente não possui cadastro)
-
-**Mensagens do Sistema:**    
-- **MSG01:** "Arquivo enviado com sucesso para o paciente." **
-
-**Critérios de Aceitação:** Os laudos (PDFs/Imagens) devem ser armazenados em um Bucket onde a chave de acesso é gerada apenas para o CPF do paciente. O Admin da plataforma não deve ter essa chave "na mão".
-
-No Brasil, o tratamento de dados de saúde exige consentimento explícito. Recomendo adicionar um termo de aceite no **RF01** para o paciente autorizar o recebimento de laudos via plataforma.
+- **Inovação:** Em vez de apenas redirecionar para o WhatsApp, o app permite que o paciente anexe fotos de documentos (RG, Carteira do Convênio) e preencha uma pré-anamnese.
+    
+- **Valor:** Quando o paciente chega à clínica, a recepção já tem os dados prontos no sistema, reduzindo o tempo de espera na recepção — uma das maiores queixas em serviços de saúde.
 
 
----
 
-### **3. Módulo Administrativo (Gestor Único)**
+**O que precisamos fazer:** 
 
-**[RF08] Painel de Controle de Clínicas**: Como Administrador, quero cadastrar, ativar ou suspender clínicas para controlar quem aparece na plataforma para os pacientes. 
+- **Formação da Equipe:** Inicia-se com a definição de papéis complementares, sugerindo perfis como Visionário, Comunicador, Construtor, Gestor e Designer para garantir diversidade de habilidades em grupos de até 7 integrantes.
+		- Wesley: Gestor
+		- Pedro Arthur: Comunicador
+		- Vinicius: Construtor
+		- Kauã: Construtor
+    
+- **Diagnóstico do Problema:** Através da Árvore de Problemas
 
-**Fluxo Principal:**
-1. Administrador acessa "Lista de Clínicas".
-2. Seleciona "Adicionar Clínica".
-3. Insere: CNPJ, Razão Social, E-mail do responsável e Endereço.
-4. O sistema gera as credenciais de acesso e envia ao e-mail da clínica.
-5. Administrador altera o status para "Ativo". 
+- **Estruturação do Valor:** Utiliza-se o **Canvas da Proposta de Valor** para alinhar as tarefas e dores do cliente aos produtos e aliviadores de dor da startup.
+    
+- **Modelo de Negócio (BMC):** É a etapa crítica onde a sustentabilidade financeira é desenhada nos 9 blocos do Business Model Canvas. É aqui que se inicia a avaliação quantitativa (notas) da disciplina.
 
-**Fluxos Alternativos:**
-- **FA01:** Suspensão de Clínica (O Administrador altera o status para "Suspenso", removendo a clínica das buscas dos pacientes e bloqueando o painel da clínica).
 
-**Mensagens do Sistema:**    
-- **MSG01:** "Clínica cadastrada e credenciais enviadas." 
-
-**Critérios de Aceitação:** O sistema deve validar o formato do CNPJ e garantir que o e-mail seja único.
-
----
-
-**[RF09] Configuração Financeira Individual**: Como Administrador, quero definir o valor da cobrança para cada clínica e monitorar o status de pagamento. 
-
-**Fluxo Principal:**
-1. Administrador acessa o perfil de uma clínica cadastrada.    
-2. Define o valor da mensalidade acordada.
-3. Insere a data de vencimento.
-4. O sistema exibe o status financeiro (Em dia / Pendente). 
-
-**Critérios de Aceitação:** O Administrador deve conseguir editar o valor da cobrança, valendo para o próximo ciclo de faturamento.
-
----
-
-**[RF11] Auditoria de Acesso e Segurança**: Como Administrador, quero garantir que o acesso ao sistema administrativo seja seguro e que os laudos dos pacientes não sejam expostos. 
-
-**Fluxo Principal:**
-1. Administrador realiza login com autenticação de dois fatores (2FA).
-2. O sistema mascara dados sensíveis de pacientes nas listagens gerais.
-3. O sistema impede que o Administrador visualize ou faça download dos arquivos de laudo enviados pelas clínicas. 
 
