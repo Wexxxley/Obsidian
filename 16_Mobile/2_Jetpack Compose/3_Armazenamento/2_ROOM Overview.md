@@ -8,9 +8,9 @@ O Room é uma camada de abstração (ORM - Object-Relational Mapping) sobre o SQ
 A arquitetura moderna do Android não permite que a UI fale diretamente com o database. Existe uma hierarquia lógica:
 
 1. **Room (Database):** Armazena os dados localmente.
-2. **Repository:** 
+2. **Repository**: repositório de acesso a dados de diversas fontes
 3. **ViewModel:** Prepara o que a UI deve exibir.
-4. **Flow / LiveData:** Os canais de comunicação que levam os dados do banco até a tela automaticamente.
+4. **Flow / LiveData:** Os canais de comunicação que levam os dados até a tela.
 
 ### **1. DAO vs REPOSITORY** 
 
@@ -20,26 +20,12 @@ O Repository Atua como o mediador entre diferentes fontes de dados. Se o celular
 ### **2. ViewModel**
 
 A ViewModel é o intermediário de estado entre a UI e os dados. Suas duas funções principais são:
-1. **Sobrevivência ao Ciclo de Vida:** No Android, se você girar a tela, a sua Activity é destruída e recriada. Se os dados estivessem na tela, eles seriam apagados. A ViewModel permanece viva na memória, segurando os dados para que a tela os recupere instantaneamente ao "renascer".
-    
+1. **Sobrevivência ao Ciclo de Vida:** Se você girar a tela, a sua Activity é destruída e recriada. Se os dados estivessem na tela, eles seriam apagados. A ViewModel permanece viva na memória, segurando os dados para que a tela os recupere instantaneamente ao "renascer".
 2. **Preparação de Dados:** O Repositório entrega dados brutos. A ViewModel os transforma em algo que a UI consiga exibir facilmente. Por exemplo, o Repositório entrega uma lista de 100 notas, e a ViewModel filtra para mostrar apenas as notas "Favoritas" na tela.
-### **2. LiveData e StateFlow**
+### **3. LiveData e StateFlow**
 
-Essas formas de comunicaçao entregam dados da viewModel à UI do Compose.
+**LiveData**: Criado para Java e layouts em XML. Ele é "ciente do ciclo de vida". Ele para de enviar dados se a tela estiver fechada, evitando erros. No Jetpack Compose moderno, ele está sendo substituído.
 
-**LiveData**
-O LiveData foi criado especificamente para o Android. Ele é um Container que só entrega os dados se o componente estiver ativo
-- **Consciência de Ciclo de Vida:** Ele sabe se a sua `Activity`está aberta. Se o app for para o segundo plano, o `LiveData` para de enviar atualizações.
-- **Foco em UI Tradicional:** Ele funciona perfeitamente com os layouts antigos.
+**Flow**: É um fluxo frio. O Flow não armazena o último valor emitido. Se um novo coletor iniciar a observação, o fluxo recomeçará do início. Cada coletor aciona uma nova execução do bloco de código. Se houver dois coletores para um `Flow` que faz uma busca no banco de dados, a busca será realizada duas vezes de forma independente.
 
-**StateFlow**
-O StateFlow faz parte da linguagem Kotlin. É um fluxo de dados que retém permanentemente o último valor emitido em memória, enviando-o imediatamente a qualquer novo coletor que inicie a observação.
-- **Sempre tem um valor:** Ao contrário do `LiveData`, o `StateFlow` te obriga a ter um valor inicial. Você nunca começa com o estado "vazio".
-- **Coroutines:** Isso permite usar ferramentas poderosas para filtrar, transformar ou combinar dados de várias fontes (API + Banco de Dados) facilmente.
-- **Multiplataforma:** Como é código Kotlin puro, você pode usar a mesma lógica no Android, no iOS ou no Desktop.
-
-**Diferenças**
-- O `LiveData` se limpa sozinho quando a tela fecha. No `StateFlow`, você precisa dizer ao código para "parar de ouvir" quando a tela fechar.
-- O`StateFlow` exige um valor. `LiveData` pode começar nulo.
-- O `StateFlow` está sempre ativo. Se alguém novo começar a observar agora, ele recebe imediatamente a última foto do que aconteceu.
-
+**Stateflow**: É um fluxo quente. Ele é a ferramenta padrão para expor dados da ViewModel para o Jetpack Compose. O StateFlow sempre armazena o último valor emitido em um buffer interno.

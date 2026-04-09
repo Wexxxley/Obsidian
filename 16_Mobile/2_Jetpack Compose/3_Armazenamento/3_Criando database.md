@@ -12,13 +12,13 @@
 ---
 ### **2. DAO**
 
-O DAO é uma interface anotada com `@Dao`. Você não precisa escrever o código de como inserir ou deletar; você apenas define a "assinatura" do método e o Room gera a implementação SQL automaticamente em tempo de compilação.
+O DAO é uma interface anotada com @Dao. Você apenas define a assinatura dos métodos e o Room gera a implementação SQL em tempo de compilação.
 
-A regra de ouro do Android é: Nunca faça operações de banco de dados na Main Thread.
-- **`suspend`**: Usamos esta palavra-chave para que o Kotlin saiba que essa função pode demorar e deve ser executada em uma Coroutine sem travar a tela.
-- **`OnConflictStrategy`**: Quando você tenta inserir uma nota com um ID que já existe, ocorre um conflito. A estratégia `REPLACE` diz ao Room: "Se já existir, substitua pela nova".
+Nunca faça operações de banco de dados na Main Thread.
+- **suspend**: Faz com que o Kotlin saiba que essa função pode demorar e deve ser executada em uma Coroutine sem travar a tela.
+- **OnConflictStrategy**: A estratégia **REPLACE** diz ao Room: Se já existir, substitua pela nova.
 
-Para buscas personalizadas, usamos a anotação @Query.
+Para buscas personalizadas, usamos a anotação **@Query**.
 - **`Flow<List<Note>>`**: Ao retornar um Flow, o Room se torna "reativo". Se você adicionar uma nota nova no banco, o Flow emitirá automaticamente uma nova lista atualizada para a sua UI, sem que você precise fazer uma nova consulta manual.
 
 ![530](../../../attachments/Pasted%20image%2020260331090218.png)
