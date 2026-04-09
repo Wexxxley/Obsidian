@@ -15,24 +15,17 @@ A jornada atual do paciente é fragmentada. Para realizar um procedimento, o usu
     
 - **Sistema de Avaliação:** Notas e comentários de 1 a 5 estrelas sobre o atendimento recebido.
     
-- **Redirecionamento Estruturado:** Botão de agendamento que envia o usuário ao WhatsApp da clínica com uma mensagem pré-formatada (contendo Nome, CPF e serviço desejado).
-    
-
-#### Módulo da Clínica e Administração
+- **Redirecionamento Estruturado:** Botão de agendamento que envia o usuário ao WhatsApp da clínica com uma mensagem pré-formatada.
+#### **Módulo da Clínica 
 
 - **Gestão de Perfil:** Painel para edição de horários, fotos, localização e corpo clínico.
     
 - **Catálogo de Serviços:** Cadastro e atualização de consultas e exames oferecidos com seus respectivos valores.
-    
-- **Painel Administrativo:** Controle central para que os administradores do sistema realizem o cadastro inicial e a validação das clínicas parceiras.
-    
 
----
-
-### 5. Limites do Projeto (O que não será feito)
+### 3. Limites do Projeto
 
 - **Processamento de Pagamento:** O pagamento não ocorre dentro do app; fica sob total responsabilidade da clínica.
     
-- **Prontuário Eletrônico:** O sistema não armazenará históricos médicos ou resultados de exames detalhados.
+- **Prontuário Eletrônico:** O sistema não armazenará resultados de exames.
     
-- **Agendamento Direto no Calendário:** O app não fará a reserva direta de horários; ele facilita a chegada do paciente ao canal de atendimento (WhatsApp) onde o horário será definido.
+- **Agendamento Direto no Calendário:** O app não fará a reserva direta de horários; ele facilita a chegada do paciente ao canal de atendimento onde o horário será definido.

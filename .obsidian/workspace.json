@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "18_Aleatorios/HealthTech - Escopo.md",
+                "file": "17_Algebra Linear e CG/14_Transformações.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HealthTech - Escopo"
+              "title": "14_Transformações"
             }
           }
         ],
@@ -200,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "18_Aleatorios/HealthTech - Escopo.md",
+                "file": "17_Algebra Linear e CG/14_Transformações.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HealthTech - Escopo"
+              "title": "Outline of 14_Transformações"
             }
           },
           {
@@ -240,8 +240,8 @@
   },
   "active": "cdad6f00f1a49f0f",
   "lastOpenFiles": [
+    "18_Aleatorios/FácilClin - Escopo.md",
     "18_Aleatorios/HelthTech - Requisitos.md",
-    "18_Aleatorios/HealthTech - Escopo.md",
     "attachments/Pasted image 20260409105440.png",
     "18_Aleatorios/HealthTech - wireframe.md",
     "18_Aleatorios/Logística Ágil.md",
