@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Mobile/2_Jetpack Compose/3_Armazenamento/5_Usando a viewModel.md",
+                "file": "18_Aleatorios/Logística Ágil.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Usando a viewModel"
+              "title": "Logística Ágil"
             }
           }
         ],
@@ -200,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "16_Mobile/2_Jetpack Compose/3_Armazenamento/5_Usando a viewModel.md",
+                "file": "18_Aleatorios/Logística Ágil.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 5_Usando a viewModel"
+              "title": "Outline of Logística Ágil"
             }
           },
           {
@@ -240,9 +240,10 @@
   },
   "active": "cdad6f00f1a49f0f",
   "lastOpenFiles": [
+    "18_Aleatorios/HealthTech - wireframe.md",
+    "16_Mobile/2_Jetpack Compose/3_Armazenamento/5_Usando a viewModel.md",
     "attachments/Pasted image 20260409062643.png",
     "16_Mobile/2_Jetpack Compose/3_Armazenamento/4_Application e viewModel.md",
-    "16_Mobile/2_Jetpack Compose/3_Armazenamento/5_Usando a viewModel.md",
     "16_Mobile/2_Jetpack Compose/3_Armazenamento/3_Criando database.md",
     "16_Mobile/2_Jetpack Compose/3_Armazenamento/2_ROOM Overview.md",
     "16_Mobile/2_Jetpack Compose/3_Armazenamento/1_Formas de armazenamento.md",
@@ -282,7 +283,6 @@
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados",
     "16_Mobile/2_Jetpack Compose/1_Layout",
     "attachments/Pasted image 20260331133114.png",
-    "attachments/Pasted image 20260331100251.png",
     "Untitled",
     "16_Mobile/2_Jetpack Compose",
     "16_Mobile/2_Imperativo",

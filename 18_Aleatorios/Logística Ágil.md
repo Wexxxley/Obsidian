@@ -35,9 +35,3 @@ Um SaaS de logística e manutenção, focado em três pilares: **Controle de Gas
 
 
 
-
-Solicitação de orientação de TCC para próximo semestre.
-
-Meu nome é Wesley, fui seu aluno de Persistência. Pretendo iniciar meu TCC no próximo semestre e gostaria de saber se o senhor teria disponibilidade em ser meu orientador. Meu objetivo é desenvolver um trabalho com foco em Desenvolvimento de Software. Embora ainda esteja definindo o recorte específico do tema, gostaria de verificar se existe essa possibilidade de orientação da sua parte.
-
-Caso o senhor tenha abertura para novos orientandos no próximo semestre, eu enviaria, assim que possível, uma proposta mais formalizada com os detalhes.
