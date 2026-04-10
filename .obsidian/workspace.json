@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Algebra Linear e CG/14_Transformações.md",
+                "file": "18_Aleatorios/FácilClin - Escopo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14_Transformações"
+              "title": "FácilClin - Escopo"
             }
           }
         ],
@@ -200,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "17_Algebra Linear e CG/14_Transformações.md",
+                "file": "18_Aleatorios/FácilClin - Escopo.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 14_Transformações"
+              "title": "Outline of FácilClin - Escopo"
             }
           },
           {
@@ -240,6 +240,9 @@
   },
   "active": "cdad6f00f1a49f0f",
   "lastOpenFiles": [
+    "18_Aleatorios/HealthTech - wireframe.md",
+    "18_Aleatorios/Erros e sugestões.md",
+    "17_Algebra Linear e CG/14_Transformações.md",
     "attachments/Pasted image 20260410061728.png",
     "attachments/Pasted image 20260410061645.png",
     "attachments/Pasted image 20260410061413.png",
@@ -252,16 +255,13 @@
     "17_Algebra Linear e CG/11_Combinação linear.md",
     "17_Algebra Linear e CG/10_Espaço vetorial e subespaço vetorial.md",
     "17_Algebra Linear e CG/9_Vetores.md",
-    "17_Algebra Linear e CG/14_Transformações.md",
     "attachments/20260409_155417254.jpg",
     "attachments/20260409_154512420.jpg",
     "18_Aleatorios/FácilClin - Escopo.md",
     "18_Aleatorios/HelthTech - Requisitos.md",
     "attachments/Pasted image 20260409105440.png",
-    "18_Aleatorios/HealthTech - wireframe.md",
     "18_Aleatorios/Logística Ágil.md",
     "16_Mobile/2_Jetpack Compose/3_Armazenamento/5_Usando a viewModel.md",
-    "attachments/Pasted image 20260409062643.png",
     "16_Mobile/2_Jetpack Compose/3_Armazenamento/4_Application e viewModel.md",
     "16_Mobile/2_Jetpack Compose/3_Armazenamento/3_Criando database.md",
     "16_Mobile/2_Jetpack Compose/3_Armazenamento/2_ROOM Overview.md",

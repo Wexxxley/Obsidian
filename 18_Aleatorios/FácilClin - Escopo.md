@@ -29,3 +29,19 @@ A jornada atual do paciente é fragmentada. Para realizar um procedimento, o usu
 - **Prontuário Eletrônico:** O sistema não armazenará resultados de exames.
     
 - **Agendamento Direto no Calendário:** O app não fará a reserva direta de horários; ele facilita a chegada do paciente ao canal de atendimento onde o horário será definido.
+
+
+---
+Essa ideia é altamente escalável. Ele resolve o problema de qualquer setor onde o cliente precisa de informações específicas (preço e disponibilidade) antes de fechar o serviço.
+
+Setores que se encaixaria: 
+1. Setor de serviços automotivos(troca de óleo, alinhamento, pintura)
+2. Pet shop e vetrinárias(Agendamento de banho e tosa ou consultas veterinárias)
+3. Serviços estéticos (Barbearias, salões de beleza e estúdios de tatuagem).
+4. Aluguel de espaços (Quadras de esportes, salões).
+
+- **Baixa Responsabilidade Jurídica:** Como você não processa o pagamento e não guarda nada.
+- **Fácil Implementação**
+- **Manutenção Simples:** Você foca na experiência de busca e filtros, sem precisar gerenciar sistemas complexos de checkout ou logística.
+
+Quanto mais completa for a mensagem que o  sistema gera para o WhatsApp, mais valor você entrega para a empresa e mais fácil será cobrar uma mensalidade.
