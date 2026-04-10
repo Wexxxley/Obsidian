@@ -46,12 +46,18 @@ A rotação em 3D é mais complexa que em 2D porque você precisa definir um **e
 ### **4. Reflexão**
 
 A reflexão inverte o objeto em relação a um plano (como um espelho).
+![400](../attachments/Pasted%20image%2020260410061413.png)
 
-- **Matriz de Reflexão no plano XY:** Basta inverter o sinal do componente Z.
-    
-    $$Ref_{xy} = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & -1 \end{bmatrix}$$
+---
+### 5. Cisalhamento
+
+Existem 6 matrizes de cisalhemento:
+
+![400](../attachments/Pasted%20image%2020260410061728.png)
+![400](../attachments/Pasted%20image%2020260410061645.png)
+
 
 ![500](../attachments/Pasted%20image%2020260314173140.png)
 
-![400](../attachments/Pasted%20image%2020260314173748.png)
-![400](../attachments/Pasted%20image%2020260314173809.png)
+
+
