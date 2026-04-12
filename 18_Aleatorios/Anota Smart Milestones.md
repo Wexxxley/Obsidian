@@ -22,22 +22,85 @@ Os enums representam o domínio do sistema e serão salvos no banco de dados.
 - [ ] Implementar a instanciação manual do banco de dados (Singleton) utilizando uma classe base que herda de `Application` no Android, provendo o `AppDatabase` globalmente sem frameworks externos de injeção de dependência.
     
 
-### 2. Modelagem das Entidades (Schema Simplificado)
+### 2. Modelagem das Entidades 
 
-Todas as entidades utilizarão tipos primitivos ou nativos sempre que possível.
+ids serao uuid mas o tipo nativo utilizado será `String` (VARCHAR).
 
-- [ ] Criar `CategoryEntity`: Incluir `id` (String), `nome` (String) e `tipo` (CategoryType).
-    
-- [ ] Criar `ProductEntity`: Incluir `id` (String), `categoryId` (String, nullable), `nome`, `precoCusto`, `precoVenda`, `unidadeMedida`, `tipoItem`, `quantidadeEstoque` (Double) e `imagePath` (String).
-    
-- [ ] Criar `ClientEntity`: Incluir `id` (String), `nome`, `telefone` (String, apenas números), `endereco` e `imagePath`.
-    
-- [ ] Criar `SaleEntity`: Incluir `id` (String), `clientId` (String, obrigatório para prazo), `dataVenda` (Long, representando milissegundos), `status` e `valorTotal`.
-    
-- [ ] Criar `SaleItemEntity`: Incluir `id` (String), `saleId` (String), `productId` (String, nullable para avulsos), `nomeCustomizado`, `quantidade`, `custoUnitarioNoAto` e `precoVendaNoAto`.
-    
-- [ ] Criar `InstallmentEntity`: Incluir `id` (String), `saleId` (String), `numeroParcela`, `valor`, `dataVencimento` (Long), `dataPagamento` (Long, nullable) e `statusParcela`.
-    
+Table Category {
+id varchar [primary key]
+nome varchar
+tipo CategoryType
+}
+
+Table Product {
+id varchar [primary key]
+categoryId varchar [null]
+nome varchar
+precoCusto double
+precoVenda double
+unidadeMedida UnitType
+tipoItem ItemType
+quantidadeEstoque double
+imagePath varchar
+}
+
+
+Table Client {
+id varchar [primary key]
+nome varchar
+telefone varchar [note: 'Apenas números']
+endereco text
+imagePath varchar
+}
+
+Table Sale {
+id varchar [primary key]
+clientId varchar [null, note: 'Permite venda avulsa sem cliente']
+dataVenda long [note: 'Milissegundos']
+status SaleStatus
+valorTotal double
+}
+
+Table SaleItem {
+id varchar [primary key]
+saleId varchar
+productId varchar [null, note: 'Permite adicionar itens que não estão no catálogo']
+nomeCustomizado varchar
+quantidade double
+custoUnitarioNoAto double
+precoVendaNoAto double
+}
+
+Table Installment {
+id varchar [primary key]
+saleId varchar
+numeroParcela integer
+valor double
+dataVencimento long
+dataPagamento long [null]
+statusParcela InstallmentStatus
+metodoPagamento PaymentMethod [null, note: 'Preenchido apenas quando a parcela é paga']
+
+}
+
+// --- Definição das Ligações (Relacionamentos) ---
+// Um produto pode ter uma categoria
+Ref: Product.categoryId > Category.id
+// Uma venda pode opcionalmente estar ligada a um cliente
+Ref: Sale.clientId > Client.id
+// Itens de venda pertencem a uma vend
+Ref: SaleItem.saleId > Sale.id
+// Um item de venda pode referenciar um produto (opcional para itens avulsos)
+Ref: SaleItem.productId > Product.id
+Ref: Installment.saleId > Sale.id
+
+![](../attachments/Pasted%20image%2020260412173414.png)
+
+**1. Ocorrência de Venda Fiada (A Prazo):** No momento em que a venda é registrada como fiado, o sistema gera as instâncias de `InstallmentEntity`. Nesse momento, o `statusParcela` é definido como `PENDENTE`, a `dataPagamento` é nula e o `metodoPagamento` também é nulo. A dívida existe formalmente no sistema, mas a liquidação ainda não ocorreu.
+
+**2. Ocorrência da Liquidação (Baixa da Dívida):** Quando o cliente retorna ao estabelecimento para quitar a parcela pendente, o sistema deve registrar esse evento. A aplicação atualizará o registro específico da `InstallmentEntity`: o `statusParcela` é alterado para `PAGA`, a `dataPagamento` recebe o timestamp atual (`Long`), e o `metodoPagamento` é finalmente preenchido com a forma escolhida pelo cliente naquele momento (por exemplo, `PIX` ou `DINHEIRO`).
+
+**3. Ocorrência de Venda à Vista:** Para unificar a arquitetura e evitar lógicas duplicadas, toda venda à vista também deve gerar uma `InstallmentEntity`. A diferença é que o sistema pulará a etapa de pendência. A parcela é criada imediatamente com `statusParcela` igual a `PAGA`, a `dataPagamento` com o timestamp atual e o `metodoPagamento` já preenchido com a forma utilizada no balcão.
 
 ### 3. Implementação dos DAOs e Queries de Negócio
 
