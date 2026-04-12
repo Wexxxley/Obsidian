@@ -1,98 +1,90 @@
+Estratégia "vanilla" consiste em remover bibliotecas de terceiros (como frameworks de Injeção de Dependência, ex: Hilt ou Koin) e reduzir a complexidade interna do Room.
 
----
-### **Definição de Enums** 
+Para isso, os identificadores únicos serão tratados nativamente como `String` no banco de dados (gerados via `java.util.UUID.randomUUID().toString()`), e as datas serão salvas diretamente como `Long` (timestamps). Isso elimina a necessidade de criar conversores complexos, mantendo o banco de dados leve. Além disso, a arquitetura dispensará a camada de Serviço, executando as regras diretamente nos Controllers ou ViewModels.
+### Definição de Enums
 
-- **ItemType:** Define se o registro é um PRODUTO (sujeito a controle de estoque) ou SERVIÇO (sem controle de estoque).
-    
-- **UnitType:** Determina a unidade de medida do item (UNIDADE, KG, LITRO, METRO).
-    
-- **CategoryType:** Diferencia se a categoria pertence a ITENS de catálogo ou a DESPESAS operacionais.
-    
-- **SaleStatus:** Representa o ciclo de vida da venda (ORÇAMENTO, PENDENTE, ATRASADA, FINALIZADA, CANCELADA).
-    
-- **InstallmentStatus:** Indica o estado de cada parcela individual (PENDENTE, PAGA, ATRASADA).
-    
-- **PaymentMethod:** Lista os meios de recebimento (DINHEIRO, PIX, DÉBITO, CRÉDITO, FIADO).
+Os enums representam o domínio do sistema e serão salvos no banco de dados.
+- **ItemType:** PRODUTO ou SERVIÇO.
+- **UnitType:** UNIDADE, KG, LITRO, METRO.
+- **CategoryType:** ITENS ou DESPESAS.
+- **SaleStatus:** ORÇAMENTO, PENDENTE, ATRASADA, FINALIZADA, CANCELADA.
+- **InstallmentStatus:** PENDENTE, PAGA, ATRASADA.
+- **PaymentMethod:** DINHEIRO, PIX, DÉBITO, CRÉDITO, FIADO.
 
-### 1. Infraestrutura e Configuração Base
+### 1. Infraestrutura e Configuração Base (Vanilla)
 
-- [ ] Configurar as dependências do Room e KSP no arquivo `build.gradle` do módulo.
+- [ ] Configurar exclusivamente as dependências essenciais do Room (Runtime, KTX) e KSP no arquivo `build.gradle` do módulo.
     
-- [ ] Criar a classe `TypeConverters` para gerenciar a conversão de `UUID`, `Date/Long` e dos Enums definidos acima para formatos compatíveis com o SQLite.
+- [ ] Criar a classe `TypeConverters` restrita apenas à conversão dos Enums para `String` (e vice-versa), utilizando a propriedade `.name` nativa do Kotlin.
     
-- [ ] Implementar a classe abstrata `AppDatabase` configurando a versão inicial e os `TypeConverters`.
+- [ ] Implementar a classe abstrata `AppDatabase` configurando a versão inicial e registrando o `TypeConverters` dos Enums.
     
-- [ ] Estabelecer o padrão de injeção de dependência para prover a instância única do banco de dados para a camada de serviços.
+- [ ] Implementar a instanciação manual do banco de dados (Singleton) utilizando uma classe base que herda de `Application` no Android, provendo o `AppDatabase` globalmente sem frameworks externos de injeção de dependência.
     
 
-### 2. Modelagem das Entidades (Schema)
+### 2. Modelagem das Entidades (Schema Simplificado)
 
-- [ ] Criar `CategoryEntity`: Incluir `id` (UUID), `nome` e `tipo` (CategoryType).
+Todas as entidades utilizarão tipos primitivos ou nativos sempre que possível.
+
+- [ ] Criar `CategoryEntity`: Incluir `id` (String), `nome` (String) e `tipo` (CategoryType).
     
-- [ ] Criar `ProductEntity`: Incluir `id` (UUID), `categoryId` (opcional), `nome`, `precoCusto`, `precoVenda`, `unidadeMedida`, `tipoItem`, `quantidadeEstoque` (Double) e `imagePath` (String para o caminho do arquivo).
+- [ ] Criar `ProductEntity`: Incluir `id` (String), `categoryId` (String, nullable), `nome`, `precoCusto`, `precoVenda`, `unidadeMedida`, `tipoItem`, `quantidadeEstoque` (Double) e `imagePath` (String).
     
-- [ ] Criar `ClientEntity`: Incluir `id` (UUID), `nome`, `telefone` (apenas números), `endereco` e `imagePath`.
+- [ ] Criar `ClientEntity`: Incluir `id` (String), `nome`, `telefone` (String, apenas números), `endereco` e `imagePath`.
     
-- [ ] Criar `SaleEntity`: Incluir `id` (UUID), `clientId` (obrigatório para vendas a prazo), `dataVenda`, `status` e `valorTotal`.
+- [ ] Criar `SaleEntity`: Incluir `id` (String), `clientId` (String, obrigatório para prazo), `dataVenda` (Long, representando milissegundos), `status` e `valorTotal`.
     
-- [ ] Criar `SaleItemEntity`: Incluir `id` (UUID), `saleId`, `productId` (null para itens avulsos), `nomeCustomizado`, `quantidade`, `custoUnitarioNoAto` e `precoVendaNoAto`.
+- [ ] Criar `SaleItemEntity`: Incluir `id` (String), `saleId` (String), `productId` (String, nullable para avulsos), `nomeCustomizado`, `quantidade`, `custoUnitarioNoAto` e `precoVendaNoAto`.
     
-- [ ] Criar `InstallmentEntity`: Incluir `id` (UUID), `saleId`, `numeroParcela`, `valor`, `dataVencimento`, `dataPagamento` (nullable) e `statusParcela`.
+- [ ] Criar `InstallmentEntity`: Incluir `id` (String), `saleId` (String), `numeroParcela`, `valor`, `dataVencimento` (Long), `dataPagamento` (Long, nullable) e `statusParcela`.
     
 
 ### 3. Implementação dos DAOs e Queries de Negócio
 
-- [ ] Implementar `CategoryDao` com suporte a filtros por `CategoryType`.
+- [ ] Implementar `CategoryDao` com suporte a filtros básicos por `CategoryType`.
     
-- [ ] Implementar `ClientDao` com busca otimizada por nome e filtragem de caracteres não numéricos no telefone.
+- [ ] Implementar `ClientDao` para inserção, atualização e busca por nome.
     
-- [ ] Implementar `ProductDao` contendo a query específica para atualização atômica de saldo e custo médio.
+- [ ] Implementar `ProductDao` contendo a query SQL nativa para atualizar o saldo e custo médio de forma atômica.
     
-- [ ] Criar `InstallmentDao` com as seguintes funções críticas:
+- [ ] Criar `InstallmentDao` focando no cruzamento de dados:
     
-    - [ ] Consulta de todas as parcelas pendentes ou atrasadas de um cliente específico via `JOIN` com `SaleEntity`.
+    - [ ] Consulta (`JOIN` nativo) para buscar todas as parcelas pendentes ou atrasadas de um `clientId`.
         
-    - [ ] Soma do débito total por cliente (Agregação).
+    - [ ] Função de agregação (`SUM`) nativa do SQLite para retornar o débito total do cliente.
         
-- [ ] Implementar `SaleDao` com o relacionamento `@Relation` para retornar a venda completa acompanhada de todos os seus itens e parcelas (`SaleWithDetails`).
+- [ ] Implementar `SaleDao` utilizando a anotação `@Relation` estritamente para agrupar a `SaleEntity` com suas respectivas listas de `SaleItemEntity` e `InstallmentEntity`.
     
 
-### 4. Lógica de Serviços e Casos de Borda (Core Backend)
+### 4. Lógica de Negócios Direta (Controllers / ViewModels)
 
-- [ ] Implementar o serviço de Produto: Garantir que serviços tenham estoque bloqueado em zero e que o `imagePath` seja validado antes da persistência.
+A execução das regras será feita diretamente na camada de controle (ex: `ProductController` ou `SaleViewModel`), acessando os DAOs de forma direta para manter a simplicidade do fluxo.
+
+- [ ] Implementar a regra de Produto na Controller: Ao salvar, validar imediatamente se o tipo é SERVIÇO para forçar o estoque a 0.0 e gerar o `UUID.randomUUID().toString()` caso seja um novo cadastro.
     
-- [ ] Implementar o cálculo de Custo Médio Ponderado: Aplicar a fórmula matemática ao registrar entradas de estoque e persistir o novo valor no produto.
+- [ ] Implementar o cálculo de Custo Médio Ponderado na Controller: Receber os dados de entrada, calcular a fórmula $CMP = \frac{(QtdAtual \times CustoAtual) + (QtdNova \times PrecoNovo)}{QtdAtual + QtdNova}$ e enviar os novos valores diretamente para a query de atualização do DAO.
     
-- [ ] Implementar o gerador de parcelas:
+- [ ] Implementar o gerador de parcelas na Controller de Vendas:
     
-    - [ ] Dividir o valor total da venda pelo número de parcelas.
+    - [ ] Dividir matematicamente o valor total pelo número de parcelas informadas pelo usuário.
         
-    - [ ] Realizar o ajuste de centavos (arredondamento) na última parcela.
+    - [ ] Aplicar a sobra de arredondamento (centavos) na última iteração do laço de criação das parcelas.
         
-    - [ ] Calcular as datas de vencimento sucessivas.
+    - [ ] Calcular as datas de vencimento somando a constante de tempo nativa do sistema em milissegundos e salvar a lista no DAO.
         
-- [ ] Implementar a lógica de baixa de pagamentos:
+- [ ] Implementar o gatilho de baixa na Controller de Recebimentos:
     
-    - [ ] Registrar o recebimento de uma `InstallmentEntity`.
+    - [ ] Atualizar a `InstallmentEntity` específica preenchendo a data atual (em Long).
         
-    - [ ] Verificar se todas as parcelas da venda vinculada foram pagas.
-        
-    - [ ] Em caso positivo, atualizar automaticamente o status da `SaleEntity` para FINALIZADA.
+    - [ ] Consultar o DAO para verificar se restam parcelas em aberto daquela venda e, caso não existam, emitir o update na `SaleEntity` alterando o status para FINALIZADA.
         
 
-### 5. Validação e Testes de Integridade
+### 5. Validação e Testes de Integridade (JUnit Nativo)
 
-- [ ] Criar testes unitários para a fórmula de custo médio ponderado, simulando entradas sucessivas de mercadorias.
-    
-- [ ] Desenvolver testes de persistência para garantir que nenhum ID incremental seja utilizado, validando o uso estrito de UUIDs.
-    
-- [ ] Testar o cenário de pagamento parcial: Validar se a venda permanece em status PENDENTE enquanto houver ao menos uma parcela não paga.
-    
-- [ ] Validar a exclusão em cascata: Garantir que, ao cancelar ou excluir uma venda, os itens e parcelas relacionados sejam tratados conforme a regra de negócio (estorno ou exclusão).
-    
+Os testes validarão as regras matemáticas e o comportamento esperado, sem depender de ambientes complexos.
 
-O cálculo do custo médio ponderado é fundamental para a saúde financeira do negócio, pois determina o lucro real em cada venda. Para auxiliar na compreensão da lógica que será implementada no backend, o simulador abaixo permite observar como o custo unitário se comporta com diferentes volumes e preços de compra.
-
-Este recurso visual ajudou você a entender melhor a resposta?
-
-SimNão
+- [ ] Escrever funções de teste unitário (puro Kotlin/JUnit) para a matemática do Custo Médio Ponderado.
+    
+- [ ] Escrever testes unitários verificando a divisão de valores e o comportamento do arredondamento na geração de parcelas simuladas.
+    
+- [ ] Validar a regex de limpeza do número de telefone antes de testar a inserção simulada da entidade Cliente.
