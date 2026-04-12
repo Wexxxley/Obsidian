@@ -10,5 +10,4 @@ Se o `NoteViewModel` não tivesse parâmetros no construtor, o sistema saberia c
 No mesmo arquivo NoteViewModel
 ![](../../../attachments/Pasted%20image%2020260331135141.png)
 
-
 ![](../../../attachments/Pasted%20image%2020260409062643.png)

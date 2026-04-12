@@ -8,10 +8,9 @@
 
 **MainActivity**
 ![](../../../attachments/Pasted%20image%2020260321094653.png)
-**navController**: é o detentor de estado centralizado da navegação. Ele é o único objeto que realmente sabe "onde o usuário está".
-- **Gerenciamento de Pilha:** Ele gerencia uma pilha, cada vez que você navega, ele empilha um nobo objeto de contexto. Ele que lida com a troca de activitys
+**navController**: é o detentor de estado centralizado da navegação. Ele é o único objeto que realmente sabe "onde o usuário está". Ele gerencia uma pilha, cada vez que você navega, ele empilha um nobo objeto de contexto. Ele que lida com a troca de activitys
     
-**NavHost** não é apenas um "container".
+**NavHost**:
 - Ele cria internamento um grafo de cenas
 - Ele atua como um observador. Ele fica "escutando" as mudanças no NavController. 
 - Ele é responsável por criar e destruir o `Lifecycle` de cada tela. 
