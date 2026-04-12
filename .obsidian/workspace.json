@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Algebra Linear e CG/9_Vetores.md",
+                "file": "18_Aleatorios/Anota Smart Milestones.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9_Vetores"
+              "title": "Anota Smart Milestones"
             }
           }
         ],
@@ -228,13 +228,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "17_Algebra Linear e CG/9_Vetores.md",
+                "file": "18_Aleatorios/Anota Smart Milestones.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 9_Vetores"
+              "title": "Outline of Anota Smart Milestones"
             }
           },
           {
@@ -268,8 +268,11 @@
   },
   "active": "16587ca42fb4ce62",
   "lastOpenFiles": [
-    "17_Algebra Linear e CG/8_Matriz adjunta, inversa e ortonormal.md",
+    "18_Aleatorios/Anota Smart - Requisitos.md",
+    "18_Aleatorios/Anota Smart Milestones.md",
+    "18_Aleatorios/Anota Smart - Wireframe.md",
     "17_Algebra Linear e CG/9_Vetores.md",
+    "17_Algebra Linear e CG/8_Matriz adjunta, inversa e ortonormal.md",
     "17_Algebra Linear e CG/7_Método de Jacobi.md",
     "17_Algebra Linear e CG/6_Determinante.md",
     "17_Algebra Linear e CG/1_Matriz introdução.md",
@@ -298,9 +301,6 @@
     "attachments/20260409_193647252.jpg",
     "attachments/Pasted image 20260409193130.png",
     "17_Algebra Linear e CG/13_Base e Mudança de base.md",
-    "17_Algebra Linear e CG/12_Linearmente dependente e linearmente independente.md",
-    "17_Algebra Linear e CG/11_Combinação linear.md",
-    "17_Algebra Linear e CG/10_Espaço vetorial e subespaço vetorial.md",
     "attachments/20260409_155417254.jpg",
     "attachments/20260409_154512420.jpg",
     "attachments/Pasted image 20260409105440.png",

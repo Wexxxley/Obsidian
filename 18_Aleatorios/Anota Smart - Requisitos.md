@@ -221,12 +221,6 @@ Tela simples com cards clicaveis com infromação acerca do conteudo que levam a
 
 Você **não** deve salvar os bits da imagem (ByteArray) diretamente dentro do banco de dados SQLite. Isso tornaria o banco extremamente pesado, degradando a performance das consultas de vendas e estoque.
 
-- **Armazenamento Interno (Internal Storage):** Salve o arquivo físico (.jpg ou .png) no diretório privado do seu aplicativo (`context.filesDir`).
-    
-- **Vantagem:** Segurança. Outros aplicativos (como a Galeria) não terão acesso às fotos dos seus clientes ou produtos, e os dados são apagados se o app for desinstalado.
-    
-- **Nomeação:** Utilize uma convenção única para o nome do arquivo, como `prod_ID.jpg` ou `cli_UUID.jpg`, para evitar sobreposições.
-    
 
 ## 2. O que salvar no Banco de Dados (Room)
 
@@ -242,9 +236,6 @@ No seu banco de dados SQLite, você deve armazenar apenas a **referência (Path)
 Como você pretende sincronizar dispositivos depois, precisa evitar conflitos de IDs e facilitar o rastreamento de arquivos.
 
 - **Use UUIDs:** Em vez de IDs inteiros auto-incrementais (1, 2, 3...), use **UUIDs** (Strings únicas como `550e8400-e29b...`) para os produtos e clientes. Assim, quando dois dispositivos sincronizarem, não haverá dois produtos diferentes com o "ID 1".
-    
-- **Flag de Sincronização:** Adicione uma coluna `isSynced` (Boolean) e `lastUpdated` (Long/Timestamp) em cada tabela. Isso permitirá que o sistema de sincronização saiba qual imagem precisa ser enviada para o servidor e qual já está lá.
-    
 
 ## 4. Processamento de Imagens (Otimização)
 
@@ -252,4 +243,3 @@ Microempreendedores costumam ter celulares com pouco espaço. Salvar uma foto de
 
 - **Compressão e Redimensionamento:** Antes de salvar no Internal Storage, redimensione a imagem. Para um app de estoque, uma resolução de 800x800px costuma ser mais que suficiente.
     
-- **Biblioteca Recomendada:** Utilize a **Coil** ou **Glide** para carregar essas imagens na UI. Elas gerenciam o cache de memória e evitam que o app trave (OOM - Out of Memory) ao rolar o Grid de produtos.
