@@ -26,14 +26,3 @@
 A característica mais incrível de uma matriz ortonormal $A$ é que sua **transposta** é igual à sua **inversa**.
 $$A^T = A^{-1}$$
 
-Se você multiplicar a matriz pela sua transposta, o resultado será a **Matriz Identidade**:
-$$A^T \cdot A = I$$
-
-Exemplo:
-$$A = \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}$$
-
- - Coluna 1: $\sqrt{0^2 + 1^2} = 1$
- - Coluna 2: $\sqrt{(-1)^2 + 0^2} = 1$
- - Produto Escalar: $(0 \cdot -1) + (1 \cdot 0) = 0 + 0 = 0$
-
-Como as colunas têm tamanho 1 e são perpendiculares, a matriz é ortonormal.

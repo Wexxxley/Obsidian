@@ -22,9 +22,7 @@ $a = (1,2,3)$ e $b = (-1,-2,-3)$
 ![400](../attachments/Pasted%20image%2020260309085909.png)
 
 - **Ponto - Ponto = Vetor** (Distância e direção entre dois lugares).
-    
 - **Ponto + Vetor = Ponto** (Você está em um lugar e se desloca para outro).
-    
 - **Vetor + Vetor = Vetor** (Dois deslocamentos seguidos)
 
 
@@ -35,27 +33,22 @@ $a = (1,2,3)$ e $b = (-1,-2,-3)$
 ---
 ### **3. Produto escalar**
 
-O resultado é um **número único**. Ele mede o quanto um vetor "projeta" sobre o outro ou o quanto eles apontam para a mesma direção.
-
+O resultado é um **número único**. Ele mede o quanto um vetor "projeta" sobre o outro.
 - **A Fórmula:** $\vec{a} \cdot \vec{b} = |\vec{a}| |\vec{b}| \cos(\theta)$
-    
 - **Em coordenadas:** $(a_1 \cdot b_1) + (a_2 \cdot b_2) + (a_3 \cdot b_3)$
-
 ![500](../attachments/20260310_080016587.jpg)
-
-O valor do produto es![](../attachments/20260310_080016587.jpg)calar revela a relação angular entre os vetores:
-
+O valor do produto escalar revela a relação angular entre os vetores:
 - **Positivo** $0^\circ \leq \theta < 90^\circ$. Ângulo agudo.
 - **Zero** $\theta = 90^\circ$ Ortogonais/perpendiculares.
 - **Negativo** $90^\circ < \theta \leq 180^\circ$ ângulo obtuso
+
 
 ---
 ### **4. Produto Vetorial**
 
 O resultado é um **novo vetor**. Esse novo vetor é especial porque ele é **perpendicular (90°)** aos dois vetores originais ao mesmo tempo. É exclusivo do espaço 3D.
 
-- **A Fórmula:** $|\vec{a} \times \vec{b}| = |\vec{a}| |\vec{b}| \sin(\theta)$
-    
+- **A Fórmula:** $|\vec{a} \times \vec{b}| = |\vec{a}| |\vec{b}| \sin(\theta)$    
 - **Direção:** Segue a "Regra da Mão Direita".
 
 Vamos usar os vetores:

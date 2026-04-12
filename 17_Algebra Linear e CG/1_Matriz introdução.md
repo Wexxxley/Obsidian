@@ -5,8 +5,7 @@
 ### **1. Matriz** 
 
 Uma matriz é um conjunto de números reais dispostos em linhas e colunas.
-
-![400](../attachments/Pasted%20image%2020260305143425.png)
+![362](../attachments/Pasted%20image%2020260305143425.png)
 
 #### **1.1 Matriz quadrada**
 Uma matriz $A = [Aij] m*n$ é quadrada quando m=n.
