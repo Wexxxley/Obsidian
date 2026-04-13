@@ -181,110 +181,162 @@ Gerencia o ciclo de vida da venda principal e as consultas relativas ao fluxo de
 - `getProfitabilityReport(startDate: Long, endDate: Long): List<Sale>`: Consulta vital para o módulo financeiro. Utiliza a cláusula SQL `BETWEEN` nos campos de data (`Long`) para filtrar o período, aplicando obrigatoriamente a restrição de que o status seja igual a 'FINALIZADA'. Esta consulta não é paginada pois o relatório precisa de todos os registros do período de uma só vez para os cálculos de totalização.
 
 ---
-### 4. Lógica de Negócios Direta (Controllers / ViewModels)
+### 4. CategoryViewModel
 
-**ProductViewModel**: Responsável por gerenciar o catálogo e aplicar as regras financeiras de estoque.
+- [ ] Implementar a `CategoryViewModel`:
+    - Criar `StateFlow` para expor a lista de categorias para a UI.
+    - `loadCategories(type: CategoryType)` acessando o DAO. 
+    - `saveCategory(idAtual: String?, nome: String, tipo: CategoryType)`: Se `idAtual` for nulo, gera o UUID e insere; caso contrário, atualizar. Deve aplicar `.trim()` no nome e verificar se está vazio (`isBlank()`). Se estiver, deve abortar a operação e emitir um erro para a UI ("Categoria não pode estar vazia").
+    - Implementar função `deleteCategory(category: Category)`.
 
-**Dependências Injetadas (via Construtor):**
-- `ProductDao`
-    
-**Funcionalidades e Regras Implementadas:**
-- **Função `saveProduct(nome, preco, tipo, ...)`:**
-    - **Lógica de UUID:** Verifica se é um produto novo. Se for, gera o ID usando `UUID.randomUUID().toString()`. Se for edição, mantém o ID existente.
-    - **Validação de Serviço:** Antes de criar a entidade `Product` para enviar ao DAO, faz a checagem: `if (tipo == ItemType.SERVICE) { quantidadeEstoque = 0.0 }`. Isso garante a integridade da Regra 1.
-    
-    - **Ação:** Chama `productDao.insert` ou `productDao.update`.
+Bloco A: Testes de Validação e Limites (Failing Fast)
+- [ ] **Teste de Validação de Nome Vazio:** Chamar `saveCategory` passando `nome = ""` e ID nulo.
+    - _Assertividade:_ Garantir que a função retorne um erro e que o método `insert` do DAO nunca seja chamado
+- [ ] **Teste de Validação de Nome Apenas com Espaços:** Chamar `saveCategory` passando `nome = " "`.
+    - _Assertividade:_ Garantir que a ViewModel aplique o `trim()` e trate como vazio, bloqueando a ida ao DAO.
+- [ ] **Teste de ID "Falso Nulo":** Chamar `saveCategory` passando `idAtual = ""` (String vazia) em vez de `null`.
+    - _Assertividade:_ Garantir que a ViewModel seja inteligente o suficiente para identificar que String vazia significa "Novo Cadastro", gerando um UUID válido e chamando o `insert` (e não o `update`).
+
+Bloco B: Testes de Persistência (Happy Path)
+- [ ] **Teste de Inserção de Nova Categoria:** Chamar `saveCategory` com ID nulo, nome "Ferramentas" e tipo `ITEM`.    
+    - _Assertividade:_ Garantir que o DAO receba o objeto exato chamado via `insert`, com um ID que seja um UUID válido de 36 caracteres, e que o estado mude para `Success`.
+- [ ] **Teste de Atualização de Categoria Existente:** Chamar `saveCategory` com ID "123-abc", nome "Ferramentas Manuais" e tipo `ITEM`.
+    - _Assertividade:_ Garantir que o método `update` do DAO seja chamado preservando estritamente o ID "123-abc", e que o `insert` nunca seja chamado.
         
-- **Função `registerStockEntry(productId, qtdNova, precoNovo)`:**
+- [ ] **Teste de Exclusão Física:** Chamar `deleteCategory` passando uma categoria válida.
+    - _Assertividade:_ Verificar se o método `delete` do DAO foi chamado com o mesmo objeto e se a lista na memória foi recarregada para refletir a exclusão.
+
+#### Bloco C: Testes de Busca e Estado (Data Retrieval)
+- [ ] **Teste de Carregamento Filtrado:** Chamar `loadCategories(CategoryType.EXPENSE)`.
+    - _Configuração:_ Mockar o DAO para retornar 2 categorias de despesas.
+    - _Assertividade:_ Garantir que o `StateFlow` emita `Loading` e logo após emita `Success` contendo exatamente a lista com os 2 itens retornados pelo DAO.
+        
+- [ ] **Teste de Lista Vazia:** Chamar `loadCategories` quando o banco não tem categorias registradas.
+    - _Assertividade:_ O `StateFlow` deve emitir `Success` com uma lista vazia `[]`, garantindo que a tela não quebre ao tentar renderizar o vazio.
+        
+
+
+---
+
+### 3. Módulo de Clientes (`ClientViewModel`)
+
+- [ ] Implementar a `ClientViewModel`:
     
-    - **Execução do CMP:** 1. Busca o produto atual (`productDao.getById`). 2. Calcula o novo saldo físico (`qtdAtual + qtdNova`). 3. Previne divisão por zero caso o estoque total resulte em zero. 4. Calcula o valor financeiro: `val novoCusto = ((qtdAtual * custoAtual) + (qtdNova * precoNovo)) / novoSaldoFisico`. 5. Chama o DAO atômico: `productDao.updateStockAndCost(productId, novoSaldoFisico, novoCusto)`.
+    - Configurar estado de paginação (`currentPage`, `PAGE_SIZE = 20`, `isLoading`, `isLastPage`).
+        
+    - Criar `StateFlow` para expor a lista unificada de clientes.
+        
+    - Implementar `loadMoreClients()` calculando o `offset` e concatenando os resultados do DAO à lista em memória.
+        
+    - Implementar `searchClients(query: String)`: Limpar a lista atual, resetar paginação e chamar busca por nome.
+        
+    - Implementar função de Upsert `saveClient(idAtual, nome, telefone, endereco, imagePath)`: Aplicar um `.filter { it.isDigit() }` no telefone antes de enviar ao DAO.
+        
+- [ ] Criar testes para `ClientViewModelTest`:
+    
+    - Teste 1: Validar a lógica de paginação (simular rolagem e garantir que o offset é calculado corretamente como 0, 20, 40...).
+        
+    - Teste 2: Validar a higienização do telefone (garantir que "(88) 99999-1234" seja convertido e salvo estritamente como "88999991234").
         
 
 ---
 
-### 2. `SaleViewModel`
+### 4. Módulo de Produtos e Estoque (`ProductViewModel`)
 
-Esta é a ViewModel mais complexa, responsável por orquestrar o carrinho de compras e transformar o valor total em dívidas rastreáveis (parcelas).
-
-**Dependências Injetadas:**
-
-- `SaleDao`, `SaleItemDao`, `InstallmentDao`
+- [ ] Implementar a `ProductViewModel`:
     
-
-**Funcionalidades e Regras Implementadas:**
-
-- **Estado da UI (StateFlow):** Mantém a lista atual de itens adicionados ao carrinho e o total da venda.
-    
-- **Função `checkout(clientId, numeroParcelas)`:**
-    
-    - **Lógica de Criação:** Gera o UUID da venda matriz. Salva a `SaleEntity` (status `PENDING` se for a prazo) e salva a lista de `SaleItemEntity` vinculando o UUID da venda.
+    - Configurar paginação (`loadMoreProducts`) análoga à de clientes.
         
-    - **Gerador de Parcelas (Regra 3):**
+    - Implementar função de Upsert `saveProduct(idAtual, categoryId, nome, custo, venda, unidade, tipoItem, imagePath)`:
         
-        1. **Divisão Base:** Divide o valor total pelo número de parcelas. _Ex: 100.0 / 3 = 33.3333..._ O Kotlin precisará truncar para 2 casas decimais: `val valorBase = (total / numeroParcelas).toBigDecimal().setScale(2, RoundingMode.DOWN).toDouble()` -> resultando em 33.33.
+        - **Regra de Negócio:** Se `tipoItem == ItemType.SERVICE`, forçar a propriedade `quantidadeEstoque = 0.0`.
             
-        2. **Arredondamento da Última Parcela:** Calcula quanto falta para bater o valor exato: `val somaBase = valorBase * (numeroParcelas - 1)`. O valor da última parcela será `total - somaBase`. _Ex: 100.00 - (33.33 * 2) = 33.34_.
+    - Implementar função financeira `registerStockEntry(productId, qtdNova, precoNovo)`:
+        
+        - Buscar dados atuais do produto via DAO.
             
-        3. **Laço de Datas:** Um loop `for (i in 1..numeroParcelas)`. Se os vencimentos forem a cada 30 dias, calcula em milissegundos: `val vencimento = System.currentTimeMillis() + (i * 30L * 24 * 60 * 60 * 1000)`.
+        - Calcular o Custo Médio Ponderado: `((qtdAtual * custoAtual) + (qtdNova * precoNovo)) / (qtdAtual + qtdNova)`.
             
-        4. **Persistência:** Instancia a lista de `InstallmentEntity` com status `PENDENTE` e manda para o `installmentDao.insertAll()`.
+        - Chamar `productDao.updateStockAndCost` com os novos valores.
             
+- [ ] Criar testes para `ProductViewModelTest`:
+    
+    - Teste 1: Garantir que tentar cadastrar ou editar um item do tipo `SERVICE` resulte sempre em um objeto com estoque zero, independente do valor digitado na UI.
+        
+    - Teste 2: Validar a matemática do CMP com uma entrada válida (ex: 10 itens a R$50 + 5 itens a R$65 devem resultar em um novo custo médio exato de R$55.00).
+        
+    - Teste 3: Validar a prevenção de erro matemático do CMP: garantir que, se o novo saldo de estoque for zero, o custo médio assuma 0.0 (evita `ArithmeticException` por divisão por zero).
+        
 
 ---
 
-### 3. `ReceivableViewModel` (Contas a Receber)
+### 5. Módulo de Vendas e PDV (`SaleViewModel`)
 
-Focada em garantir que o pagamento de uma parcela reflita no status geral da Venda.
-
-**Dependências Injetadas:**
-
-- `InstallmentDao`, `SaleDao`
+- [ ] Implementar a `SaleViewModel`:
     
-
-**Funcionalidades e Regras Implementadas:**
-
-- **Função `receivePayment(installmentId, saleId, paymentMethod)`:**
-    
-    - **Lógica de Baixa (Regra 4):**
+    - Criar `StateFlow` gerenciando o Carrinho de Compras (`List<SaleItem>`) e o Total Dinâmico da Venda.
         
-        1. **Registro do Pagamento:** Captura o momento atual `val momentoPagamento = System.currentTimeMillis()`. Chama o DAO para atualizar a parcela específica: `installmentDao.updatePayment(installmentId, momentoPagamento, paymentMethod.name, InstallmentStatus.PAGA.name)`.
+    - Implementar funções de carrinho: `addItem`, `removeItem`, `updateQuantity`.
+        
+    - Implementar função crítica `checkout(clientId, parcelas, prazoEmDias)`:
+        
+        - Gerar UUID da Venda Mestre e salvar no `SaleDao` com status `PENDING`.
             
-        2. **Gatilho de Verificação:** Chama imediatamente `val restantes = installmentDao.countPendingBySaleId(saleId)`.
+        - Iterar o carrinho, gerar UUID para cada `SaleItem` vinculando ao ID da Venda e salvar no `SaleItemDao`.
             
-        3. **Finalização:** Se `restantes == 0` (ou seja, o cliente quitou a última parcela que faltava daquela compra específica), executa o update mestre: `saleDao.updateStatus(saleId, SaleStatus.FINISHED.name)`. Isso fará com que essa venda passe a contar no Relatório de Lucratividade instantaneamente.
+        - **Gerador de Parcelas:** - Dividir o total pelo número de parcelas (truncando para 2 casas decimais).
             
+            - Calcular a diferença (centavos) para a última parcela (`total - (valorBase * (parcelas - 1))`).
+                
+            - Gerar as instâncias de `Installment`, calculando as datas de vencimento sequenciais (`System.currentTimeMillis() + (i * prazoEmDias * 86400000L)`).
+                
+            - Salvar lista no `InstallmentDao`.
+                
+        - Limpar o carrinho após sucesso.
+            
+- [ ] Criar testes para `SaleViewModelTest`:
+    
+    - Teste 1: Validar o arredondamento financeiro da geração de parcelas (ex: Venda de R$ 100.00 em 3x deve gerar parcelas de 33.33, 33.33 e 33.34. A soma absoluta deve ser igual a 100.00).
+        
+    - Teste 2: Validar o carrinho de compras: garantir que tentar fazer `checkout` com o carrinho vazio emita um erro ou exceção mapeada.
+        
+    - Teste 3: Validar o cálculo de datas de vencimento: certificar que a primeira parcela de uma venda em 30 dias tenha o `dueDate` exatamente 30 dias (em milissegundos) à frente do timestamp atual.
+        
 
 ---
 
+### 6. Módulo Financeiro e Baixas (`ReceivableViewModel`)
 
-
-A execução das regras será feita diretamente na camada de controle (ex: `ProductController` ou `SaleViewModel`), acessando os DAOs de forma direta para manter a simplicidade do fluxo.
-
-- [ ] Implementar a regra de Produto na Controller: Ao salvar, validar imediatamente se o tipo é SERVIÇO para forçar o estoque a 0.0 e gerar o `UUID.randomUUID().toString()` caso seja um novo cadastro.
+- [ ] Implementar a `ReceivableViewModel`:
     
-- [ ] Implementar o cálculo de Custo Médio Ponderado na Controller: Receber os dados de entrada, calcular a fórmula $CMP = \frac{(QtdAtual \times CustoAtual) + (QtdNova \times PrecoNovo)}{QtdAtual + QtdNova}$ e enviar os novos valores diretamente para a query de atualização do DAO.
-    
-- [ ] Implementar o gerador de parcelas na Controller de Vendas:
-    
-    - [ ] Dividir matematicamente o valor total pelo número de parcelas informadas pelo usuário.
+    - Implementar função `loadPendingByClient(clientId)` para popular a tela de cobrança de um cliente.
         
-    - [ ] Aplicar a sobra de arredondamento (centavos) na última iteração do laço de criação das parcelas.
+    - Implementar função `loadTotalDebt(clientId)` para exibir o consolidado do cliente.
         
-    - [ ] Calcular as datas de vencimento somando a constante de tempo nativa do sistema em milissegundos e salvar a lista no DAO.
+    - Implementar função crítica de gatilho `receivePayment(installmentId, saleId, method)`:
         
-- [ ] Implementar o gatilho de baixa na Controller de Recebimentos:
+        - Registrar a data de hoje no formato Long.
+            
+        - Chamar `installmentDao.updatePayment` passando `InstallmentStatus.PAGA.name` e o `method.name`.
+            
+        - Chamar `installmentDao.countPendingBySaleId(saleId)`.
+            
+        - **Gatilho de Finalização:** Se a contagem retornar 0, chamar `saleDao.updateStatus(saleId, SaleStatus.FINISHED.name)`.
+            
+- [ ] Criar testes para `ReceivableViewModelTest`:
     
-    - [ ] Atualizar a `InstallmentEntity` específica preenchendo a data atual (em Long).
+    - Teste 1: Simular o pagamento da parcela 1 de 2. Afirmar que o DAO de `Installment` foi chamado, mas o DAO de `Sale` (para finalizar a venda) NÃO foi chamado.
         
-    - [ ] Consultar o DAO para verificar se restam parcelas em aberto daquela venda e, caso não existam, emitir o update na `SaleEntity` alterando o status para FINALIZADA.
+    - Teste 2: Simular o pagamento da última parcela pendente de uma venda. Afirmar que a verificação de contagem foi executada e que o `saleDao.updateStatus` foi invocado com o status `FINISHED`.
+
+
+### 1. Camada de Infraestrutura e Injeção Manual
+
+Como não usaremos bibliotecas como Hilt ou Koin, precisamos das fábricas nativas para instanciar as ViewModels passando os DAOs.
+
+- [ ] Implementar a `ViewModelFactory` mestre ou fábricas individuais:
+    
+    - Criar classe que herda de `ViewModelProvider.Factory`.
         
-
-### 5. Validação e Testes de Integridade (JUnit Nativo)
-
-Os testes validarão as regras matemáticas e o comportamento esperado, sem depender de ambientes complexos.
-
-- [ ] Escrever funções de teste unitário (puro Kotlin/JUnit) para a matemática do Custo Médio Ponderado.
-    
-- [ ] Escrever testes unitários verificando a divisão de valores e o comportamento do arredondamento na geração de parcelas simuladas.
-    
-- [ ] Validar a regex de limpeza do número de telefone antes de testar a inserção simulada da entidade Cliente.
+    - Sobrescrever o método `create` para instanciar `CategoryViewModel`, `ClientViewModel`, `ProductViewModel`, `SaleViewModel` e `ReceivableViewModel`, injetando os respectivos DAOs vindos da instância Singleton do `AppDatabase`.
+        
