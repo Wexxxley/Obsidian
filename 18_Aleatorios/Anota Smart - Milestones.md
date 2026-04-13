@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 ## **1. Backend**
@@ -20,8 +21,7 @@ Os enums representam o domínio do sistema e serão salvos no banco de dados.
     
 - [ ] Implementar a classe abstrata `AppDatabase` configurando a versão inicial e registrando o `TypeConverters` dos Enums.
     
-- [ ] Implementar a instanciação manual do banco de dados (Singleton) utilizando uma classe base que herda de `Application` no Android, provendo o `AppDatabase` globalmente sem frameworks externos de injeção de dependência.
-    
+- [ ] Implementar a instanciação manual do banco de dados (Singleton) utilizando uma classe base que herda de `Application` no Android, provendo o `AppDatabase` globalmente sem frameworks externos de injeção de dependência.    
 
 ### 2. Modelagem das Entidades 
 
@@ -110,26 +110,18 @@ CategoryDao
 
 Responsável pelo gerenciamento das categorias do catálogo e das despesas. Como o volume de categorias costuma ser pequeno, não há necessidade de paginação.
 
-- `insert(category: Category)`
-    
+- `insert(category: Category)`    
 - `update(category: Category)`
-    
 - `delete(category: Category)`
-    
 - `getByType(type: String): List<Category>`: Filtra especificamente para separar categorias de itens das categorias de despesas operacionais.
 
 ClientDao
 
-Gerencia a base de clientes do aplicativo, otimizada para listagens e buscas rápidas. A listagem geral recebe paginação para não sobrecarregar a memória do dispositivo.
-
+Gerencia a base de clientes do aplicativo, otimizada para listagens e buscas rápidas. A listagem geral recebe paginação para não sobrecarregar a memória do dispositivo
 - `insert(client: Client)`
-    
 - `update(client: Client)`
-    
 - `getById(id: String): Client?`: Carrega o perfil completo para a tela de edição.
-    
 - `getAllOrderedByNamePaginated(limit: Int, offset: Int): List<Client>`: Retorna a lista completa ordenada alfabeticamente. Utiliza paginação (`LIMIT :limit OFFSET :offset`) para carregar a lista sob demanda (lazy loading).
-    
 - `searchByName(query: String): List<Client>`: Utiliza a cláusula SQL `LIKE` para filtrar clientes em tempo real durante a digitação na barra de pesquisa.
     
 
@@ -190,6 +182,81 @@ Gerencia o ciclo de vida da venda principal e as consultas relativas ao fluxo de
 
 ---
 ### 4. Lógica de Negócios Direta (Controllers / ViewModels)
+
+**ProductViewModel**: Responsável por gerenciar o catálogo e aplicar as regras financeiras de estoque.
+
+**Dependências Injetadas (via Construtor):**
+- `ProductDao`
+    
+**Funcionalidades e Regras Implementadas:**
+- **Função `saveProduct(nome, preco, tipo, ...)`:**
+    - **Lógica de UUID:** Verifica se é um produto novo. Se for, gera o ID usando `UUID.randomUUID().toString()`. Se for edição, mantém o ID existente.
+    - **Validação de Serviço:** Antes de criar a entidade `Product` para enviar ao DAO, faz a checagem: `if (tipo == ItemType.SERVICE) { quantidadeEstoque = 0.0 }`. Isso garante a integridade da Regra 1.
+    
+    - **Ação:** Chama `productDao.insert` ou `productDao.update`.
+        
+- **Função `registerStockEntry(productId, qtdNova, precoNovo)`:**
+    
+    - **Execução do CMP:** 1. Busca o produto atual (`productDao.getById`). 2. Calcula o novo saldo físico (`qtdAtual + qtdNova`). 3. Previne divisão por zero caso o estoque total resulte em zero. 4. Calcula o valor financeiro: `val novoCusto = ((qtdAtual * custoAtual) + (qtdNova * precoNovo)) / novoSaldoFisico`. 5. Chama o DAO atômico: `productDao.updateStockAndCost(productId, novoSaldoFisico, novoCusto)`.
+        
+
+---
+
+### 2. `SaleViewModel`
+
+Esta é a ViewModel mais complexa, responsável por orquestrar o carrinho de compras e transformar o valor total em dívidas rastreáveis (parcelas).
+
+**Dependências Injetadas:**
+
+- `SaleDao`, `SaleItemDao`, `InstallmentDao`
+    
+
+**Funcionalidades e Regras Implementadas:**
+
+- **Estado da UI (StateFlow):** Mantém a lista atual de itens adicionados ao carrinho e o total da venda.
+    
+- **Função `checkout(clientId, numeroParcelas)`:**
+    
+    - **Lógica de Criação:** Gera o UUID da venda matriz. Salva a `SaleEntity` (status `PENDING` se for a prazo) e salva a lista de `SaleItemEntity` vinculando o UUID da venda.
+        
+    - **Gerador de Parcelas (Regra 3):**
+        
+        1. **Divisão Base:** Divide o valor total pelo número de parcelas. _Ex: 100.0 / 3 = 33.3333..._ O Kotlin precisará truncar para 2 casas decimais: `val valorBase = (total / numeroParcelas).toBigDecimal().setScale(2, RoundingMode.DOWN).toDouble()` -> resultando em 33.33.
+            
+        2. **Arredondamento da Última Parcela:** Calcula quanto falta para bater o valor exato: `val somaBase = valorBase * (numeroParcelas - 1)`. O valor da última parcela será `total - somaBase`. _Ex: 100.00 - (33.33 * 2) = 33.34_.
+            
+        3. **Laço de Datas:** Um loop `for (i in 1..numeroParcelas)`. Se os vencimentos forem a cada 30 dias, calcula em milissegundos: `val vencimento = System.currentTimeMillis() + (i * 30L * 24 * 60 * 60 * 1000)`.
+            
+        4. **Persistência:** Instancia a lista de `InstallmentEntity` com status `PENDENTE` e manda para o `installmentDao.insertAll()`.
+            
+
+---
+
+### 3. `ReceivableViewModel` (Contas a Receber)
+
+Focada em garantir que o pagamento de uma parcela reflita no status geral da Venda.
+
+**Dependências Injetadas:**
+
+- `InstallmentDao`, `SaleDao`
+    
+
+**Funcionalidades e Regras Implementadas:**
+
+- **Função `receivePayment(installmentId, saleId, paymentMethod)`:**
+    
+    - **Lógica de Baixa (Regra 4):**
+        
+        1. **Registro do Pagamento:** Captura o momento atual `val momentoPagamento = System.currentTimeMillis()`. Chama o DAO para atualizar a parcela específica: `installmentDao.updatePayment(installmentId, momentoPagamento, paymentMethod.name, InstallmentStatus.PAGA.name)`.
+            
+        2. **Gatilho de Verificação:** Chama imediatamente `val restantes = installmentDao.countPendingBySaleId(saleId)`.
+            
+        3. **Finalização:** Se `restantes == 0` (ou seja, o cliente quitou a última parcela que faltava daquela compra específica), executa o update mestre: `saleDao.updateStatus(saleId, SaleStatus.FINISHED.name)`. Isso fará com que essa venda passe a contar no Relatório de Lucratividade instantaneamente.
+            
+
+---
+
+
 
 A execução das regras será feita diretamente na camada de controle (ex: `ProductController` ou `SaleViewModel`), acessando os DAOs de forma direta para manter a simplicidade do fluxo.
 
