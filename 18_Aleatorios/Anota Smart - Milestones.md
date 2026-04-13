@@ -1,6 +1,7 @@
-Estratégia "vanilla" consiste em remover bibliotecas de terceiros (como frameworks de Injeção de Dependência, ex: Hilt ou Koin) e reduzir a complexidade interna do Room.
 
-Para isso, os identificadores únicos serão tratados nativamente como `String` no banco de dados (gerados via `java.util.UUID.randomUUID().toString()`), e as datas serão salvas diretamente como `Long` (timestamps). Isso elimina a necessidade de criar conversores complexos, mantendo o banco de dados leve. Além disso, a arquitetura dispensará a camada de Serviço, executando as regras diretamente nos Controllers ou ViewModels.
+
+---
+## **1. Backend**
 ### Definição de Enums
 
 Os enums representam o domínio do sistema e serão salvos no banco de dados.
@@ -11,7 +12,7 @@ Os enums representam o domínio do sistema e serão salvos no banco de dados.
 - **InstallmentStatus:** PENDENTE, PAGA, ATRASADA.
 - **PaymentMethod:** DINHEIRO, PIX, DÉBITO, CRÉDITO.
 
-### 1. Infraestrutura e Configuração Base (Vanilla)
+### 1. Infraestrutura e Configuração Base
 
 - [ ] Configurar exclusivamente as dependências essenciais do Room (Runtime, KTX) e KSP no arquivo `build.gradle` do módulo.
     
@@ -102,7 +103,10 @@ Ref: Installment.saleId > Sale.id
 
 **3. Ocorrência de Venda à Vista:** Para unificar a arquitetura e evitar lógicas duplicadas, toda venda à vista também deve gerar uma `InstallmentEntity`. A diferença é que o sistema pulará a etapa de pendência. A parcela é criada imediatamente com `statusParcela` igual a `PAGA`, a `dataPagamento` com o timestamp atual e o `metodoPagamento` já preenchido com a forma utilizada no balcão.
 
-### 1. CategoryDao
+---
+### 3. DAOs
+
+CategoryDao
 
 Responsável pelo gerenciamento das categorias do catálogo e das despesas. Como o volume de categorias costuma ser pequeno, não há necessidade de paginação.
 
@@ -113,9 +117,8 @@ Responsável pelo gerenciamento das categorias do catálogo e das despesas. Como
 - `delete(category: Category)`
     
 - `getByType(type: String): List<Category>`: Filtra especificamente para separar categorias de itens das categorias de despesas operacionais.
-    
 
-### 2. ClientDao
+ClientDao
 
 Gerencia a base de clientes do aplicativo, otimizada para listagens e buscas rápidas. A listagem geral recebe paginação para não sobrecarregar a memória do dispositivo.
 
@@ -130,7 +133,7 @@ Gerencia a base de clientes do aplicativo, otimizada para listagens e buscas rá
 - `searchByName(query: String): List<Client>`: Utiliza a cláusula SQL `LIKE` para filtrar clientes em tempo real durante a digitação na barra de pesquisa.
     
 
-### 3. ProductDao
+ProductDao
 
 Centraliza o acesso aos itens do catálogo e a lógica crítica de atualização de estoque financeiro. O catálogo tende a crescer, portanto as listagens principais são paginadas.
 
@@ -147,7 +150,7 @@ Centraliza o acesso aos itens do catálogo e a lógica crítica de atualização
 - `updateStockAndCost(id: String, newStock: Double, newCost: Double)`: Utiliza a anotação `@Query` para executar uma instrução SQL nativa que atualiza apenas o saldo e o custo médio de forma atômica e segura, sem carregar o objeto inteiro na memória.
     
 
-### 4. SaleItemDao
+SaleItemDao
 
 Gerencia os registros individuais dos itens vinculados a uma venda específica. Como o número de itens por venda é naturalmente limitado pelo contexto físico, não requer paginação.
 
@@ -156,7 +159,7 @@ Gerencia os registros individuais dos itens vinculados a uma venda específica. 
 - `getBySaleId(saleId: String): List<SaleItem>`: Busca a lista de itens pertencentes a uma venda, essencial para carregar os detalhes do recibo.
     
 
-### 5. InstallmentDao
+InstallmentDao
 
 Concentra a lógica financeira complexa, cruzando dados de parcelas e vendas para determinar inadimplência e quitação. As consultas retornam volumes controlados (apenas o que está pendente para um cliente específico), dispensando paginação.
 
@@ -171,7 +174,7 @@ Concentra a lógica financeira complexa, cruzando dados de parcelas e vendas par
 - `countPendingBySaleId(saleId: String): Int`: Utiliza a função `COUNT` para verificar quantas parcelas abertas restam para uma venda específica. Atua como o gatilho de verificação para a Controller alterar o status da Venda matriz para finalizada.
     
 
-### 6. SaleDao
+SaleDao
 
 Gerencia o ciclo de vida da venda principal e as consultas relativas ao fluxo de caixa do negócio. O histórico de vendas é potencialmente infinito, exigindo paginação.
 
@@ -185,6 +188,7 @@ Gerencia o ciclo de vida da venda principal e as consultas relativas ao fluxo de
     
 - `getProfitabilityReport(startDate: Long, endDate: Long): List<Sale>`: Consulta vital para o módulo financeiro. Utiliza a cláusula SQL `BETWEEN` nos campos de data (`Long`) para filtrar o período, aplicando obrigatoriamente a restrição de que o status seja igual a 'FINALIZADA'. Esta consulta não é paginada pois o relatório precisa de todos os registros do período de uma só vez para os cálculos de totalização.
 
+---
 ### 4. Lógica de Negócios Direta (Controllers / ViewModels)
 
 A execução das regras será feita diretamente na camada de controle (ex: `ProductController` ou `SaleViewModel`), acessando os DAOs de forma direta para manter a simplicidade do fluxo.

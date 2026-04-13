@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "18_Aleatorios/Anota Smart Milestones.md",
+                "file": "18_Aleatorios/Anota Smart - Milestones.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Anota Smart Milestones"
+              "title": "Anota Smart - Milestones"
             }
           }
         ],
@@ -164,8 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -229,13 +228,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "18_Aleatorios/Anota Smart Milestones.md",
+                "file": "18_Aleatorios/Anota Smart - Milestones.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Anota Smart Milestones"
+              "title": "Outline of Anota Smart - Milestones"
             }
           },
           {
@@ -269,9 +268,14 @@
   },
   "active": "16587ca42fb4ce62",
   "lastOpenFiles": [
+    "08_Git and github/11_Padrão de nomeação.md",
+    "08_Git and github/06_Git push e pull.md",
+    "08_Git and github/05_Autenticação.md",
+    "08_Git and github/04_Log e .gitignore.md",
+    "08_Git and github/10_Fluxo geral.md",
+    "18_Aleatorios/Anota Smart - Milestones.md",
     "attachments/Pasted image 20260412173414.png",
     "18_Aleatorios/Anota Smart - Requisitos.md",
-    "18_Aleatorios/Anota Smart Milestones.md",
     "18_Aleatorios/Anota Smart - Wireframe.md",
     "17_Algebra Linear e CG/9_Vetores.md",
     "17_Algebra Linear e CG/8_Matriz adjunta, inversa e ortonormal.md",
@@ -291,10 +295,6 @@
     "16_Mobile/2_Jetpack Compose/3_Armazenamento/4_Application e viewModel.md",
     "18_Aleatorios/Video ram.md",
     "18_Aleatorios/Video transnordestina.md",
-    "18_Aleatorios/FácilClin - Escopo.md",
-    "18_Aleatorios/HealthTech - wireframe.md",
-    "18_Aleatorios/Erros e sugestões.md",
-    "17_Algebra Linear e CG/14_Transformações.md",
     "attachments/Pasted image 20260410061728.png",
     "attachments/Pasted image 20260410061645.png",
     "attachments/Pasted image 20260410061413.png",
@@ -304,7 +304,6 @@
     "attachments/Pasted image 20260409193130.png",
     "attachments/20260409_155417254.jpg",
     "attachments/20260409_154512420.jpg",
-    "attachments/Pasted image 20260409105440.png",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
