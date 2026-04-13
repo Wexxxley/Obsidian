@@ -33,7 +33,7 @@ $a = (1,2,3)$ e $b = (-1,-2,-3)$
 ---
 ### **3. Produto escalar**
 
-O resultado é um **número único**. Ele mede o quanto um vetor "projeta" sobre o outro.
+O resultado é um **número único**. 
 - **A Fórmula:** $\vec{a} \cdot \vec{b} = |\vec{a}| |\vec{b}| \cos(\theta)$
 - **Em coordenadas:** $(a_1 \cdot b_1) + (a_2 \cdot b_2) + (a_3 \cdot b_3)$
 ![500](../attachments/20260310_080016587.jpg)
