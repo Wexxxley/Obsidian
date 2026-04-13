@@ -9,7 +9,7 @@ Os enums representam o domínio do sistema e serão salvos no banco de dados.
 - **CategoryType:** ITENS ou DESPESAS.
 - **SaleStatus:** ORÇAMENTO, PENDENTE, ATRASADA, FINALIZADA, CANCELADA.
 - **InstallmentStatus:** PENDENTE, PAGA, ATRASADA.
-- **PaymentMethod:** DINHEIRO, PIX, DÉBITO, CRÉDITO, FIADO.
+- **PaymentMethod:** DINHEIRO, PIX, DÉBITO, CRÉDITO.
 
 ### 1. Infraestrutura e Configuração Base (Vanilla)
 
@@ -24,7 +24,7 @@ Os enums representam o domínio do sistema e serão salvos no banco de dados.
 
 ### 2. Modelagem das Entidades 
 
-ids serao uuid mas o tipo nativo utilizado será `String` (VARCHAR).
+ids serao uuid mas o tipo nativo utilizado será `String`
 
 Table Category {
 id varchar [primary key]
@@ -102,22 +102,88 @@ Ref: Installment.saleId > Sale.id
 
 **3. Ocorrência de Venda à Vista:** Para unificar a arquitetura e evitar lógicas duplicadas, toda venda à vista também deve gerar uma `InstallmentEntity`. A diferença é que o sistema pulará a etapa de pendência. A parcela é criada imediatamente com `statusParcela` igual a `PAGA`, a `dataPagamento` com o timestamp atual e o `metodoPagamento` já preenchido com a forma utilizada no balcão.
 
-### 3. Implementação dos DAOs e Queries de Negócio
+### 1. CategoryDao
 
-- [ ] Implementar `CategoryDao` com suporte a filtros básicos por `CategoryType`.
+Responsável pelo gerenciamento das categorias do catálogo e das despesas. Como o volume de categorias costuma ser pequeno, não há necessidade de paginação.
+
+- `insert(category: Category)`
     
-- [ ] Implementar `ClientDao` para inserção, atualização e busca por nome.
+- `update(category: Category)`
     
-- [ ] Implementar `ProductDao` contendo a query SQL nativa para atualizar o saldo e custo médio de forma atômica.
+- `delete(category: Category)`
     
-- [ ] Criar `InstallmentDao` focando no cruzamento de dados:
+- `getByType(type: String): List<Category>`: Filtra especificamente para separar categorias de itens das categorias de despesas operacionais.
     
-    - [ ] Consulta (`JOIN` nativo) para buscar todas as parcelas pendentes ou atrasadas de um `clientId`.
-        
-    - [ ] Função de agregação (`SUM`) nativa do SQLite para retornar o débito total do cliente.
-        
-- [ ] Implementar `SaleDao` utilizando a anotação `@Relation` estritamente para agrupar a `SaleEntity` com suas respectivas listas de `SaleItemEntity` e `InstallmentEntity`.
+
+### 2. ClientDao
+
+Gerencia a base de clientes do aplicativo, otimizada para listagens e buscas rápidas. A listagem geral recebe paginação para não sobrecarregar a memória do dispositivo.
+
+- `insert(client: Client)`
     
+- `update(client: Client)`
+    
+- `getById(id: String): Client?`: Carrega o perfil completo para a tela de edição.
+    
+- `getAllOrderedByNamePaginated(limit: Int, offset: Int): List<Client>`: Retorna a lista completa ordenada alfabeticamente. Utiliza paginação (`LIMIT :limit OFFSET :offset`) para carregar a lista sob demanda (lazy loading).
+    
+- `searchByName(query: String): List<Client>`: Utiliza a cláusula SQL `LIKE` para filtrar clientes em tempo real durante a digitação na barra de pesquisa.
+    
+
+### 3. ProductDao
+
+Centraliza o acesso aos itens do catálogo e a lógica crítica de atualização de estoque financeiro. O catálogo tende a crescer, portanto as listagens principais são paginadas.
+
+- `insert(product: Product)`
+    
+- `update(product: Product)`: Executa a atualização completa do registro (utilizada ao editar nome, categoria ou foto).
+    
+- `getById(id: String): Product?`
+    
+- `getAllPaginated(limit: Int, offset: Int): List<Product>`: Retorna os produtos utilizando paginação (`LIMIT :limit OFFSET :offset`) para a tela principal de catálogo.
+    
+- `getByCategoryIdPaginated(categoryId: String, limit: Int, offset: Int): List<Product>`: Retorna produtos filtrados por categoria, também sob demanda via `LIMIT` e `OFFSET`.
+    
+- `updateStockAndCost(id: String, newStock: Double, newCost: Double)`: Utiliza a anotação `@Query` para executar uma instrução SQL nativa que atualiza apenas o saldo e o custo médio de forma atômica e segura, sem carregar o objeto inteiro na memória.
+    
+
+### 4. SaleItemDao
+
+Gerencia os registros individuais dos itens vinculados a uma venda específica. Como o número de itens por venda é naturalmente limitado pelo contexto físico, não requer paginação.
+
+- `insertAll(items: List<SaleItem>)`: Persiste todos os itens do carrinho de compras em uma única transação no banco de dados.
+    
+- `getBySaleId(saleId: String): List<SaleItem>`: Busca a lista de itens pertencentes a uma venda, essencial para carregar os detalhes do recibo.
+    
+
+### 5. InstallmentDao
+
+Concentra a lógica financeira complexa, cruzando dados de parcelas e vendas para determinar inadimplência e quitação. As consultas retornam volumes controlados (apenas o que está pendente para um cliente específico), dispensando paginação.
+
+- `insertAll(installments: List<Installment>)`: Salva o cronograma completo de pagamentos gerado no momento de uma venda a prazo.
+    
+- `updatePayment(id: String, paymentDate: Long, method: String, status: String)`: Query nativa de atualização que executa a baixa da parcela, preenchendo os dados de liquidação.
+    
+- `getPendingByClientId(clientId: String): List<Installment>`: Requer a utilização de um `INNER JOIN` com a tabela `Sale` para filtrar e retornar apenas as parcelas cujo status seja diferente de paga, pertencentes àquele cliente.
+    
+- `getTotalDebtByClientId(clientId: String): Double`: Utiliza a função de agregação `SUM(amount)` do SQLite para calcular e retornar o valor total devido pelo cliente com base nas parcelas não pagas.
+    
+- `countPendingBySaleId(saleId: String): Int`: Utiliza a função `COUNT` para verificar quantas parcelas abertas restam para uma venda específica. Atua como o gatilho de verificação para a Controller alterar o status da Venda matriz para finalizada.
+    
+
+### 6. SaleDao
+
+Gerencia o ciclo de vida da venda principal e as consultas relativas ao fluxo de caixa do negócio. O histórico de vendas é potencialmente infinito, exigindo paginação.
+
+- `insert(sale: Sale)`
+    
+- `updateStatus(saleId: String, newStatus: String)`: Query SQL nativa para alterar rapidamente o status sem necessidade de instanciar a entidade completa.
+    
+- `getSalesHistoryPaginated(limit: Int, offset: Int): List<Sale>`: Consulta adicionada para listar as vendas passadas de forma cronológica decrescente, utilizando `LIMIT :limit OFFSET :offset` para renderização em blocos.
+    
+- `getSaleWithDetails(saleId: String): SaleWithDetails`: Retorna uma classe de dados que utiliza a anotação `@Relation` do Room para agrupar a instância de `Sale` com suas respectivas listas filhas de `SaleItem` e `Installment`.
+    
+- `getProfitabilityReport(startDate: Long, endDate: Long): List<Sale>`: Consulta vital para o módulo financeiro. Utiliza a cláusula SQL `BETWEEN` nos campos de data (`Long`) para filtrar o período, aplicando obrigatoriamente a restrição de que o status seja igual a 'FINALIZADA'. Esta consulta não é paginada pois o relatório precisa de todos os registros do período de uma só vez para os cálculos de totalização.
 
 ### 4. Lógica de Negócios Direta (Controllers / ViewModels)
 
