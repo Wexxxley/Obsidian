@@ -18,7 +18,7 @@ Até agora, trabalhamos apenas na branch `main`. Esta é a branch principal do p
 ---
 ### **2. Comandos Essenciais para Branches**
 
-- **Listar todas as branches:** Listará todas as branches locais. A branch em que você está atualmente terá um asterisco (`*`) ao lado.
+- **Listar todas as branches:** Listará todas as branches locais. 
     - `git branch`
         
 - **Criar uma nova branch:**    
@@ -32,5 +32,4 @@ Até agora, trabalhamos apenas na branch `main`. Esta é a branch principal do p
         
 - **Renomear uma branch:**
     - `git branch -m nome-antigo nome-novo`
-
 

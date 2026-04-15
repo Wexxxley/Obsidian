@@ -27,7 +27,7 @@ Antes de começar a usar o Git, você precisa fazer uma configuração inicial. 
 ---
 ### **2. Diretório .git**
 
-Quando você transforma uma pasta em um repositório Git, o Git cria uma pasta oculta chamada `.git`. É dentro desta pasta que o Git armazena todo o histórico, configurações e tudo o que ele precisa para rastrear seu projeto.
+Quando você transforma uma pasta em um repositório Git com `git init`, o Git cria uma pasta oculta chamada `.git`. É dentro desta pasta que o Git armazena todo o histórico, configurações e tudo o que ele precisa para rastrear seu projeto.
 
 **Desfazendo .git**
 **![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcpM4IDA-6p7rSn2dt6CjT7TR_NDZJM4FJM9s33QTcTBE3B3c3rsFwq_M1Z9snKl5cnyDBOaPIOYSLf9rcxa8lEwdQCFJnoS0c3N1iYML205DbT9g2rWYCZUXDIpYi01vy5pojMjeyD1gFIn_6cHxttdcQ?key=yiMe1b2VwU1jpN7Jf4vtog)**

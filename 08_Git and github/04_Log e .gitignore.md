@@ -4,12 +4,6 @@
 ---
 ### **1.  Histórico de commits (git log)**
 Lista todos os commits feitos, começando pelo mais recente.
-
-- **ID do Commit:** Um código longo e único para cada commit 
-- **Author:** Quem fez o commit.
-- **Date:** Quando o commit foi feito.
-- **Mensagem do Commit:** A descrição que você escreveu.
-
 ![](../attachments/Pasted%20image%2020251111154931.png)
 
 - **`git log --oneline`**: Mostra uma versão compacta do seu histórico.    
@@ -21,9 +15,7 @@ Quase todo projeto tem arquivos ou pastas que você não quer salvar no Git. O a
 
 - **Por que ignorar arquivos?**
     1. **Segurança:** Arquivos de configuração (como `.env`) que contêm senhas de banco de dados ou outras informações sensíveis nunca devem ir para o rep.
-        
     2. **Arquivos Gerados:** Pastas que são geradas automaticamente, como `node_modules`. Elas podem ser muito grandes e não são código-fonte real.
-        
     3. **Arquivos de Ambiente:** Arquivos específicos do seu computador ou sistema operacional que não são relevantes para outros desenvolvedores.
 
 - **Como usar?**    
