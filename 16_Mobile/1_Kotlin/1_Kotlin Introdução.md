@@ -7,14 +7,10 @@ O Kotlin foi desenvolvido para ter 100% de **interoperabilidade** com Java. Isso
 - Você pode chamar uma classe Java dentro de um arquivo Kotlin.
 - Você pode usar uma biblioteca Kotlin dentro de um projeto Java.    
 
-![500](../../attachments/Pasted%20image%2020260303133323.png)
 ### **1. Sintaxe básica**
 
 Main
 ![](../../attachments/Pasted%20image%2020260303140906.png)
-
-Variáveis
-![](../../attachments/Pasted%20image%2020260303140745.png)
 
 Funções
 ![](../../attachments/Pasted%20image%2020260303145317.png)
@@ -26,7 +22,6 @@ When é o switch case evoluido
 For
 ![](../../attachments/Pasted%20image%2020260303151103.png)
 ![](../../attachments/Pasted%20image%2020260303151134.png)
-
 
 Em Kotlin as variáveis não podem ser nulas. 
 - **`nome: String?`**: Diz que pode ter um texto OU ser nula.
