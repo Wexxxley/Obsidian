@@ -14,11 +14,10 @@ Transladar um ponto significa somar um deslocamento: $x' = x + t_x$. As outras t
 
 Para transformar a soma em uma multiplicação, "fingimos" que o nosso mundo 3D existe dentro de um espaço 4D. 
 
-![300](../attachments/Pasted%20image%2020260413080437.png)
-![300](../attachments/Pasted%20image%2020260409193130.png)
+![250](../attachments/Pasted%20image%2020260413080437.png)
+![250](../attachments/Pasted%20image%2020260409193130.png)
 
  Imagine que você quer mover um ponto do seu objeto por 10 unidades em X e 5 em Z.
-
 ![300](../attachments/20260409_193647252.jpg)
 
 
