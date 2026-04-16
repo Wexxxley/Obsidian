@@ -1,28 +1,22 @@
 
-O projeto visa desenvolver uma plataforma centralizada que conecte pacientes a clínicas de saúde. O foco principal é eliminar a dificuldade de busca e comparação de serviços (consultas e exames), reduzindo o tempo de latência entre a necessidade do paciente e o contato efetivo com o prestador de serviço.
+O projeto visa desenvolver um aplicativo que conecte pacientes a clínicas ou laboratórios. O foco principal é eliminar a dificuldade de busca e comparação de serviços (consultas e exames), reduzindo o tempo entre a necessidade do paciente e o contato efetivo com o prestador de serviço.
 
-### 1. Problema Identificado
 A jornada atual do paciente é fragmentada. Para realizar um procedimento, o usuário precisa buscar clínicas individualmente, muitas vezes sem acesso prévio a preços, localização exata ou catálogo de serviços. Isso resulta em perda de tempo, impossibilidade de comparação financeira e sobrecarga nas recepções das clínicas com dúvidas básicas.
 
-### 2. Funcionalidades Principais
-#### **Módulo do Paciente**
+![](../attachments/logosVariações.png)
 
+#### **Módulo do Paciente**
 - **Busca e Filtragem:** Ferramenta de pesquisa por nome da clínica, especialidade médica ou tipo de exame.
-    
 - **Geolocalização:** Filtro para exibição de clínicas por proximidade geográfica (distância).
-    
-- **Vitrine de Serviços:** Visualização de catálogo de procedimentos com preços e fotos da infraestrutura.
-    
-- **Sistema de Avaliação:** Notas e comentários de 1 a 5 estrelas sobre o atendimento recebido.
-    
-- **Redirecionamento Estruturado:** Botão de agendamento que envia o usuário ao WhatsApp da clínica com uma mensagem pré-formatada. Quanto mais completa for a mensagem que o sistema gera para o WhatsApp, mais valor entregado para a empresa.
+- **Vitrine de Serviços:** Visualização de catálogo de serviços com preços e fotos da infraestrutura.
+- **Sistema de Avaliação:** Notas e comentários de 1 a 5 estrelas.
+- **Redirecionamento Estruturado:** Botão de agendamento que envia o usuário ao WhatsApp da clínica com uma mensagem pré-formatada. 
 #### **Módulo da Clínica 
 - **Gestão de Perfil:** Painel para edição de horários, fotos, localização e corpo clínico.
 - **Catálogo de Serviços:** Cadastro e atualização de consultas e exames oferecidos com seus respectivos valores.
-
-### 3. Limites do Projeto
+#### **Limites do Projeto**
 - **Processamento de Pagamento:** O pagamento não ocorre dentro do app; fica sob total responsabilidade da clínica.
-- **Agendamento Direto no Calendário:** O app não fará a reserva direta de horários; ele facilita a chegada do paciente ao canal de atendimento onde o horário será definido.
+- **Agendamento direto com a clínica:** O app não fará a reserva direta de horários; ele facilita a chegada do paciente ao canal de atendimento onde o horário será definido.
 
 ---
 
