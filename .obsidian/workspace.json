@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "18_Aleatorios/FácilClin - Escopo.md",
-                "mode": "source",
+                "file": "17_Algebra Linear e CG/14_Transformações.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FácilClin - Escopo"
+              "title": "14_Transformações"
             }
           }
         ],
@@ -214,13 +214,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "16_Mobile/1_Kotlin/2_Kotlin POO.md",
+                "file": "17_Algebra Linear e CG/14_Transformações.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2_Kotlin POO"
+              "title": "Outline of 14_Transformações"
             }
           },
           {
@@ -238,8 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -255,6 +254,9 @@
   },
   "active": "bf7635515d25b501",
   "lastOpenFiles": [
+    "17_Algebra Linear e CG/9_Vetores.md",
+    "17_Algebra Linear e CG/8_Matriz adjunta, inversa e ortonormal.md",
+    "18_Aleatorios/FácilClin - Escopo.md",
     "attachments/logosVariações.png",
     "attachments/FreeSample-Vectorizer-io-logosVariações.svg",
     "16_Mobile/1_Kotlin/2_Kotlin POO.md",
@@ -275,7 +277,6 @@
     "08_Git and github/01_Introdução.md",
     "17_Algebra Linear e CG/14_Transformações.md",
     "17_Algebra Linear e CG/13_Base e Mudança de base.md",
-    "17_Algebra Linear e CG/9_Vetores.md",
     "16_Mobile/2_Jetpack Compose/3_Armazenamento/4_Application e viewModel.md",
     "18_Aleatorios/testes.md",
     "attachments/Pasted image 20260413181154.png",
@@ -287,10 +288,8 @@
     "attachments/Pasted image 20260413080100.png",
     "attachments/Pasted image 20260413080016.png",
     "17_Algebra Linear e CG/10_Espaço vetorial e subespaço vetorial.md",
-    "17_Algebra Linear e CG/8_Matriz adjunta, inversa e ortonormal.md",
     "attachments/Pasted image 20260412173414.png",
     "17_Algebra Linear e CG/7_Método de Jacobi.md",
-    "attachments/Pasted image 20260410061728.png",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",

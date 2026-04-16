@@ -58,7 +58,7 @@ A reflexão inverte o objeto em relação a um plano (como um espelho).
 ---
 ### **5. Cisalhamento**
 
-Existem 6 matrizes de cisalhemento:
+Existem 6 matrizes de cisalhemento 3D:
 ![200](../attachments/Pasted%20image%2020260413080146.png)
 ![400](../attachments/Pasted%20image%2020260410061728.png)
 ![400](../attachments/Pasted%20image%2020260410061645.png)
