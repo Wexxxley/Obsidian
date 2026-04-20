@@ -31,16 +31,35 @@ Na primeira visão (focada nas colunas), o vetor resultante é uma combinação 
 
 Na segunda visão (focada nas linhas), cada elemento do vetor resultante é calculado realizando o produto escalar entre uma linha da matriz e o vetor coluna $\vec{v}$. Quando a matriz é ortonormal (suas linhas formam uma base de vetores perpendiculares entre si e de comprimento 1), o produto escalar calcula rigorosamente a projeção ortogonal do vetor $\vec{v}$ sobre a direção definida por aquela linha específica.
 
-F) Ao transformar o sistema de coordenadas local de um objeto, as coordenadas **globais** dos seus vértices mudam, enquanto as coordenadas **locais** dos seus vértices se mantêm inalteradas.
+**F) Ao transformar o sistema de coordenadas local de um objeto, as coordenadas globais dos seus vértices mudam, enquanto as coordenadas locais dos seus vértices se mantêm inalteradas.**
 
 Na Computação Gráfica, as coordenadas locais são definidas em relação à origem do próprio objeto. Elas descrevem a geometria intrínseca da malha 3D.
 
 Quando aplicamos uma transformação ao sistema de coordenadas local do objeto, estamos movendo o objeto pelo mundo virtual. No entanto, a estrutura do objeto em si não é deformada; portanto, a distância e a posição dos vértices em relação ao centro do próprio objeto (suas coordenadas locais) permanecem estritamente inalteradas.
 
-### Item G: Armazenamento e carregamento de modelos 3D
 
-**Enunciado:** Ao salvar um objeto tridimensional em um arquivo, seus vértices são salvos em coordenadas **locais**. Ao carregar o arquivo, suas coordenadas **globais** são obtidas automaticamente através de uma matriz de composição de transformações.
+----
 
-**Explicação:** Quando um software de modelagem 3D exporta um arquivo (como `.obj` ou `.fbx`), a geometria é salva utilizando coordenadas locais. Isso garante que o objeto seja modular e independente, podendo ser instanciado múltiplas vezes em uma cena sem conflitos de posicionamento.
+**A) A inversa de uma matriz de escala é igual a sua transposta.**
 
-Ao carregar esse arquivo em um motor gráfico, o objeto precisa ser posicionado no cenário. Para isso, o motor lê as coordenadas locais e as multiplica por uma matriz de composição de transformações (frequentemente chamada de Matriz de Modelo ou _Model Matrix_). O resultado dessa multiplicação converte os dados brutos do arquivo nas coordenadas globais, estabelecendo onde e como o objeto existe dentro do espaço do mundo virtual simulado.
+**Resposta:** ( F ) Falso. A matriz transposta de uma matriz de escala (que é uma matriz diagonal) é exatamente igual à matriz original ($S^T = S$). Por outro lado, a inversa de uma matriz de escala contém os inversos multiplicativos dos fatores de escala originais na sua diagonal principal (por exemplo, se o fator de escala de $x$ é 2, na inversa será 1/2). A propriedade de ter a inversa igual à transposta ($M^{-1} = M^T$) é exclusiva de matrizes ortogonais, como as matrizes de rotação.
+
+**2. As coordenadas homogêneas são necessárias para possibilitar a representação de transformações de rotação e escala através de matrizes, permitindo que elas possam ser combinadas.**
+
+**Resposta:** ( F ) Falso. As transformações de rotação e de escala são transformações estritamente lineares e já podem ser plenamente representadas e combinadas usando matrizes comuns $3 \times 3$ no espaço 3D (ou $2 \times 2$ em 2D). O real motivo para a introdução das coordenadas homogêneas (aumentando a matriz para $4 \times 4$) é a necessidade de representar a **translação** como uma multiplicação de matrizes. 
+
+**3. Na matriz de conversão de um sistema global para um sistema local, o $R^T$ que multiplica o -t é responsável por converter -t de coordenadas globais para coordenadas locais.**
+
+**Resposta:** ( V ) Verdadeiro. A transformação do espaço local para o global de uma câmera ou objeto é dada por $M = T \cdot R$. Para converter do global de volta para o local, precisamos da matriz inversa $M^{-1} = (T \cdot R)^{-1} = R^{-1} \cdot T^{-1}$. Como $R$ é uma matriz ortogonal, sua inversa é sua transposta ($R^T$). O inverso da translação é o deslocamento oposto $T(-t)$. Portanto, $M^{-1} = R^T \cdot T(-t)$. Geometricamente, as linhas da matriz de rotação transposta $R^T$ representam os eixos do sistema de coordenadas local. Ao multiplicar $R^T$ pelo vetor global de translação $-t$, estamos fazendo o produto escalar desse vetor com os eixos locais, o que o projeta e o converte efetivamente para o espaço de coordenadas local.
+
+**4. O produto vetorial entre um vetor qualquer p e um vetor unitário u equivale geometricamente à projeção do vetor p sobre o vetor u.**
+
+**Resposta:** ( F ) Falso.
+
+**Justificativa:** A operação geométrica descrita no enunciado corresponde ao **produto escalar** (dot product), e não ao produto vetorial. O produto escalar entre um vetor $\vec{p}$ e um vetor unitário $\vec{u}$, representado por $\vec{p} \cdot \vec{u}$, resulta em um escalar que quantifica exatamente a magnitude da projeção ortogonal de $\vec{p}$ sobre $\vec{u}$. O produto vetorial (cross product), por sua vez, resultaria em um novo vetor perpendicular tanto a $\vec{p}$ quanto a $\vec{u}$.
+
+**5. A rotação de -60 graus ao redor do eixo x de um ponto (x,y,z) altera apenas suas coordenadas y e z.**
+
+**Resposta:** ( V ) Verdadeiro.
+
+**Justificativa:** Em uma operação de rotação 3D ao redor de um eixo canônico, as coordenadas pertencentes a esse eixo funcionam como o pivô da transformação e permanecem completamente inalteradas. A matriz de rotação em torno do eixo $x$ aplica funções trigonométricas (senos e cossenos do ângulo de -60 graus) exclusivamente sobre os outros dois eixos, promovendo um giro no plano ortogonal $yz$. Assim, a coordenada $x$ original do ponto é preservada, enquanto apenas $y$ e $z$ mudam.
