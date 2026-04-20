@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Algebra Linear e CG/14_Transformações.md",
+                "file": "18_Aleatorios/AcessoClin - Requisitos.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14_Transformações"
+              "title": "AcessoClin - Requisitos"
             }
           }
         ],
@@ -150,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -214,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "17_Algebra Linear e CG/14_Transformações.md",
+                "file": "18_Aleatorios/AcessoClin - Requisitos.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 14_Transformações"
+              "title": "Outline of AcessoClin - Requisitos"
             }
           },
           {
@@ -238,7 +239,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,6 +256,7 @@
   },
   "active": "bf7635515d25b501",
   "lastOpenFiles": [
+    "17_Algebra Linear e CG/14_Transformações.md",
     "17_Algebra Linear e CG/9_Vetores.md",
     "17_Algebra Linear e CG/8_Matriz adjunta, inversa e ortonormal.md",
     "18_Aleatorios/FácilClin - Escopo.md",
@@ -275,7 +278,6 @@
     "08_Git and github/07_Branches.md",
     "08_Git and github/11_Padrão de nomeação.md",
     "08_Git and github/01_Introdução.md",
-    "17_Algebra Linear e CG/14_Transformações.md",
     "17_Algebra Linear e CG/13_Base e Mudança de base.md",
     "16_Mobile/2_Jetpack Compose/3_Armazenamento/4_Application e viewModel.md",
     "18_Aleatorios/testes.md",
