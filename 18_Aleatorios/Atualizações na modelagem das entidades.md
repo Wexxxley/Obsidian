@@ -1,11 +1,11 @@
 
+## 1. Validação de Endereços no Domínio (DDD)
 
-### 1. Validação endereços
+### 1.1. Objeto de Valor (Value Object) para o CEP
 
-Value Objects são utilizados para encapsular regras de negócio de atributos que não possuem identidade própria. O CEP é o candidato ideal para se tornar um Value Object.
+O CEP não possui identidade própria, mas possui regras estritas de formatação. Ele foi encapsulado em um _Value Object_ para garantir sua integridade antes de qualquer processamento ou persistência.
 
-Para atributos puramente textuais e sem formatação estrita (como Logradouro e Bairro), a prática formal é utilizar Cláusulas de Guarda dentro da própria entidade.
-
+Exemplo do que pode ser feito:
 ```c#
 namespace AcessoClin.Domain.ValueObjects;
 
@@ -16,9 +16,7 @@ public class Cep
 {
     public string Valor { get; private set; }
 
-    private Cep()
-    {
-    }
+    private Cep() { }
 
     public Cep(string valor)
     {
@@ -41,131 +39,53 @@ public class Cep
 }
 ```
 
-Para os campos textuais (`Logradouro`, `Bairro`, `Cidade`), a validação não deve se limitar à nulidade. É necessário definir **limites de tamanho (Length)** para evitar que o banco de dados seja sobrecarregado com textos imensos.
+### 1.2. Cláusulas de Guarda (Guard Clauses) para Textos
+
+Para atributos puramente textuais (Logradouro, Bairro, Cidade), não basta validar a nulidade. O sistema utiliza cláusulas de guarda na própria entidade para definir limites de tamanho (`Length`), evitando a persistência de textos demasiadamente longos ou curtos.
+
+### 1.3. Fluxo de Orquestração no Backend
+
+A validação de que um CEP reflete uma cidade real não ocorre na entidade, mas sim na **Camada de Serviço**. O fluxo estabelecido é:
+1. **Recepção:** O `UsuarioController` ou `ClinicaController` recebe o DTO com os dados.
+2. **Delegação:** O Controller repassa essas informações para o serviço principal (ex: `UsuarioService`).
+3. **Validação:** O serviço principal aciona, internamente, o `EnderecoService` para aplicar as validações externas do CEP e instanciar a entidade.
+
+---
+## 2. Categorização de Exames e Consultas
+
+A otimização de consultas no banco de dados exige que a categoria seja lida diretamente na tabela principal de exames/consultas, evitando a sobrecarga de relacionamentos (_JOINs_). O direcionamento para a implementação é:
+
+- **Uso de Enumerações (Enum):** Altamente recomendado para macrocategorias bem estabelecidas e invariáveis no mercado de saúde (ex: Exames Laboratoriais, Exames de Imagem). Proporciona alta performance de busca e baixa manutenção.
+    
+- **Uso de Tabela Relacional:** Deve ser aplicado apenas se a regra de negócio exigir que as categorias sejam dinâmicas, altamente granulares e alteráveis via painel de administração.
+    
+
+---
+## 3. Gestão de Geolocalização
+
+A regra de geolocalização diverge entre o paciente e a clínica, visando performance e precisão dos dados espaciais.
+
+### 3.1. Paciente vs. Clínica
+
+- **O Paciente (Em Tempo Real):** A localização do cliente **não deve ser gravada** no banco de dados. O GPS do dispositivo móvel captura a coordenada no momento do uso e o Frontend a envia no _Payload_ (corpo da requisição) unicamente para o cálculo do raio de busca.
+    
+- **A Clínica (Estática):** A coordenada da clínica deve ser persistida na tabela `Enderecos` utilizando o tipo espacial nativo do PostGIS, permitindo a indexação na árvore espacial.
+    
+### 3.2. Geocodificação Automatizada (Backend)
+
+Para garantir precisão e evitar que o administrador da clínica digite coordenadas complexas no momento do cadastro, o sistema utiliza o processo de Geocodificação:
+1. O Frontend envia os dados humanos (CEP, Logradouro, Número, Bairro, Cidade).
+2. O Backend valida matematicamente o CEP.
+3. O Backend realiza, de forma silenciosa, uma requisição HTTP para uma API de Geocodificação (como Google Maps ou Nominatim).
+4. A API devolve as coordenadas exatas daquele logradouro.
+5. O Serviço instancia a entidade `Endereco`, gerando o objeto espacial `Point` do `NetTopologySuite`, e o persiste no banco.
+
+### 3.3. A Entidade Endereco com Suporte Espacial
+
+A classe consolida a validação de texto e a persistência do ponto espacial (`SRID 4326`).
+
 
 ```c#
-namespace AcessoClin.Models;
-
-using AcessoClin.Domain.ValueObjects;
-using System;
-
-public class Endereco
-{
-    public int Id { get; private set; }
-    public Cep Cep { get; private set; }
-    public string Logradouro { get; private set; }
-    public string Numero { get; private set; }
-    public string Bairro { get; private set; }
-    public string Cidade { get; private set; }
-
-    private Endereco()
-    {
-    }
-
-    public Endereco(Cep cep, string logradouro, string numero, string bairro, string cidade)
-    {
-        ValidarTextos(logradouro, numero, bairro, cidade);
-
-        Cep = cep;
-        Logradouro = logradouro.Trim();
-        Numero = numero.Trim();
-        Bairro = bairro.Trim();
-        Cidade = cidade.Trim();
-    }
-
-    public void Update(Cep cep, string logradouro, string numero, string bairro, string cidade)
-    {
-        ValidarTextos(logradouro, numero, bairro, cidade);
-
-        Cep = cep;
-        Logradouro = logradouro.Trim();
-        Numero = numero.Trim();
-        Bairro = bairro.Trim();
-        Cidade = cidade.Trim();
-    }
-
-    private void ValidarTextos(string logradouro, string numero, string bairro, string cidade)
-    {
-        // Validações de Logradouro
-        if (string.IsNullOrWhiteSpace(logradouro) || logradouro.Length < 3 || logradouro.Length > 150)
-        {
-            throw new ArgumentException("O logradouro deve conter entre 3 e 150 caracteres.");
-        }
-
-        // Validações de Número (Permite "S/N" ou números grandes)
-        if (string.IsNullOrWhiteSpace(numero) || numero.Length < 1 || numero.Length > 20)
-        {
-            throw new ArgumentException("O número deve conter entre 1 e 20 caracteres.");
-        }
-
-        // Validações de Bairro
-        if (string.IsNullOrWhiteSpace(bairro) || bairro.Length < 2 || bairro.Length > 100)
-        {
-            throw new ArgumentException("O bairro deve conter entre 2 e 100 caracteres.");
-        }
-
-        // Validações de Cidade
-        if (string.IsNullOrWhiteSpace(cidade) || cidade.Length < 2 || cidade.Length > 100)
-        {
-            throw new ArgumentException("A cidade deve conter entre 2 e 100 caracteres.");
-        }
-    }
-}
-```
-
-Para resolver a exigência de que o CEP **tem que referenciar alguma cidade**, isso deve ser orquestrado na camada de Serviço, antes da criação da Entidade `Endereco`.
-
-O fluxo técnico deve ocorrer na seguinte ordem:
-1. **Recepção:** O `UsuarioController/ClinicaController` recebe o DTO contendo os dados pessoais e os dados de endereço.
-2. **Delegação:** O Controller repassa essas informações unicamente para o `UsuarioService`.
-3. **Validação e Orquestração:** O `UsuarioService` percebe que precisa processar um endereço. É neste momento que ele aciona, internamente, as validações de CEP contidas em EndereçoService.
-
----
-
-### 2. Tipo exame/consulta direto na tabela
-
-No contexto de sistemas de saúde, os exames geralmente possuem macrocategorias muito bem estabelecidas e invariáveis (ex: Exames Laboratoriais, Exames de Imagem, Exames Cardiólógicos).
-
-Se a sua regra de negócio estipula que a classificação será em alto nível (macrocategorias genéricas), a implementação via **Enum** é altamente recomendada devido à baixa manutenção e alta performance de busca.
-
-Se a sua regra de negócio exige que o catálogo seja altamente granular e atualizado constantemente com novas nomenclaturas do mercado de saúde, a criação de uma Tabela é obrigatória.
-
-
----
-
-### 3. Armazenamento geolocalização
-
-- **O Paciente (Em Tempo Real):**  a localização do cliente não precisa (e não deve) ser gravada no banco de dados para a busca. Quando ele abre o aplicativo, o GPS do celular captura a coordenada atual dele. O Frontend envia essa coordenada no _Payload_ (corpo da requisição) da busca.
-    
-- **A Clínica (Estática no Banco):** A clínica não se move. A coordenada dela precisa estar gravada na tabela de `Enderecos` para que o PostGIS consiga indexá-la na árvore espacial. No entanto, o responsável pela clínica **não digitará** essa coordenada no momento do cadastro.
-
-Para ter a informação de forma automática e precisa, o seu sistema precisará utilizar um processo chamado **Geocodificação**. Trata-se da conversão de um endereço em formato de texto (Rua, Número, Cidade, Estado) em coordenadas geográficas (Latitude e Longitude).Existem serviços externos (APIs) dedicados exclusivamente a isso, como a _Google Maps Geocoding API_, _Mapbox_, ou o _Nominatim_ (OpenStreetMap, que é gratuito).
-
-1. **Entrada de Dados:** O administrador da clínica preenche apenas dados humanos no Frontend: CEP, Logradouro, Número, Bairro e Cidade.    
-2. **Validação Inicial:** O seu backend valida o CEP (como discutimos na regra do Value Object).
-3. **Chamada à API de Geocodificação:** O seu backend, silenciosamente, pega essa string formatada (Ex: _"Rua Epitácio Pessoa, 123, Centro, Quixadá, CE"_) e faz uma requisição HTTP para a API do Google Maps ou OpenStreetMap.
-4. **Resposta Precisa:** A API externa devolve um JSON contendo a Latitude e a Longitude exatas daquela porta.
-5. **Instanciação e Persistência:** Com os dados textuais e as coordenadas automáticas em mãos, o seu Serviço instancia a entidade `Endereco`, criando o objeto `Point` do NetTopologySuite, e salva no banco de dados.
-
-
-### 4. Por que manter o Ponto Geográfico na Entidade Endereço?
-
-Mesmo que a captura seja automática no backend, a propriedade `Localizacao` (o `Point` do PostGIS) deve continuar dentro da classe `Endereco`, e não na classe `Clinica`.
-
-A justificativa arquitetural para isso é a **Coesão**:
-
-- A coordenada geográfica é uma propriedade intrínseca de um local físico, não de um CNPJ ou de uma instituição de saúde.
-    
-- Se, no futuro, a clínica se mudar de prédio, o endereço inteiro será substituído. Ao atrelar a coordenada ao `Endereco`, você garante que a Latitude e Longitude antigas sejam descartadas junto com o nome da rua antiga, impedindo que o sistema fique com dados inconsistentes (uma rua nova apontando para a coordenada do prédio velho).
-    
-
-### Conclusão Técnica
-
-A sua visão de capturar automaticamente está corretíssima. A solução técnica não exige mudar a modelagem das entidades (que já está correta com o `Point` no `Endereco`), mas sim **enriquecer a camada de serviço** com uma integração de Geocodificação.
-
-Ao fazer isso, você garante a melhor precisão possível (fornecida por provedores de mapas globais) sem onerar o responsável pela clínica com tarefas técnicas no momento do cadastro.
-
-```
 namespace AcessoClin.Models;
 
 using AcessoClin.Domain.ValueObjects;
@@ -184,10 +104,8 @@ public class Endereco
     // Propriedade espacial nativa para o PostGIS
     public Point Localizacao { get; private set; }
 
-    // Construtor exigido pelo Entity Framework
     private Endereco() { }
 
-    // Construtor rico: Recebe os textos do usuário + as coordenadas da API
     public Endereco(Cep cep, string logradouro, string numero, string bairro, string cidade, double longitude, double latitude)
     {
         ValidarTextos(logradouro, numero, bairro, cidade);
@@ -219,3 +137,31 @@ public class Endereco
 }
 ```
 
+---
+
+## 4. Fluxo de Validação de Interface (Frontend)
+
+A integridade dos dados espaciais e textuais começa com um controle rigoroso na interface de usuário, focando na padronização via Correios (ViaCEP).
+
+### 4.1. UX e Liberação Progressiva de Campos
+
+A implementação no frontend deve adotar o modelo de bloqueio e preenchimento automático:
+
+1. Inicialmente, apenas o campo **CEP** fica habilitado para digitação. Os demais campos textuais permanecem bloqueados ou ocultos.
+    
+2. Após a digitação dos 8 dígitos, o Frontend realiza uma requisição HTTP `GET` para o ViaCEP.
+    
+3. O Frontend preenche Logradouro, Bairro, Cidade e Estado com a resposta da API.
+    
+4. O campo **Número** (e Complemento) é habilitado para que o usuário finalize o cadastro.
+    
+### 4.2. Exceção de Municípios de CEP Único
+
+Cidades do interior frequentemente utilizam um CEP único para todo o município. Nestes casos, o retorno do ViaCEP trará Cidade e Estado, mas Logradouro e Bairro estarão vazios.
+
+- **Ação do Frontend:** A interface deve identificar o logradouro nulo no JSON e, **exclusivamente nestes casos**, desbloquear os campos de Logradouro e Bairro para digitação manual pelo usuário.
+    
+
+### 4.3. A Regra de Dupla Validação
+
+É imperativo destacar que o tratamento e o preenchimento automático no Frontend destinam-se exclusivamente à facilidade de uso (UX) e limpeza primária dos dados. **Esta camada não substitui as validações do Backend.** O Backend continuará executando a verificação do Value Object (`Cep`), os Guard Clauses da entidade e acionando a Geocodificação de forma independente.
