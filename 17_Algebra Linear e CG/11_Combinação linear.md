@@ -2,10 +2,8 @@
 #Concluded 
 
 ---
-
 Se temos os vetores $v_1, v_2, \dots, v_n$ e os escalares $a_1, a_2, \dots, a_n$, a combinação linear é escrita assim:
 $$v = a_1 v_1 + a_2 v_2 + \dots + a_n v_n$$
-
 >[!note]
 >Vamos pegar dois vetores no $\mathbb{R}^3$ (espaço 3D):
 >- $v_1 = (1, 0, 0)$ -> Uma instrução para andar apenas no eixo $x$.
