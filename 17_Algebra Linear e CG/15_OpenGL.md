@@ -19,3 +19,7 @@ Dentro do bloco de renderização, a ordem dos comandos é fundamental para que 
 O OpenGL utiliza a ordem de definição dos vértices para distinguir a face frontal da traseira.
 - **Sentido Anti-Horário**: Padrão para faces frontais. Ao olhar para a face, os vértices devem girar no sentido contrário ao relógio.
 
+---
+glTranslatef(3.0f, 2.0f, 0.0f);
+glRotatef(-45.0f, 0.0f, 0.0f, 1.0f);
+glScalef(-1.0f, 1.0f, 1.0f);
