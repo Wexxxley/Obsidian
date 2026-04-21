@@ -41,8 +41,9 @@ A escala altera o tamanho do objeto. Ela multiplica cada componente do vetor por
 ---
 ### **3. Rotação**
 
-A rotação em 3D é mais complexa que em 2D porque você precisa definir um **eixo de rotação**. As matrizes mudam dependendo de qual eixo o objeto gira:
+No espaço bidimensional, a rotação ocorre inteiramente dentro de um único plano (o plano $xy$) e sempre em torno de um único ponto (normalmente a origem). Devido a essa restrição geométrica, existe apenas uma matriz de rotação fundamental.
 
+Rotação no eixo Z
 ![250](../attachments/Pasted%20image%2020260413080100.png)
 ![400](../attachments/Pasted%20image%2020260409194026.png) 
 ![500](../attachments/20260409_155417254.jpg)
