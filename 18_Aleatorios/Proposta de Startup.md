@@ -22,12 +22,6 @@ Podemos focar inicialmente no nicho acadêmico:
 O lucro principal seria por uma taxa cobrado em cima do pagamento do dono do pet ao cuidador. 
 
 Mas e se simplesmente o pagamento for feito por fora do app?
-- O sistema só permite que o cuidador receba uma nota e um comentário se a transação for concluída dentro da plataforma. Ter um perfil com "15 cuidados realizados" e nota máxima diferencia o cuidador de um estranho qualquer. Se ele aceita por fora, o perfil dele fica estagnado e ele perde novos clientes.
-- Para evitar que o aluno prefira o PIX direto, o aplicativo deve ser rápido e organizado.  O app já deve calcular o valor total com base nos dias e no porte do pet, gerando o QR Code de pagamento na hora.
-- O tutor paga ao app; o app retém o valor; após o tutor confirmar que buscou o pet e está tudo bem, o sistema libera o saldo (já com a taxa descontada) para o cuidador.
-
-
-Uma estratégia técnica para evitar o desvio de dinheiro antes do match é ocultar dados de contato.
-
+- O sistema só permite que o cuidador receba uma nota e um comentário se a transação for concluída dentro da plataforma (Uma avaliação pelo tutor é obrigatório). Ter um perfil com "15 cuidados realizados" e nota máxima diferencia o cuidador de um estranho qualquer. Se ele aceita por fora, o perfil dele fica estagnado.- 
 - O tutor publica a vaga (ex: "Preciso de cuidador para um gato de sexta a domingo"). Os cuidadores interessados dão lance com uma proposta ou aceitam.
-- O número de telefone ou o chat direto só é liberado após o tutor selecionar o cuidador e realizar o pagamento via plataforma. Se o contato for liberado antes, o incentivo para sair do app é alto.
+- O número de telefone ou o chat direto só é liberado após o tutor selecionar o cuidador e realizar o pagamento via plataforma. O tutor paga ao app; o app retém o valor; após o tutor confirmar que buscou o pet e está tudo bem, o sistema libera o saldo (já com a taxa descontada) para o cuidador.
