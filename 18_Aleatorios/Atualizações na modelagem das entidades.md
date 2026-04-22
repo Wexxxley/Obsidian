@@ -266,13 +266,9 @@ public async Task<IEnumerable<Clinica>> BuscarClinicasPorRaioAsync(double longit
 - **ST_DWithin:** É uma função nativa do banco de dados que executa o cálculo de distância. O seu principal diferencial é a capacidade de identificar automaticamente a existência do Índice GIST. Em vez de ler toda a tabela, a função cruza os dados do índice espacial para descartar localizações distantes antes de aplicar a matemática, operando com complexidade assintótica algorítmica logarítmica, o que garante tempo de resposta na ordem dos milissegundos mesmo com milhões de registros.
 
 
-### Abordagem 2: Arquitetura Simplificada (Latitude e Longitude Primitivas)
-
+### Abordagem 2: Arquitetura Simplificada (Latitude e Longitude)
 Se o banco de dados possuísse apenas duas colunas numéricas padrão (`Latitude` do tipo `double` e `Longitude` do tipo `double`), o Entity Framework Core não possuiria um método nativo como o `IsWithinDistance` para calcular a curvatura da Terra no LINQ.
-
 Para executar esse filtro diretamente no banco de dados (evitando carregar todos os registros para a memória do C#), a aplicação precisaria injetar instruções em SQL bruto utilizando a **Fórmula de Haversine**.
-
-
 ```c#
 using Microsoft.EntityFrameworkCore;
 
@@ -299,5 +295,4 @@ public async Task<IEnumerable<Clinica>> BuscarClinicasPorRaioSimplificadoAsync(d
     return clinicasNoRaio;
 }
 ```
-
 - **Full Table Scan (Varredura Completa):** O problema central desta abordagem é a impossibilidade de indexação. Como as colunas contêm apenas números primitivos isolados, o PostgreSQL é forçado a realizar a operação matemática complexa de Haversine linha por linha em toda a tabela de `Enderecos` antes de poder avaliar a cláusula `WHERE` (se é menor ou igual ao raio). Este processo consome elevados ciclos de CPU e a performance degrada proporcionalmente ao crescimento do volume de dados cadastrados.
