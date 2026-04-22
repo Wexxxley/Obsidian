@@ -165,3 +165,139 @@ Cidades do interior frequentemente utilizam um CEP único para todo o município
 ### 4.3. A Regra de Dupla Validação
 
 É imperativo destacar que o tratamento e o preenchimento automático no Frontend destinam-se exclusivamente à facilidade de uso (UX) e limpeza primária dos dados. **Esta camada não substitui as validações do Backend.** O Backend continuará executando a verificação do Value Object (`Cep`), os Guard Clauses da entidade e acionando a Geocodificação de forma independente.
+
+
+---
+
+Para modelar a entidade `Endereco` utilizando o Entity Framework Core com suporte a geolocalização via PostGIS, é necessário integrar a biblioteca **NetTopologySuite (NTS)**. Esta biblioteca é o padrão da indústria para manipulação de dados geométricos e geográficos no ecossistema .NET.
+
+Para que o provedor do PostgreSQL reconheça tipos espaciais, você deve instalar o seguinte pacote NuGet no seu projeto de infraestrutura:
+- `Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite`
+
+Nesta modelagem, a latitude e a longitude são encapsuladas na propriedade `Localizacao`. Observe o uso de modificadores de acesso privados para garantir o encapsulamento, conforme os princípios do Domain-Driven Design.
+
+
+```c#
+using NetTopologySuite.Geometries;
+using AcessoClin.Domain.ValueObjects;
+
+namespace AcessoClin.Models
+{
+    public class Endereco
+    {
+        public int Id { get; private set; }
+        public Cep Cep { get; private set; }
+        public string Logradouro { get; private set; }
+        public string Numero { get; private set; }
+        public string Bairro { get; private set; }
+        public string Cidade { get; private set; }
+
+        /// <summary>
+        /// Representa o ponto geográfico (Longitude e Latitude).
+        /// O tipo Point provém do NetTopologySuite.
+        /// </summary>
+        public Point Localizacao { get; private set; }
+
+        // Construtor exigido pelo Entity Framework
+        private Endereco()
+        {
+        }
+
+        public Endereco(Cep cep, string logradouro, string numero, string bairro, string cidade, double longitude, double latitude)
+        {
+            ValidarTextos(logradouro, numero, bairro, cidade);
+
+            Cep = cep;
+            Logradouro = logradouro.Trim();
+            Numero = numero.Trim();
+            Bairro = bairro.Trim();
+            Cidade = cidade.Trim();
+
+            // Instancia o ponto geográfico definindo o SRID para 4326 (WGS 84)
+            // Ordem dos parâmetros: Longitude (X), Latitude (Y)
+            Localizacao = new Point(longitude, latitude) { SRID = 4326 };
+        }
+
+        private void ValidarTextos(string logradouro, string numero, string bairro, string cidade)
+        {
+            if (string.IsNullOrWhiteSpace(logradouro))
+                throw new ArgumentException("O logradouro é obrigatório.");
+
+            if (string.IsNullOrWhiteSpace(numero))
+                throw new ArgumentException("O número é obrigatório.");
+
+            if (string.IsNullOrWhiteSpace(bairro))
+                throw new ArgumentException("O bairro é obrigatório.");
+
+            if (string.IsNullOrWhiteSpace(cidade))
+                throw new ArgumentException("A cidade é obrigatória.");
+        }
+    }
+}
+```
+
+A implementação de filtros por raio geográfico varia drasticamente em complexidade e performance dependendo da arquitetura escolhida. A execução desse cálculo exige a compreensão de que a Terra é um esferoide, o que invalida cálculos matemáticos de distância plana (como o Teorema de Pitágoras) para aplicações de geolocalização precisas.
+
+### Abordagem 1: Arquitetura Otimizada (PostGIS e NetTopologySuite)
+
+```c#
+using Microsoft.EntityFrameworkCore;
+using NetTopologySuite.Geometries;
+
+public async Task<IEnumerable<Clinica>> BuscarClinicasPorRaioAsync(double longitudeUsuario, double latitudeUsuario, double raioEmQuilometros)
+{
+    // 1. Conversão do raio para metros (unidade base do PostGIS para SRID 4326)
+    double raioEmMetros = raioEmQuilometros * 1000;
+
+    // 2. Instanciação do ponto geográfico do usuário
+    var pontoUsuario = new Point(longitudeUsuario, latitudeUsuario) { SRID = 4326 };
+
+    // 3. Consulta utilizando o método espacial IsWithinDistance
+    var clinicasNoRaio = await _context.Clinicas
+        .Include(c => c.Endereco)
+        .Where(c => c.Endereco.Localizacao.IsWithinDistance(pontoUsuario, raioEmMetros))
+        .ToListAsync();
+
+    return clinicasNoRaio;
+}
+```
+
+- **IsWithinDistance:** Este método do NetTopologySuite não é executado na memória do servidor C#. O Entity Framework Core o traduz diretamente para a função `ST_DWithin` do PostGIS.    
+- **ST_DWithin:** É uma função nativa do banco de dados que executa o cálculo de distância. O seu principal diferencial é a capacidade de identificar automaticamente a existência do Índice GIST. Em vez de ler toda a tabela, a função cruza os dados do índice espacial para descartar localizações distantes antes de aplicar a matemática, operando com complexidade assintótica algorítmica logarítmica, o que garante tempo de resposta na ordem dos milissegundos mesmo com milhões de registros.
+
+
+### Abordagem 2: Arquitetura Simplificada (Latitude e Longitude Primitivas)
+
+Se o banco de dados possuísse apenas duas colunas numéricas padrão (`Latitude` do tipo `double` e `Longitude` do tipo `double`), o Entity Framework Core não possuiria um método nativo como o `IsWithinDistance` para calcular a curvatura da Terra no LINQ.
+
+Para executar esse filtro diretamente no banco de dados (evitando carregar todos os registros para a memória do C#), a aplicação precisaria injetar instruções em SQL bruto utilizando a **Fórmula de Haversine**.
+
+
+```c#
+using Microsoft.EntityFrameworkCore;
+
+public async Task<IEnumerable<Clinica>> BuscarClinicasPorRaioSimplificadoAsync(double longitudeUsuario, double latitudeUsuario, double raioEmQuilometros)
+{
+    // A consulta em SQL Bruto implementa a Fórmula de Haversine (cálculo de distância esférica)
+    // O valor 6371 representa o raio médio da Terra em quilômetros.
+    string sql = $@"
+        SELECT c.* FROM clinicas c
+        INNER JOIN enderecos e ON c.IdEnd = e.Id
+        WHERE (
+            6371 * acos(
+                cos(radians({latitudeUsuario})) * cos(radians(e.Latitude)) * cos(radians(e.Longitude) - radians({longitudeUsuario})) + 
+                sin(radians({latitudeUsuario})) * sin(radians(e.Latitude))
+            )
+        ) <= {raioEmQuilometros}";
+
+    // Execução da consulta através do Entity Framework Core
+    var clinicasNoRaio = await _context.Clinicas
+        .FromSqlRaw(sql)
+        .Include(c => c.Endereco)
+        .ToListAsync();
+
+    return clinicasNoRaio;
+}
+```
+
+- **Full Table Scan (Varredura Completa):** O problema central desta abordagem é a impossibilidade de indexação. Como as colunas contêm apenas números primitivos isolados, o PostgreSQL é forçado a realizar a operação matemática complexa de Haversine linha por linha em toda a tabela de `Enderecos` antes de poder avaliar a cláusula `WHERE` (se é menor ou igual ao raio). Este processo consome elevados ciclos de CPU e a performance degrada proporcionalmente ao crescimento do volume de dados cadastrados.

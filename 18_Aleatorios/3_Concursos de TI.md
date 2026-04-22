@@ -31,12 +31,3 @@ Praticamente todos os editais se baseiam nestes pilares, mas a proporção entre
 - O maior erro é começar pelas matérias básicas (Português, Direito). Você deve **começar pelos Conhecimentos Específicos**. Somente após fechar o conteúdo de TI, você deve migrar para as básicas, pois estas variam muito de um órgão para outro.
 
 - **Priorização por Peso:** Dentro da TI, você deve identificar qual dos quatro eixos temáticos é o mais cobrado nos concursos que você escolheu.
-    
-- **A Tarefa de Casa:** Para aplicar o método, ele sugere:
-    
-    1. Selecionar **5 concursos** da área de TI que você pretende fazer (focando em editais que ainda vão sair).
-        
-    2. Montar uma **planilha de análise**, colocando as matérias de cada edital lado a lado.
-        
-    3. Identificar as semelhanças: foque nos 3 concursos que forem mais parecidos entre si.
-    
