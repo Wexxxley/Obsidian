@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "18_Aleatorios/Atualizações na modelagem das entidades.md",
+                "file": "18_Aleatorios/Proposta de Startup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Atualizações na modelagem das entidades"
+              "title": "Proposta de Startup"
             }
           }
         ],
@@ -150,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 287.01103591918945
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -255,6 +255,8 @@
   },
   "active": "bf7635515d25b501",
   "lastOpenFiles": [
+    "18_Aleatorios/Atualizações na modelagem das entidades.md",
+    "18_Aleatorios/Proposta de Startup.md",
     "18_Aleatorios/AcessoClin - wireframe.md",
     "18_Aleatorios/1_Blocos obsidian.md",
     "18_Aleatorios/2_Técnica simples de estudo.md",
@@ -263,7 +265,6 @@
     "18_Aleatorios/Anota Smart - Milestones.md",
     "18_Aleatorios/Anota Smart - Requisitos.md",
     "18_Aleatorios/Anota Smart - Wireframe.md",
-    "18_Aleatorios/Atualizações na modelagem das entidades.md",
     "18_Aleatorios/Erros e sugestões.md",
     "18_Aleatorios/FácilClin - Escopo.md",
     "18_Aleatorios/INPI, RPI.md",
@@ -280,7 +281,6 @@
     "17_Algebra Linear e CG/8_Matriz adjunta, inversa e ortonormal.md",
     "17_Algebra Linear e CG/7_Método de Jacobi.md",
     "17_Algebra Linear e CG/6_Determinante.md",
-    "17_Algebra Linear e CG/5_Método de Gauss e forma escalonada.md",
     "attachments/logosVariações.png",
     "attachments/FreeSample-Vectorizer-io-logosVariações.svg",
     "attachments/Pasted image 20260413181154.png",
