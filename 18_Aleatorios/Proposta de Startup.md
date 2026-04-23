@@ -35,3 +35,8 @@ Mas e se simplesmente o pagamento for feito por fora do app?
 - Relatório de estadia com fotos e checklists. De forma bonita visualmente para postar em redes sociais.
 
 - **Avaliações Restritas:** O algoritmo de busca de marketplaces sempre prioriza quem tem mais avaliações positivas e transações concluídas. Se o prestador realiza o serviço por fora, ele não ganha a avaliação daquele cliente. Em médio prazo, seu perfil cai no ranking de buscas do aplicativo, fazendo com que ele perca o acesso a novos clientes desconhecidos. A taxa paga à plataforma atua como um investimento contínuo em publicidade para manter o perfil no topo.
+
+
+- **Acúmulo de Créditos:** A cada estadia paga via aplicativo, o cliente acumula pontos ou _cashback_ que podem ser usados na próxima transação. Se ele fechar o negócio diretamente com o cuidador na segunda vez, ele perde o direito de usar aquele saldo acumulado.
+
+- **Níveis de Especialização:** Cuidadores que mantêm o histórico no aplicativo podem subir de nível (ex: "Cuidador Prata", "Cuidador Ouro"). Perder esse status ao realizar vendas por fora significa perder a capacidade de cobrar preços mais altos no futuro para novos clientes que buscam segurança.
