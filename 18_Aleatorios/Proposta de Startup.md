@@ -33,12 +33,13 @@ O lucro principal seria por uma taxa cobrado em cima do pagamento ao cuidador. M
 - O número de telefone ou o chat direto só é liberado após o tutor selecionar o cuidador e realizar o pagamento via plataforma. 
 - O valor pago pelo cliente é retido pela plataforma e só é repassado ao prestador de serviço após a conclusão da estadia. Isso elimina o risco de calote para o prestador e garante o direito de reembolso imediato para o cliente em caso de cancelamento.    
 - **Parcelamento:** Um cuidador informal não tem como oferecer parcelamento em 3x no cartão de crédito sem maquininha, o que força o cliente a usar o aplicativo.
-- Relatório de estadia com fotos e checklists. De formboa nita visualmente para postar em redes sociais.
-- **Acúmulo de Créditos:** A cada estadia paga via aplicativo, o cliente acumula pontos ou _cashback_ que podem ser usados na próxima transação. Se ele fechar o negócio diretamente com o cuidador na segunda vez, ele perde o direito de usar aquele saldo acumulado.
+- Relatório de estadia com fotos e checklists. De form atrativa visualmente para postar em redes sociais. Para que o usuário sinta o desejo de publicar esse relatório, o documento deve ser gerado automaticamente pelo aplicativo contendo um forte apelo visual e informacional. O sistema deve agrupar os dados coletados durante a hospedagem em um formato único:    
+	- **Métricas Qualitativas e Selos:** Inserção de conquistas automatizadas pelo sistema ao fim da estadia, como "Pet Sociável", "Dorminhoco".
+	- **Mídia Integrada:** A melhor fotografia registrada pelo cuidador durante a estadia, posicionada no centro do layout estruturado.
+	- **Rastreabilidade e Conversão:** O documento visual deve conter a marca d'água do seu aplicativo e o perfil do cuidador
+	- **A Motivação do Tutor:** O incentivo reside na validação social. Donos de animais possuem a tendência de registrar e expor seus pets, e o card automatizado fornece uma forma estruturada e profissional de realizar essa exposição, atestando que eles proveem um cuidado de excelência para o animal.
+	- **A Motivação do Cuidador:** O incentivo é estritamente comercial. Quando o tutor posta o relatório contendo o nome e o perfil do prestador de serviço, o cuidador recebe exposição gratuita.
 
-Assinatura Anual para o Cuidador 
-- **Isenção de Comissão (Take Rate Zero):** O principal atrativo. O cuidador paga a anuidade e passa a reter 100% do valor dos seus lances. A plataforma deixa de descontar a comissão (exemplo: 15%) sobre cada serviço prestado.
-    
-- **Acesso a Ferramentas de Gestão:** Liberação de funcionalidades restritas do sistema, como a geração automatizada de relatórios diários com checklists e fotos em alta qualidade, além de painéis de controle financeiro das estadias.
-    
-- **Destaque no Catálogo (SEO Interno):** Os assinantes recebem o selo de perfil verificado e o algoritmo do sistema os posiciona nas primeiras colocações do fluxo de "Busca Ativa", aumentando substancialmente o volume de propostas diretas recebidas.
+Assinatura Anual para o Cuidador: 
+- **Isenção de Comissão:** O cuidador paga a anuidade e passa a reter 100% do valor dos seus lances. A plataforma deixa de descontar a comissão.    
+- **Destaque no Catálogo:** Os assinantes recebem o selo de perfil verificado e o algoritmo do sistema os posiciona nas primeiras colocações do fluxo de "Busca Ativa", aumentando substancialmente o volume de propostas diretas recebidas.
