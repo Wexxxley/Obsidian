@@ -25,3 +25,13 @@ Mas e se simplesmente o pagamento for feito por fora do app?
 - O sistema só permite que o cuidador receba uma nota e um comentário se a transação for concluída dentro da plataforma (Uma avaliação pelo tutor é obrigatório). Ter um perfil com "15 cuidados realizados" e nota máxima diferencia o cuidador de um estranho qualquer. Se ele aceita por fora, o perfil dele fica estagnado.- 
 - O tutor publica a vaga (ex: "Preciso de cuidador para um gato de sexta a domingo"). Os cuidadores interessados dão lance com uma proposta ou aceitam.
 - O número de telefone ou o chat direto só é liberado após o tutor selecionar o cuidador e realizar o pagamento via plataforma. O tutor paga ao app; o app retém o valor; após o tutor confirmar que buscou o pet e está tudo bem, o sistema libera o saldo (já com a taxa descontada) para o cuidador.
+
+
+
+- **Escrow:** O valor pago pelo cliente é retido pela plataforma e só é repassado ao prestador de serviço após a conclusão da estadia. Isso elimina o risco de calote para o prestador e garante o direito de reembolso imediato para o cliente em caso de cancelamento.
+    
+- **Parcelamento:** Startups de serviço frequentemente permitem que o cliente pague serviços mais caros em parcelas no cartão de crédito, enquanto o prestador recebe o valor integral (descontada a taxa). Um cuidador informal não tem como oferecer parcelamento em 3x no cartão de crédito sem maquininha, o que força o cliente a usar o aplicativo.
+
+- Relatório de estadia com fotos e checklists. De forma bonita visualmente para postar em redes sociais.
+
+- **Avaliações Restritas:** O algoritmo de busca de marketplaces sempre prioriza quem tem mais avaliações positivas e transações concluídas. Se o prestador realiza o serviço por fora, ele não ganha a avaliação daquele cliente. Em médio prazo, seu perfil cai no ranking de buscas do aplicativo, fazendo com que ele perca o acesso a novos clientes desconhecidos. A taxa paga à plataforma atua como um investimento contínuo em publicidade para manter o perfil no topo.
