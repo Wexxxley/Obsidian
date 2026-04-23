@@ -23,3 +23,19 @@ O OpenGL utiliza a ordem de definição dos vértices para distinguir a face fro
 glTranslatef(3.0f, 2.0f, 0.0f);
 glRotatef(-45.0f, 0.0f, 0.0f, 1.0f);
 glScalef(-1.0f, 1.0f, 1.0f);
+
+---
+
+A função `gluLookAt` é uma das mais importantes. Ela recebe 9 parâmetros, divididos em três blocos de vetores $(x, y, z)$:
+
+1. **Eye:** Onde a câmera está fisicamente.
+2. **Alvo:** Para onde a lente está apontando.
+3. **Vetor para Cima:** Indica qual direção é "para cima" no mundo,
+
+```
+gluLookAt(
+    0.0, 0.0, 5.0,  // Posição da Câmera (Eye)
+    0.0, 0.0, 0.0,  // Ponto para onde olha (Center - Origem)
+    0.0, 1.0, 0.0   // Vetor Up apontando para o Y positivo
+);
+```
