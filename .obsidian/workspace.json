@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08_Git and github/07_Branches.md",
+                "file": "17_Algebra Linear e CG/16_Questões.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07_Branches"
+              "title": "16_Questões"
             }
           }
         ],
@@ -256,6 +256,7 @@
   "active": "bf7635515d25b501",
   "lastOpenFiles": [
     "17_Algebra Linear e CG/15_OpenGL.md",
+    "08_Git and github/07_Branches.md",
     "17_Algebra Linear e CG/9_Vetores.md",
     "17_Algebra Linear e CG/14_Transformações.md",
     "17_Algebra Linear e CG/13_Base e Mudança de base.md",
@@ -280,7 +281,6 @@
     "17_Algebra Linear e CG/16_Questões.md",
     "17_Algebra Linear e CG/11_Combinação linear.md",
     "17_Algebra Linear e CG/8_Matriz adjunta, inversa e ortonormal.md",
-    "17_Algebra Linear e CG/7_Método de Jacobi.md",
     "attachments/logosVariações.png",
     "attachments/FreeSample-Vectorizer-io-logosVariações.svg",
     "attachments/Pasted image 20260413181154.png",
