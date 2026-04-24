@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Algebra Linear e CG/5_Método de Gauss e forma escalonada.md",
+                "file": "17_Algebra Linear e CG/15_Questões.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Método de Gauss e forma escalonada"
+              "title": "15_Questões"
             }
           }
         ],
@@ -255,24 +255,24 @@
   },
   "active": "bf7635515d25b501",
   "lastOpenFiles": [
-    "17_Algebra Linear e CG/11_Combinação linear.md",
-    "17_Algebra Linear e CG/8_Espaço vetorial e subespaço vetorial.md",
-    "17_Algebra Linear e CG/7_Vetores.md",
-    "17_Algebra Linear e CG/6_Matriz adjunta, inversa e ortonormal.md",
+    "17_Algebra Linear e CG/14_OpenGL.md",
+    "17_Algebra Linear e CG/13_Transformações.md",
+    "17_Algebra Linear e CG/12_Base e Mudança de base.md",
+    "17_Algebra Linear e CG/11_Linearmente dependente e linearmente independente.md",
+    "17_Algebra Linear e CG/10_Combinação linear.md",
+    "17_Algebra Linear e CG/9_Espaço vetorial e subespaço vetorial.md",
+    "17_Algebra Linear e CG/8_Vetores.md",
+    "17_Algebra Linear e CG/1_Matriz introdução.md",
+    "17_Algebra Linear e CG/4_Forma escada, Posto e nulidade.md",
+    "17_Algebra Linear e CG/15_Questões.md",
+    "17_Algebra Linear e CG/7_Matriz adjunta, inversa e ortonormal.md",
+    "17_Algebra Linear e CG/6_Método de Gauss e forma escalonada.md",
     "17_Algebra Linear e CG/5_Determinante.md",
     "17_Algebra Linear e CG/7_Método de Jacobi.md",
-    "17_Algebra Linear e CG/5_Método de Gauss e forma escalonada.md",
-    "17_Algebra Linear e CG/4_Forma escada, Posto e nulidade.md",
     "17_Algebra Linear e CG/3_Sistemas de equações lineares e operações elementares.md",
     "17_Algebra Linear e CG/2_Operações com matrizes.md",
-    "17_Algebra Linear e CG/1_Matriz introdução.md",
-    "17_Algebra Linear e CG/14_Transformações.md",
     "18_Aleatorios/Proposta de Startup.md",
-    "17_Algebra Linear e CG/16_Questões.md",
-    "17_Algebra Linear e CG/15_OpenGL.md",
     "08_Git and github/07_Branches.md",
-    "17_Algebra Linear e CG/13_Base e Mudança de base.md",
-    "17_Algebra Linear e CG/12_Linearmente dependente e linearmente independente.md",
     "18_Aleatorios/Atualizações na modelagem das entidades.md",
     "18_Aleatorios/AcessoClin - wireframe.md",
     "18_Aleatorios/1_Blocos obsidian.md",
