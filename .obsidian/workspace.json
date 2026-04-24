@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Algebra Linear e CG/15_Questões.md",
+                "file": "16_Mobile/2_Jetpack Compose/1_Layout/1_Jetpack compose.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "15_Questões"
+              "title": "1_Jetpack compose"
             }
           }
         ],
@@ -255,6 +255,10 @@
   },
   "active": "bf7635515d25b501",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260424133858.png",
+    "16_Mobile/1_Kotlin/2_Kotlin POO.md",
+    "16_Mobile/1_Kotlin/1_Kotlin Introdução.md",
+    "17_Algebra Linear e CG/15_Questões.md",
     "17_Algebra Linear e CG/14_OpenGL.md",
     "17_Algebra Linear e CG/13_Transformações.md",
     "17_Algebra Linear e CG/12_Base e Mudança de base.md",
@@ -264,7 +268,6 @@
     "17_Algebra Linear e CG/8_Vetores.md",
     "17_Algebra Linear e CG/1_Matriz introdução.md",
     "17_Algebra Linear e CG/4_Forma escada, Posto e nulidade.md",
-    "17_Algebra Linear e CG/15_Questões.md",
     "17_Algebra Linear e CG/7_Matriz adjunta, inversa e ortonormal.md",
     "17_Algebra Linear e CG/6_Método de Gauss e forma escalonada.md",
     "17_Algebra Linear e CG/5_Determinante.md",
@@ -278,9 +281,6 @@
     "18_Aleatorios/1_Blocos obsidian.md",
     "18_Aleatorios/2_Técnica simples de estudo.md",
     "18_Aleatorios/3_Concursos de TI.md",
-    "18_Aleatorios/AcessoClin - Requisitos.md",
-    "18_Aleatorios/Anota Smart - Milestones.md",
-    "18_Aleatorios/Anota Smart - Requisitos.md",
     "attachments/logosVariações.png",
     "attachments/FreeSample-Vectorizer-io-logosVariações.svg",
     "attachments/Pasted image 20260413181154.png",
