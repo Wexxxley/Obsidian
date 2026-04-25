@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Mobile/2_Jetpack Compose/1_Layout/5_CheckBox and RadioButtons.md",
+                "file": "16_Mobile/2_Jetpack Compose/1_Introdução/10_Transformando estados em UI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_CheckBox and RadioButtons"
+              "title": "10_Transformando estados em UI"
             }
           }
         ],
@@ -255,12 +255,18 @@
   },
   "active": "bf7635515d25b501",
   "lastOpenFiles": [
-    "16_Mobile/2_Jetpack Compose/1_Layout/6_Switch e Dropdown menu.md",
-    "16_Mobile/2_Jetpack Compose/1_Layout/4_Button and TextFild.md",
-    "16_Mobile/2_Jetpack Compose/1_Layout/5_CheckBox and RadioButtons.md",
-    "16_Mobile/2_Jetpack Compose/1_Layout/3_Scaffold.md",
-    "16_Mobile/2_Jetpack Compose/1_Layout/2_Layout básico.md",
-    "16_Mobile/2_Jetpack Compose/1_Layout/1_Estrutura básica e Modifier.md",
+    "16_Mobile/2_Jetpack Compose/2_Navegação e estados/1_Navegação.md",
+    "16_Mobile/2_Jetpack Compose/2_Navegação e estados/2_Lazy column e Card.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/10_Transformando estados em UI.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/9_Gerenciamento de estados.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/8_Toast and snackbar.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/7_Image.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/6_Switch e Dropdown menu.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/5_CheckBox and RadioButtons.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/4_Button and TextFild.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/3_Scaffold.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/2_Layout básico.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/1_Estrutura básica e Modifier.md",
     "18_Aleatorios/Anota Smart - Milestones.md",
     "18_Aleatorios/Proposta de Startup.md",
     "attachments/Pasted image 20260424133858.png",
@@ -276,12 +282,6 @@
     "17_Algebra Linear e CG/8_Vetores.md",
     "17_Algebra Linear e CG/1_Matriz introdução.md",
     "17_Algebra Linear e CG/4_Forma escada, Posto e nulidade.md",
-    "17_Algebra Linear e CG/7_Matriz adjunta, inversa e ortonormal.md",
-    "17_Algebra Linear e CG/6_Método de Gauss e forma escalonada.md",
-    "17_Algebra Linear e CG/5_Determinante.md",
-    "17_Algebra Linear e CG/7_Método de Jacobi.md",
-    "17_Algebra Linear e CG/3_Sistemas de equações lineares e operações elementares.md",
-    "17_Algebra Linear e CG/2_Operações com matrizes.md",
     "attachments/logosVariações.png",
     "attachments/FreeSample-Vectorizer-io-logosVariações.svg",
     "attachments/Pasted image 20260413181154.png",
@@ -297,7 +297,7 @@
     "01_Roadmap/1_Junior/1_Como funciona um computador/ResumoEmAudio.m4a",
     "16_Mobile/2_Jetpack Compose/3_Armazenamento",
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados",
-    "16_Mobile/2_Jetpack Compose/1_Layout",
+    "16_Mobile/2_Jetpack Compose/1_Introdução",
     "Untitled",
     "16_Mobile/2_Jetpack Compose",
     "16_Mobile/2_Imperativo",

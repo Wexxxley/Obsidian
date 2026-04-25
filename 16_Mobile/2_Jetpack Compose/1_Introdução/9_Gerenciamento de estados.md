@@ -6,12 +6,10 @@
 
 A recomposição é o processo de reexecução de uma função Composable. Ocorre sempre que um estado observado por uma função muda. Quando o estado varia, a função é chamada novamente para atualizar os elementos visuais e refletir o valor atual.
 
-Variáveis locais comuns dentro de um Composable são recriadas a cada recomposição. Para que um valor persista entre essas execuções, utiliza-se a função **remember**, que armazena o objeto na memória durante a composição inicial e o mantém nas recomposições subsequentes.
-
 ---
 #### **2. Composable Stateful e stateless**
 
-Um componente é considerado Stateful quando ele possui e gerencia seu próprio estado interno. É útil em casos onde outros componentes não precisam acessar ou modificar esse dado específico.
+Um componente é considerado Stateful quando ele possui e gerencia seu próprio estado interno. 
 
 Um componente é Stateless quando ele não mantém nenhum estado interno. Em vez de gerenciar variáveis, ele recebe seu estado atual por meio de parâmetros e comunica mudanças através de eventos para quem o chamou.
 
@@ -65,14 +63,10 @@ O sistema Android pode destruir uma Activity e reiniciar o processo por dois mot
 
 Sem os mecanismos de salvamento, campos de texto seriam limpos e a posição de listas seria reiniciada, gerando uma experiência negativa para o usuário.
 - O **remember** mantém o estado apenas durante a recomposição.
-- O **rememberSaveable** mantém o estado durante recomposição, rotação e morte do processo. Ele utiliza internamente um mecanismo chamado **Bundle**.
+- O **rememberSaveable** mantém o estado durante recomposição, rotação e morte do processo. Ele utiliza internamente um mecanismo chamado **Bundle**. O **Bundle** salva somente tipos primitivos.    
 
-O **Bundle** salva tipos primitivos. Para objetos complexos, é necessário usar:
-- **@Parcelize:** Para transformar objetos em parceláveis.
-- **mapSaver ou listSaver:** APIs para converter objetos em formatos que o Bundle aceite.      
 **Boas Práticas e Limitações**:
 - Recomenda-se salvar apenas o estado essencial relacionado à entrada do usuário (texto digitado) e navegação (posição de rolagem).
-- O **Bundle** possui um tamanho limitado. Armazenar objetos grandes ou listas complexas pode causar exceção.
 - Para dados pesados, a boa prática é salvar apenas IDs ou chaves simples no **rememberSaveable** e recarregar os dados complexos da camada de persistência.
 
 ```kotlin
