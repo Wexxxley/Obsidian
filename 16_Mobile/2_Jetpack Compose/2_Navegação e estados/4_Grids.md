@@ -48,3 +48,100 @@ fun ExemploGradeHorizontal() {
     }
 }
 ```
+
+Os componentes LazyVerticalStaggeredGrid e LazyHorizontalStaggeredGrid são utilizados quando os itens da lista possuem dimensões dinâmicas.
+
+- **`StaggeredGridCells.Fixed(count: Int)`:** Define um número estático de colunas 
+- **`StaggeredGridCells.Adaptive(minSize: Dp)`:** Define uma dimensão mínima, permitindo que o sistema calcule a quantidade de partições.
+
+```kotlin
+@Composable
+fun ExemploGradeVerticalDesalinhada() {
+    LazyVerticalStaggeredGrid(
+        // Define exatamente 2 colunas
+        columns = StaggeredGridCells.Fixed(2),
+        
+        contentPadding = PaddingValues(16.dp),
+        
+        // Define o espaçamento horizontal entre as colunas
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+        
+        verticalItemSpacing = 8.dp,
+        
+        modifier = Modifier.fillMaxSize()
+    ) {
+        items(20) { index ->
+            val alturaDinamica = if (index % 2 == 0) 250.dp else 150.dp
+            
+            CaixaDesalinhada(
+                texto = "Item $index",
+                altura = alturaDinamica,
+                largura = Dp.Unspecified 
+            )
+        }
+    }
+}
+```
+
+### LazyHorizontalStaggeredGrid
+
+Esta estrutura inverte a lógica anterior. O layout rola horizontalmente, o número de linhas horizontais é definido no parâmetro, e cada item possui uma largura variável.
+
+**Exemplo de Implementação:**
+
+Kotlin
+
+```
+import androidx.compose.foundation.lazy.staggeredgrid.LazyHorizontalStaggeredGrid
+import androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridCells
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+
+@Composable
+fun ExemploGradeHorizontalDesalinhada() {
+    LazyHorizontalStaggeredGrid(
+        // Define que cada linha terá pelo menos 100dp de altura
+        rows = StaggeredGridCells.Adaptive(minSize = 100.dp),
+        
+        contentPadding = PaddingValues(16.dp),
+        horizontalItemSpacing = 8.dp, // Espaçamento entre os itens na mesma linha
+        verticalArrangement = Arrangement.spacedBy(8.dp), // Espaçamento entre as linhas
+        
+        modifier = Modifier.height(350.dp).fillMaxWidth()
+    ) {
+        items(20) { index ->
+            // Simulamos larguras diferentes
+            val larguraDinamica = if (index % 3 == 0) 200.dp else 120.dp
+            
+            CaixaDesalinhada(
+                texto = "H-Item $index",
+                altura = Dp.Unspecified, // Altura controlada pela linha adaptativa
+                largura = larguraDinamica
+            )
+        }
+    }
+}
+```
+
+**Componente auxiliar utilizado nos exemplos:**
+
+Kotlin
+
+```
+@Composable
+fun CaixaDesalinhada(texto: String, altura: Dp, largura: Dp) {
+    // Um Modifier condicional para aplicar altura ou largura apenas quando fornecidas
+    var modifier = Modifier.background(Color.DarkGray)
+    
+    if (altura != Dp.Unspecified) modifier = modifier.height(altura)
+    if (largura != Dp.Unspecified) modifier = modifier.width(largura)
+
+    Box(
+        contentAlignment = Alignment.Center,
+        modifier = modifier
+    ) {
+        Text(text = texto, color = Color.White)
+    }
+}
+```
