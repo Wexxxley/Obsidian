@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Mobile/2_Jetpack Compose/1_Introdução/10_Transformando estados em UI.md",
+                "file": "16_Mobile/2_Jetpack Compose/2_Navegação e estados/4_Grids.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10_Transformando estados em UI"
+              "title": "4_Grids"
             }
           }
         ],
@@ -255,9 +255,13 @@
   },
   "active": "bf7635515d25b501",
   "lastOpenFiles": [
-    "16_Mobile/2_Jetpack Compose/2_Navegação e estados/1_Navegação.md",
+    "attachments/Pasted image 20260425154906.png",
+    "16_Mobile/2_Jetpack Compose/2_Navegação e estados/5_Modal Navigation Drawer.md",
+    "16_Mobile/2_Jetpack Compose/2_Navegação e estados/4_Grids.md",
+    "16_Mobile/2_Jetpack Compose/2_Navegação e estados/3_Lazy row e Lazy grid.md",
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados/2_Lazy column e Card.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/10_Transformando estados em UI.md",
+    "16_Mobile/2_Jetpack Compose/2_Navegação e estados/1_Navegação.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/9_Gerenciamento de estados.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/8_Toast and snackbar.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/7_Image.md",
@@ -278,10 +282,6 @@
     "17_Algebra Linear e CG/12_Base e Mudança de base.md",
     "17_Algebra Linear e CG/11_Linearmente dependente e linearmente independente.md",
     "17_Algebra Linear e CG/10_Combinação linear.md",
-    "17_Algebra Linear e CG/9_Espaço vetorial e subespaço vetorial.md",
-    "17_Algebra Linear e CG/8_Vetores.md",
-    "17_Algebra Linear e CG/1_Matriz introdução.md",
-    "17_Algebra Linear e CG/4_Forma escada, Posto e nulidade.md",
     "attachments/logosVariações.png",
     "attachments/FreeSample-Vectorizer-io-logosVariações.svg",
     "attachments/Pasted image 20260413181154.png",
