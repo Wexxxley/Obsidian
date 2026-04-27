@@ -7,7 +7,7 @@
 
 ### **1. Lazy Colum** 
 
-A LazyColumn é um componente de lista vertical que utiliza um algoritmo de virtualização para renderizar apenas os itens visíveis na tela. Diferente de uma coluna comum, ela não carrega todos os dados na memória de uma vez. À medida que o usuário realiza o scroll, os itens que saem da área de visão são descartados e os novos são compostos em tempo real. Isso otimiza o uso de CPU e RAM, permitindo a exibição de milhares de registros sem comprometer a fluidez da interface.
+A LazyColumn é um componente de lista que utiliza um algoritmo para renderizar apenas os itens visíveis na tela. Diferente de uma coluna comum, ela não carrega todos os dados na memória de uma vez. À medida que o usuário realiza o scroll, os itens que saem da área de visão são descartados e os novos são compostos em tempo real.
 
 **Exemplo**
 ![250](../../../attachments/lazyc.gif)
@@ -27,9 +27,7 @@ A LazyColumn é um componente de lista vertical que utiliza um algoritmo de virt
 ---
 ### **2. Card**
 
-Ele delimita um espaço na interface para um conjunto de componentes (imagem, texto e botão), tratando-os como uma unidade lógica.
-
-Ao definir onClick o Card deixa de ser apenas um elemento visual e passa a se comportar como um Surface Clicável. Ele gerencia internamente o efeito ondulação e o feedback visual de toque.
+Ele delimita um espaço na interface para um conjunto de componentes (imagem, texto e botão), tratando-os como uma unidade lógica. Ao definir onClick o Card deixa de ser apenas um elemento visual e passa a se comportar como um Surface Clicável. Ele gerencia internamente o efeito ondulação e o feedback visual de toque.
 
 ![](../../../attachments/Pasted%20image%2020260323074934.png)
  **elevation**: Define a posição do componente no eixo Z. O sistema calcula a difusão da sombra com base no valor de densidade de pixels para simular profundidade.
