@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Mobile/2_Jetpack Compose/1_Introdução/10_Dialog e progress indicator.md",
+                "file": "16_Mobile/2_Jetpack Compose/1_Introdução/12_Transformando estados em UI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10_Dialog e progress indicator"
+              "title": "12_Transformando estados em UI"
             }
           }
         ]
@@ -198,20 +198,21 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "16_Mobile/2_Jetpack Compose/1_Introdução/11_Ciclo d vida Activity.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/10_Dialog e progress indicator.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/10_Evitando multiplas recomposições.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/12_Transformando estados em UI.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/9_Gerenciamento de estados.md",
     "attachments/Pasted image 20260428145527.png",
     "attachments/Pasted image 20260428145253.png",
     "attachments/Pasted image 20260428144224.png",
     "attachments/Pasted image 20260428143232.png",
-    "16_Mobile/2_Jetpack Compose/1_Introdução/12_Ciclo d vida Activity.md",
     "attachments/Pasted image 20260428140844.png",
-    "16_Mobile/2_Jetpack Compose/1_Introdução/11_Transformando estados em UI.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/4_Button and TextFild.md",
     "16_Mobile/1_Kotlin/2_Kotlin POO.md",
     "16_Mobile/1_Kotlin/1_Kotlin Introdução.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/3_Scaffold.md",
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados/1_Navegação.md",
-    "16_Mobile/2_Jetpack Compose/1_Introdução/10_Dialog e progress indicator.md",
     "attachments/Pasted image 20260428085833.png",
     "attachments/Pasted image 20260428085802.png",
     "attachments/Peek 2026-04-28 08-52.gif",
