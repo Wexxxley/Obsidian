@@ -11,10 +11,14 @@
             "id": "a962a3cbb87f714b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "16_Mobile/2_Jetpack Compose/1_Introdução/11_Transformando estados em UI.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "11_Transformando estados em UI"
             }
           }
         ]
@@ -192,8 +196,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c52f17c64e87cbf",
+  "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "16_Mobile/2_Jetpack Compose/1_Introdução/4_Button and TextFild.md",
+    "16_Mobile/1_Kotlin/2_Kotlin POO.md",
+    "16_Mobile/1_Kotlin/1_Kotlin Introdução.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/3_Scaffold.md",
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados/1_Navegação.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/10_Dialog e progress indicator.md",
     "attachments/Pasted image 20260428085833.png",
@@ -215,15 +223,11 @@
     "16_Mobile/2_Jetpack Compose/1_Introdução/9_Gerenciamento de estados.md",
     "06_Pyhon/FastAPI/2_Validação.md",
     "attachments/Pasted image 20260425154906.png",
-    "16_Mobile/2_Jetpack Compose/1_Introdução/4_Button and TextFild.md",
-    "16_Mobile/2_Jetpack Compose/1_Introdução/3_Scaffold.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/2_Layout básico.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/1_Estrutura básica e Modifier.md",
     "18_Aleatorios/Anota Smart - Milestones.md",
     "18_Aleatorios/Proposta de Startup.md",
     "attachments/Pasted image 20260424133858.png",
-    "16_Mobile/1_Kotlin/2_Kotlin POO.md",
-    "16_Mobile/1_Kotlin/1_Kotlin Introdução.md",
     "attachments/logosVariações.png",
     "attachments/FreeSample-Vectorizer-io-logosVariações.svg",
     "attachments/Pasted image 20260413181154.png",
