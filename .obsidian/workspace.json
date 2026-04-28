@@ -4,81 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "9fc7e66f526c7a08",
+        "id": "a88b195e38d29cf0",
         "type": "tabs",
         "children": [
           {
-            "id": "419397d50d48cc1f",
+            "id": "a962a3cbb87f714b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "16_Mobile/2_Jetpack Compose/2_Navegação e estados/1_Navegação.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1_Navegação"
-            }
-          },
-          {
-            "id": "546e9d48bc87c289",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10_POO/SOLID/3_Open Close Principle (OCP).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3_Open Close Principle (OCP)"
-            }
-          },
-          {
-            "id": "9b0568b1b753d70e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "16_Mobile/2_Jetpack Compose/1_Layout/9_Gerenciamento de estados.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "9_Gerenciamento de estados"
-            }
-          },
-          {
-            "id": "cdad6f00f1a49f0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "18_Aleatorios/Video transnordestina.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Video transnordestina"
-            }
-          },
-          {
-            "id": "bf7635515d25b501",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "16_Mobile/2_Jetpack Compose/1_Introdução/10_Dialog e progress indicator.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "10_Dialog e progress indicator"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -253,10 +192,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf7635515d25b501",
+  "active": "0c52f17c64e87cbf",
   "lastOpenFiles": [
-    "16_Mobile/2_Jetpack Compose/1_Introdução/11_Transformando estados em UI.md",
+    "16_Mobile/2_Jetpack Compose/2_Navegação e estados/1_Navegação.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/10_Dialog e progress indicator.md",
+    "attachments/Pasted image 20260428085833.png",
+    "attachments/Pasted image 20260428085802.png",
+    "attachments/Peek 2026-04-28 08-52.gif",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/11_Transformando estados em UI.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/5_CheckBox and RadioButtons.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/6_Switch e Dropdown menu.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/7_Image.md",
@@ -269,7 +212,6 @@
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados/6_Exemplo todo list.md",
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados/3_Lazy row e Lazy grid.md",
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados/2_Lazy column e Card.md",
-    "16_Mobile/2_Jetpack Compose/2_Navegação e estados/1_Navegação.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/9_Gerenciamento de estados.md",
     "06_Pyhon/FastAPI/2_Validação.md",
     "attachments/Pasted image 20260425154906.png",
@@ -282,15 +224,11 @@
     "attachments/Pasted image 20260424133858.png",
     "16_Mobile/1_Kotlin/2_Kotlin POO.md",
     "16_Mobile/1_Kotlin/1_Kotlin Introdução.md",
-    "17_Algebra Linear e CG/15_Questões.md",
     "attachments/logosVariações.png",
     "attachments/FreeSample-Vectorizer-io-logosVariações.svg",
     "attachments/Pasted image 20260413181154.png",
     "attachments/Pasted image 20260413181129.png",
     "attachments/Pasted image 20260413080437.png",
-    "attachments/Pasted image 20260413080236.png",
-    "attachments/Pasted image 20260413080146.png",
-    "attachments/Pasted image 20260413080100.png",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
