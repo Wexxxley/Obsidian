@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Mobile/2_Jetpack Compose/1_Introdução/12_Transformando estados em UI.md",
+                "file": "16_Mobile/2_Jetpack Compose/1_Introdução/4_Button and TextFild.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12_Transformando estados em UI"
+              "title": "4_Button and TextFild"
             }
           }
         ]
@@ -198,20 +198,22 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "16_Mobile/2_Jetpack Compose/1_Introdução/3_Scaffold.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/4_Button and TextFild.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/2_Row e column.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/1_Estrutura básica e Modifier.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/12_Transformando estados em UI.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/11_Ciclo d vida Activity.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/10_Dialog e progress indicator.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/10_Evitando multiplas recomposições.md",
-    "16_Mobile/2_Jetpack Compose/1_Introdução/12_Transformando estados em UI.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/9_Gerenciamento de estados.md",
     "attachments/Pasted image 20260428145527.png",
     "attachments/Pasted image 20260428145253.png",
     "attachments/Pasted image 20260428144224.png",
     "attachments/Pasted image 20260428143232.png",
     "attachments/Pasted image 20260428140844.png",
-    "16_Mobile/2_Jetpack Compose/1_Introdução/4_Button and TextFild.md",
     "16_Mobile/1_Kotlin/2_Kotlin POO.md",
     "16_Mobile/1_Kotlin/1_Kotlin Introdução.md",
-    "16_Mobile/2_Jetpack Compose/1_Introdução/3_Scaffold.md",
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados/1_Navegação.md",
     "attachments/Pasted image 20260428085833.png",
     "attachments/Pasted image 20260428085802.png",
@@ -230,8 +232,6 @@
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados/2_Lazy column e Card.md",
     "06_Pyhon/FastAPI/2_Validação.md",
     "attachments/Pasted image 20260425154906.png",
-    "16_Mobile/2_Jetpack Compose/1_Introdução/2_Layout básico.md",
-    "16_Mobile/2_Jetpack Compose/1_Introdução/1_Estrutura básica e Modifier.md",
     "18_Aleatorios/Anota Smart - Milestones.md",
     "attachments/Pasted image 20260424133858.png",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",

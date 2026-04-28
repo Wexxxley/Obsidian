@@ -14,7 +14,6 @@ Passos do algoritmo:
 1. Medir largura e altura dos filhos se houver.
 2. Com base nisso, um nó decide o próprio tamanho.
 3. Posicionar filhos em relação ao pai.
-
 ![300](../../../attachments/Pasted%20image%2020260324070053.png)
 #### **3. Drawing**
 A árvore é percorrida novamente, mas dessa vez, como os elementos estão posicionados basta ir aplicando os design de cada nó.
