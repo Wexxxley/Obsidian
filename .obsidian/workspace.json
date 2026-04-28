@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Mobile/2_Jetpack Compose/1_Introdução/11_Transformando estados em UI.md",
-                "mode": "preview",
+                "file": "16_Mobile/2_Jetpack Compose/1_Introdução/9_Gerenciamento de estados.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11_Transformando estados em UI"
+              "title": "9_Gerenciamento de estados"
             }
           }
         ]
@@ -198,6 +198,11 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260428143232.png",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/12_Ciclo d vida Activity.md",
+    "attachments/Pasted image 20260428140844.png",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/9_Gerenciamento de estados.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/11_Transformando estados em UI.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/4_Button and TextFild.md",
     "16_Mobile/1_Kotlin/2_Kotlin POO.md",
     "16_Mobile/1_Kotlin/1_Kotlin Introdução.md",
@@ -207,7 +212,6 @@
     "attachments/Pasted image 20260428085833.png",
     "attachments/Pasted image 20260428085802.png",
     "attachments/Peek 2026-04-28 08-52.gif",
-    "16_Mobile/2_Jetpack Compose/1_Introdução/11_Transformando estados em UI.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/5_CheckBox and RadioButtons.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/6_Switch e Dropdown menu.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/7_Image.md",
@@ -220,19 +224,16 @@
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados/6_Exemplo todo list.md",
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados/3_Lazy row e Lazy grid.md",
     "16_Mobile/2_Jetpack Compose/2_Navegação e estados/2_Lazy column e Card.md",
-    "16_Mobile/2_Jetpack Compose/1_Introdução/9_Gerenciamento de estados.md",
     "06_Pyhon/FastAPI/2_Validação.md",
     "attachments/Pasted image 20260425154906.png",
     "16_Mobile/2_Jetpack Compose/1_Introdução/2_Layout básico.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/1_Estrutura básica e Modifier.md",
     "18_Aleatorios/Anota Smart - Milestones.md",
-    "18_Aleatorios/Proposta de Startup.md",
     "attachments/Pasted image 20260424133858.png",
     "attachments/logosVariações.png",
     "attachments/FreeSample-Vectorizer-io-logosVariações.svg",
     "attachments/Pasted image 20260413181154.png",
     "attachments/Pasted image 20260413181129.png",
-    "attachments/Pasted image 20260413080437.png",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
