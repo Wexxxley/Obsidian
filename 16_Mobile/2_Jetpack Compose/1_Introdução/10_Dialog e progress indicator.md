@@ -2,7 +2,7 @@
 #Concluded 
 
 ---
-**Dialog**: É uma janela flutuante que é renderizada sobreposta ao conteúdo principal do aplicativo.
+**Dialog**: É uma janela flutuante que é renderizada sobreposta ao conteúdo principal.
 - **Renderização Condicional:** a instanciação é controlada por uma instrução if. Quando a variável de estado se torna verdadeira, o bloco de código é alcançado e o Dialog é adicionado à árvore de renderização.
 - **onDismissRequest:** É um parâmetro obrigatório que atua como um callback. O sistema operacional o invoca quando detecta que o usuário deseja fechar o diálogo (geralmente tocando fora da área visível.
 - **DialogProperties:** Uma classe que permite configurar o comportamento da janela do diálogo junto ao sistema operacional.

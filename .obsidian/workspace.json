@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Mobile/2_Jetpack Compose/1_Introdução/5_CheckBox and RadioButtons.md",
-                "mode": "source",
+                "file": "16_Mobile/2_Jetpack Compose/1_Introdução/10_Dialog e progress indicator.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_CheckBox and RadioButtons"
+              "title": "10_Dialog e progress indicator"
             }
           }
         ]
@@ -198,6 +198,11 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "16_Mobile/2_Jetpack Compose/1_Introdução/9_Gerenciamento de estados.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/8_Toast and snackbar.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/7_Image.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/6_Switch e Dropdown menu.md",
+    "16_Mobile/2_Jetpack Compose/1_Introdução/5_CheckBox and RadioButtons.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/4_Button and TextFild.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/3_Scaffold.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/2_Row e column.md",
@@ -206,7 +211,6 @@
     "16_Mobile/2_Jetpack Compose/1_Introdução/11_Ciclo d vida Activity.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/10_Dialog e progress indicator.md",
     "16_Mobile/2_Jetpack Compose/1_Introdução/10_Evitando multiplas recomposições.md",
-    "16_Mobile/2_Jetpack Compose/1_Introdução/9_Gerenciamento de estados.md",
     "attachments/Pasted image 20260428145527.png",
     "attachments/Pasted image 20260428145253.png",
     "attachments/Pasted image 20260428144224.png",
@@ -218,10 +222,6 @@
     "attachments/Pasted image 20260428085833.png",
     "attachments/Pasted image 20260428085802.png",
     "attachments/Peek 2026-04-28 08-52.gif",
-    "16_Mobile/2_Jetpack Compose/1_Introdução/5_CheckBox and RadioButtons.md",
-    "16_Mobile/2_Jetpack Compose/1_Introdução/6_Switch e Dropdown menu.md",
-    "16_Mobile/2_Jetpack Compose/1_Introdução/7_Image.md",
-    "16_Mobile/2_Jetpack Compose/1_Introdução/8_Toast and snackbar.md",
     "17_Algebra Linear e CG/3_Sistemas de equações lineares e operações elementares.md",
     "17_Algebra Linear e CG/2_Operações com matrizes.md",
     "17_Algebra Linear e CG/4_Forma escada, Posto e nulidade.md",
