@@ -7,61 +7,31 @@
 - **Renderização Condicional:** a instanciação é controlada por uma instrução if. Quando a variável de estado se torna verdadeira, o bloco de código é alcançado e o Dialog é adicionado à árvore de renderização.
 - **onDismissRequest:** É um parâmetro obrigatório que atua como um callback. O sistema operacional o invoca quando detecta que o usuário deseja fechar o diálogo (geralmente tocando fora da área visível.
 - **DialogProperties:** Uma classe que permite configurar o comportamento da janela do diálogo junto ao sistema operacional.
-- SurDialog nativo não possui cor de fundo, bordas arredondadas ou sombra.
+- **Surface**: Dialog nativo não possui cor de fundo, bordas arredondadas ou sombra. O componente Surface é utilizado para materializar a interface gráfica. Ele aplica a cor de fundo padrão.
 
-- **Estruturação Visual:** O componente `Surface` é utilizado imediatamente dentro do `Dialog` para materializar a interface gráfica. Ele aplica a cor de fundo padrão (`colorScheme.surface`), define o arredondamento dos cantos (`shapes.medium`) e projeta uma sombra (`tonalElevation`) para destacar a janela flutuante do conteúdo de fundo escurecido.
+**ProgressIndicator**: Existem fundamentalmente dois tipos de indicadores de progresso nativos: o formato circular e o formato linear. Cada um deles pode operar em dois modos distintos: determinado e indeterminado.
 
-**O Componente CircularProgressIndicator**
-
-Este componente é a implementação oficial do Material Design para exibir o status de uma operação.
-
-- **Progresso Indeterminado:** No exemplo fornecido, o `CircularProgressIndicator` é invocado sem parâmetros. Isso instrui o Compose a utilizar o modo "indeterminado", resultando em uma animação circular contínua. Este formato é utilizado quando o sistema não consegue calcular o tempo exato ou a porcentagem exata de conclusão da tarefa (como aguardar a resposta de uma API externa).
-    
-- **Progresso Determinado:** Caso a sua operação permita medição (como o download de um arquivo onde você conhece o tamanho total), o componente aceita um parâmetro chamado `progress` (um valor `Float` entre `0.0f` e `1.0f`). A passagem deste parâmetro converte o componente para o modo determinado, onde o círculo é preenchido proporcionalmente ao valor informado.
-    
-
-Existem fundamentalmente dois tipos de indicadores de progresso nativos no framework Material Design para Jetpack Compose: o formato circular e o formato linear. Cada um deles pode operar em dois modos distintos: determinado e indeterminado.
-
-Abaixo, apresento a implementação de um código que renderiza uma janela de diálogo contendo todas as quatro variações simultaneamente, seguido de sua explicação formal.
-
-### Exemplo de Código com Múltiplos Indicadores
-
-Kotlin
-
-```
-import androidx.compose.foundation.layout.*
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
-import androidx.compose.ui.window.Dialog
-import androidx.compose.ui.window.DialogProperties
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
-
+```kotlin
 @Composable
 fun TelaMultiplosIndicadores() {
     var exibindoDialog by remember { mutableStateOf(false) }
-    // Variável para armazenar o valor exato do progresso (de 0.0f a 1.0f)
     var progressoAtual by remember { mutableStateOf(0.0f) }
     val escopoCorrotina = rememberCoroutineScope()
 
     Column(
         modifier = Modifier.fillMaxSize(),
-        verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Button(
             onClick = {
                 exibindoDialog = true
                 progressoAtual = 0.0f
-                
-                // Corrotina para simular o avanço gradual do progresso
+            
+                // Corrotina para simular o avanço do progresso
                 escopoCorrotina.launch {
                     while (progressoAtual < 1.0f) {
-                        delay(100) // Pausa de 100 milissegundos
-                        progressoAtual += 0.05f // Incrementa 5%
+                        delay(100) 
+                        progressoAtual += 0.05f
                     }
                     delay(500) // Aguarda meio segundo ao concluir
                     exibindoDialog = false // Fecha o diálogo
