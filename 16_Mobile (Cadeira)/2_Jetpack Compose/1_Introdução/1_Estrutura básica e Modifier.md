@@ -51,21 +51,13 @@ Por exemplo, aplicar um padding e depois um background resultará em um fundo co
 - **`padding()`:** Aplica um recuo físico ao redor do limite atual do componente. 
 - **`offset(x: Dp, y: Dp)`:** Desloca o componente visualmente em relação à sua posição matemática original.  A nova posição pode sobrepor outros elementos.
 
-**Modificadores Visuais e de Desenho **
+**Modificadores Visuais e de Desenho**
 - **`background(color: Color, shape: Shape)`:** Pinta a área delimitada do componente com a cor especificada. O parâmetro `shape` permite que a pintura assuma contornos geométricos como `RoundedCornerShape` ou `CircleShape`.
-- **`border(width: Dp, color: Color, shape: Shape)`:** Desenha um traço ao longo dos limites geométricos do componente. Requer a especificação estrita da espessura física do traço e sua cor.
-    
-- **`clip(shape: Shape)`:** Restringe a área de renderização visual do componente base e de todos os seus filhos a um formato geométrico pré-definido. Pixels renderizados fora deste limite são matematicamente descartados do pipeline gráfico (clipping).
-    
-- **`alpha(alpha: Float)`:** Controla o canal de opacidade do componente, operando em um espectro de `0.0f` (totalmente transparente e invisível) a `1.0f` (totalmente opaco).
-    
+- **`border(width: Dp, color: Color, shape: Shape)`:** Desenha borda.
+- **`clip(shape: Shape)`:** Restringe a área de renderização visual do componente base e de todos os seus filhos a um formato geométrico pré-definido. 
+- **`alpha(alpha: Float)`:** Opacidade`0.0f` (transparente) a `1.0f` (totalmente opaco).
 
-### 4. Modificadores de Interatividade e Eventos
-
-Estes atributos registram interceptadores no barramento de eventos do sistema operacional, permitindo que a interface gráfica responda a estímulos físicos do dispositivo.
-
-- **`clickable { }`:** Habilita a detecção de eventos de toque (tap) na área delimitada pelo componente. Ao aplicar este modificador, o framework injeta automaticamente propriedades de acessibilidade e desenha o efeito visual nativo de ondulação (Ripple Effect) padrão do Material Design para confirmar o registro da interação.
-    
-- **`toggleable(value: Boolean, onValueChange: (Boolean) -> Unit)`:** Uma variação do modificador interativo projetada estritamente para componentes de estado binário (como Checkboxes ou Switches). Exige a injeção do estado atual e a função de delegação para mutação de estado.
-    
-- **`verticalScroll(state: ScrollState)` e `horizontalScroll()`:** Injetam a capacidade de deslocamento de viewport em contêineres estáticos estruturados (como `Column` ou `Row`), quando os filhos matemáticos excedem os limites físicos do dispositivo. Não são recomendados para coleções contendo um volume alto de dados (onde `LazyColumn` deve ser empregado).
+**Modificadores de Interatividade e Eventos**
+- **`clickable { onClick }`:** Habilita a detecção de eventos de toque (tap) na área delimitada.    
+- **`verticalScroll()` e `horizontalScroll()`:** Injetam a capacidade de deslocamento de viewport em contêineres estáticos. Não são recomendados para coleções contendo um volume alto de dados.
+- `selectable` Ele herda a capacidade de detecção de toque, mas impõe um contexto voltado para estados de escolha. Params: `selected: Boolean` e `onClick = {}`

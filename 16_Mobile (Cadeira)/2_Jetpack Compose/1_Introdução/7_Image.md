@@ -3,11 +3,10 @@
 
 ---
 Image no Compose é uma função que desenha um objeto do tipo `Painter`:
-- **Painter:** É uma abstração para algo que pode ser desenhado. Pode ser um `BitmapPainter` (.jpg, .png) ou um `VectorPainter` (para ícones .xml). 
+- **Painter:** É uma abstração para algo que pode ser desenhado: .jpg, .png, .xml. 
 - **ContentDescription:** Serve para descrever imagens para users com deficiência visual.
-- **Modifier:** Como em qualquer Composable.
 
-**Imagens de Bitmap (PNG, JPEG, WEBP)**: Usamos a função `painterResource` .
+**Imagens de Bitmap (PNG, JPEG, WEBP)**
 ```kotlin
 Image(
     painter = painterResource(id = R.drawable.minha_foto),
@@ -16,7 +15,7 @@ Image(
 )
 ```
 
-**Ícones Vetoriais**: O Android Studio fornece uma biblioteca de ícones `Icons.Default`
+**Ícones Vetoriais**
 ```kotlin
 Image(
     imageVector = Icons.Default.Favorite,
@@ -25,7 +24,7 @@ Image(
 )
 ```
 
-O parâmetro **contentScale** determina como a imagem deve se comportar quando o tamanho do arquivo é diferente do tamanho do container (Modifier.size).
+**contentScale** determina como a imagem deve se comportar quando o tamanho do arquivo é diferente do tamanho do container.
 - **Crop:** Corta a imagem para preencher todo o espaço.
 - **Fit:** Mantém a proporção mas pode deixar espaços vazios.
 - **FillBounds:** Estica a imagem para preencher o espaço, ignorando a proporção.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/1_Estrutura básica e Modifier.md",
-                "mode": "source",
+                "file": "16_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/11_Ciclo de vida Activity.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Estrutura básica e Modifier"
+              "title": "11_Ciclo de vida Activity"
             }
           }
         ]
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.0004348754883
+    "width": 311.0026054382324
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -198,10 +198,17 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
-    "16_Mobile (Cadeira)/1_Kotlin/2_Kotlin POO.md",
-    "16_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/1_Estrutura básica e Modifier.md",
+    "16_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/10_Dialog e progress indicator.md",
+    "16_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/9_Gerenciamento de estados.md",
+    "16_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/4_Button and TextFild.md",
+    "16_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/8_Toast and snackbar.md",
+    "16_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/7_Image.md",
+    "16_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/3_Scaffold.md",
     "16_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/6_Switch e Dropdown menu.md",
     "16_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/5_CheckBox and RadioButtons.md",
+    "16_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/2_Row e column.md",
+    "16_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/1_Estrutura básica e Modifier.md",
+    "16_Mobile (Cadeira)/1_Kotlin/2_Kotlin POO.md",
     "16_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/11_Ciclo de vida Activity.md",
     "14_Arquitetura de Computadores/1_Fundamentos.md",
     "15_IHC (Cadeira)/8_Prova.md",
@@ -217,13 +224,6 @@
     "07_FrontEnd/4_React/1_Fundamentos/5_useState.md",
     "07_FrontEnd/4_React/1_Fundamentos/4_Event handlers e props.md",
     "07_FrontEnd/4_React/1_Fundamentos/3_Component tree.md",
-    "07_FrontEnd/4_React/1_Fundamentos/2_Componente.md",
-    "07_FrontEnd/4_React/1_Fundamentos/1_Introdução.md",
-    "16_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/9_Gerenciamento de estados.md",
-    "16_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/7_Image.md",
-    "16_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/4_Grids.md",
-    "16_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/5_Modal Navigation Drawer.md",
-    "16_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/3_Lazy row e Lazy grid.md",
     "attachments/Pasted image 20260428145527.png",
     "attachments/Pasted image 20260428145253.png",
     "attachments/Pasted image 20260428144224.png",
