@@ -23,7 +23,7 @@ Para otimizar o desempenho, siga estas diretrizes de implementação:
     
 - **Recursos Visuais**: Podem ser iniciados no `onStart()` e liberados no `onStop()`. Isso é particularmente importante para suportar o modo **multi-janela**, onde sua Activity pode estar visível (no estado _Paused_), mas não ter o foco principal.
 
-![](../../../attachments/Pasted%20image%2020260428140844.png)
+![500](../../../attachments/Pasted%20image%2020260428140844.png)
 
 ![400](../../../attachments/Pasted%20image%2020260408135237.png)
 ![](../../../attachments/Pasted%20image%2020260408135349.png)
