@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08_Git and github/03_Fluxo inicial e commit.md",
+                "file": "16_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/1_Navegação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03_Fluxo inicial e commit"
+              "title": "1_Navegação"
             }
           }
         ]
@@ -198,10 +198,16 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260501102243.png",
+    "attachments/Pasted image 20260501100544.png",
+    "attachments/Pasted image 20260501100036.png",
+    "attachments/navigation.gif",
+    "attachments/Pasted image 20260501095550.png",
+    "attachments/Pasted image 20260501095500.png",
+    "08_Git and github/03_Fluxo inicial e commit.md",
     "08_Git and github/02_Configurações e .git.md",
     "08_Git and github/06_Git push e pull.md",
     "08_Git and github/04_Log e .gitignore.md",
-    "08_Git and github/03_Fluxo inicial e commit.md",
     "08_Git and github/05_Autenticação.md",
     "08_Git and github/01_Introdução.md",
     "16_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/12_Transformando estados em UI.md",
@@ -223,17 +229,11 @@
     "16_Mobile (Cadeira)/1_Kotlin/2_Kotlin POO.md",
     "14_Arquitetura de Computadores/1_Fundamentos.md",
     "15_IHC (Cadeira)/8_Prova.md",
-    "14_Arquitetura de Computadores/2_Mecanismos de conversão de linguagens.md",
     "attachments/Pasted image 20260428145527.png",
     "attachments/Pasted image 20260428145253.png",
     "attachments/Pasted image 20260428144224.png",
     "attachments/Pasted image 20260428143232.png",
     "attachments/Pasted image 20260428140844.png",
-    "attachments/Pasted image 20260428085833.png",
-    "attachments/Pasted image 20260428085802.png",
-    "attachments/Peek 2026-04-28 08-52.gif",
-    "attachments/Pasted image 20260425154906.png",
-    "attachments/Pasted image 20260424133858.png",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
