@@ -21,8 +21,9 @@ A função ScreenStructure é o "cérebro" da interface. Ela utiliza o padrão d
 - **drawerContent**: Aqui você define o que está dentro do menu. 
 - **onItemClick**:Quando você clica em um item do menu, três coisas acontecem:
     1. **navController.navigate**: O comando de mudança de tela é enviado.
-    2. **popUpTo / launchSingleTop**: Essas configurações evitam que o aplicativo crie uma pilha infinita de telas. Se o usuário clicar várias vezes em "Venda", o sistema não abrirá a mesma tela várias vezes.
-    3. **scope.launch { drawerState.close() }**: O menu não fecha sozinho por padrão. Você precisa instruí-lo a fechar animadamente.
+    2. **popUpTo**: Remove vértices intermediários durante a transição. Pense em um fluxo de Login: `Login` -> `Cadastro`. Quando o usuário finaliza o cadastro e vai para a `Home`, você não quer que ele consiga voltar para a tela de Cadastro
+    3. **launchSingleTop**: Este parâmetro evita duplicatas  de tela na árvore em caso de erro de logica ou duplo clique no topo da pilha
+    4. **scope.launch { drawerState.close() }**: O menu não fecha sozinho por padrão. Você precisa instruí-lo a fechar animadamente.
 
 ![500](../../../attachments/Pasted%20image%2020260501102243.png)
 **NavHost**:
@@ -36,10 +37,6 @@ A função ScreenStructure é o "cérebro" da interface. Ela utiliza o padrão d
 - **Registro de Destinos:** Cada função composable("rota") registra um vértice.
 - **Arestas** do grafo são operações de transição de estado. A aresta existe no momento da execução do comando `navController.navigate("rota")`.
 - **Propriedades da Aresta:** Você pode configurar propriedades na transição, como:
-    - **Animações:** `enterTransition` e `exitTransition`.
-    - **launchSingleTop**: Este parâmetro evita duplicatas  de tela na árvore em caso de erro de logica ou duplo clique no topo da pilha
-    - **popUpTo**: Remove vértices intermediários durante a transição. Pense em um fluxo de Login: `Login` -> `Cadastro`. Quando o usuário finaliza o cadastro e vai para a `Home`, você não quer que ele consiga voltar para a tela de `Cadastro` ou `Login`.
-
 
 
 **Injeção de dependência:** A MainPage não cria o controlador; ela o recebe da MainActivity. Isso permite que a tela dispare eventos de navegação sem precisar saber como o Grafo de Navegação foi construído. Ela apenas dá a ordem, e o `NavController` (que tem a visão global da pilha) a executa.
