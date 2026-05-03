@@ -4,23 +4,9 @@
 ---
 ### **1. Componente**
 
-Toda aplicação React é construída sobre **componentes**. O ponto de partida é o arquivo `src/App.jsx`. Para simplificar, é melhor fazer a substituição do conteúdo de `src/App.jsx` por uma versão minimalista:
-```jsx
-import * as React from 'react';
-
-const title = 'React';
-
-function App() {
-  return (
-    <div>
-      <h1>Hello {title}</h1>
-    </div>
-  );
-}
-
-export default App;
-```
-- O componente `App` é declarado como uma função JavaScript.  
+Toda aplicação React é construída sobre componentes. O ponto de partida é o arquivo `src/App.jsx`. 
+![](../../../attachments/Pasted%20image%2020260503125017.png)
+- O componente App é declarado como uma função JavaScript.  
 - O nome da função deve obrigatoriams dente começar com letra maiúscula. <mark style="background: #ADCCFFA6;">O React diferencia componentes personalizado e tags HTML nativas através dessa convenção</mark>.
 
 É possíve exportar o componente logo na definição
@@ -29,12 +15,11 @@ export default App;
 ---
 ### **2. JSX (JavaScript XML)**
 
-O retorno do componente não é HTML puro, mas sim **JSX (JavaScript XML)**. O JSX é uma extensão de sintaxe que <mark style="background: #ADCCFFA6;">permite misturar HTML e JavaScript. Para renderizar conteúdo dinâmico dentro do JSX</mark>, utiliza-se a sintaxe de chaves `{}`.
+O retorno do componente não é HTML puro, mas sim JSX. O JSX é uma extensão de sintaxe que <mark style="background: #ADCCFFA6;">permite misturar HTML e JavaScript. Para renderizar conteúdo dinâmico dentro do JSX</mark>, utiliza-se a sintaxe de chaves {}.
 
 Devido ao JSX ser transpilado para JavaScript, algumas palavras reservadas não podem ser usadas como atributos HTML nativos. 
-
 - **`className`:** Substitui o atributo `class` do HTML.
-- **`htmlFor`:** Substitui o atributo for usado em labels 
+- **`htmlFor`:** Substitui o atributo `for` usado em labels 
 
 **Transpilar**: <mark style="background: #ADCCFFA6;"> Processo de converter código-fonte de uma linguagem para outra  mantendo um nível de abstração similar.</mark> O processo de transpilação (feito pelo Vite) pega esse código JSX e o transforma em JavaScript padrão.
 
