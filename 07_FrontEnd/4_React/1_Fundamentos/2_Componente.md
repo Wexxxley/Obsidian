@@ -23,6 +23,9 @@ export default App;
 - O componente `App` é declarado como uma função JavaScript.  
 - O nome da função deve obrigatoriams dente começar com letra maiúscula. <mark style="background: #ADCCFFA6;">O React diferencia componentes personalizado e tags HTML nativas através dessa convenção</mark>.
 
+É possíve exportar o componente logo na definição
+![](../../../attachments/Pasted%20image%2020260503124855.png)
+
 ---
 ### **2. JSX (JavaScript XML)**
 

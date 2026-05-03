@@ -2,16 +2,7 @@
 #Concluded 
 
 ---
-### **1. Single-Page Applications (SPA)**
- 
-Em uma arquitetura tradicional (**Server-Side Rendering**), o navegador recebe um documento HTML pronto, onde a estrutura visual já está escrita. Em uma SPA com React, o processo é:
-
-1. O servidor envia um arquivo HTML quase vazio.
-
-2. O navegador baixa e executa o pacote JavaScript (seu código React). O React não "lê" o HTML; ele gera o HTML. O código JavaScript executa lógica para criar elementos DOM e injetá-los dinamicamente dentro da `div` raiz vazia.
-
----
-### **2. Inicialização do Projeto com Vite**
+### **1. Inicialização do Projeto com Vite**
 
 Para o desenvolvimento moderno em React, o ambiente requer: **Node.js e NPM**, necessários para gerenciar bibliotecas e dependências (pacotes Node). O NPM (Node Package Manager) permite a instalação via linha de comando.
 
@@ -32,7 +23,7 @@ npm run dev
 
 ![](../../../attachments/Pasted%20image%2020251123163549.png)
 
-- **index.htm:** Este é o arquivo que o navegador carrega primeiro. Ele contém uma tag `src="/src/main.jsx">`. Isso instrui o navegador a carregar o ponto de entrada js.
+- **index.htm:** Este é o arquivo que o navegador carrega primeiro. Ele contém uma tag src que instrui o navegador a carregar o ponto de entrada js.
 	![](../../../attachments/Pasted%20image%2020251123163711.png)
         
 - **src/main.jsx:** Arquivo é responsável por inicializar a árvore de componentes do React e anexá-la ao elemento root definido no HTML.
@@ -52,8 +43,6 @@ npm run dev
 O package.json define scripts que abstraem comandos complexos do Vite.
 
 - **npm run dev:** Inicia o servidor de desenvolvimento local. Ele suporta Hot Module Replacement.
-    
 - **npm run build:** Compila a aplicação para produção. Cria a pasta dist/ com arquivos HTML/CSS/JS prontos para deploy.
-    
 - **npm run preview:** Serve localmente os arquivos da pasta dist/ para testar como a aplicação se comportará em produção.
 

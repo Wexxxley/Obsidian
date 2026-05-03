@@ -23,6 +23,8 @@ Antes existiam somente duas tags de agrupamento, a **div** e a **span**. Com o h
 
 - **footer**: É usada para representar o rodapé de uma página da web ou de uma seção específica do documento. O rodapé normalmente contém informações de contato, links úteis, direitos autorais, créditos, etc.
 
+![](../../attachments/Pasted%20image%2020260503115655.png)
+
 ```html
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -50,23 +52,23 @@ Antes existiam somente duas tags de agrupamento, a **div** e a **span**. Com o h
             
             <article>
                 <h3>O Avanço da Inteligência Artificial</h3>
-                <p>A inteligência artificial tem transformado diversos setores da indústria global.</p>
+                <p>A IA tem transformado diversos setores</p>
                 
                 <figure>
-                    <img src="https://via.placeholder.com/300" alt="Representação de circuitos integrados">
-                    <figcaption>Figura 1: Ilustração de processamento de dados.</figcaption>
+                    <img src="https://via.placeholder.com/300">
+                    <figcaption>Figura 1: Ilustração.</figcaption>
                 </figure>
             </article>
 
             <article>
                 <h3>Novas Energias Renováveis</h3>
-                <p>Pesquisadores descobrem métodos mais eficientes para a captação de energia solar.</p>
+                <p>Pesquisadores descobrem métodos mais eficient.</p>
             </article>
         </section>
 
         <aside>
             <h4>Conteúdo Relacionado</h4>
-            <p>Confira também nossa newsletter semanal sobre inovações tecnológicas.</p>
+            <p>Confira também nossa newsletter semanal</p>
             <ul>
                 <li><a href="#">Link externo 1</a></li>
                 <li><a href="#">Link externo 2</a></li>
@@ -75,10 +77,9 @@ Antes existiam somente duas tags de agrupamento, a **div** e a **span**. Com o h
     </main>
 
     <footer>
-        <p>&copy; 2026 Portal de Tecnologia. Todos os direitos reservados.</p>
+        <p>&copy; 2026 Portal de Tecnologia. Todos os direitos.</p>
         <p>Contato: info@tecnologiaexemplo.com</p>
     </footer>
-
 </body>
 </html>
 ```

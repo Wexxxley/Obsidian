@@ -1,4 +1,5 @@
-Status: #Concluded 
+
+#Concluded 
 
 ---
 ### **1. Tipos primitivos**
@@ -77,9 +78,7 @@ null === undefined  // false
 ``let`` define uma variável que pode sofrer alteração. ``const`` cria uma constante, ou seja, o valor não pode ser alterado em tempo de execução.
 
 ![Pasted image 20250505142357](../../../attachments/Pasted%20image%2020250505142357.png)
-
 Note que foi usado crases para permitir a inclusão de variáveis no texto.
 
 ![Pasted image 20250505155217](../../../attachments/Pasted%20image%2020250505155217.png)
-
-O ``prompt`` recebe valores do terminal.
+O prompt recebe valores do terminal.
