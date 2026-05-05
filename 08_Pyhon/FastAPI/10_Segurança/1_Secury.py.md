@@ -2,7 +2,7 @@
 #Concluded 
 
 ---
-Estude primeiro: [Token JWT](../../../03_Redes%20de%20computadores/2_Camada%20Aplicação/11_Token%20JWT.md)
+Estude primeiro: [Token JWT](../../../02_Redes%20de%20computadores/2_Camada%20Aplicação/11_Token%20JWT.md)
 Usamos jwt no python com ``pip install pyjwt``
 
 ### **1. Funções de hash**

@@ -21,9 +21,7 @@ Esse é o codigo padrão quando você cria um novo projeto com jetpack component
 - **enableEdgeToEdge()**: Faz com que o conteúdo do app use toda a tela.
 - **setContent**: É aqui que você define o que está dentro do app
 - **TestesTheme**: Composable de estilo do projeto. Nome gerado automaticamente.
-
 **Componente**: Função criada para mostrar algo na tela:
-
 **Preview**: Renderiza o design ao lado do codigo.
 
 Versão com Scaffold e modifier
