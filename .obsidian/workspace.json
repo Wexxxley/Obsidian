@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/10_Dialog e progress indicator.md",
+                "file": "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/5_Modal Navigation Drawer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10_Dialog e progress indicator"
+              "title": "5_Modal Navigation Drawer"
             }
           }
         ]
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 294
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -198,6 +198,8 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/1_Navegação.md",
+    "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/10_Dialog e progress indicator.md",
     "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/11_Ciclo de vida Activity.md",
     "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/12_Transformando estados em UI.md",
     "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/2_Layouts.md",
@@ -205,7 +207,6 @@
     "attachments/mascarabox.gif",
     "attachments/Pasted image 20260506080654.png",
     "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/1_Estrutura básica e Modifier.md",
-    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/1_Navegação.md",
     "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/9_Gerenciamento de estados.md",
     "07_Mobile (Cadeira)/2_Jetpack Compose/3_Armazenamento/5_Usando a viewModel.md",
     "05_FrontEnd/4_React/1_Fundamentos/1_Introdução.md",
@@ -228,7 +229,6 @@
     "05_FrontEnd/3_JavaScript/1_Introdução/5_Callback and promisse.md",
     "05_FrontEnd/3_JavaScript/1_Introdução/4_Arrays.md",
     "05_FrontEnd/3_JavaScript/1_Introdução/3_Estruturas de programação.md",
-    "05_FrontEnd/3_JavaScript/1_Introdução/2_Tipos de dados e variável.md",
     "attachments/Pasted image 20260503120426.png",
     "attachments/Pasted image 20260503120005.png",
     "attachments/Pasted image 20260503115655.png",
