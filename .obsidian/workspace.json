@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/1_Navegação.md",
+                "file": "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/2_Layouts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Navegação"
+              "title": "2_Layouts"
             }
           }
         ]
@@ -198,9 +198,13 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260506081512.png",
+    "attachments/mascarabox.gif",
+    "attachments/Pasted image 20260506080654.png",
+    "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/1_Estrutura básica e Modifier.md",
+    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/1_Navegação.md",
     "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/11_Ciclo de vida Activity.md",
     "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/9_Gerenciamento de estados.md",
-    "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/1_Estrutura básica e Modifier.md",
     "07_Mobile (Cadeira)/2_Jetpack Compose/3_Armazenamento/5_Usando a viewModel.md",
     "05_FrontEnd/4_React/1_Fundamentos/1_Introdução.md",
     "07_Mobile (Cadeira)/Comparativo tecnologias Web a Android.md",
@@ -224,16 +228,12 @@
     "05_FrontEnd/3_JavaScript/1_Introdução/3_Estruturas de programação.md",
     "05_FrontEnd/3_JavaScript/1_Introdução/2_Tipos de dados e variável.md",
     "05_FrontEnd/3_JavaScript/1_Introdução/1_Introdução.md",
-    "05_FrontEnd/2_CSS/1_CSS introdução.md",
     "attachments/Pasted image 20260503120426.png",
     "attachments/Pasted image 20260503120005.png",
-    "05_FrontEnd/1_HTML/3_HTML Semântico.md",
     "attachments/Pasted image 20260503115655.png",
     "attachments/Pasted image 20260501102243.png",
     "attachments/Pasted image 20260501100544.png",
     "attachments/Pasted image 20260501100036.png",
-    "attachments/navigation.gif",
-    "attachments/Pasted image 20260501095550.png",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
