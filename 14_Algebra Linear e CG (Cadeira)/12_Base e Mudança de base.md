@@ -5,11 +5,44 @@
 ### **1. Base**
 
 Para um conjunto de vetores ser considerado uma base de um espaço $V$, ele precisa obrigatoriamente cumprir duas condições:
-
 1. Tem que serem **linearmente independentes.**
 2. Combinando esses vetores, você deve ser capaz de alcançar qualquer ponto dentro do espaço vetorial $V$.
 
 ![500](../attachments/20260312_191853029.jpg)
+
+
+1. **A Base Canônica (World Space):** O mundo padrão que usamos tem os eixos perpendiculares usuais. $\hat{i} = (1, 0, 0)$, $\hat{j} = (0, 1, 0)$, $\hat{k} = (0, 0, 1)$.
+2. **Uma Base Arbitrária (Local Space):** base local de um objeto.
+
+
+3. **Espaço do Objeto:** O artista modela um objeto com o centro dela no $(0,0,0)$.
+4. **World Space:** A cadeira é colocada na cena no ponto $(10, 0, 5)$ e rotacionada. Fazemos uma mudança de base para saber onde os vértices da cadeira estão no mundo.
+5. **View Space:** O mundo inteiro é recalculado de forma que a câmera se torne a nova origem $(0,0,0)$, olhando diretamente para o eixo $-Z$.
+
+Seja um novo sistema de coordenadas definido por uma origem $O$ e três vetores ortonormais (unitários e perpendiculares entre si) $\vec{u}$, $\vec{v}$ e $\vec{w}$.
+
+A matriz de transformação que converte um ponto do espaço local para o espaço global é:
+$$M_{Local \rightarrow Mundo} = \begin{bmatrix} u_x & v_x & w_x & O_x \\ u_y & v_y & w_y & O_y \\ u_z & v_z & w_z & O_z \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
+- **Coluna 1:** Para onde aponta o eixo $X$ do objeto.
+- **Coluna 2:** Para onde aponta o eixo $Y$ do objeto.
+- **Coluna 3:** Para onde aponta o eixo $Z$ do objeto.
+- **Coluna 4:** Onde está a origem do objeto no mundo (Translação).
+
+
+#### E para fazer o caminho inverso? (O View Space)
+
+Muitas vezes, temos um ponto no mundo (ex: um inimigo) e queremos saber onde ele está em relação ao jogador (espaço local do jogador). Precisamos da **matriz inversa**.
+
+Como geralmente usamos bases ortonormais em CG (rotações puras), a inversa da matriz de rotação é simplesmente a sua **transposta** (trocar linhas por colunas).
+
+$$M_{Mundo \rightarrow Local} = \begin{bmatrix} u_x & u_y & u_z & -\vec{u} \cdot O \\ v_x & v_y & v_z & -\vec{v} \cdot O \\ w_x & w_y & w_z & -\vec{w} \cdot O \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
+
+_(A função `gluLookAt` do OpenGL constrói exatamente essa matriz!)_
+
+---
+
+
+
 
 ---
 ### 2. Mudança de base
