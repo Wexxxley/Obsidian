@@ -8,13 +8,6 @@ Para um conjunto de vetores ser considerado uma base de um espaço $V$, ele prec
 1. Tem que serem **linearmente independentes.**
 2. Combinando esses vetores, você deve ser capaz de alcançar qualquer ponto dentro do espaço vetorial $V$.
 
-![500](../attachments/20260312_191853029.jpg)
-
-
-1. **A Base Canônica (World Space):** O mundo padrão que usamos tem os eixos perpendiculares usuais. $\hat{i} = (1, 0, 0)$, $\hat{j} = (0, 1, 0)$, $\hat{k} = (0, 0, 1)$.
-2. **Uma Base Arbitrária (Local Space):** base local de um objeto.
-
-
 Na matemática aplicada à computação gráfica, um espaço vetorial tridimensional é definido por uma "base". Uma base é um conjunto de três vetores (frequentemente denotados como $\mathbf{u}$, $\mathbf{v}$ e $\mathbf{w}$ para o 3d). Eles definem as três direções fundamentais do espaço.
 
 Qualquer ponto ou vetor dentro desse espaço pode ser expresso como uma combinação linear desses vetores base. Se temos um vetor $\mathbf{p}$, suas coordenadas $(x, y, z)$ representam os coeficientes que multiplicam cada vetor da base para alcançar a posição no espaço:
@@ -36,11 +29,8 @@ A matriz de mudança de base se torna uma matriz $4 \times 4$. Sendo $O_x, O_y, 
 $$ M = \begin{bmatrix} u_x & v_x & w_x & O_x \\ u_y & v_y & w_y & O_y \\ u_z & v_z & w_z & O_z \\ 0 & 0 & 0 & 1 \end{bmatrix} $$
 O vértice a ser transformado é extraído. Suas coordenadas $(x, y, z)$ são convertidas em um vetor coluna de coordenadas homogêneas.
 $$ \mathbf{p}_{local} = \begin{bmatrix} x \\ y \\ z \\ 1 \end{bmatrix} $$
-A matriz $M$ é preenchida com os vetores direcionais do objeto ($\mathbf{u}$, $\mathbf{v}$, $\mathbf{w}$) nas três primeiras colunas e a posição da origem geométrica do objeto no espaço global na quarta coluna.
-
-Realiza-se o produto da matriz $4 \times 4$ pelo vetor $4 \times 1$. 
-
-Muitas vezes, é necessário realizar o caminho inverso, como converter um ponto luminoso do espaço global para o espaço local do objeto (processo comum em cálculos de iluminação). Para isso, utiliza-se a matriz inversa, denotada por $M^{-1}$.
+$$ \mathbf{p}_{global} = M \cdot \mathbf{p}_{local} $$
+Muitas vezes, é necessário realizar o caminho inverso. Para isso, utiliza-se a matriz inversa, denotada por $M^{-1}$.
 
 $$ \mathbf{p}_{local} = M^{-1} \cdot \mathbf{p}_{world} $$
 
