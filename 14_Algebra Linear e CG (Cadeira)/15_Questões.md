@@ -63,3 +63,24 @@ Quando aplicamos uma transformação ao sistema de coordenadas local do objeto, 
 **Resposta:** ( V ) Verdadeiro.
 
 **Justificativa:** Em uma operação de rotação 3D ao redor de um eixo canônico, as coordenadas pertencentes a esse eixo funcionam como o pivô da transformação e permanecem completamente inalteradas. A matriz de rotação em torno do eixo $x$ aplica funções trigonométricas (senos e cossenos do ângulo de -60 graus) exclusivamente sobre os outros dois eixos, promovendo um giro no plano ortogonal $yz$. Assim, a coordenada $x$ original do ponto é preservada, enquanto apenas $y$ e $z$ mudam.
+
+
+---
+
+A matriz de transformação $T$ representa uma rotação seguida de uma translação. 
+$$T = M_T \cdot M_R = \begin{bmatrix} I & t \\ 0 & 1 \end{bmatrix} \begin{bmatrix} R & 0 \\ 0 & 1 \end{bmatrix} = \begin{bmatrix} R & t \\ 0 & 1 \end{bmatrix}$$
+$$T^{-1} = M_R^{-1} \cdot M_T^{-1}$$
+- **Inversa da Rotação:** a sua inversa é igual à sua transposta.
+$$M_R^{-1} = \begin{bmatrix} R^T & 0 \\ 0 & 1 \end{bmatrix}$$
+- **Inversa da Translação:**    $$M_T^{-1} = \begin{bmatrix} I & -t \\ 0 & 1 \end{bmatrix}$$
+$$T^{-1} = \begin{bmatrix} R^T & 0 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} I & -t \\ 0 & 1 \end{bmatrix}$$
+$$T^{-1} = \begin{bmatrix} R^T & -R^T t \\ 0 & 1 \end{bmatrix}$$
+
+**O Significado de $R^T(-t)$ na Mudança de Base**
+
+Se $T$ transforma pontos de um espaço Local para um espaço Global, o vetor $t$ representa a posição da origem do sistema Local vista a partir do sistema Global. A matriz $R$ define a orientação dos eixos Locais dentro do mundo Global.
+
+A matriz inversa $T^{-1}$ faz o caminho contrário: ela mapeia pontos do espaço Global para o espaço Local.
+
+Se pegarmos a origem do espaço Global, que é o ponto $(0,0,0,1)$, e multiplicarmos pela matriz $T^{-1}$ para descobrir onde essa origem global está posicionada na perspectiva do objeto local, obteremos exatamente o vetor de translação da matriz inversa:
+$$\begin{bmatrix} R^T & -R^T t \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 0 \\ 0 \\ 0 \\ 1 \end{bmatrix} = \begin{bmatrix} -R^T t \\ 1 \end{bmatrix} = \begin{bmatrix} R^T(-t) \\ 1 \end{bmatrix}$$

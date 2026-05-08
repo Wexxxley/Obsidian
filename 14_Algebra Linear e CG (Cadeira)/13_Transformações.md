@@ -28,6 +28,28 @@ Para retornar um ponto transformado ($P_{novo}$) ao seu estado original ($P_{ori
 
 Se a sua matriz final é definida por $M_{final} = M_{translacao} \cdot M_{rotacao} \cdot M_{escala}$, a matriz inversa composta será:
 $$M_{final}^{-1} = M_{escala}^{-1} \cdot M_{rotacao}^{-1} \cdot M_{translacao}^{-1}$$
+
+**Inversa da Matriz de Translação**
+	Matriz Original ($T$):
+$$T = \begin{bmatrix} 1 & 0 & 0 & t_x \\ 0 & 1 & 0 & t_y \\ 0 & 0 & 1 & t_z \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
+	Matriz Inversa ($T^{-1}$):
+$$T^{-1} = \begin{bmatrix} 1 & 0 & 0 & -t_x \\ 0 & 1 & 0 & -t_y \\ 0 & 0 & 1 & -t_z \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
+
+**Inversa da Matriz de Escala**
+	Matriz Original ($S$):
+$$S = \begin{bmatrix} S_x & 0 & 0 & 0 \\ 0 & S_y & 0 & 0 \\ 0 & 0 & S_z & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
+	Matriz Inversa ($S^{-1}$):
+$$S^{-1} = \begin{bmatrix} \frac{1}{S_x} & 0 & 0 & 0 \\ 0 & \frac{1}{S_y} & 0 & 0 \\ 0 & 0 & \frac{1}{S_z} & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
+Se um objeto foi escalonado por um fator de $2$, sua inversa exige um escalonamento pelo fator de $1/2$.
+
+**Inversa da Matriz de Rotação**
+	Matriz Original ($R$):
+$$R = \begin{bmatrix} r_{11} & r_{12} & r_{13} \\ r_{21} & r_{22} & r_{23} \\ r_{31} & r_{32} & r_{33} \end{bmatrix}$$
+	Matriz Inversa ($R^{-1} = R^T$):
+
+$$R^{-1} = \begin{bmatrix} r_{11} & r_{21} & r_{31} \\ r_{12} & r_{22} & r_{32} \\ r_{13} & r_{23} & r_{33} \end{bmatrix}$$
+As matrizes que representam rotações tridimensionais puras pertencem a uma classe especial na álgebra linear chamada de matrizes ortogonais. A propriedade definidora de uma matriz ortogonal é que seus vetores coluna (e vetores linha) são ortonormais: eles têm comprimento igual a $1$ e são perpendiculares entre si. O teorema fundamental das matrizes ortogonais estabelece que a inversa de uma matriz ortogonal é exatamente igual à sua matriz transposta.
+
 ---
 ### **2. Escala**
 
