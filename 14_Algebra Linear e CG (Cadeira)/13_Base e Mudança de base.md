@@ -13,6 +13,9 @@ Na matemática aplicada à computação gráfica, um espaço vetorial tridimensi
 Qualquer ponto ou vetor dentro desse espaço pode ser expresso como uma combinação linear desses vetores base. Se temos um vetor $\mathbf{p}$, suas coordenadas $(x, y, z)$ representam os coeficientes que multiplicam cada vetor da base para alcançar a posição no espaço:
 $$ \mathbf{p} = x\mathbf{u} + y\mathbf{v} + z\mathbf{w} $$
 
+Pglobal = Blocal * Plocal
+Plocal = Blocal⁻1 * Pglobal
+
 Os objetos não existem em um único sistema de coordenadas. Um modelo 3D é criado em seu próprio sistema local, chamado de Espaço do Objeto (Object Space). Para que a cena seja renderizada, este modelo precisa ser posicionado no mundo (World Space) e, em seguida, avaliado a partir do ponto de vista de uma câmera virtual (Camera Space).
 
 A mudança de base é a operação matemática que converte as coordenadas de um vértice descritas em um sistema (como o do objeto) para as coordenadas equivalentes em outro sistema (como o do mundo).
