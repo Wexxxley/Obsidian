@@ -19,70 +19,65 @@ Para um conjunto de vetores ser considerado uma base de um espaço $V$, ele prec
 4. **World Space:** A cadeira é colocada na cena no ponto $(10, 0, 5)$ e rotacionada. Fazemos uma mudança de base para saber onde os vértices da cadeira estão no mundo.
 5. **View Space:** O mundo inteiro é recalculado de forma que a câmera se torne a nova origem $(0,0,0)$, olhando diretamente para o eixo $-Z$.
 
-Seja um novo sistema de coordenadas definido por uma origem $O$ e três vetores ortonormais (unitários e perpendiculares entre si) $\vec{u}$, $\vec{v}$ e $\vec{w}$.
 
-A matriz de transformação que converte um ponto do espaço local para o espaço global é:
-$$M_{Local \rightarrow Mundo} = \begin{bmatrix} u_x & v_x & w_x & O_x \\ u_y & v_y & w_y & O_y \\ u_z & v_z & w_z & O_z \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
-- **Coluna 1:** Para onde aponta o eixo $X$ do objeto.
-- **Coluna 2:** Para onde aponta o eixo $Y$ do objeto.
-- **Coluna 3:** Para onde aponta o eixo $Z$ do objeto.
-- **Coluna 4:** Onde está a origem do objeto no mundo (Translação).
+Na matemática aplicada à computação gráfica, um espaço vetorial tridimensional é definido por uma "base". Uma base é um conjunto de três vetores (frequentemente denotados como $\mathbf{u}$, $\mathbf{v}$ e $\mathbf{w}$ para o 3d). Eles definem as três direções fundamentais do espaço.
 
+Qualquer ponto ou vetor dentro desse espaço pode ser expresso como uma combinação linear desses vetores base. Se temos um vetor $\mathbf{p}$, suas coordenadas $(x, y, z)$ representam os coeficientes que multiplicam cada vetor da base para alcançar a posição final no espaço:
 
-#### E para fazer o caminho inverso? (O View Space)
+$$ \mathbf{p} = x\mathbf{u} + y\mathbf{v} + z\mathbf{w} $$
 
-Muitas vezes, temos um ponto no mundo (ex: um inimigo) e queremos saber onde ele está em relação ao jogador (espaço local do jogador). Precisamos da **matriz inversa**.
+### A Necessidade da Mudança de Base na Computação Gráfica
 
-Como geralmente usamos bases ortonormais em CG (rotações puras), a inversa da matriz de rotação é simplesmente a sua **transposta** (trocar linhas por colunas).
+Em um pipeline gráfico, os objetos não existem em um único sistema de coordenadas. Um modelo 3D é criado em seu próprio sistema local, chamado de Espaço do Objeto (Object Space). Para que a cena seja renderizada, este modelo precisa ser posicionado no mundo (World Space) e, em seguida, avaliado a partir do ponto de vista de uma câmera virtual (Camera Space ou View Space).
 
-$$M_{Mundo \rightarrow Local} = \begin{bmatrix} u_x & u_y & u_z & -\vec{u} \cdot O \\ v_x & v_y & v_z & -\vec{v} \cdot O \\ w_x & w_y & w_z & -\vec{w} \cdot O \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
+A mudança de base é a operação matemática que converte as coordenadas de um vértice descritas em um sistema (como o do objeto) para as coordenadas equivalentes em outro sistema (como o do mundo ou da câmera), preservando a integridade geométrica do modelo.
 
-_(A função `gluLookAt` do OpenGL constrói exatamente essa matriz!)_
+### A Matriz de Mudança de Base (Matriz de Transformação)
 
----
+Para realizar a conversão matemática de um sistema de coordenadas $A$ para um sistema de coordenadas $B$, utilizamos a multiplicação de matrizes.
 
+Seja a base local do objeto definida pelos vetores ortonormais (vetores de comprimento igual a $1$ e perpendiculares entre si) $\mathbf{u}$, $\mathbf{v}$ e $\mathbf{w}$, cujas coordenadas são conhecidas em relação ao sistema global do mundo. A matriz de mudança de base $M$ que transforma pontos do sistema local para o sistema global é construída posicionando os vetores da base local como as colunas da matriz:
 
+$$ M = \begin{bmatrix} u_x & v_x & w_x \\ u_y & v_y & w_y \\ u_z & v_z & w_z \end{bmatrix} $$
 
+Se tivermos um ponto $\mathbf{p}_{local}$ com coordenadas $(x, y, z)$ no espaço do objeto, a sua posição no espaço do mundo, $\mathbf{p}_{world}$, é obtida multiplicando a matriz $M$ pelo vetor coluna $\mathbf{p}_{local}$:
 
----
-### 2. Mudança de base
+$$ \mathbf{p}_{world} = M \cdot \mathbf{p}_{local} $$
 
-A mudança de base é o processo de converter as coordenadas de um vetor de um sistema de referência para outro.
+### Sistemas de Referência (Frames) e Coordenadas Homogêneas
 
-- A **Base Canônica** no $\mathbb{R}^2$ é formada por $(1, 0) ,(0, 1)$.
-- Mas você pode inventar outra base $\beta = \{v_1, v_2\}$ qualquer.
+A matriz $3 \times 3$ descrita acima permite a rotação e o redimensionamento, mas falha em um aspecto essencial: a translação. Na computação gráfica, os sistemas locais não possuem apenas direções (vetores base), mas também uma origem no espaço, formando o que chamamos formalmente de "Frame" ou sistema de referência afim.
 
-**Mudança de vetor da conônica para nova base**
-![](../attachments/20260312_194344648.jpg)
+Para permitir que a matriz aplique a translação (o deslocamento da origem local em relação à origem global), o espaço tridimensional é expandido matematicamente para um espaço tetradimensional. Isso é chamado de sistema de Coordenadas Homogêneas. Adicionamos uma quarta coordenada aos nossos vetores e pontos. Para pontos no espaço, essa quarta coordenada é $1$. Para vetores direcionais (que não possuem posição, apenas direção), a quarta coordenada é $0$.
 
-**Mudança de base para a canônica**
-![](../attachments/20260312_194409843.jpg)
+A matriz de mudança de base se torna uma matriz $4 \times 4$. Sendo $O_x, O_y, O_z$ as coordenadas globais do ponto de origem do sistema local, a matriz completa de transformação do espaço local para o global é expressa como:
 
-Considere duas bases no $\mathbb{R}^2$:
-- **Base Canônica ($\epsilon$):** $e_1 = (1, 0), e_2 = (0, 1)$
-- **Base Qualquer ($\beta$):** $v_1 = (1, 2), v_2 = (3, 4)$
-    
+$$ M = \begin{bmatrix} u_x & v_x & w_x & O_x \\ u_y & v_y & w_y & O_y \\ u_z & v_z & w_z & O_z \\ 0 & 0 & 0 & 1 \end{bmatrix} $$
 
-**De uma Base $\beta$ para a Canônica $\epsilon$**
-Monte a matriz $M$ colocando os vetores de $\beta$ nas **colunas**.
-$$M = \begin{bmatrix} v_{1x} & v_{2x} \\ v_{1y} & v_{2y} \end{bmatrix}$$
+### Passo a Passo Matemático da Transformação
 
-$$[v]_\epsilon = M \cdot [v]_\beta$$
+**Passo 1: Definição do Ponto de Origem**
 
-**Da Canônica $\epsilon$ para uma Base $\beta$**
+O vértice a ser transformado é extraído de sua malha poligonal. Suas coordenadas $(x, y, z)$ são convertidas em um vetor coluna de coordenadas homogêneas, adicionando o valor $1$ na base.
 
-$$[v]_\beta = M^{-1} \cdot [v]_\epsilon$$
+$$ \mathbf{p}_{local} = \begin{bmatrix} x \\ y \\ z \\ 1 \end{bmatrix} $$
 
+**Passo 2: Construção da Matriz de Transformação**
 
----
+A matriz $M$ é preenchida com os vetores direcionais do objeto ($\mathbf{u}$, $\mathbf{v}$, $\mathbf{w}$) nas três primeiras colunas e a posição da origem geométrica do objeto no espaço global na quarta coluna.
 
-### **3. Base ortonormal
+**Passo 3: Produto Matricial**
 
-Para que um conjunto de vetores (como uma base de um espaço vetorial) seja considerado ortonormal, ele deve satisfazer simultaneamente duas condições: a **ortogonalidade** e a **normalidade**.
+Realiza-se o produto da matriz $4 \times 4$ pelo vetor $4 \times 1$. O cálculo algébrico para a nova coordenada $x'$ no espaço global, por exemplo, ocorre pela soma dos produtos dos elementos da primeira linha da matriz pelos elementos correspondentes do vetor coluna:
 
-**Ortogonalidade**: Dizemos que dois vetores são ortogonais quando o produto escalar entre eles é igual a zero. Isso significa que eles são perpendiculares entre si, formando um ângulo de 90°.
+$$ x' = (u_x \cdot x) + (v_x \cdot y) + (w_x \cdot z) + (O_x \cdot 1) $$
 
-**Normalidade**: Um vetor é considerado "normal"quando o seu comprimento é exatamente igual a 1. 
-- Para um vetor $\vec{u}$ ser normal, o produto escalar dele por ele mesmo deve ser 1, pois:
-$$\vec{u} \cdot \vec{u} = \|\vec{u}\|^2 = 1^2 = 1$$
+Este procedimento é repetido para as linhas de $y'$, $z'$ e a quarta coordenada (que permanecerá $1$). O resultado é o novo vetor descrevendo exatamente o mesmo ponto, mas sob a perspectiva da base global.
 
+### A Transformação Inversa
+
+Muitas vezes, é necessário realizar o caminho inverso, como converter um ponto luminoso do espaço global para o espaço local do objeto (processo comum em cálculos de iluminação). Para isso, utiliza-se a matriz inversa, denotada por $M^{-1}$.
+
+$$ \mathbf{p}_{local} = M^{-1} \cdot \mathbf{p}_{world} $$
+
+No contexto estrito de bases ortonormais em computação gráfica (onde ocorre apenas rotação, sem distorção ou escala), a matriz inversa da parte rotacional ($3 \times 3$) é numericamente igual à sua matriz transposta (a inversão de linhas por colunas). Essa propriedade, denominada ortogonalidade da matriz, é amplamente explorada na arquitetura de software gráfico para otimizar o custo computacional, visto que transpor uma matriz exige um número consideravelmente menor de operações de ponto flutuante do que calcular a sua inversão completa através de métodos como a eliminação de Gauss.
