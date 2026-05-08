@@ -17,16 +17,17 @@ Para transformar a soma em uma multiplicação, "fingimos" que o nosso mundo 3D 
 ![250](../attachments/Pasted%20image%2020260413080437.png)
 ![250](../attachments/Pasted%20image%2020260409193130.png)
 
- Imagine que você quer mover um ponto do seu objeto por 10 unidades em X e 5 em Z.
-![300](../attachments/20260409_193647252.jpg)
-
-
 Agora que a translação é uma matriz $4 \times 4$, você pode fazer isso aqui no seu código:
 
 $$M_{final} = M_{translacao} \cdot M_{rotacao} \cdot M_{escala}$$
+O resultado é uma única matriz $4 \times 4$ que, ao ser multiplicada por um ponto, muda o tamanho, gira e move o objeto para o lugar certo de uma vez só 
 
-O resultado é uma única matriz $4 \times 4$ que, ao ser multiplicada por um ponto, **muda o tamanho, gira e move o objeto para o lugar certo de uma vez só**. 
+**E para retornar ao valor anterior?**
 
+Para retornar um ponto transformado ($P_{novo}$) ao seu estado original ($P_{original}$), você precisa multiplicar este ponto pela matriz inversa da transformação denotada como $M_{final}^{-1}$.
+
+Se a sua matriz final é definida por $M_{final} = M_{translacao} \cdot M_{rotacao} \cdot M_{escala}$, a matriz inversa composta será:
+$$M_{final}^{-1} = M_{escala}^{-1} \cdot M_{rotacao}^{-1} \cdot M_{translacao}^{-1}$$
 ---
 ### **2. Escala**
 
