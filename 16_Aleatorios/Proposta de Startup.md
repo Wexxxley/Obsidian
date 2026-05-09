@@ -25,21 +25,5 @@ Na tela principal do tutor, o sistema deve oferecer três fluxos distintos para 
 - **Notificação:** O aplicativo utiliza notificações ativas para manter o cuidador engajado. Se um tutor publica uma demanda geral compatível com as preferências do cuidador, ou se um tutor envia uma proposta direta, o aplicativo emite um alerta.
 - **Perfil do Cuidador:** Todo cuidador possui uma página que funciona como seu portfólio. Este perfil exibe sua foto validada, métricas de confiabilidade (nota média e número de serviços concluídos), tipos de animais que aceita hospedar, fotos do ambiente onde o animal ficará e avaliações em texto deixadas por tutores anteriores.
 
-### 4. E o pix...?
+### 4. Rentabilidade
 
-O lucro principal seria por uma taxa cobrado em cima do pagamento ao cuidador. Mas isso gera um problema. O pagamento for feito por fora do app após uma primeira vez.
-
-- Podemos tornar a avaliação pelo tutor obrigatória. O sistema só permite que o cuidador receba uma nota e um comentário se a transação for concluída dentro da plataforma. Ter um perfil com "15 cuidados realizados" e nota máxima diferencia o cuidador de um estranho qualquer. Se ele aceita por fora, o perfil dele fica estagnado.
-- O número de telefone ou o chat direto só é liberado após o tutor selecionar o cuidador e realizar o pagamento via plataforma. 
-- O valor pago pelo cliente é retido pela plataforma e só é repassado ao prestador de serviço após a conclusão da estadia. Isso elimina o risco de calote para o prestador e garante o direito de reembolso imediato para o cliente em caso de cancelamento.    
-- **Parcelamento:** Um cuidador informal não tem como oferecer parcelamento em 3x no cartão de crédito sem maquininha, o que força o cliente a usar o aplicativo.
-- Relatório de estadia com fotos e checklists. De form atrativa visualmente para postar em redes sociais. Para que o usuário sinta o desejo de publicar esse relatório, o documento deve ser gerado automaticamente pelo aplicativo contendo um forte apelo visual e informacional. O sistema deve agrupar os dados coletados durante a hospedagem em um formato único:    
-	- **Métricas Qualitativas e Selos:** Inserção de conquistas automatizadas pelo sistema ao fim da estadia, como "Pet Sociável", "Dorminhoco".
-	- **Mídia Integrada:** A melhor fotografia registrada pelo cuidador durante a estadia, posicionada no centro do layout estruturado.
-	- **Rastreabilidade e Conversão:** O documento visual deve conter a marca d'água do seu aplicativo e o perfil do cuidador
-	- **A Motivação do Tutor:** O incentivo reside na validação social. Donos de animais possuem a tendência de registrar e expor seus pets, e o card automatizado fornece uma forma estruturada e profissional de realizar essa exposição, atestando que eles proveem um cuidado de excelência para o animal.
-	- **A Motivação do Cuidador:** O incentivo é estritamente comercial. Quando o tutor posta o relatório contendo o nome e o perfil do prestador de serviço, o cuidador recebe exposição gratuita.
-
-Assinatura Anual para o Cuidador: 
-- **Isenção de Comissão:** O cuidador paga a anuidade e passa a reter 100% do valor dos seus lances. A plataforma deixa de descontar a comissão.    
-- **Destaque no Catálogo:** Os assinantes recebem o selo de perfil verificado e o algoritmo do sistema os posiciona nas primeiras colocações do fluxo de "Busca Ativa", aumentando substancialmente o volume de propostas diretas recebidas.
