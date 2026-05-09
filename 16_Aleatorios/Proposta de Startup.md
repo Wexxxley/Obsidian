@@ -25,5 +25,45 @@ Na tela principal do tutor, o sistema deve oferecer três fluxos distintos para 
 - **Notificação:** O aplicativo utiliza notificações ativas para manter o cuidador engajado. Se um tutor publica uma demanda geral compatível com as preferências do cuidador, ou se um tutor envia uma proposta direta, o aplicativo emite um alerta.
 - **Perfil do Cuidador:** Todo cuidador possui uma página que funciona como seu portfólio. Este perfil exibe sua foto validada, métricas de confiabilidade (nota média e número de serviços concluídos), tipos de animais que aceita hospedar, fotos do ambiente onde o animal ficará e avaliações em texto deixadas por tutores anteriores.
 
+---
 ### 4. Rentabilidade
+
+
+
+
+Comissão por Transação (Take Rate)
+
+A principal fonte de receita da plataforma é a cobrança de uma comissão sobre os
+serviços contratados.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
