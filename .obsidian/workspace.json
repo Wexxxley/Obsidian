@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Aleatorios/Proposta de Startup.md",
+                "file": "14_Algebra Linear e CG (Cadeira)/13_Base e Mudança de base.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proposta de Startup"
+              "title": "13_Base e Mudança de base"
             }
           }
         ]
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -199,6 +198,8 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "16_Aleatorios/2_Técnica simples de estudo.md",
+    "16_Aleatorios/Proposta de Startup.md",
     "attachments/Pasted image 20260509173229.png",
     "attachments/Pasted image 20260509172604.png",
     "06_Git and github/03_Fluxo inicial e commit.md",
@@ -232,9 +233,7 @@
     "attachments/Pasted image 20260503125017.png",
     "attachments/Pasted image 20260503124855.png",
     "05_FrontEnd/4_React/1_Fundamentos/6_Callback handlers e lifting state.md",
-    "05_FrontEnd/4_React/1_Fundamentos/5_useState.md",
     "attachments/Pasted image 20260503120426.png",
-    "attachments/Pasted image 20260503120005.png",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",

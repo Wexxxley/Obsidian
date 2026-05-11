@@ -28,6 +28,5 @@ $$ \mathbf{p}_{local} = \begin{bmatrix} x \\ y \\ z \\ 1 \end{bmatrix} $$
 $$ \mathbf{p}_{global} = M \cdot \mathbf{p}_{local} $$
 Muitas vezes, é necessário realizar o caminho inverso. Para isso, utiliza-se a matriz inversa, denotada por $M^{-1}$.
 $$ \mathbf{p}_{local} = M^{-1} \cdot \mathbf{p}_{world} $$
----
 
-### **3. Mudança de Base câmera.**
+
