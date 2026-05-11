@@ -36,8 +36,9 @@ Comissão por Transação (Take Rate)
 A principal fonte de receita da plataforma é a cobrança de uma comissão sobre os
 serviços contratados.
 
+![](../attachments/Pasted%20image%2020260509172604.png)
 
-
+![](../attachments/Pasted%20image%2020260509173229.png)
 
 
 
