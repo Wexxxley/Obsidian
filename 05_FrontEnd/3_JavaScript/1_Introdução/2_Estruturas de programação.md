@@ -11,7 +11,6 @@ Funções **são objetos em JavaScript** e **podem ser armazenadas em variáveis
 ![Pasted image 20250505154432](../../../attachments/Pasted%20image%2020250505154432.png)
 
 **Arrow function**
-
 ![500](../../../attachments/Pasted%20image%2020250505155044.png)
 
 ---

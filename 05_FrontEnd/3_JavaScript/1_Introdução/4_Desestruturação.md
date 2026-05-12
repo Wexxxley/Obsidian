@@ -2,11 +2,7 @@
  #Concluded  
 
 ---
-### **1. Arrays**
-Os arrays em js podem ter qualquer tipo de dado
-![Pasted image 20250513162620](../../../attachments/Pasted%20image%2020250513162620.png)
-
-### **2. Desestruturação**
+### **1. Desestruturação**
 A desestruturação é um recurso que permite extrair dados específicos de propriedades de objetos ou elementos de arrays, atribuindo-os diretamente a variáveis individuais em uma única instrução.
 
 Exemplo com objeto e array
