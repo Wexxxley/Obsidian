@@ -1,8 +1,8 @@
 
----
-O pacote dotenv serve para implementar o princípio de **Separação de Configuração e Código**.
+#Concluded 
 
-Tecnicamente, ele é um módulo que carrega variáveis de ambiente definidas em um arquivo local para dentro do objeto global `process.env` do Node.js em tempo de execução.
+---
+O pacote dotenv serve para implementar o princípio de **Separação de Configuração e Código**. Tecnicamente, ele é um módulo que carrega variáveis de ambiente definidas em um arquivo local para dentro do objeto global `process.env` do Node.js em tempo de execução.
 
 ### **1. O Problema**
 
