@@ -5,7 +5,6 @@
 
 Enquanto props são usadas para passar informações, o state é <mark style="background: #ADCCFFA6;">usado para gerenciar informações que mudam ao longo do tempo dentro de um componente</mark>. O State persiste os dados na memória do React entre renderizações.
 
----
 ### **1. Exemplo com input** 
 ![](../../../attachments/Pasted%20image%2020251124063152.png)
 1. **Interação:** O usuário digita, disparando `handleChange`.
