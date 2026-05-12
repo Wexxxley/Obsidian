@@ -36,31 +36,23 @@ Seleciona o p que vem imediatamente depois de um h1
 Seleciona todos os p que vem apos um h1.
 
 **Mais exemplos** 
-
 ![Pasted image 20250512152603](../../attachments/Pasted%20image%2020250512152603.png)
-
 Aplica o estilo nos paragrafos com a classe center
 
 ![Pasted image 20250512153107](../../attachments/Pasted%20image%2020250512153107.png)
-
 Aplica o estilo nos paragrafos com o id center
 
 ![Pasted image 20250512152706](../../attachments/Pasted%20image%2020250512152706.png)
-
 Seletor universal
 
 ![Pasted image 20250512152754](../../attachments/Pasted%20image%2020250512152754.png)
-
 Seletores agrupados
 
 **Seletores de atributo**
-
 ![Pasted image 20250512154609](../../attachments/Pasted%20image%2020250512154609.png)
-
 Seleciona a que tenha o atributo target
 
 ![Pasted image 20250512154753](../../attachments/Pasted%20image%2020250512154753.png)
-
 Seleciona a com o valor blank no target
 
 ---

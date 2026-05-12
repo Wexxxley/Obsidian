@@ -4,10 +4,9 @@
 ---
 ### **1. Inicialização do Projeto com Vite**
 
-Para o desenvolvimento moderno em React, o ambiente requer: **Node.js e NPM**, necessários para gerenciar bibliotecas e dependências (pacotes Node). O NPM (Node Package Manager) permite a instalação via linha de comando.
+Para o desenvolvimento moderno em React, o ambiente requer: **Node.js e NPM**, necessários para gerenciar bibliotecas e dependências. 
 
-O **Vite** é a <mark style="background: #ADCCFFA6;">ferramenta de build</mark> que orquestrar o ambiente de desenvolvimento. Ele resolve a complexidade de configurar manualmente transpiladores e empacotadores.
-
+O **Vite** é a <mark style="background: #ADCCFFA6;">ferramenta de build</mark> que orquestrar o ambiente de desenvolvimento. 
 ```
 npm create vite@latest nomeProj -- --template react
 ```

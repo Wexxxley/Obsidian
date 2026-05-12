@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14_Algebra Linear e CG (Cadeira)/8_Vetores.md",
+                "file": "05_FrontEnd/4_React/1_Fundamentos/4_Event handlers e props.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_Vetores"
+              "title": "4_Event handlers e props"
             }
           }
         ]
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 333
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -198,6 +198,21 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "05_FrontEnd/4_React/1_Fundamentos/3_Component tree.md",
+    "05_FrontEnd/4_React/1_Fundamentos/2_Componente.md",
+    "05_FrontEnd/4_React/1_Fundamentos/1_Introdução.md",
+    "05_FrontEnd/2_CSS/6_Configurações iniciais.md",
+    "05_FrontEnd/2_CSS/7_Positions.md",
+    "05_FrontEnd/2_CSS/4_Flexbox.md",
+    "05_FrontEnd/2_CSS/3_Shadow.md",
+    "05_FrontEnd/2_CSS/2_Box model.md",
+    "05_FrontEnd/2_CSS/1_CSS introdução.md",
+    "05_FrontEnd/1_HTML/1_Introdução.md",
+    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/7_ViewModel e StateFlow.md",
+    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/6_Arquitetura MVVM.md",
+    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/5_Modal Navigation Drawer.md",
+    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/1_Navegação.md",
+    "14_Algebra Linear e CG (Cadeira)/8_Vetores.md",
     "14_Algebra Linear e CG (Cadeira)/12_Transformações.md",
     "14_Algebra Linear e CG (Cadeira)/13_Base e Mudança de base.md",
     "16_Aleatorios/2_Técnica simples de estudo.md",
@@ -210,29 +225,14 @@
     "14_Algebra Linear e CG (Cadeira)/11_Linearmente dependente e linearmente independente.md",
     "14_Algebra Linear e CG (Cadeira)/10_Combinação linear.md",
     "14_Algebra Linear e CG (Cadeira)/9_Espaço vetorial e subespaço vetorial.md",
-    "14_Algebra Linear e CG (Cadeira)/8_Vetores.md",
-    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/7_ViewModel e StateFlow.md",
-    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/6_Arquitetura MVVM.md",
-    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/5_Modal Navigation Drawer.md",
     "attachments/Pasted image 20260506153730.png",
     "attachments/Pasted image 20260506152250.png",
-    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/1_Navegação.md",
     "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/10_Dialog e progress indicator.md",
-    "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/11_Ciclo de vida Activity.md",
-    "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/12_Transformando estados em UI.md",
-    "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/2_Layouts.md",
     "attachments/Pasted image 20260506081512.png",
     "attachments/mascarabox.gif",
     "attachments/Pasted image 20260506080654.png",
-    "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/1_Estrutura básica e Modifier.md",
-    "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/9_Gerenciamento de estados.md",
-    "07_Mobile (Cadeira)/2_Jetpack Compose/3_Armazenamento/5_Usando a viewModel.md",
-    "05_FrontEnd/4_React/1_Fundamentos/1_Introdução.md",
-    "07_Mobile (Cadeira)/Comparativo tecnologias Web a Android.md",
-    "05_FrontEnd/4_React/1_Fundamentos/2_Componente.md",
     "attachments/Pasted image 20260503125017.png",
     "attachments/Pasted image 20260503124855.png",
-    "05_FrontEnd/4_React/1_Fundamentos/6_Callback handlers e lifting state.md",
     "attachments/Pasted image 20260503120426.png",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",

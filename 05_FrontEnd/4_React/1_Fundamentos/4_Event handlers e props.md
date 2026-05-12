@@ -8,7 +8,7 @@ Diferente do HTML nativo (onclick), o React utiliza a convenção camelCase para
 
 **Implementação no Componente Search:** Define-se uma função handleChange dentro do componente para capturar a interação.
 ![](../../../attachments/Pasted%20image%2020251123193132.png)
-- **onChange={handleChange}**: Passa a referência da função para ser executada quando o evento ocorrer. Não passe handleChange() poiss isso executaria a função de cara.
+- **onChange={handleChange}**: Passa a referência da função para ser executada quando o evento ocorrer. 
 
 Nesse exemplo, toda vez que digito algo no input, o console imprime.
 ![](../../../attachments/Pasted%20image%2020251123193353.png)

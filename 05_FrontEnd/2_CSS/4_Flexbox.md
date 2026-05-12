@@ -7,7 +7,7 @@ ________________________________________________________
 
 Define a direção principal do layout (se os itens serão organizados em linha ou coluna).
 
-	- **row (padrão)**: Alinha os itens na horizontal. Deixa tudo em uma linha, ao ponto de ter que esticar as  imagens para fazer isso.
+- **row (padrão)**: Alinha os itens na horizontal. Deixa tudo em uma linha, ao ponto de ter que esticar as  imagens para fazer isso.
 
 	![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeHiVsQQ3Kp2wznsWqO0kaA1FJw0hk9GXnRlryBWksOKDiEuD9ItZqcDy98JiOGiif1wKSkp_tUpJ6VxUWVPOXCmUHD1ej9bFsdvnTdyrzrT7GcXJRrjQlZhxrxf2i62p04EgRC?key=VYJVAqKhTdZyHt8enJbiwA)
 

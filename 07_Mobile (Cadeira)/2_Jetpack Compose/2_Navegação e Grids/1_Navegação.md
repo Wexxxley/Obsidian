@@ -6,7 +6,7 @@
 ![200](../../../attachments/Pasted%20image%2020260501095550.png)
 ![200](../../../attachments/navigation.gif)
 
-**MainActivity*
+**MainActivity**
 ![](../../../attachments/Pasted%20image%2020260501100036.png)
 **navController**: detentor de estado centralizado da navegação. Ele é o único objeto que realmente sabe em qual tela o usuário está. Ele gerencia uma pilha, cada vez que você navega, ele empilha um nó no objeto de contexto.
 
@@ -37,7 +37,6 @@ A função ScreenStructure é o "cérebro" da interface. Ela utiliza o padrão d
 - **Registro de Destinos:** Cada função composable("rota") registra um vértice.
 - **Arestas** do grafo são operações de transição de estado. A aresta existe no momento da execução do comando `navController.navigate("rota")`.
 - **Propriedades da Aresta:** Você pode configurar propriedades na transição, como:
-
 
 **Injeção de dependência:** A MainPage não cria o controlador; ela o recebe da MainActivity. Isso permite que a tela dispare eventos de navegação sem precisar saber como o Grafo de Navegação foi construído. Ela apenas dá a ordem, e o `NavController` (que tem a visão global da pilha) a executa.
 **navigate**: Está sendo usando uma Template String para montar uma URL dinâmica.
