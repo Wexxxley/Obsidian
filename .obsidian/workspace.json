@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_FrontEnd/4_React/1_Fundamentos/7_Componentes controlados.md",
+                "file": "05_FrontEnd/3_JavaScript/3_Node.js/2_Gerenciamento de dependências.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_Componentes controlados"
+              "title": "2_Gerenciamento de dependências"
             }
           }
         ]
@@ -198,14 +198,25 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "05_FrontEnd/3_JavaScript/3_Node.js/1_Runtime e Módulos.md",
+    "05_FrontEnd/3_JavaScript/3_Node.js/2_Gerenciamento de dependências.md",
+    "05_FrontEnd/3_JavaScript/3_Node.js/3_Dotenv.md",
+    "05_FrontEnd/3_JavaScript/1_Introdução/10_Multiplos estilos com um clique.md",
+    "05_FrontEnd/3_JavaScript/1_Introdução/9_Consumindo API Propria.md",
+    "05_FrontEnd/3_JavaScript/1_Introdução/8_DOM consumindo uma api falsa.md",
+    "05_FrontEnd/3_JavaScript/1_Introdução/5_Callback and promisse.md",
+    "05_FrontEnd/3_JavaScript/1_Introdução/3_Estruturas de programação.md",
+    "05_FrontEnd/3_JavaScript/1_Introdução/2_Tipos de dados e variável.md",
+    "05_FrontEnd/3_JavaScript/1_Introdução/1_Introdução.md",
+    "05_FrontEnd/4_React/1_Fundamentos/1_Introdução.md",
+    "05_FrontEnd/3_JavaScript/1_Introdução/4_Arrays.md",
+    "05_FrontEnd/4_React/1_Fundamentos/7_Componentes controlados.md",
     "05_FrontEnd/4_React/1_Fundamentos/6_Callback handlers e lifting state.md",
     "05_FrontEnd/4_React/1_Fundamentos/5_useState.md",
-    "05_FrontEnd/4_React/1_Fundamentos/7_Componentes controlados.md",
     "05_FrontEnd/4_React/1_Fundamentos/8_useEffect.md",
     "05_FrontEnd/4_React/1_Fundamentos/4_Event handlers e props.md",
     "05_FrontEnd/4_React/1_Fundamentos/3_Component tree.md",
     "05_FrontEnd/4_React/1_Fundamentos/2_Componente.md",
-    "05_FrontEnd/4_React/1_Fundamentos/1_Introdução.md",
     "05_FrontEnd/2_CSS/6_Configurações iniciais.md",
     "05_FrontEnd/2_CSS/7_Positions.md",
     "05_FrontEnd/2_CSS/4_Flexbox.md",
@@ -213,19 +224,8 @@
     "05_FrontEnd/2_CSS/2_Box model.md",
     "05_FrontEnd/2_CSS/1_CSS introdução.md",
     "05_FrontEnd/1_HTML/1_Introdução.md",
-    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/7_ViewModel e StateFlow.md",
-    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/6_Arquitetura MVVM.md",
-    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/5_Modal Navigation Drawer.md",
-    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/1_Navegação.md",
-    "14_Algebra Linear e CG (Cadeira)/8_Vetores.md",
-    "14_Algebra Linear e CG (Cadeira)/12_Transformações.md",
-    "14_Algebra Linear e CG (Cadeira)/13_Base e Mudança de base.md",
-    "16_Aleatorios/2_Técnica simples de estudo.md",
-    "16_Aleatorios/Proposta de Startup.md",
     "attachments/Pasted image 20260509173229.png",
     "attachments/Pasted image 20260509172604.png",
-    "06_Git and github/03_Fluxo inicial e commit.md",
-    "14_Algebra Linear e CG (Cadeira)/15_Questões.md",
     "attachments/Pasted image 20260506153730.png",
     "attachments/Pasted image 20260506152250.png",
     "attachments/Pasted image 20260506081512.png",

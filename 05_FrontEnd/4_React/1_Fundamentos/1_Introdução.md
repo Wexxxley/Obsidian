@@ -2,7 +2,21 @@
 #Concluded 
 
 ---
-### **1. Inicialização do Projeto com Vite**
+
+### **1. O que é React?**
+
+O React é uma biblioteca JavaScript **declarativa**, **orientada a componentes** e **guiada por estados**, focada na construção de interfaces de usuário.
+
+**Arquitetura Baseada em Componentes**
+A interface é construída a partir de blocos independentes (componentes), como botões, campos de entrada e barras de pesquisa. A construção de UIs ocorre através da combinação e reutilização desses componentes, alterando os dados que os preenchem.
+
+**Sintaxe Declarativa**
+A abordagem declarativa do React significa que o desenvolvedor apenas define o resultado final esperado para a interface com base nos dados. O React abstrai todo o processo de manipulação direta do _Document Object Model_ (DOM).
+
+**Gerenciamento de Estado e Reatividade**
+O propósito central do React é manter a interface estritamente sincronizada com os dados da aplicação, os quais são definidos tecnicamente como "estado". Sempre que o estado sofre mutações — seja por ações do usuário ou pelo carregamento de dados externos —, a biblioteca re-renderiza automaticamente a UI para refletir essas mudanças. 
+
+### **2. Inicialização do Projeto com Vite**
 
 Para o desenvolvimento moderno em React, o ambiente requer: **Node.js e NPM**, necessários para gerenciar bibliotecas e dependências. 
 
