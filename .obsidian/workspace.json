@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_FrontEnd/4_React/1_Fundamentos/2_Componente.md",
+                "file": "05_FrontEnd/4_React/1_Fundamentos/1_Introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Componente"
+              "title": "1_Introdução"
             }
           }
         ]
@@ -198,7 +198,10 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "05_FrontEnd/4_React/1_Fundamentos/2_Componente.md",
+    "05_FrontEnd/4_React/1_Fundamentos/3_Component tree.md",
     "05_FrontEnd/4_React/1_Fundamentos/1_Introdução.md",
+    "attachments/Pasted image 20260513061152.png",
     "05_FrontEnd/3_JavaScript/1_Introdução/7_DOM (Document Object Model).md",
     "05_FrontEnd/3_JavaScript/1_Introdução/6_Async await e fetch.md",
     "05_FrontEnd/3_JavaScript/1_Introdução/5_Callback and promisse.md",
@@ -211,8 +214,6 @@
     "05_FrontEnd/3_JavaScript/1_Introdução/1_Introdução.md",
     "05_FrontEnd/3_JavaScript/1_Introdução/Untitled.md",
     "05_FrontEnd/3_JavaScript/1_Introdução/10_Multiplos estilos com um clique.md",
-    "05_FrontEnd/4_React/1_Fundamentos/2_Componente.md",
-    "05_FrontEnd/4_React/1_Fundamentos/3_Component tree.md",
     "05_FrontEnd/4_React/1_Fundamentos/4_Event handlers e props.md",
     "05_FrontEnd/4_React/1_Fundamentos/5_useState.md",
     "05_FrontEnd/3_JavaScript/3_Node.js/3_Dotenv.md",
@@ -223,7 +224,6 @@
     "05_FrontEnd/4_React/1_Fundamentos/8_useEffect.md",
     "05_FrontEnd/2_CSS/6_Configurações iniciais.md",
     "05_FrontEnd/2_CSS/7_Positions.md",
-    "05_FrontEnd/2_CSS/4_Flexbox.md",
     "attachments/Pasted image 20260509173229.png",
     "attachments/Pasted image 20260509172604.png",
     "attachments/Pasted image 20260506153730.png",
@@ -233,7 +233,6 @@
     "attachments/Pasted image 20260506080654.png",
     "attachments/Pasted image 20260503125017.png",
     "attachments/Pasted image 20260503124855.png",
-    "attachments/Pasted image 20260503120426.png",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",

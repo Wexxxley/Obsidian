@@ -7,14 +7,12 @@
 
 O React é uma biblioteca JavaScript **declarativa**, **orientada a componentes** e **guiada por estados**, focada na construção de interfaces de usuário.
 
-**Arquitetura Baseada em Componentes**
-A interface é construída a partir de blocos independentes (componentes), como botões, campos de entrada e barras de pesquisa. A construção de UIs ocorre através da combinação e reutilização desses componentes, alterando os dados que os preenchem.
+**Arquitetura Baseada em Componentes**: A interface é construída a partir componentes, como botões, campos de entrada e barras de pesquisa. A construção de UIs ocorre através da combinação e reutilização desses componentes.
 
-**Sintaxe Declarativa**
-A abordagem declarativa do React significa que o desenvolvedor apenas define o resultado final esperado para a interface com base nos dados. O React abstrai todo o processo de manipulação direta do _Document Object Model_ (DOM).
+**Sintaxe Declarativa**: A abordagem declarativa significa que o desenvolvedor apenas define o resultado final esperado para a interface com base nos dados. O React abstrai todo o processo de manipulação direta do DOM.
 
 **Gerenciamento de Estado e Reatividade**
-O propósito central do React é manter a interface estritamente sincronizada com os dados da aplicação, os quais são definidos tecnicamente como "estado". Sempre que o estado sofre mutações — seja por ações do usuário ou pelo carregamento de dados externos —, a biblioteca re-renderiza automaticamente a UI para refletir essas mudanças. 
+O propósito central do React é manter a interface estritamente sincronizada com os dados da aplicação, os quais são definidos tecnicamente como "estado". Sempre que o estado sofre mutações, a biblioteca re-renderiza automaticamente a UI.
 
 ### **2. Inicialização do Projeto com Vite**
 

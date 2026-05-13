@@ -23,6 +23,8 @@ Devido ao JSX ser transpilado para JavaScript, algumas palavras reservadas não 
 
 **Transpilar**: <mark style="background: #ADCCFFA6;"> Processo de converter código-fonte de uma linguagem para outra  mantendo um nível de abstração similar.</mark> O processo de transpilação (feito pelo Vite) pega esse código JSX e o transforma em JavaScript padrão.
 
+![](../../../attachments/Pasted%20image%2020260513061152.png)
+
 ---
 ### **3. Listando itens**
 
