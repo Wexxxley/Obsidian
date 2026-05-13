@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_FrontEnd/4_React/1_Fundamentos/1_Introdução.md",
+                "file": "05_FrontEnd/4_React/1_Fundamentos/4_Event handlers e props.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Introdução"
+              "title": "4_Event handlers e props"
             }
           }
         ]
@@ -198,9 +198,12 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
-    "05_FrontEnd/4_React/1_Fundamentos/2_Componente.md",
+    "attachments/Pasted image 20260513064218.png",
+    "05_FrontEnd/4_React/1_Fundamentos/5_useState.md",
+    "05_FrontEnd/4_React/1_Fundamentos/4_Event handlers e props.md",
     "05_FrontEnd/4_React/1_Fundamentos/3_Component tree.md",
     "05_FrontEnd/4_React/1_Fundamentos/1_Introdução.md",
+    "05_FrontEnd/4_React/1_Fundamentos/2_Componente.md",
     "attachments/Pasted image 20260513061152.png",
     "05_FrontEnd/3_JavaScript/1_Introdução/7_DOM (Document Object Model).md",
     "05_FrontEnd/3_JavaScript/1_Introdução/6_Async await e fetch.md",
@@ -214,8 +217,6 @@
     "05_FrontEnd/3_JavaScript/1_Introdução/1_Introdução.md",
     "05_FrontEnd/3_JavaScript/1_Introdução/Untitled.md",
     "05_FrontEnd/3_JavaScript/1_Introdução/10_Multiplos estilos com um clique.md",
-    "05_FrontEnd/4_React/1_Fundamentos/4_Event handlers e props.md",
-    "05_FrontEnd/4_React/1_Fundamentos/5_useState.md",
     "05_FrontEnd/3_JavaScript/3_Node.js/3_Dotenv.md",
     "05_FrontEnd/3_JavaScript/3_Node.js/2_Gerenciamento de dependências.md",
     "05_FrontEnd/3_JavaScript/3_Node.js/1_Runtime e Módulos.md",
