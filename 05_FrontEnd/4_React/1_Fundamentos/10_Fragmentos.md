@@ -2,7 +2,7 @@
 #Concluded 
 
 ---
-Uma regra fundamental do JSX é que um componente deve retornar **um único elemento raiz**. 
+Uma regra fundamental do JSX é que um componente deve retornar um único elemento. 
 
 **Problema:** Até agora, temos envolvido os elementos `label` e `input` do componente `Search` dentro de uma `div`. Essa `div` extra é renderizada no DOM final. Em muitos casos, isso é inofensivo, mas pode quebrar layouts CSS  ou prejudicar a semântica HTML.
 ![](../../../attachments/Pasted%20image%2020251124151047.png)
