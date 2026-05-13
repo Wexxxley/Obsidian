@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_FrontEnd/4_React/1_Fundamentos/7_Componentes controlados.md",
+                "file": "06_Git and github/03_Fluxo inicial e commit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_Componentes controlados"
+              "title": "03_Fluxo inicial e commit"
             }
           }
         ]
@@ -198,8 +198,9 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
-    "05_FrontEnd/4_React/1_Fundamentos/10_Fragmentos.md",
+    "06_Git and github/02_Configurações e .git.md",
     "05_FrontEnd/4_React/1_Fundamentos/7_Componentes controlados.md",
+    "05_FrontEnd/4_React/1_Fundamentos/10_Fragmentos.md",
     "05_FrontEnd/4_React/1_Fundamentos/6_Callback handlers e lifting state.md",
     "05_FrontEnd/4_React/1_Fundamentos/5_useState.md",
     "05_FrontEnd/4_React/1_Fundamentos/4_Event handlers e props.md",
@@ -225,7 +226,6 @@
     "05_FrontEnd/3_JavaScript/3_Node.js/1_Runtime e Módulos.md",
     "05_FrontEnd/4_React/1_Fundamentos/8_useEffect.md",
     "05_FrontEnd/2_CSS/6_Configurações iniciais.md",
-    "05_FrontEnd/2_CSS/7_Positions.md",
     "attachments/Pasted image 20260509173229.png",
     "attachments/Pasted image 20260509172604.png",
     "attachments/Pasted image 20260506153730.png",
