@@ -243,3 +243,60 @@ Microempreendedores costumam ter celulares com pouco espaço. Salvar uma foto de
 
 - **Compressão e Redimensionamento:** Antes de salvar no Internal Storage, redimensione a imagem. Para um app de estoque, uma resolução de 800x800px costuma ser mais que suficiente.
     
+
+
+
+Você tocou no ponto central de qualquer app de gestão: a gestão de recebíveis. Essa tela é o "coração" financeiro
+  do usuário, e se ela for confusa, o app perde a utilidade.
+
+  Como você quer algo que seja global e escalável, aqui está uma análise de como podemos estruturar isso para que não
+  vire uma "bagunça" visual:
+
+  1. O Conceito das "Duas Visões"
+  Para resolver o problema das parcelas sem poluir o histórico, o ideal é pensar em duas abas ou filtros rápidos no
+  topo da tela:
+   * Vendas (Histórico): Lista cada venda como um evento único. Se eu vendi algo em 10x, aparece apenas um card de
+     "Venda Parcelada" com o valor total.
+   * Contas a Receber / Parcelas: Aqui é onde a mágica acontece. Em vez de listar a venda, listamos as parcelas
+     individuais que vencem hoje ou estão atrasadas.
+
+  2. O "Card Inteligente" (O componente global)
+  Para que o card funcione tanto na tela de Pedidos quanto nos Detalhes do Cliente, ele precisa ser adaptativo:
+
+   * Venda à Vista: Mostra o ícone de dinheiro/pix, valor total e tag "FINALIZADA".
+   * Venda Parcelada (No Histórico): Em vez de apenas o status, mostramos uma barra de progresso ou um texto
+     discreto: "2 de 5 pagas". Isso dá ao usuário uma noção imediata de quanto ele já recebeu daquela venda.
+   * Card de Parcela (Na visão de recebíveis): O foco muda. O destaque não é mais a data da venda, mas a Data de
+     Vencimento. Se estiver atrasada, o card ganha uma borda ou fundo levemente avermelhado.
+
+  3. A "Baixa" do Pagamento (UX)
+  Para facilitar a vida do usuário, a baixa não pode exigir que ele entre em 3 telas. Minha sugestão:
+   * Clique longo ou Botão Rápido: No card da parcela atrasada/pendente, um botão de "check" (✓) que abre um pequeno
+     BottomSheet ou Dialog perguntando: "Confirmar recebimento de R$ X no [Método de Pagamento]?". 
+   * Confirmou? O status da Installment muda para PAGA, a dataPagamento é preenchida e pronto.
+
+  4. O Desafio das Parcelas Atrasadas
+  O cérebro humano foca no que está em "perigo". Podemos ter um Resumo no Topo da tela de Pedidos:
+   * Um banner pequeno com: "Você tem R$ 450,00 em parcelas atrasadas" (em vermelho).
+   * Ao clicar nesse banner, a lista filtra automaticamente para mostrar apenas o que precisa de cobrança.
+
+  5. Como ficaria o Card (Visualmente):
+
+   1 // Imagine o Card assim:
+   2 ------------------------------------------
+   3 | [Ícone] Cliente: João Silva            |
+   4 | Data: 15/05/2026 | Valor: R$ 300,00    |
+   5 | -------------------------------------- |
+   6 | [Tag: Parcelado]   [Progresso: 1/3]    | <- Se for parcelado
+   7 | [Tag: Finalizada]                      | <- Se for à vista
+   8 ------------------------------------------
+
+  O detalhe mais complexo:
+  O que acontece se o cliente quiser pagar a parcela 3 antes da parcela 2? Ou se ele quiser pagar metade de uma
+  parcela?
+   * Minha recomendação: Para manter simples agora, vamos tratar cada parcela como um bloco único (ou paga tudo ou
+     não paga). Pagamentos parciais são um "buraco de coelho" de complexidade que podemos deixar para uma versão
+     futura.
+
+  O que você acha dessa divisão entre "Histórico de Vendas" e "Gestão de Parcelas"? Faz sentido para o seu fluxo?
+
