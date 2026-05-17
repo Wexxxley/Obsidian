@@ -244,25 +244,14 @@ Microempreendedores costumam ter celulares com pouco espaço. Salvar uma foto de
 - **Compressão e Redimensionamento:** Antes de salvar no Internal Storage, redimensione a imagem. Para um app de estoque, uma resolução de 800x800px costuma ser mais que suficiente.
     
 
-
-
-Você tocou no ponto central de qualquer app de gestão: a gestão de recebíveis. Essa tela é o "coração" financeiro
-  do usuário, e se ela for confusa, o app perde a utilidade.
-
-  Como você quer algo que seja global e escalável, aqui está uma análise de como podemos estruturar isso para que não
-  vire uma "bagunça" visual:
-
   1. O Conceito das "Duas Visões"
-  Para resolver o problema das parcelas sem poluir o histórico, o ideal é pensar em duas abas ou filtros rápidos no
-  topo da tela:
+  Para resolver o problema das parcelas sem poluir o histórico, o ideal é pensar em duas abas ou filtros rápidos no topo da tela:
    * Vendas (Histórico): Lista cada venda como um evento único. Se eu vendi algo em 10x, aparece apenas um card de
      "Venda Parcelada" com o valor total.
-   * Contas a Receber / Parcelas: Aqui é onde a mágica acontece. Em vez de listar a venda, listamos as parcelas
-     individuais que vencem hoje ou estão atrasadas.
+   * Contas a Receber / Parcelas: Aqui é onde a mágica acontece. Em vez de listar a venda, listamos as parcelas individuais que vencem hoje ou estão atrasadas.
 
   2. O "Card Inteligente" (O componente global)
   Para que o card funcione tanto na tela de Pedidos quanto nos Detalhes do Cliente, ele precisa ser adaptativo:
-
    * Venda à Vista: Mostra o ícone de dinheiro/pix, valor total e tag "FINALIZADA".
    * Venda Parcelada (No Histórico): Em vez de apenas o status, mostramos uma barra de progresso ou um texto
      discreto: "2 de 5 pagas". Isso dá ao usuário uma noção imediata de quanto ele já recebeu daquela venda.
