@@ -47,31 +47,118 @@ Na tela principal do tutor, o sistema deve oferecer três fluxos distintos para 
 
 ![](../attachments/Pasted%20image%2020260509173229.png)
 
+---
 
 
+Atue como um UI/UX Designer. Preciso que você crie a interface de um aplicativo mobile focado em tutores de pets (Marketplace de Cuidados Pet).
 
+**Diretrizes Visuais:**
+- **Estilo:** Protótipo de baixa fidelidade (Wireframe).
+- **Cores:** Utilize exclusivamente paletas acinzentadas (escala de cinza). O foco desta versão é a disposição dos elementos e a usabilidade, sem aplicação de cores finais ou identidade visual complexa.
 
+É UM APLICATIVO MOBILE. USE A PROPORÇÃO 9:16
 
+### Módulo de Autenticação
 
+**Tela de Login:**
+- Campo: E-mail
+- Campo: Senha
+- Botão: Entrar
+- Link: Esqueci minha senha
+- Link: Criar nova conta
 
+**Tela de Registro:**
+- Campo: Nome completo
+- Campo: E-mail
+- Campo: Telefone
+- Campo: Senha
+- Campo: Confirmar senha
+- Botão: Cadastrar
 
+### Módulo de Gestão de Pets
 
+**Tela de Lista de Pets:**
+- Cards dos pets cadastrados (Foto, Nome, Espécie)
+- Botão flutuante: Adicionar novo pet    
 
+**Tela de Cadastro de Pet:**
+- Upload: Foto do pet
+- Campo: Nome
+- Seleção: Espécie (Cão/Gato)
+- Campo: Raça
+- Seleção: Porte (Pequeno, Médio, Grande)
+- Seleção: Nível de energia (Baixo, Médio, Alto)
+- Seleção: Sociabilidade
+- Campo de texto: Restrições alimentares
+- Campo de texto: Necessidades médicas
+- Botão: Salvar Pet
 
+### Módulo Principal
 
+**Tela Home (Dashboard):**
+- Header: Saudação e foto do tutor
+- Card de Status: Hospedagens ativas ou em andamento
+- Botão principal 1: Criar Demanda Aberta (Publicar vaga)
+- Botão principal 2: Explorar Cuidadores (Busca ativa)
 
+### Módulo de Demanda Aberta (Opção A)
 
+**Tela de Criação de Demanda:**
+- Seleção: Escolher pet cadastrado
+- Campos de Data/Hora: Check-in (Entrega)
+- Campos de Data/Hora: Check-out (Retirada)
+- Campo de texto: Orientações para o período
+- Campo: Orçamento base sugerido (R$)
+- Botão: Publicar Demanda
 
+**Tela de Gestão de Lances:**
+- Lista de propostas recebidas
+- Dados do Card de Lance: Foto do cuidador, Nome, Nota (Avaliação), Valor cobrado
+- Ações no Card: Botão "Ver Perfil" e Botão "Aceitar Lance"
+### Módulo de Busca Ativa (Opção B)
 
+**Tela de Catálogo (Busca):**
+- Barra de pesquisa
+- Filtros: Distância, Nota mínima, Espécie aceita
+- Lista de cuidadores disponíveis
+- Dados do Card de Cuidador: Foto, Nome, Nota, Bairro, Preço médio
+- Ação no Card: Clicar para ver o perfil
 
+**Tela de Perfil do Cuidador:**
+- Header: Foto, Nome, Selo de Verificado (se assinante)
+- Métricas: Nota média, Total de serviços concluídos
+- Galeria: Fotos do ambiente doméstico
+- Seção: Lista de avaliações em texto de outros tutores
+- Botão fixo inferior: Enviar Proposta Direta
 
+**Tela de Envio de Proposta Direta:**
+- Seleção: Escolher pet cadastrado
+- Campos de Data/Hora: Check-in
+- Campos de Data/Hora: Check-out
+- Campo: Valor oferecido (R$)
+- Botão: Enviar Proposta
 
+### Módulo de Acompanhamento
 
+**Tela de Notificações:**
+- Lista de alertas (ex: "Novo lance recebido", "Reserva confirmada", "Lembrete de check-in")    
 
+**Tela de Chat Interno:**
+- Header: Nome do cuidador e Status da reserva
+- Área de rolagem: Balões de mensagens
+- Barra inferior: Campo de digitação
+- Ação: Botão de anexo (para fotos)
+- Ação: Botão de enviar
+### Módulo Financeiro
 
+**Tela de Assinatura (Plano Tutor):**
+- Lista de Benefícios: "10% de desconto em transações", "Mais fotos garantidas"
+- Card de Opção: Mensal (R$ 15,00)    
+- Card de Opção: Semestral
+- Botão: Assinar Plano
 
-
-
-
-
-
+**Tela de Checkout (Pagamento):**
+- Resumo: Datas, Pet e Cuidador escolhido
+- Discriminação de valores: Valor do serviço, Taxa da plataforma, Desconto (se assinante), Total a pagar
+- Seleção: Método de pagamento (Cartão de Crédito, PIX)
+- Botão: Confirmar Contratação
