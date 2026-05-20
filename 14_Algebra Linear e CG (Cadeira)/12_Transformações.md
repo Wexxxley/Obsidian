@@ -23,7 +23,6 @@ $$M_{final} = M_{translacao} \cdot M_{rotacao} \cdot M_{escala}$$
 O resultado é uma única matriz $4 \times 4$ que, ao ser multiplicada por um ponto, muda o tamanho, gira e move o objeto para o lugar certo de uma vez só 
 
 **E para retornar ao valor anterior?**
-
 Para retornar um ponto transformado ($P_{novo}$) ao seu estado original ($P_{original}$), você precisa multiplicar este ponto pela matriz inversa da transformação denotada como $M_{final}^{-1}$.
 
 Se a sua matriz final é definida por $M_{final} = M_{translacao} \cdot M_{rotacao} \cdot M_{escala}$, a matriz inversa composta será:

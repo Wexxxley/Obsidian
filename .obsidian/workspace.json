@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Aleatorios/Proposta de Startup.md",
+                "file": "14_Algebra Linear e CG (Cadeira)/12_Transformações.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proposta de Startup"
+              "title": "12_Transformações"
             }
           }
         ]
@@ -198,11 +198,11 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "16_Aleatorios/Proposta de Startup.md",
     "16_Aleatorios/Anota Smart - Requisitos.md",
     "16_Aleatorios/Anota Smart - Milestones.md",
     "16_Aleatorios/AcessoClin - Requisitos.md",
     "05_FrontEnd/4_React/1_Fundamentos/1_Introdução.md",
-    "16_Aleatorios/Proposta de Startup.md",
     "06_Git and github/03_Fluxo inicial e commit.md",
     "06_Git and github/02_Configurações e .git.md",
     "05_FrontEnd/4_React/1_Fundamentos/7_Componentes controlados.md",
