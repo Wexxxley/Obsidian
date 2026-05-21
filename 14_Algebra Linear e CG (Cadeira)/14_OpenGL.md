@@ -35,7 +35,7 @@ A função `gluLookAt` é uma das mais importantes. Ela recebe 9 parâmetros, di
 ```
 gluLookAt(
     0.0, 0.0, 5.0,  // Posição da Câmera (Eye)
-    0.0, 0.0, 0.0,  // Ponto para onde olha (Center - Origem)
+    0.0, 0.0, 0.0,  // Ponto para onde olha
     0.0, 1.0, 0.0   // Vetor Up apontando para o Y positivo
 );
 ```
