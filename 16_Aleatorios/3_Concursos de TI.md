@@ -27,7 +27,5 @@ Praticamente todos os editais se baseiam nestes pilares, mas a proporção entre
 - É preciso analisar os últimos editais e identificar se o órgão tem um perfil mais voltado para **Desenvolvimento** ou **Infraestrutura/Suporte**. 
 
 ### **4. Ordem de estudo**
-
 - O maior erro é começar pelas matérias básicas (Português, Direito). Você deve **começar pelos Conhecimentos Específicos**. Somente após fechar o conteúdo de TI, você deve migrar para as básicas, pois estas variam muito de um órgão para outro.
-
 - **Priorização por Peso:** Dentro da TI, você deve identificar qual dos quatro eixos temáticos é o mais cobrado nos concursos que você escolheu.
