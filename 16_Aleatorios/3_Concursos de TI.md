@@ -32,15 +32,18 @@ Praticamente todos os editais se baseiam nestes pilares, mas a proporção entre
 
 
 ---
+![](../attachments/Pasted%20image%2020260526085936.png)
 
-1. Redação dissertativa argumentativa
-2. Português
-3. Revisão de documentos.
-4. Legislação e Ética no Serviço Público (Lei Seca)
-5. Gestão Documental, Arquivologia e Protocolo.
-6. Administração Pública e Serviços Administrativos
-7. Raciocínio Lógico
-8. Atendimento ao Público, Comunicação Institucional e Ferramentas aplicadas ao Trabalho Técnico-Legislativo
+1. Redação dissertativa argumentativa. (TENHO CONTEUDO)
+2. Português (TENHO CONTEUDO)
+3. Raciocínio Lógico
+4. Legislação e Ética no Serviço Público (Lei Seca).
+
+5. Revisão de documentos. 
+6. Gestão Documental, Arquivologia e Protocolo. (TENHO CONTEUDO)
+7. Administração Pública e Serviços Administrativos
+8. Processo Legislativo e Organização do Poder Legislativo
+9. Atendimento ao Público, Comunicação Institucional e Ferramentas aplicadas ao Trabalho Técnico-Legislativo
 
 ## 2.1. CONHECIMENTOS GERAIS
 ### Língua Portuguesa
@@ -53,7 +56,6 @@ Praticamente todos os editais se baseiam nestes pilares, mas a proporção entre
     - 1.5. Equivalência e transformação de estruturas.
     - 1.6. Linguagem verbal e não verbal: ícone, índice e símbolo.
     - 1.7. Modalizadores discursivos.
-        
 2. **Sintaxe e construção frasal:**
     - 2.1. Sintaxe: processos de coordenação e subordinação.
     - 2.2. Emprego de tempos e modos verbais.
@@ -62,16 +64,13 @@ Praticamente todos os editais se baseiam nestes pilares, mas a proporção entre
     - 2.5. Regência nominal e verbal.
     - 2.6. Pronomes: emprego, formas de tratamento e colocação.
     - 2.7. Sintaxe do período simples e composto.
-        
 3. **Morfologia e estrutura das palavras:**
     - 3.1. Estrutura e formação de palavras.
     - 3.2. Funções das classes de palavras.
     - 3.3. Flexão nominal e verbal.
-        
 4. **Norma-padrão da língua portuguesa:**
     - 4.1. Ortografia oficial.
     - 4.2. Acentuação gráfica.
-        
 ### Raciocínio Lógico
 1. **Estruturas lógicas e dedução:**   
     - 1.1. Estrutura lógica de relações arbitrárias entre pessoas, lugares, objetos ou eventos fictícios.
