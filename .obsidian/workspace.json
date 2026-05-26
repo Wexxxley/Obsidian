@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -198,6 +199,7 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260526140504.png",
     "17_Aleatorios/3_Concursos de TI.md",
     "16_Redação/1_Introdução.md",
     "16_Redação",
@@ -228,7 +230,6 @@
     "attachments/Pasted image 20260513061152.png",
     "05_FrontEnd/3_JavaScript/1_Introdução/7_DOM (Document Object Model).md",
     "05_FrontEnd/3_JavaScript/1_Introdução/6_Async await e fetch.md",
-    "05_FrontEnd/3_JavaScript/1_Introdução/5_Callback and promisse.md",
     "attachments/Pasted image 20260509173229.png",
     "attachments/Pasted image 20260509172604.png",
     "attachments/Pasted image 20260506153730.png",
