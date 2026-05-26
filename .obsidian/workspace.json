@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Redação/1_Introdução.md",
+                "file": "16_Redação/2_Introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Introdução"
+              "title": "2_Introdução"
             }
           }
         ]
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -199,10 +198,15 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260526144234.png",
+    "attachments/Pasted image 20260526144200.png",
+    "16_Redação/1_Introdução.md",
+    "attachments/Pasted image 20260526144110.png",
+    "16_Redação/2_Introdução.md",
+    "attachments/Pasted image 20260526143529.png",
     "attachments/Pasted image 20260526141557.png",
     "attachments/Pasted image 20260526140504.png",
     "17_Aleatorios/3_Concursos de TI.md",
-    "16_Redação/1_Introdução.md",
     "16_Redação",
     "attachments/Pasted image 20260526085936.png",
     "11_Português/AssuntosPortugues.png",
@@ -230,12 +234,7 @@
     "05_FrontEnd/4_React/1_Fundamentos/2_Componente.md",
     "attachments/Pasted image 20260513061152.png",
     "05_FrontEnd/3_JavaScript/1_Introdução/7_DOM (Document Object Model).md",
-    "05_FrontEnd/3_JavaScript/1_Introdução/6_Async await e fetch.md",
     "attachments/Pasted image 20260509173229.png",
-    "attachments/Pasted image 20260509172604.png",
-    "attachments/Pasted image 20260506153730.png",
-    "attachments/Pasted image 20260506152250.png",
-    "attachments/Pasted image 20260506081512.png",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",

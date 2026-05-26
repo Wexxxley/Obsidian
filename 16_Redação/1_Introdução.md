@@ -15,6 +15,6 @@ O objetivo central desse formato é persuadir o leitor da validade de uma tese (
 Se falou de impacto, no desenvolvimento 1 e 2 teremos que falar de consequências do problema.
 
 **Estrutura padrão:**
-![](../attachments/Pasted%20image%2020260526141557.png)
+![](../attachments/Pasted%20image%2020260526144110.png)
 
 
