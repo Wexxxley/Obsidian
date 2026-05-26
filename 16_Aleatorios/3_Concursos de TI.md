@@ -34,10 +34,14 @@ Praticamente todos os editais se baseiam nestes pilares, mas a proporção entre
 ---
 
 1. Redação dissertativa argumentativa
-2. Revisão de documentos.
-3. Legislação e Ética no Serviço Público.
-4. Gestão Documental, Arquivologia e Protocolo.
-5. Administração Pública e Serviços Administrativos
+2. Português
+3. Revisão de documentos.
+4. Legislação e Ética no Serviço Público (Lei Seca)
+5. Gestão Documental, Arquivologia e Protocolo.
+6. Administração Pública e Serviços Administrativos
+7. Raciocínio Lógico
+8. Atendimento ao Público, Comunicação Institucional e Ferramentas aplicadas ao Trabalho Técnico-Legislativo
+
 ## 2.1. CONHECIMENTOS GERAIS
 ### Língua Portuguesa
 
