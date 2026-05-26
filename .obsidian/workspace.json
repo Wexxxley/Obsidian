@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Redação/2_Introdução.md",
+                "file": "17_Arquivologia/1_Arquivo e documento.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Introdução"
+              "title": "1_Arquivo e documento"
             }
           }
         ]
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -198,29 +199,34 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260526184458.png",
+    "attachments/Pasted image 20260526184036.png",
+    "attachments/Pasted image 20260526183903.png",
+    "attachments/Pasted image 20260526183835.png",
+    "18_Aleatorios/3_Concursos de TI.md",
+    "17_Arquivologia/1_Arquivo e documento.md",
+    "17_Arquivologia",
+    "16_Redação/1_Introdução.md",
+    "16_Redação/2_Introdução.md",
     "attachments/Pasted image 20260526144234.png",
     "attachments/Pasted image 20260526144200.png",
-    "16_Redação/1_Introdução.md",
     "attachments/Pasted image 20260526144110.png",
-    "16_Redação/2_Introdução.md",
     "attachments/Pasted image 20260526143529.png",
     "attachments/Pasted image 20260526141557.png",
     "attachments/Pasted image 20260526140504.png",
-    "17_Aleatorios/3_Concursos de TI.md",
     "16_Redação",
     "attachments/Pasted image 20260526085936.png",
-    "11_Português/AssuntosPortugues.png",
-    "17_Aleatorios/2_Técnica simples de estudo.md",
-    "17_Aleatorios/Proposta de Startup.md",
-    "17_Aleatorios/INPI, RPI.md",
-    "17_Aleatorios/Pedido de crenciais GIT.md",
+    "18_Aleatorios/2_Técnica simples de estudo.md",
+    "18_Aleatorios/Proposta de Startup.md",
+    "18_Aleatorios/INPI, RPI.md",
+    "18_Aleatorios/Pedido de crenciais GIT.md",
     "14_Algebra Linear e CG (Cadeira)/12_Transformações.md",
     "16_Aleatorios/video 1 anotaSmart.md",
     "14_Algebra Linear e CG (Cadeira)/14_OpenGL.md",
     "14_Algebra Linear e CG (Cadeira)/8_Vetores.md",
-    "17_Aleatorios/Anota Smart - Requisitos.md",
-    "17_Aleatorios/Anota Smart - Milestones.md",
-    "17_Aleatorios/AcessoClin - Requisitos.md",
+    "18_Aleatorios/Anota Smart - Requisitos.md",
+    "18_Aleatorios/Anota Smart - Milestones.md",
+    "18_Aleatorios/AcessoClin - Requisitos.md",
     "05_FrontEnd/4_React/1_Fundamentos/1_Introdução.md",
     "06_Git and github/03_Fluxo inicial e commit.md",
     "06_Git and github/02_Configurações e .git.md",
@@ -229,12 +235,8 @@
     "05_FrontEnd/4_React/1_Fundamentos/6_Callback handlers e lifting state.md",
     "05_FrontEnd/4_React/1_Fundamentos/5_useState.md",
     "05_FrontEnd/4_React/1_Fundamentos/4_Event handlers e props.md",
-    "attachments/Pasted image 20260513064218.png",
     "05_FrontEnd/4_React/1_Fundamentos/3_Component tree.md",
     "05_FrontEnd/4_React/1_Fundamentos/2_Componente.md",
-    "attachments/Pasted image 20260513061152.png",
-    "05_FrontEnd/3_JavaScript/1_Introdução/7_DOM (Document Object Model).md",
-    "attachments/Pasted image 20260509173229.png",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
@@ -243,7 +245,6 @@
     "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids",
     "07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução",
     "07_Mobile (Cadeira)/2_Jetpack Compose",
-    "16_Mobile/2_Imperativo",
     "Sem título.canvas"
   ]
 }
