@@ -57,4 +57,4 @@ Tese explicita na introdução, duas causas:
 
 Tese implicita na introdução, duas consequências:
 ![](../attachments/Pasted%20image%2020260527150411.png)
-
+![](../attachments/Pasted%20image%2020260527151936.png)
