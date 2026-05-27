@@ -4,9 +4,9 @@
 ---
 
 **Quanto aos estágios de evolução:** Arquivos que guardam documentos...
-1. **Correntes/1°idade:** mais novos que ainda estão sendo resolvidos.
-2. **Intermediários/2°idade:** que já foram resolvidos mas podem ser questionados.
-3. **Permanentes/3°idade:** pelo seu valor histórico.
+1. **Corrente/1°idade:** mais novos que ainda estão sendo resolvidos, frequentemente consultados. Normalmente ficam junto ao setor ou próximo
+2. **Intermediário/temporário/2°idade:** que já foram resolvidos mas podem ser questionados. Não tem necessidade de ser intalado junto à instituição, normalmente são galpões, por questões de espaço e aconomia. Podem ser chamados de Limbo ou Purgatório. 
+3. **Permanente/3°idade:** que perderam valor administrativo e ganharam valor histórico. Nunca são eliminados e não possuem restrição de acesso.
 
 **Quanto à entidade mantenedora:** 
 1. **Públicos**: arquivos de órgãos e entidades públicas. (NÃO NECESSARIAMENTE ABERTO AO PÚBLICO)
