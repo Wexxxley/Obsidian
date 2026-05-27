@@ -6,7 +6,7 @@
 
 ---
 
-### **Causas**
+### **Causas e consequências**
 #### **1° Falta de investimento/infraestrutura precária**
 
 Em 1808, ao chegar ao Rio de Janeiro, a família real, com o intuito de modernizar a cidade para o seu próprio proveito, construiu muitos ambientes além de fornecer capital para a criação de futuros projetos. No entanto, desde o século xix, tais investimentos ocorreram apenas nos grandes centros populacionais do país.  
@@ -60,54 +60,31 @@ Habermas, filósofo da escola de Frankfurt, em sua “Teoria do agir comunicativ
 #### **11° Sensação de superioridade**
 
 A Teoria da Eugenia, criada no século XIX e utilizada como base das ideias nazistas, defende que existem “raças’’ humanas superiores às outras, de acordo com suas características. 
-  
 #### **12° Sistema capitalista/excessiva busca pelo lucro/priorização de interesses financeiros**
 
 A obsolescência programada foi criada pela empresa General Motors, a qual buscava atrair os consumidores a fazerem constantes substituições de produtos, tendo como apelo a mudança anual de modelos e acessórios de seus produtos.
-  
-13° Consumismo
+
+#### **13° Consumismo**
 
 Após o fim da Guerra Fria, em 1990, e o estabelecimento do capitalismo em praticamente todo o mundo, as empresas passaram a utilizar cada vez mais dos meios midiáticos e da tecnologia para promoverem seus produtos de maneira direcionada e flexibilizada aos consumidores.
 
-  
+Segundo Demócrito, filósofo pré-socrático da Grécia antiga, "O Animal é tão ou mais sábio do que o homem: conhece a medida da sua necessidade, enquanto o homem a ignora".
 
- Segundo Demócrito, filósofo pré-socrático da Grécia antiga, "O Animal é tão ou mais sábio do que o homem: conhece a medida da sua necessidade, enquanto o homem a ignora".
+#### **14° Alienação**
 
-  
+A filósofa alemã Hannah Arendt, em "Banalidade do mal", refletiu sobre o resultado do processo de massificação da sociedade, o qual forma os indivíduos incapazes de realizar julgamentos morais, tornando-se alienados e aceitando a situações sem questionar.
 
-14° Alienação
+Adorno e Horkheimer, filósofos da escola de Frankfurt, utilizavam o termo "Indústria cultural" para designar a indústria de diversão de massa, veiculada por televisão, cinema, músicas, propagandas, que busca a homogeneização dos comportamentos e a massificação das pessoas.
 
-  
+Joseph Goebbels, ministro de propagandas de Adolf Hitler, afirmou que uma mentira repetida mil vezes torna-se verdade.
 
- A filósofa alemã Hannah Arendt, em "Banalidade do mal", refletiu sobre o resultado do processo de massificação da sociedade, o qual forma os indivíduos incapazes de realizar julgamentos morais, tornando-se alienados e aceitando a situações sem questionar.
+#### **15° Passividade social(A sociedade não se movimenta para reivindicar direitos)**
 
-  
+Joe Biden, ex-presidente dos Estados Unidos, afirma que nenhuma mudança social ocorre simplesmente porque o governo age, mas, sim, porque a sociedade civil começa a se manifestar e exigir mudanças".
 
- Adorno e Horkheimer, filósofos da escola de Frankfurt, utilizavam o termo "Indústria cultural" para designar a indústria de diversão de massa, veiculada por televisão, cinema, músicas, propagandas, que busca a homogeneização dos comportamentos e a massificação das pessoas.
+#### **16° Resistência a mudanças**
 
-  
-
- Joseph Goebbels, ministro de propagandas de Adolf Hitler, afirmou que uma mentira repetida mil vezes torna-se verdade.
-
-  
-
-15° Passividade social(A sociedade não se movimenta para reivindicar direitos)
-
-  
-
- Joe Biden, ex-presidente dos Estados Unidos, afirma que nenhuma mudança social ocorre simplesmente porque o governo age, mas, sim, porque a sociedade civil começa a se manifestar e exigir mudanças".
-
-16° Resistência a mudanças
-
-  
-
- George Bernard, jornalista inlandes, afirmou que o progresso é impossível sem mudança, e aqueles que não conseguem mudar as suas mentes estão fadados a viver estagnados.
-
-  
-
-17° Banalização
+George Bernard, jornalista inlandes, afirmou que o progresso é impossível sem mudança, e aqueles que não conseguem mudar as suas mentes estão fadados a viver estagnados.
+#### **17° Banalização**
 
  A “Atitude Blasé”, termo proposto pelo sociólogo Georg Simmel, ocorre quando o indivíduo passa a agir com indiferença em meio às situações que ele deveria dar a devida atenção.
-
-  
-**
