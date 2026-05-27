@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -199,6 +198,9 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "17_Arquivologia/2_Classificaçação dos arquivos.md",
+    "attachments/Pasted image 20260527071950.png",
+    "17_Arquivologia/1_Arquivo e documento.md",
     "attachments/Pasted image 20260526193940.png",
     "attachments/Pasted image 20260526192834.png",
     "attachments/Pasted image 20260526191816.png",
@@ -208,10 +210,7 @@
     "attachments/Pasted image 20260526185214.png",
     "attachments/Pasted image 20260526184458.png",
     "attachments/Pasted image 20260526184036.png",
-    "attachments/Pasted image 20260526183903.png",
-    "attachments/Pasted image 20260526183835.png",
     "18_Aleatorios/3_Concursos de TI.md",
-    "17_Arquivologia/1_Arquivo e documento.md",
     "17_Arquivologia",
     "16_Redação/1_Introdução.md",
     "16_Redação/2_Introdução.md",
@@ -236,7 +235,6 @@
     "05_FrontEnd/4_React/1_Fundamentos/5_useState.md",
     "05_FrontEnd/4_React/1_Fundamentos/4_Event handlers e props.md",
     "05_FrontEnd/4_React/1_Fundamentos/3_Component tree.md",
-    "05_FrontEnd/4_React/1_Fundamentos/2_Componente.md",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
