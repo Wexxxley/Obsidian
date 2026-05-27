@@ -1,4 +1,5 @@
 
+#Concluded 
 
 
 ---
@@ -24,6 +25,9 @@ Existe uma legislação que **exige que todo órgão público tenha esse control
 - Documentos cujos textos ou elementos essenciais estiverem reproduzidos em outros documentos. Como cópias.
 - Documentos de pura formalidade, como convites, cartas de agradecimento.
 - Documentos absoletos.
+
+![](../attachments/Pasted%20image%2020260527094414.png)
+![](../attachments/Pasted%20image%2020260527094430.png)
 
 ---
 
