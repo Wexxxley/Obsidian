@@ -92,86 +92,96 @@ George Bernard, jornalista inlandes, afirmou que o progresso é impossível sem 
 
 ---
 
-#### **Macroeixo 1: A Falha Estatal e a Omissão do Poder Público**
+### Macroeixo 1: A Falha Estatal e a Omissão do Poder Público
 
-Este eixo deve ser acionado em suas teses sempre que o problema for gerado ou agravado pela negligência do Estado, seja pela ausência de investimentos práticos, seja por falhas na legislação.
+**1. Falta de investimento / Infraestrutura precária**
 
-**1° Falta de investimento e infraestrutura precária**
+- A chegada da Família Real ao Brasil, em 1808, iniciou uma modernização urbana focada apenas na capital. Esse marco exemplifica a lógica estatal de concentrar recursos nos grandes centros, negando infraestrutura e capital às regiões periféricas.
 
-O processo de urbanização no Brasil ocorreu de forma profundamente desigual. Um marco dessa assimetria foi a chegada da Corte Portuguesa ao Rio de Janeiro em 1808. Para atender às necessidades da realeza, o ambiente urbano passou por modernizações e recebeu investimentos maciços. Contudo, essa injeção de capital concentrou-se apenas nos grandes centros urbanos, uma lógica que perdura até a atualidade, deixando regiões periféricas submetidas a infraestruturas básicas.
+**2. Lacuna legislativa / Falta de regulamentação**
 
-### Lacuna legislativa e ineficácia das leis
+- Para Gilberto Dimenstein, em "O Cidadão de Papel", a legislação do país sofre de uma grave ineficiência ao não se converter em ações práticas. Esse fenômeno gera uma cidadania utópica, na qual o sujeito possui direitos resguardados no texto constitucional, mas vive à margem do amparo estatal na realidade concreta.
 
-A ineficácia legal no país pode ser compreendida sob a ótica do jornalista Gilberto Dimenstein. Em sua obra "O Cidadão de Papel", o autor postula que, embora a legislação nacional seja extensa e moderna nos documentos oficiais, ela frequentemente não se materializa no cotidiano da população. Isso desencadeia uma realidade de amparo fictício, na qual os indivíduos possuem garantias constitucionais que são ignoradas pelo Estado na prática.
+**3. Base educacional lacunar / Falhas no sistema educacional**
 
-### Base educacional lacunar e falhas no sistema de ensino
+- Conforme defendia Nelson Mandela, o ensino tem um papel de mudança direta no mundo. Dessa forma, a educação não é apenas uma questão de aprendizado, mas a arma principal do Estado para combater a desigualdade social e garantir oportunidades justas para todos.
+    
+- O economista britânico William Lewis postula que os gastos destinados à educação nunca devem ser encarados como despesas. Na verdade, tratam-se de investimentos estatais fundamentais que garantem um retorno socioeconômico garantido.
 
-A precariedade do sistema de ensino afeta diretamente o desenvolvimento social e a resolução de crises estruturais. Conforme defendia o líder sul-africano Nelson Mandela, a educação possui uma função social transformadora, sendo o principal instrumento capaz de desarticular desigualdades sistêmicas. Complementarmente, a visão do economista britânico William Lewis corrobora a premissa de que os recursos destinados ao ensino não devem ser encarados pelo Estado como despesas, mas sim como investimentos fundamentais que garantem um retorno socioeconômico seguro para a nação.
+### Macroeixo 2: A Herança Histórica e Cultural
 
-## Macroeixo 2: A Herança Histórica e Cultural
+**4. Preconceito / Estigma social**
 
-Este eixo agrupa as causas relacionadas a comportamentos discriminatórios e mentalidades atrasadas que se perpetuam na sociedade brasileira ao longo dos séculos.
+ - O Darwinismo Social, no século XIX, defendia a falsa premissa de que existiriam raças humanas superiores. Esse conceito elucida como o preconceito adquiriu um caráter científico para justificar a dominação de indivíduos menos favorecidos.
 
-### Preconceito e estigma social
+**5. Herança cultural e histórica**
 
-O estigma social contemporâneo encontra raízes em ideologias do século XIX, como o Darwinismo Social. Essa pseudociência propagava a crença infundada de que existiriam raças humanas biologicamente e intelectualmente superiores a outras. Dessa forma, o preconceito adquiriu, à época, um falso viés científico, sendo utilizado pelo poder dominante como uma justificativa para a dominação, a exploração e a marginalização de grupos menos favorecidos — um reflexo discriminatório que ainda reverbera nas estruturas sociais de hoje.
+- Segundo o filósofo espanhol George Santayana, a incapacidade de lembrar e compreender o passado condena a sociedade a repetir suas falhas sucessivamente, perpetuando problemáticas históricas nas gerações presentes.
+    
+- Conforme o filósofo John Locke, o ser humano nasce como uma "folha em branco". Ao longo da vida, o indivíduo é inexoravelmente moldado, formando sua personalidade a partir das experiências e da herança cultural a qual é submetido.
+    
+- O sociólogo brasileiro Darcy Ribeiro aponta que a formação do Brasil carrega uma perversidade natural em sua herança. Essa matriz histórica explica a manutenção de ciclos de desigualdade e atitudes opressoras na atualidade.
 
-### Sensação de superioridade e intolerância
+**6. Sensação de superioridade**
 
-Semelhante ao Darwinismo Social, a Teoria da Eugenia, desenvolvida no século XIX e posteriormente apropriada de forma radical por regimes totalitários como o nazismo, baseava-se na premissa de hierarquização biológica dos seres humanos de acordo com suas características físicas. Essa mentalidade histórica de superioridade racial e genética continua a se manifestar subliminarmente no corpo social por meio da intolerância a minorias e do racismo estrutural.
+- A Teoria da Eugenia, do século XIX, pregava a hierarquização biológica dos seres humanos de acordo com suas características, servindo de base ao nazismo. Essa mentalidade fundamenta a intolerância e a noção falaciosa de superioridade racial.
 
-### Herança cultural enraizada
+### Macroeixo 3: O Comportamento Social e as Relações Interpessoais
 
-A perpetuação de problemáticas sociais está diretamente atrelada à incapacidade de aprender com os erros do passado. Conforme a linha de pensamento do filósofo espanhol George Santayana, o desconhecimento da própria história condena a sociedade a repetir indefinidamente suas falhas. Essa formação do sujeito — que, segundo o empirismo do filósofo John Locke, ocorre a partir de suas vivências e experiências contínuas — é severamente impactada no Brasil por um processo de formação nacional que, como apontado pelo sociólogo Darcy Ribeiro, carrega uma perversidade estrutural herdada do período colonial.
+**7. Formação familiar / Negligência familiar**
 
-## Macroeixo 3: O Comportamento Social e as Relações Interpessoais
+- Para o sociólogo Émile Durkheim, a "socialização primária" — ocorrida na infância e no núcleo familiar — é definitiva para o desenvolvimento intelectual e social. Logo, falhas nessa etapa comprometem toda a conduta do indivíduo em sociedade.
 
-Utilize este eixo quando a própria sociedade for a responsável pela manutenção do problema, seja por omissão, ignorância, falta de debate ou omissão na educação familiar.
+**8. Silenciamento / Falta de debates**
 
-### Banalização e indiferença frente ao problema
+- Na "Teoria do Agir Comunicativo", o filósofo Jürgen Habermas defende que a democracia e a resolução de problemas exigem o consenso e o debate. Portanto, o silenciamento de pautas relevantes impede a elaboração de soluções sociais efetivas.
 
-A normalização de problemas graves pode ser explicada pelo conceito de "Atitude Blasé", formulado pelo sociólogo alemão Georg Simmel. Esse fenômeno sociológico ocorre quando o indivíduo moderno, sobrecarregado de estímulos e rotinas exaustivas, passa a agir com indiferença e letargia diante de situações críticas que deveriam exigir a sua total atenção, tornando a sociedade passiva perante injustiças.
+**9. Alienação**
 
-### Alienação e massificação do pensamento
+- Em "A Banalidade do Mal", a filósofa Hannah Arendt reflete que a massificação forma indivíduos alienados e incapazes de realizar julgamentos morais, levando a sociedade a aceitar situações de injustiça sem qualquer questionamento.
+    
+- Os filósofos Adorno e Horkheimer criaram o termo "Indústria Cultural" para descrever como a mídia de massa busca a homogeneização dos comportamentos, promovendo a alienação e a massificação acrítica das pessoas.
+    
+- O ministro da propaganda nazista, Joseph Goebbels, afirmava que uma mentira repetida mil vezes torna-se verdade. Esse raciocínio ilustra como a alienação coletiva pode ser fabricada pela manipulação constante da informação.
 
-A alienação social é um reflexo direto da perda do pensamento crítico. A filósofa alemã Hannah Arendt, em suas formulações sobre a "Banalidade do Mal", argumenta que a massificação da sociedade molda indivíduos incapazes de realizar julgamentos morais profundos, levando-os a aceitar ordens e situações de opressão sem qualquer questionamento. Esse cenário de manipulação é reforçado por táticas históricas de controle de massa — como as utilizadas por líderes totalitários —, baseadas na premissa de que a repetição constante de uma inverdade é capaz de transformá-la em uma verdade absoluta para uma população não questionadora.
+**10. Passividade social**
 
-### Passividade social e falta de reivindicações
+- O político Joe Biden argumenta que nenhuma mudança ocorre simplesmente pela ação governamental, mas sim quando a sociedade civil passa a se manifestar. Logo, a passividade social é um entrave direto para a reivindicação e conquista de direitos.
 
-A ausência de protestos e reivindicações por parte da população retarda as transformações urgentes. Conforme defendem analistas políticos contemporâneos, as mudanças estruturais não ocorrem unicamente por iniciativa benevolente do poder público, mas dependem fundamentalmente da manifestação contínua da sociedade civil. Contudo, essa mobilização é frequentemente paralisada pela crônica falta de confiança dos cidadãos nas instituições democráticas e de controle.
+**11. Resistência a mudanças**
 
-### Silenciamento e ausência de debates
+- O jornalista George Bernard Shaw afirmava que o progresso é impossível sem mudança. Indivíduos e coletividades que não conseguem alterar as próprias mentalidades estão irremediavelmente fadados a viver estagnados.
 
-A falta de diálogo qualificado é um vetor de agravamento de crises sociopolíticas. O filósofo Jürgen Habermas, em sua "Teoria do Agir Comunicativo", postula que a consolidação da democracia e a resolução de divergências coletivas dependem intrinsecamente do debate racional e da busca ativa pelo consenso. Sendo assim, o silenciamento de pautas relevantes inviabiliza a resolução efetiva das demandas sociais.
+**12. Banalização**
 
-### Resistência a mudanças
+- A "Atitude Blasé", proposta pelo sociólogo Georg Simmel, ocorre quando o indivíduo age com indiferença diante de situações que exigiriam sua atenção. O termo ilustra a apatia da sociedade atual frente à gravidade dos problemas coletivos.
 
-A estagnação do corpo social deriva da dificuldade sistemática em romper velhos paradigmas. Como apontado pelo pensamento crítico de jornalistas e teóricos como George Bernard Shaw, o progresso é um fenômeno inatingível sem que haja alteração de cenários e comportamentos. Indivíduos e sociedades que se recusam a modificar as próprias mentalidades estão, invariavelmente, fadados ao atraso.
+### Macroeixo 4: A Lógica de Mercado e as Desigualdades Estruturais
 
-### Negligência na formação familiar
+**13. Desigualdade social**
 
-A origem de comportamentos desviantes ou apáticos frequentemente encontra-se na primeira infância. O sociólogo Émile Durkheim argumentava que a "socialização primária" — o processo formativo e educacional que ocorre nos primeiros anos de vida, restrito ao núcleo familiar — é determinante. É nessa etapa que se consolidam os pilares morais e intelectuais que guiarão a conduta do indivíduo pelo resto de sua vida em sociedade, tornando a omissão familiar uma das principais raízes da criminalidade e da falta de empatia.
+- O sistema feudal da Idade Média segregava as pessoas e restringia os privilégios à nobreza e ao clero. De modo análogo, a atual desigualdade social impossibilita que as classes menos favorecidas acessem recursos e direitos básicos.
+    
+- Na obra "As Cidadanias Mutiladas", o geógrafo Milton Santos afirma que a democracia só é efetiva quando atinge a totalidade do corpo social. Portanto, a exclusão de grupos vulneráveis invalida o exercício pleno da cidadania.
 
-## Macroeixo 4: A Lógica de Mercado e as Desigualdades Estruturais
+**14. Falta de representatividade**
 
-Acione este eixo temático quando a problemática envolver excessos corporativos, exploração econômica, consumismo, impacto das mídias sobre a população ou a exclusão financeira.
+- O psiquiatra Michael Brody afirma que as crianças são negativamente impactadas quando não se veem na mídia ou quando seus semelhantes são associados a atos ilícitos. Essa estereotipagem destrói a identidade e as perspectivas de minorias.
 
-### Sistema capitalista e priorização de interesses financeiros
+**15. Influência midiática / Ação dos veículos midiáticos**
 
-A subordinação do bem-estar coletivo e ambiental à geração incessante de lucro é uma premissa do capitalismo moderno. Um reflexo nítido disso é a "obsolescência programada", estratégia comercial consolidada no início do século XX por indústrias automobilísticas. Essa prática consiste em limitar deliberadamente a vida útil tecnológica ou física dos produtos para forçar os consumidores a realizarem substituições contínuas, priorizando a manutenção da margem de lucro corporativo em detrimento da sustentabilidade ecológica e do orçamento familiar.
+- O sociólogo Theodor Adorno aponta que a mídia cria estereótipos que retiram a liberdade de pensamento dos espectadores. Essa imposição força imagens frequentemente errôneas na mente da população, manipulando a percepção da realidade.
+    
+- Os teóricos Adorno e Horkheimer utilizam o conceito de "Indústria Cultural" para designar a diversão de massa. Esse sistema atua ativamente para homogeneizar os comportamentos e atrofiar o senso crítico do público consumidor.
 
-### Consumismo exacerbado
 
-A consolidação global do capitalismo intensificou o uso das tecnologias de informação para promover um consumo desenfreado. As corporações contemporâneas utilizam algoritmos e direcionamento de dados para flexibilizar e forçar o desejo de compra. Essa dinâmica irracional contrasta frontalmente com a filosofia clássica; o filósofo pré-socrático Demócrito, por exemplo, já argumentava que a sabedoria natural reside em conhecer e respeitar a medida exata das próprias necessidades, limite que a sociedade moderna ignora em sua compulsão por acúmulo.
+**16. Sistema capitalista / Busca pelo lucro**
 
-### Desigualdade social e segregação
+- A "obsolescência programada", criada pela General Motors, baseia-se em atrair consumidores forçando substituições constantes de produtos. O conceito ilustra como o mercado prioriza a manutenção do lucro em detrimento das reais necessidades.
+    
 
-A marginalização de parcelas da população compromete a validade do regime democrático. Em sua obra "As Cidadanias Mutiladas", o geógrafo brasileiro Milton Santos sustenta que a democracia só atinge sua efetividade quando os direitos fundamentais e a dignidade são desfrutados pela totalidade do corpo social. Historicamente, a exclusão brasileira assemelha-se a dinâmicas opressoras como a do sistema feudal, que, durante a Idade Média, restringia o acesso à terra, aos privilégios econômicos e à qualidade de vida unicamente à nobreza e ao clero, impossibilitando qualquer ascensão da base servil.
+**17. Consumismo**
 
-### Influência midiática e homogeneização do comportamento
-
-A mídia atua como uma força impositiva na modelagem do comportamento coletivo. Os teóricos da Escola de Frankfurt, Theodor Adorno e Max Horkheimer, cunharam o conceito de "Indústria Cultural" para descrever como os meios de comunicação em massa buscam padronizar comportamentos e abolir o pensamento crítico, transformando a diversão e a informação em mercadorias de fácil absorção. Essa perspectiva é endossada pelo sociólogo francês Pierre Bourdieu, que evidenciou a tendência dos indivíduos em incorporar passivamente os pensamentos ditados pelas instituições dominantes, tornando os veículos midiáticos diretamente responsáveis pela atrofia intelectual da sociedade.
-
-### Falta de representatividade
-
-A ausência de diversidade nos espaços de visibilidade gera prejuízos psicológicos severos na formação identitária. Pesquisas na área de psiquiatria infantil comprovam que o desenvolvimento de crianças e jovens é negativamente impactado quando eles não encontram referências positivas de si mesmos na mídia. Ademais, quando grupos minoritários são retratados exclusivamente de forma estereotipada ou associados a comportamentos ilícitos, reforça-se o processo de exclusão social e anulam-se as perspectivas de ascensão desses indivíduos.
+- **Opção 1 (Guerra Fria):** Após o fim da Guerra Fria (1990), a consolidação do capitalismo fez com que as empresas utilizassem a tecnologia e a mídia para direcionar o consumo, criando necessidades financeiras e materiais de forma artificial na população.
+    
+- **Opção 2 (Demócrito):** O filósofo pré-socrático Demócrito afirmava que o animal é mais sábio que o homem, pois conhece e respeita a medida da sua necessidade. Em contraste, a sociedade consumista atual ignora esse limite, buscando o acúmulo irracional.
