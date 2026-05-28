@@ -25,6 +25,7 @@
 
 **6. A garantia da Dignidade Humana** <mark style="background: #FFB8EBA6;">IMPORTÂNCIA</mark>
 - O Princípio da Dignidade da Pessoa Humana, fundamento central da Constituição Federal de 1988, garante o respeito inegociável à integridade física e moral do indivíduo. Esse preceito justifica a urgência estatal em promover essa pauta, pois ela é o pilar absoluto para assegurar uma existência justa à população.
+
 ### Macroeixo 2: A Herança Histórica e Cultural
 
 **1. Preconceito / Estigma social** <mark style="background: #FF5582A6;">CAUSA</mark>
@@ -39,6 +40,7 @@
 
 **3. Sensação de superioridade** <mark style="background: #FF5582A6;">CAUSA</mark>
 - A Teoria da Eugenia, do século XIX, pregava a hierarquização biológica dos seres humanos de acordo com suas características, servindo de base ao nazismo. Essa mentalidade fundamenta a intolerância e a noção falaciosa de superioridade racial.
+
 ### Macroeixo 3: O Comportamento Social e as Relações Interpessoais
 
 **1. Formação familiar / Negligência familiar** <mark style="background: #FF5582A6;">CAUSA</mark>
@@ -81,6 +83,8 @@
 - O sociólogo Theodor Adorno aponta que a mídia cria estereótipos que retiram a liberdade de pensamento dos espectadores. Essa imposição força imagens frequentemente errôneas na mente da população, manipulando a percepção da realidade.
     
 - Os teóricos Adorno e Horkheimer utilizam o conceito de "Indústria Cultural" para designar a diversão de massa. Esse sistema atua ativamente para homogeneizar os comportamentos e atrofiar o senso crítico do público consumidor.
+
+- Segundo o filósofo estadunidense Noam Chomsky, em sua obra “A fabricação do consentimento”, afirma que a maneira mais inteligente de manter as pessoas passivas é limitar o seu espectro de opinião e criticidade.
 
 **4. Sistema capitalista / Busca pelo lucro** <mark style="background: #FF5582A6;">CAUSA</mark>
 - A "obsolescência programada", criada pela General Motors, baseia-se em atrair consumidores forçando substituições constantes de produtos. O conceito ilustra como o mercado prioriza a manutenção do lucro em detrimento das reais necessidades.
