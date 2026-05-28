@@ -2,6 +2,11 @@
 
 
 ---
+
+Temas avulsos:
+- A importância da prática esportiva para a juventude.
+
+
 ### Semana 1: Eixo de Tecnologia e Sociedade
 
 - **Tema:** A cultura do cancelamento e os limites da liberdade de expressão no ambiente digital. (Baseado em provas da FGV).
