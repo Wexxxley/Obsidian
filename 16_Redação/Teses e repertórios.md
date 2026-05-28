@@ -72,7 +72,7 @@
 **1. Desigualdade social/cidadania plena** <mark style="background: #FF5582A6;">CAUSA</mark> / <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark>
 - O sistema feudal da Idade Média segregava as pessoas e restringia os privilégios à nobreza e ao clero. De modo análogo, a atual desigualdade social impossibilita que as classes menos favorecidas acessem recursos e direitos básicos.
     
-- Na obra "As Cidadanias Mutiladas", o geógrafo Milton Santos afirma que a democracia só é efetiva quando atinge a totalidade do corpo social. Portanto, a exclusão de grupos vulneráveis invalida o exercício pleno da cidadania.
+- Na obra "As Cidadanias Mutiladas", o geógrafo Milton Santos afirma que a democracia só atinge sua efetividade quando os direitos fundamentais são desfrutados pela totalidade do corpo social.
     
 - O sociólogo Thomas Marshall define que a cidadania plena só é alcançada quando direitos civis, políticos e sociais são garantidos de forma unificada a todos. Sob essa perspectiva, a implementação da iniciativa é de suma importância para que a sociedade supere abismos estruturais e vivencie um verdadeiro Estado Democrático.
 
