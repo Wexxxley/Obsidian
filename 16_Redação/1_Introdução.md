@@ -52,9 +52,12 @@ Tese é a ideia principal que será defendida e provada ao longo de toda a reda�
     - **O que impede:** A concentração de investimentos e de aparelhos culturais (cinemas, teatros, museus) apenas nos grandes centros urbanos.
 
 
-Tese explicita na introdução, duas causas:
+**Tese explicita na introdução, duas causas:**
 ![](../attachments/Pasted%20image%2020260526144234.png)
 
-Tese implicita na introdução, duas consequências:
-![](../attachments/Pasted%20image%2020260527150411.png)
-![](../attachments/Pasted%20image%2020260527151936.png)
+**Tese implicita na introdução, duas consequências:**
+![600](../attachments/Pasted%20image%2020260527150411.png)
+![500](../attachments/Pasted%20image%2020260527151936.png)
+
+**Tese com Causa e consequência**:
+![](../attachments/Pasted%20image%2020260528091529.png)
