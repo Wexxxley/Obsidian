@@ -2,6 +2,7 @@
 #Concluded 
 
 ---
+
 **Tramitação/trâmite/movimentação:** Curso do documento desde a sua produção ou recebimento até o cumprimento de sua função administrativa.
 ![](../attachments/Pasted%20image%2020260529090355.png)
 
@@ -24,6 +25,20 @@ Ao falar de tramitação e protocolo estamos falando exclusivamente da idade cor
 	![300](../attachments/Pasted%20image%2020260529093350.png)
 5. **Expedição/distribuição**: envio dos documentos aos destinatários. (Expedição:Externo, Distribuição:Interno)
 6. **Controle:** Controle do andamento/tramitação dos documentos. Realizado por meio de sistema manual ou informatizado
-
+ 
 ![500](../attachments/Pasted%20image%2020260529094307.png)
 Essas atividades citadas acima são atividades de arquivo.
+
+![](../attachments/Pasted%20image%2020260529100423.png)
+![](../attachments/Pasted%20image%2020260529100439.png)
+
+**Não devem ser abertos ou registrados pelo protocolo:**
+1. Documentos **particulares**.
+2. Documentos **sigilosos**.
+Tais documentos devem ser recebidos e encaminhados diretamente para os destinatários.
+
+**Devem sr abertos e registrados pelo protocolo:**
+1. Documentos **ostensivos/ordinário**.
+Tais documentos deve mpassar por todas as etapas do protocolo.
+
+![](../attachments/Pasted%20image%2020260529101120.png)

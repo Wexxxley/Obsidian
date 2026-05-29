@@ -1,8 +1,8 @@
 
 #Concluded 
 
-
 ---
+
 **Estágios de evolução dos arquivos:** Arquivos que guardam documentos...
 1. **Corrente/1°idade:** mais novos que ainda estão sendo resolvidos, frequentemente consultados. Normalmente ficam junto ao setor ou próximo
 2. **Intermediário/temporário/2°idade:** que já foram resolvidos mas podem ser questionados. Não tem necessidade de ser intalado junto à instituição, normalmente são galpões, por questões de espaço e aconomia. Podem ser chamados de Limbo ou Purgatório. 
