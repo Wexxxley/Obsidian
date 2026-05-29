@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -198,6 +199,11 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260529092552.png",
+    "attachments/Pasted image 20260529091902.png",
+    "attachments/Pasted image 20260529091637.png",
+    "attachments/Pasted image 20260529090809.png",
+    "attachments/Pasted image 20260529090355.png",
     "17_Arquivologia/3_Ciclo vital dos documentos.md",
     "17_Arquivologia/4_Protocolo.md",
     "17_Arquivologia/2_Classificação dos arquivos.md",
@@ -209,16 +215,12 @@
     "attachments/Pasted image 20260529081744.png",
     "attachments/Pasted image 20260529080419.png",
     "attachments/Pasted image 20260529075554.png",
-    "attachments/centro.jpg",
     "16_Redação/Temas diversos.md",
     "16_Redação/Teses e repertórios.md",
     "16_Redação/3_Conclusão.md",
     "16_Redação/2_Desenvolvimento.md",
     "16_Redação/1_Introdução.md",
     "16_Redação/Introduções coringas.md",
-    "attachments/Pasted image 20260528094700.png",
-    "attachments/Pasted image 20260528091529.png",
-    "attachments/Pasted image 20260527152644.png",
     "18_Aleatorios/3_Concursos de TI.md",
     "17_Arquivologia",
     "16_Redação/2_Introdução.md",
@@ -235,7 +237,6 @@
     "18_Aleatorios/Anota Smart - Milestones.md",
     "18_Aleatorios/AcessoClin - Requisitos.md",
     "05_FrontEnd/4_React/1_Fundamentos/1_Introdução.md",
-    "06_Git and github/03_Fluxo inicial e commit.md",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
