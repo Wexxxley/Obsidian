@@ -7,7 +7,7 @@
 
 - **Tema:** A cultura do cancelamento e os limites da liberdade de expressão no ambiente digital. (Baseado em provas da FGV).
 
-Teses: imediatismo
+Teses: A importancia de respeitar os limites da liberdade de expressção (MONARK) e o esvaziamento do debate racional como causa da cultura do cancelamento (Byung-Chul Han). 
 ### Semana 2: Eixo de Meio Ambiente e Sustentabilidade
 
 - **Tema:** A tensão entre desenvolvimento econômico e preservação ambiental no Brasil. (Baseado no histórico do Cebraspe).

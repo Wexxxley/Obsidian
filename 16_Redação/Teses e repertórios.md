@@ -50,7 +50,7 @@
 - Na "Teoria do Agir Comunicativo", o filósofo Jürgen Habermas defende que a democracia e a resolução de problemas exigem o consenso e o debate. Portanto, o silenciamento de pautas relevantes impede a elaboração de soluções sociais efetivas.
 
 **3. Alienação** <mark style="background: #FF5582A6;">CAUSA</mark>
-- Em "A Banalidade do Mal", a filósofa Hannah Arendt reflete que a massificação forma indivíduos alienados e incapazes de realizar julgamentos morais, levando a sociedade a aceitar situações de injustiça sem qualquer questionamento.
+- Na obra "A Banalidade do Mal", a teórica Hannah Arendt postula que o mal se instaura quando os indivíduos abrem mão de sua capacidade reflexiva. Esse raciocínio explica como a massificação cega a sociedade, fazendo com que a população apenas reproduza condutas prejudiciais ao meio social.
     
 - Os filósofos Adorno e Horkheimer criaram o termo "Indústria Cultural" para descrever como a mídia de massa busca a homogeneização dos comportamentos, promovendo a alienação e a massificação acrítica das pessoas.
     
@@ -68,9 +68,8 @@
 **7. Desenvolvimento do pensamento crítico** <mark style="background: #FFB8EBA6;">IMPORTÂNCIA</mark>
 - Para o educador Paulo Freire, a leitura e a compreensão do mundo são essenciais para a libertação do indivíduo. Assim, o estímulo a essa prática reveste-se de extrema importância, uma vez que dota o cidadão do senso crítico necessário para romper com a passividade, exigir seus direitos e transformar sua realidade.
 
-**8. imediatismo cognitivo/escuta reativa/esvaziamento do debate**
-
-
+**8. imediatismo cognitivo/escuta reativa/esvaziamento do debate racional**
+- O filósofo sul-coreano Byung-Chul Han, na obra "A Expulsão do Outro", afirma que a sociedade atual perdeu a capacidade de escutar o divergente. O indivíduo contemporâneo pratica uma escuta seletiva e reativa, na qual ele interrompe e ataca instantaneamente qualquer fragmento de ideia que o contrarie, recusando-se a compreender o pensamento alheio em sua totalidade.
 ### Macroeixo 4: A Lógica de Mercado e as Desigualdades Estruturais
 
 **1. Desigualdade social/cidadania plena** <mark style="background: #FF5582A6;">CAUSA</mark> / <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark>
