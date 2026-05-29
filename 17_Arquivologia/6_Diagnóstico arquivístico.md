@@ -25,3 +25,14 @@ Medida vertical
 
 Em caso de documentação empacotada e amontoada
 ![](../attachments/Pasted%20image%2020260529132016.png)
+
+A mensuração dos documentos abaixo deve ser feito por unidade
+- **Fotografias**
+- **Diapositivos (slides):** Fotografias positivas impressas em material transparente (como filme fotográfico ou placas de vidro).
+- **Negativos:** Matrizes em filme fotográfico que contêm a imagem capturada com as tonalidades de luz e sombra (e cores) invertidas em relação à cena original. 
+- **Mapas e plantas**: por unidade e tipo
+- **Discos e fitas:** por unidade e tipo
+
+![](../attachments/Pasted%20image%2020260529133657.png)
+
+![](../attachments/Pasted%20image%2020260529133714.png)
