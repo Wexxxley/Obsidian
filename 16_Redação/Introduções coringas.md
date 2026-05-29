@@ -2,7 +2,7 @@
 
 ---
 ### O Mito do Desenvolvimento (Desigualdade e Falsos Avanços)
-O economista brasileiro Celso Furtado, em sua análise sobre o "Mito do Desenvolvimento", postula que o avanço econômico e estrutural de um país não garante, por si só, o progresso social da sua população. Ao aplicar esse raciocínio ao [PROBLEMA], nota-se que, apesar da modernização nacional em vários setores, a questão permanece negligenciada/secundarizada/relegada a segundo plano, refletindo um crescimento que não atende às reais necessidades da sociedade.
+O economista Celso Furtado, em sua análise sobre o "Mito do Desenvolvimento", postula que o avanço econômico e estrutural de um país não garante, por si só, o progresso social da sua população. Ao aplicar esse raciocínio ao [PROBLEMA], nota-se que, apesar da modernização nacional em vários setores, a questão permanece negligenciada/secundarizada/relegada a segundo plano, refletindo um crescimento que não atende às reais necessidades da sociedade.
 ### A Violência Simbólica (Preconceito, Intolerância)
 O sociólogo Pierre Bourdieu desenvolveu o conceito de "Violência Simbólica" para definir as formas estruturais e invisíveis de opressão que acabam sendo naturalizadas tanto pelas instituições quanto pelos próprios indivíduos. Ao observar o [PROBLEMA], constata-se a materialização crônica dessa teoria, uma vez que práticas excludentes e sistemáticas continuam sendo reproduzidas no país sob a conivência de um corpo social que não as questiona.
 #### **A Atitude Blasé (bullying, abandono de idosos)**
