@@ -3,15 +3,11 @@
 
 ---
 
-Temas avulsos:
-- A importância da prática esportiva para a juventude.
-
 ### Semana 1: Eixo de Tecnologia e Sociedade
 
 - **Tema:** A cultura do cancelamento e os limites da liberdade de expressão no ambiente digital. (Baseado em provas da FGV).
-    
-- **Foco de pesquisa para repertório:** Pesquise sobre o conceito de "Panóptico" (de Jeremy Bentham e Michel Foucault), que explica o comportamento de vigilância constante. Estude também o Marco Civil da Internet (Lei nº 12.965/2014) e a diferença jurídica entre liberdade de expressão e crimes contra a honra.
 
+Teses: imediatismo
 ### Semana 2: Eixo de Meio Ambiente e Sustentabilidade
 
 - **Tema:** A tensão entre desenvolvimento econômico e preservação ambiental no Brasil. (Baseado no histórico do Cebraspe).
