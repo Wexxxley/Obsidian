@@ -8,4 +8,20 @@ Permite identificar todos os probemas relacionados ao desenvolvimento das ativid
 
 O diagnóstico arquivístico pode ser:
 1. **Minimalista:** busca levantar informações a fim de compreender a situação arquivística de uma instituição específica.
-2. **Maximalista:** busca compreender a situação arquivística de um conjunto de instituições que formam um sistema (arqs do poder judiciário, por exemplo)
+2. **Maximalista:** busca compreender a situação arquivística de um conjunto de instituições que formam um sistema (arqs do poder judiciário, por exemplo).
+
+![](../attachments/Pasted%20image%2020260529131409.png)
+![](../attachments/Pasted%20image%2020260529131428.png)
+
+**Mensuração de documentos textuais:** Metragem linear
+
+Medida horizontal
+![](../attachments/Pasted%20image%2020260529131209.png)
+
+Medida vertical
+![](../attachments/Pasted%20image%2020260529131719.png)
+
+![](../attachments/Pasted%20image%2020260529131843.png)
+
+Em caso de documentação empacotada e amontoada
+![](../attachments/Pasted%20image%2020260529132016.png)

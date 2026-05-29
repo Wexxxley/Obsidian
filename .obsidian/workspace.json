@@ -38,14 +38,10 @@
             "id": "3085f059f7b87b9d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "16_Mobile/2_Jetpack Compose/1_Layout/1_Jetpack compose.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1_Jetpack compose"
+              "title": "New tab"
             }
           },
           {
@@ -88,12 +84,12 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -198,9 +194,15 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260529132016.png",
+    "attachments/Pasted image 20260529131843.png",
+    "attachments/Pasted image 20260529131719.png",
+    "attachments/Pasted image 20260529131428.png",
+    "attachments/Pasted image 20260529131409.png",
+    "attachments/Pasted image 20260529131209.png",
+    "17_Arquivologia/6_Diagnóstico arquivístico.md",
     "attachments/Pasted image 20260529125442.png",
     "17_Arquivologia/5_Gestão de documentos.md",
-    "17_Arquivologia/6_Diagnóstico arquivístico.md",
     "attachments/Pasted image 20260529110922.png",
     "attachments/Pasted image 20260529110908.png",
     "attachments/Pasted image 20260529104830.png",
@@ -209,12 +211,6 @@
     "17_Arquivologia/1_Arquivo e documento.md",
     "17_Arquivologia/2_Classificação dos arquivos.md",
     "attachments/Pasted image 20260529101120.png",
-    "attachments/Pasted image 20260529100439.png",
-    "attachments/Pasted image 20260529100423.png",
-    "attachments/Pasted image 20260529100350.png",
-    "attachments/Pasted image 20260529094307.png",
-    "attachments/Pasted image 20260529093350.png",
-    "attachments/Pasted image 20260529092552.png",
     "14_Algebra Linear e CG (Cadeira)/16_Projeções geométricas.md",
     "16_Redação/Temas diversos.md",
     "16_Redação/Teses e repertórios.md",
