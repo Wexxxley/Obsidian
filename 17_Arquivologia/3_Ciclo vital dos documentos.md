@@ -31,7 +31,7 @@ Existe uma legislação que **exige que todo órgão público tenha esse control
 
 ---
 
-**Plano de destinação:** Instrumento utilizado para o tratamento de **massas documentais acumuladas**, ou seja, o acúmulo de documentos sem que tenham sido submetidos a qualquer tratamento arquivístico adequado. Após esse palno alguns documentos serão armazenados permanentemente, outros eliminados
+**Plano de destinação:** Instrumento utilizado para o tratamento de **massas documentais acumuladas**, ou seja, o acúmulo de documentos sem que tenham sido submetidos a qualquer tratamento arquivístico adequado. Após esse plano alguns documentos serão armazenados permanentemente, outros eliminados
 ![350](../attachments/Pasted%20image%2020260527092557.png)
 
 **Transferência**: entrada de documentos no arquivo intemediário.

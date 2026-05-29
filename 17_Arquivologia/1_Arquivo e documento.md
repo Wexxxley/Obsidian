@@ -4,7 +4,7 @@
 ---
 
 **Definição Arquivo:**
-- Conjunto de documentos acumulados por alguém (pessoa ou instituição) ao longo de sua existência que comprovam suas atividades.
+- Conjunto de documentos acumulados por alguém (pessoa ou instituição) ao longo de sua existência que comprovam suas atividades. (NÃO É COLEÇÃO)
 - Móvel para guardar documentos.
 - Local onde o acervo documental está guardado.
 - Órgão governamental cujo objetivo é o de guardar e conservar documentação pública.
