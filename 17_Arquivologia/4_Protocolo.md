@@ -19,7 +19,7 @@ Ao falar de tramitação e protocolo estamos falando exclusivamente da idade cor
 **Atividades de protocolo**
 1. **Recebimento**: controle da entrada dos documentos na instiuição.
 2. **Registro**: leitura, identificação e cadastro dos dados de acesso/metadados/pontos de acesso do documento em um sistema manual ou informatizado.
-3. **Autuação**: Formação ou bertura de processo a partir do documento entregue.
+3. **Autuação**: Formação ou abertura de processo a partir do documento entregue.
 	![350](../attachments/Pasted%20image%2020260529092552.png)
 4. **Classificação:** separação dos docs por assunto ou área. Depende da instituição. 
 	![300](../attachments/Pasted%20image%2020260529093350.png)
