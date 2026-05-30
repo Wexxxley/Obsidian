@@ -57,9 +57,7 @@
 - O ministro da propaganda nazista, Joseph Goebbels, afirmava que uma mentira repetida mil vezes torna-se verdade. Esse raciocínio ilustra como a alienação coletiva pode ser fabricada pela manipulação constante da informação.
 
 **4. Passividade social** <mark style="background: #FF5582A6;">CAUSA</mark>
-- O político Joe Biden argumenta que nenhuma mudança ocorre simplesmente pela ação governamental, mas sim quando a sociedade civil passa a se manifestar. Logo, a passividade social é um entrave direto para a reivindicação e conquista de direitos.
-
-- O aclamadíssimo escritor J.R.R. Tolkien, em suas narrativas, centraliza a salvação de seu mundo nas ações dos Hobbits, indivíduos comuns e marginalizados pelas grandes potências. Esse recurso literário fundamenta a tese de que a ação civil e o engajamento da população comum são os verdadeiros motores para a transformação social e para a contenção de crises estruturais que o Estado se mostra incapaz de resolver.
+- O autor J.R.R. Tolkien, em seu universo ficcional, delega a salvação de um mundo dominado por forças hostis às ações dos Hobbits, sujeitos comuns e marginalizados. Tal construção narrativa fundamenta a tese de que a mobilização civil e o engajamento da própria sociedade são, de fato, os motores primordiais para promover qualquer transformação estrutural.
 
 **5. Resistência a mudanças** <mark style="background: #FF5582A6;">CAUSA</mark>
 - O jornalista George Bernard Shaw afirmava que o progresso é impossível sem mudança. Indivíduos e coletividades que não conseguem alterar as próprias mentalidades estão irremediavelmente fadados a viver estagnados.

@@ -8,10 +8,9 @@ O economista Celso Furtado, em sua análise sobre o "Mito do Desenvolvimento", p
 ### As Cidadanias Mutiladas (Desigualdade, Minorias e Exclusão)
 Na obra "As Cidadanias Mutiladas", o geógrafo Milton Santos afirma que a democracia só atinge sua efetividade quando os direitos fundamentais são desfrutados pela totalidade do corpo social. Nesse sentido, ao observar o [TEMA], constata-se que esse postulado é severamente violado, evidenciando que uma parcela considerável da população brasileira permanece à margem do desenvolvimento e do amparo institucional.
 ### A Violência Simbólica
-O sociólogo Pierre Bourdieu desenvolveu o conceito de "Violência Simbólica" para definir as formas estruturais e invisíveis de opressão que acabam sendo naturalizadas tanto pelas instituições quanto pelos próprios indivíduos. Nesse sentido, ao observar o [TEMA], constata-se a materialização desse conceito, uma vez que práticas excludentes e sistemáticas continuam sendo reproduzidas no país sob a conivência de um corpo social que não as questiona.
+O sociólogo Pierre Bourdieu desenvolveu o conceito de "Violência Simbólica" para definir as formas estruturais e invisíveis de opressão que acabam sendo naturalizadas tanto pelas instituições quanto pelos próprios indivíduos. Nesse sentido, ao observar o [TEMA], constata-se a materialização desse conceito, uma vez que práticas excludentes continuam sendo reproduzidas sob a conivência de um corpo social que não as questiona.
 #### **A Atitude Blasé**
-O sociólogo Georg Simmel desenvlveu o conceito de "Atitude Blasé" para definir o comportamento de apatia e insensibilidade do sujeito perante situações que deveriam despertar sua atenção. Nesse sentido, ao observar o [TEMA], constata-se a materialização desse conceito, uma vez que a sociedade brasileira tem tratado a questão com alarmante normalidade, negligenciando seus riscos. 
-
+O sociólogo Georg Simmel desenvolveu o conceito de "Atitude Blasé" para definir o comportamento de apatia e insensibilidade do sujeito perante situações que deveriam despertar sua atenção. Nesse sentido, ao observar o [TEMA], constata-se a materialização desse conceito, uma vez que a sociedade brasileira tem tratado a questão com alarmante normalidade/insensibilidade
 
 - **Opção 1:** Dessa forma, faz-se necessário analisar não apenas a [CAUSA] como a raiz desse problema, mas também a [CONSEQUÊNCIA] como o seu reflexo direto na sociedade.
     

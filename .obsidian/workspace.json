@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16_Redação/Teses e repertórios.md",
+                "file": "16_Redação/2_Desenvolvimento.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Teses e repertórios"
+              "title": "2_Desenvolvimento"
             }
           }
         ],
@@ -209,10 +209,10 @@
   },
   "active": "af356e5e1a7640c4",
   "lastOpenFiles": [
-    "16_Redação/3_Conclusão.md",
-    "16_Redação/Teses e repertórios.md",
-    "16_Redação/Temas diversos.md",
     "16_Redação/Introduções coringas.md",
+    "16_Redação/Temas diversos.md",
+    "16_Redação/Teses e repertórios.md",
+    "16_Redação/3_Conclusão.md",
     "16_Redação/2_Desenvolvimento.md",
     "16_Redação/1_Introdução.md",
     "17_Arquivologia/7_Arquivos permanentes.md",
