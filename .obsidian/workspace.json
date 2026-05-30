@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/7_ViewModel e StateFlow.md",
-                "mode": "source",
+                "file": "17_Arquivologia/2_Classificação dos arquivos.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_ViewModel e StateFlow"
+              "title": "2_Classificação dos arquivos"
             }
           }
         ]
@@ -194,6 +194,11 @@
   },
   "active": "a962a3cbb87f714b",
   "lastOpenFiles": [
+    "17_Arquivologia/3_Ciclo vital dos documentos.md",
+    "17_Arquivologia/2_Classificação dos arquivos.md",
+    "17_Arquivologia/1_Arquivo e documento.md",
+    "17_Arquivologia/4_Protocolo.md",
+    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/7_ViewModel e StateFlow.md",
     "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/6_Arquitetura MVVM.md",
     "attachments/Pasted image 20260530143921.png",
     "16_Redação/Teses e repertórios.md",
@@ -210,10 +215,6 @@
     "attachments/Pasted image 20260529131409.png",
     "attachments/Pasted image 20260529131209.png",
     "attachments/Pasted image 20260529125442.png",
-    "17_Arquivologia/4_Protocolo.md",
-    "17_Arquivologia/3_Ciclo vital dos documentos.md",
-    "17_Arquivologia/1_Arquivo e documento.md",
-    "17_Arquivologia/2_Classificação dos arquivos.md",
     "14_Algebra Linear e CG (Cadeira)/16_Projeções geométricas.md",
     "16_Redação/3_Conclusão.md",
     "16_Redação/2_Desenvolvimento.md",
@@ -231,7 +232,6 @@
     "14_Algebra Linear e CG (Cadeira)/14_OpenGL.md",
     "14_Algebra Linear e CG (Cadeira)/8_Vetores.md",
     "18_Aleatorios/Anota Smart - Requisitos.md",
-    "18_Aleatorios/Anota Smart - Milestones.md",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
