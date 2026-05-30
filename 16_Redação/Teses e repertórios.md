@@ -59,6 +59,8 @@
 **4. Passividade social** <mark style="background: #FF5582A6;">CAUSA</mark>
 - O político Joe Biden argumenta que nenhuma mudança ocorre simplesmente pela ação governamental, mas sim quando a sociedade civil passa a se manifestar. Logo, a passividade social é um entrave direto para a reivindicação e conquista de direitos.
 
+- O aclamadíssimo escritor J.R.R. Tolkien, em suas narrativas, centraliza a salvação de seu mundo nas ações dos Hobbits, indivíduos comuns e marginalizados pelas grandes potências. Esse recurso literário fundamenta a tese de que a ação civil e o engajamento da população comum são os verdadeiros motores para a transformação social e para a contenção de crises estruturais que o Estado se mostra incapaz de resolver.
+
 **5. Resistência a mudanças** <mark style="background: #FF5582A6;">CAUSA</mark>
 - O jornalista George Bernard Shaw afirmava que o progresso é impossível sem mudança. Indivíduos e coletividades que não conseguem alterar as próprias mentalidades estão irremediavelmente fadados a viver estagnados.
 

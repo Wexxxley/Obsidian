@@ -1,7 +1,7 @@
 
+#Concluded 
 
 ---
-
 ### 1. Princípio da Proveniência
 Ele estabelece que os documentos provenientes de uma determinada fonte geradora (seja uma pessoa física, uma família ou uma instituição administrativa) não devem ser misturados aos de outra entidade produtora.
 
