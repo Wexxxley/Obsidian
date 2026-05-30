@@ -27,3 +27,5 @@ Ambos os conceitos, Flow e StateFlow, pertencem à API de Corrotinas da linguage
 - **Valor Inicial Obrigatório:** Diferente de fluxos temporários, um estado nunca pode ser indefinido. Todo StateFlow requer a passagem de um valor inicial obrigatório.
 - **Retenção do Último Estado:** Ele armazena persistentemente em memória o último valor emitido. Se um observador (uma tela) for destruído e recriado após alguns minutos, assim que ele invocar a função `collect`, ele receberá de imediato o valor mais recente consolidado na memória.
 - **Aplicação:** É a ferramenta definitiva e recomendada oficialmente pelo Google para o gerenciamento de estado dentro de ViewModels.
+
+![](../../../attachments/Pasted%20image%2020260530143921.png)

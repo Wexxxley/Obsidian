@@ -9,7 +9,7 @@ A arquitetura **MVVM (Model-View-ViewModel)** é um padrão de projetos mobile. 
 ### **1. UI Layer**
 
 A UI Layer é responsável por exibir os dados do aplicativo na tela e atuar como o ponto principal de interação com o usuário. 
-- **UI Elements (View):** Correspondem aos componentes visuais renderizados na tela. A função exclusiva dos elementos de UI é formatar e exibir dados, além de capturar os eventos de entrada do usuário.
+- **UI Elements (View):** Correspondem aos componentes visuais renderizados na tela. A função dos elementos de UI é formatar, exibir dados e capturar os eventos de entrada do usuário.
 - **State Holders (ViewModel):** São os componentes responsáveis por gerenciar e manter o estado dos dados que serão exibidos pelos UI Elements. Eles processam as intenções do usuário capturadas pela View e interagem com as camadas subjacentes para atualizar as informações. A ViewModel no android é projetado para sobreviver a mudanças de configuração, preservando os dados em memória sem a necessidade de recarregá-los.
 ### **2. Domain Layer**
 
