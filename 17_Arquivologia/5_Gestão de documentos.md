@@ -3,7 +3,7 @@
 
 ---
 
-Gestão de documentos é o conjunto de procedimentos e operações técnicas referentes à produção, tramitação, uso, avaliação e arquivamento de documentos nas fases corrente e intermediária, visando a sua elimição ou recolimento para guarda permanente.
+Gestão de documentos é o conjunto de procedimentos e operações técnicas referentes à produção, tramitação, uso, avaliação e arquivamento de documentos nas fases corrente e intermediária, visando a sua elimição ou recolhimento para guarda permanente.
 
 ![](../attachments/Pasted%20image%2020260529104830.png)
 
