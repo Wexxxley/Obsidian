@@ -21,7 +21,7 @@ Ao falar de tramitação e protocolo estamos falando exclusivamente da idade cor
 2. **Registro**: leitura, identificação e cadastro dos dados de acesso/metadados/pontos de acesso do documento em um sistema manual ou informatizado.
 3. **Autuação**: Formação ou abertura de processo a partir do documento entregue.
 	![350](../attachments/Pasted%20image%2020260529092552.png)
-4. **Classificação:** separação dos docs por assunto ou área. Depende da instituição. 
+4. **Classificação:** separação dos docs por assunto ou área. Depende da instituição. Através de um plano de classificação
 	![300](../attachments/Pasted%20image%2020260529093350.png)
 5. **Expedição/distribuição**: envio dos documentos aos destinatários. (Expedição:Externo, Distribuição:Interno)
 6. **Controle:** Controle do andamento/tramitação dos documentos. Realizado por meio de sistema manual ou informatizado
