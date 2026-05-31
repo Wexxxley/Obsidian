@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -209,6 +210,8 @@
   },
   "active": "af356e5e1a7640c4",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260531152916.png",
+    "attachments/Pasted image 20260531152858.png",
     "17_Arquivologia/8_Princípios da Arquivologia.md",
     "14_Algebra Linear e CG (Cadeira)/16_Projeções geométricas.md",
     "14_Algebra Linear e CG (Cadeira)/13_Base e Mudança de base.md",
@@ -238,7 +241,6 @@
     "attachments/Pasted image 20260530143921.png",
     "attachments/Pasted image 20260529133714.png",
     "attachments/Pasted image 20260529133657.png",
-    "attachments/Pasted image 20260529132016.png",
     "18_Aleatorios/3_Concursos de TI.md",
     "17_Arquivologia",
     "16_Redação/2_Introdução.md",
@@ -246,7 +248,6 @@
     "18_Aleatorios/2_Técnica simples de estudo.md",
     "18_Aleatorios/Proposta de Startup.md",
     "18_Aleatorios/INPI, RPI.md",
-    "18_Aleatorios/Pedido de crenciais GIT.md",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
