@@ -68,8 +68,8 @@
 **7. Desenvolvimento do pensamento crítico** <mark style="background: #FFB8EBA6;">IMPORTÂNCIA</mark>
 - Para o educador Paulo Freire, a leitura e a compreensão do mundo são essenciais para a libertação do indivíduo. Assim, o estímulo a essa prática reveste-se de extrema importância, uma vez que dota o cidadão do senso crítico necessário para romper com a passividade, exigir seus direitos e transformar sua realidade.
 
-**8. imediatismo cognitivo/escuta reativa/esvaziamento do debate racional**
-- O filósofo Byung-Chul Han, na obra "A Expulsão do Outro", afirma que a sociedade atual perdeu a capacidade de escutar o divergente. O indivíduo contemporâneo pratica uma escuta seletiva e reativa, na qual ele interrompe e ataca instantaneamente qualquer fragmento de ideia que o contrarie, recusando-se a compreender o pensamento alheio .
+**8. imediatismo cognitivo/esvaziamento análitico/Julgamento precipitado/esvaziamento do debate racional**
+- O filósofo Byung-Chul Han, na obra "A Expulsão do Outro", afirma que a sociedade  perdeu a capacidade de escutar o divergente. O indivíduo contemporâneo pratica uma escuta seletiva e reativa, na qual ele interrompe e ataca qualquer fragmento de ideia que o contrarie.
 ### Macroeixo 4: A Lógica de Mercado e as Desigualdades Estruturais
 
 **1. Desigualdade social/cidadania plena** <mark style="background: #FF5582A6;">CAUSA</mark> / <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark>
