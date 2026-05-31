@@ -36,8 +36,16 @@ Descrição é o conjunto de procedimentos que leva em conta os elementos formai
 	- Serviços prestados.
 	- Regulamentos para consultar e requisitos exigidos.
 	- Recursos técnicos oferecidos.
-2. **Inventário:** Descreve sucintamente as unidades de arquivamento de um fundo ou suas subdivisões, cuja apesentação obedece uma ordenação lógica. 
-3. Catálogo
-4. Repertório
-5. Índice
-6. Edição de fontes 
+	
+2. **Inventário:** Descreve  as unidades de arquivamento de um fundo ou suas subdivisões, cuja apesentação obedece uma ordenação lógica. 
+	- **Inventário sumário:** descreve sucintamente.![](../attachments/Pasted%20image%2020260531160503.png)
+	- **Inventário analítico:**  descreve pormenorizadamente/de forma detalhada. ![](../attachments/Pasted%20image%2020260531160631.png)
+	
+3. **Catálogo:** organizado por critérios temáticos, cronológicos, onomásticos (por nome de pessoas), ou toponímicos (por lugares geográficos) reunindo todos os documentos do tema e descrevendo individualmente cada documento.
+	- Ex: Catálogo dos homicídios ocorridos na decada de 70 em Fortaleza.
+	
+4. **Repertório/catálogo seletivo**: É basicamente uma escolha feita apartir de um catálogo, montando um conjunto de documentos de algum tema com suas descrições.
+	- Ex: Repertório com os homicídios mais famosos de Fotaleza.
+	
+5. Índice: 
+6. Edição de fontes: 
