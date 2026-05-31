@@ -41,11 +41,19 @@ Descrição é o conjunto de procedimentos que leva em conta os elementos formai
 	- **Inventário sumário:** descreve sucintamente.![](../attachments/Pasted%20image%2020260531160503.png)
 	- **Inventário analítico:**  descreve pormenorizadamente/de forma detalhada. ![](../attachments/Pasted%20image%2020260531160631.png)
 	
-3. **Catálogo:** organizado por critérios temáticos, cronológicos, onomásticos (por nome de pessoas), ou toponímicos (por lugares geográficos) reunindo todos os documentos do tema e descrevendo individualmente cada documento.
+3. **Catálogo:** organizado por critérios temáticos, cronológicos, onomásticos (por nome de pessoas), ou toponímicos (por lugares geográficos) reunindo todos os documentos do  tema e descrevendo individualmente cada documento.
 	- Ex: Catálogo dos homicídios ocorridos na decada de 70 em Fortaleza.
 	
 4. **Repertório/catálogo seletivo**: É basicamente uma escolha feita apartir de um catálogo, montando um conjunto de documentos de algum tema com suas descrições.
 	- Ex: Repertório com os homicídios mais famosos de Fotaleza.
 	
-5. Índice: 
-6. Edição de fontes: 
+5. **Índice:** Decompoe os documentos em descritores/palavras-chave e indica as páginas onde aparacem.
+	- O **sumário** é a enumeração das principais divisões, capítulos, seções e outras partes de um documento. Segue a mesma ordem em que os assuntos e as partes aparecem no corpo do texto. É posicionado no início do documento.
+		![](../attachments/Pasted%20image%2020260531165107.png)
+	- O **índice** é uma lista de termos que localiza as informações específicas contidas no texto. É organizado a partir de um critério independente que facilite a busca pontual. O critério mais comum é a ordem alfabética. É posicionado no final do documento. Ele permite que o leitor encontre imediatamente em quais páginas um determinado conceito, indivíduo, instituição ou evento é citado.
+		 ![](../attachments/Pasted%20image%2020260531165548.png)
+
+1. **Edição de fontes:** 
+
+
+
