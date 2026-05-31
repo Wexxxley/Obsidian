@@ -8,6 +8,7 @@
 2. Descrição e publicação
 3. Conservação
 4. Referência
+5. Difusão
 #### **1. Arranjo**
 Operações que visam à organização dos documentos. Através do **quadro de arranjo**, é como se fosse o plano de classificação usado nas fases corrente e intermediária.
 
@@ -55,16 +56,12 @@ Descrição é o conjunto de procedimentos que leva em conta os elementos formai
 
 6. **Edição de fontes:** É a reprodução integral do conteúdo de um documento para acesso direto do pesquisador. Tem a dupla função de preservar o suporte físico original contra o desgaste e democratizar a difusão da informação. Geralmente inclui notas, glossários e introduções históricas para facilitar a compreensão contextual do texto.
 
-**Difusão**: A difusão abrange as ações que o arquivo realiza para promover o seu acervo externamente, divulgar sua existência e estimular novas pesquisas.
-
-![](../attachments/Pasted%20image%2020260531173817.png)
-
 
 ![500](../attachments/Pasted%20image%2020260531170330.png)
 ![](../attachments/Pasted%20image%2020260531170405.png)
 
 ---
-### 3. Conservação
+#### **3. Conservação**
 
 Compreende o conjunto de medidas técnicas, físicas e administrativas empregadas para desacelerar a degradação dos suportes físicos.
 
@@ -76,8 +73,8 @@ Compreende o conjunto de medidas técnicas, físicas e administrativas empregada
     
 - **Reformatação:** É a técnica de transferir a informação para um novo suporte para evitar o manuseio do original fragilizado. A microfilmagem e a digitalização são os exemplos mais comuns de medidas de preservação por reformatação.
 
-### 4. Referência
-
+---
+#### **4. Referência**
 O serviço de referência atua para viabilizar a consulta de forma eficiente e segura, englobando atividades como:
 
 - **Entrevista de Referência:** O arquivista recebe o pesquisador e busca compreender exatamente qual é o objeto de sua pesquisa, auxiliando-o a delimitar o tema e a identificar quais fundos documentais podem ser úteis.
@@ -87,3 +84,10 @@ O serviço de referência atua para viabilizar a consulta de forma eficiente e s
 - **Disponibilização e Consulta:** É o ato físico de retirar o documento do acervo e entregá-lo ao usuário na sala de consulta, sempre estabelecendo e fiscalizando regras rígidas de manuseio para evitar danos ao material.
     
 - **Reprodução e Certificação:** O serviço de referência também é responsável por fornecer cópias, digitalizações e certidões atestando a veracidade das informações contidas nos documentos originais.
+
+---
+#### **5. Difusão**
+
+A difusão abrange as ações que o arquivo realiza para promover o seu acervo externamente, divulgar sua existência e estimular novas pesquisas.
+
+![](../attachments/Pasted%20image%2020260531173817.png)
