@@ -1,5 +1,5 @@
 
-
+#Concluded 
 
 ---
 
@@ -53,7 +53,37 @@ Descrição é o conjunto de procedimentos que leva em conta os elementos formai
 	- O **índice** é uma lista de termos que localiza as informações específicas contidas no texto. É organizado a partir de um critério independente que facilite a busca pontual. O critério mais comum é a ordem alfabética. É posicionado no final do documento. Ele permite que o leitor encontre imediatamente em quais páginas um determinado conceito, indivíduo, instituição ou evento é citado.
 		 ![](../attachments/Pasted%20image%2020260531165548.png)
 
-1. **Edição de fontes:** 
+6. **Edição de fontes:** É a reprodução integral do conteúdo de um documento para acesso direto do pesquisador. Tem a dupla função de preservar o suporte físico original contra o desgaste e democratizar a difusão da informação. Geralmente inclui notas, glossários e introduções históricas para facilitar a compreensão contextual do texto.
+
+**Difusão**: A difusão abrange as ações que o arquivo realiza para promover o seu acervo externamente, divulgar sua existência e estimular novas pesquisas.
+
+![](../attachments/Pasted%20image%2020260531173817.png)
 
 
+![500](../attachments/Pasted%20image%2020260531170330.png)
+![](../attachments/Pasted%20image%2020260531170405.png)
 
+---
+### 3. Conservação
+
+Compreende o conjunto de medidas técnicas, físicas e administrativas empregadas para desacelerar a degradação dos suportes físicos.
+
+- **Conservação Preventiva:** Envolve o controle rigoroso da temperatura, da umidade relativa do ar e da iluminação das áreas de guarda, além da higienização dos acervos, do controle de pragas (insetos e fungos) e da utilização de invólucros adequados (caixas e pastas de material neutro, que não agridem o papel).
+    
+- **Conservação Curativa ou Interventiva:** Refere-se a intervenções diretas no documento para estabilizar danos já existentes e impedir sua progressão, como a remoção de fitas adesivas, o alisamento de papéis amassados ou pequenos reparos em rasgos.
+    
+- **Restauração:** É o nível mais extremo aplicado quando o documento perdeu sua integridade estrutural. Envolve procedimentos complexos para restituir a funcionalidade do documento, como o preenchimento de áreas desgastadas.
+    
+- **Reformatação:** É a técnica de transferir a informação para um novo suporte para evitar o manuseio do original fragilizado. A microfilmagem e a digitalização são os exemplos mais comuns de medidas de preservação por reformatação.
+
+### 4. Referência
+
+O serviço de referência atua para viabilizar a consulta de forma eficiente e segura, englobando atividades como:
+
+- **Entrevista de Referência:** O arquivista recebe o pesquisador e busca compreender exatamente qual é o objeto de sua pesquisa, auxiliando-o a delimitar o tema e a identificar quais fundos documentais podem ser úteis.
+    
+- **Orientação e Uso de Instrumentos:** O profissional instrui o usuário sobre como utilizar os instrumentos de pesquisa (guias, inventários, catálogos e índices) para que ele mesmo consiga localizar os documentos desejados de forma autônoma.
+    
+- **Disponibilização e Consulta:** É o ato físico de retirar o documento do acervo e entregá-lo ao usuário na sala de consulta, sempre estabelecendo e fiscalizando regras rígidas de manuseio para evitar danos ao material.
+    
+- **Reprodução e Certificação:** O serviço de referência também é responsável por fornecer cópias, digitalizações e certidões atestando a veracidade das informações contidas nos documentos originais.
