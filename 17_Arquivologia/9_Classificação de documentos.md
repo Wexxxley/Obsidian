@@ -13,7 +13,6 @@
 7. Quanto ao tipo.
 
 #### **1. Quanto ao gênero**
-
 Aspecto documental relacionado ao conjunto de signos ou símbolos utilizados para registrar a informação.
 
 - **Escritos ou textuais:**  São aqueles que contem texto
@@ -25,4 +24,9 @@ Aspecto documental relacionado ao conjunto de signos ou símbolos utilizados par
 - **Filmográficos**: audiovisual
 - **Informático/digital:** documentos em meio digital
 
-#### 2. Quan
+#### **2. Quanto à natureza**
+- **Sigilosos**: documentos de acesso restrito. Graus de sigilo:
+	- Ultrassecretos
+	- Secretos
+	- Reservados
+- **Ostensivos** Documentos cuja divulgação não prejudica a administração. 
