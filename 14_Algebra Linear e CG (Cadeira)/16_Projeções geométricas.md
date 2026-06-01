@@ -12,7 +12,9 @@ Uma projeção é uma representação bidimensional de um objeto tridimensional.
 ![](../attachments/centro.jpg)
 
 
-### Classificação de projeções
+### **1. Classificação de projeções**
+
+![](../attachments/Pasted%20image%2020260601080336.png)
 
 - **Perspectiva:** Como os raios de luz saem de um ponto único e se espalham em formato de cone, as coisas que estão mais longe parecem menores. É exatamente assim que os nossos olhos e as câmeras fotográficas funcionam.
 	![](../attachments/Pasted%20image%2020260529081744.png)
@@ -24,14 +26,26 @@ Uma projeção é uma representação bidimensional de um objeto tridimensional.
 	- **Ortográfica:** Aqui, os raios paralelos batem perfeitamente a 90 graus no plano de projeção. Ela preserva medidas e proporções exatas.
 	    ![](../attachments/Pasted%20image%2020260529082420.png)
 
-**Volume de visualização**
-O volume de visualização é a região do espaço tridimensional que delimita quais objetos ou partes de objetos serão visíveis na imagem final. Ele atua como um limitador espacial de coordenadas.
+---
+### **2. Volume de visualização**
 
-A definição desse volume é necessária para otimização e controle de renderização. Os vértices que se encontram totalmente fora desse volume são descartados por meio de um processo algorítmico chamado de recorte (_clipping_), impedindo o processamento desnecessário de elementos invisíveis. 
-- Na projeção ortográfica, ele assume a forma de um paralelepípedo, delimitado por seis planos: esquerdo, direito, inferior, superior, próximo (_near_) e distante (_far_).
-    ![500](../attachments/Pasted%20image%2020260601073517.png)
+O volume de visualização é a região do espaço tridimensional que delimita quais objetos ou partes de objetos serão visíveis na imagem final. Os vértices que se encontram totalmente fora desse volume são descartados por meio de um processo algorítmico chamado de recorte (_clipping_), impedindo o processamento desnecessário de elementos.
+
 - Na projeção em perspectiva, o volume assume o formato de uma pirâmide truncada, onde a área do plano próximo é menor do que a área do plano distante.
-	![500](../attachments/Pasted%20image%2020260601072923.png)
+	![400](../attachments/Pasted%20image%2020260601072923.png)	 
+- Na projeção ortográfica, ele assume a forma de um paralelepípedo, delimitado por seis planos: esquerdo, direito, inferior, superior, próximo (_near_) e distante (_far_).
+    ![400](../attachments/Pasted%20image%2020260601073517.png)
+ - Na projeção obliqua os raios de projeção permanecem paralelos entre si, porém intercedem o plano de projeção em um ângulo diferente de 90 graus. Forma geométrica de um paralelepípedo oblíquo.
+	![300](../attachments/Pasted%20image%2020260601075637.png)
+
+---
+
+### **3. Normalização  de projeções**
 
 
-![](../attachments/Pasted%20image%2020260601070659.png)
+
+**Normalização de projeções:** basicamente eu deformo/mapeio o que está dentro do volume de visualização para dentro do cubo canônico
+![300](../attachments/Pasted%20image%2020260601074327.png)
+
+**Cubo canônico**
+![250](../attachments/Pasted%20image%2020260601070659.png)
