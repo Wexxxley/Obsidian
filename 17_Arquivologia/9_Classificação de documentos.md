@@ -14,7 +14,6 @@
 
 #### **1. Quanto ao gênero**
 Aspecto documental relacionado ao conjunto de signos ou símbolos utilizados para registrar a informação.
-
 - **Escritos ou textuais:**  São aqueles que contem texto
 - **Iconográficos**: Contém imagens estáticas. Fotografias, diapositivos, desenhos, etc...
 - **Cartográfico**: Docs que contem uma imagem reduzida de uma área. Mapas, plantas
@@ -30,3 +29,11 @@ Aspecto documental relacionado ao conjunto de signos ou símbolos utilizados par
 	- Secretos
 	- Reservados
 - **Ostensivos** Documentos cuja divulgação não prejudica a administração. 
+
+#### **3. Quanto à forma**
+
+
+#### **4. Quanto à formato**
+
+![](../attachments/Pasted%20image%2020260601143141.png)
+![](../attachments/Pasted%20image%2020260601143154.png)
