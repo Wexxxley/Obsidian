@@ -1,7 +1,7 @@
 
 
 ---
-Uma projeção é uma representação bidimensional de um objeto tridimensional. Existem várias técnicas e tipos de projeção. A mais importante dela é a projeção Perspectiva, pois ela simula a projeção feita pelo olho humano quando este capta a imagem de um objeto.
+Uma projeção é uma representação bidimensional de um objeto tridimensional. Existem várias técnicas e tipos de projeção. 
 
 **Centro de Projeção:** Ponto no espaço de onde a observação está sendo feita.
 
@@ -24,18 +24,14 @@ Uma projeção é uma representação bidimensional de um objeto tridimensional.
 	- **Ortográfica:** Aqui, os raios paralelos batem perfeitamente a 90 graus no plano de projeção. Ela preserva medidas e proporções exatas.
 	    ![](../attachments/Pasted%20image%2020260529082420.png)
 
-### 3. Dividindo as Ortográficas: Como o objeto está posicionado?
+**Volume de visualização**
+O volume de visualização é a região do espaço tridimensional que delimita quais objetos ou partes de objetos serão visíveis na imagem final. Ele atua como um limitador espacial de coordenadas.
 
-A luz já está batendo reto na tela a 90 graus. Agora a diferença é como você gira o objeto (a peça) de frente para essa tela.
+A definição desse volume é necessária para otimização e controle de renderização. Os vértices que se encontram totalmente fora desse volume são descartados por meio de um processo algorítmico chamado de recorte (_clipping_), impedindo o processamento desnecessário de elementos invisíveis. 
+- Na projeção ortográfica, ele assume a forma de um paralelepípedo, delimitado por seis planos: esquerdo, direito, inferior, superior, próximo (_near_) e distante (_far_).
+    ![500](../attachments/Pasted%20image%2020260601073517.png)
+- Na projeção em perspectiva, o volume assume o formato de uma pirâmide truncada, onde a área do plano próximo é menor do que a área do plano distante.
+	![500](../attachments/Pasted%20image%2020260601072923.png)
 
-- **Vistas (Multivistas):** Você alinha o objeto perfeitamente de frente para a tela. Você só consegue enxergar uma única face por vez em 2D.
-    
-    - _Subtipos:_ Para entender a peça toda, você precisa desenhar várias vistas separadas (Três vistas clássicas: Frente, Lado, Cima), fazer **Vistas auxiliares** (para faces tortas) ou **Vistas seccionais** (cortar a peça no meio para ver por dentro).
-        
-- **Axonométricas:** Você pega o objeto e dá uma "rotacionada e inclinada" nele antes de projetar a sombra ortográfica. A mágica aqui é que, ao inclinar, você consegue ver **três faces ao mesmo tempo** num único desenho, dando uma falsa (mas excelente) ilusão de 3D.
-    
-    - _Subtipos:_ Dependendo do ângulo exato que você inclinou a peça, as linhas encolhem. Se todos os três eixos encolherem por igual, é **Isométrica** (Iso = igual). Se dois eixos encolherem igual, é **Dimétrica**. Se os três encolherem diferente, é **Trimétrica**.
-        
 
-Para você visualizar instantaneamente a diferença que o Centro de Projeção (Lanterna) e a Rotação (Axonométrica vs Vistas) fazem, criei um visualizador 3D interativo abaixo.
-
+![](../attachments/Pasted%20image%2020260601070659.png)

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Arquivologia/9_Tipos de documentos.md",
+                "file": "14_Algebra Linear e CG (Cadeira)/16_Projeções geométricas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9_Tipos de documentos"
+              "title": "16_Projeções geométricas"
             }
           }
         ],
@@ -209,8 +209,12 @@
   },
   "active": "af356e5e1a7640c4",
   "lastOpenFiles": [
-    "17_Arquivologia/7_Arquivos permanentes.md",
+    "attachments/Pasted image 20260601073517.png",
+    "attachments/Pasted image 20260601072923.png",
+    "attachments/Pasted image 20260601072705.png",
+    "attachments/Pasted image 20260601070659.png",
     "17_Arquivologia/9_Tipos de documentos.md",
+    "17_Arquivologia/7_Arquivos permanentes.md",
     "attachments/Pasted image 20260531173817.png",
     "17_Arquivologia/8_Princípios da Arquivologia.md",
     "attachments/Pasted image 20260531170405.png",
@@ -219,9 +223,6 @@
     "attachments/Pasted image 20260531165107.png",
     "attachments/Pasted image 20260531160631.png",
     "attachments/Pasted image 20260531160614.png",
-    "attachments/Pasted image 20260531160503.png",
-    "attachments/Pasted image 20260531160333.png",
-    "attachments/Pasted image 20260531152916.png",
     "14_Algebra Linear e CG (Cadeira)/16_Projeções geométricas.md",
     "14_Algebra Linear e CG (Cadeira)/13_Base e Mudança de base.md",
     "16_Redação/Temas diversos.md",
@@ -246,7 +247,6 @@
     "16_Redação",
     "18_Aleatorios/2_Técnica simples de estudo.md",
     "18_Aleatorios/Proposta de Startup.md",
-    "18_Aleatorios/INPI, RPI.md",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
     "02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
