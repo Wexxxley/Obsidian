@@ -12,7 +12,7 @@ Basicamente eu deformo/mapeio o que está dentro do volume de visualização par
 Para delimitar as fronteiras exatas do volume de visualização, estabelecemos seis planos de recorte;
 - **Eixo X:** Definido pelo plano esquerdo $l$, e pelo plano direito $r$.
 - **Eixo Y:** Definido pelo plano inferior $b$, e pelo plano superior $t$.
-- **Eixo Z** Definido pelo plano próximo $n$, e pelo plano distante $f$.
+- **Eixo Z** Definido pelo plano próximo $n$, e pelo plano distante $f$. Aqui utilizamos as distâncias
 
 Primeiramente, é necessário deslocar o centro do volume ortográfico para que este coincida com a origem geométrica $(0,0,0)$. Portanto, o centro do volume é dado:
 $$centro = \left(\frac{r+l}{2}, \frac{t+b}{2}, \frac{n+f}{2}\right)$$
