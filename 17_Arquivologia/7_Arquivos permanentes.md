@@ -38,7 +38,7 @@ Descrição é o conjunto de procedimentos que leva em conta os elementos formai
 	- Regulamentos para consultar e requisitos exigidos.
 	- Recursos técnicos oferecidos.
 	
-2. **Inventário:** Descreve  as unidades de arquivamento de um fundo ou suas subdivisões, cuja apesentação obedece uma ordenação lógica. 
+2. **Inventário:** Descreve as unidades de arquivamento de um fundo ou suas subdivisões, cuja apresentação obedece uma ordenação lógica. 
 	- **Inventário sumário:** descreve sucintamente.![](../attachments/Pasted%20image%2020260531160503.png)
 	- **Inventário analítico:**  descreve pormenorizadamente/de forma detalhada. ![](../attachments/Pasted%20image%2020260531160631.png)
 	
