@@ -38,14 +38,3 @@ O volume de visualização é a região do espaço tridimensional que delimita q
  - Na projeção obliqua os raios de projeção permanecem paralelos entre si, porém intercedem o plano de projeção em um ângulo diferente de 90 graus. Forma geométrica de um paralelepípedo oblíquo.
 	![300](../attachments/Pasted%20image%2020260601075637.png)
 
----
-
-### **3. Normalização  de projeções**
-
-
-
-**Normalização de projeções:** basicamente eu deformo/mapeio o que está dentro do volume de visualização para dentro do cubo canônico
-![300](../attachments/Pasted%20image%2020260601074327.png)
-
-**Cubo canônico**
-![250](../attachments/Pasted%20image%2020260601070659.png)
