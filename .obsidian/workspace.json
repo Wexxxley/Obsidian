@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02_Dotnet/2_WebAPI/3_Intermediário/CORS policy.md",
+                "file": "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/8_Courotines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CORS policy"
+              "title": "Backlinks for 8_Courotines"
             }
           },
           {
@@ -188,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -209,6 +209,7 @@
   },
   "active": "af356e5e1a7640c4",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260602133956.png",
     "attachments/Pasted image 20260602132814.png",
     "attachments/Pasted image 20260602132529.png",
     "attachments/Pasted image 20260602132221.png",
@@ -226,7 +227,6 @@
     "attachments/Pasted image 20260602093158.png",
     "attachments/Pasted image 20260602092019.png",
     "14_Algebra Linear e CG (Cadeira)/17_Normalização de projeção.md",
-    "attachments/Pasted image 20260602083608.png",
     "17_Arquivologia/7_Arquivos permanentes.md",
     "17_Arquivologia/6_Diagnóstico arquivístico.md",
     "14_Algebra Linear e CG (Cadeira)/12_Transformações.md",
