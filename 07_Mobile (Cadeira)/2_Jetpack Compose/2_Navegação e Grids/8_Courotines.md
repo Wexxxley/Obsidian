@@ -1,0 +1,30 @@
+
+
+---
+Por padrão todos os componentes de um aplicativo Android são executados na mesma Thread, a Main Thread. Ela é a única responsável pelas atualizações da interface com o usuário. 
+
+Se a main thread for bloqueada, pode ocasionar o aparecimento do famoso ANR (Aplicativo Não Respondendo).
+
+As vezes multi-thread é necessário, como:
+- Leitura eescrita no db;
+- Chamadas a APIS.
+
+**Courotines**: Diferentmente de thread que são gerenciadas pelo sistema operacional coroutines são gerenciadas pelo usuário, so que com bem mais legibilidade.
+
+Em kotlin são funções que possuem:
+- suspend: Pausa a execução de uma coroutine, salvando as variáveis locais.
+- resume: Continua a execução de uma coroutine que está suspensa.
+
+![](../../../attachments/Pasted%20image%2020260602132529.png)
+
+- **Coroutine Builder:** São funções que iniciam uma nova corrotina. O `runBlocking` cria um escopo que bloqueia a thread atual até que tudo dentro dele termine. 
+- **Dispatcher:** Define em qual thread a corrotina será executada. O `Dispatchers.IO` é otimizado para operações de entrada e saída. O `Dispatchers.Default` é otimizado para cálculos intensivos de CPU.
+- **Job:** É o identificador da corrotina. Quando você chama `launch`, ele retorna um `Job`, que permite controlar o ciclo de vida dessa tarefa.
+- **Suspend Function:** São funções marcadas com o modificador `suspend`. Elas podem pausar a execução da corrotina sem bloquear a thread onde ela está rodando, permitindo que a thread execute outras tarefas enquanto.
+- **Await:** É uma função chamada em um `Deferred` (retornado pelo `async`). Ela suspende a corrotina atual até que o resultado da operação assíncrona esteja pronto. 
+
+
+![](../../../attachments/Pasted%20image%2020260602132814.png)
+
+Você só pode chamar uma função suspend de dentro de outra função suspend ou de dentro de um Coroutine Scope
+
