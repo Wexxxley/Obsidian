@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Arquivologia/11_Documentos digitais.md",
+                "file": "17_Arquivologia/12_Certificação digital e legislação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11_Documentos digitais"
+              "title": "12_Certificação digital e legislação"
             }
           }
         ],
@@ -104,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "17_Arquivologia/11_Documentos digitais.md",
+                "file": "17_Arquivologia/12_Certificação digital e legislação.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +144,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 11_Documentos digitais"
+              "title": "Backlinks for 12_Certificação digital e legislação"
             }
           },
           {
@@ -210,25 +209,25 @@
   },
   "active": "af356e5e1a7640c4",
   "lastOpenFiles": [
+    "17_Arquivologia/11_Documentos digitais.md",
+    "17_Arquivologia/12_Certificação digital e legislação.md",
+    "attachments/Pasted image 20260602163842.png",
+    "attachments/Pasted image 20260602163825.png",
     "attachments/Pasted image 20260602152630.png",
     "attachments/Pasted image 20260602152615.png",
     "attachments/Pasted image 20260602152302.png",
     "attachments/Pasted image 20260602151633.png",
     "18_Aleatorios/3_Concursos de TI.md",
-    "17_Arquivologia/11_Documentos digitais.md",
     "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/8_Courotines.md",
     "attachments/Pasted image 20260602141505.png",
     "attachments/Pasted image 20260602140630.png",
     "attachments/Pasted image 20260602133956.png",
     "attachments/Pasted image 20260602132814.png",
-    "attachments/Pasted image 20260602132529.png",
-    "attachments/Pasted image 20260602132221.png",
     "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/7_ViewModel e StateFlow.md",
     "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/6_Arquitetura MVVM.md",
     "17_Arquivologia/10_Conservação de documentos.md",
     "17_Arquivologia/9_Classificação de documentos.md",
     "17_Arquivologia/8_Princípios da Arquivologia.md",
-    "attachments/Pasted image 20260602095703.png",
     "14_Algebra Linear e CG (Cadeira)/17_Normalização de projeção.md",
     "17_Arquivologia/7_Arquivos permanentes.md",
     "17_Arquivologia/6_Diagnóstico arquivístico.md",

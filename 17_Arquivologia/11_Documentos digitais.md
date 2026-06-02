@@ -1,7 +1,6 @@
 
 
 ---
-
 ### **1. Introdução** 
 
 **Formas de criar documentos digitais**
@@ -46,5 +45,8 @@ Quando a primeira assinatura digital é aplicada, o software gera um Hash. A par
 **Etapas da digitalização:**
 1. **Preparação da documentação:** Ordenação, remoção de grampos, higienização básica, recuperação de páginas rasgadas, separação de documentos em lotes.
 2. **Captura:** captura da imagem.
-3. **Controle de qualidade:** 
-4. **Indexação:**
+3. **Controle de qualidade:** é importante padronizar a resolução, equipamento, compressão.
+4. **Indexação**
+
+![](../attachments/Pasted%20image%2020260602163825.png)
+![](../attachments/Pasted%20image%2020260602163842.png)
