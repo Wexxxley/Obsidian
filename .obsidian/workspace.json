@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Arquivologia/9_Classificação de documentos.md",
+                "file": "14_Algebra Linear e CG (Cadeira)/17_Normalização de projeção.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9_Classificação de documentos"
+              "title": "17_Normalização de projeção"
             }
           }
         ],
@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -209,12 +210,12 @@
   },
   "active": "af356e5e1a7640c4",
   "lastOpenFiles": [
+    "17_Arquivologia/9_Classificação de documentos.md",
     "17_Arquivologia/8_Princípios da Arquivologia.md",
     "17_Arquivologia/10_Conservação de documentos.md",
     "attachments/Pasted image 20260601194256.png",
     "attachments/Pasted image 20260601194242.png",
     "attachments/Pasted image 20260601194225.png",
-    "17_Arquivologia/9_Classificação de documentos.md",
     "17_Arquivologia/7_Arquivos permanentes.md",
     "17_Arquivologia/6_Diagnóstico arquivístico.md",
     "attachments/Pasted image 20260601150321.png",
