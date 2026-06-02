@@ -59,3 +59,6 @@ Em kotlin são funções que possuem:
 
 **ViewModel como Gestor de Corrotinas**
 - A camada de UI (Jetpack Compose) deve ser declarativa e ignorante sobre a lógica de negócios.  A lógica deve ser iniciada no `ViewModel`. O `ViewModel` possui escopos de corrotinas específicos, como o `viewModelScope`.
+
+**Fique atento às exceções**
+- Exceções não tratadas em coroutines podem causar a falha do seu aplicativo.

@@ -134,17 +134,17 @@ Praticamente todos os editais se baseiam nestes pilares, mas a proporção entre
 - Padronização documental: identificação, numeração, timbre, campos obrigatórios e formatação.
 ### Gestão Documental, Arquivologia e Protocolo
 - Conceitos de documento, informação, arquivo, processo, pasta, fichário e prontuário.
-- Fundamentos e princípios arquivísticos.
-- Ciclo vital dos documentos e Teoria das Três Idades.
-- Produção, tramitação, utilização e destinação de documentos.
-- Classificação, avaliação e temporalidade documental.
-- Arquivos correntes, intermediários e permanentes.
+- ~~Fundamentos e princípios arquivísticos.~~
+- ~~Ciclo vital dos documentos e Teoria das Três Idades.~~
+- ~~Produção, tramitação, utilização e destinação de documentos.~~
+- ~~Classificação, avaliação e temporalidade documental.~~
+- ~~Arquivos correntes, intermediários e permanentes.~~
 - Métodos de arquivamento: alfabético, numérico, cronológico, geográfico e ideográfico.
-- Sistemas de arquivamento; organização, conservação e preservação documental.
-- Instrumentos de pesquisa: índices, inventários, catálogos, guias e sumários.
+- ~~Sistemas de arquivamento; organização, conservação e preservação documental.~~
+- ~~Instrumentos de pesquisa: índices, inventários, catálogos, guias e sumários.~~
 - Controle de empréstimo, consulta e recuperação da informação.
-- Protocolo: recebimento, registro, classificação, distribuição, movimentação e expedição de documentos.
-- Controle e acompanhamento da tramitação documental.
+- ~~Protocolo: recebimento, registro, classificação, distribuição, movimentação e expedição de documentos.~~
+- ~~Controle e acompanhamento da tramitação documental.~~
 - Instrução processual: autuação, juntada, anexação, apensação, incorporação e formação de processos.
 - Digitalização, arquivos eletrônicos e gestão eletrônica de documentos.
 
