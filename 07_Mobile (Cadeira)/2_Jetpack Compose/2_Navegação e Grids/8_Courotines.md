@@ -8,6 +8,8 @@ Se a main thread for bloqueada, pode ocasionar o aparecimento do famoso ANR (Apl
 As vezes multi-thread é necessário, como:
 - Leitura eescrita no db;
 - Chamadas a APIS.
+- Executar tarefas que podem bloquear a thread principal
+- Executar várias tarefas simultaneamente sem bloqueio
 
 **Courotines**: Diferentmente de thread que são gerenciadas pelo sistema operacional coroutines são gerenciadas pelo usuário, so que com bem mais legibilidade.
 
@@ -39,12 +41,21 @@ Em kotlin são funções que possuem:
 ![](../../../attachments/Pasted%20image%2020260602133956.png)
 
 
+**withContext**: Permite que você execute uma parte específica do seu código em um Dispatcher diferente daquele que está sendo usado pelo escopo principal, sem a necessidade de iniciar uma nova corrotina.
 
+![](../../../attachments/Pasted%20image%2020260602140630.png)
 
+**viewModelScope**
+É um CoroutineScope que está disponível automaticamente em todo ViewModel. Qualquer Coroutine lançada no viewModelScope será automaticamente cancelada quando o ViewModel for limpo 
 
+![](../../../attachments/Pasted%20image%2020260602141505.png)
 
+**Boas práticas**
 
+**Funções suspend devem ser chamadas na Thread Principal**
 
+**Injeção de Dependência de Dispatchers**
+- Nunca utilize Dispatchers "hardcoded" dentro do corpo da função, como `Dispatchers.Default` ou `Dispatchers.IO`. Em vez disso, injete-os através do construtor da classe.
 
-
-
+**ViewModel como Gestor de Corrotinas**
+- A camada de UI (Jetpack Compose) deve ser declarativa e ignorante sobre a lógica de negócios.  A lógica deve ser iniciada no `ViewModel`. O `ViewModel` possui escopos de corrotinas específicos, como o `viewModelScope`.
