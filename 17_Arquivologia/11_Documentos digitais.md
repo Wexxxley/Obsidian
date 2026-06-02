@@ -35,13 +35,6 @@ Digitalização é a conversão de documentos em meio analógico (o que não é 
 	- **Códigos:** Sequências únicas de letras e números impressas no documento, acompanhadas do endereço do portal (URL) onde o código deve ser inserido para consulta.
 - Registro públicos, ainda que digitalizados, deverão ser preservados. Como: Escritura de imóvel, Cestidões, RG e etc.
 
-**ICP-Brasil** significa **Infraestrutura de Chaves Públicas Brasileira**. Trata-se de um sistema nacional hierárquico e público, criado para viabilizar a emissão de certificados digitais para identificação virtual de cidadãos, empresas e equipamentos.
-
-- **Validade Jurídica:** Documentos assinados com certificados ICP-Brasil possuem presunção legal de veracidade. 
-- **Não Repúdio:** A infraestrutura garante que a pessoa que utilizou o certificado não pode negar posteriormente a autoria da assinatura, visto que o certificado exige identificação presencial ou biométrica rigorosa para ser emitido.
-
-Quando a primeira assinatura digital é aplicada, o software gera um Hash. A partir daquele exato milissegundo, se qualquer modificação for feita no texto original, o arquivo gerará um _Hash_ diferente. Ao confrontar o novo _Hash_ com o _Hash_ original selado na assinatura, o sistema de verificação apontará uma divergência. Mas uma nova assinatura não é considerada uma edição.
-
 **Etapas da digitalização:**
 1. **Preparação da documentação:** Ordenação, remoção de grampos, higienização básica, recuperação de páginas rasgadas, separação de documentos em lotes.
 2. **Captura:** captura da imagem.
@@ -50,3 +43,16 @@ Quando a primeira assinatura digital é aplicada, o software gera um Hash. A par
 
 ![](../attachments/Pasted%20image%2020260602163825.png)
 ![](../attachments/Pasted%20image%2020260602163842.png)
+
+---
+### **3. Certificação digital**
+
+Documento eletrônico que identifica a autentica o titular em sistemas. Pode ser usado para assinar documentos digitalmente.
+
+**ICP-Brasil** significa **Infraestrutura de Chaves Públicas Brasileira**. Trata-se de um sistema nacional hierárquico e público, criado para viabilizar a emissão de certificados digitais para identificação virtual de cidadãos, empresas e equipamentos.
+- **Validade Jurídica:** Documentos assinados com certificados ICP-Brasil possuem presunção legal de veracidade. 
+- **Não Repúdio:** A infraestrutura garante que a pessoa que utilizou o certificado não pode negar posteriormente a autoria da assinatura, visto que o certificado exige identificação presencial ou biométrica rigorosa para ser emitido.
+
+Quando a primeira assinatura digital é aplicada, o software gera um Hash. A partir daquele exato milissegundo, se qualquer modificação for feita no texto original, o arquivo gerará um _Hash_ diferente. Ao confrontar o novo _Hash_ com o _Hash_ original selado na assinatura, o sistema de verificação apontará uma divergência. Mas uma nova assinatura não é considerada uma edição.
+
+![](../attachments/Pasted%20image%2020260602170102.png)

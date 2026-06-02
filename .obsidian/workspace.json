@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Arquivologia/12_Certificação digital e legislação.md",
+                "file": "17_Arquivologia/11_Documentos digitais.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12_Certificação digital e legislação"
+              "title": "11_Documentos digitais"
             }
           }
         ],
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "17_Arquivologia/12_Certificação digital e legislação.md",
+                "file": "17_Arquivologia/11_Documentos digitais.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 12_Certificação digital e legislação"
+              "title": "Backlinks for 11_Documentos digitais"
             }
           },
           {
@@ -209,8 +209,10 @@
   },
   "active": "af356e5e1a7640c4",
   "lastOpenFiles": [
-    "17_Arquivologia/11_Documentos digitais.md",
+    "attachments/Pasted image 20260602170102.png",
     "17_Arquivologia/12_Certificação digital e legislação.md",
+    "17_Arquivologia/10_Conservação de documentos.md",
+    "17_Arquivologia/11_Documentos digitais.md",
     "attachments/Pasted image 20260602163842.png",
     "attachments/Pasted image 20260602163825.png",
     "attachments/Pasted image 20260602152630.png",
@@ -225,7 +227,6 @@
     "attachments/Pasted image 20260602132814.png",
     "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/7_ViewModel e StateFlow.md",
     "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/6_Arquitetura MVVM.md",
-    "17_Arquivologia/10_Conservação de documentos.md",
     "17_Arquivologia/9_Classificação de documentos.md",
     "17_Arquivologia/8_Princípios da Arquivologia.md",
     "14_Algebra Linear e CG (Cadeira)/17_Normalização de projeção.md",
@@ -244,7 +245,6 @@
     "17_Arquivologia/3_Ciclo vital dos documentos.md",
     "17_Arquivologia/2_Classificação dos arquivos.md",
     "17_Arquivologia/4_Protocolo.md",
-    "17_Arquivologia/5_Gestão de documentos.md",
     "17_Arquivologia",
     "16_Redação",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
