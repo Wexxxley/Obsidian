@@ -53,11 +53,21 @@ Bioterioração é deterioração causadas por agentes biológicos como fungos, 
 ### **4. Atividades de conservação**
 
 - **Desinfestação**: aplicar produtos químicos buscando eliminar insetos no ambiente de arquivo. O mais adequado para os documentos é a câmara de **Fumigação**.
-- Limpexa
-- Alisamento
-- Restauração ou reparo
+- **Limpeza**: Pano macio, escova (trincha) ou aspirador de pó
+- **Alisamento**: consiste em colocar os docs em bandejas de aço inoxidável. Submeter a umidade em uma câmera de umidificação e passar ferro.
+	![200](../attachments/Pasted%20image%2020260602094230.png)
+- **Restauração ou reparo**: a ideia central é tentar utulizar algum material para encapsular o documento aumentando a resitência e permitindo manuseio.
+	- Banho de gelatina ou cola: Fica sucetivel a ataque de insetos.
+	- Tecido fino: Propicia insetos e reduz a legibilidade.
+	- Silking: Parecido com o método tecido mas usando crepeline ou musseline de seda. Alto custo.
+	- Laminação: Envolve o doc com folhas de papel. Depois prenssa. Não existe desvantagens.
+	- Laminação manual:
+	- Encapsulação: Técnica simples. Utilizasse películas de poliéster e fita.
+
 
 ![](../attachments/Pasted%20image%2020260601194225.png)
 ![](../attachments/Pasted%20image%2020260601194242.png)
 ![](../attachments/Pasted%20image%2020260601194256.png)![](../attachments/Pasted%20image%2020260602093158.png)
 ![](../attachments/Pasted%20image%2020260602093219.png)![](../attachments/Pasted%20image%2020260602093234.png)
+
+![](../attachments/Pasted%20image%2020260602095638.png)![](../attachments/Pasted%20image%2020260602095703.png)

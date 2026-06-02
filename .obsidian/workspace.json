@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17_Arquivologia/10_Conservação de documentos.md",
+                "file": "17_Arquivologia/9_Classificação de documentos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10_Conservação de documentos"
+              "title": "9_Classificação de documentos"
             }
           }
         ],
@@ -99,12 +99,12 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -209,6 +209,12 @@
   },
   "active": "af356e5e1a7640c4",
   "lastOpenFiles": [
+    "17_Arquivologia/9_Classificação de documentos.md",
+    "17_Arquivologia/8_Princípios da Arquivologia.md",
+    "17_Arquivologia/10_Conservação de documentos.md",
+    "attachments/Pasted image 20260602095703.png",
+    "attachments/Pasted image 20260602095638.png",
+    "attachments/Pasted image 20260602094230.png",
     "attachments/Pasted image 20260602093234.png",
     "attachments/Pasted image 20260602093219.png",
     "attachments/Pasted image 20260602093158.png",
@@ -216,16 +222,9 @@
     "14_Algebra Linear e CG (Cadeira)/17_Normalização de projeção.md",
     "attachments/Pasted image 20260602083608.png",
     "attachments/Pasted image 20260602083540.png",
-    "17_Arquivologia/9_Classificação de documentos.md",
-    "17_Arquivologia/8_Princípios da Arquivologia.md",
-    "17_Arquivologia/10_Conservação de documentos.md",
     "attachments/Pasted image 20260601194256.png",
-    "attachments/Pasted image 20260601194242.png",
-    "attachments/Pasted image 20260601194225.png",
     "17_Arquivologia/7_Arquivos permanentes.md",
     "17_Arquivologia/6_Diagnóstico arquivístico.md",
-    "attachments/Pasted image 20260601150321.png",
-    "attachments/Pasted image 20260601145734.png",
     "14_Algebra Linear e CG (Cadeira)/12_Transformações.md",
     "16_Redação/Teses e repertórios.md",
     "14_Algebra Linear e CG (Cadeira)/16_Projeções geométricas.md",
