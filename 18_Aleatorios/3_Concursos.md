@@ -2,6 +2,14 @@
 
 ---
 
+- Estudar e ir fazendo anotações simples
+
+- Depois que terminar um bloco de estudo, formule um resumo para o seu eu do futuro.
+
+- Depois de um resumo bem consolidado, crie cards. Mas não de tudo, somente o que você tem mais dificuldade.
+
+---
+
 ### **1. Concursos de nivél Técnico vs Analista**
 
 - **Técnico:** Exige nível médio. A prova é mais prática, focada em "decoreba" e detalhes técnicos, como programação direta 
@@ -30,6 +38,7 @@ Praticamente todos os editais se baseiam nestes pilares, mas a proporção entre
 - O maior erro é começar pelas matérias básicas (Português, Direito). Você deve **começar pelos Conhecimentos Específicos**. Somente após fechar o conteúdo de TI, você deve migrar para as básicas, pois estas variam muito de um órgão para outro.
 - **Priorização por Peso:** Dentro da TI, você deve identificar qual dos quatro eixos temáticos é o mais cobrado nos concursos que você escolheu.
 
+---
 
 ---
 ![](../attachments/Pasted%20image%2020260526085936.png)

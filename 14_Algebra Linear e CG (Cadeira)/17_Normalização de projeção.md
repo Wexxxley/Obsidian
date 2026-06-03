@@ -92,6 +92,8 @@ A escala $S_{ang}$ é aplicada para que as novas dimensões do frustum no plano 
 - **Fator de Escala $S_{y}$**: A altura atual ($t-b$) deve ser ajustada para 2n. Logo, $S_{y}=\frac{2n}{t-b}$
 
 $$S_{ang}=\begin{pmatrix}\frac{2n}{r-1}&0&0&0\\ 0&\frac{2n}{t-b}&0&0\\ 0&0&1&0\\ 0&0&0&1\end{pmatrix}$$
+### 3.3 
 
-#### **3.3 Matriz final**
+
+#### **3.4 Matriz final**
 $$M_{fratum}=\begin{pmatrix}\frac{2n}{r-l}&0&\frac{l+r}{r-l}&0\\ 0&\frac{2n}{t-b}&\frac{b+t}{t-b}&0\\ 0&0&\frac{f+n}{f-n}&\frac{2fn}{f-n}\\ 0&0&-1&0\end{pmatrix}$$
