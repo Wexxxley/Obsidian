@@ -100,29 +100,18 @@ O Teorema de Tales é o princípio geométrico fundamental que governa a projeç
 
 - Câmera: Localizado na origem (0,0,0).
     
-- • Plano de Projeção (Imagem): Localizado em uma distância d do observador. No nosso sistema de câmera (onde o observador olha para -Z), o plano está em $Z_{proj}=d$ (onde d é negativo, e.g., $d=-1$).
+- Plano de Projeção (Imagem): Localizado em uma distância d do observador. No nosso sistema de câmera (onde o observador olha para -Z), o plano está em $Z_{proj}=d$ (onde d é negativo, e.g., $d=-1$).
     
-- • Ponto na Cena (P): Um ponto $P(X,Y,Z)$ que está sendo projetado. Lembre-se, Z é um valor negativo no espaço da câmera.
-    
+- Ponto na Cena P: Um ponto que está sendo projetado. Lembre-se, Z é um valor negativo no espaço da câmera.
 
-Consideraremos a vista superior (plano XZ). O cenário forma dois triângulos retângulos semelhantes:
+![](../attachments/Pasted%20image%2020260603074803.png)
 
-- • Triângulo Grande é formado pelo ponto na cena $P(X,Y,Z)$, a origem (câmera), e o eixo Z.
-    
-- • O Triângulo Pequeno é formado pelo ponto projetado $P^{\prime}(X^{\prime},Y^{\prime},d)$ no plano de projeção, a origem, e o plano de projeção em $Z_{proj}=d$.
-    
-
-Pela semelhança dos triângulos (catetos precisam ser valores positivos):
-
-$$\frac{X^{\prime}}{-d}=\frac{X}{-Z} \text{ [cite: 209]}$$
-
+Consideraremos a vista superior (plano XZ). O cenário forma dois triângulos retângulos semelhantes. Pela semelhança dos triângulos (catetos precisam ser valores positivos):
+$$\frac{X^{\prime}}{-d}=\frac{X}{-Z}$$
 Reorganizando a equação para encontrar a coordenada projetada $X^{\prime}$ (o eixo Y segue a mesma lógica):
+$$X^{\prime}=\frac{X\cdot d}{Z}$$
 
-$$X^{\prime}=\frac{X\cdot d}{Z} \text{ [cite: 211]}$$
-
-Esta fórmula demonstra que a coordenada projetada é inversamente proporcional à profundidade (Z). Quanto maior a profundidade $(|Z|)$, menor será o valor projetado $(|X^{\prime}|)$, simulando o encolhimento de objetos distantes.
-
-**Da Álgebra à Matriz**
+Quanto maior a profundidade $(|Z|)$, menor será o valor projetado $(|X^{\prime}|)$, simulando o encolhimento de objetos distantes.
 
 De acordo com o Teorema de Tales, se o plano de projeção estiver em $Z_{proj}=d$, as coordenadas projetadas $(X^{\prime},Y^{\prime},Z^{\prime})$ de um ponto $P(X,Y,Z)$ são:
 
