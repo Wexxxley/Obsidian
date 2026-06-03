@@ -34,6 +34,7 @@ Digitalização é a conversão de documentos em meio analógico (o que não é 
 	- **QR Codes:** que armazenam um endereço eletrônico ou um pacote de metadados.
 	- **Códigos:** Sequências únicas de letras e números impressas no documento, acompanhadas do endereço do portal (URL) onde o código deve ser inserido para consulta.
 - Registro públicos, ainda que digitalizados, deverão ser preservados. Como: Escritura de imóvel, Cestidões, RG e etc.
+- Deve garantir interoperabilidade, ou seja,  que a digitalização feita por uma instituição seja compatível com os outros sistemas.
 
 **Etapas da digitalização:**
 1. **Preparação da documentação:** Ordenação, remoção de grampos, higienização básica, recuperação de páginas rasgadas, separação de documentos em lotes.
