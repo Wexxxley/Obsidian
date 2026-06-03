@@ -42,6 +42,7 @@ Digitalização é a conversão de documentos em meio analógico (o que não é 
 3. **Controle de qualidade:** é importante padronizar a resolução, equipamento, compressão.
 4. **Indexação**
 
+
 ![](../attachments/Pasted%20image%2020260602163825.png)
 ![](../attachments/Pasted%20image%2020260602163842.png)
 

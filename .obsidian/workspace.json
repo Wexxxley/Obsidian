@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/9_Navigation3.md",
+                "file": "17_Arquivologia/12_Gestão eletrônica de documentos (GED).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9_Navigation3"
+              "title": "12_Gestão eletrônica de documentos (GED)"
             }
           }
         ],
@@ -210,10 +210,17 @@
   },
   "active": "af356e5e1a7640c4",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260603095859.png",
+    "attachments/Pasted image 20260603095553.png",
+    "attachments/Pasted image 20260603095212.png",
+    "17_Arquivologia/11_Documentos digitais.md",
+    "17_Arquivologia/12_Gestão eletrônica de documentos (GED).md",
+    "17_Arquivologia/12_Certificação digital e legislação.md",
+    "17_Arquivologia/10_Conservação de documentos.md",
+    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/9_Navigation3.md",
     "attachments/Pasted image 20260603084603.png",
     "attachments/Pasted image 20260603084035.png",
     "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/1_JetpackNavigationCompose.md",
-    "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/9_Navigation3.md",
     "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/8_Courotines.md",
     "14_Algebra Linear e CG (Cadeira)/17_Normalização de projeção.md",
     "attachments/Pasted image 20260603074803.png",
@@ -224,15 +231,9 @@
     "18_Aleatorios/3_Concursos.md",
     "18_Aleatorios/2_Técnica simples de estudo.md",
     "18_Aleatorios/1_Blocos obsidian.md",
-    "17_Arquivologia/11_Documentos digitais.md",
     "attachments/Pasted image 20260602170102.png",
-    "17_Arquivologia/12_Certificação digital e legislação.md",
-    "17_Arquivologia/10_Conservação de documentos.md",
     "attachments/Pasted image 20260602163842.png",
     "attachments/Pasted image 20260602163825.png",
-    "attachments/Pasted image 20260602152630.png",
-    "attachments/Pasted image 20260602152615.png",
-    "attachments/Pasted image 20260602152302.png",
     "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/7_ViewModel e StateFlow.md",
     "07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/6_Arquitetura MVVM.md",
     "17_Arquivologia/9_Classificação de documentos.md",
@@ -245,7 +246,6 @@
     "14_Algebra Linear e CG (Cadeira)/13_Base e Mudança de base.md",
     "16_Redação/Temas diversos.md",
     "16_Redação/Introduções coringas.md",
-    "16_Redação/3_Conclusão.md",
     "17_Arquivologia",
     "16_Redação",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
