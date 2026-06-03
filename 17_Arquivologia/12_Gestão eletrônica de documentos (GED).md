@@ -13,4 +13,14 @@
 
 ![500](../attachments/Pasted%20image%2020260603095859.png)
 
+- O GED pode englobar tecnologias de digitalização, automação de fluxos de trabalho (workflow), indexação, gestão de documentos, etc.
 
+- GED não é um sistema específico.
+
+- Note que não necessáriamente os documentos gerenciados pelo GED são digitais, podem ser analógicos também. GED é a gestão eletrônica dos documentos em diferentes suportes. É o gerenciamento informatizado.
+
+- Um sistema de GED, para ser eficaz, precisa implementar uma classificação adequada, tabelas de temporalidade, controle de níveis de segurança e de acesso, controles de backup e pesquisa avançada do acervo eletrônico.
+
+
+![](../attachments/Pasted%20image%2020260603102136.png)
+![](../attachments/Pasted%20image%2020260603102157.png)

@@ -155,7 +155,7 @@ Praticamente todos os editais se baseiam nestes pilares, mas a proporção entre
 - ~~Protocolo: recebimento, registro, classificação, distribuição, movimentação e expedição de documentos.~~
 - ~~Controle e acompanhamento da tramitação documental.~~
 - Instrução processual: autuação, juntada, anexação, apensação, incorporação e formação de processos.
-- Digitalização, arquivos eletrônicos e gestão eletrônica de documentos.
+- ~~Digitalização, arquivos eletrônicos e gestão eletrônica de documentos.~~
 
 ### Processo Legislativo e Organização do Poder Legislativo
 - Estrutura e organização do Poder Legislativo Estadual.
