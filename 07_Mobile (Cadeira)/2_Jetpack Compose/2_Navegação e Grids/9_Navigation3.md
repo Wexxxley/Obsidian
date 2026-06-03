@@ -29,3 +29,12 @@ Embora a transição para rotas baseadas em objetos tenha mudado a forma como de
     - **NavEntry(key)**: É o encapsulamento que mencionamos antes. Ele recebe a chave(o estado) e um bloco de conteúdo (o Composable que será exibido).
 
 ![](../../../attachments/Pasted%20image%2020260603084603.png)
+
+---
+
+**Animações**
+
+É possível substituir as animações padrão por meio parâmetros de transição ao NavDisplay
+- **transitionSpec**: Define a animação ao navegar para frente. 
+- **popTransitionSpec**: Define a animação ser aplicada quando o conteúdo é removido da pilha (ao navegar para trás) 
+- **predictivePopTransitionSpec**: Define a animação a ser aplicada quando o conteúdo é removido da pilha usando um gesto preditivo de volta

@@ -142,7 +142,7 @@ Praticamente todos os editais se baseiam nestes pilares, mas a proporção entre
 - Vícios de linguagem: redundância, prolixidade, ambiguidade e impropriedades textuais.
 - Padronização documental: identificação, numeração, timbre, campos obrigatórios e formatação.
 ### Gestão Documental, Arquivologia e Protocolo
-- Conceitos de documento, informação, arquivo, processo, pasta, fichário e prontuário.
+- ~~Conceitos de documento, informação, arquivo, processo, pasta, fichário e prontuário.~~
 - ~~Fundamentos e princípios arquivísticos.~~
 - ~~Ciclo vital dos documentos e Teoria das Três Idades.~~
 - ~~Produção, tramitação, utilização e destinação de documentos.~~
