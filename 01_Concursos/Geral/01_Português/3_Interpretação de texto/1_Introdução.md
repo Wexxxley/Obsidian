@@ -2,8 +2,8 @@
 
 
 ---
-- **Compreensão**: Decodificação das informções explicitas do texto. Os enunciados de compreensão utilizam comandos como: "Segundo o texto...", "De acordo com o autor...", "O texto afirma que...".
-- **Interpretação**: Trata-se do trabalho de dedução a partir do que foi dito.Exige o acionamento do conhecimento de mundo do leitor e a percepção do subtexto. Os enunciados de interpretação utilizam comandos como: "Infere-se do texto que...", "Conclui-se do texto que...", "O texto permite deduzir que...".
+- **Compreensão**: Está escrito. Foco naliteralidade e sinônimos.
+- **Interpretação**: Está nas entrelinhas. Foco nas marcas textuais que permitem a dedução.
 
 **Texto Dissertativo-Argumentativo:** Tem como objetivo central defender uma tese
 (ponto de vista) por meio de argumentos logicamente encadeados.
