@@ -1,0 +1,145 @@
+
+
+---
+
+## CONHECIMENTOS GERAIS
+### Língua Portuguesa
+
+1. **Leitura e interpretação textual:**    
+    - 1.1. Leitura, compreensão e interpretação de textos.
+    - 1.2. Estruturação do texto e dos parágrafos.
+    - 1.3. Articulação do texto: pronomes e expressões referenciais, nexos e operadores sequenciais.
+    - 1.4. Significação contextual de palavras e expressões.
+    - 1.5. Equivalência e transformação de estruturas.
+    - 1.6. Linguagem verbal e não verbal: ícone, índice e símbolo.
+    - 1.7. Modalizadores discursivos.
+2. **Sintaxe e construção frasal:**
+    - 2.1. Sintaxe: processos de coordenação e subordinação.
+    - 2.2. Emprego de tempos e modos verbais.
+    - 2.3. Pontuação.
+    - 2.4. Concordância nominal e verbal.
+    - 2.5. Regência nominal e verbal.
+    - 2.6. Pronomes: emprego, formas de tratamento e colocação.
+    - 2.7. Sintaxe do período simples e composto.
+3. **Morfologia e estrutura das palavras:**
+    - 3.1. Estrutura e formação de palavras.
+    - 3.2. Funções das classes de palavras.
+    - 3.3. Flexão nominal e verbal.
+4. **Norma-padrão da língua portuguesa:**
+    - 4.1. Ortografia oficial.
+    - 4.2. Acentuação gráfica.
+### Raciocínio Lógico
+1. **Estruturas lógicas e dedução:**   
+    - 1.1. Estrutura lógica de relações arbitrárias entre pessoas, lugares, objetos ou eventos fictícios.
+    - 1.2. Dedução de novas informações a partir das relações fornecidas.
+    - 1.3. Avaliação das condições utilizadas para estabelecer a estrutura lógica das relações apresentadas.
+        
+2. **Compreensão e análise lógica de situações-problema:**
+    - 2.1. Compreensão e análise da lógica de uma situação.
+    - 2.2. Raciocínio verbal.
+    - 2.3. Raciocínio matemático.
+    - 2.4. Raciocínio sequencial.
+    - 2.5. Orientação espacial e temporal.
+    - 2.6. Formação de conceitos.
+    - 2.7. Discriminação de elementos.
+        
+3. **Operações lógicas e resolução de problemas:**
+    - 3.1. Operações com conjuntos.
+    - 3.2. Raciocínio lógico envolvendo problemas aritméticos.
+    - 3.3. Raciocínio lógico envolvendo problemas geométricos.
+    - 3.4. Raciocínio lógico envolvendo problemas matriciais.
+
+### Legislação e Ética no Serviço Público
+
+1. **Legislação aplicada ao serviço público:**    
+    - 1.1. Lei Federal nº 13.709, de 14 de agosto de 2018 – Lei Geral de Proteção de Dados Pessoais (LGPD).
+    - 1.2. Lei Federal nº 12.527, de 18 de novembro de 2011 – Lei de Acesso à Informação (LAI).
+        
+2. **Ética no serviço público:**
+    - 2.1. Ética e função pública.
+    - 2.2. Ética e moral: definição e distinção.
+    - 2.3. Valores, virtude, honestidade, integridade, decoro e zelo no serviço público: conceitos.
+    - 2.4. Ética, democracia, cidadania e o papel do servidor público.
+        
+3. **Princípios da Administração Pública aplicados à ética:**
+    - 3.1. Princípios da legalidade, impessoalidade, moralidade, publicidade e eficiência.
+    - 3.2. Aplicação dos princípios éticos na Administração Pública.
+        
+4. **Legislação Interna:**
+    - 4.1. Constituição do Estado do Ceará: disposições relativas ao Poder Legislativo Estadual; organização, competências e funcionamento do Poder Legislativo Estadual.
+    - 4.2. Lei Estadual nº 9.826/1974 e suas alterações (Estatuto dos Funcionários Públicos Civis do Estado do Ceará).
+    - 4.3. Lei Estadual nº 17.091/2019 e alterações (Plano de Cargos, Carreira e Remuneração da Alece).
+    - 4.4. Resolução nº 546/2006 (Código de Ética e Decoro Parlamentar).
+    - 4.5. Resolução nº 751/2022 e alterações (Regimento Interno da Assembleia Legislativa do Estado do Ceará).
+    - 4.6. Resolução da Alece nº 780/2025 e alterações (Estrutura Organizacional da ALECE).
+    - 4.7. Resolução nº 783/2026 (Código de Ética e Conduta dos Servidores da ALECE).
+
+
+## CONHECIMENTOS ESPECÍFICOS: TÉCNICO LEGISLATIVO
+
+### Redação Oficial e Revisão de Documentos
+- Características da redação oficial: clareza, precisão, concisão, impessoalidade, formalidade padronizada, uniformidade e objetividade.
+- Princípios e técnicas da redação oficial.
+- Estrutura, elaboração e padronização de documentos oficiais.
+- Atas: finalidade, estrutura, linguagem e formalidades.
+- Memorandos: finalidade, estrutura e elaboração.
+- Ofícios: finalidade, estrutura, endereçamento, assunto, corpo do texto, fecho e assinatura.
+- Portarias, atos, circulares, cartas e expedientes correlatos: finalidade, estrutura e aplicação.
+- Comunicações internas e externas; e-mails institucionais, memorandos eletrônicos e documentos digitais.
+- Revisão gramatical aplicada à redação oficial: ortografia, acentuação, pontuação, concordância, regência e crase.
+- Vícios de linguagem: redundância, prolixidade, ambiguidade e impropriedades textuais.
+- Padronização documental: identificação, numeração, timbre, campos obrigatórios e formatação.
+### Gestão Documental, Arquivologia e Protocolo
+- ~~Conceitos de documento, informação, arquivo, processo, pasta, fichário e prontuário.~~
+- ~~Fundamentos e princípios arquivísticos.~~
+- ~~Ciclo vital dos documentos e Teoria das Três Idades.~~
+- ~~Produção, tramitação, utilização e destinação de documentos.~~
+- ~~Classificação, avaliação e temporalidade documental.~~
+- ~~Arquivos correntes, intermediários e permanentes.~~
+- Métodos de arquivamento: alfabético, numérico, cronológico, geográfico e ideográfico.
+- ~~Sistemas de arquivamento; organização, conservação e preservação documental.~~
+- ~~Instrumentos de pesquisa: índices, inventários, catálogos, guias e sumários.~~
+- Controle de empréstimo, consulta e recuperação da informação.
+- ~~Protocolo: recebimento, registro, classificação, distribuição, movimentação e expedição de documentos.~~
+- ~~Controle e acompanhamento da tramitação documental.~~
+- Instrução processual: autuação, juntada, anexação, apensação, incorporação e formação de processos.
+- ~~Digitalização, arquivos eletrônicos e gestão eletrônica de documentos.~~
+
+### Processo Legislativo e Organização do Poder Legislativo
+- Estrutura e organização do Poder Legislativo Estadual.
+- Mesa Diretora, Presidência, Plenário, Comissões Permanentes e Temporárias.
+- Bancadas, lideranças, blocos parlamentares e unidades administrativas.
+- Processo legislativo: conceitos e fases.
+- Proposições legislativas: projeto de lei, emenda, requerimento, indicação, moção e substitutivo.
+- Tramitação de proposições legislativas: protocolo, autuação, distribuição, pareceres, pauta, votação, redação final, sanção, veto, promulgação e publicação.
+- Documentos legislativos: atas, pareceres, requerimentos e indicações.
+- Técnica legislativa e elaboração normativa; espécies normativas; consolidação e sistematização normativa.
+- Consulta e acompanhamento de proposições e atos legislativos; sistemas informatizados de gestão e tramitação legislativa.
+
+### Administração Pública e Serviços Administrativos
+- Administração Pública: conceitos e organização administrativa.
+- Planejamento, organização, direção e controle.
+- Rotinas e procedimentos administrativos; organização e métodos administrativos; gestão de processos administrativos.
+- Processo administrativo: conceitos e noções gerais.
+- Atos administrativos: noções gerais.
+- Instrução e análise de processos administrativos; elaboração de minutas e expedientes administrativos.
+- Projetos de natureza administrativa: planejamento, implantação, acompanhamento e monitoramento.
+- Apoio a comissões, grupos de trabalho e atividades institucionais.
+- Organização, controle e recuperação de informações institucionais.
+
+### Atendimento ao Público e Comunicação Institucional
+- Atendimento ao público interno e externo.
+- Técnicas de atendimento, acolhimento, escuta ativa e orientação ao usuário.
+- Comunicação institucional; prestação de informações e encaminhamento de demandas.
+- Orientações sobre tramitação documental e procedimentos administrativos.
+- Relações interpessoais e postura profissional.
+- Comunicação escrita e verbal no ambiente institucional.
+
+### Ferramentas e Sistemas Aplicados ao Trabalho Técnico-Legislativo
+- Editores de texto e recursos de formatação documental.
+- Planilhas eletrônicas aplicadas ao controle de documentos e informações.
+- Correio eletrônico institucional.
+- Ferramentas digitais aplicadas à rotina administrativa.
+- Sistemas informatizados de protocolo, gestão documental e tramitação legislativa.
+- Pesquisa, consulta e acompanhamento de processos e proposições.
+- Controle eletrônico de documentos e geração de relatórios.[]()

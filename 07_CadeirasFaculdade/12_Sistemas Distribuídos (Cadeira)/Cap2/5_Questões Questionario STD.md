@@ -1,0 +1,578 @@
+
+___
+
+**Q1**
+**"Um sistema distribuído é aquele no qual os componentes de hardware ou software, localizados em computadores interligados em rede, comunicam-se e coordenam suas ações apenas enviando mensagens entre si."**
+
+**Com base na definição apresentada e nos conceitos básicos de sistemas distribuídos, assinale a opção correta.**
+
+a. A falha de um componente em um sistema distribuído peer-to-peer causa a interrupção de todos os demais componentes até o seu retorno.  
+
+==b. A adição de novos dispositivos em um sistema distribuído para atender a uma demanda temporária ou crescente está ligada à característica de escalabilidade do sistema.==
+
+c. A possibilidade de vários clientes acessarem de forma concorrente um mesmo recurso compartilhado em um servidor é resultado do alto nível de transparência do sistema.
+
+d. O compartilhamento dos recursos distribuídos entre computadores interligados por uma rede é possível desde que os dispositivos sejam homogêneos em termos de hardware e software. 
+
+e. A existência de um relógio físico local sincronizado com um relógio global é o que permite aos usuários de um sistema distribuído trocarem mensagens de forma coordenada.
+
+---
+
+**Q2 A respeito de sistemas distribuídos, julgue o item a seguir.** 
+
+**A política de segurança da ePING exige que informações classificadas e sensíveis transitem em redes inseguras com a devida criptografia, o que impede o acesso por pessoa não autorizada.**
+
+==CORRETA. A exigência de que dados sensíveis transitem em redes públicas apenas de forma criptografada é uma diretriz básica e obrigatória em qualquer política de segurança séria, incluindo a ePING.==
+
+---
+**Q3 Um sistema de processamento distribuído ou paralelo é definido como um sistema que interliga vários nós de processamento de maneira que um processo de grande consumo seja executado no nó "mais disponível", ou mesmo subdividido por vários nós. Sobre sistemas distribuídos, analise as afirmativas a seguir:**
+
+**I. Segurança: A criptografia pode ser usada para proporcionar proteção adequada para os recursos compartilhados e para manter informações sigilosas em segredo, quando transmitidas em mensagens de uma rede. Com isso, os ataques de negação de serviço deixaram de ser um problema.** 
+
+**II. Escalabilidade: um sistema distribuído é considerado escalável se o custo de adição de um usuário for um valor variável, em termos dos recursos que devem ser adicionados. Os algoritmos usados para acessar os dados compartilhados devem evitar gargalos de desempenho, e os dados devem ser estruturados aleatoriamente para se obter os melhores tempos de acesso.** 
+
+**III. Concorrência: a presença de múltiplos usuários em um sistema destruído é uma fonte de pedidos concorrentes para seus recursos. Em ambiente concorrente, cada recurso deve ser projetado para manter a consistência nos estados de seus dados.**
+
+**É correto o que se afirma**
+
+==APENAS A 3==
+
+---
+**Q4 Em Sistemas Distribuídos, o conceito de transparência pode ser aplicado em vários aspectos. A Transparência de Replicação pode ser definida como:**
+
+**Escolha uma opção:**
+
+a. a transparência em que os usuários não podem dizer qual é a localização física de um recurso no sistema.
+
+b. a transparência de que um recurso está sendo compartilhado por vários usuários concorrentes.
+
+c. a ocultação das diferenças em representação de dados e o modo como os recursos podem ser acessados por usuários.
+
+==d. a ocultação do fato de que existem duas ou mais cópias de um recurso.==
+
+e. realocação de recursos enquanto estão sendo acessados sem que o usuário ou a aplicação percebam qualquer coisa.
+
+---
+**Q5 Um sistema distribuído é um conjunto de sistemas autônomos, interconectados por uma rede de comunicação, que se diferencia dos demais sistemas fracamente acoplados pela existência de um relacionamento mais forte entre os seus componentes.**
+
+**Tais componentes**
+
+a. podem estar localizados em uma rede local ou em uma rede distribuída, mas os tipos de sistemas operacionais que compõem o sistema distribuído devem ser necessariamente homogêneos.
+
+==b. podem estar localizados em uma rede local ou em uma rede distribuída e os tipos de sistemas operacionais que compõem o sistema distribuído não precisam ser necessariamente homogêneos.== 
+
+c. devem estar localizados em uma rede local e os tipos de sistemas operacionais que compõem o sistema distribuído devem ser necessariamente homogêneos.
+
+d. devem estar localizados em uma rede local e os tipos de sistemas operacionais que compõem o sistema distribuído não precisam ser necessariamente homogêneos.
+
+e. devem estar localizados em uma rede distribuída e os tipos de sistemas operacionais que compõem o sistema distribuído devem ser necessariamente homogêneos.
+
+---
+**Q6 Acerca do conceito de sistemas distribuídos, analise as proposições abaixo.**
+
+1) **Um sistema distribuído é uma coleção de computadores autônomos conectados por uma rede e equipados com um sistema de software distribuído.**
+
+2) **Um sistema distribuído é uma coleção de computadores independentes, que aparenta ao usuário ser um computador único.**
+
+3) **Em um sistema distribuído a falha de um computador do qual nunca se ouviu falar faz com que seu computador ou software pare completamente de funcionar.**
+
+4) **multiprocessadores são sistemas fortemente acoplados, enquanto que multicomputadores são sistemas fracamente acoplados.**
+
+Estão corretas:
+==1, 2 e 4==
+
+- **Sistemas fortemente acoplados** (como multiprocessadores) são compostos por vários processadores que geralmente compartilham a mesma memória e um relógio comum.
+- **Sistemas fracamente acoplados** (como multicomputadores ou um sistema distribuído) são formados por um conjunto de computadores independentes, cada um com sua própria memória, interligados por uma rede.
+
+---
+**Q7 Segundo Andrew Tanembaum (2007) “Sistema Distribuído é uma coleção de computadores independentes que se apresenta ao usuário como um sistema único e consistente”. Assinale a alternativa correta a respeito de um sistema de informação distribuído.**
+
+**Escolha uma opção:**
+
+a. A distribuição de tarefas se dá a partir de requisições do usuário, que indica o endereço do servidor onde deseja executar tal tarefa.
+
+b. Todos os computadores de uma rede executam tarefas de cliente e servidor, quando se deseja integrá-los em uma arquitetura de sistemas distribuídos.
+
+c. A **transparência de acesso** é uma característica dos sistemas distribuídos que permite que recursos sejam acessados sem que sua localização seja determinada.
+
+d. Em uma rede de computadores há servidores dedicados a atender pedidos dos clientes e estes, por sua vez, têm função exclusiva de requisitantes.
+
+==e. Em um sistema de objetos distribuídos é possível invocar métodos de um objeto, ainda que este não esteja presente no computador do usuário.==
+
+---
+**Q8 A respeito de sistemas distribuídos, julgue o item a seguir.** 
+
+ **Middleware é um sistema que conecta outros recursos, abstraindo protocolos de comunicação e camadas de infraestrutura.**
+
+==Certo==
+
+---
+**Q9 Em sistemas distribuídos o middleware é uma camada adicional de software, situada entre o nível de aplicação e o nível que consiste no sistema operacional, que se estende por várias máquinas fornecendo uma abstração para a programação de aplicações em rede.**
+
+**Assinale a alternativa que representa exemplos de middelware:**
+
+**Escolha uma opção:**
+
+==a. JAVA RMI e CORBA== 
+b. JAVA e MICROSOFT DCOM
+c. MICROSOFT RMI e JAVA DCOM
+d. CORBA e JAVA
+e. MICROSOFT RMI e CORBA
+
+---
+**Q10 Com relação a redes peer-to-peer (P2P), julgue os itens subsecutivos. O principal objetivo de se usar DHT (distributed hash table) em redes P2P descentralizadas e estruturadas é permitir que cada peer tenha informação total sobre seus vizinhos.**
+
+==ERRADO==
+
+O principal objetivo de se usar uma DHT não é permitir que cada peer tenha informação total sobre seus vizinhos. Pelo contrário, o objetivo é criar um sistema de busca eficiente e escalável, onde cada peer precisa manter informações sobre apenas um **pequeno e seleto número de outros peers**.
+
+---
+**Q11**
+![](../../../attachments/Pasted%20image%2020250930143401.png)
+
+==cliente-servidor − servidor − cliente − cliente-servidor − cliente − servidor − sites==
+
+---
+**Q12** **Em aplicações distribuídas, dois modelos usados são o cliente/servidor (cliente-server, C/S) e o ponto a ponto (peer-to-peer, P2P). Nesse contexto, analise as afirmações abaixo.**
+
+1) **Assim como no modelo cliente/servidor, no modelo P2P, qualquer nó pode iniciar uma conexão com qualquer outro nó.**
+
+2) **Diferente do modelo cliente-servidor, o modelo P2P se caracteriza por apresentar a mesma largura de banda nas conexões entre dois nós quaisquer da rede.**
+
+3) **Processamento relativo à sincronização e à comunicação entre nós pode sobrecarregar tanto uma rede cliente-servidor quanto uma rede P2P.**
+
+4) **No modelo P2P, uma rede pode comportar nós chamados superpontos (super-peers), que agem de maneira similar aos nós servidores em uma rede cliente-servidor.**
+
+Estão corretas, apenas:
+
+==3 e 4==
+
+---
+**Q13 Sobre a arquitetura cliente-servidor em camadas é correto afirmar:**
+
+**Escolha uma opção:**
+
+**a. A arquitetura em três camadas permite representar os componentes da aplicação nas camadas de negócio, aplicação e dados. A arquitetura em três camadas permite representar os componentes da aplicação nas camadas de negócio, aplicação e dados.**
+
+**b. Na arquitetura cliente-servidor em duas camadas, a camada cliente trata da Interface do Usuário, enquanto a camada servidor trata exclusivamente da lógica de negócio.**
+
+**c. A arquitetura centralizada foi dominante até a década de 90 como arquitetura corporativa e disponibilizava uma interface amigável.**
+
+==**d. Sistemas que usam a arquitetura, cliente-servidor em duas camadas geralmente possuem problemas de falta de escalabilidade, dificuldade de manutenção e dificuldade de acessar fontes heterogêneas.**== 
+
+**e. Na camada de dados da arquitetura em três camadas devem ser representados os componentes que cuidam da lógica de negócios (business logic).**
+
+---
+**Q14 No contexto das redes com arquiteturas ponto-a-ponto e cliente-servidor, considere:**
+
+**I. Os serviços fornecidos são, em geral, serviços de banco de dados, de segurança ou de impressão.**
+
+**II. Qualquer processo ou nó do sistema pode ser cliente e servidor.**
+
+**III. A distribuição da funcionalidade é obtida por meio do agrupamento de serviços inter-relacionados.**
+
+**IV. Um nó cliente pode exercer funções típicas de servidor.**
+
+**V. A lógica do aplicativo ou de negócios é normalmente distribuída entre o nó cliente e o nó servidor.**
+
+**Convencionando-se PP para ponto-a-ponto, e CS para cliente-servidor, é correto afirmar que os itens I, II, III, IV e V, referem-se, respectivamente, a**
+
+Escolha uma opção:
+
+a. CS, CS, CS, PP e PP.
+
+b. CS, PP, CS, PP e CS. 
+
+==c. CS, PP, PP, PP e CS.==
+
+d. PP, CS, PP, CS e CS.
+
+e. PP, PP, PP, CS e CS.
+
+III. A distribuição da funcionalidade é obtida por meio do agrupamento de serviços inter-relacionados. Esta afirmação está ligada à forma como a funcionalidade é organizada para ser oferecida.
+
+- No modelo Cliente-Servidor com Múltiplos Servidores, cada serviço é implementado por um conjunto de servidores que interagem entre si para oferecer uma visão global consistente do serviço. O agrupamento de serviços relacionados em uma interface é uma prática padrão de engenharia de software e reflete a organização física onde os recursos são encapsulados dentro dos computadores.
+- Em uma arquitetura **Ponto-a-Ponto (PP)**, as funcionalidades de um serviço completo (como um serviço de localização de arquivos) é distribuída entre todos os nós. Cada nó oferece uma pequena parte do serviço. Esses "microsserviços" individuais são **inter-relacionados** (a tabela de roteamento de um nó aponta para outros) e seu **agrupamento** forma o serviço coeso e distribuído. Portanto, a funcionalidade do sistema emerge do agrupamento das contribuições inter-relacionadas de cada par.
+
+---
+**Q15 A respeito dos objetivos da utilização de processamento distribuído, avalie as afirmativas a seguir:**  
+  
+**I. Garante que os dados e processos sejam protegidos contra acessos não autorizados e falhas.**  
+  
+**II. Facilita o acesso e compartilhamento de recursos remotos, como periféricos, instalações de armazenamento e serviços**  
+  
+**III. Busca ocultar a complexidade da distribuição dos processos e recursos.**
+
+==2 E 3== 
+
+---
+**Q16 Assinale a alternativa correta com relação aos Sistemas Distribuídos.**
+
+**Escolha uma opção:**
+
+a. Os Sistemas Distribuídos são independentes da rede de comunicação de dados.
+
+b. A pouca eficiência é uma das desvantagens dos sistemas distribuídos uma vez que com eles obtemos um menor poder total de computação.
+
+==c. Nos Sistemas Distribuídos, obtemos a escalabilidade, pois não é possível adicionar poder computacional de forma incremental.==
+
+d. O compartilhamento de periféricos é uma forte vantagem no uso de sistemas distribuídos. 
+
+e. A confiabilidade e a disponibilidade de um sistema distribuído é fraca, pois nestes sistemas quando uma máquina falha, o sistema não permanece funcional.
+
+---
+**Q17 Um sistema distribuído é um conjunto de sistemas autônomos, interconectados por uma rede de comunicação, que se diferencia dos demais sistemas fracamente acoplados pela existência de um relacionamento mais forte entre os seus componentes.**
+
+**Tais componentes**
+
+a. devem estar localizados em uma rede local e os tipos de sistemas operacionais que compõem o sistema distribuído não precisam ser necessariamente homogêneos.
+
+==b. podem estar localizados em uma rede local ou em uma rede distribuída e os tipos de sistemas operacionais que compõem o sistema distribuído não precisam ser necessariamente homogêneos.== 
+
+c. podem estar localizados em uma rede local ou em uma rede distribuída, mas os tipos de sistemas operacionais que compõem o sistema distribuído devem ser necessariamente homogêneos.
+
+d. devem estar localizados em uma rede distribuída e os tipos de sistemas operacionais que compõem o sistema distribuído devem ser necessariamente homogêneos.
+
+e. devem estar localizados em uma rede local e os tipos de sistemas operacionais que compõem o sistema distribuído devem ser necessariamente homogêneos.
+
+---
+**Q18 Analise as afirmativas a seguir, a respeito de sistemas distribuídos.**
+
+**I - Uma das principais diferenças entre um sistema distribuído e um sistema em rede é que, do ponto de vista do usuário, o sistema distribuído se comporta como uma única máquina, enquanto que o sistema em rede expõe ao usuário as diversas máquinas separadamente.**
+
+**II - Em um sistema distribuído, uma migração de processo entre nós do sistema pode ser feita para proporcionar balanceamento de carga ou aceleração da computação, sendo esta através da divisão do processo em subprocessos que executem em paralelo.**
+
+**III - Os nós de um sistema distribuído podem executar diferentes sistemas operacionais.**
+
+**Está(ão) correta(s) a(s) afirmativa(s)**
+
+==1, 2 E 3==
+
+---
+**Q19 Analise as seguintes afirmações relativas a sistemas distribuídos:**  
+ 
+**I. Um sistema distribuído é uma coleção de processadores que compartilham memória.**  
+  
+**II. Um sistema distribuído é uma coleção de processadores fracamente acoplados interconectados por uma rede de comunicação. Do ponto de vista de um processador específico em um sistema distribuído, os demais processadores e seus respectivos recursos são remotos, enquanto seus próprios recursos são locais.**  
+  
+**III. Em um sistema operacional distribuído, os usuários acessam recursos remotos da mesma forma que fazem com os recursos locais.**  
+  
+**IV. A grande desvantagem de um sistema distribuído é que, como acontece na Internet, se um site falhar os outros sites envolvidos também irão parar.**
+
+==2 E 3==
+
+---
+**Q20 Sobre sistemas distribuídos, assinale a alternativa INCORRETA:**
+
+a. Sistemas distribuídos são construídos sobre redes de computadores LANs (redes locais) e WANS (redes de longa distância).
+
+b. _Middieware_ é a camada de _software_ no topo do sistema operacional distribuído, que permite uniformidade de presença entre os nós com hardware e sistemas operacionais diversos.
+
+==c. O acoplamento forte dos sistemas distribuídos pode ser visto como uma vantagem, pois permite o compartilhamento de recursos como memória e CPU, aumentando a capacidade final de processamento.== 
+
+d. Quanto ao compartilhamento de arquivos em sistemas distribuídos, a semântica de sessão fornece um mecanismo para propagação de alterações mais eficiente que a consistência sequencial.
+
+e. Cada nó do sistema distribuído pode estar espalhado ao redor do mundo, possuindo processador, memória e interface de redes independentes. 
+
+---
+**Q21 Com relação a conceitos sobre sistemas distribuídos, assinale a opção correta.**
+
+**Escolha uma opção:**
+
+a. Um sistema distribuído pode suportar a migração de processos. A migração de processos não pode, entretanto, ocorrer sob controle de um sistema operacional, tem que ser controlada por aplicações.
+
+b. Um sistema distribuído tem que ser tolerante a falhas. Para ser considerado tolerante a falhas, tem que continuar a funcionar, sem degradação do desempenho ou das funcionalidades, após as falhas.
+
+==c. Um sistema de arquivos distribuídos pode ser implementado sem manter informações de estado. Nesse caso, as operações são tratadas individualmente e não como partes de uma sessão.== 
+
+d. Em um sistema distribuído, os usuários podem acessar recursos em outras máquinas, mas um sistema operacional distribuído não tem como tornar a distribuição dos recursos transparente aos usuários.
+
+---
+**Q22 Um sistema distribuído é definido como uma coleção de computadores independentes que se apresenta ao usuário como um sistema único e consistente. Baseado nos conceitos definidos para sistemas distribuídos, identifique a afirmativa ERRADA:**
+
+**Escolha uma opção:**
+
+a. Um sistema distribuído fracamente acoplado permite que máquinas e usuários do ambiente sejam fundamentalmente independentes, bem como a interação de forma limitada, quando isto for necessário, compartilhando recursos como discos e impressoras, entre outros.
+
+b. Um sistema distribuído fortemente acoplado provê um nível de integração e compartilhamento de recursos mais intenso e transparente ao usuário, onde vários processadores compartilham uma memória, e são gerenciados por apenas um sistema operacional. 
+
+==c. Uma vantagem dos sistemas distribuídos sobre os sistemas centralizados é a disponibilidade de software para este tipo de ambiente.==  A complexidade e a dificuldade no desenvolvimento de software são consideradas uma das **maiores desvantagens** dos sistemas distribuídos
+
+d. O modelo de computação distribuída Peer-to-Peer é uma tecnologia que estabelece uma espécie de rede virtual de computadores, onde cada estação tem capacidades e responsabilidades equivalentes.
+
+e. Uma aplicação cliente-servidor é um caso especial de processamento distribuído no qual existe uma forma de cooperação entre dois ou mais processos, sendo essa cooperação realizada através de requisições dos componentes alocados ao cliente e das respostas que são fornecidas pelos componentes alocados ao servidor.
+
+---
+**Q23 Em relação aos sistemas distribuídos, analise as seguintes afirmativas.**
+
+**I) Um sistema assíncrono apresenta medida de tempo global.**
+
+**II) A passagem de mensagens é o instrumento empregado para efetuar a comunicação entre os processos de um sistema assíncrono.**
+
+**III) Em um sistema distribuído transparente quanto à concorrência, a informação de quantos usuários estão utilizando determinado serviço deve ser omitido.**
+
+**IV) É possível simular um computador paralelo de memória compartilhada usando-­‐se um sistema distribuído.**
+
+**V) Quando um determinado elemento de um sistema distribuído efetua a difusão de uma mensagem por meio de um multicast, todos os elementos do sistema distribuído recebem a mensagem.**
+
+==2 e 4==
+
+---
+
+**Q24**
+**I – Um sistema distribuído é uma coleção de computadores autônomos conectados por uma rede de comunicação.**
+
+**II – Em sistemas distribuídos heterogêneos pode haver diferentes plataformas conectadas à rede.**
+
+**III – Sistemas distribuídos homogêneos são aqueles onde todas as plataformas hardware e o sistema operacional ligados à rede são iguais.**
+
+==TODAS==
+
+---
+**Q25 Em relação aos Sistemas Distribuídos, pode-se afirmar:**
+
+**I - O middleware visa melhorar a visão de sistema único que um sistema distribuído deve ter.**
+
+**II - O middleware tem como objetivo esconder em como os computadores de um sistema distribuído realmente participam do sistema como um todo.**
+
+**III - Um Sistema Distribuído sempre tem que informar ao seus usuários quando partes estão sendo substituídos ou consertados, e novas peças são adicionadas.**
+
+==1 E 2==
+
+---
+**Q26 Analise as seguintes afirmações relativas a sistemas operacionais distribuídos:**  
+ 
+**I. Um sistema distribuído pode ser definido como uma coleção de processadores fracamente acoplados, interconectados por uma rede de comunicação.**  
+  
+**II. Um sistema distribuído pode ser definido como uma coleção de processadores que não compartilham memória nem relógio.**  
+  
+**III. Um sistema distribuído pode ser definido pela capacidade que um único processador tem para distribuir várias tarefas simultaneamente.**  
+  
+**IV. Em um sistema operacional distribuído os usuários só podem acessar recursos locais.**
+
+==1 E 2== 
+
+---
+**Q27 “Sistema Distribuído é uma coleção de computadores independentes que se apresenta ao usuário como um sistema único e consistente”. Assinale a alternativa correta a respeito de um sistema de informação distribuído.**
+
+**Escolha uma opção:**
+
+a. Em uma rede de computadores há servidores dedicados a atender pedidos dos clientes e estes, por sua vez, têm função exclusiva de requisitantes.
+
+b. A distribuição de tarefas se dá a partir de requisições do usuário, que indica o endereço do servidor onde deseja executar tal tarefa.
+
+==c. Em um sistema de objetos distribuídos é possível invocar métodos de um objeto, ainda que este não esteja presente no computador do usuário.==
+
+d. A transparência de acesso é uma característica dos sistemas distribuídos que permite que recursos sejam acessados sem que sua localização seja determinada. 
+**Essa definição é a de transparencia de localização**
+
+e. Todos os computadores de uma rede executam tarefas de cliente e servidor, quando se deseja integrá-los em uma arquitetura de sistemas distribuídos.
+
+---
+**Q28 Para cada aplicativo é oferecida a mesma interface. O sistema distribuído fornece os meios para os componentes de um único aplicativo distribuído se comunicarem entre si, mas também para permitir que diferentes aplicativos se comuniquem. Ao mesmo tempo, ele oculta, da melhor forma e razoavelmente possível, as diferenças de hardware e sistemas operacionais de cada aplicativo. Esse mecanismo de abstração, organizado como uma camada de um sistema distribuído, que se estende por várias máquinas e oferece a cada aplicação a mesma interface, é chamado:**
+
+![450](../../../attachments/Pasted%20image%2020250930155802.png)
+==Middleware==
+
+---
+**Q29 Em relação às arquiteturas de sistemas, um modelo amplamente utilizado são as plataformas de _middleware_. O termo _middleware_ se aplica a camada de _software_ que**
+
+**Escolha uma opção:**
+
+a. atua como uma interface entre o sistema operacional de um computador e um hardware específico, permite o controle correto do dispositivo e traduz os comandos do sistema operacional em instruções.
+
+==b. fornece abstração de programação, mascaramento da heterogeneidade das redes, do _hardware_, sistemas operacionais e das linguagens de programação subjacentes.== 
+
+c. provê acesso direto ao hardware sem utilização de drivers, serviço de descoberta de recursos e minimização do tempo de desenvolvimento em virtude de bibliotecas diversas.
+
+d. habilita o uso de conectividade sem fio em sistemas operacionais móveis, pareamento _bluetooth_ em celulares, e acesso à Internet via redes de terceira, quarta e quinta geração.
+
+---
+**Q30 Uma empresa está em busca de aprimorar a tolerância a falhas em seu sistema distribuído. Deseja-se garantir que o sistema continue operacional mesmo diante de falhas parciais. Nesse contexto, qual é a abordagem mais eficaz para aumentar a tolerância a falhas em sistemas distribuídos.**
+
+**Escolha uma opção:**
+
+a. Redução do número de nós.
+
+==b. Redundância de componentes.== 
+
+c. Aumento da capacidade de armazenamento.
+
+d. Uso exclusivo de memória compartilhada.
+
+---
+ **Q31 Uma instituição pública do Poder Legislativo está considerando a migração de uma arquitetura monolítica para uma arquitetura distribuída de microsserviços para atualizar sua infraestrutura de tecnologia da informação. Essa mudança é contemplada para melhor atender às demandas por serviços on-line e possibilitar ajustes de escalabilidade e flexibilidade nos sistemas. Qual alternativa a seguir descreve corretamente um benefício da arquitetura de microsserviços em comparação com a arquitetura monolítica?**
+
+**Escolha uma opção:**
+
+a. Maior acoplamento entre os componentes, facilitando a manutenção do sistema.
+
+==b. Isolamento de falhas, permitindo que problemas em um microsserviço não afetem o funcionamento dos outros.== 
+
+c. Redução da sobrecarga de comunicação entre os serviços devido à comunicação síncrona.
+
+d. Melhor utilização de recursos de hardware devido à dependência de um único servidor de aplicação.
+
+---
+ **Q32 A implementação de uma aplicação distribuída comumente faz uso de um _middleware_ para simplificar e acelerar o seu desenvolvimento. Neste contexto, assinale a afirmativa CORRETA relacionada ao _middleware_:**
+
+**Escolha uma opção:**
+
+a. Não é responsável pelas operações de comunicação da aplicação distribuída.
+
+==b. Auxilia no suporte a computadores e redes heterogêneas.==
+
+c. Oferece uma abstrato de alto nível, fornecendo assim uma visão não uniforme na utilização dos recursos.
+
+d. Faz com que o sistema distribuído apresente-se como múltiplos sistemas.
+
+e. Trata-se de uma camada de _software_, logicamente situada entre o sistema operacionaI e o substrato de comunicação.
+
+---
+**Q33 Em relação a sistemas distribuídos, julgue o item seguinte.**
+
+**No padrão de arquitetura MVC (model-view-controller), os aplicativos são divididos em modelos, exibições e componentes; nesse padrão, as solicitações de usuário são encaminhadas para um controlador, que é responsável por trabalhar com o modelo para executar as ações do usuário, bem como por escolher a exibição a ser apresentada para o usuário.**
+
+==VERDADEIRA==
+
+---
+**Q34 A cloud computing (computação em nuvem) tem o objetivo de fornecer recursos de hardware e software sob demanda a partir de servidores interligados pela Internet, seguindo o princípio da computação em grid (grade). Uma arquitetura em grid é descrita por meio das quatro camadas a seguir.** 
+
+- **Rede: executa a comunicação e se utiliza da parte física;** 
+- **Recursos: formada pelos servidores de armazenamento e/ou processamento;** 
+- **Middleware: formada pelo software responsável pela troca de informações;** 
+- **Ferramentas e aplicações: representada pelos aplicativos.** 
+
+**De acordo com o texto, avalie as afirmações a seguir.** 
+
+**I. A camada de ferramentas e aplicações é responsável pela negociação das transações de dados no grid.** 
+
+**II. A camada middleware é responsável pela interconectividade e comunicação entre os membros do grid.** 
+
+**III. A camada de rede é responsável pela conectividade entre os diferentes membros do grid.** 
+
+**IV. A camada de recursos é responsável pela segurança dos dados nas aplicações do grid.** 
+
+**É correto apenas o que se afirma em:**
+
+==2 E 3==
+
+---
+**Q35 Em uma arquitetura cliente-servidor, para que uma aplicação ou serviço seja acessado, é necessário que uma comunicação seja estabelecida entre aquele que necessita (cliente) e aquele que disponibiliza o recurso (servidor).**
+
+**Considerando o texto apresentado, avalie as asserções a seguir e a relação proposta entre elas**
+
+**I. Quando um programador desenvolve uma aplicação ou serviço de rede, é necessário utilizar um socket para unir o endereço IP da interface de rede com uma porta específica.**
+
+**PORQUE**
+
+**II. O socket possibilita ao sistema operacional identificar qual porta a aplicação está respondendo, permitindo que o fluxo de dados seja entregue corretamente.**
+
+**Escolha uma opção:**
+
+**a. As asserções I e II são proposições falsas.**
+
+**b. As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I.** 
+
+==**c. As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.**==
+
+**d. A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.**
+
+**e. A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.**
+
+---
+**Q36 Um sistema distribuído é aquele no qual os componentes de hardware ou software, localizados em computadores interligados em rede, comunicam-se e coordenam suas ações apenas enviando mensagens entre si**
+
+a. O compartilhamento dos recursos distribuídos entre computadores interligados por uma rede é possível desde que os dispositivos sejam homogêneos em termos de hardware e software
+
+b. A possibilidade de vários clientes acessarem de forma concorrente um mesmo recurso compartilhado em um servidor é resultado do alto nível de transparência do sistema.
+
+c. A existência de um relógio físico local sincronizado com um relógio global é o que permite aos usuários de um sistema distribuído trocarem mensagens de forma coordenada.
+
+d. A falha de um componente em um sistema distribuído peer-to-peer causa a interrupção de todos os demais componentes até o seu retorno.
+
+==e. A adição de novos dispositivos em um sistema distribuído para atender a uma demanda temporária ou crescente está ligada à característica de escalabilidade do sistema.==
+
+---
+**Q37 Considerando-se as características de um sistema distribuído, numerar a 2ª coluna de acordo com a 1ª e, após, assinalar a alternativa que apresenta a sequência CORRETA:**
+
+**(1) Escalabilidade.**
+
+**(2) Segurança.**
+
+**(3) Concorrência.**
+
+**(2) A criptografia pode ser usada para proporcionar proteção adequada para os recursos compartilhados e para manter informações em sigilo quando transmitidas em mensagens de uma rede.**
+
+**(3) Os algoritmos usados para acessar os dados compartilhados devem evitar gargalos de desempenho, e os dados devem ser estruturados hierarquicamente para se obter os melhores tempos de acesso. Os dados acessados frequentemente podem ser replicados.**
+
+**(1) A presença de múltiplos usuários em um sistema distribuído é uma fonte de pedidos concorrentes para seus recursos.**
+
+---
+**Q38 É correto afirmar que um cache distribuído é um(a). Escolha uma opção:**
+
+a. alocação do espaço em disco da máquina do cliente, atuando como um repositório local para a aplicação.
+
+==b. fornecimento com uma alta taxa de transferência e com uma latência baixa, armazenando os dados em memória centralizada e distribuída para ser acessada.== 
+
+c. banco de dados relacional, podendo ser escalado em uma visão vertical ou horizontal em uma cloud, atuando, assim, como um banco de dados centralizado e efetuando leitura em IO.
+
+d. aplicação centralizada com configurações e segurança dos dados da aplicação client side e server side.
+
+---
+**Q39 Um sistema cliente-servidor precisa tratar de documentos que possuem imagens muito grandes. Essas imagens não são, necessariamente, apresentadas ao usuário sempre que ele carrega um documento, logo, carregar todas as imagens previamente, toda vez que o cliente abre um documento, pode gastar um tempo desnecessário. A melhor estratégia é carregar a imagem apenas quando a visualização é necessária. Ciente desse problema, o desenvolvedor responsável pelo sistema decidiu usar um padrão de projeto que fornece, no cliente, um objeto substituto que controla o acesso ao objeto original.**
+
+**Qual foi o padrão de projeto utilizado?**
+
+a. Facade
+b. Decorator
+c. Observer
+==d. Proxy== 
+e. Memento
+
+---
+**Q40 Com relação à arquitetura de uma rede de computadores, o modelo de rede em que todos os computadores se conectam através de um computador central, que recebe e entrega os dados aos participantes da rede, é conhecido como:**
+
+a. nó-controlador.
+b. barramento;
+c. ponto a ponto;
+==d. cliente-servidor;== Por conta do uso da palavra ARQUITETURA
+e. estrela; TOPOLOGIA DE REDE, N ARQUITETURA
+
+---
+**Q41 Em uma arquitetura cliente-servidor,**
+
+a. o cliente representa a parte passiva ou reativa da relação, pois ele fica ocioso até que um servidor se conecte a ele e forneça informações para ele operar.
+
+b. os clientes trocam informações entre si para não sobrecarregar o servidor.
+
+c. uma das funções do servidor é varrer a rede em busca de clientes que não tenham sido atendidos.
+
+==d. o cliente representa a parte ativa da relação, pois ele que é o responsável por iniciar a transmissão.== 
+
+e. o cliente é representado por um processo de execução contínua, pois deve estar sempre disponível.
+
+---
+**Q42 Em relação a problemas de sincronização e acordo em sistemas distribuídos, é correto afirmar que:**
+
+a. Com o advento da internet e, mais recentemente, o desenvolvimento de sistemas de computação em nuvem, deixaram de ser problemas relevantes para quem desenvolve sistemas para esses ambientes.
+
+b. As soluções desses problemas são relativamente simples, mas suas implementações são ainda muito lentas para serem utilizadas em sistemas distribuídos de produção.
+
+==c. Sua possível solução depende das garantias de comunicação consideradas para o ambiente de execução do sistema (sistemas síncronos, assíncronos ou modelos intermediários).== 
+
+d. São problemas presentes no desenvolvimento de sistemas de computação em nuvem, que não estão relacionados a sistemas distribuídos mais simples, tais como um sistema cliente-servidor
+
+e. São problemas importantes na implementação de sistemas operacionais distribuídos, mas que não interferem no desenvolvimento de aplicações distribuídas que serão executadas nesses sistemas.
+
+---
+**Q43 Acerca de arquitetura de TI, julgue o item que se segue.** 
+
+Na arquitetura cliente/servidor multinível, uma mesma aplicação pode ser servidor para um cliente e cliente para outro servidor, desde que não simultaneamente.
+
+---
+**Q44 Acerca de arquitetura cliente-servidor multicamadas, julgue o item seguinte.**  
+
+Por meio da distribuição da carga de processamento entre diferentes servidores, é possível aumentar a escalabilidade do sistema computacional utilizando-se o modelo cliente-servidor multicamadas.
+
+==TRUE==
