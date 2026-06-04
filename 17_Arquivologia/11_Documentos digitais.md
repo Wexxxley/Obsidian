@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 ### **1. Introdução** 
@@ -8,7 +9,7 @@
 2. **Por meio de SGDBS:** cada registro pode ser considerado um documento do arquivo da instituição
 3. **Por meio da digitalização:** conversão de documentos em meio analógico (o que não é digital) para o formato digital por meio de equipamentos eletrônicos.
 
-Os documentos em meio digital devem recebr o mesmo tratamento arquivístico dos documentos tradicionais (plano de classificação, tabela de temporalidade, protocolo, etc.
+Os documentos em meio digital devem receber o mesmo tratamento arquivístico dos documentos tradicionais (plano de classificação, tabela de temporalidade, protocolo, etc.
 
 **Documento natodigital:** documento 100% digital, que não sofreu digitalização.
 
@@ -28,7 +29,7 @@ Os documentos em meio digital devem recebr o mesmo tratamento arquivístico dos 
 
 Digitalização é a conversão de documentos em meio analógico (o que não é digital) para o formato digital por meio de equipamentos eletrônicos.
 
-- Voce pode digitalizar vários tipos de suport: papel, fita cassete e etc.
+- Voce pode digitalizar vários tipos de suporte: papel, fita cassete e etc.
 - Uma vez digitalizado o documento, de acordo com o regulamento vigente, o original podera ser destruído, exceto documentos com valores históricos.
 - É lícito a reprodução de documento digital, em papel ou outro meio, que contiver mecanismos de integridade e autenticidade, como:
 	- **QR Codes:** que armazenam um endereço eletrônico ou um pacote de metadados.
