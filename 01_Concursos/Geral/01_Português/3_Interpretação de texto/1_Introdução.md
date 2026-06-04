@@ -39,7 +39,19 @@ Para que um parágrafo seja considerado bem estruturado, ele deve observar dois 
 - **Progressão Temática:** O texto precisa caminhar para a frente. Cada frase subsequente deve acrescentar uma informação nova ao que já era conhecido. Se o parágrafo apenas repete a mesma ideia com palavras diferentes, ocorre o vício da redundância.
 
 ---
-
 #### **3. Articulação textual**
 
-Termo ja dito -
+[5_Pronome parte 3](../2_Morfologia/5_Pronome%20parte%203.md)
+
+Termo já dito <- Pronome **anafórico**
+- Ex: Aprovamos o regulamento da ALECE. **Ele** entrará em vigor amanhã.
+- Esse, essa, isso.
+
+Pronome **catafórico** -> termo a ser dito.
+- Ex: O Presidente da Assembleia só deseja **isto**: a aprovação da reforma orçamentária.
+- Este, esta, isto.
+
+
+
+
+

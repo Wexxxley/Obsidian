@@ -10,11 +10,18 @@ Indicam posição no espaço, tempo ou texto.
 Sempre ao usar um pronome demonstrativo é preciso saber se está indicando espaço, tempo ou texto.
 
 ![](../../../../attachments/Pasted%20image%2020260206082351.png)
-
 - Você mora **neste** coração -> espaço
 - Um dia **desses** encontrei a maria -> tempo
 - Dezembro, **esse** mês é o meu preferido -> texto
 - **Este** mês é o meu preferido -> tempo
+
+**Referência Endofórica:** O termo remete a um elemento que está presente no texto. 
+- **Referência Anafórica:** Ocorre quando o termo é utilizado para retomar um elemento que já foi mencionado anteriormente na construção do texto.
+	- Ex: O projeto de lei foi aprovado. **Ele** trará mudanças significativas.
+- **Referência Catafórica:** Ocorre quando o termo é utilizado para antecipar uma informação que ainda será apresentada mais à frente no texto. 
+	- Ex: A decisão da diretoria é **esta**: suspender as atividades temporariamente.
+	
+**Referência Exofórica (ou Dêitica):** Ocorre quando um termo remete a um elemento externo ao texto.
 
 **1.1 Uso no espaço**
 - **Perto do falante:** **Este** material aqui é meu.  Encaminho **este** email.
