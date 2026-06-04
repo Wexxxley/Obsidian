@@ -142,4 +142,102 @@
 - Ferramentas digitais aplicadas à rotina administrativa.
 - Sistemas informatizados de protocolo, gestão documental e tramitação legislativa.
 - Pesquisa, consulta e acompanhamento de processos e proposições.
-- Controle eletrônico de documentos e geração de relatórios.[]()
+- Controle eletrônico de documentos e geração de relatórios.
+
+---
+
+**Semana 1: Fundamentos de Linguagem e Lógica**
+
+- **Teoria:** Módulo 1 (Leitura, Interpretação Textual e Sintaxe) e Módulo 2 (Estruturas Lógicas e Dedução).
+    
+- **Prática:** 40 questões de Português e 40 de Raciocínio Lógico.
+    
+- **Redação:** Produção de um texto dissertativo sem controle de tempo, com foco exclusivo na estruturação correta da introdução, desenvolvimento e conclusão.
+    
+
+**Semana 2: O Padrão Culto e a Base do Serviço Público**
+
+- **Teoria:** Módulo 1 (Norma-Padrão) e Módulo 3 (Legislação Aplicada e Ética no Serviço Público - Capítulos 1 e 2).
+    
+- **Prática:** 45 questões divididas entre os temas estudados.
+    
+- **Redação:** Produção de dois textos. O foco desta semana é a correção gramatical e a coesão, aplicando as regras da norma-padrão recém-estudadas.
+    
+
+**Semana 3: Aprofundamento em Legislação**
+
+- **Teoria:** Módulo 3 (Princípios da Administração Pública e Legislação Interna da ALECE - Capítulos 3 e 4).
+    
+- **Prática:** 50 questões focadas estritamente na legislação específica (incluindo as atribuições do DPO e regras de progressão).
+    
+- **Redação:** Produção de um texto abordando temas ligados à ética e aos princípios da administração pública.
+    
+
+**Semana 4: Redação Oficial e Revisão**
+
+- **Teoria:** Módulo 4 completo (Fundamentos, Documentos Oficiais, Revisão Gramatical, Vícios de Linguagem e Padronização).
+    
+- **Prática:** 40 questões de Redação Oficial.
+    
+- **Redação:** Produção de dois textos. Aplicação prática das regras de impessoalidade documental estudadas nesta semana.
+    
+
+**Semana 5: Estudo Reverso (Arquivologia e Gestão de Documentos)**
+
+- **Teoria/Prática:** Módulo 5 (Capítulos 1 ao 5). Resolver um bloco de 50 questões de Arquivologia. Mapear os erros e ler na apostila apenas a teoria correspondente às questões erradas.
+    
+- **Redação:** Produção de um texto com limite de tempo cronometrado (simulando a pressão do dia do certame).
+    
+
+**Semana 6: Conclusão de Arquivologia e Início do Processo Legislativo**
+
+- **Teoria/Prática:** Módulo 5 (Capítulos 6 ao 10). Aplicar o mesmo método de resolução de 50 questões seguida de leitura corretiva.
+    
+- **Teoria:** Módulo 6 (Estrutura do Poder Legislativo Estadual - Capítulo 1).
+    
+- **Redação:** Produção de um texto com foco na eliminação de vícios de linguagem.
+    
+
+**Semana 7: Processo Legislativo e Tramitação**
+
+- **Teoria:** Módulo 6 (Processo Legislativo, Tramitação, Documentos e Sistemas Informatizados - Capítulos 2 ao 5).
+    
+- **Prática:** 50 questões do Módulo 6.
+    
+- **Redação:** Produção de dois textos.
+    
+
+**Semana 8: Administração Pública e Serviços**
+
+- **Teoria:** Módulo 7 completo (Administração Pública, Rotinas, Processos e Expedientes Administrativos).
+    
+- **Prática:** 50 questões do Módulo 7.
+    
+- **Redação:** Produção de um texto cronometrado.
+    
+
+**Semana 9: Atendimento, Comunicação e Ferramentas**
+
+- **Teoria:** Módulo 8 (Atendimento, Comunicação Institucional e Relações Interpessoais) e Módulo 9 (Ferramentas e Sistemas Aplicados).
+    
+- **Prática:** 60 questões mistas abordando os Módulos 8 e 9, com foco em como a banca formula enunciados técnicos.
+    
+- **Redação:** Produção de dois textos em condições de simulado (sem consultas externas e com tempo reduzido).
+    
+
+**Semana 10: Revisão Sistêmica e Fechamento de Lacunas**
+
+- **Prática Intensiva:** Foco exclusivo no esgotamento das questões restantes do banco de 500 exercícios.
+    
+- **Ajuste Teórico:** Retornar à apostila apenas para consultar os resumos ou os capítulos exatos onde as taxas de erro nas questões ainda estiverem frequentes.
+    
+- **Redação:** Produção de dois textos temáticos sobre os assuntos nos quais você apresentou maior dificuldade argumentativa ao longo do cronograma.
+    
+
+**Semana 11: Reta Final e Simulação**
+
+- **Simulados:** Resolução de provas completas de concursos anteriores da mesma banca organizadora, resolvendo todas as disciplinas de uma única vez para treinar a resistência mental.
+    
+- **Revisão:** Leitura rápida de anotações e dos resumos dos pontos mais complexos da legislação interna (Módulo 3).
+    
+- **Redação:** Produção de apenas um texto no início da semana para manter o ritmo, dedicando os dias antecedentes à prova ao descanso cognitivo.
