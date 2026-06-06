@@ -30,10 +30,11 @@ Sempre ao usar um pronome demonstrativo é preciso saber se está indicando espa
 
 **1.2 Uso no tempo**
 - **Presente**: **Estes** dias têm sido agradáveis. **Este** mês é o meu preferido
-- **Futuro próximo:** **Nestas** férias viajarei. **Neste** domingo irei ao maracanã
-- **Passado não distante:** **Nesse** domingo fui ao maracanã. 
+- **Futuro:** **Nestas** férias viajarei. **Neste** domingo irei ao maracanã
+- **Passado:** **Nesse** domingo fui ao maracanã. 
+
 - **Passado distante**: **Aquelas** férias de 2000. **Naquele** tempo...
-- **Futuro distante:** **Aquelas** férias de 2030 serão maravilhosa s
+- **Futuro distante:** **Aquelas** férias de 2030 serão maravilhosas.
 
 **1.3 Uso no texto**
 - **Informação adiante:** Este número é a dica do teste - 7.
@@ -53,3 +54,5 @@ Cuidado ao tentar referenciar 3 ou mais antecedentes. 'Este' é a para último, 
 ![](../../../../attachments/Pasted%20image%2020260206134600.png)
 ![](../../../../attachments/Pasted%20image%2020260206134735.png)
 ![](../../../../attachments/Pasted%20image%2020260206134830.png)
+
+![](../../../../attachments/Pasted%20image%2020260606090319.png)

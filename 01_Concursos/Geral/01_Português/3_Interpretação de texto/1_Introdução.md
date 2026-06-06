@@ -1,5 +1,5 @@
 
-
+#Concluded 
 
 ---
 #### **1. Interpretação de textos**
@@ -62,3 +62,4 @@ O texto progride elegantemente por meio de substituições que evitam a fadiga d
 	- O País do Futebol: Brasil
 
 
+![](../../../../attachments/Pasted%20image%2020260606090724.png)

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/2_Morfologia/5_Pronome parte 3.md",
+                "file": "01_Concursos/Geral/01_Português/1_Ortografia/1_Sílaba.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Pronome parte 3"
+              "title": "1_Sílaba"
             }
           }
         ],
@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295
+    "width": 295,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -209,9 +210,14 @@
   },
   "active": "af356e5e1a7640c4",
   "lastOpenFiles": [
+    "01_Concursos/Conteudos ALECE Técnico legislativo.md",
+    "01_Concursos/Geral/01_Português/3_Interpretação de texto/1_Introdução.md",
+    "01_Concursos/Geral/01_Português/3_Interpretação de texto/2_.md",
+    "attachments/Pasted image 20260606090724.png",
+    "01_Concursos/Geral/01_Português/2_Morfologia/5_Pronome parte 3.md",
+    "attachments/Pasted image 20260606090319.png",
     "01_Concursos/Geral/01_Português/2_Morfologia/3_Pronome parte 1.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/4_Pronome parte 2.md",
-    "01_Concursos/Geral/01_Português/3_Interpretação de texto/1_Introdução.md",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/9_Navigation3.md",
     "attachments/Pasted image 20260606081434.png",
     "attachments/Pasted image 20260606081421.png",
@@ -220,10 +226,8 @@
     "attachments/Pasted image 20260606075912.png",
     "attachments/Pasted image 20260606075829.png",
     "attachments/Pasted image 20260606075734.png",
-    "01_Concursos/Geral/01_Português/2_Morfologia/5_Pronome parte 3.md",
     "01_Concursos/Geral/01_Português/AssuntosPortugues.png",
     "01_Concursos/Geral/01_Português/3_Interpretação de texto",
-    "01_Concursos/Conteudos ALECE Técnico legislativo.md",
     "01_Concursos/Anotações Concursos.md",
     "02_Roadmap/Untitled.md",
     "01_Concursos/E.md",
@@ -247,8 +251,6 @@
     "01_Concursos/Geral/02_Arquivologia/5_Gestão de documentos.md",
     "01_Concursos/Geral/02_Arquivologia/4_Protocolo.md",
     "attachments/Pasted image 20260603102157.png",
-    "attachments/Pasted image 20260603102136.png",
-    "attachments/Pasted image 20260603095859.png",
     "01_Concursos/Geral/02_Arquivologia",
     "01_Concursos/Geral/02_Arquivologia/16_Redação",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",

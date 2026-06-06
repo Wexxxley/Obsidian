@@ -146,98 +146,102 @@
 
 ---
 
-**Semana 1: Fundamentos de Linguagem e Lógica**
+**Semana 1: Estruturação Lógica**
 
-- **Teoria:** Módulo 1 (Leitura, Interpretação Textual e Sintaxe) e Módulo 2 (Estruturas Lógicas e Dedução).
+- **Teoria:** Módulo 2 completo (Capítulos 1, 2 e 3). O foco inicial em estruturas e operações lógicas permite o avanço rápido, visto que os conceitos de dedução exigem mais compreensão estrutural do que memorização exaustiva.
     
-- **Prática:** 40 questões de Português e 40 de Raciocínio Lógico.
+- **Prática:** 45 questões exclusivas de Raciocínio Lógico.
     
-- **Redação:** Produção de um texto dissertativo sem controle de tempo, com foco exclusivo na estruturação correta da introdução, desenvolvimento e conclusão.
-    
-
-**Semana 2: O Padrão Culto e a Base do Serviço Público**
-
-- **Teoria:** Módulo 1 (Norma-Padrão) e Módulo 3 (Legislação Aplicada e Ética no Serviço Público - Capítulos 1 e 2).
-    
-- **Prática:** 45 questões divididas entre os temas estudados.
-    
-- **Redação:** Produção de dois textos. O foco desta semana é a correção gramatical e a coesão, aplicando as regras da norma-padrão recém-estudadas.
+- **Redação:** Produção de dois textos dissertativos sem limite de tempo. O objetivo é estabelecer a estrutura elementar (introdução, desenvolvimento com dois argumentos e conclusão).
     
 
-**Semana 3: Aprofundamento em Legislação**
+**Semana 2: Fundamentos Éticos e Legislação Básica**
 
-- **Teoria:** Módulo 3 (Princípios da Administração Pública e Legislação Interna da ALECE - Capítulos 3 e 4).
+- **Teoria:** Módulo 3 (Capítulos 1 e 2). Leitura atenta da Legislação Aplicada ao Serviço Público e da Ética no Serviço Público, incluindo as atribuições do Encarregado (DPO).
     
-- **Prática:** 50 questões focadas estritamente na legislação específica (incluindo as atribuições do DPO e regras de progressão).
+- **Prática:** 45 questões sobre a legislação estudada.
     
-- **Redação:** Produção de um texto abordando temas ligados à ética e aos princípios da administração pública.
-    
-
-**Semana 4: Redação Oficial e Revisão**
-
-- **Teoria:** Módulo 4 completo (Fundamentos, Documentos Oficiais, Revisão Gramatical, Vícios de Linguagem e Padronização).
-    
-- **Prática:** 40 questões de Redação Oficial.
-    
-- **Redação:** Produção de dois textos. Aplicação prática das regras de impessoalidade documental estudadas nesta semana.
+- **Redação:** Produção de um texto. Foco na articulação dos parágrafos, garantindo que o segundo e o terceiro parágrafos desenvolvam adequadamente a ideia apresentada na introdução.
     
 
-**Semana 5: Estudo Reverso (Arquivologia e Gestão de Documentos)**
+**Semana 3: Legislação Interna e Progressão de Carreira**
 
-- **Teoria/Prática:** Módulo 5 (Capítulos 1 ao 5). Resolver um bloco de 50 questões de Arquivologia. Mapear os erros e ler na apostila apenas a teoria correspondente às questões erradas.
+- **Teoria:** Módulo 3 (Capítulos 3 e 4). Estudo dos Princípios da Administração Pública e aprofundamento na Legislação Interna da ALECE (Instituto de Avanço, Movimentação Visual, Progressão, Promoção e Titulação acadêmica). Este é o módulo de maior densidade normativa do certame.
     
-- **Redação:** Produção de um texto com limite de tempo cronometrado (simulando a pressão do dia do certame).
-    
-
-**Semana 6: Conclusão de Arquivologia e Início do Processo Legislativo**
-
-- **Teoria/Prática:** Módulo 5 (Capítulos 6 ao 10). Aplicar o mesmo método de resolução de 50 questões seguida de leitura corretiva.
-    
-- **Teoria:** Módulo 6 (Estrutura do Poder Legislativo Estadual - Capítulo 1).
-    
-- **Redação:** Produção de um texto com foco na eliminação de vícios de linguagem.
-    
-
-**Semana 7: Processo Legislativo e Tramitação**
-
-- **Teoria:** Módulo 6 (Processo Legislativo, Tramitação, Documentos e Sistemas Informatizados - Capítulos 2 ao 5).
-    
-- **Prática:** 50 questões do Módulo 6.
+- **Prática:** 45 questões voltadas para as minúcias da legislação interna.
     
 - **Redação:** Produção de dois textos.
     
 
-**Semana 8: Administração Pública e Serviços**
+**Semana 4: Redação Oficial (Parte I)**
 
-- **Teoria:** Módulo 7 completo (Administração Pública, Rotinas, Processos e Expedientes Administrativos).
+- **Teoria:** Módulo 4 (Capítulos 1, 2 e 3). Estudo dos Fundamentos da Redação Oficial, características dos Documentos Oficiais e Revisão Gramatical Aplicada. O vocabulário e a formalidade exigidos aqui servirão de base para a sua própria escrita.
     
-- **Prática:** 50 questões do Módulo 7.
+- **Prática:** 45 questões sobre padrões de documentos oficiais (como ofícios e memorandos).
     
-- **Redação:** Produção de um texto cronometrado.
-    
-
-**Semana 9: Atendimento, Comunicação e Ferramentas**
-
-- **Teoria:** Módulo 8 (Atendimento, Comunicação Institucional e Relações Interpessoais) e Módulo 9 (Ferramentas e Sistemas Aplicados).
-    
-- **Prática:** 60 questões mistas abordando os Módulos 8 e 9, com foco em como a banca formula enunciados técnicos.
-    
-- **Redação:** Produção de dois textos em condições de simulado (sem consultas externas e com tempo reduzido).
+- **Redação:** Produção de um texto aplicando a impessoalidade e a objetividade, que são pilares da redação oficial.
     
 
-**Semana 10: Revisão Sistêmica e Fechamento de Lacunas**
+**Semana 5: Redação Oficial (Parte II) e Arquivologia Inicial**
 
-- **Prática Intensiva:** Foco exclusivo no esgotamento das questões restantes do banco de 500 exercícios.
+- **Teoria:** Módulo 4 (Capítulos 4 e 5). Conclusão dos Vícios de Linguagem e da Padronização Documental.
     
-- **Ajuste Teórico:** Retornar à apostila apenas para consultar os resumos ou os capítulos exatos onde as taxas de erro nas questões ainda estiverem frequentes.
+- **Teoria/Prática (Estudo Reverso):** Módulo 5 (Capítulos 1 ao 4). Como você já possui noções de Arquivologia, não realize a leitura prévia do material. Inicie a disciplina pela resolução de questões e retorne à apostila exclusivamente para consultar a teoria correspondente aos itens que errar.
     
-- **Redação:** Produção de dois textos temáticos sobre os assuntos nos quais você apresentou maior dificuldade argumentativa ao longo do cronograma.
+- **Prática:** 45 questões mistas entre Redação Oficial e Arquivologia.
+    
+- **Redação:** Produção de dois textos com a introdução de limite de tempo (1 hora e 30 minutos por texto).
     
 
-**Semana 11: Reta Final e Simulação**
+**Semana 6: Finalização de Arquivologia**
 
-- **Simulados:** Resolução de provas completas de concursos anteriores da mesma banca organizadora, resolvendo todas as disciplinas de uma única vez para treinar a resistência mental.
+- **Teoria/Prática (Estudo Reverso):** Módulo 5 (Capítulos 5 ao 10). Continuação do método de resolução de questões seguida de leitura corretiva para os temas de Organização Documental, Instrumentos de Pesquisa, Instrução Processual e Gestão Eletrônica.
     
-- **Revisão:** Leitura rápida de anotações e dos resumos dos pontos mais complexos da legislação interna (Módulo 3).
+- **Prática:** 45 questões exclusivas de Arquivologia.
     
-- **Redação:** Produção de apenas um texto no início da semana para manter o ritmo, dedicando os dias antecedentes à prova ao descanso cognitivo.
+- **Redação:** Produção de um texto focado na revisão atenta para evitar repetição de palavras e vícios de linguagem.
+    
+
+**Semana 7: Estrutura e Processo Legislativo**
+
+- **Teoria:** Módulo 6 (Capítulos 1, 2 e 3). Estudo da Estrutura do Poder Legislativo Estadual, as fases do Processo Legislativo e a rotina de Tramitação Legislativa.
+    
+- **Prática:** 45 questões sobre trâmites legislativos.
+    
+- **Redação:** Produção de dois textos sob as mesmas condições cronometradas da semana 5.
+    
+
+**Semana 8: Documentos Legislativos e Administração Pública Inicial**
+
+- **Teoria:** Módulo 6 (Capítulos 4 e 5) para fechar Documentos e Sistemas Legislativos. Início do Módulo 7 (Capítulos 1 e 2), cobrindo a teoria geral da Administração Pública e Rotinas Administrativas.
+    
+- **Prática:** 45 questões divididas entre os dois módulos.
+    
+- **Redação:** Produção de um texto focado na estruturação de argumentos de autoridade (citando leis ou princípios estudados).
+    
+
+**Semana 9: Conclusão da Administração Pública e Atendimento Institucional**
+
+- **Teoria:** Módulo 7 (Capítulos 3 e 4) abordando Processo Administrativo e Expedientes. Módulo 8 completo (Capítulos 1 ao 3), focando em Atendimento ao Público, Comunicação Institucional e Relações Interpessoais.
+    
+- **Prática:** 45 questões mistas dos módulos 7 e 8.
+    
+- **Redação:** Produção de dois textos.
+    
+
+**Semana 10: Ferramentas Tecnológicas e Sistemas**
+
+- **Teoria:** Módulo 9 completo (Capítulos 1 ao 4). Estudo de Ferramentas de Escritório, Comunicação Digital, Sistemas Informatizados e Controle Eletrônico.
+    
+- **Prática:** 45 questões. Este módulo tende a ter rápida absorção, utilize o tempo excedente para revisar os apontamentos de erros das semanas anteriores.
+    
+- **Redação:** Produção de um texto em formato de simulado (sem pausas, rascunho e transcrição na mesma sessão de estudos).
+    
+
+**Semana 11: Fechamento de Lacunas e Simulação Prática**
+
+- **Teoria:** Sem aquisição de conteúdo novo. Retorno aos resumos e à apostila unicamente nos capítulos em que o seu índice de acertos nas questões esteve abaixo de 70% ao longo do ciclo (especialmente legislação).
+    
+- **Prática:** Resolução das questões restantes para esgotar o material de 500 exercícios, configurando testes de resistência e fixação.
+    
+- **Redação:** Produção dos últimos dois textos antes da prova, consolidando o controle de tempo, a estrutura argumentativa formal e a correção gramatical treinados nas 10 semanas anteriores.

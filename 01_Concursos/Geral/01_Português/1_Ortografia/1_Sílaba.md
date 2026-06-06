@@ -4,13 +4,11 @@
 ---
 ### **1. Fonema** 
 
-==Fonema é a menor unidade de SOM, capaz de distinguir uma palavra da outra==. Pode-se dizer que fonemas são os sons e as letras são as representações visuais do som. 
+Fonema é a menor unidade de SOM, capaz de distinguir uma palavra da outra. Pode-se dizer que fonemas são os sons e as letras são as representações visuais do som. 
 - O nosso alfabeto possui 26 letras, mas inúmeros sons diferentes.
-
 #### **1.1 Dífono**
 É uma letra que representa mais de um fonema. Só existe o /ks/.
 	Ex: Taxi → /taksi/. 4 letras e 5 fonemas.
-
 #### **1.2 Dígrafo**
 Sequência de duas letras que representam um fonema. 
 
