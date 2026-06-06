@@ -13,7 +13,6 @@ Encontros vocálicos são agrupamentos de vogais ou de vogais e semivogais sem c
     Ex: Lí-rio, quan-do, fre-quen-te.
 - **Ditongo decrescente**:  vogal vem antes da semivogal.
     Ex: Pai, Põe.
-
 - **Ditongo nasal:** possui nasalização
      Ex: Mão
 - **Ditongo oral**: Não possui nasalização

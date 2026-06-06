@@ -12,13 +12,13 @@ Fonema é a menor unidade de SOM, capaz de distinguir uma palavra da outra. Pode
 #### **1.2 Dígrafo**
 Sequência de duas letras que representam um fonema. 
 
-- **Dígrafo consonantal:** dígrafo com a letra mais forte sendo uma consoante.
-	==(ch, lh, nh, rr, ss, sc, sç, xc, gu, qu)==
-	Ex: Chave, mulher, cresço
-
 - **Dígrafo vocálico**: vogal nasalizada por um m ou n.     
 	==(am,an,em,en,im,in,om,on,um,un)==
 	Ex: andar, sendo, limpo, tonto, chumbo.
+
+- **Dígrafo consonantal:** dígrafo com a letra mais forte sendo uma consoante.
+	==(ch, lh, nh, rr, ss, sc, sç, xc, gu, qu)==
+	Ex: Chave, mulher, cresço
 
 ---
 ### **2 Vogal x Semivogal**
