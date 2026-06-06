@@ -66,3 +66,9 @@ O **lhe** (pronome pessoal oblíquo átono) pode exercer função de posse.
 > - O vento beijou-lhe o rosto -> O vento beijou o rosto dele
 > - Senti-lhe o perfume assim que entrou na sala -> Senti o perfume dela
 
+>[!tip]
+O uso desatento de pronomes possessivos de terceira pessoa gera duplo sentido.
+>
+> Ex: "O Governador comunicou ao Presidente da ALECE
+que sua assessoria seria exonerada." 
+(Do Governador ou do Presidente?).

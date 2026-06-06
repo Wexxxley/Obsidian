@@ -31,8 +31,8 @@ Retorma um termo já citado (antecedente/referente) que é substantivo, pronome 
 	 - É a cidade donde/de onde venho -> é a cidade de que venho.
 	 
 7. **Cujo** é usado para ideia de posso. Sempre tem a preposição 'de' dentro dele
-	- O **livro**, cujas páginas estão amareladas, é histórico.
-	- A **criança**, cujos pais estão nos Estados Unidos, vive com a tia.
+	- O **livro**, cujas **páginas** estão amareladas, é histórico.
+	- A **criança**, cujos **pais** estão nos EUA, vive com a tia.
 
 #### **Regencia com pronome relativo**
 
