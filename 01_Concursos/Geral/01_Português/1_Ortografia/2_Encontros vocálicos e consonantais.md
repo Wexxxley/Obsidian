@@ -76,4 +76,13 @@ Psi-có-lo-go → Encontro consonantal
 Quei-jo → Dígrafo consonantal (qu) e ditongo (ei)
 Chum-bo → Dígrafo consonantal (ch) e dígrafo vocálico (um)
 Per-ma-nên-cia → Encontro consonantal, dígrafo vocálico e ditongo.
+Isqueiro -> dígrafo consonantal
+Coqueiro -> dígrafo consonantal
+Gueixa -> dígrafo consonantal
+Fogueira -> dígrafo consonantal
+Aquário -> dois ditongos
+Quota -> ditongo
+Cinquenta -> dois digrafos vocalico 
+Água -> ditongo
+Língua -> dígrafo vocálico e ditongo
 
