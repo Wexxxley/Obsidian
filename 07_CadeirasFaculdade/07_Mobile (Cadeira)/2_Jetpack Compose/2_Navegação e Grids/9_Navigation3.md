@@ -38,3 +38,34 @@ Embora a transição para rotas baseadas em objetos tenha mudado a forma como de
 - **transitionSpec**: Define a animação ao navegar para frente. 
 - **popTransitionSpec**: Define a animação ser aplicada quando o conteúdo é removido da pilha (ao navegar para trás) 
 - **predictivePopTransitionSpec**: Define a animação a ser aplicada quando o conteúdo é removido da pilha usando um gesto preditivo de volta
+
+---
+### Adaptive layouts
+
+A grande variedade de dispositivos no ecossistema Android exige que o mesmo aplicativo se comporte de maneira perfeitamente adequada em diferentes configurações físicas de tela. Isso inclui a adaptação para smartphones compactos, tablets de diversos tamanhos, dispositivos com telas dobráveis (foldables) e ambientes de desktop.
+
+- **Layouts responsivos** realizam pequenos ajustes na interface do usuário para otimizar o uso do espaço disponível.
+- **Layouts adaptativos** executam mudanças estruturais na interface, como a transição de uma visualização de painel único para uma de painéis duplos.
+
+A partir da API 36, o sistema operacional passa a ignorar diversas restrições definidas em código, tais como a fixação da orientação da tela e a impossibilidade de redimensionamento da atividade.
+
+Devido a essas novas políticas do sistema, a interface do usuário pode sofrer alterações de tamanho a qualquer momento, e os aplicativos podem entrar em modo multijanela com mais frequência.
+
+As _Window Size Classes_ definem pontos de quebra exatos para categorizar o espaço disponível na interface.
+
+- **Compact:** Largura inferior a 600dp. Representa a quase totalidade dos smartphones convencionais na orientação retrato.
+	
+- **Medium:** Largura igual ou superior a 600dp e inferior a 840dp. Representa a maioria dos tablets na orientação retrato e displays internos grandes dobrados.
+	
+- **Expanded:** Largura igual ou superior a 840dp e inferior a 1200dp. Representa tablets na orientação paisagem e telas internas de dobráveis abertos.
+	
+- **Large e Extra-large:** Existem também categorias para telas ainda maiores, como grandes tablets (1200dp a 1600dp) e desktops (acima de 1600dp).
+
+A obtenção desse estado é feita calculando a métrica através da função `calculateWindowSizeClass`. 
+
+![](../../../../attachments/Pasted%20image%2020260606081421.png)
+![](../../../../attachments/Pasted%20image%2020260606081434.png)
+ 
+- **Estratégia Recomendada (Progressiva):** A recomendação técnica estabelece que o projeto inicie focado no formato _Compact_. Em iterações posteriores, injeta-se o comportamento pertinente ao formato _Medium_ e, por fim, o suporte ao formato _Expanded_. 
+ 
+- **Abstração de Hardware:** A regra imperativa é evitar decisões lógicas calcadas no tamanho ou natureza do dispositivo físico. As métricas estáticas de hardware tornaram-se irrelevantes sob a ótica do ecossistema do Android 16.

@@ -4,25 +4,24 @@
 ---
 #### **1. Interpretação de textos**
 
-- **Compreensão**: Está escrito. Foco naliteralidade e sinônimos.
-- **Interpretação**: Está nas entrelinhas. Foco nas marcas textuais que permitem a dedução.
-
 **Texto Dissertativo-Argumentativo:** Tem como objetivo central defender uma tese
 (ponto de vista) por meio de argumentos logicamente encadeados.
 - Justificativas de Projetos de Lei, pareceres das Comissões Técnicas.
 
-**Texto Dissertativo-Expositivo:** Apresenta um tema, conceito ou fato sem a intenção explícita de convencer o leitor. Seu foco é a transmissão de informação de forma neutra e objetiva. 
+**Texto Dissertativo-Expositivo:** Apresenta um tema, conceito ou fato sem a intenção explícita de convencer o leitor. Seu foco é a transmissão.
 - Relatórios técnicos, notas explicativas e textos informativos de jornais.
 
 **Texto Injuntivo/Instrucional:** Prescreve comportamentos, ordena ações ou fornece instruções. Caracteriza-se pelo uso de verbos no imperativo ou no infinitivo pleno.
 - Leis, decretos, resoluções e do Regimento Interno.
 
+- **Compreensão**: Está escrito. Foco na literalidade e sinônimos.
+- **Interpretação**: Está nas entrelinhas. Foco nas marcas textuais que permitem a dedução.
+
 ---
-#### **2. Estrutura dos textos e dos parágrafos**
+#### **2. Estrutura dos parágrafos**
 
 **Parágrafo dissertativo padrão:**
-
-1. **Tópico Frasal:** É a frase inicial do parágrafo,curta e concisa, que sintetiza a ideia central que será desenvolvida. 
+1. **Tópico Frasal:** Frase curta e concisa, que sintetiza a ideia central que será desenvolvida. 
 2. **Desenvolvimento**: Corresponde à ampliação do tópico frasal. É o espaço onde se apresentam as provas, justificativas, exemplos que sustentam a afirmação inicial.
 3. **Conclusão** (Opcional em parágrafos intermediários): Arremata a discussão desenvolvida, explicitando a consequência lógica do raciocínio, preparando o terreno para a próxima unidade textual.
 
@@ -37,6 +36,10 @@
 Para que um parágrafo seja considerado bem estruturado, ele deve observar dois princípios fundamentais:
 - **Coerência Tópica:** Todas as frases do parágrafo devem gravitar em torno do mesmo tópico frasal. A  introdução de um assunto radicalmente novo exige a abertura de um novo parágrafo.
 - **Progressão Temática:** O texto precisa caminhar para a frente. Cada frase subsequente deve acrescentar uma informação nova ao que já era conhecido. Se o parágrafo apenas repete a mesma ideia com palavras diferentes, ocorre o vício da redundância.
+
+![](../../../../attachments/Pasted%20image%2020260606075734.png)
+![](../../../../attachments/Pasted%20image%2020260606075829.png)
+![](../../../../attachments/Pasted%20image%2020260606075912.png)
 
 ---
 #### **3. Pronomes e expressões referênciais**
