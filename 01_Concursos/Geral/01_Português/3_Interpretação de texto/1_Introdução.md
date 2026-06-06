@@ -39,19 +39,24 @@ Para que um parágrafo seja considerado bem estruturado, ele deve observar dois 
 - **Progressão Temática:** O texto precisa caminhar para a frente. Cada frase subsequente deve acrescentar uma informação nova ao que já era conhecido. Se o parágrafo apenas repete a mesma ideia com palavras diferentes, ocorre o vício da redundância.
 
 ---
-#### **3. Articulação textual**
+#### **3. Pronomes e expressões referênciais**
 
 [5_Pronome parte 3](../2_Morfologia/5_Pronome%20parte%203.md)
 
-Termo já dito <- Pronome **anafórico**
-- Ex: Aprovamos o regulamento da ALECE. **Ele** entrará em vigor amanhã.
-- Esse, essa, isso.
+**Referência Endofórica:** O termo remete a um elemento que está presente no texto. 
+- **Referência Anafórica:** Ocorre quando o termo é utilizado para retomar um elemento que já foi mencionado anteriormente na construção do texto.
+	- Ex: Aprovamos o regulamento da ALECE. **Ele** entrará em vigor amanhã.
+- **Referência Catafórica:** Ocorre quando o termo é utilizado para antecipar uma informação que ainda será apresentada mais à frente no texto. 
+	- Ex: O Presidente só deseja **isto**: a aprovação da reforma orçamentária.
+	
+**Referência Exofórica (ou Dêitica):** Ocorre quando um termo remete a um elemento externo ao texto.
 
-Pronome **catafórico** -> termo a ser dito.
-- Ex: O Presidente da Assembleia só deseja **isto**: a aprovação da reforma orçamentária.
-- Este, esta, isto.
-
-
-
+A coesão referencial não se faz apenas com pronomes. O texto progride elegantemente por meio de substituições que evitam a fadiga do leitor:
+- **Sinônimos**: substituições por termos de mesmo sentido.
+- **Hiperônimos e hipônimos:** O hiperônimo tem sentido abrangente; o hipônimo tem sentido restrito.
+	- Hipônimos: maçãs, bananas, uvas. Hiperônimo: frutas.
+	- Ex: A Assembleia Legislativa (hipônimo) passou por reformas. O órgão público (hiperônimo) busca maior eficiência.
+- **Expressões Metafóricas ou Perífrases:** Substituição de um nome por uma expressão que o identifique. 
+	- Ex: "Fortaleza" substituída por "A Terra da Luz"
 
 
