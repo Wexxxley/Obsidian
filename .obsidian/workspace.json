@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/03_Raciocínio Lógico/1_Introdução.md",
+                "file": "01_Concursos/Geral/01_Português/1_Ortografia/3_Acentuação gráfica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Introdução"
+              "title": "3_Acentuação gráfica"
             }
           }
         ],
@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295
+    "width": 295,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -209,10 +210,11 @@
   },
   "active": "af356e5e1a7640c4",
   "lastOpenFiles": [
-    "attachments/pontos-cardeais.png",
+    "01_Concursos/Geral/02_Arquivologia/12_Gestão eletrônica de documentos (GED).md",
     "01_Concursos/Geral/01_Português/1_Ortografia/3_Acentuação gráfica.md",
-    "01_Concursos/Geral/01_Português/1_Ortografia/2_Encontros vocálicos e consonantais.md",
     "01_Concursos/Geral/03_Raciocínio Lógico/1_Introdução.md",
+    "attachments/pontos-cardeais.png",
+    "01_Concursos/Geral/01_Português/1_Ortografia/2_Encontros vocálicos e consonantais.md",
     "01_Concursos/Geral/03_Raciocínio Lógico",
     "01_Concursos/Geral/01_Português/1_Ortografia/1_Sílaba.md",
     "01_Concursos/Conteudos ALECE Técnico legislativo.md",
@@ -247,10 +249,8 @@
     "01_Concursos/Geral/02_Arquivologia/9_Classificação de documentos.md",
     "01_Concursos/Geral/02_Arquivologia/10_Conservação de documentos.md",
     "01_Concursos/Geral/02_Arquivologia/11_Documentos digitais.md",
-    "01_Concursos/Geral/02_Arquivologia/12_Gestão eletrônica de documentos (GED).md",
     "01_Concursos/Geral/02_Arquivologia/13_.md",
     "attachments/Pasted image 20260603103203.png",
-    "attachments/Pasted image 20260603102157.png",
     "01_Concursos/Geral/02_Arquivologia",
     "01_Concursos/Geral/02_Arquivologia/16_Redação",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
