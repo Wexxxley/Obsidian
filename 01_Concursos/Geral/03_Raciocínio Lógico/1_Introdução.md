@@ -1,6 +1,0 @@
-
-
----
-
-
-![](../../../attachments/pontos-cardeais.png)

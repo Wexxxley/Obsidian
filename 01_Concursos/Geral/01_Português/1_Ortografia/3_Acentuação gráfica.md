@@ -49,7 +49,7 @@ Paroxítonas terminadas em ditongo crescente podem ser consideradas proparoxíto
 > Ex: Tui-ui-ú → Hiato com U antecedido por ditongo.
 > Ex: Pi-au-í → Hiato com I antecedido por ditongo no final da palavra.
 
-**Acentos diferenciais:** Servem para distinguir palavras iguais. Existem 3 acentos diferenciais e sempre circunflexo (^).
+**Acentos diferenciais:** Servem para distinguir palavras iguais. Existem 3 acentos diferenciais e sempre usam circunflexo (^).
 1.  ==Ter, vir e derivados recebem acentos na 3° pessoa do plural==
 	Ex: Eles têm, Eles retêm, Eles vêm, Eles intervêm.	
 2. De intensidade: ==PÔR(Verbo) x POR(Preposição)==
