@@ -83,9 +83,7 @@
 - O psiquiatra Michael Brody afirma que as crianças são negativamente impactadas quando não se veem na mídia ou quando seus semelhantes são associados a atos ilícitos. Essa estereotipagem destrói a identidade e as perspectivas de minorias.
 
 **3. Influência midiática / Ação dos veículos midiáticos** <mark style="background: #FF5582A6;">CAUSA</mark>
-- O sociólogo Theodor Adorno aponta que a mídia cria estereótipos que retiram a liberdade de pensamento dos espectadores. Essa imposição força imagens frequentemente errôneas na mente da população, manipulando a percepção da realidade.
-    
-- Os teóricos Adorno e Horkheimer utilizam o conceito de "Indústria Cultural" para designar a diversão de massa. Esse sistema atua ativamente para homogeneizar os comportamentos e atrofiar o senso crítico do público consumidor.
+- Para os teóricos da Escola de Frankfurt, Adorno e Horkheimer, a "Indústria Cultural" transforma o entretenimento em um mero produto de consumo de massa. Essa mercantilização atua para padronizar comportamentos, promovendo a alienação social e atrofiando o senso crítico dos indivíduos frente à realidade.
 
 - Segundo o filósofo estadunidense Noam Chomsky, em sua obra “A fabricação do consentimento”, afirma que a maneira mais inteligente de manter as pessoas passivas é limitar o seu espectro de opinião e criticidade.
 

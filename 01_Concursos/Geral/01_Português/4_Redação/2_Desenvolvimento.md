@@ -6,6 +6,6 @@
 
 Eu acho isso aqui. Por causa disso aqui. E tem esse repertório sobre isso...
 
-Em primeira análise, é importante destacar [TESE 1] como causa do [PROBLEMA].
+Em primeira análise, é importante destacar [TESE 1] como causa/intensificador do [PROBLEMA].
 
 
