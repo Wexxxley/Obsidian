@@ -1,7 +1,8 @@
 
 
 ---
-O servidor público não é apenas um executor de tarefas, mas o garantidor da estabilidade do Estado. Enquanto os parlamentares possuem mandatos temporários, os Técnicos Legislativos compõem o quadro permanente. Isso significa que são os servidores que detêm a **memória institucional** e garantem que a máquina pública continue funcionando independentemente de quem esteja no poder.
+
+Enquanto os parlamentares possuem mandatos temporários, os Técnicos Legislativos compõem o quadro permanente. Isso significa que são os servidores que detêm a **memória institucional** e garantem que a máquina pública continue funcionando independentemente de quem esteja no poder.
 #### **Deveres Funcionais (Condutas Obrigatórias)**
 
 - **Presteza:** Consiste na obrigação de agir com rapidez e eficiência, evitando a lentidão burocrática no atendimento e na emissão de documentos.
