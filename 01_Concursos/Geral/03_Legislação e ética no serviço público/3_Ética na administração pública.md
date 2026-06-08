@@ -56,29 +56,16 @@ No ambiente do Direito Administrativo e do serviço público, a moral comum ganh
 O cidadão tem o direito (e o dever) de participar da gestão pública, vigiando como o dinheiro dos impostos é gasto e como as leis são feitas. A essa fiscalização popular damos o nome de **Controle Social**. O Técnico Legislativo atua como um facilitador desse controle. Quando você fornece uma informação correta ou organiza uma audiência pública de forma transparente, você está literalmente entregando ao cidadão a "arma" democrática para que ele fiscalize o Estado.
 
 **Tripé Democrático no Atendimento**
+
 - **Transparência:** Significa fornecer dados de orçamentos e contratos sem criar barreiras burocráticas inventadas na hora só para dificultar a vida do cidadão.
     
 - **Isonomia/igualdade:** Todos merecem a mesma cortesia e velocidade técnica.
     
 - **Pluralismo:** É o respeito às diferenças. Significa aceitar que manifestações divergentes e opiniões contrárias são normais e legítimas dentro do espaço legislativo, garantindo que o debate ocorra sem censura do servidor.
-    
 
-### 3. A Pegadinha Clássica: Atendimento Político vs. Técnico
-
-Preste muita atenção neste ponto, pois é um cenário clássico de questões práticas:
-
-- **O Cenário:** A prova contará uma história onde um Deputado (ou seu chefe) manda você "passar na frente" da fila um Prefeito aliado que chegou agora, deixando os cidadãos comuns esperando.
-    
-- **A Resolução Ética:** Obedecer a essa ordem é uma **infração ética grave**. Mistura o espaço público com interesses políticos privados, violando a impessoalidade e a isonomia. O atendimento do Técnico Legislativo deve ser pautado pela regra técnica (ex: ordem de chegada ou prioridades legais como idosos), e nunca por afinidade política.
-    
-
-### 4. Dica de Ouro para a Prova (Direitos Fundamentais)
-
-Se você ficar em dúvida em alguma questão sobre ética e cidadania, aplique este filtro: a ética no serviço público serve para dar máxima eficácia aos Direitos Fundamentais da Constituição.
-
-Se a alternativa da questão descreve uma atitude do servidor que, na prática, **impede ou dificulta injustificadamente** o cidadão de exercer um direito seu (como o direito de pedir uma informação, o direito de protocolar uma reclamação ou o direito de ser tratado com igualdade), essa atitude será sempre considerada antiética.
 
 
 ![](../../../attachments/Pasted%20image%2020260608075436.png)
 
 ![](../../../attachments/Pasted%20image%2020260608081257.png)
+![400](../../../attachments/Pasted%20image%2020260608082302.png)
