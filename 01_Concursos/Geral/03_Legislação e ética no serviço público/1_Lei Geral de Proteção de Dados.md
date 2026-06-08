@@ -1,23 +1,20 @@
 
+#Concluded 
 
 ---
 
-A Lei Geral de Proteção de Dados (LGPD) aplica-se a qualquer operação que envolva informações de indivíduos. A lei vincula tanto pessoas físicas quanto pessoas jurídicas, englobando de forma igualitária entidades de direito público e privado. 
+A Lei Geral de Proteção de Dados (LGPD) aplica-se a qualquer operação que envolva informações de indivíduos que a operação de tratamento for realizada no território nacional, quando os dados tratados tiverem sido coletados no Brasil, ou caso o tratamento tenha como finalidade o fornecimento de bens e serviços a indivíduos localizados no país. 
 
-Essa legislação incide sempre que a operação de tratamento for realizada no território nacional, quando os dados tratados tiverem sido coletados no Brasil, ou caso o tratamento tenha como finalidade a oferta ou o fornecimento de bens e serviços a indivíduos localizados no país.
+**Dado Pessoal**: Qualquer informação que permita identificar uma pessoa natural.
+- **Identificação direta**: ocorre por meio de identificadores unívocos, como CPF e RG.
+- **Identificação indireta**: ocorre quando um conjunto de informações, uma vez correlacionadas, possibilita a identificação. Como nome, endereço eletrônico ou cargo.
 
-**Dado Pessoal**: Compreende qualquer informação que permita identificar uma pessoa natural de forma direta ou indireta. 
-- A **identificação direta** ocorre por meio de identificadores unívocos, como o Cadastro de Pessoas Físicas (CPF) ou o Registro Geral (RG). 
-- A **identificação indireta** manifesta-se quando um conjunto de informações, uma vez correlacionadas, possibilita a identificação de um indivíduo. Como nome, endereço eletrônico ou o cargo de um servidor.
+**Dado Pessoal Sensível**: Exige uma camada de proteção superior, em virtude de seu alto potencial discriminatório ou de exposição da privacidade. 
+- Ex: origem étnica, convicções religiosas, opiniões políticas, filiação a sindicatos ou organizações de caráter filosófico e político, dados referentes à saúde, vida sexual, e dados genéticos ou biométricos. 
 
-**Dado Pessoal Sensível** Subcategoria de dado pessoal que exige uma camada de proteção superior, em virtude de seu alto potencial discriminatório ou de exposição da privacidade. 
-- origem racial ou étnica, convicções religiosas, opiniões políticas, filiação a sindicatos ou organizações de caráter filosófico e político, além de dados referentes à saúde, vida sexual, e dados genéticos ou biométricos. 
+**Dado Anonimizado**: Informação que, após passar por etapas de processamento, perdeu a capacidade de identificar a qual pessoa ele se refere. Para atingir esse status, os dados  são submetidos a técnicas como a supressão de identificadores, o mascaramento de caracteres ou a generalização de valores. 
 
-**Dado Anonimizado**: Um dado anonimizado é uma informação que, após passar por etapas de processamento, perdeu a capacidade de identificar a qual pessoa ele se refere. 
-
-Para atingir esse status, os dados originais são submetidos a técnicas computacionais. Isso inclui a supressão de identificadores, o mascaramento de caracteres ou a generalização de valores. 
-
-A importância deste conceito é a isenção legal. Como um dado anonimizado não identifica mais nenhuma pessoa , ele deixa de ser classificado legalmente como "Dado Pessoal". Consequentemente, **as regras e restrições da LGPD não se aplicam a ele**. Instituições públicas e privadas podem utilizar, armazenar e compartilhar bases de dados anonimizados para gerar relatórios, treinar sistemas ou realizar pesquisas.
+A importância desse conceito é a isenção legal. Como um dado anonimizado não identifica mais nenhuma pessoa, ele deixa de ser classificado legalmente como "Dado Pessoal". Consequentemente, **as regras e restrições da LGPD não se aplicam a ele**. 
 
 **Tratamento de Dados**: Engloba toda e qualquer operação realizada com dados pessoais ao longo de seu ciclo de vida. Isso abrange desde a fase inicial de coleta, produção e recepção, passando pelo armazenamento, classificação, utilização, acesso, reprodução e processamento, até a avaliação, comunicação, transferência, difusão e eliminação. 
 
@@ -56,3 +53,6 @@ A LGPD não regulamenta todo e qualquer uso de dados. Ela é inaplicável em qua
 4. **Segurança Pública e Investigação Criminal:** A LGPD não trava o trabalho da polícia ou a segurança do Estado. Esses setores possuem legislação própria e não precisam seguir os ritos da LGPD durante uma investigação criminal.
 
 O tratamento de dados de menores de idade possui uma barreira de proteção altíssima. A regra absoluta é que qualquer operação deve focar no **melhor interesse** da criança. Diferente de um adulto, o uso de dados de menores exige que o consentimento seja **específico e em destaque**, e deve ser obrigatoriamente fornecido por pelo menos um dos pais ou pelo responsável legal.
+
+
+![400](../../../attachments/Pasted%20image%2020260608070553.png)
