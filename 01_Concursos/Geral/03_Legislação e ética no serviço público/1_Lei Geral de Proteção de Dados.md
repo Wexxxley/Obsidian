@@ -3,7 +3,7 @@
 
 ---
 
-A Lei Geral de Proteção de Dados (LGPD) aplica-se a qualquer operação que envolva informações de indivíduos que a operação de tratamento for realizada no território nacional, quando os dados tratados tiverem sido coletados no Brasil, ou caso o tratamento tenha como finalidade o fornecimento de bens e serviços a indivíduos localizados no país. 
+A Lei Geral de Proteção de Dados (LGPD) regula a coleta, o armazenamento, o tratamento e o compartilhamento de dados pessoais.
 
 **Dado Pessoal**: Qualquer informação que permita identificar uma pessoa natural.
 - **Identificação direta**: ocorre por meio de identificadores unívocos, como CPF e RG.
@@ -15,8 +15,6 @@ A Lei Geral de Proteção de Dados (LGPD) aplica-se a qualquer operação que en
 **Dado Anonimizado**: Informação que, após passar por etapas de processamento, perdeu a capacidade de identificar a qual pessoa ele se refere. Para atingir esse status, os dados  são submetidos a técnicas como a supressão de identificadores, o mascaramento de caracteres ou a generalização de valores. 
 
 A importância desse conceito é a isenção legal. Como um dado anonimizado não identifica mais nenhuma pessoa, ele deixa de ser classificado legalmente como "Dado Pessoal". Consequentemente, **as regras e restrições da LGPD não se aplicam a ele**. 
-
-**Tratamento de Dados**: Engloba toda e qualquer operação realizada com dados pessoais ao longo de seu ciclo de vida. Isso abrange desde a fase inicial de coleta, produção e recepção, passando pelo armazenamento, classificação, utilização, acesso, reprodução e processamento, até a avaliação, comunicação, transferência, difusão e eliminação. 
 
 ---
 

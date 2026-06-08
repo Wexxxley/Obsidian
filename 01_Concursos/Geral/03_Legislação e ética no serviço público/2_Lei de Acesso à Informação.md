@@ -3,9 +3,9 @@
 
 ---
 
-A Lei de Acesso à Informação (LAI) garante que você saiba o que o Estado está fazendo com o dinheiro e o poder público. 
+A Lei de Acesso à Informação (LAI) regula o direito de qualquer cidadão solicitar e receber informações dos órgãos e entidades públicas. Ela estabelece que a publicidade é a regra e o sigilo, a exceção.
 
-O mandamento principal da LAI é simples e direto: **A publicidade é a regra geral; o sigilo é a exceção absoluta.** Para que isso funcione, a lei se apoia em cinco diretrizes:
+Para que isso funcione, a lei se apoia em cinco diretrizes:
 
 - **Acesso como Regra:** Se não for expressamente classificado como sigiloso (por risco à segurança do Estado ou da sociedade), o dado tem que ser público.
     
@@ -18,7 +18,7 @@ O mandamento principal da LAI é simples e direto: **A publicidade é a regra ge
 - **Controle Social:** Dar munição (dados) para que a própria população fiscalize os gastos e a eficiência da gestão pública.
 
 >[!info]
-**Transparência Ativa**: É o dever do órgão público de publicar informações de ofício, ou seja, sem que ninguém tenha pedido.
+**Transparência Ativa**: É o dever do órgão público de publicar informações de ofício sem que ninguém tenha pedido.
 >
 >**Transparência Passiva**: Ocorre quando uma informação específica não está no Portal da Transparência e o cidadão faz um requerimento formal solicitando aquele dado. Ocorre através do **SIC (Serviço de Informações ao Cidadão)**.
 
