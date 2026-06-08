@@ -28,12 +28,12 @@ O servidor público não é apenas um executor de tarefas, mas o garantidor da e
     
 - **Recebimento de Gratificações:** É vetado aceitar presentes, doações ou vantagens de empresas ou indivíduos que tenham interesses diretos nas decisões ou contratos da instituição.
     
-- **Subordinação de Interesse:** O servidor não pode abandonar o seu posto de trabalho para resolver problemas particulares sem a devida autorização, pois o interesse público deve sempre prevalecer.
+- **Subordinação de Interesse:** O servidor não pode abandonar o seu posto de trabalho para resolver problemas particulares sem a devida autorização.
 
-### Pontos Críticos e Exceções para Provas
+Duas situações  específicas que exigem atenção quanto à interpretação das regras:
 
-O material destaca duas situações muito específicas que exigem atenção quanto à interpretação das regras:
-
-- **A Exceção da Obediência Hierárquica:** Embora a hierarquia seja um dever, a obediência não é cega. Se um chefe emitir uma ordem **manifestamente ilegal** (como solicitar a falsificação de uma assinatura), o servidor não apenas pode, como tem o dever legal de recusar o cumprimento e denunciar o fato. Cumprir uma ordem ilegal e justificar que "estava apenas obedecendo ordens" não isenta o servidor de punição.
+- Embora a hierarquia seja um dever, a obediência não é cega. Se um chefe emitir uma ordem **manifestamente ilegal**, o servidor não apenas pode, como tem o dever legal de recusar o cumprimento e denunciar o fato. Cumprir uma ordem ilegal e justificar que "estava apenas obedecendo ordens" não isenta o servidor de punição.
     
-- **Diferença entre Presente e Brinde:** A vedação ao recebimento de gratificações foca em bens com valor econômico real (como joias ou equipamentos caros), que podem ser vistos como tentativas de suborno. Itens de baixo ou nenhum valor comercial, como canetas promocionais ou blocos de notas distribuídos de forma genérica como brindes institucionais, não se enquadram nessa proibição, pois não possuem potencial para comprometer a isenção profissional do servidor.
+- A vedação ao recebimento de gratificações foca em bens com valor econômico real (como joias ou equipamentos caros), que podem ser vistos como tentativas de suborno. Itens de baixo ou nenhum valor comercial, como canetas promocionais ou blocos de notas distribuídos de forma genérica como brindes institucionais, não se enquadram nessa proibição, pois não possuem potencial para comprometer a isenção profissional do servidor.
+
+![400](../../../attachments/Pasted%20image%2020260608085317.png)
