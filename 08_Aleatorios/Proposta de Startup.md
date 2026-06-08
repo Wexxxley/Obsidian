@@ -1,8 +1,5 @@
 
 ---
-A inclusão dessas funcionalidades é excelente do ponto de vista de engenharia de software e experiência do usuário, pois resolve o problema de retenção na plataforma e aumenta a confiança (trust) no serviço.
-
-Para integrar esses novos requisitos, o ideal é criar uma nova etapa no ciclo de vida do serviço: a **Execução e Acompanhamento**. Abaixo, apresento a estrutura atualizada do seu projeto, subdividida em tópicos, mantendo a formalidade e detalhando os termos técnicos aplicáveis à sua regra de negócios.
 
 ### 1. O Problema
 
