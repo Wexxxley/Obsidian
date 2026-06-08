@@ -104,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295,
-    "collapsed": true
+    "width": 295
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -211,7 +210,10 @@
   "active": "af356e5e1a7640c4",
   "lastOpenFiles": [
     "01_Concursos/Geral/03_Legislação e ética no serviço público/2_Lei de Acesso à Informação.md",
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/4_.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/3_Ética na administração pública.md",
+    "attachments/Pasted image 20260608081257.png",
+    "attachments/Pasted image 20260608075436.png",
     "attachments/Pasted image 20260608072524.png",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/1_Lei Geral de Proteção de Dados.md",
     "attachments/Pasted image 20260608070553.png",
@@ -236,8 +238,6 @@
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/8_Courotines.md",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/7_ViewModel e StateFlow.md",
     "attachments/Pasted image 20260606075912.png",
-    "attachments/Pasted image 20260606075829.png",
-    "attachments/Pasted image 20260606075734.png",
     "01_Concursos/Geral/01_Português/3_Interpretação de texto",
     "02_Roadmap/Untitled.md",
     "01_Concursos/E.md",
@@ -251,7 +251,6 @@
     "01_Concursos/Geral/02_Arquivologia/8_Princípios da Arquivologia.md",
     "01_Concursos/Geral/02_Arquivologia/9_Classificação de documentos.md",
     "01_Concursos/Geral/02_Arquivologia/10_Conservação de documentos.md",
-    "01_Concursos/Geral/02_Arquivologia/11_Documentos digitais.md",
     "01_Concursos/Geral/02_Arquivologia",
     "01_Concursos/Geral/02_Arquivologia/16_Redação",
     "16_Mobile/2_Jetpack Compose/1_Layout/Untitled",
