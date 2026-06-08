@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 
@@ -40,10 +41,21 @@ Como vimos, o sigilo é a exceção. Ele só ocorre quando a divulgação da inf
 
 Não confunda o sigilo de Estado com a proteção à intimidade. Se um documento governamental contém informações sobre a vida privada, honra ou imagem de uma pessoa, essa parte do documento fica restrita por **100 anos**. O objetivo aqui não é proteger o Estado, mas sim a privacidade do indivíduo contra a curiosidade de terceiros.
 
-### 4. Blindagens contra o Estado (Pontos de Atenção)
+#### **Blindagens contra o Estado** 
 
-O texto traz duas regras que protegem o cidadão contra abusos do poder público e que despencam em avaliações:
-
-- **O Cidadão não precisa se explicar:** Se você pedir uma informação pública, é terminantemente proibido que o servidor pergunte "Para que você quer saber isso?". A informação é pública, o motivo é problema seu. Exigir motivação é um ato ilegal.
+- Se você pedir uma informação pública, é terminantemente proibido que o servidor pergunte "Para que você quer saber isso?". A informação é pública, o motivo é problema seu. Exigir motivação é um ato ilegal.
     
-- **O Limite do Sigilo (Direitos Humanos):** O Estado nunca pode usar o carimbo de "Ultrassecreto" ou "Secreto" para acobertar crimes. Se a informação envolver condutas que configurem violação de direitos humanos praticada por agentes públicos, o sigilo cai por terra imediatamente. A transparência, neste caso, é absoluta.
+- O Estado nunca pode usar o carimbo de "Ultrassecreto" ou "Secreto" para acobertar crimes. Se a informação envolver condutas que configurem violação de direitos humanos praticada por agentes públicos, o sigilo cai por terra imediatamente. A transparência, neste caso, é absoluta.
+
+#### **Harmonização entre a LGPD e LAI**
+A harmonização é o processo de compatibilizar a aplicação de duas leis que, à primeira vista, parecem entrar em atrito: a Lei de Acesso à Informação (LAI) e a Lei Geral de Proteção de Dados (LGPD). 
+
+- **LAI:** Exige a publicidade máxima da máquina pública. 
+- **LGPD:** Exige a proteção rigorosa da intimidade e dos dados pessoais, impondo limites ao que pode ser exposto publicamente sobre uma pessoa natural.
+
+A harmonização estabelece que a transparência e a privacidade devem coexistir de forma proporcional. O critério técnico utilizado para separar o que pode ser publicado do que deve ser ocultado é o interesse público atrelado à função. Se a informação demonstra a execução do serviço público ou o gasto do erário, ela perde o caráter de privacidade absoluta.
+
+- Informações de natureza funcional. O nome completo, o cargo ocupado, a lotação e a remuneração exata recebida pelo servidor são dados de interesse coletivo. A sociedade atua como fiscalizadora e, portanto, essas informações devem estar ativamente expostas.
+- Informações de natureza estritamente íntima. O endereço residencial, o telefone privado e as condições de saúde em nada contribuem para a auditoria dos gastos públicos. Logo, o órgão público tem a obrigação de ocultar esses dados.
+
+![400](../../../attachments/Pasted%20image%2020260608072524.png)
