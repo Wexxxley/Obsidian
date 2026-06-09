@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/8_Courotines.md",
+                "file": "01_Concursos/Geral/01_Português/4_Redação/2_Desenvolvimento.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_Courotines"
+              "title": "2_Desenvolvimento"
             }
           }
         ],
@@ -104,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.0110321044922,
-    "collapsed": true
+    "width": 402.0110321044922
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -210,9 +209,10 @@
   },
   "active": "af356e5e1a7640c4",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/4_Redação/1_Introdução.md",
+    "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/8_Courotines.md",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/7_ViewModel e StateFlow.md",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/6_Arquitetura MVVM.md",
-    "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/8_Courotines.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/3_Ética na administração pública.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/2_Lei de Acesso à Informação.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/5_Princípios da administração pública.md",
@@ -236,7 +236,6 @@
     "01_Concursos/Geral/01_Português/4_Redação/Termos, sinonimos e conectores.md",
     "01_Concursos/Geral/01_Português/4_Redação/Teses e repertórios.md",
     "01_Concursos/Geral/01_Português/4_Redação/2_Desenvolvimento.md",
-    "01_Concursos/Geral/01_Português/4_Redação/1_Introdução.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/1_Lei Geral de Proteção de Dados.md",
     "01_Concursos/Geral/02_Arquivologia/8_Princípios da Arquivologia.md",
     "01_Concursos/Geral/02_Arquivologia/9_Classificação de documentos.md",
