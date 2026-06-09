@@ -10,6 +10,7 @@ A viewModel deve:
 - **Gerenciar Tarefas Assíncronas:** Ele deve iniciar buscas no banco de dados ou chamadas de rede. 
 - **Formatar Dados para a View:** Se o banco de dados retorna uma data como `2026-05-06T15:32:05`, o ViewModel deve formatá-la para `06/05/2026`.
 
+A vantagem central ViewModel é a sua capacidade de sobreviver a mudanças de configuração do sistema.
 ![](../../../../attachments/Pasted%20image%2020260506153730.png)
 Observe o padrão de **Backing Property**. Nós criamos um estado mutável e privado que só o ViewModel pode alterar, e expomos uma versão pública e somente leitura para a tela.
 

@@ -2,12 +2,18 @@
 #Concluded 
 
 ---
-### **1. SharedPreferences**
+### **1. SharedPreferences e DataStore** 
 
 É um framework para armazenar pequenas quantidades de dados primitivos. Os dados são salvos em um arquivo XML no diretório privado do aplicativo. 
 - **Uso:** Configurações de usuário, flags de status e pontuações em jogos.
 - **Limitação:** Não deve ser usado para dados grandes ou complexos, pois a leitura/escrita do XML pode bloquear a thread principal se o arquivo for muito pesado.  
 
+O DataStore foi desenvolvida para substituir a SharedPreferences. Projetada para armazenar conjunto de dados simples do tipo chave valor.
+![](../../../../attachments/Pasted%20image%2020260609074243.png)
+
+- **Preferences DataStore:** Funciona armazenando dados soltos no formato de chave e valor. É a abordagem mais simples, ideal para configurações básicas (como salvar a preferência do usuário por tema claro ou escuro).
+- **Proto DataStore:** Em vez de salvar valores soltos, ele permite salvar objetos complexos (como uma classe Usuario). Exige a definição de um esquema (um arquivo de contrato informando a estrutura dos dados) prévio.
+![](../../../../attachments/Pasted%20image%2020260609074347.png)
 ### **2. Armazenamento Interno**
 
 Refere-se ao sistema de arquivos privado do aplicativo no disco rígido do dispositivo.
