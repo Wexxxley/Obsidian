@@ -6,9 +6,8 @@ Por padrão todos os componentes de um aplicativo Android são executados na mes
 Se a main thread for bloqueada, pode ocasionar o aparecimento do famoso ANR (Aplicativo Não Respondendo).
 
 As vezes multi-thread é necessário, como:
-- Leitura eescrita no db;
+- Leitura escrita no db;
 - Chamadas a APIS.
-- Executar tarefas que podem bloquear a thread principal
 - Executar várias tarefas simultaneamente sem bloqueio
 
 **Courotines**: Diferentmente de thread que são gerenciadas pelo sistema operacional coroutines são gerenciadas pelo usuário, so que com bem mais legibilidade.
@@ -19,21 +18,21 @@ Em kotlin são funções que possuem:
 
 ![](../../../../attachments/Pasted%20image%2020260602132529.png)
 
-- **Coroutine Builder:** São funções que iniciam uma nova corrotina. O `runBlocking` cria um escopo que bloqueia a thread atual até que tudo dentro dele termine. 
-- **Dispatcher:** Define em qual thread a corrotina será executada. O `Dispatchers.IO` é otimizado para operações de entrada e saída. O `Dispatchers.Default` é otimizado para cálculos intensivos de CPU.
+- **Coroutine Builder:** São funções que iniciam uma nova corrotina. 
+- **Dispatcher:** Define em qual thread a corrotina será executada. 
 - **Job:** É o identificador da corrotina. Quando você chama `launch`, ele retorna um `Job`, que permite controlar o ciclo de vida dessa tarefa.
 - **Suspend Function:** São funções marcadas com o modificador `suspend`. Elas podem pausar a execução da corrotina sem bloquear a thread onde ela está rodando, permitindo que a thread execute outras tarefas enquanto.
 - **Await:** É uma função chamada em um `Deferred` (retornado pelo `async`). Ela suspende a corrotina atual até que o resultado da operação assíncrona esteja pronto. 
-
 
 ![](../../../../attachments/Pasted%20image%2020260602132814.png)
 - Você só pode chamar uma função suspend de dentro de outra função suspend ou de dentro de um Coroutine Scope.
 - Quando o escopo é cancelado, todas as Coroutines lançadas dentro dele são automaticamente cancelada
 
 **CourotineBuilders**
+
 - **launch**: Inicia uma nova coroutine sem bloquear a thread atual. Retorna uma referência para a coroutine (Job). Usado quando quando não precisamos esperar o resultado.
 
-- **async**: Inicia uma coroutine e permite esperar por seu resultado para continuar. Usamos função await para suspender o código até recuperar o resultado. Retorna um Deffered que é uma subclasse de Job. Usado quando você precisa do valor da tarefa para continuar.
+- **async**: Inicia uma coroutine e permite esperar por seu resultado para continuar. Usamos função await para suspender o código até recuperar o resultado. Retorna um Deffered que é uma subclasse de Job.
 
 - **runBlocking**: Bloqueia a thread em que é chamado enquanto a coroutine não terminar. 
 
@@ -50,7 +49,6 @@ Em kotlin são funções que possuem:
 
 ![](../../../../attachments/Pasted%20image%2020260602141505.png)
 
-**Boas práticas**
 
 **Funções suspend devem ser chamadas na Thread Principal**
 
