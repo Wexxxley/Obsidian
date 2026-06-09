@@ -12,9 +12,6 @@ O artigo tem o poder de substantivar.
 	Ex: O **jovem** deve estudar.  (Adjetivo substantivado)
 	Ex: O **olhar** do professor é carinhoso. (Verbo substantivado)
 
-Esse substantivo que é o artigo acompanha está omisso.
-	Ex: 
-
 >[!Tip]
 >Para diferenciar Substantivo e Adjetivo, você pode usar o macete (artigo + que é)
 >- Que secreto desígnio -> O desígnio que é secreto.
