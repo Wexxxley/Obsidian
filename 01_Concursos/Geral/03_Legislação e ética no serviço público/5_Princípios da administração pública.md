@@ -32,7 +32,6 @@ A expressão máxima da aplicação direta desse princípio é a **Súmula Vincu
 - Para cargos **Administrativos** (direção, chefia, assessoramento), a proibição é **absoluta**.
 - Para cargos **Políticos** (ex: Secretário de Estado, Ministro), a regra **não se aplica** automaticamente. O STF permite a nomeação de parentes para esses cargos de alto escalão político, salvo se ficar comprovado que o parente não tem nenhuma qualificação técnica para a vaga ou se houver "nepotismo cruzado".
 
-
 **Positivação ética**: a ética deixou de ser apenas uma questão de "bom senso" do servidor e passou a ser uma regra jurídica obrigatória (**cogente**). Hoje, a falta de ética é punida por leis, como a Lei de Improbidade Administrativa.
 
 Na rotina da Assembleia Legislativa, essa ética se manifesta em três frentes:
@@ -58,7 +57,4 @@ Este foi o único princípio que não constava no texto original da Constituiç�
 
 Esse princípio trouxe inovações práticas, como a exigência constitucional de avaliação especial de desempenho como requisito obrigatório para que o servidor adquira a estabilidade após o estágio probatório.
 
-
-
-    
-- **O Alvo do Desvio de Finalidade:** Sempre que uma questão descrever um servidor usando o seu poder legal para um fim pessoal (como transferir um funcionário apenas por vingança), lembre-se de que o **Desvio de Finalidade** é um ataque direto ao princípio da **Impessoalidade**.
+![](../../../attachments/Pasted%20image%2020260609085750.png)
