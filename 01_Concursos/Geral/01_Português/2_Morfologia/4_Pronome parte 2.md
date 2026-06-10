@@ -78,9 +78,15 @@ Grupo de palavras com valor de pronome idefinido: cada um, cada qual, qualquer u
 ![](../../../../attachments/Pasted%20image%2020260206075035.png)
 ### **3. Interrogativos**
 
-Usados em perguntas diretas ou indiretas. Todo pronome interrogativo é indefinido. Para saber se o pronome é indefinido interrogativo basta ele está em uma pergunta.
+Usados em perguntas diretas ou indiretas. 
+- Todo pronome interrogativo é indefinido. Para saber se o pronome é indefinido interrogativo basta ele está em uma pergunta.
+
+**Que, quem, qual, quais, quantos...**
 
 Existem duas formas de perguntar, pelas interrogativas diretas e indiretas(conjecturas).
 - **Quem** precisa de um novo Fidel?
 - Desconheço **quem** organizou a festa -> **Quem** organizou a festa?
+
+- **Que** aconteceu hoje?
+- **Quantas pessoas** dependem de você?
 

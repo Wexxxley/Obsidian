@@ -57,6 +57,7 @@ O **lhe** (pronome pessoal oblíquo átono) pode exercer função de posse.
 Os pronomes possessivos **substituem** ou **acompanham** o substantivo para indicar a quem ele pertence, variando em gênero e número.
 
 ![450](../../../../attachments/Pasted%20image%2020260204170534.png)
+
 O pronome possessivo concorda com o substantivo que vem após ele. Ele não concorda com o referente.
 ![](../../../../attachments/Pasted%20image%2020260204175625.png)
 
