@@ -3,7 +3,7 @@
 ---
 
 A Constituição Federal de 1988, que estabelece os cinco princípios basilares da Administração Pública, conhecidos pelo mnemônico **LIMPE**. 
-#### **1. Princípio da Legalidade (Estrita)**
+#### **1. Princípio da Legalidade Estrita**
 
 Na esfera privada, vigora a **autonomia da vontade**: o indivíduo é livre para fazer tudo aquilo que a lei não proíba expressamente. 
 
@@ -33,13 +33,6 @@ A expressão máxima da aplicação direta desse princípio é a **Súmula Vincu
 - Para cargos **Políticos** (ex: Secretário de Estado, Ministro), a regra **não se aplica** automaticamente. O STF permite a nomeação de parentes para esses cargos de alto escalão político, salvo se ficar comprovado que o parente não tem nenhuma qualificação técnica para a vaga ou se houver "nepotismo cruzado".
 
 **Positivação ética**: a ética deixou de ser apenas uma questão de "bom senso" do servidor e passou a ser uma regra jurídica obrigatória (**cogente**). Hoje, a falta de ética é punida por leis, como a Lei de Improbidade Administrativa.
-
-Na rotina da Assembleia Legislativa, essa ética se manifesta em três frentes:
-- **Subordinação do Interesse Privado ao Público:** O servidor deve atuar como um escudo, garantindo que os procedimentos da Casa sigam resistam a interferências de interesses corporativistas.
-    
-- **Transparência:** A informação pública deve seguir a cultura de "dados abertos", sendo entregue ao cidadão de forma a facilitar a fiscalização (controle social).
-    
-- **Prestação de Contas:** Todo agente que gerencia recursos ou bens públicos tem o dever de provar que utilizou esse dinheiro de forma correta e regular.
 
 ### 4. Princípio da Publicidade
 

@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 
@@ -7,11 +8,11 @@ Enquanto os parlamentares possuem mandatos temporários, os Técnicos Legislativ
 
 - **Presteza:** Consiste na obrigação de agir com rapidez e eficiência, evitando a lentidão burocrática no atendimento e na emissão de documentos.
     
-- **Urbanidade e Cortesia:** É o dever de tratar todos (cidadãos, colegas e superiores) com respeito, paciência e educação no ambiente de trabalho.
+- **Urbanidade e Cortesia:** É o dever de tratar todos com respeito e educação 
     
-- **Assiduidade e Pontualidade:** Refere-se à obrigação de comparecer ao local de trabalho nos dias designados e cumprir rigorosamente a jornada de horas estabelecida.
+- **Assiduidade e Pontualidade:** Refere-se à obrigação de comparecer ao local de trabalho nos dias designados e cumprir rigorosamente a jornada.
     
-- **Sigilo Profissional:** Trata-se do dever de proteger informações sensíveis às quais o servidor tem acesso exclusivo devido à sua função, não as divulgando a terceiros.
+- **Sigilo Profissional:** Trata-se do dever de proteger informações sensíveis às quais o servidor tem acesso exclusivo devido à sua função.
     
 - **Hierarquia e Disciplina:** Consiste em acatar as diretrizes organizacionais e cumprir as determinações emitidas pelas chefias.
     
