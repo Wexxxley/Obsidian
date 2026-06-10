@@ -32,17 +32,15 @@ A ALECE possui autonomia funcional, administrativa e financeira, não sendo subo
 
 ### 2. Competências da Assembleia
 
-A atuação da Assembleia Legislativa é dividida em dois grandes blocos, dependendo se o assunto exige ou não a concordância do Poder Executivo (o Governador).
-
-- **Competências com Sanção do Governador:** Referem-se a matérias que afetam a vida de todos os cidadãos ou o orçamento geral do Estado. Para que essas regras tenham validade, a ALECE aprova o projeto (Lei Ordinária ou Complementar), mas ele precisa ser sancionado (assinado e aprovado) pelo Governador.
-    - **Ex:** Criação ou aumento de impostos estaduais, elaboração das leis orçamentárias, criação ou extinção de cargos públicos, definição dos salários dos servidores.
+- **Competências com Sanção do Governador:** Referem-se a matérias que afetam a vida de todos os cidadãos ou o orçamento geral do Estado. Para que essas regras tenham validade, a ALECE aprova o projeto, mas ele precisa ser sancionado pelo Governador.
+    - **Ex:** Criação ou aumento de impostos estaduais, elaboração de leis orçamentárias, criação ou extinção de cargos públicos, definição dos salários dos servidores.
     
 	- **Lei Ordinária:** Instrumento mais comum do sistema legislativo. O seu grande diferencial prático é o quórum (número de votos) de aprovação: exige-se apenas a **maioria simples** (maioria dos votos dos deputados que estão presentes no plenário no momento da votação)
 	
 	- **Lei Complementar:** Serve para regulamentar e complementar matérias específicas e de alta relevância que a própria Constituição Estadual exigiu que fossem tratadas com  rigor. Exige **maioria absoluta**, primeiro número inteiro superior à metade de todos os membros da Assembleia, no caso da ALECE 24 votos favoráveis, independentemente de quantos deputados tenham faltado à sessão.
 
 - **Competências Exclusivas da ALECE:** Referem-se a atos de natureza puramente administrativa interna ou de fiscalização direta. Essas matérias são decididas unicamente pela Assembleia.
-    - Exemplos práticos: Eleição da própria Mesa Diretora, elaboração do Regimento Interno, julgamento anual das contas prestadas pelo Governador e autorização para que processos judiciais sejam abertos contra o Governador ou o Vice.
+    - **Ex:** Eleição da própria Mesa Diretora, elaboração do Regimento Interno, julgamento anual das contas prestadas pelo Governador e autorização para que processos judiciais sejam abertos contra o Governador ou o Vice.
 	
 	- **Resolução:** Instrumento utilizado para regular assuntos institucionais internos. Utiliza-se a Resolução para elaborar ou alterar o Regimento Interno, organizar a estrutura administrativa de cargos da ALECE ou definir regras de funcionamento das comissões parlamentares. 
     
