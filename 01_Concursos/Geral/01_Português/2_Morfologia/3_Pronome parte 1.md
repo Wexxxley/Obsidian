@@ -18,7 +18,7 @@ O **pronome adjetivo** é aquele que acompanha o substantivo. Ele não o substit
 ![](../../../../attachments/Pasted%20image%2020260204185325.png)
  
 ---
-### **2. Pronomes pessoais**
+### **2. Pronomes pessoais e de tratamento**
 
 Substituem nomes de pessoas ou coisas.
 ![450](../../../../attachments/Pasted%20image%2020260204133257.png)
@@ -37,6 +37,9 @@ Os **oblíquos átonos** não vem preposicionados.
 - Ela **me** chamou.
 - Eu **o** encontrei no corredor.
 - Eu **lhe** entreguei o código.
+
+![](../../../../attachments/Pasted%20image%2020260610185707.png)
+
 
 >[!tip]
 >O **lhe** substitui o a ele/a ela
