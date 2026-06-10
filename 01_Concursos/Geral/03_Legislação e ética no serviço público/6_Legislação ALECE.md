@@ -1,10 +1,20 @@
 
+#Concluded 
+
 
 ---
+**Legislar** é o ato de criar, estabelecer ou modificar leis, exercendo a função típica do Poder Legislativo. O Poder Legislativo estadual é exercido pela Assembleia Legislativa, composta por representantes eleitos pelo **sistema proporcional**.
 
-**Legislar** é o ato de criar, estabelecer ou modificar leis, exercendo a função típica do Poder Legislativo.  
-
-O Poder Legislativo estadual é exercido pela Assembleia Legislativa, composta por representantes eleitos pelo **sistema proporcional**.
+- **Eleição Majoritária (Prefeito/Governador):** Ganha quem tiver mais votos simples. 
+    
+- **Eleição Proporcional (Deputados/Vereadores):** Mesmo partidos menores conseguem representação se atingirem o quociente mínimo.
+	
+	1. **Voto:** O eleitor pode votar no candidato ou apenas na legenda (partido).
+	2. **Quociente Eleitoral:** Soma-se o total de votos válidos e divide-se pelo número de vagas. Esse número define quantos votos são necessários para um partido ganhar uma vaga.
+	3. **Distribuição:** O partido que atingir o quociente eleitoral ganha direito a cadeiras. Dentro do partido, as vagas são ocupadas pelos candidatos mais votados.
+	
+	![400](../../../attachments/Pasted%20image%2020260610153359.png)
+	![200](../../../attachments/Pasted%20image%2020260610153416.png)
 
 - **O Número de Deputados:** A Constituição Federal estabelece uma regra matemática para definir o tamanho das Assembleias. O número de deputados estaduais será o triplo da representação do Estado na Câmara dos Deputados até atingir o limite de 36 cadeiras. A partir desse limite, soma-se apenas a diferença. 
 	
@@ -42,15 +52,17 @@ A atuação da Assembleia Legislativa é dividida em dois grandes blocos, depend
 
 - **Legislatura:** Período de 4 anos que corresponde à duração total do mandato político de um deputado eleito.
     
-- **Sessão Legislativa Ordinária (SLO):** É o ano de trabalho normal dentro da legislatura. No Ceará, as datas de funcionamento são de **02 de fevereiro a 17 de julho** (primeiro semestre) e de **01 de agosto a 22 de dezembro** (segundo semestre). Uma regra fundamental de bloqueio é que os deputados não podem entrar no recesso de julho se não tiverem aprovado o projeto da Lei de Diretrizes Orçamentárias (LDO).
-    
-- **Sessão Legislativa Extraordinária:** Ocorre quando os deputados são convocados para trabalhar durante os períodos de recesso (em janeiro ou na segunda quinzena de julho) para votar matérias urgentes e de interesse público relevante.
-    
+- **Sessão Legislativa Ordinária (SLO):** Tanto para os deputados do ceará e federais as datas são: 
+	- **Primeiro semestre:** 02 de fevereiro a 17 de julho 
+	- **Segundo semestre:** 01 de agosto a 22 de dezembro. 
+	    
+    - **Federal:** Se o início ou o término caírem em sábado, domingo ou feriado, a sessão é automaticamente transferida para o primeiro dia útil seguinte.
+    - **Ceará:** As datas são fixas. Não há previsão constitucional estadual de prorrogação para dias úteis, prevalecendo o rito de funcionamento nos dias determinados.
+        
+    - **Federal:** O recesso de julho só pode ser iniciado após a aprovação da Lei de Diretrizes Orçamentárias (LDO).
+    - **Estadual (Ceará):** Segue a mesma lógica. A Constituição Estadual veda a interrupção do período em julho sem a aprovação prévia do projeto da LDO.
+        
+	- As datas da SLO do Ceará não são idênticas às do Congresso Nacional. Fique atento à literalidade do texto.
 
-### Alertas Estratégicos para Resolução de Questões
 
-O material destaca pontos críticos onde as bancas costumam induzir o candidato ao erro:
-
-- **O Calendário Federal vs. Estadual:** As datas da SLO do Ceará não são idênticas às do Congresso Nacional. Fique atento à literalidade do texto estadual (02/02 a 17/07 e 01/08 a 22/12).
-    
-- **Sanção em Competência Exclusiva:** As bancas frequentemente elaboram alternativas sugerindo que uma Resolução (ato interno da ALECE) precisa ser enviada ao Governador para sanção. Esta afirmação é incorreta. Atos de competência exclusiva têm efeito imediato após a promulgação pelo próprio Presidente da Assembleia.
+- **Sessão Legislativa Extraordinária:** Ocorre quando os deputados são convocados para trabalhar durante os períodos de recesso para votar matérias urgentes e de interesse público relevante.
