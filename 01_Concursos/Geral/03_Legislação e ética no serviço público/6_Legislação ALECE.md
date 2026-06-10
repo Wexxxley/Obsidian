@@ -65,4 +65,3 @@ A ALECE possui autonomia funcional, administrativa e financeira, não sendo subo
 
 - **Sessão Legislativa Extraordinária:** Ocorre quando os deputados são convocados para trabalhar durante os períodos de recesso para votar matérias urgentes e de interesse público relevante.
 
-![400](../../../attachments/Pasted%20image%2020260610161842.png)
