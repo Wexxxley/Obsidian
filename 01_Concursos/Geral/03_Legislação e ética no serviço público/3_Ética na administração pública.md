@@ -15,7 +15,6 @@ Trata-se da ciência da conduta humana, consistindo na reflexão filosófica sob
 #### **3. Conceito de Moral**
 Refere-se ao conjunto de regras, costumes, tradições e tabus que orientam o comportamento diário dos indivíduos em uma sociedade. A moral aplica as regras, ditando exatamente "como" o indivíduo deve agir. É temporal, histórica e mutável. A moral evolui e se transforma conforme a sociedade muda. 
 #### **4. Moral Administrativa**
-
 A constituição exige que todo ato público seja executado com boa-fé, lealdade institucional, probidade e eficiência.
 
 #### **5. Valores X Virtudes**
