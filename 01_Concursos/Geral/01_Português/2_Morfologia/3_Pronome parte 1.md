@@ -23,23 +23,27 @@ O **pronome adjetivo** é aquele que acompanha o substantivo. Ele não o substit
 Substituem nomes de pessoas ou coisas.
 ![450](../../../../attachments/Pasted%20image%2020260204133257.png)
 
-Os **retos** funcionam como sujeito.
+**Retos**: Sempre funcionam como sujeito da oração.
 - **Eu** sei tudo sobre pronome.
 - **Tu** vais embora?
 - **Vós** ides
 
-Os **oblíquos tônicos** sempre são precedidos de preposição.
-- Ele deu o livro **a ele**.
-- Nós confiamos **em nós**
-- Não vá **sem ti**.
-
-Os **oblíquos átonos** não vem preposicionados. 
-- Ela **me** chamou.
-- Eu **o** encontrei no corredor.
-- Eu **lhe** entreguei o código.
+**Oblíquos**: Não são sujeitos, são complementos.
+- **Tônicos**: São preposiocionados.
+	- Ele deu o livro **a ele**.
+	- Nós confiamos **em nós**
+	- Não vá **sem ti**.
+	
+- **Átonos**: Não são preposicionados. 
+	- Ela **me** chamou.
+	- Eu **o** encontrei no corredor.
+	- Eu **lhe** entreguei o código.
 
 ![](../../../../attachments/Pasted%20image%2020260610185707.png)
 
+- Eu não **a** vi ontem.  Pronome pessoal oblíquo átono
+- **Ela** não enviou os documentos para eles. 
+ 
 
 >[!tip]
 >O **lhe** substitui o a ele/a ela
@@ -57,7 +61,7 @@ São expressões linguísticas utilizadas para se dirigir ao interlocutor (a pes
 
 - **Vossa:** Direcionado diretamente à autoridade. Igual a você
 	- Vossa Excelência analisou o processo?.
-    
+     
 - **Sua:** Utilizado quando o discurso é **sobre** a autoridade, falando com uma terceira pessoa. Igual a ele/ela
 	- Sua Excelência, o juiz, já analisou o processo.     
 
