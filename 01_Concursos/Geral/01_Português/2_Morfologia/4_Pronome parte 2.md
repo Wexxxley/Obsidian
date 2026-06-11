@@ -4,7 +4,7 @@
 ---
 ### **1. Pronomes Relativos**
 
-Retorma um termo já citado (antecedente/referente) que é substantivo, pronome substantivo ou numeral substantivo e introduzem uma oração subordinada.
+Fica no lugar de um termo já citado (antecedente/referente) que é substantivo, pronome substantivo ou numeral substantivo e introduzem uma oração subordinada.
 ![](../../../../attachments/Pasted%20image%2020260204084846.png)
 
 ![](../../../../attachments/Pasted%20image%2020260204085403.png)

@@ -42,8 +42,23 @@ Substituem nomes de pessoas ou coisas.
 ![](../../../../attachments/Pasted%20image%2020260610185707.png)
 
 - Eu não **a** vi ontem.  Pronome pessoal oblíquo átono
-- **Ela** não enviou os documentos para eles. 
- 
+- **Ela** não enviou os documentos para **eles**.  Pronome pessoal reto, pronome pessoal oblíquo tônico
+
+![](../../../../attachments/Pasted%20image%2020260611074858.png)
+A) Sobre mim.
+B) Entre mim e ela. **CORRETO**. A proposição pede pronome oblíquo tônico.
+C) Para mim.
+D) Para EU responder. Eu é sujeito.
+E) Para EU fazer. Eu é sujeito
+
+![](../../../../attachments/Pasted%20image%2020260611075412.png)
+A) Entre mim e ela. A proposição pede pronome oblíquo tônico.
+B) vim aqui te fazer. O TE é oblíquo átono (sem preposição)
+	Diferente de: para ti (preposicionado)
+C) Para EU ler. Eu é sujeito.
+D) **CORRETO**. 
+E) veio me dar 
+
 
 >[!tip]
 >O **lhe** substitui o a ele/a ela
@@ -99,6 +114,5 @@ O **lhe** (pronome pessoal oblíquo átono) pode exercer função de posse.
 >[!tip]
 O uso desatento de pronomes possessivos de terceira pessoa gera duplo sentido.
 >
-> Ex: "O Governador comunicou ao Presidente da ALECE
-que sua assessoria seria exonerada." 
+> Ex: "O Governador comunicou ao Presidente da ALECE que sua assessoria seria exonerada." 
 (Do Governador ou do Presidente?).
