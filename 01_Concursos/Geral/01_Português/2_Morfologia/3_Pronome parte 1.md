@@ -51,6 +51,28 @@ O **lhe** (pronome pessoal oblíquo átono) pode exercer função de posse.
 > - O vento beijou-lhe o rosto -> O vento beijou o rosto dele
 > - Senti-lhe o perfume assim que entrou na sala -> Senti o perfume dela
 
+
+#### **Pronomes de Tratamento**
+São expressões linguísticas utilizadas para se dirigir ao interlocutor (a pessoa com quem se fala) de forma adequada ao nível de formalidade, respeito e hierarquia exigidos.
+
+- **Vossa:** Direcionado diretamente à autoridade. Igual a você
+	- Vossa Excelência analisou o processo?.
+    
+- **Sua:** Utilizado quando o discurso é **sobre** a autoridade, falando com uma terceira pessoa. Igual a ele/ela
+	- Sua Excelência, o juiz, já analisou o processo.     
+
+- **Você**
+- **Senhor / Senhora (Sr. / Sra.)**
+- **Vossa Excelência**
+- **Vossa Senhoria**    
+- **Vossa Magnificência**
+- **Vossa Eminência**
+- **Vossa Santidade**
+- **Vossa Majestade/ Vossa Alteza**
+
+![](../../../../attachments/Pasted%20image%2020260610194825.png)
+**Letra C**
+
 ---
 ### **3. Pronomes possessivos**
 
