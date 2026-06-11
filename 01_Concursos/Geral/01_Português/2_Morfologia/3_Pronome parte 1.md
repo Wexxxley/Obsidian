@@ -70,16 +70,35 @@ E) veio me dar
 	- Ele fez as entregas? Sim, fê-**las**.
 	- Ele fez os serviços? Sim, fê-**los**.
 	- Foi feito a escolha do funcionário, escolhemo-**los** com muito rigor
+	
 3. **O, a, os, as** Se a palavra terminar em am em ão e õe.
 	- As flores ja chegaram, trouxeram-**nas** bem cedo.
 	- Onde devo colocar a estante? Põe-**na** do lado daquele sofá.
 
-![](../../../../attachments/Pasted%20image%2020260611080751.png)
+4. O **lhe** substitui o a ele/a ela
+	 - Lhe entreguei o código -> Enteguei-lhe o código-> Entreguei o código a ele.
+	 - Enviei os documentos ao secretário -> Enviei-lhe o documento
+	 - Eu lhe vi ontem ERRADO -> eu o vi ontem. 
 
->[!tip]
->O **lhe** substitui o a ele/a ela
-> - Eu lhe entreguei o código -> eu entreguei o código a ele.
-> - Eu lhe vi ontem ERRADO -> eu o vi ontem
+
+![](../../../../attachments/Pasted%20image%2020260611084313.png)
+A) Destruí-lo
+B) Exagerá-los
+C) Anteviram-no
+D) Extraí-la
+E) **Correto**. Exigi-la
+
+![](../../../../attachments/Pasted%20image%2020260611080751.png)
+E)
+
+![](../../../../attachments/Pasted%20image%2020260611085149.png)
+D) PARA SEGUI-LO
+
+![](../../../../attachments/Pasted%20image%2020260611085927.png)
+B) rejeitam-nas
+
+
+
 
 >[!tip]
 O **lhe** (pronome pessoal oblíquo átono) pode exercer função de posse.
