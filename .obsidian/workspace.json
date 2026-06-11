@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/2_Morfologia/3_Pronome parte 1.md",
+                "file": "01_Concursos/Geral/03_Legislação e ética no serviço público/1_Lei Geral de Proteção de Dados.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Pronome parte 1"
+              "title": "1_Lei Geral de Proteção de Dados"
             }
           }
         ],
@@ -209,9 +209,10 @@
   },
   "active": "af356e5e1a7640c4",
   "lastOpenFiles": [
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/3_Ética na administração pública.md",
+    "01_Concursos/Geral/01_Português/2_Morfologia/3_Pronome parte 1.md",
     "attachments/Pasted image 20260610194825.png",
     "01_Concursos/Geral/01_Português/2_Morfologia/4_Pronome parte 2.md",
-    "01_Concursos/Geral/01_Português/2_Morfologia/3_Pronome parte 1.md",
     "attachments/Pasted image 20260610185707.png",
     "attachments/Pasted image 20260610185357.png",
     "01_Concursos/Geral/01_Português/2_Morfologia/2_Artigo, adjetivo e numeral.md",
@@ -223,7 +224,6 @@
     "attachments/Pasted image 20260610153359.png",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/5_Princípios da administração pública.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/4_Papel do servidor público.md",
-    "01_Concursos/Geral/03_Legislação e ética no serviço público/3_Ética na administração pública.md",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/7_ViewModel e StateFlow.md",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/3_Armazenamento/3_Criando database.md",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/3_Armazenamento/2_ROOM Overview.md",
@@ -239,7 +239,6 @@
     "attachments/Pasted image 20260609085750.png",
     "attachments/maxresdefault.jpg",
     "attachments/Pasted image 20260609074347.png",
-    "attachments/Pasted image 20260609074243.png",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/3_Armazenamento/5_Usando a viewModel.md",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/3_Armazenamento/4_Application e viewModel.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
