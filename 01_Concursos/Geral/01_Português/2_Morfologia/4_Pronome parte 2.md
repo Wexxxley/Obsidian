@@ -30,9 +30,10 @@ Fica no lugar de um termo já citado (antecedente/referente) que é substantivo,
 	 - É a cidade aonde vou -> é a cidade a que vou
 	 - É a cidade donde/de onde venho -> é a cidade de que venho.
 	 
-7. **Cujo** é usado para ideia de posso. Sempre tem a preposição 'de' dentro dele
-	- O **livro**, cujas **páginas** estão amareladas, é histórico.
-	- A **criança**, cujos **pais** estão nos EUA, vive com a tia.
+7. **Cujo** é usado para ideia de posse. Sempre tem a preposição 'de' dentro dele
+	- O **livro**, cujas **páginas** estão amareladas, é histórico -> O livro, **do qual** as páginas estão amareladas, é histórico.
+	- A **criança**, cujos **pais** estão nos EUA, vive com a tia. -> A criança, da qual os pais estão nos EUA, vive com a tia.
+	- A dispensa de servidores cujo desemepnho é insificente -> A dispensa de servidores **dos quais** o desempenho é insuficiente.
 
 #### **Regencia com pronome relativo**
 
@@ -51,6 +52,19 @@ Fica no lugar de um termo já citado (antecedente/referente) que é substantivo,
 ![](../../../../attachments/Pasted%20image%2020260204094347.png)
 ![](../../../../attachments/Pasted%20image%2020260204094848.png)
 ![](../../../../attachments/Pasted%20image%2020260204130520.png)
+
+![](../../../../attachments/Pasted%20image%2020260611091016.png)
+B) ONDE/ EM QUE
+
+![](../../../../attachments/Pasted%20image%2020260611092701.png)
+B) A casa CUJAS CORES
+
+![](../../../../attachments/Pasted%20image%2020260611092948.png)
+A) onde so pode usar com lugar, assim como em que
+B) que o/a/os/as é errado
+C)CORRETO = cujo do qua
+D)
+E)
 
 ---
 ### **2. Pronomes indefinidos** 
