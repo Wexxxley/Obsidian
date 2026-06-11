@@ -1,7 +1,6 @@
 
 
 ---
-
 Basicamente eu deformo/mapeio o que está dentro do volume de visualização para dentro do cubo canônico.
 ![250](../../attachments/Pasted%20image%2020260601074327.png)
 **Cubo canônico**
@@ -14,7 +13,9 @@ Para delimitar as fronteiras exatas do volume de visualização, estabelecemos s
 - **Eixo Y:** Definido pelo plano inferior $b$, e pelo plano superior $t$.
 - **Eixo Z** Definido pelo plano próximo $n$, e pelo plano distante $f$. Aqui utilizamos as distâncias
 
-Primeiramente, é necessário deslocar o centro do volume ortográfico para que este coincida com a origem geométrica $(0,0,0)$. Portanto, o centro do volume é dado:
+Primeiramente, é necessário deslocar o centro do volume ortográfico para que este coincida com a origem geométrica $(0,0,0)$. 
+
+O centro do volume é dado:
 $$centro = \left(\frac{r+l}{2}, \frac{t+b}{2}, \frac{n+f}{2}\right)$$
 
 A matriz de translação $T$ subtrai estes valores das coordenadas de qualquer vértice:
