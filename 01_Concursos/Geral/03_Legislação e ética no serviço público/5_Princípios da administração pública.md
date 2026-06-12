@@ -7,7 +7,7 @@ A Constituição Federal de 1988, que estabelece os cinco princípios basilares 
 
 Na esfera privada, vigora a **autonomia da vontade**: o indivíduo é livre para fazer tudo aquilo que a lei não proíba expressamente. 
 
-Na Administração Pública, vigora a **Legalidade Estrita** (ou Estrito Cumprimento do Dever Legal): o servidor público só possui autorização para agir quando a lei expressamente determinar ou autorizar. Não há margem para inovações procedimentais ou criação de despesas sem a devida previsão legal e orçamentária.
+Na Administração Pública, vigora a **Legalidade Estrita**: o servidor público só possui autorização para agir quando a lei expressamente determinar ou autorizar. Não há margem para inovações procedimentais ou criação de despesas sem a devida previsão legal e orçamentária.
 #### **2. Princípio da Impessoalidade**
 
 Este princípio proíbe que a atuação administrativa seja pautada por interesses pessoais, dividindo-se em quatro dimensões estruturais:
@@ -29,7 +29,7 @@ A expressão máxima da aplicação direta desse princípio é a **Súmula Vincu
 ![](../../../attachments/maxresdefault.jpg)
 
 **A Exceção do Nepotismo (Cargos Políticos):** A Súmula Vinculante nº 13 do STF proíbe o nepotismo. No entanto, há uma diferença crucial:    
-- Para cargos **Administrativos** (direção, chefia, assessoramento), a proibição é **absoluta**.
+- Para cargos **Administrativos** (direção, chefia, assessoramento), a proibição é **absoluta**
 - Para cargos **Políticos** (ex: Secretário de Estado, Ministro), a regra **não se aplica** automaticamente. O STF permite a nomeação de parentes para esses cargos de alto escalão político, salvo se ficar comprovado que o parente não tem nenhuma qualificação técnica para a vaga ou se houver "nepotismo cruzado".
 
 **Positivação ética**: a ética deixou de ser apenas uma questão de "bom senso" do servidor e passou a ser uma regra jurídica obrigatória (**cogente**). Hoje, a falta de ética é punida por leis, como a Lei de Improbidade Administrativa.

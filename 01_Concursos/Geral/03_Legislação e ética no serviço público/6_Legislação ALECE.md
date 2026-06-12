@@ -1,9 +1,8 @@
 
 #Concluded 
 
-
 ---
-**Legislar** é o ato de criar, estabelecer ou modificar leis, exercendo a função típica do Poder Legislativo. O Poder Legislativo estadual é exercido pela Assembleia Legislativa, composta por representantes eleitos pelo **sistema proporcional**.
+**Legislar** é o ato de criar, estabelecer ou modificar leis. O Poder Legislativo estadual é exercido pela Assembleia Legislativa, composta por representantes eleitos pelo **sistema proporcional**.
 
 - **Eleição Majoritária (Prefeito/Governador):** Ganha quem tiver mais votos simples. 
     
