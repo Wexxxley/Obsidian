@@ -126,11 +126,7 @@ D) Prôclise obrigatória por conta do não
 E) Não pode começar com pronome oblíquo.
 
 ![](../../../../attachments/Pasted%20image%2020260612113203.png)
-A) prôclise obrigatória. O quando (conjução) puxa
-B) prôclise obrigatória. O caso (conjução) puxa
-C) mantido é participio, logo não pode ênclise
-D) CORRETO
-E) prôclise obrigatória o nunca puxa 
+
 
 ![](../../../../attachments/Pasted%20image%2020260612113812.png)
 A) Verbo indicando futuro. n pode ênclise. Pedir-lhes-ia
