@@ -59,27 +59,6 @@ C) Para EU ler. Eu é sujeito.
 D) **CORRETO**. 
 E) veio me dar 
 
-#### **Emprego dos pronomes oblíquos**
-
-1. **O, a, os, as** SÃO COMPLEMENTOS. Se a palavra terminar em vogal.
-	- Não gostou dos sapatos? Venda-**os**
-	- O professor não veio? Eu não **o** vi.
-	- Antes de ter visto os materiasi, imaginei-**os** completamente diferente.
-2. **O, a, os, as** Se a palavra terminar em r s ou z.
-	- Estes livros? eu posso doá-**los**.
-	- Ele fez as entregas? Sim, fê-**las**.
-	- Ele fez os serviços? Sim, fê-**los**.
-	- Foi feito a escolha do funcionário, escolhemo-**los** com muito rigor
-	
-3. **O, a, os, as** Se a palavra terminar em am em ão e õe.
-	- As flores ja chegaram, trouxeram-**nas** bem cedo.
-	- Onde devo colocar a estante? Põe-**na** do lado daquele sofá.
-
-4. O **lhe** substitui o a ele/a ela
-	 - Lhe entreguei o código -> Enteguei-lhe o código-> Entreguei o código a ele.
-	 - Enviei os documentos ao secretário -> Enviei-lhe o documento
-	 - Eu lhe vi ontem ERRADO -> eu o vi ontem. 
-
 
 ![](../../../../attachments/Pasted%20image%2020260611084313.png)
 A) Destruí-lo

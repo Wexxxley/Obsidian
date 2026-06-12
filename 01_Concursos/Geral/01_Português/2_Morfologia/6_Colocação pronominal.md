@@ -7,28 +7,28 @@ A colocação pronominal é a parte da gramática que estuda a posição dos pro
 #### **1. Próclise**
 Pronome antes do verbo. A próclise é obrigatória quando existem os chamados fatores atrativos.
 
-Fatores atrativos são classes de palavras que, por uma regra de sintaxe, exercem atração sobre o pronome oblíquo, obrigando-o a se posicionar antes do verbo. É importante ressaltar que, se houver uma pausa (marcada por vírgula) entre a palavra atrativa e o verbo, essa atração é anulada.
+Fatores atrativos são palavras que exercem atração sobre o pronome oblíquo.É importante ressaltar que, se houver uma pausa (marcada por vírgula) entre a palavra atrativa e o verbo, essa atração é anulada.
 
 - **Palavras com sentido negativo** (não, nunca, jamais, ninguém, nada):    
-    - _Não_ **me** avisaram sobre a reunião.
-    - _Ninguém_ **se** importou com o prazo estabelecido.
-        
-- **Advérbios sem pausa** (sempre, já, talvez, muito, aqui, ontem):
-    - _Sempre_ **nos** tratam com respeito.
-    - _Talvez_ **o** encontre no escritório amanhã.
-        
-- **Pronomes relativos** (que, quem, qual, onde):
-    - O relatório _que_ **me** enviaram está incompleto.
-    - O local _onde_ **se** realizou a prova é distante.
-        
+    - Não **me** avisaram sobre a reunião.
+    - Ninguém **se** importou com o prazo estabelecido.
 - **Pronomes indefinidos** (alguém, todos, poucos, muitos, tudo):
-    - _Alguém_ **lhe** disse a verdade.
-    - _Todos_ **se** apresentaram no horário previsto.
-        
+    - Alguém **lhe** disse a verdade.
+    - Todos **se** apresentaram no horário previsto.
+- **Pronomes relativos e demonstrativos** (que, quem, qual, on  de, isso, este, aquilo):
+    - O relatório que **me** enviaram está incompleto.
+    - O local onde **se** realizou a prova é distante.
+    - Isso **me** obriga a falar
+- **Advérbios** (sempre, já, talvez, muito, aqui, ontem, atualmente, raramente):
+    - Sempre **nos** tratam com respeito.
+    - Talvez **o** encontre no escritório amanhã.
+    - ALgumas pessoas ainda **se** confundem
+- **Palavras interrogativas em inicio de oração**
+	- Quando **nos** vimos pela primeira vez?
+	- Quem **se** espantou?
 - **Conjunções subordinativas** (que, se, embora, quando, porque, conforme):
     - Iremos _embora_ **nos** peçam para ficar.
-    - Avisarei _quando_ **o** vir.
-
+    - Avisarei _quando_ **o** vir. 
 #### **2. Ênclise**
 A ênclise ocorre quando o pronome é posicionado após o verbo. É a posição assumida quando não há nenhum fator atrativo justificando a próclise.
 
@@ -41,20 +41,51 @@ A ênclise ocorre quando o pronome é posicionado após o verbo. É a posição 
     - Caso precise de ajuda, chame-**me**.
     - O diretor entrou na sala, sentou-**se** e começou a falar.
         
-- **Verbo no gerúndio (desde que não venha precedido da preposição "em"):**
-    - O professor saiu, deixando-**os** sozinhos para o exercício.
-        
-
+- **Não se coloca ênclise em verbos no particípio e no futuro.**
+	![](../../../../attachments/Pasted%20image%2020260612081705.png)
 #### **3. Mesóclise**
-Pronome no meio do verboTrata-se de uma estrutura de uso restrito à linguagem formal, jurídica e literária.
+Pronome no meio do verbo. A mesóclise possui regras rígidas e só pode ser utilizada se duas condições forem atendidas simultaneamente: o verbo deve estar conjugado no futuro e não pode haver palavra atrativa exigindo próclise.
 
-A mesóclise possui regras rígidas e só pode ser utilizada se duas condições forem atendidas simultaneamente: o verbo deve estar conjugado no futuro e não pode haver palavra atrativa exigindo próclise.
-
-- **Com verbo no Futuro do Presente:** O pronome entra entre o radical do verbo e a sua terminação.
-    - Ajudar-**te**-ei com a implementação do sistema. (Verbo original: ajudarei).
-    - Convidar-**nos**-ão para a cerimônia de graduação. (Verbo original: convidarão).
+- **Com verbo no Futuro do Presente:** 
+    - Ajudar-**te**-ei com a implementação do sistema. 
+    - Convidar-**nos**-ão para a cerimônia de graduação. 
         
 - **Com verbo no Futuro do Pretérito:**
-    - Ajudar-**te**-ia se tivesse tempo. (Verbo original: ajudaria).
-    - Acompanhar-**vos**-íamos na viagem técnica. (Verbo original: acompanharíamos).
+    - Ajudar-**te**-ia se tivesse tempo.
+    - Acompanhar-**vos**-íamos na viagem técnica. 
 
+#### **4. Emprego dos pronomes oblíquos átonos na Ênclise**
+
+1. **O, a, os, as** SÃO COMPLEMENTOS. Se a palavra terminar em vogal.
+	- Não gostou dos sapatos? Venda-**os**
+	- O professor não veio? Eu não **o** vi.
+	- Antes de ter visto os materiasi, imaginei-**os** completamente diferente.
+2. **O, a, os, as** Se a palavra terminar em r s ou z.
+	- Estes livros? eu posso doá-**los**.
+	- Ele fez as entregas? Sim, fê-**las**.
+	- Ele fez os serviços? Sim, fê-**los**.
+	- Foi feito a escolha do funcionário, escolhemo-**los** com muito rigor
+	
+3. **O, a, os, as** Se a palavra terminar em am em ão e õe.
+	- As flores ja chegaram, trouxeram-**nas** bem cedo.
+	- Onde devo colocar a estante? Põe-**na** do lado daquele sofá.
+
+4. O **lhe** substitui o a ele/a ela
+	 - Lhe entreguei o código -> Enteguei-lhe o código-> Entreguei o código a ele.
+	 - Enviei os documentos ao secretário -> Enviei-lhe o documento
+	 - Eu lhe vi ontem ERRADO -> eu o vi ontem. 
+
+
+![](../../../../attachments/Pasted%20image%2020260612082734.png)
+A) Tornou-se. Não pode iniciar oração com Ênclisse.
+B) Lhe dado. Não pode usar prôclise com verbo no particípio.
+C) **CORRETO**
+D) Se implementariam. Não pode usar prôclise em verbos que indicam futuro.
+E) Pronome 'que' puxa.
+
+![](../../../../attachments/Pasted%20image%2020260612084217.png)
+A) NÃO PODE COMEÇAR ORAÇÃO COM ÊNCLISE
+B) O NÃO ATRAI O PRONOME ÁTONO
+C) **CORRETO**
+D) PRONOME INTERROGATIVO PUXA O PRONOME ÁTONO.
+E) SEMPRE (ADVERBIO) puxa o pronome átono
