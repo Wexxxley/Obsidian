@@ -98,8 +98,6 @@ D) PARA SEGUI-LO
 B) rejeitam-nas
 
 
-
-
 >[!tip]
 O **lhe** (pronome pessoal oblíquo átono) pode exercer função de posse.
 > - O vento beijou-lhe o rosto -> O vento beijou o rosto dele
