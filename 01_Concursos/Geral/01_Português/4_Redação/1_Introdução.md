@@ -38,7 +38,7 @@ Tese é a ideia principal que será defendida e provada ao longo de toda a reda�
 ### **2. Introduções coringas**
 
 #### **O Mito do Desenvolvimento (Desigualdade e Falsos Avanços)**
-O economista Celso Furtado, em sua análise sobre o "Mito do Desenvolvimento", postula que o avanço econômico e estrutural de um país não garante, por si só, o progresso social da sua população. 
+O economista Celso Furtado, em sua análise sobre o "Mito do Desenvolvimento", postula que o avanço econômico e estrutural de um país não garante, por si só, o progresso social. 
 
 Nesse sentido, ao observar o [TEMA], constata-se que apesar da modernização nacional em vários setores, a questão permanece negligenciada/secundarizada, refletindo um crescimento que não atende às reais necessidades da sociedade.
 #### **As Cidadanias Mutiladas**

@@ -19,7 +19,7 @@ Governos estaduais e as prefeituras, em parceria com as empresas privadas, ...
 **Forma padrão**
 Portanto, o **[AGENTE]**, **[DETALHAMENTO DO AGENTE]**, deve **[AÇÃO]**. 
 
-Essa medida ocorrerá por meio de **[MEIO/MODO]**, com a finalidade de **[FINALIDADE]**. 
+Essa medida ocorrerá por meio de **[MEIO/MODO]**, a fim de **[FINALIDADE]**. 
 
 Assim sendo, em médio e longo prazo, superaremos o [PROBLEMA]/o [PROBLEMA] será atenuado/mitigado.
 
