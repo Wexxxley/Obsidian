@@ -15,7 +15,7 @@ Fatores atrativos são palavras que exercem atração sobre o pronome oblíquo.�
 - **Pronomes indefinidos** (alguém, todos, poucos, muitos, tudo):
     - Alguém **lhe** disse a verdade.
     - Todos **se** apresentaram no horário previsto.
-- **Pronomes relativos e demonstrativos** (que, quem, qual, on  de, isso, este, aquilo):
+- **Pronomes relativos e demonstrativos** (que, quem, qual, onde, isso, este, aquilo):
     - O relatório que **me** enviaram está incompleto.
     - O local onde **se** realizou a prova é distante.
     - Isso **me** obriga a falar
@@ -77,15 +77,49 @@ Pronome no meio do verbo. A mesóclise possui regras rígidas e só pode ser uti
 
 
 ![](../../../../attachments/Pasted%20image%2020260612082734.png)
-A) Tornou-se. Não pode iniciar oração com Ênclisse.
+A) Tornou-se. Não pode iniciar oração com PRÔCLISE.
 B) Lhe dado. Não pode usar prôclise com verbo no particípio.
 C) **CORRETO**
 D) Se implementariam. Não pode usar prôclise em verbos que indicam futuro.
 E) Pronome 'que' puxa.
 
 ![](../../../../attachments/Pasted%20image%2020260612084217.png)
-A) NÃO PODE COMEÇAR ORAÇÃO COM ÊNCLISE
+A) NÃO PODE COMEÇAR ORAÇÃO COM PRÔCLISE
 B) O NÃO ATRAI O PRONOME ÁTONO
-C) **CORRETO**
+C) **CORRETO**. Sem um fator atrativo, a mesôclise é a correta.
 D) PRONOME INTERROGATIVO PUXA O PRONOME ÁTONO.
 E) SEMPRE (ADVERBIO) puxa o pronome átono
+
+![](../../../../attachments/Pasted%20image%2020260612085118.png)
+A) O QUE PUXA. se obtenha
+B) O QUE PUXA. se considera
+C) CORRETA
+D) O QUE PUXA. se implantou
+E) O NÃO PUXA. não nos sentimos
+
+![](../../../../attachments/Pasted%20image%2020260612085332.png)
+A) NÃO ME FOI. o não puxa
+B) QUEM PUXA. Pronome relativo
+C) VERBO INDICANDO FUTURO. Como n posso começar com PRÔCLISE, Deposita-lo-ia
+D) **CORRETO**
+E) NÃO PODE COMEÇAR COM PRÔCLISE. Empreste-me
+
+![](../../../../attachments/Pasted%20image%2020260612090001.png)
+A) O que puxa. 
+B) Dever-se-ia. Mêsoclise pq o verbo indica futuro e começa a oração.
+C) NUNCA SE DEVE. o nunca puxa
+D) QUE SE APOIARAM. O QUE PUXA
+E) CORRETO
+
+![](../../../../attachments/Pasted%20image%2020260612090941.png)
+A) CORRETA.
+B) Pergutam-nos. Pode pode começar com PRÔCLISE
+C) NUNCA SE PREOCUPARAM. O NUNCA PUXA
+D) QUE SE RELACIONAM. O QUE PUXA
+E) Compreender-se-ia
+
+A)
+B)
+C)
+D)
+E)
