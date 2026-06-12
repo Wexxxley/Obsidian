@@ -26,7 +26,7 @@ Fatores atrativos são palavras que exercem atração sobre o pronome oblíquo.�
 - **Palavras interrogativas em inicio de oração**
 	- Quando **nos** vimos pela primeira vez?
 	- Quem **se** espantou?
-- **Conjunções subordinativas** (que, se, embora, quando, porque, conforme):
+- **Conjunções subordinativas** (que, se, embora, quando, porque, conforme): ligam duas orações, estabelecendo uma relação de dependência.
     - Iremos _embora_ **nos** peçam para ficar.
     - Avisarei _quando_ **o** vir. 
 #### **2. Ênclise**
@@ -118,8 +118,31 @@ C) NUNCA SE PREOCUPARAM. O NUNCA PUXA
 D) QUE SE RELACIONAM. O QUE PUXA
 E) Compreender-se-ia
 
-A)
-B)
-C)
-D)
-E)
+![](../../../../attachments/Pasted%20image%2020260612112748.png)
+A) NUNCA PUXA O PRONOME ÁTONO
+B) Caso é uma conjunção subordinativa. Prôclise obrigatória.
+C) Advérbio puxa o pronome átono. CORRETO
+D) Prôclise obrigatória por conta do não
+E) Não pode começar com pronome oblíquo.
+
+![](../../../../attachments/Pasted%20image%2020260612113203.png)
+A) prôclise obrigatória. O quando (conjução) puxa
+B) prôclise obrigatória. O caso (conjução) puxa
+C) mantido é participio, logo não pode ênclise
+D) CORRETO
+E) prôclise obrigatória o nunca puxa 
+
+![](../../../../attachments/Pasted%20image%2020260612113812.png)
+A) Verbo indicando futuro. n pode ênclise. Pedir-lhes-ia
+B) O não puxa. não nos leva
+C) que se experimenta
+D) CORRETA
+E) Não pode começar com pronome oblíquo. Perguntamo-nos
+
+
+![](../../../../attachments/Pasted%20image%2020260612114118.png)
+A) CORRETO
+B) O verbo indica futuro. Ser-lhe-ia
+C) Não pode começar com pronome oblíquo
+D) O que puxa o pronome oblíquo
+E) A conjunção subordinativa puxa.
