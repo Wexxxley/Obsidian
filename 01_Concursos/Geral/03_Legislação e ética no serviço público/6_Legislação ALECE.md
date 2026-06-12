@@ -25,7 +25,7 @@
 
 A ALECE possui autonomia funcional, administrativa e financeira, não sendo subordinada ao Governador. Seus trabalhos são divididos entre dois órgãos principais:
 
-- **Mesa Diretora:** Órgão colegiado (formado por um grupo de deputados, como Presidente, Secretários, etc.) encarregado da condução dos trabalhos legislativos e da gestão administrativa da Casa. É eleita para um mandato de dois anos, permitida a reeleição para os mesmos cargos dentro da mesma legislatura ou na subsequente, conforme os parâmetros fixados pela jurisprudência do STF.
+- **Mesa Diretora:** Órgão colegiado (formado por um grupo de deputados, como Presidente, Secretários, etc.) encarregado da condução dos trabalhos legislativos e da gestão administrativa da Casa. É eleita para um mandato de dois anos, permitida a reeleição.
     
 - **Comissões Parlamentares:** São grupos técnicos formados por deputados para analisar assuntos específicos antes que eles cheguem ao plenário. Podem ser **Permanentes** (existem de forma contínua durante todo o mandato, como a Comissão de Constituição e Justiça) ou **Temporárias** (criadas para um fim específico e extintas após a conclusão, como as Comissões Parlamentares de Inquérito - CPIs).
 
@@ -43,7 +43,7 @@ A ALECE possui autonomia funcional, administrativa e financeira, não sendo subo
 	
 	- **Resolução:** Instrumento utilizado para regular assuntos institucionais internos. Utiliza-se a Resolução para elaborar ou alterar o Regimento Interno, organizar a estrutura administrativa de cargos da ALECE ou definir regras de funcionamento das comissões parlamentares. 
     
-	- **Decreto Legislativo:** Instrumento utilizado para matérias de competência exclusiva da Assembleia, mas que produzem efeitos externos à Casa. Utiliza-se o Decreto Legislativo para concretizar a função fiscalizatória do parlamento, como o ato de aprovar ou rejeitar as contas anuais prestadas pelo Governador do Estado, autorizar o Governador a se ausentar do país por tempo superior ao limite constitucional ou sustar (paralisar) atos do Executivo que exorbitem o poder regulamentar.
+	- **Decreto Legislativo:** Instrumento utilizado para matérias de competência exclusiva da Assembleia, mas que produzem efeitos externos à Casa. Utiliza-se o Decreto Legislativo para concretizar a função fiscalizatória do parlamento, como o ato de aprovar ou rejeitar as contas anuais prestadas pelo Governador do Estado ou sustar (paralisar) atos do Executivo que exorbitem o poder regulamentar.
 
 ### 3. Calendário Legislativo
 

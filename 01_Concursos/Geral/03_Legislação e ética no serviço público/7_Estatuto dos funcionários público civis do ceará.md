@@ -1,13 +1,11 @@
 
-
+#Concluded 
 
 ---
-
-Embora seja uma lei de 1974, suas diretrizes gerais continuam em vigor, mas devem ser  interpretadas em conjunto com as atualizações trazidas pela Constituição Federal de 1988.
-
+Embora seja uma lei de 1974, suas diretrizes gerais continuam em vigor, mas devem ser  interpretadas em conjunto com as atualizações trazidas pela Constituição de 1988.
 ### 1. Provimento de Cargos Públicos
 
-O **Provimento** é o ato administrativo pelo qual um cargo público vago é preenchido por uma pessoa. Ele se divide em duas categorias principais:
+O **Provimento** é o ato na qual um cargo público vago é preenchido por uma pessoa. Ele se divide em duas categorias principais:
 
 - **Provimento Original/Inicial:** Ocorre unicamente por meio da **Nomeação**. Não exige que a pessoa tenha qualquer vínculo anterior com a Administração Pública. Pode ocorrer mediante aprovação em concurso público (para efetivos) ou sem concurso (cargos em comissão, de livre nomeação e exoneração).
     
@@ -30,9 +28,7 @@ A **Vacância** é o ato administrativo que gera a desocupação de um cargo pú
 
 ### 3. Estágio Probatório e Estabilidade
 
-- O prazo do **estágio probatório** e aquisição da **estabilidade** foram unificados em **3 anos** de efetivo exercício, aplicáveis aos servidores nomeados por concurso público.
-    
-- Durante este período de 3 anos, o servidor será avaliado por uma comissão especial. Os requisitos formais dessa avaliação são: idoneidade moral (conduta ética e correta), assiduidade (frequência e pontualidade no trabalho), disciplina (respeito às normas e hierarquia), eficiência e produtividade.
+- O prazo do **estágio probatório** e aquisição da **estabilidade** foram unificados em **3 anos** de efetivo exercício, aplicáveis aos servidores nomeados por concurso público. Durante este período de 3 anos, o servidor será avaliado por uma comissão especial. 
 
 ### 4. Penalidades Aplicáveis
 
@@ -45,4 +41,5 @@ O Estatuto define as sanções que podem ser impostas aos servidores que cometem
 - **Demissão:** É a penalidade máxima para o servidor em atividade, extinguindo o seu vínculo com o Estado. Aplica-se em casos de infrações graves, como abandono de cargo, atos de improbidade administrativa ou aplicação irregular de dinheiro público.
     
 - **Cassação de Aposentadoria ou Disponibilidade:** É a penalidade máxima aplicada ao servidor inativo (que já está aposentado ou em disponibilidade). Ela ocorre caso fique comprovado, mediante processo, que este servidor cometeu uma infração passível de demissão na época em que ainda estava na ativa.
+
 
