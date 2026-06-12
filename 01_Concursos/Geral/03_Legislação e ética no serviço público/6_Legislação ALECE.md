@@ -64,3 +64,56 @@ A ALECE possui autonomia funcional, administrativa e financeira, não sendo subo
 
 - **Sessão Legislativa Extraordinária:** Ocorre quando os deputados são convocados para trabalhar durante os períodos de recesso para votar matérias urgentes e de interesse público relevante.
 
+---
+### **2. CÓDIGO DE ÉTICA E DECORO PARLAMENTAR DA ALECE**
+
+O Código de Ética e Decoro Parlamentar é o conjunto normativo destinado exclusivamente aos detentores de mandato eletivo, ou seja, aos **Deputados Estaduais**. 
+
+O documento elenca exemplos de condutas que configuram violações graves:
+- O recebimento de vantagens indevidas, como subornos ou presentes de elevado valor, em virtude do cargo que ocupa.
+    
+- A prática de atos de corrupção ou improbidade administrativa 
+    
+- A utilização de expressões ofensivas ou o cometimento de agressões físicas.
+    
+- A fraude em votações, sejam estas eletrónicas ou manuais, tanto nas sessões do Plenário como nas reuniões das Comissões.
+
+**Penalidades Aplicáveis**
+Caso o parlamentar não cumpra os preceitos éticos, a norma prevê a aplicação de sanções. Estas penalidades são graduadas, ou seja, a sua severidade é proporcional à gravidade da infração cometida. 
+
+1. **Censura Verbal ou Escrita:** Aplicada a faltas consideradas leves, como o uso de linguagem inadequada durante os trabalhos parlamentares.
+    
+2. **Suspensão de Prerrogativas Regimentais:** Consiste em retirar temporariamente do deputado certos direitos concedidos pelo Regimento Interno, como o seu afastamento das comissões temáticas das quais faz parte.
+    
+3. **Suspensão Temporária do Mandato:** Implica o afastamento do deputado do seu cargo político por um período de tempo fixo e pré-determinado.
+    
+4. **Perda do Mandato Eletivo:** É a penalidade máxima, também conhecida como cassação. É aplicada a infrações gravíssimas, como o envolvimento comprovado em crimes e esquemas de corrupção.
+
+
+**Competência do Conselho de Ética e do Plenário**: 
+
+O Conselho de Ética Parlamentar é o órgão encarregado de receber as denúncias iniciais, conduzir a instrução processual e emitir um **parecer** (uma opinião técnica e fundamentada) sobre a conduta do deputado. 
+
+A composição deste conselho deve respeitar a proporcionalidade partidária, o que significa que as vagas no conselho são distribuídas de acordo com o tamanho da representação de cada partido político na Assembleia.
+
+- **Penas de Censura:** A resolução e a efetiva aplicação ocorrem em âmbito interno, através da atuação do próprio Conselho de Ética ou da Mesa Diretora. Trata-se de um processo de rito abreviado que não é remetido à votação geral 
+    
+- **Penas de Afastamento (Suspensão e Cassação):** O Conselho de Ética atua de maneira opinativa, limitando-se a instruir o processo e emitir um parecer não terminativo. O poder de decisão final pertence ao Plenário da Assembleia Legislativa.
+
+A **imunidade material,** que protege o deputado civil e criminalmente pelas suas opiniões, palavras e votos, não é um direito absoluto. Esta garantia legal existe estritamente para proteger o livre exercício do mandato. Por conseguinte, não serve de escudo para o cometimento de crimes comuns, racismo, violência física ou ofensas graves à dignidade humana praticadas dentro da instituição. 
+
+
+![](../../../attachments/Pasted%20image%2020260612182453.png)
+
+B) Conselho de ética parlamentar
+
+![](../../../attachments/Pasted%20image%2020260612183050.png)
+A) A censura escrita é sanção válida para faltas leves parlamentares.
+B) A suspensão do mandato é penalidade prevista para casos de gravidade média/alta.
+C) A perda de mandato é a sanção máxima para quebra de decoro grave.
+D) CORRETO. A demissão é penalidade aplicada a servidores estatutários (vínculo
+profissional) e não a detentores de mandato político eletivo.
+E) A perda de prerrogativas regimentais (como assento em comissões) é sanção prevista no código
+
+![](../../../attachments/Pasted%20image%2020260612183244.png)
+C)

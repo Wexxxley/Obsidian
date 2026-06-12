@@ -42,4 +42,3 @@ O Estatuto define as sanções que podem ser impostas aos servidores que cometem
     
 - **Cassação de Aposentadoria ou Disponibilidade:** É a penalidade máxima aplicada ao servidor inativo (que já está aposentado ou em disponibilidade). Ela ocorre caso fique comprovado, mediante processo, que este servidor cometeu uma infração passível de demissão na época em que ainda estava na ativa.
 
-
