@@ -4,8 +4,19 @@
 ---
 ### Macroeixo 1: A Falha Estatal e a Omissão do Poder Público
 
-A Constituição Federal de 1988 assegura o direito de **[direito]** a todos os cidadãos. Contudo, nota-se uma grave incoerência, visto que, no contexto de **[tema]**, essa garantia constitucional não se concretiza na prática.
-
+A Constituição Federal de 1988 assegura o direito à/ao **[direito]** a todos os cidadãos. Contudo, nota-se uma grave incoerência, visto que, no contexto de **[tema]**, essa garantia constitucional não se concretiza na prática.
+- **à moradia**
+- **à saúde**
+- **à educação**
+- **à segurança**
+- **ao meio ambiente ecologicamente equilibrado**
+- **ao trabalho**
+- **à segurança alimentar**
+- **ao transporte (ou à mobilidade urbana)**
+- **ao lazer e à cultura**
+- **à igualdade/isonomia)**: Racismo, machismo, desigualdade social, homofobia, etarismo.
+- **à liberdade de crença e expressão**: intolerância religiosa, cultura do cancelamento.
+- **à maternidade e à infância**: Trabalho infantil, abandono parental, gravidez na adolescência, adoção.
 
 **1. Falta de investimento / Infraestrutura precária** <mark style="background: #FF5582A6;">CAUSA</mark>
 - A chegada da Família Real ao Brasil, em 1808, iniciou uma modernização urbana focada apenas na capital. Esse marco exemplifica a lógica estatal de concentrar recursos nos grandes centros, negando infraestrutura e capital às regiões periféricas.
