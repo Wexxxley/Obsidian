@@ -25,9 +25,14 @@
 
 A ALECE possui autonomia funcional, administrativa e financeira, não sendo subordinada ao Governador. Seus trabalhos são divididos entre dois órgãos principais:
 
-- **Mesa Diretora:** Órgão colegiado (formado por um grupo de deputados, como Presidente, Secretários, etc.) encarregado da condução dos trabalhos legislativos e da gestão administrativa da Casa. É eleita para um mandato de dois anos, permitida a reeleição.
-    
-- **Comissões Parlamentares:** São grupos técnicos formados por deputados para analisar assuntos específicos antes que eles cheguem ao plenário. Podem ser **Permanentes** (existem de forma contínua durante todo o mandato, como a Comissão de Constituição e Justiça) ou **Temporárias** (criadas para um fim específico e extintas após a conclusão, como as Comissões Parlamentares de Inquérito - CPIs).
+- **Mesa Diretora:** A Mesa Diretora é um órgão colegiado, o que significa que suas decisões são tomadas por um grupo de membros, e não por uma única autoridade. Responsável pela direção central dos trabalhos legislativos e da administração da Assembleia.
+	-  É formada pelo Presidente, pelos Vice-Presidentes e pelos Secretários. Todos estes membros são deputados estaduais eleitos de dois em dois nos pelo próprio plenário.
+	- Compete à Mesa dirigir as sessões do Plenário, promulgar (tornar público e oficial) resoluções e decretos legislativos, gerenciar o orçamento interno do parlamento e conceder licenças aos deputados. Além disso, a Mesa tem o poder de propor projetos de lei específicos que tratem da criação ou extinção de cargos dentro da própria estrutura administrativa da ALECE.
+
+- **Comissões Parlamentares:** são órgãos técnicos formados por grupos restritos de deputados. A sua função primordial é analisar o mérito e a legalidade dos projetos antes que estes sejam submetidos à votação geral pelo Plenário.
+	- **Comissões Permanentes:** Possuem caráter definitivo. São divididas por áreas temáticas de interesse do Estado, como a Comissão de Constituição, Justiça e Redação (CCJR) e a Comissão de Finanças, Orçamento e Tributação. A elas compete emitir pareceres técnicos sobre os projetos, realizar audiências públicas para debater temas com a sociedade e fiscalizar os atos do Poder Executivo em suas respectivas áreas de competência.
+	    
+	- **Comissões Temporárias:** São constituídas para cumprir uma finalidade específica e possuem prazo de validade. Elas são extintas assim que o objetivo é alcançado ou quando se encerra a sessão legislativa. Subdividem-se em três tipos: Especiais, de Inquérito (as conhecidas CPIs, voltadas para investigações) e Representativas.
 
 ### 2. Competências da Assembleia
 
@@ -45,7 +50,32 @@ A ALECE possui autonomia funcional, administrativa e financeira, não sendo subo
     
 	- **Decreto Legislativo:** Instrumento utilizado para matérias de competência exclusiva da Assembleia, mas que produzem efeitos externos à Casa. Utiliza-se o Decreto Legislativo para concretizar a função fiscalizatória do parlamento, como o ato de aprovar ou rejeitar as contas anuais prestadas pelo Governador do Estado ou sustar (paralisar) atos do Executivo que exorbitem o poder regulamentar.
 
-### 3. Calendário Legislativo
+#### **3. Tipos de Sessões Plenárias**
+
+O Plenário, que é o órgão máximo de deliberação composto por todos os deputados, reúne-se através de diferentes tipos de sessões, cada uma com finalidades e regras regimentais próprias:
+
+- **Sessão Ordinária:** É a sessão de rotina, realizada nos dias úteis fixados pelo Regimento. Ela possui uma estrutura dividida em fases obrigatórias: o Pequeno Expediente, o Grande Expediente, a Ordem do Dia (que é a fase exclusiva destinada às votações dos projetos) e a Explicação Pessoal.
+    
+- **Sessão Extraordinária:** É convocada para ocorrer em dias ou horários diferentes daqueles estabelecidos para as sessões ordinárias. A sua característica regimental mais importante é a exclusividade de pauta: ela destina-se unicamente à deliberação das matérias urgentes que motivaram a sua convocação.
+	- Quando os deputados são convocados para atuar em **Sessões Extraordinárias durante o período de recesso parlamentar**, não há o pagamento de qualquer tipo de indenização, bônus financeiro ou remuneração adicional. 
+    
+- **Sessão Solene ou Especial:** É convocada exclusivamente para grandes comemorações, homenagens ou para a instalação oficial dos trabalhos. Devido à sua natureza celebrativa, ela não possui a fase de "Ordem do Dia", ou seja, não ocorrem votações de projetos durante a sua realização.
+    
+- **Sessão Preparatória:** É a sessão que antecede a instalação da primeira sessão legislativa de uma nova legislatura. Tem como objetivos exclusivos dar posse aos deputados recém-eleitos e realizar a eleição dos membros da nova Mesa Diretora.
+
+#### **4. Regras Gerais de Quórum**
+
+O termo "quórum" refere-se à quantidade mínima obrigatória de parlamentares presentes ou votantes para que um ato legislativo tenha validade legal. 
+
+- **Quórum de Presença:** É o número mínimo de deputados que devem estar fisicamente (ou remotamente, conforme o regulamento) presentes no Plenário para que a sessão seja aberta ou para que uma votação seja iniciada. Em regra, exige-se a presença da maioria absoluta dos membros da Casa.
+    
+- **Quórum de Aprovação:** É a regra matemática utilizada na contagem dos votos para determinar se um projeto foi aprovado ou rejeitado. Essa contagem varia de acordo com a complexidade e a importância da matéria:
+    
+    - **Maioria Simples:** Exige que o projeto receba o voto favorável da maioria dos deputados que estão presentes na sessão naquele momento. Esta regra é aplicada para a aprovação de leis ordinárias.
+        
+    - **Maioria Absoluta:** Exige o voto favorável do primeiro número inteiro que esteja acima da metade do total de todos os membros que compõem a Assembleia Legislativa. Como o número total é fixo, a maioria absoluta será sempre de 24 deputados favoráveis. Esta regra aplica-se a matérias mais sensíveis, como leis complementares e emendas à Constituição Estadual.
+
+#### **5. Calendário Legislativo**
 
 - **Legislatura:** Período de 4 anos que corresponde à duração total do mandato político de um deputado eleito.
     
@@ -117,3 +147,7 @@ E) A perda de prerrogativas regimentais (como assento em comissões) é sanção
 
 ![](../../../attachments/Pasted%20image%2020260612183244.png)
 C)
+
+
+
+
