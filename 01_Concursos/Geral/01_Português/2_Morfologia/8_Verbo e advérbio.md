@@ -59,3 +59,23 @@ O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteira
 
 
 ![](../../../../attachments/Pasted%20image%2020260211180104.png)
+
+
+![](../../../../attachments/Pasted%20image%2020260613143247.png)
+A) Advérbio de lugar
+B) Advérbio de modo
+C) Adjetivo
+D) Advérbio de modo
+E) Advérbio de modo
+F) Locução Adjetivo. É o estado dele.
+G) Adjetivo 
+
+![](../../../../attachments/Pasted%20image%2020260613144042.png)
+H) Adjetivo
+I) L.Adverbial de lugar
+J) L.adjetiva
+K) L.adjetiva. Advérbio de tempo
+L) Advérbio de modo
+M) Advérbio de tempo
+N) Advérbio de tempo
+O) L.adjetiva
