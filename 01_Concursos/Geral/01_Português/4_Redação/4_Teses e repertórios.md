@@ -12,9 +12,9 @@ A Constituição Federal de 1988 assegura o direito à/ao **[direito]** a todos 
 - **ao meio ambiente ecologicamente equilibrado**
 - **ao trabalho**
 - **à segurança alimentar**
-- **ao transporte (ou à mobilidade urbana)**
+- **à mobilidade urbana)**
 - **ao lazer e à cultura**
-- **à igualdade/isonomia)**: Racismo, machismo, desigualdade social, homofobia, etarismo.
+- **à igualdade/isonomia**: Racismo, machismo, desigualdade social, homofobia, etarismo.
 - **à liberdade de crença e expressão**: intolerância religiosa, cultura do cancelamento.
 - **à maternidade e à infância**: Trabalho infantil, abandono parental, gravidez na adolescência, adoção.
 

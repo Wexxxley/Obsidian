@@ -4,14 +4,18 @@
 ---
 ### **1. Pronomes Relativos**
 
-Fica no lugar de um termo já citado (antecedente/referente) que é substantivo, pronome substantivo ou numeral substantivo e introduzem uma oração subordinada.
+O **pronome relativo** é um termo que se refere a um substantivo ou termo anterior (chamado de **antecedente**), substituindo-o para evitar repetições e estabelecer conexão coesiva entre as orações. Ele introduz **orações subordinadas adjetivas**.
+
+- Uma oração ser **subordinada** significa que ela depende de outra oração (oração principal) para ter sentido completo.  Ela não funciona de forma isolada.
+
+- Já o termo **adjetiva** indica a **função** que essa oração subordinada desempenha: ela atua como um **adjetivo**.  Sua finalidade é caracterizar, qualificar.
 ![](../../../../attachments/Pasted%20image%2020260204084846.png)
 
 ![](../../../../attachments/Pasted%20image%2020260204085403.png)
 
 1. **Que/o qual** são pronomes relativos coringas. Só não substituim **cujo** (indica posse). 
 
-2. **Quem** retoma pessoa e é sempre preposicionado
+2. **Quem** retoma pessoa e é sempre preposicionado.
 	- É a mulher com quem falei
 	- É a mulher de quem falei.
 
@@ -33,14 +37,14 @@ Fica no lugar de um termo já citado (antecedente/referente) que é substantivo,
 7. **Cujo** é usado para ideia de posse. Sempre tem a preposição 'de' dentro dele
 	- O **livro**, cujas **páginas** estão amareladas, é histórico -> O livro, **do qual** as páginas estão amareladas, é histórico.
 	- A **criança**, cujos **pais** estão nos EUA, vive com a tia. -> A criança, da qual os pais estão nos EUA, vive com a tia.
-	- A dispensa de servidores cujo desemepnho é insificente -> A dispensa de servidores **dos quais** o desempenho é insuficiente.
+	- A dispensa de servidores cujo desempenho é insificente -> A dispensa de servidores **dos quais** o desempenho é insuficiente.
 
 #### **Regencia com pronome relativo**
 
 >[!note]
 >A **regência** é a relação de dependência entre uma palavra (termo regente) e seus complementos (termos regidos), necessários para completar o sentido da frase.
 
-1. Olhar para a oração que vem após o pronome relativo (orção adjetiva).
+1. Olhar para a oração que vem após o pronome relativo (oração adjetiva).
 2. Comece pelo verbo da oração adjetiva.
 3. Perguntae pelo sujeito.
 4. Coloque na ordem direta completando a frase com o antecedente do relativo.

@@ -6,10 +6,10 @@
 O verbo indica ação (correr), estado (ser) e fenômeno da natureza (chover). 
 
 **Verbo transitivo direto(VTD)** pede complemento sem preposição.
-- Ele devolveu(VTD) o carro.
+- Ele devolveu o carro.
 
 **Verbo transitivo indireto(VTI)** pede complemento com preposição.
-- O assunto intessou(VTI) a ela.
+- O assunto intessou a ela.
 
 >[!Note]
 >Locução é uma expressão formada por duas ou mais palavras.
@@ -19,7 +19,13 @@ O verbo indica ação (correr), estado (ser) e fenômeno da natureza (chover).
 	Ex: Eu estou estudando para concurso.
 	Ex: Eles tentaram salvar o pedestre.
 	Ex: João foi investigado. 
-	 Ex: Ele estava a investigar o caso.
+	Ex: Ele estava a investigar o caso.
+
+>[!note]
+>**Formas nominais dos verbos**: 
+>- **infinitivo**: cantar, correr e pular.
+>- **particípio**: terminados em ado ou ido. Cantado, corrido, pulado
+>- **gerúndio**: terminado em ndo. cantando, correndo, pulando.
 
 ---
 ### **2. Adverbio**
@@ -50,9 +56,3 @@ O advérbio modifica ==verbos, adjetivos, outros advérbios e orações inteira
 ![](../../../../attachments/Pasted%20image%2020260211180104.png)
 ![](../../../../attachments/Pasted%20image%2020260212110208.png)
 ![](../../../../attachments/Pasted%20image%2020260212111811.png)
-
->[!note]
->**Formas nominais**: 
->- infinitivo: cantar, correr e pular.
->- particípio: terminados em ado ou ido. Cantado, corrido, pulado
->- gerúndio: terminado em ndo. cantando, correndo, pulando.
