@@ -25,13 +25,12 @@
 
 A ALECE possui autonomia funcional, administrativa e financeira, não sendo subordinada ao Governador. Seus trabalhos são divididos entre dois órgãos principais:
 
-- **Mesa Diretora:** A Mesa Diretora é um órgão colegiado, o que significa que suas decisões são tomadas por um grupo de membros, e não por uma única autoridade. Responsável pela direção central dos trabalhos legislativos e da administração da Assembleia.
-	-  É formada pelo Presidente, pelos Vice-Presidentes e pelos Secretários. Todos estes membros são deputados estaduais eleitos de dois em dois nos pelo próprio plenário.
-	- Compete à Mesa dirigir as sessões do Plenário, promulgar (tornar público e oficial) resoluções e decretos legislativos, gerenciar o orçamento interno do parlamento e conceder licenças aos deputados. Além disso, a Mesa tem o poder de propor projetos de lei específicos que tratem da criação ou extinção de cargos dentro da própria estrutura administrativa da ALECE.
+- **Mesa Diretora:** A Mesa Diretora é um órgão colegiado, o que significa que suas decisões são tomadas por um grupo de membros responsável pela direção central dos trabalhos legislativos e da administração da Assembleia.
+	- Formada pelo Presidente, pelos Vice-Presidentes e pelos Secretários. São deputados eleitos de dois em dois nos pelo próprio plenário.
+	- Compete à Mesa dirigir as sessões do Plenário, promulgar (tornar público e oficial) resoluções e decretos legislativos, gerenciar o orçamento interno do parlamento e conceder licenças aos deputados. Além disso, a Mesa tem o poder de propor projetos de lei específicos que tratem da criação ou extinção de cargos dentro da própria estrutura da ALECE.
 
 - **Comissões Parlamentares:** são órgãos técnicos formados por grupos restritos de deputados. A sua função primordial é analisar o mérito e a legalidade dos projetos antes que estes sejam submetidos à votação geral pelo Plenário.
 	- **Comissões Permanentes:** Possuem caráter definitivo. São divididas por áreas temáticas de interesse do Estado, como a Comissão de Constituição, Justiça e Redação (CCJR) e a Comissão de Finanças, Orçamento e Tributação. A elas compete emitir pareceres técnicos sobre os projetos, realizar audiências públicas para debater temas com a sociedade e fiscalizar os atos do Poder Executivo em suas respectivas áreas de competência.
-	    
 	- **Comissões Temporárias:** São constituídas para cumprir uma finalidade específica e possuem prazo de validade. Elas são extintas assim que o objetivo é alcançado ou quando se encerra a sessão legislativa. Subdividem-se em três tipos: Especiais, de Inquérito (as conhecidas CPIs, voltadas para investigações) e Representativas.
 
 ### 2. Competências da Assembleia

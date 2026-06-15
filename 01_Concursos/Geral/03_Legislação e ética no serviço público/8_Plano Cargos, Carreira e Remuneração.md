@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 
@@ -8,10 +9,10 @@ A evolução ocorre através de uma grade estruturada por dois elementos princip
 - **Classes:** Representam divisões amplas na carreira e são identificadas por letras.
 - **Níveis:** Representam subdivisões menores dentro de uma mesma classe e são identificados por números.
 
-O avanço contínuo por essas classes e níveis é o que garante o aumento do vencimento-base (o salário inicial sem os acréscimos de gratificações) do servidor.
+O avanço contínuo por essas classes e níveis é o que garante o aumento do vencimento-base (o salário inicial sem os acréscimos) do servidor.
 
-A legislação estabelece dois institutos para que o servidor movimente-se verticalmente na tabela de remuneração:
-- **Progressão:** É a passagem do servidor de um nível de vencimento para o nível imediatamente superior, mantendo-se **dentro da mesma classe**. Exigências
+A legislação estabelece duas formas de o servidor movimente-se na tabela de remuneração:
+- **Progressão:** É a passagem do servidor de um nível de vencimento para o nível imediatamente superior, mantendo-se **dentro da mesma classe**. Exigências:
     - **Interstício:** Intervalo de tempo mínimo exigido de trabalho efetivo. Na progressão, geralmente exige-se o cumprimento de 365 dias.
     - **Avaliação de Desempenho:** O servidor precisa obter resultados satisfatórios na avaliação individual do seu trabalho.
         
