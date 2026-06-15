@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 O Código de Ética e Conduta dos Servidores da ALECE (Resolução nº 783/2026). Por ser uma norma muito recente, as bancas tendem a cobrar a literalidade do texto, especialmente as inovações tecnológicas e as regras de punição.
@@ -27,9 +28,20 @@ O Código institui um órgão interno específico para cuidar da integridade fun
 
 - **Censura Ética:** A Comissão de Ética não demite, não suspende e não aplica multas financeiras. A pena máxima e exclusiva que este órgão pode aplicar diretamente é a **Censura Ética** (advertência moral que fica registrada nos assentamentos do servidor).
     
-- Caso a Comissão de Ética, durante a investigação, descubra que o servidor cometeu uma infração gravíssima (como desvio de dinheiro, que exige demissão), ela aplicará a Censura e enviará imediatamente a cópia de todas as provas para a Corregedoria. Caberá à Corregedoria abrir um Processo Administrativo Disciplinar (PAD), com base no Estatuto de 1974, para aplicar a punição de demissão.
+- Caso a Comissão de Ética, durante a investigação, descubra que o servidor cometeu uma infração gravíssima (como desvio de dinheiro, que exige demissão), ela aplicará a Censura e enviará imediatamente a cópia de todas as provas para a Corregedoria. Caberá à Corregedoria abrir um Processo Administrativo Disciplinar (PAD).
 
-
-### 6. Denúncias Anônimas
+### 5. Denúncias Anônimas
 
 O Código de Ética autoriza o recebimento de denúncias anônimas pelos canais da Ouvidoria. No entanto, para que uma denúncia anônima gere a abertura de uma investigação preliminar, ela não pode ser vazia; é obrigatório que venha acompanhada de **indícios mínimos de autoria e materialidade** (provas ou demonstrações lógicas de que o fato realmente ocorreu e de quem foi o responsável).
+
+
+![400](../../../attachments/Pasted%20image%2020260615150651.png)
+![400](../../../attachments/Pasted%20image%2020260615150704.png)
+C)
+
+![400](../../../attachments/Pasted%20image%2020260615150814.png)
+D)
+
+![400](../../../attachments/Pasted%20image%2020260615150907.png)
+![400](../../../attachments/Pasted%20image%2020260615150920.png)
+B)
