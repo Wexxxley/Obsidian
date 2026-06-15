@@ -90,9 +90,6 @@ O termo "quórum" refere-se à quantidade mínima obrigatória de parlamentares 
         
 	- As datas da SLO do Ceará não são idênticas às do Congresso Nacional. Fique atento à literalidade do texto.
 
-
-- **Sessão Legislativa Extraordinária:** Ocorre quando os deputados são convocados para trabalhar durante os períodos de recesso para votar matérias urgentes e de interesse público relevante.
-
 ---
 ### **2. CÓDIGO DE ÉTICA E DECORO PARLAMENTAR DA ALECE**
 
@@ -108,7 +105,7 @@ O documento elenca exemplos de condutas que configuram violações graves:
 - A fraude em votações, sejam estas eletrónicas ou manuais, tanto nas sessões do Plenário como nas reuniões das Comissões.
 
 **Penalidades Aplicáveis**
-Caso o parlamentar não cumpra os preceitos éticos, a norma prevê a aplicação de sanções. Estas penalidades são graduadas, ou seja, a sua severidade é proporcional à gravidade da infração cometida. 
+
 
 1. **Censura Verbal ou Escrita:** Aplicada a faltas consideradas leves, como o uso de linguagem inadequada durante os trabalhos parlamentares.
     

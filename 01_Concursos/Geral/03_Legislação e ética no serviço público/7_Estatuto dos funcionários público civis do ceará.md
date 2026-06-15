@@ -1,5 +1,5 @@
 
-#Concluded 
+#Concluded
 
 ---
 Embora seja uma lei de 1974, suas diretrizes gerais continuam em vigor, mas devem ser  interpretadas em conjunto com as atualizações trazidas pela Constituição de 1988.
