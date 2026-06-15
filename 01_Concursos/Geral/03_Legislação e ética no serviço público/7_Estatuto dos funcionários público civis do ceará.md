@@ -42,3 +42,23 @@ O Estatuto define as sanções que podem ser impostas aos servidores que cometem
     
 - **Cassação de Aposentadoria ou Disponibilidade:** É a penalidade máxima aplicada ao servidor inativo (que já está aposentado ou em disponibilidade). Ela ocorre caso fique comprovado, mediante processo, que este servidor cometeu uma infração passível de demissão na época em que ainda estava na ativa.
 
+
+![](../../../attachments/Pasted%20image%2020260615161752.png)![](../../../attachments/Pasted%20image%2020260615161806.png)
+B ) Para os atos que **atentam contra os princípios da Administração Pública** (Artigo 11), a punição financeira estipulada é o pagamento de multa civil de **até 24 (vinte e quatro) vezes o valor da remuneração** recebida pelo agente público no momento do ato.
+
+![](../../../attachments/Pasted%20image%2020260615162518.png)
+![](../../../attachments/Pasted%20image%2020260615162531.png)
+
+A) Autotutela
+
+No Direito Administrativo, esse princípio estabelece que a Administração Pública (o Estado) não precisa pedir permissão ao Poder Judiciário (a um juiz) para consertar os seus próprios erros. O Estado tem o poder e o dever de fiscalizar, controlar e revisar seus próprios atos.
+
+A autotutela se manifesta de duas formas:
+1. **Anulação:** Se a Administração Pública percebe que cometeu um erro e praticou um ato ilegal, ela mesma deve anular esse ato.
+    
+2. **Revogação:** Se a Administração praticou um ato totalmente legal e válido, mas depois percebe que ele não é mais útil ou conveniente para o interesse público (ex: autorizou o fechamento de uma rua para um evento, mas decidiu cancelar a autorização porque precisará da rua para uma obra urgente), ela pode **revogar** o ato.
+
+
+![](../../../attachments/Pasted%20image%2020260615162950.png)
+
+B)

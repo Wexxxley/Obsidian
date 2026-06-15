@@ -61,3 +61,21 @@ A regra geral é a **proibição** de acumular cargos públicos remunerados. As 
 3. Dois cargos privativos de profissionais de saúde, com profissões regulamentadas.
 
 ![](../../../attachments/Pasted%20image%2020260615155958.png)
+
+B)
+
+A responsabilidade de natureza **objetiva** é aquela em que **não é necessário provar a intenção (dolo) ou o descuido (culpa)**. Esta é a regra aplicada ao Estado. Se um cidadão sofre um dano causado por um Técnico Legislativo no exercício de sua função, o cidadão processará o Estado.
+
+A responsabilidade de natureza **subjetiva** é aquela que **exige obrigatoriamente a comprovação da intenção ou do descuido** do indivíduo. Esta é a regra aplicada ao Servidor Público perante o Estado. Após o Estado indenizar o cidadão, o Estado tem o dever de cobrar esse prejuízo do servidor responsável. Essa cobrança ocorre por meio da chamada Ação Regressiva. Para que o Estado obrigue o servidor a devolver o dinheiro aos cofres públicos, o Estado terá que provar responsabilidade subjetiva
+
+
+
+![](../../../attachments/Pasted%20image%2020260615161111.png)
+![](../../../attachments/Pasted%20image%2020260615161124.png)
+
+B) frustrar a licitude de processo licitatório ou de processo seletivo concorrência pública configura ato de improbidade administrativa que causa lesão ao erário (prejuízo ao patrimônio público), gerando o dever de ressarcimento integral do prejuízo.
+
+
+![](../../../attachments/Pasted%20image%2020260615161425.png)
+B)
+O instituto da reabilitação funcional visa expurgar os efeitos de penalidades antigas cumpridas da ficha do servidor após o decurso do prazo legal sem novas infrações. Fundamenta-se no princípio da dignidade humana, impedindo que sanções administrativas possuam caráter perpétuo na vida estatutária do funcionário
