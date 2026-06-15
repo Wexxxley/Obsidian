@@ -45,6 +45,17 @@ O cidadão tem o direito (e o dever) de participar da gestão pública, vigiando
     
 - **Pluralismo:** É o respeito às diferenças. Significa aceitar que manifestações divergentes e opiniões contrárias são normais e legítimas dentro do espaço legislativo, garantindo que o debate ocorra sem censura do servidor.
 
+---
+
+### 8. Lei de Improbidade Administrativa
+
+A lei divide os atos de improbidade em três categorias principais:
+
+1. **Enriquecimento Ilícito:** Ocorre quando o servidor "auferir qualquer tipo de vantagem patrimonial indevida". O foco aqui é o bolso do servidor; ele ganha algo ilicitamente (como receber propina ou usar um carro oficial para fins particulares).
+    
+2. **Prejuízo ao Erário:** Ocorre quando a ação do servidor causa perda, desvio ou desperdício de dinheiro ou patrimônio público. O foco aqui é o cofre do Estado, que fica mais pobre.
+    
+3. **Atentado aos Princípios da Administração Pública:** Ocorre quando o servidor viola deveres de honestidade, imparcialidade e legalidade, mesmo que ele não ganhe dinheiro com isso e o Estado não perca dinheiro (ex: fraudar um concurso público).
 
 
 ![](../../../attachments/Pasted%20image%2020260608075436.png)
