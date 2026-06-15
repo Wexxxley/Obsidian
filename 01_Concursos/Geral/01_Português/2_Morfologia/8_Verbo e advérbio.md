@@ -6,11 +6,23 @@
 
 O verbo indica ação (correr), estado (ser) e fenômeno da natureza (chover). 
 
-**Verbo transitivo direto(VTD)** pede complemento sem preposição.
-- Ele devolveu o carro.
+- **Verbo Transitivo:** verbo que não possui sentido completo por si só, exigindo um ou mais complementos para que a ação tenha significado compreensível.
+	- **Objeto Direto:** É o complemento verbal que se liga ao verbo diretamente, sem a exigência de uma preposição obrigatória. 
+	    
+	- **Objeto Indireto:** É o complemento verbal que se liga ao verbo de forma indireta, exigindo obrigatoriamente a presença de uma preposição.
+	    
+    - **Bitransitivo**: Quando um verbo é transitivo direto e indireto. A ausência de qualquer um desses dois complementos deixa a declaração  incompleta.
+		- O desenvolvedor entregou o código ao cliente."
+		    - Objeto Direto: o código. Objeto Indireto: ao cliente.    
+		- A universidade informou o prazo aos alunos.
+			- Objeto Direto: o prazo. Objeto Indireto: aos alunos
+	    	    
+- **Verbo intransitivo:** Um verbo intransitivo é aquele que possui sentido completo por si mesmo dentro do contexto da oração. Ele não exige um complemento verbal, para que a ação, o estado ou o fenômeno expresso seja compreendido. 
+- Embora o verbo intransitivo não exija complementos (objetos), ele frequentemente aparece acompanhado de termos que acrescentam circunstâncias à oração. Esses termos recebem o nome de **adjuntos adverbiais**.	
+	- Cair: A árvore caiu durante a madrugada.
+	    - A queda é compreendido sem necessitar de um complemento. "durante a madrugada" informa o momento, mas sua remoção não invalida a frase
+	- Nascer: O bebê nasceu.
 
-**Verbo transitivo indireto(VTI)** pede complemento com preposição.
-- O assunto intessou a ela.
 
 >[!Note]
 >Locução é uma expressão formada por duas ou mais palavras.
