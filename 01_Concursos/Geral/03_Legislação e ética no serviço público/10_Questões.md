@@ -79,3 +79,83 @@ B) frustrar a licitude de processo licitatório ou de processo seletivo concorr�
 ![](../../../attachments/Pasted%20image%2020260615161425.png)
 B)
 O instituto da reabilitação funcional visa expurgar os efeitos de penalidades antigas cumpridas da ficha do servidor após o decurso do prazo legal sem novas infrações. Fundamenta-se no princípio da dignidade humana, impedindo que sanções administrativas possuam caráter perpétuo na vida estatutária do funcionário
+
+
+
+![](../../../attachments/Pasted%20image%2020260615161752.png)![](../../../attachments/Pasted%20image%2020260615161806.png)
+B ) Para os atos que **atentam contra os princípios da Administração Pública** (Artigo 11), a punição financeira estipulada é o pagamento de multa civil de **até 24 (vinte e quatro) vezes o valor da remuneração** recebida pelo agente público no momento do ato.
+
+![](../../../attachments/Pasted%20image%2020260615162518.png)
+![](../../../attachments/Pasted%20image%2020260615162531.png)
+
+A) Autotutela
+
+No Direito Administrativo, esse princípio estabelece que a Administração Pública (o Estado) não precisa pedir permissão ao Poder Judiciário (a um juiz) para consertar os seus próprios erros. O Estado tem o poder e o dever de fiscalizar, controlar e revisar seus próprios atos.
+
+A autotutela se manifesta de duas formas:
+1. **Anulação:** Se a Administração Pública percebe que cometeu um erro e praticou um ato ilegal, ela mesma deve anular esse ato.
+    
+2. **Revogação:** Se a Administração praticou um ato totalmente legal e válido, mas depois percebe que ele não é mais útil ou conveniente para o interesse público (ex: autorizou o fechamento de uma rua para um evento, mas decidiu cancelar a autorização porque precisará da rua para uma obra urgente), ela pode **revogar** o ato.
+
+
+![](../../../attachments/Pasted%20image%2020260615162950.png)
+
+B)
+
+
+![](../../../attachments/Pasted%20image%2020260615173041.png)
+C) O sucessor daquele que causar lesão ao erário está sujeito ao ressarcimento, mas a responsabilidade é limitada ao valor da herança recebida (força do quinhão).
+
+
+![](../../../attachments/Pasted%20image%2020260615173359.png)
+B)
+
+
+![](../../../attachments/Pasted%20image%2020260615173450.png)
+![](../../../attachments/Pasted%20image%2020260615173504.png)
+B)
+
+
+![](../../../attachments/Pasted%20image%2020260615173650.png)
+![](../../../attachments/Pasted%20image%2020260615173701.png)
+C) As severas sanções civis e políticas previstas na Lei de Improbidade Administrativa possuem reserva de jurisdição. Só podem ser aplicadas e executadas após processo judicial regular, mediante sentença proferida por juiz competente transitada em julgado.
+
+
+![](../../../attachments/Pasted%20image%2020260615174059.png)
+
+A)
+- **Readaptação:** É a investidura (colocação) do servidor em um novo cargo que possua atribuições e responsabilidades compatíveis com uma limitação física ou mental que ele tenha sofrido.    
+- **Reversão:** É o retorno ao serviço ativo do servidor que havia sido aposentado por invalidez. Isso ocorre quando uma junta médica oficial reavalia o servidor e declara que os motivos que justificaram a sua aposentadoria não existem mais.
+- **Reintegração:** É o retorno do servidor que foi demitido de forma ilegal. Ao ser reintegrado, o servidor tem direito ao ressarcimento integral de todas as vantagens e vencimentos (salários) que deixou de receber durante o período em que esteve indevidamente afastado.
+- **Aproveitamento:** É o retorno obrigatório de um servidor que estava em "disponibilidade" (sem trabalhar, recebendo remuneração proporcional porque seu órgão ou cargo foi extinto) ao serviço ativo. Ele deve ser aproveitado em um cargo com atribuições compatíveis com o que ocupava anteriormente.
+
+
+
+![](../../../attachments/Pasted%20image%2020260615174320.png)
+![](../../../attachments/Pasted%20image%2020260615174334.png)
+
+B) 30 dias uteis
+
+O Estatuto dos Funcionários Públicos garante ao servidor o direito de requerer, pedir reconsideração e recorrer de decisões que o prejudiquem. Para exercer esse direito na via administrativa ordinária, existem dois instrumentos principais, ambos com o mesmo prazo de **30 dias**:
+
+1. **Pedido de Reconsideração:** É o pedido feito à **mesma autoridade** que tomou a decisão original, solicitando que ela reavalie.
+2. **Recurso Administrativo:** É o pedido feito à **autoridade hierarquicamente superior**, caso o pedido de reconsideração seja negado.
+
+
+
+![](../../../attachments/Pasted%20image%2020260615174856.png)
+![407](../../../attachments/Pasted%20image%2020260615174913.png)
+
+B) Os atos ilícitos e os desvios de conduta praticados por servidores públicos no exercício de suas funções geram responsabilidades em múltiplas instâncias. Como as esferas civil, penal e administrativa são independentes e autônomas, o servidor pode responder a processos e sofrer condenações cumulativas em todas elas
+
+
+
+
+
+
+
+
+
+
+
+
