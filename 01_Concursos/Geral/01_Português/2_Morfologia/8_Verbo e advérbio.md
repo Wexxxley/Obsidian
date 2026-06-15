@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 ### **1. Verbo**
@@ -75,7 +76,11 @@ H) Adjetivo
 I) L.Adverbial de lugar
 J) L.adjetiva
 K) L.adjetiva. Advérbio de tempo
-L) Advérbio de modo
+L) Adjetivo. Serio indica o estado do professor
 M) Advérbio de tempo
 N) Advérbio de tempo
 O) L.adjetiva
+
+
+![](../../../../attachments/Pasted%20image%2020260613145837.png)
+B). Direito originalmente é uma adjetivo
