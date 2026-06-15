@@ -95,4 +95,6 @@ O) L.adjetiva
 
 
 ![](../../../../attachments/Pasted%20image%2020260613145837.png)
-B). Direito originalmente é uma adjetivo
+B) Direito originalmente é uma adjetivo
+
+
