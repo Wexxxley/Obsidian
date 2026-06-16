@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 São palavras invariáveis que ligam dois termos de uma oração, estabelecendo uma relação de dependência entre eles.
