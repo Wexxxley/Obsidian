@@ -22,7 +22,7 @@ Uma projeção é uma representação bidimensional de um objeto tridimensional.
     
 - **Paralela:** Pense que a luz foi levada ao infinito, os raios de luz chegam perfeitamente paralelos uns aos outros. Não existe distorção de profundidade. Uma parede de 2 metros lá no fundo terá exatamente o mesmo tamanho no desenho que uma parede de 2 metros colada na tela.
 
-	- **Oblíqua:** Os raios batem diagonalmente no plano de projeção. Isso cria desenhos onde a face da frente do objeto fica em tamanho e formato reais, mas a profundidade foge de lado
+	- **Oblíqua:** A projeção oblíqua é uma projeção paralela que simula profundidade através de raios de projeção inclinados.
 	    ![](../../attachments/Pasted%20image%2020260529082133.png)
 	- **Ortográfica:** Aqui, os raios paralelos batem perfeitamente a 90 graus no plano de projeção. Ela preserva medidas e proporções exatas.
 	    ![](../../attachments/Pasted%20image%2020260529082420.png)

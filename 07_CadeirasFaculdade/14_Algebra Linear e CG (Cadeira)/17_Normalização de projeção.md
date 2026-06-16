@@ -13,16 +13,16 @@ Basicamente eu deformo/mapeio o que está dentro do volume de visualização par
 - **Eixo Z** Definido pelo plano próximo $n$, e pelo plano distante $f$. Aqui utilizamos as distâncias
 
 Primeiramente, é deslocado o centro do volume para que coincida com a origem $(0,0,0)$. 
-$$centro Do Volume Ortográfico = \left(\frac{r+l}{2}, \frac{t+b}{2}, \frac{n+f}{2}\right)$$
+$$centro Do Volume Ortográfico = \left(\frac{r+l}{2}, \frac{t+b}{2}, \frac{f+n}{2}\right)$$
 A matriz de translação $T$ subtrai estes valores das coordenadas de qualquer vértice:
-$$T = \begin{bmatrix} 1 & 0 & 0 & -\frac{r+l}{2} \\ 0 & 1 & 0 & -\frac{t+b}{2} \\ 0 & 0 & 1 & -\frac{n+f}{2} \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
+$$T = \begin{bmatrix} 1 & 0 & 0 & -\frac{r+l}{2} \\ 0 & 1 & 0 & -\frac{t+b}{2} \\ 0 & 0 & 1 & -\frac{f+n}{2} \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
 
 Para ajustar as dimensões, aplica-se uma matriz de escala $S$ cujos fatores são a razão entre a dimensão desejada ($2$) e a dimensão atual em cada eixo:
 
-$$S = \begin{bmatrix} \frac{2}{r-l} & 0 & 0 & 0 \\ 0 & \frac{2}{t-b} & 0 & 0 \\ 0 & 0 & \frac{2}{n-f} & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
+$$S = \begin{bmatrix} \frac{2}{r-l} & 0 & 0 & 0 \\ 0 & \frac{2}{t-b} & 0 & 0 \\ 0 & 0 & \frac{2}{f-n} & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
 
 A matriz de projeção ortográfica $M_{\text{orto}}$ é obtida através da multiplicação matricial $S \times T$. 
-$$M_{\text{orto}} = \begin{bmatrix} \frac{2}{r-l} & 0 & 0 & -\frac{r+l}{r-l} \\ 0 & \frac{2}{t-b} & 0 & -\frac{t+b}{t-b} \\ 0 & 0 & \frac{2}{n-f} & -\frac{n+f}{n-f} \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
+$$M_{\text{orto}} = \begin{bmatrix} \frac{2}{r-l} & 0 & 0 & -\frac{r+l}{r-l} \\ 0 & \frac{2}{t-b} & 0 & -\frac{t+b}{t-b} \\ 0 & 0 & \frac{2}{f-n} & -\frac{f+n}{f-n} \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
 
 ---
 #### **2. Normalização da Projeção Oblíqua**
@@ -32,17 +32,11 @@ $$M_{obl}=M_{ortho}\cdot T_{post}\cdot M_{shear}\cdot T_{pre}$$
 
 O cisalhamento é aplicado em uma sequência de 3 etapas para preservar as dimensões do volume ortográfico original, apenas desfazendo a inclinação dos raios de projeção:
 
-- Pré-Translação ($T_{pre}$): Move o plano frontal $Z_{cam}=-n$ para $Z_{cam}=0$.
-- Cisalhamento ($M_{shear}$): Desfaz a inclinação.
-- Pós-Translação ($T_{post}$): Devolve o plano frontal para $Z_{cam}=-n$.
-
-Na projeção oblíqua, o cisalhamento é aplicado em X e Y mantendo Z fixo:
-$$M_{shear}=\begin{bmatrix}1&0&sh_{x}&0\\ 0&1&sh_{y}&0\\ 0&0&1&0\\ 0&0&0&1\end{bmatrix}$$
-
-Para garantir que a face frontal do volume não se desloque durante o cisalhamento, aplicamos uma sequência de Translação Prévia, Cisalhamento e Translação Posterior, resultando na matriz de cisalhamento total ($M_{shear}^{\prime}$).
+- Pré-Translação ($T_{pre}$): Move o plano frontal para 0
+- Cisalhamento ($M_{shear}$): Desfaz a inclinação. Aplicado em X e Y mantendo Z fixo:
+- Pós-Translação ($T_{post}$): Devolve o plano frontal para a posição original
 
 Os fatores de cisalhamento ($sh_{x},sh_{y}$) são calculados a partir do ângulo de inclinação do raio de projeção ($\alpha$) e do fator de escala de profundidade ($s$, onde $s\in[0,1]$): $sh_{x}=sh_{y}=s\cdot cot(\alpha)$.
-
 $$T_{pre}=\begin{bmatrix}1&0&0&0\\ 0&1&0&0\\ 0&0&1&n\\ 0&0&0&1\end{bmatrix}$$
 
 $$M_{shear}=\begin{bmatrix}1&0&sh_{x}&0\\ 0&1&sh_{y}&0\\ 0&0&1&0\\ 0&0&0&1\end{bmatrix}$$
@@ -56,13 +50,9 @@ A matriz final é $M_{obl}=M_{ortho}\cdot M_{shear}^{\prime}$.
 
 $$M_{obl}=\begin{bmatrix}\frac{2}{r-l}&0&0&-\frac{l+r}{r-l}\\ 0&\frac{2}{t-b}&0&-\frac{t+b}{t-b}\\ 0&0&\frac{2}{f-n}&\frac{f+n}{f-n}\\ 0&0&0&1\end{bmatrix}\cdot\begin{bmatrix}1&0&sh_{x}&n\cdot sh_{x}\\ 0&1&sh_{y}&n\cdot sh_{y}\\ 0&0&1&0\\ 0&0&0&1\end{bmatrix}$$
 
-
-A projeção oblíqua é um tipo de projeção paralela que tem como principal propósito preservar a ortogonalidade (ângulos de 90 graus) e as dimensões reais de uma face do objeto em relação ao plano de projeção, enquanto ainda oferece uma percepção de profundidade tridimensional.
-
 Existem dois tipos principais, definidos pelo fator de escala da profundidade:
 - s=1: A profundidade não é reduzida; tende a parecer alongada
 - s=0.5: A profundidade é reduzida à metade, oferecendo um visual mais realista.
-
 
 ---
 #### **3. Normalização perspectiva**
