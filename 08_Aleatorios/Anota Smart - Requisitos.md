@@ -289,3 +289,53 @@ Microempreendedores costumam ter celulares com pouco espaço. Salvar uma foto de
 
   O que você acha dessa divisão entre "Histórico de Vendas" e "Gestão de Parcelas"? Faz sentido para o seu fluxo?
 
+
+
+
+---
+
+
+  1. **Visão Geral Financeira**
+  Essa é a consulta direta que você mencionou.
+   * Faturamento Bruto: Soma de valorTotal de todas as Sale com status FINALIZADA ou PENDENTE no período.
+   * Lucro Estimado: Aqui entra a inteligência do seu app. Como você salva custoUnitarioNoAto em cada SaleItem, o cálculo é:
+       * (PrecoVendaNoAto - CustoUnitarioNoAto) * quantidade.
+       * Isso dá o lucro real, mesmo que o preço do produto mude depois.
+   * Total de Despesas: Soma de amount na tabela Expense.
+
+  2. Fluxo de Caixa (Dinheiro que entrou vs. Dinheiro que vai entrar)
+  Trabalhadores informais sofrem com o "fiado" ou parcelado.
+   * Dinheiro em Caixa: Soma de parcelas (Installment) já pagas (statusParcela == PAGA) no período.
+   * Contas a Receber: Soma de parcelas pendentes ou atrasadas.
+   * Inadimplência: Um filtro rápido de parcelas com dataVencimento < dataAtual e status != PAGA. Isso ajuda o usuário a saber para quem ele deve cobrar hoje.
+
+  3. Desempenho de Produtos e Serviços
+  Para ele saber no que focar o esforço dele.
+   * O "Queridinho" (Mais vendido): SaleItem agrupado por productId, somando a quantidade.
+   * O mais Lucrativo: Agrupado por productId, mas somando a margem de lucro. Às vezes ele vende muito um item que dá pouco lucro e não sabe.
+   * Estoque Baixo: Alerta simples para produtos onde quantidadeEstoque está abaixo de um limite (ex: 5 unidades).
+
+  4. Visão por Cliente (Quem são meus melhores parceiros?)
+   * Top Clientes: Ranking de clientes que mais geraram faturamento (Sale).
+   * Clientes "Sumidos": Clientes que não compram há mais de 30 ou 60 dias (comparando dataVenda da última venda). Ótimo para ele mandar um "Oi, sumido" no WhatsApp.
+
+  5. Resumo Mensal (O fechamento do mês)
+  Uma consulta que agrupa as vendas por mês para mostrar um gráfico simples de barras:
+   * Meses mais fortes: Comparativo de Janeiro vs Fevereiro vs Março... Isso ajuda a prever meses fracos no futuro.
+
+  ---
+
+  Sugestão de Layout para a Tela de Relatórios:
+
+   1. Filtro de Perfil: (Hoje, Esta Semana, Este Mês, Personalizado).
+   2. Cards de Destaque:
+       * Verde: Total Vendido.
+       * Vermelho: Total Despesas.
+       * Azul: Lucro Líquido (Vendas - Custo - Despesas).
+   3. Seção "Para Cobrar": Lista rápida com os 3 maiores valores atrasados.
+   4. Lista de Top Itens: Mini ranking com foto do produto e quantidade vendida.
+
+  Dica Técnica: Como você já tem os DAOs, podemos criar uma classe RelatorioRepository ou incluir métodos no SaleDao que usem o @Query("SELECT SUM(...) ...") para que o banco já nos dê o número mastigado, em vez de carregarmos todas as
+  listas para a memória do celular.
+
+  Qual dessas visões você gostaria de começar a implementar primeiro?
