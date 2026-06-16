@@ -15,19 +15,20 @@ Basicamente eu deformo/mapeio o que está dentro do volume de visualização par
 Primeiramente, é deslocado o centro do volume para que coincida com a origem $(0,0,0)$. 
 $$centro Do Volume Ortográfico = \left(\frac{r+l}{2}, \frac{t+b}{2}, \frac{f+n}{2}\right)$$
 A matriz de translação $T$ subtrai estes valores das coordenadas de qualquer vértice:
-$$T = \begin{bmatrix} 1 & 0 & 0 & -\frac{r+l}{2} \\ 0 & 1 & 0 & -\frac{t+b}{2} \\ 0 & 0 & 1 & -\frac{f+n}{2} \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
+$$T = \begin{bmatrix} 1 & 0 & 0 & -\frac{r+l}{2} \\ 0 & 1 & 0 & -\frac{t+b}{2} \\ 0 & 0 & 1 & \frac{f+n}{2} \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
 
 Para ajustar as dimensões, aplica-se uma matriz de escala $S$ cujos fatores são a razão entre a dimensão desejada ($2$) e a dimensão atual em cada eixo:
 
-$$S = \begin{bmatrix} \frac{2}{r-l} & 0 & 0 & 0 \\ 0 & \frac{2}{t-b} & 0 & 0 \\ 0 & 0 & \frac{2}{f-n} & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
+$$S = \begin{bmatrix} \frac{2}{r-l} & 0 & 0 & 0 \\ 0 & \frac{2}{t-b} & 0 & 0 \\ 0 & 0 & -\frac{2}{f-n} & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
 
 A matriz de projeção ortográfica $M_{\text{orto}}$ é obtida através da multiplicação matricial $S \times T$. 
-$$M_{\text{orto}} = \begin{bmatrix} \frac{2}{r-l} & 0 & 0 & -\frac{r+l}{r-l} \\ 0 & \frac{2}{t-b} & 0 & -\frac{t+b}{t-b} \\ 0 & 0 & \frac{2}{f-n} & -\frac{f+n}{f-n} \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
+$$M_{\text{orto}} = \begin{bmatrix} \frac{2}{r-l} & 0 & 0 & -\frac{r+l}{r-l} \\ 0 & \frac{2}{t-b} & 0 & -\frac{t+b}{t-b} \\ 0 & 0 & -\frac{2}{f-n} & -\frac{f+n}{f-n} \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
+
+_glOrtho(left, right, bottom, top, near, far)_.
 
 ---
 #### **2. Normalização da Projeção Oblíqua**
 
-A projeção oblíqua é uma projeção paralela que simula profundidade através de raios de projeção inclinados. A normalização dessa projeção é obtida aplicando um Cisalhamento para desfazer a inclinação desses raios inclinados, seguido pela Normalização Ortográfica.
 $$M_{obl}=M_{ortho}\cdot T_{post}\cdot M_{shear}\cdot T_{pre}$$
 
 O cisalhamento é aplicado em uma sequência de 3 etapas para preservar as dimensões do volume ortográfico original, apenas desfazendo a inclinação dos raios de projeção:
