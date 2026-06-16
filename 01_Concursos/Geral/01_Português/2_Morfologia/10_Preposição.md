@@ -15,3 +15,6 @@ As preposições pode apresentar valor relacional/gramatical ou nocional/semânt
 
  - **Valor nocional/semântico:** quando preposições estabelecem valor semântico. Ela não é exigida, veio apenas para acrescentar.
 	 - Desenho a lápis (instrumento)
+	 - Chegou com a nomorada (companhia)
+	 - Extremeceu com a notícia (causa)
+	![](../../../../attachments/Pasted%20image%2020260615190104.png)
