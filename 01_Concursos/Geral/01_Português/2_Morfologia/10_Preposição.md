@@ -4,11 +4,23 @@
 São palavras invariáveis que ligam dois termos de uma oração, estabelecendo uma relação de dependência entre eles.
 ![](../../../../attachments/Pasted%20image%2020260615184529.png)
 
+**Preposição VS conjunção**: São muito parecidas, elas tem duas semelhanças principais:
+- São conectores. Tanto de palavras como de oraçoes.
+	- Casa de(prep) maria.
+	- Maria e(conj) jose.
+	- Estudar para(prep) passar.
+	- Estudar para que(conj) passe.
+- Indicam valores semânticos(finalidade, meio, causa, etc).
+
+A única forma de diferenciar, é decorando as listas. 
 
 
 **Locução prepositiva:** expressão que termina com preposição:
 - À procura de
 - A fim de
+**Locução conjunta:** expressão que termina com conjunção
+- Estudei para que
+
 
 As preposições pode apresentar valor relacional/gramatical ou nocional/semântico:
 - **Valor relacional/gramatical:** quando aparece por exigência gramatical do termo anterior. Verbo e substantivo pode pedir preposição.
