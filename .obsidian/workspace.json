@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/2_Morfologia/10_Preposição.md",
+                "file": "07_CadeirasFaculdade/14_Algebra Linear e CG (Cadeira)/17_Normalização de projeção.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10_Preposição"
+              "title": "17_Normalização de projeção"
             }
           }
         ],
@@ -104,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293,
-    "collapsed": true
+    "width": 293
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/2_Morfologia/10_Preposição.md",
+                "file": "07_CadeirasFaculdade/14_Algebra Linear e CG (Cadeira)/17_Normalização de projeção.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +144,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 10_Preposição"
+              "title": "Backlinks for 17_Normalização de projeção"
             }
           },
           {
@@ -210,10 +209,13 @@
   },
   "active": "af356e5e1a7640c4",
   "lastOpenFiles": [
+    "07_CadeirasFaculdade/14_Algebra Linear e CG (Cadeira)/18_Teorema de tales e semelhança de triângulos.md",
+    "07_CadeirasFaculdade/14_Algebra Linear e CG (Cadeira)/16_Projeções geométricas.md",
+    "07_CadeirasFaculdade/14_Algebra Linear e CG (Cadeira)/17_Normalização de projeção.md",
+    "01_Concursos/Geral/01_Português/2_Morfologia/10_Preposição.md",
     "attachments/Pasted image 20260615190104.png",
     "attachments/Pasted image 20260615184529.png",
     "01_Concursos/Geral/01_Português/2_Morfologia/9_Interjeição.md",
-    "01_Concursos/Geral/01_Português/2_Morfologia/10_Preposição.md",
     "attachments/Pasted image 20260615181859.png",
     "attachments/Pasted image 20260615181527.png",
     "attachments/Pasted image 20260615181336.png",
@@ -225,7 +227,6 @@
     "attachments/Pasted image 20260615174320.png",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/7_Estatuto dos funcionários público civis do ceará.md",
     "attachments/Pasted image 20260615174059.png",
-    "attachments/Pasted image 20260615173701.png",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/3_Ética na administração pública.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/5_Princípios da administração pública.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/4_Papel do servidor público.md",
@@ -239,8 +240,6 @@
     "01_Concursos/Geral/03_Legislação e ética no serviço público/8_Plano Cargos, Carreira e Remuneração e Organização da ALECE.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/6_Regimento interno ALECE.md",
     "07_CadeirasFaculdade/14_Algebra Linear e CG (Cadeira)/2_Operações com matrizes.md",
-    "07_CadeirasFaculdade/14_Algebra Linear e CG (Cadeira)/17_Normalização de projeção.md",
-    "07_CadeirasFaculdade/14_Algebra Linear e CG (Cadeira)/18_Teorema de tales e semelhança de triângulos.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/2_Artigo, adjetivo e numeral.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/7_Plural de nomes compostos.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/6_Colocação pronominal.md",
