@@ -17,12 +17,13 @@ As conjunções coordenativas ligam orações sintaticamente independentes. Isso
 
 #### **1. Aditivas**
 Expressam a ideia de soma, acréscimo ou adição de pensamentos.
-- e, nem, e não, não só... mas também, bem como.
+- e, nem(adv neg)... nem(conj), e não, não só... mas também, bem como, não apenas... como.
 
-- **Adversativas:** Expressam oposição, contraste ou ressalva em relação à oração anterior.
-    
-    - _Principais conjunções:_ mas, porém, contudo, todavia, entretanto.
-        
+#### **2. Adversativas**
+Expressam **contraste/oposição** ou **ressalva** em relação à oração anterior.
+- mas, porém, contudo, todavia, entretanto, no entanto, não obstante.
+![](../../../../attachments/Pasted%20image%2020260616195701.png)
+
 - **Alternativas:** Expressam a ideia de alternância, escolha ou exclusão mútua entre os fatos.
     
     - _Principais conjunções:_ ou, ou... ou, ora... ora, quer... quer.
