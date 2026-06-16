@@ -4,6 +4,8 @@
 São palavras invariáveis que ligam dois termos de uma oração, estabelecendo uma relação de dependência entre eles.
 ![](../../../../attachments/Pasted%20image%2020260615184529.png)
 
+
+
 **Locução prepositiva:** expressão que termina com preposição:
 - À procura de
 - A fim de
@@ -24,3 +26,5 @@ Indentifique o valor semântico das preposições:
 ![](../../../../attachments/Pasted%20image%2020260616105740.png)
 **Concessão**: oposição, contraste em relação à oração principal. Esse com poderia ser usbtituido por: apesar de 
 ![](../../../../attachments/Pasted%20image%2020260616110143.png)![](../../../../attachments/Pasted%20image%2020260616131206.png)
+![](../../../../attachments/Pasted%20image%2020260616131451.png)![](../../../../attachments/Pasted%20image%2020260616131610.png)
+
