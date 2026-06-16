@@ -37,6 +37,7 @@ B)
     
 - **Alternativa C:** Incorreta. O atentado contra os princípios é uma categoria residual e não envolve a obtenção direta de vantagem patrimonial (dinheiro/bens) pelo servidor.
 
+----
 
 ![](../../../attachments/Pasted%20image%2020260615154503.png)
 8 ANOS. A ação para a aplicação das sanções por ato de improbidade administrativa prescreve em 8 anos contados a partir da data de ocorrência do fato ilícito.
