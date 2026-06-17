@@ -43,10 +43,21 @@ A) Alternância
 D) ALTERNÂNCIA, ALTERNÂNCIA
  
 #### **4 Conclusivas**
-Ligam à anterior uma oração que expressa ideia de **conclusão** ou **consequência**.
+Ligam à anterior uma oração que expressa ideia de **conclusão/consequência**.
 - logo, pois, portanto, por isso, assim, consequentemente, por conseguinte.
+- O pois só é conclusiva quando vem deslocado, sempre vai ser. 
+	- Ele estudou muito; passou, pois, no concurso.
+
+![](../../../../attachments/Pasted%20image%2020260617162613.png)
+E)
+
+![](../../../../attachments/Pasted%20image%2020260617163025.png)
+A)
+
+![](../../../../attachments/Pasted%20image%2020260617163853.png)
 
 #### **5. Explicativas** 
-Expressam uma justificativa, motivo ou explicação para a afirmação anterior.
-    
-    - _Principais conjunções:_ porque, que, pois (quando posicionado antes do verbo).
+Expressam uma justificativa/explicação para a afirmação anterior.
+- porque, que, porquanto, pois (na posição original, antes do verbo).
+
+![](../../../../attachments/Pasted%20image%2020260617174325.png)
