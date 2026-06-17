@@ -16,7 +16,7 @@ Expressam a ideia de soma, acréscimo ou adição de pensamentos.
 
 #### **2. Adversativas**
 Expressam **contraste/oposição** ou **ressalva** em relação à oração anterior.
-- mas, porém, contudo, todavia, entretanto, no entanto, não obstante.
+- mas, porém, contudo, todavia, en  tretanto, no entanto, não obstante.
 ![](../../../../attachments/Pasted%20image%2020260616195701.png)
 
 #### **3. Alternativas**
@@ -58,6 +58,29 @@ A)
 
 #### **5. Explicativas** 
 Expressam uma justificativa/explicação para a afirmação anterior.
-- porque, que, porquanto, pois (na posição original, antes do verbo).
+- porque, que, porquanto, pois, ou seja (na posição original, antes do verbo).
 
 ![](../../../../attachments/Pasted%20image%2020260617174325.png)
+![](../../../../attachments/Pasted%20image%2020260617175347.png)
+B 
+
+
+---
+
+![](../../../../attachments/Pasted%20image%2020260617180703.png)
+1. CONCLUSIVO
+2. CORRELATIVA DE ADIÇÃO
+3. EXPLICATIVA
+
+![](../../../../attachments/Pasted%20image%2020260617180925.png)
+4. ADVERSATIVA
+5. ADVERSATIVA
+6. ADVERSATIVA
+
+![](../../../../attachments/Pasted%20image%2020260617181142.png)
+7. ADVERSATIVA
+8. ALTERNATIVA EXCLUSIVA
+9. EXPLICATIVA
+
+![](../../../../attachments/Pasted%20image%2020260617181312.png)
+10. 
