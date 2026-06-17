@@ -233,4 +233,18 @@ A) O Estatuto dos Funcionários Públicos do Ceará estabelece uma regra matemá
 B) A **demissão** e a **cassação de aposentadoria** são as penalidades máximas. No Direito Administrativo, vigora a regra da simetria: a autoridade que possui o poder máximo para nomear (dar a posse inicial final) é a mesma que detém a competência privativa para demitir.
 
 - **No Poder Executivo:** Essa competência é exclusiva do **Governador do Estado**. Nenhum secretário ou diretor pode assinar a demissão de um servidor estável.
-- **No Poder Legislativo (ALECE):** o Governador não tem jurisdição sobre os funcionários da Assembleia. Portanto, por simetria e autonomia administrativa, quem assina a demissão de um Técnico Legislativo da ALECE é o **Presidente da Assembleia Legislativa**.
+- **No Poder Legislativo:** o Governador não tem jurisdição sobre os funcionários da Assembleia. Portanto, por simetria e autonomia administrativa, quem assina a demissão de um Técnico Legislativo da ALECE é o Presidente da Assembleia Legislativa.
+- **Poder Judiciário**: Nos tribunais, o administrador máximo é o seu presidente. Portanto, a demissão de um técnico ou analista judiciário é assinada pelo Presidente do Tribunal.
+- **Órgãos Independentes e Autônomos:** Existem instituições que não são subordinadas a nenhum dos três poderes tradicionais. Nelas, a demissão é aplicada pelo seu dirigente máximo:
+- **Ministério Público:** pelo Procurador-Geral de Justiça (no âmbito estadual) ou pelo Procurador-Geral da República (no âmbito federal).
+- **Defensoria Pública:** Assinada pelo **Defensor Público-Geral**.
+- **Tribunais de Contas:** Assinada pelo **Presidente do Tribunal de Contas**.
+
+
+![](../../../attachments/Pasted%20image%2020260617105053.png)
+
+B) A **sindicância** é um procedimento preliminar e investigativo da Administração Pública. É a fase de coleta de provas.
+
+A regra geral da Administração é a publicidade. Tudo deve ser transparente. No entanto, a lei cria uma exceção fundamental para investigações na sua fase inicial. **O sigilo temporário é obrigatório por dois motivos lógicos:**
+- Garantir a eficácia da apuração
+- Proteger a honra e a imagem do investigado. 
