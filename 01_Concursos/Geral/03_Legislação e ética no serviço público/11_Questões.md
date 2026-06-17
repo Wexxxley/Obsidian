@@ -192,5 +192,45 @@ A lei preveem que a recondução ocorre em duas situações exatas:
 
 B) a Lei de Improbidade Administrativa passou a ostentar caráter taxativo. Para que uma conduta seja enquadrada como ato de improbidade ela deve estar expressamente descrita em um de seus incisos.
 
+![](../../../attachments/Pasted%20image%2020260617095555.png)
 
-A Disponibilidade é a garantia constitucional conferida ao servidor estável. Quando o seu cargo efetivo é formalmente extinto por lei ou declarado desnecessário, o funcionário não pode ser sumariamente demitido; ele é colocado em disponibilidade
+B) A Disponibilidade é a garantia constitucional conferida ao servidor estável. Quando o seu cargo efetivo é extinto por lei ou declarado desnecessário, o funcionário não pode ser demitido; ele é colocado em disponibilidade.
+
+![](../../../attachments/Pasted%20image%2020260617095755.png)![](../../../attachments/Pasted%20image%2020260617095807.png)
+C ) De acordo com os prazos prescricionais fixados pelo Estatuto dos Servidores do Ceará, a pretensão punitiva do Estado para instaurar procedimento e aplicar a penalidade expulsória de demissão prescreve no prazo de 5 anos (cinco anos), contados da data de cometimento da falta disciplinar
+
+
+![](../../../attachments/Pasted%20image%2020260617100232.png)
+![](../../../attachments/Pasted%20image%2020260617100244.png)
+
+D) nos casos de condenação por ato de improbidade que importa em enriquecimento ilícito do agente, os direitos políticos do condenado podem ser suspensos pelo prazo qualificado de até 14 anos (quatorze anos).
+
+
+![](../../../attachments/Pasted%20image%2020260617100522.png)
+O princípio da Segurança Jurídica blinda o ordenamento e as relações sociais contra sobressaltos e mudanças bruscas de entendimento da máquina pública. Ele proíbe que novas interpretações de normas administrativas ou sanções retroajam para desconstituir situações jurídicas passadas consolidadas.
+
+
+![](../../../attachments/Pasted%20image%2020260617100929.png)
+B)
+
+**persecução = ato de perseguir = processar**. No Direito Administrativo, quando o Ministério Público entra com uma ação na justiça para punir um servidor por improbidade administrativa ele está iniciando uma **persecução cível**.
+
+**ANPC (Acordo de Não Persecução Cível)**: O ANPC é, literalmente, um acordo firmado entre o Ministério Público e o agente acusado de improbidade.
+
+- O Ministério Público propõe não processar o agente ou encerrar um processo que já está em andamento. O Estado percebeu que processar um servidor por 10 anos custa muito caro e demora demais. O ANPC permite resolver o problema de forma rápida, punindo o agente e recuperando o dinheiro desviado sem a burocracia de um longo julgamento.
+
+- O ANPC não é uma "anistia" ou um perdão. Para que o juiz aceite a lei impõe requisitos rigorosos:
+		- O agente que assinar o acordo é obrigado a devolver integralmente todo o dinheiro que desviou ou que causou de prejuízo aos cofres públicos, além de assumir outras obrigações como o pagamento de multas. 
+
+
+![](../../../attachments/Pasted%20image%2020260617101529.png)
+
+A) O Estatuto dos Funcionários Públicos do Ceará estabelece uma regra matemática simples e universal no Direito Administrativo brasileiro para a contagem do tempo de serviço: a apuração é feita rigorosamente em **dias corridos** (incluindo sábados, domingos e feriados). Após somar todos os dias trabalhados, a Administração divide esse número total por **365** para encontrar o número de anos de serviço. Anos bissextos não alteram.
+
+![](../../../attachments/Pasted%20image%2020260617102252.png)
+![](../../../attachments/Pasted%20image%2020260617102304.png)
+
+B) A **demissão** e a **cassação de aposentadoria** são as penalidades máximas. No Direito Administrativo, vigora a regra da simetria: a autoridade que possui o poder máximo para nomear (dar a posse inicial final) é a mesma que detém a competência privativa para demitir.
+
+- **No Poder Executivo:** Essa competência é exclusiva do **Governador do Estado**. Nenhum secretário ou diretor pode assinar a demissão de um servidor estável.
+- **No Poder Legislativo (ALECE):** o Governador não tem jurisdição sobre os funcionários da Assembleia. Portanto, por simetria e autonomia administrativa, quem assina a demissão de um Técnico Legislativo da ALECE é o **Presidente da Assembleia Legislativa**.
