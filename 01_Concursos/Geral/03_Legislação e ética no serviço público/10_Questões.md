@@ -103,6 +103,7 @@ A autotutela se manifesta de duas formas:
 
 B)
 
+----
 
 ![](../../../attachments/Pasted%20image%2020260615173041.png)
 C) O sucessor daquele que causar lesão ao erário está sujeito ao ressarcimento, mas a responsabilidade é limitada ao valor da herança recebida (força do quinhão).

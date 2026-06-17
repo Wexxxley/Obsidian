@@ -79,7 +79,7 @@ A escala $S_{ang}$ é aplicada para que as novas dimensões do frustum no plano 
 - **Fator de Escala $S_{x}$**: A largura atual ($r-l$) deve ser ajustada para 2n. Logo, $S_{x}=\frac{2n}{r-l}.$
 - **Fator de Escala $S_{y}$**: A altura atual ($t-b$) deve ser ajustada para 2n. Logo, $S_{y}=\frac{2n}{t-b}$
 
-$$S_{ang}=\begin{pmatrix}\frac{2n}{r-1}&0&0&0\\ 0&\frac{2n}{t-b}&0&0\\ 0&0&1&0\\ 0&0&0&1\end{pmatrix}$$
+$$S_{ang}=\begin{pmatrix}\frac{2n}{r-l}&0&0&0\\ 0&\frac{2n}{t-b}&0&0\\ 0&0&1&0\\ 0&0&0&1\end{pmatrix}$$
 ### 3.3 Matriz de perspectiva
 
 A matriz $M_{persp}$ finaliza a transformação do frustum simétrico normalizado para o CCV.
