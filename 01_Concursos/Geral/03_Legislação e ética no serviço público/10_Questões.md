@@ -174,11 +174,24 @@ O servidor tem permissão para ser procurador ou intermediário dentro da repart
 
 
 ![](../../../attachments/Pasted%20image%2020260617085458.png)
-B) O princípio da Legalidade Estrita determina que a atuação da Administração Pública deve ser inteiramente subordinada à lei. Enquanto o particular pode fazer tudo o que a lei não proíbe, o administrador e o Técnico Legislativo só possuem
+B) Enquanto o particular pode fazer tudo o que a lei não proíbe, o administrador e o Técnico Legislativo só possuem autorização para agir quando a lei expressamente ordene ou autorize a conduta
 
 
+![](../../../attachments/Pasted%20image%2020260617085821.png)
+![](../../../attachments/Pasted%20image%2020260617085836.png)
+
+A) **Recondução** é uma forma de provimento derivado. Trata-se do retorno de um servidor público estável ao cargo que ele ocupava anteriormente.
+
+A lei preveem que a recondução ocorre em duas situações exatas:
+- **Inabilitação (ou desistência) em estágio probatório de outro cargo:** O servidor estável passa em um novo concurso. Ele assume o novo cargo, mas não é aprovado no estágio probatório dessa nova função (ou desiste voluntariamente durante esse período). Como ele era estável no cargo anterior, a lei garante o seu retorno automático (recondução).
+- **Reintegração do anterior ocupante:** O servidor ocupa uma vaga que surgiu porque o titular original foi demitido. Anos depois, o titular original consegue provar na Justiça que sua demissão foi ilegal. A Justiça anula a demissão e determina o retorno do titular original (ato de Reintegração). O servidor atual, que estava ocupando essa vaga, precisará sair para devolver o lugar ao dono original. Como consequência, esse servidor atual será **reconduzido**.
 
 
+- **B) **Reversão**.
+    
+- **C) **Progressão** (mudança de nível) ou **Promoção** (mudança de classe)
+    
+- **E)  O deslocamento do servidor de uma unidade para outra, a pedido ou por interesse da administração, sem mudança de cargo, denomina-se **Remoção**
 
 
 
