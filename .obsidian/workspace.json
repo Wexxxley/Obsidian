@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/2_Morfologia/11_Conjunções coordenativas.md",
+                "file": "01_Concursos/Geral/03_Legislação e ética no serviço público/7_Estatuto dos funcionários público civis do ceará.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11_Conjunções coordenativas"
+              "title": "7_Estatuto dos funcionários público civis do ceará"
             }
           }
         ],
@@ -104,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242,
-    "collapsed": true
+    "width": 242
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -210,9 +209,11 @@
   },
   "active": "af356e5e1a7640c4",
   "lastOpenFiles": [
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/6_Regimento interno ALECE.md",
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/9_Código de ética dos servidores da ALECE.md",
+    "01_Concursos/Geral/01_Português/2_Morfologia/11_Conjunções coordenativas.md",
     "attachments/Pasted image 20260616195701.png",
     "01_Concursos/Geral/01_Português/2_Morfologia/10_Preposição.md",
-    "01_Concursos/Geral/01_Português/2_Morfologia/11_Conjunções coordenativas.md",
     "01_Concursos/Geral/01_Português/1_Ortografia/5_Uso dos porques.md",
     "01_Concursos/Geral/01_Português/4_Redação/4_Teses e repertórios.md",
     "08_Aleatorios/Anota Smart - Requisitos.md",
@@ -231,7 +232,6 @@
     "attachments/Pasted image 20260615184529.png",
     "01_Concursos/Geral/01_Português/2_Morfologia/9_Interjeição.md",
     "attachments/Pasted image 20260615181859.png",
-    "attachments/Pasted image 20260615181527.png",
     "01_Concursos/Geral/01_Português/2_Morfologia/8_Verbo e advérbio.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/7_Estatuto dos funcionários público civis do ceará.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/3_Ética na administração pública.md",
@@ -239,13 +239,11 @@
     "01_Concursos/Geral/03_Legislação e ética no serviço público/4_Papel do servidor público.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/2_Lei de Acesso à Informação.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/1_Lei Geral de Proteção de Dados.md",
-    "01_Concursos/Geral/03_Legislação e ética no serviço público/9_Código de ética dos servidores da ALECE.md",
     "08_Aleatorios/Proposta de Startup.md",
     "08_Aleatorios/Pedido de crenciais GIT.md",
     "08_Aleatorios/INPI, RPI.md",
     "08_Aleatorios/Atualizações na modelagem das entidades.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/8_Plano Cargos, Carreira e Remuneração e Organização da ALECE.md",
-    "01_Concursos/Geral/03_Legislação e ética no serviço público/6_Regimento interno ALECE.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público",
     "01_Concursos/Geral/01_Português/3_Interpretação de texto",
     "01_Concursos/TI",
