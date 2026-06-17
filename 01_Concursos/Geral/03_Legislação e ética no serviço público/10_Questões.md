@@ -151,8 +151,30 @@ O Estatuto dos Funcionários Públicos garante ao servidor o direito de requerer
 B) Os atos ilícitos e os desvios de conduta praticados por servidores públicos no exercício de suas funções geram responsabilidades em múltiplas instâncias. Como as esferas civil, penal e administrativa são independentes e autônomas, o servidor pode responder a processos e sofrer condenações cumulativas em todas elas
 
 
+![](../../../attachments/Pasted%20image%2020260617084640.png)
+B)
+
+- **Procurador:** É o indivíduo que possui uma autorização formal e jurídica para falar, assinar e agir em nome de outra pessoa ou de uma empresa.
+    
+- **Intermediário:** indivíduo que atua de forma mais informal, servindo como uma "ponte", um facilitador ou um despachante entre um cidadão (ou empresa) e o órgão público.
+
+O servidor público estadual é terminantemente proibido de atuar como procurador ou intermediário de terceiros junto a qualquer repartição pública do Estado do Ceará. O objetivo é prevenir o **tráfico de influência** e a violação do princípio da impessoalidade. 
+
+O servidor tem permissão para ser procurador ou intermediário dentro da repartição pública **exclusivamente** quando o processo preencher dois requisitos simultâneos:
+
+1. Deve se tratar estritamente de benefícios de caráter alimentar ou de sobrevivência, ou seja, benefícios **previdenciários** (como pensão por morte, aposentadoria) ou **assistenciais**. O servidor não pode representar a família para abrir uma empresa ou participar de uma licitação.
+    
+2. **Grau de Parentesco:** O titular do benefício deve ser o cônjuge, o companheiro ou um parente de até segundo grau. 
+
+![](../../../attachments/Pasted%20image%2020260617085144.png)
 
 
+
+
+
+
+![](../../../attachments/Pasted%20image%2020260617085458.png)
+B) O princípio da Legalidade Estrita determina que a atuação da Administração Pública deve ser inteiramente subordinada à lei. Enquanto o particular pode fazer tudo o que a lei não proíbe, o administrador e o Técnico Legislativo só possuem
 
 
 
