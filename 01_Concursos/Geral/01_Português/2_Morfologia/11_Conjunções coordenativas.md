@@ -83,4 +83,22 @@ B
 9. EXPLICATIVA
 
 ![](../../../../attachments/Pasted%20image%2020260617181312.png)
-10. 
+10. ADVERSATIVA
+11. CONCLUSIVA 
+12. ADVERSATIV A
+
+![](../../../../attachments/Pasted%20image%2020260617184221.png)
+13. Conclusiva
+14. ADIÇÃO
+15. ADIÇÃO
+
+![](../../../../attachments/Pasted%20image%2020260617184327.png)
+16. Adversativa
+17. ADIÇÃO
+18. ADVERSATIVA
+
+![](../../../../attachments/Pasted%20image%2020260617184453.png)
+19. ALTERNATIVA DE EXCLUÇÃO
+20. EXPLICATIVA
+
+
