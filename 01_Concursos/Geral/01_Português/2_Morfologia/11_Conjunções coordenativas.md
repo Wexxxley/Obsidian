@@ -1,16 +1,7 @@
 
 
 ---
-
-**Preposição VS conjunção**: São muito parecidas. A única forma de diferenciar, é decorando as listas. Elas tem duas semelhanças principais:
-- São conectores. Tanto de palavras como de oraçoes.
-	- Casa de(prep) maria.
-	- Maria e(conj) jose.
-	- Estudar para(prep) passar.
-	- Estudar para que(conj) passe.
-- Indicam valores semânticos(finalidade, meio, causa, etc).
-
-As conjunções coordenativas ligam orações sintaticamente independentes. Isso significa que as orações conectadas possuem sentido completo por si mesmas e não dependem uma da outra no nível estrutural para serem compreendidas.
+As conjunções coordenativas ligam orações sintaticamente independentes. Isso significa que as orações conectadas possuem sentido completo por si mesmas.
 
 **Expressões Correlativas**: são pares estruturais formados por palavras ou locuções. A introdução do primeiro termo cria uma exigência de que o segundo termo apareça.
 - tanto... quanto, ou... ou; mais... do quem, tanto... que.

@@ -261,3 +261,9 @@ Ordem:
 - **Posse:** É na posse que o candidato convocado comparece perante a autoridade competente e assina o termo de posse. Ao assinar esse documento, ele manifesta a sua **aceitação formal** das atribuições, deveres e responsabilidades do cargo. É exclusivamente no momento da posse que ocorre a investidura, ou seja, o momento jurídico em que o indivíduo adquire o status de servidor público.
     
 - **Exercício:** É a fase final, que consiste no efetivo desempenho das funções do cargo. É o momento em que o servidor recém-empossado começa efetivamente a trabalhar.
+
+
+![](../../../attachments/Pasted%20image%2020260617131713.png)
+B) No âmbito do Direito Administrativo, "motivar" um ato significa explicá-lo e justificá-lo formalmente. O Princípio da Motivação impõe à Administração Pública o dever de demonstrar, por escrito, os pressupostos que a levaram a tomar determinada decisão, especialmente quando se trata de atos que afetam direitos ou impõem punições.
+
+- **A) Autotutela discricionária mitigada:** A autotutela é o poder da Administração de anular e revogar seus próprios atos. 
