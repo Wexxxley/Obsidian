@@ -248,3 +248,16 @@ B) A **sindicância** é um procedimento preliminar e investigativo da Administr
 A regra geral da Administração é a publicidade. Tudo deve ser transparente. No entanto, a lei cria uma exceção fundamental para investigações na sua fase inicial. **O sigilo temporário é obrigatório por dois motivos lógicos:**
 - Garantir a eficácia da apuração
 - Proteger a honra e a imagem do investigado. 
+
+
+![](../../../attachments/Pasted%20image%2020260617105609.png)
+
+A
+
+Ordem:
+
+- **Nomeação:** É o ato administrativo de provimento originário. Ao publicar a nomeação no Diário Oficial, a Administração Pública está, de fato, **convocando** o candidato aprovado no concurso para que ele se apresente. 
+    
+- **Posse:** É na posse que o candidato convocado comparece perante a autoridade competente e assina o termo de posse. Ao assinar esse documento, ele manifesta a sua **aceitação formal** das atribuições, deveres e responsabilidades do cargo. É exclusivamente no momento da posse que ocorre a investidura, ou seja, o momento jurídico em que o indivíduo adquire o status de servidor público.
+    
+- **Exercício:** É a fase final, que consiste no efetivo desempenho das funções do cargo. É o momento em que o servidor recém-empossado começa efetivamente a trabalhar.
