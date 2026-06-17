@@ -183,16 +183,14 @@ B) Enquanto o particular pode fazer tudo o que a lei não proíbe, o administrad
 A) **Recondução** é uma forma de provimento derivado. Trata-se do retorno de um servidor público estável ao cargo que ele ocupava anteriormente.
 
 A lei preveem que a recondução ocorre em duas situações exatas:
-- **Inabilitação (ou desistência) em estágio probatório de outro cargo:** O servidor estável passa em um novo concurso. Ele assume o novo cargo, mas não é aprovado no estágio probatório dessa nova função (ou desiste voluntariamente durante esse período). Como ele era estável no cargo anterior, a lei garante o seu retorno automático (recondução).
-- **Reintegração do anterior ocupante:** O servidor ocupa uma vaga que surgiu porque o titular original foi demitido. Anos depois, o titular original consegue provar na Justiça que sua demissão foi ilegal. A Justiça anula a demissão e determina o retorno do titular original (ato de Reintegração). O servidor atual, que estava ocupando essa vaga, precisará sair para devolver o lugar ao dono original. Como consequência, esse servidor atual será **reconduzido**.
-
-
-- **B) **Reversão**.
-    
-- **C) **Progressão** (mudança de nível) ou **Promoção** (mudança de classe)
-    
-- **E)  O deslocamento do servidor de uma unidade para outra, a pedido ou por interesse da administração, sem mudança de cargo, denomina-se **Remoção**
+- **Inabilitação (ou desistência) em estágio probatório de outro cargo:** O servidor estável passa em um novo concurso. Ele assume o novo cargo, mas não é aprovado no estágio probatório dessa nova função (ou desiste voluntariamente durante esse período).
+- **Reintegração do anterior ocupante:** O servidor ocupa uma vaga que surgiu porque o titular original foi demitido. Anos depois, o titular original consegue provar na Justiça que sua demissão foi ilegal. A Justiça anula a demissão e determina o retorno do titular original (ato de Reintegração). 
 
 
 
+![](../../../attachments/Pasted%20image%2020260617095416.png)
 
+B) a Lei de Improbidade Administrativa passou a ostentar caráter taxativo. Para que uma conduta seja enquadrada como ato de improbidade ela deve estar expressamente descrita em um de seus incisos.
+
+
+A Disponibilidade é a garantia constitucional conferida ao servidor estável. Quando o seu cargo efetivo é formalmente extinto por lei ou declarado desnecessário, o funcionário não pode ser sumariamente demitido; ele é colocado em disponibilidade
