@@ -16,7 +16,7 @@ Expressam a ideia de soma, acréscimo ou adição de pensamentos.
 
 #### **2. Adversativas**
 Expressam **contraste/oposição** ou **ressalva** em relação à oração anterior.
-- mas, porém, contudo, todavia, en  tretanto, no entanto, não obstante.
+- mas, porém, contudo, todavia, entretanto, no entanto, não obstante.
 ![](../../../../attachments/Pasted%20image%2020260616195701.png)
 
 #### **3. Alternativas**
@@ -24,7 +24,7 @@ Expressam a ideia de **alternância** ou **escolha/exclusão**
 - ou, ou... ou, ora... ora, quer... quer, seja... seja.
 
 - O 'ou' quando vem de forma correlativa, é exclusão, mas quando vem só pode indicar alternância, exclusão e até adição.
-- Par saber se é exclusão vc se pergunta: se um acontece o outro não acontece?
+- Para saber se é exclusão vc se pergunta: se um acontece o outro não acontece?
 ![](../../../../attachments/Pasted%20image%2020260617150027.png)
 
 ![](../../../../attachments/Pasted%20image%2020260617150243.png)
@@ -55,12 +55,13 @@ E)
 A)
 
 ![](../../../../attachments/Pasted%20image%2020260617163853.png)
-
+B)CONCLUSÃO
 #### **5. Explicativas** 
 Expressam uma justificativa/explicação para a afirmação anterior.
 - porque, que, porquanto, pois, ou seja (na posição original, antes do verbo).
 
 ![](../../../../attachments/Pasted%20image%2020260617174325.png)
+
 ![](../../../../attachments/Pasted%20image%2020260617175347.png)
 B 
 
@@ -73,19 +74,19 @@ B
 3. EXPLICATIVA
 
 ![](../../../../attachments/Pasted%20image%2020260617180925.png)
-4. ADVERSATIVA
-5. ADVERSATIVA
-6. ADVERSATIVA
+4. ADVERSATIVA de contraste
+5. ADVERSATIVA de contraste
+6. ADVERSATIVA de contraste
 
 ![](../../../../attachments/Pasted%20image%2020260617181142.png)
-7. ADVERSATIVA
+7. Conjunção adversativa de retificação ou substituição
 8. ALTERNATIVA EXCLUSIVA
 9. EXPLICATIVA
 
 ![](../../../../attachments/Pasted%20image%2020260617181312.png)
-10. ADVERSATIVA
-11. CONCLUSIVA 
-12. ADVERSATIV A
+10. ADVERSATIVA de constraste
+11. CONCLUSIVA  
+12. ADVERSATIVA de retificação ou substituição
 
 ![](../../../../attachments/Pasted%20image%2020260617184221.png)
 13. Conclusiva
@@ -93,12 +94,12 @@ B
 15. ADIÇÃO
 
 ![](../../../../attachments/Pasted%20image%2020260617184327.png)
-16. Adversativa
+16. Adversativa de contraste
 17. ADIÇÃO
-18. ADVERSATIVA
+18. ADVERSATIVA de constraste
 
 ![](../../../../attachments/Pasted%20image%2020260617184453.png)
-19. ALTERNATIVA DE EXCLUÇÃO
+19. ALTERNATIVA DE EXCLUÇÃO 
 20. EXPLICATIVA
 
 
