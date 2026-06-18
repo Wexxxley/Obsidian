@@ -1,17 +1,22 @@
 
 
+
 ---
-As **conjunções subordinativas** são palavras invariáveis que ligam duas orações, tornando uma delas dependente da outra (oração subordinada). 
+As **conjunções subordinativas** são palavras invariáveis que ligam duas orações, tornando uma delas dependente sintaticamente da outra (oração subordinada). 
+
+![500](../../../../attachments/Pasted%20image%2020260618140504.png)
+
+As conjunções subordinativas subdividem-se em **integrantes**(não indicam circunstâncias) e **adverbiais**(indicam circunstâncias)
+
+#### **1. Integrantes**
+Não indicam circunstâncias. Introduzem orações que funcionam como substantivos.
+- que, se.
+![400](../../../../attachments/Pasted%20image%2020260618142617.png)
+ 
 
 
-
-1. **Integrantes**: Introduzem orações que funcionam como substantivos (sujeito, objeto, etc.).
-    
-    - _Principais:_ **que**, **se**.
-        
-    - _Exemplo:_ "É necessário **que** você estude."
-        
-2. **Causais**: Indicam a causa ou motivo da ação da oração principal.
+#### **2. Causais**
+Indicam a cau sa ou motivo da ação da oração principal.
     
     - _Principais:_ **porque**, **pois**, **como**, **visto que**, **já que**.
         
