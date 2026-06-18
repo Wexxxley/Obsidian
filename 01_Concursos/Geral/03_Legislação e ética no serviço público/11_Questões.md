@@ -176,8 +176,9 @@ O servidor tem permissão para ser procurador ou intermediário dentro da repart
 ![](../../../attachments/Pasted%20image%2020260617085458.png)
 B) Enquanto o particular pode fazer tudo o que a lei não proíbe, o administrador e o Técnico Legislativo só possuem autorização para agir quando a lei expressamente ordene ou autorize a conduta
 
+---
 
-![](../../../attachments/Pasted%20image%2020260617085821.png)
+![](../../../attachments/Pasted%20image%2020260618082308.png)
 ![](../../../attachments/Pasted%20image%2020260617085836.png)
 
 A) **Recondução** é uma forma de provimento derivado. Trata-se do retorno de um servidor público estável ao cargo que ele ocupava anteriormente.
@@ -207,7 +208,7 @@ D) nos casos de condenação por ato de improbidade que importa em enriqueciment
 
 
 ![](../../../attachments/Pasted%20image%2020260617100522.png)
-O princípio da Segurança Jurídica blinda o ordenamento e as relações sociais contra sobressaltos e mudanças bruscas de entendimento da máquina pública. Ele proíbe que novas interpretações de normas administrativas ou sanções retroajam para desconstituir situações jurídicas passadas consolidadas.
+B) O princípio da Segurança Jurídica blinda o ordenamento e as relações sociais contra sobressaltos e mudanças bruscas de entendimento da máquina pública. Ele proíbe que novas interpretações de normas administrativas ou sanções retroajam para desconstituir situações jurídicas passadas consolidadas.
 
 
 ![](../../../attachments/Pasted%20image%2020260617100929.png)
