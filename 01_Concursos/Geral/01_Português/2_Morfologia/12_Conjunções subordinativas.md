@@ -14,6 +14,78 @@ Não indicam circunstâncias. Introduzem orações que funcionam como substantiv
 ![400](../../../../attachments/Pasted%20image%2020260618142617.png)
  
 
+#### **QUE: Conjunção integrante VS pronomes**
+
+O **pronome relativo** retoma um substantivo citado anteriormente. Para confirmar se o "que" é um pronome relativo, substitua-o por **"o qual"**/ **"a qual"**
+    
+- O relatório **que** enviou está completo -> O relatório **o qual** enviou está completo.
+
+O **pronome indefinido** acompanha ou substitui um substantivo de maneira vaga, imprecisa. Você pode tentar substituir por **quanto(a)** ou **qual**
+
+- **Que** dia produtivo! -> **Quanta** produtividade!
+- **Que** livro você está lendo? -> **Qual** livro você está lendo?.
+- Sei **que** verdade esconde ->  Sei **qual** verdade esconde.
+
+
+Os alunos pediram que a data da entrega fosse alterada.
+
+**Questão 2.** Classifique a palavra "que" na seguinte frase:
+
+"O computador que comprei apresentou defeito."
+
+**Questão 3.** Classifique a palavra "que" na seguinte frase:
+
+"Que situação constrangedora!"
+
+### Nível Médio
+
+**Questão 4.** Identifique a classificação morfológica do "que" na frase abaixo:
+
+"É imprescindível que os documentos sejam assinados até amanhã."
+
+**Questão 5.** Identifique a classificação morfológica do "que" na frase abaixo:
+
+"As metodologias de desenvolvimento que aplicamos no projeto garantiram a estabilidade do sistema."
+
+**Questão 6.** Identifique a classificação morfológica do "que" na frase abaixo:
+
+"Gostaria de saber que medidas serão tomadas pela diretoria."
+
+### Nível Difícil
+
+**Questão 7.** Na frase "O fato é que a proposta que apresentamos ao cliente foi rejeitada", temos duas ocorrências da palavra "que". Classifique cada uma delas, respectivamente.
+
+**Questão 8.** Analise o período a seguir: "Que triste constatar que os valores que a empresa defendia foram esquecidos."
+
+Classifique a função morfológica da palavra "que" em sua primeira, segunda e terceira ocorrência, respectivamente.
+
+### Gabarito e Resoluções
+
+- **Questão 1:** Conjunção Integrante. (Os alunos pediram _isso_).
+    
+- **Questão 2:** Pronome Relativo. (O computador _o qual_ comprei apresentou defeito).
+    
+- **Questão 3:** Pronome Indefinido. (Frase exclamativa expressando intensidade; equivale a "quanta situação").
+    
+- **Questão 4:** Conjunção Integrante. (É imprescindível _isso_).
+    
+- **Questão 5:** Pronome Relativo. (As metodologias de desenvolvimento _as quais_ aplicamos...).
+    
+- **Questão 6:** Pronome Indefinido. (Frase interrogativa indireta, acompanhando o substantivo "medidas"; equivale a "quais medidas").
+    
+- **Questão 7:**
+    
+    - 1º "que": Conjunção Integrante. (O fato é _isso_).
+        
+    - 2º "que": Pronome Relativo. (...a proposta _a qual_ apresentamos...).
+        
+- **Questão 8:**
+    
+    - 1º "que": Advérbio de intensidade (Exceção à regra geral dos pronomes para aprofundamento: quando o "que" acompanha um adjetivo, como "triste", ele atua como advérbio, equivalendo a "quão triste").
+        
+    - 2º "que": Conjunção Integrante. (...constatar _isso_).
+        
+    - 3º "que": Pronome Relativo. (...os valores _os quais_ a empresa defendia...).
 
 #### **2. Causais**
 Indicam a cau sa ou motivo da ação da oração principal.
