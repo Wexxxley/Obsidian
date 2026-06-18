@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 As conjunções coordenativas ligam orações sintaticamente independentes. Isso significa que as orações conectadas possuem sentido completo por si mesmas.
