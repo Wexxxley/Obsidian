@@ -57,6 +57,7 @@ C) Note que APESAR DE é uma locução prepositiva com valor de concessão
 A) note que foi trocado uma preposição com valor de concessão por uma locução prepositva com valor de concessão
 
 ![](../../../../attachments/Pasted%20image%2020260619141059.png)
+![](../../../../attachments/Pasted%20image%2020260619142842.png)
 
 #### **3. Adverbial Condicionais**
 Expressam uma condição/hipótese necessária para que a ação principal ocorra.
@@ -79,47 +80,15 @@ B
 ![](../../../../attachments/Pasted%20image%2020260619140639.png)
 B CONSOANTE
 
-#### **2. Adverbial Causais**
-Indicam a cau sa ou motivo da ação da oração principal.
-    
-    - _Principais:_ **porque**, **pois**, **como**, **visto que**, **já que**.
-        
-    - _Exemplo:_ "Não fui à escola **porque** estava doente."
-        
-3. **Adverbial Comparativas**: Estabelecem uma comparação com a oração principal.
-    
-    - _Principais:_ **como**, **mais/menos... que**, **tal qual**, **que nem**.
-        
-    - _Exemplo:_ "Ele dorme **como** um urso."
+#### **5. Adverbial Finais**
+Indicam a finalidade ou objetivo da ação principal.
 
-        
-7. **Adverbial Consecutivas**: Expressam a consequência ou efeito do que foi dito na oração principal (geralmente após termos intensivos como _tão_, _tanto_, _tal_).
-    
-    - _Principais:_ **que** (precedido de tal/tão/tanto), **de modo que**, **de forma que**.
-        
-    - _Exemplo:_ "Gritou tanto **que** ficou rouco."
-        
-8. **Adverbial Finais**: Indicam a finalidade ou objetivo da ação principal.
-    
-    - _Principais:_ **para que**, **a fim de que**, **que**.
-        
-    - _Exemplo:_ "Estudou muito **para que** pudesse passar."
+- para que, a fim de que, que, porque.
+- Estudou muito **para que** pudesse passar.
 
-![](../../../../attachments/Pasted%20image%2020260619080417.png)
-![](../../../../attachments/Pasted%20image%2020260619080749.png)
-c
+![](../../../../attachments/Pasted%20image%2020260619143520.png)
+C) PARA preposição com valor smeantico de finalidade
 
-
-
-9. **Adverbial Proporcionais**: Indicam uma relação de proporção ou simultaneidade progressiva.
-    
-    - _Principais:_ **à medida que**, **à proporção que**, **quanto mais... mais**, **quanto menos... menos**.
-        
-    - _Exemplo:_ "**À medida que** o tempo passa, aprendemos mais."
-        
-10. **Adverbial Temporais**: Indicam o momento ou circunstância de tempo em que ocorre a ação principal.
-    
-    - _Principais:_ **quando**, **enquanto**, **assim que**, **logo que**, **desde que**, **antes que**, **depois que**.
-        
-    - _Exemplo:_ "**Quando** você chegar, me avise."
-      
+![](../../../../attachments/Pasted%20image%2020260619143747.png)
+![](../../../../attachments/Pasted%20image%2020260619143644.png)
+A) Esse para nao traz ideia de finalidade.
