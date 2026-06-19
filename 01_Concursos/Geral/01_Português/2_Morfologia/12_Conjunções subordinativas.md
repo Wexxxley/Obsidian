@@ -13,18 +13,23 @@ Não indicam circunstâncias. Introduzem orações que funcionam como substantiv
 - que, se.
 ![400](../../../../attachments/Pasted%20image%2020260618142617.png)
  
-
 #### **QUE: Conjunção integrante VS pronomes**
 
 O **pronome relativo** retoma um substantivo citado anteriormente. Para confirmar se o "que" é um pronome relativo, substitua-o por **"o qual"**/ **"a qual"**
-    
 - O relatório **que** enviou está completo -> O relatório **o qual** enviou está completo.
 
 O **pronome indefinido** acompanha ou substitui um substantivo de maneira vaga, imprecisa. Você pode tentar substituir por **quanto(a)** ou **qual**
-
 - **Que** dia produtivo! -> **Quanta** produtividade!
 - **Que** livro você está lendo? -> **Qual** livro você está lendo?.
 - Sei **que** verdade esconde ->  Sei **qual** verdade esconde.
+
+![](../../../../attachments/Pasted%20image%2020260619080117.png)
+A)
+
+![](../../../../attachments/Pasted%20image%2020260619080343.png)
+B)
+
+![](../../../../attachments/Pasted%20image%2020260619080417.png)
 
 
 #### **2. Causais**
