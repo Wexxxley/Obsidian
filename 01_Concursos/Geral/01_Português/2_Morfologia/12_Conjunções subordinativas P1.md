@@ -5,8 +5,9 @@
 As **conjunções subordinativas** são palavras invariáveis que ligam duas orações, tornando uma delas dependente sintaticamente da outra (oração subordinada). 
 
 ![500](../../../../attachments/Pasted%20image%2020260618140504.png)
-
 As conjunções subordinativas subdividem-se em **integrantes**(não indicam circunstâncias) e **adverbiais**(indicam circunstâncias)
+
+- As conjunções asverbiasi são 9: Concessiva, Condicional, Conformativa, Comparativa, Causal, Consecutiva, Final, Temporal, Proporcional. **6C+FTP**
 
 #### **1. Integrantes**
 Não indicam circunstâncias. Introduzem orações que funcionam como substantivos.
