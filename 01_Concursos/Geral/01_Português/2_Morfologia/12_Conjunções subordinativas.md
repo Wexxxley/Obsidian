@@ -56,14 +56,28 @@ C) Note que APESAR DE é uma locução prepositiva com valor de concessão
 ![](../../../../attachments/Pasted%20image%2020260619085021.png)
 A) note que foi trocado uma preposição com valor de concessão por uma locução prepositva com valor de concessão
 
+![](../../../../attachments/Pasted%20image%2020260619141059.png)
+
 #### **3. Adverbial Condicionais**
 Expressam uma condição/hipótese necessária para que a ação principal ocorra.
 - se, caso, contanto que, desde que(pode ser temporal), a menos que.
 - Se estudar, passará na prova.
 ![300](../../../../attachments/Pasted%20image%2020260619135600.png)
 
+![](../../../../attachments/Pasted%20image%2020260619140006.png)
+B) DESDE QUE 
 
+#### **4. Adverbial Conformativas**
+Indicam conformidade, acordo ou modo como algo acontece.
+- conforme, segundo, como, consoante.
+- Tudo ocorreu **conforme** o planejado.
+- Arrume a exposição **segundo** as ordens do professor
 
+![](../../../../attachments/Pasted%20image%2020260619140435.png)
+B
+
+![](../../../../attachments/Pasted%20image%2020260619140639.png)
+B CONSOANTE
 
 #### **2. Adverbial Causais**
 Indicam a cau sa ou motivo da ação da oração principal.
@@ -77,13 +91,7 @@ Indicam a cau sa ou motivo da ação da oração principal.
     - _Principais:_ **como**, **mais/menos... que**, **tal qual**, **que nem**.
         
     - _Exemplo:_ "Ele dorme **como** um urso."
-    
-        
-6. **Adverbial Conformativas**: Indicam conformidade, acordo ou modo como algo acontece.
-    
-    - _Principais:_ **conforme**, **segundo**, **como**, **consoante**.
-        
-    - _Exemplo:_ "Tudo ocorreu **conforme** o planejado."
+
         
 7. **Adverbial Consecutivas**: Expressam a consequência ou efeito do que foi dito na oração principal (geralmente após termos intensivos como _tão_, _tanto_, _tal_).
     
