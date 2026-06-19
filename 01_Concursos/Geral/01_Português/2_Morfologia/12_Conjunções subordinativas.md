@@ -34,12 +34,36 @@ B)
 #### **2. Adverbial Concessivas**
 Indicam uma concessão(excessão), um ideia contrária à da oração principal, sem impedir sua realização.
 - embora, ainda que, mesmo que, se bem que, conquanto, posto que.
-- O verbo sempre vem no subjuntivo.
+- O verbo sempre vem no **subjuntivo**.
 
 ![](../../../../attachments/Pasted%20image%2020260619083305.png)
 Note a semelhança entre concessivas e adversativas:
-- Na adversativa, a enfase é na frase em que ela está: Chovia, porém foi a praia.
-- Na concessiva é enfase é na outra frase: Embora chovesse, foi à prai
+- Na adversativa, a ênfase é na frase em que ela está: Chovia, porém foi a praia.
+- Na concessiva é ênfase é na outra frase: Embora chovesse, foi à prai.
+![](../../../../attachments/Pasted%20image%2020260619083659.png)
+
+![](../../../../attachments/Pasted%20image%2020260619083844.png)
+E
+
+![](../../../../attachments/Pasted%20image%2020260619084017.png)
+![](../../../../attachments/Pasted%20image%2020260619084037.png)
+C
+
+![](../../../../attachments/Pasted%20image%2020260619084323.png)
+C) Note que APESAR DE é uma locução prepositiva com valor de concessão
+
+![](../../../../attachments/Pasted%20image%2020260619085005.png)
+![](../../../../attachments/Pasted%20image%2020260619085021.png)
+A) note que foi trocado uma preposição com valor de concessão por uma locução prepositva com valor de concessão
+
+#### **3. Adverbial Condicionais**
+Expressam uma condição/hipótese necessária para que a ação principal ocorra.
+- se, caso, contanto que, desde que(pode ser temporal), a menos que.
+- Se estudar, passará na prova.
+![300](../../../../attachments/Pasted%20image%2020260619135600.png)
+
+
+
 
 #### **2. Adverbial Causais**
 Indicam a cau sa ou motivo da ação da oração principal.
@@ -53,13 +77,7 @@ Indicam a cau sa ou motivo da ação da oração principal.
     - _Principais:_ **como**, **mais/menos... que**, **tal qual**, **que nem**.
         
     - _Exemplo:_ "Ele dorme **como** um urso."
-     
-        
-5. **Adverbial Condicionais**: Expressam uma condição necessária para que a ação principal ocorra.
     
-    - _Principais:_ **se**, **caso**, **contanto que**, **desde que**, **a menos que**.
-        
-    - _Exemplo:_ "**Se** estudar, passará na prova."
         
 6. **Adverbial Conformativas**: Indicam conformidade, acordo ou modo como algo acontece.
     
