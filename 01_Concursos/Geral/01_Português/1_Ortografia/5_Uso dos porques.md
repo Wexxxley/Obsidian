@@ -7,9 +7,7 @@ Quando vier antecedido de artigo, pronome ou numeral.
 - Eu tenho o meu porquê. (pronome possessivo)
 - Eu tenho dois porquês de estar aqui (Numeral).
 
----
 #### **2. Por que**
-
 Ele pode ser:
 
 **Pronome relativo**: Pode ser substituido por outro, como: pelo qual, qual.
@@ -31,8 +29,20 @@ Para facilitar você pode passar a frase para interrogativa direta.
 **Advérbio interrogativo:**
 - Por que vocês não foram a festa?
 
----
 #### **3. Por quê**
 
-É um advérbio interrogativo sempre ao final da interrogativa. Cuidado, não é no final do período.
-- Não vão à festa, por quê?
+É um advérbio interrogativo sempre ao final da interrogativa. Cuidado, não é no final do período. Ele é usado em pausas, tanto na escrita como na fala.
+![](../../../../attachments/Pasted%20image%2020260620100517.png)
+
+#### **4. Porque**
+É uma conjunção. E pode ser
+
+**Causal**: Ela foi elogiada porque chegou cedo ao trabalho.
+**Explicativa**: Cheguei cedo, porque temos muito trabalho
+**Final**: Siga o regulamento, porque(para que) tudo funcione como o esperado
+
+---
+
+
+
+
