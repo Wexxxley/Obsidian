@@ -38,14 +38,25 @@ B)
 ---
 ### 2. Estrutura Organizacional da ALECE
 
-- **Diretoria Geral:** Órgão central de coordenação administrativa. A sua função é macro: planejar, dirigir e controlar todas as atividades de apoio. Recebe as decisões tomadas pela Mesa Diretora e as converte em comandos para a burocracia interna executar.
+- **Diretoria Geral:** Responsável pela coordenação geral macro da instituição. Sua função crítica é supervisionar, planejar e integrar as ações de todas as demais diretorias técnicas da máquina administrativa, atuando como o elo de comunicação e subordinação com a Mesa Diretora.
     
 - **Diretoria Legislativa:** Responsável pela "**atividade-fim**" da instituição. A atividade-fim é a razão principal de existir do órgão público, no caso da Assembleia, é o processo de elaboração de leis. 
 	Esta diretoria presta o suporte técnico direto às sessões do Plenário e às reuniões das Comissões. É o setor que recebe os projetos de lei, realiza a contagem dos prazos previstos no regimento, publica o Diário Oficial Legislativo e gere os sistemas eletrônicos de tramitação.
     
 - **Diretoria Administrativa e Financeira:** É o setor responsável pela "**atividade-meio**" da instituição. A atividade-meio engloba as funções de suporte necessárias para que o órgão funcione fisicamente e financeiramente. Esta diretoria executa os processos de licitação (procedimento formal e obrigatório para que o poder público compre bens ou contrate serviços), gerencia os pagamentos de fornecedores, cuida da contabilidade, do controle do patrimônio, do transporte e da manutenção dos prédios da Assembleia.
     
-- **Diretoria de Recursos Humanos:** É a diretoria encarregada da vida funcional e burocrática dos servidores (tanto os efetivos, aprovados em concurso, quanto os comissionados). As suas responsabilidades incluem o processamento da folha de pagamento dos salários, o controle de frequência (assiduidade), a formalização de férias e licenças, a execução das progressões salariais previstas no Plano de Cargos, Carreira e Remuneração (PCCR) e a organização das avaliações do estágio probatório.
+- **Diretoria de Recursos Humanos:** Focada exclusivamente na gestão de pessoas. Coordenar a folha de pagamento, registros de ponto eletrônico (frequência), férias, licenças e as avaliações de desempenho do estágio probatório dos técnicos e analistas. 
+    
+- **Controladoria Geral Interna:** Unidade de fiscalização e auditoria. Exerce o controle interno contábil, financeiro, orçamentário e patrimonial da ALECE, tendo como missão principal fiscalizar a legalidade dos gastos e a correta aplicação das verbas.
+    
+- **Procuradoria Geral da Assembleia:** Responsável pela assessoria jurídica exclusiva do órgão. Emite pareceres jurídicos sobre contratos administrativos, defende a ALECE judicialmente e presta assessoramento à Mesa Diretora em processos legais.
+
+![](../../../attachments/Pasted%20image%2020260621182926.png)
+C)
+
+![](../../../attachments/Pasted%20image%2020260621183015.png)
+B) 
+
 
 
 ![400](../../../attachments/Pasted%20image%2020260615100427.png)

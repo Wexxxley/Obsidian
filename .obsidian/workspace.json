@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/03_Legislação e ética no serviço público/14_BANCADAS,LIDERANÇAS E BLOCOS PARLAMENTARES.md",
+                "file": "01_Concursos/Geral/03_Legislação e ética no serviço público/1_Lei Geral de Proteção de Dados.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14_BANCADAS,LIDERANÇAS E BLOCOS PARLAMENTARES"
+              "title": "1_Lei Geral de Proteção de Dados"
+            }
+          },
+          {
+            "id": "eb6b27068a23842d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_Concursos/Geral/03_Legislação e ética no serviço público/1_Lei Geral de Proteção de Dados.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1_Lei Geral de Proteção de Dados"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -118,7 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 514.0110359191895
+    "width": 261.01103591918945
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -221,15 +235,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "304f598bc7f418c7",
+  "active": "eb6b27068a23842d",
   "lastOpenFiles": [
-    "01_Concursos/Geral/03_Legislação e ética no serviço público/12_Estrutura e Comissões do poder Legislativo Estadual.md",
-    "01_Concursos/Geral/03_Legislação e ética no serviço público/14_BANCADAS,LIDERANÇAS E BLOCOS PARLAMENTARES.md",
-    "01_Concursos/Geral/03_Legislação e ética no serviço público/13_Eleição, competências, sessões e ética da ALECE.md",
+    "Untitled 1.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/1_Lei Geral de Proteção de Dados.md",
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/12_Estrutura e Comissões do poder Legislativo Estadual.md",
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/14_Bancadas, lideranças e blocos parlamentares.md",
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/13_Eleição, competências, sessões e ética da ALECE.md",
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/5_Princípios da administração pública.md",
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/3_Ética na administração pública.md",
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/2_Lei de Acesso à Informação.md",
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/8_Plano Cargos, Carreira e Remuneração e Organização da ALECE.md",
+    "attachments/Pasted image 20260621183015.png",
+    "attachments/Pasted image 20260621182926.png",
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/7_Estatuto dos funcionários público civis do ceará.md",
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/9_Código de ética dos servidores da ALECE.md",
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/10_Salário e aposentadoria.md",
+    "attachments/Pasted image 20260621181913.png",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/6_Regimento interno ALECE.md",
     "attachments/Pasted image 20260621141712.png",
-    "01_Concursos/Geral/03_Legislação e ética no serviço público/10_Salário e aposentadoria.md",
     "attachments/Pasted image 20260621134751.png",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/11_Questões.md",
     "01_Concursos/Geral/01_Português/1_Ortografia/5_Uso dos porques.md",
@@ -240,9 +264,6 @@
     "attachments/Pasted image 20260621083546.png",
     "attachments/Pasted image 20260621080941.png",
     "attachments/Pasted image 20260621075311.png",
-    "attachments/Pasted image 20260621075148.png",
-    "attachments/Pasted image 20260621074208.png",
-    "attachments/Pasted image 20260621073101.png",
     "01_Concursos/Conteudos ALECE Técnico legislativo.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/13_Conjunções subordinativas P2.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/14_Uso do QUE.md",
@@ -252,13 +273,6 @@
     "07_CadeirasFaculdade/14_Algebra Linear e CG (Cadeira)/18_Teorema de tales e semelhança de triângulos.md",
     "Untitled.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/4_Pronome relativo, indefinido e interrogativo.md",
-    "01_Concursos/Geral/01_Português/2_Morfologia/5_Pronome demonstrativo.md",
-    "01_Concursos/Geral/01_Português/2_Morfologia/8_Verbo e advérbio.md",
-    "01_Concursos/Geral/03_Legislação e ética no serviço público/7_Estatuto dos funcionários público civis do ceará.md",
-    "01_Concursos/Geral/03_Legislação e ética no serviço público/5_Princípios da administração pública.md",
-    "01_Concursos/Geral/03_Legislação e ética no serviço público/4_Papel do servidor público.md",
-    "01_Concursos/Geral/03_Legislação e ética no serviço público/9_Código de ética dos servidores da ALECE.md",
-    "01_Concursos/Geral/01_Português/4_Redação/4_Teses e repertórios.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público",
     "01_Concursos/Geral/01_Português/3_Interpretação de texto",
     "01_Concursos/TI",

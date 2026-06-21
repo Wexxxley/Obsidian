@@ -2,36 +2,31 @@
 #Concluded 
 
 ---
+### **1. LGPD**
 
-A Lei Geral de Proteção de Dados (LGPD) regula a coleta, o armazenamento, o tratamento e o compartilhamento de dados pessoais.
+A Lei Geral de Proteção de Dados (LGPD) **regula a coleta, o armazenamento, o tratamento e o compartilhamento de dados pessoais.**
 
-**Dado Pessoal**: Qualquer informação que permita identificar uma pessoa natural.
+**Dado Pessoal**: informação que permita identificar uma pessoa.
 - **Identificação direta**: ocorre por meio de identificadores unívocos, como CPF e RG.
-- **Identificação indireta**: ocorre quando um conjunto de informações, uma vez correlacionadas, possibilita a identificação. Como nome, endereço eletrônico ou cargo.
+- **Identificação indireta**: ocorre quando um conjunto de informações, possibilita a identificação. Como nome, endereço eletrônico ou cargo.
 
-**Dado Pessoal Sensível**: Exige uma camada de proteção superior, em virtude de seu alto potencial discriminatório ou de exposição da privacidade. 
-- Ex: origem étnica, convicções religiosas, opiniões políticas, filiação a sindicatos ou organizações de caráter filosófico e político, dados referentes à saúde, vida sexual, e dados genéticos ou biométricos. 
+**Dado Pessoal Sensível**: Exige uma camada de proteção superior. Origem étnica, convicções religiosas, filiação a sindicatos ou organizações de caráter filosófico e político, dados referentes à saúde, vida sexual, e dados genéticos ou biométricos. 
 
-**Dado Anonimizado**: Informação que, após passar por etapas de processamento, perdeu a capacidade de identificar a qual pessoa ele se refere. Para atingir esse status, os dados  são submetidos a técnicas como a supressão de identificadores, o mascaramento de caracteres ou a generalização de valores. 
-
-A importância desse conceito é a isenção legal. Como um dado anonimizado não identifica mais nenhuma pessoa, ele deixa de ser classificado legalmente como "Dado Pessoal". Consequentemente, **as regras e restrições da LGPD não se aplicam a ele**. 
-
----
+**Dado Anonimizado**: Informação que, após passar por etapas de processamento, perdeu a capacidade de identificar a qual pessoa ele se refere. Os dados são submetidos a técnicas como a supressão de identificadores, o mascaramento ou a generalização.	
+- A importância disso é a **isenção legal**. Como um dado anonimizado não identifica mais nenhuma pessoa, ele deixa de ser classificado legalmente como "Dado Pessoal". Consequentemente, as regras e restrições da LGPD não se aplicam a ele. 
 
 A legislação distribui as responsabilidades legais e operacionais por três figuras distintas:
 
-- **O Controlador:** Trata-se da entidade que detém o poder de decisão. É o Controlador quem define a finalidade do tratamento. Por exemplo, a Assembleia Legislativa do Estado do Ceará (ALECE) atua como Controladora dos dados dos seus cidadãos e servidores, pois é ela que determina as regras do processamento dessas informações.
+- **Controlador:** Trata-se da entidade que detém o poder de decisão e quem define a finalidade do tratamento. A ALECE atua como Controladora dos dados dos seus cidadãos e servidores, pois é ela que determina as regras de processamento.
     
-- **O Operador:** Corresponde à entidade que executa o tratamento dos dados, mas fá-lo estritamente em nome e sob as diretrizes do Controlador. O Operador não possui poder de decisão sobre a finalidade dos dados. Por exemplo, uma empresa de tecnologia contratada para processar a folha de vencimentos não decide o que fazer com os dados; apenas opera o sistema conforme instruções da ALECE.
+- **Operador:** Entidade que executa o tratamento dos dados, mas fá-lo em nome do Controlador. O Operador não possui poder de decisão sobre a finalidade dos dados. 
     
-- **O Encarregado (Data Protection Officer - DPO):** É o indivíduo designado para garantir a conformidade com a lei. A sua função é fazer a ponte entre o Controlador, os Titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD)
+- **Encarregado (Data Protection Officer):** Indivíduo designado para garantir a conformidade com a lei. Faz a ponte entre o Controlador, os Titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD)
 
 ---
-### Tratamento de dados na Administração Pública
+### **2. Tratamento de dados na Administração Pública**
 
-Para as entidades públicas, o consentimento do cidadão não é a única via legal e, na maioria das vezes, é dispensável. O Estado necessita de tratar dados para funcionar e prestar serviços, onde esse tratamento ocorre independentemente da autorização do indivíduo.
-
-O tratamento é considerado lícito quando o Controlador (neste caso, o órgão público) está legalmente obrigado a recolher e manter essas informações. O processamento de dados é permitido quando for estritamente necessário para a implementação de programas governamentais, serviços e políticas que estejam previamente estabelecidas em leis, regulamentos ou contratos.
+Para as entidades públicas, o consentimento do cidadão não é a única via legal. O Estado necessita de tratar dados para funcionar e prestar serviços, onde esse tratamento ocorre independentemente da autorização do indivíduo. O tratamento é considerado lícito quando o Controlador (neste caso, o órgão público) está legalmente obrigado a recolher e manter essas informações. O processamento de dados é permitido quando for estritamente necessário para a implementação de programas governamentais, serviços e políticas que estejam previamente estabelecidas em leis, regulamentos ou contratos.
 
 Permite-se a utilização de dados para fins de investigação académica ou estatística por entidades oficiais, exigindo-se a aplicação técnica da anonimização sempre que for possível, para proteger a identidade dos cidadãos.
 
