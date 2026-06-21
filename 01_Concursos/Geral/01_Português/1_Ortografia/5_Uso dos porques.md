@@ -43,6 +43,5 @@ Para facilitar você pode passar a frase para interrogativa direta.
 
 ---
 
-
-
+![](../../../../attachments/Pasted%20image%2020260621073101.png)
 
