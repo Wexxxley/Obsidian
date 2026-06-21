@@ -48,4 +48,8 @@ Para facilitar você pode passar a frase para interrogativa direta.
 ![](../../../../attachments/Pasted%20image%2020260621074208.png)
 
 ![](../../../../attachments/Pasted%20image%2020260621075311.png)
-![](../../../../attachments/Pasted%20image%2020260621080941.png)
+![](../../../../attachments/Pasted%20image%2020260621080941.png)![](../../../../attachments/Pasted%20image%2020260621083546.png)
+
+![](../../../../attachments/Pasted%20image%2020260621084446.png)
+
+![](../../../../attachments/Pasted%20image%2020260621084726.png)
