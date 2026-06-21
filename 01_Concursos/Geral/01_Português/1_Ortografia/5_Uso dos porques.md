@@ -45,3 +45,6 @@ Para facilitar você pode passar a frase para interrogativa direta.
 
 ![](../../../../attachments/Pasted%20image%2020260621073101.png)
 
+![](../../../../attachments/Pasted%20image%2020260621074208.png)
+
+![](../../../../attachments/Pasted%20image%2020260621075311.png)
