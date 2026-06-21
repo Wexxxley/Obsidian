@@ -15,31 +15,30 @@
 ![200](../../../attachments/Pasted%20image%2020260610153416.png)
 
 **O Número de Deputados:** A Constituição Federal estabelece uma regra matemática para definir o tamanho das Assembleias. O número de deputados estaduais será o triplo da representação do Estado na Câmara dos Deputados até atingir o limite de 36 cadeiras. A partir desse limite, soma-se apenas a diferença. 
-	
 - O Ceará possui 22 deputados federais: 12 x 3 = 36. Sobram 10. 36 + 10 = 46 Deputados Estaduais na ALECE.
 - Para tomar posse no cargo de Deputado Estadual, o candidato deve ter, no mínimo, 21 anos completos na data da posse.
 
 ### 2. Competências da Assembleia
 
-- **Competências com Sanção do Governador:** Referem-se a matérias que afetam a vida de todos os cidadãos ou o orçamento geral do Estado. Para que essas regras tenham validade, a ALECE aprova o projeto, mas ele precisa ser sancionado pelo Governador.
+- **Competências com Sanção do Governador:** Referem-se a matérias que afetam a vida de todos os cidadãos ou o orçamento geral do Estado. A ALECE aprova o projeto, mas ele precisa ser sancionado pelo Governador.
+    
     - **Ex:** Criação ou aumento de impostos estaduais, elaboração de leis orçamentárias, criação ou extinção de cargos públicos, definição dos salários dos servidores.
     
-	- **Lei Ordinária:** Instrumento mais comum do sistema legislativo. O seu grande diferencial prático é o quórum (número de votos) de aprovação: exige-se apenas a **maioria simples** (maioria dos votos dos deputados que estão presentes no plenário no momento da votação)
+	- **Lei Ordinária:** Instrumento mais comum. Exige-se apenas a **maioria simples**.
 	
-	- **Lei Complementar:** Serve para regulamentar e complementar matérias específicas e de alta relevância que a própria Constituição Estadual exigiu que fossem tratadas com  rigor. Exige **maioria absoluta**, primeiro número inteiro superior à metade de todos os membros da Assembleia, no caso da ALECE 24 votos favoráveis, independentemente de quantos deputados tenham faltado à sessão.
+	- **Lei Complementar:** Serve para regulamentar e complementar matérias específicas e de alta relevância que a própria Constituição Estadual exigiu que fossem tratadas com rigor. Exige **maioria absoluta**.
 
-- **Competências Exclusivas da ALECE:** Referem-se a atos de natureza puramente administrativa interna ou de fiscalização direta. Essas matérias são decididas unicamente pela Assembleia.
+- **Competências Exclusivas da ALECE:** Referem-se a atos de natureza puramente administrativa interna ou de fiscalização direta.
+    
     - **Ex:** Eleição da própria Mesa Diretora, elaboração do Regimento Interno, julgamento anual das contas prestadas pelo Governador e autorização para que processos judiciais sejam abertos contra o Governador ou o Vice.
 	
 	- **Resolução:** Instrumento utilizado para regular assuntos institucionais internos. Utiliza-se a Resolução para elaborar ou alterar o Regimento Interno, organizar a estrutura administrativa de cargos da ALECE ou definir regras de funcionamento das comissões parlamentares. 
     
-	- **Decreto Legislativo:** Instrumento utilizado para matérias de competência exclusiva da Assembleia, mas que produzem efeitos externos à Casa. Utiliza-se o Decreto Legislativo para concretizar a função fiscalizatória do parlamento, como o ato de aprovar ou rejeitar as contas anuais prestadas pelo Governador do Estado ou sustar (paralisar) atos do Executivo que exorbitem o poder regulamentar.
+	- **Decreto Legislativo:** Instrumento utilizado para matérias de competência exclusiva da Assembleia, mas que produzem efeitos externos à Casa. Utiliza-se o Decreto Legislativo para concretizar a função fiscalizatória do parlamento, como o ato de aprovar ou rejeitar as contas anuais prestadas pelo Governador do Estado ou sustar/paralisar atos do Executivo que exorbitem o poder regulamentar.
 
 #### **3. Tipos de Sessões Plenárias**
 
-O Plenário, que é o órgão máximo de deliberação composto por todos os deputados, reúne-se através de diferentes tipos de sessões, cada uma com finalidades e regras regimentais próprias:
-
-- **Sessão Ordinária:** É a sessão de rotina, realizada nos dias úteis fixados pelo Regimento. Ela possui uma estrutura dividida em fases obrigatórias: o Pequeno Expediente, o Grande Expediente, a Ordem do Dia (que é a fase exclusiva destinada às votações dos projetos) e a Explicação Pessoal.
+- **Sessão Ordinária:** É a sessão de rotina. Ela possui uma estrutura dividida em fases obrigatórias: **o Pequeno Expediente, o Grande Expediente, a Ordem do Dia** (que é a fase destinada às votações) e a **Explicação Pessoal**.
     
 - **Sessão Extraordinária:** É convocada para ocorrer em dias ou horários diferentes daqueles estabelecidos para as sessões ordinárias. A sua característica regimental mais importante é a exclusividade de pauta: ela destina-se unicamente à deliberação das matérias urgentes que motivaram a sua convocação.
 	- Quando os deputados são convocados para atuar em **Sessões Extraordinárias durante o período de recesso parlamentar**, não há o pagamento de qualquer tipo de indenização, bônus financeiro ou remuneração adicional. 

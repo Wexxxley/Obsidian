@@ -32,9 +32,11 @@ O Presidente atua como a autoridade máxima do Poder Legislativo Estadual, desem
 	2. Em situações de escrutínio secreto (**votação secreta)**.
 	3. Quando a aprovação de uma matéria exigir a contagem de um quórum qualificado, como a necessidade de maioria absoluta ou o voto favorável de dois terços dos parlamentares.
 
-#### **3. Plenário**
+#### **3. Plenário e votação**
 
 É integrado pela totalidade dos 46 Deputados Estaduais em pleno exercício de seus mandatos. O Plenário é responsável por aprovar projetos de lei, Propostas de Emenda à Constituição (PECs), analisar vetos governamentais e julgar as contas políticas do Poder Executivo. 
+
+**Propostas de Emenda à Constituição Estadual (PEC)**, uma vez aprovadas pelo Plenário, **não** são enviadas ao Governador do Estado para sanção ou veto. As Emendas à Constituição são promulgadas de forma direta pela própria Mesa Diretora. A participação do Poder Executivo, através da sanção do Governador, ocorre exclusivamente no processo de leis ordinárias e leis complementares. Além das emendas, a Mesa Diretora também é responsável por promulgar decretos legislativos e resoluções.
 
 - **Quórum de Presença:** É o número mínimo de deputados que devem estar presentes  para que a sessão seja aberta. O minimo é a metade.
     
@@ -44,9 +46,21 @@ O Presidente atua como a autoridade máxima do Poder Legislativo Estadual, desem
 		- **Maioria Absoluta:** Sendo 46 deputados, a metade é 23. Portanto, a maioria absoluta requer um mínimo de 24 votos favoráveis.
 		- **Dois Terços:** Exige que dois terços do total de 46 parlamentares sejam favoráveis. Isso resulta em um mínimo fixo de 31 votos favoráveis.
 
+Quanto as votações, elas podem ser:
+- **Votação Presencial:** Rito padrão. Exige que o parlamentar esteja fisicamente e registre sua presença e seu voto no terminal eletrônico de sua respectiva mesa.
+- **Votação Remota ou Híbrida:** Foi implementada em larga escala durante a pandemia. Atualmente, o modelo híbrido (onde alguns estão no Plenário e outros votam por aplicativo) é mantido, garantindo que deliberações ocorram mesmo quando os parlamentares estão em missões oficiais ou em trânsito de suas bases eleitorais para a capital.
 
-**Propostas de Emenda à Constituição Estadual (PEC)**, uma vez aprovadas pelo Plenário, **não** são enviadas ao Governador do Estado para sanção ou veto. As Emendas à Constituição são promulgadas de forma direta pela própria Mesa Diretora. A participação do Poder Executivo, através da sanção do Governador, ocorre exclusivamente no processo de leis ordinárias e leis complementares. Além das emendas, a Mesa Diretora também é responsável por promulgar decretos legislativos e resoluções.
+- **Votação Aberta:** É a regra geral. O voto de cada parlamentar (Sim, Não ou Abstenção) é registrado no painel eletrônico e publicado no Diário Oficial. 
+- **Votação Secreta (Escrutínio Secreto):** Ocorre apenas em casos especificados na legislação. Na votação secreta, o sistema eletrônico contabiliza  oculta a identidade de quem o proferiu. O objetivo é proteger a independência do parlamentar contra pressões externas, coações, chantagens de outros poderes ou retaliações.
+	- Geralmente, é utilizada em deliberações que envolvem pessoas e não leis. Os exemplos mais comuns incluem a eleição interna da Mesa Diretora da Casa, a escolha de conselheiros para o Tribunal de Contas, deliberação sobre a prisão e perda de mandato de outro parlamentar.
 
+- **Votação Nominal:** É aquela em que há a contabilização exata e individual de cada voto. O Presidente abre o painel eletrônico, cada deputado insere sua senha e aperta o botão correspondente.
+- **Votação Simbólica:** É um procedimento de rito sumário utilizado para matérias simples, pacíficas, de mero expediente burocrático ou que já possuem amplo acordo entre todos os partidos. O Presidente da sessão utiliza uma frase padronizada, como: _"Os deputados que aprovam a matéria permaneçam como se encontram"_. Quem é a favor fica em silêncio; quem é contra deve se levantar ou levantar a mão.
+
+Então, as votações podem ser:
+- **Votação Aberta, Nominal e Híbrida ou Presencial:** É o formato mais rigoroso e comum.
+- **Votação Aberta, Simbólica e Presencial:** Formato utilizado para dar celeridade a requerimentos simples.
+- **Votação Secreta e Presencial**
 ---
 
 ![](../../../attachments/Pasted%20image%2020260621134751.png)
@@ -96,5 +110,4 @@ As CPIs detêm poderes de **investigação** equiparados aos das autoridades jud
 - Ordenar operações de busca e apreensão domiciliar.
 
 ![](../../../attachments/Pasted%20image%2020260621141712.png)
-
-C
+C)
