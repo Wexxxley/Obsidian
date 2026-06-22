@@ -24,7 +24,7 @@ Refere-se ao conjunto de regras, costumes, tradições e tabus que orientam o co
 
 #### **6. Lei de Improbidade Administrativa**
 
-A lei divide os atos de improbidade em três categorias:
+Impobidade: Que não possui probidade; sem honestidade; falta de moralidade. A lei divide os atos de improbidade em três categorias:
 
 1. **Enriquecimento Ilícito:** Ocorre quando o servidor auferir qualquer tipo de vantagem patrimonial indevida, como receber propina.
     
