@@ -34,7 +34,7 @@ E)
 
 
 #### **3. Conjunções comparativas**
-Introduzem uma oração que expressa ideia de comparação com referência à oraçãi principal.
+Introduzem uma oração que expressa ideia de comparação com referência à oração principal.
 - Como, assim como, tal como, como se, tão... como, tanto como, tal, qual, tal qual, que, do que, tanto quanto.
 - O jogo de hoje será mais difícil **que/do que** o de ontem. Note que são duas orações e o segundo verbo (foi) veio implícito (elíptico).
 ![](../../../../attachments/Pasted%20image%2020260619191309.png)
@@ -80,3 +80,7 @@ C)
 
 
 ---
+
+![](../../../../attachments/Pasted%20image%2020260622124349.png)
+![](../../../../attachments/Pasted%20image%2020260622125651.png)
+![](../../../../attachments/Pasted%20image%2020260622130923.png)

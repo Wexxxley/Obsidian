@@ -95,3 +95,4 @@ C) PARA preposição com valor smeantico de finalidade
 ![](../../../../attachments/Pasted%20image%2020260619143747.png)
 ![](../../../../attachments/Pasted%20image%2020260619143644.png)
 A) Esse para nao traz ideia de finalidade.
+
