@@ -4,7 +4,7 @@
 ---
 ### **1. Estrutura inicial**
 
-Jetpack Compose é um kit de ferramentas para construir UI Android nativa. 
+Jetpack Compose é um **kit de ferramentas** para construir UI Android nativa. 
 
 Um **Composable** é uma função marcada com `@Composable`. Em vez de retornar um objeto, ela "emite" componentes na tela.
 ```kotlin
@@ -26,7 +26,6 @@ Esse é o codigo padrão quando você cria um novo projeto com jetpack component
 
 Versão com Scaffold e modifier
 ![570](../../../../attachments/Pasted%20image%2020260318071737.png)
-
 O **Scaffold** é um componente que implementa o layout visual básico do Material Design com espaços reservados para barras superiores, barras inferiores e botões flutuantes. 
 - Quando o Scaffold é desenhado, ele calcula o espaço ocupado por elementos como a TopAppBar. Para evitar que o seu conteúdo principal fique escondido sob essas barras, o `Scaffold` passa um objeto do tipo `PaddingValues` através de uma expressão lambda.
 
@@ -37,8 +36,6 @@ O **Modifier** é uma interface que representa uma coleção ordenada de element
 
 >[!tip]
 >**A ordem em que você encadeia os modificadores altera o resultado final**. Cada chamada de função no Modifier encapsula o componente subjacente em uma nova camada de restrições 
-
-Por exemplo, aplicar um padding e depois um background resultará em um fundo colorido que respeita a margem interna. Inverter a ordem, aplicando primeiro o `background` e depois o `padding`, fará com que a cor de fundo preencha todo o espaço externo e, em seguida, o conteúdo interno seja empurrado para o centro. 
 
 **Modificadores de Dimensão**
 - **`fillMaxSize()`, `fillMaxWidth()`, `fillMaxHeight()`:** Instruem o componente a consumir todo o espaço remanescente disponibilizado pelo seu contêiner pai.
