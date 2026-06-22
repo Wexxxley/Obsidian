@@ -59,7 +59,7 @@ A)
 B)CONCLUSÃO
 #### **5. Explicativas** 
 Expressam uma justificativa/explicação para a afirmação anterior.
-- porque, que, porquanto, pois, ou seja (na posição original, antes do verbo).
+- porque, que, porquanto, pois(na posição original, antes do verbo),  ou seja .
 
 ![](../../../../attachments/Pasted%20image%2020260617174325.png)
 
