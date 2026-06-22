@@ -6,19 +6,19 @@
 Embora seja uma lei de 1974, suas diretrizes gerais continuam em vigor, mas devem ser  interpretadas em conjunto com as atualizações trazidas pela Constituição de 1988.
 ### 1. Provimento de Cargos Públicos
 
-O **Provimento** é o ato na qual um cargo público vago é preenchido por uma pessoa. Ele se divide em duas categorias principais:
+O **Provimento** é o ato na qual um cargo público vago é preenchido por uma pessoa. 
 
 - **Provimento Original/Inicial:** Ocorre unicamente por meio da **Nomeação**. Não exige que a pessoa tenha qualquer vínculo anterior com a Administração Pública. Pode ocorrer mediante aprovação em concurso público (para efetivos) ou sem concurso (cargos em comissão, de livre nomeação e exoneração).
     
 - **Provimento Derivado:** Exige que o servidor já possua um vínculo anterior com a Administração Pública. As formas atuais e constitucionais de provimento derivado são:
     
-    - **Readaptação:** É a colocação do servidor em um novo cargo que possua atribuições e responsabilidades compatíveis com uma **limitação física ou mental que ele tenha sofrido.**
+    - **Readaptação:** É a colocação do servidor em um novo cargo compatível com uma **limitação física ou mental que ele tenha sofrido.**
         
     - **Reversão:** É o retorno ao serviço do servidor que havia sido aposentado por invalidez. Isso ocorre quando uma junta médica reavalia o servidor.
         
-    - **Reintegração:** É o retorno do servidor que foi demitido de forma ilegal. Ao ser reintegrado, o servidor tem direito ao ressarcimento integral de todas as vantagens e vencimentos (salários) que deixou de receber.
+    - **Reintegração:** Retorno do servidor demitido de forma ilegal. Ao ser reintegrado, o servidor tem direito ao ressarcimento de todas as vantagens e vencimentos.
         
-    - **Aproveitamento:** É o retorno de um servidor que estava em "disponibilidade" (sem trabalhar, recebendo remuneração proporcional porque seu órgão ou cargo foi extinto) ao serviço ativo. 
+    - **Aproveitamento:** Retorno de um servidor que estava em "disponibilidade" (sem trabalhar, recebendo remuneração proporcional porque seu órgão ou cargo foi extinto) ao serviço ativo. 
     
 	- **Recondução**: Trata-se do retorno de um servidor ESTÁVEL ao cargo que ele ocupava anteriormente. Ocorre em duas situações:
 		- **Inabilitação ou desistência em estágio probatório de outro cargo:** O servidor passa em um novo concurso, assume o novo cargo, mas não é aprovado no estágio probatório ou desiste.
@@ -27,6 +27,7 @@ O **Provimento** é o ato na qual um cargo público vago é preenchido por uma p
 ### 2. Vacância de Cargos Públicos
 
 A **Vacância** é o ato administrativo que gera a desocupação de um cargo público, rompendo o vínculo do servidor com aquela vaga:
+    
 - **Exoneração:** É o rompimento do vínculo **sem caráter punitivo**. Pode ocorrer a pedido do próprio servidor ou pela Administração Pública em casos autorizados em lei, como, quando o servidor não é aprovado na avaliação do estágio probatório.
     
 - **Demissão:** É o rompimento do vínculo funcional **com caráter de penalidade disciplinar gravíssima**. Ela ocorre exclusivamente quando o servidor pratica infrações ou faltas graves previstas na legislação.
@@ -34,19 +35,18 @@ A **Vacância** é o ato administrativo que gera a desocupação de um cargo pú
 **Quarentena**: período de restrição imposto por lei a determinados ex-agentes públicos logo após eles deixarem o cargo (seja por exoneração, demissão ou aposentadoria). Durante esse período (que varia conforme a legislação específica), o ex-servidor fica **proibido de atuar na iniciativa privada em áreas que gerem conflito de interesses** com a função pública que ele exercia.
 ### 3. Movimentações 
 
-**1. Remoção (interna)**: O servidor muda de cidade, de secretaria, de departamento ou de sala, mas continua pertencendo ao mesmo quadro de pessoal e ocupando exatamente o mesmo cargo. 
+**1. Remoção (interna)**: O servidor muda de cidade, de secretaria, de departamento, mas continua pertencendo ao mesmo quadro de pessoal e ocupando o mesmo cargo. 
 - **De ofício:** Quando o Estado obriga o servidor a mudar.
 - **A pedido, a critério da Administração:** Quando o servidor solicita a mudança, mas o Estado só autoriza se for conveniente.
-- **A pedido, independente da Administração:** Ocorre em casos específicos, onde o Estado é obrigado a aceitar (ex: acompanhar o cônjuge que também é servidor e foi transferido de ofício).
+- **A pedido, independente da Administração:** Ocorre em casos específicos (ex: acompanhar o cônjuge que também é servidor e foi transferido de ofício).
 
-**2. Redistribuição**: Deslocamento do cargo, que pode estar ocupado ou vago. A vaga é retirada do quadro de um órgão e inserida no quadro de outro órgão ou entidade do mesmo Poder.
+**2. Redistribuição**: Deslocamento do cargo, que pode estar ocupado ou vago. A vaga é retirada do quadro de um órgão e inserida no quadro de outro órgão.
 
-**3. Cessão (externo)**: A cessão é o ato pelo qual um servidor é "emprestado" temporariamente para outro órgão ou entidade. O servidor cedido mantém o vínculo com o seu cargo original. Ele não perde a sua vaga, apenas fica afastado de suas atribuições regulares na origem enquanto durar o período de empréstimo.
+**3. Cessão (externo)**: A cessão é o ato pelo qual um servidor é "emprestado" temporariamente para outro órgão ou entidade. O servidor cedido mantém o vínculo com o seu cargo original. Ele não perde a sua vaga, apenas fica afastado.
 
-**4. A Permuta**: A permuta é uma espécie de movimentação que ocorre mediante a troca de locais de trabalho entre dois servidores que ocupam exatamente o mesmo cargo ou cargos da mesma carreira. É um acordo bilateral. Contudo, a efetivação da permuta não é um direito absoluto; ela depende da análise de conveniência da Administração Pública, que deve autorizar a troca.
+**4. A Permuta**: Movimentação que ocorre mediante a troca de locais de trabalho entre dois servidores que ocupam o mesmo cargo ou cargos da mesma carreira. É um acordo bilateral. Contudo, a efetivação da permuta não é um direito absoluto; ela depende da análise de conveniência da Administração Pública, que deve autorizar a troca.
 
 **5. A Substituição (interno)**: Ocorre quando um servidor é designado para exercer as atribuições de um cargo em comissão ou função de direção/chefia porque o titular oficial está temporariamente afastado.    
-
 
 ### 4. Estágio Probatório e Estabilidade
 

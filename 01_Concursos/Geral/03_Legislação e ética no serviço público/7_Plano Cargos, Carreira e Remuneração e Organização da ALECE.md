@@ -51,6 +51,8 @@ B)
     
 - **Procuradoria Geral da Assembleia:** Responsável pela assessoria jurídica exclusiva do órgão. Emite pareceres jurídicos sobre contratos administrativos, defende a ALECE judicialmente e presta assessoramento à Mesa Diretora em processos legais.
 
+ A **Controladoria** atua como órgão de controle interno, focada na fiscalização administrativa, financeira e patrimonial para garantir eficiência, transparência e integridade dos atos públicos. Já a **Procuradoria** é o órgão de assessoramento jurídico, responsável pela defesa judicial e extrajudicial do ente público.
+
 ![](../../../attachments/Pasted%20image%2020260621182926.png)
 C)
 

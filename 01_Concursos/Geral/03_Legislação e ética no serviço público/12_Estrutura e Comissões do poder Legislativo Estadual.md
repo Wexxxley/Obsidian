@@ -12,25 +12,25 @@ A ALECE possui autonomia funcional, administrativa e financeira, não sendo subo
 #### **1. Mesa Diretora**
 A Mesa Diretora caracteriza-se como um órgão colegiado diretivo. O termo "colegiado" significa que as decisões são tomadas em conjunto por um grupo de pessoas, e não por um único indivíduo. Sua função primária é conduzir os trabalhos legislativos e a gestão administrativa interna da Assembleia.
 
-- **Composição:** 7 membros titulares, sendo eles o Presidente, o 1º e o 2º Vice-Presidentes, além do 1º, 2º, 3º e 4º Secretários. Existem também os vogais/suplentes, que assumem a função na ausência dos titulares. A eleição dos membros deve  observar o princípio da proporcionalidade partidária.
+- **Composição:** 7 membros titulares, sendo eles o Presidente, o 1º e o 2º Vice-Presidentes, além do 1º, 2º, 3º e 4º Secretários. Existem também os **vogais/suplentes**, que assumem a função na ausência dos titulares. A eleição dos membros deve  observar o princípio da proporcionalidade partidária.
     
 - **Mandato:** Os membros exercem um mandato de 2 anos. É permitida a reeleição para os mesmos cargos de forma consecutiva, seja dentro da mesma legislatura ou na subsequente.
     
 - **Atribuições Administrativas e Legislativas:**
-    - Apresentar projetos de lei focados na estrutura interna da ALECE, como a criação, transformação ou extinção de cargos, bem como a fixação de suas remunerações.        
-    - Promulgar (atestar oficialmente a existência e ordenar a publicação e o cumprimento) Emendas à Constituição Estadual, Resoluções e Decretos Legislativos elaborados pela Casa.
+    - Apresentar projetos de lei focados na estrutura interna da ALECE, como a criação, transformação ou extinção de cargos e a fixação de suas remunerações.  
+    - **Promulgar** (atestar oficialmente a existência e ordenar a publicação e o cumprimento) Emendas à Constituição Estadual, Resoluções e Decretos Legislativos elaborados pela Casa.
     - Elaborar e apresentar o relatório financeiro consolidado e a prestação de contas anual do parlamento.
 
 #### **2. Presidência**
 
 O Presidente atua como a autoridade máxima do Poder Legislativo Estadual, desempenhando o papel de representação da Assembleia tanto no âmbito interno quanto no externo. Diferentemente da Mesa Diretora, a Presidência tem caráter monocrático
 
-- **Funções:** Cabe ao Presidente convocar, abrir, presidir, suspender e encerrar as sessões plenárias. Ele também define a pauta de votações, conhecida como O**rdem do Dia**, após consultar o Colégio de Líderes. Compete-lhe assinar as correspondências externas oficiais da Casa.
-- **Linha de Sucessão Estadual:** No âmbito do Governo do Estado, o Presidente da ALECE figura como o sucessor imediato após o Vice-Governador, assumindo o poder executivo estadual na ausência ou impedimento do Governador e de seu vice.
+- **Funções:** Cabe ao Presidente convocar, abrir, presidir, suspender e encerrar as sessões plenárias. Ele também define a pauta de votações, conhecida como O**rdem do Dia**, após consultar o **Colégio de Líderes**. Compete-lhe assinar as correspondências externas oficiais da Casa.
+- **Sucessão Estadual:** No âmbito do Governo do Estado, o Presidente da ALECE figura como o sucessor imediato após o Vice-Governador, assumindo o poder executivo estadual na ausência ou impedimento do Governador e de seu vice.
 - **Voto do Presidente:** o Presidente da Assembleia não exerce o direito a voto nas deliberações ordinárias. As exceções são:
 	1. Para exercer o desempate em votações abertas (**VOTO DE QUALIDADE**).
 	2. Em situações de escrutínio secreto (**votação secreta)**.
-	3. Quando a aprovação de uma matéria exigir a contagem de um quórum qualificado, como a necessidade de maioria absoluta ou o voto favorável de dois terços dos parlamentares.
+	3. Quando a aprovação de uma matéria exigir a contagem de um quórum qualificado, como a necessidade de maioria absoluta ou o voto favorável de 2/3 dos parlamentares.
 
 #### **3. Plenário e votação**
 
