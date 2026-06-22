@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/4_Redação/1_Introdução.md",
+                "file": "01_Concursos/Geral/01_Português/2_Morfologia/13_Conjunções subordinativas P2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Introdução"
+              "title": "13_Conjunções subordinativas P2"
             }
           }
         ],
@@ -146,7 +146,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.01103591918945
+    "width": 371.01103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -251,10 +252,14 @@
   },
   "active": "7c5ab6f10e8f3c30",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/2_Morfologia/11_Conjunções coordenativas.md",
+    "01_Concursos/Geral/01_Português/2_Morfologia/12_Conjunções subordinativas P1.md",
+    "01_Concursos/Geral/01_Português/2_Morfologia/13_Conjunções subordinativas P2.md",
+    "01_Concursos/Geral/01_Português/2_Morfologia/14_Uso do QUE.md",
+    "01_Concursos/Geral/01_Português/4_Redação/4_Teses e repertórios.md",
+    "01_Concursos/Geral/01_Português/4_Redação/1_Introdução.md",
     "01_Concursos/Geral/01_Português/4_Redação/2_Desenvolvimento.md",
     "01_Concursos/Geral/01_Português/4_Redação/3_Conclusão.md",
-    "01_Concursos/Geral/01_Português/4_Redação/1_Introdução.md",
-    "01_Concursos/Geral/01_Português/4_Redação/4_Teses e repertórios.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/14_Bancadas, lideranças e blocos parlamentares.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/13_Eleição, competências, sessões e ética da ALECE.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/9_Estrutura e Comissões do poder Legislativo Estadual.md",
@@ -280,13 +285,9 @@
     "01_Concursos/Geral/01_Português/1_Ortografia/5_Uso dos porques.md",
     "attachments/Pasted image 20260621084726.png",
     "attachments/Pasted image 20260621084446.png",
-    "01_Concursos/Geral/01_Português/2_Morfologia/11_Conjunções coordenativas.md",
-    "01_Concursos/Geral/01_Português/2_Morfologia/12_Conjunções subordinativas P1.md",
     "attachments/Pasted image 20260621083546.png",
     "attachments/Pasted image 20260621080941.png",
     "attachments/Pasted image 20260621075311.png",
-    "01_Concursos/Conteudos ALECE Técnico legislativo.md",
-    "01_Concursos/Geral/01_Português/2_Morfologia/13_Conjunções subordinativas P2.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público",
     "01_Concursos/Geral/01_Português/3_Interpretação de texto",
     "01_Concursos/TI",

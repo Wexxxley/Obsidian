@@ -61,7 +61,7 @@ A Constituição Federal de 1988 assegura o direito à/ao **[direito]** a todos 
 - Para o sociólogo Émile Durkheim, a "socialização primária" — ocorrida na infância e no núcleo familiar — é definitiva para o desenvolvimento intelectual e social. Logo, falhas nessa etapa comprometem toda a conduta do indivíduo em sociedade.
 
 **2. Silenciamento / Falta de debates** <mark style="background: #FF5582A6;">CAUSA</mark>
-- Na "Teoria do Agir Comunicativo", o filósofo Jürgen Habermas defende que a democracia e a resolução de problemas exigem o consenso e o debate. Portanto, o silenciamento de pautas relevantes impede a elaboração de soluções sociais efetivas.
+- A filósofa Hannah Arendt, em sua obra 'A Condição Humana', afirma que é no espaço público e por intermédio do discurso que os indivíduos exercem a cidadania, sendo a deliberação coletiva o meio mais legítimo para transformar a realidade.
 
 **3. Alienação** <mark style="background: #FF5582A6;">CAUSA</mark>
 - Na obra "A Banalidade do Mal", a teórica Hannah Arendt postula que o mal se instaura quando os indivíduos abrem mão de sua capacidade reflexiva. Esse raciocínio explica como a massificação cega a sociedade, fazendo com que a população apenas reproduza condutas prejudiciais ao meio social.
@@ -71,7 +71,7 @@ A Constituição Federal de 1988 assegura o direito à/ao **[direito]** a todos 
 - O ministro da propaganda nazista, Joseph Goebbels, afirmava que uma mentira repetida mil vezes torna-se verdade. Esse raciocínio ilustra como a alienação coletiva pode ser fabricada pela manipulação constante da informação.
 
 **4. Passividade social** <mark style="background: #FF5582A6;">CAUSA</mark>
-- O autor J.R.R. Tolkien, em seu universo ficcional, delega a salvação de um mundo dominado por forças hostis às ações dos Hobbits, sujeitos comuns e marginalizados. Tal construção narrativa fundamenta a tese de que a mobilização civil e o engajamento da própria sociedade são, de fato, os motores primordiais para promover qualquer transformação estrutural.
+- O autor J.R.R. Tolkien, em seu universo ficcional, delega a salvação de um mundo dominado por forças hostis superiores às ações dos Hobbits, sujeitos comuns e marginalizados. Tal construção narrativa fundamenta a tese de que a mobilização civil e o engajamento da própria sociedade são os motores primordiais para promover qualquer transformação estrutural.
 
 **5. Resistência a mudanças** <mark style="background: #FF5582A6;">CAUSA</mark>
 - O jornalista George Bernard Shaw afirmava que o progresso é impossível sem mudança. Indivíduos e coletividades que não conseguem alterar as próprias mentalidades estão irremediavelmente fadados a viver estagnados.

@@ -45,3 +45,14 @@ C)
 B comparação
 
 ![](../../../../attachments/Pasted%20image%2020260619191447.png)
+
+#### **4. Conjunções causais**
+Indicam um fato que faz com que o outro ocorra.
+- Porque, que, como, pois que, uma vez que, visto que, porquanto, já que
+
+**É possível confundir causa com:**
+- **Explicação**: Os grandes liguistas consideram causa e consequência muito parecidas, então as bancas tendem a não criar questões sobre isso.
+ 
+- **Consequência**:
+
+#### 5. Conjunções consecutivas
