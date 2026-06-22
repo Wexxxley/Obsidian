@@ -52,7 +52,17 @@ Indicam um fato que faz com que o outro ocorra.
 
 **É possível confundir causa com:**
 - **Explicação**: Os grandes liguistas consideram causa e consequência muito parecidas, então as bancas tendem a não criar questões sobre isso.
- 
-- **Consequência**:
+	 - Listas iguais, exceto como(so é causal).
+	 - Pergunte primeiro se é causa. Vai ser causa se gerar consequência
+		![400](../../../../attachments/Pasted%20image%2020260622094122.png)
+- **Consequência**: Cuasa e consequência sempre vem juntas. 
 
-#### 5. Conjunções consecutivas
+![](../../../../attachments/Pasted%20image%2020260622095425.png)
+E) CAUSA
+
+![](../../../../attachments/Pasted%20image%2020260622095537.png)
+C) CAUSA
+
+#### **5. Conjunções consecutivas**
+Introduz uma oração que expressa consequência da oração principal.
+- de sorte que, de modo que, de forma que, sem que = que não, que...
