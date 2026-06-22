@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 #### **1. Eleições**
@@ -78,7 +79,6 @@ O documento elenca exemplos de condutas que configuram violações graves:
 - A fraude em votações, sejam estas eletrónicas ou manuais, tanto nas sessões do Plenário como nas reuniões das Comissões.
 
 **Penalidades Aplicáveis**
-
 
 1. **Censura Verbal ou Escrita:** Aplicada a faltas consideradas leves, como o uso de linguagem inadequada durante os trabalhos parlamentares.
     

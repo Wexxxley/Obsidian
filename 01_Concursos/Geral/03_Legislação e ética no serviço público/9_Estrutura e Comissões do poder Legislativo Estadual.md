@@ -9,7 +9,7 @@
 
 A ALECE possui autonomia funcional, administrativa e financeira, não sendo subordinada ao Governador. A engrenagem político-administrativa da Assembleia Legislativa do Estado do Ceará apoia-se em três órgãos de direção e deliberação superior.
 
-#### **1. Mesa Diretora**
+#### **1.1 Mesa Diretora**
 A Mesa Diretora caracteriza-se como um órgão colegiado diretivo. O termo "colegiado" significa que as decisões são tomadas em conjunto por um grupo de pessoas, e não por um único indivíduo. Sua função primária é conduzir os trabalhos legislativos e a gestão administrativa interna da Assembleia.
 
 - **Composição:** 7 membros titulares, sendo eles o Presidente, o 1º e o 2º Vice-Presidentes, além do 1º, 2º, 3º e 4º Secretários. Existem também os **vogais/suplentes**, que assumem a função na ausência dos titulares. A eleição dos membros deve  observar o princípio da proporcionalidade partidária.
@@ -21,7 +21,7 @@ A Mesa Diretora caracteriza-se como um órgão colegiado diretivo. O termo "cole
     - **Promulgar** (atestar oficialmente a existência e ordenar a publicação e o cumprimento) Emendas à Constituição Estadual, Resoluções e Decretos Legislativos elaborados pela Casa.
     - Elaborar e apresentar o relatório financeiro consolidado e a prestação de contas anual do parlamento.
 
-#### **2. Presidência**
+#### **1.2 Presidência**
 
 O Presidente atua como a autoridade máxima do Poder Legislativo Estadual, desempenhando o papel de representação da Assembleia tanto no âmbito interno quanto no externo. Diferentemente da Mesa Diretora, a Presidência tem caráter monocrático
 
@@ -32,7 +32,7 @@ O Presidente atua como a autoridade máxima do Poder Legislativo Estadual, desem
 	2. Em situações de escrutínio secreto (**votação secreta)**.
 	3. Quando a aprovação de uma matéria exigir a contagem de um quórum qualificado, como a necessidade de maioria absoluta ou o voto favorável de 2/3 dos parlamentares.
 
-#### **3. Plenário e votação**
+#### **1.3 Plenário e votação**
 
 É integrado pela totalidade dos 46 Deputados Estaduais em pleno exercício de seus mandatos. O Plenário é responsável por aprovar projetos de lei, Propostas de Emenda à Constituição (PECs), analisar vetos governamentais e julgar as contas políticas do Poder Executivo. 
 
@@ -73,7 +73,7 @@ As comissões são **órgãos colegiados técnicos** de apoio estabelecidos pelo
 
 #### **1. Comissões Permanentes**
 
-Possuem caráter duradouro e sua existência coincide com a estrutura contínua do Estado. Elas não se extinguem ao final de um ano; A função central dessas comissões é emitir pareceres sobre os projetos de lei vinculados às suas respectivas temáticas e fiscalizar os atos da Administração Pública em suas áreas de competência. Existem 21 no total e as principais são:
+Elas não se extinguem ao final de um ano; A função central dessas comissões é emitir pareceres sobre os projetos de lei vinculados às suas respectivas temáticas e fiscalizar os atos da Administração Pública em suas áreas de competência. Existem 21 no total e as principais são:
 
 - **Comissão de Constituição, Justiça e Redação (CCJR):** Todos os projetos devem, obrigatoriamente, passar por ela para análise de constitucionalidade e legalidade formal. O destino pode ser: enviar o projeto ao Plenário ou determinar o seu arquivamento caso seja julgado inconstitucional.
     
@@ -95,8 +95,6 @@ São criadas para cumprir um objetivo estritamente específico e são extintas a
 
 #### **4. CPIs**
 A criação de uma CPI exige o cumprimento da **Regra 1/3**. Para que uma CPI seja instaurada, o requerimento deve conter a assinatura mínima de um terço dos membros totais da Assembleia. Considerando que a Assembleia possui 46 deputados, é exigida a assinatura de exatos 16 deputados. 
-
-As CPIs detêm poderes de **investigação** equiparados aos das autoridades judiciais, mas **não possuem poder de julgamento ou condenação**. 
 
 **Atos que a CPI PODE determinar por autoridade própria:**
 - Quebrar o sigilo bancário, o sigilo fiscal e o sigilo de dados telefônicos dos investigados. 
