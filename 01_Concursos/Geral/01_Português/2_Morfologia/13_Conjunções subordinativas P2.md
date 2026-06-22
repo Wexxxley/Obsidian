@@ -63,6 +63,20 @@ E) CAUSA
 ![](../../../../attachments/Pasted%20image%2020260622095537.png)
 C) CAUSA
 
+
 #### **5. Conjunções consecutivas**
 Introduz uma oração que expressa consequência da oração principal.
-- de sorte que, de modo que, de forma que, sem que = que não, que...
+- de sorte que, de modo que, de forma que, sem que = que não, tanto/tão... que.
+
+- Estudou tanto durante a noite que dormiu na hora do exame.
+- Estudou tanto **a ponto de**(loc prepositiva com valor semântico de consequência) dormir na hora da prova. 
+
+- Note que conjunções conclusivas possuem valor semântico de consequência.
+
+![](../../../../attachments/Pasted%20image%2020260622100612.png)
+C)
+
+![](../../../../attachments/Pasted%20image%2020260622101229.png)A) CONSEQUENCIA
+
+
+---

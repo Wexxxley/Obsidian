@@ -9,6 +9,8 @@ As conjunções subordinativas subdividem-se em **integrantes**(não indicam cir
 
 - As conjunções asverbiasi são 9: Concessiva, Condicional, Conformativa, Comparativa, Causal, Consecutiva, Final, Temporal, Proporcional. **6C+FTP**.
 
+![](../../../../attachments/Pasted%20image%2020260622102857.png)
+
 #### **1. Integrantes**
 Não indicam circunstâncias. Introduzem orações que funcionam como substantivos.
 - que, se.
