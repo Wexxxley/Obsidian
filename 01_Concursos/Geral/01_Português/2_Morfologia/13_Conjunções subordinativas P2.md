@@ -1,13 +1,4 @@
-
-#Concluded 
-
----
-#### **1. Advebiais proporcionais**
-Introduzem uma oração que expressa um fato relacionado proporcionamlmente à corrência principal.
-- À medida que, à proporção que, ao passo que, quanto mais/menos... mais/menos, tão ou mais... que 
-- O preço fica mais caro à medida que os produtos escasseiam
-
-**À medida que VS na medida em que**
+C Conjunção comparativa - Conjunção integrante - Conjunção final
 À medida que -> conjunção proporcional
 Na medida em que -> Conjunção causal.
 
