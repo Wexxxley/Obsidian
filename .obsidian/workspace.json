@@ -81,12 +81,14 @@
             "id": "984e0db97e626572",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/2_Morfologia/14_Conjunções.png"
+                "file": "01_Concursos/Geral/01_Português/2_Morfologia/13_Conjunções subordinativas P2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "14_Conjunções"
+              "icon": "lucide-file",
+              "title": "13_Conjunções subordinativas P2"
             }
           }
         ],
@@ -158,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.01103591918945
+    "width": 401.01103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -263,14 +266,13 @@
   },
   "active": "984e0db97e626572",
   "lastOpenFiles": [
-    "01_Concursos/Geral/01_Português/2_Morfologia/15_Uso do QUE.md",
-    "01_Concursos/Geral/01_Português/2_Morfologia/14_Conjunções.png",
-    "01_Concursos/Geral/01_Português/2_Morfologia/14_Conjunções.png",
-    "01_Concursos/Geral/01_Português/2_Morfologia/11_Conjunções coordenativas.md",
-    "attachments/Pasted image 20260622192219.png",
-    "01_Concursos/Geral/01_Português/2_Morfologia/13_Conjunções subordinativas P2.md",
-    "attachments/Pasted image 20260622191553.png",
     "01_Concursos/Geral/01_Português/2_Morfologia/12_Conjunções subordinativas P1.md",
+    "01_Concursos/Geral/01_Português/2_Morfologia/13_Conjunções subordinativas P2.md",
+    "01_Concursos/Geral/01_Português/2_Morfologia/11_Conjunções coordenativas.md",
+    "01_Concursos/Geral/01_Português/2_Morfologia/14_Conjunções.png",
+    "01_Concursos/Geral/01_Português/2_Morfologia/15_Uso do QUE.md",
+    "attachments/Pasted image 20260622192219.png",
+    "attachments/Pasted image 20260622191553.png",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/3_Armazenamento/1_Formas de armazenamento.md",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/5_Modal Navigation Drawer.md",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/6_Switch e Dropdown menu.md",

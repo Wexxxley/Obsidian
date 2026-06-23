@@ -1,5 +1,5 @@
 
-
+#Concluded 
 
 ---
 As **conjunções subordinativas** são palavras invariáveis que ligam duas orações, tornando uma delas dependente sintaticamente da outra (oração subordinada). 
@@ -90,9 +90,9 @@ Indicam a finalidade ou objetivo da ação principal.
 - Estudou muito **para que** pudesse passar.
 
 ![](../../../../attachments/Pasted%20image%2020260619143520.png)
-C) PARA preposição com valor smeantico de finalidade
+C) PARA preposição com valor semântico de finalidade
 
 ![](../../../../attachments/Pasted%20image%2020260619143747.png)
 ![](../../../../attachments/Pasted%20image%2020260619143644.png)
-A) Esse para nao traz ideia de finalidade.
+A) Esse 'para' nao traz ideia de finalidade.
 
