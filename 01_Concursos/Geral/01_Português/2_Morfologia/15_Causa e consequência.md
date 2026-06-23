@@ -16,9 +16,7 @@ Causa e consequência é a base para qualquer argumentação.
 ![](../../../../attachments/Pasted%20image%2020260623102119.png)
 ![](../../../../attachments/Pasted%20image%2020260623102210.png)
 
-
  ![](../../../../attachments/Pasted%20image%2020260623102718.png)
  ![](../../../../attachments/Pasted%20image%2020260623102814.png)
 
-
-
+ 

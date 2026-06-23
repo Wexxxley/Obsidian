@@ -71,7 +71,7 @@ C)
 
 As comissões são **órgãos colegiados técnicos** de apoio estabelecidos pelo Regimento Interno. Sua principal finalidade é descentralizar a análise das proposições legislativas. A composição de todas as comissões é feita por deputados indicados pelas lideranças de cada partido. Essa divisão deve sempre respeitar a "proporcionalidade partidária".
 
-#### **1. Comissões Permanentes**
+#### **2.1 Comissões Permanentes**
 
 Elas não se extinguem ao final de um ano; A função central dessas comissões é emitir pareceres sobre os projetos de lei vinculados às suas respectivas temáticas e fiscalizar os atos da Administração Pública em suas áreas de competência. Existem 21 no total e as principais são:
 
@@ -93,7 +93,7 @@ São criadas para cumprir um objetivo estritamente específico e são extintas a
 	- **Princípio da Continuidade do Estado:** O Poder Legislativo, assim como o Executivo e o Judiciário, não pode ficar completamente inoperante. 
 	- Os deputados indicados não precisam comparecer diariamente ao prédio da Assembleia Legislativa. Eles estão formalmente em recesso. No entanto, eles assumem a obrigação de estarem disponíveis e acessíveis.
 
-#### **4. CPIs**
+#### **2.3 CPIs**
 A criação de uma CPI exige o cumprimento da **Regra 1/3**. Para que uma CPI seja instaurada, o requerimento deve conter a assinatura mínima de um terço dos membros totais da Assembleia. Considerando que a Assembleia possui 46 deputados, é exigida a assinatura de exatos 16 deputados. 
 
 **Atos que a CPI PODE determinar por autoridade própria:**

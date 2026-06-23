@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/2_Morfologia/15_Causa e consequência.md",
+                "file": "01_Concursos/Geral/03_Legislação e ética no serviço público/12_Processo legislativo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "15_Causa e consequência"
+              "title": "12_Processo legislativo"
             }
           }
         ],
@@ -160,8 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.01103591918945,
-    "collapsed": true
+    "width": 409.01103591918945
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -266,6 +265,14 @@
   },
   "active": "984e0db97e626572",
   "lastOpenFiles": [
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/11_Bancadas, lideranças e blocos parlamentares.md",
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/12_Processo legislativo.md",
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/10_Eleição, competências, sessões e ética da ALECE.md",
+    "01_Concursos/Geral/03_Legislação e ética no serviço público/9_Estrutura e Comissões do poder Legislativo Estadual.md",
+    "01_Concursos/Geral/01_Português/2_Morfologia/14_Conjunções.png",
+    "01_Concursos/Geral/01_Português/2_Morfologia/16_Uso do QUE.md",
+    "01_Concursos/Geral/01_Português/2_Morfologia/15_Causa e consequência.md",
+    "attachments/Pasted image 20260623103910.png",
     "attachments/Pasted image 20260623102814.png",
     "attachments/Pasted image 20260623102737.png",
     "attachments/Pasted image 20260623102718.png",
@@ -273,12 +280,6 @@
     "attachments/Pasted image 20260623102119.png",
     "attachments/Pasted image 20260623101845.png",
     "attachments/Pasted image 20260623101350.png",
-    "attachments/Pasted image 20260623101211.png",
-    "attachments/Pasted image 20260623100847.png",
-    "attachments/Pasted image 20260623100826.png",
-    "attachments/Pasted image 20260623100527.png",
-    "01_Concursos/Geral/01_Português/2_Morfologia/16_Uso do QUE.md",
-    "01_Concursos/Geral/01_Português/2_Morfologia/15_Causa e consequência.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/13_Conjunções subordinativas P2.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/12_Conjunções subordinativas P1.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/11_Conjunções coordenativas.md",
@@ -294,9 +295,6 @@
     "01_Concursos/Geral/01_Português/4_Redação/1_Introdução.md",
     "01_Concursos/Geral/01_Português/4_Redação/2_Desenvolvimento.md",
     "01_Concursos/Geral/01_Português/4_Redação/3_Conclusão.md",
-    "01_Concursos/Geral/03_Legislação e ética no serviço público/14_Bancadas, lideranças e blocos parlamentares.md",
-    "01_Concursos/Geral/03_Legislação e ética no serviço público/13_Eleição, competências, sessões e ética da ALECE.md",
-    "01_Concursos/Geral/03_Legislação e ética no serviço público/9_Estrutura e Comissões do poder Legislativo Estadual.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/8_Salário e aposentadoria.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/7_Plano Cargos, Carreira e Remuneração e Organização da ALECE.md",
     "01_Concursos/Geral/03_Legislação e ética no serviço público/6_Estatuto dos funcionários público civis do ceará.md",
