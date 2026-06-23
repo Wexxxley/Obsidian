@@ -2,6 +2,9 @@
 #Concluded 
 
 ---
+
+![](../../../../attachments/Pasted%20image%2020260622192219.png)
+
 As conjunções coordenativas ligam orações sintaticamente independentes. Isso significa que as orações conectadas possuem sentido completo por si mesmas.
 
 **Expressões Correlativas**: são pares estruturais formados por palavras ou locuções. A introdução do primeiro termo cria uma exigência de que o segundo termo apareça.
