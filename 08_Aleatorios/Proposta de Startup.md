@@ -60,19 +60,21 @@ Como você planeja lidar no nível do sistema caso o cuidador descumpra as janel
 - Comissão por Transação (Take Rate): A principal fonte de receita da plataforma é a cobrança de uma comissão sobre os serviços contratados. Vamos supor que o tutor e o cuidador fecharma por RS: 100. O tutor pagaria 100 e o cuidador receberia 90, por exemplo.
 
 - Plano Tutor: inspirado no club ifood.
-
-	RS 15/Mês
+	RS 9.99/Mês
 	Mais fotos do pet durante a estadia.
 	10% de desconto em todos os usos.  Ou seja, o lucro da plataforma seria somente com o plano nesse caso. Embora diminua o lucro imediatamente, aumenta a fidelidde do tutor. 
+
+
+- Plano cuidador: 
+	RS 29.99/mês
+	Receberia 100% do valor original por transação
+	Selo verificado
+	Destaque no catálogo e prioridade de buscas
+
 
 	Talvez uma assinatura semestral seja util para quem viaja pouco.
 ![](../attachments/Pasted%20image%2020260509172604.png)
 
-- Plano cuidador: 
-	RS 35/mês
-	Receberia 100% do valor original por transação
-	Selo verificado
-	Destaque no catálogo e prioridade de buscas
 
 ![](../attachments/Pasted%20image%2020260509173229.png)
 
