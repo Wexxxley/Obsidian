@@ -54,5 +54,18 @@ O Scaffold não é a Raiz Real, pois o Scaffold está envelopado por outro compo
 
 
 ---
+### 3. Tela de venda
 
-### 3. Tela de vendas
+**ViewModel**: A viewmodel armazena todos os estados que a tela precisa exibir, procesa eventos, gerenciar tarefas assíncronas e etc. Por exemplo:
+   * O VendaViewModel armazena a lista de produtos, a busca ativa e a categoria selecionada.
+   * searchQuery é um estado que  viewModel gerencia
+![](../../attachments/Pasted%20image%2020260625150117.png)
+- A variável com _ é declarada como private. O modificador `Mutable` indica que esta estrutura possui métodos de escrita embutidos.
+- A variável sem o _ é pública. A função `asStateFlow()` converte a referência da variável mutável original em uma versão restrita. A interface `StateFlow` não possui métodos de escrita .
+- A adoção deste padrão implementa a arquitetura de Fluxo Unidirecional de Dados. Dividindo o estado em duas variáveis, a interface visual é forçada a acionar um método do _ViewModel_ informando que o usuário digitou uma letra. O _ViewModel_ processa essa intenção internamente e atualiza a variável privada `_searchQuery`. Automaticamente, a variável pública `searchQuery` reflete essa mudança.
+
+Em vez de um componente criar e controlar seu próprio estado, ele o "eleva" para um nível superior (para quem o chamou).
+
+Veja a BarraBusca:
+![](../../attachments/Pasted%20image%2020260625145720.png)
+A BarraBusca não sabe o que é uma "Venda" ou um "ViewModel". Ela é um componente burro e reutilizável. 
