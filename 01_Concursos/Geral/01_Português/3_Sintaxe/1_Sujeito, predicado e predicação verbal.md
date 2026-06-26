@@ -14,23 +14,35 @@
 
 **Ordem direta do período simples:** é a ordem padrão. 
 Sujeito+Verbo+Complementos(O.direto + O.indireto + Predicativo + Adjuntos adverbiais)
-
 ![](../../../../attachments/Pasted%20image%2020260626132726.png)
 
 ---
 ### Predicação verbal
+
 Transitividade depende da frase. Só da pra saber pelo contexto.
 
 **Verbo intransitivo:** não necessita de um termo que complete o seu sentido.
-- Correm os dias, os meses e os anos.
-
+	![450](../../../../attachments/Pasted%20image%2020260626134630.png)
+**Verbo transitivo:** o sentido do verbo é completado por um termo.
+- **Direto:** completa o verbo sem preposição.
+	![260](../../../../attachments/Pasted%20image%2020260626134932.png)
+- **Indireto:** completa o verbo com preposição obrigatória.
+	![260](../../../../attachments/Pasted%20image%2020260626135100.png)
+- **Bitransitivo**: é aquele que vem com dois complementos. Um com preposição e o outro sem. Não pode ter dois complementos diretos ou indiretos.
+	![300](../../../../attachments/Pasted%20image%2020260626135509.png)
 
 1. Identifique o verbo e pergunte pelo sujeito.
 2. Coloque a frase na ordem direta.
-3. Olhe para o que vem depois do verbo, e pergunte se é complemento ou circunstância
+3. Olhe para o que vem depois do verbo e pergunte se é complemento(verbo transitivo) ou circunstância (adjunto adverbial, logo não é transitivo) 
+
+**Predicativo do sujeito**: dá qualidade/característica ao sujeito. O predicativo do sujeito vem sempre no predicado.
+	![300](../../../../attachments/Pasted%20image%2020260626140051.png)
+
+**Verbo de ligação:** liga o sujeito ao predicativo. É um condição ter um predicativo para ser um verbo de ligação. 
+	![140](../../../../attachments/Pasted%20image%2020260626140244.png)
 
 
+**Dicas:**
+1. Predicativo do sujeito pode vim com qualquer verbo, mesmo sem ser verbo de ligação.
 
-
-
-
+![](../../../../attachments/Pasted%20image%2020260626143407.png)
