@@ -44,5 +44,14 @@ Transitividade depende da frase. Só da pra saber pelo contexto.
 
 **Dicas:**
 1. Predicativo do sujeito pode vim com qualquer verbo, mesmo sem ser verbo de ligação.
+2. Para ser verbo de ligação é preciso que o verbo indique estado(passageiro, permanente, etc). Verbos que indicam ação não são de ligação
+
 
 ![](../../../../attachments/Pasted%20image%2020260626143407.png)
+![](../../../../attachments/Pasted%20image%2020260626144024.png)
+
+![](../../../../attachments/Pasted%20image%2020260626144041.png)
+![](../../../../attachments/Pasted%20image%2020260626144956.png)  
+
+![](../../../../attachments/Pasted%20image%2020260626145036.png)
+![](../../../../attachments/Pasted%20image%2020260626145414.png)
