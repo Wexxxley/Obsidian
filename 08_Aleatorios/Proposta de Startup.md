@@ -297,3 +297,15 @@ O Sabino pode argumentar: O modelo por demanda e resposta cria um modelo assínc
 **Justificativas**:
 - Um dos maiores causadores de abandono em marketplaces de serviços é a rejeição. Se o tutor precisa enviar 5 propostas e receber 4 respostas negativas (porque o cuidador não aceita cães grandes, ou esqueceu de atualizar a agenda), o fluxo é rápido, mas frustrante. No Mural, cada lance recebido já é um "Match" garantido. O tutor só interage com quem comprovadamente tem vaga, aceita o perfil do animal e concorda com as condições.
 - Se o tutor precisa viajar amanhã, o tempo de resposta do Mural será um problema, e por isso ele usará a Busca Ativa. Mas, no contexto de médio prazo, o tutor pode preferir esperar algumas horas para receber várias opções e comparar preços.
+
+
+O Sabino pode argumentar sobre fuga dos tutores (**desintermediação**) após um primeiro contato com o cuidador.
+
+**Justificativas**:
+- É preciso reconhecer que a plataforma atua com excelência como um canal de aquisição de clientes (conectando quem precisa a quem oferece). Embora possam existir bloqueios no chat para impedir o compartilhamento de números e e-mails, o momento físico de entrega do animal permite a troca de contatos. No entanto, o objetivo da Mimo não é prender o usuário por restrições tecnológicas, mas sim por retenção de valor agregado. 
+- Quando a negociação migra para aplicativos de mensagens genéricos, o padrão de qualidade do serviço cai. Na Mimo, o cuidador é obrigado a seguir o fluxo do "Diário de Estadia", que exige o preenchimento de checklists padronizados e o envio de fotos e vídeos em momentos chave. Isso cria uma rotina de governança e transparência. No contato direto e informal, o tutor fica refém da boa vontade do cuidador em lembrar de mandar atualizações.
+- Ao fechar um acordo de forma particular, o tutor assume 100% do risco legal e físico sobre o animal. Ao manter a transação dentro da Mimo, a plataforma garante a rastreabilidade completa do serviço. O aplicativo detém a documentação verificada do cuidador, o registro de aceitação dos termos de responsabilidade e o histórico exato do período de estadia. Em caso de fugas, acidentes ou negligência, o tutor possui o respaldo de um contrato digital e o suporte da plataforma para responsabilização legal do prestador.
+
+### 4. Desincentivo Financeiro através da Assinatura (Plano Tutor)
+
+A lógica de fechar por fora é economizar a taxa de serviço. Contudo, o modelo de negócios da Mimo neutraliza essa vantagem. Com o "Plano Tutor" (R$ 9,99/mês), o cliente recebe 10% de desconto nas contratações. Isso significa que a pequena margem financeira que o tutor e o cuidador salvariam fechando o serviço de forma clandestina não justifica a perda do desconto, da segurança jurídica e da ferramenta de monitoramento (Diário de Estadia). O ecossistema financeiro foi desenhado para que permanecer no aplicativo seja a opção mais lógica e segura.
