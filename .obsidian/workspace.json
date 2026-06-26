@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/3_Sintaxe/1_Sujeito e predicado.md",
+                "file": "01_Concursos/Geral/01_Português/3_Sintaxe/1_Sujeito, predicado e predicação verbal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Sujeito e predicado"
+              "title": "1_Sujeito, predicado e predicação verbal"
             }
           }
         ],
@@ -280,10 +280,11 @@
   },
   "active": "3eaf000ce8f436ff",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260626132726.png",
     "attachments/Pasted image 20260626104858.png",
     "attachments/Pasted image 20260626104437.png",
     "01_Concursos/Geral/01_Português/2_Morfologia/16_Uso do QUE.md",
-    "01_Concursos/Geral/01_Português/3_Sintaxe/1_Sujeito e predicado.md",
+    "01_Concursos/Geral/01_Português/3_Sintaxe/1_Sujeito, predicado e predicação verbal.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe",
     "01_Concursos/Geral/01_Português/2_Morfologia/15_Desinências verbais.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/8_Verbo e advérbio.md",
@@ -311,7 +312,6 @@
     "01_Concursos/Geral/01_Português/2_Morfologia/13_Conjunções subordinativas P2.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/12_Conjunções subordinativas P1.md",
     "08_Aleatorios/AcessoClin - Requisitos.md",
-    "attachments/Pasted image 20260624134019.png",
     "Untitled 2.md",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/3_Armazenamento/1_Formas de armazenamento.md",
     "08_Aleatorios/INPI, RPI.md",
