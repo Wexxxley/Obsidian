@@ -287,3 +287,13 @@ Atue como um UI/UX Designer. Preciso que você crie a interface de um aplicativo
 - Card de Opção: Semestral
     
 - Botão: Assinar Plano
+
+
+
+---
+
+O Sabino pode argumentar: O modelo por demanda e resposta cria um modelo assíncrono, o que quebra a agilidade da contratação e esfria o usuário.
+
+**Justificativas**:
+- Um dos maiores causadores de abandono em marketplaces de serviços é a rejeição. Se o tutor precisa enviar 5 propostas e receber 4 respostas negativas (porque o cuidador não aceita cães grandes, ou esqueceu de atualizar a agenda), o fluxo é rápido, mas frustrante. No Mural, cada lance recebido já é um "Match" garantido. O tutor só interage com quem comprovadamente tem vaga, aceita o perfil do animal e concorda com as condições.
+- Se o tutor precisa viajar amanhã, o tempo de resposta do Mural será um problema, e por isso ele usará a Busca Ativa. Mas, no contexto de médio prazo, o tutor pode preferir esperar algumas horas para receber várias opções e comparar preços.
