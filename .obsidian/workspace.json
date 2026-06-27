@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/03_Legislação e serviço público/13_Proposição e tramitação legislativa.md",
+                "file": "01_Concursos/Geral/01_Português/3_Sintaxe/1_Sujeito, predicado e predicação verbal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13_Proposição e tramitação legislativa"
+              "title": "1_Sujeito, predicado e predicação verbal"
             }
           }
         ],
@@ -174,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.01103591918945
+    "width": 322.01103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -279,6 +280,8 @@
   },
   "active": "3eaf000ce8f436ff",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260627083313.png",
+    "01_Concursos/Geral/03_Legislação e serviço público/13_Proposição e tramitação legislativa.md",
     "08_Aleatorios/Proposta de Startup.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/1_Sujeito, predicado e predicação verbal.md",
     "attachments/Pasted image 20260626145414.png",
@@ -295,7 +298,6 @@
     "01_Concursos/Geral/01_Português/3_Sintaxe",
     "01_Concursos/Geral/01_Português/2_Morfologia/15_Desinências verbais.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/8_Verbo e advérbio.md",
-    "01_Concursos/Geral/03_Legislação e serviço público/13_Proposição e tramitação legislativa.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/15_Causa e consequência.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/5_Pronome demonstrativo.md",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/Apresentação.md",
