@@ -68,3 +68,10 @@ Transitividade depende da frase. Só da pra saber pelo contexto.
 
 ![300](../../../../attachments/Pasted%20image%2020260627093101.png)
  ![460](../../../../attachments/Pasted%20image%2020260627093708.png)
+
+![400](../../../../attachments/Pasted%20image%2020260627102105.png)
+![400](../../../../attachments/Pasted%20image%2020260627102048.png)
+
+![400](../../../../attachments/Pasted%20image%2020260627102316.png)
+
+
