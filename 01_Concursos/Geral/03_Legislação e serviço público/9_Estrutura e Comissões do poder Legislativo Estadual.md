@@ -44,7 +44,7 @@ O Presidente atua como a autoridade máxima do Poder Legislativo Estadual, desem
     - **Maioria Simples:** maioria dos deputados que estão presentes na sessão naquele momento. Esta regra é aplicada para a aprovação de leis ordinárias.
     - **Quórum qualificado:** exigência para decisões mais complexas e severas
 		- **Maioria Absoluta:** Sendo 46 deputados, a metade é 23. Portanto, a maioria absoluta requer um mínimo de 24 votos favoráveis.
-		- **Dois Terços:** Exige que dois terços do total de 46 parlamentares sejam favoráveis. Isso resulta em um mínimo fixo de 31 votos favoráveis.
+		- **Dois Terços:** Exige que dois terços do total de 46 parlamentares sejam favoráveis. Isso resulta em um mínimo fixo de 31 votos favoráveis. É um quórum reservado para matérias de extrema rigidez, como a aprovação de Propostas de Emenda à Constituição (PECs) e a deliberação sobre a perda de mandato de deputados.
 
 Quanto as votações, elas podem ser:
 - **Votação Presencial:** Rito padrão. Exige que o parlamentar esteja fisicamente e registre sua presença e seu voto no terminal eletrônico de sua respectiva mesa.

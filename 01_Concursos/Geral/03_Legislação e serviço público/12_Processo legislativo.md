@@ -44,3 +44,6 @@ Existe uma regra rigorosa sobre a "**Iniciativa Reservada**". Se um Deputado Est
 
 ![](../../../attachments/Pasted%20image%2020260623145824.png)
 C)
+
+![](../../../attachments/Pasted%20image%2020260627185506.png)
+C
