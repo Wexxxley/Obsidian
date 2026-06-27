@@ -41,12 +41,19 @@ Transitividade depende da frase. Só da pra saber pelo contexto.
 
 **Dicas:**
 1. Predicativo do sujeito pode vim com qualquer verbo, mesmo sem ser verbo de ligação.
-2. Para ser verbo de ligação é preciso que o verbo indique estado(passageiro, permanente, etc). Verbos que indicam ação não são de ligação.
+2. Para ser verbo de ligação é preciso que o verbo indique estado.Verbos que indicam ação não são de ligação.
+	1. estado permanente: Aquele monumento **é** histórico.
+	2. estado passageiro: O diretor **está** bastante preocupado hoje.
+	3. mudança de estado: O céu **ficou** nublado durante a tarde.
+	4. continuidade de estado: A biblioteca **permanece** fechada para reformas.
+	5. aparência: O projeto **parece** promissor no papel.
 3. O verbo ser é sempre de ligação.
 4. **Adjunto adverbial de modo X predicativo**: Vc pergunta se o termo é estado do sujeito ou se é o modo do verbo.
 	![](../../../../attachments/Pasted%20image%2020260627091232.png)
 5. **Macete do menino** usado para saber se o objeto é direto ou indireto.
 	![](../../../../attachments/Pasted%20image%2020260627092001.png)
+6. Na locução verbal, o verbo auxiliar não possue transitividade.
+7. Na locução verbal, os verbos podem estar separados por termos deslocados.
 
 ![](../../../../attachments/Pasted%20image%2020260627083313.png)
 
@@ -74,4 +81,18 @@ Transitividade depende da frase. Só da pra saber pelo contexto.
 
 ![400](../../../../attachments/Pasted%20image%2020260627102316.png)
 
+![400](../../../../attachments/Pasted%20image%2020260627103618.png)
+![400](../../../../attachments/Pasted%20image%2020260627103803.png)
+
+![400](../../../../attachments/Pasted%20image%2020260627103822.png)
+
+![400](../../../../attachments/Pasted%20image%2020260627104227.png)
+
+![400](../../../../attachments/Pasted%20image%2020260627135815.png)
+![400](../../../../attachments/Pasted%20image%2020260627135757.png)
+
+ ![400](../../../../attachments/Pasted%20image%2020260627135837.png)
+ ![450](../../../../attachments/Pasted%20image%2020260627140247.png)
+![400](../../../../attachments/Pasted%20image%2020260627140310.png)
+![400](../../../../attachments/Pasted%20image%2020260627140545.png)
 
