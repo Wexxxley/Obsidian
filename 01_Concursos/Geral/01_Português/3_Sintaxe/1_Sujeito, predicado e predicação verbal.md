@@ -45,6 +45,8 @@ Transitividade depende da frase. Só da pra saber pelo contexto.
 3. O verbo ser é sempre de ligação.
 4. **Adjunto adverbial de modo X predicativo**: Vc pergunta se o termo é estado do sujeito ou se é o modo do verbo.
 	![](../../../../attachments/Pasted%20image%2020260627091232.png)
+5. **Macete do menino** usado para saber se o objeto é direto ou indireto.
+	![](../../../../attachments/Pasted%20image%2020260627092001.png)
 
 ![](../../../../attachments/Pasted%20image%2020260627083313.png)
 
@@ -58,3 +60,11 @@ Transitividade depende da frase. Só da pra saber pelo contexto.
 ![450](../../../../attachments/Pasted%20image%2020260626145414.png)
 
 ![400](../../../../attachments/Pasted%20image%2020260627085506.png)
+![450](../../../../attachments/Pasted%20image%2020260627092249.png)
+
+
+![400](../../../../attachments/Pasted%20image%2020260627092224.png)
+![400](../../../../attachments/Pasted%20image%2020260627093018.png)
+
+![300](../../../../attachments/Pasted%20image%2020260627093101.png)
+ ![460](../../../../attachments/Pasted%20image%2020260627093708.png)
