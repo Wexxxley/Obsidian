@@ -14,6 +14,32 @@ A proposição é o gênero técnico que define toda e qualquer matéria submeti
     - **Supressiva**: Retira um trecho, artigo ou parágrafo do texto original do projeto.
     - **Aditiva**: Acrescenta uma disposição nova ao texto original.
     - **Modificativa**: Altera a redação de um dispositivo, mas sem modificar a sua substância jurídica.
+	
+	O termo "emenda" é utilizado no jargão parlamentar com dois significados  dependendo do alvo que ele pretende modificar.
+	1. **Emenda como Proposição Acessória (Emenda a um Projeto)**: rata-se da emenda que incide sobre um texto que ainda não é lei, mas sim uma proposta em andamento.
+
+- **O Conceito:** A emenda é a proposição apresentada por deputados ou comissões com o objetivo de modificar, suprimir, aditar ou substituir o texto de um projeto de lei original que já se encontra em tramitação na Casa.
+    
+- **A Natureza Jurídica:** Neste caso, a emenda atua como um ato acessório pendente do projeto principal. Ela não tem vida própria; se o projeto original for arquivado, a emenda morre junto com ele. Como ela integra um Projeto de Lei ordinária ou complementar, o texto final aprovado (com ou sem as emendas) irá obrigatoriamente para a sanção ou veto do Governador.
+    
+
+### 2. A Emenda à Constituição (Espécie Normativa Primária)
+
+Aqui, a palavra "emenda" ganha um peso hierárquico muito maior. Não estamos falando de alterar um projeto em andamento, mas sim de **alterar o texto definitivo da Lei Maior do Estado** (a Constituição Estadual), que já existe e já está em vigor.
+
+- **O Conceito:** A Emenda à Constituição (originada a partir de uma PEC - Proposta de Emenda à Constituição) é uma espécie normativa primária e autônoma. O objetivo dela não é consertar um projeto de um colega deputado, mas sim mudar as regras estruturais do próprio Estado.
+    
+- **A Natureza Jurídica:** Ela não é um ato acessório. Ela é o próprio documento principal de deliberação. Por tratar da alteração da Constituição, ela exige um rito de aprovação muito mais rigoroso (votação em dois turnos e quórum qualificado, geralmente de 3/5 dos deputados).
+    
+
+### A Diferença Prática na Promulgação
+
+A distinção crucial que fundamenta a resposta da questão anterior reside no princípio da Separação dos Poderes:
+
+- Como a **Constituição** é o documento máximo que organiza os poderes do Estado (incluindo o próprio Poder Executivo), o ordenamento jurídico não permite que o Governador do Estado tenha o poder de vetar uma alteração constitucional decidida pelo Poder Legislativo (que exerce o chamado Poder Constituinte Derivado).
+    
+- Portanto, uma vez que a Proposta de Emenda à Constituição (PEC) atinge o alto rigor de votos necessários e é aprovada em Plenário, ela não é remetida ao Governador. Ela é promulgada diretamente pela **Mesa Diretora** da Assembleia Legislativa, passando a integrar imediatamente o texto da Constituição Estadual.
+
     
 3. **Requerimento:** Proposição que possui natureza marcadamente administrativa ou de impulso procedimental. Serve para solicitar providências internas (como pedidos à Mesa Diretora) ou para requisitar informações externas (como a quebra de sigilo em uma CPI). Por se tratar de uma deliberação "interna corporis" (interna da Casa), o requerimento não exige sanção do Governador.
     
