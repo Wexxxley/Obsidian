@@ -35,22 +35,26 @@ Transitividade depende da frase. Só da pra saber pelo contexto.
 **Predicativo do sujeito**: dá qualidade/característica ao sujeito. O predicativo do sujeito vem sempre no predicado.
 	![300](../../../../attachments/Pasted%20image%2020260626140051.png)
 
-**Verbo de ligação:** liga o sujeito ao predicativo. É um condição ter um predicativo para ser um verbo de ligação. 
+**Verbo de ligação:** liga o sujeito ao predicativo. É uma condição ter um predicativo para ser um verbo de ligação. 
 	![140](../../../../attachments/Pasted%20image%2020260626140244.png)
 
 
 **Dicas:**
 1. Predicativo do sujeito pode vim com qualquer verbo, mesmo sem ser verbo de ligação.
-2. Para ser verbo de ligação é preciso que o verbo indique estado(passageiro, permanente, etc). Verbos que indicam ação não são de ligação
+2. Para ser verbo de ligação é preciso que o verbo indique estado(passageiro, permanente, etc). Verbos que indicam ação não são de ligação.
+3. O verbo ser é sempre de ligação.
+4. **Adjunto adverbial de modo X predicativo**: Vc pergunta se o termo é estado do sujeito ou se é o modo do verbo.
+	![](../../../../attachments/Pasted%20image%2020260627091232.png)
 
 ![](../../../../attachments/Pasted%20image%2020260627083313.png)
 
-![](../../../../attachments/Pasted%20image%2020260626143407.png)
-![](../../../../attachments/Pasted%20image%2020260626144024.png)
+![300](../../../../attachments/Pasted%20image%2020260626143407.png)
+![450](../../../../attachments/Pasted%20image%2020260626144024.png)
 
-![](../../../../attachments/Pasted%20image%2020260626144041.png)
-![](../../../../attachments/Pasted%20image%2020260626144956.png)  
+![400](../../../../attachments/Pasted%20image%2020260626144041.png)
+![450](../../../../attachments/Pasted%20image%2020260626144956.png)  
 
-![](../../../../attachments/Pasted%20image%2020260626145036.png)
-![](../../../../attachments/Pasted%20image%2020260626145414.png)
+![340](../../../../attachments/Pasted%20image%2020260626145036.png)
+![450](../../../../attachments/Pasted%20image%2020260626145414.png)
 
+![400](../../../../attachments/Pasted%20image%2020260627085506.png)
