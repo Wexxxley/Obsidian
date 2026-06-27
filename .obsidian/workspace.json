@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/3_Sintaxe/1_Sujeito, predicado e predicação verbal.md",
+                "file": "01_Concursos/Geral/03_Legislação e serviço público/14_Parecerres.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Sujeito, predicado e predicação verbal"
+              "title": "14_Parecerres"
             }
           }
         ],
@@ -174,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.01103591918945,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -280,6 +280,9 @@
   },
   "active": "3eaf000ce8f436ff",
   "lastOpenFiles": [
+    "01_Concursos/Geral/03_Legislação e serviço público/13_Proposição e tramitação legislativa.md",
+    "01_Concursos/Geral/03_Legislação e serviço público/14_Parecerres.md",
+    "01_Concursos/Geral/01_Português/3_Sintaxe/1_Sujeito, predicado e predicação verbal.md",
     "attachments/Pasted image 20260627140603.png",
     "attachments/Pasted image 20260627140545.png",
     "attachments/Pasted image 20260627140310.png",
@@ -290,10 +293,7 @@
     "attachments/Pasted image 20260627135437.png",
     "attachments/Pasted image 20260627104227.png",
     "attachments/Pasted image 20260627103822.png",
-    "attachments/Pasted image 20260627103803.png",
-    "01_Concursos/Geral/03_Legislação e serviço público/13_Proposição e tramitação legislativa.md",
     "08_Aleatorios/Proposta de Startup.md",
-    "01_Concursos/Geral/01_Português/3_Sintaxe/1_Sujeito, predicado e predicação verbal.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/16_Uso do QUE.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe",
     "01_Concursos/Geral/01_Português/2_Morfologia/15_Desinências verbais.md",
@@ -307,7 +307,6 @@
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/9_Navigation3.md",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/1_JetpackNavigationCompose.md",
     "01_Concursos/Geral/03_Legislação e serviço público/1_LGPD E LAI.md",
-    "01_Concursos/Geral/03_Legislação e serviço público/14_Parecer.md",
     "01_Concursos/Geral/03_Legislação e serviço público/12_Processo legislativo.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/13_Conjunções subordinativas P2.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/12_Conjunções subordinativas P1.md",

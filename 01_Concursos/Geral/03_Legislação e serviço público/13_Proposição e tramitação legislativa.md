@@ -37,15 +37,13 @@ D)
 
 A tramitação legislativa compreende a sequência de atos formais e cronológicos que uma proposição percorre desde o seu protocolo inicial até a deliberação definitiva. 
 #### **2.1 Protocolo Legislativo**
-O protocolo é o ato que marca o ingresso oficial de uma proposição no ecossistema da Assembleia Legislativa. Este ato é realizado prioritariamente por via eletrônica nos sistemas informatizados da Casa e estabelece dois marcos jurídicos fundamentais:
-- Prioridade Cronológica: Determina a ordem de chegada das matérias. Se dois deputados apresentarem projetos idênticos, o que foi protocolado primeiro ganha a precedência na tramitação, e o segundo é anexado ou prejudicado.
-- Geração do Número Único: A proposição recebe uma numeração sequencial associada ao ano civil e à sua espécie, como, por exemplo, Projeto de Lei nº 89/2026.
+O protocolo é o ato que marca o ingresso oficial de uma proposição na Assembleia Legislativa. Este ato é realizado prioritariamente nos sistemas informatizados da Casa e estabelece dois marcos jurídicos fundamentais:
+- **Prioridade Cronológica:** Se dois deputados apresentarem projetos idênticos, o que foi protocolado primeiro ganha a precedência na tramitação.
+- **Geração do Número Único:** A proposição recebe uma numeração sequencial associada ao ano civil e à sua espécie. Ex: Projeto de Lei nº 89/2026.
 
 #### **2.2 Autuação**
-A autuação consiste na constituição formal do processo legislativo. Nesta etapa, o Técnico Legislativo realiza procedimentos específicos para criar uma unidade documental ininterrupta de tramitação:
-- Reúne a peça inicial da proposição, que é o texto do projeto acompanhado de sua justificativa técnica.
-- Insere a capa do processo com os metadados de identificação, o que inclui o autor, a ementa, a data e o número.
-- Providencia a numeração sequencial e a rubrica de todas as páginas inseridas.
+A autuação consiste na constituição formal do processo legislativo. Nesta etapa, o Técnico Legislativo realiza procedimentos específicos para criar uma unidade documental.
+- Reúne a peça inicial da proposição, que é o texto do projeto acompanhado de sua justificativa técnica. Insere a capa do processo com os metadados de identificação, o que inclui o autor, a ementa, a data e o número.
 
 #### **2.3 Distribuição**
 A distribuição é o ato do Presidente da ALECE que encaminha o processo autuado às comissões:
