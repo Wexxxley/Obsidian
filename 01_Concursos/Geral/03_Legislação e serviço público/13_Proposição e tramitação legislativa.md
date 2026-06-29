@@ -16,7 +16,13 @@ A proposição é o gênero técnico que define toda e qualquer matéria submeti
 	    - **Modificativa**: Altera a redação de um dispositivo.
 	2. **A Emenda à Constituição**: A Emenda à Constituição (originada a partir de uma PEC - Proposta de Emenda à Constituição). Ela é o próprio documento principal de deliberação. Por tratar da alteração da Constituição, ela exige um rito de aprovação muito mais rigoroso (votação em dois turnos e quórum qualificado, geralmente de 3/5 dos deputados). Não passa por sanção ou veto do Governador.
     
-3. **Requerimento:** Serve para solicitar providências internas (como pedidos à Mesa Diretora) ou para requisitar informações externas (como a quebra de sigilo em uma CPI). Por se tratar de uma deliberação "interna corporis" (interna da Casa), o requerimento não exige sanção do Governador.
+3. **Requerimento:** Serve para solicitar providências internas ou para requisitar informações externas (como a quebra de sigilo em uma CPI). Por se tratar de uma deliberação "interna corporis", o requerimento não exige sanção do Governador.
+        
+    - **Sujeitos ao Despacho do Presidente:** Tratam de solicitações simples de andamento interno, como a inclusão de projeto em pauta, retificação de ata, votação por meio de painel eletrônico ou pedido de palavra.
+        
+    - **Sujeitos à Deliberação do Plenário:** Envolvem solicitações de maior impacto político ou externo. Exemplos incluem pedidos de urgência urgentíssima, criação de Comissões Especiais, votos de repúdio ou pesar institucionais, e a convocação de Secretários de Estado para prestar esclarecimentos.
+        
+	- **Convocação de Secretário:** A convocação de um Secretário de Estado exige a aprovação do Plenário da ALECE por meio de um requerimento deliberativo. Caso o Secretário convocado não compareça sem apresentar uma justificativa legal que seja aceita, ele comete crime de responsabilidade.
     
 4. **Indicação:** É o meio pelo qual o Poder Legislativo sugere ou recomenda a outro Poder a prática de um ato administrativo ou a realização de uma obra que escape das competências do parlamento.  
     
@@ -48,6 +54,25 @@ A autuação consiste na constituição formal do processo legislativo. Nesta et
 A distribuição é o ato do Presidente da ALECE que encaminha o processo autuado às comissões:
 - **CCJR**: Toda proposição legislativa deve ser distribuída obrigatoriamente à Comissão de Constituição, Justiça e Redação (CCJR). A CCJR realiza o controle de admissibilidade, avaliando se o projeto respeita a Constituição Federal, a Constituição do Estado do Ceará e as regras de técnica legislativa.
 - **Distribuição Temática**: o projeto é distribuído às comissões que guardam nexo temático com o objeto da lei. 
+ 
+#### **2.4 Redação final**
+
+Etapa do processo legislativo encarregada de consolidar o texto definitivo de um projeto de lei que já foi aprovado nas votações de Plenário. Durante os debates parlamentares, o projeto original frequentemente sofre alterações. A finalidade desta fase é unificar essas alterações ao corpo do texto original antes que ela seja enviada ao Poder Executivo. O Técnico Legislativo atua no suporte a essa elaboração, auxiliando a comissão a depurar o texto de contradições, organizar a numeração dos artigos e garantir total fidelidade às deliberações das votações.
+
+O parecer de redação final é elaborado, em regra, pela própria Comissão de Constituição, Justiça e Redação (CCJR).
+- Caso a comissão de redação final altere o sentido jurídico da lei o texto padecerá de nulidade **por usurpação de competência do Plenário**.
+
+**Autógrafo de Lei:** Após a aprovação do parecer de redação final, o texto é finalizado e impresso em papel timbrado especial da Mesa Diretora. Este documento oficial e finalizado recebe a denominação técnica de Autógrafo de Lei. 
+- O documento deve ser assinado pelo Presidente e pelos Secretários da ALECE.
+- É enviado ao Governador para a fase de integração.
+
+---
+### **3. Pauta Legislativa**
+
+A pauta legislativa é a lista oficial das proposições previamente selecionadas e publicadas, as quais serão objeto de discussão ou votação em uma sessão específica. 
+- **Publicidade:** A inserção de uma matéria em pauta garante o cumprimento do princípio da publicidade. Como regra geral, nenhum projeto pode ser votado de surpresa, exigindo-se o conhecimento prévio de todos. A única exceção ocorre na vigência de regimes excepcionais de urgência urgentíssima.
+- **Prazo de Pauta para Emendas:** O ingresso do projeto na pauta deflagra a fase de discussão. É neste período inicial que se abre o prazo exigido para que os parlamentares estudem tecnicamente o texto e protocolarem as suas emendas.
+
 
 ![](../../../attachments/Pasted%20image%2020260625102401.png)
 B)
