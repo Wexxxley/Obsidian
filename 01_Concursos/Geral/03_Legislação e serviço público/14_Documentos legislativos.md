@@ -30,3 +30,5 @@ Um parecer deve seguir uma estrutura rígida, dividida nos seguintes blocos form
 A conclusão do parecer define o andamento do projeto de lei na Casa:
 - **Parecer Favorável:** Indica que o projeto está apto a seguir seu trâmite para a próxima comissão ou para a pauta de votações do Plenário.
 - **Parecer Contrário da CCJR por Inconstitucionalidade:** Este tipo de parecer possui caráter terminativo como regra geral. 
+
+---
