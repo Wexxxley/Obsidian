@@ -16,7 +16,7 @@ Consiste na união de um grupo de bancadas partidárias que decidem atuar de man
 #### **3. Lideranças Parlamentares**
 O Líder atua como o parlamentar designado por sua respectiva bancada ou bloco para desempenhar a função de porta-voz político.
     
-- **Prerrogativas:** Os líderes gozam de privilégios especiais durante o rito das sessões. Eles possuem o direito de solicitar a "Comunicação de Líder" a qualquer momento durante a fase do expediente (vedado apenas durante a Ordem do Dia). Também detêm a prerrogativa oficial de orientar o voto de seus liderados durante os processos de votação eletrônica.
+- Os líderes gozam de privilégios especiais durante o rito das sessões. Eles possuem o direito de solicitar a "Comunicação de Líder" a qualquer momento durante a fase do expediente (vedado apenas durante a Ordem do Dia). Também detêm a prerrogativa oficial de orientar o voto de seus liderados durante os processos de votação eletrônica.
     
 - O Governador do Estado possui a prerrogativa de indicar um deputado para a função de **Líder do Governo**, cuja missão é defender as matérias enviadas pelo Poder Executivo e organizar a base aliada na Assembleia. Em contraponto, a minoria parlamentar tem o direito de indicar o seu **Líder da Oposição**.
     
