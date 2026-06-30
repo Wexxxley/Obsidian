@@ -174,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421.01103591918945
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -277,10 +277,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3eaf000ce8f436ff",
+  "active": "0c52f17c64e87cbf",
   "lastOpenFiles": [
-    "01_Concursos/Geral/01_Português/2_Morfologia/13_Conjunções subordinativas P2.md",
+    "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/10_Dialog e progress indicator.md",
+    "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/5_Modal Navigation Drawer.md",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/Apresentação 1.md",
+    "01_Concursos/Geral/01_Português/2_Morfologia/13_Conjunções subordinativas P2.md",
     "01_Concursos/Geral/03_Legislação e serviço público/15_Técnica legislativa.md",
     "01_Concursos/Geral/03_Legislação e serviço público/14_Documentos legislativos.md",
     "01_Concursos/Geral/03_Legislação e serviço público/13_Proposição e tramitação legislativa.md",
@@ -314,8 +316,6 @@
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/1_JetpackNavigationCompose.md",
     "01_Concursos/Geral/03_Legislação e serviço público/1_LGPD E LAI.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/12_Conjunções subordinativas P1.md",
-    "08_Aleatorios/AcessoClin - Requisitos.md",
-    "Untitled 2.md",
     "01_Concursos/Geral/03_Legislação e serviço público",
     "01_Concursos/Geral/01_Português/3_Interpretação de texto",
     "01_Concursos/TI",

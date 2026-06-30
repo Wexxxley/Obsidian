@@ -23,23 +23,23 @@
 - **companion object** implementa o padrão **Singleton**. Garante que apenas uma única instância do banco de dados (AppDatabase) seja criada e mantida na memória durante todo o ciclo de vida do aplicativo.
 - O bloco **synchronized(this)** atua como um mecanismo de bloqueio para garantir segurança em operações simultâneas. 
 
-AnotaSmartApplication
+**AnotaSmartApplication**
 ![500](../../attachments/Pasted%20image%2020260625131541.png)
-Classe que herda da classe base Application. É o primeiro componente a ser instanciado quando o aplicativo é aberto e o último a ser destruído. Atua como o contêiner da conexão do banco de dados Room. O uso `by lazy` garante que a pesada operação de leitura e construção do `AppDatabase` ocorra apenas uma única vez em todo o ciclo de vida do aplicativo.
-- **By lazy:** O bloco de código {...} só é acionado na primeira vez que o sistema tentar ler o valor dessa variável. Após a primeira execução, o resultado gerado pelo bloco é salvo internamente. Em todas as leituras subsequentes, o bloco de código é ignorado. O Kotlin apenas devolve imediatamente o valor que já estava salvo no cache.
+Classe que herda da classe base Application (ciclo de vida mais longo). É o primeiro componente a ser instanciado quando o aplicativo é aberto e o último a ser destruído. Atua como o contêiner da conexão do banco de dados Room.
+- **by lazy:** mecanismo de performance que adia a chamada do método `getDatabase` até o momento exato em que a variável `database` for requisitada pela primeira vez. 
 
 ---
 ### 2. Navegação
 
 Usei o **Jetpack Compose Navigation**.
 
-As telas do aplicativo são mapeadas classe selada Screen. 
+As telas do aplicativo são mapeadas na classe selada Screen. 
 ![](../../attachments/Pasted%20image%2020260625132621.png)
 
 A navegação em sí ocorre em MainActivity.kt e ScreenStructure:
    * **NavController**: O objeto central que rastreia qual tela está ativa, gerencia o histórico de telas visitadas (Back Stack) e executa as transições.
    * **NavHost:** Funciona como o catálogo de rotas. Ele escuta o NavController e carrega o Composable (a tela em si) correspondente à rota ativa.
-   * **Scaffold**: Componente que organiza o espaço do app e decide de forma quando exibir ou ocultar elementos como a barra inferior e a barra superior com base na tela ativa.
+   * **Scaffold**: organiza o espaço do app e decide de forma quando exibir ou ocultar elementos como a barra inferior e a barra superior com base na tela ativa.
 [1_JetpackNavigationCompose](2_Jetpack%20Compose/2_Navegação%20e%20Grids/1_JetpackNavigationCompose.md)
   
 Por que usar surface se mais internamente tem o Scaffold?
@@ -47,18 +47,16 @@ Por que usar surface se mais internamente tem o Scaffold?
 A Surface na raiz ocupa a tela inteira e aplica a cor do tema atual. Sem ele ao alternar entre tema claro e escuro, ou durante transições de tela, poderiam ocorrer piscadas  mostrando a cor antiga da janela do sistema.
 
 O Scaffold não é a Raiz Real, pois o Scaffold está envelopado por outro componente gigante: o ModalNavigationDrawer.
-   * O menu lateral precisa deslizar por cima do conteúdo e escurecer o fundo.
    * Se o Scaffold fosse a raiz, o menu lateral estaria "fora" dele. A Surface
      na raiz garante que tanto o Menu Lateral (Drawer) quanto o Scaffold e as
      telas internas herdem o mesmo comportamento de tema.
-
 
 ---
 ### 3. Tela de venda
 
 **ViewModel**: A viewmodel armazena todos os estados que a tela precisa exibir, procesa eventos, gerenciar tarefas assíncronas e etc. Por exemplo:
    * O VendaViewModel armazena a lista de produtos, a busca ativa e a categoria selecionada.
-   * searchQuery é um estado que  viewModel gerencia
+   * searchQuery é um estado que viewModel gerencia
 ![](../../attachments/Pasted%20image%2020260625150117.png)
 - A variável com _ é declarada como private. O modificador `Mutable` indica que esta estrutura possui métodos de escrita embutidos.
 - A variável sem o _ é pública. A função `asStateFlow()` converte a referência da variável mutável original em uma versão restrita. A interface `StateFlow` não possui métodos de escrita .
