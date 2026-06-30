@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 **Predicado**: é o que não é sujeito.
