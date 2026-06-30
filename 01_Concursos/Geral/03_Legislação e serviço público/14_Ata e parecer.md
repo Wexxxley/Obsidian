@@ -2,11 +2,6 @@
 #Concluded 
 
 ---
-
-Os documentos legislativos constituem as ferramentas formais por meio das quais os atos do parlamento são propostos, instruídos, debatidos e registrados.
-
-O desrespeito à estrutura ou à finalidade de uma ata, parecer, requerimento ou indicação atenta contra os princípios da publicidade, da eficiência e da segurança jurídica, contaminando a validade do processo normativo.
-
 #### **1. Atas Legislativas**
 Registro escrito, formal e fidedigno de tudo o que ocorreu durante uma sessão plenária ou reunião de comissão da ALECE. Ela possui valor jurídico-probatório de ato público e serve de base para o controle de constitucionalidade e para o controle social, tendo como destinatário principal o arquivo e a sociedade, em respeito à Lei de Acesso à Informação.
 
