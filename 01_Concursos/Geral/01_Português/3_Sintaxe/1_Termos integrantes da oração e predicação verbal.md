@@ -11,11 +11,18 @@
 3. Depois pergunte pelos objetos.
 	![400](../../../../attachments/Pasted%20image%2020260626104858.png)
 
+**Objeto direto:** complemento de um verbo sem preposição obrigatória.
+	![](../../../../attachments/Pasted%20image%2020260630160034.png)
+- **O.D.Preposicionado:** pode aparece por estilo do autor e ênfase.
+
+**Objeto indireto:** 
+
+
 **Ordem direta do período simples:** Sujeito+Verbo+Complementos(O.direto + O.indireto + Predicativo + Adjuntos adverbiais)
 ![](../../../../attachments/Pasted%20image%2020260626132726.png)
 
 ---
-### Predicação verbal
+### 2. Predicação verbal
 
 Transitividade depende da frase. Só da pra saber pelo contexto.
 
