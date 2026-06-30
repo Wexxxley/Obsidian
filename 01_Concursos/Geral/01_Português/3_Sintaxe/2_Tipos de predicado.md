@@ -15,14 +15,13 @@ Predicado é tudo menos o sujeito na frase.
 ![](../../../../attachments/Pasted%20image%2020260630132436.png)
 
 ![300](../../../../attachments/Pasted%20image%2020260630132606.png)
+![400](../../../../attachments/Pasted%20image%2020260630133001.png)
+![300](../../../../attachments/Pasted%20image%2020260630133027.png)
+![300](../../../../attachments/Pasted%20image%2020260630133856.png)
 
 
 
 
 
 
-
-
-
-
-
+  
