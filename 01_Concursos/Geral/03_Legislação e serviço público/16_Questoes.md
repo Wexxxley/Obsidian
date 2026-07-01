@@ -64,4 +64,4 @@ Esse órgão é o Tribunal de Contas do Estado (TCE). Apesar de receber o nome d
     
 - **D) Conselho Estadual de Defesa dos Direitos Humanos:** Trata-se de um órgão colegiado de natureza consultiva, normativa e deliberativa, voltado estritamente para a formulação de políticas públicas e promoção de garantias fundamentais.
     
-- **E) Controladoria Geral do Estado do Ceará (CGE-CE):** A CGE realiza a fiscalização contábil e financeira, porém, ela exerce o **Controle Interno**. Ela é um órgão central que pertence à estrutura do próprio Poder Executivo (atuando como auxiliar direto do Governador para a auditoria interna). O controle exercido pela Assembleia Legislativa é, por definição, o Controle Externo.
+- **E) Controladoria Geral do Estado do Ceará (CGE-CE):** A CGE realiza a fiscalização contábil e financeira, porém, ela exerce o **Controle Interno**. Ela é um órgão central que pertence à estrutura do próprio Poder Executivo. O controle exercido pela Assembleia Legislativa é, por definição, o Controle Externo.
