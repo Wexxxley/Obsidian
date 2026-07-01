@@ -67,3 +67,6 @@ Em vez de um componente criar e controlar seu próprio estado, ele o "eleva" par
 Veja a BarraBusca:
 ![](../../attachments/Pasted%20image%2020260625145720.png)
 A BarraBusca não sabe o que é uma "Venda" ou um "ViewModel". Ela é um componente burro e reutilizável. 
+
+
+![](../../attachments/Pasted%20image%2020260701073104.png)
