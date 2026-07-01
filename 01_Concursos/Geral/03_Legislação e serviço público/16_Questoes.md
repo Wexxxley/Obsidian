@@ -65,3 +65,15 @@ Esse órgão é o Tribunal de Contas do Estado (TCE). Apesar de receber o nome d
 - **D) Conselho Estadual de Defesa dos Direitos Humanos:** Trata-se de um órgão colegiado de natureza consultiva, normativa e deliberativa, voltado estritamente para a formulação de políticas públicas e promoção de garantias fundamentais.
     
 - **E) Controladoria Geral do Estado do Ceará (CGE-CE):** A CGE realiza a fiscalização contábil e financeira, porém, ela exerce o **Controle Interno**. Ela é um órgão central que pertence à estrutura do próprio Poder Executivo. O controle exercido pela Assembleia Legislativa é, por definição, o Controle Externo.
+
+![](../../../attachments/Pasted%20image%2020260701184953.png)
+A) Para que o Presidente declare os trabalhos abertos e inicie a sessão ordinária, a exigência métrica é menor. O Regimento exige a presença de **um terço (1/3)** dos membros.
+
+O cenário jurídico muda quando a sessão avança para a **Ordem do Dia**.  Nesta fase, exige-se a **Maioria Absoluta** da Casa, que corresponde a **24 deputados**.**
+
+
+![](../../../attachments/Pasted%20image%2020260701185238.png)
+A) A criação de uma Comissão Parlamentar de Inquérito (CPI) na Assembleia do Ceará é direito de minoria parlamentar e exige o preenchimento de três requisitos constitucionais cumulativos: requerimento assinado por no mínimo um terço de membros da Casa (16 deputados), indicação de fato determinado a ser investigado e fixação de prazo certo para a conclusão dos trabalhos.
+
+![](../../../attachments/Pasted%20image%2020260701185416.png)
+B
