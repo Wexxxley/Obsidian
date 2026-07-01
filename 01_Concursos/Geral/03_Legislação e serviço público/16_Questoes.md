@@ -30,7 +30,7 @@ A) O Governador é o gestor do orçamento e da máquina administrativa do Estado
 - E) O Governador do Estado tem o dever de prestar as contas anuais, mas a competência para julgá-las é exclusiva da Assembleia Legislativa
 
 ![](../../../attachments/Pasted%20image%2020260701100116.png)
-C) 
+D) 
 
 Quórum de Três Quintos (3/5)
 - **No Âmbito Federal:** exigido para a aprovação de PECs
@@ -39,3 +39,29 @@ Quórum de Três Quintos (3/5)
 O Quórum de Dois Terços (2/3)
 - **No Âmbito Federal:** Trata-se do grau máximo de exigência de votos, reservado para julgamentos políticos, como a autorização e a condenação em processos de crime de responsabilidade (_impeachment_) do Presidente da República.
 - **No Âmbito Estadual (Ceará):** exigido para a aprovação de Propostas de Emenda à Constituição Estadual (PECs) e para a deliberação sobre a perda de mandato de deputados estaduais.
+
+
+![](../../../attachments/Pasted%20image%2020260701174721.png)
+![](../../../attachments/Pasted%20image%2020260701174735.png)
+C)
+
+
+![](../../../attachments/Pasted%20image%2020260701174909.png)
+B)
+
+
+![](../../../attachments/Pasted%20image%2020260701175122.png)
+![](../../../attachments/Pasted%20image%2020260701175204.png)
+C) A Constituição Federal e a Constituição do Estado do Ceará determinam que a fiscalização contábil, financeira, orçamentária, operacional e patrimonial do Estado e das entidades da administração direta e indireta é exercida pelo Poder Legislativo (Assembleia Legislativa), mediante o instituto do **Controle Externo**.
+
+Para exercer essa função fiscalizatória de forma técnica e especializada, o parlamento conta obrigatoriamente com o auxílio de um órgão de cúpula.
+
+Esse órgão é o Tribunal de Contas do Estado (TCE). Apesar de receber o nome de "Tribunal", ele não integra a estrutura do Poder Judiciário. A sua natureza jurídica é de órgão técnico, autônomo e independente, que atua como auxiliar do Poder Legislativo 
+
+- **A) Tribunal de Justiça do Estado do Ceará (TJCE):** É o órgão de cúpula do Poder Judiciário estadual. A sua função típica e exclusiva é a jurisdicional (julgar litígios e aplicar a lei ao caso concreto).
+    
+- **B) Ministério Público do Estado do Ceará (MPCE):** A sua missão constitucional é a defesa da ordem jurídica, do regime democrático e dos interesses sociais e individuais indisponíveis. O MPCE atua como fiscal da lei, não como auxiliar técnico de contas do Legislativo.
+    
+- **D) Conselho Estadual de Defesa dos Direitos Humanos:** Trata-se de um órgão colegiado de natureza consultiva, normativa e deliberativa, voltado estritamente para a formulação de políticas públicas e promoção de garantias fundamentais.
+    
+- **E) Controladoria Geral do Estado do Ceará (CGE-CE):** A CGE realiza a fiscalização contábil e financeira, porém, ela exerce o **Controle Interno**. Ela é um órgão central que pertence à estrutura do próprio Poder Executivo (atuando como auxiliar direto do Governador para a auditoria interna). O controle exercido pela Assembleia Legislativa é, por definição, o Controle Externo.
