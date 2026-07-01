@@ -30,4 +30,12 @@ A) O Governador é o gestor do orçamento e da máquina administrativa do Estado
 - E) O Governador do Estado tem o dever de prestar as contas anuais, mas a competência para julgá-las é exclusiva da Assembleia Legislativa
 
 ![](../../../attachments/Pasted%20image%2020260701100116.png)
-C) PEC exige quórum qualificado 3/5 de todos os membros do parlamento. Exigindo votação em dois turnos com intervalo regimental.
+C) 
+
+Quórum de Três Quintos (3/5)
+- **No Âmbito Federal:** exigido para a aprovação de PECs
+- **No Âmbito Estadual (Ceará):** o legislador cearense optou por não adotar esta regra.
+
+O Quórum de Dois Terços (2/3)
+- **No Âmbito Federal:** Trata-se do grau máximo de exigência de votos, reservado para julgamentos políticos, como a autorização e a condenação em processos de crime de responsabilidade (_impeachment_) do Presidente da República.
+- **No Âmbito Estadual (Ceará):** exigido para a aprovação de Propostas de Emenda à Constituição Estadual (PECs) e para a deliberação sobre a perda de mandato de deputados estaduais.

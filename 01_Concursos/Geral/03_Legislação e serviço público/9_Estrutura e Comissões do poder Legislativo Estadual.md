@@ -46,6 +46,7 @@ O Presidente atua como a autoridade máxima do Poder Legislativo Estadual, desem
 		- **Maioria Absoluta:** Sendo 46 deputados, a metade é 23. Portanto, a maioria absoluta requer um mínimo de 24 votos favoráveis.
 		- **Dois Terços:** Exige que dois terços do total de 46 parlamentares sejam favoráveis. Isso resulta em um mínimo fixo de 31 votos favoráveis. É um quórum reservado para matérias de extrema rigidez, como a aprovação de Propostas de Emenda à Constituição (PECs) e a deliberação sobre a perda de mandato de deputados.
 
+
 Quanto as votações, elas podem ser:
 - **Votação Presencial:** Rito padrão. Exige que o parlamentar esteja fisicamente e registre sua presença e seu voto no terminal eletrônico de sua respectiva mesa.
 - **Votação Remota ou Híbrida:** Foi implementada em larga escala durante a pandemia. Atualmente, o modelo híbrido (onde alguns estão no Plenário e outros votam por aplicativo) é mantido, garantindo que deliberações ocorram mesmo quando os parlamentares estão em missões oficiais ou em trânsito de suas bases eleitorais para a capital.
