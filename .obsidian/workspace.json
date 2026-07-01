@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/3_Sintaxe/3_Termos integrantes da oração.md",
+                "file": "01_Concursos/Geral/01_Português/2_Morfologia/8_Verbo e advérbio.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Termos integrantes da oração"
+              "title": "8_Verbo e advérbio"
             }
           }
         ],
@@ -174,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 365.01103591918945
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -280,6 +279,7 @@
   },
   "active": "3eaf000ce8f436ff",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/3_Sintaxe/3_Termos integrantes da oração.md",
     "attachments/Pasted image 20260630192914.png",
     "attachments/Pasted image 20260630192405.png",
     "attachments/Pasted image 20260630192238.png",
@@ -290,10 +290,8 @@
     "attachments/Pasted image 20260630190600.png",
     "attachments/Pasted image 20260630185329.png",
     "attachments/Pasted image 20260630184452.png",
-    "attachments/Pasted image 20260630184425.png",
     "01_Concursos/Geral/01_Português/3_Sintaxe/2_Tipos de predicado.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/1_Termos integrantes da oração e predicação verbal.md",
-    "01_Concursos/Geral/01_Português/3_Sintaxe/3_Termos integrantes da oração.md",
     "01_Concursos/Geral/03_Legislação e serviço público/16_Sistema legislativos informatizados.md",
     "01_Concursos/Geral/03_Legislação e serviço público/15_Técnica legislativa e estruturação da lei.md",
     "01_Concursos/Geral/03_Legislação e serviço público/14_Ata e parecer.md",
