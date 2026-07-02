@@ -77,3 +77,32 @@ A) A criação de uma Comissão Parlamentar de Inquérito (CPI) na Assembleia do
 
 ![](../../../attachments/Pasted%20image%2020260701185416.png)
 B
+
+![](../../../attachments/Pasted%20image%2020260702094536.png)
+C) **Resolução:** Instrumento utilizado para regular assuntos institucionais internos. Utiliza-se a Resolução para elaborar ou alterar o Regimento Interno, organizar a estrutura administrativa de cargos da ALECE ou definir regras de funcionamento das comissões parlamentares. 
+
+![](../../../attachments/Pasted%20image%2020260702094824.png)
+B) O Líder parlamentar é o Deputado Estadual designado por sua representação partidária ou bloco parlamentar para atuar como o portavoz do grupo nas dependências, liderar discussões regimentais, participar do Colégio de Líderes e orientar formalmente o voto da bancada nas sessões plenárias.
+
+![](../../../attachments/Pasted%20image%2020260702094947.png)
+B) o encerramento de uma legislatura parlamentar (4 anos) provoca o arquivamento de todas as proposições e projetos de lei que se encontravam em tramitação pendentes de parecer ou deliberação final, salvando-se apenas projetos com prazos constitucionais especiais.
+
+![](../../../attachments/Pasted%20image%2020260702095216.png)
+A)
+
+![](../../../attachments/Pasted%20image%2020260702095355.png)
+B)
+![](../../../attachments/Pasted%20image%2020260702095519.png)
+
+![](../../../attachments/Pasted%20image%2020260702095608.png)
+
+B) A perda do mandato de Deputado Estadual é cominada em processo administrativo-político regular assegurada a ampla defesa quando o parlamentar infringir vedações constitucionais graves, tais como mudar-se ou fixar residência definitiva fora do território do Estado do Ceará sem autorização legislativa.
+
+![](../../../attachments/Pasted%20image%2020260702100215.png)
+B) CONFIRMAR ALGO QUE JA FOI DITO
+
+![](../../../attachments/Pasted%20image%2020260702100412.png)
+B) A Audiência Pública constitui instrumento democrático do processo legislativo. Sua finalidade técnica e constitucional é abrir o parlamento para o debate de matérias de relevante interesse social com entidades civis, colher pareceres de especialistas e ouvir as demandas da sociedade sobre projetos de lei em andamento.
+
+![](../../../attachments/Pasted%20image%2020260702100715.png)
+De acordo com as normas constitucionais do Estado do Ceará, a iniciativa popular de leis exige que o projeto de lei ordinária seja subscrito por no mínimo 1% (um por cento) do eleitorado do Estado, distribuído por pelo menos cinco municípios cearenses, com não menos de três décimos por cento dos eleitores de cada um deles.

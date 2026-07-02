@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_CadeirasFaculdade/07_Mobile (Cadeira)/Apresentação 1.md",
+                "file": "01_Concursos/Geral/03_Legislação e serviço público/16_Questoes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Apresentação 1"
+              "title": "16_Questoes"
             }
           }
         ],
@@ -174,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.01103591918945
+    "width": 285.01103591918945
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -277,31 +277,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c52f17c64e87cbf",
+  "active": "3eaf000ce8f436ff",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260702100715.png",
+    "attachments/Pasted image 20260702100412.png",
+    "attachments/Pasted image 20260702100215.png",
+    "attachments/Pasted image 20260702095608.png",
+    "attachments/Pasted image 20260702095519.png",
+    "01_Concursos/Geral/03_Legislação e serviço público/15_Técnica legislativa e estruturação da lei.md",
+    "01_Concursos/Geral/03_Legislação e serviço público/16_Questoes.md",
+    "attachments/Pasted image 20260702095355.png",
+    "attachments/Pasted image 20260702095216.png",
+    "attachments/Pasted image 20260702094947.png",
+    "attachments/Pasted image 20260702094824.png",
     "01_Concursos/Geral/03_Legislação e serviço público/10_Eleição, competências, sessões e ética da ALECE.md",
     "01_Concursos/Geral/03_Legislação e serviço público/9_Estrutura e Comissões do poder Legislativo Estadual.md",
-    "01_Concursos/Geral/03_Legislação e serviço público/16_Questoes.md",
-    "attachments/Pasted image 20260701185416.png",
-    "attachments/Pasted image 20260701185238.png",
-    "attachments/Pasted image 20260701184953.png",
-    "attachments/Pasted image 20260701175204.png",
-    "attachments/Pasted image 20260701175139.png",
-    "attachments/Pasted image 20260701175122.png",
-    "attachments/Pasted image 20260701174909.png",
-    "attachments/Pasted image 20260701174735.png",
-    "attachments/Pasted image 20260701174721.png",
-    "01_Concursos/Geral/03_Legislação e serviço público/11_Bancadas, lideranças e blocos parlamentares.md",
     "01_Concursos/Geral/03_Legislação e serviço público/12_Processo legislativo.md",
     "01_Concursos/Geral/03_Legislação e serviço público/13_Proposição, tramitação e pauta legislativa.md",
-    "attachments/Pasted image 20260701100116.png",
+    "attachments/Pasted image 20260702094536.png",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/Apresentação 1.md",
+    "attachments/Pasted image 20260701185416.png",
+    "01_Concursos/Geral/03_Legislação e serviço público/11_Bancadas, lideranças e blocos parlamentares.md",
     "01_Concursos/Geral/03_Legislação e serviço público/16_Sistema legislativos informatizados.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/8_Verbo e advérbio.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/3_Termos integrantes da oração.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/2_Tipos de predicado.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/1_Termos integrantes da oração e predicação verbal.md",
-    "01_Concursos/Geral/03_Legislação e serviço público/15_Técnica legislativa e estruturação da lei.md",
     "01_Concursos/Geral/03_Legislação e serviço público/14_Ata e parecer.md",
     "04_Git and github/03_Fluxo inicial e commit.md",
     "07_CadeirasFaculdade/07_Mobile (Cadeira)/2_Jetpack Compose/1_Introdução/9_Gerenciamento de estados.md",
