@@ -1,11 +1,12 @@
 
+#Concluded 
 
 ---
 Predicado é tudo menos o sujeito na frase.
 
-**Predicado verbal:** ocorre com verbos de ação.
+**Predicado verbal:** O foco é o verbo (verbo de ação)
 	![300](../../../../attachments/Pasted%20image%2020260630131927.png)
-**Predicado nominal:** ocorre quando o foco é o nome. Aquele que vem com verbo de ligação e predicativo.
+**Predicado nominal:** O foco é o nome. Vem com verbo de ligação e predicativo.
 	![300](../../../../attachments/Pasted%20image%2020260630132049.png)
 **Predicado verbo-nominal:** tem verbo de ação e predicativo.
 	![300](../../../../attachments/Pasted%20image%2020260630132346.png)

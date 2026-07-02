@@ -1,6 +1,8 @@
 
+#Concluded 
 
 ---
+**São: Objeto direto, objeto indireto, complemento nominal e agente da passiva.**
 
 **1. Objeto direto:** complemento de um verbo sem preposição obrigatória.
 	![](../../../../attachments/Pasted%20image%2020260630160034.png)
@@ -16,17 +18,15 @@
 	 ![400](../../../../attachments/Pasted%20image%2020260630164953.png)
 
 
-**Voz passiva:**  A voz passiva é uma estrutura na qual o sujeito da oração sofre ou recebe a ação expressa pelo verbo, em vez de praticá-la. 
+**Voz passiva:**  estrutura na qual o sujeito da oração sofre ou recebe a ação expressa pelo verbo, em vez de praticá-la. 
 - **Sujeito Paciente:** É o sujeito que sofre a ação verbal.
-- **4. Agente da Passiva:** É o termo que indica quem ou o que pratica a ação sofrida pelo sujeito paciente.
-
-	**Voz Passiva Analítica:** Formada por um **sujeito paciente**, **verbo no particípio** e, frequentemente, um agente da passiva (por ou de). 
-	- A locução verbal é composta por um verbo auxiliar ("ser", "estar", "ficar") seguido pelo verbo principal no particípio (terminada em -ado ou -ido).
-	- O código foi revisado pelo desenvolvedor.
-	- Ela estava cercada de curiosos.
+- **4. Agente da Passiva:** quem pratica a ação sofrida pelo sujeito
 	
-	**Voz Passiva Sintética**: Não apresenta o agente da passiva e é caracterizada pelo uso do pronome "se". 
-	- Corrigiram-se os erros.
+- **Voz Passiva Analítica:** Formada por um **sujeito paciente**, **verbo no particípio** e, frequentemente, um agente da passiva (por ou de). 
+	- Locução verbal composta por verbo auxiliar seguido pelo verbo principal no particípio (terminada em -ado ou -ido).
+		
+- **Voz Passiva Sintética**: Não apresenta o agente da passiva e é caracterizada pelo uso do pronome "se". 
+		- Corrigiram-se os erros.
 
 ---
 

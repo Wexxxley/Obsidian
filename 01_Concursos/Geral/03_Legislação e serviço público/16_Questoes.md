@@ -106,3 +106,14 @@ B) A Audiência Pública constitui instrumento democrático do processo legislat
 
 ![](../../../attachments/Pasted%20image%2020260702100715.png)
 De acordo com as normas constitucionais do Estado do Ceará, a iniciativa popular de leis exige que o projeto de lei ordinária seja subscrito por no mínimo 1% (um por cento) do eleitorado do Estado, distribuído por pelo menos cinco municípios cearenses, com não menos de três décimos por cento dos eleitores de cada um deles.
+
+
+![](../../../attachments/Pasted%20image%2020260702141639.png)
+C)
+
+![](../../../attachments/Pasted%20image%2020260702142121.png)
+
+
+
+![](../../../attachments/Pasted%20image%2020260702142254.png)
+

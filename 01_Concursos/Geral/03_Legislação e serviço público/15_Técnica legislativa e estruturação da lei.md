@@ -17,15 +17,15 @@ Uma lei estruturada segundo as regras de técnica legislativa divide-se em três
 
 **2. Parte Textual/Dispositiva/normativa**
 - **Artigo (Art.):** É a unidade básica de agrupamento da lei.
-- **Parágrafo (§):** É a disposição secundária de desdobramento do artigo, possuindo natureza explicativa ou condicional. Se houver apenas um, adota-se a grafia por extenso "Parágrafo único.". Se houver dois ou mais, utiliza-se o símbolo do parágrafo
+- **Parágrafo (§):** disposição secundária do artigo, possuindo natureza explicativa ou condicional. Se houver apenas um, adota-se a grafia por extenso "Parágrafo único.". Se houver mais, utiliza-se o símbolo do parágrafo
 - **Inciso:** Consiste no desdobramento de artigos ou parágrafos.
 - **Alínea:** Consiste no desdobramento de incisos.
-- Hierarquia: Artigo, Parágrafo, inciso e, por fim, Alínea.
 ![](../../../attachments/Pasted%20image%2020260630094637.png)
 - **Artigos e Parágrafos do 1 ao 9:** Utilizam-se algarismos ordinais (ex: Art. 1º, Art. 9º).
 - **Artigos e Parágrafos do 10 em diante:** algarismos cardinais com ponto (ex: Art. 10.). 
-- **Incisos:** São identificados obrigatoriamente por Algarismos Romanos (ex: I, II, IV).
-- **Alíneas:** São identificadas por letras minúsculas acompanhadas de parênteses de fechamento (ex: a)).
+- **Incisos:** São identificados por Algarismos Romanos (ex: I, II, IV).
+- **Alíneas:** São identificadas por letras minúsculas acompanhadas de parênteses (ex: a)).
+![](../../../attachments/Pasted%20image%2020260702141943.png)
 
 **3. Parte Final**
 - **Cláusula de Vigência:** Deve fixar o momento exato em que a lei entra em vigor.
