@@ -116,4 +116,17 @@ C)
 
 
 ![](../../../attachments/Pasted%20image%2020260702142254.png)
+A) Os Deputados Estaduais gozam da prerrogativa constitucional da imunidade parlamentar material e formal. Eles são invioláveis, civil e penalmente, por quaisquer de suas opiniões, palavras, discursos de Plenário e votos emitidos no exercício do mandato político, protegendo o livre exercício do Poder Legislativo
 
+![](../../../attachments/Pasted%20image%2020260702142502.png)
+B) O Governador do Estado dispõe da prerrogativa de solicitar regime de urgência constitucional para a tramitação de projetos de lei de sua iniciativa privativa. Caso a Assembleia não delibere a matéria no prazo de 45 dias, o projeto entra em pauta trancando a Ordem do Dia de todas as demais proposições da Casa.
+
+![](../../../attachments/Pasted%20image%2020260702142736.png)
+B) O artigo 60 da Constituição Federal, reproduzido por simetria rígida no plano estadual, estabelece as chamadas limitações circunstanciais ao poder de reforma constitucional. A Constituição do Estado do Ceará está proibida de sofrer emendas (PEC) na vigência de intervenção federal, estado de defesa ou estado de sítio.
+
+![](../../../attachments/Pasted%20image%2020260702142853.png)
+B)
+
+![](../../../attachments/Pasted%20image%2020260702143052.png)
+B)
+![](../../../attachments/Pasted%20image%2020260702142121.png)

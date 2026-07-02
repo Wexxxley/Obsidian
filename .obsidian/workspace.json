@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/03_Legislação e serviço público/16_Questoes.md",
+                "file": "01_Concursos/Geral/01_Português/3_Sintaxe/4_Análise sintática.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "16_Questoes"
+              "title": "4_Análise sintática"
             }
           }
         ],
@@ -174,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -279,11 +280,16 @@
   },
   "active": "3eaf000ce8f436ff",
   "lastOpenFiles": [
+    "01_Concursos/Geral/03_Legislação e serviço público/16_Questoes.md",
+    "01_Concursos/Geral/01_Português/3_Sintaxe/4_Análise sintática.md",
+    "attachments/Pasted image 20260702143052.png",
+    "attachments/Pasted image 20260702142853.png",
+    "attachments/Pasted image 20260702142736.png",
+    "attachments/Pasted image 20260702142502.png",
     "attachments/Pasted image 20260702142254.png",
     "attachments/Pasted image 20260702142121.png",
     "01_Concursos/Geral/03_Legislação e serviço público/15_Técnica legislativa e estruturação da lei.md",
     "attachments/Pasted image 20260702141943.png",
-    "01_Concursos/Geral/03_Legislação e serviço público/16_Questoes.md",
     "attachments/Pasted image 20260702141639.png",
     "01_Concursos/Geral/01_Português/3_Sintaxe/3_Termos integrantes da oração.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/2_Tipos de predicado.md",
@@ -291,11 +297,6 @@
     "01_Concursos/Geral/01_Português/2_Morfologia/15_Desinências verbais.md",
     "attachments/Pasted image 20260702100715.png",
     "attachments/Pasted image 20260702100412.png",
-    "attachments/Pasted image 20260702100215.png",
-    "attachments/Pasted image 20260702095608.png",
-    "attachments/Pasted image 20260702095519.png",
-    "attachments/Pasted image 20260702095355.png",
-    "attachments/Pasted image 20260702095216.png",
     "01_Concursos/Geral/03_Legislação e serviço público/10_Eleição, competências, sessões e ética da ALECE.md",
     "01_Concursos/Geral/03_Legislação e serviço público/9_Estrutura e Comissões do poder Legislativo Estadual.md",
     "01_Concursos/Geral/03_Legislação e serviço público/12_Processo legislativo.md",
