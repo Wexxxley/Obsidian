@@ -1,9 +1,7 @@
 
 
 ---
-Por padrão todos os componentes de um aplicativo Android são executados na mesma Thread, a Main Thread. Ela é a única responsável pelas atualizações da interface com o usuário. 
-
-Se a main thread for bloqueada, pode ocasionar o aparecimento do famoso ANR (Aplicativo Não Respondendo).
+Por padrão todos os componentes de um aplicativo Android são executados na mesma Thread, a Main Thread. Ela é a única responsável pelas atualizações da interface com o usuário. Se a main thread for bloqueada, pode ocasionar o aparecimento do famoso ANR (Aplicativo Não Respondendo).
 
 As vezes multi-thread é necessário, como:
 - Leitura escrita no db;
@@ -29,11 +27,8 @@ Em kotlin são funções que possuem:
 - Quando o escopo é cancelado, todas as Coroutines lançadas dentro dele são automaticamente cancelada
 
 **CourotineBuilders**
-
-- **launch**: Inicia uma nova coroutine sem bloquear a thread atual. Retorna uma referência para a coroutine (Job). Usado quando quando não precisamos esperar o resultado.
-
+- **launch**: Inicia uma nova coroutine sem bloquear a thread atual. Usado quando quando não precisamos esperar o resultado.
 - **async**: Inicia uma coroutine e permite esperar por seu resultado para continuar. Usamos função await para suspender o código até recuperar o resultado. Retorna um Deffered que é uma subclasse de Job.
-
 - **runBlocking**: Bloqueia a thread em que é chamado enquanto a coroutine não terminar. 
 
 **Dispatchers**
