@@ -38,5 +38,8 @@ Uma lei estruturada segundo as regras de técnica legislativa divide-se em três
 **Sistematização:** Trata-se da operação de ordenação e distribuição dos artigos por livros, títulos, capítulos e seções, garantindo a logicidade e a navegação do texto normativo.
 
 
+As leis de grande porte dividem-se em **Partes, Livros, Títulos e Capítulos**. Os Capítulos desdobram-se, se necessário, em Seções, e as Seções dividem-se em Subseções, as quais agrupam os artigos temáticos comuns.
+
+
 ![](../../../attachments/Pasted%20image%2020260630093827.png)
 B)

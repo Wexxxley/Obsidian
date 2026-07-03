@@ -130,3 +130,22 @@ B)
 ![](../../../attachments/Pasted%20image%2020260702143052.png)
 B)
 ![](../../../attachments/Pasted%20image%2020260702142121.png)
+
+![](../../../attachments/Pasted%20image%2020260703092334.png)
+B) Na dinâmica de funcionamento das comissões permanentes, o Presidente do órgão colegiado distribui a matéria a um parlamentar designado como Relator. O relator estuda o projeto e redige o Parecer, documento técnico contendo o histórico, a justificativa e o 
+voto opinativo pela aprovação ou rejeição da proposta.
+
+![](../../../attachments/Pasted%20image%2020260703092548.png)
+C) Salvo prorrogações expressamente votadas pelo Plenário por motivos de alta relevância ou votações nominais pendentes na Ordem do Dia, a sessão ordinária diária da Assembleia Legislativa do Estado do Ceará possui a duração regimental regulamentar fixa de 4 horas.
+
+![](../../../attachments/Pasted%20image%2020260703093148.png)
+B)
+
+![](../../../attachments/Pasted%20image%2020260703093329.png)
+B) O projeto de Decreto Legislativo (PDL) é a proposição de competência exclusiva do parlamento adequada para regular matérias que produzam efeitos externos e dispensem a sanção do Governador, tais como conceder autorização formal para que o Governador do Estado se afaste do território cearense por prazo superior a 15 dias
+
+![](../../../attachments/Pasted%20image%2020260703093450.png)
+B)
+
+![](../../../attachments/Pasted%20image%2020260703093755.png)
+C)O Pedido de Vista é a prerrogativa regimental assegurada ao Deputado Estadual integrante de uma comissão técnica permanente. Permite ao parlamentar interromper temporariamente a votação de um projeto para reter a pasta e examinar detidamente os autos e o parecer do relator durante o prazo regimental fixado.
