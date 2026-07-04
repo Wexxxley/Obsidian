@@ -9,6 +9,15 @@
 **Adjunto adnominal:** refere-se ao substantivo (do sujeito ou do predicado), determinando-o. Pode ser artigo, adjetivo, locução adjetiva, pronomes e numeral.
 ![500](../../../../attachments/Pasted%20image%2020260702152537.png)
 
+**Adjunto adnominal x Complemento nominal**:
+1. Quando se refere a advérbio e a adjetivo, so pode ser **complemento nominal.**
+2. Se não tem preposição e se refere a substantivo é **Adjunto adnominal.**
+3. Quando a expressão preposicionada se refere a substantivo EVIDENTEMENTE CONCRETO é **Adjunto adnominal.**
+	- Casa de joão (adj adn)
+4. Quando a expressão preposicionada se refere a substantivo ABSTRATO pode ser tanto complemento nominal como adjunto adverbial. 
+	- Se o termo tiver sentido de **ATIVO, POSSE OU ESPECIFICAÇÃO** será adj adn.
+	- Se o termo tiver sentido de **PASSIVO/ALVO**
+
 **Aposto:** termo que se acrescenta a substantivo ou pronome.
 	![500](../../../../attachments/Pasted%20image%2020260702153239.png)
 	![500](../../../../attachments/Pasted%20image%2020260702153712.png)
