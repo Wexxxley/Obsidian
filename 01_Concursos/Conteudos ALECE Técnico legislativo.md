@@ -106,8 +106,8 @@
 - ~~Digitalização, arquivos eletrônicos e gestão eletrônica de documentos.~~
 
 ### Processo Legislativo e Organização do Poder Legislativo
-- Estrutura e organização do Poder Legislativo Estadual.
-- Mesa Diretora, Presidência, Plenário, Comissões Permanentes e Temporárias.
+- ~~Estrutura e organização do Poder Legislativo Estadual.~~
+- ~~Mesa Diretora, Presidência, Plenário, Comissões Permanentes e Temporárias.~~
 - Bancadas, lideranças, blocos parlamentares e unidades administrativas.
 - Processo legislativo: conceitos e fases.
 - Proposições legislativas: projeto de lei, emenda, requerimento, indicação, moção e substitutivo.

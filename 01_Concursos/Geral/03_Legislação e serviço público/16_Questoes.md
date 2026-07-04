@@ -81,6 +81,8 @@ B
 ![](../../../attachments/Pasted%20image%2020260702094536.png)
 C) **Resolução:** Instrumento utilizado para regular assuntos institucionais internos. Utiliza-se a Resolução para elaborar ou alterar o Regimento Interno, organizar a estrutura administrativa de cargos da ALECE ou definir regras de funcionamento das comissões parlamentares. 
 
+---
+
 ![](../../../attachments/Pasted%20image%2020260702094824.png)
 B) O Líder parlamentar é o Deputado Estadual designado por sua representação partidária ou bloco parlamentar para atuar como o portavoz do grupo nas dependências, liderar discussões regimentais, participar do Colégio de Líderes e orientar formalmente o voto da bancada nas sessões plenárias.
 
@@ -149,3 +151,14 @@ B)
 
 ![](../../../attachments/Pasted%20image%2020260703093755.png)
 C)O Pedido de Vista é a prerrogativa regimental assegurada ao Deputado Estadual integrante de uma comissão técnica permanente. Permite ao parlamentar interromper temporariamente a votação de um projeto para reter a pasta e examinar detidamente os autos e o parecer do relator durante o prazo regimental fixado.
+
+![](../../../attachments/Pasted%20image%2020260704185641.png)
+B) O Apensamento por dependência (anexação por matéria) ocorre quando dá entrada na Casa um projeto de lei que trata de objeto idêntico ou correlato a outra proposição que já se encontra em tramitação. A Diretoria Legislativa une os autos para que caminhem e sejam deliberados juntos, evitando leis contraditórias.
+
+
+![](../../../attachments/Pasted%20image%2020260704190141.png)
+C)
+
+![](../../../attachments/Pasted%20image%2020260704190342.png)
+![](../../../attachments/Pasted%20image%2020260704190359.png)
+B) 

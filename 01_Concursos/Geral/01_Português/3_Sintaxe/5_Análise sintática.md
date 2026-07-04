@@ -3,7 +3,7 @@
 ---
 ![](../../../../attachments/Pasted%20image%2020260703175447.png)
 ![300](../../../../attachments/Pasted%20image%2020260703175501.png)
-![350](../../../../attachments/Pasted%20image%2020260703175608.png)
+![500](../../../../attachments/Pasted%20image%2020260703175608.png)
 
 
 ![300](../../../../attachments/Pasted%20image%2020260703175626.png)
@@ -26,7 +26,7 @@
 
 ![400](../../../../attachments/Pasted%20image%2020260703205709.png)
 
-![400](../../../../attachments/Pasted%20image%2020260703205738.png)
+
  
 
 ![423](../../../../attachments/Pasted%20image%2020260704102523.png)
