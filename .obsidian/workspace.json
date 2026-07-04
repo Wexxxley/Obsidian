@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -194,6 +195,10 @@
   },
   "active": "e1d0862f280580c2",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260704153830.png",
+    "attachments/Pasted image 20260704153111.png",
+    "attachments/Pasted image 20260704152324.png",
+    "attachments/Pasted image 20260704152311.png",
     "attachments/Pasted image 20260704143650.png",
     "attachments/Pasted image 20260704143628.png",
     "01_Concursos/Geral/01_Português/3_Sintaxe/4_Termos acessórios da oração.md",
@@ -203,10 +208,6 @@
     "attachments/Pasted image 20260704142444.png",
     "attachments/Pasted image 20260704141212.png",
     "attachments/Pasted image 20260704134752.png",
-    "attachments/Pasted image 20260704133913.png",
-    "attachments/Pasted image 20260704133853.png",
-    "attachments/Pasted image 20260704133412.png",
-    "attachments/Pasted image 20260704133357.png",
     "01_Concursos/Geral/01_Português/3_Sintaxe/3_Termos integrantes da oração.md",
     "01_Concursos/Geral/01_Português/1_Ortografia/3_Acentuação gráfica.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/10_Preposição.md",
