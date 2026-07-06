@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/1_Ortografia/5_Uso dos porques.md",
+                "file": "01_Concursos/Geral/01_Português/3_Sintaxe/5_Análise sintática.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Uso dos porques"
+              "title": "5_Análise sintática"
             }
           }
         ]
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.01103591918945
+    "width": 332.01103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -194,6 +195,9 @@
   },
   "active": "e1d0862f280580c2",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260706084249.png",
+    "attachments/Pasted image 20260706084203.png",
+    "01_Concursos/Geral/01_Português/1_Ortografia/5_Uso dos porques.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/9_Interjeição.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/8_Verbo e advérbio.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/10_Preposição.md",
@@ -225,11 +229,8 @@
     "attachments/Pasted image 20260704154212.png",
     "attachments/Pasted image 20260704153830.png",
     "attachments/Pasted image 20260704153111.png",
-    "attachments/Pasted image 20260704152324.png",
     "01_Concursos/Geral/01_Português/3_Sintaxe/4_Termos acessórios da oração.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/3_Termos integrantes da oração.md",
-    "01_Concursos/Geral/01_Português/1_Ortografia/3_Acentuação gráfica.md",
-    "07_CadeirasFaculdade/07_Mobile (Cadeira)/Apresentação 1.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe",
     "01_Concursos/Geral/03_Legislação e serviço público",
     "01_Concursos/Geral/01_Português/3_Interpretação de texto",
