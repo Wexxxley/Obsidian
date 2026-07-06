@@ -48,3 +48,14 @@
 ![](../../../../attachments/Pasted%20image%2020260706132133.png)
 
 ![](../../../../attachments/Pasted%20image%2020260706132230.png)
+![](../../../../attachments/Pasted%20image%2020260706133006.png)
+
+![](../../../../attachments/Pasted%20image%2020260706133929.png)
+![](../../../../attachments/Pasted%20image%2020260706133912.png)
+
+![500](../../../../attachments/Pasted%20image%2020260706134000.png)
+![500](../../../../attachments/Pasted%20image%2020260706134245.png)
+
+![](../../../../attachments/Pasted%20image%2020260706134555.png)
+![](../../../../attachments/Pasted%20image%2020260706134540.png)
+![](../../../../attachments/Pasted%20image%2020260706135606.png)
