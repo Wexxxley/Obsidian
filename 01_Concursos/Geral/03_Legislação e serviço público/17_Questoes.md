@@ -116,6 +116,7 @@ C)
 ![](../../../attachments/Pasted%20image%2020260702142121.png)
 
 
+---
 
 ![](../../../attachments/Pasted%20image%2020260702142254.png)
 A) Os Deputados Estaduais gozam da prerrogativa constitucional da imunidade parlamentar material e formal. Eles são invioláveis, civil e penalmente, por quaisquer de suas opiniões, palavras, discursos de Plenário e votos emitidos no exercício do mandato político, protegendo o livre exercício do Poder Legislativo

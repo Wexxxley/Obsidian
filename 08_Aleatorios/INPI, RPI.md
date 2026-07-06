@@ -1,7 +1,7 @@
 
 
 ---
-O **Instituto Nacional da Propriedade Industrial (INPI)** é uma autarquia federal vinculada ao Ministério do Desenvolvimento, Indústria, Comércio e Serviços. Ele é o órgão oficial responsável pelo aperfeiçoamento, disseminação e gestão do sistema brasileiro de concessão e garantia de direitos de propriedade intelectual para a indústria.
+O **Instituto Nacional da Propriedade Industrial (INPI)** é o órgão oficial responsável pelo aperfeiçoamento, disseminação e gestão do sistema brasileiro de concessão e garantia de direitos de propriedade intelectual para a indústria.
 
 Sua responsabilidade inclui o registro de **marcas**, concessão de **patentes**, averbação de contratos de transferência de tecnologia, registro de desenhos industriais, indicações geográficas e programas de computador.
 
