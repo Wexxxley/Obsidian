@@ -78,3 +78,6 @@
 
 
 ![](../../../../attachments/Pasted%20image%2020260706095321.png)![500](../../../../attachments/Pasted%20image%2020260706095329.png)
+![](../../../../attachments/Pasted%20image%2020260707092106.png)![](../../../../attachments/Pasted%20image%2020260707092122.png)
+
+![](../../../../attachments/Pasted%20image%2020260707092540.png)
