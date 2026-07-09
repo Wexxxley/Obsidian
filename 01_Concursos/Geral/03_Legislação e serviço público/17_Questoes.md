@@ -127,8 +127,6 @@ B) O Governador do Estado dispõe da prerrogativa de solicitar regime de urgênc
 ![](../../../attachments/Pasted%20image%2020260702142736.png)
 B) O artigo 60 da Constituição Federal, reproduzido por simetria rígida no plano estadual, estabelece as chamadas limitações circunstanciais ao poder de reforma constitucional. A Constituição do Estado do Ceará está proibida de sofrer emendas (PEC) na vigência de intervenção federal, estado de defesa ou estado de sítio.
 
-![](../../../attachments/Pasted%20image%2020260702142853.png)
-B)
 
 ![](../../../attachments/Pasted%20image%2020260702143052.png)
 B)
