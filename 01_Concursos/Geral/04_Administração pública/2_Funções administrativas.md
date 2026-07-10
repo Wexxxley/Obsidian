@@ -11,26 +11,18 @@ O planejamento não é homogêneo, dividindo-se em três níveis de abrangência
 - **Tático**: foca no médio prazo, atua no escopo de diretoria e departamentos.
 - **Operacional**: foca no curto prazo, detalhando as tarefas, metodologias e rotinas.
 #### **Organização**
-Uma vez que o destino foi traçado pelo planejamento, a Organização entra em cena com o papel de estruturar e dispor os recursos da instituição para viabilizar a execução do que foi planejado. Organizar significa, na prática, agrupar as atividades, dividir formalmente o trabalho entre os diversos setores, alocar os materiais físicos nas salas correspondentes e definir claramente a cadeia de comando. É nesta fase que se constrói o organograma, estipulando quem se reporta a quem. Em uma aplicação prática dentro da ALECE, a organização seria o ato gerencial de definir que o "Técnico A" cuidará exclusivamente do protocolo, enquanto o "Técnico B" ficará responsável pela digitação de atas, garantindo a alocação de um computador adequado para a estação de trabalho de cada um.
-
-### A Direção (A Condução do Elemento Humano)
-
-A Direção é a função administrativa encarregada de conduzir, liderar, motivar e coordenar o elemento humano da organização no dia a dia. É vital diferenciar: enquanto o planejamento traça a meta e a organização monta a estrutura física e a divisão de cargos, a direção foca única e exclusivamente nas pessoas. Para que esta função seja bem-sucedida, exige-se das chefias o domínio de habilidades interpessoais, notadamente a comunicação, a liderança e a resolução ágil de conflitos. Um exemplo clássico de direção na ALECE seria o Diretor de uma área reunindo sua equipe de técnicos para orientar a execução de uma tarefa urgente, motivando os servidores a cumprirem a missão sob a forte pressão de um prazo imposto pelo Plenário.
-
-### O Controle (O Monitoramento e a Ação Corretiva)
-
-O Controle é a função responsável por avaliar e monitorar o desempenho real alcançado pela organização. Seu núcleo metodológico consiste em comparar os resultados que foram efetivamente obtidos com as metas que haviam sido planejadas inicialmente. O objetivo dessa comparação é identificar desvios e aplicar, de imediato, as correções necessárias. É o controle que fecha o ciclo administrativo, fornecendo os dados e o aprendizado institucional para o início de um novo planejamento.
-
-O processo de controle é rigorosamente dividido em quatro etapas:
-
+Organizar significa agrupar as atividades, dividir o trabalho entre os setores, alocar os materiais físicos, definir a cadeia de comando. É nesta fase que se constrói o organograma, estipulando quem se reporta a quem. 
+#### **Direção** 
+Função administrativa encarregada de conduzir, liderar, motivar e coordenar o elemento humano da organização no dia a dia. A direção foca única e exclusivamente nas pessoas. Para que esta função seja bem-sucedida, exige-se das chefias o domínio de habilidades interpessoais, notadamente a comunicação, a liderança e a resolução ágil de conflitos. 
+#### **Controle**
+Função responsável por avaliar e monitorar o desempenho real alcançado pela organização. Seu núcleo metodológico consiste em comparar os resultados que foram  obtidos com as metas que haviam sido planejadas. O objetivo dessa comparação é identificar desvios e aplicar as correções necessárias. O processo de controle é dividido em quatro etapas:
 1. Fixar os padrões de desempenho esperados;
-    
 2. Medir o resultado real que foi produzido;
-    
 3. Comparar esse resultado com o padrão que havia sido fixado;
-    
 4. Aplicar a ação corretiva cabível.
-    
+
+É o controle que fecha o ciclo administrativo, fornecendo os dados e o aprendizado institucional para o início de um novo planejamento.
+
 
 Na realidade da ALECE, o controle ocorreria ao verificar se o setor de protocolo efetivamente cumpriu a meta mensal de digitalizar 100% dos processos em até 24 horas. Caso a medição aponte que o tempo médio de resposta subiu para 48 horas, o controle atuará para identificar os gargalos e corrigir a falha.
 
