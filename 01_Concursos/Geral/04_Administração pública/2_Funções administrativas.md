@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 
@@ -17,32 +18,23 @@ Função administrativa encarregada de conduzir, liderar, motivar e coordenar o 
 #### **Controle**
 Função responsável por avaliar e monitorar o desempenho real alcançado pela organização. Seu núcleo metodológico consiste em comparar os resultados que foram  obtidos com as metas que haviam sido planejadas. O objetivo dessa comparação é identificar desvios e aplicar as correções necessárias. O processo de controle é dividido em quatro etapas:
 1. Fixar os padrões de desempenho esperados;
-2. Medir o resultado real que foi produzido;
-3. Comparar esse resultado com o padrão que havia sido fixado;
+2. Medir o resultado produzido;
+3. Comparar;
 4. Aplicar a ação corretiva cabível.
 
 É o controle que fecha o ciclo administrativo, fornecendo os dados e o aprendizado institucional para o início de um novo planejamento.
 
-
-Na realidade da ALECE, o controle ocorreria ao verificar se o setor de protocolo efetivamente cumpriu a meta mensal de digitalizar 100% dos processos em até 24 horas. Caso a medição aponte que o tempo médio de resposta subiu para 48 horas, o controle atuará para identificar os gargalos e corrigir a falha.
-
-### Tabela de Correlação das Funções Administrativas (PODC)
-
-Para facilitar a memorização e a resolução de provas, a relação entre as funções, suas palavras-chave e exemplos práticos encontra-se sintetizada abaixo:
-
-|**Função**|**Palavra-Chave para Prova**|**Foco de Atuação**|**Exemplo de Ação do Gestor**|
-|---|---|---|---|
-|**Planejamento**|Objetivos / Metas / Estratégia / Futuro.|Definição do rumo do órgão.|Elaborar o Plano Estratégico de Modernização Digital.|
-|**Organização**|Estruturação / Divisão do Trabalho / Recursos.|Distribuição de tarefas e meios.|Desenhar o organograma de núcleos da Diretoria Legislativa.|
-|**Direção**|Liderança / Motivação / Orientação / Pessoas.|Condução do elemento humano.|Orientar os Técnicos sobre a nova postura de atendimento no SIC.|
-|**Controle**|Monitoramento / Avaliação / Correção / Padrões.|Comparação e correção de desvios.|Auditar o tempo médio de resposta aos pedidos da LAI na Ouvidoria.|
-
-### Pontos de Atenção e Armadilhas de Prova
-
-Para alcançar um alto nível de acertos, é necessário aprofundar-se nas armadilhas clássicas cobradas pelas bancas examinadoras:
-
-- **A Troca entre Organização e Direção:** É uma pegadinha muito recorrente afirmar que a função de _Organização_ é a responsável por liderar e motivar os servidores públicos. Isso está completamente **incorreto**. Liderar pessoas é uma atribuição exclusiva da **Direção**. A organização cuida apenas da estrutura fria e inanimada de cargos, recursos físicos e atribuições legais que formam as caixas de um organograma.
+| **Função**       | **Palavra-Chave**                              | **Foco de Atuação**               | **Exemplo de Ação**                                              |
+| ---------------- | ---------------------------------------------- | --------------------------------- | ---------------------------------------------------------------- |
+| **Planejamento** | Objetivos / Metas / Estratégia / Futuro.       | Definição do rumo do órgão.       | Elaborar Plano Estratégico de Modernização Digital.              |
+| **Organização**  | Estruturação / Divisão do Trabalho / Recursos. | Distribuição de tarefas e meios.  | Desenhar o organograma de núcleos da Diretoria Legislativa.      |
+| **Direção**      | Liderança / Motivação / Orientação / Pessoas.  | Condução do elemento humano.      | Orientar os Técnicos sobre a nova postura de atendimento no SIC. |
+| **Controle**     | Monitoramento/ Avaliação/ Correção/ Padrões.   | Comparação e correção de desvios. | Auditar o tempo médio de resposta aos pedidos da LAI.            |
+É uma pegadinha muito recorrente afirmar que a função de Organização é a responsável por liderar e motivar os servidores públicos. Isso está **incorreto**. Liderar pessoas é uma atribuição exclusiva da **Direção**.
     
-- **O Tempo do Controle:** Outro erro comum é acreditar que o Controle só ocorre no final de um processo. Embora o controle feche o ciclo teórico PODC, na prática gerencial, ele pode ocorrer de forma concomitante (durante a própria execução da tarefa) ou de forma preventiva (antes mesmo do início do ato), e não unicamente de forma retrospectiva ao final do ano fiscal.
-    
-- **Dica Prática (Foco nos Verbos de Comando):** Ao ler o enunciado de uma questão, a técnica mais eficiente é sublinhar os verbos da situação hipotética. Verbos operacionais como _desenhar a estrutura_, _alocar equipamentos_ ou _dividir atribuições_ remetem indubitavelmente à função de **Organização**. Por outro lado, verbos analíticos como _mensurar_, _comparar_, _auditar_ e _corrigir_ remetem diretamente à etapa de **Controle**.
+Outro erro é acreditar que o Controle só ocorre no final de um processo. Embora o controle feche o ciclo PODC, na prática, ele pode ocorrer de forma concomitante ou de forma preventiva.
+
+![](../../../attachments/Pasted%20image%2020260710143129.png)
+
+D) Controle
+
