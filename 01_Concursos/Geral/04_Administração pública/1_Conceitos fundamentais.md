@@ -26,30 +26,29 @@ C)
 ---
 ### **2. Organização Administrativa**
 
-A organização administrativa do Estado disciplina a forma como a máquina pública distribui suas competências internas e externas para a prestação dos serviços à sociedade. 
+A organização administrativa do Estado disciplina a forma como a máquina pública distribui suas competências internas e externas para a prestação dos serviços à sociedade. Compreender a diferença entre criar um órgão novo (repartição interna) e criar uma entidade nova (autarquia com CNPJ próprio) é fundamental.
+#### **2.1 Centralização e Descentralização (Externo)**
 
-Compreender a diferença entre criar um órgão novo (repartição interna) e criar uma entidade nova (autarquia com CNPJ próprio) é fundamental.
-#### **2.1 Centralização e Descentralização (Eixo Externo)**
+- **Centralização**: ocorre quando o Estado presta o serviço público de forma direta. O ente estatal executa suas atividades por meio de seus próprios órgãos e ministérios, os quais compõem a **Administração Direta**.
 
-- **Centralização**: ocorre quando o Estado presta o serviço público de forma direta. O ente estatal executa suas atividades por meio de seus próprios órgãos e ministérios (ou secretarias), os quais compõem a chamada Administração Direta.
+- **Descentralização**: acontece quando o Estado transfere a competência da prestação de um serviço para outra pessoa jurídica. Essa nova entidade pode ser de direito público, a exemplo das **autarquias**, ou de direito privado, como as **empresas públicas**. 
+	- A entidade descentralizada possui autonomia, não existe relação de hierarquia ou subordinação com o estado. Mas é estabelecido uma relação de **Controle Finalístico, Tutela Administrativa ou Supervisão Ministerial**, que serve para fiscalizar se a entidade está cumprindo os objetivos definidos na lei que a criou.
 
-- **Descentralização**: acontece quando o Estado transfere a competência da prestação de um serviço para outra pessoa jurídica. Essa nova entidade pode ser de direito público, a exemplo das **autarquias**, ou de direito privado, como as **empresas públicas**. Um caso clássico é a relação entre o Estado do Ceará (ente central) e o DETRAN-CE (entidade descentralizada). 
-	- Como a entidade descentralizada possui autonomia, não existe relação de hierarquia ou subordinação entre ela e o Estado. Em substituição à hierarquia, estabelece-se uma relação de **Controle Finalístico, Tutela Administrativa ou Supervisão Ministerial**. Esse controle serve para fiscalizar se a entidade está cumprindo os objetivos definidos na lei que a criou.
-
-#### **2.2 Concentração e Desconcentração (Eixo Interno)**
+#### **2.2 Concentração e Desconcentração (Interno)**
 
 - **Concentração**: caracteriza-se pela extinção de divisões, reunindo todas as competências decisórias no topo de uma única autoridade central.
 
-- **Desconcentração**: distribuição interna de competências dentro de uma mesma pessoa jurídica. Trata-se de uma técnica essencial de divisão do trabalho, concebida para desonerar as chefias superiores e garantir mais agilidade à máquina pública.
-	- A aplicação dessa técnica resulta na criação dos **Órgãos Públicos**. É fundamental compreender que os órgãos são apenas **centros de competência** despersonalizados (não possuem personalidade jurídica própria). Por consequência, não possuem patrimônio independente nem capacidade de responder judicialmente de forma autônoma. A desconcentração é marcada por uma relação de Hierarquia e Subordinação rígida.
+- **Desconcentração**: distribuição interna de competências dentro de uma mesma pessoa jurídica. Trata-se de uma técnica de divisão do trabalho para desonerar as chefias superiores e garantir mais agilidade à máquina pública.
+	- A aplicação dessa técnica resulta na criação dos **Órgãos Públicos**. Órgãos são apenas **centros de competência despersonalizados** (sem personalidade jurídica própria). Por consequência, não possuem patrimônio independente nem capacidade de responder judicialmente de forma autônoma. A desconcentração é marcada por uma relação de Hierarquia e Subordinação.
 
+---
 ### **3. Administração indireta**
 
-É a técnica da descentralização que dá origem à Administração Indireta que é composto  por quatro figuras jurídicas: Fundações Públicas, Autarquias, Sociedades de Economia Mista e Empresas Públicas. 'FASE'
+É a técnica da descentralização dá origem à Administração Indireta que é composto por quatro figuras jurídicas: Fundações Públicas, Autarquias, Sociedades de Economia Mista e Empresas Públicas. "FASE"
 
-- **Autarquias** são pessoas jurídicas de direito público, criadas por uma lei para exercer atividades típicas e exclusivas de Estado (ex: Universidades Estaduais e DETRAN). 
-- **Fundações Públicas** consistem em um patrimônio personalizado e destinado a finalidades sociais, culturais ou de pesquisa, podendo assumir regime de direito público ou privado.
-- **Empresas Públicas** são pessoas jurídicas de direito privado, criadas mediante autorização legal, cujo capital é integralmente público (ex: Caixa Econômica Federal).
-- **Sociedades de Economia Mista** são pessoas de direito privado criadas por autorização legal, porém, possuem capital misto, exigindo-se que a maioria das ações com direito a voto pertença ao Estado (ex: CAGECE).
+- **Fundações Públicas**: consistem em um patrimônio destinado a finalidades sociais, culturais ou de pesquisa. Pode assumir regime de direito público ou privado.
+- **Autarquias**: são pessoas jurídicas de direito público, criadas por uma lei para exercer atividades típicas e exclusivas de Estado (Universidades Estaduais e DETRAN). 
+- **Sociedades de Economia Mista**: são pessoas de direito privado que possuem capital misto, exigindo-se que a ações com direito a voto pertença ao Estado  (CAGECE).
+- **Empresas Públicas**: são pessoas jurídicas de direito privado cujo capital é integralmente público (Caixa Econômica Federal).
 
-Um erro clássico em provas de concurso é afirmar que órgãos internos, como a Diretoria Legislativa ou a Diretoria Administrativa e Financeira da ALECE, podem ser processados judicialmente por um candidato ou cidadão. Como os órgãos são desprovidos de personalidade jurídica, quem responde civil e judicialmente pelos atos praticados por essas diretorias desconcentradas é a instituição, neste caso, a ALECE.
+Um erro clássico é afirmar que órgãos internos, como a Diretoria Legislativa da ALECE, podem ser processados por um cidadão. Como os órgãos são desprovidos de personalidade jurídica, quem responde civil e judicialmente pelos atos praticados por essas diretorias desconcentradas é a instituição, neste caso, a ALECE.
