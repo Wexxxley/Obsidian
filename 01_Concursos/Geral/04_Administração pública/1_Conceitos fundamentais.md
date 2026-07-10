@@ -52,12 +52,4 @@ Compreender a diferença entre criar um órgão novo (repartição interna) e cr
 - **Empresas Públicas** são pessoas jurídicas de direito privado, criadas mediante autorização legal, cujo capital é integralmente público (ex: Caixa Econômica Federal).
 - **Sociedades de Economia Mista** são pessoas de direito privado criadas por autorização legal, porém, possuem capital misto, exigindo-se que a maioria das ações com direito a voto pertença ao Estado (ex: CAGECE).
 
-### Capacidade Processual e Associação de Termos
-
-Um erro clássico em provas de concurso é afirmar que órgãos internos, como a Diretoria Legislativa ou a Diretoria Administrativa e Financeira (DAF) da ALECE, podem ser processados judicialmente por um candidato ou cidadão. Como os órgãos são desprovidos de personalidade jurídica, quem responde civil e judicialmente pelos atos praticados por essas diretorias desconcentradas é a instituição integralizada — neste caso, a Assembleia Legislativa do Estado do Ceará como um todo.
-
-Para consolidar esses conceitos de forma prática, a doutrina sugere a associação pela grafia das palavras. O termo "DescOncentração" possui a vogal "O", remetendo à criação de um Órgão, o que indica uma relação interna baseada na hierarquia. Já o termo "DescEntralização" possui a vogal "E", indicando a transferência de poderes para outra Entidade, caracterizando o surgimento de uma nova pessoa jurídica, sem vínculo hierárquico.
-
-### Dicas para Identificação de Vínculos em Questões
-
-A resolução precisa de questões sobre o tema exige atenção aos vocábulos utilizados no enunciado. Se a situação-problema mencionar as expressões "tutela", "supervisão ministerial" ou "controle finalístico", o contexto refere-se obrigatoriamente à Descentralização. Por outro lado, se o texto empregar as palavras "hierarquia", "subordinação" ou "autotutela" (o poder de revisar os próprios atos), o cenário descreve a mecânica da Desconcentração.
+Um erro clássico em provas de concurso é afirmar que órgãos internos, como a Diretoria Legislativa ou a Diretoria Administrativa e Financeira da ALECE, podem ser processados judicialmente por um candidato ou cidadão. Como os órgãos são desprovidos de personalidade jurídica, quem responde civil e judicialmente pelos atos praticados por essas diretorias desconcentradas é a instituição, neste caso, a ALECE.
