@@ -1,0 +1,56 @@
+
+
+---
+
+As funções administrativas são conhecidas pelo mnemônico "PODC" (Planejamento, Organização, Direção e Controle).
+#### **Planejamento** 
+Consiste no ato de definir os objetivos que a instituição almeja alcançar e, a partir dessa definição, traçar os meios, as estratégias e os planos de ação necessários para atingir tais metas. O planejamento possui uma característica essencial: olha sempre para o futuro, buscando antecipar cenários para reduzir a incerteza.
+
+O planejamento não é homogêneo, dividindo-se em três níveis de abrangência:
+- **Estratégico**: envolve o longo prazo e a visão macro, sendo de competência da cúpula.
+- **Tático**: foca no médio prazo, atua no escopo de diretoria e departamentos.
+- **Operacional**: foca no curto prazo, detalhando as tarefas, metodologias e rotinas.
+#### **Organização**
+Uma vez que o destino foi traçado pelo planejamento, a Organização entra em cena com o papel de estruturar e dispor os recursos da instituição para viabilizar a execução do que foi planejado. Organizar significa, na prática, agrupar as atividades, dividir formalmente o trabalho entre os diversos setores, alocar os materiais físicos nas salas correspondentes e definir claramente a cadeia de comando. É nesta fase que se constrói o organograma, estipulando quem se reporta a quem. Em uma aplicação prática dentro da ALECE, a organização seria o ato gerencial de definir que o "Técnico A" cuidará exclusivamente do protocolo, enquanto o "Técnico B" ficará responsável pela digitação de atas, garantindo a alocação de um computador adequado para a estação de trabalho de cada um.
+
+### A Direção (A Condução do Elemento Humano)
+
+A Direção é a função administrativa encarregada de conduzir, liderar, motivar e coordenar o elemento humano da organização no dia a dia. É vital diferenciar: enquanto o planejamento traça a meta e a organização monta a estrutura física e a divisão de cargos, a direção foca única e exclusivamente nas pessoas. Para que esta função seja bem-sucedida, exige-se das chefias o domínio de habilidades interpessoais, notadamente a comunicação, a liderança e a resolução ágil de conflitos. Um exemplo clássico de direção na ALECE seria o Diretor de uma área reunindo sua equipe de técnicos para orientar a execução de uma tarefa urgente, motivando os servidores a cumprirem a missão sob a forte pressão de um prazo imposto pelo Plenário.
+
+### O Controle (O Monitoramento e a Ação Corretiva)
+
+O Controle é a função responsável por avaliar e monitorar o desempenho real alcançado pela organização. Seu núcleo metodológico consiste em comparar os resultados que foram efetivamente obtidos com as metas que haviam sido planejadas inicialmente. O objetivo dessa comparação é identificar desvios e aplicar, de imediato, as correções necessárias. É o controle que fecha o ciclo administrativo, fornecendo os dados e o aprendizado institucional para o início de um novo planejamento.
+
+O processo de controle é rigorosamente dividido em quatro etapas:
+
+1. Fixar os padrões de desempenho esperados;
+    
+2. Medir o resultado real que foi produzido;
+    
+3. Comparar esse resultado com o padrão que havia sido fixado;
+    
+4. Aplicar a ação corretiva cabível.
+    
+
+Na realidade da ALECE, o controle ocorreria ao verificar se o setor de protocolo efetivamente cumpriu a meta mensal de digitalizar 100% dos processos em até 24 horas. Caso a medição aponte que o tempo médio de resposta subiu para 48 horas, o controle atuará para identificar os gargalos e corrigir a falha.
+
+### Tabela de Correlação das Funções Administrativas (PODC)
+
+Para facilitar a memorização e a resolução de provas, a relação entre as funções, suas palavras-chave e exemplos práticos encontra-se sintetizada abaixo:
+
+|**Função**|**Palavra-Chave para Prova**|**Foco de Atuação**|**Exemplo de Ação do Gestor**|
+|---|---|---|---|
+|**Planejamento**|Objetivos / Metas / Estratégia / Futuro.|Definição do rumo do órgão.|Elaborar o Plano Estratégico de Modernização Digital.|
+|**Organização**|Estruturação / Divisão do Trabalho / Recursos.|Distribuição de tarefas e meios.|Desenhar o organograma de núcleos da Diretoria Legislativa.|
+|**Direção**|Liderança / Motivação / Orientação / Pessoas.|Condução do elemento humano.|Orientar os Técnicos sobre a nova postura de atendimento no SIC.|
+|**Controle**|Monitoramento / Avaliação / Correção / Padrões.|Comparação e correção de desvios.|Auditar o tempo médio de resposta aos pedidos da LAI na Ouvidoria.|
+
+### Pontos de Atenção e Armadilhas de Prova
+
+Para alcançar um alto nível de acertos, é necessário aprofundar-se nas armadilhas clássicas cobradas pelas bancas examinadoras:
+
+- **A Troca entre Organização e Direção:** É uma pegadinha muito recorrente afirmar que a função de _Organização_ é a responsável por liderar e motivar os servidores públicos. Isso está completamente **incorreto**. Liderar pessoas é uma atribuição exclusiva da **Direção**. A organização cuida apenas da estrutura fria e inanimada de cargos, recursos físicos e atribuições legais que formam as caixas de um organograma.
+    
+- **O Tempo do Controle:** Outro erro comum é acreditar que o Controle só ocorre no final de um processo. Embora o controle feche o ciclo teórico PODC, na prática gerencial, ele pode ocorrer de forma concomitante (durante a própria execução da tarefa) ou de forma preventiva (antes mesmo do início do ato), e não unicamente de forma retrospectiva ao final do ano fiscal.
+    
+- **Dica Prática (Foco nos Verbos de Comando):** Ao ler o enunciado de uma questão, a técnica mais eficiente é sublinhar os verbos da situação hipotética. Verbos operacionais como _desenhar a estrutura_, _alocar equipamentos_ ou _dividir atribuições_ remetem indubitavelmente à função de **Organização**. Por outro lado, verbos analíticos como _mensurar_, _comparar_, _auditar_ e _corrigir_ remetem diretamente à etapa de **Controle**.

@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 ### **1. Conceitos iniciais**
@@ -9,11 +10,11 @@ O Direito Administrativo divide o conceito de Administração Pública em duas v
     
 - **Sentido Material, Funcional ou Objetivo (MFO):** Trata da atividade em si. Suas vertentes de atuação englobam o serviço público, o poder de polícia, o fomento e a intervenção. Deve ser grafado com iniciais minúsculas: **administração pública**.
 
-**Governo**: A atividade principal do Governo é a formulação de diretrizes, de metas e a alta condução política do Estado.
+**Governo**: A atividade é a formulação de diretrizes, metas e a condução política do Estado.
 - Os agentes condutores desta função são os agentes políticos.
 - Possui uma temporalidade transitória.
 
-**Administração**: A atividade principal é a execução prática das metas e diretrizes traçadas  pelo Governo.
+**Administração**: A atividade é a execução das metas e diretrizes traçadas pelo Governo.
 - Os agentes responsáveis são os agentes administrativos (servidores públicos).
 - Possui uma temporalidade permanente.
 
