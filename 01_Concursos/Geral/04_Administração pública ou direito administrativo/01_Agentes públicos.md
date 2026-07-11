@@ -12,12 +12,15 @@
 	- No geral possuem mandato político.
 	- Possuem regras diferentes.
 		![](../../../attachments/Pasted%20image%2020260711094853.png)
-  2. **Servidores públicos**: É uma profissão e são remunerados. 	![](../../../attachments/Pasted%20image%2020260711101346.png)
-	  1. **Estátutários**:
-
-
-
-
+  2. **Servidores públicos**: É uma profissão e são remunerados. 	
+	1. **Estátutários**: Regime Júridco Único.  
+		![](../../../attachments/Pasted%20image%2020260711124712.png)
+		  ![](../../../attachments/Pasted%20image%2020260711101346.png)
+	2. **Empregados públicos (celetista-CLT):** encontra-se nas Empresas Públicas e nas Sociedades de Economia Mista. EXCETO OS DIRIGENTES, que são titulares de cargos em comissão, são regidos pelo estatuto.
+		![](../../../attachments/Pasted%20image%2020260711102342.png)
+	3. **Temporários**: Contratado para exercer atividade transitória de excepecional (exceção) interesse público.
+		
+		![](../../../attachments/Pasted%20image%2020260711125158.png)
 
 **Regime Jurídico Único:** A Constituição Federal estabelece o RJU que visa padronizar o tratamento dos servidores de um mesmo ente governamental (União, Estados, Distrito Federal ou Municípios). Ele evita que servidores que exercem funções semelhantes dentro do mesmo órgão sejam regidos por regras trabalhistas diferentes.
 
