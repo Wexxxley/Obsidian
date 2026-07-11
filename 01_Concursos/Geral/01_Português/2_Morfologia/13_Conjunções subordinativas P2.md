@@ -1,4 +1,10 @@
-C Conjunção comparativa - Conjunção integrante - Conjunção final
+
+#Concluded 
+
+---
+
+### **1. Proporcional**
+
 À medida que -> conjunção proporcional
 Na medida em que -> Conjunção causal.
 
