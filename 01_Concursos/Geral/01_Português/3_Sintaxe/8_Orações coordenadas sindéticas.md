@@ -10,6 +10,7 @@
 
 #### **3. Alternativas**
 Indica alternância ou escolha/exclusão.
+![500](../../../../attachments/Pasted%20image%2020260711081103.png)
 ![500](../../../../attachments/Pasted%20image%2020260711080617.png)
 #### **4. Conclusivas**
 
