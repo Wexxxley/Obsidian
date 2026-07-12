@@ -1,6 +1,8 @@
   
 
 ---
+### **1. Introdução**
+
 Dentro do direito temos as **NORMAS JURÍDICAS:** **Regras e Princípios**.
 ![](../../../attachments/Pasted%20image%2020260712134729.png)
 
@@ -16,4 +18,12 @@ Dentro do direito temos as **NORMAS JURÍDICAS:** **Regras e Princípios**.
 
 **Em relação aos princípios:**
 1. Não há princípio absoluto, não há hierarquia entre eles. 
-2. Possuem força cogente ()
+2. Têm força cogente (obrigatórios e imodificáveis). Não são meras recomendações. 
+3. Existem princípios expressos e implícitos, mas possuem a mesma importância. 
+	![](../../../attachments/Pasted%20image%2020260712165956.png)
+
+---
+### 2. Princípios expressos
+
+Esses 5 princípios alcançam toda a administração pública. Tanto a administração pública direta e indireta.
+- Administração direta
