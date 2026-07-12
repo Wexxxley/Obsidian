@@ -35,3 +35,17 @@
 	- Adquire estabilidade após 3 anos de estágio probatório.
 	- Regras próprias para aposentadoria.
 	- No caso da União (governo federal formado pelos 3 poderes), os servidores não são submetidos à Consolidação das Leis do Trabalho (CLT).
+
+---
+#### **Agente Putativo (Funcionário de Fato)**
+O agente putativo é o indivíduo que exerce a função pública com uma aparência de legalidade perante a sociedade, mas cuja investidura no cargo possui algum vício jurídico. 
+- **Investidura irregular:** Esta situação ocorre quando há uma falha no processo de nomeação ou posse do agente. Ex:candidato nomeado e empossado que, posteriormente, descobre-se ter apresentado um diploma falso.    
+- **Validade dos Atos:** Os atos praticados pelo agente putativo são considerados válidos. Isso decorre do Princípio da Proteção à Confiança e da Teoria da Aparência, que visam proteger os administrados que agiram de boa-fé ao solicitar um serviço público.
+- **Responsabilidade Estatal:** O Estado assume a responsabilidade civil pelos danos que o agente putativo vier a causar.
+#### **Agente Necessário**
+Particular que, sem possuir qualquer vínculo anterior com a Administração Pública, assume o exercício de uma função pública de maneira excepcional.
+- **Situações emergenciais:** A atuação deste agente é restrita a cenários de calamidade pública, desastres naturais ou outras emergências extremas. 
+- **Consequências Jurídicas:** O agente necessário compartilha das mesmas garantias do agente putativo. Seus atos são considerados válidos e a responsabilidade por eventuais danos ocorridos durante essa atuação emergencial recai sobre o Estado. 
+#### **Usurpador de Função**
+Pessoa que assume o exercício de uma atividade pública, fraudulenta e sem qualquer amparo legal. Natureza criminosa.
+- **Ato Inexistente:** os atos praticados pelo usurpador são classificados como inexistentes, então se quer precisar anular os atos.
