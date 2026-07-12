@@ -19,4 +19,9 @@ Indica alternância ou escolha/exclusão.
 
 ---
 ![](../../../../attachments/Pasted%20image%2020260712102100.png)
-![](../../../../attachments/Pasted%20image%2020260712102108.png)
+![400](../../../../attachments/Pasted%20image%2020260712102108.png)
+
+![400](../../../../attachments/Pasted%20image%2020260712103243.png)![](../../../../attachments/Pasted%20image%2020260712130936.png)
+![](../../../../attachments/Pasted%20image%2020260712131458.png)
+![](../../../../attachments/Pasted%20image%2020260712132003.png)
+Errado. aditiva. não só... mas também
