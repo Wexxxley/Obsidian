@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 **Lei de improbidade administrativa**
@@ -27,9 +28,9 @@
 	2. **Delegatários:** Particulares que irão explorar um serviço público.
 		- Ex: Empresa de transporte urbano, cartórios, concecionárias de rodovias.
 	3. **Credenciados:** São particulares escolhidos para praticar um ato, representar a administração pública. 
-		- Ex: Um atleta representando o Brasil em um evento. Um pesquisador representando o Brasil em um evento externo.
+		- Ex: Um atleta ou um pesquisador representando o Brasil em um evento externo.
 		
-**Regime Jurídico Único:** A Constituição estabelece o RJU que visa padronizar o tratamento dos servidores de um mesmo ente governamental (União, Estados, DF ou Municípios). Ele evita que servidores que exercem funções semelhantes dentro do mesmo órgão sejam regidos por regras trabalhistas diferentes.
+**Regime Jurídico Único:** Estabelecida pela Constituição e visa padronizar o tratamento dos servidores de um mesmo ente governamental (União, Estados, DF ou Municípios).  Evita que servidores que exercem funções semelhantes dentro do mesmo órgão sejam regidos por regras trabalhistas diferentes.
 - **Regime Celetista (CLT)** Funciona por contrato de trabalho. Comum em empresas estatais (ex: Banco do Brasil, Correios). Recebe FGTS (Fundo de Garantia do Tempo de Serviço) e seguro-desemprego
 - **Regime Estatutário**: Toma posse em um cargo público, regido pelo Estatuto dos Servidores. Comum na administração direta e autarquias.
 	- Adquire estabilidade após 3 anos de estágio probatório.

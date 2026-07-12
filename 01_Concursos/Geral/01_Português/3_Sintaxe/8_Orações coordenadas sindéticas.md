@@ -16,3 +16,7 @@ Indica alternância ou escolha/exclusão.
 #### **4. Conclusivas**
 ![500](../../../../attachments/Pasted%20image%2020260712094342.png)
 #### **5. Explicativas**  
+
+---
+![](../../../../attachments/Pasted%20image%2020260712102100.png)
+![](../../../../attachments/Pasted%20image%2020260712102108.png)
