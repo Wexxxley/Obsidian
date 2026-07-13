@@ -41,13 +41,20 @@ Na esfera privada, vigora a **autonomia da vontade**: o indivíduo é livre para
 
 #### **2.2 Princípio da Impessoalidade**
 
-- **Princípio da Finalidade:** Todo ato administrativo tem um único objetivo válido: o interesse público. Se um servidor utiliza suas prerrogativas legais para satisfazer interesses privados, ocorre o chamado "**desvio de finalidade**", que torna o ato nulo.
+**Princípio da Finalidade:** Todo ato administrativo tem um único objetivo: o interesse público. Se um servidor utiliza suas prerrogativas legais para satisfazer interesses privados, ocorre o chamado "**desvio de finalidade**", que torna o ato nulo.
     
-- **Tratamento Isonômico:** A Administração deve aplicar as regras de forma geral.
-    
-- **Vedação de Promoção Pessoal:** A Constituição proíbe que obras, serviços ou campanhas de órgãos contenham nomes, símbolos ou imagens que caracterizem a promoção pessoal. Toda publicidade estatal deve ter caráter educativo ou informativo.
-    
-- **Imputação Volitiva (Teoria do Órgão):** Os atos praticados por um servidor público no exercício de suas funções são atribuídos ao Estado (ou ao órgão que ele representa). Quando um Técnico Legislativo assina um documento oficial, juridicamente, é a própria instituição que o está assinando.
+1. **Tratamento Isonômico:** A Administração deve aplicar as regras de forma geral.
+2. **Vedação de Promoção Pessoal:** A Constituição proíbe que obras, serviços ou campanhas de órgãos contenham nomes, símbolos ou imagens que caracterizem a promoção pessoal ou de partidos políticos. Toda publicidade estatal deve ter caráter **educativo** ou **informativo**.
+3. **Imputação Volitiva (Teoria do Órgão):** Os atos praticados por um servidor público no exercício de suas funções são atribuídos ao Estado (ou ao órgão). 
+
+**Repercussões práticas do Princípio da Impessoalidade no ordenamento**
+![](../../../attachments/Pasted%20image%2020260713084011.png)
+1. **Concurso Público:** Materializa a impessoalidade ao garantir que todos os cidadãos tenham oportunidades de acesso ao serviço estatal. A seleção ocorre mediante critérios objetivos, eliminando o favorecimento pessoal.
+2. **Licitação:** Procedimento administrativo prévio exigido para que a Administração Pública realize compras, obras ou contratação de serviços. A impessoalidade atua  garantindo a igualdade de condições de disputa entre as empresas privadas. 
+3. **Impedimento e Suspeição**: Regras que afastam um agente público da condução, análise ou julgamento de um processo.
+	- **Impedimento:** Decorre de situações objetivas e irrefutáveis definidas em lei, como atuar em um processo onde o próprio agente ou parente próximo seja parte.
+	- **Suspeição:** Decorre de situações subjetivas, como o agente possuir amizade íntima ou inimizade notória com as partes envolvidas.
+4. **Precatórios:** Os precatórios são requisições formais de pagamento expedidas pelo Poder Judiciário para determinar que os entes públicos quitem dívidas decorrentes de condenações judiciais definitivas. A aplicação da impessoalidade neste caso reside na obrigatoriedade do pagamento seguir uma rígida **ordem cronológica de apresentação**. Essa regra impede que o governante escolha quais credores receberão primeiro, evitando que aliados políticos sejam pagos com celeridade enquanto oponentes tenham suas dívidas postergadas indefinidamente.
 #### **2.3 Princípio da Moralidade**
 
 Exige-se que a atuação dos agentes públicos seja pautada pela **ética**, **honestidade**, **probidade**, **lealdade** e **boa-fé.** Um ato pode estar formalmente de acordo com a lei, mas se for praticado com intenções antiéticas, será invalidado pelo Poder Judiciário. 
@@ -58,7 +65,10 @@ A **Súmula Vinculante nº 13  do STF** proíbe o Nepotismo na Administração P
 
 Essa vedação so alcança cargos de natureza administrativa. Não alcança cargos de natureza política.
 - Para cargos **Administrativos**, a proibição é absoluta.
-- Para cargos **Políticos**, a regra não se aplica automaticamente. O STF permite a nomeação de parentes para esses cargos de alto escalão político, salvo se ficar comprovado que o parente não tem nenhuma qualificação técnica para a vaga ou se houver "nepotismo cruzado".
+- Para cargos **Políticos**, a regra não se aplica automaticamente. O STF permite a nomeação de parentes para esses cargos, salvo se ficar comprovado que o parente não tem nenhuma qualificação técnica para a vaga.
+
+![](../../../attachments/Pasted%20image%2020260713081751.png)
+
 #### **2.4 Princípio da Publicidade**
 
 A publicidade é a regra que garante a transparência da máquina pública, viabilizando o controle social por parte dos cidadãos. Além da transparência, a publicidade é o requisito legal de **eficácia** do ato administrativo.
