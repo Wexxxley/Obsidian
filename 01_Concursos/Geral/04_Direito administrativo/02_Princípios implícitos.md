@@ -20,13 +20,16 @@ Este **supraprincípio** atua como o contrapeso obrigatório à Supremacia. Ele 
 #### **3. Continuidade dos Serviços Públicos**
 Os serviços prestados à sociedade (principalmente essenciais, como saúde, segurança, fornecimento de água e energia, transporte coletivo) não podem sofrer interrupções. 
 - Este princípio fundamenta as restrições ao direito de greve de servidores em áreas essenciais (como policiais e militares)
-- Impede que empresas contratadas pelo Estado paralisem a execução de um contrato administrativo de imediato, mesmo que a Administração atrase os pagamentos (**exceção do contrato não cumprido**).
+- Impede que empresas contratadas pelo Estado paralisem a execução de um contrato administrativo de imediato, mesmo que a Administração atrase os pagamentos **(exceção do contrato não cumprido)**. 
 #### **4. Princípio da Motivação**
 Ao praticar um  determinado ato administrativo, o agente público deve expor, de forma clara e por escrito, os fundamentos de:
 - **Fato**: o que aconteceu no mundo real
 - **Direito**: qual lei ampara a decisão.
- 
-- A motivação é o elemento que viabiliza o controle de legalidade. Sem conhecer os motivos do administrador, o cidadão ficaria impossibilitado de exercer o seu direito de defesa e de questionar eventuais arbitrariedades perante o Judiciário.
+
+- **Exceção**: nomeação e exoneração para cargo em comissão(ad natum)
+
+![400](../../../attachments/Pasted%20image%2020260713145205.png)
+
 ### Princípio da Razoabilidade e Proporcionalidade
 
 Embora frequentemente tratados em conjunto, possuem nuances próprias que servem para limitar o poder discricionário do administrador público, evitando excessos e arbitrariedades.
