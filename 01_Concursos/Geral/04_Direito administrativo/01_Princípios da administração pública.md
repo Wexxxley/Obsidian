@@ -83,7 +83,11 @@ A publicidade não é absoluta, existem atos sigilosos, nas hipóteses de:
 
 #### **2.5 Princípio da Eficiência**
 
-Este foi o único princípio que não constava no texto original da Constituição. A eficiência exige que a Administração Pública atue buscando os melhores resultados possíveis com o menor custo financeiro e de tempo (relação custo-benefício). Esse princípio trouxe inovações práticas, como a exigência de avaliação especial de desempenho como requisito para que o servidor adquira a estabilidade após o estágio probatório.
+Esse foi o único princípio que não constava no texto original da Constituição. A eficiência exige que a Administração Pública atue buscando os melhores resultados possíveis com o menor custo financeiro e de tempo (relação custo-benefício).
+- Estágio probatório.
+- Contratos de gestão com órgãos e entidades da administração.
+- Celeridade(agilidade) dos processos.
+- Avaliação das políticas públicas (custo e qualidade)
 
 ---
 
