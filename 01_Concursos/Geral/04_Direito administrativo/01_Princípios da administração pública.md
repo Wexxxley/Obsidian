@@ -81,11 +81,11 @@ A publicidade não é absoluta, existem atos sigilosos, nas hipóteses de:
 
 **Publicidade x Publicação**: a publicação (divulgação em meio oficial) é apenas uma das várias formas de ter publicidade. Existem atos públicos que não foram publicados em diário oficial.
 
-**Direito de Petição:** garantia constitucional, consiste na prerrogativa concedida a qualquer pessoa (física ou jurídica, cidadã ou estrangeira) de se dirigir aos órgãos e autoridades públicas para apresentar reclamações, denúncias, solicitações ou sugestões.
-- **Finalidade:** É utilizado especificamente para a defesa de direitos (individuais ou coletivos) ou para a proteção contra ilegalidades e abusos de poder cometidos pelo aparato estatal.
-- O exercício desse direito independe do pagamento de quaisquer taxas. É marcado pela informalidade, não exigindo que a pessoa seja assistida por um advogado.
 #### **2.5 Princípio da Eficiência**
 
 Este foi o único princípio que não constava no texto original da Constituição. A eficiência exige que a Administração Pública atue buscando os melhores resultados possíveis com o menor custo financeiro e de tempo (relação custo-benefício). Esse princípio trouxe inovações práticas, como a exigência de avaliação especial de desempenho como requisito para que o servidor adquira a estabilidade após o estágio probatório.
 
+---
+
 ![](../../../attachments/Pasted%20image%2020260609085750.png)
+![](../../../attachments/Pasted%20image%2020260713104457.png)![](../../../attachments/Pasted%20image%2020260713104612.png)

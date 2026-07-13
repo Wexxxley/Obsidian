@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -194,6 +195,8 @@
   },
   "active": "e1d0862f280580c2",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260713104612.png",
+    "attachments/Pasted image 20260713104457.png",
     "01_Concursos/Geral/04_Direito administrativo/02_LGPD E LAI.md",
     "01_Concursos/Geral/04_Direito administrativo/01_Princípios da administração pública.md",
     "01_Concursos/Geral/04_Direito administrativo/03_Agentes públicos.md",
@@ -209,7 +212,6 @@
     "attachments/Pasted image 20260712132003.png",
     "attachments/Pasted image 20260712131458.png",
     "attachments/Pasted image 20260712130936.png",
-    "attachments/Pasted image 20260712103243.png",
     "01_Concursos/Geral/04_Direito administrativo/03_Funções administrativas.md",
     "01_Concursos/Anotações Concursos.md",
     "01_Concursos/Conteudos ALECE Técnico legislativo.md",
@@ -229,7 +231,6 @@
     "01_Concursos/Geral/03_Legislação e serviço público/9_Estrutura e Comissões do poder Legislativo Estadual.md",
     "01_Concursos/Geral/03_Legislação e serviço público/8_Salário e aposentadoria.md",
     "01_Concursos/Geral/03_Legislação e serviço público/7_Plano Cargos, Carreira e Remuneração e Organização da ALECE.md",
-    "01_Concursos/Geral/03_Legislação e serviço público/6_Estatuto dos funcionários público civis do ceará.md",
     "01_Concursos/Geral/04_Direito administrativo",
     "01_Concursos/Geral/01_Português/3_Sintaxe",
     "01_Concursos/Geral/03_Legislação e serviço público",
