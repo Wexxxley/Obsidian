@@ -32,25 +32,15 @@ Atua como o objeto direto do verbo da oração principal.
 Atua como o objeto indireto do verbo da oração principal. 
 ![450](../../../../attachments/Pasted%20image%2020260713180259.png)
 ![450](../../../../attachments/Pasted%20image%2020260713180420.png)
-  ### 4. Oração Subordinada Substantiva Completiva Nominal
-
+#### **4. Oração Subordinada Substantiva Completiva Nominal**
 Esta oração atua como complemento nominal de um nome presente na oração principal. O **complemento nominal** é o termo que completa o sentido de um substantivo abstrato, de um adjetivo ou de um advérbio, sempre intermediado por uma preposição.
-
-- **Exemplo:** O gestor tem certeza **de que os prazos serão respeitados**.
-    
-- **Análise:** Diferentemente da objetiva indireta, aqui a preposição "de" não é exigida por um verbo, mas sim pelo substantivo abstrato "certeza" (quem tem certeza, tem certeza de algo).
-    
-
-### 5. Oração Subordinada Substantiva Predicativa
-
-Esta oração atua como o predicativo do sujeito da oração principal. O **predicativo do sujeito** é o termo que atribui um estado, qualidade ou condição ao sujeito. Na estrutura sintática, esta oração sempre aparece posicionada após um verbo de ligação (ser, estar, parecer, ficar).
-
-- **Exemplo:** O consenso atual é **que a arquitetura do software deve ser alterada**.
-    
-- **Análise:** O sujeito da oração principal é "O consenso atual", seguido do verbo de ligação "é". A oração seguinte atribui o estado ou definição ao sujeito.
-    
-
-### 6. Oração Subordinada Substantiva Apositiva
+![450](../../../../attachments/Pasted%20image%2020260713181547.png)
+![450](../../../../attachments/Pasted%20image%2020260713181725.png)
+#### **5. Substantiva Predicativa**
+Esta oração atua como o predicativo do sujeito da oração principal. Esta oração sempre aparece posicionada após um verbo de ligação (ser, estar, parecer, ficar...).
+![450](../../../../attachments/Pasted%20image%2020260713185938.png)
+![450](../../../../attachments/Pasted%20image%2020260713190153.png)
+### 6. Substantiva Apositiva
 
 Esta oração atua como o aposto de um termo expresso na oração principal. O **aposto** é um termo acessório cuja finalidade é explicar, especificar ou detalhar um substantivo ou pronome anterior. Geralmente, essa oração é separada da principal por dois-pontos ou vírgula.
 
