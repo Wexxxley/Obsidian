@@ -3,36 +3,36 @@
 ---
 
 As orações subordinadas substantivas são estruturas que exercem, no período composto, a função que um substantivo exerceria.
-- **Conjunção integrante:** Palavras (que e se) desprovidas de valor semântico, cuja função é atuar como conectivos, introduzindo a oração subordinada substantiva.
+
+O padrão é iniciar a oração substantiva com aconjunção integrante (QUE e SE), mas outros termos também podem iniciar:
+1. **Pronomes Interrogativos**
+	- Não se sabe **quem** alterou as permissões do sistema.
+2. **Advérbios Interrogativos**
+	- Ainda é um mistério **como** a falha de compilação ocorreu.
+3. **Verbos no Infinitivo (Orações Reduzidas)**: A oração reduzida não é iniciada por nenhum conectiva. E ela é iniciada pelo verbo no **infinitivo** (-ar, -er, -ir).
+	- É imprescindível **documentar** todas as funções do código.
 
 #### **1. Substantiva Subjetiva**
 Oração que atua como sujeito. 
 
 ![450](../../../../attachments/Pasted%20image%2020260713153906.png)
-![450](../../../../attachments/Pasted%20image%2020260713154249.png)
+![400](../../../../attachments/Pasted%20image%2020260713155046.png)
 
 As vezes construída com o pronome apassivador "se".
-![450](../../../../attachments/Pasted%20image%2020260713154554.png)
-
-### 2. Oração Subordinada Substantiva Objetiva Direta
-
-Esta oração atua como o objeto direto do verbo da oração principal. O **objeto direto** é o complemento exigido por um verbo transitivo direto, conectando-se a ele sem a exigência de uma preposição.
-
-- **Exemplo:** Os desenvolvedores confirmaram **que o sistema está operacional**.
+![450](../../../../attachments/Pasted%20image%2020260713154825.png)
     
-- **Análise:** O verbo "confirmaram" exige complemento (quem confirma, confirma algo). A oração "que o sistema está operacional" completa este sentido diretamente, sem preposição.
-    
+#### **2. Oração Subordinada Substantiva Objetiva Direta**
+Atua como o objeto direto do verbo da oração principal. 
 
-### 3. Oração Subordinada Substantiva Objetiva Indireta
-
-Esta oração atua como o objeto indireto do verbo da oração principal. O **objeto indireto** é o complemento exigido por um verbo transitivo indireto, caracterizando-se pela presença obrigatória de uma preposição (como de, em, a, com).
-
-- **Exemplo:** A gerência necessita **de que os relatórios sejam enviados hoje**.
-    
-- **Análise:** O verbo "necessita" obriga o uso da preposição "de" (quem necessita, necessita de algo). A oração introduzida pela preposição atua como objeto indireto.
-    
-
-### 4. Oração Subordinada Substantiva Completiva Nominal
+![450](../../../../attachments/Pasted%20image%2020260713175306.png)
+![450](../../../../attachments/Pasted%20image%2020260713175754.png)
+![300](../../../../attachments/Pasted%20image%2020260713180117.png)
+![450](../../../../attachments/Pasted%20image%2020260713180526.png)
+#### **3. Oração Subordinada Substantiva Objetiva Indireta**
+Atua como o objeto indireto do verbo da oração principal. 
+![450](../../../../attachments/Pasted%20image%2020260713180259.png)
+![450](../../../../attachments/Pasted%20image%2020260713180420.png)
+  ### 4. Oração Subordinada Substantiva Completiva Nominal
 
 Esta oração atua como complemento nominal de um nome presente na oração principal. O **complemento nominal** é o termo que completa o sentido de um substantivo abstrato, de um adjetivo ou de um advérbio, sempre intermediado por uma preposição.
 
