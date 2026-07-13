@@ -71,10 +71,19 @@ Essa vedação so alcança cargos de natureza administrativa. Não alcança carg
 
 #### **2.4 Princípio da Publicidade**
 
-A publicidade é a regra que garante a transparência da máquina pública, viabilizando o controle social por parte dos cidadãos. Além da transparência, a publicidade é o requisito legal de **eficácia** do ato administrativo.
+A publicidade é a regra que garante a transparência da máquina pública, viabilizando o controle social por parte dos cidadãos. A publicidade é o requisito legal de **eficácia** do ato administrativo.
 
 **Eficácia x Validade:** Um ato administrativo já nasce **válido**. A publicação oficial é requisito apenas de **eficácia**. O ato já é válido, mas só começa a produzir efeitos no mundo real depois de ser publicado.
 
+A publicidade não é absoluta, existem atos sigilosos, nas hipóteses de:
+1. Segurança da sociedade e do estado.
+2. Defesa da intimidade ou interesse social.
+
+**Publicidade x Publicação**: a publicação (divulgação em meio oficial) é apenas uma das várias formas de ter publicidade. Existem atos públicos que não foram publicados em diário oficial.
+
+**Direito de Petição:** garantia constitucional, consiste na prerrogativa concedida a qualquer pessoa (física ou jurídica, cidadã ou estrangeira) de se dirigir aos órgãos e autoridades públicas para apresentar reclamações, denúncias, solicitações ou sugestões.
+- **Finalidade:** É utilizado especificamente para a defesa de direitos (individuais ou coletivos) ou para a proteção contra ilegalidades e abusos de poder cometidos pelo aparato estatal.
+- O exercício desse direito independe do pagamento de quaisquer taxas. É marcado pela informalidade, não exigindo que a pessoa seja assistida por um advogado.
 #### **2.5 Princípio da Eficiência**
 
 Este foi o único princípio que não constava no texto original da Constituição. A eficiência exige que a Administração Pública atue buscando os melhores resultados possíveis com o menor custo financeiro e de tempo (relação custo-benefício). Esse princípio trouxe inovações práticas, como a exigência de avaliação especial de desempenho como requisito para que o servidor adquira a estabilidade após o estágio probatório.

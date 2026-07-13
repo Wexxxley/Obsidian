@@ -25,7 +25,7 @@ A legislação distribui as responsabilidades legais e operacionais por três fi
 
 #### **1.1 Tratamento de dados na Administração Pública**
 
-Para as entidades públicas, o consentimento do cidadão não é a única via legal. O Estado necessita de tratar dados para funcionar e prestar serviços, onde esse tratamento ocorre independentemente da autorização do indivíduo. O tratamento é considerado lícito quando o Controlador (neste caso, o órgão público) está legalmente obrigado a recolher e manter essas informações. O processamento de dados é permitido quando for estritamente necessário para a implementação de programas governamentais, serviços e políticas que estejam previamente estabelecidas em leis, regulamentos ou contratos.
+O Estado necessita de tratar dados para funcionar e prestar serviços, onde esse tratamento ocorre independentemente da autorização do indivíduo. O processamento de dados é permitido quando for estritamente necessário para a implementação de programas governamentais, serviços e políticas que estejam previamente estabelecidas em leis, regulamentos ou contratos.
 
 Permite-se a utilização de dados para fins de investigação académica ou estatística por entidades oficiais, exigindo-se a aplicação técnica da anonimização sempre que for possível, para proteger a identidade dos cidadãos.
 
@@ -37,7 +37,7 @@ A LGPD estabelece que o verdadeiro dono da informação é o cidadão, e não a 
 - **Controle e Eliminação:** O poder de pedir a anonimização, o bloqueio ou a exclusão total de dados que sejam excessivos ou que estejam sendo usados fora da lei.
 - **Portabilidade:** O direito de pegar os seus dados e levá-los para outro fornecedor
 
-A LGPD  é inaplicável em quatro grandes cenários:
+A LGPD é inaplicável em quatro grandes cenários:
 1. **Uso Pessoal não Econômico:** Como a lista de convidados para uma festa particular.
 2. **Fins Jornalísticos e Artísticos:** Para garantir a liberdade de imprensa e de expressão.
 3. **Fins Acadêmicos:** Para não engessar a pesquisa científica.
@@ -64,14 +64,12 @@ Para que isso funcione, a lei se apoia em cinco diretrizes:
 >**Transparência Passiva**: Ocorre quando uma informação específica não está no Portal da Transparência e o cidadão faz um requerimento formal solicitando aquele dado. Ocorre através do **SIC (Serviço de Informações ao Cidadão)**.
 
 Quando você faz um pedido no Serviço de Informações ao Cidadão (SIC), o Estado não pode demorar o tempo que quiser. Existe um cronograma rígido:
-    
 - **Imediato:** Se a informação já está pronta e disponível no balcão ou no sistema.
 - **Prazo Padrão (Até 20 dias):** Se a informação precisa ser buscada.
 - **Prorrogação (+ 10 dias):** Se o pedido for complexo, o órgão pode estender o prazo por mais 10 dias. Ele é obrigado a justificar ao cidadão o motivo.
 
 **Informações sigilosas**:
-    
-- **Ultrassecreta (25 anos):** Apenas a alta cúpula (na ALECE, a Mesa Diretora) pode classificar algo assim. É a única categoria que pode ser prorrogada uma única vez por igual período (pode chegar a 50 anos).  
+- **Ultrassecreta (25 anos):** Apenas a alta cúpula pode classificar algo assim. É a única categoria que pode ser prorrogada uma única vez por igual período (pode chegar a 50 anos).  
 - **Secreta (15 anos):** Pode ser classificada pela Mesa Diretora ou pelos Deputados Titulares de Comissões.
 - **Reservada (5 anos):** Pode ser determinado por Diretores e chefes de unidades administrativas.
 
