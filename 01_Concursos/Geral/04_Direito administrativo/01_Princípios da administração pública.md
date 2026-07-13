@@ -39,6 +39,8 @@ A administração pública age conforme a lei. A lei pode ser Discricionária ou
 	**Atos vinculados:** a legislação estabelece uma **obrigação estrita** ou um comando absoluto e inquestionável.
 
 Na esfera privada, vigora a **autonomia da vontade**: o indivíduo é livre para fazer tudo aquilo que a lei não proíba expressamente. Na Administração Pública, vigora a **Legalidade Estrita**: o servidor público só possui autorização para agir quando a lei expressamente determinar ou autorizar. 
+
+![550](../../../attachments/Pasted%20image%2020260712174745.png)
 #### **2. Princípio da Impessoalidade**
 
 - **Princípio da Finalidade:** Todo ato administrativo tem um único objetivo válido: o interesse público. Se um servidor utiliza suas prerrogativas legais para satisfazer interesses privados, ocorre o chamado "**desvio de finalidade**", que torna o ato nulo.
