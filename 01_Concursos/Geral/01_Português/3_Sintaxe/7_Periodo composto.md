@@ -1,6 +1,12 @@
 
+#Concluded 
 
 ---
+
+![](../../../../attachments/Pasted%20image%2020260713152020.png)
+
+**Termos e orações quivalentes**
+![](../../../../attachments/Pasted%20image%2020260713152652.png)
 
 O período composto possui mais de uma oração e divide-se em:
 - **Coordenação**: sequência de orações em que uma não exerce função sintática da outra
