@@ -44,8 +44,7 @@ Na esfera privada, vigora a **autonomia da vontade**: o indivíduo é livre para
 **Princípio da Finalidade:** Todo ato administrativo tem um único objetivo: o interesse público. Se um servidor utiliza suas prerrogativas legais para satisfazer interesses privados, ocorre o chamado "**desvio de finalidade**", que torna o ato nulo.
     
 1. **Tratamento Isonômico:** A Administração deve aplicar as regras de forma geral.
-2. **Vedação de Promoção Pessoal:** A Constituição proíbe que obras, serviços ou campanhas de órgãos contenham nomes, símbolos ou imagens que caracterizem a promoção pessoal ou de partidos políticos. Toda publicidade estatal deve ter caráter **educativo** ou **informativo**.
-3. **Imputação Volitiva (Teoria do Órgão):** Os atos praticados por um servidor público no exercício de suas funções são atribuídos ao Estado (ou ao órgão). 
+2. **Vedação de Promoção Pessoal:** A Constituição proíbe que obras, serviços ou campanhas de órgãos contenham nomes, símbolos ou imagens que caracterizem a promoção pessoal ou de partidos políticos. Toda publicidade estatal deve ter caráter **educativo** ou **informativo**. 
 
 **Repercussões práticas do Princípio da Impessoalidade no ordenamento**
 ![](../../../attachments/Pasted%20image%2020260713084011.png)
@@ -54,7 +53,8 @@ Na esfera privada, vigora a **autonomia da vontade**: o indivíduo é livre para
 3. **Impedimento e Suspeição**: Regras que afastam um agente público da condução, análise ou julgamento de um processo.
 	- **Impedimento:** Decorre de situações objetivas e irrefutáveis definidas em lei, como atuar em um processo onde o próprio agente ou parente próximo seja parte.
 	- **Suspeição:** Decorre de situações subjetivas, como o agente possuir amizade íntima ou inimizade notória com as partes envolvidas.
-4. **Precatórios:** Os precatórios são requisições formais de pagamento expedidas pelo Poder Judiciário para determinar que os entes públicos quitem dívidas decorrentes de condenações judiciais definitivas. A aplicação da impessoalidade neste caso reside na obrigatoriedade do pagamento seguir uma rígida **ordem cronológica de apresentação**. Essa regra impede que o governante escolha quais credores receberão primeiro, evitando que aliados políticos sejam pagos com celeridade enquanto oponentes tenham suas dívidas postergadas indefinidamente.
+4. **Precatórios:** São requisições de pagamento expedidas pelo Poder Judiciário para determinar que os entes públicos quitem dívidas decorrentes de condenações judiciais definitivas. A  impessoalidade reside na obrigatoriedade do pagamento seguir uma ordem, impedindo que o governante escolha quem recebera primeiro.
+5. **Imputação Volitiva (Teoria do Órgão):** Os atos praticados por um servidor público no exercício de suas funções são atribuídos ao Estado (ou ao órgão).
 #### **2.3 Princípio da Moralidade**
 
 Exige-se que a atuação dos agentes públicos seja pautada pela **ética**, **honestidade**, **probidade**, **lealdade** e **boa-fé.** Um ato pode estar formalmente de acordo com a lei, mas se for praticado com intenções antiéticas, será invalidado pelo Poder Judiciário. 
