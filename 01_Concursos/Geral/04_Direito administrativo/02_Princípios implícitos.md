@@ -96,12 +96,14 @@ Princípio que incide sobre todos os processos judiciais e administrativos. Ele 
 A presunção admite prova em contrário. Contudo, gera a inversão do ônus da prova: não é o Estado que precisa provar que agiu certo; cabe ao cidadão o dever de provar que o ato foi ilegal ou que os fatos narrados pelo agente são falsos.
 
 #### **9. Princípio da segurança jurídica**
-Visa garantir a estabilidade, a ordem e a previsibilidade nas relações entre o Estado e os cidadãos. Esse princípio se manifesta para limitar o poder do Estado de alterar ou desfazer situações já consolidadas ao longo do tempo.
+Visa garantir a estabilidade, a ordem e a previsibilidade à atuação estatal. Esse princípio se manifesta para limitar o poder do Estado de alterar ou desfazer situações já consolidadas ao longo do tempo.
 
-- **Aspecto Objetivo:** Refere-se à manutenção jurídica dos atos administrativos já praticados e consolidados, estabelecendo limites à retroatividade das leis e das decisões estatais. Impede que o ordenamento jurídico permaneça em estado de eterna mutabilidade.
-- **Aspecto Subjetivo:** Refere-se à crença e à expectativa legítima que o cidadão possui de que as ações e orientações do Estado são corretas e definitivas. O cidadão que atua pautado em uma norma ou em uma conduta estatal de boa-fé não pode ser punido ou prejudicado caso o próprio Estado reconheça, futuramente, que estava equivocado.
-    
-
+- **Aspecto Objetivo:** Refere-se à manutenção jurídica dos atos administrativos já praticados e consolidados, estabelecendo limites à retroatividade das leis e das decisões estatais. 
+	- O prazo para anulação de atos administrativos é de, no geral, 5 anos.
+	- Manutenção de atos praticados por agente de fato (agentes sem vínculos ou não legítimos, que exercem funções públicas de boa-fé).
+- **Aspecto Subjetivo:** O cidadão que atua pautado em uma norma ou em uma conduta estatal de boa-fé não pode ser punido ou prejudicado caso o próprio Estado reconheça, futuramente, que estava equivocado.    
+	- É vedado à aplicação retroativa (referente ao passado) de novas interpretações.
+ 
 ### Repercussões Práticas no Direito Administrativo
 
 A aplicação deste princípio gera consequências diretas e limitadores na atuação da Administração Pública:
