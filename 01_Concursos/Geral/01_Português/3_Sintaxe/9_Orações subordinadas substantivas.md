@@ -58,3 +58,15 @@ Esta oração atua como o aposto de um termo expresso na oração principal.
 
 ![400](../../../../attachments/Pasted%20image%2020260714111626.png)
 ![400](../../../../attachments/Pasted%20image%2020260714111612.png)
+
+![400](../../../../attachments/Pasted%20image%2020260714112211.png)
+![400](../../../../attachments/Pasted%20image%2020260714112140.png)
+
+![400](../../../../attachments/Pasted%20image%2020260714112559.png)
+![400](../../../../attachments/Pasted%20image%2020260714112723.png)
+![400](../../../../attachments/Pasted%20image%2020260714113002.png)
+![400](../../../../attachments/Pasted%20image%2020260714112949.png)
+![400](../../../../attachments/Pasted%20image%2020260714132633.png)
+![400](../../../../attachments/Pasted%20image%2020260714132650.png)
+![400](../../../../attachments/Pasted%20image%2020260714133027.png)
+![400](../../../../attachments/Pasted%20image%2020260714133041.png)
