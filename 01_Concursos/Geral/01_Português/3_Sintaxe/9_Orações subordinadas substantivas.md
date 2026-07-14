@@ -21,18 +21,18 @@ Oração que atua como sujeito.
 As vezes construída com o pronome apassivador "se".
 ![450](../../../../attachments/Pasted%20image%2020260713154825.png)
     
-#### **2. Oração Subordinada Substantiva Objetiva Direta**
+#### **2. Substantiva Objetiva Direta**
 Atua como o objeto direto do verbo da oração principal. 
 
 ![450](../../../../attachments/Pasted%20image%2020260713175306.png)
 ![450](../../../../attachments/Pasted%20image%2020260713175754.png)
 ![300](../../../../attachments/Pasted%20image%2020260713180117.png)
 ![450](../../../../attachments/Pasted%20image%2020260713180526.png)
-#### **3. Oração Subordinada Substantiva Objetiva Indireta**
+#### **3.  Substantiva Objetiva Indireta**
 Atua como o objeto indireto do verbo da oração principal. 
 ![450](../../../../attachments/Pasted%20image%2020260713180259.png)
 ![450](../../../../attachments/Pasted%20image%2020260713180420.png)
-#### **4. Oração Subordinada Substantiva Completiva Nominal**
+#### **4. Substantiva Completiva Nominal**
 Esta oração atua como complemento nominal de um nome presente na oração principal. O **complemento nominal** é o termo que completa o sentido de um substantivo abstrato, de um adjetivo ou de um advérbio, sempre intermediado por uma preposição.
 ![450](../../../../attachments/Pasted%20image%2020260713181547.png)
 ![450](../../../../attachments/Pasted%20image%2020260713181725.png)
@@ -40,10 +40,11 @@ Esta oração atua como complemento nominal de um nome presente na oração prin
 Esta oração atua como o predicativo do sujeito da oração principal. Esta oração sempre aparece posicionada após um verbo de ligação (ser, estar, parecer, ficar...).
 ![450](../../../../attachments/Pasted%20image%2020260713185938.png)
 ![450](../../../../attachments/Pasted%20image%2020260713190153.png)
-### 6. Substantiva Apositiva
+#### **6. Substantiva Apositiva**
+Esta oração atua como o aposto de um termo expresso na oração principal. 
 
-Esta oração atua como o aposto de um termo expresso na oração principal. O **aposto** é um termo acessório cuja finalidade é explicar, especificar ou detalhar um substantivo ou pronome anterior. Geralmente, essa oração é separada da principal por dois-pontos ou vírgula.
+![450](../../../../attachments/Pasted%20image%2020260713191057.png)
+![450](../../../../attachments/Pasted%20image%2020260713191221.png)
 
-- **Exemplo:** Existe apenas uma exigência: **que o código seja exaustivamente testado**.
-    
-- **Análise:** A oração subordinada serve exclusivamente para explicar qual é a "exigência" citada anteriormente.
+![450](../../../../attachments/Pasted%20image%2020260713191342.png)
+
