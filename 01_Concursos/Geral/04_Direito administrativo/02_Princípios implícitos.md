@@ -65,10 +65,52 @@ Fundações Públicas, Autarquias, Sociedades de Economia Mista e Empresas Públ
 
 #### **6. Princípio da Autotutela**
 
-Consiste no poder-dever da Administração Pública de controlar, corrigir e revisar os seus próprios atos, sem a necessidade de recorrer ao Poder Judiciário. Este princípio se manifesta em duas frentes distintas:
+Consiste no poder-dever da Administração Pública de controlar, corrigir e revisar os seus próprios atos, sem a necessidade de recorrer ao Poder Judiciário. Podendo ser feito por provocação ou de ofício. Este princípio se manifesta em duas frentes distintas:
 - **Anulação:** Através da reanálise da legalidade. A Administração deve anular os seus próprios atos quando estes estiverem eivados de vícios de legalidade. A anulação possui efeito retroativo, apagando os efeitos do ato ilegal desde a sua origem.
-- **Revogação:** Através da reanálise do mérito. A Administração pode revogar atos que são legais, mas que, devido a mudanças de cenário, tornaram-se inconvenientes para o interesse público. A revogação mantém os efeitos que o ato já produziu enquanto era vigente.
+- **Revogação:** Através da reanálise do mérito. A Administração pode revogar atos que são legais, mas que, devido a mudanças de cenário, tornaram-se inconvenientes para o interesse público. A revogação mantém os efeitos que o ato produziu.
+	![500](../../../attachments/Pasted%20image%2020260714143934.png)
+- A autotutela não impede que o poder judiciário (depende de provocação) anule os atos da administração pública.
+- O princípio da segurança jurídica limita a autotutela da administração pública .
 
+#### **7. Princípio do Contraditório e da ampla defesa**
+Princípio que incide sobre todos os processos judiciais e administrativos. Ele assegura que nenhum cidadão ou servidor público sofra sanções ou perdas de direitos impostas pelo Estado sem ter a oportunidade justa, prévia e completa de se defender.
+
+**O Princípio do Contraditório** 
+- **Direito a ciência:** O indivíduo possui o direito de ser notificado sobre a existência de qualquer processo administrativo, acusação ou fato que possa lhe gerar prejuízo. 
+- **Direito à Manifestação:** Significa o direito de reagir, de ser ouvido e de rebater (contradizer) todas as alegações apresentadas pela Administração Pública.
+
+**O Princípio da Ampla Defesa**
+- **Produção de Provas:** Garante o direito de utilizar todos os meios lícitos para comprovar a sua inocência ou o seu direito.
+- **Defesa Técnica:** Assegura o direito de ser assistido por um advogado de sua confiança. (No âmbito específico do Processo Administrativo Disciplinar, o STF estabeleceu que a falta de defesa técnica por advogado não ofende a Constituição, ou seja, é um direito do servidor, mas não uma obrigação que anula o processo).
+- **Direito ao Recurso:** Prerrogativa de não se conformar com a primeira decisão proferida, podendo interpor recursos para que revisem o caso.
+
+**Processo Administrativo Disciplinar (PAD):** A aplicação de penalidades graves a servidores públicos depende da condução de um PAD. Qualquer punição aplicada de forma sumária, sem dar a chance de defesa, é considerada juridicamente nula.
+**Limitação à Autotutela:** Embora o Estado tenha o poder de anular os seus próprios atos ilegais, o STF entende que, se a anulação for atingir os interesses ou os direitos adquiridos de um cidadão específico, a Administração Pública não pode simplesmente anular o ato de ofício. É obrigatória a instauração de um processo administrativo prévio para garantir o contraditório e a ampla defesa daquele que será prejudicado.
+
+#### **8. Presunção de Legalidade, Legitimidade e Veracidade**
+
+**Legalidade:** Presume-se que o agente público obedeceu estritamente aos ditames da lei ao praticar o ato.
+**Legitimidade:** Presume-se que o ato não apenas cumpriu a lei, mas também respeitou os princípios administrativos (como moralidade e finalidade) e o interesse público.
+**Veracidade**: Presume-se que os motivos e os acontecimentos narrados pelo agente público para justificar a sua decisão realmente aconteceram.
+
+A presunção admite prova em contrário. Contudo, gera a inversão do ônus da prova: não é o Estado que precisa provar que agiu certo; cabe ao cidadão o dever de provar que o ato foi ilegal ou que os fatos narrados pelo agente são falsos.
+
+#### **9. Princípio da segurança jurídica**
+Visa garantir a estabilidade, a ordem e a previsibilidade nas relações entre o Estado e os cidadãos. Esse princípio se manifesta para limitar o poder do Estado de alterar ou desfazer situações já consolidadas ao longo do tempo.
+
+- **Aspecto Objetivo:** Refere-se à manutenção jurídica dos atos administrativos já praticados e consolidados, estabelecendo limites à retroatividade das leis e das decisões estatais. Impede que o ordenamento jurídico permaneça em estado de eterna mutabilidade.
+- **Aspecto Subjetivo:** Refere-se à crença e à expectativa legítima que o cidadão possui de que as ações e orientações do Estado são corretas e definitivas. O cidadão que atua pautado em uma norma ou em uma conduta estatal de boa-fé não pode ser punido ou prejudicado caso o próprio Estado reconheça, futuramente, que estava equivocado.
+    
+
+### Repercussões Práticas no Direito Administrativo
+
+A aplicação deste princípio gera consequências diretas e limitadores na atuação da Administração Pública:
+
+- **Decadência Administrativa:** É a perda do direito da Administração Pública de anular os seus próprios atos ilegais após o transcurso de um prazo legal (como regra geral, 5 anos na esfera federal, conforme o artigo 54 da Lei nº 9.784/1999), desde que o ato tenha gerado efeitos favoráveis ao cidadão e este esteja de boa-fé. Após esse prazo, mesmo sendo ilegal, o ato se consolida em nome da segurança jurídica.
+    
+- **Vedação à Aplicação Retroativa de Nova Interpretação:** Se a Administração Pública possuía um entendimento sobre a aplicação de uma lei e, posteriormente, altera essa interpretação jurídica, a nova regra só pode ser aplicada dali em diante (efeito _ex nunc_). É expressamente proibido utilizar o novo entendimento para prejudicar situações já finalizadas sob a orientação anterior.
+    
+- **Regras de Transição:** Quando há a criação de uma nova lei que altera drasticamente requisitos ou obrigações (como as reformas previdenciárias), o princípio exige a formulação de regras de transição para mitigar o impacto sobre aqueles que já estavam próximos de adquirir o direito sob a legislação antiga.
 ### Princípio da Razoabilidade e Proporcionalidade
 
 Embora frequentemente tratados em conjunto, possuem nuances próprias que servem para limitar o poder discricionário do administrador público, evitando excessos e arbitrariedades.
@@ -76,6 +118,8 @@ Embora frequentemente tratados em conjunto, possuem nuances próprias que servem
 - **Razoabilidade:** Exige que as decisões administrativas sejam lógicas, coerentes e aceitáveis perante o senso comum. Uma conduta desarrazoada é aquela que foge à racionalidade esperada de um gestor público.
     
 - **Proporcionalidade:** Exige o equilíbrio exato entre os meios empregados pelo Estado e os fins que se deseja alcançar. A medida adotada pela Administração deve ser adequada (capaz de atingir o objetivo), necessária (a opção menos gravosa possível para o cidadão) e proporcional em sentido estrito (as vantagens trazidas para a coletividade devem superar os prejuízos causados ao indivíduo).
+
+
 
 
 ### Princípio da Segurança Jurídica e Proteção à Confiança Legítima
