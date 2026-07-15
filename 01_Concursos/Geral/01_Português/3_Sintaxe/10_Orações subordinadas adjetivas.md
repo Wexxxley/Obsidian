@@ -23,3 +23,9 @@ Quando o termo antecedente é um ser único por natureza, um substantivo própri
 
 - O Sol **que é uma estrela** ilumina a Terra. Incorreto. A ausência de vírgulas obriga a interpretação de que existem vários "Sóis", mas apenas aquele subgrupo específico que "é uma estrela" ilumina a Terra. Isso é um absurdo lógico.
 
+---
+
+![](../../../../attachments/Pasted%20image%2020260715145103.png)
+![](../../../../attachments/Pasted%20image%2020260715145228.png)
+![](../../../../attachments/Pasted%20image%2020260715150404.png)
+A)

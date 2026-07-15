@@ -116,7 +116,7 @@ B
 ![](../../../attachments/Pasted%20image%2020260715102211.png)
 CORRETO
 
-![](../../../attachments/Pasted%20image%2020260715102325.png)
+
 ![](../../../attachments/Pasted%20image%2020260715103405.png)
 B
 
