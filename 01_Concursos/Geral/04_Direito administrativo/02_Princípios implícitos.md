@@ -1,12 +1,10 @@
 
+#Concluded 
 
 ---
-![](../../../attachments/Pasted%20image%2020260713135249.png)
 
-No Direito Administrativo, classificar a Supremacia e a Indisponibilidade do Interesse Público como **supraprincípios** significa afirmar que eles são os alicerces fundamentais de todo o sistema jurídico-administrativo. O prefixo "supra" indica que eles figuram em um patamar superior de abstração, servindo de base para a criação e a interpretação de todos os demais princípios 
-
-A união desses dois supraprincípios forma o **Regime Jurídico Administrativo**, que se manifesta por meio de dois polos: as prerrogativas e as sujeições.
-![400](../../../attachments/Pasted%20image%2020260713135543.png)
+**supraprincípios**: A Supremacia e a Indisponibilidade do Interesse Público são os alicerces de todo o sistema jurídico-administrativo. O prefixo "supra" indica que eles figuram em um patamar superior de abstração, servindo de base para a criação e a interpretação de todos os demais princípios. A união deles forma o **Regime Jurídico Administrativo**.
+![](../../../attachments/Pasted%20image%2020260715092130.png)
 
 #### **1. Supremacia do Interesse Público** 
 Este **supraprincípio** estabelece que o interesse público devem prevalecer sobre os interesses individuais e privados sempre que houver um conflito direto entre eles.
@@ -109,4 +107,32 @@ Visa garantir a estabilidade, a ordem e a previsibilidade à atuação estatal. 
 - **Razoabilidade:** Exige que as decisões administrativas sejam lógicas, coerentes e aceitáveis perante o senso comum. Evita absurdos.
 - **Proporcionalidade:** Exige o equilíbrio entre os **meios** empregados e os **fins** que se deseja alcançar. A medida adotada pela Administração deve ser adequada (capaz de atingir o objetivo), necessária (a opção menos gravosa possível ) e proporcional (vantagens para a coletividade devem superar os prejuízos ao indivíduo).
 
+#### **11. Intranscendência subjetiva das sanções**
+Este princípio garante que apenas o indivíduo que cometeu o ato ilícito pode sofrer as consequências punitivas de sua conduta. 
+    
+- **Sanções Disciplinares:** Se um servidor comete uma infração grave e vem a falecer, o Estado não pode aplicar a penalidade aos seus herdeiros. 
+    
+- **Sanções a municípios:** Não pode permanecer a inscrição do município em cadastros restritivos fundada em irregularidades na gestão anterior, quando, na gestão sucessora, são tomadas as providencias cabiveis a reparção dos dados.
+    
+É importante separar o que é a **sanção** (aspecto punitivo) e o que é a **reparação civil** (o aspecto indenizatório). Se o ato ilícito cometido gerou um prejuízo financeiro aos cofres públicos, a obrigação de reparar o dano e devolver o dinheiro pode ser estendida aos sucessores e herdeiros do infrator falecido. No entanto, essa cobrança possui um limite: o Estado só pode cobrar o ressarcimento até o limite do valor do patrimônio que foi transferido como herança. 
 
+#### **12. Princípio da Sindicabilidade**
+Regra que garante que todo e qualquer ato da Administração Pública pode ser submetido a controle e fiscalização. Se um agente público pratica um ato, esse ato poderá ser revisado por meio de dois mecanismos:
+    
+- **Controle Interno:** Feito pela própria Administração Pública, que pode anular ou revogar seus próprios atos (Princ da Autotutela).
+    
+- **Controle Externo:** Feito pelo Poder Judiciário (que pode ser acionado pelo cidadão para anular um ato estatal ilegal) e pelo Poder Legislativo, com o auxílio dos Tribunais de Contas (que fiscalizam os gastos públicos).
+
+#### **13. Princípio da Precaução**
+O Estado tem o dever de agir antecipadamente para proteger a sociedade, a saúde pública ou o meio ambiente, em vez de esperar o dano acontecer.
+
+- **Prevenção:** Ocorre quando o Estado atua diante de um risco comprovado.
+	- A exigência de que uma fábrica instale filtros nas chaminés para conseguir um alvará de funcionamento, pois já se sabe com certeza que a fumaça poluirá o ar.
+    
+- **Precaução:** Ocorre quando o Estado atua diante de um risco incerto, ou seja, quando ainda não há consenso ou certeza científica sobre os perigos de uma atividade.
+	- A Administração proíbe a comercialização de um novo agrotóxico no país. Mesmo sem estudos conclusivos de que ele causa doenças, na dúvida, o Estado paralisa a atividade para proteger a sociedade.
+
+#### **14. Princípio da Subsidiariedade**
+O Estado só deve intervir na sociedade e na economia de forma subsidiária, ou seja, apenas quando a iniciativa privada (indivíduos e empresas) não for capaz de resolver os problemas ou satisfazer as necessidades da coletividade.
+
+A premissa deste princípio é que a ação estatal deve ser a exceção, e a atuação livre da sociedade civil deve ser a regra. A estrutura do Estado existe para amparar e complementar a sociedade, não para substituí-la ou absorver as suas funções primárias.
