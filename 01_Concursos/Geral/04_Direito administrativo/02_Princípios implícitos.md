@@ -106,6 +106,7 @@ A premissa deste princípio é que a ação estatal deve ser a exceção, e a at
 
 
 ---
+
 ![](../../../attachments/Pasted%20image%2020260715102109.png)
 CORRETO
 
@@ -128,8 +129,6 @@ No vocabulário jurídico, a classificação de uma lista (rol) define como ela 
 O rol dos princípios da Administração Pública elencados na Constituição Federal é **exemplificativo**. 
 
 
-
-Q4327003
 Sobre os princípios da Administração Pública, assinale a afirmativa correta.
 
 A) O princípio da supremacia do interesse público é absoluto, de modo que deverá sempre prevalecer na ponderação com outros princípios.
@@ -137,6 +136,10 @@ B) Os atos editados em consonância com o princípio da legalidade serão necess
 C) A divulgação de obras públicas vinculadas ao nome e imagem do gestor por elas responsável, a fim de promovê-lo, não pode ser considerada violação ao princípio da impessoalidade.
 D) O controle judicial de sanção aplicada pela Administração Pública no exercício do poder disciplinar, não pode incursionar no mérito administrativo, ressalvando-se a hipótese de manifesta desproporcionalidade da penalidade, de modo a viabilizar o controle com base no princípio correlato.
 E) A negativa de divulgação de certo ato pela Administração Pública, sob o exclusivo fundamento de que tal divulgação poderia comprometer a sua imagem institucional, não viola o princípio da publicidade.
+
+**B)** Legalidade **não garante**, por si só, moralidade. Um ato pode ser **legal e imoral**, sendo, portanto, **inválido** por violar o princípio da moralidade administrativa.
+
+**D)** **Correta.** O Judiciário não adentra o mérito administrativo. Exceção: é possível o controle quando houver **manifesta desproporcionalidade ou irrazoabilidade da sanção**, com fundamento nos princípios da **proporcionalidade e razoabilidade**.
 
 
 
@@ -151,3 +154,29 @@ E) A positivação da moralidade como princípio assegura ao intérprete mecanis
 D)
 
 
+
+![](../../../attachments/Pasted%20image%2020260715135531.png)
+D)
+
+
+
+Sobre os princípios da Administração Pública, com base na doutrina e na jurisprudência contemporâneas, assinale a alternativa correta.
+
+A) De acordo com o Superior Tribunal de Justiça, a celebração de contrato verbal com a Administração Pública é um ato nulo que, por violar a boa-fé objetiva, impede o particular de receber qualquer pagamento, mesmo que os serviços tenham sido efetivamente prestados.
+B) O princípio do formalismo moderado autoriza a superação de formalidades excessivas no âmbito administrativo, permitindo, inclusive, a convalidação de contratos administrativos celebrados verbalmente, em nome da instrumentalidade das formas, desde que o objeto do contrato esteja em consonância com os princípios estruturantes da Administração.
+C) De acordo com a jurisprudência do Supremo Tribunal Federal, não viola o princípio da impessoalidade a norma estadual que excepciona da vedação ao nepotismo os servidores em exercício de cargo em comissão no momento da edição da lei que institui a proibição.
+D) A celebração de contrato verbal com a Administração Pública, embora, em regra, acarrete a nulidade do ato por vício de forma, impõe ao ente público o dever de pagar pelos serviços efetivamente prestados, sob pena de enriquecimento sem causa, não podendo a Administração se valer da própria torpeza para se eximir da obrigação, conforme a jurisprudência do Superior Tribunal de Justiça.
+E) O princípio da legalidade e o princípio da juridicidade são termos sinônimos no Direito Administrativo moderno, pois ambos exigem que o administrador público atue estritamente conforme a lei em sentido formal.
+
+
+- A está incorreta. O ente público não pode se valer da própria torpeza para não pagar. Para a Segunda Turma do Superior Tribunal de Justiça (STJ), na hipótese de contrato verbal sem licitação, o poder público tem a obrigação de indenizar a prestação de serviços.
+
+- B está incorreta. Ao contrário do que afirma a alternativa, o princípio do formalismo não autoriza a convalidação de contratos administrativos celebrados verbalmente, pois a licitação e a forma escrita são requisitos de ordem pública e essenciais.
+  
+- D está correta. A jurisprudência do STJ está orientada no sentido de que, mesmo sendo nulo o contrato firmado sem licitação prévia, é devido o pagamento pelos serviços efetivamente prestados, sob pena de enriquecimento ilícito da administração pública. O contrato verbal é, via de regra, nulo por violação à Lei de Licitações, que exige a forma escrita, especialmente para contratos de valores mais altos e com certas exceções de pequeno valor
+
+
+![](../../../attachments/Pasted%20image%2020260715140458.png)
+Os princípios do direito administrativo cumprem duas funções principais:
+**Função hermenêutica:** Serve para explicar/esclarecer o conteúdo de uma norma.
+**Função integrativa:** Serve para preencher lacunas quando a lei não traz solução expressa.
