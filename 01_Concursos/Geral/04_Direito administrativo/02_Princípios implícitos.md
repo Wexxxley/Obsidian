@@ -75,7 +75,6 @@ Visa garantir a estabilidade, a ordem e a previsibilidade à atuação estatal. 
 
 - **Razoabilidade:** Exige que as decisões administrativas sejam lógicas, coerentes e aceitáveis perante o senso comum. Evita absurdos.
 - **Proporcionalidade:** Exige o equilíbrio entre os **meios** empregados e os **fins** que se deseja alcançar. A medida adotada pela Administração deve ser adequada (capaz de atingir o objetivo), necessária (a opção menos gravosa possível ) e proporcional (vantagens para a coletividade devem superar os prejuízos ao indivíduo).
-
 #### **11. Intranscendência subjetiva das sanções**
 Este princípio garante que apenas o indivíduo que cometeu o ato ilícito pode sofrer as consequências punitivas de sua conduta. 
     
@@ -119,6 +118,27 @@ CORRETO
 ![](../../../attachments/Pasted%20image%2020260715102325.png)
 ![](../../../attachments/Pasted%20image%2020260715103405.png)
 B
+
+![](../../../attachments/Pasted%20image%2020260715131838.png)
+C)
+
+No vocabulário jurídico, a classificação de uma lista (rol) define como ela deve ser interpretada:
+- **Rol Exaustivo/Taxativo:** Lista fechada, limitando-se estritamente àqueles itens descritos na norma. Nada fora daquela lista possui validade.
+- **Rol Exemplificativo/aberto:** Significa que a lista apresenta apenas os itens principais ou mais importantes, mas não proíbe a existência e a aplicação de outros elementos que não estejam expressamente escritos ali.
+O rol dos princípios da Administração Pública elencados na Constituição Federal é **exemplificativo**. 
+
+
+
+Q4327003
+Sobre os princípios da Administração Pública, assinale a afirmativa correta.
+
+A) O princípio da supremacia do interesse público é absoluto, de modo que deverá sempre prevalecer na ponderação com outros princípios.
+B) Os atos editados em consonância com o princípio da legalidade serão necessariamente válidos, pois, indubitavelmente, obedecerão também ao princípio da moralidade.
+C) A divulgação de obras públicas vinculadas ao nome e imagem do gestor por elas responsável, a fim de promovê-lo, não pode ser considerada violação ao princípio da impessoalidade.
+D) O controle judicial de sanção aplicada pela Administração Pública no exercício do poder disciplinar, não pode incursionar no mérito administrativo, ressalvando-se a hipótese de manifesta desproporcionalidade da penalidade, de modo a viabilizar o controle com base no princípio correlato.
+E) A negativa de divulgação de certo ato pela Administração Pública, sob o exclusivo fundamento de que tal divulgação poderia comprometer a sua imagem institucional, não viola o princípio da publicidade.
+
+
 
 Considerando os princípios aplicáveis à Administração Pública, assinale a alternativa INCORRETA.
 
