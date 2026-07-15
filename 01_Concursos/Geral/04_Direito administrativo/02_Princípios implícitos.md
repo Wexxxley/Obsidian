@@ -5,15 +5,17 @@
 
 **supraprincípios**: A Supremacia e a Indisponibilidade do Interesse Público são os alicerces de todo o sistema jurídico-administrativo. O prefixo "supra" indica que eles figuram em um patamar superior de abstração, servindo de base para a criação e a interpretação de todos os demais princípios. A união deles forma o **Regime Jurídico Administrativo**.
 ![](../../../attachments/Pasted%20image%2020260715092130.png)
-
 #### **1. Supremacia do Interesse Público** 
-Este **supraprincípio** estabelece que o interesse público devem prevalecer sobre os interesses individuais e privados sempre que houver um conflito direto entre eles.
-- A Supremacia garante à Administração Pública uma posição de superioridade jurídica frente ao cidadão. 
-- O poder de desapropriar um terreno privado para construir uma rodovia, o exercício do poder de polícia ou a prerrogativa de alterar unilateralmente cláusulas de um contrato administrativo para adequá-lo à nova realidade social.
+Estabelece que o interesse público deve prevalecer sobre os interesses individuais e privados sempre que houver um conflito direto entre eles.
+- Garante à Administração Pública uma posição de superioridade jurídica.
+- **Ex:** O poder de desapropriar um terreno privado para construir uma rodovia, o exercício do poder de polícia ou a prerrogativa de alterar unilateralmente cláusulas de um contrato administrativo para adequá-lo à nova realidade social.
 #### **2. Indisponibilidade do Interesse Público**
-Este **supraprincípio** atua como o contrapeso à Supremacia. Ele determina que o interesse público, bem como os bens e recursos estatais, pertencem exclusivamente à sociedade, e não ao governante ou ao agente público que os administra transitoriamente.
-- Como o administrador público é um mero gestor de um patrimônio alheio, ele não possui o poder de dispor, renunciar, alienar ou abrir mão dos interesses estatais.
-- É a base da obrigatoriedade de realizar licitações para efetuar compras, da exigência de concursos públicos para a contratação de pessoal e da necessidade de publicar os atos no Diário Oficial.
+Como o administrador não é o dono da máquina estatal, os bens e os direitos da sociedade não estão "disponíveis" à vontade dele. Ele é estritamente proibido de tratar a coisa pública como se fosse o seu patrimônio particular. Ele não tem o poder de dispor daquilo que não lhe pertence.
+
+É por causa da "indisponibilidade" que o Direito Administrativo cria uma série de amarras, proibições e obrigações para os governantes. Devido a este princípio:
+- Um administrador público não pode perdoar uma dívida de impostos de uma empresa de forma arbitrária. 
+- O Estado não pode simplesmente doar ou vender um terreno público para um particular de forma direta. Para dispor do bem de forma legal, ele é obrigado a seguir regras rígidas, conseguir aprovação de uma lei no Poder Legislativo e realizar licitação.
+
 #### **3. Continuidade dos Serviços Públicos**
 Os serviços prestados à sociedade (principalmente essenciais, como saúde, segurança, fornecimento de água e energia, transporte coletivo) não podem sofrer interrupções. 
 - Este princípio fundamenta as restrições ao direito de greve de servidores em áreas essenciais (como policiais e militares)
