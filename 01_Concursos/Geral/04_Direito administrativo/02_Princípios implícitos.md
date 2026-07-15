@@ -12,10 +12,9 @@ Estabelece que o interesse público deve prevalecer sobre os interesses individu
 #### **2. Indisponibilidade do Interesse Público**
 Como o administrador não é o dono da máquina estatal, os bens e os direitos da sociedade não estão "disponíveis" à vontade dele. Ele é estritamente proibido de tratar a coisa pública como se fosse o seu patrimônio particular. Ele não tem o poder de dispor daquilo que não lhe pertence.
 
-É por causa da "indisponibilidade" que o Direito Administrativo cria uma série de amarras, proibições e obrigações para os governantes. Devido a este princípio:
+É por causa da "indisponibilidade" que o Direito Administrativo cria uma série de amarras, proibições e obrigações para os governantes. 
 - Um administrador público não pode perdoar uma dívida de impostos de uma empresa de forma arbitrária. 
 - O Estado não pode simplesmente doar ou vender um terreno público para um particular de forma direta. Para dispor do bem de forma legal, ele é obrigado a seguir regras rígidas, conseguir aprovação de uma lei no Poder Legislativo e realizar licitação.
-
 #### **3. Continuidade dos Serviços Públicos**
 Os serviços prestados à sociedade (principalmente essenciais, como saúde, segurança, fornecimento de água e energia, transporte coletivo) não podem sofrer interrupções. 
 - Este princípio fundamenta as restrições ao direito de greve de servidores em áreas essenciais (como policiais e militares)
@@ -29,48 +28,18 @@ Ao praticar um  determinado ato administrativo, o agente público deve expor, de
 
 ![400](../../../attachments/Pasted%20image%2020260713145205.png)
 
-
 #### **5. Princípio da Especialidade**
-Fundamenta a ideia de **decentralização administrativa**. Esse princípio que legitima a criação das entidades da administração indireta.
-
-Determina que, quando o Estado cria uma entidade descentralizada **por meio de lei**, ele deve definir uma **finalidade pública específica para ela**. A entidade fica estritamente vinculada a esse objetivo e proibida de atuar em áreas estranhas à sua especialidade.
-- Objetivos da entidade estão previstos em lei (Princ.Legalidade).
-- Agentes públicos não podem se desviar destes objetivos (Princ. Indisponibilidade)
+Fundamenta a ideia de **decentralização administrativa**, legitimando a criação das entidades da administração indireta. Quando o Estado cria uma entidade descentralizada **por meio de lei**, ele deve definir uma **finalidade pública para ela**. A entidade fica  vinculada a esse objetivo e proibida de atuar em outras áreas 
 
 **Descentralização**: acontece quando o Estado transfere a competência da prestação de um serviço para outra pessoa jurídica. 
-- A entidade descentralizada possui autonomia, não existe relação de hierarquia ou subordinação com o estado.
+- A entidade possui autonomia, não existe hierarquia ou subordinação com o estado.
 - **Princípio da tutela:** Relação de **Controle Finalístico, Tutela Administrativa ou Supervisão Ministerial**, que serve para fiscalizar se a entidade está cumprindo os objetivos definidos na lei.
-
-A Administração Indireta é composta por quatro figuras jurídicas conhecidas por "FASE": 
-Fundações Públicas, Autarquias, Sociedades de Economia Mista e Empresas Públicas. 
-
-- **Fundações Públicas**: consistem em um patrimônio destinado a finalidades sociais, culturais ou de pesquisa. Pode assumir regime de direito público ou privado.
-	- **IBGE**(Instituto Brasileiro de Geografia e Estatística): Responsável por mapear o território, realizar censos e organizar a bases de dados estatísticos do país.
-	- **Funai** (Fundação Nacional dos Povos Indígenas): Encarregada de formular e executar a política indigenista do Estado.
-	- **Fiocruz (Fundação Oswaldo Cruz):** Voltada para a pesquisa científica na área da saúde, desenvolvimento tecnológico, produção de vacinas e medicamentos.
-	
-- **Autarquias**: Criadas para desempenhar atividades típicas de Estado com maior autonomia técnica.
-	- **INSS** (Instituto Nacional do Seguro Social): Responsável por operacionalizar o reconhecimento e a concessão de direitos e benefícios da previdência social.
-	- **Bacen (Banco Central do Brasil):** Atua como a autoridade monetária, responsável por controlar a inflação, emitir moeda e fiscalizar as instituições financeiras.
-	- **Ibama** (Instituto Br do Meio Ambiente e dos Recursos Naturais Renováveis): Executa as políticas de meio ambiente, exercendo o poder de polícia ambiental.
-
-- **Sociedades de Economia Mista**: Entidades de direito privado com capital dividido entre o Estado (que mantém o controle acionário) e investidores privados, criadas para a exploração de atividade econômica ou prestação de serviços públicos.
-	- **Banco do Brasil** (BB): Instituição financeira, cujo acionista majoritário é o Governo Federal, atuando no mercado bancário comercial.
-	- **Petrobras** (Petróleo Brasileiro S.A.): Empresa estatal voltada para a pesquisa, exploração, refino e distribuição de petróleo e gás natural.
-	- **CAGECE** (Companhia de Água e Esgoto do Ceará): Exemplo estadual de sociedade de economia mista.
-    
-- **Empresas Públicas**: Entidades de direito privado cujo capital social pertence integralmente ao Estado, sem participação de acionistas da iniciativa privada.
-	- **Caixa Econômica Federal**: Instituição financeira 100% pública que atua como o principal agente operador de políticas sociais do governo federal, gerindo o FGTS, o seguro-desemprego, programas habitacionais e as loterias federais.
-	- **Correios**: Empresa pública responsável por executar o serviço postal e o monopólio estatal de correspondências e telegramas em todo o território nacional.
-
 #### **6. Princípio da Autotutela**
-
-Consiste no poder-dever da Administração Pública de controlar, corrigir e revisar os seus próprios atos, sem a necessidade de recorrer ao Poder Judiciário. Podendo ser feito por provocação ou de ofício. Este princípio se manifesta em duas frentes distintas:
+Consiste no poder-dever da Administração Pública de controlar, corrigir e revisar os seus próprios atos, sem a necessidade de recorrer ao Poder Judiciário. Este princípio se manifesta em duas frentes distintas:
 - **Anulação:** Através da reanálise da legalidade. A Administração deve anular os seus próprios atos quando estes estiverem eivados de vícios de legalidade. A anulação possui efeito retroativo, apagando os efeitos do ato ilegal desde a sua origem.
 - **Revogação:** Através da reanálise do mérito. A Administração pode revogar atos que são legais, mas que, devido a mudanças de cenário, tornaram-se inconvenientes para o interesse público. A revogação mantém os efeitos que o ato produziu.
 	![500](../../../attachments/Pasted%20image%2020260714143934.png)
 - A autotutela não impede que o poder judiciário (depende de provocação) anule os atos da administração pública.
-- O princípio da segurança jurídica limita a autotutela da administração pública .
 
 #### **7. Princípio do Contraditório e da ampla defesa**
 Princípio que incide sobre todos os processos judiciais e administrativos. Ele assegura que nenhum cidadão ou servidor público sofra sanções ou perdas de direitos impostas pelo Estado sem ter a oportunidade justa, prévia e completa de se defender.
@@ -81,28 +50,26 @@ Princípio que incide sobre todos os processos judiciais e administrativos. Ele 
 
 **O Princípio da Ampla Defesa**
 - **Produção de Provas:** Garante o direito de utilizar todos os meios lícitos para comprovar a sua inocência ou o seu direito.
-- **Defesa Técnica:** Assegura o direito de ser assistido por um advogado de sua confiança. (No âmbito específico do Processo Administrativo Disciplinar, o STF estabeleceu que a falta de defesa técnica por advogado não ofende a Constituição, ou seja, é um direito do servidor, mas não uma obrigação que anula o processo).
+- **Defesa Técnica:** Assegura o direito de ser assistido por um advogado de sua confiança. (No âmbito do Processo Administrativo Disciplinar, o STF estabeleceu que a falta de defesa técnica por advogado não ofende a Constituição).
 - **Direito ao Recurso:** Prerrogativa de não se conformar com a primeira decisão proferida, podendo interpor recursos para que revisem o caso.
 
 **Processo Administrativo Disciplinar (PAD):** A aplicação de penalidades graves a servidores públicos depende da condução de um PAD. Qualquer punição aplicada de forma sumária, sem dar a chance de defesa, é considerada juridicamente nula.
-**Limitação à Autotutela:** Embora o Estado tenha o poder de anular os seus próprios atos ilegais, o STF entende que, se a anulação for atingir os interesses ou os direitos adquiridos de um cidadão específico, a Administração Pública não pode simplesmente anular o ato de ofício. É obrigatória a instauração de um processo administrativo prévio para garantir o contraditório e a ampla defesa daquele que será prejudicado.
+
+**Limitação à Autotutela:** Se a anulação for atingir os interesses ou os direitos adquiridos de um cidadão, a Administração Pública deve instaurar um processo administrativo para garantir o contraditório e a ampla defesa daquele que será prejudicado.
 
 #### **8. Presunção de Legalidade, Legitimidade e Veracidade**
 
-**Legalidade:** Presume-se que o agente público obedeceu estritamente aos ditames da lei ao praticar o ato.
-**Legitimidade:** Presume-se que o ato não apenas cumpriu a lei, mas também respeitou os princípios administrativos (como moralidade e finalidade) e o interesse público.
+**Legalidade:** Presume-se que o agente público obedeceu a lei ao praticar o ato.
+**Legitimidade:** Presume-se que o ato não apenas cumpriu a lei, mas também respeitou os princípios administrativos e o interesse público.
 **Veracidade**: Presume-se que os motivos e os acontecimentos narrados pelo agente público para justificar a sua decisão realmente aconteceram.
 
-A presunção admite prova em contrário. Contudo, gera a inversão do ônus da prova: não é o Estado que precisa provar que agiu certo; cabe ao cidadão o dever de provar que o ato foi ilegal ou que os fatos narrados pelo agente são falsos.
-
+A presunção admite prova em contrário. Mas, não é o Estado que precisa provar que agiu certo; cabe ao cidadão o dever de provar que o ato foi ilegal.
 #### **9. Princípio da segurança jurídica**
 Visa garantir a estabilidade, a ordem e a previsibilidade à atuação estatal. Esse princípio se manifesta para limitar o poder do Estado de alterar ou desfazer situações já consolidadas ao longo do tempo.
-
 - **Aspecto Objetivo:** manutenção dos atos administrativos já praticados e consolidados.
 	- O prazo para anulação de atos administrativos é de, no geral, 5 anos (contraste com o princípio da legalidade), desde que o ato tenha gerado efeitos favoráveis ao cidadão e este esteja de boa-fé.
 	- Manutenção de atos praticados por agente de fato (agentes sem vínculos ou não legítimos, que exercem funções públicas de boa-fé).
-- **Aspecto Subjetivo/Princípio da confiança legítima:** O cidadão, que atua pautado em uma conduta estatal de boa-fé, não pode ser prejudicado caso o próprio Estado reconheça que estava equivocado.    
-	- É vedado à aplicação retroativa (referente ao passado) de novas interpretações.  
+- **Princípio da confiança legítima:** O cidadão, que atua pautado em uma conduta estatal de boa-fé, não pode ser prejudicado caso o próprio Estado reconheça que estava equivocado. É vedado à aplicação retroativa (referente ao passado) de novas interpretações.  
  
  #### **10. Princípio da Razoabilidade e Proporcionalidade**
 
@@ -117,7 +84,6 @@ Este princípio garante que apenas o indivíduo que cometeu o ato ilícito pode 
 - **Sanções a municípios:** Não pode permanecer a inscrição do município em cadastros restritivos fundada em irregularidades na gestão anterior, quando, na gestão sucessora, são tomadas as providencias cabiveis a reparção dos dados.
     
 É importante separar o que é a **sanção** (aspecto punitivo) e o que é a **reparação civil** (o aspecto indenizatório). Se o ato ilícito cometido gerou um prejuízo financeiro aos cofres públicos, a obrigação de reparar o dano e devolver o dinheiro pode ser estendida aos sucessores e herdeiros do infrator falecido. No entanto, essa cobrança possui um limite: o Estado só pode cobrar o ressarcimento até o limite do valor do patrimônio que foi transferido como herança. 
-
 #### **12. Princípio da Sindicabilidade**
 Regra que garante que todo e qualquer ato da Administração Pública pode ser submetido a controle e fiscalização. Se um agente público pratica um ato, esse ato poderá ser revisado por meio de dois mecanismos:
     
@@ -138,3 +104,18 @@ O Estado tem o dever de agir antecipadamente para proteger a sociedade, a saúde
 O Estado só deve intervir na sociedade e na economia de forma subsidiária, ou seja, apenas quando a iniciativa privada (indivíduos e empresas) não for capaz de resolver os problemas ou satisfazer as necessidades da coletividade.
 
 A premissa deste princípio é que a ação estatal deve ser a exceção, e a atuação livre da sociedade civil deve ser a regra. A estrutura do Estado existe para amparar e complementar a sociedade, não para substituí-la ou absorver as suas funções primárias.
+
+
+---
+![](../../../attachments/Pasted%20image%2020260715102109.png)
+CORRETO
+
+![](../../../attachments/Pasted%20image%2020260715102156.png)
+B
+
+![](../../../attachments/Pasted%20image%2020260715102211.png)
+CORRETO
+
+![](../../../attachments/Pasted%20image%2020260715102325.png)
+![](../../../attachments/Pasted%20image%2020260715103405.png)
+B
