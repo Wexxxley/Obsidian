@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/04_Direito administrativo/02_Princípios implícitos.md",
+                "file": "01_Concursos/Geral/01_Português/3_Sintaxe/10_Orações subordinadas adjetivas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02_Princípios implícitos"
+              "title": "10_Orações subordinadas adjetivas"
             }
           }
         ],
@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.01103591918945
+    "width": 499.01103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -209,6 +210,17 @@
   },
   "active": "dd79a8c2bfe92bb1",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260715144721.png",
+    "attachments/Pasted image 20260715144132.png",
+    "01_Concursos/Geral/01_Português/3_Sintaxe/16_Orações reduzidas.md",
+    "01_Concursos/Geral/01_Português/3_Sintaxe/10_Orações subordinadas adjetivas.md",
+    "01_Concursos/Geral/01_Português/3_Sintaxe/9_Orações subordinadas substantivas.md",
+    "01_Concursos/Geral/01_Português/3_Sintaxe/8_Orações coordenadas.md",
+    "01_Concursos/Geral/01_Português/3_Sintaxe/7_Periodo composto.md",
+    "01_Concursos/Geral/01_Português/3_Sintaxe/Untitled",
+    "01_Concursos/Geral/04_Direito administrativo/02_Princípios implícitos.md",
+    "01_Concursos/Geral/04_Direito administrativo/03_Agentes públicos.md",
+    "01_Concursos/Geral/04_Direito administrativo/01_Princípios explicitos.md",
     "attachments/Pasted image 20260715140458.png",
     "attachments/Pasted image 20260715135531.png",
     "attachments/Pasted image 20260715132328.png",
@@ -219,20 +231,11 @@
     "attachments/Pasted image 20260715102156.png",
     "attachments/Pasted image 20260715102109.png",
     "01_Concursos/Geral/04_Direito administrativo/06_Administração indireta.md",
-    "01_Concursos/Geral/04_Direito administrativo/02_Princípios implícitos.md",
-    "attachments/Pasted image 20260715092130.png",
-    "attachments/Pasted image 20260714143934.png",
     "01_Concursos/Geral/04_Direito administrativo/05_Conceitos fundamentais.md",
     "01_Concursos/Geral/04_Direito administrativo/03_Funções administrativas.md",
-    "01_Concursos/Geral/04_Direito administrativo/03_Agentes públicos.md",
-    "01_Concursos/Geral/04_Direito administrativo/01_Princípios explicitos.md",
-    "01_Concursos/Geral/01_Português/3_Sintaxe/9_Orações subordinadas substantivas.md",
-    "01_Concursos/Geral/01_Português/3_Sintaxe/8_Orações coordenadas sindéticas.md",
-    "01_Concursos/Geral/01_Português/3_Sintaxe/7_Periodo composto.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/4_Termos acessórios da oração.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/5_Análise sintática.md",
     "Untitled.md",
-    "01_Concursos/Geral/01_Português/3_Sintaxe/16_Orações reduzidas.md",
     "01_Concursos/Geral/04_Direito administrativo/03_LGPD E LAI.md",
     "01_Concursos/Geral/04_Direito administrativo/03_Licitação.md",
     "01_Concursos/Geral/03_Legislação e serviço público/5_Princípios da administração pública.md",
@@ -244,7 +247,6 @@
     "01_Concursos/Geral/01_Português/2_Morfologia/12_Conjunções subordinativas P1.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/16_Uso do QUE.md",
     "01_Concursos/Geral/03_Legislação e serviço público/12_Processo legislativo.md",
-    "01_Concursos/Geral/03_Legislação e serviço público/13_Proposição, tramitação e pauta legislativa.md",
     "01_Concursos/Geral/04_Direito administrativo",
     "01_Concursos/Geral/01_Português/3_Sintaxe",
     "01_Concursos/Geral/03_Legislação e serviço público",
@@ -254,7 +256,6 @@
     "07_CadeirasFaculdade",
     "01_Concursos",
     "01_Concursos/Geral/02_Arquivologia",
-    "01_Concursos/Geral/01_Português/4_Redação",
     "Sem título.canvas"
   ]
 }
