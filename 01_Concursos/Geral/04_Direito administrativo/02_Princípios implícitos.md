@@ -98,37 +98,15 @@ A presunção admite prova em contrário. Contudo, gera a inversão do ônus da 
 #### **9. Princípio da segurança jurídica**
 Visa garantir a estabilidade, a ordem e a previsibilidade à atuação estatal. Esse princípio se manifesta para limitar o poder do Estado de alterar ou desfazer situações já consolidadas ao longo do tempo.
 
-- **Aspecto Objetivo:** Refere-se à manutenção jurídica dos atos administrativos já praticados e consolidados, estabelecendo limites à retroatividade das leis e das decisões estatais. 
-	- O prazo para anulação de atos administrativos é de, no geral, 5 anos.
+- **Aspecto Objetivo:** manutenção dos atos administrativos já praticados e consolidados.
+	- O prazo para anulação de atos administrativos é de, no geral, 5 anos (contraste com o princípio da legalidade), desde que o ato tenha gerado efeitos favoráveis ao cidadão e este esteja de boa-fé.
 	- Manutenção de atos praticados por agente de fato (agentes sem vínculos ou não legítimos, que exercem funções públicas de boa-fé).
-- **Aspecto Subjetivo:** O cidadão que atua pautado em uma norma ou em uma conduta estatal de boa-fé não pode ser punido ou prejudicado caso o próprio Estado reconheça, futuramente, que estava equivocado.    
-	- É vedado à aplicação retroativa (referente ao passado) de novas interpretações.
+- **Aspecto Subjetivo/Princípio da confiança legítima:** O cidadão, que atua pautado em uma conduta estatal de boa-fé, não pode ser prejudicado caso o próprio Estado reconheça que estava equivocado.    
+	- É vedado à aplicação retroativa (referente ao passado) de novas interpretações.  
  
-### Repercussões Práticas no Direito Administrativo
+ #### **10. Princípio da Razoabilidade e Proporcionalidade**
 
-A aplicação deste princípio gera consequências diretas e limitadores na atuação da Administração Pública:
+- **Razoabilidade:** Exige que as decisões administrativas sejam lógicas, coerentes e aceitáveis perante o senso comum. Evita absurdos.
+- **Proporcionalidade:** Exige o equilíbrio entre os **meios** empregados e os **fins** que se deseja alcançar. A medida adotada pela Administração deve ser adequada (capaz de atingir o objetivo), necessária (a opção menos gravosa possível ) e proporcional (vantagens para a coletividade devem superar os prejuízos ao indivíduo).
 
-- **Decadência Administrativa:** É a perda do direito da Administração Pública de anular os seus próprios atos ilegais após o transcurso de um prazo legal (como regra geral, 5 anos na esfera federal, conforme o artigo 54 da Lei nº 9.784/1999), desde que o ato tenha gerado efeitos favoráveis ao cidadão e este esteja de boa-fé. Após esse prazo, mesmo sendo ilegal, o ato se consolida em nome da segurança jurídica.
-    
-- **Vedação à Aplicação Retroativa de Nova Interpretação:** Se a Administração Pública possuía um entendimento sobre a aplicação de uma lei e, posteriormente, altera essa interpretação jurídica, a nova regra só pode ser aplicada dali em diante (efeito _ex nunc_). É expressamente proibido utilizar o novo entendimento para prejudicar situações já finalizadas sob a orientação anterior.
-    
-- **Regras de Transição:** Quando há a criação de uma nova lei que altera drasticamente requisitos ou obrigações (como as reformas previdenciárias), o princípio exige a formulação de regras de transição para mitigar o impacto sobre aqueles que já estavam próximos de adquirir o direito sob a legislação antiga.
-### Princípio da Razoabilidade e Proporcionalidade
-
-Embora frequentemente tratados em conjunto, possuem nuances próprias que servem para limitar o poder discricionário do administrador público, evitando excessos e arbitrariedades.
-
-- **Razoabilidade:** Exige que as decisões administrativas sejam lógicas, coerentes e aceitáveis perante o senso comum. Uma conduta desarrazoada é aquela que foge à racionalidade esperada de um gestor público.
-    
-- **Proporcionalidade:** Exige o equilíbrio exato entre os meios empregados pelo Estado e os fins que se deseja alcançar. A medida adotada pela Administração deve ser adequada (capaz de atingir o objetivo), necessária (a opção menos gravosa possível para o cidadão) e proporcional em sentido estrito (as vantagens trazidas para a coletividade devem superar os prejuízos causados ao indivíduo).
-
-
-
-
-### Princípio da Segurança Jurídica e Proteção à Confiança Legítima
-
-Tem como finalidade garantir a estabilidade das relações jurídicas e a previsibilidade da atuação estatal, assegurando que o cidadão de boa-fé não seja surpreendido de forma injusta por mudanças repentinas de postura do Estado.
-
-- **Repercussões Jurídicas:** Impede a aplicação retroativa de novas interpretações administrativas. Se a Administração Pública possuía um entendimento sobre uma lei e, anos depois, muda esse entendimento, a nova regra não pode prejudicar os atos que o cidadão praticou de boa-fé baseados na interpretação antiga. Também é a base para o instituto da decadência (a perda do direito do Estado de anular seus próprios atos ilegais após o decurso de um prazo legal, geralmente de cinco anos, para não gerar instabilidade eterna).
-    
-    
 
