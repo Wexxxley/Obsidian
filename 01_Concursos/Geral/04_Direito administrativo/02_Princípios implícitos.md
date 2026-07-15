@@ -119,3 +119,15 @@ CORRETO
 ![](../../../attachments/Pasted%20image%2020260715102325.png)
 ![](../../../attachments/Pasted%20image%2020260715103405.png)
 B
+
+Considerando os princípios aplicáveis à Administração Pública, assinale a alternativa INCORRETA.
+
+A) A categoria “interesse público” já não mais se relaciona exclusivamente com as atividades desempenhadas pelo Estado, sendo desdobrada progressivamente em direitos sociais, direitos individuais homogêneos indisponíveis, direitos difusos e direitos coletivos.
+B) Atualmente, o princípio da legalidade representa uma das maiores garantias dos cidadãos, os quais não poderão ser obrigados a fazer ou ser coagidos a deixar de fazer alguma coisa, senão em virtude de lei.
+C) O fundamento da impessoalidade é o princípio da igualdade ou isonomia, que traduz a ideia que a Administração tem de tratar a todos os administrados sem discriminações, evitando simpatias ou animosidades.
+D) Enquanto eficácia é noção que se refere à adequada medida de utilização dos recursos, ou seja, um administrador eficaz é o que consegue um desempenho elevado em relação aos insumos disponíveis; a noção de eficiência transcende a mera indagação dos meios e avalia mais diretamente os resultados.
+E) A positivação da moralidade como princípio assegura ao intérprete mecanismo para obrigar juridicamente a Administração não apenas a seguir um comportamento legal, mas também ético, tendo em vista a ideia de que nem tudo que é formalmente legal é necessariamente ético.
+
+D)
+
+
