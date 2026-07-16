@@ -1,5 +1,5 @@
 
-
+#Concluded 
 
 ---
 Exercem, no contexto de um período composto, a função de um adjetivo. Sua finalidade é caracterizar, qualificar ou especificar um termo antecedente.
