@@ -34,3 +34,16 @@ E) Gerúndio pode ter vários valores semânticos
 C) CAUSA
 
 ![](../../../../attachments/Pasted%20image%2020260716144321.png)
+
+![](../../../../attachments/Pasted%20image%2020260716150254.png)
+Na B, há uma conjunção conclusiva dentro de um período simples. Essa frase 
+atua como a ideia conclusiva em relação ao raciocínio que a precedeu.
+
+
+![](../../../../attachments/Pasted%20image%2020260716172648.png)
+
+C) Oração subordinatiba adverbial causal reduzida de gerundio 
+
+![](../../../../attachments/Pasted%20image%2020260716172933.png)
+
+
