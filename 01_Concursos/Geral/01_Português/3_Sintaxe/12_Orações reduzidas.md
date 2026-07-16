@@ -21,5 +21,16 @@ Oração subordinada adverbial temporal reduzida de particípio.
 A)
 
 ![](../../../../attachments/Pasted%20image%2020260716141909.png)
+D) 
+AO + INFINITIVO -> TEMPO
+A+ INFINITIVO -> CONDIÇÃO : A persitirem os sintomas, faça...
 
 
+![](../../../../attachments/Pasted%20image%2020260716143234.png)
+![](../../../../attachments/Pasted%20image%2020260716143223.png)
+E) Gerúndio pode ter vários valores semânticos
+
+![](../../../../attachments/Pasted%20image%2020260716143719.png)
+C) CAUSA
+
+![](../../../../attachments/Pasted%20image%2020260716144321.png)
