@@ -17,5 +17,9 @@ Oração subordinada substantiva subjetiva reduzida de infinitivo.
 Oração subordinada adjetiva restritiva reduzida de gerúndio.
 Oração subordinada adverbial temporal reduzida de particípio.
 
- 
-  
+![](../../../../attachments/Pasted%20image%2020260716141845.png)
+A)
+
+![](../../../../attachments/Pasted%20image%2020260716141909.png)
+
+
