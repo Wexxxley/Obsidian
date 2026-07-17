@@ -63,4 +63,19 @@ Errado. Isso basta. O.S.S.S.R.I
 ![](../../../../attachments/Pasted%20image%2020260717074158.png)
 Errado. Isso é possível
 
-![](../../../../attachments/Pasted%20image%2020260717075613.png)
+![](../../../../attachments/Pasted%20image%2020260717075613.png)ERRADO. Para ler, finalidade
+
+![](../../../../attachments/Pasted%20image%2020260717080221.png)
+ERRADO. OSSPRI
+
+![](../../../../attachments/Pasted%20image%2020260717080445.png)
+Errado. Responder parece ser isso...
+OSSPRI
+
+![](../../../../attachments/Pasted%20image%2020260717081019.png)
+CORRETO. as duas são suj
+
+![](../../../../attachments/Pasted%20image%2020260717081446.png)
+ERRADO
+![](../../../../attachments/Pasted%20image%2020260717081626.png)
+ 
