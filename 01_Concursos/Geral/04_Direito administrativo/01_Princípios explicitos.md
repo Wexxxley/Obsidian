@@ -21,7 +21,7 @@ Dentro do direito temos as **NORMAS JURÍDICAS:** **Regras e Princípios**.
 	![](../../../attachments/Pasted%20image%2020260712165956.png)
 
 ---
-### 2. Princípios expressos
+### **2. Princípios expressos**
 
 A Constituição Federal de 1988 estabelece os cinco princípios basilares da Administração Pública, conhecidos pelo mnemônico **LIMPE**. Esses princípios alcançam toda a administração pública (direta e indireta) e os poderes.
 - **Administração Direta**: composta pelos entes políticos (União, Estados, DF e Municípios) e pela estrutura dos seus órgãos internos. 
