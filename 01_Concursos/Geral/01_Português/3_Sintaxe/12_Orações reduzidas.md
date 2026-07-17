@@ -83,5 +83,16 @@ ERRADO
 A) - A) - A)
 
 ![](../../../../attachments/Pasted%20image%2020260717102459.png)
+D) OSSApositiva enumerativa - B) - B)
 
-![](../../../../attachments/Pasted%20image%2020260717102459.png)
+![](../../../../attachments/Pasted%20image%2020260717102922.png)
+B) -  B)
+
+![](../../../../attachments/Pasted%20image%2020260717103114.png)
+C) OSSCN - C) - C)
+
+![](../../../../attachments/Pasted%20image%2020260717103418.png)
+B) -  A)
+
+![](../../../../attachments/Pasted%20image%2020260717103552.png)
+A) - B) - C) 
