@@ -3,17 +3,38 @@
 
 ---
 
-**Estado:** pessoa jurídica de direito público interno.
+#### **1. Estado**
+Pessoa jurídica de direito público interno.
 - **Pessoa jurídica:** Para obter direitos e contrair obrigações.
 
 O Estado pode ser Unitário ou Federado. O Brasil possue um Estado federado com 26 Estados Membros.
 
-**Funções básicas do Estado:**
+Antes o Estado era responsável por 3 funções:
 - Legislar.
 - Julgar.
-- Função administrativa.
+- Administrar.
 
+Com o passar do tempo os poderes foram separados (tripartite)para limitar o poder centralizado.
+- Poder legislativo. (No ambito federal, estadual e municipal)
+- Poder executivo. (No ambito federal, estadual e municipal)
+- Poder judiciário. (No ambito federal, estadual)
 
+Existe uma certa flexibilidade. O poder legislativo e judiciário em alguns momentos exercem função administrativa.
+![](../../../attachments/Pasted%20image%2020260717141236.png)
+   
+O poder cintinua sendo UNO e INDIVISÍVEL.
+
+![](../../../attachments/Pasted%20image%2020260717141307.png)
+Errado, a separação de poderes é flexível.
+
+#### **2. Governo**
+Exerce a função POLÍTICA. Dá a direção geral e suprema. Fixa os objetivos do Estado e das políticas públicas.
+- Órgãos supremos: presidencia da república, casa civil, congreço nacional
+
+Sistemas de governo
+- Presidencialista e Parlamentarista
+Formas de governo:
+  - República e Monorquia
 ### **1. Conceitos iniciais**
 
 O Direito Administrativo divide o conceito de Administração Pública em duas vertentes:
