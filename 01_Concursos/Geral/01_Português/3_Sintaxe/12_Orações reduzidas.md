@@ -1,5 +1,6 @@
 
 
+
 ---
 ![](../../../../attachments/Pasted%20image%2020260716132454.png)
 
@@ -50,3 +51,16 @@ A)
 ![](../../../../attachments/Pasted%20image%2020260716174437.png)
 Correto
 
+![](../../../../attachments/Pasted%20image%2020260717073219.png)
+CERTO. O.S.S.O.D.R.I
+
+![](../../../../attachments/Pasted%20image%2020260717073609.png)
+ CERTO. O.S.S.O.I.R.I
+ 
+![](../../../../attachments/Pasted%20image%2020260717073846.png)
+Errado. Isso basta. O.S.S.S.R.I
+
+![](../../../../attachments/Pasted%20image%2020260717074158.png)
+Errado. Isso é possível
+
+![](../../../../attachments/Pasted%20image%2020260717075613.png)
