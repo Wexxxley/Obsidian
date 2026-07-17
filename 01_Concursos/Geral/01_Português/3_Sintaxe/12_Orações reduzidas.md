@@ -78,4 +78,10 @@ CORRETO. as duas são suj
 ![](../../../../attachments/Pasted%20image%2020260717081446.png)
 ERRADO
 ![](../../../../attachments/Pasted%20image%2020260717081626.png)
- 
+
+![](../../../../attachments/Pasted%20image%2020260717102018.png)
+A) - A) - A)
+
+![](../../../../attachments/Pasted%20image%2020260717102459.png)
+
+![](../../../../attachments/Pasted%20image%2020260717102459.png)
