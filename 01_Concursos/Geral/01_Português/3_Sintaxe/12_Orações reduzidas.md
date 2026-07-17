@@ -45,5 +45,8 @@ atua como a ideia conclusiva em relação ao raciocínio que a precedeu.
 C) Oração subordinatiba adverbial causal reduzida de gerundio 
 
 ![](../../../../attachments/Pasted%20image%2020260716172933.png)
+A)
 
+![](../../../../attachments/Pasted%20image%2020260716174437.png)
+Correto
 
