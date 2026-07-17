@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/04_Direito administrativo/04_Funções administrativas.md",
+                "file": "01_Concursos/Geral/04_Direito administrativo/03_Estado, Governo e Administração Pública.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04_Funções administrativas"
+              "title": "03_Estado, Governo e Administração Pública"
             }
           }
         ],
@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.01103591918945
+    "width": 261.01103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -209,14 +210,16 @@
   },
   "active": "dd79a8c2bfe92bb1",
   "lastOpenFiles": [
-    "01_Concursos/Geral/04_Direito administrativo/03_Estado, Governo e Administração Pública.md",
     "01_Concursos/Geral/04_Direito administrativo/04_Funções administrativas.md",
+    "01_Concursos/Geral/04_Direito administrativo/03_Estado, Governo e Administração Pública.md",
+    "attachments/Pasted image 20260717184154.png",
+    "01_Concursos/Geral/04_Direito administrativo/09_Licitação.md",
+    "01_Concursos/Geral/04_Direito administrativo/06_LGPD E LAI.md",
+    "01_Concursos/Geral/04_Direito administrativo/08_Agentes públicos.md",
     "attachments/Pasted image 20260717141307.png",
     "attachments/Pasted image 20260717141236.png",
     "01_Concursos/Geral/04_Direito administrativo/05_Conceitos fundamentais.md",
     "01_Concursos/Geral/04_Direito administrativo/06_Administração indireta.md",
-    "01_Concursos/Geral/04_Direito administrativo/03_LGPD E LAI.md",
-    "01_Concursos/Geral/04_Direito administrativo/04_Agentes públicos.md",
     "01_Concursos/Geral/04_Direito administrativo/01_Princípios explicitos.md",
     "01_Concursos/Geral/04_Direito administrativo/02_Princípios implícitos.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/12_Orações reduzidas.md",
@@ -227,7 +230,6 @@
     "attachments/Pasted image 20260717102922.png",
     "attachments/Pasted image 20260717102735.png",
     "attachments/Pasted image 20260717102459.png",
-    "attachments/Pasted image 20260717102018.png",
     "01_Concursos/Geral/01_Português/3_Sintaxe/9_Orações subordinadas substantivas.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/10_Orações subordinadas adjetivas.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/15_Desinências verbais.md",
@@ -240,7 +242,6 @@
     "01_Concursos/Geral/01_Português/3_Sintaxe/4_Termos acessórios da oração.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/5_Análise sintática.md",
     "Untitled.md",
-    "01_Concursos/Geral/04_Direito administrativo/03_Licitação.md",
     "01_Concursos/Geral/03_Legislação e serviço público/5_Princípios da administração pública.md",
     "01_Concursos/Anotações Concursos.md",
     "01_Concursos/Conteudos ALECE Técnico legislativo.md",

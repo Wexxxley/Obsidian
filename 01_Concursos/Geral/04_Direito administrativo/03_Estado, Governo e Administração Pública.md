@@ -4,7 +4,7 @@
 ---
 ### **1. Estado**
 
-Pessoa jurídica de direito público interno.
+Pessoa jurídica de direito público interno. Composto pelo Estado, o povo e o território,
 - **Pessoa jurídica:** Para obter direitos e contrair obrigações.
 
 O Estado pode ser Unitário ou Federado. O Brasil possue um Estado federado com 26 Estados Membros.
@@ -31,7 +31,7 @@ Errado, a separação de poderes é flexível.
 ---
 ### **2. Governo**
 
-Exerce a função POLÍTICA. Dá a direção geral e suprema. Fixa os objetivos do Estado e das políticas públicas.
+Exerce a função POLÍTICA. Dá a direção geral e suprema. Fixa os objetivos do Estado e das políticas públicas. Dirige o Estado.
 - Órgãos supremos: presidência da república, casa civil, congreço nacional
 - Os agentes condutores desta função são os agentes políticos.
 - Possui uma temporalidade transitória.
@@ -47,7 +47,6 @@ Formas de governo:
 Executa as metas, diretrizes e políticas públicas traçadas pelo Governo.
 - Os agentes responsáveis são os agentes administrativos (servidores públicos).
 - Possui uma temporalidade permanente.
-
 
 O Direito Administrativo divide o conceito de Administração Pública em duas vertentes:
 
