@@ -48,9 +48,11 @@ Executa as metas, diretrizes e políticas públicas traçadas pelo Governo.
 - Os agentes responsáveis são os agentes administrativos (servidores públicos).
 - Possui uma temporalidade permanente.
 
-O Direito Administrativo divide o conceito de Administração Pública em duas vertentes:
+- **Sentido estrito:** orgãos e entidades que exercem apenas as funções administrativas
+- **Sentido amplo:** orgãos e entidades que exercem as funções administrativas e função política (função de governo).
 
-- **Sentido Formal, Orgânico ou Subjetivo (FOS):** Engloba o conjunto de órgãos, entidades e agentes públicos encarregados de executar a função administrativa do Estado. Deve ser grafado com iniciais maiúsculas: **Administração Pública**.
-    
-- **Sentido Material, Funcional ou Objetivo (MFO):** Trata da atividade em si. Suas vertentes de atuação englobam o serviço público, o poder de polícia, o fomento e a intervenção. Deve ser grafado com iniciais minúsculas: **administração pública**.
+- **Sentido Formal, Orgânico ou Subjetivo:** Engloba o conjunto de órgãos, entidades e agentes públicos encarregados de executar a função administrativ. Deve ser grafado com iniciais maiúsculas: **Administração Pública**.
+- **Sentido Material, Funcional ou Objetivo:** Trata da atividade em si. As funções administrativasDeve ser grafado com iniciais minúsculas: **administração pública**.
+
+![](../../../attachments/Pasted%20image%2020260717190420.png)
 
