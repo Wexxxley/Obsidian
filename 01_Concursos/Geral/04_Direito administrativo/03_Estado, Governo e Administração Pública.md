@@ -95,20 +95,70 @@ D) A criação de instrumentos de participação democrática é sempre importan
 
 
 **Alternativa A: Correta**
-Os três elementos do Esão: o povo** (componente humano com vínculo jurídico-político), o **território** (base física e geográfica onde o Estado exerce sua jurisdição) e o **governo soberano** (poder supremo e independente de organização e comando do Estado).
+Os três elementos do Estado são: o povo, o território e o governo soberano 
 
 **Alternativa B: Correta**
+ Estado divide suas funções estruturais em três poderes independentes
 
-A alternativa reflete o Princípio da Separação dos Poderes. O Estado divide suas funções estruturais em três poderes independentes e harmônicos entre si: o **Legislativo** (função típica de criar leis e fiscalizar), o **Executivo** (função típica de administrar e executar as políticas públicas) e o **Judiciário** (função típica de aplicar a lei para solucionar conflitos).
-
-**Alternativa C: Incorreta (Gabarito)**
-
-O erro da alternativa está na inclusão do termo "Condados". Na organização político-administrativa da Federação brasileira, as entidades estatais (entes federativos) dotadas de autonomia política, administrativa e financeira são, exclusivamente: a **União**, os **Estados-membros**, o **Distrito Federal** e os **Municípios**. Condados são divisões territoriais típicas de países de tradição anglo-saxã, inexistentes no ordenamento jurídico brasileiro.
+**Alternativa C: Incorreta**
+O erro da alternativa está na inclusão do termo "Condados". Na organização político-administrativa da Federação brasileira, as entidades estatais (entes federativos) dotadas de autonomia política, administrativa e financeira são, exclusivamente: a **União**, os **Estados-membros**, o **Distrito Federal** e os **Municípios**. 
 
 **Alternativa D: Correta**
-
-Hely Lopes Meirelles adota essa classificação estrutural para as entidades que integram ou colaboram com a Administração. As entidades **estatais** são os próprios entes federativos (União, Estados, DF, Municípios); as **autárquicas** e **fundacionais** são pessoas jurídicas de direito público ou privado criadas para prestar serviços estatais específicos; as **empresariais** referem-se às empresas públicas e sociedades de economia mista; e as **parestatais** são pessoas jurídicas de direito privado que colaboram com o Estado, sem integrá-lo (como as entidades do Sistema S).
+As entidades **estatais** são os próprios entes federativos (União, Estados, DF, Municípios); as **autárquicas** e **fundacionais** são pessoas jurídicas de direito público ou privado criadas para prestar serviços estatais específicos; as **empresariais** referem-se às empresas públicas e sociedades de economia mista; e as **parestatais** são pessoas jurídicas de direito privado que colaboram com o Estado.
 
 **Alternativa E: Correta**
-
 A alternativa apresenta o conceito amplo e majoritário de agente público. Trata-se de qualquer pessoa física que exerça uma função estatal, independentemente do tipo de vínculo ou remuneração. Isso abrange desde servidores concursados (vínculo definitivo) até agentes políticos eleitos, comissionados e indivíduos convocados para funções transitórias (como mesários eleitorais ou jurados).
+
+![](../../../attachments/Pasted%20image%2020260718110114.png)
+
+2 e 4
+
+**Respondendo a assertiva I.**: incorreta.o erro desta assertiva é se restringir ao sentido orgânico da administração pública.
+
+**Respondendo a assertiva II.**: A assertiva está correta.
+![200](../../../attachments/Pasted%20image%2020260718110326.png)
+  
+**Respondendo a assertiva III.**: O **princípio da legalidade** impõe que a Administração Pública **só pode atuar conforme a lei**. Porém, não significa que ela **apenas executa** as leis feitas pelo Legislativo. Na realidade, **a Administração também regulamenta e normatiza** certos aspectos administrativos por meio de decretos e portarias. Além disso, alguns órgãos do Executivo têm poder normativo limitado.
+
+
+**Respondendo a assertiva IV.:** O **princípio da publicidade** garante **transparência**
+
+
+![](../../../attachments/Pasted%20image%2020260718111110.png)
+**Introversa:** relações interna.
+**Extroversa:** relações externas. Poder público e adminitrados.
+
+
+![](../../../attachments/Pasted%20image%2020260718113453.png)
+**B ) - INCORRETA**
+- Sentido Subjetivo - ( sobre quem pratica - agentes , órgaões , etc.)
+
+**C) -INCORRETA**
+- Atos de governo são atos políticos - praticados pela alta cúpula do poder EXECUTIVO - expressando soberania estatal e político - presidente , governadores , prefeitos .  
+
+**D) - INCORRETA**
+**Atos de governo (atos políticos)** são praticados **principalmente pelo Poder Executivo**, **não** pelo Judiciário.
+
+
+E) INCORRETA
+- Administração Pública, **em seu sentido material ou funcional**, são os órgãos e os agentes públicos que exercem atividades administrativas.
+
+![](../../../attachments/Pasted%20image%2020260718114239.png)
+
+
+**Alternativa A: Incorreta**
+Administração Pública não é sinônimo de Estado. O Estado é a entidade soberana originária (composta por povo, território e governo soberano), enquanto a Administração Pública é o aparato instrumental, técnico e hierarquizado utilizado pelo Estado para colocar em prática as políticas públicas.
+
+**Alternativa B: Incorreta**
+O Governo não é pessoa jurídica e, portanto, não é titular de direitos e obrigações. O Governo é um complexo de órgãos políticos e diretivos despersonalizados. A personalidade jurídica de direito público pertence ao ente estatal que o Governo comanda (União, Estados, Distrito Federal e Municípios).
+
+**Alternativa C: Incorreta**
+A Administração Pública não se limita aos órgãos estatais subordinados verticalmente ao Chefe do Executivo (administração direta). 
+
+**Alternativa D: Correta (Gabarito)**
+Do ponto de vista material ou objetivo, o Governo conceitua-se exatamente como a atividade diretiva, política e discricionária do Estado. É a função responsável pela alta direção, pelas escolhas políticas, pela fixação de metas e pelas diretrizes que guiarão a atuação do Estado.
+
+**Alternativa E: Incorreta**
+A Administração Pública não pertence exclusivamente ao Poder Executivo. 
+
+
