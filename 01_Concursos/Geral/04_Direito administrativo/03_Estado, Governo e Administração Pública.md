@@ -45,14 +45,16 @@ Formas de governo:
 ### **3. Administração pública**
 
 Executa as metas, diretrizes e políticas públicas traçadas pelo Governo.
-- Os agentes responsáveis são os agentes administrativos (servidores públicos).
+- Os agentes responsáveis são os agentes administrativos.
 - Possui uma temporalidade permanente.
 
-- **Sentido estrito:** orgãos e entidades que exercem apenas as funções administrativas
-- **Sentido amplo:** orgãos e entidades que exercem as funções administrativas e função política (função de governo).
+**Sentido estrito:** orgãos e entidades que exercem apenas as funções administrativas.
+**Sentido amplo:** orgãos e entidades que exercem as funções administrativas e função política (função de governo).
 
-- **Sentido Formal, Orgânico ou Subjetivo:** Engloba o conjunto de órgãos, entidades e agentes públicos encarregados de executar a função administrativ. Deve ser grafado com iniciais maiúsculas: **Administração Pública**.
-- **Sentido Material, Funcional ou Objetivo:** Trata da atividade em si. As funções administrativasDeve ser grafado com iniciais minúsculas: **administração pública**.
+**Sentido Formal, Orgânico ou Subjetivo:** Órgãos, entidades e agentes públicos encarregados de executar a função administrativa. Grafia: **Administração Pública**.
+**Sentido Material, Funcional ou Objetivo:** Trata da atividade em si, as funções administrativas. Grafia: **administração pública**.
 
 ![](../../../attachments/Pasted%20image%2020260717190420.png)
 
+**Introversa:** relações interna.
+**Extroversa:** relações externas. Poder público e adminitrados.
