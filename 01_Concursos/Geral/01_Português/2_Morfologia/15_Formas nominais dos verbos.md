@@ -33,4 +33,18 @@ Nome pode ser substantivo, adjetivo, advérbio.
 
 
 **Gerundismo**: uso inadequado de gerúndio. Ideia de um futuro em andamento.
-- Ela vai estar anotando os detalhes.
+- Ela vai estar anotando os detalhes. 
+![500](../../../../attachments/Pasted%20image%2020260718190144.png) 
+
+**Valores semânticos do gerúndio:**
+![](../../../../attachments/Pasted%20image%2020260718190807.png)
+
+![](../../../../attachments/Pasted%20image%2020260718190848.png)![](../../../../attachments/Pasted%20image%2020260718190900.png)
+A)
+
+![](../../../../attachments/Pasted%20image%2020260718191035.png)
+![](../../../../attachments/Pasted%20image%2020260718191019.png)
+A) CONSEQUÊNCIA
+
+![440](../../../../attachments/Pasted%20image%2020260718191251.png)
+![](../../../../attachments/Pasted%20image%2020260718191546.png)
