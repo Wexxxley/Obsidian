@@ -51,3 +51,38 @@ C
   ![](../../../../attachments/Pasted%20image%2020260718193441.png)
   ![](../../../../attachments/Pasted%20image%2020260718194142.png)
 ERRADO. o verbo está no particípio
+
+
+---
+
+![](../../../../attachments/Pasted%20image%2020260719084125.png)D)
+
+![](../../../../attachments/Pasted%20image%2020260719084343.png)B)
+
+Verbo auxiliar: estar 
+Com ser/estar, usa-se o particípio irregular, quando houver.
+
+Verbo auxiliar: ter 
+Com ter/haver, usa-se o particípio regular.
+
+Verbo auxiliar: haver 
+Com ter/haver, usa-se o particípio regular.
+
+Voz passiva com ser (“foi”).
+Com ser/estar, usa-se o particípio irregular (se existir).
+
+
+![](../../../../attachments/Pasted%20image%2020260719084903.png)
+
+ERRADO
+
+
+Mas é parte da função normal da memória, permitindo-nos 'seguir' em frente ou abrir espaço para novas informações. O verbo destacado na frase encontra-se conjugado no:
+
+A) Infinitivo pessoal.
+B) Imperativo afirmativo.
+C) Infinitivo impessoal.
+D) Particípio irregular.
+E) Particípio regular
+
+C) o NOS não é o sujeito, é objeto indireto do verbo permitir
