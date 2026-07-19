@@ -9,7 +9,7 @@ Uma redação dissertativo-argumentativa é um gênero textual com dois objetivo
 **Estrutura padrão:**
 ![](../../../../attachments/Pasted%20image%2020260530191539.png)
 
-Você pode usar os textos de apoio como reprtório, MAAASS NÃO COPIE!
+Você pode usar os textos de apoio como repertório, MAS NÃO COPIE!
 
 
 ---
@@ -35,7 +35,7 @@ Tese é a ideia principal que será defendida e provada ao longo de toda a reda�
 - **Modelo:** Desa forma, é fundamental ressaltar a importância do [TEMA], bem como denunciar a [CAUSA] como o principal entrave para a superação desse quadro.
 
 ---
-### **2. Introduções coringas**
+### **3. Introduções coringas**
 
 #### **O Mito do Desenvolvimento (Desigualdade e Falsos Avanços)**
 O economista Celso Furtado, em sua análise sobre o "Mito do Desenvolvimento", postula que o avanço econômico e estrutural de um país não garante, por si só, o progresso social. 

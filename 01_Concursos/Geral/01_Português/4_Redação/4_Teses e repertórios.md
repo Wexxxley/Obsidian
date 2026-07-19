@@ -2,8 +2,9 @@
 
 
 ---
-### Macroeixo 1: A Falha Estatal e a Omissão do Poder Público
+### **Macroeixo 1: A Falha Estatal**
 
+---
 A Constituição Federal de 1988 assegura o direito à/ao **[direito]** a todos os cidadãos. Contudo, nota-se uma grave incoerência, visto que, no contexto de **[tema]**, essa garantia constitucional não se concretiza na prática.
 - **à moradia**
 - **à saúde**
@@ -12,11 +13,11 @@ A Constituição Federal de 1988 assegura o direito à/ao **[direito]** a todos 
 - **ao meio ambiente ecologicamente equilibrado**
 - **ao trabalho**
 - **à segurança alimentar**
-- **à mobilidade urbana)**
+- **à mobilidade urbana**
 - **ao lazer e à cultura**
 - **à igualdade/isonomia**: Racismo, machismo, desigualdade social, homofobia, etarismo.
 - **à liberdade de crença e expressão**: intolerância religiosa, cultura do cancelamento.
-- **à maternidade e à infância**: Trabalho infantil, abandono parental, gravidez na adolescência, adoção.
+---
 
 **1. Falta de investimento / Infraestrutura precária** <mark style="background: #FF5582A6;">CAUSA</mark>
 - A chegada da Família Real ao Brasil, em 1808, iniciou uma modernização urbana focada apenas na capital. Esse marco exemplifica a lógica estatal de concentrar recursos nos grandes centros, negando infraestrutura e capital às regiões periféricas.
@@ -40,7 +41,8 @@ A Constituição Federal de 1988 assegura o direito à/ao **[direito]** a todos 
 **6. A garantia da Dignidade Humana** <mark style="background: #FFB8EBA6;">IMPORTÂNCIA</mark>
 - O Princípio da Dignidade da Pessoa Humana, fundamento central da Constituição Federal de 1988, garante o respeito inegociável à integridade física e moral do indivíduo. Esse preceito justifica a urgência estatal em promover essa pauta, pois ela é o pilar absoluto para assegurar uma existência justa à população.
 
-### Macroeixo 2: A Herança Histórica e Cultural
+---
+### **Macroeixo 2: A Herança Histórica e Cultural**
 
 **1. Preconceito / Estigma social** <mark style="background: #FF5582A6;">CAUSA</mark>
  - O Darwinismo Social, no século XIX, defendia a falsa premissa de que existiriam raças humanas superiores. Esse conceito elucida como o preconceito adquiriu um caráter científico para justificar a dominação de indivíduos menos favorecidos.
@@ -55,7 +57,8 @@ A Constituição Federal de 1988 assegura o direito à/ao **[direito]** a todos 
 **3. Sensação de superioridade** <mark style="background: #FF5582A6;">CAUSA</mark>
 - A Teoria da Eugenia, do século XIX, pregava a hierarquização biológica dos seres humanos de acordo com suas características, servindo de base ao nazismo. Essa mentalidade fundamenta a intolerância e a noção falaciosa de superioridade racial.
 
-### Macroeixo 3: O Comportamento Social e as Relações Interpessoais
+---
+### **Macroeixo 3: O Comportamento Social**
 
 **1. Formação familiar / Negligência familiar** <mark style="background: #FF5582A6;">CAUSA</mark>
 - Para o sociólogo Émile Durkheim, a "socialização primária" — ocorrida na infância e no núcleo familiar — é definitiva para o desenvolvimento intelectual e social. Logo, falhas nessa etapa comprometem toda a conduta do indivíduo em sociedade.
@@ -82,9 +85,14 @@ A Constituição Federal de 1988 assegura o direito à/ao **[direito]** a todos 
 **7. Desenvolvimento do pensamento crítico** <mark style="background: #FFB8EBA6;">IMPORTÂNCIA</mark>
 - Para o educador Paulo Freire, a leitura e a compreensão do mundo são essenciais para a libertação do indivíduo. Assim, o estímulo a essa prática reveste-se de extrema importância, uma vez que dota o cidadão do senso crítico necessário para romper com a passividade, exigir seus direitos e transformar sua realidade.
 
-**8. imediatismo cognitivo/esvaziamento análitico/Julgamento precipitado/esvaziamento do debate racional**
+**8. imediatismo cognitivo/esvaziamento do debate racional**
 - O filósofo Byung-Chul Han, na obra "A Expulsão do Outro", afirma que a sociedade  perdeu a capacidade de escutar o divergente. O indivíduo contemporâneo pratica uma escuta seletiva e reativa, na qual ele interrompe e ataca qualquer fragmento de ideia que o contrarie.
-### Macroeixo 4: A Lógica de Mercado e as Desigualdades Estruturais
+
+**9. Busca por prazeres instantâneos**
+
+
+---
+### **Macroeixo 4: A Lógica de Mercado e as Desigualdades**
 
 **1. Desigualdade social/cidadania plena** <mark style="background: #FF5582A6;">CAUSA</mark> / <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark>
 - O sistema feudal da Idade Média segregava as pessoas e restringia os privilégios à nobreza e ao clero. De modo análogo, a atual desigualdade social impossibilita que as classes menos favorecidas acessem recursos e direitos básicos.
@@ -106,6 +114,3 @@ A Constituição Federal de 1988 assegura o direito à/ao **[direito]** a todos 
 
 **5. Consumismo** <mark style="background: #FF5582A6;">CAUSA</mark> / <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark>
 - O filósofo pré-socrático Demócrito afirmava que o animal é mais sábio que o homem, pois conhece e respeita a medida da sua necessidade. Em contraste, a sociedade consumista atual ignora esse limite, buscando o acúmulo irracional.
-
-**6. Atraso econômico e desperdício de potencial** <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark>
-- O economista Theodore Schultz, criador da teoria do "Capital Humano", defende que o desenvolvimento de uma nação depende diretamente do bem-estar e da capacitação do seu povo. Logo, a perpetuação dessa exclusão social gera um grave atraso econômico, impedindo que o país atinja o seu pleno potencial produtivo.
