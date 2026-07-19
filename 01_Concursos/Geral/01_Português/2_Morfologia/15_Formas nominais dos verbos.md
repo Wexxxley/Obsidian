@@ -47,4 +47,7 @@ A)
 A) CONSEQUÊNCIA
 
 ![440](../../../../attachments/Pasted%20image%2020260718191251.png)
-![](../../../../attachments/Pasted%20image%2020260718191546.png)
+
+  ![](../../../../attachments/Pasted%20image%2020260718193441.png)
+  ![](../../../../attachments/Pasted%20image%2020260718194142.png)
+ERRADO. o verbo está no particípio
