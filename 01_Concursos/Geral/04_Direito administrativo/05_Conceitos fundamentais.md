@@ -2,17 +2,33 @@
 #Concluded 
 
 ---
+
 **Direito privado:** relaçoes jurídicas entre particulares e de forma horizontal (igualdade)
 **Direito público:** interesses da sociedade. Marcada pela verticalidade entre as relaçoes jurídicas. O direito administrativo é um ramo do direito público. 
 
 ![](../../../attachments/Pasted%20image%2020260719094632.png)
-
 Mas, nem toda atuação da administração é regida pelo direito público.
+### **1. Conceito de direito administrativo**
 
-0
+![](../../../attachments/Pasted%20image%2020260719095410.png)
+
+![](../../../attachments/Pasted%20image%2020260719095716.png)
+
+### **3. Fontes do direito administrativo** 
+
+![](../../../attachments/Pasted%20image%2020260719142749.png)
+
+**Lei:** Obediência ao Princ da Legalidade. Sentido amplo de Lei que engloba a Constituição Federal e as leis estritas (ordinárias e complementares) e atos normativos expedidos pela própria administração.
+
+**Jurisprudência:** Conjunto de decisões e interpretações reiteradas dos tribunais acerca de um mesmo tema. Orienta a aplicação da lei e soluciona controvérsias interpretativas. 
+- Súmulas Vinculantes, editadas pelo Supremo Tribunal Federal, atuam como fonte primária, pois possuem força normativa de observância obrigatória por toda a Administração Pública.
+
+**Doutrina:** É toda a rodução intelectual, científica e teórica desenvolvida por estudiosos, juristas e acadêmicos do Direito por meio de livros, artigos, teses e pareceres
+
+**Costume**: É a prática constante e padronizada de um determinado comportamento dentro da Administração Pública, associada à crença de que tal prática é necessária e obrigatória. O costume serve para preencher lacunas e orientar a atuação administrativa quando a lei for omissa, sendo vedada sua aplicação caso contrarie textos expresso da legislação.
 
 ---
-### **2. Organização Administrativa**
+### **3. Organização Administrativa**
 
 A organização administrativa do Estado disciplina a forma como a máquina pública distribui suas competências internas e externas para a prestação dos serviços à sociedade. Compreender a diferença entre criar um órgão novo (repartição interna) e criar uma entidade nova (autarquia com CNPJ próprio) é fundamental.
 #### **2.1 Centralização e Descentralização (Externo)**
