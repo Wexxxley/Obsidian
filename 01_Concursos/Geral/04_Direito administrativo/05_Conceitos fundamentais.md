@@ -18,7 +18,7 @@ Mas, nem toda atuação da administração é regida pelo direito público.
 
 ![](../../../attachments/Pasted%20image%2020260719142749.png)
 
-**Lei:** Obediência ao Princ da Legalidade. Sentido amplo de Lei que engloba a Constituição Federal e as leis estritas (ordinárias e complementares) e atos normativos expedidos pela própria administração.
+**Lei:** Obediência ao Princ da Legalidade. Sentido amplo d  a Lei que engloba a Constituição Federal e as leis estritas (ordinárias e complementares) e atos normativos expedidos pela própria administração.
 
 **Jurisprudência:** Conjunto de decisões e interpretações reiteradas dos tribunais acerca de um mesmo tema. Orienta a aplicação da lei e soluciona controvérsias interpretativas. 
 - Súmulas Vinculantes, editadas pelo Supremo Tribunal Federal, atuam como fonte primária, pois possuem força normativa de observância obrigatória por toda a Administração Pública.
