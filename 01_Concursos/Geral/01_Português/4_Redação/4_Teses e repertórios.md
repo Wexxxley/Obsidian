@@ -64,53 +64,37 @@ A Constituição Federal de 1988 assegura o direito à/ao **[direito]** a todos 
 - Para o sociólogo Émile Durkheim, a "socialização primária" — ocorrida na infância e no núcleo familiar — é definitiva para o desenvolvimento intelectual e social. Logo, falhas nessa etapa comprometem toda a conduta do indivíduo em sociedade.
 
 **2. Silenciamento / Falta de debates** <mark style="background: #FF5582A6;">CAUSA</mark>
-- A filósofa Hannah Arendt, em sua obra 'A Condição Humana', afirma que é no espaço público e por intermédio do discurso que os indivíduos exercem a cidadania, sendo a deliberação coletiva o meio mais legítimo para transformar a realidade.
 
 **3. Alienação** <mark style="background: #FF5582A6;">CAUSA</mark>
-- Na obra "A Banalidade do Mal", a teórica Hannah Arendt postula que o mal se instaura quando os indivíduos abrem mão de sua capacidade reflexiva. Esse raciocínio explica como a massificação cega a sociedade, fazendo com que a população apenas reproduza condutas prejudiciais ao meio social.
-    
-- Os filósofos Adorno e Horkheimer criaram o termo "Indústria Cultural" para descrever como a mídia de massa busca a homogeneização dos comportamentos, promovendo a alienação e a massificação acrítica das pessoas.
-    
-- O ministro da propaganda nazista, Joseph Goebbels, afirmava que uma mentira repetida mil vezes torna-se verdade. Esse raciocínio ilustra como a alienação coletiva pode ser fabricada pela manipulação constante da informação.
+- Na obra "A Banalidade do Mal", a filósofa Hannah Arendt postula que o mal se instaura quando os indivíduos abrem mão de sua capacidade reflexiva. Esse raciocínio explica como a massificação cega a sociedade e faz com que a população reproduza condutas prejudiciais.
+ 
+- O ministro da propaganda nazista, Joseph Goebbels, afirmava que uma mentira repetida mil vezes torna-se verdade. Esse raciocínio ilustra como a alienação pode ser fabricada pela manipulação da informação.
 
 **4. Passividade social** <mark style="background: #FF5582A6;">CAUSA</mark>
-- O autor J.R.R. Tolkien, em seu universo ficcional, delega a salvação de um mundo dominado por forças hostis superiores às ações dos Hobbits, sujeitos comuns e marginalizados. Tal construção narrativa fundamenta a tese de que a mobilização civil e o engajamento da própria sociedade são os motores primordiais para promover qualquer transformação estrutural.
+- O autor J.R.R. Tolkien, em seu universo ficcional, delega a salvação de um mundo dominado por forças superiores às ações dos Hobbits, sujeitos inferiorizados. Essa narrativa ilustra que a mobilização civil consegue promover significativas transformações.
 
-**5. Resistência a mudanças** <mark style="background: #FF5582A6;">CAUSA</mark>
-- O jornalista George Bernard Shaw afirmava que o progresso é impossível sem mudança. Indivíduos e coletividades que não conseguem alterar as próprias mentalidades estão irremediavelmente fadados a viver estagnados.
-
-**6. Banalização** <mark style="background: #FF5582A6;">CAUSA</mark>
+**5. Banalização** <mark style="background: #FF5582A6;">CAUSA</mark>
 - A "Atitude Blasé", proposta pelo sociólogo Georg Simmel, ocorre quando o indivíduo age com indiferença diante de situações que exigiriam sua atenção. O termo ilustra a apatia da sociedade atual frente à gravidade dos problemas coletivos.
 
-**7. Desenvolvimento do pensamento crítico** <mark style="background: #FFB8EBA6;">IMPORTÂNCIA</mark>
-- Para o educador Paulo Freire, a leitura e a compreensão do mundo são essenciais para a libertação do indivíduo. Assim, o estímulo a essa prática reveste-se de extrema importância, uma vez que dota o cidadão do senso crítico necessário para romper com a passividade, exigir seus direitos e transformar sua realidade.
+**6. imediatismo cognitivo/esvaziamento do debate racional**
+- O filósofo Byung-Chul Han afirma que a sociedade perdeu a capacidade de escutar o divergente. O indivíduo contemporâneo pratica uma escuta seletiva e reativa, na qual ele interrompe e ataca qualquer fragmento de ideia que o contrarie.
 
-**8. imediatismo cognitivo/esvaziamento do debate racional**
-- O filósofo Byung-Chul Han, na obra "A Expulsão do Outro", afirma que a sociedade  perdeu a capacidade de escutar o divergente. O indivíduo contemporâneo pratica uma escuta seletiva e reativa, na qual ele interrompe e ataca qualquer fragmento de ideia que o contrarie.
-
-**9. Busca por prazeres instantâneos**
-
+**7. Busca por prazeres instantâneos**  <mark style="background: #FF5582A6;">CAUSA</mark>
+- O filósofo Byung-Chul Han conceitua a "algofobia" como o medo constante do sofrimento. Essa aversão à dor faz com que os indivíduos priorizem prazeres imediativos, resultando no abandono de demandas sociais complexas.
 
 ---
 ### **Macroeixo 4: A Lógica de Mercado e as Desigualdades**
 
-**1. Desigualdade social/cidadania plena** <mark style="background: #FF5582A6;">CAUSA</mark> / <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark>
-- O sistema feudal da Idade Média segregava as pessoas e restringia os privilégios à nobreza e ao clero. De modo análogo, a atual desigualdade social impossibilita que as classes menos favorecidas acessem recursos e direitos básicos.
-    
+**1. Desigualdade social** <mark style="background: #FF5582A6;">CAUSA</mark> / <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark> 
 - Na obra "As Cidadanias Mutiladas", o geógrafo Milton Santos afirma que a democracia só atinge sua efetividade quando os direitos fundamentais são desfrutados pela totalidade do corpo social.
-    
-- O sociólogo Thomas Marshall define que a cidadania plena só é alcançada quando direitos civis, políticos e sociais são garantidos de forma unificada a todos. Sob essa perspectiva, a implementação da iniciativa é de suma importância para que a sociedade supere abismos estruturais e vivencie um verdadeiro Estado Democrático.
 
-**2. Falta de representatividade** <mark style="background: #FF5582A6;">CAUSA</mark>
-- O psiquiatra Michael Brody afirma que as crianças são negativamente impactadas quando não se veem na mídia ou quando seus semelhantes são associados a atos ilícitos. Essa estereotipagem destrói a identidade e as perspectivas de minorias.
-
-**3. Influência midiática / Ação dos veículos midiáticos** <mark style="background: #FF5582A6;">CAUSA</mark>
-- Para os teóricos da Escola de Frankfurt, Adorno e Horkheimer, a "Indústria Cultural" transforma o entretenimento em um mero produto de consumo de massa. Essa mercantilização atua para padronizar comportamentos, promovendo a alienação social e atrofiando o senso crítico dos indivíduos frente à realidade.
-
+**2. Influência midiática / Ação dos veículos midiáticos** <mark style="background: #FF5582A6;">CAUSA</mark>
 - Segundo o filósofo estadunidense Noam Chomsky, em sua obra “A fabricação do consentimento”, afirma que a maneira mais inteligente de manter as pessoas passivas é limitar o seu espectro de opinião e criticidade.
 
-**4. Sistema capitalista / Busca pelo lucro** <mark style="background: #FF5582A6;">CAUSA</mark>
+- Os filósofos Adorno e Horkheimer criaram o termo "Indústria Cultural" para descrever como a mídia de massa busca a homogeneização dos comportamentos, promovendo a alienação e a massificação das pessoas.
+
+**3. Sistema capitalista / Busca pelo lucro** <mark style="background: #FF5582A6;">CAUSA</mark>
 - A "obsolescência programada", criada pela General Motors, baseia-se em atrair consumidores forçando substituições constantes de produtos. O conceito ilustra como o mercado prioriza a manutenção do lucro em detrimento das reais necessidades.
 
-**5. Consumismo** <mark style="background: #FF5582A6;">CAUSA</mark> / <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark>
+**4. Consumismo** <mark style="background: #FF5582A6;">CAUSA</mark> 
 - O filósofo pré-socrático Demócrito afirmava que o animal é mais sábio que o homem, pois conhece e respeita a medida da sua necessidade. Em contraste, a sociedade consumista atual ignora esse limite, buscando o acúmulo irracional.
