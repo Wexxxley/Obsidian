@@ -1,5 +1,5 @@
 
-
+#Concluded 
 
 ---
 
@@ -8,7 +8,7 @@ Nome pode ser substantivo, adjetivo, advérbio.
 
 ![](../../../../attachments/Pasted%20image%2020260718143251.png)
 
-![](../../../../attachments/Pasted%20image%2020260718151507.png)
+![](../../../../attachments/Pasted%20image%2020260719081158.png)
 
 **Infinitivo pessoal não flexionado:** 
 - É importante que estudemos para **passar**.
@@ -47,7 +47,7 @@ A)
 A) CONSEQUÊNCIA
 
 ![440](../../../../attachments/Pasted%20image%2020260718191251.png)
-
+C
   ![](../../../../attachments/Pasted%20image%2020260718193441.png)
   ![](../../../../attachments/Pasted%20image%2020260718194142.png)
 ERRADO. o verbo está no particípio
