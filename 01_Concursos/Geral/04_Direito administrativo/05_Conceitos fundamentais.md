@@ -2,10 +2,14 @@
 #Concluded 
 
 ---
+**Direito privado:** relaçoes jurídicas entre particulares e de forma horizontal (igualdade)
+**Direito público:** interesses da sociedade. Marcada pela verticalidade entre as relaçoes jurídicas. O direito administrativo é um ramo do direito público. 
 
-![](../../../attachments/Pasted%20image%2020260710084224.png)
+![](../../../attachments/Pasted%20image%2020260719094632.png)
 
-C)
+Mas, nem toda atuação da administração é regida pelo direito público.
+
+0
 
 ---
 ### **2. Organização Administrativa**
