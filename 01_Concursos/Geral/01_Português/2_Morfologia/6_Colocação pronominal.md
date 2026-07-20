@@ -3,31 +3,25 @@
 
 ---
 
-A colocação pronominal é a parte da gramática que estuda a posição dos pronomes oblíquos átonos (me, te, se, o, a, lhe, nos, vos, os, as, lhes) em relação ao verbo.  
+Parte da gramática que estuda a posição dos pronomes oblíquos átonos (me, te, se, o, a, lhe, nos, vos, os, as, lhes) em relação ao verbo.  
 
 #### **1. Próclise**
-Pronome antes do verbo. A próclise é obrigatória quando existem os chamados fatores atrativos.
-
-Fatores atrativos são palavras que exercem atração sobre o pronome oblíquo.É importante ressaltar que, se houver uma pausa (marcada por vírgula) entre a palavra atrativa e o verbo, essa atração é anulada.
+Pronome antes do verbo. A próclise é obrigatória quando existem os fatores atrativos. Fatores atrativos são palavras que exercem atração sobre o pronome oblíquo. É importante ressaltar que, se houver uma pausa (marcada por vírgula) entre a palavra atrativa e o verbo, essa atração é anulada.
 
 - **Palavras com sentido negativo** (não, nunca, jamais, ninguém, nada):    
-    - Não **me** avisaram sobre a reunião.
     - Ninguém **se** importou com o prazo estabelecido.
 - **Pronomes indefinidos** (alguém, todos, poucos, muitos, tudo):
     - Alguém **lhe** disse a verdade.
-    - Todos **se** apresentaram no horário previsto.
 - **Pronomes relativos e demonstrativos** (que, quem, qual, onde, isso, este, aquilo):
     - O relatório que **me** enviaram está incompleto.
-    - O local onde **se** realizou a prova é distante.
     - Isso **me** obriga a falar
 - **Advérbios** (sempre, já, talvez, muito, aqui, ontem, atualmente, raramente):
     - Sempre **nos** tratam com respeito.
-    - Talvez **o** encontre no escritório amanhã.
-    - ALgumas pessoas ainda **se** confundem
+    - Algumas pessoas ainda **se** confundem
 - **Palavras interrogativas em inicio de oração**
 	- Quando **nos** vimos pela primeira vez?
 	- Quem **se** espantou?
-- **Conjunções subordinativas** (que, se, embora, quando, porque, conforme): ligam duas orações, estabelecendo uma relação de dependência.
+- **Conjunções subordinativas**: Concessão, finalidade, conformativa, temporal, etc...
     - Iremos _embora_ **nos** peçam para ficar.
     - Avisarei _quando_ **o** vir. 
 #### **2. Ênclise**
@@ -35,13 +29,11 @@ A ênclise ocorre quando o pronome é posicionado após o verbo. É a posição 
 
 **Quando utilizar a ênclise:**
 
-- **Início de frase:** é proibido iniciar uma oração com pronome oblíquo átono.
-	![](../../../../attachments/Pasted%20image%2020260612081522.png)
-        
-- **Após pausas (vírgulas):** Quando o verbo vem imediatamente após uma vírgula, indicando uma pausa no discurso que corta qualquer atração anterior.
+- **Início de frase:** é proibido iniciar uma oração com pronome oblíquo átono. E também quando o verbo vem imediatamente após uma vírgula.
     - Caso precise de ajuda, chame-**me**.
     - O diretor entrou na sala, sentou-**se** e começou a falar.
-        
+	![](../../../../attachments/Pasted%20image%2020260612081522.png)
+
 - **Não se coloca ênclise em verbos no particípio e no futuro.**
 	![](../../../../attachments/Pasted%20image%2020260612081705.png)
 #### **3. Mesóclise**

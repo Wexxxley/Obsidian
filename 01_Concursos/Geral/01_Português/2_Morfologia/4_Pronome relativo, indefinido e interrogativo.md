@@ -4,11 +4,9 @@
 ---
 ### **1. Pronomes Relativos**
 
-O **pronome relativo** é um termo que se refere a um substantivo ou termo anterior (chamado de **antecedente**), substituindo-o para evitar repetições e estabelecer conexão coesiva entre as orações. Ele introduz **orações subordinadas adjetivas**.
+O **pronome relativo** é um termo que se refere a um substantivo ou termo anterior, substituindo-o para evitar repetições e estabelecer conexão coesiva entre as orações. 
 
-- Uma oração ser **subordinada** significa que ela depende de outra oração (oração principal) para ter sentido completo.  Ela não funciona de forma isolada.
-
-- Já o termo **adjetiva** indica a **função** que essa oração subordinada desempenha: ela atua como um **adjetivo**.  Sua finalidade é caracterizar, qualificar.
+A função principal de um pronome relativo é introduzir uma **oração subordinada adjetiva**.
 ![](../../../../attachments/Pasted%20image%2020260204084846.png)
 
 ![](../../../../attachments/Pasted%20image%2020260204085403.png)
@@ -26,7 +24,7 @@ O **pronome relativo** é um termo que se refere a um substantivo ou termo ant
 4. **Quanto** usado sempre que tiver que retornar ideia de quantidade.
 	- É tudo quanto eu quero
 
-5.  **Quando** usado sempre que tiver que retornar ideia de tempo.
+5. **Quando** usado sempre que tiver que retornar ideia de tempo.
 	- Na época quando tudo aconteceu.
  
 6. **Onde(em)/aonde(a)/donde(de)** são usados para antecedente lugar.
@@ -36,18 +34,9 @@ O **pronome relativo** é um termo que se refere a um substantivo ou termo ant
 	 
 7. **Cujo** é usado para ideia de posse. Sempre tem a preposição 'de' dentro dele
 	- O **livro**, cujas **páginas** estão amareladas, é histórico -> O livro, **do qual** as páginas estão amareladas, é histórico.
-	- A **criança**, cujos **pais** estão nos EUA, vive com a tia. -> A criança, da qual os pais estão nos EUA, vive com a tia.
+	- A **criança**, cujos **pais** estão nos EUA, vive com a tia. -> A criança, **da qual** os pais estão nos EUA, vive com a tia.
 	- A dispensa de servidores cujo desempenho é insificente -> A dispensa de servidores **dos quais** o desempenho é insuficiente.
 
-#### **Regencia com pronome relativo**
-
->[!note]
->A **regência** é a relação de dependência entre uma palavra (termo regente) e seus complementos (termos regidos), necessários para completar o sentido da frase.
-
-1. Olhar para a oração que vem após o pronome relativo (oração adjetiva).
-2. Comece pelo verbo da oração adjetiva.
-3. Perguntae pelo sujeito.
-4. Coloque na ordem direta completando a frase com o antecedente do relativo.
 ![](../../../../attachments/Pasted%20image%2020260204091435.png)
 ![](../../../../attachments/Pasted%20image%2020260204092007.png)
 ![](../../../../attachments/Pasted%20image%2020260204092526.png)
