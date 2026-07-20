@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 #### **1. Verbos impessoais** 
@@ -69,4 +70,14 @@ O verbo auxiliar se flexiona para concordar com o sujeito, enquanto o verbo prin
 
 ![](../../../../attachments/Pasted%20image%2020260720103712.png)
 ![](../../../../attachments/Pasted%20image%2020260720103852.png)
-![](../../../../attachments/Pasted%20image%2020260720103908.png)
+
+![](../../../../attachments/Pasted%20image%2020260720104222.png)![](../../../../attachments/Pasted%20image%2020260720104332.png)
+
+![](../../../../attachments/Pasted%20image%2020260720104516.png)
+1 E 2. Ex: **Podem haver** muitas dúvidas sobre o tema.
+
+![](../../../../attachments/Pasted%20image%2020260720104820.png)
+![](../../../../attachments/Pasted%20image%2020260720104732.png)
+INCORRETA: A
+
+![](../../../../attachments/Pasted%20image%2020260720134514.png)3 e 4
