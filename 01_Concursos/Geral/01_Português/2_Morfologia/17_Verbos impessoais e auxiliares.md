@@ -42,3 +42,18 @@ O verbo auxiliar se flexiona para concordar com o sujeito, enquanto o verbo prin
 
 ![300](../../../../attachments/Pasted%20image%2020260720093712.png)
 ![300](../../../../attachments/Pasted%20image%2020260720093908.png)
+
+![](../../../../attachments/Pasted%20image%2020260720093942.png)
+
+![400](../../../../attachments/Pasted%20image%2020260720093951.png)
+![400](../../../../attachments/Pasted%20image%2020260720095537.png)
+![450](../../../../attachments/Pasted%20image%2020260720095603.png)
+![500](../../../../attachments/Pasted%20image%2020260720100016.png)
+
+![](../../../../attachments/Pasted%20image%2020260720100130.png)
+
+![400](../../../../attachments/Pasted%20image%2020260720100139.png)
+![400](../../../../attachments/Pasted%20image%2020260720100446.png)
+
+![400](../../../../attachments/Pasted%20image%2020260720100430.png)
+![500](../../../../attachments/Pasted%20image%2020260720100812.png)
