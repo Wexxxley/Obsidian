@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/2_Morfologia/17_Verbos impessoais e auxiliares.md",
+                "file": "01_Concursos/Geral/01_Português/4_Redação/2_Desenvolvimento.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "17_Verbos impessoais e auxiliares"
+              "title": "2_Desenvolvimento"
             }
           }
         ],
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/2_Morfologia/17_Verbos impessoais e auxiliares.md",
+                "file": "01_Concursos/Geral/01_Português/4_Redação/2_Desenvolvimento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 17_Verbos impessoais e auxiliares"
+              "title": "Backlinks for 2_Desenvolvimento"
             }
           },
           {
@@ -224,11 +224,16 @@
   },
   "active": "d04a2031b7c2ca59",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/4_Redação/1_Introdução.md",
+    "01_Concursos/Geral/01_Português/4_Redação/4_Teses e repertórios.md",
+    "01_Concursos/Geral/01_Português/4_Redação/3_Conclusão.md",
+    "01_Concursos/Geral/01_Português/4_Redação/2_Desenvolvimento.md",
+    "01_Concursos/Geral/01_Português/4_Redação/5_Termos, sinonimos e conectores.md",
+    "01_Concursos/Geral/01_Português/2_Morfologia/17_Verbos impessoais e auxiliares.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/7_Periodo composto.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/8_Orações coordenadas.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/11_Orações subordinadas averbiais.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/9_Orações subordinadas substantivas.md",
-    "01_Concursos/Geral/01_Português/2_Morfologia/17_Verbos impessoais e auxiliares.md",
     "attachments/Pasted image 20260720134514.png",
     "attachments/Pasted image 20260720104820.png",
     "attachments/Pasted image 20260720104732.png",
@@ -246,9 +251,6 @@
     "01_Concursos/Geral/01_Português/2_Morfologia/2_Artigo, adjetivo e numeral.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/3_Pronome pessoal e possessivo.md",
-    "01_Concursos/Geral/01_Português/4_Redação/5_Termos, sinonimos e conectores.md",
-    "01_Concursos/Geral/01_Português/4_Redação/4_Teses e repertórios.md",
-    "01_Concursos/Geral/01_Português/4_Redação/1_Introdução.md",
     "01_Concursos/Geral/04_Direito administrativo/05_Conceitos fundamentais.md",
     "01_Concursos/Geral/04_Direito administrativo/04_Funções administrativas.md",
     "01_Concursos/Geral/04_Direito administrativo/03_Estado, Governo e Administração Pública.md",
@@ -258,8 +260,6 @@
     "01_Concursos/Geral/01_Português/1_Ortografia/3_Acentuação gráfica.md",
     "Untitled 1.md",
     "01_Concursos/Geral/04_Direito administrativo/09_Licitação.md",
-    "01_Concursos/Geral/04_Direito administrativo/06_LGPD E LAI.md",
-    "01_Concursos/Geral/04_Direito administrativo/08_Agentes públicos.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/Untitled",
     "01_Concursos/Geral/04_Direito administrativo",
     "01_Concursos/Geral/01_Português/3_Sintaxe",

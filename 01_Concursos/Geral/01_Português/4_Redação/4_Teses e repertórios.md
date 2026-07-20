@@ -29,7 +29,6 @@
 	- **à segurança alimentar**
 	- **à mobilidade urbana**
 	- **ao lazer e à cultura**
-	- **à igualdade/isonomia**: Racismo, machismo, desigualdade social, homofobia, etarismo.
 
 ---
 ### **Macroeixo 2: A Herança Histórica e Cultural**
@@ -61,7 +60,7 @@
 - O autor J.R.R. Tolkien, em seu universo ficcional, delega a salvação de um mundo dominado por forças superiores às ações dos Hobbits, sujeitos inferiorizados. Essa narrativa ilustra que a mobilização civil consegue promover significativas transformações.
 
 **5. Banalização** <mark style="background: #FF5582A6;">CAUSA</mark>
-- A "Atitude Blasé", proposta pelo sociólogo Georg Simmel, ocorre quando o indivíduo age com indiferença diante de situações que exigiriam sua atenção. O termo ilustra a apatia da sociedade atual frente à gravidade dos problemas coletivos.
+- O sociólogo Georg Simmel desenvolveu o conceito de "Atitude Blasé" para definir o comportamento de apatia e insensibilidade do sujeito perante situações que deveriam despertar sua atenção. 
 
 **6. imediatismo cognitivo/esvaziamento do debate racional**
 - O filósofo Byung-Chul Han afirma que a sociedade perdeu a capacidade de escutar o divergente. O indivíduo contemporâneo pratica uma escuta seletiva e reativa, na qual ele interrompe e ataca qualquer fragmento de ideia que o contrarie.
