@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/4_Redação/2_Desenvolvimento.md",
+                "file": "01_Concursos/Geral/01_Português/4_Redação/4_Teses e repertórios.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Desenvolvimento"
+              "title": "4_Teses e repertórios"
             }
           }
         ],
@@ -118,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -149,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/4_Redação/2_Desenvolvimento.md",
+                "file": "01_Concursos/Geral/01_Português/4_Redação/4_Teses e repertórios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +158,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2_Desenvolvimento"
+              "title": "Backlinks for 4_Teses e repertórios"
             }
           },
           {
@@ -224,9 +223,10 @@
   },
   "active": "d04a2031b7c2ca59",
   "lastOpenFiles": [
-    "01_Concursos/Geral/01_Português/4_Redação/4_Teses e repertórios.md",
-    "01_Concursos/Geral/01_Português/4_Redação/2_Desenvolvimento.md",
     "01_Concursos/Geral/01_Português/4_Redação/3_Conclusão.md",
+    "01_Concursos/Geral/01_Português/4_Redação/2_Desenvolvimento.md",
+    "attachments/Pasted image 20260720182618.png",
+    "01_Concursos/Geral/01_Português/4_Redação/4_Teses e repertórios.md",
     "01_Concursos/Geral/01_Português/4_Redação/1_Introdução.md",
     "01_Concursos/Geral/01_Português/4_Redação/5_Termos, sinonimos e conectores.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/17_Verbos impessoais e auxiliares.md",
@@ -243,7 +243,6 @@
     "attachments/Pasted image 20260720103908.png",
     "attachments/Pasted image 20260720103852.png",
     "attachments/Pasted image 20260720103712.png",
-    "attachments/Pasted image 20260720103527.png",
     "01_Concursos/Geral/01_Português/2_Morfologia/20_Uso do QUE.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/16_Formas nominais dos verbos.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/6_Colocação pronominal.md",
@@ -259,7 +258,6 @@
     "01_Concursos/Geral/01_Português/2_Morfologia/15_Desinências verbais.md",
     "01_Concursos/Geral/01_Português/1_Ortografia/3_Acentuação gráfica.md",
     "Untitled 1.md",
-    "01_Concursos/Geral/04_Direito administrativo/09_Licitação.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/Untitled",
     "01_Concursos/Geral/04_Direito administrativo",
     "01_Concursos/Geral/01_Português/3_Sintaxe",
