@@ -66,6 +66,8 @@
 **5. Banalização** <mark style="background: #FF5582A6;">CAUSA</mark>
 - O sociólogo Georg Simmel desenvolveu o conceito de "Atitude Blasé" para definir o comportamento de apatia e insensibilidade do sujeito perante situações que deveriam despertar sua atenção. 
 
+- A aceitação generalizada da escravidão ao longo de séculos no Brasil demonstra como a sociedade normaliza práticas criminosas quando elas são incorporadas ao cotidiano e trazem benefícios individuais.
+
 **6. imediatismo cognitivo/esvaziamento do debate racional**
 - O filósofo Byung-Chul Han afirma que a sociedade perdeu a capacidade de escutar o divergente. O indivíduo contemporâneo pratica uma escuta seletiva e reativa, na qual ele interrompe e ataca qualquer fragmento de ideia que o contrarie.
 

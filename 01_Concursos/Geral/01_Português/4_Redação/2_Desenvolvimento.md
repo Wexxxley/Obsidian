@@ -34,4 +34,5 @@ Na explicação você vai DESDOBRAR o seu argumento
 - **Por que** a CAUSA faz com que esse problema aconteça.
 - **Conquência**.
 
-EXEMPLO
+**EXEMPLO**
+![](../../../../attachments/Pasted%20image%2020260720192803.png)
