@@ -1,23 +1,8 @@
 
-
+#Concluded 
 
 ---
 ### **Macroeixo 1: A Falha Estatal**
-
----
-A Constituição Federal de 1988 assegura o direito à/ao **[direito]** a todos os cidadãos. Contudo, nota-se uma grave incoerência, visto que, no contexto de **[tema]**, essa garantia constitucional não se concretiza na prática.
-- **à moradia**
-- **à saúde**
-- **à educação**
-- **à segurança**
-- **ao meio ambiente ecologicamente equilibrado**
-- **ao trabalho**
-- **à segurança alimentar**
-- **à mobilidade urbana**
-- **ao lazer e à cultura**
-- **à igualdade/isonomia**: Racismo, machismo, desigualdade social, homofobia, etarismo.
-- **à liberdade de crença e expressão**: intolerância religiosa, cultura do cancelamento.
----
 
 **1. Falta de investimento / Infraestrutura precária** <mark style="background: #FF5582A6;">CAUSA</mark>
 - A chegada da Família Real ao Brasil, em 1808, iniciou uma modernização urbana focada apenas na capital. Esse marco exemplifica a lógica estatal de concentrar recursos nos grandes centros, negando infraestrutura e capital às regiões periféricas.
@@ -32,6 +17,19 @@ A Constituição Federal de 1988 assegura o direito à/ao **[direito]** a todos 
 **3. Falta de confiança dos cidadãos em relação ao Estado** <mark style="background: #FFB86CA6;">CONSEQUÊNCIA 
 </mark>
 - A arquiteta Ermínia Maricato desenvolveu o conceito de "melancolia coletiva" para descrever o sentimento de desamparo da sociedade. Essa teoria explica como a contínua omissão do Estado intensifica a descrença e rompe a confiança dos cidadãos no poder público.
+
+**4. Omissão estatal/negligência estatal ou ineficácia legislativa**
+- A Constituição Federal de 1988 assegura o direito à/ao **[direito]** a todos os cidadãos. Contudo, nota-se uma grave incoerência, visto que, no contexto do **[tema]**, essa garantia constitucional não se concretiza na prática.
+	- **à moradia**
+	- **à saúde**
+	- **à educação**
+	- **à segurança**
+	- **ao meio ambiente ecologicamente equilibrado**
+	- **ao trabalho**
+	- **à segurança alimentar**
+	- **à mobilidade urbana**
+	- **ao lazer e à cultura**
+	- **à igualdade/isonomia**: Racismo, machismo, desigualdade social, homofobia, etarismo.
 
 ---
 ### **Macroeixo 2: A Herança Histórica e Cultural**
@@ -81,6 +79,8 @@ A Constituição Federal de 1988 assegura o direito à/ao **[direito]** a todos 
 - O ministro da propaganda nazista, Joseph Goebbels, afirmava que uma mentira repetida mil vezes torna-se verdade. Esse raciocínio ilustra como a alienação pode ser fabricada pela manipulação da informação.
 
 **3. Sistema capitalista / Busca pelo lucro** <mark style="background: #FF5582A6;">CAUSA</mark>
+- O filósofo Byung-Chul Han afirma que a exigência de produtividade constante leva à exploração extrema. A obsessão por resultados e lucros é prejudicial por adoecer a população, gerando esgotamento físico e mental.
+- No século XIX, o Império Britânico contrabandeou ópio para a China, causando uma epidemia de dependência química com o único propósito de lucrar. Esse fato evidencia como a busca cega por capital ignora preceitos éticos e morais.
 
 **4. Consumismo** <mark style="background: #FF5582A6;">CAUSA</mark> 
 - O filósofo pré-socrático Demócrito afirmava que o animal é mais sábio que o homem, pois conhece e respeita a medida da sua necessidade. Em contraste, a sociedade consumista atual ignora esse limite, buscando o acúmulo irracional.
