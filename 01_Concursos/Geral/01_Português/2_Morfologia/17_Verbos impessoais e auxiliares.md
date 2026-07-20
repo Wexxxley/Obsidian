@@ -22,16 +22,19 @@ São aqueles que não possuem sujeito. Não vão ao plural
 
 #### **2. Verbos auxiliares** 
 
-São aqueles que se unem ao verbo principal em loc. verbais formando uma oração única.
+São aqueles que se unem ao verbo principal em locuções verbais formando uma oração única. Note que eles ssempre possuem o mesmo sujeito.
 ![400](../../../../attachments/Pasted%20image%2020260720090553.png)
 - Note que pode haver preposição nas locuções verbais
 
 O verbo auxiliar se flexiona para concordar com o sujeito, enquanto o verbo principal permanece invariável em uma de suas formas nominais: infinitivo, particípio ou gerúndio.
-![50 0](../../../../attachments/Pasted%20image%2020260720092633.png)
+
+![450](../../../../attachments/Pasted%20image%2020260720092633.png)
+
+![500](../../../../attachments/Pasted%20image%2020260720101545.png)
 
 ---
 
-![](../../../../attachments/Pasted%20image%2020260720092829.png)
+![697](../../../../attachments/Pasted%20image%2020260720092829.png)
 
 ![250](../../../../attachments/Pasted%20image%2020260720093131.png)
 ![350](../../../../attachments/Pasted%20image%2020260720093404.png)
@@ -57,3 +60,13 @@ O verbo auxiliar se flexiona para concordar com o sujeito, enquanto o verbo prin
 
 ![400](../../../../attachments/Pasted%20image%2020260720100430.png)
 ![500](../../../../attachments/Pasted%20image%2020260720100812.png)
+
+![](../../../../attachments/Pasted%20image%2020260720103015.png)
+![](../../../../attachments/Pasted%20image%2020260720103204.png)
+
+![](../../../../attachments/Pasted%20image%2020260720103221.png)![](../../../../attachments/Pasted%20image%2020260720103305.png)
+![](../../../../attachments/Pasted%20image%2020260720103502.png)
+
+![](../../../../attachments/Pasted%20image%2020260720103712.png)
+![](../../../../attachments/Pasted%20image%2020260720103852.png)
+![](../../../../attachments/Pasted%20image%2020260720103908.png)
