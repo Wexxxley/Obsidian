@@ -30,5 +30,8 @@
 ### **2. Explicação**
 
 Na explicação você vai DESDOBRAR o seu argumento
-![400](../../../../attachments/Pasted%20image%2020260720182618.png)
+- **Como** o repertório se reflete no tema?
+- **Por que** a CAUSA faz com que esse problema aconteça.
+- **Conquência**.
 
+EXEMPLO
