@@ -43,4 +43,4 @@ Para as duas situações a seguir, o Judiciário entende que o cidadão não pos
 ---
 
 ![](../../../attachments/Pasted%20image%2020260721085712.png)
-CERTO
+CERTO 
