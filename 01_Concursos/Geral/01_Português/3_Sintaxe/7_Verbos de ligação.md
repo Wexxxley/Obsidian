@@ -35,7 +35,3 @@ Mudança de estado - Aparência - Estado permanente
 ![](../../../../attachments/Pasted%20image%2020260721095505.png)Estado passageiro - Mudança de estado. B)
 
 ![](../../../../attachments/Pasted%20image%2020260721095756.png)![](../../../../attachments/Pasted%20image%2020260721095930.png)
-
-![](../../../../attachments/Pasted%20image%2020260721100015.png)
-![](../../../../attachments/Pasted%20image%2020260721100132.png)
-B)

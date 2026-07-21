@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/3_Sintaxe/7_Verbos de ligação.md",
+                "file": "01_Concursos/Geral/01_Português/4_Redação/3_Conclusão.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_Verbos de ligação"
+              "title": "3_Conclusão"
             }
           }
         ],
@@ -118,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 423.01103591918945,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -224,6 +224,8 @@
   },
   "active": "d04a2031b7c2ca59",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/4_Redação/4_Teses e repertórios.md",
+    "01_Concursos/Geral/01_Português/3_Sintaxe/7_Verbos de ligação.md",
     "attachments/Pasted image 20260721100132.png",
     "attachments/Pasted image 20260721100015.png",
     "attachments/Pasted image 20260721095930.png",
@@ -234,14 +236,12 @@
     "attachments/Pasted image 20260721094737.png",
     "attachments/Pasted image 20260721094706.png",
     "attachments/Pasted image 20260721094343.png",
-    "attachments/Pasted image 20260721094044.png",
     "01_Concursos/Geral/01_Português/3_Sintaxe/13_Orações reduzidas.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/12_Orações subordinadas averbiais.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/11_Orações subordinadas adjetivas.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/10_Orações subordinadas substantivas.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/9_Orações coordenadas.md",
     "01_Concursos/Geral/01_Português/3_Sintaxe/8_Periodo composto.md",
-    "01_Concursos/Geral/01_Português/3_Sintaxe/7_Verbos de ligação.md",
     "01_Concursos/Geral/04_Direito administrativo/08_Sistemas administrativos.md",
     "01_Concursos/Geral/04_Direito administrativo/22_Administração indireta.md",
     "01_Concursos/Geral/04_Direito administrativo/21_Licitação.md",
@@ -253,7 +253,6 @@
     "01_Concursos/Geral/01_Português/1_Ortografia/5_Uso dos porques.md",
     "01_Concursos/Geral/01_Português/4_Redação/2_Desenvolvimento.md",
     "01_Concursos/Geral/01_Português/4_Redação/5_Termos, sinonimos e conectores.md",
-    "01_Concursos/Geral/01_Português/4_Redação/4_Teses e repertórios.md",
     "01_Concursos/Geral/01_Português/4_Redação/1_Introdução.md",
     "01_Concursos/Geral/01_Português/4_Redação/3_Conclusão.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/17_Verbos impessoais e auxiliares.md",
