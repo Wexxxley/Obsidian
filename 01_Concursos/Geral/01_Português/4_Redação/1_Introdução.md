@@ -19,7 +19,7 @@ Você pode usar os textos de apoio como repertório, MAS NÃO COPIE!
 #### **O Mito do Desenvolvimento**
 O economista Celso Furtado, em sua análise sobre o "Mito do Desenvolvimento", postula que o avanço econômico e estrutural de um país não garante, por si só, o progresso social. 
 
-Nesse sentido, ao observar o [TEMA], constata-se que apesar da modernização nacional em vários setores, a questão permanece negligenciada/secundarizada, refletindo um crescimento que não atende às reais necessidades da sociedade.
+Nesse sentido, ao observar o [TEMA], constata-se que apesar da modernização nacional em vários setores, a questão permanece negligenciada/secundarizada.
 #### **As Cidadanias Mutiladas**
 Na obra "As Cidadanias Mutiladas", o geógrafo Milton Santos afirma que a democracia só atinge sua efetividade quando os direitos fundamentais são desfrutados pela totalidade do corpo social. 
 
@@ -31,7 +31,8 @@ Nesse sentido, ao observar o [TEMA], constata-se a materialização desse concei
 
 
 **Opção 1:** Dessa forma, faz-se necessário analisar não apenas a [CAUSA] como a raiz desse problema, mas também a [CONSEQUÊNCIA] como o seu reflexo direto na sociedade.
-    
-**Opção 2:** Dessa forma, para compreender a perpetuação dessa problematica, é imperioso examinar as suas raízes principais: a [CAUSA 1] e a [CAUSA 2].
-    
+
+**Opção 2:** Então, deve-se traçar estratégias a partir da atuação nas causas do problema:
+a/o [CAUSA]  e a/o [CAUSA] .
+
 **Opção 3:** Dessa forma, é fundamental ressaltar a importância do [TEMA], bem como denunciar a [CAUSA] como o principal entrave para a superação desse quadro.

@@ -14,7 +14,7 @@
 - Sendo assim, é imperioso a formulação de ações que modifiquem esse panorama.
 
 **CAUSA, CAUSA**
-- Em primeira análise, a [CAUSA] corrobora com essa questão.
+- Em primeira análise, é importante destacar [CAUSA] como causa/intensificador do [PROBLEMA]. 
 - Dessa forma, faz-se necessário a reformulação desse cenário.
 	
 - Além disso, a [CAUSA] é um entrave no que tange ao problema. 
@@ -32,7 +32,7 @@
 Na explicação você vai DESDOBRAR o seu argumento
 - **Como** o repertório se reflete no tema?
 - **Por que** a CAUSA faz com que esse problema aconteça.
-- **Conquência**.
+- **Consequência**.
 
 **EXEMPLO**
 ![](../../../../attachments/Pasted%20image%2020260720192803.png)
