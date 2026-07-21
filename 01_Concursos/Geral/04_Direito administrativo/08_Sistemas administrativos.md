@@ -44,3 +44,14 @@ Para as duas situações a seguir, o Judiciário entende que o cidadão não pos
 
 ![](../../../attachments/Pasted%20image%2020260721085712.png)
 CERTO 
+
+![](../../../attachments/Pasted%20image%2020260721183413.png)
+**Alternativa A: Incorreta** Quando o Estado atua estritamente como agente econômico (explorando atividade econômica  por meio de empresas estatais), ele se sujeita ao regime jurídico de direito privado. 
+
+**Alternativa B: Incorreta** O Direito Administrativo brasileiro **não é codificado**. Diferentemente do Direito Civil (que possui o Código Civil) ou do Direito Penal (Código Penal), as normas de Direito Administrativo são esparsas em diversas leis específicas.
+
+**Alternativa C: Incorreta** O sistema inglês é o de **Jurisdição Única**
+
+**Alternativa D: Correta** O Princípio da Supremacia do Interesse Público sobre o Privado é a base do regime jurídico-administrativo. Ele justifica a concessão de prerrogativas (poderes especiais) ao Estado. Essas prerrogativas colocam o Estado em uma posição de superioridade jurídica em relação ao particular, configurando a chamada **verticalidade**.
+
+**Alternativa E: Incorreta** A Constituição Federal traz expressos, em seu artigo 37, apenas os princípios que formam o mnemônico LIMPE
