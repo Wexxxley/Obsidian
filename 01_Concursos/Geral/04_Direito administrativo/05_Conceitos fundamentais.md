@@ -14,7 +14,7 @@ Mas, nem toda atuação da administração é regida pelo direito público.
 
 ![](../../../attachments/Pasted%20image%2020260719095716.png)
 
-### **3. Fontes do direito administrativo** 
+### **2. Fontes do direito administrativo** 
 
 ![](../../../attachments/Pasted%20image%2020260719142749.png)
 
@@ -44,15 +44,3 @@ A organização administrativa do Estado disciplina a forma como a máquina púb
 
 - **Desconcentração**: distribuição interna de competências dentro de uma mesma pessoa jurídica. Trata-se de uma técnica de divisão do trabalho para desonerar as chefias superiores e garantir mais agilidade à máquina pública.
 	- A aplicação dessa técnica resulta na criação dos **Órgãos Públicos**. Órgãos são apenas **centros de competência despersonalizados** (sem personalidade jurídica própria). Por consequência, não possuem patrimônio independente nem capacidade de responder judicialmente de forma autônoma. A desconcentração é marcada por uma relação de Hierarquia e Subordinação.
-
----
-### **3. Administração indireta**
-
-É a técnica da descentralização dá origem à Administração Indireta que é composto por quatro figuras jurídicas: Fundações Públicas, Autarquias, Sociedades de Economia Mista e Empresas Públicas. "FASE"
-
-- **Fundações Públicas**: consistem em um patrimônio destinado a finalidades sociais, culturais ou de pesquisa. Pode assumir regime de direito público ou privado.
-- **Autarquias**: são pessoas jurídicas de direito público, criadas por uma lei para exercer atividades típicas e exclusivas de Estado (Universidades Estaduais e DETRAN). 
-- **Sociedades de Economia Mista**: são pessoas de direito privado que possuem capital misto, exigindo-se que a ações com direito a voto pertença ao Estado  (CAGECE).
-- **Empresas Públicas**: são pessoas jurídicas de direito privado cujo capital é integralmente público (Caixa Econômica Federal).
-
-Um erro clássico é afirmar que órgãos internos, como a Diretoria Legislativa da ALECE, podem ser processados por um cidadão. Como os órgãos são desprovidos de personalidade jurídica, quem responde civil e judicialmente pelos atos praticados por essas diretorias desconcentradas é a instituição, neste caso, a ALECE.
