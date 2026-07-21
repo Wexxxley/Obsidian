@@ -77,8 +77,10 @@
 ---
 ### **Macroeixo 4: A Lógica de Mercado e as Desigualdades**
 
-**1. Desigualdade social** <mark style="background: #FF5582A6;">CAUSA</mark> / <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark> 
+**1. Desigualdade social/disparidade socioeconômica** <mark style="background: #FF5582A6;">CAUSA</mark>  
 - Na obra "As Cidadanias Mutiladas", o geógrafo Milton Santos afirma que a democracia só atinge sua efetividade quando os direitos fundamentais são desfrutados pela totalidade do corpo social.
+
+- O filme brasileiro "Que Horas Ela Volta?" expõe as barreiras impostas a uma trabalhadora doméstica e a sua filha devido à segregação espacial e econômica. A obra ilustra que a desigualdade social opera como um mecanismo que restringe o acesso a oportunidades.
 
 **2. Influência midiática/Ação dos veículos midiáticos** <mark style="background: #FF5582A6;">CAUSA</mark>
 - O ministro da propaganda nazista, Joseph Goebbels, afirmava que uma mentira repetida mil vezes torna-se verdade. Esse raciocínio ilustra como a alienação pode ser fabricada pela manipulação da informação.
