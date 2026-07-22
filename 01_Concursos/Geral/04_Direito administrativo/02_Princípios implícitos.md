@@ -3,22 +3,18 @@
 
 ---
 
-**supraprincípios**: A Supremacia e a Indisponibilidade do Interesse Público são os alicerces de todo o sistema jurídico-administrativo. O prefixo "supra" indica que eles figuram em um patamar superior de abstração, servindo de base para a criação e a interpretação de todos os demais princípios. A união deles forma o **Regime Jurídico Administrativo**.
+**Supraprincípios**: A Supremacia e a Indisponibilidade do Interesse Público são os alicerces de todo o sistema jurídico-administrativo. O prefixo "supra" indica que eles estão em um nível superior de abstração, servindo de base para a criação e a interpretação de todos os demais princípios.
 ![](../../../attachments/Pasted%20image%2020260715092130.png)
 #### **1. Supremacia do Interesse Público** 
-Estabelece que o interesse público deve prevalecer sobre os interesses individuais e privados sempre que houver um conflito direto entre eles.
-- Garante à Administração Pública uma posição de superioridade jurídica.
-- **Ex:** O poder de desapropriar um terreno privado para construir uma rodovia, o exercício do poder de polícia ou a prerrogativa de alterar unilateralmente cláusulas de um contrato administrativo para adequá-lo à nova realidade social.
+Estabelece que o interesse público deve prevalecer sobre os interesses individuais. Garante à Administração Pública uma posição de superioridade jurídica (Verticalidade).
+- **Ex:** O poder de desapropriar um terreno privado para construir uma rodovia, o exercício do poder de polícia ou a prerrogativa de alterar cláusulas de um contrato administrativo para adequá-lo à nova realidade social.
 #### **2. Indisponibilidade do Interesse Público**
-Como o administrador não é o dono da máquina estatal, os bens e os direitos da sociedade não estão "disponíveis" à vontade dele. Ele é estritamente proibido de tratar a coisa pública como se fosse o seu patrimônio particular. Ele não tem o poder de dispor daquilo que não lhe pertence.
-
-É por causa da "indisponibilidade" que o Direito Administrativo cria uma série de amarras, proibições e obrigações para os governantes. 
-- Um administrador público não pode perdoar uma dívida de impostos de uma empresa de forma arbitrária. 
+Como o administrador não é o dono da máquina estatal, os bens e os direitos da sociedade não estão à vontade dele. Ele não tem o poder de dispor daquilo que não lhe pertence. É por causa da "indisponibilidade" que o Direito Administrativo cria uma série de proibições e obrigações para os governantes. 
 - O Estado não pode simplesmente doar ou vender um terreno público para um particular de forma direta. Para dispor do bem de forma legal, ele é obrigado a seguir regras rígidas, conseguir aprovação de uma lei no Poder Legislativo e realizar licitação.
 #### **3. Continuidade dos Serviços Públicos**
-Os serviços prestados à sociedade (principalmente essenciais, como saúde, segurança, fornecimento de água e energia, transporte coletivo) não podem sofrer interrupções. 
+Os serviços prestados à sociedade (como saúde, segurança, fornecimento de água e energia, transporte coletivo) não podem sofrer interrupções. 
 - Este princípio fundamenta as restrições ao direito de greve de servidores em áreas essenciais (como policiais e militares)
-- Impede que empresas contratadas pelo Estado paralisem a execução de um contrato administrativo de imediato, mesmo que a Administração atrase os pagamentos **(exceção do contrato não cumprido)**. 
+- Impede que empresas contratadas pelo Estado paralisem a execução de um contrato administrativo de imediato, mesmo que a Administração atrase os pagamentos.
 #### **4. Princípio da Motivação**
 Ao praticar um  determinado ato administrativo, o agente público deve expor, de forma clara e por escrito, os fundamentos de:
 - **Fato**: o que aconteceu no mundo real
@@ -29,15 +25,15 @@ Ao praticar um  determinado ato administrativo, o agente público deve expor, de
 ![400](../../../attachments/Pasted%20image%2020260713145205.png)
 
 #### **5. Princípio da Especialidade**
-Fundamenta a ideia de **decentralização administrativa**, legitimando a criação das entidades da administração indireta. Quando o Estado cria uma entidade descentralizada **por meio de lei**, ele deve definir uma **finalidade pública para ela**. A entidade fica  vinculada a esse objetivo e proibida de atuar em outras áreas 
+Fundamenta a ideia de **decentralização**, legitimando a criação das entidades da administração indireta. Quando o Estado cria uma entidade descentralizada **por meio de lei**, ele deve definir uma **finalidade pública para ela**.
 
 **Descentralização**: acontece quando o Estado transfere a competência da prestação de um serviço para outra pessoa jurídica. 
 - A entidade possui autonomia, não existe hierarquia ou subordinação com o estado.
 - **Princípio da tutela:** Relação de **Controle Finalístico, Tutela Administrativa ou Supervisão Ministerial**, que serve para fiscalizar se a entidade está cumprindo os objetivos definidos na lei.
 #### **6. Princípio da Autotutela**
-Consiste no poder-dever da Administração Pública de controlar, corrigir e revisar os seus próprios atos, sem a necessidade de recorrer ao Poder Judiciário. Este princípio se manifesta em duas frentes distintas:
-- **Anulação:** Através da reanálise da legalidade. A Administração deve anular os seus próprios atos quando estes estiverem eivados de vícios de legalidade. A anulação possui efeito retroativo, apagando os efeitos do ato ilegal desde a sua origem.
-- **Revogação:** Através da reanálise do mérito. A Administração pode revogar atos que são legais, mas que, devido a mudanças de cenário, tornaram-se inconvenientes para o interesse público. A revogação mantém os efeitos que o ato produziu.
+Consiste no poder-dever da Administração Pública de controlar, corrigir e revisar os seus próprios atos, sem a necessidade de recorrer ao Poder Judiciário. Podendo ser por:
+- **Anulação:** Reanálise da legalidade. A Administração deve anular os seus próprios atos quando estes estiverem eivados de vícios de legalidade. A anulação possui efeito retroativo, apagando os efeitos do ato ilegal desde a sua origem.
+- **Revogação:** Reanálise do mérito. A Administração pode revogar atos que são legais, mas que, devido a mudanças de cenário, tornaram-se inconvenientes para o interesse público. A revogação mantém os efeitos que o ato produziu.
 	![500](../../../attachments/Pasted%20image%2020260714143934.png)
 - A autotutela não impede que o poder judiciário (depende de provocação) anule os atos da administração pública.
 
@@ -60,29 +56,30 @@ Princípio que incide sobre todos os processos judiciais e administrativos. Ele 
 #### **8. Presunção de Legalidade, Legitimidade e Veracidade**
 
 **Legalidade:** Presume-se que o agente público obedeceu a lei ao praticar o ato.
-**Legitimidade:** Presume-se que o ato não apenas cumpriu a lei, mas também respeitou os princípios administrativos e o interesse público.
-**Veracidade**: Presume-se que os motivos e os acontecimentos narrados pelo agente público para justificar a sua decisão realmente aconteceram.
+**Legitimidade:** Presume-se que cumpriu a lei e respeitou princípios e o interesse público.
+**Veracidade**: Presume-se que os motivos e acontecimentos narrados pelo agente público para justificar a sua decisão realmente aconteceram.
 
-A presunção admite prova em contrário. Mas, não é o Estado que precisa provar que agiu certo; cabe ao cidadão o dever de provar que o ato foi ilegal.
+A presunção admite **prova em contrário**. Mas, não é o Estado que precisa provar que agiu certo; cabe ao cidadão o dever de provar que o ato foi ilegal.
 #### **9. Princípio da segurança jurídica**
-Visa garantir a estabilidade, a ordem e a previsibilidade à atuação estatal. Esse princípio se manifesta para limitar o poder do Estado de alterar ou desfazer situações já consolidadas ao longo do tempo.
+Visa garantir a estabilidade e a previsibilidade à atuação estatal. Esse princípio se manifesta para limitar o poder do Estado de alterar ou desfazer situações já consolidadas.
 - **Aspecto Objetivo:** manutenção dos atos administrativos já praticados e consolidados.
-	- O prazo para anulação de atos administrativos é de, no geral, 5 anos (contraste com o princípio da legalidade), desde que o ato tenha gerado efeitos favoráveis ao cidadão e este esteja de boa-fé.
+	- O prazo para anulação de atos administrativos é de, no geral, 5 anos, desde que o ato tenha gerado efeitos favoráveis ao cidadão e este esteja de boa-fé.
 	- Manutenção de atos praticados por agente de fato (agentes sem vínculos ou não legítimos, que exercem funções públicas de boa-fé).
-- **Princípio da confiança legítima:** O cidadão, que atua pautado em uma conduta estatal de boa-fé, não pode ser prejudicado caso o próprio Estado reconheça que estava equivocado. É vedado à aplicação retroativa (referente ao passado) de novas interpretações.  
+- **Princípio da confiança legítima:** O cidadão, que atua pautado em uma conduta estatal de boa-fé, não pode ser prejudicado caso o próprio Estado reconheça que estava equivocado. É vedado à aplicação retroativa de novas interpretações.  
  
  #### **10. Princípio da Razoabilidade e Proporcionalidade**
 
 - **Razoabilidade:** Exige que as decisões administrativas sejam lógicas, coerentes e aceitáveis perante o senso comum. Evita absurdos.
-- **Proporcionalidade:** Exige o equilíbrio entre os **meios** empregados e os **fins** que se deseja alcançar. A medida adotada pela Administração deve ser adequada (capaz de atingir o objetivo), necessária (a opção menos gravosa possível ) e proporcional (vantagens para a coletividade devem superar os prejuízos ao indivíduo).
-#### **11. Intranscendência subjetiva das sanções**
+- **Proporcionalidade:** Exige o equilíbrio entre os **meios** empregados e os **fins** que se deseja alcançar. A medida adotada pela Administração deve ser **adequada** (capaz de atingir o objetivo), **necessária** (a opção menos gravosa possível ) e **proporcional** (vantagens para a coletividade devem superar os prejuízos ao indivíduo).
+#### **11. Princípio da Intranscendência subjetiva das sanções**
 Este princípio garante que apenas o indivíduo que cometeu o ato ilícito pode sofrer as consequências punitivas de sua conduta. 
     
 - **Sanções Disciplinares:** Se um servidor comete uma infração grave e vem a falecer, o Estado não pode aplicar a penalidade aos seus herdeiros. 
     
-- **Sanções a municípios:** Não pode permanecer a inscrição do município em cadastros restritivos fundada em irregularidades na gestão anterior, quando, na gestão sucessora, são tomadas as providencias cabiveis a reparção dos dados.
-    
-É importante separar o que é a **sanção** (aspecto punitivo) e o que é a **reparação civil** (o aspecto indenizatório). Se o ato ilícito cometido gerou um prejuízo financeiro aos cofres públicos, a obrigação de reparar o dano e devolver o dinheiro pode ser estendida aos sucessores e herdeiros do infrator falecido. No entanto, essa cobrança possui um limite: o Estado só pode cobrar o ressarcimento até o limite do valor do patrimônio que foi transferido como herança. 
+- **Sanções a municípios:** Não pode permanecer a inscrição do município em cadastros restritivos fundada em irregularidades na gestão anterior, quando, na gestão sucessora, são tomadas as providencias cabiveis a reparação dos dados.
+
+É importante separar o que é a **sanção** (aspecto punitivo) e o que é a **reparação civil** 
+(aspecto indenizatório). Se o ato ilícito cometido gerou um prejuízo financeiro aos cofres públicos, a obrigação de reparar o dano e devolver o dinheiro pode ser estendida aos sucessores e herdeiros. No entanto, essa cobrança possui um limite: o Estado só pode cobrar até o limite do valor do patrimônio que foi transferido como herança. 
 #### **12. Princípio da Sindicabilidade**
 Regra que garante que todo e qualquer ato da Administração Pública pode ser submetido a controle e fiscalização. Se um agente público pratica um ato, esse ato poderá ser revisado por meio de dois mecanismos:
     

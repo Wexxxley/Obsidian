@@ -4,7 +4,7 @@
 ---
 ### **1. Introdução**
 
-Dentro do direito temos as **NORMAS JURÍDICAS:** **Regras e Princípios**.
+Dentro do direito administrativo temos as **NORMAS JURÍDICAS:** **Regras e Princípios**.
 ![](../../../attachments/Pasted%20image%2020260712134729.png)
 
 **Método da subsunção**: Técnica clássica e lógica de aplicação da regra jurídica, operando sob o **raciocínio dedutivo formal** (premissa maior, premissa menor e conclusão). Ocorre quando o fato concreto se encaixa na hipótese prevista na lei, resultando na aplicação direta da consequência estabelecida, operando na lógica do "**tudo ou nada**".
@@ -25,8 +25,7 @@ Dentro do direito temos as **NORMAS JURÍDICAS:** **Regras e Princípios**.
 
 A Constituição Federal de 1988 estabelece os cinco princípios basilares da Administração Pública, conhecidos pelo mnemônico **LIMPE**. Esses princípios alcançam toda a administração pública (direta e indireta) e os poderes.
 - **Administração Direta**: composta pelos entes políticos (União, Estados, DF e Municípios) e pela estrutura dos seus órgãos internos. 
-- **Administração Indireta:** formada por entidades criadas ou autorizadas mediante lei para atuar de forma descentralizada: Autarquias, fundações públic, empresas públic e sociedades de economia mista.
-
+- **Administração Indireta:** formada por entidades criadas ou autorizadas mediante lei para atuar de forma descentralizada: Autarquias, fundações públicas, empresas públicas e sociedades de economia mista.
 #### **2.1 Princípio da Legalidade**
 
 A administração pública age conforme a lei. A lei pode ser Discricionária ou Vinculada.
@@ -47,7 +46,7 @@ Na esfera privada, vigora a **autonomia da vontade**: o indivíduo é livre para
 ![](../../../attachments/Pasted%20image%2020260713084011.png)
 1. **Concurso Público:** Materializa a impessoalidade ao garantir que todos os cidadãos tenham oportunidades de acesso ao serviço estatal. A seleção ocorre mediante critérios objetivos, eliminando o favorecimento pessoal.
 2. **Licitação:** Procedimento administrativo exigido para que a Administração Pública realize compras, obras ou contratação de serviços. A impessoalidade atua  garantindo a igualdade de condições de disputa entre as empresas privadas. 
-3. **Impedimento e Suspeição**: Regras que afastam um agente público da condução, análise ou julgamento de um processo.
+3. **Impedimento e Suspeição**: Regras que afastam um agente público de um processo.
 	- **Impedimento:** Decorre de situações objetivas e irrefutáveis definidas em lei, como atuar em um processo onde o próprio agente ou parente próximo seja parte.
 	- **Suspeição:** Decorre de situações subjetivas, como o agente possuir amizade íntima ou inimizade notória com as partes envolvidas.
 4. **Precatórios:** São requisições de pagamento expedidas pelo Poder Judiciário para determinar que os entes públicos quitem dívidas decorrentes de condenações judiciais definitivas. A impessoalidade reside na obrigatoriedade do pagamento seguir uma ordem, impedindo que o governante escolha quem recebera primeiro.
