@@ -82,10 +82,10 @@ Este princípio garante que apenas o indivíduo que cometeu o ato ilícito pode 
 (aspecto indenizatório). Se o ato ilícito cometido gerou um prejuízo financeiro aos cofres públicos, a obrigação de reparar o dano e devolver o dinheiro pode ser estendida aos sucessores e herdeiros. No entanto, essa cobrança possui um limite: o Estado só pode cobrar até o limite do valor do patrimônio que foi transferido como herança. 
 #### **12. Princípio da Sindicabilidade**
 Regra que garante que todo e qualquer ato da Administração Pública pode ser submetido a controle e fiscalização. Se um agente público pratica um ato, esse ato poderá ser revisado por meio de dois mecanismos:
-    
+
 - **Controle Interno:** Feito pela própria Administração Pública, que pode anular ou revogar seus próprios atos (Princ da Autotutela).
     
-- **Controle Externo:** Feito pelo Poder Judiciário (que pode ser acionado pelo cidadão para anular um ato estatal ilegal) e pelo Poder Legislativo, com o auxílio dos Tribunais de Contas (que fiscalizam os gastos públicos).
+- **Controle Externo:** Feito pelo Poder Judiciário (que pode ser acionado pelo cidadão) e pelo Poder Legislativo, com o auxílio dos Tribunais de Contas.
 
 #### **13. Princípio da Precaução**
 O Estado tem o dever de agir antecipadamente para proteger a sociedade, a saúde pública ou o meio ambiente, em vez de esperar o dano acontecer.
@@ -94,7 +94,7 @@ O Estado tem o dever de agir antecipadamente para proteger a sociedade, a saúde
 	- A exigência de que uma fábrica instale filtros nas chaminés para conseguir um alvará de funcionamento, pois já se sabe com certeza que a fumaça poluirá o ar.
     
 - **Precaução:** Ocorre quando o Estado atua diante de um risco incerto, ou seja, quando ainda não há consenso ou certeza científica sobre os perigos de uma atividade.
-	- A Administração proíbe a comercialização de um novo agrotóxico no país. Mesmo sem estudos conclusivos de que ele causa doenças, na dúvida, o Estado paralisa a atividade para proteger a sociedade.
+	- A Administração proíbe a comercialização de um novo agrotóxico no país. Mesmo sem estudos conclusivos de que ele causa doenças.
 
 #### **14. Princípio da Subsidiariedade**
 O Estado só deve intervir na sociedade e na economia de forma subsidiária, ou seja, apenas quando a iniciativa privada (indivíduos e empresas) não for capaz de resolver os problemas ou satisfazer as necessidades da coletividade.
@@ -183,3 +183,18 @@ Os princípios do direito administrativo cumprem duas funções principais:
 D) O princípio da **impessoalidade** exige que as realizações governamentais sejam atribuídas ao Estado, e não à autoridade que as executou, **mas isso não proíbe de forma absoluta a menção ou imagem do gestor**, desde que haja finalidade educativa ou de orientação social
 - Ex: Prefeitura mencionar que o prefeito João, na terça feira, inaugurou uma praça no centro da cidade - O foco da frase é a noticia para a população.
 - Diferentemente seria se a publicidade trouxesse: "Graças ao empenho pessoal e ao coração bondoso do Prefeito João, a praça foi realizada. João faz mais por você!" - Aqui há o uso do nome e imagem do prefeito para **promoção pessoal.**
+
+![](../../../attachments/Pasted%20image%2020260722101045.png)
+
+A - Errada - A mudança posterior de orientação geral não autoriza a invalidação automática de atos anteriormente praticados 
+
+B - Errada- Não existe impedimento à mudança interpretativa pela Administração.
+
+C - Errada- não veda, em termos absolutos, a imposição de novos deveres aos administrados. O art. 23 admite nova interpretação impondo novo dever ou novo condicionamento de direito, exigindo regime de transição quando indispensável.
+
+D - Certa - A Administração não está proibida de alterar a interpretação de norma de conteúdo indeterminado; ao contrário, o art. 23 parte dessa possibilidade. Porém, essa mudança não autoriza desconsiderar os atos praticados segundo as orientações gerais vigentes à época, porque o art. 24 protege as situações plenamente constituídas. Além disso, se a nova interpretação impuser novo dever ou novo condicionamento de direito, deverá haver regime de transição quando isso for indispensável para cumprimento proporcional, equânime e eficiente. 
+
+![](../../../attachments/Pasted%20image%2020260722101636.png)
+  
+
+No processo administrativo, vigora o princípio da oficialidade, segundo o qual a Administração pode instaurar, impulsionar e revisar processos de ofício, independentemente de provocação do interessado, visando ao interesse público, conforme a Lei nº 9.784/1999.
