@@ -177,3 +177,9 @@ E) O princípio da legalidade e o princípio da juridicidade são termos sinôni
 Os princípios do direito administrativo cumprem duas funções principais:
 **Função hermenêutica:** Serve para explicar/esclarecer o conteúdo de uma norma.
 **Função integrativa:** Serve para preencher lacunas quando a lei não traz solução expressa.
+
+
+![](../../../attachments/Pasted%20image%2020260722091225.png)
+D) O princípio da **impessoalidade** exige que as realizações governamentais sejam atribuídas ao Estado, e não à autoridade que as executou, **mas isso não proíbe de forma absoluta a menção ou imagem do gestor**, desde que haja finalidade educativa ou de orientação social
+- Ex: Prefeitura mencionar que o prefeito João, na terça feira, inaugurou uma praça no centro da cidade - O foco da frase é a noticia para a população.
+- Diferentemente seria se a publicidade trouxesse: "Graças ao empenho pessoal e ao coração bondoso do Prefeito João, a praça foi realizada. João faz mais por você!" - Aqui há o uso do nome e imagem do prefeito para **promoção pessoal.**

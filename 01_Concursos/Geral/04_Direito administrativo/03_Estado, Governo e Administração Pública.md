@@ -48,7 +48,6 @@ Executa as metas, diretrizes e políticas públicas traçadas pelo Governo.
 **Introversa:** relações interna.
 **Extroversa:** relações externas. Poder público e adminitrados.
 
-
 ---
 
 ![](../../../attachments/Pasted%20image%2020260718102946.png)
