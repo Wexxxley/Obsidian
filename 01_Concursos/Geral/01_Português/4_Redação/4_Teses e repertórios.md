@@ -93,3 +93,6 @@
 
 **4. Consumismo** <mark style="background: #FF5582A6;">CAUSA</mark> 
 - O filósofo pré-socrático Demócrito afirmava que o animal é mais sábio que o homem, pois conhece e respeita a medida da sua necessidade. Em contraste, a sociedade consumista atual ignora esse limite, buscando o acúmulo irracional.
+
+**5. Jornada de trabalho extensiva/Dinâmica acelerada do mundo moderno
+- O filósofo Byung-Chul Han, na obra "Sociedade do Cansaço", postula que o indivíduo contemporâneo se autoexplora na busca incessante por produtividade. Esse conceito elucida a ausência de tempo livre na atualidade, pois a constante cobrança por desempenho esgota o cidadão e o impede de dedicar atenção a questões sociais, de saúde ou familiares.
