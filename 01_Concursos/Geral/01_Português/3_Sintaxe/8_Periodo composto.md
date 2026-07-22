@@ -31,3 +31,20 @@ B)
 ![](../../../../attachments/Pasted%20image%2020260722130620.png)C) mas note que tbm tem uma oração subordinada final: para decompor
 
 ![](../../../../attachments/Pasted%20image%2020260722131120.png)
+![](../../../../attachments/Pasted%20image%2020260722131315.png)
+CORRETO
+
+![](../../../../attachments/Pasted%20image%2020260722131344.png)
+![](../../../../attachments/Pasted%20image%2020260722131631.png)
+
+
+![](../../../../attachments/Pasted%20image%2020260722131750.png)
+![](../../../../attachments/Pasted%20image%2020260722131807.png)
+![](../../../../attachments/Pasted%20image%2020260722132238.png)
+
+D)
+![](../../../../attachments/Pasted%20image%2020260722132259.png)
+
+
+![](../../../../attachments/Pasted%20image%2020260722132804.png)
+ C)
