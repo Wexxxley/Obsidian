@@ -87,7 +87,12 @@ Regra que garante que todo e qualquer ato da Administração Pública pode ser s
     
 - **Controle Externo:** Feito pelo Poder Judiciário (que pode ser acionado pelo cidadão) e pelo Poder Legislativo, com o auxílio dos Tribunais de Contas.
 
-#### **13. Princípio da Precaução**
+#### **13. O Princípio da Oficialidade/impulso oficial**
+Estabelece que a Administração Pública possui a prerrogativa e o dever de iniciar um processo administrativo de ofício, ou seja, por iniciativa própria. Ela também tem o dever de impulsionar o andamento do processo e realizar a instrução (coleta de provas) até a decisão final.
+
+Diferentemente da regra geral do Poder Judiciário, que é inerte e depende de alguém protocolar uma ação, a Administração Pública não precisa aguardar denúncias ou requerimentos de terceiros. 
+
+#### **14. Princípio da Precaução**
 O Estado tem o dever de agir antecipadamente para proteger a sociedade, a saúde pública ou o meio ambiente, em vez de esperar o dano acontecer.
 
 - **Prevenção:** Ocorre quando o Estado atua diante de um risco comprovado.
@@ -96,7 +101,7 @@ O Estado tem o dever de agir antecipadamente para proteger a sociedade, a saúde
 - **Precaução:** Ocorre quando o Estado atua diante de um risco incerto, ou seja, quando ainda não há consenso ou certeza científica sobre os perigos de uma atividade.
 	- A Administração proíbe a comercialização de um novo agrotóxico no país. Mesmo sem estudos conclusivos de que ele causa doenças.
 
-#### **14. Princípio da Subsidiariedade**
+#### **15. Princípio da Subsidiariedade**
 O Estado só deve intervir na sociedade e na economia de forma subsidiária, ou seja, apenas quando a iniciativa privada (indivíduos e empresas) não for capaz de resolver os problemas ou satisfazer as necessidades da coletividade.
 
 A premissa deste princípio é que a ação estatal deve ser a exceção, e a atuação livre da sociedade civil deve ser a regra. A estrutura do Estado existe para amparar e complementar a sociedade, não para substituí-la ou absorver as suas funções primárias.
@@ -197,4 +202,16 @@ D - Certa - A Administração não está proibida de alterar a interpretação d
 ![](../../../attachments/Pasted%20image%2020260722101636.png)
   
 
-No processo administrativo, vigora o princípio da oficialidade, segundo o qual a Administração pode instaurar, impulsionar e revisar processos de ofício, independentemente de provocação do interessado, visando ao interesse público, conforme a Lei nº 9.784/1999.
+B) No processo administrativo, vigora o princípio da oficialidade, segundo o qual a Administração pode instaurar, impulsionar e revisar processos de ofício, independentemente de provocação do interessado.
+
+![](../../../attachments/Pasted%20image%2020260722102308.png)
+
+C)
+I. CORRETA. A Lei 14.133/2021 determina que a aplicação de sanções exige a instauração de processo administrativo, com a prévia intimação do interessado para apresentação de defesa escrita no prazo de 15 dias úteis.
+
+II. CORRETA. O contraditório no processo licitatório garante que, após um licitante entrar com recurso, os outros concorrentes tenham a oportunidade de se defender, apresentando contrarrazões, garantindo a bilateralidade do processo.
+
+III. INCORRETA. O princípio da ampla defesa não é absoluto e não autoriza a "sanatória" de omissões pretéritas de documentação essencial de habilitação após o prazo final de recursos. 
+
+![](../../../attachments/Pasted%20image%2020260722103006.png)
+C)

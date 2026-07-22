@@ -36,3 +36,10 @@ Nesse sentido, ao observar o [TEMA], constata-se a materialização desse concei
 a/o [CAUSA]  e a/o [CAUSA] .
 
 **Opção 3:** Dessa forma, é fundamental ressaltar a importância do [TEMA], bem como denunciar a [CAUSA] como o principal entrave para a superação desse quadro.
+
+---
+
+### **3. Competências**
+
+C3
+![](../../../../attachments/Pasted%20image%2020260722103857.png)
