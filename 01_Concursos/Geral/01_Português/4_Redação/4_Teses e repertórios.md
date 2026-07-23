@@ -59,8 +59,6 @@
 - Na obra "A Banalidade do Mal", a filósofa Hannah Arendt postula que o mal se instaura quando os indivíduos abrem mão de sua capacidade reflexiva. Esse raciocínio explica como a massificação cega a sociedade e faz com que a população reproduza condutas prejudiciais.
 
 **4. Passividade social** <mark style="background: #FF5582A6;">CAUSA</mark>
-- O autor J.R.R. Tolkien, em seu universo ficcional, delega a salvação de um mundo dominado por forças superiores às ações dos Hobbits, sujeitos inferiorizados. Essa narrativa ilustra que a mobilização civil consegue promover significativas transformações.
-
 - O movimento das "Diretas Já", ocorrido em 1984, mobilizou milhões de brasileiros para exigir eleições presidenciais. Esse evento comprova que a superação da passividade social é indispensável para promover transformações estruturais.
 
 **5. Banalização** <mark style="background: #FF5582A6;">CAUSA</mark>
@@ -73,6 +71,11 @@
 
 **7. Busca por prazeres instantâneos**  <mark style="background: #FF5582A6;">CAUSA</mark>
 - O filósofo Byung-Chul Han conceitua a "algofobia" como o medo constante do sofrimento. Essa aversão à dor faz com que os indivíduos priorizem prazeres imediativos, resultando no abandono de demandas sociais complexas.
+
+**8. Necessidade por aceitação e pertencimento/Busca por validação.**  <mark style="background: #FF5582A6;">CAUSA</mark>
+
+**9. Autoestima baixa** <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark>
+- O psicólogo Abraham Maslow, em sua teoria da "Hierarquia das Necessidades", postula que a estima - que engloba a autoestima e o respeito próprio - é uma etapa obrigatória para a autorrealização humana.
 
 ---
 ### **Macroeixo 4: A Lógica de Mercado e as Desigualdades**
