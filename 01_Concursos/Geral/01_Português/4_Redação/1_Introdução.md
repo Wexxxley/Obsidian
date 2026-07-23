@@ -32,14 +32,7 @@ Nesse sentido, ao observar o [TEMA], constata-se a materialização desse concei
 
 **Opção 1:** Dessa forma, faz-se necessário analisar não apenas a [CAUSA] como a raiz desse problema, mas também a [CONSEQUÊNCIA] como o seu reflexo direto na sociedade.
 
-**Opção 2:** Então, deve-se traçar estratégias a partir da atuação nas causas do problema:
+**Opção 2:** Logo, deve-se traçar estratégias a partir da atuação nas causas do problema:
 a/o [CAUSA]  e a/o [CAUSA] .
 
 **Opção 3:** Dessa forma, é fundamental ressaltar a importância do [TEMA], bem como denunciar a [CAUSA] como o principal entrave para a superação desse quadro.
-
----
-
-### **3. Competências**
-
-C3
-![](../../../../attachments/Pasted%20image%2020260722103857.png)
