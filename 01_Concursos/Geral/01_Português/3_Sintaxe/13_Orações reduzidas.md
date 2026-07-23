@@ -8,7 +8,7 @@
 
 **Oração reduzida:** Sem conectivos. Usando preposições ou locuções prepositivas.
 - O verbo vem na forma nominal (infinitivo, gerúndio ou particípio)
-- Somente orações subordinadas (substantivas, adjetivas, adverbiais) podem ser reduzidas.
+- Somente orações subordinadas podem ser reduzidas.
 
 ---
 **Classifique as orações**
