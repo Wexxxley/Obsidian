@@ -10,4 +10,13 @@ Tente se colocar no lugar de uma pessoa que tem aquele problema.
 
 Eu estabeleço causa e consequências que, teoricamente, eu consigo resolver. Não escolho causas IMPOSSÍVEIS de resolver.
 
-![](../../../../attachments/Pasted%20image%2020260724102737.png)
+![](../../../../attachments/Pasted%20image%2020260724131223.png)
+
+#### **3. Desdobramento das causas e consequências**
+
+![](../../../../attachments/Pasted%20image%2020260724131736.png)
+
+#### **4. Comece a escrevar**
+
+Periodos pequenos, no maximo 3 linhas. 
+Sempre vá lendo o que você escreveu em voz alta.
