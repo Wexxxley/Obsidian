@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/3_Verbos/5_Vozes verbais.md",
+                "file": "01_Concursos/Geral/01_Português/5_Redação/6_Passos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Vozes verbais"
+              "title": "6_Passos"
             }
           }
         ],
@@ -118,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.01103591918945,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -224,6 +224,10 @@
   },
   "active": "d04a2031b7c2ca59",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/5_Redação/7_Redações.md",
+    "01_Concursos/Geral/01_Português/5_Redação/6_Passos.md",
+    "01_Concursos/Geral/01_Português/3_Verbos/5_Vozes verbais.md",
+    "attachments/Pasted image 20260724095116.png",
     "attachments/Pasted image 20260724094601.png",
     "attachments/Pasted image 20260724094548.png",
     "attachments/Pasted image 20260724093834.png",
@@ -233,9 +237,7 @@
     "attachments/Pasted image 20260724093107.png",
     "attachments/Pasted image 20260724092459.png",
     "attachments/Pasted image 20260724091143.png",
-    "attachments/Pasted image 20260724085417.png",
     "01_Concursos/Geral/01_Português/3_Verbos/4_Verbos impessoais e auxiliares.md",
-    "01_Concursos/Geral/01_Português/3_Verbos/5_Vozes verbais.md",
     "01_Concursos/Geral/01_Português/3_Verbos/3_Verbos de ligação.md",
     "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
     "01_Concursos/Geral/01_Português/3_Verbos/1_Desinências verbais.md",
@@ -259,8 +261,6 @@
     "01_Concursos/Geral/01_Português/5_Redação/2_Desenvolvimento.md",
     "01_Concursos/Geral/01_Português/5_Redação/1_Introdução.md",
     "01_Concursos/Geral/01_Português/5_Redação/3_Conclusão.md",
-    "01_Concursos/Geral/01_Português/5_Redação/5_Termos, sinonimos e conectores.md",
-    "01_Concursos/Geral/01_Português/2_Morfologia/14_Conjunções.png",
     "01_Concursos/Geral/01_Português/3_Sintaxe/Untitled",
     "01_Concursos/Geral/04_Direito administrativo",
     "01_Concursos/Geral/01_Português/4_Sintaxe",

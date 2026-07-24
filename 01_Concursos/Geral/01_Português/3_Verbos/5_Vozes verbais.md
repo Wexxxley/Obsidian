@@ -34,3 +34,4 @@ O sujeito pratica e recebe a ação verbal.
 
 ![](../../../../attachments/Pasted%20image%2020260724093834.png)
 ![](../../../../attachments/Pasted%20image%2020260724094548.png)![](../../../../attachments/Pasted%20image%2020260724094601.png)
+![](../../../../attachments/Pasted%20image%2020260724095116.png)
