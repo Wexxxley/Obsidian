@@ -24,6 +24,10 @@ Costuma não mencionar o AGENTE DA PASSIVA (mas existe)
 O sujeito pratica e recebe a ação verbal.
 ![](../../../../attachments/Pasted%20image%2020260724093107.png)
 
+>[!tip] 
+>Sempre que for reflefexiva da pra substituir por "a si mesmo".
+>- Ele cortou a si mesmo.
+
 
 ---
 
@@ -40,4 +44,9 @@ O sujeito pratica e recebe a ação verbal.
 
 ![](../../../../attachments/Pasted%20image%2020260724150315.png)
 
-![](../../../../attachments/Pasted%20image%2020260724150506.png)
+![](../../../../attachments/Pasted%20image%2020260724150506.png)![](../../../../attachments/Pasted%20image%2020260724180728.png)
+
+![](../../../../attachments/Pasted%20image%2020260724181013.png)
+![400](../../../../attachments/Pasted%20image%2020260724180855.png)
+
+![](../../../../attachments/Pasted%20image%2020260724182911.png)![](../../../../attachments/Pasted%20image%2020260724182939.png)

@@ -118,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -223,6 +224,11 @@
   },
   "active": "d04a2031b7c2ca59",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260724182939.png",
+    "attachments/Pasted image 20260724182911.png",
+    "attachments/Pasted image 20260724181013.png",
+    "attachments/Pasted image 20260724180855.png",
+    "attachments/Pasted image 20260724180728.png",
     "attachments/Pasted image 20260724150506.png",
     "attachments/Pasted image 20260724150334.png",
     "attachments/Pasted image 20260724150315.png",
@@ -234,12 +240,7 @@
     "01_Concursos/Geral/01_Português/2_Morfologia/14_Conjunções.png",
     "attachments/Pasted image 20260724134558.png",
     "attachments/Pasted image 20260724134542.png",
-    "attachments/Pasted image 20260724131736.png",
-    "attachments/Pasted image 20260724131223.png",
-    "attachments/Pasted image 20260724102737.png",
-    "attachments/Pasted image 20260724102441.png",
     "01_Concursos/Geral/01_Português/3_Verbos/5_Vozes verbais.md",
-    "attachments/Pasted image 20260724095116.png",
     "01_Concursos/Geral/01_Português/3_Verbos/4_Verbos impessoais e auxiliares.md",
     "01_Concursos/Geral/01_Português/3_Verbos/3_Verbos de ligação.md",
     "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
