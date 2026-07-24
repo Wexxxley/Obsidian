@@ -66,15 +66,13 @@
 
 - A aceitação generalizada da escravidão ao longo de séculos no Brasil demonstra como a sociedade normaliza práticas criminosas quando elas são incorporadas ao cotidiano e trazem benefícios individuais.
 
-**6. imediatismo cognitivo/esvaziamento do debate racional**
-- O filósofo Byung-Chul Han afirma que a sociedade perdeu a capacidade de escutar o divergente. O indivíduo contemporâneo pratica uma escuta seletiva e reativa, na qual ele interrompe e ataca qualquer fragmento de ideia que o contrarie.
+**6. imediatismo cognitivo/esvaziamento do debate racional** <mark style="background: #FF5582A6;">CAUSA</mark>
+- O filósofo Byung-Chul Han, na obra "A Expulsão do Outro", adverte que a sociedade contemporânea perdeu a capacidade de escutar e de refletir sobre o pensamento divergente. 
 
-**7. Busca por prazeres instantâneos**  <mark style="background: #FF5582A6;">CAUSA</mark>
-- O filósofo Byung-Chul Han conceitua a "algofobia" como o medo constante do sofrimento. Essa aversão à dor faz com que os indivíduos priorizem prazeres imediativos, resultando no abandono de demandas sociais complexas.
+**7. Necessidade por aceitação e pertencimento/Busca por validação.**  <mark style="background: #FF5582A6;">CAUSA</mark>
+- O filósofo Byung-Chul Han, na obra "A Sociedade da Transparência", postula que o valor do indivíduo moderno tornou-se dependente da constante exposição e da aprovação alheia. Sob essa lógica, a busca por pertencimento obriga o sujeito a sacrificar a própria integridade para obter validação 
 
-**8. Necessidade por aceitação e pertencimento/Busca por validação.**  <mark style="background: #FF5582A6;">CAUSA</mark>
-
-**9. Autoestima baixa** <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark>
+**8. Autoestima baixa** <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark>
 - O psicólogo Abraham Maslow, em sua teoria da "Hierarquia das Necessidades", postula que a estima - que engloba a autoestima e o respeito próprio - é uma etapa obrigatória para a autorrealização humana.
 
 ---
