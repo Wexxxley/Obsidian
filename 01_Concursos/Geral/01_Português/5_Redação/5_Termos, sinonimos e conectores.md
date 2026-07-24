@@ -9,4 +9,3 @@
 5. **Visto que**/uma vez que/já que/dado que
 6. **Banalização**/normalização
 7. **mentalidade conplacente**/Postura coniventes
-![](../../../../attachments/tabela%20conectivos.jpg)

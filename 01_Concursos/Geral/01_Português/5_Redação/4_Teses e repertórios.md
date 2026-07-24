@@ -29,6 +29,8 @@
 	- **à segurança alimentar**
 	- **à mobilidade urbana**
 	- **ao lazer e à cultura**
+	- **à previdência social**
+	- **à assistência aos desamparados.**
 
 ---
 ### **Macroeixo 2: A Herança Histórica e Cultural**

@@ -20,3 +20,11 @@ Eu estabeleço causa e consequências que, teoricamente, eu consigo resolver. N�
 
 Periodos pequenos, no maximo 3 linhas. 
 Sempre vá lendo o que você escreveu em voz alta.
+Após cada periodo, coloque um conectivo.
+
+![](../../../../attachments/Pasted%20image%2020260724134542.png)
+![](../../../../attachments/Pasted%20image%2020260724134558.png)
+
+#### **5. Repertórios**
+
+Escolha repertórios que se relacionam as suas ideia do D1 e D2
