@@ -2,11 +2,11 @@
 
 ---
 
-**Processo administrativo**: consiste na unidade jurídica de tramitação cujo objetivo é culminar em uma decisão final por parte da Administração Pública. Ele representa o conjunto legal de atos e a relação jurídica que está em curso, englobando todas as garantias de direito e os ritos de deliberação necessários quando o Estado precisa julgar uma situação específica, apurar responsabilidades ou proferir um veredito institucional.
-
+>[!TIP]
+**Processo administrativo**: Representa o conjunto legal de atos e a relação jurídica que está em curso, englobando todas as garantias de direito e os ritos de deliberação necessários quando o Estado precisa julgar uma situação específica, apurar responsabilidades ou proferir um veredito institucional.
+>
 **Procedimento administrativo**: Se refere ao passo a passo mecânico e cronológico padronizado, que os documentos e as informações devem seguir dentro e entre as unidades da repartição para garantir a execução segura e impessoal das tarefas.
-- **Eficiência:** A padronização reduz o tempo despendido com indecisões operacionais.
-- **Trilha:** Viabiliza que órgãos de controle auditem em qual etapa do fluxo ocorreu umerro.
+>- Viabiliza que órgãos de controle auditem em qual etapa do fluxo ocorreu um erro.
 
 No contexto das diretorias da ALECE, os procedimentos estruturam-se em fluxos categorizados da seguinte forma:
     
@@ -24,3 +24,4 @@ No contexto das diretorias da ALECE, os procedimentos estruturam-se em fluxos ca
 >[!TIP]
 **Atividade-meio:** engloba todas as funções administrativas, de suporte, financeiras e operacionais (como RH, TI e Compras) que garantem o funcionamento do órgão.
 **Atividade-fim:** representa a missão institucional do órgão, que, no caso da ALECE, é a função legislativ e fiscalizatória exercida pelos parlamentares.
+

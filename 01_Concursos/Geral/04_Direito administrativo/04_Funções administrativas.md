@@ -44,3 +44,19 @@ Neste contexto, o termo **Função Administrativa** não se refere à gestão in
 - As Agências Reguladoras, como a ANATEL e ANVISA.
 
 ![300](../../../attachments/Pasted%20image%2020260717184154.png)
+
+
+---
+
+![](../../../attachments/Pasted%20image%2020260727100157.png)
+
+c) Organização. Significa agrupar as atividades, dividir o trabalho, alocar os materiais , definir a cadeia de comando. 
+
+![](../../../attachments/Pasted%20image%2020260727100525.png)
+	B)
+
+![](../../../attachments/Pasted%20image%2020260727100725.png)
+A)
+
+![](../../../attachments/Pasted%20image%2020260727101006.png)
+A)
