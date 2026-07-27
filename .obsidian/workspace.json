@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/03_Legislação e serviço público/18_Organização e métodos.md",
+                "file": "01_Concursos/Geral/03_Legislação e serviço público/19_Gestão de Processos Administrativos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "18_Organização e métodos"
+              "title": "19_Gestão de Processos Administrativos"
             }
           }
         ],
@@ -118,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -223,6 +224,13 @@
   },
   "active": "d04a2031b7c2ca59",
   "lastOpenFiles": [
+    "01_Concursos/Geral/03_Legislação e serviço público/17_Procedimento Administrativo.md",
+    "01_Concursos/Geral/03_Legislação e serviço público/19_Gestão de Processos Administrativos.md",
+    "01_Concursos/Geral/03_Legislação e serviço público/18_Organização e métodos.md",
+    "attachments/Pasted image 20260727103518.png",
+    "attachments/Pasted image 20260727103218.png",
+    "attachments/Pasted image 20260727102531.png",
+    "attachments/Pasted image 20260727102011.png",
     "01_Concursos/Geral/04_Direito administrativo/04_Funções administrativas.md",
     "attachments/Pasted image 20260727101601.png",
     "attachments/Pasted image 20260727101440.png",
@@ -230,15 +238,9 @@
     "attachments/Pasted image 20260727101006.png",
     "attachments/Pasted image 20260727100725.png",
     "attachments/Pasted image 20260727100525.png",
-    "attachments/Pasted image 20260727100157.png",
-    "01_Concursos/Geral/03_Legislação e serviço público/17_Procedimento Administrativo.md",
-    "01_Concursos/Geral/03_Legislação e serviço público/18_Organização e métodos.md",
     "01_Concursos/Geral/01_Português/1_Ortografia/3_Acentuação gráfica.md",
     "01_Concursos/Geral/01_Português/1_Ortografia/2_Encontros vocálicos e consonantais.md",
     "01_Concursos/Geral/01_Português/3_Verbos/5_Vozes verbais.md",
-    "attachments/Pasted image 20260725172252.png",
-    "attachments/Pasted image 20260725142155.png",
-    "attachments/Pasted image 20260725140713.png",
     "01_Concursos/Geral/01_Português/5_Redação/5_Termos, sinonimos e conectores.md",
     "01_Concursos/Geral/01_Português/5_Redação/4_Teses e repertórios.md",
     "01_Concursos/Geral/01_Português/5_Redação/6_Passos.md",
