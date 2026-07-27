@@ -38,49 +38,20 @@ Requisitos para sua validade: **ComFiFoMoOb**.
 Características do ato administrativo: **PITA**.
 - **Presunção de legitimidade:** prova em contrário.
 - **Imperatividade**: indepente da vontade do particular.
-- **Tipicidade**: lei, determinação legal.
-- Autoexecutoriedade
+- **Tipicidade**: todo ato administrativodeve corresponder a tipos definidos em lei.
+- **Autoexecutoriedade**: independente da vontade de outro poder.
 
-**Espécies de Atos Administrativos**: A doutrina divide os atos que compõem os processos em cinco grandes categorias. NONEP:
-  
-- **Ordinatórios:** Decorrem do poder hierárquico e visam organizar a estrutura interna e disciplinar condutas (ex: portarias, ordens de serviço e despachos).
-- **Negociais:** Declarações estatais que coincidem com o interesse do particular que fez a solicitação, concedendo-lhe faculdades (ex: licenças e autorizações).
-- **Enunciativos:** Apenas certificam, atestam ou emitem opinião técnica sobre um fato já registrado, sem criar direitos novos (ex: certidões de tempo de serviço e pareceres técnicos).
-- **Punitivos:** Representam a aplicação de sanções derivadas do poder disciplinar ou de polícia (ex: multas a fornecedores e demissão de servidores).
-
-### A Pegadinha da Portaria
-
-As bancas de concurso costumam afirmar de forma incorreta que uma portaria assinada por um Diretor-Geral seria um ato normativo primário. É fundamental gravar que portarias e ordens de serviço são **Atos Ordinatórios**. Eles produzem efeitos estritamente internos e subordinam-se à hierarquia do órgão, não inovando a ordem jurídica externa de forma geral.
-
-### Motivação e a Teoria dos Motivos Determinantes
-
-A **Motivação** é a justificativa apresentada por escrito que demonstra as razões de fato e os fundamentos de direito que levaram à edição do ato.
-
-Dela decorre a **Teoria dos Motivos Determinantes**, que estabelece que a validade de um ato administrativo está indissoluvelmente vinculada à verdade dos motivos que foram apresentados por escrito.
-
-- **Exemplo Prático:** Se um Diretor exonerar um servidor comissionado alegando formalmente e por escrito que o fez por "falta de verba orçamentária". Se depois ficar comprovado que havia superávit financeiro e outro funcionário foi contratado no dia seguinte, esse ato de exoneração será **nulo por vício de motivo falso**.
-    
-- **Atenção:** Essa nulidade ocorre mesmo que o cargo seja de livre nomeação e exoneração (_ad nutum_), pois uma vez que o gestor decide escrever o motivo, ele fica preso à veracidade dele.
-    
-
-### Lacunas Identificadas e Complementos Teóricos
-
-O material é excelente, mas deixa algumas brechas conceituais que bancas como CEBRASPE e FGV adoram explorar. Aqui estão os complementos para você não perder pontos:
-
-- **A Diferença entre Motivo e Motivação:** O material aborda os conceitos juntos, mas em prova eles são distintos.
-    
-    - **Motivo** é a situação de direito e de fato que autoriza ou exige a prática do ato (o "porquê" o ato aconteceu).
-        
-    - **Motivação** é a exteriorização, a exposição formal e por escrito desse motivo (o papel onde o "porquê" está escrito). A falta de motivação (quando exigida por lei) gera vício de _forma_, enquanto a falsidade do motivo gera vício de _motivo_.
-        
-- **Atos Negociais: Licença vs. Autorização:** O material agrupa ambos corretamente como atos negociais, mas as questões de prova exigem que você saiba a diferença entre eles:
-    
-    - **Licença:** É um ato administrativo **vinculado** e definitivo. Se você preenche os requisitos legais (ex: passar nas provas do DETRAN), o Estado é obrigado a conceder a sua CNH. Não há margem de escolha.
-        
-    - **Autorização:** É um ato administrativo **discricionário** e precário. O Estado concede apenas se houver conveniência e oportunidade, e pode revogar a qualquer momento sem gerar direito à indenização (ex: autorização para fechar uma rua para uma festa de bairro).
-        
-- **Atos Enunciativos não têm revogação:** Como os atos enunciativos (Certidões, Atestados) se limitam a declarar um fato preexistente sem criar direitos, a doutrina pacífica afirma que eles **não podem ser revogados**. Se uma certidão for emitida com erro, ela deve ser _anulada_, e não revogada.
-
+Espécies de Atos Administrativos:  **NONEP**.
+- **Normativos:** Contêm determinações gerais. Poder normativo e regulamentar
+	- ex: decretos e resoluções administrativas da Mesa.
+- **Ordinatórios:** Visam organizar a estrutura interna. Poder hierárquico.
+	- ex: portarias, ordens de serviço e despachos.
+- **Negociais:** Atos em que a administração pública vai negociar com uma particular. 
+	- ex: contrato. 
+- **Enunciativos:** Apenas emite algo já registrado. 
+	- ex: certidões de tempo de serviço e pareceres técnicos.
+- **Punitivos:** Poder disciplinar ou de polícia.
+	- ex: multas a fornecedores e demissão de servidores  .
 
 ---
 ### 2.  Gestão de processos administrativos
