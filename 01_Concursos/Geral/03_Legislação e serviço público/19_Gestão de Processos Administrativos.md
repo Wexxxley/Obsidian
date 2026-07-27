@@ -26,10 +26,23 @@ Existe uma oposição que as bancas invertem sistematicamente:
 ---
 ### 2. Ato Administrativo
 
-Os atos administrativos representam manifestações unilaterais de vontade do Estado que produzem efeitos jurídicos imediatos. 
+Materialização da vontade da administração pública. Garantindo direitos. 
+
+Requisitos para sua validade: **ComFiFoMoOb**.
+- **Competência**: Agente do ato.
+- **Finalidade**: Interesse coletivo. Efeito mediato
+- **Forma**: No geral escrito, mas pode ser visual, sonoro (apito de guarda).
+- **Motivo**: Fatos
+- **Objeto**: Resultado. Efeito imediato.
+
+Características do ato administrativo: **PITA**.
+- **Presunção de legitimidade:** prova em contrário.
+- **Imperatividade**: indepente da vontade do particular.
+- **Tipicidade**: lei, determinação legal.
+- Autoexecutoriedade
 
 **Espécies de Atos Administrativos**: A doutrina divide os atos que compõem os processos em cinco grandes categorias. NONEP:
-- **Normativos:** Contêm determinações gerais e abstratas para regulamentar leis (ex: decretos e resoluções administrativas da Mesa).
+  
 - **Ordinatórios:** Decorrem do poder hierárquico e visam organizar a estrutura interna e disciplinar condutas (ex: portarias, ordens de serviço e despachos).
 - **Negociais:** Declarações estatais que coincidem com o interesse do particular que fez a solicitação, concedendo-lhe faculdades (ex: licenças e autorizações).
 - **Enunciativos:** Apenas certificam, atestam ou emitem opinião técnica sobre um fato já registrado, sem criar direitos novos (ex: certidões de tempo de serviço e pareceres técnicos).
