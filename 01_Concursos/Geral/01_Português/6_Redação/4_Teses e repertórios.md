@@ -87,6 +87,7 @@
 
 **2. Influência midiática/Ação dos veículos midiáticos** <mark style="background: #FF5582A6;">CAUSA</mark>
 - O ministro da propaganda nazista, Joseph Goebbels, afirmava que uma mentira repetida mil vezes torna-se verdade. Esse raciocínio ilustra como a alienação pode ser fabricada pela manipulação da informação.
+
 - Durante o Estado Novo no Brasil, o governo criou o Departamento de Imprensa e Propaganda para censurar opositores e manipular as informações transmitidas à população. Esse fato ilustra como a influência midiática possui a capacidade de forjar narrativas irreais.
 
 **3. Lógica capitalista/Busca pelo lucro** <mark style="background: #FF5582A6;">CAUSA</mark>
