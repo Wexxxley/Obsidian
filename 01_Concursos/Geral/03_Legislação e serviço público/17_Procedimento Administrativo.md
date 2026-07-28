@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 
@@ -18,8 +19,6 @@ No contexto das diretorias da ALECE, os procedimentos estruturam-se em fluxos ca
     
 - **Procedimento de Registro:** Visa conferir publicidade e realizar o controle patrimonial dos bens da Casa. 
 	- Tombamento, inventariação e baixa de bens móveis no sistema patrimonial.    
-
-**Rigidez das Etapas:** O Técnico Legislativo não possui autorização para pular ou suprimir etapas de um procedimento padronizado. Invalida o procedimento
 
 >[!TIP]
 **Atividade-meio:** engloba todas as funções administrativas, de suporte, financeiras e operacionais (como RH, TI e Compras) que garantem o funcionamento do órgão.

@@ -1,5 +1,5 @@
 
-
+#Concluded 
 
 ---
 ### **1. Conceitos fundamentais**
@@ -8,7 +8,7 @@ O processo administrativo é o instrumento formalizado pelo qual a Administraç�
 - **Resguardo do Interesse Público:** Garante legalidade e eficiência da gestão do Estado.
 - **Garantia do Administrado:** Protege o servidor ou o cidadão contra abusos de poder.
 
-**Processos Administrativo x Judicial:** O processo judicial busca a aplicação da lei por um juiz imparcial e terceiro. Já o processo administrativo ocorre dentro da própria estrutura do Poder Público, sendo definido como uma sucessão coordenada de atos ordenados que visam a uma decisão final administrativa.
+**Processos Administrativo x Judicial:** O processo judicial busca a aplicação da lei por um juiz imparcial e terceiro. Já o processo administrativo ocorre dentro da própria estrutura do Poder Público, sendo definido como uma sucessão coordenada de atos que visam a uma decisão final administrativa.
 
 **Princípios Norteadores**
 - **Verdade Material (Real):** A Administração tem o dever legal de buscar os fatos como eles realmente ocorreram na realidade, não se limitando apenas às provas que as partes trouxeram no papel. 
@@ -37,7 +37,7 @@ Requisitos para sua validade: **ComFiFoMoOb**.
 Características do ato administrativo: **PITA**.
 - **Presunção de legitimidade:** prova em contrário.
 - **Imperatividade**: indepente da vontade do particular.
-- **Tipicidade**: todo ato administrativodeve corresponder a tipos definidos em lei.
+- **Tipicidade**: todo ato administrativo deve corresponder a tipos definidos em lei.
 - **Autoexecutoriedade**: independente da vontade de outro poder.
 
 Espécies de Atos Administrativos:  **NONEP**.
@@ -53,9 +53,7 @@ Espécies de Atos Administrativos:  **NONEP**.
 	- ex: multas a fornecedores e demissão de servidores  .
 
 ---
-### **2.  Gestão de processos administrativos**
-
-Um processo de negócio é um conjunto de atividades inter-relacionadas que recebe insumos (inputs) e cria um resultado de valor (output) para o cliente ou usuário.
+### **3.  Gestão de processos administrativos**
 
 Os processos cortam a estrutura hierárquica (que é vertical) de forma horizontal. Por exemplo, um processo de contratação pode iniciar em uma sala técnica, passar pela Diretoria Administrativa e Financeira e terminar na Mesa Diretora.
 
@@ -69,4 +67,19 @@ Os processos cortam a estrutura hierárquica (que é vertical) de forma horizont
 - **Eficiência**: Foco nos meios. Otimização dos recursos e custos.
 - **Eficácia**: Foco nos fins. Atingir a meta estipulada.
 - **Efetividade**:  Foco no impacto/transformação. Mudança na realidade social. 
+
+---
+
+![](../../../attachments/Pasted%20image%2020260728085212.png)
+
+A) 
+
+- **Ato Administrativo:** Exige obrigatoriamente uma declaração unilateral de vontade do Estado, com o fim específico e imediato de produzir efeitos jurídicos. 
+    
+- **Fato Administrativo:** É desprovido dessa manifestação de vontade direcionada a criar regras. Trata-se unicamente da execução material de uma decisão anterior ou de um acontecimento alheio à vontade estatal.
+
+![](../../../attachments/Pasted%20image%2020260728085823.png)
+B)
+
+![](../../../attachments/Pasted%20image%2020260728090117.png)
 
