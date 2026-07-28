@@ -2,7 +2,6 @@
 
 
 ---
-
 ### **1. Conceitos fundamentais**
 
 O processo administrativo é o instrumento formalizado pelo qual a Administração Pública exterioriza decisões, apura infrações, concede direitos e resolve litígios internos.  O processo possui uma **dupla finalidade simultânea**:
@@ -24,7 +23,7 @@ Existe uma oposição que as bancas invertem sistematicamente:
 - **No Processo Administrativo**, vigora a **Verdade Material (Real)**: o administrador buscará a verdade dos fatos, podendo inclusive produzir provas que não foram solicitadas pelas partes.
 
 ---
-### 2. Ato Administrativo
+### **2. Ato Administrativo**
 
 Materialização da vontade da administração pública. Garantindo direitos. 
 
@@ -54,7 +53,8 @@ Espécies de Atos Administrativos:  **NONEP**.
 	- ex: multas a fornecedores e demissão de servidores  .
 
 ---
-### 2.  Gestão de processos administrativos
+### **2.  Gestão de processos administrativos**
+
 Um processo de negócio é um conjunto de atividades inter-relacionadas que recebe insumos (inputs) e cria um resultado de valor (output) para o cliente ou usuário.
 
 Os processos cortam a estrutura hierárquica (que é vertical) de forma horizontal. Por exemplo, um processo de contratação pode iniciar em uma sala técnica, passar pela Diretoria Administrativa e Financeira e terminar na Mesa Diretora.
