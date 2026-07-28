@@ -15,7 +15,6 @@
 - MEC - órgão governamental responsável pela estruturação da educação nacional.
 - Família - núcleo formador ético, educacional e emocional dos indivíduos.
 - Estado - ente garantidor dos direitos constitucionais e promotor do bem-estar social.
-- Governos estaduais e as prefeituras, em parceria com as empresas privadas, ...
 
 **Forma padrão**
 Portanto, o **[AGENTE]**, **[DETALHAMENTO DO AGENTE]**, deve **[AÇÃO]**. 
