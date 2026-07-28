@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 
@@ -6,13 +7,13 @@ A redação oficial é a maneira pela qual o poder público redige comunicaçõe
 
 **Atributos fundamentais**
 - **Impessoalidade:** Proibido o uso de marcas de subjetividade como opiniões pessoais, elogios ou críticas políticas.
-- **Clareza:** O texto deve permitir a compreensão imediata pelo leitor, priorizando a ordem direta das frases (Sujeito + Verbo + Objeto). É proibido o uso de vocabulário excessivamente erudito, sentenças longas truncadas ou termos ambíguos.
-- **Concisão/Objetividade:** Consiste em transmitir a máxima quantidade de informação com o mínimo de palavras possíveis.
+- **Clareza e precisão:** O texto deve permitir a compreensão imediata pelo leitor, priorizando a ordem direta das frases (Sujeito + Verbo + Objeto). É proibido o uso de vocabulário excessivamente erudito, sentenças longas truncadas ou termos ambíguos.
+- **Concisão e Objetividade:** Consiste em transmitir a máxima quantidade de informação com o mínimo de palavras possíveis. Economia linguística.
+- **Coesão e coerência**
 - **Formalidade:** Exige a obediência estrita à norma culta do português e aos ritos de civilidade, sendo vedado o uso de gírias, expressões coloquiais.
 - **Uniformidade:** É a padronização visual e estrutural dos documentos (o Padrão Ofício).
 
-#### **7. O Padrão Ofício e as Regras de Formatação**
-
+ **Regras de Formatação**
 - **Fonte:** Arial ou Calibri. O tamanho é 12 no corpo do texto e 10 para citações longas.
 - **Identificação:** Fica alinhada à margem esquerda, contendo o nome do documento, número sequencial anual e a sigla do setor emissor.
 - **Fechos:** Só existem duas opções obrigatórias:
