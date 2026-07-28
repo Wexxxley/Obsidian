@@ -39,14 +39,12 @@
             "id": "d04a2031b7c2ca59",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/6_Redação/4_Teses e repertórios.md",
-                "mode": "source",
-                "source": false
+                "file": "01_Concursos/Geral/01_Português/2_Morfologia/14_Conjunções.png"
               },
-              "icon": "lucide-file",
-              "title": "4_Teses e repertórios"
+              "icon": "lucide-image",
+              "title": "14_Conjunções"
             }
           }
         ],
@@ -223,8 +221,11 @@
   },
   "active": "d04a2031b7c2ca59",
   "lastOpenFiles": [
-    "01_Concursos/Geral/01_Português/6_Redação/3_Conclusão.md",
+    "01_Concursos/Geral/01_Português/6_Redação/6_Redações.md",
+    "01_Concursos/Geral/01_Português/6_Redação/5_Termos, sinonimos e conectores.md",
     "01_Concursos/Geral/01_Português/6_Redação/4_Teses e repertórios.md",
+    "01_Concursos/Geral/01_Português/6_Redação/3_Conclusão.md",
+    "01_Concursos/Geral/01_Português/6_Redação/2_Desenvolvimento.md",
     "01_Concursos/Geral/01_Português/6_Redação/1_Introdução.md",
     "01_Concursos/Geral/03_Legislação e serviço público/21_Redação oficial.md",
     "01_Concursos/Geral/03_Legislação e serviço público/20_Atendimento ao público.md",
@@ -244,8 +245,6 @@
     "01_Concursos/Geral/03_Legislação e serviço público/17_Procedimento Administrativo.md",
     "01_Concursos/Geral/03_Legislação e serviço público/15_Técnica legislativa e estruturação da lei.md",
     "01_Concursos/Geral/03_Legislação e serviço público/14_Ata e parecer.md",
-    "01_Concursos/Geral/01_Português/6_Redação/5_Termos, sinonimos e conectores.md",
-    "01_Concursos/Geral/01_Português/6_Redação/6_Redações.md",
     "01_Concursos/Geral/01_Português/6_Redação/6_Passos.md",
     "01_Concursos/Geral/01_Português/5_Pontuação/1_Uso da vírgula.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/4_Termos acessórios da oração.md",
@@ -260,7 +259,6 @@
     "01_Concursos/Geral/01_Português/3_Verbos/3_Verbos de ligação.md",
     "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
     "01_Concursos/Geral/01_Português/3_Verbos/1_Desinências verbais.md",
-    "01_Concursos/Geral/01_Português/4_Sintaxe/13_Desenvolvendo as orações reduzidas.md",
     "01_Concursos/Geral/01_Português/3_Verbos",
     "01_Concursos/Geral/01_Português/3_Sintaxe/Untitled",
     "01_Concursos/Geral/04_Direito administrativo",

@@ -18,7 +18,10 @@
 </mark>
 - A arquiteta Ermínia Maricato desenvolveu o conceito de "melancolia coletiva" para descrever o sentimento de desamparo da sociedade. Essa teoria explica como a contínua omissão do Estado intensifica a descrença e rompe a confiança dos cidadãos no poder público.  
 
-**4. Omissão estatal/negligência estatal ou ineficácia legislativa**
+**4. Sensação de impunidade/descrença na justiça**
+- O sociólogo Émile Durkheim criou o termo "anomia" para descrever um estado de enfraquecimento das normas sociais e morais. Quando o Estado falha sistematicamente em punir os infratores, as leis perdem o seu poder de coerção.
+
+**5. Omissão estatal/negligência estatal ou ineficácia legislativa**
 - A Constituição Federal de 1988 assegura o direito à/ao **[direito]** a todos os cidadãos. Contudo, nota-se uma grave incoerência, visto que, no contexto do **[tema]**, essa garantia constitucional não se concretiza na prática.
 	- **à moradia**
 	- **à saúde**

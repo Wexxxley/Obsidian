@@ -21,7 +21,7 @@
 - Sendo assim, é imperioso a formulação de ações que modifiquem esse panorama.
 
 **IMPORTANCIA, O QUE IMPEDE**
-- Em primeira análise, é necessário destacar a [IMPORTANCIA].
+- Em primeira análise, é importante destacar a [IMPORTANCIA].
 - Dessa forma, assegurar/respeitar essa questão é fundamental.
 
 - Contudo, a [CAUSA] impede isso...

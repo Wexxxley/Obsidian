@@ -23,16 +23,16 @@ Nesse sentido, ao observar o [TEMA], constata-se que apesar da modernização na
 #### **As Cidadanias Mutiladas**
 Na obra "As Cidadanias Mutiladas", o geógrafo Milton Santos afirma que a democracia só atinge sua efetividade quando os direitos fundamentais são desfrutados pela totalidade do corpo social. 
 
-Nesse sentido, ao observar o [TEMA], constata-se que esse postulado é severamente violado, evidenciando que uma parcela considerável da população brasileira permanece excluído do desenvolvimento e do amparo institucional.
+Nesse sentido, ao observar o [TEMA], constata-se que esse postulado é violado, evidenciando que uma parcela da população brasileira permanece excluída do desenvolvimento e do amparo institucional.
 #### **A Atitude Blasé**
 O sociólogo Georg Simmel desenvolveu o conceito de "Atitude Blasé" para definir o comportamento de apatia e insensibilidade do sujeito perante situações que deveriam despertar sua atenção. 
 
 Nesse sentido, ao observar o [TEMA], constata-se a materialização desse conceito, uma vez que a sociedade brasileira tem tratado a questão com alarmante normalidade/insensibilidade
 
 
-**Opção 1:** Dessa forma, faz-se necessário analisar não apenas a [CAUSA] como a raiz desse problema, mas também a [CONSEQUÊNCIA] como o seu reflexo direto na sociedade.
+**Opção 1:** Logo, deve-se analisar não apenas a [CAUSA] como a raiz desse problema, mas também a [CONSEQUÊNCIA] como o reflexo direto na sociedade.
 
 **Opção 2:** Logo, deve-se traçar estratégias a partir da atuação nas causas do problema:
 a/o [CAUSA]  e a/o [CAUSA] .
 
-**Opção 3:** Dessa forma, é fundamental ressaltar a importância do [TEMA], bem como denunciar a [CAUSA] como o principal entrave para a superação desse quadro.
+**Opção 3:** Logo, deve-se ressaltar a importância do [TEMA] e analisar a [CAUSA] como a raiz desse problema.
