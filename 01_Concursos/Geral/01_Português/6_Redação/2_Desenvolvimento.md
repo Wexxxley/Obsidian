@@ -8,24 +8,24 @@
 
 **CAUSA, CONSEQUÊNCIA**
 - Em primeira análise, é importante destacar [CAUSA] como causa/intensificador do [PROBLEMA]. 
-- Dessa forma, faz-se necessário a reformulação desse cenário.
+- Dessa forma, faz-se necessária a reformulação desse cenário.
 
 - Além disso, cabe salientar [CONSEQUENCIA] como uma consequência do [PROBLEMA]. 
-- Sendo assim, é imperioso a formulação de ações que modifiquem esse panorama.
+- Sendo assim, é imperiosa a formulação de ações que modifiquem esse panorama.
 
 **CAUSA, CAUSA**
 - Em primeira análise, é importante destacar [CAUSA] como causa/intensificador do [PROBLEMA]. 
-- Dessa forma, faz-se necessário a reformulação desse cenário.
+- Dessa forma, faz-se necessária a reformulação desse cenário.
 	
 - Além disso, a [CAUSA] é um entrave no que tange ao problema. 
-- Sendo assim, é imperioso a formulação de ações que modifiquem esse panorama.
+- Sendo assim, é imperiosa a formulação de ações que modifiquem esse panorama.
 
 **IMPORTANCIA, O QUE IMPEDE**
 - Em primeira análise, é importante destacar a [IMPORTANCIA].
 - Dessa forma, assegurar/respeitar essa questão é fundamental.
 
 - Contudo, a [CAUSA] impede isso...
-- Sendo assim, é imperioso a formulação de ações que modifiquem esse panorama.
+- Sendo assim, é imperiosa a formulação de ações que modifiquem esse panorama.
 
 ### **2. Explicação**
 

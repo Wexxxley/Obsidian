@@ -39,12 +39,14 @@
             "id": "d04a2031b7c2ca59",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/2_Morfologia/14_Conjunções.png"
+                "file": "01_Concursos/Geral/01_Português/6_Redação/3_Conclusão.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "14_Conjunções"
+              "icon": "lucide-file",
+              "title": "3_Conclusão"
             }
           }
         ],
@@ -221,11 +223,12 @@
   },
   "active": "d04a2031b7c2ca59",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/6_Redação/2_Desenvolvimento.md",
+    "01_Concursos/Geral/01_Português/2_Morfologia/14_Conjunções.png",
     "01_Concursos/Geral/01_Português/6_Redação/6_Redações.md",
     "01_Concursos/Geral/01_Português/6_Redação/5_Termos, sinonimos e conectores.md",
     "01_Concursos/Geral/01_Português/6_Redação/4_Teses e repertórios.md",
     "01_Concursos/Geral/01_Português/6_Redação/3_Conclusão.md",
-    "01_Concursos/Geral/01_Português/6_Redação/2_Desenvolvimento.md",
     "01_Concursos/Geral/01_Português/6_Redação/1_Introdução.md",
     "01_Concursos/Geral/03_Legislação e serviço público/21_Redação oficial.md",
     "01_Concursos/Geral/03_Legislação e serviço público/20_Atendimento ao público.md",
@@ -240,7 +243,6 @@
     "attachments/Pasted image 20260728085823.png",
     "attachments/Pasted image 20260728085636.png",
     "attachments/Pasted image 20260728085612.png",
-    "attachments/Pasted image 20260728085212.png",
     "01_Concursos/Geral/03_Legislação e serviço público/18_Organização e métodos.md",
     "01_Concursos/Geral/03_Legislação e serviço público/17_Procedimento Administrativo.md",
     "01_Concursos/Geral/03_Legislação e serviço público/15_Técnica legislativa e estruturação da lei.md",
@@ -258,7 +260,6 @@
     "01_Concursos/Geral/01_Português/3_Verbos/4_Verbos impessoais e auxiliares.md",
     "01_Concursos/Geral/01_Português/3_Verbos/3_Verbos de ligação.md",
     "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
-    "01_Concursos/Geral/01_Português/3_Verbos/1_Desinências verbais.md",
     "01_Concursos/Geral/01_Português/3_Verbos",
     "01_Concursos/Geral/01_Português/3_Sintaxe/Untitled",
     "01_Concursos/Geral/04_Direito administrativo",
