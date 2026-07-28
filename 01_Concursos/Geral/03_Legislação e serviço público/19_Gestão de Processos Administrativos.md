@@ -34,7 +34,7 @@ Requisitos para sua validade: **ComFiFoMoOb**.
 - **Motivo**: Fatos
 - **Objeto**: Resultado. Efeito imediato.
 
-Características do ato administrativo: **PITA**.
+Atributos do ato administrativo: **PITA**.
 - **Presunção de legitimidade:** prova em contrário.
 - **Imperatividade**: indepente da vontade do particular.
 - **Tipicidade**: todo ato administrativo deve corresponder a tipos definidos em lei.
@@ -83,3 +83,20 @@ B)
 
 ![](../../../attachments/Pasted%20image%2020260728090117.png)
 
+D) CORRETA.  A tipicidade estabelece que todo ato administrativo deve corresponder a uma figura previamente definida (tipificada) em lei como apta a produzir determinados resultados.
+
+A) O "pressuposto de fato e de direito que serve de fundamento ao ato administrativo" é a definição exata de **Motivo** (a causa, o porquê de o ato ser praticado).
+
+B)  O "resultado que a Administração quer alcançar com a prática do ato" refere-se ao **Objeto**.
+
+C) A imposição de um ato a terceiros, independentemente da concordância destes, criando obrigações de forma unilateral, é a definição do atributo da **Imperatividade**. A **Autoexecutoriedade**, por sua vez, é a prerrogativa que a Administração possui de executar materialmente os seus próprios atos, utilizando a força se necessário, sem precisar requerer autorização prévia ao Poder Judiciário.
+
+E)  A conformidade presumida do ato com a lei e a suposição de que os fatos alegados pela Administração são verdadeiros até que se prove o contrário formam o atributo da **Presunção de Legitimidade e Veracidade**. 
+
+![](../../../attachments/Pasted%20image%2020260728091833.png)
+E)
+
+![](../../../attachments/Pasted%20image%2020260728091942.png)
+D)
+
+![](../../../attachments/Pasted%20image%2020260728092109.png)
