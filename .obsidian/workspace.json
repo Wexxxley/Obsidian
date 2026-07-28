@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/03_Legislação e serviço público/20_Atendimento ao público.md",
+                "file": "01_Concursos/Geral/03_Legislação e serviço público/21_Redação oficial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20_Atendimento ao público"
+              "title": "21_Redação oficial"
             }
           }
         ],
@@ -118,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 468.01103591918945
+    "width": 468.01103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -223,8 +224,10 @@
   },
   "active": "d04a2031b7c2ca59",
   "lastOpenFiles": [
-    "01_Concursos/Geral/03_Legislação e serviço público/19_Gestão de Processos Administrativos.md",
     "01_Concursos/Geral/03_Legislação e serviço público/20_Atendimento ao público.md",
+    "01_Concursos/Geral/03_Legislação e serviço público/21_Redação oficial.md",
+    "attachments/Pasted image 20260728101132.png",
+    "01_Concursos/Geral/03_Legislação e serviço público/19_Gestão de Processos Administrativos.md",
     "01_Concursos/Geral/05_Atendimento ao público",
     "attachments/Pasted image 20260728092109.png",
     "attachments/Pasted image 20260728091942.png",
@@ -238,7 +241,6 @@
     "01_Concursos/Geral/03_Legislação e serviço público/18_Organização e métodos.md",
     "01_Concursos/Geral/03_Legislação e serviço público/17_Procedimento Administrativo.md",
     "01_Concursos/Geral/03_Legislação e serviço público/15_Técnica legislativa e estruturação da lei.md",
-    "01_Concursos/Geral/03_Legislação e serviço público/16_Penalidades.png",
     "01_Concursos/Geral/03_Legislação e serviço público/14_Ata e parecer.md",
     "01_Concursos/Geral/01_Português/6_Redação/5_Termos, sinonimos e conectores.md",
     "01_Concursos/Geral/01_Português/6_Redação/6_Redações.md",
@@ -260,7 +262,6 @@
     "01_Concursos/Geral/01_Português/3_Verbos/1_Desinências verbais.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/13_Desenvolvendo as orações reduzidas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/12_Orações reduzidas.md",
-    "01_Concursos/Geral/01_Português/4_Sintaxe/11_Orações subordinadas averbiais.md",
     "01_Concursos/Geral/01_Português/3_Verbos",
     "01_Concursos/Geral/01_Português/3_Sintaxe/Untitled",
     "01_Concursos/Geral/04_Direito administrativo",

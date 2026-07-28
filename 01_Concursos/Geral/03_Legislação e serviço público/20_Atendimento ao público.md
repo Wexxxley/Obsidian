@@ -33,9 +33,13 @@ O foco é o acesso a serviços, fiscalização e garantia da transparência. Os 
 
 A linguagme deve ser acessível, clara e desprovida de jargões burocráticos que dificultem a compreensão do cidadão.
 
+#### **5. Encaminhamento de Demandas e Orientações sobre Tramitação**
 
+Encaminhar uma demanda consiste em direcionar a requisição do usuário para o setor que detém a exata competência legal para analisar e decidir a matéria. Nenhuma demanda pode tramitar de forma informal ou no "boca a boca".
 
+O sistema integrado (como o SEI) exige a geração de um código de registro único ou de uma folha de trâmite digital. Esse registro fixa no sistema a data, a hora e a matrícula do servidor responsável pela transferência da custódia.     
 
+Orientar sobre a tramitação significa explicar em qual fase do ciclo vital ou rito legislativo o documento do usuário se encontra, e quais serão os próximos passos. 
 
-    
+ 
 - **Formato de Dados na Transparência Ativa:** O resumo cita a regra de ouro de que a transparência ativa deve estar em "formato aberto e de fácil acesso". Para provas mais difíceis, saiba que a lei exige especificamente que os dados sejam disponibilizados em **formatos abertos, não proprietários e estruturados** (legíveis por máquina, como planilhas `.csv` em vez de imagens de texto ou PDFs bloqueados), para permitir a análise automatizada por pesquisadores e órgãos de controle.
