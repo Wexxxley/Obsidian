@@ -2,13 +2,31 @@
 
 ---
 
-No setor público, especialmente no Poder Legislativo, o atendimento é um pilar de consolidação da transparência, da cidadania e da eficiência administrativa. 
-#### **1. Público Interno**
-O público interno é formado por todos que integram a estrutura organizacional e operacional do órgão. Não se limite aos servidores efetivos. Deputados estaduais, assessores comissionados, estagiários e colaboradores terceirizados também compõem este grupo. O vínculo empregatício não é o único fator determinante; se a pessoa utiliza a infraestrutura administrativa para mover a máquina por dentro, ela é público interno durante o seu mandato ou contrato.
+No setor público, especialmente no Poder Legislativo, o atendimento é um pilar de consolidação da transparência, da cidadania e da eficiência administrativa.  A execução do atendimento ao público exige a combinação de técnicas de comunicação (verbais e não verbais) para acolher o cidadão e resolver sua demanda.
+
+#### **1. Pilares do Atendimento CAEO**
+
+1. **Comunicação:** Equilíbrio entre a comunicação verbal e a não verbal. Necessidade de eliminar jargões burocráticos.
+    
+2. **Acolhimento:** Etapa de recepção. Envolve cumprimentar com urbanidade, identificar-se e adotar uma postura de **empatia**: capacidade de se colocar no lugar do usuário.
+    
+3. **Escuta Ativa:** Foco total, eliminação de distrações e a suspensão de julgamentos.  **Paráfrase**: o ato de repetir com suas palavras o resumo do que o cidadão disse, garantindo que a mensagem foi compreendida.
+    
+4. **Orientação:** Etapa resolutiva. O servidor deve fornecer informações precisas checadas em sistemas oficiais. Se a demanda não for de competência do órgão, é dever do servidor encaminhar o cidadão ao local correto.
+#### **2. Dimensões da Comunicação pública**
+
+No setor público, a comunicação foge do viés de vender produtos e assume um papel democrático. A doutrina a divide em três vertentes:
+- **Comunicação Administrativa:** Fluxo interno que move a burocracia. Público interno.
+- **Comunicação Mercadológica:** A comunicação mercadológica é voltada para o mercado. No setor privado, seu objetivo central é promoção com a finalidade de gerar lucro. Em órgãos de Estado puros, esse tipo de comunicação é quase inexistente. Quando a doutrina administrativa aponta a existência de comunicação mercadológica nesses órgãos, o objetivo financeiro é substituído pelo engajamento do cidadão.
+	- Promover o cadastro de medula óssea, divulgar períodos de vacinação infantil ou campanhas de combate à violência doméstica.
+- **Comunicação Pública/Cidadã:** É a difusão de informações sobre direitos, ritos e gastos, orientada ao público externo e guiada pelo princípio da publicidade.
+
+#### **3. Público Interno**
+Formado por todos que integram a estrutura organizacional e operacional do órgão. Não se limita aos servidores efetivos. Deputados estaduais, assessores, estagiários e  terceirizados também compõem este grupo. Se a pessoa utiliza a infraestrutura administrativa para mover a máquina por dentro, ela é público interno.
 
 O alinhamento do público interno é pré-requisito para o sucesso do atendimento externo. Servidores desmotivados ou desinformados sabotam a entrega final do serviço.
 
-#### **2. O Público Externo**
+#### **4. O Público Externo**
 É o cidadão comum (eleitor), lideranças, ONGs, imprensa e órgãos de controle externo como o Tribunal de Contas do Estado (TCE).
 
 O foco é o acesso a serviços, fiscalização e garantia da transparência. Os canais são voltados para fora: Portal da Transparência, Serviço de Informação ao Cidadão (SIC), Ouvidoria e audiências públicas.
@@ -17,14 +35,7 @@ A linguagme deve ser acessível, clara e desprovida de jargões burocráticos qu
 
 
 
-- **Cidadão vs. Cliente:** O texto menciona a palavra "clientes" (usuários do serviço). Tenha cuidado na prova: o modelo Gerencial de administração introduziu a visão do usuário como "cliente" (foco em resultados e satisfação). Contudo, a doutrina mais moderna e o modelo Societal preferem o termo **Cidadão**, pois ele não é apenas um consumidor do serviço, mas sim o _dono_ do Estado e titular de direitos. Se a banca opuser os dois termos, o atendimento público moderno foca no cidadão.
+
+
     
-- **Endomarketing:** O material fala que "um público interno desmotivado sabota a ponta final". Em provas, esse conceito é frequentemente atrelado ao **Endomarketing** (marketing interno). É a estratégia de tratar o servidor como o "primeiro cliente" da instituição, garantindo que ele esteja satisfeito, treinado e motivado para que reflita essa qualidade no atendimento ao público externo.
-    
-- **Transparência Ativa vs. Transparência Passiva (LAI):** O material cita a Lei de Acesso à Informação (LAI) e o Portal da Transparência / SIC. É crucial separar:
-    
-    - _Transparência Ativa:_ Quando o órgão divulga a informação proativamente, sem ninguém pedir (ex: publicações no Portal da Transparência).
-        
-    - _Transparência Passiva:_ Quando o órgão entrega a informação mediante solicitação do público externo (ex: o cidadão protocola um pedido no SIC).
-        
-- **Empatia e Escuta Ativa:** No tópico de "linguagem adequada", as bancas frequentemente incluem a necessidade de "Empatia" (capacidade de se colocar no lugar do cidadão para entender sua necessidade real) e "Escuta Ativa" (ouvir com atenção plena, sem interrupções, para decodificar até as demandas que o cidadão não consegue expressar tecnicamente).
+- **Formato de Dados na Transparência Ativa:** O resumo cita a regra de ouro de que a transparência ativa deve estar em "formato aberto e de fácil acesso". Para provas mais difíceis, saiba que a lei exige especificamente que os dados sejam disponibilizados em **formatos abertos, não proprietários e estruturados** (legíveis por máquina, como planilhas `.csv` em vez de imagens de texto ou PDFs bloqueados), para permitir a análise automatizada por pesquisadores e órgãos de controle.
