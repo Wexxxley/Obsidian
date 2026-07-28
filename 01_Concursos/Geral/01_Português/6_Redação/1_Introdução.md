@@ -34,5 +34,3 @@ Nesse sentido, ao observar o [TEMA], constata-se a materialização desse concei
 
 **Opção 2:** Logo, deve-se traçar estratégias a partir da atuação nas causas do problema:
 a/o [CAUSA]  e a/o [CAUSA] .
-
-**Opção 3:** Logo, deve-se ressaltar a importância do [TEMA] e analisar a [CAUSA] como a raiz desse problema.
