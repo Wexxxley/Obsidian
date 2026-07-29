@@ -60,6 +60,8 @@ Descrição é o conjunto de procedimentos que leva em conta os elementos formai
 ![500](../../../attachments/Pasted%20image%2020260531170330.png)
 ![](../../../attachments/Pasted%20image%2020260531170405.png)
 
+
+
 ---
 #### **3. Conservação**
 

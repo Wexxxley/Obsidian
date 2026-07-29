@@ -3,6 +3,8 @@
 
 ---
 
+![](../../../attachments/Pasted%20image%2020260729184410.png)
+
 **Quanto aos estágios de evolução:** Arquivos que guardam documentos...
 1. **Corrente/1°idade:** mais novos que ainda estão sendo resolvidos, frequentemente consultados. Normalmente ficam junto ao setor ou próximo
 2. **Intermediário/temporário/2°idade:** que já foram resolvidos mas podem ser questionados. Não tem necessidade de ser intalado junto à instituição, normalmente são galpões, por questões de espaço e aconomia. Limbo ou Purgatório. 
@@ -21,3 +23,5 @@
 2. **Setoriais**: Instalados junto aos órgãos operacionais(setores), reunindo documentos correntes.
 
 ![500](../../../attachments/Pasted%20image%2020260527071950.png)
+![](../../../attachments/Pasted%20image%2020260729184158.png)
+E)

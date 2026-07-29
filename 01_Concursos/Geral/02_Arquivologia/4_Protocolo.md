@@ -42,3 +42,5 @@ Tais documentos devem ser recebidos e encaminhados diretamente para os destinat√
 Tais documentos deve mpassar por todas as etapas do protocolo.
 
 ![](../../../attachments/Pasted%20image%2020260529101120.png)
+![](../../../attachments/Pasted%20image%2020260729185911.png)
+C)

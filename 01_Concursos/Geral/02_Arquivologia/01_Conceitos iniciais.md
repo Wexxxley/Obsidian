@@ -45,3 +45,11 @@ C) Arquivos – informação – documentos de arquivo, supondo que a informaç�
 D)Documentos de arquivo – arquivos – informação, assumindo o documento como ponto inicial e o arquivo como resultado da acumulação.
 
 A) 
+
+![](../../../attachments/Pasted%20image%2020260729185221.png)C) INATIVO = INTERMEDIÁRIO
+
+![](../../../attachments/Pasted%20image%2020260729185414.png)
+SETORIAL
+
+![](../../../attachments/Pasted%20image%2020260729185451.png)
+C)
