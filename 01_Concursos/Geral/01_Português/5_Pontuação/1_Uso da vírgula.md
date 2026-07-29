@@ -23,6 +23,21 @@ A vírgula indica pausa de pequena duração.
 
 ![](../../../../attachments/Pasted%20image%2020260728065542.png)
 
+**Substituição da írgula por 'E'**
+- Quando for uma enumeração, uma adição de informação pode trocar.
+- Quando for uma explicação, não pode.
+	![](../../../../attachments/Pasted%20image%2020260729130108.png)
+
+**4. Separa termos deslocados**
+
+ORDEM DIRETA: Sujeito + Verbo + Complemento + Adj. Adverbial
+
+**Advérbios deslocados:**
+- CURTOS (até duas palavras): Facultativo
+- LONGOS (3 ou mais palavras): Obrigatório
+
+![](../../../../attachments/Pasted%20image%2020260729131614.png)
+
 
 
 
@@ -36,6 +51,10 @@ CORRETO. é obrigatorio pq são conjunções coordenadas alternativas
 
 ![](../../../../attachments/Pasted%20image%2020260729101944.png)![](../../../../attachments/Pasted%20image%2020260729102001.png)
  CORRETO. Lembrando que o uso é facultativo
+ 
+![](../../../../attachments/Pasted%20image%2020260729125447.png)
+![](../../../../attachments/Pasted%20image%2020260729125434.png)
+ERRADO. uma obrigação não adiciona uma nova ideia. está explicando, excplicar é dizer a mesma coisa com outras palavras.
 
-![](../../../../attachments/Pasted%20image%2020260729102945.png)![](../../../../attachments/Pasted%20image%2020260729102959.png)
-[](https://www.grancursosonline.com.br/assinatura-ilimitada?utm_source=questoes&utm_medium=banner&utm_campaign=plgquestoes)
+![](../../../../attachments/Pasted%20image%2020260729131735.png)
+![](../../../../attachments/Pasted%20image%2020260729131704.png)
