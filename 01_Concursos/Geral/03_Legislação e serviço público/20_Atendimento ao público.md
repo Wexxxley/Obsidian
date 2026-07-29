@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 
@@ -34,7 +35,7 @@ Orientar sobre a tramitação significa explicar em qual fase do ciclo vital ou 
 
 O ambiente legislativo possui alta densidade política, exigindo controle emocional para que o fluxo burocrático não trave.
 
-**Teoria da Inteligência emocional de Daniel Goleman**: Essa teoria é dividida em cinco pilares fundamentais:
+**Teoria da Inteligência emocional de Daniel Goleman**: Cinco pilares fundamentais:
 ![](../../../attachments/Pasted%20image%2020260729083926.png)
 - **Autoconsciência:** Reconhecer as próprias emoções e como elas te afetam.
 - **Autorregulação:** Controlar e gerenciar reações impulsivas.
@@ -43,23 +44,26 @@ O ambiente legislativo possui alta densidade política, exigindo controle emocio
 - **Habilidades sociais:** Gerenciar relacionamentos de forma saudável, comunicando-se bem e resolvendo conflitos.
 #### **6. Gestão de Conflitos**
 
-Conflitos são inevitáveis na Administração Pública devido à escassez de recursos e divergências. Quatro estratégias de resolução de confltos:
+Conflitos são inevitáveis. Quatro estratégias de resolução de confltos:
 ![](../../../attachments/Pasted%20image%2020260729085136.png)
-A administração moderna entende que o conflito pode ser **funcional (positivo)**, quando gera inovação, quebra paradigmas e promove o debate de ideias para melhorar processos. O dever do gestor não é suprimir o conflito, mas gerenciá-lo para que não vire um conflito **disfuncional (negativo)**.
+A administração moderna entende que o conflito pode ser **funcional (positivo)**, quando gera inovação, quebra paradigmas e promove o debate de ideias. O dever do gestor não é suprimir o conflito, mas gerenciá-lo para que não vire um conflito **disfuncional (negativo)**.
+#### **7. Componentes da Comunicação**
 
-- **Formato de Dados na Transparência Ativa:** O resumo cita a regra de ouro de que a transparência ativa deve estar em "formato aberto e de fácil acesso". Para provas mais difíceis, saiba que a lei exige especificamente que os dados sejam disponibilizados em **formatos abertos, não proprietários e estruturados** (legíveis por máquina, como planilhas `.csv` em vez de imagens de texto ou PDFs bloqueados), para permitir a análise automatizada por pesquisadores e órgãos de controle.
+- **Emissor:** É quem emite ou codifica a mensagem.
+- **Receptor:** É quem recebe e decodifica a mensagem.
+- **Mensagem:** É o próprio conteúdo da informação transmitida.
+- **Canal:** É o meio condutor da mensagem, como o sistema SEI, a fala, ou o e-mail.
+- **Código:** É o conjunto de signos utilizado, como a língua portuguesa padrão.
+- **Feedback (Retroalimentação):** É a confirmação de que a mensagem foi compreendida, sendo o elemento que fecha o ciclo da comunicação.
+
+Ruído é qualquer interferência ou distorção que prejudique a perfeita compreensão da mensagem. O uso excessivo de jargões técnicos para falar com um cidadão comum é classificado como uma **barreira semântica**.
+
 
 
 ---
 ![](../../../attachments/Pasted%20image%2020260729085516.png)
-C) Comentário da alternativa correta: A
-estratégia de Colaboração (ou abordagem
-ganha-ganha) ocorre quando as partes em
-conflito decidem confrontar o problema
-diretamente, integrando suas ideias e
-competências para construir uma solução
-inovadora que satisfaça integralmente os
-objetivos de ambos. Essa técnica resolve a
-causa raiz do desentendimento e fortalece
-as relações interpessoais no ambiente
-institucional
+C) 
+
+![](../../../attachments/Pasted%20image%2020260729090351.png)
+![](../../../attachments/Pasted%20image%2020260729090404.png)
+B)

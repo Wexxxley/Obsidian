@@ -63,15 +63,19 @@ Para que isso funcione, a lei se apoia em cinco diretrizes:
 >
 >**Transparência Passiva**: Ocorre quando uma informação específica não está no Portal da Transparência e o cidadão faz um requerimento formal solicitando aquele dado. Ocorre através do **SIC (Serviço de Informações ao Cidadão)**.
 
+A lei exige que os dados sejam disponibilizados em **formatos abertos, não proprietários e estruturados** (legíveis por máquina, como planilhas), para permitir a análise automatizada por pesquisadores e órgãos de controle.
+
 Quando você faz um pedido no Serviço de Informações ao Cidadão (SIC), o Estado não pode demorar o tempo que quiser. Existe um cronograma rígido:
 - **Imediato:** Se a informação já está pronta e disponível no balcão ou no sistema.
 - **Prazo Padrão (Até 20 dias):** Se a informação precisa ser buscada.
 - **Prorrogação (+ 10 dias):** Se o pedido for complexo, o órgão pode estender o prazo por mais 10 dias. Ele é obrigado a justificar ao cidadão o motivo.
 
 **Informações sigilosas**:
-- **Ultrassecreta (25 anos):** Apenas a alta cúpula pode classificar algo assim. É a única categoria que pode ser prorrogada uma única vez por igual período (pode chegar a 50 anos).  
+- **Ultrassecreta (25 anos):** Apenas a alta cúpula pode classificar algo assim. É a única categoria que pode ser prorrogada uma única vez (pode chegar a 50 anos).  
 - **Secreta (15 anos):** Pode ser classificada pela Mesa Diretora ou pelos Deputados Titulares de Comissões.
 - **Reservada (5 anos):** Pode ser determinado por Diretores e chefes de unidades administrativas.
+
+---
 
 ![400](../../../attachments/Pasted%20image%2020260608072524.png)
 
