@@ -1,6 +1,10 @@
 
 
 ---
+
+A pontuação é dividida em três seguimentos: sintático, semântico e estilístico. O que
+frequentemente aparece em prova são os dois primeiros. 
+
 A vírgula indica pausa de pequena duração.
 - Nunca separe sujeito do verbo.
 - Nunca separe verbo do complemento
@@ -36,6 +40,8 @@ ORDEM DIRETA: Sujeito + Verbo + Complemento + Adj. Adverbial
 - CURTOS (até duas palavras): Facultativo
 - LONGOS (3 ou mais palavras): Obrigatório
 
+Quando o adjunto adverbial está na ordem direta, o uso da vírgula é sempre **facultativo**, independentemente do seu tamanho.
+
 ![](../../../../attachments/Pasted%20image%2020260729131614.png)
 
 
@@ -58,3 +64,17 @@ ERRADO. uma obrigação não adiciona uma nova ideia. está explicando, excplica
 
 ![](../../../../attachments/Pasted%20image%2020260729131735.png)
 ![](../../../../attachments/Pasted%20image%2020260729131704.png)
+
+ERRADO. É um adverbio deslocado de curta duração, logo é facultativo o uso da vírgula.
+Nesse caso, frequentemente é advérbio de aproximação/intensidade.
+
+![](../../../../attachments/Pasted%20image%2020260729132655.png)
+![](../../../../attachments/Pasted%20image%2020260729132643.png)
+
+ ERRADO. é um adverbio curto deslocado, logo a virgula é facultativa, mas tem que ser duas.
+  
+![](../../../../attachments/Pasted%20image%2020260729132940.png)![](../../../../attachments/Pasted%20image%2020260729132953.png)
+CORRETO. É facultativo pq esta na ordem direta  
+
+![](../../../../attachments/Pasted%20image%2020260729133714.png)
+
