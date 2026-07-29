@@ -9,6 +9,7 @@ A vírgula indica pausa de pequena duração.
 ![](../../../../attachments/Pasted%20image%2020260727143752.png)
 
 - Pode-se trocar a vírgula por dois pontos quando for uma explicação
+![](../../../../attachments/Pasted%20image%2020260729104608.png)
 
 **2. Vírgula separa enumerações -> termos de mesmo função e certas repetições**
 
@@ -37,3 +38,4 @@ CORRETO. é obrigatorio pq são conjunções coordenadas alternativas
  CORRETO. Lembrando que o uso é facultativo
 
 ![](../../../../attachments/Pasted%20image%2020260729102945.png)![](../../../../attachments/Pasted%20image%2020260729102959.png)
+[](https://www.grancursosonline.com.br/assinatura-ilimitada?utm_source=questoes&utm_medium=banner&utm_campaign=plgquestoes)
