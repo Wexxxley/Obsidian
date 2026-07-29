@@ -44,3 +44,8 @@ Todo documento passa pela idade corrente. Nem todo documento passa pela idade in
 
 ![](../../../attachments/Pasted%20image%2020260527094335.png)
 ![](../../../attachments/Pasted%20image%2020260527094351.png)
+
+![](../../../attachments/Pasted%20image%2020260729152459.png)
+CORRENTE
+
+
