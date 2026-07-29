@@ -47,6 +47,8 @@ Quando o adjunto adverbial está na ordem direta, o uso da vírgula é sempre **
 
 
 
+
+
 ---
 ![](../../../../attachments/Pasted%20image%2020260729100743.png)
 ![](../../../../attachments/Pasted%20image%2020260729100759.png)
@@ -76,7 +78,7 @@ Nesse caso, frequentemente é advérbio de aproximação/intensidade.
 ![](../../../../attachments/Pasted%20image%2020260729132940.png)![](../../../../attachments/Pasted%20image%2020260729132953.png)
 CORRETO. É facultativo pq esta na ordem direta  
 
-![](../../../../attachments/Pasted%20image%2020260729133714.png)
+
 
 ![](../../../../attachments/Pasted%20image%2020260729134948.png)
 
@@ -89,4 +91,6 @@ CORRETO. Note que Devido... é um adj adverbial causal, como está deslocado e �
 
 ERRADO: Para medir... é uma oração subordinada adverbial final deslocada e, consequentemente, tem que ter vírgula.
 
- 
+![](../../../../attachments/Pasted%20image%2020260729142911.png)
+ ![](../../../../attachments/Pasted%20image%2020260729142901.png)
+ CORRETO. Pois em função... traz circunstancia de causa e está na ordem direta, sendo facultativo
