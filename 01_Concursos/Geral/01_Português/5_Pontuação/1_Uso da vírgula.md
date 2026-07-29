@@ -78,3 +78,15 @@ CORRETO. É facultativo pq esta na ordem direta
 
 ![](../../../../attachments/Pasted%20image%2020260729133714.png)
 
+![](../../../../attachments/Pasted%20image%2020260729134948.png)
+
+![](../../../../attachments/Pasted%20image%2020260729134939.png)
+
+CORRETO. Note que Devido... é um adj adverbial causal, como está deslocado e é longo deve ter vírgula.
+
+![](../../../../attachments/Pasted%20image%2020260729135223.png)
+![](../../../../attachments/Pasted%20image%2020260729135206.png)
+
+ERRADO: Para medir... é uma oração subordinada adverbial final deslocada e, consequentemente, tem que ter vírgula.
+
+ 
