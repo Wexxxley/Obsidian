@@ -43,11 +43,9 @@
  
 **2. Herança cultural e histórica** <mark style="background: #FF5582A6;">CAUSA</mark>
 - Segundo o filósofo espanhol George Santayana, a incapacidade de lembrar e compreender o passado condena a sociedade a repetir suas falhas sucessivamente, perpetuando problemáticas históricas nas gerações presentes.
-    
-- O sociólogo brasileiro Darcy Ribeiro aponta que a formação do Brasil carrega uma perversidade natural em sua herança. Essa matriz histórica explica a manutenção de ciclos de desigualdade e atitudes opressoras na atualidade.
 
 **3. Sensação de superioridade** <mark style="background: #FF5582A6;">CAUSA</mark>
-- O sociólogo Pierre Bourdieu afirmava que grupos privilegiados utilizam seus hábitos e acessos para se afirmarem como superiores. Essa postura cria barreiras que desumanizam as camadas populares e perpetuam a exclusão social.
+- O sociólogo William Graham desenvolveu o conceito de "Etnocentrismo" para definir a tendência humana de colocar a própria cultura no centro, julgando os hábitos, valores e crenças de outros grupos como inferiores.
 
 ---
 ### **Macroeixo 3: O Comportamento Social**
@@ -56,8 +54,6 @@
 - Para o sociólogo Émile Durkheim, a "socialização primária" — ocorrida na infância e no núcleo familiar — é definitiva para o desenvolvimento intelectual e social. Logo, falhas nessa etapa comprometem toda a conduta do indivíduo em sociedade.
 
 **2. Silenciamento / Falta de debates/invisibilidade**<mark style="background: #FF5582A6;">CAUSA</mark>
-- A filósofa brasileira Djamila Ribeiro afirma que para combater mazelas sociais, é preciso tirá-la da invisibilidade por meio do diálogo. O silenciamento atua como um obstáculo, pois um problema que não é discutido não recebe a atenção política necessária.
-
 - Durante a Ditadura Militar no Brasil, o Estado impôs uma censura severa aos meios de comunicação para calar a oposição e impedir discussões sobre os problemas nacionais. Esse fato comprova que o silenciamento de pautas sociais impedem a formação de uma pressão popular necessária para solucionar crises.
 
 **3. Alienação** <mark style="background: #FF5582A6;">CAUSA</mark>
@@ -79,6 +75,9 @@
 
 **8. Autoestima baixa** <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark>
 - O psicólogo Abraham Maslow, em sua teoria da "Hierarquia das Necessidades", postula que a estima - que engloba a autoestima e o respeito próprio - é uma etapa obrigatória para a autorrealização humana.
+
+**9. Violência Simbólica**  <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark>
+- O sociólogo Pierre Bourdieu, em sua teoria da "Violência Simbólica", descreve um processo de opressão invisível no qual as vítimas internalizam discursos hostis e sofrem severos danos sem a necessidade de agressão física. Nesse sentido, a exposição constante a ambientes excludentes degrada a saúde mental do indivíduo, culminando na sua marginalização e na destruição da própria autoestima.
 
 ---
 ### **Macroeixo 4: A Lógica de Mercado e as Desigualdades**
