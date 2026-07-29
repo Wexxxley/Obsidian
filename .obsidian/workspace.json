@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/5_Pontuação/1_Uso da vírgula.md",
+                "file": "01_Concursos/Geral/01_Português/4_Sintaxe/12_Orações reduzidas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Uso da vírgula"
+              "title": "12_Orações reduzidas"
             }
           }
         ],
@@ -118,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 468.01103591918945,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -224,16 +223,21 @@
   },
   "active": "d04a2031b7c2ca59",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/5_Pontuação/1_Uso da vírgula.md",
+    "attachments/Pasted image 20260729102959.png",
+    "attachments/Pasted image 20260729102945.png",
+    "attachments/Pasted image 20260729102821.png",
+    "attachments/Pasted image 20260729102451.png",
+    "attachments/Pasted image 20260729102001.png",
+    "attachments/Pasted image 20260729101944.png",
+    "attachments/Pasted image 20260729101002.png",
+    "attachments/Pasted image 20260729100759.png",
+    "attachments/Pasted image 20260729100743.png",
     "01_Concursos/Geral/04_Direito administrativo/07_LGPD E LAI.md",
     "01_Concursos/Geral/03_Legislação e serviço público/22_Sistemas relacionados ao trabalho técnico.md",
     "01_Concursos/Geral/03_Legislação e serviço público/20_Atendimento ao público.md",
     "attachments/Pasted image 20260729090404.png",
-    "attachments/Pasted image 20260729090351.png",
-    "attachments/Pasted image 20260729085516.png",
     "01_Concursos/Geral/03_Legislação e serviço público/19_Gestão de Processos Administrativos.md",
-    "attachments/Pasted image 20260729085136.png",
-    "attachments/Pasted image 20260729083926.png",
-    "attachments/Pasted image 20260729083640.png",
     "01_Concursos/Geral/03_Legislação e serviço público/18_Organização e métodos.md",
     "01_Concursos/Geral/03_Legislação e serviço público/17_Procedimento Administrativo.md",
     "01_Concursos/Geral/01_Português/6_Redação/4_Teses e repertórios.md",
@@ -241,17 +245,12 @@
     "01_Concursos/Geral/01_Português/6_Redação/2_Desenvolvimento.md",
     "01_Concursos/Geral/01_Português/6_Redação/1_Introdução.md",
     "01_Concursos/Geral/01_Português/6_Redação/3_Conclusão.md",
-    "01_Concursos/Geral/01_Português/2_Morfologia/14_Conjunções.png",
     "01_Concursos/Geral/01_Português/6_Redação/5_Termos, sinonimos e conectores.md",
     "01_Concursos/Geral/03_Legislação e serviço público/21_Redação oficial.md",
-    "attachments/Pasted image 20260728101132.png",
     "01_Concursos/Geral/05_Atendimento ao público",
-    "attachments/Pasted image 20260728092109.png",
-    "attachments/Pasted image 20260728091942.png",
     "01_Concursos/Geral/03_Legislação e serviço público/15_Técnica legislativa e estruturação da lei.md",
     "01_Concursos/Geral/03_Legislação e serviço público/14_Ata e parecer.md",
     "01_Concursos/Geral/01_Português/6_Redação/6_Passos.md",
-    "01_Concursos/Geral/01_Português/5_Pontuação/1_Uso da vírgula.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/4_Termos acessórios da oração.md",
     "Untitled.md",
     "Untitled 1.md",
@@ -261,7 +260,6 @@
     "01_Concursos/Geral/01_Português/1_Ortografia/2_Encontros vocálicos e consonantais.md",
     "01_Concursos/Geral/01_Português/3_Verbos/5_Vozes verbais.md",
     "01_Concursos/Geral/01_Português/3_Verbos/4_Verbos impessoais e auxiliares.md",
-    "01_Concursos/Geral/01_Português/3_Verbos/3_Verbos de ligação.md",
     "01_Concursos/Geral/01_Português/3_Verbos",
     "01_Concursos/Geral/01_Português/3_Sintaxe/Untitled",
     "01_Concursos/Geral/04_Direito administrativo",
