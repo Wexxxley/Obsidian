@@ -70,7 +70,7 @@
 **6. imediatismo cognitivo/esvaziamento do debate racional** <mark style="background: #FF5582A6;">CAUSA</mark>
 - O filósofo Byung-Chul Han, na obra "A Expulsão do Outro", adverte que a sociedade contemporânea perdeu a capacidade de escutar e de refletir sobre o pensamento divergente. 
 
-**7. Necessidade por aceitação e pertencimento/Busca por validação.**  <mark style="background: #FF5582A6;">CAUSA</mark>
+**7. Busca por validação.**  <mark style="background: #FF5582A6;">CAUSA</mark>
 - O filósofo Byung-Chul Han, na obra "A Sociedade da Transparência", postula que o valor do indivíduo moderno tornou-se dependente da constante exposição e da aprovação alheia. Sob essa lógica, a busca por pertencimento obriga o sujeito a sacrificar a própria integridade para obter validação 
 
 **8. Autoestima baixa** <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark>
