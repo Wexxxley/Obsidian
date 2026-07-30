@@ -43,4 +43,4 @@ Tais documentos deve mpassar por todas as etapas do protocolo.
 
 ![](../../../attachments/Pasted%20image%2020260529101120.png)
 ![](../../../attachments/Pasted%20image%2020260729185911.png)
-C)
+C) O **Plano de Classificação** é o instrumento arquivístico que estrutura hierarquicamente o acervo com base nas funções, atividades e na estrutura da instituição produtora, revelando os motivos da criação daquela documentação. Diferente de uma simples ordenação física (alfabética ou cronológica), esse plano mapeia o contexto administrativo para garantir o princípio da organicidade, demonstrando o vínculo inseparável entre o documento gerado e a competência institucional que o originou.

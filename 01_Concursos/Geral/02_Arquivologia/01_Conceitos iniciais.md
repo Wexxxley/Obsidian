@@ -53,3 +53,5 @@ SETORIAL
 
 ![](../../../attachments/Pasted%20image%2020260729185451.png)
 C)
+
+![](../../../attachments/Pasted%20image%2020260730075748.png)
