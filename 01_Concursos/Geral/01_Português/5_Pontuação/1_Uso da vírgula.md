@@ -97,5 +97,10 @@ ERRADO: Para medir... é uma oração subordinada adverbial final deslocada e, c
 ![](../../../../attachments/Pasted%20image%2020260730100736.png)![](../../../../attachments/Pasted%20image%2020260730100747.png)
 CORRETO. pq mudaria o sentido para explicativa.
 
-![](../../../../attachments/Pasted%20image%2020260730101011.png)
-![](../../../../attachments/Pasted%20image%2020260730100957.png)
+![](../../../../attachments/Pasted%20image%2020260730101204.png)
+![](../../../../attachments/Pasted%20image%2020260730101155.png)
+
+CORRETO
+
+![](../../../../attachments/Pasted%20image%2020260730101509.png)
+![](../../../../attachments/Pasted%20image%2020260730101442.png)CORRETO. 
