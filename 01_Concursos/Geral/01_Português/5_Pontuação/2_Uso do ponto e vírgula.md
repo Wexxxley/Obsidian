@@ -1,0 +1,33 @@
+
+
+---
+
+Ponto e vírgula é uma pausa mais longa que a vírgula e menor que o ponto. Só existe duas situações que o ponto e vírgula pode ser usado:
+
+1. **Separar orações coordenadas.** Principalmente quando as conjunções adversativas e conclusivas estão deslocadas.
+	![](../../../../attachments/Pasted%20image%2020260730183050.png)
+2. **Separar itens de uma enumeração.**
+	![](../../../../attachments/Pasted%20image%2020260730183148.png)
+
+O ponto e vírgula nunca é obrigatório, ele sempre vai pode ser substituído.
+
+- Pode-se trocar a vírgula por dois pontos quando for uma explicação
+![](../../../../attachments/Pasted%20image%2020260729104608.png)
+
+---
+
+![](../../../../attachments/Pasted%20image%2020260730183641.png)
+![](../../../../attachments/Pasted%20image%2020260730183604.png)
+CORRETO, pois são orações coordenadas
+
+![](../../../../attachments/Pasted%20image%2020260730183850.png)![](../../../../attachments/Pasted%20image%2020260730183901.png)
+Correto. So vai passar a ter uma pausa maior  
+
+Note que: 
+Como poeta e matemática, raciocinaria bem -> so tem um verbo.
+Como mero matemático, não raciocinaria... 
+São orações coordenadas.
+
+![](../../../../attachments/Pasted%20image%2020260730184954.png)
+
+![](../../../../attachments/Pasted%20image%2020260730184935.png)
