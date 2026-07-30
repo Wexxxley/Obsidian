@@ -12,9 +12,6 @@ A vírgula indica pausa de pequena duração.
 **1. Vírgula separa aposto o vocativo**
 ![](../../../../attachments/Pasted%20image%2020260727143752.png)
 
-- Pode-se trocar a vírgula por dois pontos quando for uma explicação
-![](../../../../attachments/Pasted%20image%2020260729104608.png)
-
 **2. Vírgula separa enumerações -> termos de mesmo função e certas repetições**
 
 ![](../../../../attachments/Pasted%20image%2020260727183631.png)
@@ -44,9 +41,11 @@ Quando o adjunto adverbial está na ordem direta, o uso da vírgula é sempre **
 
 ![](../../../../attachments/Pasted%20image%2020260729131614.png)
 
+**5. Oração adjetiva explicativa e restrititva**
 
-
-
+A restritiva (sem vírgulas) particulariza. 
+A explicativa (entre vírgulas) explica.
+![](../../../../attachments/Pasted%20image%2020260730100638.png)
 
 
 ---
@@ -93,4 +92,10 @@ ERRADO: Para medir... é uma oração subordinada adverbial final deslocada e, c
 
 ![](../../../../attachments/Pasted%20image%2020260729142911.png)
  ![](../../../../attachments/Pasted%20image%2020260729142901.png)
- CORRETO. Pois em função... traz circunstancia de causa e está na ordem direta, sendo facultativo
+ CORRETO. Pois em função... traz circunstancia de causa e está na ordem direta, sendo facultativo.
+   
+![](../../../../attachments/Pasted%20image%2020260730100736.png)![](../../../../attachments/Pasted%20image%2020260730100747.png)
+CORRETO. pq mudaria o sentido para explicativa.
+
+![](../../../../attachments/Pasted%20image%2020260730101011.png)
+![](../../../../attachments/Pasted%20image%2020260730100957.png)

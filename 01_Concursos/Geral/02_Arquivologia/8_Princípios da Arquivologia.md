@@ -23,3 +23,9 @@ Propõe que a classificação e o arranjo dos documentos de arquivo devem ser or
 A) Ele estabelece que os documentos provenientes de uma determinada fonte geradora não devem ser misturados aos de outra entidade produtora. O conceito de **fundo de arquivo** deriva diretamente deste princípio. 
 
 ![](../../../attachments/Pasted%20image%2020260730093955.png)
+
+C) O **Princípio da Pertinência** defende que os documentos devem ser agrupados estritamente pelo seu **assunto** (tema), independentemente de quem os produziu.
+Ao aplicar esse princípio, você "quebra" a estrutura orgânica da instituição. Se você separar todos os documentos sobre "Saúde" de uma prefeitura em uma única caixa, você mistura papéis da Secretaria de Obras, da Secretaria de Finanças e do Gabinete do Prefeito, perdendo o contexto de **quem** fez e **por que** fez.
+
+![](../../../attachments/Pasted%20image%2020260730095005.png)
+A) Expressa que o arquivo é uma formação orgânica, resultante da acumulação contínua, progressiva e natural. Diferente das coleções bibliográficas, os arquivos não são criados artificialmente. 
