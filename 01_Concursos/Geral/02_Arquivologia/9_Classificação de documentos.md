@@ -65,3 +65,6 @@ Técnica utilizada para registrar a informação no documento.
 ![](../../../attachments/Pasted%20image%2020260601143154.png)
 ![](../../../attachments/Pasted%20image%2020260601145402.png)
 ![457](../../../attachments/Pasted%20image%2020260601145734.png)![](../../../attachments/Pasted%20image%2020260601150321.png)
+![](../../../attachments/Pasted%20image%2020260730092743.png)
+D)
+

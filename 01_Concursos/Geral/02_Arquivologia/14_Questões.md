@@ -15,3 +15,10 @@
 ![](../../../attachments/Pasted%20image%2020260729191141.png)
 
 - **A - Conteúdo estável:** Esta característica indica que o conteúdo do documento, uma vez criado e registrado, não deve ser alterado ou apagado de forma a comprometer sua integridade. s arquivísticos digitais.
+
+
+![](../../../attachments/Pasted%20image%2020260730080416.png)
+B)
+
+![](../../../attachments/Pasted%20image%2020260730093330.png)
+D) **Contrato Social:** "certidão de nascimento" da empresa — guarda **permanente**.

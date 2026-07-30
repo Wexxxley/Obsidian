@@ -55,3 +55,7 @@ SETORIAL
 C)
 
 ![](../../../attachments/Pasted%20image%2020260730075748.png)
+
+A) **imparcialidade** é a característica pela qual o documento arquivístico é considerado uma **testemunha verídica e fiel** dos fatos, justamente por ter sido produzido **no curso natural das atividades** , para fins práticos e imediatos.
+- **Autenticidade (D):** Refere-se à integridade e à identidade do documento, atestando que ele não sofreu adulteração.
+- **Naturalidade (B):** Os documentos são acumulados de maneira progressiva, orgânica e contínua em razão das funções da entidade.
