@@ -25,8 +25,10 @@ Antes do último elemento da enumeração você pode usar a vírgula ou o 'E'.
 	![](../../../../attachments/Pasted%20image%2020260731094714.png)
 	
 **3. Separa orações coordenadas (assíndeticas e sindéticas). Adversativas e conclusivas, se deslocadas ficam entre vírgulas.**
-- Exceto o 'E'. 
-- Quando o 'E' separa orações com sujeitos diferentes, o uso da vírgula é facultativo.
+- Quando o 'E' separa orações com sujeitos diferentes, o uso da vírgula é FACULTATIVO.
+- No geral, quando os sujeitos são iguais é proibido o uso da vírgulas, maaaas uma tendência está surgindo dizendo que é FACULTATIVO.
+- Se o 'E' tiver valor adversativo ou conclusivo o uso é FACULTATIVO.
+![](../../../../attachments/Pasted%20image%2020260731133049.png)
 
 ![](../../../../attachments/Pasted%20image%2020260729102821.png)
 
@@ -57,6 +59,10 @@ Quando o adjunto adverbial está na ordem direta, o uso da vírgula é sempre **
 **6. A vírgula marca omissão de palavra. ELIPSE**
 
 ![](../../../../attachments/Pasted%20image%2020260731095320.png)
+
+**7. Separa na data o nome do lugar e as numerações**
+
+![400](../../../../attachments/Pasted%20image%2020260731104040.png)
 
 ---
 ![](../../../../attachments/Pasted%20image%2020260729100743.png)
