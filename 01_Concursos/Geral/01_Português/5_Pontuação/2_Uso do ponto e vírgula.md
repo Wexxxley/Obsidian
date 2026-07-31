@@ -31,3 +31,4 @@ São orações coordenadas.
 ![](../../../../attachments/Pasted%20image%2020260730184954.png)
 
 ![](../../../../attachments/Pasted%20image%2020260730184935.png)
+ CORRETO. pq são periodos coordenados 

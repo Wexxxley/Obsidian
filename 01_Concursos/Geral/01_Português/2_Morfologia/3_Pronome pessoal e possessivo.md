@@ -30,14 +30,10 @@ Substituem nomes de pessoas ou coisas.
 
 **Oblíquos**: Não são sujeitos, são complementos.
 - **Tônicos**: São preposiocionados.
-	- Ele deu o livro **a ele**.
-	- Nós confiamos **em nós**
-	- Não vá **sem ti**.
+	![](../../../../attachments/Pasted%20image%2020260731080159.png)
 	
 - **Átonos**: Não são preposicionados. 
-	- Ela **me** chamou.
-	- Eu **o** encontrei no corredor.
-	- Eu **lhe** entreguei o código.
+	![](../../../../attachments/Pasted%20image%2020260731080222.png)
 
 ![](../../../../attachments/Pasted%20image%2020260610185707.png)
 

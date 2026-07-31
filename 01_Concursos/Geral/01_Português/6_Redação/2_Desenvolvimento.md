@@ -29,10 +29,17 @@
 
 ### **2. Explicação**
 
-Na explicação você vai DESDOBRAR o seu argumento
+Na explicação você vai DESDOBRAR o seu argumento.
+
+**SE FOR TESE POR CAUSA**
 - **Como** o repertório se reflete no tema?
 - **Por que** a CAUSA faz com que esse problema aconteça.
 - **Consequência**.
 
 **EXEMPLO**
 ![](../../../../attachments/Pasted%20image%2020260720192803.png)
+
+**SE FOR TESE POR CONSEQUÊNCIA**
+- **Como** o repertório se reflete no tema?
+- Mostre os impactos da **consequência para o indivíduo**
+- Mostre os impactos **para a sociedade como um todo.**
