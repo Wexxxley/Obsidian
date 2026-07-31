@@ -3,15 +3,13 @@
 
 ---
 #### **1. Bancadas Parlamentares**
-Uma bancada parlamentar é o agrupamento constituído pela totalidade dos deputados que integram um mesmo partido político com assento na Casa Legislativa. Ela possui caráter permanente, mantendo-se durante toda a vigência da legenda partidária.
+Agrupamento constituído pela totalidade dos deputados que integram um mesmo partido político com assento na Casa Legislativa. Possui caráter permanente.
 - A legislação garante que, mesmo na hipótese de um partido eleger apenas um único deputado, este parlamentar constituirá uma representação partidária monocrática.
 #### **2. Blocos Parlamentares**
-O bloco parlamentar diferencia-se da bancada por constituir uma aliança de caráter estritamente suprapartidário(aquilo que reúne diferentes partidos sem se submeter ao interesse particular de nenhum deles.)
+O bloco parlamentar diferencia-se da bancada por constituir uma aliança de caráter suprapartidário (aquilo que reúne diferentes partidos sem se submeter ao interesse particular de nenhum deles.)
 
 Consiste na união de um grupo de bancadas partidárias que decidem atuar de maneira unificada, com o intuito de ampliar sua representação nas comissões e sua força política.
-
 - **Equivalência Proporcional:** após constituído e registrado perante a Mesa Diretora, ele passa a funcionar juridicamente como se fosse uma única bancada. Isso garante ao bloco um número de vagas nas Comissões Permanentes e na Mesa Diretora superior.
-    
 - **Restrições:** O regimento impõe que as bancadas integrantes de um bloco não podem compor outro bloco. 
 #### **3. Lideranças Parlamentares**
 O Líder atua como o parlamentar designado por sua respectiva bancada ou bloco para desempenhar a função de porta-voz político.

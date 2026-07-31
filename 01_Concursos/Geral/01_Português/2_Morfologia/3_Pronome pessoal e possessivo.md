@@ -32,8 +32,9 @@ Substituem nomes de pessoas ou coisas.
 - **Tônicos**: São preposiocionados.
 	![](../../../../attachments/Pasted%20image%2020260731080159.png)
 	
-- **Átonos**: Não são preposicionados. 
+- **Átonos**: Não são preposicionados. Eles se apoiam na pronúncia do verbo.
 	![](../../../../attachments/Pasted%20image%2020260731080222.png)
+	- **LHE** nunca é antecedido por preposição, embora equivalha a uma expressão preposicionada ("a ele").
 
 ![](../../../../attachments/Pasted%20image%2020260610185707.png)
 
