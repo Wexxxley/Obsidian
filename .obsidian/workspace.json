@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Conteudos ALECE Técnico legislativo.md",
+                "file": "01_Concursos/Geral/01_Português/5_Pontuação/2_Dois pontos e ponto e vírgula.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conteudos ALECE Técnico legislativo"
+              "title": "2_Dois pontos e ponto e vírgula"
             }
           }
         ],
@@ -132,7 +132,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 524.0110359191895
+    "width": 524.0110359191895,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -237,6 +238,10 @@
   },
   "active": "c8c27c9487c75795",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260731085636.png",
+    "attachments/Pasted image 20260731085623.png",
+    "01_Concursos/Geral/02_Arquivologia/8_Princípios da Arquivologia.md",
+    "01_Concursos/Conteudos ALECE Técnico legislativo.md",
     "01_Concursos/Anotações Concursos.md",
     "01_Concursos/Geral/03_Legislação e serviço público/11_Bancadas, lideranças e blocos parlamentares.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/3_Pronome pessoal e possessivo.md",
@@ -248,14 +253,13 @@
     "01_Concursos/Geral/01_Português/6_Redação/2_Desenvolvimento.md",
     "01_Concursos/Geral/01_Português/6_Redação/3_Conclusão.md",
     "01_Concursos/Geral/01_Português/AssuntosPortugues.png",
-    "01_Concursos/Geral/01_Português/5_Pontuação/2_Uso do ponto e vírgula.md",
+    "01_Concursos/Geral/01_Português/5_Pontuação/2_Dois pontos e ponto e vírgula.md",
     "attachments/Pasted image 20260730184954.png",
     "attachments/Pasted image 20260730184935.png",
     "attachments/Pasted image 20260730183901.png",
     "attachments/Pasted image 20260730183850.png",
     "attachments/Pasted image 20260730183641.png",
     "attachments/Pasted image 20260730183604.png",
-    "attachments/Pasted image 20260730183148.png",
     "01_Concursos/Geral/01_Português/6_Redação/4_Teses e repertórios.md",
     "01_Concursos/Geral/01_Português/6_Redação/5_Termos, sinonimos e conectores.md",
     "01_Concursos/Geral/01_Português/6_Redação/6_Redações.md",
@@ -264,15 +268,12 @@
     "Untitled.md",
     "01_Concursos/Geral/02_Arquivologia/14_Questões.md",
     "01_Concursos/Geral/02_Arquivologia/04_Protocolo.md",
-    "01_Concursos/Geral/02_Arquivologia/8_Princípios da Arquivologia.md",
     "01_Concursos/Geral/02_Arquivologia/9_Classificação de documentos.md",
     "01_Concursos/Geral/02_Arquivologia/01_Conceitos iniciais.md",
     "01_Concursos/Geral/02_Arquivologia/02_Classificação dos arquivos.md",
     "01_Concursos/Geral/02_Arquivologia/03_Ciclo vital dos documentos.md",
     "01_Concursos/Geral/02_Arquivologia/5_Gestão de documentos.md",
     "01_Concursos/Geral/02_Arquivologia/7_Arquivos permanentes.md",
-    "01_Concursos/Geral/02_Arquivologia/11_Documentos digitais.md",
-    "01_Concursos/Geral/02_Arquivologia/6_Diagnóstico arquivístico.md",
     "01_Concursos/Geral/05_Atendimento ao público",
     "01_Concursos/Geral/01_Português/5_Pontuação",
     "01_Concursos/Geral/01_Português/3_Verbos",

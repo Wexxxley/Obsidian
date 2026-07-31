@@ -1,6 +1,7 @@
 
 
 ---
+### **1. Uso do ponto e vírgula**
 
 Ponto e vírgula é uma pausa mais longa que a vírgula e menor que o ponto. Só existe duas situações que o ponto e vírgula pode ser usado:
 
@@ -32,3 +33,7 @@ São orações coordenadas.
 
 ![](../../../../attachments/Pasted%20image%2020260730184935.png)
  CORRETO. pq são periodos coordenados 
+ 
+![](../../../../attachments/Pasted%20image%2020260731085636.png)
+![](../../../../attachments/Pasted%20image%2020260731085623.png)
+Correto.
