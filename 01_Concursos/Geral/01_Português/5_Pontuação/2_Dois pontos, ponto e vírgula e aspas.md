@@ -5,9 +5,9 @@
 
 Ponto e vírgula é uma pausa mais longa que a vírgula e menor que o ponto. Só existe duas situações que o ponto e vírgula pode ser usado:
 
-1. **Separar orações coordenadas.** Principalmente quando as conjunções adversativas e conclusivas estão deslocadas.
+**1. Separar orações coordenadas.** Principalmente quando as conjunções adversativas e conclusivas estão deslocadas.
 	![](../../../../attachments/Pasted%20image%2020260730183050.png)
-2. **Separar itens de uma enumeração.** Leis, decretos, regulamentos. Pode substituir por vírgula.
+**2. Separar itens de uma enumeração.** Leis, decretos, regulamentos. Pode substituir por vírgula.
 	![](../../../../attachments/Pasted%20image%2020260730183148.png)
 
 O ponto e vírgula nunca é obrigatório, ele sempre pode ser substituído.
@@ -15,9 +15,33 @@ O ponto e vírgula nunca é obrigatório, ele sempre pode ser substituído.
 ---
 ### **2. Uso dos dois pontos** 
 
-- Pode-se trocar a vírgula por dois pontos quando for uma explicação
-![](../../../../attachments/Pasted%20image%2020260729104608.png)
+**1. Dão início a fala ou citação de outrem.**
 
+![](../../../../attachments/Pasted%20image%2020260731141741.png)
+
+**2. Introduzem explicação, enumeração e esclarecimento.**
+
+![](../../../../attachments/Pasted%20image%2020260731141952.png)
+
+![](../../../../attachments/Pasted%20image%2020260731142334.png)
+
+Pode-se trocar a vírgula por dois pontos quando for uma explicação:
+![](../../../../attachments/Pasted%20image%2020260731142726.png)
+
+---
+### **3. Aspas**
+
+**1. Isolam citação** 
+![](../../../../attachments/Pasted%20image%2020260731143010.png)
+
+**2. Isolam estrangeirismos, arcaísmos, expressões populares**
+
+**3. Dar destaque a uma palavra ou expressão**
+![400](../../../../attachments/Pasted%20image%2020260731143231.png)
+
+**4. Mostrar palavra em sentido diverso do usual ou uma ironia.**
+![](../../../../attachments/Pasted%20image%2020260731143407.png)
+ 
 ---
 
 ![](../../../../attachments/Pasted%20image%2020260730183641.png)
