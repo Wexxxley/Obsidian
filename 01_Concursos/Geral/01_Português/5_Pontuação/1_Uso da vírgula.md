@@ -42,10 +42,11 @@ Antes do último elemento da enumeração você pode usar a vírgula ou o 'E'.
 **4. Separa termos deslocados**
 
 ORDEM DIRETA: Sujeito + Verbo + Complemento + Adj. Adverbial
+No periodo composto a ordem direta é: Oração principal + Oração subordinada
 
 **Advérbios deslocados:**
-- CURTOS (até duas palavras): Facultativo
-- LONGOS (3 ou mais palavras): Obrigatório
+- CURTOS (até 3 palavras): Facultativo
+- LONGOS (4 ou mais palavras): Obrigatório
 
 Quando o adjunto adverbial está na ordem direta, o uso da vírgula é sempre **facultativo**, independentemente do seu tamanho.
 

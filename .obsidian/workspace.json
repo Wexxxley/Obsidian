@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/5_Pontuação/1_Uso da vírgula.md",
+                "file": "01_Concursos/Geral/01_Português/5_Pontuação/2_Dois pontos e ponto e vírgula.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Uso da vírgula"
+              "title": "2_Dois pontos e ponto e vírgula"
             }
           }
         ],
@@ -132,7 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 524.0110359191895,
+    "width": 314.01103591918945,
     "collapsed": true
   },
   "right": {
@@ -238,9 +238,10 @@
   },
   "active": "c8c27c9487c75795",
   "lastOpenFiles": [
-    "attachments/Pasted image 20260731133049.png",
-    "01_Concursos/Geral/01_Português/5_Pontuação/2_Dois pontos e ponto e vírgula.md",
     "01_Concursos/Geral/01_Português/5_Pontuação/1_Uso da vírgula.md",
+    "01_Concursos/Geral/01_Português/5_Pontuação/2_Dois pontos e ponto e vírgula.md",
+    "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
+    "attachments/Pasted image 20260731133049.png",
     "attachments/Pasted image 20260731104040.png",
     "attachments/Pasted image 20260731103252.png",
     "attachments/Pasted image 20260731095320.png",
@@ -260,7 +261,6 @@
     "01_Concursos/Geral/01_Português/2_Morfologia/6_Colocação pronominal.md",
     "01_Concursos/Geral/01_Português/6_Redação/2_Desenvolvimento.md",
     "01_Concursos/Geral/01_Português/6_Redação/3_Conclusão.md",
-    "01_Concursos/Geral/01_Português/AssuntosPortugues.png",
     "01_Concursos/Geral/01_Português/6_Redação/4_Teses e repertórios.md",
     "01_Concursos/Geral/01_Português/6_Redação/5_Termos, sinonimos e conectores.md",
     "01_Concursos/Geral/01_Português/6_Redação/6_Redações.md",
