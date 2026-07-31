@@ -24,7 +24,7 @@ A vírgula indica pausa de pequena duração.
 
 ![](../../../../attachments/Pasted%20image%2020260728065542.png)
 
-**Substituição da írgula por 'E'**
+**Substituição da vírgula por 'E'**
 - Quando for uma enumeração, uma adição de informação pode trocar.
 - Quando for uma explicação, não pode.
 	![](../../../../attachments/Pasted%20image%2020260729130108.png)

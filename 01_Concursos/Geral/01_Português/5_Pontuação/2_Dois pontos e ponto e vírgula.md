@@ -37,3 +37,4 @@ São orações coordenadas.
 ![](../../../../attachments/Pasted%20image%2020260731085636.png)
 ![](../../../../attachments/Pasted%20image%2020260731085623.png)
 Correto.
+![](../../../../attachments/Pasted%20image%2020260731091219.png)
