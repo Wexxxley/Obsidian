@@ -9,13 +9,21 @@ A vírgula indica pausa de pequena duração.
 - Nunca separe sujeito do verbo.
 - Nunca separe verbo do complemento
 
-**1. Vírgula separa aposto o vocativo**
+**1. Vírgula separa aposto e vocativo**
+- O aposto especificativo é o único que vem sem sinal de pontuação.
 ![](../../../../attachments/Pasted%20image%2020260727143752.png)
 
-**2. Vírgula separa enumerações -> termos de mesmo função e certas repetições**
+**2. Vírgula separa enumerações**
 
+Termos de mesmo função sintática e certas repetições.
 ![](../../../../attachments/Pasted%20image%2020260727183631.png)
 
+Antes do último elemento da enumeração você pode usar a vírgula ou o 'E'.
+- Com virgula significa que existem outros elementos, é como um etc implícito.
+- Com 'E' você fecha a lista.
+- A vírgula antes do etc é facultativa, mas o mais correto é não usar.
+	![](../../../../attachments/Pasted%20image%2020260731094714.png)
+	
 **3. Separa orações coordenadas (assíndeticas e sindéticas). Adversativas e conclusivas, se deslocadas ficam entre vírgulas.**
 - Exceto o 'E'. 
 - Quando o 'E' separa orações com sujeitos diferentes, o uso da vírgula é facultativo.
@@ -41,12 +49,14 @@ Quando o adjunto adverbial está na ordem direta, o uso da vírgula é sempre **
 
 ![](../../../../attachments/Pasted%20image%2020260729131614.png)
 
-**5. Oração adjetiva explicativa e restrititva**
-
-A restritiva (sem vírgulas) particulariza. 
-A explicativa (entre vírgulas) explica.
+**5. Oração adjetiva explicativa e restritiva e expressões explicativas, retificativas e de situação**
 ![](../../../../attachments/Pasted%20image%2020260730100638.png)
 
+![](../../../../attachments/Pasted%20image%2020260731103252.png)
+
+**6. A vírgula marca omissão de palavra. ELIPSE**
+
+![](../../../../attachments/Pasted%20image%2020260731095320.png)
 
 ---
 ![](../../../../attachments/Pasted%20image%2020260729100743.png)
