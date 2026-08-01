@@ -22,3 +22,9 @@ B)
 
 ![](../../../attachments/Pasted%20image%2020260730093330.png)
 D) **Contrato Social:** "certidão de nascimento" da empresa — guarda **permanente**.
+
+----
+
+![](../../../attachments/Pasted%20image%2020260731185201.png)
+C
+
