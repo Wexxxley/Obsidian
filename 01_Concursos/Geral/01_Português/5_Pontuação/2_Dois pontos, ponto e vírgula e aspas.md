@@ -15,7 +15,7 @@ O ponto e vírgula nunca é obrigatório, ele sempre pode ser substituído.
 ---
 ### **2. Uso dos dois pontos** 
 
-**1. Dão início a fala ou citação de outrem.**
+**1. Dão início a fala ou citação .**
 
 ![](../../../../attachments/Pasted%20image%2020260731141741.png)
 

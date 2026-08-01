@@ -65,6 +65,8 @@ Quando o adjunto adverbial está na ordem direta, o uso da vírgula é sempre **
 
 ![400](../../../../attachments/Pasted%20image%2020260731104040.png)
 
+
+
 ---
 ![](../../../../attachments/Pasted%20image%2020260729100743.png)
 ![](../../../../attachments/Pasted%20image%2020260729100759.png)
