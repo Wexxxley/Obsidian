@@ -6,7 +6,7 @@
 **POPUTIC**
 ### 1. Princípio da Proveniência
 Ele estabelece que os documentos provenientes de uma determinada fonte geradora não devem ser misturados aos de outra entidade produtora. O conceito de **fundo de arquivo** deriva diretamente deste princípio. 
-### 2. Princípio da Organização
+### 2. Princípio da Organicidade
 Determina que os arquivos de uma mesma proveniência devem manter a organização interna e o fluxo funcional estabelecidos pela entidade que os produziu e acumulou no decorrer de suas atividades operacionais.
 ### 3. Princípio da Pertinência Funcional
 Propõe que a classificação e o arranjo dos documentos de arquivo devem ser orientados pelas funções e atividades desenvolvidas pela entidade produtora, e não por assuntos abstratos.
@@ -30,3 +30,10 @@ Ao aplicar esse princípio, você "quebra" a estrutura orgânica da instituiçã
 
 ![](../../../attachments/Pasted%20image%2020260730095005.png)
 A) Expressa que o arquivo é uma formação orgânica, resultante da acumulação contínua, progressiva e natural. Diferente das coleções bibliográficas, os arquivos não são criados artificialmente. 
+
+![](../../../attachments/Pasted%20image%2020260802133911.png)
+O ato de passar a posse ou o direito de um bem para outra pessoa ou empresa.
+
+D) O  **Princípio da Inalienabilidade** estabelece que os documentos produzidos e acumulados por instituições públicas não podem ser transferidos de propriedade, vendidos, doados ou alienados a terceiros.
+
+![](../../../attachments/Pasted%20image%2020260802140056.png)
