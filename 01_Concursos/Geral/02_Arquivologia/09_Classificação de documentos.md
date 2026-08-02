@@ -62,4 +62,3 @@ Técnica utilizada para registrar a informação no documento.
 ![](../../../attachments/Pasted%20image%2020260730092743.png)D)
 
 ![](../../../attachments/Pasted%20image%2020260802140520.png)
-![](../../../attachments/Pasted%20image%2020260802143100.png)

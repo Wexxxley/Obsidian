@@ -14,7 +14,6 @@ A vírgula indica pausa de pequena duração.
 ![](../../../../attachments/Pasted%20image%2020260727143752.png)
 
 **2. Vírgula separa enumerações**
-
 Termos de mesmo função sintática e certas repetições.
 ![](../../../../attachments/Pasted%20image%2020260727183631.png)
 
@@ -23,7 +22,6 @@ Antes do último elemento da enumeração você pode usar a vírgula ou o 'E'.
 - Com 'E' você fecha a lista.
 - A vírgula antes do etc é facultativa, mas o mais correto é não usar.
 	![](../../../../attachments/Pasted%20image%2020260731094714.png)
-	
 **3. Separa orações coordenadas (assíndeticas e sindéticas). Adversativas e conclusivas, se deslocadas ficam entre vírgulas.**
 - Quando o 'E' separa orações com sujeitos diferentes, o uso da vírgula é FACULTATIVO.
 - No geral, quando os sujeitos são iguais é proibido o uso da vírgulas, maaaas uma tendência está surgindo dizendo que é FACULTATIVO.
@@ -38,9 +36,7 @@ Antes do último elemento da enumeração você pode usar a vírgula ou o 'E'.
 - Quando for uma enumeração, uma adição de informação pode trocar.
 - Quando for uma explicação, não pode.
 	![](../../../../attachments/Pasted%20image%2020260729130108.png)
-
 **4. Separa termos deslocados**
-
 ORDEM DIRETA: Sujeito + Verbo + Complemento + Adj. Adverbial
 No periodo composto a ordem direta é: Oração principal + Oração subordinada
 
@@ -52,7 +48,7 @@ Quando o adjunto adverbial está na ordem direta, o uso da vírgula é sempre **
 
 ![](../../../../attachments/Pasted%20image%2020260729131614.png)
 
-**5. Oração adjetiva explicativa e restritiva e expressões explicativas, retificativas e de situação**
+**5. Oração adjetiva explicativa e expressões explicativas, retificativas e de situação**
 ![](../../../../attachments/Pasted%20image%2020260730100638.png)
 
 ![](../../../../attachments/Pasted%20image%2020260731103252.png)

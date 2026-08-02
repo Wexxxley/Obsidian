@@ -35,5 +35,3 @@ A) Expressa que o arquivo é uma formação orgânica, resultante da acumulaçã
 O ato de passar a posse ou o direito de um bem para outra pessoa ou empresa.
 
 D) O  **Princípio da Inalienabilidade** estabelece que os documentos produzidos e acumulados por instituições públicas não podem ser transferidos de propriedade, vendidos, doados ou alienados a terceiros.
-
-![](../../../attachments/Pasted%20image%2020260802140056.png)
