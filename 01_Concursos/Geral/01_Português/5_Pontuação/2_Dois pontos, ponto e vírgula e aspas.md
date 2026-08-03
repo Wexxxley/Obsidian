@@ -24,7 +24,6 @@ O ponto e vírgula nunca é obrigatório, ele sempre pode ser substituído.
 ![](../../../../attachments/Pasted%20image%2020260731141952.png)
 
 ![](../../../../attachments/Pasted%20image%2020260731142334.png)
-
 Pode-se trocar a vírgula por dois pontos quando for uma explicação:
 ![](../../../../attachments/Pasted%20image%2020260731142726.png)
 
