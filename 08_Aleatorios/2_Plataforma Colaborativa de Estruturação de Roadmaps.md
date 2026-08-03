@@ -5,73 +5,40 @@
 
 Na contemporaneidade, a democratização digital permite o acesso a conteúdos educacionais sobre praticamente qualquer área do saber. Todavia, essa disponibilidade é acompanhada pelo fenômeno da fragmentação, no qual os recursos didáticos se apresentam dispersos em múltiplas plataformas e desprovidos de uma estrutura pedagógica coesa. Em vez de o estudante se concentrar na aprendizagem, o indivíduo gasta sua energia na curadoria e na organização dos materiais.
 
-  
-
-Este cenário é particularmente prejudicial para indivíduos autodidatas e estudantes que operam sem o suporte direto de tutores ou instituições de ensino. Sem uma orientação externa, esses alunos tornam-se vulneráveis à desorientação metodológica. A inexistência de uma sequência lógica e progressiva de estudos resulta na formação de lacunas conceituais. Além disso, as trilhas de aprendizado estáticas sofrem de obsolescência precoce, tornando-se incapazes de acompanhar o dinamismo das atualizações.
-
+Este cenário é particularmente prejudicial para indivíduos autodidatas e estudantes que operam sem o suporte direto de tutores ou instituições de ensino. Sem uma orientação externa, esses alunos tornam-se vulneráveis à desorientação metodológica. A inexistência de uma sequência lógica e progressiva de estudos resulta na formação de lacunas conceituais. Além disso, as trilhas de aprendizado estáticas sofrem de obsolescência precoce.
 ### 2. Objetivo Geral
 
 Desenvolver uma plataforma colaborativa para a criação, evolução e curadoria comunitária de roadmaps educacionais, utilizando o desenvolvimento do sistema como um estudo de caso para avaliar o impacto de padrões arquiteturais e boas práticas de Engenharia de Software na manutenibilidade e testabilidade da aplicação.
 
 A plataforma não iria atuar como curadora, mas forneceria infraestrutura para que a comunidade realizasse a auto-curadoria.
+- **Mantenedor**: Criador original ou responsável pelo roadmap "oficial". Define a filosofia pedagógica, revisa sugestões e garante a coesão da trilha.
+- **Colaborador**: Qualquer usuário que identifique melhorias (links, novos conteúdos) poderia sugerir uma mudança.
 
-- Mantenedor: Criador original ou responsável pelo roadmap "oficial". Define a filosofia pedagógica, revisa sugestões e garante a coesão da trilha.
-    
-- Colaborador: Qualquer usuário que identifique melhorias (links, novos conteúdos) poderia sugerir uma mudança.
-    
+### 3. Foco da abordagem
 
-  
-  
-  
-  
-  
-  
+Abordagem focada em Engenharia de Software e System Designa. A geração de código tornou-se uma comodidade com o avanço da IA, de modo que o valor de mercado de um dev desloca-se da simples escrita de algoritmos para a capacidade de projetar sistemas escaláveis, resilientes e de fácil manutenção.
+
 
 ### 3. Pontos importantes que podem ser abordados
 
-- Modelagem de Dados e Estruturas de Grafo:
-    
+**Modelagem de Dados e Estruturas de Grafo:**
+- Desafio: Um roadmap não é uma lista simples, mas uma estrutura hierárquica (podendo envolver dependências e pré-requisitos).
+- Foco de Pesquisa: Estudo sobre representação de Grafos Acíclicos Dirigidos (DAGs) em bancos de dados relacionais vs. não-relacionais, avaliando qual modelo favorece a escalabilidade e a facilidade de consulta.
 
-Desafio: Um roadmap não é uma lista simples, mas uma estrutura hierárquica (podendo envolver dependências e pré-requisitos).
+**Algoritmos de Versionamento e Diferenciação (Diff):**
+- Desafio: Implementar a lógica de Pull Requests para dados estruturados. Como comparar a versão "A" de um roadmap com a sugestão "B" de forma visual e lógica?
+- Foco de Pesquisa: Investigar sistemas de controle de versão aplicados a objetos JSON ou estruturas em árvore, buscando um modelo de resolução de conflitos simplificado para a plataforma.
 
-Foco de Pesquisa: Estudo sobre representação de Grafos Acíclicos Dirigidos (DAGs) em bancos de dados relacionais vs. não-relacionais, avaliando qual modelo favorece a escalabilidade e a facilidade de consulta.
+**System design:** 
+Enquanto a Arquitetura de Software frequentemente lida com a organização interna do código-fonte, o System Design afasta o foco do código e olha para o sistema como uma rede de serviços interagindo entre si. É a tomada de decisão sobre a infraestrutura macro e sobre as peças que compõem o ecossistema da aplicação.
 
-- Algoritmos de Versionamento e Diferenciação (Diff):
-    
-
-Desafio: Implementar a lógica de Pull Requests para dados estruturados. Como comparar a versão "A" de um roadmap com a sugestão "B" de forma visual e lógica?
-
-Foco de Pesquisa: Investigar sistemas de controle de versão aplicados a objetos JSON ou estruturas em árvore, buscando um modelo de resolução de conflitos simplificado para a plataforma.
-
-- Arquitetura e Qualidade: Aplicar princípios de design de software (como SOLID) e padrões arquiteturais (como  Clean Architecture ) para garantir o desacoplamento de componentes.
-    
+- Aplicar princípios de design de software (como SOLID) e padrões arquiteturais (como  Clean Architecture ) para garantir o desacoplamento de componentes.
 - Testabilidade: Desenvolver uma suíte de testes automatizada para garantir a integridade das regras de negócio durante a evolução do sistema.
+
+  
     
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-Imagens de inspiração
+**Imagens de inspiração**
 
   
 

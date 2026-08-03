@@ -37,14 +37,11 @@ Antes do último elemento da enumeração você pode usar a vírgula ou o 'E'.
 - Quando for uma enumeração, uma adição de informação pode trocar.
 - Quando for uma explicação, não pode.
 	![](../../../../attachments/Pasted%20image%2020260729130108.png)
-
 **Conjunções adversativas**
-
-- **O Caso de "Todavia, Porém, Entretanto, Contudo, No entanto"** Quando essas conjunções abrem uma frase, a vírgula logo após elas é **facultativa**. 
+Quando essas conjunções abrem uma frase, a vírgula logo após elas é **facultativa**. 
 - **Uso com Ponto e Vírgula:**  Nesse caso, a vírgula após a conjunção passa a ser **obrigatória**. 
 - **Mas**: A regra geral exige que a vírgula venha sempre antes do "mas" se n estiver deslocado.
-
-
+![550](../../../../attachments/Pasted%20image%2020260803081046.png)
 **4. Separa termos deslocados**
 ORDEM DIRETA: Sujeito + Verbo + Complemento + Adj. Adverbial
 No periodo composto a ordem direta é: Oração principal + Oração subordinada
