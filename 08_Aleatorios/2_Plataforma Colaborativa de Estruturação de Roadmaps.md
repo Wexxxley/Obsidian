@@ -13,6 +13,18 @@ Desenvolver uma plataforma colaborativa para a criação, evolução e curadoria
 A plataforma não iria atuar como curadora, mas forneceria infraestrutura para que a comunidade realizasse a auto-curadoria.
 - **Mantenedor**: Criador original ou responsável pelo roadmap "oficial". Define a filosofia pedagógica, revisa sugestões e garante a coesão da trilha.
 - **Colaborador**: Qualquer usuário que identifique melhorias (links, novos conteúdos) poderia sugerir uma mudança.
+### 3. Abordagem Metodológica e Arquitetural
+
+A abordagem adotada priorizará o System Design, garantindo que a arquitetura escolhida seja econômica, pragmática e alinhada às necessidades do problema.
+
+**Especificação de Requisitos**: O projeto terá início com o mapeamento dos requisitos funcionais e não funcionais.
+- Os requisitos funcionais detalharão as regras de negócio intrínsecas à plataforma, como o fluxo de submissão de sugestões (nós e links) pelos colaboradores, a mecânica de revisão e aprovação pelos mantenedores, e o sistema de controle de acesso. Paralelamente, os requisitos não funcionais estabelecerão as restrições arquiteturais críticas do sistema. Esta etapa quantificará métricas de desempenho (como o tempo máximo de resposta tolerável para a leitura de trilhas completas), segurança (gerenciamento de autorização granular) e integridade de dados (estratégias de bloqueio e controle de concorrência para edições simultâneas).
+
+**Design de Sistema e Definição Arquitetural** A partir das restrições levantadas, o trabalho prosseguirá para a definição estrutural da aplicação. A abordagem buscará a eficiência no uso de recursos computacionais, avaliando padrões como o Monólito Modular para reduzir a sobrecarga operacional em comparação a ecossistemas distribuídos. O núcleo do sistema será estruturado com base em princípios de separação de responsabilidades, utilizando conceitos de _Clean Architecture_ (Arquitetura Limpa) ou _Domain-Driven Design_ (Projeto Orientado a Domínio). Essa separação garantirá que a lógica de negócios da curadoria colaborativa permaneça isolada dos detalhes de infraestrutura, como a tecnologia do banco de dados ou o _framework_ de entrega da interface de comunicação.
+
+**Modelagem de Dados e Estruturas em Grafos** Uma etapa central da abordagem será a definição técnica da persistência dos _roadmaps_. Como as trilhas de aprendizado exigem a definição de pré-requisitos não lineares, os dados serão representados e estruturados como Grafos Direcionados Acíclicos (DAGs). O trabalho documentará a análise técnica (_trade-offs_) entre diferentes paradigmas de banco de dados para armazenar essas hierarquias. Além disso, será projetada a lógica de versionamento e isolamento de estado, permitindo que as propostas de alteração existam de forma independente do fluxo principal, sem corromper o _roadmap_ oficial até que a mesclagem seja autorizada.
+
+**Implementação e Validação de Métricas de Qualidade** A consolidação do estudo se dará pela implementação de uma Prova de Conceito (PoC) da infraestrutura de _backend_. A eficácia das decisões de _System Design_ será avaliada através da coleta e análise de métricas reais de código e execução. Para comprovar os ganhos em manutenibilidade e testabilidade, o trabalho extrairá indicadores como a complexidade ciclomática (métrica que quantifica o número de caminhos independentes no código), os níveis de acoplamento e coesão entre os módulos projetados, e o percentual de cobertura de testes automatizados sobre as regras de negócio de mesclagem de conteúdo.
 
 ### 3. Foco da abordagem
 
