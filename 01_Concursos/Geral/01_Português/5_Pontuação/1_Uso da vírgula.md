@@ -1,5 +1,6 @@
 
 
+
 ---
 
 A pontuação é dividida em três seguimentos: sintático, semântico e estilístico. O que
@@ -54,15 +55,15 @@ Quando o adjunto adverbial está na ordem direta, o uso da vírgula é sempre **
 ![](../../../../attachments/Pasted%20image%2020260731103252.png)
 
 **6. A vírgula marca omissão de palavra. ELIPSE**
-
 ![](../../../../attachments/Pasted%20image%2020260731095320.png)
 
 **7. Separa na data o nome do lugar e as numerações**
-
 ![400](../../../../attachments/Pasted%20image%2020260731104040.png)
+**8. Orações subordinadas adverbiais**
 
-
-
+- **Ordem direta:** Oração principal + Oração subordinada adverbial. O uso da vírgula antes da conjunção é opcional.
+- **Ordem inversa:**  Quando a adverbial vem no início, o uso da vírgula passa a ser obrigatório.
+![400](../../../../attachments/Pasted%20image%2020260803064930.png)
 ---
 ![](../../../../attachments/Pasted%20image%2020260729100743.png)
 ![](../../../../attachments/Pasted%20image%2020260729100759.png)
