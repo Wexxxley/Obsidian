@@ -20,7 +20,14 @@
 ![](../../../../attachments/Pasted%20image%2020260802151213.png)![](../../../../attachments/Pasted%20image%2020260802151709.png)
 
 ![](../../../../attachments/Pasted%20image%2020260802152252.png)
+
+![](../../../../attachments/Pasted%20image%2020260803131901.png)
 ![](../../../../attachments/Pasted%20image%2020260803065921.png)
-![](../../../../attachments/Pasted%20image%2020260802152725.png)![](../../../../attachments/Pasted%20image%2020260802153001.png)
+
+![](../../../../attachments/Pasted%20image%2020260802153001.png)
 ![](../../../../attachments/Pasted%20image%2020260802153824.png)
 ![](../../../../attachments/Pasted%20image%2020260802153837.png)![](../../../../attachments/Pasted%20image%2020260802154824.png)
+
+---
+
+![](../../../../attachments/Pasted%20image%2020260803132634.png)
