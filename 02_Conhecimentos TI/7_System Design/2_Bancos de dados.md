@@ -7,7 +7,7 @@ Banco de dados são sistemas utilizados para armazenar, administrar e recuperar 
 ### 1. Bancos de Dados SQL 
 Os dados são organizados em tabelas e possuem formato estruturado.Indicados para domínios que exigem alta confiabilidade de dados e buscas complexas, como instituições financeiras e marketplaces.
 - **Schema-on-Write:** O banco verifica ativamente se o formato recebido pelo cliente coincide com o formato tipado da coluna na tabela.
-- **ACID:**  Propriedades essenciais de uma transação de banco de dados confiável. [7_ACID](../../01_Concursos/TI/03_Banco%20de%20dados/1_Relacional/7_ACID.md)
+- **ACID:**  Propriedades essenciais de uma transação de banco de dados confiável. [7_ACID, BASE e teorema de CAP](../../01_Concursos/TI/03_Banco%20de%20dados/1_Relacional/7_ACID,%20BASE%20e%20teorema%20de%20CAP.md)
 ### 2. Bancos de Dados NoSQL
 Apresentam Schema flexível, são otimizados para alto **throughput** (capacidade de processar um volume massivo de requisições de leitura e escrita) e facilitam a escalabilidade horizontal. Indicados para sistemas de registro de Logs, para armazenamento em Cache, etc.
 
