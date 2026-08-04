@@ -6,7 +6,7 @@
 
 **Oração desenvolvidas:** são aquelas que possuem conjunções ou pronome relativo.
 
-**Oração reduzida:** Sem conectivos. Usando preposições ou locuções prepositivas.
+**Oração reduzida:** Sem conectivos. Usando **preposições ou locuções prepositivas**.
 - O verbo vem na forma nominal (infinitivo, gerúndio ou particípio)
 - Somente orações subordinadas podem ser reduzidas.
 

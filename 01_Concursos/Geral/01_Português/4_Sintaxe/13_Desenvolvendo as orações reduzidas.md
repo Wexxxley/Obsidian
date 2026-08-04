@@ -3,17 +3,15 @@
 ---
 
 **Passo a passo para transformar de reduzida para desenvolvida:**
-1. Contar o número de verbos => número de orações.
-2. Separe as orações identificando a reduzida. 
-3. Identificar o tipo da oração reduzida (SUBSTANTIVA, ADJETIVA, ADVERBIAL)
-4. Acrescentar o conectivo adequado. Se a oração for:
-	1. Substantiva => QUE Conjunção integrante
-	2. Adjetiva => Um Ppronome relativo
-	3. Adverbial => Conj adverbial
-5. Retirar o verbo da forma nominal e conjuga-lo, atentando-se para duas coisas:
-	- Tempo do verbo amigo (PRESENTE, PASSADO, FUTURO).
-	- O sujeito tem que ser o mesmo.
-
+1. Identificar o tipo da oração reduzida (SUBSTANTIVA, ADJETIVA, ADVERBIAL)
+2. Acrescentar o conectivo adequado. Se a oração for:
+	1. **Substantiva => QUE ou SE Conjunção integrante**
+	2. **Adjetiva => Um Pronome relativo**
+	3. **Adverbial => Conj adverbial**
+3. Retirar o verbo da forma nominal e conjugá-lo, atentando-se para duas coisas:
+	- Com o tempo do verbo "amigo" (PRESENTE, PASSADO, FUTURO).
+	- Com o sujeito do verbo "amigio".
+4. Note que, pode-se passar tanto para a voz ativa como para a passiva (sintética e analítica)
 
 ![](../../../../attachments/Pasted%20image%2020260723095528.png)
 ![](../../../../attachments/Pasted%20image%2020260723095539.png)
