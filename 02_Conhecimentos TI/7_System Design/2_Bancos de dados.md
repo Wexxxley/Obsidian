@@ -18,3 +18,10 @@ Apresentam Schema flexível, são otimizados para alto **throughput** (capacidad
 - **Grafos:** Focados em mapear relacionamentos e conexões complexas que podem ser representadas como grafos (Neo4j).
 - **Vetores:** Armazenam dados como coordenadas matemáticas, essenciais para sistemas de recomendação e Inteligência Artificial (Pinecone).
 
+### 3. Qual escolher
+A escolha do banco de dados deve levar em consideração um conjunto de fatores técnicos:
+- **Forma/formato dos dados:** Define a estrutura da informação a ser armazenada, distinguindo entre dados rigidamente estruturados, semiestruturados ou não estruturados.
+- **Padrões de acesso:** Trata da maneira como o sistema consulta e atualiza os dados, avaliando se as operações envolvem buscas por chaves específicas, leituras sequenciais, agregações ou cruzamento de múltiplas entidades.
+- **Latência:** Corresponde ao tempo de resposta máximo tolerável pelo sistema para completar as transações de comunicação com o banco de dados.
+- **Teorema CAP** 
+- **Read/Writes:** Refere-se à taxa e à proporção entre operações de leitura e escrita. Sistemas com alta carga de inserção de dados exigem otimizações estruturais diferentes daquelas aplicadas em sistemas voltados primariamente para consultas intensivas.
