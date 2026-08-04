@@ -1,5 +1,5 @@
 
-
+#Concluded 
 
 ---
 
@@ -26,9 +26,7 @@ Antes do último elemento da enumeração você pode usar a vírgula ou o 'E'.
 **3. Separa orações coordenadas (assíndeticas e sindéticas). Adversativas e conclusivas, se deslocadas ficam entre vírgulas.**
 - Quando o 'E' separa orações com sujeitos diferentes, o uso da vírgula é FACULTATIVO.
 - No geral, quando os sujeitos são iguais é proibido o uso da vírgulas, maaaas uma tendência está surgindo dizendo que é FACULTATIVO.
-- Se o 'E' tiver valor adversativo ou conclusivo o uso é FACULTATIVO.
-![](../../../../attachments/Pasted%20image%2020260731133049.png)
-
+- Se o 'E' tiver valor adversativo ou conclusivo o uso é FACULTATIVO.![](../../../../attachments/Pasted%20image%2020260731133049.png)
 ![](../../../../attachments/Pasted%20image%2020260729102821.png)
 
 ![](../../../../attachments/Pasted%20image%2020260728065542.png)
