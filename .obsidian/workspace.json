@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 435.8553657531738
+    "width": 435.8553657531738,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -196,6 +197,12 @@
   },
   "active": "6c91a89a4ea4728e",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260805083052.png",
+    "attachments/Pasted image 20260805082931.png",
+    "attachments/Pasted image 20260805082333.png",
+    "attachments/Pasted image 20260805082044.png",
+    "attachments/Pasted image 20260805081342.png",
+    "attachments/Pasted image 20260805081003.png",
     "attachments/Pasted image 20260805080601.png",
     "attachments/Pasted image 20260805080502.png",
     "attachments/Pasted image 20260805080052.png",
@@ -203,15 +210,9 @@
     "01_Concursos/Geral/01_Português/5_Pontuação/4_Questões.md",
     "01_Concursos/TI/03_Banco de dados/1_Relacional/7_ACID, BASE e teorema de CAP.md",
     "attachments/Pasted image 20260805075014.png",
-    "attachments/Pasted image 20260805074417.png",
-    "attachments/Pasted image 20260805074256.png",
-    "attachments/Pasted image 20260805074135.png",
     "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
     "01_Concursos/Geral/01_Português/3_Verbos/4_Verbos impessoais e auxiliares.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/13_Desenvolvendo as orações reduzidas.md",
-    "attachments/Pasted image 20260804192637.png",
-    "attachments/Pasted image 20260804192301.png",
-    "attachments/Pasted image 20260804185123.png",
     "01_Concursos/Geral/01_Português/4_Sintaxe/9_Orações subordinadas substantivas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/10_Orações subordinadas adjetivas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/12_Orações reduzidas.md",

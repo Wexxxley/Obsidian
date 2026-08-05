@@ -21,5 +21,25 @@
 ![400](../../../../attachments/Pasted%20image%2020260805080002.png)
 ![](../../../../attachments/Pasted%20image%2020260805080052.png)
 ![](../../../../attachments/Pasted%20image%2020260805080502.png)
-![](../../../../attachments/Pasted%20image%2020260805080601.png)
-OSSPredicativa reduzida de infinitivo
+![](../../../../attachments/Pasted%20image%2020260805080601.png)OSSPredicativa reduzida de infinitivo
+E) 
+
+![](../../../../attachments/Pasted%20image%2020260805081003.png)
+D)
+
+![](../../../../attachments/Pasted%20image%2020260805081342.png)
+ERRADO. Que se incluem
+
+![](../../../../attachments/Pasted%20image%2020260805082044.png)CERTO
+
+
+
+![](../../../../attachments/Pasted%20image%2020260805082931.png)
+Por mais que o gerundio sempre pareça efeito, ele pode ser causa. O fato deles satisfazerem as necessidades, faz com que atuem como complementares. 
+
+CORRETO
+
+
+
+
+
