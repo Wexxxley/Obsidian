@@ -20,7 +20,7 @@ São aqueles que não possuem sujeito. Não vão ao plural
 1. **Como verbo pronominal:** Eles se houveram bem na prova
 2. **Verbo auxiliar de loc verbal:** Eles hão de estudar. Eles haviam estudado.
 ![](../../../../attachments/Pasted%20image%2020260720092013.png)
-
+---
 #### **2. Verbos auxiliares** 
 
 São aqueles que se unem ao verbo principal em locuções verbais formando uma oração única. Note que eles ssempre possuem o mesmo sujeito.
@@ -28,10 +28,7 @@ São aqueles que se unem ao verbo principal em locuções verbais formando uma o
 - Note que pode haver preposição nas locuções verbais
 
 O verbo auxiliar se flexiona para concordar com o sujeito, enquanto o verbo principal permanece invariável em uma de suas formas nominais: infinitivo, particípio ou gerúndio.
-
-![450](../../../../attachments/Pasted%20image%2020260720092633.png)
-
-![500](../../../../attachments/Pasted%20image%2020260720101545.png)
+![450](../../../../attachments/Pasted%20image%2020260720092633.png)![500](../../../../attachments/Pasted%20image%2020260720101545.png)
 
 ---
 
