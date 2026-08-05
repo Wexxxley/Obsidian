@@ -100,3 +100,21 @@ Equivale a "embora" ou "ainda que".
 
 ![](../../../../attachments/Pasted%20image%2020260618154226.png)
 ![](../../../../attachments/Pasted%20image%2020260805134621.png)B)
+
+![](../../../../attachments/Pasted%20image%2020260805134717.png)
+C) A verdade é ISSO. Conjunção integrante.
+
+
+![300](../../../../attachments/Pasted%20image%2020260805135049.png)![400](../../../../attachments/Pasted%20image%2020260805135035.png)
+C) EXPLETIVA. Tu nos deste o direito aos teus pés
+
+![](../../../../attachments/Pasted%20image%2020260805135442.png)![](../../../../attachments/Pasted%20image%2020260805135914.png)
+
+![](../../../../attachments/Pasted%20image%2020260805140134.png)
+D) adv de intensidade. Que estudioso
+
+![](../../../../attachments/Pasted%20image%2020260805141658.png)
+![](../../../../attachments/Pasted%20image%2020260805141952.png)
+![](../../../../attachments/Pasted%20image%2020260805142129.png)![400](../../../../attachments/Pasted%20image%2020260805142515.png)
+A)![](../../../../attachments/Pasted%20image%2020260805142534.png)
+![](../../../../attachments/Pasted%20image%2020260805142623.png)
