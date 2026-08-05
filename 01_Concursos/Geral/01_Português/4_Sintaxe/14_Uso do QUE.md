@@ -1,9 +1,9 @@
 
-
+#Concluded 
 
 ---
 
-A palavra que pode ter 16 clasificações:
+A palavra que pode ter 17 clasificações:
 ### 1. Pronome Indefinido
 Acompanha um substantivo para quantificá-lo de forma vaga ou para expressar intensidade.
 - **Que** beleza de arquitetura! 
@@ -117,4 +117,8 @@ D) adv de intensidade. Que estudioso
 ![](../../../../attachments/Pasted%20image%2020260805141952.png)
 ![](../../../../attachments/Pasted%20image%2020260805142129.png)![400](../../../../attachments/Pasted%20image%2020260805142515.png)
 A)![](../../../../attachments/Pasted%20image%2020260805142534.png)
-![](../../../../attachments/Pasted%20image%2020260805142623.png)
+![](../../../../attachments/Pasted%20image%2020260805142623.png)B) Preposição acidental
+
+![](../../../../attachments/Pasted%20image%2020260805142743.png)
+![](../../../../attachments/Pasted%20image%2020260805143106.png)
+![](../../../../attachments/Pasted%20image%2020260805143721.png)![](../../../../attachments/Pasted%20image%2020260805165204.png)
