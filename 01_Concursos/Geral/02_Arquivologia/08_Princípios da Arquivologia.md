@@ -7,8 +7,7 @@
 ### 1. Princípio da Proveniência
 Ele estabelece que os documentos provenientes de uma determinada fonte geradora não devem ser misturados aos de outra entidade produtora. O conceito de **fundo de arquivo** deriva diretamente deste princípio. 
 ### 2. Princípio da Organicidade
-Ele demonstra a **relação orgânica** entre o documento de arquivo e a entidade que o acumulou, refletindo as funções, atividades e estrutura da instituição. Os documentos produzidos naturalmente durante o período de atividades de uma pessoa, seja física ou jurídica, é considerado um **documento orgânico**. 
-
+Os documentos produzidos naturalmente durante o período de atividades de uma pessoa, seja física ou jurídica, é considerado um **documento orgânico**. 
 - Os **documentos orgânicos** de uma entidade formam o seu **Arquivo**. Já os **documentos não orgânicos** formam a sua **Biblioteca**, como revistas, jornais, CDs e tudo aquilo que é adquirido por meio de compra ou doação e que não foram produzidos de maneira natural em decorrência do desempenho das atividades. É uma coleção.
 ### 3. Princípio da Pertinência Funcional
 Propõe que a classificação e o arranjo dos documentos de arquivo devem ser orientados pelas funções e atividades desenvolvidas pela entidade produtora, e não por assuntos abstratos.

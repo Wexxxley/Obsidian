@@ -1,4 +1,5 @@
 
+
 #Concluded 
 
 ---
@@ -15,13 +16,7 @@ Operações que visam à organização dos documentos. Através do **quadro de a
 **Fundo de arquivo:** conjunto de documentos de uma mesma entidade. Termo usado em arquivos permanentes, uma vez que guardam documentos de entidades distintas.  
 - **Fundo Aberto:** Fundo vinculado a entidades ativas.
 - **Fundo Fechado:** Fundo vinculado a entidades extintas.  
-		![400](../../../attachments/Pasted%20image%2020260530170929.png)
-
- **Série**: subdivisão por fundo de arquivo.
-		![300](../../../attachments/Pasted%20image%2020260530172426.png)
-		![300](../../../attachments/Pasted%20image%2020260530172502.png)
-
-
+**Série**: subdivisão por fundo de arquivo.![500](../../../attachments/Pasted%20image%2020260805170713.png)
 ![500](../../../attachments/Pasted%20image%2020260531152858.png)
 ![500](../../../attachments/Pasted%20image%2020260531152916.png)
 
@@ -93,3 +88,19 @@ O serviço de referência atua para viabilizar a consulta de forma eficiente e s
 A difusão abrange as ações que o arquivo realiza para promover o seu acervo externamente, divulgar sua existência e estimular novas pesquisas.
 
 ![](../../../attachments/Pasted%20image%2020260531173817.png)
+
+---
+
+![](../../../attachments/Pasted%20image%2020260805173506.png)
+![](../../../attachments/Pasted%20image%2020260805173542.png)
+C) Classificação
+
+![](../../../attachments/Pasted%20image%2020260805173827.png)A
+
+![](../../../attachments/Pasted%20image%2020260805174817.png)
+D) O valor legal é a qualidade atribuída a um documento que possui força perante o ordenamento jurídico, servindo para comprovar um fato, garantir um direito ou firmar uma obrigação perante a lei. Ex: contratos, certidões de nascimento, escrituras.
+
+- **Valor Probatório (A):** na arquivologia, o valor probatório refere-se ao documento como prova da existência, do funcionamento e das ações da própria instituição produtora.
+- **Valor Administrativo (C):** Refere-se à utilidade do documento para o cumprimento das atividades rotineiras e burocráticas da instituição que o gerou. É o valor inerente ao dia a dia.
+- **Valor Fiscal (B):** Refere-se à utilidade do documento para a comprovação de operações financeiras, contábeis e de arrecadação.
+- **Valor Informacional (E):** É o valor secundário do documento. Refere-se às informações contidas no registro que são úteis para fins de pesquisa histórica, científica ou cultural.

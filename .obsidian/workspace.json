@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/4_Sintaxe/14_Uso do QUE.md",
+                "file": "01_Concursos/Geral/02_Arquivologia/07_Arquivos permanentes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14_Uso do QUE"
+              "title": "07_Arquivos permanentes"
             }
           }
         ]
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 459.5
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -197,18 +196,29 @@
   },
   "active": "6c91a89a4ea4728e",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260805174817.png",
+    "01_Concursos/Geral/02_Arquivologia/09_Classificação de documentos.md",
+    "01_Concursos/Geral/02_Arquivologia/10_Conservação de documentos.md",
+    "01_Concursos/Geral/02_Arquivologia/08_Princípios da Arquivologia.md",
+    "01_Concursos/Geral/02_Arquivologia/07_Arquivos permanentes.md",
+    "01_Concursos/Geral/02_Arquivologia/05_Gestão de documentos.md",
+    "attachments/Pasted image 20260805174408.png",
+    "01_Concursos/Geral/02_Arquivologia/11_Documentos digitais.md",
+    "attachments/Pasted image 20260805174214.png",
+    "attachments/Pasted image 20260805174026.png",
+    "attachments/Pasted image 20260805173827.png",
+    "attachments/Pasted image 20260805173542.png",
+    "attachments/Pasted image 20260805173506.png",
+    "attachments/Pasted image 20260805170713.png",
+    "01_Concursos/Geral/02_Arquivologia/06_Diagnóstico arquivístico.md",
+    "01_Concursos/Geral/02_Arquivologia/03_Ciclo vital dos documentos.md",
+    "01_Concursos/Geral/02_Arquivologia/04_Protocolo.md",
+    "01_Concursos/Geral/02_Arquivologia/01_Conceitos iniciais.md",
+    "01_Concursos/Geral/02_Arquivologia/02_Classificação dos arquivos.md",
+    "01_Concursos/Geral/01_Português/4_Sintaxe/14_Uso do QUE.md",
     "attachments/Pasted image 20260805165204.png",
     "attachments/Pasted image 20260805143721.png",
     "attachments/Pasted image 20260805143106.png",
-    "attachments/Pasted image 20260805142743.png",
-    "attachments/Pasted image 20260805142623.png",
-    "attachments/Pasted image 20260805142534.png",
-    "attachments/Pasted image 20260805142515.png",
-    "attachments/Pasted image 20260805142129.png",
-    "attachments/Pasted image 20260805141952.png",
-    "attachments/Pasted image 20260805141658.png",
-    "attachments/Pasted image 20260805140134.png",
-    "01_Concursos/Geral/01_Português/4_Sintaxe/14_Uso do QUE.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/1_Termos integrantes da oração e predicação verbal.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/2_Tipos de predicado.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/3_Termos integrantes da oração.md",
@@ -222,19 +232,8 @@
     "01_Concursos/Geral/01_Português/4_Sintaxe/12_Orações reduzidas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/13_Desenvolvendo as orações reduzidas.md",
     "02_Conhecimentos TI/7_System Design/4_Otimização de DB.md",
-    "01_Concursos/TI/03_Banco de dados/1_Relacional/7_ACID, BASE e teorema de CAP.md",
-    "02_Conhecimentos TI/7_System Design/2_Bancos de dados.md",
-    "02_Conhecimentos TI/7_System Design/3_Partition e Read Replics.md",
-    "02_Conhecimentos TI/7_System Design/1_Client server.md",
-    "01_Concursos/Geral/01_Português/5_Pontuação/4_Questões.md",
-    "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
-    "01_Concursos/Geral/01_Português/3_Verbos/4_Verbos impessoais e auxiliares.md",
-    "01_Concursos/Geral/01_Português/5_Pontuação/1_Uso da vírgula.md",
-    "02_Conhecimentos TI/7_System Design/3_Qual DB escolher.md",
-    "01_Concursos/Geral/02_Arquivologia/08_Princípios da Arquivologia.md",
     "02_Conhecimentos TI/7_System Design",
     "02_Roadmap/1_Junior/1_Como funciona um computador/ResumoEmAudio.m4a",
-    "01_Concursos/Geral/01_Português/5_Pontuação/2_Dois pontos, ponto e vírgula e aspas.md",
     "04_Autoescola/5_Sinalização.pdf",
     "01_Concursos/Geral/05_Atendimento ao público",
     "01_Concursos/Geral/01_Português/5_Pontuação",

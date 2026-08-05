@@ -59,3 +59,18 @@ Documento eletrônico que identifica a autentica o titular em sistemas. Pode ser
 Quando a primeira assinatura digital é aplicada, o software gera um Hash. A partir daquele exato milissegundo, se qualquer modificação for feita no texto original, o arquivo gerará um _Hash_ diferente. Ao confrontar o novo _Hash_ com o _Hash_ original selado na assinatura, o sistema de verificação apontará uma divergência. Mas uma nova assinatura não é considerada uma edição.
 
 ![](../../../attachments/Pasted%20image%2020260602170102.png)
+
+---
+![](../../../attachments/Pasted%20image%2020260805174026.png)
+e)
+O **Decreto nº 10.278/2020** estabelece os requisitos técnicos para a digitalização de documentos públicos e privados, conferindo validade aos documentos digitalizados quando observados determinados padrões.
+
+Entretanto, a eliminação do documento físico não é automática. Ela somente poderá ocorrer quando forem cumpridos os requisitos legais e arquivísticos previstos no decreto e nas normas do **CONARQ (Conselho Nacional de Arquivos)**, que disciplinam a gestão documental e os procedimentos de descarte.
+
+Portanto:
+- Não se elimina todo documento imediatamente após a digitalização.
+- Nem todos os documentos podem ser descartados.
+- A decisão não depende apenas da vontade do gestor.
+- Devem ser observadas as normas legais e os critérios técnicos aplicáveis.
+
+![](../../../attachments/Pasted%20image%2020260805174214.png)C
