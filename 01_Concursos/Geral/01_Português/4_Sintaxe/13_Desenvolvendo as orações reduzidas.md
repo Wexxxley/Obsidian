@@ -17,4 +17,9 @@
 ![](../../../../attachments/Pasted%20image%2020260723095539.png)![](../../../../attachments/Pasted%20image%2020260804185059.png)
 
 ![](../../../../attachments/Pasted%20image%2020260804185123.png)![](../../../../attachments/Pasted%20image%2020260804192301.png)
-![](../../../../attachments/Pasted%20image%2020260804192637.png)
+![400](../../../../attachments/Pasted%20image%2020260804192637.png)
+![400](../../../../attachments/Pasted%20image%2020260805080002.png)
+![](../../../../attachments/Pasted%20image%2020260805080052.png)
+![](../../../../attachments/Pasted%20image%2020260805080502.png)
+![](../../../../attachments/Pasted%20image%2020260805080601.png)
+OSSPredicativa reduzida de infinitivo

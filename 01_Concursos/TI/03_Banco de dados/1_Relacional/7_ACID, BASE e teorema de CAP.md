@@ -123,3 +123,20 @@ Em redes físicas, particionamentos são inevitáveis. Portanto, a Tolerância a
 
 - **CP (Consistência e Tolerância a Particionamento):** Quando a rede interna falha, o sistema bloqueia as operações de leitura e escrita nos nós afetados para evitar divergência de dados. A resposta ao usuário resulta em um timeout. A disponibilidade é sacrificada.
 - **AP (Disponibilidade e Tolerância a Particionamento):** Quando a rede interna falha, o sistema continua aceitando requisições. O nó consultado retorna a versão dos dados que ele possui armazenada localmente. A consistência é sacrificada para manter o sistema operacional e disponível, assumindo que a sincronização ocorrerá no futuro.
+
+---
+
+![](../../../../attachments/Pasted%20image%2020260805074256.png)
+D)
+
+![](../../../../attachments/Pasted%20image%2020260805074417.png)
+A)
+
+No processamento tradicional, o SGBD alcança essa garantia forçando a gravação física do buffer de log de transações, que reside na memória principal (RAM), diretamente no disco de armazenamento. Apenas após a confirmação da escrita física, o SGBD sinaliza o sucesso para a aplicação.
+
+O recurso de Durabilidade Retardada, implementado em SGBDs modernos, flexibiliza esse fluxo rigoroso. Ao utilizar este modo, o SGBD processa a transação e envia a confirmação de sucesso para a aplicação imediatamente após os dados serem gravados no buffer de log em memória RAM, dispensando a espera pela gravação física no disco.
+
+Contudo, essa configuração introduz um risco arquitetural: caso ocorra uma falha crítica de hardware ou queda de energia antes que os processos assíncronos de retaguarda consigam gravar o conteúdo do buffer no disco físico, as transações que haviam sido reportadas como confirmadas para a aplicação serão perdidas de forma irreversível.
+
+![](../../../../attachments/Pasted%20image%2020260805075014.png)
+B)
