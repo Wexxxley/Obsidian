@@ -121,8 +121,11 @@ O teorema estabelece que é matematicamente impossível para um sistema de armaz
 ![500](../../../../attachments/one-of-my-favorite-topics-in-de-is-cap-theorem-has-anyone-v0-68d9mmkirtt91.webp)
 Em redes físicas, particionamentos são inevitáveis. Portanto, a Tolerância a Particionamento é um requisito obrigatório em sistemas distribuídos. 
 
-- **CP (Consistência e Tolerância a Particionamento):** Quando a rede interna falha, o sistema bloqueia as operações de leitura e escrita nos nós afetados para evitar divergência de dados. A resposta ao usuário resulta em um timeout. A disponibilidade é sacrificada.
-- **AP (Disponibilidade e Tolerância a Particionamento):** Quando a rede interna falha, o sistema continua aceitando requisições. O nó consultado retorna a versão dos dados que ele possui armazenada localmente. A consistência é sacrificada para manter o sistema operacional e disponível, assumindo que a sincronização ocorrerá no futuro.
+- **CP (Consistência e Tolerância a Particionamento):** Quando a rede interna falha, o sistema bloqueia as operações de leitura e escrita nos nós afetados para evitar divergência de dados. A disponibilidade é sacrificada.
+	- Dinheiro, transações
+- **AP (Disponibilidade e Tolerância a Particionamento):** Quando a rede interna falha, o sistema continua aceitando requisições. O nó consultado retorna a versão dos dados que ele possui armazenada localmente. A consistência é sacrificada para manter o sistema disponível.
+	- Número de likes
+
 
 ---
 

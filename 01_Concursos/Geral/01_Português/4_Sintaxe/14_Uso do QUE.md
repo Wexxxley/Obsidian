@@ -1,6 +1,12 @@
 
 
+
 ---
+
+A palavra que pode ter 16 clasificações:
+
+**1. Pronome indefinido**
+
 
 **Conjunções integrantes**. São as conjunções subordinativas que não indicam circunstâncias. Introduzem orações que funcionam como substantivos.
 - que, se.

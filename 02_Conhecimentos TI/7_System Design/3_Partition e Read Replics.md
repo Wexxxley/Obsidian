@@ -34,3 +34,21 @@ Processo de dividir um banco de dados em partes menores. Pode ser local ou distr
 - **Key-range:** abordagem mais simples, cada db tem um range definido. Pode gerar HotSpots e necessidade de balanceamento constante.
 - **Diferença**: O particionamento resolve o esgotamento de recursos internos de um servidor único, otimizando o escalonamento vertical. O sharding é o mecanismo fundamental do escalonamento horizontal, permitindo que a capacidade do banco de dados cresça de forma praticamente ilimitada mediante a adição de novos servidores físicos ao cluster.
 
+---
+### 4. Índice Secundário
+
+Quando um banco de dados opera sob a arquitetura sharding, a distribuição física dos registros entre os servidores é governada por um atributo eleito como a Chave de Fragmentação. Se a aplicação realizar uma consulta filtrando por um atributo diferente, como o nome, o sistema distribuído enfrenta um conflito de roteamento.
+
+**Scatter-Gather:** Se a busca ocorre pelo nome, o roteador não possui um mapeamento  que vincule esse texto a um servidor. Para encontrar, o roteador é forçado a enviar a consulta para todos os servidores. Cada servidor executa a busca e devolve os resultados encontrados. 
+
+**Índices Secundários Globais**: Para viabilizar consultas eficientes por atributos que não são a chave primária, bancos de dados distribuídos (especialmente os NoSQL) utilizam uma estrutura denominada Índice Secundário Global.
+
+Na prática, funciona como uma nova tabela particionada. Nesta estrutura, o atributo de busca atua como a nova Shard Key, enquanto o valor armazenado é apenas o ID original Quando a aplicação busca por um nome, o roteador calcula o hash desse nome, consulta o servidor responsável para descobrir o ID correspondente, e então busca o dado completo.
+
+- **Duplicação de Armazenamento:** Manter GSIs exige que o banco de dados replique os dados ou crie extensas tabelas de referência.
+- **Consistência:** Quando a aplicação insere ou atualiza um registro, o banco de dados precisa gravar o dado no nó primário e, simultaneamente, trafegar pela rede para atualizar o índice secundário em outro nó. Isso aumenta o tempo de resposta da escrita e obriga o sistema a adotar a **Consistência Eventual**.
+
+---
+### 5. Cold Storage
+
+Estratégia focada no arquivamento de informações inativas ou de acesso extremamente raro. Em contraste com os dados quentes (_Hot Data_), que são consultados e alterados constantemente pela aplicação em tempo real, os dados frios (_Cold Data_) englobam históricos antigos, registros de logs estáticos, transações consolidadas e backups retidos por exigência de conformidade legal. A recuperação de uma informação armazenada nesta infraestrutura pode demorar de vários minutos até horas.
