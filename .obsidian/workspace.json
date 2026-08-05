@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/4_Sintaxe/13_Desenvolvendo as orações reduzidas.md",
+                "file": "02_Conhecimentos TI/7_System Design/3_Partition, Sharding e Read Replics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13_Desenvolvendo as orações reduzidas"
+              "title": "3_Partition, Sharding e Read Replics"
             }
           }
         ]
@@ -197,6 +197,10 @@
   },
   "active": "6c91a89a4ea4728e",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260805092832.png",
+    "02_Conhecimentos TI/7_System Design/1_Client server.md",
+    "02_Conhecimentos TI/7_System Design/3_Partition, Sharding e Read Replics.md",
+    "01_Concursos/Geral/01_Português/4_Sintaxe/13_Desenvolvendo as orações reduzidas.md",
     "attachments/Pasted image 20260805083052.png",
     "attachments/Pasted image 20260805082931.png",
     "attachments/Pasted image 20260805082333.png",
@@ -209,17 +213,14 @@
     "attachments/Pasted image 20260805080002.png",
     "01_Concursos/Geral/01_Português/5_Pontuação/4_Questões.md",
     "01_Concursos/TI/03_Banco de dados/1_Relacional/7_ACID, BASE e teorema de CAP.md",
-    "attachments/Pasted image 20260805075014.png",
     "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
     "01_Concursos/Geral/01_Português/3_Verbos/4_Verbos impessoais e auxiliares.md",
-    "01_Concursos/Geral/01_Português/4_Sintaxe/13_Desenvolvendo as orações reduzidas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/9_Orações subordinadas substantivas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/10_Orações subordinadas adjetivas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/12_Orações reduzidas.md",
     "01_Concursos/Geral/01_Português/5_Pontuação/1_Uso da vírgula.md",
     "02_Conhecimentos TI/7_System Design/2_Bancos de dados.md",
     "02_Conhecimentos TI/7_System Design/3_Qual DB escolher.md",
-    "02_Conhecimentos TI/7_System Design/1_Client server.md",
     "01_Concursos/Geral/02_Arquivologia/08_Princípios da Arquivologia.md",
     "02_Conhecimentos TI/7_System Design",
     "02_Roadmap/1_Junior/1_Como funciona um computador/ResumoEmAudio.m4a",
@@ -235,7 +236,6 @@
     "04_Autoescola/5_Sinalização.pdf",
     "05_Aleatorios/Proposta de Startup.md",
     "01_Concursos/Geral/02_Arquivologia/05_Gestão de documentos.md",
-    "01_Concursos/Geral/02_Arquivologia/09_Classificação de documentos.md",
     "01_Concursos/Geral/05_Atendimento ao público",
     "01_Concursos/Geral/01_Português/5_Pontuação",
     "01_Concursos/Geral/01_Português/3_Verbos",
