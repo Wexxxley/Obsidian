@@ -1,10 +1,9 @@
 
-
+#Concluded 
 
 ---
 
 São verbos que sempre se conjugam com pronomes obliquos átonos
-
 >[!example]
 **Ex: Quexar-se**.
 >- Eu **me** queixo
@@ -14,16 +13,21 @@ Esses pronomes são **partes integrantes do verbo (PIV)**
 
 **Verbos Essencialmente Pronominais**: São aqueles que **sempre** acontecem acompanhados do pronome. Sem o pronome, a palavra perde o sentido. 
 - Arrepender-se
-- **Queixar-se**: Ele se queixou da dor
-- **Dignar-se**: Ela se dignou a responder
-- **Apiedar-se**: Nós nos apiedamos da situação
-- **Rir-se**: Criança se ri à toa. 
+- Queixar-se
+- Rir-se
+- Suicidar-se
+- Tornar-se
+- Abster-se
+- Zangar-se
 
-**Verbos Possivelmente (ou Eventualmente) Pronominais**
-Também chamados de acidentais, são aqueles que **podem ou não** vir acompanhados de pronome. A grande diferença é que, quando usamos o pronome nesses verbos, o sentido da frase muda ou a ação ganha um reflexo direto sobre o próprio sujeito.
+**Verbos Eventualmente Pronominais**: São aqueles que **podem ou não** vir acompanhados de pronome. A grande diferença é que, quando usamos o pronome nesses verbos, o sentido muda.
 - **Enganar / Enganar-se**:
-    - _O vendedor enganou o cliente_ / _Eu me enganei na conta_.
+    - O vendedor enganou o cliente/ Eu me enganei na conta.
 - **Abaixar / Abaixar-se**:
-    - _Abaixei a bandeira_ / _Abaixe-se para passar pela porta_
+    - Abaixei a bandeira / Abaixe-se para passar pela porta
 - **Mudar / Mudar-se**:
-    - _Mudei os móveis de lugar_ / _Mudei-me de cidade_.
+    - Mudei os móveis de lugar / Mudei-me de cidade.
+- **Deparar-se /** 
+- **Lembrar-se**
+	- Eu lembrei seu nome / eu me lembrei do seu nome
+- **Defrontar-se**
