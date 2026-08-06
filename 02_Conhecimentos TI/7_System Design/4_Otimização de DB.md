@@ -86,8 +86,3 @@ Uma Materialized View é a execução prévia de uma consulta altamente complexa
 - **Read Uncommitted:** A aplicação recebe permissão para ler dados que estão no meio de uma transação aberta de outro usuário, mas que ainda não foram confirmados.
     - O usuário lê um dado que pode ser cancelado (_Rollback_) pela outra transação um milissegundo depois, fazendo com que a aplicação opere baseada em uma informação que oficialmente nunca existiu no sistema.
 - **Read Committed:** É o padrão na maioria dos bancos relacionais. A aplicação só consegue enxergar dados que já foram permanentemente salvos.
-### 13. Locks Pessimistas vs. Otimistas
-
-- **Lock Pessimista:** A arquitetura parte da premissa de que o conflito ocorrerá. Assim que a primeira requisição inicia a leitura com a intenção de atualizar, o banco de dados bloqueia a linha. Nenhuma outra requisição pode ler ou alterar aquele registro até que a transação inicial termine. É seguro, porém gera retenção de performance em sistemas 
-    
-- **Lock Otimista:** A arquitetura parte da premissa de que o conflito é raro. Nenhum bloqueio é aplicado no banco de dados. Em vez disso, a tabela possui uma coluna de versão (ou _timestamp_). A aplicação lê o dado (Versão 1). No momento da atualização, ela instrui o banco: "Atualize este dado, mas apenas se a versão ainda for a 1". Se outro usuário já tiver alterado para a Versão 2 no meio do processo, a operação é rejeitada e a aplicação decide se tenta novamente ou exibe um erro para o usuário. Permite alta concorrência e melhor escalabilidade sem o custo de bloqueios travando o banco.
