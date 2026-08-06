@@ -23,12 +23,18 @@ São aqueles que não possuem sujeito. Não vão ao plural
 ---
 #### **2. Verbos auxiliares** 
 
-São aqueles que se unem ao verbo principal em locuções verbais formando uma oração única. Note que eles ssempre possuem o mesmo sujeito.
+São aqueles que se unem ao verbo principal em locuções verbais formando uma oração única. Note que eles sempre possuem o mesmo sujeito.
 ![400](../../../../attachments/Pasted%20image%2020260720090553.png)
 - Note que pode haver preposição nas locuções verbais
 
 O verbo auxiliar se flexiona para concordar com o sujeito, enquanto o verbo principal permanece invariável em uma de suas formas nominais: infinitivo, particípio ou gerúndio.
 ![450](../../../../attachments/Pasted%20image%2020260720092633.png)![500](../../../../attachments/Pasted%20image%2020260720101545.png)
+- Dentro de uma locução verbal, o verbo principal estará sempre fixado em uma forma nominal (infinitivo, gerúndio ou particípio) e, portanto, atuará de forma **impessoal**.
+- No geral, o verbo auxiliar é pessoal, mas existem exessões. Contudo, se o verbo principal da locução for um **verbo impessoal por natureza** verbo auxiliar perde a sua capacidade de flexão e é forçado a atuar de forma impessoal, devendo permanecer na **terceira pessoa do singular**.
+	- **Deve haver** muitas vagas no próximo edital. O verbo "haver" transmite sua impessoalidade ao "deve", que fica na terceira pessoa do singular.
+    - No próximo mês, **vai fazer** três anos da publicação do edital.
+	- Durante a tarde, **poderá chover** temporais na região serrana.
+    
 
 ---
 
