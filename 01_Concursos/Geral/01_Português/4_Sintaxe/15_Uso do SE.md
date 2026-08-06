@@ -12,20 +12,24 @@ Ocorre quando o "se" liga-se a um VTD ou VTDI a fim de formar a Voz Passiva Sint
 
 **2. Índice/pronome de Indeterminação do Sujeito (IIS/PIS)**
 Ocorre quando o "se" liga-se a um Verbo Intransitivo, Verbo Transitivo Indireto ou Verbo de Ligação para ocultar a identidade do praticante da ação, tornando o sujeito indeterminado.
-- Como o sujeito é indeterminado, não há elemento com o qual o verbo possa concordar. A regra exige que, na presença do IIS, o verbo permaneça na 3ª pessoa do singular.
 >[!tip]
->1. Veja se o verbo é VL, VI, VTI
+>1. Veja se o verbo é VL, VI, VTI.
+>2. Sentido de ALGUÉM
 
 - Precisa-**se** de funcionários. (VTI)
-    
-      
-    
-- **Exemplo (com VI):** Trabalha-se muito aqui.
-    
-      
-    
-- **Exemplo (com VL):** É-se feliz nesta casa.
-    
+- Trabalha-**se** muito aqui. (VI)
+- É-**se** feliz nesta casa. (VL)
+	
+	**2.1 Indeterminação com a Partícula "SE"**
+	Quando utilizamos o "se" como Índice de Indeterminação do Sujeito, a regra sintática é: o
+	verbo deve permanecer na 3ª pessoa do singular.
+	- Precisa-**se** de novos equipamentos. (ELE/ELA).
+	
+	**2.2 Indeterminação sem o "se"**
+	Quando não utilizamos a partícula exige-se que o verbo seja flexionado na 3ª pessoa do
+	plural, desde que não haja um sujeito explícito ou subentendido no contexto anterior.
+	- Quebraram a vidraça da fachada. (ELES/ELAS).
+	- Anunciaram as novas regras do edital. (ELES/ELAS)
 
 **3. Pronome Reflexivo**
 Ocorre quando o "se" indica que o sujeito pratica e sofre a ação. Pode ser substituído mentalmente por "a si mesmo". Exerce a função de Objeto Direto ou Objeto Indireto.
@@ -37,24 +41,11 @@ Ocorre quando o "se" indica que o sujeito pratica e sofre a ação. Pode ser sub
 Variação do pronome reflexivo. Ocorre quando há um sujeito composto ou no plural, e a ação é praticada e sofrida mutuamente entre os indivíduos. Pode ser substituído por "um ao outro" ou "uns aos outros".
 - Os concorrentes ofenderam-**se** durante o debate. (Objeto direto).
 - Eles **se** conheceram na infância (Objeto direto)
-     
-      
-    
 
 **5. Parte Integrante do Verbo (PIV)**
+Ocorre quando o "se" acompanha os chamados **verbos pronominais**, que são aqueles que não podem ser conjugados sem a presença do pronome (queixar-se, arrepender-se, suicidar-se).
 
-Ocorre quando o "se" acompanha os chamados verbos pronominais, que são aqueles que não podem ser conjugados na norma-padrão sem a presença do pronome (ex: queixar-se, arrepender-se, suicidar-se, orgulhar-se).
-
-  
-
-- **Função Sintática:** Como faz parte da própria estrutura do verbo, o PIV não exerce nenhuma função sintática independente.
-    
-      
-    
-- **Exemplo:** O réu arrependeu-se do crime. (Não existe o verbo "arrepender" isolado nesta acepção).
-    
-      
-    
+- O réu arrependeu-se do crime.  
 
 **6. Partícula de Realce (ou Partícula Expletiva)**
 
