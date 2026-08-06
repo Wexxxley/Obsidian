@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/02_Arquivologia/07_Arquivos permanentes.md",
+                "file": "01_Concursos/Geral/02_Arquivologia/11_Documentos digitais.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07_Arquivos permanentes"
+              "title": "11_Documentos digitais"
             }
           }
         ]
@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 459.5
+    "width": 338.3359184265137,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -196,12 +197,15 @@
   },
   "active": "6c91a89a4ea4728e",
   "lastOpenFiles": [
-    "attachments/Pasted image 20260805174817.png",
     "01_Concursos/Geral/02_Arquivologia/09_Classificação de documentos.md",
-    "01_Concursos/Geral/02_Arquivologia/10_Conservação de documentos.md",
     "01_Concursos/Geral/02_Arquivologia/08_Princípios da Arquivologia.md",
     "01_Concursos/Geral/02_Arquivologia/07_Arquivos permanentes.md",
     "01_Concursos/Geral/02_Arquivologia/05_Gestão de documentos.md",
+    "01_Concursos/Geral/02_Arquivologia/06_Diagnóstico arquivístico.md",
+    "attachments/Pasted image 20260805180951.png",
+    "attachments/Pasted image 20260805175323.png",
+    "attachments/Pasted image 20260805174817.png",
+    "01_Concursos/Geral/02_Arquivologia/10_Conservação de documentos.md",
     "attachments/Pasted image 20260805174408.png",
     "01_Concursos/Geral/02_Arquivologia/11_Documentos digitais.md",
     "attachments/Pasted image 20260805174214.png",
@@ -210,15 +214,11 @@
     "attachments/Pasted image 20260805173542.png",
     "attachments/Pasted image 20260805173506.png",
     "attachments/Pasted image 20260805170713.png",
-    "01_Concursos/Geral/02_Arquivologia/06_Diagnóstico arquivístico.md",
     "01_Concursos/Geral/02_Arquivologia/03_Ciclo vital dos documentos.md",
     "01_Concursos/Geral/02_Arquivologia/04_Protocolo.md",
     "01_Concursos/Geral/02_Arquivologia/01_Conceitos iniciais.md",
     "01_Concursos/Geral/02_Arquivologia/02_Classificação dos arquivos.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/14_Uso do QUE.md",
-    "attachments/Pasted image 20260805165204.png",
-    "attachments/Pasted image 20260805143721.png",
-    "attachments/Pasted image 20260805143106.png",
     "01_Concursos/Geral/01_Português/4_Sintaxe/1_Termos integrantes da oração e predicação verbal.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/2_Tipos de predicado.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/3_Termos integrantes da oração.md",

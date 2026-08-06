@@ -104,3 +104,15 @@ D) O valor legal é a qualidade atribuída a um documento que possui força pera
 - **Valor Administrativo (C):** Refere-se à utilidade do documento para o cumprimento das atividades rotineiras e burocráticas da instituição que o gerou. É o valor inerente ao dia a dia.
 - **Valor Fiscal (B):** Refere-se à utilidade do documento para a comprovação de operações financeiras, contábeis e de arrecadação.
 - **Valor Informacional (E):** É o valor secundário do documento. Refere-se às informações contidas no registro que são úteis para fins de pesquisa histórica, científica ou cultural.
+
+![](../../../attachments/Pasted%20image%2020260805175323.png)
+Esta função é realizada estritamente a partir do Plano de Classificação. É necessário que os documentos estejam previamente agrupados conforme as funções e atividades institucionais (classificados) para que a Comissão Permanente de Avaliação de Documentos (CPAD) possa julgar a relevância de cada conjunto documental e o tempo necessário de retenção.
+
+- **A) Classificação** ❌ → é a etapa anterior, que gera o plano de classificação.
+- **B) Descrição** ❌ → produz instrumentos de pesquisa para acesso aos documentos.
+- **C) Difusão** ❌ → promove o acesso e a divulgação dos acervos.
+- **D) Avaliação** ✔️ → define prazos de guarda e destinação dos documentos.
+- **E) Aquisição** ❌ → refere-se à incorporação de documentos ao acervo.
+
+![](../../../attachments/Pasted%20image%2020260805180951.png)
+A) Em resumo: **cadeia de preservação = controle completo do documento durante toda a sua vida para garantir autenticidade e integridade**.
