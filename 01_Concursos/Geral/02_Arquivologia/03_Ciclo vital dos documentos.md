@@ -44,8 +44,32 @@ Todo documento passa pela idade corrente. Nem todo documento passa pela idade in
 
 ![](../../../attachments/Pasted%20image%2020260527094335.png)
 ![](../../../attachments/Pasted%20image%2020260527094351.png)
-
 ![](../../../attachments/Pasted%20image%2020260729152459.png)
 CORRENTE
+
+---
+![](../../../attachments/Pasted%20image%2020260807141907.png)
+A)
+A TTD geralmente contém campos como
+- **Código**: identificação numérica da classe ou subclasse.
+- **Classe**: corresponde à primeira divisão do plano de classificação.
+- **Descritor**: nome do conjunto documental (ex.: "Contratos")
+- **Prazo de guarda**, **destinação final**, **observações**, etc.
+    
+![](../../../attachments/Pasted%20image%2020260807142151.png)C
+
+![](../../../attachments/Pasted%20image%2020260807142243.png)
+**E) Transmissão formal da custódia ou propriedade de documentos ou arquivos.**
+
+![](../../../attachments/Pasted%20image%2020260807142410.png)
+II. O recolhimento dos documentos de valor histórico, para os depósitos de arquivos **permanentes**, ocorrerá de maneira sistemática.
+
+III. Os documentos de guarda **permanentes** são transferidos aos depósitos do ArPDF, para garantir maior economia aos cofres públicos.
+
+IV. A guia de transferência de documentos objetiva registrar os conjuntos documentais encaminhados ao setor de arquivo.
+
+![](../../../attachments/Pasted%20image%2020260807142710.png)A)
+
+![](../../../attachments/Pasted%20image%2020260807143116.png)
 
 

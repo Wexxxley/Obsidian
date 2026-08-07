@@ -140,6 +140,7 @@ F) RECÍPROCO
 G) RECÍPROCO
 H) as pessoas afastarem a si mesmas. REFLEXIVO. As pessoas afastaram rodrigo das cadeiras
 
+---
 ![](../../../../attachments/Pasted%20image%2020260807104646.png)a) PA
 B) PIV
 **C) RECIPROCO**
@@ -175,4 +176,5 @@ E) PA
 3 - PA
 D)
 ![](../../../../attachments/Pasted%20image%2020260807134625.png)
-REFLEXIVA reflexiva reflexiva
+REFLEXIVA PIV (mudança de estado)  REFLEXIVA
+D)
