@@ -151,3 +151,28 @@ B) PIV
 C) PIS
 **D) PA** 
 E) PIV
+
+![400](../../../../attachments/Pasted%20image%2020260807132048.png)A) PIS 
+B) PIV
+![400](../../../../attachments/Pasted%20image%2020260807132239.png)
+B) PIV
+D) PIS
+
+![](../../../../attachments/Pasted%20image%2020260807132407.png)
+D) PIV
+
+![200](../../../../attachments/Pasted%20image%2020260807132707.png)![500](../../../../attachments/Pasted%20image%2020260807132637.png)D) PIV
+![](../../../../attachments/Pasted%20image%2020260807132924.png)
+E) PIS
+
+![](../../../../attachments/Pasted%20image%2020260807133455.png)A) CONDICIONAL
+C) REFLEXIVO
+D) PIS
+E) PA
+![](../../../../attachments/Pasted%20image%2020260807134048.png)
+1 - PA
+2 - PIV
+3 - PA
+D)
+![](../../../../attachments/Pasted%20image%2020260807134625.png)
+REFLEXIVA reflexiva reflexiva
