@@ -1,12 +1,7 @@
 
 
 ---
-**Em caso de dúvida:**
-1. Pergunte se é Partícula apassivadora (PA)
-2. Pergunte se é pronome reflexivo ou recíproco 
-3. Pergunte se é Pronome de indeterminação de sujeito (PIS)
-4. Pergunte se é parte integrante do verbo (PIV)
-5. Veja se é expletivo 
+![](../../../../attachments/Pasted%20image%2020260807085315.png)
 
 **1. Partícula Apassivadora/Pronome Apassivador**
 Ocorre quando o "se" liga-se a um VTD ou VTDI a fim de formar a Voz Passiva Sintética.
@@ -89,3 +84,16 @@ Pode ser substituido por embora
 Quando vem substantivado. O acento é facultativo.
 - O sê desta frase é um pronome.
 
+---
+
+![400](../../../../attachments/Pasted%20image%2020260807085755.png)![400](../../../../attachments/Pasted%20image%2020260807085812.png)1 - Pronome RECÍPROCO
+2 - PARTÍCULA APASSIVADORA
+3 - PRONOME REFLEXIVA
+
+![400](../../../../attachments/Pasted%20image%2020260807091019.png)
+4 - Parte integrante do verbo.
+5 - Conjunção condicional
+6 - Pronome de indeterminação do sujeito  
+
+![400](../../../../attachments/Pasted%20image%2020260807091416.png)7 - CONJUNÇÃO INTEGRANTE -> OSSObjetiva direta
+8 - 
