@@ -2,6 +2,13 @@
 
 ---
 
+**Em caso de dúvida:**
+1. Pergunte se é Partícula apassivadora
+2. Pergunte se é reflexivo ou recíproco
+3. Pergunte se é Pronome de indeterminação de sujeito
+4. Pergunte se é parte integrante do verbo
+5. Veja se é expletivo
+
 **1. Partícula Apassivadora/Pronome Apassivador**
 Ocorre quando o "se" liga-se a um VTD ou VTDI a fim de formar a Voz Passiva Sintética.
 >[!tip]
