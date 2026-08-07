@@ -56,8 +56,8 @@ Ocorre quando o "se" acompanha os chamados **verbos pronominais**, que são aque
 >	- Ele se cortou -> Ele cortou **a si mesmo**.
 >	- Ele se arrependeu. -> Ele arrependeu **a si mesmo**. (n faz sentido, logo PIV)
 >2. **Para verbos essencialmente pronominais**: Se for reflexivo, a ação que o sujeito praticou contra si mesmo também poderia ser praticada contra outra pessoa.
->	- Eu me corto -> Eu corto o pão
-   > 	- Eu me queixo. -> Eu queixo o amigo. (n faz sentido, logo PIV)
+>	- Ana vestiu-se -> ana vestiu rodrigo
+   > 	- Eu me queixo. -> Eu queixo rodrigo. (n faz sentido, logo PIV)
    >
  >  1. **Para verbos acidentalmente pronominais:** A principal característica de um verbo acidentalmente pronominal acompanhado de PIV é que ele não indica uma ação executada, mas sim a entrada em um novo estado emocional ou físico. Para comprovar, substitua o PIV por ficar.
 	>	- Elas **se aborreceram** com a notícia.
@@ -122,8 +122,23 @@ Note que, respeitar é VTD, maaaaaaasss o objeto direto está prepocisionado.
 17 - EXPLETIVO
 18 - Conjunção integrante
 ![300](../../../../attachments/Pasted%20image%2020260807101621.png)
+SEM JEITO 
+
 19 - Substantivo
-20 - 
+20 - EXPLETIVO
 
+![](../../../../attachments/Pasted%20image%2020260807102246.png)A) PARTICULA APASSIVADORA
+B) PARTICULA APASSIVADORA e PARTICULA APASSIVADORA
 
+![](../../../../attachments/Pasted%20image%2020260807102430.png)c) PARTICULA APASSIVADORA
+d) REFLEXIVO
+e) REFLEXIVO
 
+![400](../../../../attachments/Pasted%20image%2020260807103847.png)
+![400](../../../../attachments/Pasted%20image%2020260807104138.png)
+F) RECÍPROCO
+G) RECÍPROCO
+H) as pessoas afastarem a si mesmas. REFLEXIVO. As pessoas afastaram rodrigo das cadeiras
+
+![](../../../../attachments/Pasted%20image%2020260807104646.png)a) PA
+B) 
