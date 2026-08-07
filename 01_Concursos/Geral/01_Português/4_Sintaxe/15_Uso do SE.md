@@ -141,4 +141,13 @@ G) RECÍPROCO
 H) as pessoas afastarem a si mesmas. REFLEXIVO. As pessoas afastaram rodrigo das cadeiras
 
 ![](../../../../attachments/Pasted%20image%2020260807104646.png)a) PA
-B) 
+B) PIV
+**C) RECIPROCO**
+D) PARTICULA APASSIVADORA
+E) EXPLETIVO
+
+![](../../../../attachments/Pasted%20image%2020260807113808.png)A) conj integrante
+B) PIV
+C) PIS
+**D) PA** 
+E) PIV
