@@ -1,7 +1,7 @@
 
 
 ---
-![](../../../../attachments/Pasted%20image%2020260807085315.png)
+![](../../../../attachments/Pasted%20image%2020260807093701.png)
 
 **1. Partícula Apassivadora/Pronome Apassivador**
 Ocorre quando o "se" liga-se a um VTD ou VTDI a fim de formar a Voz Passiva Sintética.
@@ -48,14 +48,23 @@ Ocorre quando o "se" acompanha os chamados **verbos pronominais**, que são aque
 - O réu arrependeu-**se** do crime.  
 - Apiedou-**se** do menino.
 
+>[!tip] PIV traz uma ideia relfexiva, inclusive autores dizem que piv é reflexiva.
+
 >[!tip]
 **Como diferenciar PIV de Pronome reflexivo**
 >1. **A Inserção de "A si mesmo"**
 >	- Ele se cortou -> Ele cortou **a si mesmo**.
 >	- Ele se arrependeu. -> Ele arrependeu **a si mesmo**. (n faz sentido, logo PIV)
->2. **Tranfererir a ação para outro alvo** Se o verbo for genuinamente reflexivo, isso significa que a ação que o sujeito praticou contra si mesmo também poderia ser praticada contra outra pessoa ou objeto.
+>2. **Para verbos essencialmente pronominais**: Se for reflexivo, a ação que o sujeito praticou contra si mesmo também poderia ser praticada contra outra pessoa.
 >	- Eu me corto -> Eu corto o pão
    > 	- Eu me queixo. -> Eu queixo o amigo. (n faz sentido, logo PIV)
+   >
+ >  1. **Para verbos acidentalmente pronominais:** A principal característica de um verbo acidentalmente pronominal acompanhado de PIV é que ele não indica uma ação executada, mas sim a entrada em um novo estado emocional ou físico. Para comprovar, substitua o PIV por ficar.
+	>	- Elas **se aborreceram** com a notícia.
+	>	- Elas **ficaram aborrecidas** com a notícia.
+
+A regra estrutural consiste em substituir o verbo pronominal pelo verbo de ligação "ficar" (ou "estar"), seguido do verbo principal na sua forma nominal de particípio (a forma terminada em -ado ou -ido, que atua com valor de adjetivo).
+   
 
 **6. Partícula de Realce/Partícula Expletiva**
 Ocorre quando o "se" é utilizado unicamente para dar ênfase expressiva à frase.
@@ -96,4 +105,11 @@ Quando vem substantivado. O acento é facultativo.
 6 - Pronome de indeterminação do sujeito  
 
 ![400](../../../../attachments/Pasted%20image%2020260807091416.png)7 - CONJUNÇÃO INTEGRANTE -> OSSObjetiva direta
-8 - 
+8 - Parte integrante do verbo -> Elas ficaram aborrecidas (v cidentalmente pronominal, mudança de estado)
+9 - Conjunção causal. JA QUE
+
+![400](../../../../attachments/Pasted%20image%2020260807093958.png)10 - PARTICULA APASSIVADORA
+11 - PRONOME DE INDETERMINAÇÃO DO SUJEITO
+Note que, respeitar é VTD, maaaaaaasss o objeto direto está prepocisionado.
+12 - CONCESSIVA
+
