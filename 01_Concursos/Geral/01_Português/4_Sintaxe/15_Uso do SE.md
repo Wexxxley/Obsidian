@@ -111,5 +111,19 @@ Quando vem substantivado. O acento é facultativo.
 ![400](../../../../attachments/Pasted%20image%2020260807093958.png)10 - PARTICULA APASSIVADORA
 11 - PRONOME DE INDETERMINAÇÃO DO SUJEITO
 Note que, respeitar é VTD, maaaaaaasss o objeto direto está prepocisionado.
-12 - CONCESSIVA
+12 - CONCESSIVA e PARTE INTEGRANTE DO VERBO
+
+![400](../../../../attachments/Pasted%20image%2020260807095303.png)
+13 - Reflexivo
+14 - RECÍPROCO
+15 - Condicional 
+![400](../../../../attachments/Pasted%20image%2020260807101357.png)
+16 - Condicional
+17 - EXPLETIVO
+18 - Conjunção integrante
+![300](../../../../attachments/Pasted%20image%2020260807101621.png)
+19 - Substantivo
+20 - 
+
+
 
