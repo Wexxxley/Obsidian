@@ -20,13 +20,27 @@ Posição em que os documentos são dispostos.
 - O sucesso do arquivamento está ligado à **RÁPIDA LOCALIZAÇÃO** dos documentos.
 - Um arquivo deve adotar **DIFERENTES MÉTODOS** de acordo com as caracteristica dos conjuntos documentais. Mix ideal
 - O método depende da **Natureza dos documentos** e **Pela estrutura da entidade** armazenadora.
-  
-Os métodos de arquivamento são divididos em duas **CLASSES**:
-1. **Básicas:**
-2. **Padronizadas**
 
 **GINA** e **VARMS**
 ![500](../../../attachments/Pasted%20image%2020260808161833.png) 
-![](../../../attachments/Pasted%20image%2020260808160232.png)B)
+#### 3.1 Alfabético
+Método direto. Usa o nome como elemento de busca em ordem afabética. São 13 regras de alfabetização e 2 de ordenação.
+ - Quando o volume de documentos é grande, pode gerar erros devido a cansaço visual, variação na grafia e equivocos na aplicação das regras.
+![](../../../attachments/Pasted%20image%2020260808163154.png)
+![](../../../attachments/Pasted%20image%2020260808163410.png) 
+![](../../../attachments/Pasted%20image%2020260808163600.png)
+![](../../../attachments/Pasted%20image%2020260808163706.png)
+![](../../../attachments/Pasted%20image%2020260808163805.png)
+![](../../../attachments/Pasted%20image%2020260808164005.png)
+![](../../../attachments/Pasted%20image%2020260808164426.png)
+![](../../../attachments/Pasted%20image%2020260808164539.png)
+![](../../../attachments/Pasted%20image%2020260808165200.png)
+
 
 ---
+
+![](../../../attachments/Pasted%20image%2020260808160232.png)B)
+
+![](../../../attachments/Pasted%20image%2020260808162507.png)
+**CORRETO**
+
