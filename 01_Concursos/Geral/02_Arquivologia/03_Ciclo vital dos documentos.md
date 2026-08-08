@@ -76,9 +76,18 @@ IV. A guia de transferência de documentos objetiva registrar os conjuntos docum
 ![](../../../attachments/Pasted%20image%2020260808150008.png)
 A alternativa D está correta porque aborda a classificação sob o ponto de vista de sua execução metodológica. A classificação é conceituada como uma sequência de operações técnicas. O objetivo final é agrupar os documentos sob o mesmo tema, classe ou assunto, atribuindo a eles o código numérico ou alfanumérico correspondente previsto no Plano de Classificação.
 
-
-- **Alternativa A:** Incorreta por limitar o escopo. A classificação engloba tanto as atividades-meio (administrativas) quanto as atividades-fim (objetivos finalísticos) da instituição.
-    
+- **Alternativa A:** Incorreta por limitar o escopo. A classificação engloba tanto as atividades-meio (administrativas) quanto as atividades-fim (objetivos finalísticos) da instituição.    
 - **Alternativa B:** Incorreta pois descreve o que são as "funções de Estado" ou políticas públicas em um sentido amplo, não se referindo ao tratamento técnico arquivístico.
-    
-- **Alternativa E:** Incorreta por restringir a classificação apenas à estrutura organizacional (organograma). Como visto anteriormente, os planos de classificação mais modernos e eficientes são baseados nas funções (critério funcional), e não apenas nos departamentos físicos da administração.
+
+![](../../../attachments/Pasted%20image%2020260808151021.png)C) Método IDEOGRÁFICO - é empregado quando a ordenação dos documentos é feita por **assunto**.
+
+![](../../../attachments/Pasted%20image%2020260808151318.png)
+- **Ficha de empréstimo (D):** Embora o ato de retirada exija o preenchimento de um registro que ateste a responsabilidade do usuário (a ficha de empréstimo), este documento é mantido sob controle administrativo na mesa do arquivista.
+- **Protocolo de saída (A):** O termo refere-se à unidade ou ao ato de registrar o trâmite de envio de correspondências ou processos para órgãos externos.
+- **Primeira via de desarmazenamento (B):** Trata-se de uma nomenclatura fictícia.
+
+A **guia-fora** é um instrumento utilizado quando um documento é retirado do arquivo. Ela substitui temporariamente o documento no local onde ele estava arquivado, indicando:
+- quem retirou o documento
+- quando foi retirado
+- para onde foi levado
+- controle de retorno
