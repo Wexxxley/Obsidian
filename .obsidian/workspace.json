@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/02_Arquivologia/14_Método alfabético.md",
+                "file": "01_Concursos/Geral/02_Arquivologia/14_Método alfabético e geográfico.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14_Método alfabético"
+              "title": "14_Método alfabético e geográfico"
             }
           }
         ]
@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.3359184265137
+    "width": 338.3359184265137,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -196,18 +197,19 @@
   },
   "active": "6c91a89a4ea4728e",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260808182154.png",
+    "attachments/Pasted image 20260808182049.png",
+    "attachments/Pasted image 20260808182014.png",
+    "attachments/Pasted image 20260808181852.png",
+    "attachments/Pasted image 20260808181543.png",
     "01_Concursos/Geral/02_Arquivologia/13_Tipos, sistemas e métodos de arquivamento.md",
-    "01_Concursos/Geral/02_Arquivologia/14_Método alfabético.md",
+    "01_Concursos/Geral/02_Arquivologia/14_Método alfabético e geográfico.md",
     "attachments/Pasted image 20260808175651.png",
     "attachments/Pasted image 20260808175447.png",
     "attachments/Pasted image 20260808175134.png",
     "attachments/Pasted image 20260808174935.png",
     "attachments/Pasted image 20260808174853.png",
     "attachments/Pasted image 20260808174242.png",
-    "attachments/Pasted image 20260808174013.png",
-    "attachments/Pasted image 20260808170849.png",
-    "attachments/Pasted image 20260808170352.png",
-    "attachments/Pasted image 20260808170214.png",
     "01_Concursos/Geral/02_Arquivologia/09_Classificação de documentos.md",
     "01_Concursos/Geral/02_Arquivologia/08_Princípios da Arquivologia.md",
     "01_Concursos/Geral/02_Arquivologia/07_Arquivos permanentes.md",
@@ -231,7 +233,6 @@
     "01_Concursos/Geral/01_Português/4_Sintaxe/14_Uso do QUE.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/1_Termos integrantes da oração e predicação verbal.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/2_Tipos de predicado.md",
-    "01_Concursos/Geral/01_Português/4_Sintaxe/3_Termos integrantes da oração.md",
     "02_Conhecimentos TI/7_System Design",
     "02_Roadmap/1_Junior/1_Como funciona um computador/ResumoEmAudio.m4a",
     "04_Autoescola/5_Sinalização.pdf",
