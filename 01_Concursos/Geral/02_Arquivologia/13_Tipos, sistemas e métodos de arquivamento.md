@@ -35,7 +35,12 @@ Método direto. Usa o nome como elemento de busca em ordem afabética. São 13 r
 ![](../../../attachments/Pasted%20image%2020260808164426.png)
 ![](../../../attachments/Pasted%20image%2020260808164539.png)
 ![](../../../attachments/Pasted%20image%2020260808165200.png)
-
+![](../../../attachments/Pasted%20image%2020260808165342.png)
+![](../../../attachments/Pasted%20image%2020260808165544.png)
+![](../../../attachments/Pasted%20image%2020260808165627.png)
+![](../../../attachments/Pasted%20image%2020260808165827.png)
+**Regras de ordenação:** ou você usa uma ou outra.
+![](../../../attachments/Pasted%20image%2020260808170214.png)
 
 ---
 
@@ -43,4 +48,17 @@ Método direto. Usa o nome como elemento de busca em ordem afabética. São 13 r
 
 ![](../../../attachments/Pasted%20image%2020260808162507.png)
 **CORRETO**
+
+![](../../../attachments/Pasted%20image%2020260808170352.png)**C**
+
+Paulo 2, joão (papa)
+Santo Cristo, joão do 
+Silva, alines barros da
+Silva Bisneto, Paulo da
+
+
+
+
+
+
 
