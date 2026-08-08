@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/02_Arquivologia/13_Tipos, sistemas e métodos de arquivamento.md",
+                "file": "01_Concursos/Geral/02_Arquivologia/14_Método alfabético.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13_Tipos, sistemas e métodos de arquivamento"
+              "title": "14_Método alfabético"
             }
           }
         ]
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.3359184265137,
-    "collapsed": true
+    "width": 338.3359184265137
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -197,17 +196,18 @@
   },
   "active": "6c91a89a4ea4728e",
   "lastOpenFiles": [
+    "01_Concursos/Geral/02_Arquivologia/13_Tipos, sistemas e métodos de arquivamento.md",
+    "01_Concursos/Geral/02_Arquivologia/14_Método alfabético.md",
+    "attachments/Pasted image 20260808175651.png",
+    "attachments/Pasted image 20260808175447.png",
+    "attachments/Pasted image 20260808175134.png",
+    "attachments/Pasted image 20260808174935.png",
+    "attachments/Pasted image 20260808174853.png",
+    "attachments/Pasted image 20260808174242.png",
+    "attachments/Pasted image 20260808174013.png",
     "attachments/Pasted image 20260808170849.png",
     "attachments/Pasted image 20260808170352.png",
     "attachments/Pasted image 20260808170214.png",
-    "attachments/Pasted image 20260808165827.png",
-    "attachments/Pasted image 20260808165627.png",
-    "attachments/Pasted image 20260808165544.png",
-    "attachments/Pasted image 20260808165342.png",
-    "attachments/Pasted image 20260808165200.png",
-    "attachments/Pasted image 20260808164539.png",
-    "attachments/Pasted image 20260808164426.png",
-    "attachments/Pasted image 20260808164005.png",
     "01_Concursos/Geral/02_Arquivologia/09_Classificação de documentos.md",
     "01_Concursos/Geral/02_Arquivologia/08_Princípios da Arquivologia.md",
     "01_Concursos/Geral/02_Arquivologia/07_Arquivos permanentes.md",
@@ -215,7 +215,6 @@
     "01_Concursos/Geral/02_Arquivologia/05_Gestão de documentos.md",
     "01_Concursos/Geral/02_Arquivologia/04_Protocolo.md",
     "01_Concursos/Geral/02_Arquivologia/02_Classificação dos arquivos.md",
-    "01_Concursos/Geral/02_Arquivologia/13_Tipos, sistemas e métodos de arquivamento.md",
     "01_Concursos/Geral/02_Arquivologia/15_Extras.md",
     "01_Concursos/Geral/02_Arquivologia/03_Ciclo vital dos documentos.md",
     "01_Concursos/Geral/02_Arquivologia/11_Documentos digitais.md",

@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 ### 1. Tipos de arquivamento
@@ -23,42 +24,4 @@ Posição em que os documentos são dispostos.
 
 **GINA** e **VARMS**
 ![500](../../../attachments/Pasted%20image%2020260808161833.png) 
-#### 3.1 Alfabético
-Método direto. Usa o nome como elemento de busca em ordem afabética. São 13 regras de alfabetização e 2 de ordenação.
- - Quando o volume de documentos é grande, pode gerar erros devido a cansaço visual, variação na grafia e equivocos na aplicação das regras.
-![](../../../attachments/Pasted%20image%2020260808163154.png)
-![](../../../attachments/Pasted%20image%2020260808163410.png) 
-![](../../../attachments/Pasted%20image%2020260808163600.png)
-![](../../../attachments/Pasted%20image%2020260808163706.png)
-![](../../../attachments/Pasted%20image%2020260808163805.png)
-![](../../../attachments/Pasted%20image%2020260808164005.png)
-![](../../../attachments/Pasted%20image%2020260808164426.png)
-![](../../../attachments/Pasted%20image%2020260808164539.png)
-![](../../../attachments/Pasted%20image%2020260808165200.png)
-![](../../../attachments/Pasted%20image%2020260808165342.png)
-![](../../../attachments/Pasted%20image%2020260808165544.png)
-![](../../../attachments/Pasted%20image%2020260808165627.png)
-![](../../../attachments/Pasted%20image%2020260808165827.png)
-**Regras de ordenação:** ou você usa uma ou outra.
-![](../../../attachments/Pasted%20image%2020260808170214.png)
-
----
-
-![](../../../attachments/Pasted%20image%2020260808160232.png)B)
-
-![](../../../attachments/Pasted%20image%2020260808162507.png)
-**CORRETO**
-
-![](../../../attachments/Pasted%20image%2020260808170352.png)**C**
-
-Paulo 2, joão (papa)
-Santo Cristo, joão do 
-Silva, alines barros da
-Silva Bisneto, Paulo da
-
-
-
-
-
-
 
