@@ -2,5 +2,31 @@
 
 ---
 ### 1. Tipos de arquivamento
+Posição em que os documentos são dispostos.
+- **Horizontal**: uns sobre os utros. Arquivados em estantes, caixas, mapotecas. Recomendado para arquivos permanentes. Não aconcelhado para arquivos correntos.
+	- Plantas, mapas, desenhos. Gênero cartográfico![150](../../../attachments/Pasted%20image%2020260808155731.png) 
+- **Vertical**: uns atrás/ lado dos outros, permitindo rápida consulta. Indicado para arquivos correntes.
+### 2. Sistemas de arquivamento
 
-Posição em que os documentos são dispostos
+**Sístema direto:** a busca do documento é feita diretamente no local.
+**Sístema indireto:**  é preciso consultar algum instrumento intermediário (código ou índice)
+
+>[!tip] 
+>**Método alfanumérico:** combinação de letras e números. Não está incluído em nenhuma das classes de métodos e é considerado do sistema **SEMI-INDIRETO**.
+
+![](../../../attachments/Pasted%20image%2020260808162152.png)
+### 3. Métodos de arquivamento
+
+- O sucesso do arquivamento está ligado à **RÁPIDA LOCALIZAÇÃO** dos documentos.
+- Um arquivo deve adotar **DIFERENTES MÉTODOS** de acordo com as caracteristica dos conjuntos documentais. Mix ideal
+- O método depende da **Natureza dos documentos** e **Pela estrutura da entidade** armazenadora.
+  
+Os métodos de arquivamento são divididos em duas **CLASSES**:
+1. **Básicas:**
+2. **Padronizadas**
+
+**GINA** e **VARMS**
+![500](../../../attachments/Pasted%20image%2020260808161833.png) 
+![](../../../attachments/Pasted%20image%2020260808160232.png)B)
+
+---
