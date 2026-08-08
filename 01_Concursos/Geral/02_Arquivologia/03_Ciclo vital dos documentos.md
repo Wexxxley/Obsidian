@@ -70,6 +70,15 @@ IV. A guia de transferência de documentos objetiva registrar os conjuntos docum
 
 ![](../../../attachments/Pasted%20image%2020260807142710.png)A)
 
-![](../../../attachments/Pasted%20image%2020260807143116.png)
+![](../../../attachments/Pasted%20image%2020260807143116.png)C
+
+---
+![](../../../attachments/Pasted%20image%2020260808150008.png)
+A alternativa D está correta porque aborda a classificação sob o ponto de vista de sua execução metodológica. A classificação é conceituada como uma sequência de operações técnicas. O objetivo final é agrupar os documentos sob o mesmo tema, classe ou assunto, atribuindo a eles o código numérico ou alfanumérico correspondente previsto no Plano de Classificação.
 
 
+- **Alternativa A:** Incorreta por limitar o escopo. A classificação engloba tanto as atividades-meio (administrativas) quanto as atividades-fim (objetivos finalísticos) da instituição.
+    
+- **Alternativa B:** Incorreta pois descreve o que são as "funções de Estado" ou políticas públicas em um sentido amplo, não se referindo ao tratamento técnico arquivístico.
+    
+- **Alternativa E:** Incorreta por restringir a classificação apenas à estrutura organizacional (organograma). Como visto anteriormente, os planos de classificação mais modernos e eficientes são baseados nas funções (critério funcional), e não apenas nos departamentos físicos da administração.
