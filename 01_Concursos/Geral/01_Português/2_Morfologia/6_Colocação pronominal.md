@@ -52,7 +52,7 @@ Pronome no meio do verbo. A mesóclise possui regras rígidas e só pode ser uti
 1. **O, a, os, as** SÃO COMPLEMENTOS. Se a palavra terminar em vogal.
 	- Não gostou dos sapatos? Venda-**os**
 	- O professor não veio? Eu não **o** vi.
-	- Antes de ter visto os materiasi, imaginei-**os** completamente diferente.
+	- Antes de ter visto os materias, imaginei-**os** completamente diferente.
 2. **O, a, os, as** Se a palavra terminar em r s ou z.
 	- Estes livros? eu posso doá-**los**.
 	- Ele fez as entregas? Sim, fê-**las**.
