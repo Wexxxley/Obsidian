@@ -58,9 +58,10 @@ Ocorre quando o "se" acompanha os chamados **verbos pronominais**, que são aque
 >2. **Para verbos essencialmente pronominais**: Se for reflexivo, a ação que o sujeito praticou contra si mesmo também poderia ser praticada contra outra pessoa.
 >	- Ana vestiu-se -> ana vestiu rodrigo
    > 	 - Eu me queixo. -> Eu queixo rodrigo. (n faz sentido, logo PIV)
- >  1. **Para verbos acidentalmente pronominais:** A principal característica de um verbo acidentalmente pronominal acompanhado de PIV é que ele não indica uma ação executada, mas sim a entrada em um novo estado emocional ou físico. Para comprovar, substitua o PIV por ficar.
+ >  1. **Para verbos acidentalmente pronominais:** A principal característica de um verbo acidentalmente pronominal acompanhado de PIV é que ele não indica uma ação executada, mas sim a entrada em um novo estado emocional ou físico. 
 	>	- Elas **se aborreceram** com a notícia.
 	>	- **Torna-se** melhor.
+	>	- A vidraça **estilhaçou-se**
 
 A regra estrutural consiste em substituir o verbo pronominal pelo verbo de ligação "ficar" (ou "estar"), seguido do verbo principal na sua forma nominal de particípio (a forma terminada em -ado ou -ido, que atua com valor de adjetivo).
    
@@ -165,15 +166,35 @@ D) PIV
 ![](../../../../attachments/Pasted%20image%2020260807132924.png)
 E) PIS
 
-![](../../../../attachments/Pasted%20image%2020260807133455.png)A) CONDICIONAL
-C) REFLEXIVO
-D) PIS
-E) PA
-![](../../../../attachments/Pasted%20image%2020260807134048.png)
-1 - PA
-2 - PIV
-3 - PA
-D)
 ![](../../../../attachments/Pasted%20image%2020260807134625.png)
 REFLEXIVA - PIV (mudança de estado) - REFLEXIVA
 E)
+
+---
+
+![](../../../../attachments/Pasted%20image%2020260809135159.png)
+![](../../../../attachments/Pasted%20image%2020260809135312.png)
+A) CONJ INTEGRANTE
+B) CONDICIONAL
+C) CONDICIONAL
+D) CAUSAL
+
+![](../../../../attachments/Pasted%20image%2020260809135418.png)
+E) CAUSAL
+F) CONCESSIVA
+
+![](../../../../attachments/Pasted%20image%2020260809135514.png)![](../../../../attachments/Pasted%20image%2020260809135527.png)A) 
+PA - PIV - PA - PA  
+
+![](../../../../attachments/Pasted%20image%2020260809140347.png)B ) 
+
+Isso seria bom
+
+![](../../../../attachments/Pasted%20image%2020260809140539.png)
+C)
+
+![](../../../../attachments/Pasted%20image%2020260809141457.png)
+CONJ INTE
+
+
+
