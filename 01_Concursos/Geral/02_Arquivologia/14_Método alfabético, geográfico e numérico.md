@@ -1,5 +1,5 @@
 
-
+#Concluded 
 
 ---
 ### 1. Alfabético
@@ -20,6 +20,8 @@ Método direto. Usa o nome como elemento de busca em ordem afabética. São 13 r
 ![](../../../attachments/Pasted%20image%2020260808165827.png)
 **Regras de ordenação:** ou você usa uma ou outra.
 ![](../../../attachments/Pasted%20image%2020260808170214.png)
+
+---
 ### 2. Geográfico
 Método direto. Indicado quando a procedência ou local for mais importante. Pode ser feito por cidade, estado, país.
 
@@ -30,6 +32,8 @@ Exige duas classificações:
 ![](../../../attachments/Pasted%20image%2020260808181543.png)
 ![](../../../attachments/Pasted%20image%2020260808182014.png)
 ![](../../../attachments/Pasted%20image%2020260808182049.png)
+
+---
 ### 3. Numérico
 Método indireto. 
  
