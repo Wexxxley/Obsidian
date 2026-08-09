@@ -50,18 +50,21 @@ Ocorre quando o "se" acompanha os chamados **verbos pronominais**, que são aque
 
 >[!tip] PIV traz uma ideia relfexiva, inclusive autores dizem que piv é reflexiva.
 
+>[!tip] O PIV traz ideia de sentimento, mudança de estado (emocional ou físico) e movimento.
+
 >[!tip]
 **Como diferenciar PIV de Pronome reflexivo**
 >1. **Verifique primeiro se é REFLEXIVO.  Ação Direta e Transferível**
 >	- Ele se cortou -> Ele cortou **a si mesmo**.
 >	- Ele se arrependeu. -> Ele arrependeu **a si mesmo**. (n faz sentido)
 >2. **Para verbos essencialmente pronominais**: Se for reflexivo, a ação que o sujeito praticou contra si mesmo também poderia ser praticada contra outra pessoa.
->	- Ana vestiu-se -> ana vestiu rodrigo
+>	- Ana vestiu-se -> ana vestiu rodrigo (REFLEXIVO)
    > 	 - Eu me queixo. -> Eu queixo rodrigo. (n faz sentido, logo PIV)
  >  1. **Para verbos acidentalmente pronominais:** A principal característica de um verbo acidentalmente pronominal acompanhado de PIV é que ele não indica uma ação executada, mas sim a entrada em um novo estado emocional ou físico. 
 	>	- Elas **se aborreceram** com a notícia.
 	>	- **Torna-se** melhor.
 	>	- A vidraça **estilhaçou-se**
+	>	
 
 A regra estrutural consiste em substituir o verbo pronominal pelo verbo de ligação "ficar" (ou "estar"), seguido do verbo principal na sua forma nominal de particípio (a forma terminada em -ado ou -ido, que atua com valor de adjetivo).
    
@@ -194,7 +197,12 @@ Isso seria bom
 C)
 
 ![](../../../../attachments/Pasted%20image%2020260809141457.png)
-CONJ INTE
 
+E) CONJ INTEGRANTE - RELFEXIVO 
 
+![](../../../../attachments/Pasted%20image%2020260809142044.png)C) PARTICULA EXPLETIVO
 
+O SE DE SENTE-SE PODE SAIR.
+
+![](../../../../attachments/Pasted%20image%2020260809142631.png)
+A)
