@@ -30,18 +30,15 @@ Exige duas classificações:
 ![](../../../attachments/Pasted%20image%2020260808181543.png)
 ![](../../../attachments/Pasted%20image%2020260808182014.png)
 ![](../../../attachments/Pasted%20image%2020260808182049.png)
+### 3. Numérico
+Método indireto. 
+ 
+![](../../../attachments/Pasted%20image%2020260808185006.png)
+![](../../../attachments/Pasted%20image%2020260808185232.png)
 
-
-
-
-
-
-
-
-
-
-
-
+O método númerico cronológico, em caso de não recomendação, é o padrão.![](../../../attachments/Pasted%20image%2020260808185348.png)
+![](../../../attachments/Pasted%20image%2020260808185609.png)
+![](../../../attachments/Pasted%20image%2020260808185706.png)
 
 ---
 
