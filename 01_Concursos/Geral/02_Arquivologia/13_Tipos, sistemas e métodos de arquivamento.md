@@ -27,26 +27,20 @@ Posição em que os documentos são dispostos.
 ![500](../../../attachments/Pasted%20image%2020260808161833.png) 
 
 ---
+![](../../../attachments/Pasted%20image%2020260810143539.png) C)
+![](../../../attachments/Pasted%20image%2020260810143742.png)
+GUARDA ORDENADA - ARQUIVAMENTO
+ORGANIZAR - ARRANJO![](../../../attachments/Pasted%20image%2020260810143943.png)
 
-![](../../../attachments/Pasted%20image%2020260810143109.png)
+![](../../../attachments/Pasted%20image%2020260810144203.png)D)
+![](../../../attachments/Pasted%20image%2020260810144417.png)C) Ideográfico 
 
+![](../../../attachments/Pasted%20image%2020260810144646.png)CORRETO
 
-
-
-
-
-
-
-
-
-
+![](../../../attachments/Pasted%20image%2020260810144807.png)
 
 
-
-
-
-
-
+ 
 
 
 
