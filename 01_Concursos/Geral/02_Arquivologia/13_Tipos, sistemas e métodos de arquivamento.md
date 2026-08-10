@@ -37,15 +37,16 @@ ORGANIZAR - ARRANJO![](../../../attachments/Pasted%20image%2020260810143943.png)
 
 ![](../../../attachments/Pasted%20image%2020260810144646.png)CORRETO
 
-![](../../../attachments/Pasted%20image%2020260810144807.png)
+![](../../../attachments/Pasted%20image%2020260810144807.png)CORRETO
 
+![](../../../attachments/Pasted%20image%2020260810151030.png)
 
- 
+![](../../../attachments/Pasted%20image%2020260810151248.png)ERRADO
 
+![](../../../attachments/Pasted%20image%2020260810151620.png)
+ERRADA
 
-
-
-
+![](../../../attachments/Pasted%20image%2020260810152040.png)
 
 
 
