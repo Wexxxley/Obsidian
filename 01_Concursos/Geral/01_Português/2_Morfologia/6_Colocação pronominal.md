@@ -87,6 +87,13 @@ Tente tudo (próclise, énclise e mesôclise)
 - Pronome no meio dos verbos com hífen - Ênclise do auxiliar
 - Pronome no meio dos verbos sem hífen - Próclise do principal
 
+![300](../../../../attachments/Pasted%20image%2020260810170303.png)
+![350](../../../../attachments/Pasted%20image%2020260810170409.png)
+**Apossínclise:** duplo fator de atração.
+![400](../../../../attachments/Pasted%20image%2020260810172233.png)
+
+---
+
 ![](../../../../attachments/Pasted%20image%2020260612082734.png)
 A) Tornou-se. Não pode iniciar oração com PRÔCLISE.
 B) Lhe dado. Não pode usar prôclise com verbo no particípio.
@@ -174,3 +181,16 @@ E) A conjunção subordinativa puxa.
 ![](../../../../attachments/Pasted%20image%2020260810164826.png)
 14) Encontrar-nos-emos
 15) Nimguém nos falou  
+
+![](../../../../attachments/Pasted%20image%2020260810172437.png)
+3) ERRADA. Quem lhe veio trazer /Quem veio lhe trazer/Quem veio trazer-lhe
+
+![](../../../../attachments/Pasted%20image%2020260810172718.png)
+4) Correta. por mais que possua o "não", o verbo está no infinitivo
+5) CORRETA. so tem virgula pq o termo está deslocado
+6) ERRADO. Quando é conj subordinativa.
+
+![](../../../../attachments/Pasted%20image%2020260810181947.png)
+8) ERRADO. Nada lhe direi
+9) ERRADO. Segundo (conformativo) puxa. Todos puxa. 
+10) CORRETO
