@@ -29,9 +29,22 @@ Faça a ordenação do nome.
 ![](../../../attachments/Pasted%20image%2020260809164634.png)
 #### 2.2 Automático
 
+Os docs são arquivados em guias e pastas que indicam divisoes das letras do alfabeto. Não usado no Brasil.
 #### 2.3 Soundex 
 ![](../../../attachments/Pasted%20image%2020260809164945.png)
-#### 2.4
+#### 2.4 RÔNEO E MENEMÔNICO
+
+São **ABSOLETOS**. 
+- Rôneo combina letras, números e cores
+- Mnemônico usa esquemas, gráficos simbolos, palavras para auxiliar a memória do arquivista.
+
+---
+### 3. Alfanumérico
+
+SISTEMA SEMI-INDIRETO. Combinações de letras e números. Ele próprio tem uma tabela que abrange divisções do alfabeto.
+![](../../../attachments/Pasted%20image%2020260809171456.png)
+
+---
 
 
 ---
@@ -40,3 +53,7 @@ Faça a ordenação do nome.
 
 ![](../../../attachments/Pasted%20image%2020260809163903.png)C)
 
+![](../../../attachments/Pasted%20image%2020260809171644.png)
+ FALSO. semi direto
+![](../../../attachments/Pasted%20image%2020260809171727.png)
+B)
