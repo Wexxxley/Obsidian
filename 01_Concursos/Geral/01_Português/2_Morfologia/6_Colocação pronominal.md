@@ -9,6 +9,7 @@ Parte da gramática que estuda a posição dos pronomes oblíquos átonos (me, t
 a) Não pode prôclise iniciando oração. 
 b) Não pode ênclise em verbos que indicam futuro.
 c) Não pode ênclise em em verbos no particípio.
+d) em frases exclamativas, usa-se próclise
 
 **EXCEÇÕES**
 a) No geral, após infinitivo é permitido ênclise, mesmo com termo atrativo.
@@ -79,6 +80,12 @@ Pronome no meio do verbo.  O verbo deve estar conjugado no futuro e não pode ha
 	 - Enviei os documentos ao secretário -> Enviei-lhe o documento
 	 - Eu lhe vi ontem ERRADO -> eu o vi ontem. 
 
+#### 5. Colocação pronominal na locuação verbal
+Tente tudo (próclise, énclise e mesôclise)
+![400](../../../../attachments/Pasted%20image%2020260810165525.png)
+- Não pode mesôclise pq n tem verbo no futuro.
+- Pronome no meio dos verbos com hífen - Ênclise do auxiliar
+- Pronome no meio dos verbos sem hífen - Próclise do principal
 
 ![](../../../../attachments/Pasted%20image%2020260612082734.png)
 A) Tornou-se. Não pode iniciar oração com PRÔCLISE.
@@ -151,4 +158,19 @@ E) A conjunção subordinativa puxa.
 ![](../../../../attachments/Pasted%20image%2020260810162938.png)
 1) o aplaudiu / aplaudiu-o
 2) se trancou/ trancou-se
-3) Explica-te-ei
+3) Explicar-te-ei
+
+![](../../../../attachments/Pasted%20image%2020260810163236.png)
+1) Ser-me-ia 
+2) os alertar/alerta-los. Preposição puxa, mas o verbo no infinitivo permite ênclise.
+3) Não se vá tão cedo; Custa-lhe ficar mais?
+4) Quem te chamou? pronome indefinido interrogativo
+
+![](../../../../attachments/Pasted%20image%2020260810164629.png)
+11) Maria, diga-me a verdade 
+12) Informaram-me da decisão
+13) Revelar-nos-ias
+
+![](../../../../attachments/Pasted%20image%2020260810164826.png)
+14) Encontrar-nos-emos
+15) Nimguém nos falou  
