@@ -33,7 +33,6 @@ GUARDA ORDENADA - ARQUIVAMENTO
 ORGANIZAR - ARRANJO![](../../../attachments/Pasted%20image%2020260810143943.png)
 
 ![](../../../attachments/Pasted%20image%2020260810144203.png)D)
-![](../../../attachments/Pasted%20image%2020260810144417.png)C) Ideográfico 
 
 ![](../../../attachments/Pasted%20image%2020260810144646.png)CORRETO
 
@@ -41,13 +40,7 @@ ORGANIZAR - ARRANJO![](../../../attachments/Pasted%20image%2020260810143943.png)
 
 ![](../../../attachments/Pasted%20image%2020260810151030.png)
 
-![](../../../attachments/Pasted%20image%2020260810151248.png)ERRADO
+![](../../../attachments/Pasted%20image%2020260810153953.png)CORRETO. diferente do método ideográfico decimal, que limitase a 10 classes.
 
-![](../../../attachments/Pasted%20image%2020260810151620.png)
-ERRADA
-
-![](../../../attachments/Pasted%20image%2020260810152040.png)
-
-
-
-
+![](../../../attachments/Pasted%20image%2020260810154520.png)C) Note que esse é o método puramente CRONOLÓGICO, so por data, ele é direto.
+O numérico cronológico é indireto
