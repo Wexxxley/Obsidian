@@ -7,6 +7,7 @@ Posição em que os documentos são dispostos.
 - **Horizontal**: uns sobre os utros. Arquivados em estantes, caixas, mapotecas. Recomendado para arquivos permanentes. Não aconcelhado para arquivos correntos.
 	- Plantas, mapas, desenhos. Gênero cartográfico![150](../../../attachments/Pasted%20image%2020260808155731.png) 
 - **Vertical**: uns atrás/ lado dos outros, permitindo rápida consulta. Indicado para arquivos correntes.
+	![200](../../../attachments/Pasted%20image%2020260810081246.png)
 ### 2. Sistemas de arquivamento
 
 **Sístema direto:** a busca do documento é feita diretamente no local.

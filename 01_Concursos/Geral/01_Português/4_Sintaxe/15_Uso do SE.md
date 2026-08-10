@@ -48,9 +48,13 @@ Ocorre quando o "se" acompanha os chamados **verbos pronominais**, que são aque
 - O réu arrependeu-**se** do crime.  
 - Apiedou-**se** do menino.
 
->[!tip] PIV traz uma ideia relfexiva, inclusive autores dizem que piv é reflexiva.
+>[!tip] PIV traz ideia reflexiva, inclusive autores dizem que piv é reflexiva.
 
->[!tip] O PIV traz ideia de sentimento, mudança de estado (emocional ou físico) e movimento.
+>[!tip] O PIV traz ideia de sentimento, mudança de estado (emocional ou físico).
+
+>[!tip] O pronome reflexivo traz ideia de movimento.
+>- Sentar-se
+>- Afastar-se
 
 >[!tip]
 **Como diferenciar PIV de Pronome reflexivo**
