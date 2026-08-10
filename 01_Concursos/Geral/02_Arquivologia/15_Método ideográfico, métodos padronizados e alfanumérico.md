@@ -12,10 +12,10 @@ Método no qual o principal elemento considerado é o ASSUNTO. Não é de fácil
 - **Enciplopédico**: assuntos agrupados por títulos e subtítulos, dispostos alfabeticamente.
 	![400](../../../attachments/Pasted%20image%2020260809155057.png)
 **Númerico (SISTEMA INDIRETO)**:
-- **Duplex**: documentação dividida em classes/assuntos. Partindo do gerla para o particular. Não há limite para a criação de classes.![200](../../../attachments/Pasted%20image%2020260809155507.png)
-- **Decimal**: documentação dividida em classes/assuntos. Partindo do gerla para o particular. Pode ter no máximo 10 classes. (9 principais e 1 para demais assuntos). Mas não é finito, pois pode ir "quebrando" cada classe em 10.
+- **Duplex**: documentação dividida em classes/assuntos. Partindo do geral para o particular. Não há limite para a criação de classes.![200](../../../attachments/Pasted%20image%2020260809155507.png)
+- **Decimal**: documentação dividida em classes/assuntos. Partindo do geral para o particular. Pode ter no máximo 10 classes. (9 principais e 1 para demais assuntos). Mas não é finito, pois pode ir "quebrando" cada classe em 10.
 	![200](../../../attachments/Pasted%20image%2020260809155907.png)
-- **Indexação coordenada/unitermo**: Usado em arquivos especiais ou especializados. É baseado na extração e no controle de palavras-chave individuais (os unitermos) presentes no conteúdo dos documentos.  O arquivamento unitermo é o precursor dos modernos sistemas de busca em bancos de dados digitai. 
+- **Indexação coordenada/unitermo**: Usado em arquivos especiais ou especializados. É baseado na extração e no controle de palavras-chave individuais (os unitermos) presentes no conteúdo dos documentos. O arquivamento unitermo é o precursor dos modernos sistemas de busca em bancos de dados digitai. 
 
 ---
 ### 2. Métodos Padronizados
