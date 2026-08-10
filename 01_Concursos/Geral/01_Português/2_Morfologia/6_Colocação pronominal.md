@@ -3,18 +3,27 @@
 
 ---
 
-Parte da gramática que estuda a posição dos pronomes oblíquos átonos (me, te, se, o, a, lhe, nos, vos, os, as, lhes) em relação ao verbo.  
+Parte da gramática que estuda a posição dos pronomes oblíquos átonos (me, te,+  se, o, a, lhe, nos, vos, os, as, lhes) em relação ao verbo.  
 
+**PROIBIÇÕES**
+a) Não pode prôclise iniciando oração. 
+b) Não pode ênclise em verbos que indicam futuro.
+c) Não pode ênclise em em verbos no particípio.
+
+**EXCEÇÕES**
+a) No geral, após infinitivo é permitido ênclise, mesmo com termo atrativo.
+- Para enviar-**me**
+b) Com conjunções coordenativas: prôclise ou ênclise. 
+- Ele chegou cedo, porém a encontrou/encontrou-a 
 #### **1. Próclise**
-Pronome antes do verbo. A próclise é obrigatória quando existem os fatores atrativos. Fatores atrativos são palavras que exercem atração sobre o pronome oblíquo. É importante ressaltar que, se houver uma pausa (marcada por vírgula) entre a palavra atrativa e o verbo, essa atração é anulada.
+Pronome antes do verbo. A próclise é obrigatória quando existem os fatores atrativos. É importante ressaltar que, se houver uma pausa (marcada por vírgula) entre a palavra atrativa e o verbo, essa atração é anulada.
 
 - **Palavras com sentido negativo** (não, nunca, jamais, ninguém, nada):    
     - Ninguém **se** importou com o prazo estabelecido.
-- **Pronomes indefinidos** (alguém, todos, poucos, muitos, tudo):
-    - Alguém **lhe** disse a verdade.
-- **Pronomes relativos e demonstrativos** (que, quem, qual, onde, isso, este, aquilo):
+- **Pronomes indefinidos, relativos e demonstrativos**:
     - O relatório que **me** enviaram está incompleto.
     - Isso **me** obriga a falar
+    - Alguém **lhe** disse a verdade.
 - **Advérbios** (sempre, já, talvez, muito, aqui, ontem, atualmente, raramente):
     - Sempre **nos** tratam com respeito.
     - Algumas pessoas ainda **se** confundem
@@ -22,8 +31,11 @@ Pronome antes do verbo. A próclise é obrigatória quando existem os fatores at
 	- Quando **nos** vimos pela primeira vez?
 	- Quem **se** espantou?
 - **Conjunções subordinativas**: Concessão, finalidade, conformativa, temporal, etc...
-    - Iremos _embora_ **nos** peçam para ficar.
-    - Avisarei _quando_ **o** vir. 
+    - Iremos embora **nos** peçam para ficar.
+    - Avisarei quando **o** vir. 
+- **Preposição:** 
+	- Veio **para me** ajudar.
+	- Começou **a se** arrumar. 
 #### **2. Ênclise**
 A ênclise ocorre quando o pronome é posicionado após o verbo. É a posição assumida quando não há nenhum fator atrativo justificando a próclise.
 
@@ -37,13 +49,12 @@ A ênclise ocorre quando o pronome é posicionado após o verbo. É a posição 
 - **Não se coloca ênclise em verbos no particípio e no futuro.**
 	![](../../../../attachments/Pasted%20image%2020260612081705.png)
 #### **3. Mesóclise**
-Pronome no meio do verbo. A mesóclise possui regras rígidas e só pode ser utilizada se duas condições forem atendidas simultaneamente: o verbo deve estar conjugado no futuro e não pode haver palavra atrativa exigindo próclise.
+Pronome no meio do verbo.  O verbo deve estar conjugado no futuro e não pode haver palavra atrativa exigindo próclise.
 
-- **Com verbo no Futuro do Presente:** 
+- **Futuro do Presente:** 
     - Ajudar-**te**-ei com a implementação do sistema. 
     - Convidar-**nos**-ão para a cerimônia de graduação. 
-        
-- **Com verbo no Futuro do Pretérito:**
+- **Futuro do Pretérito:**
     - Ajudar-**te**-ia se tivesse tempo.
     - Acompanhar-**vos**-íamos na viagem técnica. 
 
@@ -135,3 +146,9 @@ B) O verbo indica futuro. Ser-lhe-ia
 C) Não pode começar com pronome oblíquo
 D) O que puxa o pronome oblíquo
 E) A conjunção subordinativa puxa.
+
+---
+![](../../../../attachments/Pasted%20image%2020260810162938.png)
+1) o aplaudiu / aplaudiu-o
+2) se trancou/ trancou-se
+3) Explica-te-ei
