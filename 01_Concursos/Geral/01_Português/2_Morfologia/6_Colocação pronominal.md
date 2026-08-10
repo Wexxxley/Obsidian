@@ -191,6 +191,14 @@ E) A conjunção subordinativa puxa.
 6) ERRADO. Quando é conj subordinativa.
 
 ![](../../../../attachments/Pasted%20image%2020260810181947.png)
+7) ERRADO. SE (CONJ CONDICIONAL) puxa. CONTAR nesse caos é FUTURO DO SUBJUNTIVO. Se fizer.
 8) ERRADO. Nada lhe direi
 9) ERRADO. Segundo (conformativo) puxa. Todos puxa. 
-10) CORRETO
+10) ERRADO. Adverbio de tempo puxa
+
+![](../../../../attachments/Pasted%20image%2020260810182854.png)CORRETO. Por mais que o De é preposição. Tornarem é infinitivo e permite ênclise. Para eles se tornarem
+
+![](../../../../attachments/Pasted%20image%2020260810183423.png)ERRADO
+
+![](../../../../attachments/Pasted%20image%2020260810183655.png)CORRETO. INFINITIVO
+
