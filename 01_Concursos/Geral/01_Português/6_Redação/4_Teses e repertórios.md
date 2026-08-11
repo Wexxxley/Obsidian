@@ -74,31 +74,33 @@
 - O filósofo **Byung-Chul Han**, na obra "**A Sociedade da Transparência**", postula que o valor do indivíduo moderno tornou-se dependente da constante exposição e da aprovação alheia. Sob essa lógica, a busca por pertencimento obriga o sujeito a sacrificar a própria integridade para obter validação 
 
 **8. Autoestima baixa** <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark>
-- O psicólogo Abraham Maslow, em sua teoria da "Hierarquia das Necessidades", postula que a estima - que engloba a autoestima e o respeito próprio - é uma etapa obrigatória para a autorrealização humana.
+- O psicólogo **Abraham Maslow**, em sua teoria da "**Hierarquia das Necessidades**", postula que a estima - que engloba a autoestima e o respeito próprio - é uma etapa obrigatória para a autorrealização humana.
 
 **9. Violência Simbólica**  <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark>
-- O sociólogo Pierre Bourdieu, em sua teoria da "Violência Simbólica", descreve um processo de opressão invisível no qual as vítimas internalizam discursos hostis e sofrem severos danos sem a necessidade de agressão física. Nesse sentido, a exposição constante a ambientes excludentes degrada a saúde mental do indivíduo, culminando na sua marginalização e na destruição da própria autoestima.
+- O sociólogo **Pierre Bourdieu**, em sua teoria da "**Violência Simbólica**", descreve um processo de opressão invisível no qual as vítimas internalizam discursos hostis e sofrem severos danos sem a necessidade de agressão física. Nesse sentido, a exposição constante a ambientes excludentes degrada a saúde mental do indivíduo, culminando na sua marginalização e na destruição da própria autoestima.
 
 ---
 ### **Macroeixo 4: A Lógica de Mercado e as Desigualdades**
 
 **1. Desigualdade social/disparidade socioeconômica** <mark style="background: #FF5582A6;">CAUSA</mark>  
-- Na obra "As Cidadanias Mutiladas", o geógrafo Milton Santos afirma que a democracia só atinge sua efetividade quando os direitos fundamentais são desfrutados pela totalidade do corpo social.
+- Na obra "**As Cidadanias Mutiladas**", o geógrafo **Milton Santos** afirma que a democracia só atinge sua efetividade quando os direitos fundamentais são desfrutados pela totalidade do corpo social.
 
-- O filme "Que Horas Ela Volta?" expõe as barreiras impostas a uma trabalhadora doméstica e a sua filha devido à segregação espacial e econômica. A obra ilustra que a desigualdade social opera como um mecanismo que restringe o acesso a oportunidades.
+- O filme "**Que Horas Ela Volta?**" expõe as barreiras impostas a uma trabalhadora doméstica e a sua filha devido à segregação espacial e econômica. A obra ilustra que a desigualdade social opera como um mecanismo que restringe o acesso a oportunidades.
 
 **2. Influência midiática/Ação dos veículos midiáticos** <mark style="background: #FF5582A6;">CAUSA</mark>
-- O ministro da propaganda nazista, Joseph Goebbels, afirmava que uma mentira repetida mil vezes torna-se verdade. Esse raciocínio ilustra como a alienação pode ser fabricada pela manipulação da informação.
+- O ministro da propaganda nazista, **Joseph Goebbels**, afirmava que uma mentira repetida mil vezes torna-se verdade. Esse raciocínio ilustra como a alienação pode ser fabricada pela manipulação da informação.
 
-- Durante o Estado Novo no Brasil, o governo criou o Departamento de Imprensa e Propaganda para censurar opositores e manipular as informações transmitidas à população. Esse fato ilustra como a influência midiática possui a capacidade de forjar narrativas irreais.
+- Durante o **Estado Novo** no Brasil, o governo criou o **Departamento de Imprensa e Propaganda** para censurar opositores e manipular as informações transmitidas à população. Esse fato ilustra como a influência midiática possui a capacidade de forjar narrativas irreais.
 
 **3. Lógica capitalista/Busca pelo lucro** <mark style="background: #FF5582A6;">CAUSA</mark>
 - No século XIX, o Império Britânico contrabandeou ópio para a China, causando uma epidemia de dependência química com o único propósito de lucrar. Esse fato evidencia como a busca cega por capital ignora preceitos éticos e morais.
 
-- A obra cinematográfica "Tempos Modernos", expõe a exaustão física e mental de um operário submetido ao ritmo frenético e desumano das linhas de montagem industriais. Esse cenário ilustra como a busca incessante pelo lucro capitalista objetifica o ser humano e provoca o adoecimento severo da população.
+- A obra cinematográfica "**Tempos Modernos**", expõe a exaustão física e mental de um operário submetido ao ritmo frenético e desumano das linhas de montagem industriais. Esse cenário ilustra como a busca incessante pelo lucro capitalista objetifica o ser humano e provoca o adoecimento severo da população.
 
 **4. Consumismo** <mark style="background: #FF5582A6;">CAUSA</mark> 
-- O filósofo pré-socrático Demócrito afirmava que o animal é mais sábio que o homem, pois conhece e respeita a medida da sua necessidade. Em contraste, a sociedade consumista atual ignora esse limite, buscando o acúmulo irracional.
+- O filósofo **pré-socrático Demócrito** afirmava que o animal é mais sábio que o homem, pois conhece e respeita a medida da sua necessidade. Em contraste, a sociedade consumista atual ignora esse limite, buscando o acúmulo irracional.
 
 **5. Jornada de trabalho extensiva/Dinâmica acelerada do mundo moderno
-- O filósofo Byung-Chul Han, na obra "Sociedade do Cansaço", postula que o indivíduo contemporâneo se autoexplora na busca incessante por produtividade. Esse conceito elucida a ausência de tempo livre na atualidade, pois a constante cobrança por desempenho esgota o cidadão e o impede de dedicar atenção a questões sociais, de saúde ou familiares.
+- O filósofo **Byung-Chul Han**, na obra "**Sociedade do Cansaço**", postula que o indivíduo contemporâneo se autoexplora na busca incessante por produtividade. Esse conceito elucida a ausência de tempo livre na atualidade, pois a constante cobrança por desempenho esgota o cidadão e o impede de dedicar atenção a questões sociais, de saúde ou familiares.
+
+
