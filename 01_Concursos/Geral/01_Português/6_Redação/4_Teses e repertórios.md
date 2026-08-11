@@ -7,21 +7,21 @@
 **1. Falta de investimento / Infraestrutura precária** <mark style="background: #FF5582A6;">CAUSA</mark>
 - A chegada da Família Real ao Brasil, em 1808, iniciou uma modernização urbana focada apenas na capital. Esse marco exemplifica a lógica estatal de concentrar recursos nos grandes centros, negando infraestrutura e capital às regiões periféricas.
 
-- De acordo com a teoria do Contrato Social, do pensador John Locke, o Estado tem o dever de assegurar os direitos naturais dos indivíduos. A escassez de investimentos governamentais configura uma ruptura desse pacto, uma vez que o poder público falha em prover as condições mínimas para a sociedade.
+- De acordo com a **teoria do Contrato Social**, do filósofo **John Locke**, o Estado tem o dever de assegurar os direitos naturais dos indivíduos. A escassez de investimentos governamentais configura uma ruptura desse pacto, uma vez que o poder público falha em prover as condições mínimas para a sociedade.
 
 **2. Base educacional lacunar / Falhas no sistema educacional** <mark style="background: #FF5582A6;">CAUSA</mark>
-- O educador Darcy Ribeiro afirmava que a crise na educação do Brasil é um projeto. Isso indica que a base de ensino lacunar resulta de uma negligência estatal proposital, mantendo a sociedade desinformada e vulnerável à manipulação política.
+- O educador **Darcy Ribeiro** afirmava que a crise na educação do Brasil é um projeto. Isso indica que a base de ensino lacunar resulta de uma negligência estatal proposital, mantendo a sociedade desinformada e vulnerável à manipulação política.
 
-- O economista britânico William Lewis postula que os gastos destinados à educação nunca devem ser encarados como despesas. Na verdade, tratam-se de investimentos estatais fundamentais que garantem um retorno socioeconômico garantido.
+- O economista britânico **William Lewis** afirma que os gastos destinados à educação nunca devem ser encarados como despesas, mas sim como investimentos que garantem um retorno socioeconômico garantido.
 
 **3. Falta de confiança dos cidadãos em relação ao Estado** <mark style="background: #FFB86CA6;">CONSEQUÊNCIA 
 </mark>
-- A arquiteta Ermínia Maricato desenvolveu o conceito de "melancolia coletiva" para descrever o sentimento de desamparo da sociedade. Essa teoria explica como a contínua omissão do Estado intensifica a descrença e rompe a confiança dos cidadãos no poder público.  
+- A professora **Ermínia Maricato** desenvolveu o conceito de "**melancolia coletiva**" para descrever o sentimento de desamparo da sociedade. Essa teoria explica como a contínua omissão do Estado intensifica a descrença e rompe a confiança dos cidadãos no poder público.  
 
 **4. Sensação de impunidade/descrença na justiça**
-- O sociólogo Émile Durkheim criou o termo "anomia" para descrever um estado de enfraquecimento das normas sociais e morais. Quando o Estado falha sistematicamente em punir os infratores, as leis perdem o seu poder de coerção.
+- O sociólogo **Émile Durkheim** criou o termo "**anomia**" para descrever um estado de enfraquecimento das normas sociais e morais. Quando o Estado falha sistematicamente em punir os infratores, as leis perdem o seu poder de coerção.
 
-**5. Omissão estatal/negligência estatal ou ineficácia legislativa**
+**5. negligência estatal ou ineficácia legislativa**
 - A Constituição Federal de 1988 assegura o direito à/ao **[direito]** a todos os cidadãos. Contudo, nota-se uma grave incoerência, visto que, no contexto do **[tema]**, essa garantia constitucional não se concretiza na prática.
 	- **à moradia**
 	- **à saúde**
@@ -39,39 +39,39 @@
 ### **Macroeixo 2: A Herança Histórica e Cultural**
 
 **1. Preconceito / Estigma social** <mark style="background: #FF5582A6;">CAUSA</mark>
- - O sociólogo Erving Goffman, em sua teoria do "Estigma", explica que a sociedade estabelece rótulos depreciativos para indivíduos que fogem dos padrões estabelecidos. Esse preconceito atua marginalizando minorias e impedindo que essas pessoas acessem oportunidades e direitos básicos de forma igualitária.
+ - O sociólogo **Erving Goffman**, em sua **teoria do "Estigma"**, explica que a sociedade estabelece rótulos depreciativos para indivíduos que fogem dos padrões estabelecidos. Esse preconceito atua marginalizando minorias e impedindo que essas pessoas acessem oportunidades e direitos básicos de forma igualitária.
  
 **2. Herança cultural e histórica** <mark style="background: #FF5582A6;">CAUSA</mark>
-- Segundo o filósofo espanhol George Santayana, a incapacidade de lembrar e compreender o passado condena a sociedade a repetir suas falhas sucessivamente, perpetuando problemáticas históricas nas gerações presentes.
+- Segundo o filósofo espanhol **George Santayana**, a incapacidade de lembrar e compreender o passado condena a sociedade a repetir suas falhas sucessivamente, perpetuando problemáticas históricas nas gerações presentes.
 
 **3. Sensação de superioridade** <mark style="background: #FF5582A6;">CAUSA</mark>
-- O sociólogo William Graham desenvolveu o conceito de "Etnocentrismo" para definir a tendência humana de colocar a própria cultura no centro, julgando os hábitos, valores e crenças de outros grupos como inferiores.
+- O sociólogo **William Graham** desenvolveu o conceito de "**Etnocentrismo**" para definir a tendência humana de colocar a própria cultura no centro, julgando os hábitos, valores e crenças de outros grupos como inferiores.
 
 ---
 ### **Macroeixo 3: O Comportamento Social**
 
 **1. Formação familiar / Negligência familiar** <mark style="background: #FF5582A6;">CAUSA</mark>
-- Para o sociólogo Émile Durkheim, a "socialização primária" — ocorrida na infância e no núcleo familiar — é definitiva para o desenvolvimento intelectual e social. Logo, falhas nessa etapa comprometem toda a conduta do indivíduo em sociedade.
+- Para o sociólogo **Émile Durkheim**, a "**socialização primária**" — ocorrida na infância e no núcleo familiar — é definitiva para o desenvolvimento intelectual e social. Logo, falhas nessa etapa comprometem toda a conduta do indivíduo em sociedade.
 
 **2. Silenciamento / Falta de debates/invisibilidade**<mark style="background: #FF5582A6;">CAUSA</mark>
 - Durante a Ditadura Militar no Brasil, o Estado impôs uma censura severa aos meios de comunicação para calar a oposição e impedir discussões sobre os problemas nacionais. Esse fato comprova que o silenciamento de pautas sociais impedem a formação de uma pressão popular necessária para solucionar crises.
 
 **3. Alienação** <mark style="background: #FF5582A6;">CAUSA</mark>
-- Na obra "A Banalidade do Mal", a filósofa Hannah Arendt postula que o mal se instaura quando os indivíduos abrem mão de sua capacidade reflexiva. Esse raciocínio explica como a massificação cega a sociedade e faz com que a população reproduza condutas prejudiciais.
+- Na obra "**A Banalidade do Mal**", a filósofa **Hannah Arendt** postula que o mal se instaura quando os indivíduos abrem mão de sua capacidade reflexiva. Esse raciocínio explica como a massificação cega a sociedade e faz com que a população reproduza condutas prejudiciais.
 
 **4. Passividade social** <mark style="background: #FF5582A6;">CAUSA</mark>
-- O movimento das "Diretas Já", ocorrido em 1984, mobilizou milhões de brasileiros para exigir eleições presidenciais. Esse evento comprova que a superação da passividade social é indispensável para promover transformações estruturais.
+- O movimento das "**Diretas Já**", ocorrido em 1984, mobilizou milhões de brasileiros para exigir eleições presidenciais. Esse evento comprova que a superação da passividade social é indispensável para promover transformações estruturais.
 
 **5. Banalização** <mark style="background: #FF5582A6;">CAUSA</mark>
-- O sociólogo Georg Simmel desenvolveu o conceito de "Atitude Blasé" para definir o comportamento de apatia e insensibilidade do sujeito perante situações que deveriam despertar sua atenção. 
+- O sociólogo **Georg Simmel** desenvolveu o conceito de "Atitude Blasé" para definir o comportamento de apatia e insensibilidade do sujeito perante situações que deveriam despertar sua atenção. 
 
 - A aceitação generalizada da escravidão ao longo de séculos no Brasil demonstra como a sociedade normaliza práticas criminosas quando elas são incorporadas ao cotidiano e trazem benefícios individuais.
 
 **6. imediatismo cognitivo/esvaziamento do debate racional** <mark style="background: #FF5582A6;">CAUSA</mark>
-- O filósofo Byung-Chul Han, na obra "A Expulsão do Outro", adverte que a sociedade contemporânea perdeu a capacidade de escutar e de refletir sobre o pensamento divergente. 
+- O filósofo **Byung-Chul Han**, na obra "**A Expulsão do Outro**", adverte que a sociedade contemporânea perdeu a capacidade de escutar e de refletir sobre o pensamento divergente. 
 
 **7. Busca por validação.**  <mark style="background: #FF5582A6;">CAUSA</mark>
-- O filósofo Byung-Chul Han, na obra "A Sociedade da Transparência", postula que o valor do indivíduo moderno tornou-se dependente da constante exposição e da aprovação alheia. Sob essa lógica, a busca por pertencimento obriga o sujeito a sacrificar a própria integridade para obter validação 
+- O filósofo **Byung-Chul Han**, na obra "**A Sociedade da Transparência**", postula que o valor do indivíduo moderno tornou-se dependente da constante exposição e da aprovação alheia. Sob essa lógica, a busca por pertencimento obriga o sujeito a sacrificar a própria integridade para obter validação 
 
 **8. Autoestima baixa** <mark style="background: #FFB86CA6;">CONSEQUÊNCIA</mark>
 - O psicólogo Abraham Maslow, em sua teoria da "Hierarquia das Necessidades", postula que a estima - que engloba a autoestima e o respeito próprio - é uma etapa obrigatória para a autorrealização humana.
