@@ -16,22 +16,21 @@ Operações que visam à organização dos documentos. Através do **quadro de a
 **Fundo de arquivo:** conjunto de documentos de uma mesma entidade. Termo usado em arquivos permanentes, uma vez que guardam documentos de entidades distintas.  
 - **Fundo Aberto:** Fundo vinculado a entidades ativas.
 - **Fundo Fechado:** Fundo vinculado a entidades extintas.  
+
 **Série**: subdivisão por fundo de arquivo.![500](../../../attachments/Pasted%20image%2020260805170713.png)
 ![500](../../../attachments/Pasted%20image%2020260531152858.png)
 ![500](../../../attachments/Pasted%20image%2020260531152916.png)
 
 ---
 #### **2. Descrição e publicação**
+Descrição é o conjunto de procedimentos que leva em conta os elementos **formais e de conteúdo** dos documentos para elaboração de **INSTRUMENTOS DE PESQUISA** que permitam os usuários (Consulentes) localizar as informações desejadas no arquivo permanente.
 
-Descrição é o conjunto de procedimentos que leva em conta os elementos formais e de conteúdo dos documentos para elaboração de **instrumentos de pesquisa** que permitam os usuários, como pesquisador ou historiador, localizar as informações desejadas no arquivo permanente.
+Note que descrição é uma atividade típica de arquivos permanentes, mas alguns estudiosos consideram que a descrição ocorre durante todo o ciclo.
 
 **Principais tipos de instrumentos de pesquisa:**
-1. **Guia**: Oferece informações básicas do arquivo, informando sobre os diferentes fundos e de seu funcionamento.
-	- Endereço e telefone do arquivo.
-	- Horário de funcionamento.
-	- Serviços prestados.
+1. **Guia**: Oferece informações básicas do arquivo, informando sobre os fundos e funcionamento.
+	- Endereço, telefone, serviços prestados e horários de funcionamento.
 	- Regulamentos para consultar e requisitos exigidos.
-	- Recursos técnicos oferecidos.
 	
 2. **Inventário:** Descreve as unidades de arquivamento de um fundo ou suas subdivisões, cuja apresentação obedece uma ordenação lógica. 
 	- **Inventário sumário:** descreve sucintamente.![](../../../attachments/Pasted%20image%2020260531160503.png)

@@ -66,7 +66,7 @@ C)
 ![](../../../../attachments/Pasted%20image%2020260811112854.png)
 **Lembre que LHE possui uma preposição interna**
 
-D) A publicidade cerca o menino (VTD), logo cerca-os.
-E força o menino a algo. (VTDI). Logo, força
+D) A publicidade cerca o menino (VTD). Logo, cerca-os.
+E força o menino a algo. (VTDI). Logo, força-os
 
 
