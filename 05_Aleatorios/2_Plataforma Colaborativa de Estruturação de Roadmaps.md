@@ -23,7 +23,7 @@ A abordagem adotada priorizará o System Design, garantindo que a arquitetura es
 
 **Modelagem de Dados e Estruturas em Grafos**: Uma etapa central da abordagem será a definição técnica da persistência dos _roadmaps_. Como as trilhas de aprendizado exigem a definição de pré-requisitos não lineares, os dados serão representados e estruturados como Grafos Direcionados Acíclicos (DAGs). O trabalho documentará a análise técnica entre diferentes paradigmas de banco de dados para armazenar essas hierarquias. 
 
-**Versionamento e Diferenciação de Estruturas**: Devido à alta complexidade computacional envolvida no gerenciamento de alterações concorrentes, este tópico será tratado como um módulo de estudo aprofundado isolado. A pesquisa investigará três pilares: o isolamento de estado (garantindo que as propostas de edição existam sem impactar a trilha oficial), o cálculo de diferenciação ou _diffs_ (a identificação algorítmica exata de quais nós e dependências foram inseridos, alterados ou removidos) e os mecanismos de resolução de conflitos e mesclagem.
+**Versionamento, sincronização e Diferenciação**: Devido à alta complexidade computacional envolvida no gerenciamento de alterações concorrentes, este tópico será tratado como um módulo de estudo aprofundado isolado. A pesquisa investigará três pilares: o isolamento de estado (garantindo que as propostas de edição existam sem impactar a trilha oficial), o cálculo de diferenciação ou _diffs_ (a identificação algorítmica exata de quais nós e dependências foram inseridos, alterados ou removidos) e os mecanismos de resolução de conflitos e mesclagem.
 
 **Design de Sistema e Definição Arquitetural**: A partir das restrições levantadas, o trabalho prosseguirá para a definição estrutural da aplicação. A abordagem buscará a eficiência no uso de recursos computacionais, avaliando padrões já estabelecidos e definindo os seguintes componentes da topologia do sistema.
 - **Autenticação e Autorização (Auth):** Definição dos protocolos de verificação de identidade e controle de acesso baseado em papéis garantindo a aplicação estrita das permissões de mantenedores e colaboradores.
@@ -46,13 +46,6 @@ A abordagem adotada priorizará o System Design, garantindo que a arquitetura es
 O armazenamento de Grafos Direcionados Acíclicos (DAGs) é o núcleo do seu sistema. Você deve estudar como representar essas estruturas hierárquicas e não lineares. Pesquise sobre os seguintes padrões:
 - **Em Bancos Relacionais (como PostgreSQL):** Estude os padrões _Adjacency List_ (Lista de Adjacência, onde cada registro aponta para o seu nó pai/filho direto), _Materialized Path_ (Caminho Materializado, que armazena a rota completa até o nó em uma única coluna) e _Closure Table_ (Tabela de Fechamento, que armazena todos os caminhos possíveis entre os nós, facilitando consultas profundas).
 - **Em Bancos NoSQL (como MongoDB):** Estude a modelagem orientada a documentos aninhados e padrões de referenciamento de documentos para representar árvores e grafos.
-
-**Padrões Arquiteturais de Backend**
-
-Para garantir a manutenibilidade e a testabilidade propostas no objetivo do TCC, você deve estudar arquiteturas que promovam a separação de responsabilidades. Independentemente de implementar a solução utilizando ecossistemas como .NET ou Node.js, os fundamentos teóricos permanecem os mesmos.
-- **Clean Architecture (Arquitetura Limpa):** Estude a divisão do sistema em camadas concêntricas, onde a lógica de domínio (as regras de curadoria e grafos) não possui dependências de detalhes de infraestrutura (banco de dados ou _frameworks_ web).
-- **Domain-Driven Design (DDD):** Pesquise sobre _Bounded Contexts_ (Contextos Delimitados) e _Aggregates_ (Agregados), que ajudarão a definir as fronteiras exatas entre o módulo de usuários, o módulo de leitura de _roadmaps_ e o módulo de edição.
-
 **Controle de Concorrência**
 Como o sistema é colaborativo, múltiplos usuários podem tentar alterar o mesmo _roadmap_ simultaneamente. É necessário estudar como os bancos de dados lidam com essas transações.
 - **Optimistic Locking (Bloqueio Otimista):** Uma abordagem que permite múltiplas leituras e escritas simultâneas, validando a integridade dos dados apenas no momento da consolidação (geralmente utilizando uma coluna de versão no registro).
@@ -80,3 +73,5 @@ Você deve pesquisar como replicar os dados de um _roadmap_ para que um colabora
 **Algoritmos de Diferenciação em Grafos (Graph Diffing)**
 A teoria sobre como identificar computacionalmente a diferença exata entre duas estruturas de dados não lineares.
 - **Relevância para o TCC:** O sistema precisará comparar o grafo original do mantenedor e o grafo modificado pelo colaborador para exibir exatamente quais tópicos foram adicionados, movidos ou excluídos, antes da aprovação final.
+
+
