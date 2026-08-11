@@ -54,15 +54,16 @@ O mantenedor original poderá delegar permissões para que colaboradores editem 
 - **O que estudar:** Este é o ponto que exige o estudo de Tipos de Dados Replicados Livres de Conflitos (CRDTs) e Transformação Operacional (OT). Como múltiplos usuários possuem permissão de escrita direta, o sistema precisará processar edições concorrentes. O estudo dos CRDTs baseados em estado fornecerá a base formal para garantir a comutatividade das operações, assegurando que, independentemente da ordem em que o servidor receba as requisições de alteração dos diferentes mantenedores, o roadmap final não entrará em estado de inconsistência. Adicionalmente, o estudo do Controle de Concorrência Otimista (MVCC) justificará o funcionamento das transações na camada do banco de dados.
 
 
+---
 
+FLUXO DE INTERAÇÃO DO USER
 
-
-
-
-
-
-
-
+PQ ESSA FERRAMENTA PRECISA EXISTIR? FORMA HUMANIZADA DE ORGANIZAR CONTEUDO INFINITO. FLUXO DE DADOS.
+A PROPOSTA/CAÇAR SITES/PROPOSTAS SEMELHANTES/IDEIAS SEMELHANTES.
+PROPOSTA COLABORATIVO PARA CONSTRUIR ALGO, COM OAS PESSAOS INTERAGEM.
+ELENCAÇAM DE REQUISITOS
+TabNews - conceito de economia interna, nao 
+INSPIRADO NO GIT 
 
 
 
