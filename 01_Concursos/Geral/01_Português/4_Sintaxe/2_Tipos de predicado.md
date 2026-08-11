@@ -20,9 +20,17 @@ Predicado é tudo menos o sujeito na frase.
 ![300](../../../../attachments/Pasted%20image%2020260630133027.png)
 ![300](../../../../attachments/Pasted%20image%2020260630133856.png)
 
+---
+
+![](../../../../attachments/Pasted%20image%2020260811102147.png)A) Sempre que tiver verbo de ligação é predicado nominal 
+
+![](../../../../attachments/Pasted%20image%2020260811102255.png)
+B) Predicado nominal. VL
+
+![](../../../../attachments/Pasted%20image%2020260811102331.png)
+C) Note que há uma locução verbal. Será prejudicado (voz passiva analítica). Predicado verbal.
+
+![](../../../../attachments/Pasted%20image%2020260811102934.png)
+E) 
 
 
-
-
-
-  
