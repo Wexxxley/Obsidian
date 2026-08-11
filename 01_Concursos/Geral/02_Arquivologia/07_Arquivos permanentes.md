@@ -28,24 +28,24 @@ Descrição é o conjunto de procedimentos que leva em conta os elementos **form
 Note que descrição é uma atividade típica de arquivos permanentes, mas alguns estudiosos consideram que a descrição ocorre durante todo o ciclo.
 
 **Principais tipos de instrumentos de pesquisa:**
-1. **Guia**: Oferece informações básicas do arquivo, informando sobre os fundos e funcionamento.
+1. **Guia**: Oferece informações básicas do arquivo, informando sobre os fundos e funcionamento. Global, fala do acervo documental.
 	- Endereço, telefone, serviços prestados e horários de funcionamento.
 	- Regulamentos para consultar e requisitos exigidos.
 	
-2. **Inventário:** Descreve as unidades de arquivamento de um fundo ou suas subdivisões, cuja apresentação obedece uma ordenação lógica. 
+2. **Inventário:** Descreve as séries documentais
 	- **Inventário sumário:** descreve sucintamente.![](../../../attachments/Pasted%20image%2020260531160503.png)
 	- **Inventário analítico:**  descreve pormenorizadamente/de forma detalhada. ![](../../../attachments/Pasted%20image%2020260531160631.png)
 	
-3. **Catálogo:** organizado por critérios temáticos, cronológicos, onomásticos (por nome de pessoas), ou toponímicos (por lugares geográficos) reunindo todos os documentos do  tema e descrevendo individualmente cada documento.
+3. **Catálogo:** Descreve as unidades documentais. Organizado por critérios temáticos, cronológicos, onomásticos (por nome de pessoas), ou toponímicos (por lugares geográficos) reunindo todos os documentos do tema e descrevendo individualmente cada documento.
 	- Ex: Catálogo dos homicídios ocorridos na decada de 70 em Fortaleza.
 	
-4. **Repertório/catálogo seletivo**: É basicamente uma escolha feita apartir de um catálogo, montando um conjunto de documentos de algum tema com suas descrições.
+4. **Repertório/Catálogo seletivo**: É basicamente uma escolha feita apartir de um catálogo, montando um conjunto de documentos de algum tema com suas descrições.
 	- Ex: Repertório com os homicídios mais famosos de Fotaleza.
 	
-5. **Índice:** Decompoe os documentos em descritores/palavras-chave e indica as páginas onde aparacem.
+5. **Índice:** Decompoe os documentos em descritores e indica as páginas onde aparacem.
 	- O **sumário** é a enumeração das principais divisões, capítulos, seções e outras partes de um documento. Segue a mesma ordem em que os assuntos e as partes aparecem no corpo do texto. É posicionado no início do documento.
 		![](../../../attachments/Pasted%20image%2020260531165107.png)
-	- O **índice** é uma lista de termos que localiza as informações específicas contidas no texto. É organizado a partir de um critério independente que facilite a busca pontual. O critério mais comum é a ordem alfabética. É posicionado no final do documento. Ele permite que o leitor encontre imediatamente em quais páginas um determinado conceito, indivíduo, instituição ou evento é citado.
+	- O **índice** é uma lista de termos que localiza as informações específicas contidas no texto. É organizado a partir de um critério independente que facilite a busca pontual. 
 		 ![](../../../attachments/Pasted%20image%2020260531165548.png)
 
 6. **Edição de fontes:** É a reprodução integral do conteúdo de um documento para acesso direto do pesquisador. Tem a dupla função de preservar o suporte físico original contra o desgaste e democratizar a difusão da informação. Geralmente inclui notas, glossários e introduções históricas para facilitar a compreensão contextual do texto.
