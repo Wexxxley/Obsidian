@@ -48,7 +48,7 @@ Ocorre quando o "se" acompanha os chamados **verbos pronominais**, que são aque
 - O réu arrependeu-**se** do crime.  
 - Apiedou-**se** do menino.
 
->[!tip] PIV traz ideia reflexiva, inclusive autores dizem que piv é reflexiva.
+>[!tip] PIV traz ideia reflexiva, inclusive autores dizem que piv é reflexivo.
 
 >[!tip] O PIV traz ideia de sentimento, mudança de estado (emocional ou físico).
 
