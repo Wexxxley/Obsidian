@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/4_Sintaxe/4_Termos acessórios da oração.md",
+                "file": "01_Concursos/Geral/01_Português/4_Sintaxe/3_Termos integrantes da oração.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Termos acessórios da oração"
+              "title": "3_Termos integrantes da oração"
             }
           }
         ]
@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.1742134094238
+    "width": 359.1742134094238,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -196,8 +197,13 @@
   },
   "active": "6c91a89a4ea4728e",
   "lastOpenFiles": [
-    "01_Concursos/Geral/01_Português/4_Sintaxe/3_Termos integrantes da oração.md",
+    "attachments/Pasted image 20260811112854.png",
+    "attachments/Pasted image 20260811104633.png",
+    "attachments/Pasted image 20260811104126.png",
     "01_Concursos/Geral/01_Português/4_Sintaxe/2_Tipos de predicado.md",
+    "01_Concursos/Geral/01_Português/4_Sintaxe/4_Termos acessórios da oração.md",
+    "01_Concursos/Geral/01_Português/4_Sintaxe/6_TermosSintaxe.png",
+    "01_Concursos/Geral/01_Português/4_Sintaxe/3_Termos integrantes da oração.md",
     "attachments/Pasted image 20260811102934.png",
     "attachments/Pasted image 20260811102730.png",
     "attachments/Pasted image 20260811102331.png",
@@ -211,9 +217,6 @@
     "01_Concursos/Geral/01_Português/6_Redação/6_Redações.md",
     "01_Concursos/Geral/02_Arquivologia/13_Tipos, sistemas e métodos de arquivamento.md",
     "attachments/Pasted image 20260811070131.png",
-    "attachments/Pasted image 20260811065932.png",
-    "attachments/Pasted image 20260811065831.png",
-    "attachments/Pasted image 20260811065815.png",
     "01_Concursos/Geral/01_Português/4_Sintaxe/15_Uso do SE.md",
     "01_Concursos/Geral/02_Arquivologia/14_Método alfabético, geográfico e numérico.md",
     "01_Concursos/Geral/02_Arquivologia/15_Método ideográfico, métodos padronizados e alfanumérico.md",
@@ -231,8 +234,6 @@
     "01_Concursos/Geral/02_Arquivologia/06_Diagnóstico arquivístico.md",
     "01_Concursos/Geral/02_Arquivologia/05_Gestão de documentos.md",
     "01_Concursos/Geral/02_Arquivologia/04_Protocolo.md",
-    "01_Concursos/Geral/02_Arquivologia/02_Classificação dos arquivos.md",
-    "01_Concursos/Geral/02_Arquivologia/03_Ciclo vital dos documentos.md",
     "02_Conhecimentos TI/8_System Design",
     "02_Roadmap/1_Junior/1_Como funciona um computador/ResumoEmAudio.m4a",
     "04_Autoescola/5_Sinalização.pdf",

@@ -21,15 +21,8 @@
 **Voz passiva:**  estrutura na qual o sujeito da oração sofre ou recebe a ação expressa pelo verbo, em vez de praticá-la. 
 - **Sujeito Paciente:** É o sujeito que sofre a ação verbal.
 - **4. Agente da Passiva:** quem pratica a ação sofrida pelo sujeito
-	
-- **Voz Passiva Analítica:** Formada por um **sujeito paciente**, **verbo no particípio** e, frequentemente, um agente da passiva (por ou de). 
-	- Locução verbal composta por verbo auxiliar seguido pelo verbo principal no particípio (terminada em -ado ou -ido).
-		
-- **Voz Passiva Sintética**: Não apresenta o agente da passiva e é caracterizada pelo uso do pronome "se". 
-		- Corrigiram-se os erros.
 
 ---
-
 ![](../../../../attachments/Pasted%20image%2020260630175912.png)
 ![300](../../../../attachments/Pasted%20image%2020260630175922.png)
   ![350](../../../../attachments/Pasted%20image%2020260630180552.png)
@@ -57,3 +50,23 @@
    ![500](../../../../attachments/Pasted%20image%2020260630192220.png)
    ![400](../../../../attachments/Pasted%20image%2020260630192238.png)
    ![400](../../../../attachments/Pasted%20image%2020260630192405.png)
+
+---
+
+![](../../../../attachments/Pasted%20image%2020260811104126.png)e) Os pronomes clíticos são os pronomes pessoais oblíquos átonos.
+
+![](../../../../attachments/Pasted%20image%2020260811104633.png)
+C) 
+- **Agradar ao menino**: significa dar prazer, satisfazer ou ser agradável a alguém.
+	- Eu agradei o achefe durante a reunião.
+
+- **Agradar o menino:** "acariciar" ou "alisar".
+	- Agradei a garota.
+
+![](../../../../attachments/Pasted%20image%2020260811112854.png)
+**Lembre que LHE possui uma preposição interna**
+
+D) A publicidade cerca o menino (VTD), logo cerca-os.
+E força o menino a algo. (VTDI). Logo, força
+
+
