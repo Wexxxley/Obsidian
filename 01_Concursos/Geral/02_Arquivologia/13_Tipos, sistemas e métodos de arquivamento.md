@@ -44,3 +44,11 @@ ORGANIZAR - ARRANJO![](../../../attachments/Pasted%20image%2020260810143943.png)
 
 ![](../../../attachments/Pasted%20image%2020260810154520.png)C) Note que esse é o método puramente CRONOLÓGICO, so por data, ele é direto.
 O numérico cronológico é indireto
+ 
+---
+![](../../../attachments/Pasted%20image%2020260811065042.png)B)
+
+
+![](../../../attachments/Pasted%20image%2020260811065815.png)![](../../../attachments/Pasted%20image%2020260811065831.png)
+![](../../../attachments/Pasted%20image%2020260811065932.png)
+![](../../../attachments/Pasted%20image%2020260811070131.png)
