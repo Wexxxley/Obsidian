@@ -11,7 +11,7 @@
 4. Referência
 5. Difusão
 #### **1. Arranjo**
-Operações que visam à organização dos documentos. Através do **quadro de arranjo**, é como se fosse o plano de classificação usado nas fases corrente e intermediária.
+Operações que visam à ordenação dos conjuntos documentais remanescentes, obdecendo a critérios que respeitem . Através do **quadro de arranjo**, é como se fosse o plano de classificação usado nas fases corrente e intermediária.
 
 **Fundo de arquivo:** conjunto de documentos de uma mesma entidade. Termo usado em arquivos permanentes, uma vez que guardam documentos de entidades distintas.  
 - **Fundo Aberto:** Fundo vinculado a entidades ativas.
