@@ -96,7 +96,7 @@
 - ~~Produção, tramitação, utilização e destinação de documentos.~~
 - ~~Classificação, avaliação e temporalidade documental.~~
 - ~~Arquivos correntes, intermediários e permanentes.~~
-- Métodos de arquivamento: alfabético, numérico, cronológico, geográfico e ideográfico.
+- ~~Métodos de arquivamento: alfabético, numérico, cronológico, geográfico e ideográfico.~~
 - ~~Sistemas de arquivamento; organização, conservação e preservação documental.~~
 - ~~Instrumentos de pesquisa: índices, inventários, catálogos, guias e sumários.~~
 - Controle de empréstimo, consulta e recuperação da informação.

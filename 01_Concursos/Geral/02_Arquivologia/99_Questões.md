@@ -19,3 +19,16 @@ B)
 ![](../../../attachments/Pasted%20image%2020260811180757.png)B)
 
 ![](../../../attachments/Pasted%20image%2020260811181034.png)
+A) A afirmativa A está incorreta porque o setor de protocolo não possui competência legal ou administrativa para realizar análises de mérito, tomada de decisão ou **julgamento** sobre o conteúdo de um pedido ou solicitação.
+
+B) Documentos anônimos ou apócrifos não devem dar entrada, pois não fazem fé pública
+
+![](../../../attachments/Pasted%20image%2020260811181551.png)
+
+**A) O Aviso de Recebimento**.
+
+- **Aviso de Recebimento:** Trata-se de um serviço adicional oferecido pelos Correios no qual um formulário é anexado à correspondência. O objetivo  deste formulário é retornar ao remetente contendo a assinatura e os dados de identificação da pessoa que recebeu o objeto. Este documento físico atua como prova documental, dotada de validade jurídica, atestando que a entrega foi efetivada.
+![](../../../attachments/Pasted%20image%2020260811182546.png)
+A alternativa correta é a **B) Mão própria**.
+
+- **Mão Própria:** É o serviço adicional que garante que a correspondência ou encomenda seja entregue estrita e exclusivamente à pessoa física declarada como destinatária. No momento da entrega, o trabalhador postal exige a apresentação de um documento de identificação oficial original. Caso o destinatário nominal não esteja presente, a entrega não é realizada a terceiros, como porteiros, recepcionistas ou familiares.
