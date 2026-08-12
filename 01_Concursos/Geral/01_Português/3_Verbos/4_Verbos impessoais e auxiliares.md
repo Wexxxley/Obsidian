@@ -5,19 +5,19 @@
 #### **1. Verbos impessoais** 
 São aqueles que não possuem sujeito. Não vão ao plural
 
-**Verbos que indicam fenômenos da natureza:**
+**1.1 Verbos que indicam fenômenos da natureza:**
 - Anoitecer, trovejar, nevar...
 
-**Formas indicativas de aspectos climáticos ou temporal:**
+**1.2 Formas indicativas de aspectos climáticos ou temporal:**
 - Faz sol, está frio, está tarde, ainda é cedo...
 
-**Haver impessoal:** O verbo haver nos sentidos abaixo é impessoal.  
+**1.3 Haver impessoal:** O verbo haver nos sentidos abaixo é impessoal.  
 1. **Existir**: Há pessoas boas.
 2. **Ocorrer**: Houve acidentes graves.
 3. **Tempo decorrido:** Há (faz, nesse caso tbm é impessoal) 2 anos parei de fumar.
 
 **Haver pessoal:** 
-1. **Como verbo pronominal:** Eles se houveram bem na prova
+1. **Como verbo pronominal:** Eles se houveram bem na prova. [[6_Verbos pronominais|Verbos pronominais]]
 2. **Verbo auxiliar de loc verbal:** Eles hão de estudar. Eles haviam estudado.
 ![](../../../../attachments/Pasted%20image%2020260720092013.png)
 ---
