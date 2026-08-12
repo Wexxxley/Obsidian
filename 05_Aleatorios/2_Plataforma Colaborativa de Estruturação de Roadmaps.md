@@ -5,7 +5,10 @@
 
 Na contemporaneidade, a democratização digital permite o acesso a conteúdos educacionais sobre praticamente qualquer área do saber. Todavia, essa disponibilidade é acompanhada pelo fenômeno da fragmentação, no qual os recursos didáticos se apresentam dispersos em múltiplas plataformas e desprovidos de uma estrutura pedagógica coesa. Em vez de o estudante se concentrar na aprendizagem, o indivíduo gasta sua energia na curadoria e na organização dos materiais.
 
-Este cenário é particularmente prejudicial para indivíduos autodidatas e estudantes que operam sem o suporte direto de tutores ou instituições de ensino. Sem uma orientação externa, esses alunos tornam-se vulneráveis à desorientação metodológica. A inexistência de uma sequência lógica e progressiva de estudos resulta na formação de lacunas conceituais. Além disso, as trilhas de aprendizado estáticas sofrem de obsolescência precoce.
+Este cenário é particularmente prejudicial para indivíduos autodidatas e estudantes que operam sem o suporte direto de tutores ou instituições de ensino. Sem uma orientação, esses alunos tornam-se vulneráveis à desorientação metodológica. A inexistência de uma sequência lógica e progressiva de estudos resulta na formação de lacunas conceituais. Além disso, as trilhas de aprendizado estáticas sofrem de obsolescência precoce.
+
+Motores de busca e algoritmos de recomendação entregam conteúdos fragmentados. A ferramenta precisa existir para fornecer uma **forma humanizada de organizar o conteúdo infinito**. A curadoria humana adiciona o contexto pedagógico e a validação qualitativa que algoritmos de busca genéricos não possuem. O objetivo da plataforma é estabelecer um **fluxo de dados viável**, transformando materiais didáticos dispersos (vídeos, artigos, documentações) em uma sequência lógica, progressiva e verificada por especialistas ou pela própria comunidade.
+
 ### 2. Objetivo Geral
 
 Desenvolver uma plataforma colaborativa para a criação, evolução e curadoria comunitária de roadmaps educacionais, utilizando o desenvolvimento do sistema como um estudo de caso para avaliar o impacto de padrões arquiteturais e boas práticas de Engenharia de Software na manutenibilidade e testabilidade da aplicação.
