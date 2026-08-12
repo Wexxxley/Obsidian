@@ -23,13 +23,23 @@ Tipos de sujeito indeterminado.
 
 ![400](../../../../attachments/Pasted%20image%2020260812123050.png)
 ### 5. Oração Sem Sujeito (ou Sujeito Inexistente)
-Construída com verbos impessoais. [[4_Verbos impessoais e auxiliares|Verbos impessoa]](../3_Verbos/4_Verbos%20impessoais%20e%20auxiliares.md)
-- Há dois anos não o vejo.
-- Faz frio hoje.
-- Choveu muito ontem.
+Construída com verbos impessoais. [Verbos impessoais](4_Verbos%20impessoais%20e%20auxiliares)(../3_Verbos/4_Verbos%20impessoais%20e%20auxiliares.md)
+- **Há** dois anos não o vejo.
+- **Faz** frio hoje.
+- **Choveu** muito ontem.
 
+>[!tip]
 Na locução verbal, se o verbo principal for impessoal, o auxiliar fica no singular.
-- 
+>- Podem haver problemas na rede. IMCORRETO
+>- Pode haver problemas na rede. CORRETO (vp impessoal, ax impessoal)
+>- Vão fazer cinco anos que moro aqui. IMCORRETO
+>- Vai fazer cinco anos que moro aqui. CORRETO (vp impessoal, ax impessoal)
+
+![](../../../../attachments/Pasted%20image%2020260812151222.png)
+1. Havia (impessoal, n se flexiona)
+2. Haviam (pessoal, se flexiona)
+3. Devia haver vantagens (locução verbal, onde o verbo principal é IMPESSOAL, o auxiliar fica impessoal. )
+
 ### 6. Sujeito oracional
 [Oração subordinada substantiva subjetiva](9_Orações%20subordinadas%20substantivas)
 
@@ -42,3 +52,9 @@ Tem é VTD. E esse se é PA. Logo Tem deve concordar com A IMPRESSAO. TEM
 
 ![](../../../../attachments/Pasted%20image%2020260812124447.png)![](../../../../attachments/Pasted%20image%2020260812124410.png)![](../../../../attachments/Pasted%20image%2020260812124631.png)
 B)
+
+
+![](../../../../attachments/Pasted%20image%2020260812151805.png)
+1. Poderá haver
+2. Haviam se despedido. Haver como verbo auxiliar na locução verbal
+3. Eles se houveram/portaram-se bem na prova. HAVER PRONOMINAL

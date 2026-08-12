@@ -17,9 +17,16 @@ São aqueles que não possuem sujeito. Não vão ao plural
 3. **Tempo decorrido:** Há (faz, nesse caso tbm é impessoal) 2 anos parei de fumar.
 
 **Haver pessoal:** 
-1. **Como verbo pronominal:** Eles se houveram bem na prova. [[6_Verbos pronominais|Verbos pronominais]]
-2. **Verbo auxiliar de loc verbal:** Eles hão de estudar. Eles haviam estudado.
+1.  **Verbo auxiliar de loc verbal:** Eles hão de estudar. Eles haviam estudado.
 ![](../../../../attachments/Pasted%20image%2020260720092013.png)
+2. **Como verbo pronominal:** [[6_Verbos pronominais|Verbos pronominais]]
+	1. **Sentido de "portar-se" ou "sair-se":** É usado para indicar o desempenho, a conduta  diante de uma situação.
+		- Os candidatos **se houveram**/saíram-se bem durante a entrevista de emprego.
+		- Ela **houve-se**/portou-se como uma verdadeira líder.
+	2. **Sentido de "entender-se":** Ocorre quando o verbo é seguido da preposição com.
+		- Se você não pagar o que deve, terá de **se haver**/se entender comigo!
+		- O funcionário terá de **haver-se**/se entender com a diretoria.
+
 ---
 #### **2. Verbos auxiliares** 
 
@@ -30,7 +37,7 @@ São aqueles que se unem ao verbo principal em locuções verbais formando uma o
 O verbo auxiliar se flexiona para concordar com o sujeito, enquanto o verbo principal permanece invariável em uma de suas formas nominais: infinitivo, particípio ou gerúndio.
 ![450](../../../../attachments/Pasted%20image%2020260720092633.png)![500](../../../../attachments/Pasted%20image%2020260720101545.png)
 - Dentro de uma locução verbal, o verbo principal estará sempre fixado em uma forma nominal (infinitivo, gerúndio ou particípio) e, portanto, atuará de forma **impessoal**.
-- No geral, o verbo auxiliar é pessoal, mas existem exessões. Contudo, se o verbo principal da locução for um **verbo impessoal por natureza** verbo auxiliar perde a sua capacidade de flexão e é forçado a atuar de forma impessoal, devendo permanecer na **terceira pessoa do singular**.
+- No geral, o verbo auxiliar é pessoal, mas existem exessões. Contudo, se o verbo principal da  locução for um **verbo impessoal por natureza** verbo auxiliar perde a sua capacidade de flexão e é forçado a atuar de forma impessoal, devendo permanecer na **terceira pessoa do singular**.
 	- **Deve haver** muitas vagas no próximo edital. O verbo "haver" transmite sua impessoalidade ao "deve", que fica na terceira pessoa do singular.
     - No próximo mês, **vai fazer** três anos da publicação do edital.
 	- Durante a tarde, **poderá chover** temporais na região serrana.
