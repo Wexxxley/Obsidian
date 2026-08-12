@@ -10,7 +10,7 @@
 	- https://www.wikipedia.org/
       
 - **GitHub (Curadoria Fechada):** Diferente da Wikipedia, o GitHub adota um controle proativo. Através do conceito de Pull Request, as modificações propostas por terceiros ficam isoladas em um ambiente de aprovação. O código original permanece inalterado até que o mantenedor principal revise e autorize a mesclagem. Modelo mais seguro para roadmaps educacionais.
-    - https://github.com/ossu/computer-science-br **OSSU (Open Source Society University):** É um dos repositórios mais famosos do GitHub. Eles construíram um roadmap completo de graduação em Ciência da Computação utilizando apenas cursos gratuitos (tem a versão BR). A estrutura é um documento linear de texto, mas a governança é altamente colaborativa.
+    - https://github.com/ossu/computer-science-br. **OSSU (Open Source Society University):** É um dos repositórios mais famosos do GitHub. Eles construíram um roadmap completo de graduação em Ciência da Computação utilizando apenas cursos gratuitos (tem a versão BR). A estrutura é um documento linear de texto, mas a governança é altamente colaborativa.
 
 - **Learn Anything:** O sistema estrutura tópicos educacionais em grafos, onde cada nó direciona o usuário para recursos didáticos específicos (artigos, cursos e documentações) curados pela própria comunidade. O Learn Anything centraliza o conteúdo em mapas globais (semelhante a uma estrutura unificada de wiki) e opera com a lógica de Teias de Conhecimento. No entanto, não há a imposição de uma ordem cronológica de consumo. A navegação é solta.
 	- https://learn-anything.xyz/
@@ -41,4 +41,14 @@
 4. **Validação e Aprovação:** O Mantenedor Oficial recebe uma notificação. A interface exibe a diferença visual exata. O mantenedor analisa, altera se quiser e clica em aprovar ou negar.
     
 5. **Consolidação:** O sistema mescla as informações e o _roadmap_ oficial passa a exibir o novo material, registrando o crédito ao colaborador.
+
+
+
+
+
+
+- **Grafos de Conhecimento Educacional:** Busque pelos termos exatos "Educational Knowledge Graphs" ou "Ontologias Educacionais". Trabalhos nestas áreas propõem arquiteturas de software para mapear como diferentes assuntos se conectam e como sistemas podem sugerir o próximo passo de aprendizado de forma lógica.
     
+- **Curadoria Colaborativa (Crowdsourcing):** Pesquise por "Crowdsourcing na educação" e "Sistemas de Autoria Colaborativa". Existem diversas dissertações que documentam os desafios de consistência de dados quando centenas de alunos tentam editar o mesmo repositório de conhecimento de forma paralela.
+    
+- **Versionamento de Dados Não Estruturados:** Trabalhos que utilizam "Controle de versão semântico" ou "Versionamento de grafos". Esses documentos embasarão a parte técnica do fluxo do usuário onde ele sugere uma alteração e o mantenedor avalia o impacto da mudança no restante da trilha educacional.
