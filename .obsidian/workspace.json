@@ -11,12 +11,14 @@
             "id": "180aa91a640d7371",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/4_Sintaxe/6_TermosSintaxe.png"
+                "file": "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "6_TermosSintaxe"
+              "icon": "lucide-file",
+              "title": "1_Concordância verbal"
             }
           }
         ]
@@ -195,9 +197,15 @@
   },
   "active": "180aa91a640d7371",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/4_Sintaxe/15_Uso do SE.md",
+    "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/5_Análise sintática.md",
+    "01_Concursos/Geral/01_Português/6_Concordância",
+    "attachments/Pasted image 20260812115734.png",
+    "attachments/Pasted image 20260812115719.png",
     "01_Concursos/Geral/01_Português/4_Sintaxe/4_Termos acessórios da oração.md",
-    "01_Concursos/Geral/01_Português/6_Redação/4_Teses e repertórios.md",
+    "01_Concursos/Geral/01_Português/4_Sintaxe/6_TermosSintaxe.png",
+    "01_Concursos/Geral/01_Português/7_Redação/4_Teses e repertórios.md",
     "01_Concursos/Geral/02_Arquivologia/10_Conservação de documentos.md",
     "attachments/Pasted image 20260812114611.png",
     "05_Aleatorios/3_Conteúdos relacionados.md",
@@ -214,10 +222,7 @@
     "01_Concursos/Geral/02_Arquivologia/99_Questões.md",
     "attachments/Pasted image 20260811182813.png",
     "attachments/Pasted image 20260811182546.png",
-    "attachments/Pasted image 20260811181551.png",
-    "attachments/Pasted image 20260811181034.png",
     "01_Concursos/Geral/02_Arquivologia/04_Protocolo.md",
-    "attachments/Pasted image 20260811180757.png",
     "01_Concursos/Geral/02_Arquivologia/06_Diagnóstico arquivístico.md",
     "01_Concursos/Geral/02_Arquivologia/07_Arquivos permanentes.md",
     "01_Concursos/Geral/02_Arquivologia/08_Princípios da Arquivologia.md",
@@ -229,8 +234,6 @@
     "01_Concursos/Geral/01_Português/4_Sintaxe/3_Termos integrantes da oração.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/2_Tipos de predicado.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/6_Colocação pronominal.md",
-    "02_Conhecimentos TI/6_web2/Untitled.md",
-    "01_Concursos/Geral/01_Português/6_Redação/5_Termos, sinonimos e conectores.md",
     "02_Conhecimentos TI/6_web2",
     "02_Conhecimentos TI/8_System Design",
     "02_Roadmap/1_Junior/1_Como funciona um computador/ResumoEmAudio.m4a",
@@ -240,7 +243,6 @@
     "01_Concursos/Geral/01_Português/3_Verbos",
     "01_Concursos/Geral/01_Português/3_Sintaxe/Untitled",
     "01_Concursos/Geral/04_Direito administrativo",
-    "01_Concursos/Geral/01_Português/4_Sintaxe",
     "Sem título.canvas"
   ]
 }
