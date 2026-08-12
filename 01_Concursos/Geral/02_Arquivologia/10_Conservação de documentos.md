@@ -4,19 +4,13 @@
 ---
 
 Conservação envolve a **preservação e restauração** dos documentos.  
-- **Preservação**: prevenção da deterioração por meio do controle dos fatores físicos, químicos e biológicos.
+- **Preservação**: prevenção da deterioração pelo controle de fatores físicos, químicos, biológicos.
 - **Restauração**: Procedimentos para recuperação de documentos.
-
-**Fatores de deterioração**:
-1. Fatores físicos/ambientais.
-2. Fatores biológicos.
-3. Fatores químicos.
 
 ---
 ### **1. Fatores físicos/ambientais**
 Para a construção de um arquivo o ideal é um local elevado (evitar porão), com mínimo de umidade(mas não excessivamente baixa), em área isolada, com previsão de ampliação e previsão contra fogo.
-
-- Umidade alta(pois causa mofo) e baixa/ar seco(pois reseca). Indice de umidade ideal 45%-58%.  	
+- Não pode umidade alta (pois causa mofo) e baixa/ar seco(pois reseca). Indice de umidade ideal 45%-58%. .
 - Temperatura alta ou baixa. Ideal 20° - 22°. Evitar mudanças. O arquivo deve criar ambientes climatizados para cada tipo de suporte
 - Luminosidade. Luz do sol é danosa, pois enfraquece o papel. Luz artificial deve ser usada com cautela. É recomendado usar filtros e cortinas.
 - A área de armazenamento deve ser separada da área de trabalho e circulação.
@@ -70,3 +64,6 @@ Bioterioração é a deterioração causada por agentes biológicos como fungos,
 ![](../../../attachments/Pasted%20image%2020260602093219.png)![](../../../attachments/Pasted%20image%2020260602093234.png)
 
 ![](../../../attachments/Pasted%20image%2020260602095638.png)![](../../../attachments/Pasted%20image%2020260602095703.png)
+
+---
+![](../../../attachments/Pasted%20image%2020260812114611.png)B)
