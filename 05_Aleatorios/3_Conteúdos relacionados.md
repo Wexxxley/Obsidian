@@ -52,3 +52,9 @@
 - **Curadoria Colaborativa (Crowdsourcing):** Pesquise por "Crowdsourcing na educação" e "Sistemas de Autoria Colaborativa". Existem diversas dissertações que documentam os desafios de consistência de dados quando centenas de alunos tentam editar o mesmo repositório de conhecimento de forma paralela.
     
 - **Versionamento de Dados Não Estruturados:** Trabalhos que utilizam "Controle de versão semântico" ou "Versionamento de grafos". Esses documentos embasarão a parte técnica do fluxo do usuário onde ele sugere uma alteração e o mantenedor avalia o impacto da mudança no restante da trilha educacional.
+
+
+---
+
+
+![](../attachments/Pasted%20image%2020260812101433.png)
