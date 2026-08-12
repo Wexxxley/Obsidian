@@ -7,9 +7,9 @@ Tema não é apenas uma área. Procure detalhar mais.
 
 1) Possível(is) questão(ões) de pesquisa ou hipótese: escreva uma pergunta que expresse aquilo que quer investigar ou uma hipótese a ser verificada.
 
-- Armazenamento de Grafos Direcionados Acíclicos em banco de dados.
-- Implementação de sincronização e diferenciação em grafos.
-- 
+- Como estruturar o armazenamento de Grafos Direcionados Acíclicos em banco de dados?
+- Quais os algorítmos de sincronização e diferenciação em grafos possíveis para sistemas colaborativos?
+- Como funciona os sistemas de relevância e ranqueamento?
 
 3) Nome do orientador(a).
 
@@ -17,6 +17,8 @@ Tema não é apenas uma área. Procure detalhar mais.
 
 4) Nome e Link para a principal CONFERÊNCIA relacionada ao seu tema.  
 Indique o link para a página da conferência que contém a lista dos trabalhos apresentados na última edição do evento.
+
+- Anais do XXI Simpósio Brasileiro de Sistemas Colaborativos: https://sol.sbc.org.br/index.php/sbsc/issue/view/1693
 
 5) Nome e Link para um PERIÓDICO / JOURNAL / REVISTA que pode estar relacionado ao seu tema.  
 Apresente um link para a página que contém a lista dos trabalhos da última edição.
