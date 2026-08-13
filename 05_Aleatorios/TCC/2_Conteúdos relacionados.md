@@ -48,9 +48,7 @@
 
 
 - **Grafos de Conhecimento Educacional:** Busque pelos termos exatos "Educational Knowledge Graphs" ou "Ontologias Educacionais". Trabalhos nestas áreas propõem arquiteturas de software para mapear como diferentes assuntos se conectam e como sistemas podem sugerir o próximo passo de aprendizado de forma lógica.
-    
 - **Curadoria Colaborativa (Crowdsourcing):** Pesquise por "Crowdsourcing na educação" e "Sistemas de Autoria Colaborativa". Existem diversas dissertações que documentam os desafios de consistência de dados quando centenas de alunos tentam editar o mesmo repositório de conhecimento de forma paralela.
-    
 - **Versionamento de Dados Não Estruturados:** Trabalhos que utilizam "Controle de versão semântico" ou "Versionamento de grafos". Esses documentos embasarão a parte técnica do fluxo do usuário onde ele sugere uma alteração e o mantenedor avalia o impacto da mudança no restante da trilha educacional.
 
 
