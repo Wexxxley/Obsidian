@@ -15,7 +15,8 @@ A plataforma não iria atuar como curadora, mas forneceria infraestrutura para q
 - **Colaborador**: Qualquer usuário que identifique melhorias (links, novos conteúdos) poderia sugerir uma mudança.
 ### 3. Abordagem Metodológica e Arquitetural
 
-**Especificação de Requisitos**: 
+**EspecificaçãUsing the Open Source Collaborative Model for Digital Educational
+Contento de Requisitos**: 
 - Os requisitos funcionais detalharão as regras de negócio intrínsecas à plataforma, como o fluxo de submissão de sugestões, a mecânica de revisão e aprovação pelos mantenedores, e o sistema de controle de acesso. 
 
 **Modelagem de Dados e Estruturas em Grafos**: Uma etapa central da abordagem será a definição técnica da persistência dos _roadmaps_. Como as trilhas de aprendizado exigem a definição de pré-requisitos não lineares, os dados serão representados e estruturados como Grafos Direcionados Acíclicos (DAGs). O trabalho documentará a análise técnica entre diferentes paradigmas de banco de dados para armazenar essas hierarquias. 
