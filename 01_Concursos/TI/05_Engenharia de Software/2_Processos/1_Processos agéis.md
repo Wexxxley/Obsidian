@@ -19,9 +19,9 @@ Diante desse cenário, em 2001, um grupo de profissionais da indústria se reuni
 <mark style="background: #ADCCFFA6;">A característica principal de processos ágeis é a adoção de ciclos curtos e iterativos de desenvolvimento.</mark> De início, implementa-se uma primeira versão do sistema, com as funcionalidades que segundo o cliente são para ontem. Em seguida, essa versão é validada pelo cliente. Se ela for aprovada, um novo ciclo inicia-se, com mais algumas funcionalidades, também priorizadas pelos clientes. 
 
 Waterfall
-![](../../../attachments/Pasted%20image%2020251001174655.png)
+![](../../../../attachments/Pasted%20image%2020251001174655.png)
 Processos ágeis 
-![](../../../attachments/Pasted%20image%2020251001174642.png)
+![](../../../../attachments/Pasted%20image%2020251001174642.png)
 Outras características de processos ágeis incluem: 
 1. **Menor ênfase em documentação**:apenas o essencial deve ser documentado. 
 2. **Menor ênfase em planos detalhados**: pois muitas vezes nem o cliente, nem os Engenheiros tem, no início, uma ideia clara dos requisitos. Esse entendimento vai surgir ao longo do caminho, à medida que incrementos de produto sejam produzidos e validados. 

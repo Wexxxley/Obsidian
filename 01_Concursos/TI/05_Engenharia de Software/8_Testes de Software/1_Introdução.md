@@ -29,6 +29,6 @@
 	- Simulam a interação de um usuário real com o sistema através de sua interface .
 	- São os mais caros, mais lentos e menos numerosos .
             
-![](../../../attachments/Pasted%20image%2020251027133352.png)
+![](../../../../attachments/Pasted%20image%2020251027133352.png)
 
 

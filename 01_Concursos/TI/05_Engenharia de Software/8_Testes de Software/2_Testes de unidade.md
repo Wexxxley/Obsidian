@@ -104,6 +104,6 @@ Cobertura de testes é uma <mark style="background: #ADCCFFA6;">métrica que ind
     
     $cobertura = \frac{\text{número de comandos executados pelos testes}}{\text{total de comandos do programa}}$
     
-![](../../../attachments/Pasted%20image%2020251027140715.png)
+![](../../../../attachments/Pasted%20image%2020251027140715.png)
 
 **Qual a Cobertura de Testes Ideal?** de 60% a 85%

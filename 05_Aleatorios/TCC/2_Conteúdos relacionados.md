@@ -5,12 +5,12 @@
 
 - **Roadmap.sh:** Possui roadmaps para desenvolvedores. O conteúdo é EXCELENTE e possui praticamente tudo sobre TI. Porém, a plataforma em si é estática para o usuário final e só tem conteúdos de TI.
 	- https://roadmap.sh/roadmaps
-     ![500](../attachments/Pasted%20image%2020260812074955.png) ![](../attachments/Pasted%20image%2020260812075048.png)
-- **Wikipedia (Curadoria Aberta):** A Wikipedia é o principal exemplo de curadoria de conteúdo descentralizada. O modelo de controle baseia-se na transparência absoluta: todas as edições são registradas em um histórico imutável. Para evitar inserções aleatórias ou vandalismo, a plataforma utiliza um sistema de moderação reativa. O conteúdo é publicado imediatamente, mas a comunidade possui ferramentas de reversão rápida. 
+     ![500](../../attachments/Pasted%20image%2020260812074955.png) ![](../../attachments/Pasted%20image%2020260812075048.png)
+- **Wikipedia (Curadoria Aberta):** O modelo de controle baseia-se na transparência absoluta: todas as edições são registradas em um histórico imutável. Para evitar inserções aleatórias ou vandalismo, a plataforma utiliza um sistema de moderação reativa. O conteúdo é publicado imediatamente, mas a comunidade possui ferramentas de reversão rápida. 
 	- https://www.wikipedia.org/
       
 - **GitHub (Curadoria Fechada):** Diferente da Wikipedia, o GitHub adota um controle proativo. Através do conceito de Pull Request, as modificações propostas por terceiros ficam isoladas em um ambiente de aprovação. O código original permanece inalterado até que o mantenedor principal revise e autorize a mesclagem. Modelo mais seguro para roadmaps educacionais.
-    - https://github.com/ossu/computer-science-br. **OSSU (Open Source Society University):** É um dos repositórios mais famosos do GitHub. Eles construíram um roadmap completo de graduação em Ciência da Computação utilizando apenas cursos gratuitos (tem a versão BR). A estrutura é um documento linear de texto, mas a governança é altamente colaborativa.
+    - https://github.com/ossu/computer-science **OSSU (Open Source Society University):** É um dos repositórios mais famosos do GitHub. Eles construíram um roadmap completo de graduação em Ciência da Computação utilizando apenas cursos gratuitos (tem a versão BR). A estrutura é um documento linear de texto, mas a governança é altamente colaborativa.
 
 - **Learn Anything:** O sistema estrutura tópicos educacionais em grafos, onde cada nó direciona o usuário para recursos didáticos específicos (artigos, cursos e documentações) curados pela própria comunidade. O Learn Anything centraliza o conteúdo em mapas globais (semelhante a uma estrutura unificada de wiki) e opera com a lógica de Teias de Conhecimento. No entanto, não há a imposição de uma ordem cronológica de consumo. A navegação é solta.
 	- https://learn-anything.xyz/
@@ -58,4 +58,4 @@
 
 
 TELA INICIAL
-![](../attachments/Pasted%20image%2020260812103447.png)
+![](../../attachments/Pasted%20image%2020260812103447.png)

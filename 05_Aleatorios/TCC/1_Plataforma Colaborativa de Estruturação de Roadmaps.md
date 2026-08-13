@@ -3,80 +3,58 @@
 ---
 ### 1. Problema Central
 
-Na contemporaneidade, a democratização digital permite o acesso a conteúdos educacionais sobre praticamente qualquer área do saber. Todavia, essa disponibilidade é acompanhada pelo fenômeno da fragmentação, no qual os recursos didáticos se apresentam dispersos em múltiplas plataformas e desprovidos de uma estrutura pedagógica coesa. Em vez de o estudante se concentrar na aprendizagem, o indivíduo gasta sua energia na curadoria e na organização dos materiais.
+Na contemporaneidade, a democratização digital permite o acesso a conteúdos educacionais sobre praticamente qualquer área do saber. Todavia, essa disponibilidade é acompanhada pelo fenômeno da fragmentação, no qual os recursos didáticos se apresentam dispersos em múltiplas plataformas e desprovidos de uma estrutura pedagógica. Em vez de o estudante se concentrar na aprendizagem, o indivíduo gasta sua energia na curadoria e na organização dos materiais e, mesmo assim, encontra lacunas. 
 
-Este cenário é particularmente prejudicial para indivíduos autodidatas e estudantes que operam sem o suporte direto de tutores ou instituições de ensino. Sem uma orientação, esses alunos tornam-se vulneráveis à desorientação metodológica. A inexistência de uma sequência lógica e progressiva de estudos resulta na formação de lacunas conceituais. Além disso, as trilhas de aprendizado estáticas sofrem de obsolescência precoce.
-
-Motores de busca e algoritmos de recomendação entregam conteúdos fragmentados. A ferramenta precisa existir para fornecer uma **forma humanizada de organizar o conteúdo infinito**. A curadoria humana adiciona o contexto pedagógico e a validação qualitativa que algoritmos de busca genéricos não possuem. O objetivo da plataforma é estabelecer um **fluxo de dados viável**, transformando materiais didáticos dispersos (vídeos, artigos, documentações) em uma sequência lógica, progressiva e verificada por especialistas ou pela própria comunidade.
-
+Este cenário é particularmente prejudicial para indivíduos autodidatas e estudantes que operam sem o suporte direto de tutores ou instituições de ensino.  Além disso, as trilhas de aprendizado estáticas sofrem de obsolescência precoce. A ferramenta precisa existir para fornecer uma **forma humanizada de organizar o conteúdo infinito**. A curadoria humana adiciona o contexto pedagógico e a validação qualitativa que algoritmos de busca genéricos não possuem. 
 ### 2. Objetivo Geral
 
-Desenvolver uma plataforma colaborativa para a criação, evolução e curadoria comunitária de roadmaps educacionais, utilizando o desenvolvimento do sistema como um estudo de caso para avaliar o impacto de padrões arquiteturais e boas práticas de Engenharia de Software na manutenibilidade e testabilidade da aplicação.
+Desenvolver uma plataforma colaborativa para a criação, evolução e curadoria de roadmaps educacionais, utilizando o desenvolvimento do sistema como um estudo de caso.
 
 A plataforma não iria atuar como curadora, mas forneceria infraestrutura para que a comunidade realizasse a auto-curadoria.
 - **Mantenedor**: Criador original ou responsável pelo roadmap "oficial". Define a filosofia pedagógica, revisa sugestões e garante a coesão da trilha.
 - **Colaborador**: Qualquer usuário que identifique melhorias (links, novos conteúdos) poderia sugerir uma mudança.
 ### 3. Abordagem Metodológica e Arquitetural
 
-A abordagem adotada priorizará o System Design, garantindo que a arquitetura escolhida seja econômica, pragmática e alinhada às necessidades do problema. Enquanto a Arquitetura de Software lida com a organização interna do código-fonte, o System Design afasta o foco do código e olha para o sistema como uma rede de serviços interagindo entre si. É a tomada de decisão sobre a infraestrutura macro e sobre as peças que compõem o ecossistema da aplicação.
-
-**Especificação de Requisitos**: O projeto terá início com o mapeamento dos requisitos funcionais e não funcionais.
+**Especificação de Requisitos**: 
 - Os requisitos funcionais detalharão as regras de negócio intrínsecas à plataforma, como o fluxo de submissão de sugestões, a mecânica de revisão e aprovação pelos mantenedores, e o sistema de controle de acesso. 
-- Os requisitos não funcionais estabelecerão as restrições do sistema. Esta etapa quantificará métricas de desempenho (como o tempo máximo de resposta tolerável para a leitura de trilhas completas), segurança (gerenciamento de autorização granular) e integridade de dados (estratégias de bloqueio e controle de concorrência para edições simultâneas).
 
 **Modelagem de Dados e Estruturas em Grafos**: Uma etapa central da abordagem será a definição técnica da persistência dos _roadmaps_. Como as trilhas de aprendizado exigem a definição de pré-requisitos não lineares, os dados serão representados e estruturados como Grafos Direcionados Acíclicos (DAGs). O trabalho documentará a análise técnica entre diferentes paradigmas de banco de dados para armazenar essas hierarquias. 
 
-**Versionamento, sincronização e Diferenciação**: Devido à alta complexidade computacional envolvida no gerenciamento de alterações concorrentes, este tópico será tratado como um módulo de estudo aprofundado isolado. A pesquisa investigará três pilares: o isolamento de estado (garantindo que as propostas de edição existam sem impactar a trilha oficial), o cálculo de diferenciação ou _diffs_ (a identificação algorítmica exata de quais nós e dependências foram inseridos, alterados ou removidos) e os mecanismos de resolução de conflitos e mesclagem.
-
-**Design de Sistema e Definição Arquitetural**: A partir das restrições levantadas, o trabalho prosseguirá para a definição estrutural da aplicação. A abordagem buscará a eficiência no uso de recursos computacionais, avaliando padrões já estabelecidos e definindo os seguintes componentes da topologia do sistema.
-- **Autenticação e Autorização (Auth):** Definição dos protocolos de verificação de identidade e controle de acesso baseado em papéis garantindo a aplicação estrita das permissões de mantenedores e colaboradores.
-- **Roteamento e API Gateway:** Padronização do ponto de entrada central do sistema para gerenciar o tráfego, encaminhar requisições para os domínios corretos e aplicar políticas de limite de requisições (_rate limiting_).
-- **Camada de Cache:** Implementação de estratégias de armazenamento em memória de acesso rápido (estruturas de chave-valor) para servir _roadmaps_ de alta demanda, minimizando a latência de leitura e reduzindo o processamento repetitivo no banco de dados principal.
-- **ETC**
-
+**Versionamento, sincronização e Diferenciação**: Devido à alta complexidade computacional envolvida no gerenciamento de alterações concorrentes, este tópico será tratado como um módulo de estudo aprofundado isolado. A pesquisa investigará três pilares:
+1. isolamento de estado (garantindo que as propostas de edição existam sem impactar a trilha oficial)
+2. cálculo de diferenciação (a identificação algorítmica exata de quais nós e dependências foram inseridos, alterados ou removidos)
+3. mecanismos de resolução de conflitos e mesclagem.
 
 ---
-### 1 e 2. Criação e Modificação Direta do Roadmap
+### 4. O que vai poder ser feito na plataforma
+#### 4.1Criação e Modificação Direta do Roadmap
 
 - **Foco Teórico Necessário:** Modelagem de Grafos em Bancos de Dados.    
 - **O que estudar:** Como as trilhas educacionais possuem pré-requisitos, elas formam Grafos Direcionados Acíclicos (DAGs). O seu referencial teórico deverá focar nos padrões de persistência dessas estruturas. O estudo deve contemplar padrões estruturais em bancos de dados relacionais, como a Lista de Adjacência (_Adjacency List_), o Caminho Materializado (_Materialized Path_) e a Tabela de Fechamento (_Closure Table_). O objetivo é fundamentar qual desses padrões oferece a melhor performance para leitura e modificação direta da trilha.
-### 3. Sugestões de Alteração (O Modelo de Pull Request)
+#### 4.2 Sugestões de Alteração (O Modelo de Pull Request)
 
 O sistema permitirá que usuários sugiram modificações em roadmaps públicos, cabendo ao mantenedor a aprovação ou rejeição da alteração estrutural.
 - **Foco Teórico Necessário:** Isolamento de Estado e Algoritmos de Diferenciação.
 - **O que estudar:** Primeiramente, é necessário pesquisar como isolar a sugestão do usuário para que ela não altere o roadmap original em produção. Isso exige o estudo de armazenamento de deltas (gravar apenas a diferença) versus armazenamento de cópias. Em segundo lugar, o estudo matemático do cálculo de diferenciação de árvores (_Tree Edit Distance - TED_). O referencial teórico deverá abordar o Algoritmo de Zhang-Shasha ou variações modernas para explicar formalmente como o sistema identificará e exibirá ao mantenedor quais tópicos o usuário inseriu, removeu ou alterou.
-### 4. Cópia de Roadmaps Públicos (O Modelo de Fork)
+#### 4.3 Cópia de Roadmaps Públicos (O Modelo de Fork)
 
 Usuários poderão copiar um roadmap público autorizado e assumir a manutenção dessa nova entidade independente.
 - **Foco Teórico Necessário:** Estratégias de Replicação de Dados.
 - **O que estudar:** O desafio computacional aqui é a eficiência de armazenamento. Se um roadmap possui centenas de tópicos e milhares de usuários realizarem a cópia, duplicar todos os registros de forma profunda (_Deep Copy_) causará um consumo massivo de armazenamento. Você deve estudar o princípio arquitetural do _Copy-on-Write_ (CoW), um conceito de otimização onde o sistema compartilha as referências aos dados originais e cria novos registros físicos apenas no momento em que o novo mantenedor efetua uma modificação na sua cópia.
-### 5. Colaboração Simultânea de Múltiplos Mantenedores
+#### 4.4 Colaboração Simultânea de Múltiplos Mantenedores
 
 O mantenedor original poderá delegar permissões para que colaboradores editem diretamente o roadmap em conjunto, introduzindo complexidades de concorrência.
 - **Foco Teórico Necessário:** Controle de Concorrência e Sincronização Distribuída.
 - **O que estudar:** Este é o ponto que exige o estudo de Tipos de Dados Replicados Livres de Conflitos (CRDTs) e Transformação Operacional (OT). Como múltiplos usuários possuem permissão de escrita direta, o sistema precisará processar edições concorrentes. O estudo dos CRDTs baseados em estado fornecerá a base formal para garantir a comutatividade das operações, assegurando que, independentemente da ordem em que o servidor receba as requisições de alteração dos diferentes mantenedores, o roadmap final não entrará em estado de inconsistência. Adicionalmente, o estudo do Controle de Concorrência Otimista (MVCC) justificará o funcionamento das transações na camada do banco de dados.
 
+Um nó poderia apontar para outro roadmap? um roadmap de roadmaps?
 
 ---
-
-FLUXO DE INTERAÇÃO DO USER.
-MOTIVAÇÕES. distinção entre personagens, autor, colaborador
-PQ ESSA FERRAMENTA PRECISA EXISTIR? FORMA HUMANIZADA DE ORGANIZAR CONTEUDO INFINITO. FLUXO DE DADOS VIÁVEL.
-INTERFACE MÍNIMA DO USER.
-A PROPOSTA/CAÇAR SITES/PROPOSTAS SEMELHANTES/IDEIAS SEMELHANTES.
-PROPOSTA COLABORATIVO PARA CONSTRUIR ALGO, COM OAS PESSAOS INTERAGEM.
-TabNews - conceito de economia interna. nao.
-INSPIRADO NO GIT ?
-SUGESTOES DE IA ONDE TAL CONTEUDO ENTRAR?
-COM A WIKIPEDIA CONTROLA AS COLABORAÇOES? 
-E SE PESSOAS ALEATORIAMENTE ESCREVESEM ALGO? modelos de validação.. VERIFICAÇÃO DE INFORMAÇÃO VÁLIDA. 
-
----
-### **4. Tópicos a serem estudados**
+### **5. Tópicos a serem estudados**
 
 **Modelagem de Grafos em Bancos de Dados**
-O armazenamento de Grafos Direcionados Acíclicos (DAGs) é o núcleo do seu sistema. Você deve estudar como representar essas estruturas hierárquicas e não lineares. Pesquise sobre os seguintes padrões:
-- **Em Bancos Relacionais (como PostgreSQL):** Estude os padrões _Adjacency List_ (Lista de Adjacência, onde cada registro aponta para o seu nó pai/filho direto), _Materialized Path_ (Caminho Materializado, que armazena a rota completa até o nó em uma única coluna) e _Closure Table_ (Tabela de Fechamento, que armazena todos os caminhos possíveis entre os nós, facilitando consultas profundas).
+Você deve estudar como representar essas estruturas hierárquicas e não lineares. Pesquise sobre os seguintes padrões:
+- **Em Bancos Relacionais:** Estude os padrões _Adjacency List_ (Lista de Adjacência, onde cada registro aponta para o seu nó pai/filho direto), _Materialized Path_ (Caminho Materializado, que armazena a rota completa até o nó em uma única coluna) e _Closure Table_ (Tabela de Fechamento, que armazena todos os caminhos possíveis entre os nós, facilitando consultas profundas).
 - **Em Bancos NoSQL (como MongoDB):** Estude a modelagem orientada a documentos aninhados e padrões de referenciamento de documentos para representar árvores e grafos.
 **Controle de Concorrência**
 Como o sistema é colaborativo, múltiplos usuários podem tentar alterar o mesmo _roadmap_ simultaneamente. É necessário estudar como os bancos de dados lidam com essas transações.
@@ -86,9 +64,6 @@ Como o sistema é colaborativo, múltiplos usuários podem tentar alterar o mesm
 **Design de APIs para Estruturas Complexas**
 Você precisará justificar como o cliente requisitará a árvore de estudos.
 - **Problemas de Over-fetching e Under-fetching:** Estude o impacto de requisições RESTful tradicionais, onde uma chamada pode trazer dados em excesso ou exigir múltiplas requisições em cadeia para montar o grafo completo.
-- **GraphQL:** Estude esta linguagem de consulta estruturada como uma alternativa arquitetural para solicitar hierarquias complexas em uma única requisição.
-### 2. Tópicos de Estudo em Sistemas de Versionamento
-O versionamento colaborativo de dados (diferente do versionamento de código-fonte em arquivos de texto) exige a compreensão de algoritmos específicos para isolamento e mesclagem.
 
 **Event Sourcing (Fonte de Eventos)**
 Trata-se de um padrão arquitetural onde o estado atual de um sistema não é armazenado diretamente. Em vez disso, armazena-se uma sequência cronológica de eventos (por exemplo, "Nó A criado", "Dependência B vinculada ao Nó A", "Nó C removido").
@@ -107,5 +82,16 @@ A teoria sobre como identificar computacionalmente a diferença exata entre duas
 - **Relevância para o TCC:** O sistema precisará comparar o grafo original do mantenedor e o grafo modificado pelo colaborador para exibir exatamente quais tópicos foram adicionados, movidos ou excluídos, antes da aprovação final.
 
 
+---
 
-REFERENCIAL TEORICO
+FLUXO DE INTERAÇÃO DO USER.
+MOTIVAÇÕES. distinção entre personagens, autor, colaborador
+PQ ESSA FERRAMENTA PRECISA EXISTIR? FORMA HUMANIZADA DE ORGANIZAR CONTEUDO INFINITO. FLUXO DE DADOS VIÁVEL.
+INTERFACE MÍNIMA DO USER.
+A PROPOSTA/CAÇAR SITES/PROPOSTAS SEMELHANTES/IDEIAS SEMELHANTES.
+PROPOSTA COLABORATIVO PARA CONSTRUIR ALGO, COM OAS PESSAOS INTERAGEM.
+TabNews - conceito de economia interna. nao.
+INSPIRADO NO GIT ?
+SUGESTOES DE IA ONDE TAL CONTEUDO ENTRAR?
+COM A WIKIPEDIA CONTROLA AS COLABORAÇOES? 
+E SE PESSOAS ALEATORIAMENTE ESCREVESEM ALGO? modelos de validação.. VERIFICAÇÃO DE INFORMAÇÃO VÁLIDA. 

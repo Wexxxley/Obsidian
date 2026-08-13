@@ -7,7 +7,7 @@ Similar às filas, queremos desacoplar componentes em um sistema distribuído. N
 - **Publicador:** Anuncia mensagens sobre um determinado **tópico** ou evento para um intermediário. O publicador não sabe quem vai receber a mensagem.
 - **Assinante:** Registra seu interesse em um ou mais **tópicos** junto ao intermediário. Quando uma mensagem é publicada em um tópico que ele assinou, o intermediário entrega a mensagem para ele.
 
-![](../../../attachments/Pasted%20image%2020251026174022.png)
+![](../../../../attachments/Pasted%20image%2020251026174022.png)
 
 **Componentes e Fluxo:**
 1. **Publicador:** Envia uma mensagem associada a um tópico específico para o intermediário.
