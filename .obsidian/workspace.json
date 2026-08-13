@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
+                "file": "01_Concursos/TI/05_Verificação e validação/1_.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Concordância verbal"
+              "title": "1_"
             }
           }
         ]
@@ -197,11 +197,15 @@
   },
   "active": "9129bb77b9f76c5d",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
+    "01_Concursos/TI/05_Verificação e validação/1_.md",
+    "01_Concursos/TI/06_Segurança",
+    "01_Concursos/TI/05_Verificação e validação",
+    "01_Concursos/TI/05.md",
     "attachments/Pasted image 20260813072659.png",
     "attachments/Pasted image 20260813072647.png",
     "attachments/Pasted image 20260813071730.png",
     "01_Concursos/Geral/01_Português/3_Verbos/4_Verbos impessoais e auxiliares.md",
-    "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "01_Concursos/Geral/02_Arquivologia/14_Método alfabético, geográfico e numérico.md",
     "05_Aleatorios/atv 01 PPCT.md",
     "05_Aleatorios/3_Conteúdos relacionados.md",
@@ -219,7 +223,6 @@
     "attachments/Pasted image 20260812124042.png",
     "01_Concursos/Geral/01_Português/4_Sintaxe/9_Orações subordinadas substantivas.md",
     "**1. Substantiva Subjetiva**.md",
-    "attachments/Pasted image 20260812123050.png",
     "01_Concursos/Geral/01_Português/4_Sintaxe/15_Uso do SE.md",
     "01_Concursos/Geral/01_Português/6_Concordância",
     "01_Concursos/Geral/01_Português/4_Sintaxe/4_Termos acessórios da oração.md",
@@ -233,7 +236,6 @@
     "01_Concursos/Geral/02_Arquivologia/99_Questões.md",
     "01_Concursos/Geral/02_Arquivologia/04_Protocolo.md",
     "01_Concursos/Geral/02_Arquivologia/06_Diagnóstico arquivístico.md",
-    "01_Concursos/Geral/02_Arquivologia/07_Arquivos permanentes.md",
     "02_Conhecimentos TI/6_web2",
     "02_Conhecimentos TI/8_System Design",
     "02_Roadmap/1_Junior/1_Como funciona um computador/ResumoEmAudio.m4a",
@@ -241,8 +243,6 @@
     "01_Concursos/Geral/05_Atendimento ao público",
     "01_Concursos/Geral/01_Português/5_Pontuação",
     "01_Concursos/Geral/01_Português/3_Verbos",
-    "01_Concursos/Geral/01_Português/3_Sintaxe/Untitled",
-    "01_Concursos/Geral/04_Direito administrativo",
     "Sem título.canvas"
   ]
 }
