@@ -20,9 +20,9 @@ Indique o link para a página da conferência que contém a lista dos trabalhos 
 
 - Anais do XXI Simpósio Brasileiro de Sistemas Colaborativos: https://sol.sbc.org.br/index.php/sbsc/issue/view/1693
 
-5) Nome e Link para um PERIÓDICO / JOURNAL / REVISTA que pode estar relacionado ao seu tema.  
-Apresente um link para a página que contém a lista dos trabalhos da última edição.
+5) Nome e Link para um PERIÓDICO / JOURNAL / REVISTA que pode estar relacionado ao seu tema.  Apresente um link para a página que contém a lista dos trabalhos da última edição.
 
+- JSERD: Journal of Software Engineering Research and Development: https://journals-sol.sbc.org.br/index.php/jserd/
 ---------------------
 
 OBSERVAÇÃO 1: Se o evento não for científico e não possuir artigos científicos, não será considerado.
