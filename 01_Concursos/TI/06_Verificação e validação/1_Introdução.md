@@ -2,27 +2,26 @@
 
 ---
 
-Clientes frequentemente expressam necessidades de negócio propondo soluções. O cliente relata os sintomas de um processo falho e, instintivamente, tenta formular uma resolução com base no seu próprio conhecimento empírico sobre tecnologia, o qual geralmente é limitado.
+Clientes frequentemente expressam necessidades de negócio propondo soluções. O cliente relata os sintomas de um processo falho e, instintivamente, tenta formular uma resolução com base no seu próprio conhecimento, o qual geralmente é limitado.
 
-### A Investigação da Causa Raiz
+A **engenharia de requisitos** exige que o profissional não atue como um mero anotador de pedidos. É necessário aplicar técnicas de: coleta, extração e descoberta de informações para isolar a causa do problema.  Para encontrar a solução ideal, a análise de software divide o projeto em duas áreas  separadas:
+- Domínio do Problema
+- Domínio da Solução
 
-A engenharia de requisitos exige que o profissional não atue como um mero anotador de pedidos. É necessário aplicar técnicas de **elicitação** (o processo técnico de coleta, extração e descoberta de informações) para isolar a causa fundamental do problema. O objetivo primário é compreender a dor do processo de negócio, descartando as restrições artificiais impostas pela sugestão técnica inicial do cliente.
+O analista deve esgotar e mapear o domínio do problema antes de permitir que a equipe de engenharia inicie o desenvolvimento do domínio de solução.
 
-### Separação de Domínios
+---
 
-Para encontrar a solução ideal, a análise de software divide o projeto em duas áreas estritamente separadas:
+>[!tip] No máximo, você pode aumentar a probabilidade de alguém não encontrar um erro.
 
-- **Domínio do Problema:** O ambiente de negócio do cliente, as regras operacionais, os gargalos e as restrições financeiras ou de tempo. É o cenário onde a necessidade real reside.
-    
-- **Domínio da Solução:** A arquitetura de software, as linguagens de programação, os bancos de dados e as interfaces projetadas.
-    
+**Validação**: é validar se o que estamos construindo é  que o cliente espera. É voltar ao doc de requisitos. Ver se atende o que foi proposto.
 
-O analista deve esgotar e mapear completamente o domínio do problema antes de permitir que a equipe de engenharia inicie o desenvolvimento do domínio d
-
-No máximo vc pode aumentar a probabilidade de alguém n encontrar um erro.
+**Verificação**: É verificar se o que foi construído funciona, se não tem bug, se é robusto.
+- **Estática/Inspeções de software:** Inspeção é uma revisão cuidadosa, linha por linha, do código fonte do programa. Pode ser inclusive no doc de requisitos. Objetivo é a DETECÇÃO de defeitos (não correção). Defeitos podem ser erros lógicos, anomalias no código que podem indicar uma condição errônea ou a não conformidade com padrões organizacionais. Como linhas duplicadas, variáveis não usadas, codes smells. 
+- **Dinamica/testes de software:** codigo executado. Verifica se o comportamento é o esperado.
 ![500](../../../attachments/Pasted%20image%2020260814082942.png)
 
-O **TDD** (_Test-Driven Development_) e o **BDD** (_Behavior-Driven Development_) são práticas de desenvolvimento de software baseadas na escrita prévia de testes. O TDD foca na qualidade técnica do código e testes unitários, enquanto o BDD expande essa ideia para o comportamento do sistema e a colaboração com o negócio.
+O **TDD** (Test-Driven Development) e o **BDD** (Behavior-Driven Development) são práticas de desenvolvimento de software baseadas na escrita prévia de testes. O TDD foca na qualidade técnica do código e testes unitários, enquanto o BDD expande essa ideia para o comportamento do sistema e a colaboração com o negócio.
 
 
 Teste unitario e de compoenentes sao responsabilidades do dev
@@ -33,15 +32,6 @@ Após cada integração, o desenvolvedor precisa testar os elementos afetados pa
 - Testes de regressão
 
 
-**Validação**: é voltar ao doc de requisitos /cliente e ver se o que foi feito é o que ele queria, o que foi proposto, se ele valida.
-
-**Verificação**: n é se eu entedi direito, é se o que construi n quebra, se n tem bug, se é robusto.
-- **Estática/Inspeções de software:** n executa codigo. pode ser inclusive no doc de requisitos. linhas duplicadas, var n usados, metodos que fz mais de uma coisa. codes semels. 
-- **Dinamica/testes de software:** codigo executado. Verifica se o comportamento é o esperado.
-
-- Inspeção é uma revisão cuidadosa, linha por linha, do código fonte do programa.
--  Inspeções não podem verificar as características não funcionais tais como desempenho, usabilidade, etc.
-- Objetivo é a DETECÇÃO de defeitos (não correção). Defeitos podem ser erros lógicos, anomalias no código que podem indicar uma condição errônea ou a não conformidade com padrões organizacionais
 
 
 **Abordagens e teste**

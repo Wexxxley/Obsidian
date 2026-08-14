@@ -32,3 +32,12 @@ O segundo trabalho absorve a base arquitetural estabelecida no TCC 1 e foca na r
 - **Garantia de Qualidade de Software (Testes):** Estruturar uma suíte de testes automatizados. O documento detalhará a implementação de testes unitários para isolar e validar as regras de negócio da API e testes de integração e interface (instrumentação) para validar o comportamento dos componentes nativos no ambiente Android.
     
 - **Análise de Desempenho e Resultados:** Validar o projeto por meio da coleta de métricas de software. A monografia final apresentará análises do tempo de resposta dos endpoints da API, a latência na transmissão de mensagens do chat e a eficiência do uso de memória do aplicativo móvel nos dispositivos finais.
+
+
+---
+ 
+ **Justificativa versao web**
+
+- Uma aplicação web responsiva já permite que tanto clientes com pcs como cleintes mobile consigam acessar sem necessidade de donwload. E como é um MVP inicalmente
+
+- O desenvolvimento de um cliente web força o isolamento da lógica de negócios. A arquitetura "API-First". Em uma evolução futura, o aplicativo móvel nativo atuará apenas como um segundo cliente consumindo os mesmos recursos web.
