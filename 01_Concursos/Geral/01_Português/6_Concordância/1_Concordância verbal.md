@@ -10,6 +10,13 @@ Possui apenas um núcleo, geralmente um substantivo ou pronome.
 ### 2. Sujeito Composto
 Possui dois ou mais núcleos. 
 - Pai e filho conversavam no jardim. 
+
+**Sujeito composto posposto**. A norma-padrão estabelece que, quando o verbo antecede um sujeito composto, o emissor tem pode escolher entre dois tipos de concordância.
+- **Concordância Atrativa:** O verbo flexiona para concordar com o sujeito mais próximo. 
+	- Existe burocracia, impostos elevados
+- **Concordância Lógica:** O verbo flexiona para concordar com a soma de todos os núcleos.
+	- Existem burocracia, impostos elevados.
+	- Existem burocracia, falacia.
 ### 3. Sujeito Oculto/Elíptico/Desidencial
 Não está explícito, mas pode ser identificado pela terminação do verbo ou pelo contexto anterior.
 - Viajamos ontem. -> NÓS
@@ -94,6 +101,18 @@ C) ERRADO. Fazem parte atividades
 D) ERRADO. Podem ser empregados choques
 E) ERRADO. Faz décadas.
 
-![](../../../../attachments/Pasted%20image%2020260814063615.png)A) ERRADO. Existem, Lá, faz muitos anos
-B) ERRADO. Havia (sentido de existir)
+![](../../../../attachments/Pasted%20image%2020260814063615.png)![](../../../../attachments/Pasted%20image%2020260814065555.png)
+A) ERRADO. Faz muitos anos
+
+**Sujeito composto posposto**. A norma-padrão estabelece que, quando o verbo antecede um sujeito composto, o emissor tem pode escolher entre dois tipos de concordância.
+- **Concordância Atrativa:** O verbo flexiona para concordar com o sujeito mais próximo. 
+	- Existe burocracia, impostos elevados
+- **Concordância Lógica:** O verbo flexiona para concordar com a soma de todos os núcleos.
+	- Existem burocracia, impostos elevados.
+	- Existem burocracia, falacia.
+
+B) ERRADO. Havia (sentido de existir). Tem muitos está correto. Indicando tempo
 C) CORRETO.
+![](../../../../attachments/Pasted%20image%2020260814065737.png)
+![](../../../../attachments/Pasted%20image%2020260814065842.png)![](../../../../attachments/Pasted%20image%2020260814065816.png)
+D)![200](../../../../attachments/Pasted%20image%2020260814070404.png)
