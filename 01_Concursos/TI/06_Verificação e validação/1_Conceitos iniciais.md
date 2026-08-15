@@ -2,11 +2,9 @@
 
 ---
 
-Clientes frequentemente expressam necessidades de negócio propondo soluções. O cliente relata os sintomas de um processo falho e, instintivamente, tenta formular uma resolução com base no seu próprio conhecimento, o qual geralmente é limitado.
-
-A **engenharia de requisitos** exige que o profissional não atue como um mero anotador de pedidos. É necessário aplicar técnicas de: coleta, extração e descoberta de informações para isolar a causa do problema.  Para encontrar a solução ideal, a análise de software divide o projeto em duas áreas  separadas:
-- Domínio do Problema
-- Domínio da Solução
+O cliente relata os sintomas de um processo falho e, instintivamente, tenta formular uma resolução com base no seu próprio conhecimento, o qual geralmente é limitado. A **engenharia de requisitos** exige que o profissional não atue como um mero anotador de pedidos. É necessário aplicar técnicas de: coleta, extração e descoberta de informações para isolar a causa do problema.  Para encontrar a solução, a análise divide o projeto em duas áreas:
+- **Domínio do Problema**
+- **Domínio da Solução**
 
 O analista deve esgotar e mapear o domínio do problema antes de permitir que a equipe de engenharia inicie o desenvolvimento do domínio de solução.
 
@@ -14,10 +12,11 @@ O analista deve esgotar e mapear o domínio do problema antes de permitir que a 
 
 >[!tip] No máximo, você pode aumentar a probabilidade de alguém não encontrar um erro.
 
-**Validação**: é validar se o que estamos construindo é  que o cliente espera. É voltar ao doc de requisitos. Ver se atende o que foi proposto.
+**Validação**: é validar se o que estamos construindo é que o cliente espera. É voltar ao doc de requisitos e ver se o que foi proposto é atendido.
 
 **Verificação**: É verificar se o que foi construído funciona, se não tem bug, se é robusto.
-- **Estática/Inspeções de software:** Inspeção é uma revisão cuidadosa, linha por linha, do código fonte do programa. Pode ser inclusive no doc de requisitos. Objetivo é a DETECÇÃO de defeitos (não correção). Defeitos podem ser erros lógicos, anomalias no código que podem indicar uma condição errônea ou a não conformidade com padrões organizacionais. Como linhas duplicadas, variáveis não usadas, codes smells. 
+- **Estática/Inspeções de software:** Inspeção é uma revisão cuidadosa, linha por linha, do código fonte. Pode ser inclusive no doc de requisitos. Objetivo é a DETECÇÃO de defeitos (não correção). Como linhas duplicadas, variáveis não usadas, code smells. 
+	[[2_Code smells|Entendendo CODE SMELLS]]
 - **Dinamica/testes de software:** codigo executado. Verifica se o comportamento é o esperado.
 ![500](../../../attachments/Pasted%20image%2020260814082942.png)
 

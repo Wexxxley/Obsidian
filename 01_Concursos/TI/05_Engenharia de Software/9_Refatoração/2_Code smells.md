@@ -2,21 +2,21 @@
 #Concluded 
 
 ---
-Code Smells são os **indicadores** de que um trecho de código pode precisar de refatoração . 
+Code Smells são **indicadores** de que um trecho de código pode precisar de refatoração. Note que os code smells estão ligado aos principios SOLID.  
     
-- **Código Duplicado:** Ocorre quando o mesmo trecho de código aparece em vários lugares, o que aumenta o esforço de manutenção e o risco de bugs.
+1. **Código Duplicado:** Ocorre quando o mesmo trecho de código aparece em vários lugares.
     
-- **Métodos Longos:** Métodos devem ser pequenos. 
+2. **Métodos Longos:** Métodos devem ser pequenos. 
     
-- **Classes Grandes:** Classes que assumem muitas responsabilidades ou não são coesas.
+3. **Classes Grandes:** Classes que assumem muitas responsabilidades ou não são coesas.
     
-- **Feature Envy (Inveja de Funcionalidade):** Ocorre quando um método de uma classe A parece "invejar" outra classe B, ou seja, ele acessa mais dados e métodos da classe B do que da sua própria classe A . A solução geralmente é mover o método para a classe B.
+4. **Feature Envy (Inveja de Funcionalidade):** Ocorre quando um método de uma classe A parece "invejar" outra classe B, ou seja, ele acessa mais dados e métodos da classe B do que da sua própria classe A  A solução geralmente é mover o método para a classe B.
+    ![300](../../../../attachments/Pasted%20image%2020260815134000.png) ![300](../../../../attachments/Pasted%20image%2020260815134025.png)
+5. **Métodos com Muitos Parâmetros:** Métodos devem ter poucos parâmetros para serem fáceis de entender e usar.
     
-- **Métodos com Muitos Parâmetros:** Métodos devem ter poucos parâmetros para serem fáceis de entender e usar .
+6. **Variáveis Globais:** Variáveis globais devem ser evitadas porque quebra o princípio do encapsulamento. Essa exposição gera **alto acoplamento**. Adicionalmente, o estado global inviabiliza a execução isolada de testes e introduz riscos críticos de concorrência.
     
-- **Variáveis Globais:** Devem ser evitadas, pois criam um acoplamento ruim entre as partes do sistema. 
-    
-- **Obsessão por Tipos Primitivos:** Ocorre quando tipos primitivos são usados no lugar de classes pequenas para representar conceitos (ex: usar `String` para um CEP) .
+7. **Obsessão por Tipos Primitivos:** Ocorre quando tipos primitivos são usados no lugar de classes pequenas para representar conceitos (ex: usar `String` para um CEP) .
     
 - **Objetos Mutáveis:** Objetos cujo estado pode ser modificado após a criação. A crítica não é sobre a existência da mutabilidade em si, mas sobre o **uso desnecessário** dela
 	    
@@ -25,4 +25,4 @@ Code Smells são os **indicadores** de que um trecho de código pode precisar de
 	    
 - **Classes de Dados:** Classes que possuem apenas atributos, mas nenhuma lógica. 
     
-- **Comentários:** Comentários podem ser um _smell_ quando são usados para explicar um código ruim. A recomendação é: "Não comente código ruim, reescreva-o" . 
+- **Comentários:** Comentários podem ser um smell quando são usados para explicar um código ruim. A recomendação é: "Não comente código ruim, reescreva-o" . 
