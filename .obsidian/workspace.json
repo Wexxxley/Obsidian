@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/3_Verbos/4_Verbos impessoais e auxiliares.md",
+                "file": "01_Concursos/TI/05_Engenharia de Software/99_Passo a passo criação de uma aplicação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Verbos impessoais e auxiliares"
+              "title": "99_Passo a passo criação de uma aplicação"
             }
           }
         ]
@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 239.5,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/4_Redação/2_Desenvolvimento.md",
+                "file": "01_Concursos/TI/05_Engenharia de Software/99_Passo a passo criação de uma aplicação.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2_Desenvolvimento"
+              "title": "Backlinks"
             }
           },
           {
@@ -175,12 +176,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,6 +196,8 @@
   },
   "active": "9129bb77b9f76c5d",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/3_Verbos/4_Verbos impessoais e auxiliares.md",
+    "01_Concursos/TI/05_Engenharia de Software/99_Passo a passo criação de uma aplicação.md",
     "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "01_Concursos/Geral/02_Arquivologia/08_Princípios da Arquivologia.md",
     "05_Aleatorios/TCC/5_Seminario01 PPCT.md",
@@ -226,7 +228,6 @@
     "01_Concursos/TI/07_Segurança",
     "01_Concursos/TI/06_Verificação e validação",
     "01_Concursos/TI/05.md",
-    "01_Concursos/Geral/01_Português/3_Verbos/4_Verbos impessoais e auxiliares.md",
     "01_Concursos/Geral/02_Arquivologia/14_Método alfabético, geográfico e numérico.md",
     "05_Aleatorios/Atualizações na modelagem das entidades.md",
     "05_Aleatorios/AcessoClin - Requisitos.md",
@@ -236,7 +237,6 @@
     "**1. Substantiva Subjetiva**.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/15_Uso do SE.md",
     "01_Concursos/Geral/01_Português/6_Concordância",
-    "01_Concursos/Geral/01_Português/4_Sintaxe/4_Termos acessórios da oração.md",
     "02_Conhecimentos TI/6_web2",
     "02_Conhecimentos TI/8_System Design",
     "02_Roadmap/1_Junior/1_Como funciona um computador/ResumoEmAudio.m4a",
