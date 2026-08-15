@@ -14,9 +14,11 @@ Possui dois ou mais núcleos.
 **Sujeito composto posposto**. A norma-padrão estabelece que, quando o verbo antecede um sujeito composto, o emissor tem pode escolher entre dois tipos de concordância.
 - **Concordância Atrativa:** O verbo flexiona para concordar com o sujeito mais próximo. 
 	- Existe burocracia, impostos elevados
+	- Faltou o diretor e os gerentes à reunião.
 - **Concordância Lógica:** O verbo flexiona para concordar com a soma de todos os núcleos.
 	- Existem burocracia, impostos elevados.
 	- Existem burocracia, falacia.
+	- Faltaram o diretor e os gerentes à reunião.
 ### 3. Sujeito Oculto/Elíptico/Desidencial
 Não está explícito, mas pode ser identificado pela terminação do verbo ou pelo contexto anterior.
 - Viajamos ontem. -> NÓS
@@ -67,8 +69,7 @@ Para as expressões que indicam porcentagem:
 B) Quando se examina é PA. Logo deve concordar com FOTOS.
 Tem é VTD. E esse se é PA. Logo Tem deve concordar com A IMPRESSAO. TEM
 
-![](../../../../attachments/Pasted%20image%2020260812124447.png)![](../../../../attachments/Pasted%20image%2020260812124410.png)![](../../../../attachments/Pasted%20image%2020260812124631.png)
-B)
+![](../../../../attachments/Pasted%20image%2020260812124447.png)![](../../../../attachments/Pasted%20image%2020260812124410.png)![](../../../../attachments/Pasted%20image%2020260812124631.png)d)
 
 ![](../../../../attachments/Pasted%20image%2020260812151222.png)
 1. Havia (impessoal, n se flexiona)
