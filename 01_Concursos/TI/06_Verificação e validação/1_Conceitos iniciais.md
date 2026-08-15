@@ -23,6 +23,8 @@ O analista deve esgotar e mapear o domínio do problema antes de permitir que a 
 
 **Pirâmide de testes**
 ![500](../../../attachments/Pasted%20image%2020260815142008.png)
+**Teste de regressão:** Testes feitos em partes do sistema que já foram testados anteriormente para garantir que eles ainda funcionam e que não foram impactados por mudanças realizadas em outros pontos do sistema.
+
 - Teste unitarios e de compoenentes são responsabilidades do dev.
 - Teste de integração e do sistema, são de responsabilidade do especialista em testes.
 
@@ -36,14 +38,14 @@ O analista deve esgotar e mapear o domínio do problema antes de permitir que a 
 	- **Ex**: O teste de uma API por meio de um cliente externo. O testador envia uma requisição e apenas verifica se o servidor retorna a mensagem de sucesso apropriada.
 	
 3. **Caixa cinza/híbrido**: O teste é conduzido e executado focado nas funcionalidades, como na Caixa Preta, mas o planejamento dos cenários de teste é auxiliado por um conhecimento parcial da arquitetura interna.
-	- **Ex**: Ao testar um formulário de cadastro na interface do sistema, o testador preenche os dados e recebe a mensagem de sucesso na tela. Em seguida, ele acessa diretamente a infraestrutura do banco de dados para auditar se o registro foi armazenado na tabela correta e se a senha do usuário recebeu o algoritmo de criptografia adequado.
+	- **Ex**: Ao testar um formulário de cadastro na interface do sistema, o testador preenche os dados e recebe a mensagem de sucesso. Em seguida, ele acessa a infraestrutura do banco de dados para auditar se o registro foi armazenado na tabela correta.
 
+
+**Falta ou defeito**: Código incorreto ou ausente que pode resultar em uma falha.
+**Falha ou erro**: Manifestação de um problema através de uma saída incorreta ou
+o término anormal do programa.
 ![400](../../../attachments/Pasted%20image%2020260814090559.png)
-Os testes verificam a existência de defeitos
-(**falhas**) em um software . ****
- Através da depuração é possível localizar e
-remover **faltas**. Código incorreto ou ausente que, quando executado, pode
-resultar em uma falha
+
 
 **Tipos de manutenção: CAMP** 
 1. **Corretiva:** correção de erros encontrados na verificação ou na validação.
