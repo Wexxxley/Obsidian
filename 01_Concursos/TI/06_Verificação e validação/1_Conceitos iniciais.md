@@ -15,29 +15,28 @@ O analista deve esgotar e mapear o domínio do problema antes de permitir que a 
 **Validação**: é validar se o que estamos construindo é que o cliente espera. É voltar ao doc de requisitos e ver se o que foi proposto é atendido.
 
 **Verificação**: É verificar se o que foi construído funciona, se não tem bug, se é robusto.
-- **Estática/Inspeções de software:** Inspeção é uma revisão cuidadosa, linha por linha, do código fonte. Pode ser inclusive no doc de requisitos. Objetivo é a DETECÇÃO de defeitos (não correção). Como linhas duplicadas, variáveis não usadas, code smells. 
+- **Estática/Inspeções de software:** Inspeção é uma revisão cuidadosa, linha por linha, do código fonte. Pode ser inclusive no doc de requisitos. Objetivo é a DETECÇÃO de defeitos (não correção). Como linhas duplicadas, variáveis não usadas, code smells.
 	[[2_Code smells|Entendendo CODE SMELLS]]
 - **Dinamica/testes de software:** codigo executado. Verifica se o comportamento é o esperado.
-![500](../../../attachments/Pasted%20image%2020260814082942.png)
 
-O **TDD** (Test-Driven Development) e o **BDD** (Behavior-Driven Development) são práticas de desenvolvimento de software baseadas na escrita prévia de testes. O TDD foca na qualidade técnica do código e testes unitários, enquanto o BDD expande essa ideia para o comportamento do sistema e a colaboração com o negócio.
+---
 
-
-Teste unitario e de compoenentes sao responsabilidades do dev
-Teste de integração do especialista em testes.
-
-Após cada integração, o desenvolvedor precisa testar os elementos afetados para garantir que eu não incluiu defeitos que não existiam
-
-- Testes de regressão
+**Pirâmide de testes**
+![500](../../../attachments/Pasted%20image%2020260815142008.png)
+- Teste unitarios e de compoenentes são responsabilidades do dev.
+- Teste de integração e do sistema, são de responsabilidade do especialista em testes.
 
 
+**Abordagens e teste**:
 
+1. **Caixa branca/estrutural:** Nesta abordagem, o desenvolvedor possui acesso total ao código-fonte. O objetivo é testar a estrutura interna da aplicação, analisando os algoritmos implementados, os fluxos lógicos, as estruturas de repetição e de decisão.
+	- **Ex:** A escrita de Testes Unitários.
 
-**Abordagens e teste**
-**Caixa branca/estrutural:** Realizado a partir do conhecimento de detalhes da implementação. princiaplemnte usado pelo dev. teste unitario e de integração
-**Caixa preta/funcional:** Os testes são planejados a partir de uma especificação abstrata. A implementação é desconhecida. princiaplemnte no Teste de sistema
-**Caixa cinza/híbrido**: Testes de caixa preta com conhecimento limitado sobre a
-implementação.
+2. **Caixa preta/funcional:**  Nesta metodologia, a estrutura interna do código-fonte é tratada como desconhecida. O teste é baseado no documento de requisitos. A validação foca exclusivamente na análise de entradas e saídas. 
+	- **Ex**: O teste de uma API por meio de um cliente externo. O testador envia uma requisição e apenas verifica se o servidor retorna a mensagem de sucesso apropriada.
+	
+3. **Caixa cinza/híbrido**: O teste é conduzido e executado focado nas funcionalidades, como na Caixa Preta, mas o planejamento dos cenários de teste é auxiliado por um conhecimento parcial da arquitetura interna.
+	- **Ex**: Ao testar um formulário de cadastro na interface do sistema, o testador preenche os dados e recebe a mensagem de sucesso na tela. Em seguida, ele acessa diretamente a infraestrutura do banco de dados para auditar se o registro foi armazenado na tabela correta e se a senha do usuário recebeu o algoritmo de criptografia adequado.
 
 ![400](../../../attachments/Pasted%20image%2020260814090559.png)
 Os testes verificam a existência de defeitos

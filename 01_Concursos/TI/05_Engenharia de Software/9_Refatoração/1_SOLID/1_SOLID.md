@@ -5,6 +5,7 @@
 
 **SOLID** é um acrônimo (sigla formada pelas primeiras letras) para cinco princípios de design de software que ajudam a criar código compreensível, flexível e fácil de manter.
 
+Note a relação com [[Parte_3|Object Calhistenics]].
 - **S - Princípio da Responsabilidade Única** (Single Responsibility Principle)
     - Uma classe deve ter apenas um motivo para mudar.
 - **O - Princípio Aberto/Fechado** (Open/Closed Principle)
