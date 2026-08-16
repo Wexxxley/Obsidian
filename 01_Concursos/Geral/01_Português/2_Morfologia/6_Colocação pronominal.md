@@ -9,11 +9,11 @@ Parte da gramática que estuda a posição dos pronomes oblíquos átonos (me, t
 a) Não pode prôclise iniciando oração. 
 b) Não pode ênclise em verbos que indicam futuro.
 c) Não pode ênclise em em verbos no particípio.
-d) em frases exclamativas, usa-se próclise
+d) em frases exclamativas, usa-se próclise.
 
 **EXCEÇÕES**
-a) No geral, após infinitivo é permitido ênclise, mesmo com termo atrativo.
-- Para enviar-**me**
+a) Após infinitivo é permitido ênclise, mesmo com termo atrativo.
+- Para enviar-**me**.
 b) Com conjunções coordenativas: prôclise ou ênclise. 
 - Ele chegou cedo, porém a encontrou/encontrou-a 
 #### **1. Próclise**
