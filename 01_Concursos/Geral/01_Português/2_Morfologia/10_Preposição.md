@@ -41,3 +41,16 @@ Palavras invariáveis encarregada de estabelecer uma conexão entre dois termos 
 ![500](../../../../attachments/Pasted%20image%2020260616131451.png)![500](../../../../attachments/Pasted%20image%2020260616131610.png)
 
 ---
+
+![500](../../../../attachments/Pasted%20image%2020260816153003.png)
+1. Companhia
+2. Exclusão/ausência
+
+![](../../../../attachments/Pasted%20image%2020260816153654.png)
+A) O fato de ter uma melhora no poder aquisitivo faz com que todos ganhem.
+
+![](../../../../attachments/Pasted%20image%2020260816154107.png)
+1 . F. Morfologicamente é uma locução adj que se refere a REFRÃO, sintaticamente um aposto explicativo.
+2 . V. A fim de compreender...
+3 . F. Pronome relativo
+4 . V

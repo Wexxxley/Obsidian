@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "locução adje",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -197,8 +197,13 @@
   },
   "active": "9129bb77b9f76c5d",
   "lastOpenFiles": [
-    "01_Concursos/Geral/01_Português/4_Sintaxe/4_Termos acessórios da oração.md",
+    "01_Concursos/Geral/01_Português/2_Morfologia/2_Artigo, adjetivo e numeral.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/10_Preposição.md",
+    "attachments/Pasted image 20260816154107.png",
+    "attachments/Pasted image 20260816154050.png",
+    "attachments/Pasted image 20260816153654.png",
+    "attachments/Pasted image 20260816153003.png",
+    "01_Concursos/Geral/01_Português/4_Sintaxe/4_Termos acessórios da oração.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
     "attachments/Pasted image 20260816142825.png",
     "Untitled.md",
@@ -229,7 +234,6 @@
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/1_SOLID/4_Liskov Substitution Principle.md",
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/1_SOLID",
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/2_Object Calisthenics/Parte_3.md",
-    "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/2_Object Calisthenics/Parte_2.md",
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/2_Object Calisthenics",
     "02_Conhecimentos TI/02_Dotnet/3_ECommerce FullStack",
     "02_Conhecimentos TI/02_Dotnet/2_WebAPI/x_Injeção de dependência",
@@ -239,10 +243,6 @@
     "02_Conhecimentos TI/02_Dotnet/2_WebAPI",
     "attachments/Pasted image 20260815134025.png",
     "attachments/Pasted image 20260815134000.png",
-    "attachments/Pasted image 20260814172356.png",
-    "attachments/Pasted image 20260814171422.png",
-    "attachments/Pasted image 20260814090559.png",
-    "attachments/Pasted image 20260814082942.png",
     "Sem título.canvas"
   ]
 }
