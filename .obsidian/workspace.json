@@ -11,10 +11,14 @@
             "id": "9129bb77b9f76c5d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "01_Concursos/Geral/01_Português/7_Redação/4_Teses e repertórios.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4_Teses e repertórios"
             }
           }
         ]
@@ -49,7 +53,7 @@
                 "sortOrder": "alphabetical",
                 "autoReveal": true,
                 "showSearch": true,
-                "searchQuery": "Sujeit"
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -192,6 +196,8 @@
   },
   "active": "9129bb77b9f76c5d",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/7_Redação/2_Desenvolvimento.md",
+    "01_Concursos/Geral/01_Português/7_Redação/1_Introdução.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/1_Termos integrantes da oração e predicação verbal.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/15_Uso do SE.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/6_Colocação pronominal.md",
@@ -223,8 +229,6 @@
     "02_Conhecimentos TI/02_Dotnet/3_ECommerce FullStack/7_Consumindo objetos via api.md",
     "02_Conhecimentos TI/02_Dotnet/3_ECommerce FullStack/6_Hooks.md",
     "02_Conhecimentos TI/02_Dotnet/3_ECommerce FullStack/5_Componentes React.md",
-    "02_Conhecimentos TI/02_Dotnet/3_ECommerce FullStack/4_ODM (Object-Document Mapper).md",
-    "02_Conhecimentos TI/02_Dotnet/3_ECommerce FullStack/3_Criando Controller.md",
     "02_Conhecimentos TI/02_Dotnet/3_ECommerce FullStack",
     "02_Conhecimentos TI/02_Dotnet/2_WebAPI/x_Injeção de dependência",
     "02_Conhecimentos TI/02_Dotnet/2_WebAPI/3_Intermediário",

@@ -12,7 +12,7 @@
 **2. Base educacional lacunar / Falhas no sistema educacional** <mark style="background: #FF5582A6;">CAUSA</mark>
 - O educador **Darcy Ribeiro** afirmava que a crise na educação do Brasil é um projeto. Isso indica que a base de ensino lacunar resulta de uma negligência estatal proposital, mantendo a sociedade desinformada e vulnerável à manipulação política.
 
-- O economista britânico **William Lewis** afirma que os gastos destinados à educação nunca devem ser encarados como despesas, mas sim como investimentos que garantem um retorno socioeconômico garantido.
+- O economista **William Lewis** afirma que os gastos destinados à educação nunca devem ser encarados como despesas, mas sim como investimentos que garantem um retorno socioeconômico garantido.
 
 **3. Falta de confiança dos cidadãos em relação ao Estado** <mark style="background: #FFB86CA6;">CONSEQUÊNCIA 
 </mark>
