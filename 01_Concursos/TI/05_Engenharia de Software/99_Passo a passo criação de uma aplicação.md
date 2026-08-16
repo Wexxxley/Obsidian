@@ -42,9 +42,9 @@ Define-se o protocolo e o contrato  de como os módulos do sistema e as integra�
 
 #### 2.3 Modelagem Estrutural e Comportamental
 - **Diagramação Arquitetural:** Utilização de notações gráficas, como o C4 Model, para representar a arquitetura em diferentes níveis de abstração hierárquica.
-
 #### 2.4 Prototipagem e Design de Interface
 - **Wireframe:** Esboço preliminar da disposição dos elementos em tela e do caminho lógico.
+	- Não deixe de especificar telas mais "ocultas", como as partes administrativas, relatórios, integração com backoffice - que conecta sistemas aos processos administrativos  (financeiro, estoque, contabilidade e faturamento).
 - **Prototipagem:** Construção de representações visuais fieis da interface final. Esta etapa define a paleta de cores, a tipografia e o mapeamento dos elementos visuais.
 
 >[!tip] Artefatos
@@ -63,3 +63,16 @@ A garantia de qualidade ocorre paralelamente e logo após a construção de cada
 ### 4. Implantação e Análise de Métricas
 
 A última macroetapa consiste em retirar o software do ambiente de desenvolvimento local e colocá-lo em um ambiente de produção. Aliado a isso, realiza-se a coleta de métricas de software (como o nível de complexidade ciclomática e a porcentagem de acoplamento do código final) para documentação.
+
+
+---
+### 5. Assuntos importantes a serem considerados
+
+#### 5.1 Integração com ERP (Enterprise Resource Planning)
+Um ERP é um sistema de software corporativo centralizado que visa unificar e gerenciar os processos operacionais vitais de uma empresa em um único banco de dados. Isso abrange módulos de contabilidade, recursos humanos, controle de estoque, logística, vendas e faturamento.  A integração com um ERP ocorre quando um software externo (como um app móvel) é programado para se comunicar diretamente com o ERP da empresa. 
+
+- **Exemplo:** Um app de prestação de serviços registra a conclusão de um trabalho. Ele envia os dados do serviço prestado ao módulo financeiro do ERP, que automaticamente gera a nota fiscal eletrônica e registra a previsão de recebimento no fluxo de caixa da empresa, sem necessidade de digitação humana.
+#### 5.2 Integração com Backoffice
+Refere-se a toda a estrutura administrativa e operacional de uma empresa que não possui contato direto com o cliente final. Enquanto o Frontoffice compreende as interfaces de usuário, o Backoffice engloba os setores e sistemas utilizados por funcionários internos para manter a empresa funcionando, como o setor de suporte técnico, processamento de pedidos, análise de crédito e TI. O próprio ERP é, frequentemente, o principal software utilizado no Backoffice.
+
+  
