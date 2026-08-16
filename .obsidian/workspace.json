@@ -35,8 +35,7 @@
               "title": "99_Passo a passo criação de uma aplicação"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Concursos/TI/05_Engenharia de Software/99_Passo a passo criação de uma aplicação.md",
+                "file": "01_Concursos/Geral/01_Português/2_Morfologia/10_Preposição.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -209,8 +208,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a94f9a4c7f1506d3",
+  "active": "9129bb77b9f76c5d",
   "lastOpenFiles": [
+    "01_Concursos/TI/05_Engenharia de Software/99_Passo a passo criação de uma aplicação.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/10_Preposição.md",
     "attachments/Pasted image 20260816161940.png",
     "attachments/Pasted image 20260816161732.png",

@@ -68,11 +68,24 @@ A última macroetapa consiste em retirar o software do ambiente de desenvolvimen
 ---
 ### 5. Assuntos importantes a serem considerados
 
+>[!tip]
+**A armadilha do planejamento excessivo:** tentar prever tudo em um escopo fechado leva ao fracasso. O ideal é focar em uma **versão mínima viável (MVP)** que possa ir ao ar rapidamente (2 a 4 meses), permitindo ajustar o produto com base no feedback real dos usuários.
+
+>[!tip]
+>Software não acaba: manutenção, atualização, sistema de suporte, atendimento....
+
 #### 5.1 Integração com ERP (Enterprise Resource Planning)
 Um ERP é um sistema de software corporativo centralizado que visa unificar e gerenciar os processos operacionais vitais de uma empresa em um único banco de dados. Isso abrange módulos de contabilidade, recursos humanos, controle de estoque, logística, vendas e faturamento.  A integração com um ERP ocorre quando um software externo (como um app móvel) é programado para se comunicar diretamente com o ERP da empresa. 
 
 - **Exemplo:** Um app de prestação de serviços registra a conclusão de um trabalho. Ele envia os dados do serviço prestado ao módulo financeiro do ERP, que automaticamente gera a nota fiscal eletrônica e registra a previsão de recebimento no fluxo de caixa da empresa, sem necessidade de digitação humana.
 #### 5.2 Integração com Backoffice
-Refere-se a toda a estrutura administrativa e operacional de uma empresa que não possui contato direto com o cliente final. Enquanto o Frontoffice compreende as interfaces de usuário, o Backoffice engloba os setores e sistemas utilizados por funcionários internos para manter a empresa funcionando, como o setor de suporte técnico, processamento de pedidos, análise de crédito e TI. O próprio ERP é, frequentemente, o principal software utilizado no Backoffice.
+Refere-se a toda a **estrutura administrativa e operacional interna** de uma empresa que não possui contato direto com o cliente final. Enquanto o Frontoffice compreende as interfaces de usuário, o Backoffice engloba os setores e sistemas utilizados por funcionários internos para manter a empresa funcionando, como o setor de suporte técnico, processamento de pedidos, análise de crédito e TI. O próprio ERP é, frequentemente, o principal software utilizado.
 
-  
+**Diferença**
+Backoffice é um conceito operacional, enquanto o ERP é um tipo específico de ferramenta de software corporativo.
+
+**Backoffice Integrado vs. Separado**
+Ambas as abordagens são aceitas na Engenharia de Software, mas possuem aplicações diferentes dependendo da escala do projeto.
+- **Backoffice Integrado:** Abordagem ideal para MVPs e sistemas de pequeno a médio porte. O painel administrativo e a interface do cliente operam na mesma base de código, acessando o mesmo banco de dados. A separação ocorre pelo perfil de usuário.      
+- **Backoffice Separado:** É a recomendação arquitetural padrão para sistemas de grande escala. O painel interno é construído como uma aplicação isolada, operando em servidores distintos e comunicando-se com o núcleo do sistema apenas através de rotas de API fechadas. A vantagem é o isolamento de falhas e a mitigação de ataques diretos
+#### 5.3 E as questões de SEGURANÇA, LGPD?
