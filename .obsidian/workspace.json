@@ -194,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,6 +211,8 @@
   },
   "active": "9129bb77b9f76c5d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260816183254.png",
+    "attachments/Pasted image 20260816183151.png",
     "attachments/Pasted image 20260816182523.png",
     "attachments/Pasted image 20260816182257.png",
     "attachments/Pasted image 20260816182203.png",
@@ -221,8 +224,6 @@
     "attachments/Pasted image 20260816161310.png",
     "attachments/Pasted image 20260816160841.png",
     "attachments/Pasted image 20260816160726.png",
-    "attachments/Pasted image 20260816160650.png",
-    "attachments/Pasted image 20260816160355.png",
     "01_Concursos/Geral/01_Português/2_Morfologia/2_Artigo, adjetivo e numeral.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/4_Termos acessórios da oração.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/1_Classes de palavras e substantivo.md",

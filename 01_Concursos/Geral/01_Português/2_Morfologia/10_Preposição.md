@@ -93,4 +93,6 @@ C) SÃO ESSENCIAIS
 D) 
 
 ![](../../../../attachments/Pasted%20image%2020260816182523.png)
+E) TODAS
+
 
