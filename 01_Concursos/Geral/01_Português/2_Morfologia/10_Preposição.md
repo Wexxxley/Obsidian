@@ -2,26 +2,24 @@
 #Concluded 
 
 ---
-São palavras invariáveis que ligam dois termos de uma oração, estabelecendo uma relação de dependência entre eles.
-![](../../../../attachments/Pasted%20image%2020260615184529.png)
+Palavras invariáveis encarregada de estabelecer uma conexão entre dois termos de uma frase.
+![400](../../../../attachments/Pasted%20image%2020260816142825.png)
+- São 18 preposições essenciais e sempre SÃO PREPOSIÇÕES.
 
-**Preposição VS conjunção**: São muito parecidas, elas tem duas semelhanças principais:
-- São conectores. Tanto de palavras como de oraçoes.
-	- Casa de(prep) maria.
-	- Maria e(conj) jose.
-	- Estudar para(prep) passar.
-	- Estudar para que(conj) passe.
-- Indicam valores semânticos(finalidade, meio, causa, etc).
+**Preposição VS conjunção**:  Possuem duas semelhanças principais.
+- São conectores tanto de palavras como de oraçoes. Note que é possivel fazer subsituições mantendo o mesmo sentido, desde que a estruta mude.
+	- Estudar **para** passar. (VERBO NO INFINITIVO)
+	- Estudar **para que** passe. (VERBO CONJUGADO)
+- Indicam valores semânticos (finalidade, meio, causa, etc).
 
-A única forma de diferenciar, é decorando as listas. 
+>[!tip]
+>**Locução prepositiva:** expressão que termina com preposição:
+>- À procura **de**
+>- A fim **de**
 
-
-**Locução prepositiva:** expressão que termina com preposição:
-- À procura de
-- A fim de
+>[!tip]
 **Locução conjunta:** expressão que termina com conjunção
-- Estudei para que
-
+>- Estudei para **que**
 
 As preposições pode apresentar valor relacional/gramatical ou nocional/semântico:
 - **Valor relacional/gramatical:** quando aparece por exigência gramatical do termo anterior. Verbo e substantivo pode pedir preposição.
@@ -41,3 +39,4 @@ Indentifique o valor semântico das preposições:
 ![](../../../../attachments/Pasted%20image%2020260616110143.png)![](../../../../attachments/Pasted%20image%2020260616131206.png)
 ![](../../../../attachments/Pasted%20image%2020260616131451.png)![](../../../../attachments/Pasted%20image%2020260616131610.png)
 
+---
