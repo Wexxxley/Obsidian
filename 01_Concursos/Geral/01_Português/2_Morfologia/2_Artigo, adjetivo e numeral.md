@@ -23,20 +23,35 @@ O artigo tem o poder de substantivar.
 O adjetivo é a classe de palavras que caracteriza ou qualifica um substantivo, atribuindo a ele uma qualidade, estado, condição ou aspecto.  
 
 O adjetivo é uma classe que tem a finalidade de caracterizar o substantivo. Nem todo adjetivo traz uma qualidade, pode ser simplesmente uma característica.    
-![400](../../../../attachments/Pasted%20image%2020260130145847.png)
-**Locução adjetiva**
-	Ex: A moça tinha um sorriso ==de criança==. 
-	Ex: Era uma televisão ==em cores==. 
-	Ex: Vasos ==com flores== enfeitavam o jardim.
-	Ex: O vidro continha um líquido ==sem cheiro==.
-	Ex: Ele é um homem ==de inteligencia== -> eles são homens ==de inteligencia==.
+![400](../../../../attachments/Pasted%20image%2020260130145847.png)#### **2.1 Locução adjetiva**
+Ex: A moça tinha um sorriso ==de criança==. 
+Ex: Era uma televisão ==em cores==. 
+Ex: Vasos ==com flores== enfeitavam o jardim.
+Ex: O vidro continha um líquido ==sem cheiro==.
+Ex: Ele é um homem ==de inteligencia== -> eles são homens ==de inteligencia==.
 
 >[!Note]
 >Locução é uma expressão formada por duas ou mais palavras.
 >
 >Locuções são **INVARIÁVEIS**.
 
-#### **2.1 Grau dos adjetivos**
+**Locuções adjetivas, sintaticamente podem ser:** 
+1. **Adjunto Adnominal**
+	- A casa **de madeira** foi demolida pela prefeitura. 
+	- A resposta **do professor** encerrou o debate. 
+2. **Complemento Nominal**
+	- A construção **do viaduto** demorou dois anos. 
+	- O funcionário era favorável **à demissão**. 
+3. **Predicativo do Sujeito**
+	- Aquele relógio antigo é **de ouro**. 
+	- Os candidatos pareciam **sem esperança**. 
+4. **Predicativo do Objeto**
+	- O juiz considerou o réu **sem culpa**.
+	- A tempestade deixou a cidade **em ruínas**. 
+5. **Aposto explicativo**
+	- O diretor da empresa, **de pulso firme**, reprovou o orçamento.
+	- Aquele veículo, **de origem estrangeira**, não possui peças de reposição no mercado.
+#### **2.2 Grau dos adjetivos**
 Alguns adjetivos podem variar em grau, ou seja, podem ser intensificados.
 - Mariana é muito inteligente.
 - Desempenho extremamente admirável.
@@ -47,12 +62,12 @@ Alguns adjetivos podem variar em grau, ou seja, podem ser intensificados.
 Note que advérbio também pode ser intensificado.
 - Adriana fala muito bem. 
 
-**2.1.1 Comparativo**
+**2.2.1 Comparativo**
 - De inferioridade:  Ela é menos discreto que a irmã
 - De igualdade: Ela é tão discreta quanto a irmã
 - De superioridade: Ela é mais discreta que a irmã
 
-**2.1.2 Superlativo**: É quando o adjetivo está destacando o ser.
+**2.2.2 Superlativo**: É quando o adjetivo está destacando o ser.
 - **Absoluto**: Destaca sem relacionar a um grupo.
 	- Sintético(com sufixo): Ela é discretíssima
 	- Analítica(com advérbio): Ela é muito discreta

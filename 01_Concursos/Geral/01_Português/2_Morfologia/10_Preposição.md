@@ -53,4 +53,18 @@ A) O fato de ter uma melhora no poder aquisitivo faz com que todos ganhem.
 1 . F. Morfologicamente é uma locução adj que se refere a REFRÃO, sintaticamente um aposto explicativo.
 2 . V. A fim de compreender...
 3 . F. Pronome relativo
-4 . V
+4 . V  
+
+![](../../../../attachments/Pasted%20image%2020260816160650.png)![](../../../../attachments/Pasted%20image%2020260816160841.png)
+![300](../../../../attachments/Pasted%20image%2020260816160726.png)
+A) assunto
+B) assunto
+C) POSIÇÃO SUPERIOR
+D) assunto
+E) assunto
+
+![](../../../../attachments/Pasted%20image%2020260816161310.png)   
+![400](../../../../attachments/Pasted%20image%2020260816161732.png)
+C) Adj adverbial. Modo, o jeito como ele se entregou
+
+![](../../../../attachments/Pasted%20image%2020260816161940.png)
