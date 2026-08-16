@@ -21,22 +21,23 @@ Palavras invariáveis encarregada de estabelecer uma conexão entre dois termos 
 **Locução conjunta:** expressão que termina com conjunção
 >- Estudei para **que**
 
-As preposições pode apresentar valor relacional/gramatical ou nocional/semântico:
-- **Valor relacional/gramatical:** quando aparece por exigência gramatical do termo anterior. Verbo e substantivo pode pedir preposição.
-	- Necessito(verbo VTI) de sua ajuda.
-	- Tenho necessidade(subs) de sua ajuda.
+**Valor relacional/gramatical:** quando aparece por exigência gramatical do termo anterior. Verbo e substantivo pode pedir preposição.
+1. **Regência verbal**:
+	- Necessito **de** sua ajuda.
+2. **Regência nominal:**
+	- Tenho necessidade **de** sua ajuda.
 
- - **Valor nocional/semântico:** quando preposições estabelecem valor semântico. Ela não é exigida, veio apenas para acrescentar. Podendo ser um adjunto adverbil ou a
-	 - Desenho a lápis (instrumento)
-	 - Chegou com a nomorada (companhia)
-	 - Extremeceu com a notícia (causa)
-	![](../../../../attachments/Pasted%20image%2020260615190104.png)
-
-Indentifique o valor semântico das preposições:
-
-![](../../../../attachments/Pasted%20image%2020260616105740.png)
-**Concessão**: oposição, contraste em relação à oração principal. Esse com poderia ser usbtituido por: apesar de 
-![](../../../../attachments/Pasted%20image%2020260616110143.png)![](../../../../attachments/Pasted%20image%2020260616131206.png)
-![](../../../../attachments/Pasted%20image%2020260616131451.png)![](../../../../attachments/Pasted%20image%2020260616131610.png)
+ **Valor nocional/semântico:** quando preposições estabelecem valor semântico. Podendo ser um adjunto adverbial ou adjunto adnominal . [[4_Termos acessórios da oração|Termos acessórios da oração]]
+ - Moramos **em** fortaleza (adj adv, lugar)
+ - A caneta **do** professor sumiu (adj adn, posse)
+ - Copo **de** água (adj adn, finalidade)
+ - Desenho **a** lápis (adj adv, instrumento)
+ - Chegou **com** a nomorada (adj adv, companhia)
+ - Extremeceu **com** a notícia (adj adv, causa)
+ 	![](../../../../attachments/Pasted%20image%2020260615190104.png)
+ ---
+ 
+![500](../../../../attachments/Pasted%20image%2020260616105740.png)![400](../../../../attachments/Pasted%20image%2020260616110143.png)![500](../../../../attachments/Pasted%20image%2020260616131206.png)
+![500](../../../../attachments/Pasted%20image%2020260616131451.png)![500](../../../../attachments/Pasted%20image%2020260616131610.png)
 
 ---

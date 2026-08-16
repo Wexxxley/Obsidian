@@ -12,9 +12,7 @@
 **Adjunto adnominal x Complemento nominal**:
 1. Quando se refere a advérbio e a adjetivo, so pode ser **complemento nominal.**
 2. Se não tem preposição e se refere a substantivo é **Adjunto adnominal.**
-3. Quando a expressão preposicionada se refere a substantivo EVIDENTEMENTE CONCRETO é **Adjunto adnominal.**
-	- Casa de joão (adj adn)
-4. Quando a expressão preposicionada se refere a substantivo ABSTRATO:
+3. Em caso de dúvida:
 	- Se tiver sentido de **ATIVO/AGENTE, POSSE OU ESPECIFICAÇÃO** será adj adn.
 	- Se tiver sentido de **PASSIVO/ALVO** será complemento nominal.
 		![](../../../../attachments/Pasted%20image%2020260704141212.png)
