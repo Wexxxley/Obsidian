@@ -9,42 +9,12 @@ CSS significa **Folhas de Estilo em Cascata**. Existem 3 formas de aplicar esti
 2. **Internal**: O estilo é alterado na  head com a tag style.
 3. **External**(recomendado: Um novo arquivo é criado.
 	![](../../../attachments/Pasted%20image%2020260503120005.png)
+**Atributos HTML**:  São as especificações e configurações inseridas exclusivamente dentro da tag de abertura de um elemento HTML. 
+- Na tag `<img src="imagem.jpg" alt="Descrição">`, tanto src quanto alt são os atributos. 
 
-### Atributos em HTML
-
-Sim, o seu entendimento está correto. Os atributos são as especificações e configurações inseridas exclusivamente dentro da tag de abertura de um elemento HTML. A finalidade técnica de um atributo é fornecer informações adicionais sobre o elemento ou modificar o seu comportamento e estrutura padrão.
-
-  
-
-- **Estrutura Padrão**: Um atributo é tipicamente composto por um nome e um valor associado, seguindo a sintaxe `nome="valor"`.
-    
-      
-    
-- **Exemplos Comuns**: Na tag `<img src="imagem.jpg" alt="Descrição">`, tanto `src` quanto `alt` são os atributos. Na tag `<div id="cabecalho">`, o `id` é o atributo.
-    
-      
-    
-
-### Elementos Internos do CSS
-
-No CSS, o termo técnico para a instrução estruturada como `color: x;` não é atributo, mas sim **Declaração** (Declaration).
-
-  
-
-Uma declaração CSS é sempre inserida dentro das chaves `{ }` de um seletor e é estritamente subdividida em duas partes fundamentais:
-
-  
-
-- **Propriedade (Property)**: Refere-se à característica específica do elemento HTML que sofrerá a alteração visual ou de layout. No seu exemplo (`color: x`), a palavra `color` é a propriedade. Outros exemplos de propriedades incluem `font-size`, `margin`, `padding` e `background-color`.
-    
-      
-    
-- **Valor (Value)**: Representa a especificação exata ou o estado que será aplicado à propriedade escolhida. No seu exemplo, a letra `x` representa o valor. Um valor pode ser um código hexadecimal de cor (como `#FF0000`), uma unidade de medida (como `16px` ou `2rem`), ou palavras-chave pré-definidas da linguagem (como `center` ou `bold`).
-    
-      
-    
-
-Portanto, enquanto o HTML utiliza **atributos** para estruturar e identificar os elementos, o CSS utiliza **declarações** (compostas por **propriedades** e **valores**) para aplicar a formatação visual a esses mesmos elementos.
+**Declaração CSS:** São as instruções do tipo `color: x;` 
+  - **Propriedade**: Refere-se à característica, como color.
+- **Valor**: Estado a ser aplicado.
 
 ---
 ### **2. Seletores**
@@ -69,6 +39,7 @@ Os seletores são usados para selecionar os elementos html que você deseja esti
 ![200](../../../attachments/Pasted%20image%2020250512153555.png)Todos os p dentro de uma div.
 ![200](../../../attachments/Pasted%20image%2020250512153702.png)Todos os p filhos diretos de uma div.
 ![200](../../../attachments/Pasted%20image%2020250512153719.png)Seleciona o p que vem imediatamente depois de um h1
+![500](../../../attachments/Pasted%20image%2020260817103924.png)
 ![200](../../../attachments/Pasted%20image%2020250512153729.png)Seleciona todos os p que vem depois de um h1.
 
 **Mais exemplos** 
@@ -86,10 +57,14 @@ Uma pseudo-classe especifica algum estado especial de um elemento.
 - :**hover**: faz com que quando o mouse é passado por cima novos elementos surjam.
 - :**visited**: se o link já foi visitado um novo estilo pode ser adicionado.
 - :**active**: se algo for ativado (link, botão) um novo estilo é adicionado.
-- :**focus** é usado para estilizar um elemento quando ele está em foco, ou seja, quando está selecionado ou ativo para interação. Comumente aplicado a elementos, como campos de formulário, botões e links.
+- :**focus** é usado para estilizar um elemento quando está selecionado ou ativo para interação.
 - obs: **“transition duration: 1s;”** define o tempo para fazer a alteração.  
 ![400](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf6G4y0VSZUSbxDEjMJP_CqYJJwX5l9V-FqG-GsO9eozMfxmj5avcblJ0e-y3aO0xMj_gsQbrJLEaB7ZawwEIpTuj5OCuUFjTRby1k2G1wIDL8bEYid5jN6NiRS4b-RAfg8uqIehw?key=VYJVAqKhTdZyHt8enJbiwA)
+**NTH-CHILD**
+![500](../../../attachments/Pasted%20image%2020260817110008.png)![500](../../../attachments/Pasted%20image%2020260817110026.png)![300](../../../attachments/Pasted%20image%2020260817110046.png)
+
 ---
+
 #### **2.4 Pseudo elemento**
 Os pseudo-elementos permitem estilizar pedaços específico de um elemento.
 
@@ -101,4 +76,10 @@ Os pseudo-elementos permitem estilizar pedaços específico de um elemento.
 **selection** modifica quando você seleciona o conteúdo com o mouse
 ![200](../../../attachments/Pasted%20image%2020250512160626.png)
 Existem tambem: o before, after, first-line
-  
+
+
+---
+
+![](../../../attachments/Pasted%20image%2020260817103648.png)
+A) HTML
+B) CSS
