@@ -2,5 +2,6 @@
   "theme": "moonstone",
   "cssTheme": "Cupertino",
   "accentColor": "#4c00ff",
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "nativeMenus": true
 }

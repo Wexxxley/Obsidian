@@ -37,26 +37,19 @@ ___
 ___
 # **4. Tipos de caixa**
 
-O **comportamento visual das caixas** depende do valor da propriedade `display`. Por padrão, existem dois tipos principais: **block e inline.**
+O **comportamento visual das caixas** depende do valor da propriedade display. Por padrão, existem dois tipos principais: **block e inline.**
 #### **a) Caixa de bloco (block)**
 - Ocupa toda a largura disponível. Quebra linha antes e depois.
 - Permite definir largura e altura.
 **Exemplos: `<div>`, `<p>`, `<h1>`, `<section>`.
-#### b) Caixa inline (`inline`)
+#### b) Caixa inline (inline)
 - Ocupa apenas o espaço necessário ao conteúdo. Não quebra linha antes ou depois. Ignora width e height. Apenas aceita padding e margin.
 **Exemplos: `<span>`, `<a>`, `<strong>`.
-#### c) Caixa inline-block (`inline-block`)**
+#### c) Caixa inline-block (inline-block)
 - Não quebra linha automaticamente, mas respeita `width`, `height`, `padding`, `margin`.
-#### **d) Caixas flexíveis (`flex`)**
+#### **d) Caixas flexíveis (flex)**
 - Caixa que se comporta como **contêiner flexível**, distribuindo seus filhos com `display: flex`.
 - Permite criar layouts responsivos facilmente. [[4_Flexbox|Flexbox]]
-![](../../../attachments/Pasted%20image%2020260817112919.png)![500](../../../attachments/Pasted%20image%2020260817112901.png)
-![](../../../attachments/Pasted%20image%2020260817113124.png)
-
----
-# **5. Propriedade `display:`**
-
-Define **como um elemento será exibido** e como suas caixas serão tratadas.
 
 | Valor          | Descrição                                      |
 | -------------- | ---------------------------------------------- |
@@ -85,16 +78,4 @@ button {
 ```
 
 ---
-# 6. Mais sobre largura e altura 
-
-- `min-height: 70vh;` significa que o elemento terá NO MÍNIMO 70% da altura da janela de visualização. Se o conteúdo for maior que 70vh, o elemento cresce para acomodar o conteúdo e se o conteúdo for menor, o elemento nunca ficará menor que 70vh.
-
-- `max-height`: Define a altura máxima. O elemento nunca ficará maior que esse valor, mesmo que o conteúdo seja maior (pode causar rolagem interna se o overflow permitir).
-
-- `min-width`: controla a largura mínima.
-
-- `max-width`: controla a largura máxima.
-
-![Pasted image 20250527104842](../../../attachments/Pasted%20image%2020250527104842.png)
-
-- `@media (max-width: 400px)`: É uma **_media query_** que aplica o CSS dentro dela **apenas quando a largura da tela for de até 400 pixels**.
+![](../../../attachments/Pasted%20image%2020260817112919.png)![500](../../../attachments/Pasted%20image%2020260817112901.png)![](../../../attachments/Pasted%20image%2020260817113124.png)
