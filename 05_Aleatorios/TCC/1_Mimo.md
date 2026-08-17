@@ -41,3 +41,6 @@ O segundo trabalho absorve a base arquitetural estabelecida no TCC 1 e foca na r
 - Uma aplicação web responsiva já permite que tanto clientes com pcs como cleintes mobile consigam acessar sem necessidade de donwload. E como é um MVP inicalmente
 
 - O desenvolvimento de um cliente web força o isolamento da lógica de negócios. A arquitetura "API-First". Em uma evolução futura, o aplicativo móvel nativo atuará apenas como um segundo cliente consumindo os mesmos recursos web.
+
+
+---
