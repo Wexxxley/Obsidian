@@ -93,3 +93,6 @@ Ambas as abordagens são aceitas na Engenharia de Software, mas possuem aplicaç
 - **Backoffice Integrado:** Abordagem ideal para MVPs e sistemas de pequeno a médio porte. O painel administrativo e a interface do cliente operam na mesma base de código, acessando o mesmo banco de dados. A separação ocorre pelo perfil de usuário.      
 - **Backoffice Separado:** É a recomendação arquitetural padrão para sistemas de grande escala. O painel interno é construído como uma aplicação isolada, operando em servidores distintos e comunicando-se com o núcleo do sistema apenas através de rotas de API fechadas. A vantagem é o isolamento de falhas e a mitigação de ataques diretos
 #### 5.3 E as questões de SEGURANÇA, LGPD?
+
+#### 5.4 Vale a pena usar C4MODEL?
+NIVEL 1 E NIVEL 2 FAZEM MAIS SENTIDO. 3 e 4 DETALHA DEMAIS
