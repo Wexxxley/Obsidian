@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/4_Sintaxe/12_Orações reduzidas.md",
+                "file": "02_Conhecimentos TI/5_web1/2_CSS/1_CSS introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12_Orações reduzidas"
+              "title": "1_CSS introdução"
             }
           },
           {
@@ -105,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 397.5
+    "width": 397.5,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -210,6 +211,7 @@
   },
   "active": "9129bb77b9f76c5d",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/4_Sintaxe/12_Orações reduzidas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/13_Desenvolvendo as orações reduzidas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/10_Orações subordinadas adjetivas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/3_Termos integrantes da oração.md",
@@ -247,7 +249,6 @@
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/1_Introdução.md",
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/1_SOLID/2_Single Responsability Principle (SRP).md",
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/1_SOLID/3_Open Close Principle (OCP).md",
-    "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/1_SOLID/6_Dependency Inversion Principle (DIP).md",
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/1_SOLID",
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/2_Object Calisthenics",
     "02_Conhecimentos TI/02_Dotnet/3_ECommerce FullStack",

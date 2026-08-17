@@ -4,18 +4,16 @@
 ---
 ### **1. Introdução às CSS**
 
-CSS significa **Folhas de Estilo em Cascata**. As CSS descrevem como os elementos HTML devem ser exibidos na tela. 
-
-Existem 3 formas de aplicar estilos:
+CSS significa **Folhas de Estilo em Cascata**. Existem 3 formas de aplicar estilos:
 1. **Inline**: O estilo é mudado na mesma linha do html.
 2. **Internal**: O estilo é alterado na  head com a tag style.
-3. **External**(recomendado): Um novo arquivo é criado.
+3. **External**(recomendado: Um novo arquivo é criado.
 	![](../../../attachments/Pasted%20image%2020260503120005.png)
 
 ---
 ### **2. Seletores**
 
-Os seletores CSS são usados para selecionar os elementos html que você deseja estilizar. Podemos dividir os seletores CSS em cinco categorias:  
+Os seletores são usados para selecionar os elementos html que você deseja estilizar. Podemos dividir os seletores em cinco categorias:  
 1. **Seletores simples**: selecionam elementos com base no nome, id ou classe  
 2. **Seletores combinadores**: selecionam elementos com base em uma relação entre eles 
 3. **Pseudo-classes**: selecionam elementos com base em um determinado estado  
@@ -23,17 +21,12 @@ Os seletores CSS são usados para selecionar os elementos html que você deseja 
 5. **Seletores de atributo**: selecionam elementos com base em um atributo ou valor.
 
 **1. Seletores simples**
-![](../../../attachments/Pasted%20image%2020260503120426.png)
-
+![300](../../../attachments/Pasted%20image%2020260503120426.png)
 **2. Seletores combinadores**
-![Pasted image 20250512153555](../../../attachments/Pasted%20image%2020250512153555.png)
-Todos os p dentro de uma div.
-![Pasted image 20250512153702](../../../attachments/Pasted%20image%2020250512153702.png)
-Todos os p filhos diretos de uma div.
-![Pasted image 20250512153719](../../../attachments/Pasted%20image%2020250512153719.png)
-Seleciona o p que vem imediatamente depois de um h1
-![Pasted image 20250512153729](../../../attachments/Pasted%20image%2020250512153729.png)
-Seleciona todos os p que vem apos um h1.
+![200](../../../attachments/Pasted%20image%2020250512153555.png)Todos os p dentro de uma div.
+![200](../../../attachments/Pasted%20image%2020250512153702.png)Todos os p filhos diretos de uma div.
+![200](../../../attachments/Pasted%20image%2020250512153719.png)Seleciona o p que vem imediatamente depois de um h1
+![200](../../../attachments/Pasted%20image%2020250512153729.png)Seleciona todos os p que vem apos um h1.
 
 **Mais exemplos** 
 ![Pasted image 20250512152603](../../../attachments/Pasted%20image%2020250512152603.png)
