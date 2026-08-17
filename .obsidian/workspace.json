@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Conhecimentos TI/5_web1/2_CSS/1_CSS introdução.md",
+                "file": "02_Conhecimentos TI/5_web1/2_CSS/1_CSS introdução e seletorees.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_CSS introdução"
+              "title": "1_CSS introdução e seletorees"
             }
           },
           {
@@ -211,6 +211,13 @@
   },
   "active": "9129bb77b9f76c5d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260817102944.png",
+    "attachments/Pasted image 20260817102928.png",
+    "attachments/Pasted image 20260817102621.png",
+    "attachments/Pasted image 20260817102259.png",
+    "attachments/Pasted image 20260817102236.png",
+    "attachments/Pasted image 20260817102210.png",
+    "attachments/Pasted image 20260817101544.png",
     "01_Concursos/Geral/01_Português/4_Sintaxe/12_Orações reduzidas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/13_Desenvolvendo as orações reduzidas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/10_Orações subordinadas adjetivas.md",
@@ -222,13 +229,7 @@
     "attachments/Pasted image 20260816183151.png",
     "attachments/Pasted image 20260816182523.png",
     "attachments/Pasted image 20260816182257.png",
-    "attachments/Pasted image 20260816182203.png",
-    "attachments/Pasted image 20260816172914.png",
     "01_Concursos/TI/05_Engenharia de Software/99_Passo a passo criação de uma aplicação.md",
-    "attachments/Pasted image 20260816161940.png",
-    "attachments/Pasted image 20260816161732.png",
-    "attachments/Pasted image 20260816161310.png",
-    "attachments/Pasted image 20260816160841.png",
     "01_Concursos/Geral/01_Português/4_Sintaxe/4_Termos acessórios da oração.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
     "Untitled.md",
@@ -248,7 +249,6 @@
     "02_Conhecimentos TI/02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/1_Introdução.md",
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/1_SOLID/2_Single Responsability Principle (SRP).md",
-    "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/1_SOLID/3_Open Close Principle (OCP).md",
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/1_SOLID",
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/2_Object Calisthenics",
     "02_Conhecimentos TI/02_Dotnet/3_ECommerce FullStack",
