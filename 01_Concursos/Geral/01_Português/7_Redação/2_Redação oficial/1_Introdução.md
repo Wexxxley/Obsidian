@@ -33,4 +33,32 @@ Conciso é o texto que consegue transmitir o máximo de informações com o mín
 **Impesoalidade:**
 Não há lugar na redação oficial para impressões pessoais.
 
---
+---
+
+**Pronomes de tratamento** 
+
+![](../../../../../attachments/Pasted%20image%2020260817192002.png)
+![](../../../../../attachments/Pasted%20image%2020260817191540.png)
+![](../../../../../attachments/Pasted%20image%2020260817191603.png)
+No nível municipal, o prefeito é tratado por **Vossa Excelência**. Já os vereadores são tratados por **Vossa Senhoria**, com exceção do **Presidente da Câmara Municipal**, que recebe o tratamento de **Vossa Excelência**.
+
+Em comunicações oficiais, está abolido o uso de Digníssimo (DD) e de Ilustríssimo (Ilmo.). É recomendado também que se evite o uso de “doutor” indiscriminadamente.
+![](../../../../../attachments/Pasted%20image%2020260817192115.png)
+![](../../../../../attachments/Pasted%20image%2020260817192431.png)
+
+
+
+----
+![](../../../../../attachments/Pasted%20image%2020260817192639.png)A)
+
+![](../../../../../attachments/Pasted%20image%2020260817193012.png)
+D)
+
+![](../../../../../attachments/Pasted%20image%2020260817193207.png)
+D) 
+
+![](../../../../../attachments/Pasted%20image%2020260817193559.png)C) 
+
+![](../../../../../attachments/Pasted%20image%2020260817193728.png)D)
+
+![](../../../../../attachments/Pasted%20image%2020260817193753.png)B)  Para ministros de trinunais sup
