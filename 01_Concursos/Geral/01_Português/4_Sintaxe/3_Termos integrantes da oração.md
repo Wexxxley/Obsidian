@@ -16,8 +16,6 @@
 - Sempre são preposicionados.
 - Podem possuir verbo. Complemento Nominal oracional.
 	 ![400](../../../../attachments/Pasted%20image%2020260630164953.png)
-
-
 **Voz passiva:**  estrutura na qual o sujeito da oração sofre ou recebe a ação expressa pelo verbo, em vez de praticá-la. 
 - **Sujeito Paciente:** É o sujeito que sofre a ação verbal.
 - **4. Agente da Passiva:** quem pratica a ação sofrida pelo sujeito
