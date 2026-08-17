@@ -9,13 +9,17 @@ Não existe o jeito certo de fazer software, mas tem que ter um balanço entre t
 - **Identificação de Stakeholders:** Mapeamento de todas as partes interessadas no sistema.
 	- Ex: tutores de animais, cuidadores e o próprio administrador da plataforma.
 - **Coleta de Dados:** Utilização de écnicas de investigação para entender as restrições e regras de negócio. Isso pode envolver entrevistas, análise de sistemas concorrentes, etc.
+![300](../../../attachments/Pasted%20image%2020260817172008.png)
 #### **1.2 Análise e Priorização (Definição do MVP)**
 - **Classificação:** Separação entre Requisitos Funcionais e Requisitos Não Funcionais.
 - **Método MoSCoW:** Técnica de priorização dos requisitos.
 #### **1.3 Especificação de Requisitos** 
 Criação do documento, eliminando ambiguidades.
+- **Diagrama casos de uso**: Util para definir os papéis E o fluxo de cada um.
+	![400](../../../attachments/Pasted%20image%2020260817172254.png)
 - **User Stories:** Descrição de funcionalidades sob a perspectiva do usuário final.
 - **Critérios de Aceitação:** Estabelecimento de condições exatas e mensuráveis que o software deve satisfazer para que uma História de Usuário seja considerada concluída.
+
 #### 1.4 Validação de Requisitos
 A validação do que foi especificado para garantir que a documentação reflete as necessidades.
 
