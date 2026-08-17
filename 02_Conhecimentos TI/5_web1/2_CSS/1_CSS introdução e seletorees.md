@@ -64,22 +64,18 @@ Uma pseudo-classe especifica algum estado especial de um elemento.
 ![500](../../../attachments/Pasted%20image%2020260817110008.png)![500](../../../attachments/Pasted%20image%2020260817110026.png)![300](../../../attachments/Pasted%20image%2020260817110046.png)
 
 ---
-
 #### **2.4 Pseudo elemento**
 Os pseudo-elementos permitem estilizar pedaços específico de um elemento.
 
-**First-letter** modifica a primeira letra.
-![300](../../../attachments/Pasted%20image%2020250512160202.png)![Pasted image 20250512160218](../../../attachments/Pasted%20image%2020250512160218.png)
-**marker** modifica o marcador de listas.
-![300](../../../attachments/Pasted%20image%2020250512160457.png)
-![100](../../../attachments/Pasted%20image%2020250512160509.png)
-**selection** modifica quando você seleciona o conteúdo com o mouse
-![200](../../../attachments/Pasted%20image%2020250512160626.png)
-Existem tambem: o before, after, first-line
-
+**First-letter** modifica a primeira letra.![200](../../../attachments/Pasted%20image%2020250512160202.png)![300](../../../attachments/Pasted%20image%2020250512160218.png)
+**marker** modifica o marcador de listas.![200](../../../attachments/Pasted%20image%2020250512160457.png)![100](../../../attachments/Pasted%20image%2020250512160509.png)
+**selection** modifica quando você seleciona o conteúdo com o mouse![200](../../../attachments/Pasted%20image%2020250512160626.png)
 
 ---
 
 ![](../../../attachments/Pasted%20image%2020260817103648.png)
 A) HTML
 B) CSS
+
+
+

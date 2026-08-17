@@ -3,7 +3,7 @@
 
 ---
 O Node.js possui um ecossistema de pacotes centralizado através do **NPM (Node Package Manager)**. O NPM não é apenas um repositório, mas uma CLI (Command Line Interface) que gerencia o ciclo de vida das dependências e a execução de scripts do projeto.
-![](../../../../attachments/Pasted%20image%2020251121090514.png)
+![300](../../../../attachments/Pasted%20image%2020251121090514.png)
 
 ---
 ### **1. package.json**
