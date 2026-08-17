@@ -12,9 +12,7 @@ A callback is a function passed as an argument to another function.
 Promisse é um objeto que **representa sucesso ou falha de uma operação assíncrona** Normalmente só consumimos uma promisse de terceiros, como quando acessamos apis, banco de dados e etc.
 
 Nesse exemplo estamos simulando uma operação assíncrona.
-![450](../../../../attachments/Pasted%20image%2020250609155006.png)
-![Pasted image 20250609155023](../../../../attachments/Pasted%20image%2020250609155023.png)
-
+![450](../../../../attachments/Pasted%20image%2020250609155006.png)![200](../../../../attachments/Pasted%20image%2020250609155023.png)
 - O método `.then()` é anexado à Promise retornada para acessor a valor em caso de sucesso.
 - O método `.catch()` é anexado à Promise para acessar o retorno em caso de fracasso.
 

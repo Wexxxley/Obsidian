@@ -4,12 +4,8 @@
 ---
 
 Simulando o consumo de um API.
-
 ![](../../../../attachments/Pasted%20image%2020250705163245.png)
-
-Criando um card. 
-
-![](../../../../attachments/Pasted%20image%2020250705163300.png)
+Criando um card. ![400](../../../../attachments/Pasted%20image%2020250705163300.png)
 
 Consumindo a "api". Se fosse real teria um **fetch(url)**. 
 

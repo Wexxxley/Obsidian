@@ -5,9 +5,7 @@
 
 O JavaScript tem a função de **tornar as páginas web interativas e dinâmicas.** Ele complementa o HTML e o CSS permitindo que o site reaja às ações do usuário e altere seu comportamento sem precisar recarregar a página.
 ### **1. Lincando arquivo js ao HTML**
-
-![Pasted image 20250505134015](../../../../attachments/Pasted%20image%2020250505134015.png)
-![Pasted image 20250505134204](../../../../attachments/Pasted%20image%2020250505134204.png)
+![200](../../../../attachments/Pasted%20image%2020250505134015.png)![Pasted image 20250505134204](../../../../attachments/Pasted%20image%2020250505134204.png)
 
 ---
 ### **2. Tipos primitivos**
@@ -84,9 +82,4 @@ null === undefined  // false
 ### **6. Variável e constante**
 
 ``let`` define uma variável que pode sofrer alteração. ``const`` cria uma constante, ou seja, o valor não pode ser alterado em tempo de execução.
-
-![Pasted image 20250505142357](../../../../attachments/Pasted%20image%2020250505142357.png)
-Note que foi usado crases para permitir a inclusão de variáveis no texto.
-
-![Pasted image 20250505155217](../../../../attachments/Pasted%20image%2020250505155217.png)
-O prompt recebe valores do terminal.
+![Pasted image 20250505142357](../../../../attachments/Pasted%20image%2020250505142357.png)Note que foi usado crases para permitir a inclusão de variáveis no texto.

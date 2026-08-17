@@ -4,17 +4,13 @@
 ---
 
 O **Node.js é um ambiente de execução (runtime) JavaScript** construído sobre a **engine V8** do Google Chrome. Ele permite a execução de código JavaScript fora do navegador. 
-
 ### **1. Sistema de Módulos**
 
-No Node.js, cada arquivo é tratado como um **módulo independente**. Uma variável declarada em um arquivo não polui o escopo global, a menos que explicitamente exportada.
-
-- **Carregamento Síncrono:** O carregamento de módulos via **require()** é síncrono. O script para a execução na linha do require, carrega o arquivo, executa seu conteúdo e retorna o objeto exportado. Isso é aceitável em server-side, mas inviável em browsers.
+**Carregamento Síncrono:** O carregamento de módulos via **require()** é síncrono. O script para a execução na linha do require, carrega o arquivo, executa seu conteúdo e retorna o objeto exportado. Isso é aceitável em server-side, mas inviável em browsers.
     
-- **Dinâmico:** O caminho do módulo em um `require(path)` pode ser construído dinamicamente em tempo de execução (ex: `require('./controllers/' + nomeDoController)`).
+**Dinâmico:** O caminho do módulo em um `require(path)` pode ser construído dinamicamente em tempo de execução (ex: `require('./controllers/' + nomeDoController)`).
 
 Cada arquivo Node.js começa com um objeto vazio pré-definido: `module.exports = {}`. Você tem duas abordagens principais para povoar esse objeto:
-
 #### **A. Exportando Vários Itens**
 Você anexa propriedades a esse objeto. É útil quando o módulo é uma biblioteca de utilitários.
 ```js

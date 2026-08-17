@@ -3,11 +3,7 @@
 
 ---
 ### **1. Get all**
-
-![](../../../../attachments/Pasted%20image%2020250624073206.png)
-
-![](../../../../attachments/Pasted%20image%2020250624073222.png)
-
+![400](../../../../attachments/Pasted%20image%2020250624073206.png)![](../../../../attachments/Pasted%20image%2020250624073222.png)
 1. **`fetch`**: Faz uma requisições web e retorna uma `Promise`.
 2. **`response.json()`**: O objeto `response` retornado não contém diretamente os dados JSON. O método `.json()` lê o body da resposta e o converte em json.
 3. **`document.createElement('li');`**: Um novo elemento HTML `<li>` é criado na memória. 
