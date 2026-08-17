@@ -10,7 +10,7 @@ Uma redação dissertativo-argumentativa é um gênero textual com dois objetivo
 O objetivo central desse formato é persuadir o leitor da validade de uma tese (ideia central ou posicionamento do autor). 
 
 **Estrutura padrão:**
-![](../../../../attachments/Pasted%20image%2020260530191539.png)
+![](../../../../../attachments/Pasted%20image%2020260530191539.png)
 Você pode usar os textos de apoio como repertório, MAS NÃO COPIE!
 
 ---

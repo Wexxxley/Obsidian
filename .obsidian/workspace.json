@@ -11,10 +11,14 @@
             "id": "63281a61a16af840",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1_Introdução"
             }
           }
         ]
@@ -61,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "redação ofi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 331.5,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -151,6 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -174,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,8 +195,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c52f17c64e87cbf",
+  "active": "63281a61a16af840",
   "lastOpenFiles": [
+    "01_Concursos/Geral/03_Legislação e serviço público/21_Redação oficial.md",
+    "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução.md",
+    "attachments/Pasted image 20260817181417.png",
+    "01_Concursos/Geral/01_Português/7_Redação/Untitled 1.md",
+    "01_Concursos/Geral/01_Português/7_Redação/Untitled.md",
+    "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial",
+    "01_Concursos/Geral/01_Português/7_Redação/1_Dissertativa Argumentativa/1_Introdução.md",
+    "01_Concursos/Geral/01_Português/7_Redação/Untitled 4.md",
+    "01_Concursos/Geral/01_Português/7_Redação/1_Dissertativa Argumentativa",
+    "01_Concursos/Geral/01_Português/7_Redação/Untitled 3.md",
+    "01_Concursos/Geral/01_Português/7_Redação/Untitled 5.md",
+    "01_Concursos/Geral/01_Português/7_Redação/Untitled 6.md",
     "01_Concursos/TI/05_Engenharia de Software/99_Passo a passo criação de uma aplicação.md",
     "attachments/Pasted image 20260817175306.png",
     "05_Aleatorios/TCC/1_Mimo.md",
@@ -210,21 +229,12 @@
     "02_Conhecimentos TI/5_web1/3_JavaScript/1_Introdução/7_DOM (Document Object Model).md",
     "02_Conhecimentos TI/5_web1/3_JavaScript/1_Introdução/6_Async await e fetch.md",
     "02_Conhecimentos TI/5_web1/3_JavaScript/1_Introdução/5_Callback and promisse.md",
-    "02_Conhecimentos TI/5_web1/3_JavaScript/1_Introdução/4_Desestruturação.md",
-    "02_Conhecimentos TI/5_web1/3_JavaScript/1_Introdução/3_Array.md",
-    "02_Conhecimentos TI/5_web1/3_JavaScript/1_Introdução/2_Estruturas de programação.md",
-    "02_Conhecimentos TI/5_web1/3_JavaScript/1_Introdução/1_Tipos de dados e variável.md",
-    "02_Conhecimentos TI/5_web1/2_CSS/6_Positions.md",
     "attachments/Pasted image 20260817140222.png",
     "attachments/Pasted image 20260817135656.png",
     "attachments/Pasted image 20260817135515.png",
     "attachments/Pasted image 20260817134527.png",
     "attachments/Pasted image 20260817134504.png",
     "attachments/Pasted image 20260817134454.png",
-    "02_Conhecimentos TI/5_web1/2_CSS/5_Formulário.md",
-    "02_Conhecimentos TI/5_web1/2_CSS/4_Flexbox.md",
-    "02_Conhecimentos TI/5_web1/2_CSS/2_Box model.md",
-    "attachments/Pasted image 20260817113124.png",
     "02_Conhecimentos TI/02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Conhecimentos TI/02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/1_SOLID",
@@ -233,8 +243,6 @@
     "02_Conhecimentos TI/02_Dotnet/2_WebAPI/x_Injeção de dependência",
     "02_Conhecimentos TI/02_Dotnet/2_WebAPI/3_Intermediário",
     "02_Conhecimentos TI/02_Dotnet/2_WebAPI/2_Fundamentos WEBAPI",
-    "02_Conhecimentos TI/02_Dotnet/2_WebAPI/1_Criando uma WebAPI",
-    "02_Conhecimentos TI/02_Dotnet/2_WebAPI",
     "Sem título.canvas"
   ]
 }

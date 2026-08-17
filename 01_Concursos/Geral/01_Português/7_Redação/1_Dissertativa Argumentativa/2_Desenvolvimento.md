@@ -2,7 +2,7 @@
 
 ---
 
-![](../../../../attachments/Pasted%20image%2020260530191556.png)
+![](../../../../../attachments/Pasted%20image%2020260530191556.png)
 
 ### **1. Tópicos frasais e frases finalizadoras**
 
@@ -37,7 +37,7 @@ Na explicação você vai DESDOBRAR o seu argumento.
 - **Consequência**.
 
 **EXEMPLO**
-![](../../../../attachments/Pasted%20image%2020260720192803.png)
+![](../../../../../attachments/Pasted%20image%2020260720192803.png)
 
 **SE FOR TESE POR CONSEQUÊNCIA**
 - **Como** o repertório se reflete no tema?
