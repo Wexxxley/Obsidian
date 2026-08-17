@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Conhecimentos TI/5_web1/2_CSS/2_Box model.md",
+                "file": "02_Conhecimentos TI/5_web1/2_CSS/6_Positions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Box model"
-            }
-          },
-          {
-            "id": "a94f9a4c7f1506d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01_Concursos/TI/05_Engenharia de Software/99_Passo a passo criação de uma aplicação.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "99_Passo a passo criação de uma aplicação"
+              "title": "6_Positions"
             }
           }
         ]
@@ -105,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 397.5
+    "width": 331.5,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -169,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02_Conhecimentos TI/5_web1/2_CSS/2_Box model.md",
+                "file": "02_Conhecimentos TI/5_web1/2_CSS/6_Positions.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -209,14 +196,20 @@
   },
   "active": "9129bb77b9f76c5d",
   "lastOpenFiles": [
-    "02_Conhecimentos TI/5_web1/2_CSS/3_Shadow.md",
+    "attachments/Pasted image 20260817134527.png",
+    "attachments/Pasted image 20260817134504.png",
+    "attachments/Pasted image 20260817134454.png",
+    "02_Conhecimentos TI/5_web1/2_CSS/5_Formulário.md",
+    "02_Conhecimentos TI/5_web1/2_CSS/4_Flexbox.md",
     "02_Conhecimentos TI/5_web1/2_CSS/2_Box model.md",
+    "02_Conhecimentos TI/5_web1/2_CSS/3_Configurações iniciais.md",
+    "02_Conhecimentos TI/5_web1/2_CSS/6_Positions.md",
+    "02_Conhecimentos TI/5_web1/2_CSS/3_Shadow.md",
     "attachments/Pasted image 20260817113124.png",
     "attachments/Pasted image 20260817113116.png",
     "attachments/Pasted image 20260817112919.png",
     "attachments/Pasted image 20260817112901.png",
     "attachments/Pasted image 20260817112838.png",
-    "02_Conhecimentos TI/5_web1/2_CSS/4_Flexbox.md",
     "02_Conhecimentos TI/5_web1/3_JavaScript/3_Node.js/2_Gerenciamento de dependências.md",
     "02_Conhecimentos TI/5_web1/3_JavaScript/3_Node.js/1_Runtime e Módulos.md",
     "02_Conhecimentos TI/5_web1/3_JavaScript/3_Node.js/3_Dotenv.md",
@@ -227,8 +220,6 @@
     "attachments/Pasted image 20260817110330.png",
     "attachments/Pasted image 20260817110211.png",
     "attachments/Pasted image 20260817110046.png",
-    "attachments/Pasted image 20260817110026.png",
-    "attachments/Pasted image 20260817110008.png",
     "01_Concursos/Geral/01_Português/4_Sintaxe/12_Orações reduzidas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/13_Desenvolvendo as orações reduzidas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/10_Orações subordinadas adjetivas.md",
@@ -241,9 +232,6 @@
     "01_Concursos/Geral/01_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
     "Untitled.md",
     "01_Concursos/Geral/01_Português/7_Redação/4_Teses e repertórios.md",
-    "01_Concursos/Geral/01_Português/7_Redação/2_Desenvolvimento.md",
-    "01_Concursos/Geral/01_Português/7_Redação/1_Introdução.md",
-    "01_Concursos/Geral/01_Português/4_Sintaxe/15_Uso do SE.md",
     "02_Conhecimentos TI/02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Conhecimentos TI/02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/1_SOLID",

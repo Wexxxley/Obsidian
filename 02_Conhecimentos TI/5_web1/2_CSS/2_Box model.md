@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ___
 # 1. Box model
@@ -79,3 +80,21 @@ button {
 
 ---
 ![](../../../attachments/Pasted%20image%2020260817112919.png)![500](../../../attachments/Pasted%20image%2020260817112901.png)![](../../../attachments/Pasted%20image%2020260817113124.png)
+Sombras são uma ferramenta de design fundamental para criar <mark style="background: #ADCCFFA6;">a ilusão de profundidade e hierarquia numa interface.</mark> Elas fazem com que os elementos pareçam "flutuar" acima do fundo.
+Existem duas propriedades principais para sombras:
+
+---
+# 5. box-shadow
+
+```css
+box-shadow: [offset-x][offset-y][blur-radius][spread-radius][color][inset];
+```
+
+- `offset-x`: O deslocamento horizontal da sombra.        
+- `offset-y`: O deslocamento vertical da sombra.
+- `blur-radius` (opcional): É o que deixa a sombra "esfumaçada" e suave.
+    - 0px cria uma sombra com bordas nítidas. Quanto maior o valor, mais desfocada e suave.
+- `spread-radius` (opcional): O raio de expansão. Faz a sombra crescer ou encolher
+- `color` (opcional): A cor da sombra.
+    - A melhor prática é usar um preto com transparência, como `rgba(0, 0, 0, 0.25)`.
+- `inset` (opcional): Uma palavra-chave que muda a sombra de externa (padrão) para interna, fazendo o elemento parecer "pressionado" ou afundado.
