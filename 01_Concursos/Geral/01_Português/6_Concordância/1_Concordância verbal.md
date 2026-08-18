@@ -130,10 +130,21 @@ D)![200](../../../../attachments/Pasted%20image%2020260814070404.png)
 ![400](../../../../attachments/Pasted%20image%2020260818180807.png)1 . Sabe-se agora isso (quando o sujeito é oracional, o verbo da oração principal fica na terceira pessoa do singular) Voz passiva sintética
 2 . Conta-se isso.  Voz passiva sintética
 
-![](../../../../attachments/Pasted%20image%2020260818181049.png)
-A) Devem constar atividades 
+![](../../../../attachments/Pasted%20image%2020260818181049.png)![](../../../../attachments/Pasted%20image%2020260818181847.png)A) Devem constar atividades 
 B) Os que entretêm (TER, VIR E SUES DERIVADOS)
-C) formam. Conjunto de ações que servem
+C) Formam. Conjunto de ações que servem
+D) Faltam espaços
+E) Convém ressaltar isso. (Suj oracional, 3° pessoa do singular)
+![](../../../../attachments/Pasted%20image%2020260818182214.png)![](../../../../attachments/Pasted%20image%2020260818182922.png)![](../../../../attachments/Pasted%20image%2020260818183230.png)
+A) Isso constitue. (Suj oracional, 3° pessoa do singular)
+B) Há muita coisa que poderia se perder nas traduções (na loc verbal quem concorda com o suj é o aux, o verbo principal fica nas formas nominais)
+C) As justiças estão penando 
+D) para se proteger
+E) CORRETA. 
 
-
-
+![](../../../../attachments/Pasted%20image%2020260818183354.png)![](../../../../attachments/Pasted%20image%2020260818183646.png)
+A) As respostas que se aguardam
+B) com que se afligem os antropólogos
+C) Não deve caber aos sociólogos isso CORRETA. 
+D) Aqueles que hão de pesquisa (haver como verbo aux)
+E) que se apresentam
