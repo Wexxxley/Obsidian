@@ -11,13 +11,12 @@ Possui apenas um núcleo, geralmente um substantivo ou pronome.
 Possui dois ou mais núcleos. 
 - Pai e filho conversavam no jardim. 
 
-**Sujeito composto posposto**. A norma-padrão estabelece que, quando o verbo antecede um sujeito composto, o emissor tem pode escolher entre dois tipos de concordância.
+**Sujeito composto posposto**: A norma-padrão estabelece que, quando o verbo antecede um sujeito composto, o emissor tem pode escolher entre dois tipos de concordância.
 - **Concordância Atrativa:** O verbo flexiona para concordar com o sujeito mais próximo. 
 	- Existe burocracia, impostos elevados
 	- Faltou o diretor e os gerentes à reunião.
 - **Concordância Lógica:** O verbo flexiona para concordar com a soma de todos os núcleos.
 	- Existem burocracia, impostos elevados.
-	- Existem burocracia, falacia.
 	- Faltaram o diretor e os gerentes à reunião.
 ### 3. Sujeito Oculto/Elíptico/Desidencial
 Não está explícito, mas pode ser identificado pela terminação do verbo ou pelo contexto anterior.
@@ -45,6 +44,10 @@ Na locução verbal, se o verbo principal for impessoal, o auxiliar fica no sing
 
 ### 6. Sujeito oracional
 [Oração subordinada substantiva subjetiva](9_Orações%20subordinadas%20substantivas)
+
+Sempre um o sujeito for uma oração, o verbo vai ficar na terceira pessoa do singular (ELE/ELA).
+E o verbo da oração principal deve permanecer, incondicionalmente, na 3° pessoa do singular.
+
 ### 7. Sujeito partitivo
 O sujeito partitivo é uma estrutura em que o núcleo representa uma porção ou uma quantidade indefinida de um todo. 
 - **Expressão Partitiva:** a maioria de, uma porção de, o resto de, a metade de.
@@ -117,3 +120,20 @@ C) CORRETO.
 ![](../../../../attachments/Pasted%20image%2020260814065737.png)
 ![](../../../../attachments/Pasted%20image%2020260814065842.png)![](../../../../attachments/Pasted%20image%2020260814065816.png)
 D)![200](../../../../attachments/Pasted%20image%2020260814070404.png)
+
+---
+![400](../../../../attachments/Pasted%20image%2020260818180030.png)1 . Isso convém (quando o sujeito é oracional, o verbo da oração principal fica na terceira pessoa do singular)
+2 . Isso convém. 
+![400](../../../../attachments/Pasted%20image%2020260818180427.png)1 . Os desapontamentos estão claros. Suj simples
+2 . Isso está claro. (quando o sujeito é oracional, o verbo da oração principal fica na terceira pessoa do singular)
+
+![400](../../../../attachments/Pasted%20image%2020260818180807.png)1 . Sabe-se agora isso (quando o sujeito é oracional, o verbo da oração principal fica na terceira pessoa do singular) Voz passiva sintética
+2 . Conta-se isso.  Voz passiva sintética
+
+![](../../../../attachments/Pasted%20image%2020260818181049.png)
+A) Devem constar atividades 
+B) Os que entretêm (TER, VIR E SUES DERIVADOS)
+C) formam. Conjunto de ações que servem
+
+
+
