@@ -48,6 +48,43 @@ Em comunicações oficiais, está abolido o uso de Digníssimo (DD) e de Ilustr�
 
 ![](../../../../../attachments/Pasted%20image%2020260818063922.png)
 
+---
+
+**Interino e substituto**
+Quando um cargo não está sendo exercido por seu titular definitivo, é necessário indicar essa condição na assinatura de documentos oficiais. Existem duas classificações para isso:
+- **Interino:** Refere-se àquele que é nomeado para ocupar um cargo público de forma transitória  durante o período de vacância, ou seja, quando o cargo está definitivamente sem titular.
+- **Substituto:** Refere-se àquele que é designado para exercer as atribuições de um cargo público que está vago, ou quando ocorre o afastamento ou algum impedimento legal.
+    
+Esses termos indicativos devem ser posicionados após o nome do cargo, escritos em letras minúsculas.
+- Diretor-Geral interino; Secretário-Executivo substituto.
+- Prefeito interino; Governador substituto; Coordenador-Geral interino.
+
+**Regras para o Uso do Hífen em Cargos**
+
+1. Cargos formados com a adição do adjetivo "geral".
+	- Diretor-geral, relator-geral, ouvidor-geral.
+2. Postos e gradações da carreira diplomática.
+	- Primeiro-secretário, cônsul-adjunto, ministro-conselheiro.
+	- **Exceções**: Ministro de primeira classe (embaixador), Ministro de segunda classes
+3. Postos da hierarquia militar. 
+	- Tenente-coronel, capitão-tenente.
+	- **Exceções**: general de exército, general de brigada, tenente-brigadeiro do ar.
+4. Cargos que denotam posições de hierarquia dentro de uma estrutura empresarial. 
+	- Diretor-presidente, diretor-adjunto, editor-chefe, sócio-gerente, diretor-financeiro.
+5. Cargos compostos ou formados por numerais. 
+	- Primeiro-ministro, primeira-dama.
+6. Cargos iniciados com os prefixos "ex" ou "vice". 
+	- Ex-diretor, vice-presidente. 
+    
+**Padronização de Maiúsculas e Minúsculas em Cargos**
+É opcional em palavras empregadas com sentido reverencial, o que inclui cargos e títulos
+- o Presidente francês ou presidente francês.
+
+**Cargos compostos e hifenizados:** caso você opte por iniciar o cargo com letra maiúscula ou minúscula, essa escolha deve ser mantida para todos os elementos que compõem a palavra hifenizada. É proibido misturar os dois padrões na mesma palavra.
+- Vice-Presidente; vice-presidente.    
+- Diretor-Geral; diretor-geral.
+
+
 ----
 ![](../../../../../attachments/Pasted%20image%2020260817192639.png)A)
 
@@ -85,3 +122,5 @@ d)  **CERTO.**
 
 ![](../../../../../attachments/Pasted%20image%2020260818063419.png)
 D) Terceira pessoa do singular
+
+![](../../../../../attachments/Pasted%20image%2020260818064432.png)C) VFV
