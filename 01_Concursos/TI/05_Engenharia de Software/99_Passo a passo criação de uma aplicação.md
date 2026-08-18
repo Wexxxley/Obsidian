@@ -1,17 +1,15 @@
 
 
 ---
-
-Não existe o jeito certo de fazer software, mas tem que ter um balanço entre teoria e prática.
 ### **1. Engenharia de Requisitos**
 
 #### **1.1 Elicitação de Requisitos**
 - **Identificação de Stakeholders:** Mapeamento de todas as partes interessadas no sistema.
 	- Ex: tutores de animais, cuidadores e o próprio administrador da plataforma.
-- **Coleta de Dados:** Utilização de écnicas de investigação para entender as restrições e regras de negócio. Isso pode envolver entrevistas, análise de sistemas concorrentes, etc.
-#### **1.2 Análise e Priorização (Definição do MVP)**
+- **Coleta de Dados:** Isso pode envolver entrevistas, análise de sistemas concorrentes, etc.
+#### **1.2 Análise e Priorização**
 - **Classificação:** Separação entre Requisitos Funcionais e Requisitos Não Funcionais.
-- **Método MoSCoW:** Técnica de priorização dos requisitos.
+- **Método MoSCoW:** Técnica de priorização dos requisitos para gerar o MVC.
 #### **1.3 Especificação de Requisitos** 
 Criação do documento, eliminando ambiguidades.
 - **User Stories:** Descrição de funcionalidades sob a perspectiva do usuário final.
@@ -19,31 +17,24 @@ Criação do documento, eliminando ambiguidades.
 #### 1.4 Validação de Requisitos
 A validação do que foi especificado para garantir que a documentação reflete as necessidades.
 
->[!tip] Artefatos
->Especificação de requisitos.
-
 ---
 ### 2. Design Arquitetural e Modelagem
 
-#### 2.1 Topologia Arquitetural
+#### 2.1 Arquitetura
 ##### 2.1.1 Arquitetura Global 
-- **Arquitetura Monolítica**
-- **Arquitetura de Microsserviços**
-- **Arquitetura Orientada a Eventos (Event-Driven)** 
+Escolher arquitetura condizente com a proposta, sem Overengineering. Monolítico, microserviços, etc.
 
-Independente do estilo global, o código-fonte também precisa ser organizado. 
-- **Arquitetura em Camadas:** Divisão tradicional onde o código é segmentado verticalmente (Apresentação, Lógica e Acesso a Dados). 
-- Adoção de padrões como Clean Architecture ou Arquitetura Hexagonal. 
+Independente do estilo global, o código-fonte também precisa ser organizado: Arquitetura em Camadas, Clean Architecture, etc. 
 ##### 2.1.2 Padrões de Comunicação
-Define-se o protocolo e o contrato  de como os módulos do sistema e as integrações com sistemas de terceiros trocarão informações. Comunicação Síncrona  e Assíncrona. 
+Define-se o protocolo e o contrato de como os módulos do sistema e as integrações com sistemas de terceiros trocarão informações. Comunicação Síncrona e Assíncrona. 
 #### 2.2 Modelagem de Dados
 - **Modelagem Conceitual e Lógica:** Criação do Modelo Entidade-Relacionamento, que define as entidades do sistema, seus atributos e as regras de cardinalidade.
 - **Escolha do DB**.
-#### 2.3 Modelagem Estrutural e Comportamental
-- **Diagramação Arquitetural:** Utilização de notações gráficas, como o C4 Model, para representar a arquitetura em diferentes níveis de abstração hierárquica. NIVEL 1 E NIVEL 2.
-#### 2.4 Prototipagem e Design de Interface
+#### 2.3 Modelagem Estrutural
+- **Diagramação Arquitetural:** Utilização de notações gráficas, como o C4 Model, para representar visual. C4 model nivel 1 e 2 já são suficientes.
+### 2.4 Prototipagem e Design de Interface
 - **Wireframe:** Esboço preliminar da disposição dos elementos em tela e do caminho lógico.
-	- Não deixe de especificar telas mais "ocultas", como as partes administrativas, relatórios, integração com backoffice - que conecta sistemas aos processos administrativos  (financeiro, estoque, contabilidade e faturamento).
+	- É preciso especificar as telas mais "ocultas", como as partes administrativas, relatórios, integração com backoffice - que conecta sistemas aos processos administrativos  (financeiro, estoque, contabilidade e faturamento).
 - **Prototipagem:** Construção de representações visuais fieis da interface final. Esta etapa define a paleta de cores, a tipografia e o mapeamento dos elementos visuais.
 
 >[!tip] Artefatos
@@ -93,3 +84,6 @@ Ambas as abordagens são aceitas na Engenharia de Software, mas possuem aplicaç
 - **Auditoria de Estadias:** A área operacional de suporte e intervenção técnica. Em casos de emergências veterinárias ou quebras de acordo de serviço, o administrador precisa acessar um painel com o histórico integral de ações. Isso inclui a auditoria do registro diário de estadia e o acesso ao registro de comunicação entre o tutor e o cuidador para mediar a situação com embasamento em dados.
 - **Moderação do Sistema de Reputação**: A plataforma exige uma ferramenta para gerenciar as avaliações bidirecionais (as notas que os tutores dão aos cuidadores e vice-versa). A operação de backoffice consiste em auditar denúncias e ocultar comentários que contenham linguagem ofensiva ou fraudulenta, mantendo a integridade da pontuação pública dos usuários.
 - **Suspensão e Banimento de Contas**: Uma operação de segurança sistêmica. Em casos de violação grave dos termos de serviço (como negligência por parte do cuidador ou inadimplência do tutor), o sistema de backoffice deve permitir o congelamento imediato dos perfis, impedindo novos logins e bloqueando a criação de novas contas com as mesmas credenciais.
+
+
+

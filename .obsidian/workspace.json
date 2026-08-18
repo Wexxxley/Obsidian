@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Aleatorios/TCC/3_Seminario01 PPCT.md",
+                "file": "01_Concursos/TI/05_Engenharia de Software/99_Passo a passo criação de uma aplicação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Seminario01 PPCT"
+              "title": "99_Passo a passo criação de uma aplicação"
             }
           },
           {
@@ -67,7 +67,7 @@
                 "sortOrder": "alphabetical",
                 "autoReveal": true,
                 "showSearch": true,
-                "searchQuery": ""
+                "searchQuery": "passo"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -105,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -212,9 +211,10 @@
   "active": "63281a61a16af840",
   "lastOpenFiles": [
     "05_Aleatorios/TCC/2_Atv01 PPCT.md",
+    "05_Aleatorios/TCC/3_Seminario01 PPCT.md",
+    "02_Conhecimentos TI/5_web1/2_CSS/5_Formulário.md",
     "01_Concursos/TI/05_Engenharia de Software/99_Passo a passo criação de uma aplicação.md",
     "05_Aleatorios/TCC/1_Mimo.md",
-    "02_Conhecimentos TI/5_web1/2_CSS/5_Formulário.md",
     "02_Conhecimentos TI/5_web1/1_HTML/3_HTML Semântico.md",
     "02_Conhecimentos TI/5_web1/1_HTML/2_Listas e tabelas.md",
     "02_Conhecimentos TI/5_web1/1_HTML/1_Introdução.md",
@@ -241,7 +241,6 @@
     "01_Concursos/Geral/01_Português/7_Redação/Untitled 3.md",
     "01_Concursos/Geral/01_Português/7_Redação/Untitled 5.md",
     "01_Concursos/Geral/01_Português/7_Redação/Untitled 6.md",
-    "05_Aleatorios/TCC/3_Seminario01 PPCT.md",
     "05_Aleatorios/TCC/3_Como ler um artigo.md",
     "05_Aleatorios/TCC/2_Conteúdos relacionados.md",
     "05_Aleatorios/TCC/1_Plataforma Colaborativa de Estruturação de Roadmaps.md",
