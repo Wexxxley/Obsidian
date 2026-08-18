@@ -34,13 +34,12 @@ Define-se o protocolo e o contrato de como os módulos do sistema e as integraç
 - **Diagramação Arquitetural:** Utilização de notações gráficas, como o C4 Model, para representar visual. C4 model nivel 1 e 2 já são suficientes.
 ### 2.4 Prototipagem e Design de Interface
 - **Wireframe:** Esboço preliminar da disposição dos elementos em tela e do caminho lógico.
-	- É preciso especificar as telas mais "ocultas", como as partes administrativas, relatórios, integração com backoffice - que conecta sistemas aos processos administrativos  (financeiro, estoque, contabilidade e faturamento).
-- **Prototipagem:** Construção de representações visuais fieis da interface final. Esta etapa define a paleta de cores, a tipografia e o mapeamento dos elementos visuais.
+	- É preciso especificar as telas mais "ocultas", como a integração com backoffice.
+- **Prototipagem:** Construção de representações visuais fieis da interface final. 
 
 >[!tip] Artefatos
 >- Registros de Decisões: Registram o contexto, a decisão técnica, diagramas.
 >- Protótipo 
-
 
 ---
 ### **3. Construção e garantia de qualidade**

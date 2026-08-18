@@ -127,3 +127,5 @@ D) Terceira pessoa do singular
 
 ![](../../../../../attachments/Pasted%20image%2020260818071812.png)
 B) Não é a C pq no enunciado fala-se de substituição
+
+![](../../../../../attachments/Pasted%20image%2020260818160507.png)
