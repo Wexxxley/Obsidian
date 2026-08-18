@@ -46,7 +46,7 @@ Em comunicações oficiais, está abolido o uso de Digníssimo (DD) e de Ilustr�
 ![](../../../../../attachments/Pasted%20image%2020260817192115.png)
 ![](../../../../../attachments/Pasted%20image%2020260817192431.png)
 
-
+![](../../../../../attachments/Pasted%20image%2020260818063922.png)
 
 ----
 ![](../../../../../attachments/Pasted%20image%2020260817192639.png)A)
@@ -71,4 +71,17 @@ D)
 ---
 ![](../../../../../attachments/Pasted%20image%2020260817194458.png)
 Historicamente, antes da atualização legislativa e das novas edições do _Manual de Redação da Presidência da República_, o pronome de tratamento correto para Reitores de Universidade era **"Vossa Magnificência"**. Mas agora, o decreto estabelece que o único pronome de tratamento utilizado para agentes públicos federais é **"Senhor"** ou **"Senhora"**, independentemente do nível hierárquico, da natureza do cargo ou da ocasião.
-D) an
+D) Senhora reitra
+
+![](../../../../../attachments/Pasted%20image%2020260818062926.png)A questão versa sobre o uso dos **pronomes de tratamento** nas comunicações oficiais. 
+
+a) **ERRADO.** Assim como outras autoridades de alto escalão, uma reitora deve ser tratada com _**Vossa Excelência**_.
+  
+b)  **ERRADO.** Como as comunicações são elaboradas em nome do Serviço Público, o pronome no **plural transmite mais impessoalidade**.  
+
+c) **ERRADO.** O ofício está sendo dirigido a apenas uma pessoa.
+
+d)  **CERTO.** 
+
+![](../../../../../attachments/Pasted%20image%2020260818063419.png)
+D) Terceira pessoa do singular
