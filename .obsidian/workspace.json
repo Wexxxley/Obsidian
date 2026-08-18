@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "99_Passo a passo criação de uma aplicação"
             }
+          },
+          {
+            "id": "11b13194677e7e7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02_Conhecimentos TI/5_web1/2_CSS/5_Formulário.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5_Formulário"
+            }
           }
         ]
       }
@@ -53,7 +67,7 @@
                 "sortOrder": "alphabetical",
                 "autoReveal": true,
                 "showSearch": true,
-                "searchQuery": "Passo"
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -65,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "redação ofi",
+                "query": "web",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,6 +210,11 @@
   },
   "active": "63281a61a16af840",
   "lastOpenFiles": [
+    "02_Conhecimentos TI/5_web1/2_CSS/5_Formulário.md",
+    "02_Conhecimentos TI/5_web1/1_HTML/3_HTML Semântico.md",
+    "02_Conhecimentos TI/5_web1/1_HTML/2_Listas e tabelas.md",
+    "02_Conhecimentos TI/5_web1/1_HTML/1_Introdução.md",
+    "01_Concursos/TI/05_Engenharia de Software/99_Passo a passo criação de uma aplicação.md",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução.md",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/2_.md",
     "attachments/Pasted image 20260818071812.png",
@@ -219,7 +238,6 @@
     "01_Concursos/Geral/01_Português/7_Redação/Untitled 3.md",
     "01_Concursos/Geral/01_Português/7_Redação/Untitled 5.md",
     "01_Concursos/Geral/01_Português/7_Redação/Untitled 6.md",
-    "01_Concursos/TI/05_Engenharia de Software/99_Passo a passo criação de uma aplicação.md",
     "05_Aleatorios/TCC/1_Mimo.md",
     "05_Aleatorios/TCC/3_Seminario01 PPCT.md",
     "05_Aleatorios/TCC/2_Atv01 PPCT.md",
@@ -231,9 +249,6 @@
     "02_Conhecimentos TI/5_web1/3_JavaScript/3_Node.js/1_Runtime e Módulos.md",
     "02_Conhecimentos TI/5_web1/3_JavaScript/3_Node.js/3_Dotenv.md",
     "02_Conhecimentos TI/5_web1/3_JavaScript/3_Node.js/2_Gerenciamento de dependências.md",
-    "02_Conhecimentos TI/5_web1/3_JavaScript/1_Introdução/9_Consumindo API Propria.md",
-    "02_Conhecimentos TI/5_web1/3_JavaScript/1_Introdução/8_DOM consumindo uma api falsa.md",
-    "02_Conhecimentos TI/5_web1/3_JavaScript/1_Introdução/7_DOM (Document Object Model).md",
     "02_Conhecimentos TI/02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Conhecimentos TI/02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/1_SOLID",
