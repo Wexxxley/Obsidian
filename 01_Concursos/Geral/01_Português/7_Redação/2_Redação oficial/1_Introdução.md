@@ -124,3 +124,6 @@ d)  **CERTO.**
 D) Terceira pessoa do singular
 
 ![](../../../../../attachments/Pasted%20image%2020260818064432.png)C) VFV
+
+![](../../../../../attachments/Pasted%20image%2020260818071812.png)
+B) Não é a C pq no enunciado fala-se de substituição

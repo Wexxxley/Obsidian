@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/2_.md",
+                "file": "01_Concursos/TI/05_Engenharia de Software/99_Passo a passo criação de uma aplicação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_"
+              "title": "99_Passo a passo criação de uma aplicação"
             }
           }
         ]
@@ -53,7 +53,7 @@
                 "sortOrder": "alphabetical",
                 "autoReveal": true,
                 "showSearch": true,
-                "searchQuery": ""
+                "searchQuery": "Passo"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -198,6 +198,7 @@
   "lastOpenFiles": [
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução.md",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/2_.md",
+    "attachments/Pasted image 20260818071812.png",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/Untitled.canvas",
     "attachments/Pasted image 20260818064432.png",
     "attachments/Pasted image 20260818063922.png",
@@ -208,7 +209,6 @@
     "attachments/Pasted image 20260817194133.png",
     "attachments/Pasted image 20260817193753.png",
     "attachments/Pasted image 20260817193728.png",
-    "attachments/Pasted image 20260817193559.png",
     "01_Concursos/Geral/03_Legislação e serviço público/21_Redação oficial.md",
     "01_Concursos/Geral/01_Português/7_Redação/Untitled 1.md",
     "01_Concursos/Geral/01_Português/7_Redação/Untitled.md",
@@ -234,7 +234,6 @@
     "02_Conhecimentos TI/5_web1/3_JavaScript/1_Introdução/9_Consumindo API Propria.md",
     "02_Conhecimentos TI/5_web1/3_JavaScript/1_Introdução/8_DOM consumindo uma api falsa.md",
     "02_Conhecimentos TI/5_web1/3_JavaScript/1_Introdução/7_DOM (Document Object Model).md",
-    "02_Conhecimentos TI/5_web1/3_JavaScript/1_Introdução/6_Async await e fetch.md",
     "02_Conhecimentos TI/02_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
     "02_Conhecimentos TI/02_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/1_SOLID",
