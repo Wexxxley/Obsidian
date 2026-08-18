@@ -6,6 +6,8 @@
 
 - A eficácia da abordagem de desenvolvimento orientado a testes em projetos de software: um estudo de múltiplos casos.
 
+
+
 ![](../../attachments/Pasted%20image%2020260814171422.png)
 
 **Figura 5 e Tabela 6: Avaliação de Complexidade**
