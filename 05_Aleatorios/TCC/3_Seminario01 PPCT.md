@@ -1,21 +1,22 @@
 
 
 ---
-
 ### The effectiveness of test-driven development approach on software projects: A multi-case study.
 A eficácia da abordagem de desenvolvimento orientado a testes em projetos de software: um estudo de múltiplos casos.
-
-**CONCEITOS ABORDADOS** 
-
-- **Complexidade ciclomática:** basicamente,  conta-se quantas decisões lógicas (como if, for e operadores lógicos) existem em uma função, indicando o quão difícil ela é de testar e manter. 
-
-- **Complexidade essencial:** Sua finalidade é medir o grau de construções não estruturadas presentes (o que n são if e for, como goto, return, break, continue) em um  módulo.
-
-- **Complexidade de Design do Módulo:** quando um módulo principal (uma função) precisa invocar outros submódulos (funções subordinadas) para concluir sua tarefa. Essa métrica ajuda a identificar quais módulos atuam como controladores complexos do sistema, pois será necessário criar testes de integração.
 
 **CONTEXTO DO TRABALHO**
 
 **Problemática**: uma vez que exige a estruturação de testes para funcionalidades que ainda não foram codificadas e trás uma ideia de queda de produtividade inicialmente.
+
+**CONCEITOS ABORDADOS** 
+
+- **Complexidade ciclomática:** mensura a quantidade de caminhos diferentes que podem ser seguidos em um modulo de codigo, o que dificulta os testes.
+
+- **Complexidade essencial:** mensura o grau de construções não estruturadas (o que n são if e for, como goto, return, break, continue) em um  módulo.
+
+- **Complexidade de Design do Módulo:** essa complexidade ocorre quando um módulo principal precisa invocar outros submódulos para funcionar. Aumentando o acoplamento e a necessidade de testes de integração mais rigorosos.
+
+
 
 
 ![](../../attachments/Pasted%20image%2020260814171422.png)
