@@ -61,4 +61,14 @@ D)
 
 ![](../../../../../attachments/Pasted%20image%2020260817193728.png)D)
 
-![](../../../../../attachments/Pasted%20image%2020260817193753.png)B)  Para ministros de trinunais sup
+![](../../../../../attachments/Pasted%20image%2020260817193753.png)B)  Para ministros de trinunais superiores: senhor ministro, para presidente do STF: vossa excelência
+
+![](../../../../../attachments/Pasted%20image%2020260817194133.png)C)
+
+![](../../../../../attachments/Pasted%20image%2020260817194358.png)E) os unicos que podem ser chamados de excelentissimos são os presidentes do 3 poderes.
+
+
+---
+![](../../../../../attachments/Pasted%20image%2020260817194458.png)
+Historicamente, antes da atualização legislativa e das novas edições do _Manual de Redação da Presidência da República_, o pronome de tratamento correto para Reitores de Universidade era **"Vossa Magnificência"**. Mas agora, o decreto estabelece que o único pronome de tratamento utilizado para agentes públicos federais é **"Senhor"** ou **"Senhora"**, independentemente do nível hierárquico, da natureza do cargo ou da ocasião.
+D) an
