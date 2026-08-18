@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução.md",
+                "file": "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/2_Estrutura dos documentos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Introdução"
+              "title": "2_Estrutura dos documentos"
             }
           },
           {
@@ -105,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5,
-    "collapsed": true
+    "width": 349.5
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -211,6 +210,11 @@
   },
   "active": "63281a61a16af840",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução.md",
+    "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/2_Estrutura dos documentos.md",
+    "attachments/Pasted image 20260818161813.png",
+    "attachments/Pasted image 20260818161256.png",
+    "attachments/Pasted image 20260818161008.png",
     "attachments/Pasted image 20260818160507.png",
     "05_Aleatorios/TCC/4_Ideia de possível metodologia.md",
     "01_Concursos/TI/05_Engenharia de Software/99_Passo a passo criação de uma aplicação.md",
@@ -221,8 +225,6 @@
     "02_Conhecimentos TI/5_web1/1_HTML/3_HTML Semântico.md",
     "02_Conhecimentos TI/5_web1/1_HTML/2_Listas e tabelas.md",
     "02_Conhecimentos TI/5_web1/1_HTML/1_Introdução.md",
-    "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução.md",
-    "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/2_.md",
     "attachments/Pasted image 20260818071812.png",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/Untitled.canvas",
     "attachments/Pasted image 20260818064432.png",
@@ -230,10 +232,6 @@
     "attachments/Pasted image 20260818063419.png",
     "attachments/Pasted image 20260818062926.png",
     "attachments/Pasted image 20260817194458.png",
-    "attachments/Pasted image 20260817194358.png",
-    "attachments/Pasted image 20260817194133.png",
-    "attachments/Pasted image 20260817193753.png",
-    "attachments/Pasted image 20260817193728.png",
     "01_Concursos/Geral/03_Legislação e serviço público/21_Redação oficial.md",
     "01_Concursos/Geral/01_Português/7_Redação/Untitled 1.md",
     "01_Concursos/Geral/01_Português/7_Redação/Untitled.md",

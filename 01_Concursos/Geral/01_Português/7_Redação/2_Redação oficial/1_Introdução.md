@@ -46,7 +46,6 @@ Em comunicações oficiais, está abolido o uso de Digníssimo (DD) e de Ilustr�
 ![](../../../../../attachments/Pasted%20image%2020260817192115.png)
 ![](../../../../../attachments/Pasted%20image%2020260817192431.png)
 
-![](../../../../../attachments/Pasted%20image%2020260818063922.png)
 
 ---
 
@@ -129,3 +128,11 @@ D) Terceira pessoa do singular
 B) Não é a C pq no enunciado fala-se de substituição
 
 ![](../../../../../attachments/Pasted%20image%2020260818160507.png)
+Signatário = assinante
+
+- **D (Correta)**
+
+![](../../../../../attachments/Pasted%20image%2020260818161008.png)
+- **B (Correta):** O Manual estabelece apenas dois fechos padronizados para todas as comunicações oficiais (com exceção de comunicações dirigidas a autoridades estrangeiras, que seguem rito próprio):
+    - **Respeitosamente** – Exclusivo para autoridades de hierarquia **superior** à do remetente.
+    - **Atenciosamente** – Utilizado para autoridades de **mesma hierarquia**, de hierarquia **inferior**, ou demais casos.
