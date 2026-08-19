@@ -11,12 +11,14 @@
             "id": "63281a61a16af840",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/2_Morfologia/14_Conjunções.png"
+                "file": "01_Concursos/Geral/01_Português/2_Morfologia/11_Conjunções coordenativas.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "14_Conjunções"
+              "icon": "lucide-file",
+              "title": "11_Conjunções coordenativas"
             }
           }
         ]
@@ -89,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -195,6 +196,8 @@
   },
   "active": "63281a61a16af840",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/2_Morfologia/12_Conjunções subordinativas P1.md",
+    "01_Concursos/Geral/01_Português/2_Morfologia/14_Conjunções.png",
     "01_Concursos/Geral/01_Português/4_Sintaxe/6_TermosSintaxe.png",
     "01_Concursos/Geral/01_Português/4_Sintaxe/8_Orações coordenadas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/12_Orações reduzidas.md",
@@ -207,8 +210,6 @@
     "attachments/Pasted image 20260818181847.png",
     "attachments/Pasted image 20260818181049.png",
     "attachments/Pasted image 20260818180807.png",
-    "attachments/Pasted image 20260818180427.png",
-    "attachments/Pasted image 20260818180030.png",
     "01_Concursos/Geral/01_Português/4_Sintaxe/9_Orações subordinadas substantivas.md",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/2_Estrutura dos documentos.md",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução.md",
