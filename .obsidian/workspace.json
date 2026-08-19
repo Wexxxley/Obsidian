@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5
+    "width": 352.5,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -196,15 +197,17 @@
   },
   "active": "63281a61a16af840",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260819115108.png",
+    "attachments/Pasted image 20260819115001.png",
+    "attachments/Pasted image 20260819114800.png",
+    "attachments/Pasted image 20260819104817.png",
+    "attachments/Pasted image 20260819104700.png",
+    "attachments/Pasted image 20260819103921.png",
     "attachments/Pasted image 20260819103149.png",
     "attachments/Pasted image 20260819103126.png",
     "attachments/Pasted image 20260819102959.png",
     "attachments/Pasted image 20260819102900.png",
     "attachments/Pasted image 20260819102737.png",
-    "attachments/Pasted image 20260819102632.png",
-    "attachments/Pasted image 20260819102422.png",
-    "attachments/Pasted image 20260819101446.png",
-    "attachments/Pasted image 20260819100032.png",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução.md",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/2_Estrutura do padrão oficio.md",
     "05_Aleatorios/TCC/1_MimoMetodologia.md",
@@ -213,8 +216,6 @@
     "05_Aleatorios/TCC/3_Seminario01 PPCT.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/11_Conjunções coordenativas.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/12_Conjunções subordinativas P1.md",
-    "01_Concursos/Geral/01_Português/2_Morfologia/14_Conjunções.png",
-    "01_Concursos/Geral/01_Português/4_Sintaxe/6_TermosSintaxe.png",
     "01_Concursos/Geral/01_Português/4_Sintaxe/8_Orações coordenadas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/12_Orações reduzidas.md",
     "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",

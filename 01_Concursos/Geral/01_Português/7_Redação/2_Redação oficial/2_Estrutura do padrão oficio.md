@@ -76,6 +76,9 @@ A numeração das páginas é obrigatória apenas a partir da segunda página da
 	a) no rodapé do documento, dentro da área de 2 cm da margem inferior, centralizado
 	b) fonte: Calibri ou Carlito.
 
+**Rodapé:** contendo o endereço, telefone e site do órgão alinhados de forma centralizada.
+![400](../../../../../attachments/Pasted%20image%2020260819103921.png)
+
 ---
 ### **3. Formatação do padrão oficio**
 ![](../../../../../attachments/Pasted%20image%2020260819101446.png)
@@ -104,6 +107,16 @@ E)
 C)
 ![400](../../../../../attachments/Pasted%20image%2020260819103126.png)
 
-![](../../../../../attachments/Pasted%20image%2020260819103149.png)
+![](../../../../../attachments/Pasted%20image%2020260819103149.png)E) 
 
+![](../../../../../attachments/Pasted%20image%2020260819104700.png)
+C)
+
+![](../../../../../attachments/Pasted%20image%2020260819104817.png)
+D)
+
+![](../../../../../attachments/Pasted%20image%2020260819114800.png)
+C) 1 E 3
+
+![](../../../../../attachments/Pasted%20image%2020260819115001.png)C)
 
