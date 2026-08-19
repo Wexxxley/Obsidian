@@ -6,47 +6,59 @@
 Utilizavam-se três tipos distintos de expedientes (nome genérico dos doc oficiais emitidos).
 - **Aviso:** Comunicação entre Ministros de Estado.
 - **Memorando:** Comunicação eminentemente interna.
-- **Ofício:** Era o documento utilizado para a comunicação **externa**, ou seja, expedido para autoridades de outros órgãos ou para particulares.    
+- **Ofício:** Comunicação externa, expedido para autoridades de outros órgãos ou  particulares.    
 
-Atualmente, não existe mais a diferenciação entre aviso, memorando e ofício. Todas as três hipóteses de comunicação citadas anteriormente passaram a ser realizadas por meio de um único documento, o **Ofício**.
+Todas as três hipóteses de comunicação citadas  passaram a ser realizadas por meio de um único documento, o **Ofício**.
 
 ----
+![](../../../../../attachments/Pasted%20image%2020260818161813.png)
+**1 – Cabeçalho**: Utilizado na primeira página do documento, centralizado e no cabeçalho devem constar os elementos:
+	**a) brasão de Armas da República:** O uso de marca da instituição deve ser evitado.
+	**b) nome do órgão principal;**
+	**c) nomes dos órgãos secundários**: da maior para a menor, separados por barra
 
+**2 – Identificação do expediente**: nome do expediente + Nº + número / ano / sigla do setor. Alinhado a esquerda.
 
-O cabeçalho é utilizado apenas na primeira página do documento, centralizado na área
-determinada pela formatação
-No cabeçalho deverão constar os seguintes elementos:
-a) brasão de Armas da República: no topo da página. Não há necessidade de ser
-aplicado em cores. O uso de marca da instituição deve ser evitado na correspondência
-oficial para não se sobrepor ao Brasão de Armas da República.
-b) nome do órgão principal;
-c) nomes dos órgãos secundários, quando necessários, da maior para a menor hierarquia,
-separados por barra (/); e
-d) espaçamento: entrelinhas simples (1,0)![](../../../../../attachments/Pasted%20image%2020260818161813.png)
+**3 – Local e data**: Cidade, 3 de março de 2026. Alinhado à margem direita da página.
 
-**1 – Cabeçalho**
+**4 - Endereçamento**:  Nele deverão constar os seguintes elementos:
+	**a) vocativo**: na forma de tratamento adequada.
+	**b) nome:** nome do destinatário.
+	**c) cargo:** cargo do destinatário
+	**d) endereço:** endereço postal de quem receberá o expediente, dividido em duas linhas:
+		1. localidade/logradouro do destinatário ou, no caso de ofício ao mesmo órgão, informação do setor;
+		2. CEP e cidade (/ . -)unidade da federação. No caso de ofício ao mesmo órgão, não é obrigatória a informação do CEP.
 
-O cabeçalho é utilizado apenas na **primeira página** de cada documento, centralizado, com o **brasão** de Armas da República na parte superior da página, juntamente com o **nome do órgão** **oficial** e de órgãos secundários, caso precise.
+- O pronome de tratamento no endereçamento das comunicações dirigidas às autoridades tratadas por Vossa Excelência será: “A Sua Excelência o Senhor”.
+- Quando o tratamento destinado ao receptor for Vossa Senhoria, o endereçamento a ser empregado é “Ao Senhor” ou “À Senhora”.
 
-**2 – Identificação do expediente**
+**5 – Assunto**: O assunto deve dar uma ideia geral do conteúdo do documento.  
 
-Os documentos oficiais devem possuir **identificação**, sendo necessário a presença do **nome do documento**, o qual é formado pelo **nome do expediente**, pela abreviatura **Nº**, além do **número**, **ano** e a **sigla** usual do setor que está expedindo, sendo estes últimos separados por uma barra (/). Tudo isso alinhado à margem esquerda da página.
+**6 - Texto do documento**: 
 
-**3 – Local e data**
+Nos casos em que não for de mero encaminhamento de documentos, o expediente deve conter
+1. **Introdução**: que se confunde com o parágrafo de abertura, na qual é apresentado o assunto que motiva a comunicação.
+2. **Desenvolvimento**: no qual o assunto é detalhado; 
+3. **Conclusão**: em que é reafirmada a posição recomendada sobre o assunto.
 
-Alinhados à margem direita da página, é necessário informar a **cidade** em que está sendo expedido o documento, sem nenhuma menção sobre o estado, além de informar a **data** do documento.
+Se o documento é de mero encaminhamento de documentos a estrutura é a seguinte:
+1. **Introdução**: deve iniciar com referência ao expediente que solicitou o encaminhamento. ![](../../../../../attachments/Pasted%20image%2020260819100032.png)
+2. **Desenvolvimento**: se o autor da comunicação desejar fazer algum comentário a respeito do documento que encaminha, poderá (facultativamente) acrescentar parágrafos de desenvolvimento; em caso contrário, não há parágrafos de desenvolvimento em aviso ou ofício de mero encaminhamento.
 
-**4- Endereçamento**
-
-Nesta parte haverá a informação de quem receberá o documento. Desse modo, é necessário a presença de alguns dados do **destinatário**, como o **vocativo** correto, o seu **nome**, **cargo** e **endereço**. Sendo estas informações alinhadas à esquerda da página.
-
-**5 – Assunto**
-
-O assunto deve dar uma **ideia geral** do conteúdo do documento, de forma **sucinta**.  
-
-**6- Texto do documento**
-
-Em um documento oficial, é necessário que a sua estrutura contenha **introdução**, apresentando o objetivo do documento; o **desenvolvimento**, onde o assunto será detalhado; bem como uma **conclusão**, de modo a afirmar a posição sobre o assunto.
+Em ambos os casos, o texto do documento deve ser formatado da seguinte maneira:
+	**a) alinhamento:** justificado;
+	**b) espaçamento entre linhas:** simples;
+	**c) parágrafos:**
+		i- espaçamento entre parágrafos de 6 pontos após cada parágrafo;
+		ii- recuo de parágrafo: 2,5 cm de distância da margem esquerda;
+		iii- numeração dos parágrafos: apenas quando o documento tiver três ou
+		mais parágrafos.
+	**d) fonte:** Calibri ou Carlito;
+		i- corpo do texto: tamanho 12 pontos;
+		ii- citações recuadas: tamanho 11 pontos; 
+		iii- notas de Rodapé: tamanho 10 pontos;
+	**e) símbolos:** para símbolos não existentes nas fontes indicadas, pode-se utilizar as
+	fontes Symbol e Wingdings;
 
 **7 – Fechos**: Os fechos de comunicações oficiais objetivas são utilizados para saudar o destinatário e arrematar o texto. É utilizado o termo **“Respeitosamente”** para autoridades de hierarquia superior e **“Atenciosamente”** para hierarquia inferior e demais casos.
 
