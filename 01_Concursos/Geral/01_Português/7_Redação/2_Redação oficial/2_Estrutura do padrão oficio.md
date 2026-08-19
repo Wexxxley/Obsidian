@@ -3,18 +3,26 @@
 
 ---
 
-Unificação dos documentos de comunicação no chamado **Padrão Ofício**.
-
-Historicamente, a administração pública utilizava três tipos distintos de **expedientes** (nome genérico dado aos documentos oficiais emitidos por um órgão). Eram separados pela sua finalidade e pelo destinatário:
-- **Aviso:** Servia apenas para a comunicação entre Ministros de Estado, ou seja, autoridades que ocupavam exatamente a mesma hierarquia no governo.
-- **Memorando:** Era o documento de comunicação eminentemente **interna**. Servia para a troca de informações entre unidades administrativas pertencentes a um mesmo órgão.
+Utilizavam-se três tipos distintos de expedientes (nome genérico dos doc oficiais emitidos).
+- **Aviso:** Comunicação entre Ministros de Estado.
+- **Memorando:** Comunicação eminentemente interna.
 - **Ofício:** Era o documento utilizado para a comunicação **externa**, ou seja, expedido para autoridades de outros órgãos ou para particulares.    
 
 Atualmente, não existe mais a diferenciação entre aviso, memorando e ofício. Todas as três hipóteses de comunicação citadas anteriormente passaram a ser realizadas por meio de um único documento, o **Ofício**.
 
 ----
 
-![](../../../../../attachments/Pasted%20image%2020260818161813.png)
+
+O cabeçalho é utilizado apenas na primeira página do documento, centralizado na área
+determinada pela formatação
+No cabeçalho deverão constar os seguintes elementos:
+a) brasão de Armas da República: no topo da página. Não há necessidade de ser
+aplicado em cores. O uso de marca da instituição deve ser evitado na correspondência
+oficial para não se sobrepor ao Brasão de Armas da República.
+b) nome do órgão principal;
+c) nomes dos órgãos secundários, quando necessários, da maior para a menor hierarquia,
+separados por barra (/); e
+d) espaçamento: entrelinhas simples (1,0)![](../../../../../attachments/Pasted%20image%2020260818161813.png)
 
 **1 – Cabeçalho**
 

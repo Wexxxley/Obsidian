@@ -2,6 +2,7 @@
 
 
 ---
+
 No caso da Redação Oficial, quem comunica é sempre o serviço público; o que se comunica
 é sempre algum assunto relativo às atribuições do órgão que comunica; o destinatário dessa
 comunicação é o público, uma instituição privada ou outro órgão ou entidade pública, do Poder
@@ -42,15 +43,9 @@ Não há lugar na redação oficial para impressões pessoais.
 ![](../../../../../attachments/Pasted%20image%2020260817191603.png)
 No nível municipal, o prefeito é tratado por **Vossa Excelência**. Já os vereadores são tratados por **Vossa Senhoria**, com exceção do **Presidente da Câmara Municipal**, que recebe o tratamento de **Vossa Excelência**.
 
-Em comunicações oficiais, está abolido o uso de Digníssimo (DD) e de Ilustríssimo (Ilmo.). É recomendado também que se evite o uso de “doutor” indiscriminadamente.
+- Em comunicações oficiais, está abolido o uso de Digníssimo (DD) e de Ilustríssimo (Ilmo.). É recomendado também que se evite o uso de “doutor” indiscriminadamente.
 ![](../../../../../attachments/Pasted%20image%2020260817192115.png)
 ![](../../../../../attachments/Pasted%20image%2020260817192431.png)
-
-
----
-
-**Interino e substituto**
-Quando um cargo não está sendo exercido por seu titular definitivo, é necessário indicar essa condição na assinatura de documentos oficiais. Existem duas classificações para isso:
 - **Interino:** Refere-se àquele que é nomeado para ocupar um cargo público de forma transitória  durante o período de vacância, ou seja, quando o cargo está definitivamente sem titular.
 - **Substituto:** Refere-se àquele que é designado para exercer as atribuições de um cargo público que está vago, ou quando ocorre o afastamento ou algum impedimento legal.
     
@@ -79,10 +74,9 @@ Esses termos indicativos devem ser posicionados após o nome do cargo, escritos 
 É opcional em palavras empregadas com sentido reverencial, o que inclui cargos e títulos
 - o Presidente francês ou presidente francês.
 
-**Cargos compostos e hifenizados:** caso você opte por iniciar o cargo com letra maiúscula ou minúscula, essa escolha deve ser mantida para todos os elementos que compõem a palavra hifenizada. É proibido misturar os dois padrões na mesma palavra.
+**Cargos hifenizados:** caso você opte por iniciar o cargo com letra maiúscula ou minúscula, essa escolha deve ser mantida para todos os elementos que compõem a palavra hifenizada. É proibido misturar os dois padrões na mesma palavra.
 - Vice-Presidente; vice-presidente.    
 - Diretor-Geral; diretor-geral.
-
 
 ----
 ![](../../../../../attachments/Pasted%20image%2020260817192639.png)A)
