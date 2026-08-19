@@ -2,6 +2,7 @@
 
 
 ---
+### 1. Oficio
 
 Utilizavam-se três tipos distintos de expedientes (nome genérico dos doc oficiais emitidos).
 - **Aviso:** Comunicação entre Ministros de Estado.
@@ -11,6 +12,7 @@ Utilizavam-se três tipos distintos de expedientes (nome genérico dos doc ofici
 Todas as três hipóteses de comunicação citadas  passaram a ser realizadas por meio de um único documento, o **Ofício**.
 
 ----
+### 2. Estrutura do oficio
 ![](../../../../../attachments/Pasted%20image%2020260818161813.png)
 **1 – Cabeçalho**: Utilizado na primeira página do documento, centralizado e no cabeçalho devem constar os elementos:
 	**a) brasão de Armas da República:** O uso de marca da instituição deve ser evitado.
@@ -60,10 +62,48 @@ Em ambos os casos, o texto do documento deve ser formatado da seguinte maneira:
 	**e) símbolos:** para símbolos não existentes nas fontes indicadas, pode-se utilizar as
 	fontes Symbol e Wingdings;
 
-**7 – Fechos**: Os fechos de comunicações oficiais objetivas são utilizados para saudar o destinatário e arrematar o texto. É utilizado o termo **“Respeitosamente”** para autoridades de hierarquia superior e **“Atenciosamente”** para hierarquia inferior e demais casos.
+**7 – Fechos**: Há somente 2 fechos:
+- Para autoridades superiores, inclusive o Presidente da República, **Respeitosamente**.
+- Para autoridades de mesma hierarquia ou de hierarquia inferior, **Atenciosamente**.
+- **Exceção**: comunicações dirigidas a autoridades estrangeiras, que atendem a ritos próprios.
 
-**8 – Identificação do signatário**: Salvo as comunicações assinadas pelo Presidente da República, todos os ofícios devem conter o signatário, ou seja, a identificação do remetente. A identificação do signatário nos documentos padrão ofício deve ser centralizada. O nome da autoridade é grafado em letras maiúsculas, sem o uso de negrito, e o cargo deve ter apenas as iniciais maiúscula (como em "Ministro de Estado da Educação").
+**8 – Identificação do signatário**: Excluídas as comunicações assinadas pelo Presidente da República, todas as demais comunicações oficiais devem informar o signatário segundo o padrão:
+	**a) nome:** nome da autoridade, grafado em letras maiúsculas, sem negrito.
+	**b) cargo:** cargo da autoridade que expede o documento, redigido apenas com as iniciais
+	maiúsculas. As preposições devem ser grafadas em minúsculas;
 
-A partir da segunda página é necessário haver numeração.
+A numeração das páginas é obrigatória apenas a partir da segunda página da comunicação.
+	a) no rodapé do documento, dentro da área de 2 cm da margem inferior, centralizado
+	b) fonte: Calibri ou Carlito.
+
+---
+### **3. Formatação do padrão oficio**
+![](../../../../../attachments/Pasted%20image%2020260819101446.png)
+
+Os documentos do padrão ofício devem obedecer à seguinte formatação:
+	**a) tamanho do papel**: A4 (29,7 cm x 21,0 cm);
+	**b) margem lateral esquerda:** no mínimo, 3 cm;
+	**c) margem lateral direita:** 1,5 cm;
+	**d) margens superior e inferior**: 2 cm;
+	**e) área de cabeçalho:** na primeira página, 5 cm a partir da borda superior do papel;
+	**f) área de rodapé**: nos 2 cm da margem inferior do documento;
+	**g) impressão:** a impressão pode ocorrer em ambas as faces do papel. Nesse caso, as margens esquerda e direita terão as distâncias invertidas nas páginas pares.
+	**h) cores:** os textos devem ser impressos na cor preta em papel branco, reservando-se, se
+	necessário, a impressão colorida para gráficos e ilustrações;
+	**i) destaques:** para destaques deve-se utilizar, sem abuso, o negrito. 
+	**j) palavras estrangeiras:** palavras estrangeiras devem ser grafadas em itálico;
+	**k) nome do arquivo:**  tipo + número do documento + ano do documento + palavras-chaves do conteúdo: Ofício 123_2018_relatório produtividade anual
+
+
+---
+
+![](../../../../../attachments/Pasted%20image%2020260819102737.png)
+E)
+![400](../../../../../attachments/Pasted%20image%2020260819102900.png)
+![](../../../../../attachments/Pasted%20image%2020260819102959.png)
+C)
+![400](../../../../../attachments/Pasted%20image%2020260819103126.png)
+
+![](../../../../../attachments/Pasted%20image%2020260819103149.png)
 
 
