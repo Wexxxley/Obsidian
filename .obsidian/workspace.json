@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Aleatorios/TCC/3_Seminario01 PPCT.md",
+                "file": "05_Aleatorios/TCC/1_MimoMetodologia.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Seminario01 PPCT"
+              "title": "1_MimoMetodologia"
             }
           }
         ]
@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.5
+    "width": 352.5
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -196,6 +196,10 @@
   },
   "active": "63281a61a16af840",
   "lastOpenFiles": [
+    "05_Aleatorios/TCC/1_Mimo.md",
+    "05_Aleatorios/TCC/1_MimoMetodologia.md",
+    "05_Aleatorios/TCC/2_Atv01 PPCT.md",
+    "05_Aleatorios/TCC/3_Seminario01 PPCT.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/11_Conjunções coordenativas.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/12_Conjunções subordinativas P1.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/14_Conjunções.png",
@@ -215,11 +219,7 @@
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/2_Estrutura dos documentos.md",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução.md",
     "05_Aleatorios/TCC/4_Ideia de possível metodologia.md",
-    "01_Concursos/TI/05_Engenharia de Software/99_Passo a passo criação de uma aplicação.md",
-    "05_Aleatorios/TCC/2_Atv01 PPCT.md",
-    "05_Aleatorios/TCC/3_Seminario01 PPCT.md",
     "02_Conhecimentos TI/5_web1/2_CSS/5_Formulário.md",
-    "05_Aleatorios/TCC/1_Mimo.md",
     "02_Conhecimentos TI/5_web1/1_HTML/3_HTML Semântico.md",
     "02_Conhecimentos TI/5_web1/1_HTML/2_Listas e tabelas.md",
     "02_Conhecimentos TI/5_web1/1_HTML/1_Introdução.md",

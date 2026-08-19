@@ -1,5 +1,7 @@
 
 
+
+
 ---
 ### **1. Engenharia de Requisitos**
 
@@ -44,9 +46,24 @@ Define-se o protocolo e o contrato de como os módulos do sistema e as integraç
 ---
 ### **3. Construção e garantia de qualidade**
 
-Geralmente, inicia-se pela implementação da lógica de negócios e da infraestrutura de dados (Backend), seguida pelo consumo dessas informações pelo Frontend. 
+- **Desenvolvimento de Backend e Qualidade de Código:** Foca na aplicação dos princípios SOLID, Object Calisthenics e boas práticas. Irei utilizarTDD. Depois irei calcular métricas de complexidade. Existem algumas ferramentas para isso.
+    
+- **Integrações Complexas:** O chat direto e o "Diário de Estadia" permite explorar a implementação de protocolos de comunicação bidirecional em tempo real, como WebSockets, e o gerenciamento de filas de processamento para o upload assíncrono de fotos e vídeos.
+    
+- **Garantia de Qualidade de Software (Testes):** Estruturar uma suíte de testes automatizados. O documento detalhará a implementação de testes unitários para isolar e validar as regras de negócio da API e testes de integração e interface (instrumentação) para validar o comportamento dos componentes nativos no ambiente Android.
+    
+- **Análise de Desempenho e Resultados:** Validar o projeto por meio da coleta de métricas de software. A monografia final apresentará análises do tempo de resposta dos endpoints da API, a latência na transmissão de mensagens do chat e a eficiência do uso de memória do aplicativo móvel nos dispositivos finais.
 
-A garantia de qualidade ocorre paralelamente e logo após a construção de cada incremento do software. Esta macroetapa engloba a aplicação das rotinas de testes para garantir que a funcionalidade recém-criada opera sem erros e não quebra o código preexistente (regressão). 
+
+---
+ 
+ **Justificativa versao web**
+
+- Uma aplicação web responsiva já permite que tanto clientes com pcs como cleintes mobile consigam acessar sem necessidade de donwload. E como é um MVP inicalmente
+
+- O desenvolvimento de um cliente web força o isolamento da lógica de negócios. A arquitetura "API-First". Em uma evolução futura, o aplicativo móvel nativo atuará apenas como um segundo cliente consumindo os mesmos recursos web.
+
+
 
 ---
 ### 4. Implantação e Análise de Métricas
@@ -58,19 +75,12 @@ A última macroetapa consiste em retirar o software do ambiente de desenvolvimen
 ### 5. Assuntos importantes a serem considerados
 
 >[!tip]
-**A armadilha do planejamento excessivo:** tentar prever tudo em um escopo fechado leva ao fracasso. O ideal é focar em uma **versão mínima viável (MVP)** que possa ir ao ar rapidamente (2 a 4 meses), permitindo ajustar o produto com base no feedback real dos usuários.
+**A armadilha do planejamento excessivo:** tentar prever tudo em um escopo fechado leva ao fracasso. O ideal é focar em uma MVP que possa ir ao ar rapidamente (2 a 4 meses), permitindo ajustar o produto com base no feedback real dos usuários.
 
 >[!tip]
 >Software não acaba: manutenção, atualização, sistema de suporte, atendimento....
-#### 5.1 Integração com ERP (Enterprise Resource Planning)
-Um ERP é um sistema de software corporativo centralizado que visa unificar e gerenciar os processos operacionais vitais de uma empresa em um único banco de dados. Isso abrange módulos de contabilidade, recursos humanos, controle de estoque, logística, vendas e faturamento.  A integração com um ERP ocorre quando um software externo (como um app móvel) é programado para se comunicar diretamente com o ERP da empresa. 
-
-- **Exemplo:** Um app de prestação de serviços registra a conclusão de um trabalho. Ele envia os dados do serviço prestado ao módulo financeiro do ERP, que automaticamente gera a nota fiscal eletrônica e registra a previsão de recebimento no fluxo de caixa da empresa, sem necessidade de digitação humana.
-#### 5.2 Integração com Backoffice
+#### 5.1 Integração com Backoffice
 Refere-se a toda a **estrutura administrativa e operacional interna** de uma empresa que não possui contato direto com o cliente final. Enquanto o Frontoffice compreende as interfaces de usuário, o Backoffice engloba os setores e sistemas utilizados por funcionários internos para manter a empresa funcionando, como o setor de suporte técnico, processamento de pedidos, análise de crédito e TI. O próprio ERP é, frequentemente, o principal software utilizado.
-
-**Diferença**
-Backoffice é um conceito operacional, enquanto o ERP é um tipo específico de ferramenta de software corporativo.
 
 **Backoffice Integrado vs. Separado**
 Ambas as abordagens são aceitas na Engenharia de Software, mas possuem aplicações diferentes dependendo da escala do projeto.
@@ -83,6 +93,5 @@ Ambas as abordagens são aceitas na Engenharia de Software, mas possuem aplicaç
 - **Auditoria de Estadias:** A área operacional de suporte e intervenção técnica. Em casos de emergências veterinárias ou quebras de acordo de serviço, o administrador precisa acessar um painel com o histórico integral de ações. Isso inclui a auditoria do registro diário de estadia e o acesso ao registro de comunicação entre o tutor e o cuidador para mediar a situação com embasamento em dados.
 - **Moderação do Sistema de Reputação**: A plataforma exige uma ferramenta para gerenciar as avaliações bidirecionais (as notas que os tutores dão aos cuidadores e vice-versa). A operação de backoffice consiste em auditar denúncias e ocultar comentários que contenham linguagem ofensiva ou fraudulenta, mantendo a integridade da pontuação pública dos usuários.
 - **Suspensão e Banimento de Contas**: Uma operação de segurança sistêmica. Em casos de violação grave dos termos de serviço (como negligência por parte do cuidador ou inadimplência do tutor), o sistema de backoffice deve permitir o congelamento imediato dos perfis, impedindo novos logins e bloqueando a criação de novas contas com as mesmas credenciais.
-
 
 
