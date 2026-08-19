@@ -44,35 +44,21 @@ Define-se o protocolo e o contrato de como os módulos do sistema e as integraç
 >- Protótipo 
 
 ---
-### **3. Construção e garantia de qualidade**
+### **3. Construção, garantia de qualidade e análises**
 
 - **Desenvolvimento de Backend e Qualidade de Código:** Foca na aplicação dos princípios SOLID, Object Calisthenics e boas práticas. Irei utilizarTDD. Depois irei calcular métricas de complexidade. Existem algumas ferramentas para isso.
     
 - **Integrações Complexas:** O chat direto e o "Diário de Estadia" permite explorar a implementação de protocolos de comunicação bidirecional em tempo real, como WebSockets, e o gerenciamento de filas de processamento para o upload assíncrono de fotos e vídeos.
     
-- **Garantia de Qualidade de Software (Testes):** Estruturar uma suíte de testes automatizados. O documento detalhará a implementação de testes unitários para isolar e validar as regras de negócio da API e testes de integração e interface (instrumentação) para validar o comportamento dos componentes nativos no ambiente Android.
-    
-- **Análise de Desempenho e Resultados:** Validar o projeto por meio da coleta de métricas de software. A monografia final apresentará análises do tempo de resposta dos endpoints da API, a latência na transmissão de mensagens do chat e a eficiência do uso de memória do aplicativo móvel nos dispositivos finais.
+- **Análise de Desempenho:** Validar o projeto por meio da coleta de métricas de software. Como, análises do tempo de resposta dos endpoints da API, a latência na transmissão de mensagens do chat.
 
-
----
  
  **Justificativa versao web**
-
-- Uma aplicação web responsiva já permite que tanto clientes com pcs como cleintes mobile consigam acessar sem necessidade de donwload. E como é um MVP inicalmente
-
+- Uma aplicação web responsiva já permite que tanto clientes com pcs e clientes mobile consigam acessar sem necessidade de donwload. E como é um MVP inicalmente.
 - O desenvolvimento de um cliente web força o isolamento da lógica de negócios. A arquitetura "API-First". Em uma evolução futura, o aplicativo móvel nativo atuará apenas como um segundo cliente consumindo os mesmos recursos web.
 
-
-
 ---
-### 4. Implantação e Análise de Métricas
-
-A última macroetapa consiste em retirar o software do ambiente de desenvolvimento local e colocá-lo em um ambiente de produção. Aliado a isso, realiza-se a coleta de métricas de software (como o nível de complexidade ciclomática e a porcentagem de acoplamento do código final) para documentação.
-
-
----
-### 5. Assuntos importantes a serem considerados
+### 4. Assuntos importantes a serem considerados
 
 >[!tip]
 **A armadilha do planejamento excessivo:** tentar prever tudo em um escopo fechado leva ao fracasso. O ideal é focar em uma MVP que possa ir ao ar rapidamente (2 a 4 meses), permitindo ajustar o produto com base no feedback real dos usuários.
