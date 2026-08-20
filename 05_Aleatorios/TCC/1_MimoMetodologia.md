@@ -72,3 +72,7 @@ Define-se o protocolo e o contrato de como os módulos do sistema e as integraç
 
 ---
 
+Entrevistas estruturadas para Tutores e cuidadore (n precisa ser cuidadores que ja trabalham. "Se tal ferrramenta fosse desenvolvida, e vc se cadastrase para pretar serviços...")
+
+Foco em ES, foco nas regras de negócio, foco nos requisitos n funcionais. e, com a arquitetura, desenvolver algo que atinja essa meta.
+
