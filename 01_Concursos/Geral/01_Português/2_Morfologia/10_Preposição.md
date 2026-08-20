@@ -36,10 +36,8 @@ Palavras invariáveis encarregada de estabelecer uma conexão entre dois termos 
  - Extremeceu **com** a notícia (adj adv, causa)
  	![](../../../../attachments/Pasted%20image%2020260615190104.png)
 
-**Preposições acidentais**: Como identificar?
-1. A palavra em análise não pode sofrer flexão de gênero nem de número.
-- **O Critério do Elemento Conectado (A Regra de Ouro):** Este é o divisor de águas em provas de concursos. As preposições ligam **nomes** (substantivos, pronomes, adjetivos). As conjunções ligam **orações** (verbos). Para que uma palavra seja classificada como preposição acidental, o termo que vem imediatamente após ela não pode conter um verbo que inicie uma nova oração. Ela deve introduzir apenas um termo nominal (um adjunto ou um complemento).
-    
+**Preposições acidentais**: 
+
 - **Como**: Não inicia oração, possuindo o valor semântico de "na qualidade de". 
     - O servidor assumiu **como** diretor do departamento. 
 

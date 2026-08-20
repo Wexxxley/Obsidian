@@ -20,7 +20,6 @@ O ponto e vírgula nunca é obrigatório, ele sempre pode ser substituído.
 ![](../../../../attachments/Pasted%20image%2020260731141741.png)
 
 **2. Introduzem explicação, enumeração e esclarecimento.**
-
 ![](../../../../attachments/Pasted%20image%2020260731141952.png)
 
 ![](../../../../attachments/Pasted%20image%2020260731142334.png)
