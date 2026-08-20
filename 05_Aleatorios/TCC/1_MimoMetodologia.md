@@ -19,6 +19,23 @@ Criação do documento, eliminando ambiguidades.
 A validação do que foi especificado para garantir que a documentação reflete as necessidades.
 
 ---
+Meu objetivo nao vai ser validar a ideia (já foi validada na cadeira de empreendedorismo). A ideia é fazer uma elicitação de requisistos.
+
+**Stakeholders**: não se limita ao financiador do projeto. É qualquer pessoa, grupo ou entidade que afete direta ou indiretamente o sistema, ou que seja afetado por ele.
+- Usuários Finais Diretos.
+- Usuários Internos: O adms do sistema.
+- Stakeholders Tecnológicos: Sistemas de terceiros que integrarão com a plataforma, como gateways de pagamento ou serviços de envio de e-mail.
+- Idealizador: (nesse cass, EU) Papel de representante do negócio.
+
+O objetivo da engenharia de requisitos com os TUTORES é mapear como o tutor buscará a informação e como o sistema deverá processar essas requisições.
+- **Filtragem:** o tutor precisa filtrar cuidadores por geolocalização exata? porte do animal suportado? tipo de residência? disponibilidade em calendário.
+- **Fluxos de Confiança:** Quais informações são essenciais para que você tome a desição de escolher um cuidador? Antecedentes criminais? fotos do ambiente?
+
+É preciso estudar os protocolos de em caso de problemas. Quais são as ações imediatas caso o animal adoeça?
+- Encontrar pessoas que já façam esse trabalho de hospedar/cuidar de animais.
+- Análise de Sistemas Similares
+
+---
 ### 2. Design Arquitetural e Modelagem
 
 #### 2.1 Arquitetura
