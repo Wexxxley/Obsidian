@@ -68,3 +68,7 @@ Define-se o protocolo e o contrato de como os módulos do sistema e as integraç
  **Justificativa versao web**
 - Uma aplicação web responsiva já permite que tanto clientes com pcs e clientes mobile consigam acessar sem necessidade de donwload. E como é um MVP inicalmente.
 - O desenvolvimento de um cliente web força o isolamento da lógica de negócios (API-First). Em uma evolução futura, o aplicativo móvel nativo atuaria apenas como um segundo cliente consumindo a mesma api.
+
+
+---
+
