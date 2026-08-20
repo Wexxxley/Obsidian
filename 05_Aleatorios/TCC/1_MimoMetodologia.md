@@ -18,6 +18,9 @@ Criação do documento, eliminando ambiguidades.
 #### 1.4 Validação de Requisitos
 A validação do que foi especificado para garantir que a documentação reflete as necessidades.
 
+>[!tip]
+Para regras de negócio complexas seria interessante criar diagramas de atividades.
+
 ---
 Meu objetivo nao vai ser validar a ideia (já foi validada na cadeira de empreendedorismo). A ideia é fazer uma elicitação de requisistos.
 
