@@ -78,7 +78,7 @@ App mobile. 9:16
 	- **Resumo Rápido:** "Venda de R$ 150,00 finalizada com sucesso!".
 	- Botão voltar para tela inicial.
 
-![](../attachments/Pasted%20image%2020260324143128.png)
+![](../../attachments/Pasted%20image%2020260324143128.png)
 
 ### **3. Tela de Produtos**
 
@@ -210,7 +210,7 @@ Para suportar essa interface no banco de dados SQLite (Room), a lógica deve seg
         
 
 
-![300](../attachments/Pasted%20image%2020260324090925.png)
-![300](../attachments/Pasted%20image%2020260324090952.png)
-![](../attachments/Pasted%20image%2020260324091025.png)
-![300](../attachments/Pasted%20image%2020260324090812.png)
+![300](../../attachments/Pasted%20image%2020260324090925.png)
+![300](../../attachments/Pasted%20image%2020260324090952.png)
+![](../../attachments/Pasted%20image%2020260324091025.png)
+![300](../../attachments/Pasted%20image%2020260324090812.png)

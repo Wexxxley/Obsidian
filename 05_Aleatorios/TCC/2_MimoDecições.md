@@ -25,3 +25,28 @@ No ordenamento jurídico brasileiro, ao receber o animal, o cuidador e o tutor f
 - Como o cuidador assume a responsabilidade civil e criminal, a plataforma não pode permitir perfis não verificados. A arquitetura de software deve exigir o envio de frente e verso do RG/CNH e uma foto do rosto. O sistema valida essas informações (manualmente no Backoffice ou via APIs de terceiros) antes de mudar o status do usuário para `APROVADO`.      
 - O sistema deve armazenar as fotos, as mensagens do chat e os registros de horários de forma estruturada. Se o cuidador alegar que o cachorro fugiu por acidente, a frequência das atualizações e as imagens do portão/casa servirão como prova para determinar se houve negligência.
 - Em caso de denúncia de fuga, roubo ou agressão, o sistema aciona automaticamente o bloqueio dos valores. O montante pago pelo tutor permanece retido na subconta do gateway de pagamento, impedindo que o cuidador receba o lucro do serviço até que a investigação seja encerrada.
+
+---
+### 4. Assuntos importantes a serem considerados
+
+>[!tip]
+**A armadilha do planejamento excessivo:** tentar prever tudo em um escopo fechado leva ao fracasso. O ideal é focar em uma MVP que possa ir ao ar rapidamente (2 a 4 meses), permitindo ajustar o produto com base no feedback real dos usuários.
+
+>[!tip]
+>Software não acaba: manutenção, atualização, sistema de suporte, atendimento....
+#### 5.1 Integração com Backoffice
+Refere-se a toda a **estrutura administrativa e operacional interna** de uma empresa que não possui contato direto com o cliente final. Enquanto o Frontoffice compreende as interfaces de usuário, o Backoffice engloba os setores e sistemas utilizados por funcionários internos para manter a empresa funcionando, como o setor de suporte técnico, processamento de pedidos, análise de crédito e TI. O próprio ERP é, frequentemente, o principal software utilizado.
+
+**Backoffice Integrado vs. Separado**
+Ambas as abordagens são aceitas na Engenharia de Software, mas possuem aplicações diferentes dependendo da escala do projeto.
+- **Backoffice Integrado:** Abordagem ideal para MVPs e sistemas de pequeno a médio porte. O painel administrativo e a interface do cliente operam na mesma base de código, acessando o mesmo banco de dados. A separação ocorre pelo perfil de usuário.      
+- **Backoffice Separado:** É a recomendação arquitetural padrão para sistemas de grande escala. O painel interno é construído como uma aplicação isolada, operando em servidores distintos e comunicando-se com o núcleo do sistema apenas através de rotas de API fechadas. A vantagem é o isolamento de falhas e a mitigação de ataques diretos
+
+**Por exemplo, para a plataforma mimo**
+- **Triagem de Cuidadores**: A operação mais crítica para garantir a confiança na plataforma. O administrador necessit+a de uma interface dedicada para analisar, aprovar ou rejeitar as documentações legais e os dados de contato submetidos pelos candidatos a cuidadores.
+- **Gestão Transacional:** O backoffice deve monitorar o ciclo de vida dos pagamentos. Isso abrange a visualização dos valores retidos durante o agendamento, o processamento de estornos em caso de cancelamentos e a liberação formal do repasse financeiro para a conta bancária do cuidador após a conclusão da hospedagem ou do passeio.
+- **Auditoria de Estadias:** A área operacional de suporte e intervenção técnica. Em casos de emergências veterinárias ou quebras de acordo de serviço, o administrador precisa acessar um painel com o histórico integral de ações. Isso inclui a auditoria do registro diário de estadia e o acesso ao registro de comunicação entre o tutor e o cuidador para mediar a situação com embasamento em dados.
+- **Moderação do Sistema de Reputação**: A plataforma exige uma ferramenta para gerenciar as avaliações bidirecionais (as notas que os tutores dão aos cuidadores e vice-versa). A operação de backoffice consiste em auditar denúncias e ocultar comentários que contenham linguagem ofensiva ou fraudulenta, mantendo a integridade da pontuação pública dos usuários.
+- **Suspensão e Banimento de Contas**: Uma operação de segurança sistêmica. Em casos de violação grave dos termos de serviço (como negligência por parte do cuidador ou inadimplência do tutor), o sistema de backoffice deve permitir o congelamento imediato dos perfis, impedindo novos logins e bloqueando a criação de novas contas com as mesmas credenciais.
+
+

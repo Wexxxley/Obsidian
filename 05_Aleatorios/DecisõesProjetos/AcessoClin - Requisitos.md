@@ -111,7 +111,7 @@ Sugestao
 		- Pedro Arthur: Comunicador
 		- Vinicius: Construtor
 		- Kauã: Construtor
-   ![](../attachments/Pasted%20image%2020260409105440.png)
+   ![](../../attachments/Pasted%20image%2020260409105440.png)
    
 - **Diagnóstico do Problema:** Através da Árvore de Problemas
 

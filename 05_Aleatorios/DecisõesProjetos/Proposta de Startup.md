@@ -73,10 +73,10 @@ Como você planeja lidar no nível do sistema caso o cuidador descumpra as janel
 
 
 	Talvez uma assinatura semestral seja util para quem viaja pouco.
-![](../attachments/Pasted%20image%2020260509172604.png)
+![](../../attachments/Pasted%20image%2020260509172604.png)
 
 
-![](../attachments/Pasted%20image%2020260509173229.png)
+![](../../attachments/Pasted%20image%2020260509173229.png)
 
 ---
 

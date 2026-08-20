@@ -13,7 +13,7 @@ Sua responsabilidade inclui o registro de **marcas**, concessão de **patentes**
 **Portal do INPI:** [gov.br/inpi](https://www.gov.br/inpi/pt-br).
 **Download da RPI:** https://revistas.inpi.gov.br/rpi/
 
-![450](../attachments/Pasted%20image%2020260330072438.png)
+![450](../../attachments/Pasted%20image%2020260330072438.png)
 
 **Pedidos de Registro de Marca em Andamento**
 - **Publicação de pedido para oposição:** O marco inicial onde o pedido se torna público. Abre-se o prazo legal de 60 dias para que terceiros contestem o registro.

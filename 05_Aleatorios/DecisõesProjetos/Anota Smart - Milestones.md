@@ -95,7 +95,7 @@ Ref: SaleItem.saleId > Sale.id
 Ref: SaleItem.productId > Product.id
 Ref: Installment.saleId > Sale.id
 
-![](../attachments/Pasted%20image%2020260412173414.png)
+![](../../attachments/Pasted%20image%2020260412173414.png)
 
 **1. Ocorrência de Venda Fiada (A Prazo):** No momento em que a venda é registrada como fiado, o sistema gera as instâncias de `InstallmentEntity`. Nesse momento, o `statusParcela` é definido como `PENDENTE`, a `dataPagamento` é nula e o `metodoPagamento` também é nulo. A dívida existe formalmente no sistema, mas a liquidação ainda não ocorreu.
 
