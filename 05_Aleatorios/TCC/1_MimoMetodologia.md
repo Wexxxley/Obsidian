@@ -34,10 +34,6 @@ O objetivo da engenharia de requisitos com os TUTORES é mapear como o tutor bus
 - **Filtragem:** o tutor precisa filtrar cuidadores por geolocalização exata? porte do animal suportado? tipo de residência? disponibilidade em calendário.
 - **Fluxos de Confiança:** Quais informações são essenciais para que você tome a desição de escolher um cuidador? Antecedentes criminais? fotos do ambiente?
 
-É preciso estudar os protocolos de em caso de problemas. Quais são as ações imediatas caso o animal adoeça?
-- Encontrar pessoas que já façam esse trabalho de hospedar/cuidar de animais.
-- Análise de Sistemas Similares
-
 ---
 ### 2. Design Arquitetural e Modelagem
 
