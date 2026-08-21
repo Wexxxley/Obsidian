@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Aleatorios/TCC/1_MimoMetodologia.md",
+                "file": "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_MimoMetodologia"
+              "title": "1_Conceitos iniciais"
             }
           }
         ]
@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5,
+    "width": 229.16926193237305,
     "collapsed": true
   },
   "right": {
@@ -197,6 +197,9 @@
   },
   "active": "63281a61a16af840",
   "lastOpenFiles": [
+    "05_Aleatorios/TCC/2_MimoDecições.md",
+    "05_Aleatorios/TCC/1_MimoMetodologia.md",
+    "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
     "02_Conhecimentos TI/11_Segurança/1_.md",
     "05_Aleatorios/DecisõesProjetos/Blocos obsidian.md",
     "02_Conhecimentos TI/07_Segurança 1",
@@ -207,9 +210,7 @@
     "05_Aleatorios/DecisõesProjetos",
     "05_Aleatorios/DecisõesProjetos/AcessoClin - wireframe.md",
     "05_Aleatorios/DecisõesProjetos/AcessoClin - Requisitos.md",
-    "05_Aleatorios/TCC/2_MimoDecições.md",
     "05_Aleatorios/TCC/3_Seminario01 PPCT.md",
-    "05_Aleatorios/TCC/1_MimoMetodologia.md",
     "05_Aleatorios/TCC/4_Ideia de possível metodologia.md",
     "05_Aleatorios/TCC/2_Atv01 PPCT 1.md",
     "05_Aleatorios/TCC/2_Atv01 PPCT.md",
@@ -235,7 +236,6 @@
     "01_Concursos/Geral/01_Português/2_Morfologia/12_Conjunções subordinativas P1.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/8_Orações coordenadas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/12_Orações reduzidas.md",
-    "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/Untitled.canvas",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial",
     "01_Concursos/Geral/01_Português/7_Redação/1_Dissertativa Argumentativa",
