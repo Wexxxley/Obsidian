@@ -71,3 +71,4 @@ Um testador precisa ser:
 3. **De melhoria/perfectiva:** melhorias requeridas pelos usuários.
 4. **Preventiva/de reengenharia:** Abordagem pró-ativa com foco na melhoria da manutibilidade
 
+
