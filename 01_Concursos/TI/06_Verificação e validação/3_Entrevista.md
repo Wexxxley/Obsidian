@@ -1,95 +1,41 @@
 
 
 ---
-### Tópico 1: Coleta de Dados Clínicos e Preventivos
+## 1. Com tutores
 
-O objetivo deste bloco é definir a Modelagem de Dados inicial. Precisamos saber quais atributos devem existir na tabela referente ao perfil do animal no banco de dados para evitar problemas antes que eles ocorram.
+### 1.1 Contextualização do Cenário Atual
 
-  
+- Quando você precisa se ausentar e não pode levar o seu pet, qual é a alternativa que você mais utiliza atualmente?
+    
+- Quais são as principais dificuldades logísticas ou operacionais que você enfrenta com essa alternativa atual?
+    
+- Como você descreveria o perfil do seu animal em relação à sociabilidade com pessoas estranhas, interação com outros animais e nível de energia? 
+### 1.2 Coleta de Dados Clínicos e Preventivos
 
-- Como você organiza e compartilha as informações de saúde do seu pet (carteira de vacinação, histórico de doenças, alergias) quando precisa deixá-lo com terceiros?
+- Existe alguma restrição comportamental do seu pet ou algum problema de saúde crônico que o sistema deve exibir como um alerta antes que um cuidador aceite a reserva?
     
-      
+- O seu pet faz uso de alguma medicação de uso contínuo? Se sim, você consideraria útil que o sistema possuísse uma funcionalidade de "Alarme de Medicação" para notificar o cuidador nos horários exatos definidos por você?
+    - Parra o match entre pet e cuidador.
     
-- Se o aplicativo exigisse o preenchimento de uma Ficha Clínica Digital obrigatória antes de confirmar qualquer reserva, quais campos de informação você considera essenciais que o cuidador tenha acesso imediato?
-    
-      
-    
-- Existe alguma restrição comportamental do seu pet (como agressividade com outros animais ou medo de ruídos altos) que o sistema deveria alertar obrigatoriamente ao cuidador antes de ele aceitar o serviço?
-    
-      
-    
+- Quais itens pertencentes ao pet (como ração, brinquedos específicos, caminha) geralmente precisam acompanhá-lo? 
+	- Para um checklist digital de "Check-in" e "Check-out".
+### 1.3 Fluxos de Emergência Médica
 
-### Tópico 2: Fluxos de Emergência Médica (Doenças Naturais)
+- Em um cenário hipotético onde seu pet apresenta um problema de saúde durante a hospedagem, como você gostaria de ser notificado? (alerta no aplicativo, SMS, ligação do cuidador)
+    
+- Se a notificação inicial não for respondida, qual deve ser o protocolo padrão do aplicativo? O sistema deve orientar o cuidador a levar o animal exclusivamente à clínica veterinária previamente cadastrada no perfil do pet, ou autorizar o deslocamento para a clínicamais próxima?
 
-Este bloco visa definir os Requisitos Funcionais de notificação e os fluxos de contingência do sistema (Máquina de Estados), determinando como a aplicação deve se comportar quando o animal adoecer.
+- O aplicativo deve exigir que o cuidador registre fotos ou vídeos curtos do animal apresentando os sintomas físicos antes de autorizar formalmente a ida ao veterinário?
 
-  
+- Em caso de doença natural, se o cuidador levar o pet ao veterinário e custear com o próprio bolso, você teria problema em reembolsá-lo? Você gostaria de estabelecer um "Teto de Gastos Pré-Aprovado" para emergências?
+### 1.4 Gestão de Riscos Críticos 
 
-- Em um cenário hipotético onde seu pet apresenta um problema de saúde súbito durante a hospedagem, qual seria o canal e o formato de notificação (alerta no aplicativo, SMS, ligação automatizada) que você consideraria adequado para uma emergência?
-    
-      
-    
-- Caso você esteja viajando para um local sem área de cobertura e não possa responder à notificação do aplicativo imediatamente, qual é a sua expectativa sobre a ação do cuidador? O sistema deve autorizá-lo a levar o pet ao seu veterinário cadastrado ou ao mais próximo?
-    
-      
-    
-- Como você espera que o aplicativo intermedeie a comprovação de gastos com veterinários de urgência (como o anexo de notas fiscais) para que você realize o reembolso do cuidador posteriormente?
-    
-      
-    
+- Para que você se sinta resguardado juridicamente em caso de negligência ou maus-tratos, quais evidências você espera que o aplicativo armazene durante a estadia (exemplo: fotos, marcação exata de horário e localização no aplicativo)?
+### 1.4 Diário de Estadia e Expectativas de Monitoramento
+- Durante o período em que estiver ausente, com qual frequência diária mínima você exige que o cuidador alimente o sistema com fotos, vídeos?
+-  Caso o cuidador fique offline ou atrase o envio das atualizações no tempo que foi combinado, o que você acha que deveria acontecer?    
+- Quais mecanismos/características você acha que o sistema precisa ter para passar confiança? E em relação ao cuidador, quais informações deixariam você mais tranquilo?
+	
+- Caso contrate o serviço, você teria problema em entregar o pet na casa do cuidador? Você gostaria de negociar com o cuidador para ele ir buscar o pet?
 
-### Tópico 3: Gestão de Riscos Críticos (Fugas, Maus-tratos e Acidentes)
-
-Aqui, o objetivo é eliciar requisitos relacionados à Trilha de Auditoria (registro imutável de ações) e às ferramentas de contenção de danos que o seu painel de administração (Backoffice) precisará fornecer.
-
-  
-
-- Considerando a possibilidade de uma falha grave do cuidador, como a fuga do animal, quais ferramentas de suporte imediato você exigiria que o aplicativo disponibilizasse (exemplo: botão de SOS, bloqueio imediato do repasse financeiro ao cuidador)?
-    
-      
-    
-- Para que você se sinta resguardado juridicamente em caso de negligência ou maus-tratos, quais evidências você espera que o aplicativo armazene durante a estadia (exemplo: frequência obrigatória de fotos, marcação exata de horário e localização no aplicativo)?
-    
-      
-    
-- Se houvesse um desentendimento grave ou quebra de confiança com o cuidador durante o meio da viagem, qual tipo de intervenção ou assistência você esperaria da equipe de suporte técnico da plataforma?
-    
-      
-    
-
-### Tópico 4: O "Diário de Estadia" e Expectativas de Monitoramento
-
-Este tópico foca em extrair Requisitos Não Funcionais, como desempenho e tempo de resposta, além de detalhar a funcionalidade principal da sua aplicação.
-
-  
-
-- Durante o período em que estiver ausente, com qual frequência diária mínima você exige que o cuidador alimente o sistema com fotos, vídeos ou marcações de rotina (alimentação, passeios)?
-    
-      
-    
-- Caso o cuidador fique offline ou atrase o envio das atualizações no tempo que foi combinado, quanto tempo de tolerância você consideraria aceitável antes de acionar um botão de alerta no aplicativo para notificar o suporte?
-    
-      
-    
-- Em relação ao chat do aplicativo, você considera necessário que o sistema acuse recibo de leitura das mensagens enviadas ao cuidador durante a hospedagem?
-    
-      
-    
-
-### Tópico 5: Formalização Legal e Delegação de Guarda
-
-Este bloco busca mapear as regras de aceite e os Termos de Serviço, definindo como o sistema formalizará a transação entre as partes de forma segura.
-
-  
-
-- Você estaria disposto a assinar um Termo de Responsabilidade Digital integrado ao aplicativo, onde o cuidador assume formalmente a responsabilidade civil pelo animal (como em casos de fuga ou acidentes sob os cuidados dele)?
-    
-      
-    
-- Quais mecanismos de segurança ou níveis de verificação de identidade (como análise de antecedentes criminais ou validação facial) o sistema precisaria apresentar para que você aceitasse repassar essa responsabilidade legal de forma tranquila?
-    
-      
-    
-
-Como você prefere registrar e organizar as respostas brutas dessas entrevistas para, posteriormente, realizar a extração e redação final dos requisitos do sistema?
+- Você teria problema em ter que disponibilizar o alimento do pet ao cuidador?

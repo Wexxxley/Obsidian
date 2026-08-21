@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.16926193237305
+    "width": 229.16926193237305,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
