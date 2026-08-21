@@ -61,23 +61,51 @@ Para fins acadêmicos pode-se utilizar um Mock. Detalhando que, em um ambiente d
 ---
 ### 6. Fluxo de Contratação
 
-A ideia é seguir o modelo Marketplace Orientado à Demanda.
+**A Interface do Tutor**: O sistema deve oferecer fluxos distintos para a contratação do serviço de hospedagem.
 
-**A Interface do Tutor**
-
-Na tela principal do tutor, o sistema deve oferecer fluxos distintos para a contratação do serviço de hospedagem.
-
-- **Opção A - Demanda Geral (Mural Aberto):** O tutor cria um "Card de Demanda" preenchendo um formulário estruturado. Ele informa o período exato (data e hora de entrega/retirada), o perfil detalhado do animal (espécie, porte, nível de energia, sociabilidade) e necessidades específicas (medicação, restrições alimentares). Opcionalmente, pode sugerir um valor base que está disposto a pagar. Este card é publicado em um feed público. Múltiplos cuidadores visualizam a vaga e enviam propostas (lances) com seus respectivos preços. O painel do tutor permite comparar os lances, analisar os perfis dos interessados e aceitar a oferta mais adequada.
+- **Opção A - Demanda Geral:** O tutor cria um "Card de Demanda" preenchendo um formulário estruturado. Ele informa o período exato (data e hora de entrega/retirada), o perfil detalhado do animal (espécie, porte, nível de energia, sociabilidade) e necessidades específicas (medicação, restrições alimentares). Opcionalmente, pode sugerir um valor base que está disposto a pagar. Este card é publicado em um feed público. Múltiplos cuidadores visualizam a vaga e enviam propostas (lances) com seus respectivos preços. O painel do tutor permite comparar os lances, analisar os perfis dos interessados e aceitar a oferta mais adequada.
     
 - **Opção B - Busca Ativa e Proposta Específica:** O tutor acessa um catálogo ou lista de busca para explorar proativamente os perfis dos cuidadores disponíveis na plataforma. O usuário utiliza filtros (como proximidade, tipo de animal aceito ou nota de avaliação) para encontrar um cuidador específico. Ao acessar o perfil desejado, o tutor clica em enviar uma "Proposta Direta". Esta solicitação é enviada de forma privada e exclusiva para aquele cuidador, que pode aceitar, recusar ou negociar o valor.
     
 **A Interface do Cuidador**
-
 - **Feed de Vagas Públicas:** A interface principal exibe os Cards de Demanda publicados pelos tutores. O cuidador utiliza filtros para visualizar apenas vagas compatíveis com seu perfil e envia suas ofertas de preço.
-    
 - **Caixa de Propostas Diretas:** Área dedicada para solicitações privadas. O cuidador recebe uma notificação isolada, analisa os dados do pet e do período, e responde.
-    
 - **Notificação:** O aplicativo utiliza notificações ativas (push notifications) para manter o cuidador engajado frente a novas oportunidades compatíveis.
-    
 - **Perfil do Cuidador:** Página que funciona como portfólio. Exibe foto validada, métricas de confiabilidade (nota média e número de serviços concluídos), tipos de animais que aceita, fotos do ambiente e avaliações em texto.
     
+
+---
+
+**7 . Dependencias e possíveis reusos**
+
+- SignalR pode ajudar a criar o chat (existem kists de design já prontos)
+
+
+Gateway de Pagamento e Split Financeiro
+Para implementar o modelo de custódia (Escrow) e reter a taxa da plataforma (Take Rate) sem ferir as regulamentações bancárias, o sistema não pode processar ou armazenar dados de cartão de crédito no próprio banco de dados (o que exigiria certificação PCI Compliance). A solução é integrar um provedor financeiro que gerencie contas digitais vinculadas aos cuidadores.
+- **Stripe Connect:** É o padrão global para arquiteturas de _Marketplace_. Ele fornece bibliotecas prontas em .NET para realizar requisições de pagamento, pré-autorização e estornos. O sistema permite configurar a regra exata de divisão de valores (Split), enviando a comissão para a conta principal da plataforma e retendo o valor sob custódia na subconta do cuidador.
+- **Pagar.me ou Mercado Pago:** São opções com documentação extensa focada no mercado brasileiro, oferecendo integrações nativas e facilitadas para transações via Pix com repasse financeiro automatizado.
+    
+      
+Armazenamento de Arquivos em Nuvem (Object Storage)
+O aplicativo exigirá o armazenamento de fotos de perfil dos usuários, fotos dos animais e os arquivos de mídia gerados no "Diário de Estadia". Salvar esses arquivos diretamente em um banco de dados relacional (como strings Base64) degrada o desempenho do sistema e encarece a hospedagem. O padrão arquitetural é enviar o arquivo para um servidor de objetos e salvar apenas a URL pública no seu banco de dados.
+- **Cloudinary:** É uma plataforma de gerenciamento de mídia que entrega uma API gratuita muito generosa. Além do armazenamento, ele realiza transformações de imagem em tempo real via URL (como cortar, comprimir e redimensionar imagens pesadas enviadas pelos cuidadores para não travar a interface web).
+- **Amazon S3 (AWS):** A infraestrutura de armazenamento mais utilizada no mundo. Exige a configuração do pacote `AWSSDK.S3` no seu projeto .NET, oferecendo controle absoluto sobre os arquivos, mas com uma curva de aprendizado maior para configuração de permissões de acesso.
+
+Serviços de Geolocalização e Geocodificação
+Para que o tutor consiga visualizar os cuidadores próximos, o sistema precisará traduzir endereços digitados em coordenadas matemáticas (Latitude e Longitude), um processo chamado geocodificação.
+
+- **ViaCEP:** Uma API pública e gratuita estruturada para buscar endereços no Brasil utilizando o CEP. Permite o preenchimento automático do formulário de cadastro, melhorando a experiência do usuário web.
+    
+- **Mapbox ou Google Maps API:** Utilizados tanto para renderizar o mapa visual na interface web quanto para calcular as distâncias exatas entre o tutor e o cuidador. O Mapbox, em específico, possui um nível gratuito amplo, sendo excelente para aplicações em fase de prototipagem acadêmica.
+    
+Bibliotecas Visuais (UI Component Libraries)
+
+Para a construção do frontend web, desenvolver botões, modais, calendários de seleção de datas e formulários do zero consumiria meses de trabalho. O reuso de código visual acelera a entrega do protótipo e garante uma interface limpa.
+- **Shadcn/UI ou Radix UI:** Caso esteja utilizando React no frontend, essas bibliotecas fornecem componentes pré-construídos com acessibilidade nativa. Elas entregam o código fonte do componente diretamente no seu projeto, permitindo customização total sem adicionar peso desnecessário na compilação.
+
+Sistemas de Mensageria e Notificação (Push)
+
+Como detalhado anteriormente, o envio de notificações em segundo plano para a versão web demanda serviços de intermediação entre o seu servidor e o navegador do usuário.
+
+- **Firebase Cloud Messaging (FCM):** O serviço padrão da indústria para o disparo de alertas em tempo real. O servidor .NET envia o comando contendo o texto da notificação para a API do FCM, e o Google se encarrega de rotear e entregar esse alerta visual ao navegador do cuidador, operando de forma totalmente gratuita.
