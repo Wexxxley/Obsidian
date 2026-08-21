@@ -49,4 +49,13 @@ Ambas as abordagens são aceitas na Engenharia de Software, mas possuem aplicaç
 - **Moderação do Sistema de Reputação**: A plataforma exige uma ferramenta para gerenciar as avaliações bidirecionais (as notas que os tutores dão aos cuidadores e vice-versa). A operação de backoffice consiste em auditar denúncias e ocultar comentários que contenham linguagem ofensiva ou fraudulenta, mantendo a integridade da pontuação pública dos usuários.
 - **Suspensão e Banimento de Contas**: Uma operação de segurança sistêmica. Em casos de violação grave dos termos de serviço (como negligência por parte do cuidador ou inadimplência do tutor), o sistema de backoffice deve permitir o congelamento imediato dos perfis, impedindo novos logins e bloqueando a criação de novas contas com as mesmas credenciais.
 
+---
+### **5. Antecedentes criminais**
 
+Existem diversas APIs no mercado que realizam a consulta de antecedentes criminais e a validação de identidade. Como a emissão de certidões criminais no Brasil é descentralizada (dividida entre Polícia Federal, Polícias Civis estaduais e diversos Tribunais de Justiça), existem softwares privados que automatizam essa varredura em órgãos públicos.
+
+A legislação brasileira classifica os antecedentes criminais, biometria e dados de saúde como **Dados Pessoais Sensíveis**.
+- O seu sistema não pode realizar a chamada para a API de antecedentes criminais sem que o cuidador saiba. A interface gráfica do aplicativo deve possuir uma tela com um aceite explícito onde o usuário autoriza a plataforma a coletar e consultar seus antecedentes criminais.
+- O banco de dados não deve armazenar os detalhes dos crimes ou processos que a API retornar. O correto é processar a aprovação ou rejeição na memória do servidor e armazenar no banco apenas o status da validação (Ex: `background_check_passed: true` e a data da checagem).
+
+Para fins acadêmicos pode-se utilizar um Mock. Detalhando que, em um ambiente de produção, aquele serviço simulado será substituído por uma API real.
