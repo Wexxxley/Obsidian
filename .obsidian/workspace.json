@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.16926193237305
+    "width": 317.5026054382324
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -193,11 +193,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63281a61a16af840",
+  "active": "0c52f17c64e87cbf",
   "lastOpenFiles": [
+    "05_Aleatorios/DecisõesProjetos/Proposta de Startup.md",
+    "05_Aleatorios/TCC/2_MimoDecições.md",
     "05_Aleatorios/TCC/3_Entrevista.md",
     "05_Aleatorios/TCC/1_MimoMetodologia.md",
-    "05_Aleatorios/TCC/2_MimoDecições.md",
     "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
     "01_Concursos/TI/06_Verificação e validação/3_/Untitled.base",
     "01_Concursos/TI/06_Verificação e validação/3_/Untitled.canvas",
@@ -222,7 +223,6 @@
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/10_Preposição.md",
     "05_Aleatorios/DecisõesProjetos/Atualizações na modelagem das entidades.md",
-    "05_Aleatorios/DecisõesProjetos/Proposta de Startup.md",
     "attachments/Pasted image 20260819115108.png",
     "attachments/Pasted image 20260819115001.png",
     "attachments/Pasted image 20260819114800.png",

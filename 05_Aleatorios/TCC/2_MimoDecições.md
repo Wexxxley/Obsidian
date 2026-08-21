@@ -58,3 +58,26 @@ A legislação brasileira classifica os antecedentes criminais, biometria e dado
 
 Para fins acadêmicos pode-se utilizar um Mock. Detalhando que, em um ambiente de produção, aquele serviço simulado será substituído por uma API real.
 
+---
+### 6. Fluxo de Contratação
+
+A ideia é seguir o modelo Marketplace Orientado à Demanda.
+
+**A Interface do Tutor**
+
+Na tela principal do tutor, o sistema deve oferecer fluxos distintos para a contratação do serviço de hospedagem.
+
+- **Opção A - Demanda Geral (Mural Aberto):** O tutor cria um "Card de Demanda" preenchendo um formulário estruturado. Ele informa o período exato (data e hora de entrega/retirada), o perfil detalhado do animal (espécie, porte, nível de energia, sociabilidade) e necessidades específicas (medicação, restrições alimentares). Opcionalmente, pode sugerir um valor base que está disposto a pagar. Este card é publicado em um feed público. Múltiplos cuidadores visualizam a vaga e enviam propostas (lances) com seus respectivos preços. O painel do tutor permite comparar os lances, analisar os perfis dos interessados e aceitar a oferta mais adequada.
+    
+- **Opção B - Busca Ativa e Proposta Específica:** O tutor acessa um catálogo ou lista de busca para explorar proativamente os perfis dos cuidadores disponíveis na plataforma. O usuário utiliza filtros (como proximidade, tipo de animal aceito ou nota de avaliação) para encontrar um cuidador específico. Ao acessar o perfil desejado, o tutor clica em enviar uma "Proposta Direta". Esta solicitação é enviada de forma privada e exclusiva para aquele cuidador, que pode aceitar, recusar ou negociar o valor.
+    
+**A Interface do Cuidador**
+
+- **Feed de Vagas Públicas:** A interface principal exibe os Cards de Demanda publicados pelos tutores. O cuidador utiliza filtros para visualizar apenas vagas compatíveis com seu perfil e envia suas ofertas de preço.
+    
+- **Caixa de Propostas Diretas:** Área dedicada para solicitações privadas. O cuidador recebe uma notificação isolada, analisa os dados do pet e do período, e responde.
+    
+- **Notificação:** O aplicativo utiliza notificações ativas (push notifications) para manter o cuidador engajado frente a novas oportunidades compatíveis.
+    
+- **Perfil do Cuidador:** Página que funciona como portfólio. Exibe foto validada, métricas de confiabilidade (nota média e número de serviços concluídos), tipos de animais que aceita, fotos do ambiente e avaliações em texto.
+    
