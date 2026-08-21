@@ -6,9 +6,7 @@
 
 - **Estados da Transação:** O banco de dados precisará gerenciar um ciclo de vida para os pedidos (ex: `CRIADO`, `PAGO_RETIDO`, `EM_ANDAMENTO`, `CONCLUIDO_LIBERADO`, `ESTORNADO`).
     
-- **Rotinas de Webhooks e Resiliência:** A plataforma deve implementar endpoints para escutar eventos assíncronos enviados pelo gateway (confirmação de pagamento, falhas de repasse e liquidações), garantindo que o status no banco de dados esteja sempre sincronizado.
-    
-- **Tratamento de Exceções e Mediação:** O módulo de Backoffice precisará de ferramentas para desbloqueio manual ou estorno caso ocorra uma contestação ou disputa entre o tutor e o cuidador.
+- A plataforma deve implementar endpoints para escutar eventos assíncronos enviados pelo gateway (confirmação de pagamento, falhas de repasse, etc), garantindo que o status no banco de dados esteja sincronizado.
 ### 2. Responsabilidade legal do cuidador 
 
 No ordenamento jurídico brasileiro, ao receber o animal, o cuidador e o tutor firmam um "Contrato de Depósito". A plataforma atua apenas como intermediadora de tecnologia e pagamentos. Ao assumir a posse do animal, o cuidador torna-se o guardião temporário, assumindo a responsabilidade civil e criminal por danos, fugas ou negligência, enquanto o tutor mantém a responsabilidade por condições de saúde naturais e preexistentes.

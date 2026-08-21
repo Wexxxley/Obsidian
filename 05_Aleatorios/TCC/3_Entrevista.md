@@ -20,18 +20,17 @@ O objetivo dessa conversa é entender as suas reais necessidades, preocupações
 - Quais barreiras você teria para contratar esse tipo de serviço?
 ### 1.2 Coleta de Dados Clínicos e Preventivos
 
-- Existe alguma restrição comportamental do seu pet ou algum problema de saúde crônico que o sistema deve exibir como um alerta antes que um cuidador aceite a reserva?
+- Existe alguma restrição comportamental do seu pet ou algum problema de saúde  que o sistema deve exibir como um alerta antes que um cuidador aceite a reserva?
     
 - O seu pet faz uso de alguma medicação de uso contínuo? Se sim, você consideraria útil que o sistema possuísse uma funcionalidade de "Alarme de Medicação" para notificar o cuidador nos horários exatos definidos por você?
     - Parra o match entre pet e cuidador.
     
-- Quais itens pertencentes ao pet (como ração, brinquedos específicos, caminha) geralmente precisam acompanhá-lo? 
-	- Para um checklist digital de "Check-in" e "Check-out".
+- Quais itens pertencentes ao pet geralmente precisam acompanhá-lo? (como ração, brinquedos, caminha) 
 ### 1.3 Fluxos de Emergência Médica
 
-- Em um cenário hipotético onde seu pet apresenta um problema de saúde durante a hospedagem, como você gostaria de ser notificado? (alerta no aplicativo, SMS, ligação do cuidador)
+- Em um cenário hipotético onde seu pet apresenta um problema de saúde durante a hospedagem, como você gostaria de ser notificado? (alerta no app, SMS, ligação)
     
-- Se a notificação inicial não for respondida, qual deve ser o protocolo padrão do aplicativo? O sistema deve orientar o cuidador a levar o animal exclusivamente à clínica veterinária previamente cadastrada no perfil do pet, ou autorizar o deslocamento para a clínicamais próxima?
+- Se a notificação inicial não for respondida? O sistema deve orientar o cuidador a levar o animal exclusivamente à clínica veterinária previamente cadastrada no perfil do pet, ou autorizar o deslocamento para a clínicamais próxima?
 
 - O aplicativo deve exigir que o cuidador registre fotos ou vídeos curtos do animal apresentando os sintomas físicos antes de autorizar formalmente a ida ao veterinário?
 
@@ -40,6 +39,7 @@ O objetivo dessa conversa é entender as suas reais necessidades, preocupações
 
 - Para que você se sinta resguardado juridicamente em caso de negligência ou maus-tratos, quais evidências você espera que o aplicativo armazene durante a estadia (exemplo: fotos, marcação exata de horário e localização no aplicativo)?
 ### 1.4 Diário de Estadia e Expectativas de Monitoramento
+
 - Durante o período em que estiver ausente, com qual frequência diária mínima você exige que o cuidador alimente o sistema com fotos, vídeos?
 
 - Caso contrate o serviço, você teria preferência por entregar o pet presencialmente na residência do cuidador para avaliar o ambiente, ou a plataforma deve permitir a negociação de uma taxa extra de transporte para o cuidador buscar o animal na sua residência?
@@ -49,13 +49,11 @@ O objetivo dessa conversa é entender as suas reais necessidades, preocupações
 - Você concorda que o sistema deve reter o pagamento ao cuidador até que você acesse o aplicativo e confirme o recebimento do pet em perfeitas condições?
 	- Recomendação: o cuidador deve lembrá-lo disso.
 
-- Quais características s sistema precisa exibir no perfil de um cuidador para que você sinta confiança suficiente para iniciar uma reserva? (avaliações, fotos do ambiente)
+- Quais características o sistema precisa exibir no perfil de um cuidador para que você sinta confiança suficiente para iniciar uma reserva? (avaliações, fotos do ambiente)
 
 - Quais mecanismos (fora os falados até então) você acha que a plataforma deve ter para passar máxima confiança?
 
-
 ---
-
 ## 2. Com cuidadores
 
 "Olá! Meu nome é Wesley, sou estudante de Ciência da Computação e estou conduzindo esta entrevista como parte do levantamento de dados para o meu Trabalho de Conclusão de Curso. Estou desenvolvendo a arquitetura e os requisitos técnicos de uma plataforma chamada Mimo, idealizado para conectar tutores de pets a cuidadores locais. O objetivo do sistema é modernizar e trazer segurança para o processo de hospedagem de animais.
