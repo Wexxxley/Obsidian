@@ -40,3 +40,5 @@ ping 192.168.1.1
 
 ![](../attachments/Pasted%20image%2020260822101510.png)
 ![](../attachments/Pasted%20image%2020260822101442.png)
+
+![](../attachments/Pasted%20image%2020260822121624.png)![](../attachments/Pasted%20image%2020260822121727.png)
