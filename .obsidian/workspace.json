@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Aleatorios/seg.md",
+                "file": "05_Aleatorios/TCC/3_Entrevista.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "seg"
+              "title": "3_Entrevista"
             }
           }
         ]
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5026054382324,
-    "collapsed": true
+    "width": 317.5026054382324
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -156,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05_Aleatorios/seg.md",
+                "file": "05_Aleatorios/TCC/3_Entrevista.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -197,16 +196,16 @@
   },
   "active": "63281a61a16af840",
   "lastOpenFiles": [
+    "05_Aleatorios/TCC/1_MimoMetodologia.md",
+    "05_Aleatorios/TCC/2_MimoDecições.md",
+    "05_Aleatorios/TCC/3_Entrevista.md",
+    "05_Aleatorios/seg.md",
     "attachments/Pasted image 20260822121727.png",
     "attachments/Pasted image 20260822121624.png",
     "attachments/Pasted image 20260822101510.png",
     "attachments/Pasted image 20260822101442.png",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução.md",
-    "05_Aleatorios/seg.md",
-    "05_Aleatorios/TCC/2_MimoDecições.md",
     "05_Aleatorios/DecisõesProjetos/Proposta de Startup.md",
-    "05_Aleatorios/TCC/3_Entrevista.md",
-    "05_Aleatorios/TCC/1_MimoMetodologia.md",
     "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
     "01_Concursos/TI/06_Verificação e validação/3_/Untitled.base",
     "01_Concursos/TI/06_Verificação e validação/3_/Untitled.canvas",
@@ -236,7 +235,6 @@
     "attachments/Pasted image 20260819104817.png",
     "attachments/Pasted image 20260819104700.png",
     "attachments/Pasted image 20260819103921.png",
-    "attachments/Pasted image 20260819103149.png",
     "05_Aleatorios/TCC/1_Mimo.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/11_Conjunções coordenativas.md",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/Untitled.canvas",

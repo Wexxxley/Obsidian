@@ -38,5 +38,3 @@ sudo ip link set enp0s3 up
 ping 192.168.1.1
 ```
 
-
-![](../attachments/Pasted%20image%2020260822121624.png)![](../attachments/Pasted%20image%2020260822121727.png)
