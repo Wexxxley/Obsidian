@@ -21,37 +21,22 @@ Possui dois ou mais núcleos.
 
 **Ligado por COM**
 - **Valor de adição:** Quando os termos possuem a mesma importância, formando um sujeito composto puro, o verbo flexiona para o plural.
-	- O rei e a rainha chegaram.
-    
-- **Com valor de companhia:** Quando o termo introduzido pela palavra "com" é isolado por pontuação, ele perde o status de núcleo do sujeito e assume a função restrita de adjunto adverbial de companhia. Nesse cenário, o verbo permanece incondicionalmente no singular para concordar de forma exclusiva com o primeiro termo. Na frase "O diretor, com o gerente, aprovou o orçamento", a ênfase da ação recai apenas sobre o diretor.
-    
-      
-    
+	- O rei com a rainha chegaram.
+- **Com valor de companhia:** Isolado por pontuação ou não. Função de adj adv de companhia. 
+	- O rei, com a rainha, chegou.
+	- O rei com a rainha chegou.    
 
-### Sujeito Composto ligado por "OU"
+**Ligado por OU**
+- **Exclusão ou retificação:** Concordância feita com o núcleo mais próximo.
+	- Wesley ou Júlio será o presidente do grupo.
+	- O coordenador ou os próprios alunos resolverão o impasse.
+	
+- **inclusão:** valor de E, adição.
+	- Frio ou calor extremo prejudicam o equipamento
 
-A conjunção alternativa "ou" exige a avaliação lógica do contexto da oração. A concordância verbal será regida pela capacidade de inclusão ou de exclusão mútua dos elementos.
-
-  
-
-- **Ideia de exclusão:** Se a ação verbal recair sobre apenas um dos núcleos, tornando impossível a participação simultânea do outro, o verbo flexiona para o singular. No caso de "João ou Marcos assumirá a diretoria", a concordância singular é obrigatória, pois há apenas um cargo disponível para duas pessoas.
+- **Sinonímia:** Se a conj conecta termos que representam mesma ideia o verbo fica no singular. 
+	- A morfologia ou o estudo das palavras exige dedicação.
     
-      
-    
-- **Ideia de inclusão:** Se o contexto lógico determinar que a ação abrange todos os elementos citados de forma conjunta, o verbo flexiona para o plural, assumindo valor aditivo. No caso de "Frio ou calor extremo prejudicam o equipamento", ambas as temperaturas causam o dano relatado.
-    
-      
-    
-- **Ideia de retificação:** Quando o segundo elemento atua para corrigir ou ajustar a informação do primeiro, a concordância verbal é feita estritamente com o núcleo mais próximo. Exemplo estrutural: "O coordenador ou os próprios alunos resolverão o impasse".
-    
-      
-    
-- **Ideia de sinonímia:** Quando a conjunção conecta dois termos que representam conceitualmente a mesma coisa (apresentando apenas nomenclaturas diferentes), o verbo permanece no singular. Exemplo estrutural: "A morfologia ou o estudo das palavras exige dedicação".
-    
-      
-    
-
-Você gostaria de analisar as regras de concordância verbal para quando o sujeito composto é formado pela mistura de pronomes de pessoas gramaticais diferentes (como "eu, tu e ele")?
 ### 3. Sujeito Oculto/Elíptico/Desidencial
 Não está explícito, mas pode ser identificado pela terminação do verbo ou pelo contexto anterior.
 - Viajamos ontem. -> NÓS
@@ -182,3 +167,15 @@ B) com que se afligem os antropólogos
 C) Não deve caber aos sociólogos isso CORRETA. 
 D) Aqueles que hão de pesquisa (haver como verbo aux)
 E) que se apresentam
+
+
+---
+
+![](../../../../attachments/Pasted%20image%2020260822163120.png)
+1 . chegaram cedo (suj composto). chegou cedo (adj adv de comp)
+2 . chegou cedo ( adj adv de companhia )
+3 . será ( ou exclusivo)
+4 . Fazem (sentido de e)
+![](../../../../attachments/Pasted%20image%2020260822164801.png)
+E) Portugal ou méxico será (exclusão)
+As outras são aditivas
