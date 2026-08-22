@@ -14,7 +14,7 @@ A Arquitetura de Von Neumann é o conceito teórico sobre o qual a maioria dos c
 3. **Sistemas de Entrada e Saída:** Dispositivos que permitem a interação com o externo.
 4. **Barramento:** Um barramento externo compartilahdo interligando os componentes.
 
-![](../../../attachments/Pasted%20image%2020260207131705.png)
+![](../../../../attachments/Pasted%20image%2020260207131705.png)
 **Ciclo de Instrução**:
 - **Fetch:** A CPU busca a próxima instrução na memória principal.
 - **Decode:** A UC interpreta o que aquela instrução pede.
@@ -28,7 +28,7 @@ A Arquitetura de Von Neumann é o conceito teórico sobre o qual a maioria dos c
 
 A Arquitetura de Harvard utiliza memórias e barramentos separados para dados e instruções. Isso permite que o processador leia uma instrução e acesse um dado simultaneamente, evitando o gargalo mencionado acima. Isso ==reduz significamente o gargalo de Von Neumann, mas encarece o sistema como um todo==.
 
-![](../../../attachments/Pasted%20image%2020260207131917.png)
+![](../../../../attachments/Pasted%20image%2020260207131917.png)
 
 
 ---
@@ -36,7 +36,7 @@ A Arquitetura de Harvard utiliza memórias e barramentos separados para dados e 
 
 O conceito de **Máquina Multinível** é uma abstração. Em vez de tentarmos ent ender o computador como um emaranhado de elétrons e portas lógicas, nós o dividimos em **camadas de abstração**. Cada nível utiliza os serviços do nível inferior e oferece funcionalidades para o nível superior.
 
-![500](../../../attachments/Pasted%20image%2020260207105956.png)
+![500](../../../../attachments/Pasted%20image%2020260207105956.png)
 **Nível 5 -** Linguagens de alto nível.
 **Nível 4 -** Linguagem de montagem. Tradução mnemônica do código de máquina.
 **Nível 3 -** Gerencia recursos.

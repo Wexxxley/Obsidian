@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Aleatorios/TCC/2_MimoDecições.md",
+                "file": "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_MimoDecições"
+              "title": "1_Introdução"
             }
           }
         ]
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05_Aleatorios/TCC/2_MimoDecições.md",
+                "file": "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -193,10 +193,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c52f17c64e87cbf",
+  "active": "63281a61a16af840",
   "lastOpenFiles": [
-    "05_Aleatorios/DecisõesProjetos/Proposta de Startup.md",
     "05_Aleatorios/TCC/2_MimoDecições.md",
+    "05_Aleatorios/DecisõesProjetos/Proposta de Startup.md",
     "05_Aleatorios/TCC/3_Entrevista.md",
     "05_Aleatorios/TCC/1_MimoMetodologia.md",
     "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
