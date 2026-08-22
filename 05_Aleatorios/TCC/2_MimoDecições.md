@@ -78,34 +78,27 @@ Para fins acadêmicos pode-se utilizar um Mock. Detalhando que, em um ambiente d
 
 **7 . Dependencias e possíveis reusos**
 
-- SignalR pode ajudar a criar o chat (existem kists de design já prontos)
+- SignalR pode ajudar a criar o chat (existem kits de design já prontos)
 
 
-Gateway de Pagamento e Split Financeiro
+**Gateway de Pagamento e Split Financeiro**
 Para implementar o modelo de custódia (Escrow) e reter a taxa da plataforma (Take Rate) sem ferir as regulamentações bancárias, o sistema não pode processar ou armazenar dados de cartão de crédito no próprio banco de dados (o que exigiria certificação PCI Compliance). A solução é integrar um provedor financeiro que gerencie contas digitais vinculadas aos cuidadores.
 - **Stripe Connect:** É o padrão global para arquiteturas de _Marketplace_. Ele fornece bibliotecas prontas em .NET para realizar requisições de pagamento, pré-autorização e estornos. O sistema permite configurar a regra exata de divisão de valores (Split), enviando a comissão para a conta principal da plataforma e retendo o valor sob custódia na subconta do cuidador.
 - **Pagar.me ou Mercado Pago:** São opções com documentação extensa focada no mercado brasileiro, oferecendo integrações nativas e facilitadas para transações via Pix com repasse financeiro automatizado.
-    
       
-Armazenamento de Arquivos em Nuvem (Object Storage)
+**Armazenamento de Arquivos em Nuvem (Object Storage)**
 O aplicativo exigirá o armazenamento de fotos de perfil dos usuários, fotos dos animais e os arquivos de mídia gerados no "Diário de Estadia". Salvar esses arquivos diretamente em um banco de dados relacional (como strings Base64) degrada o desempenho do sistema e encarece a hospedagem. O padrão arquitetural é enviar o arquivo para um servidor de objetos e salvar apenas a URL pública no seu banco de dados.
 - **Cloudinary:** É uma plataforma de gerenciamento de mídia que entrega uma API gratuita muito generosa. Além do armazenamento, ele realiza transformações de imagem em tempo real via URL (como cortar, comprimir e redimensionar imagens pesadas enviadas pelos cuidadores para não travar a interface web).
-- **Amazon S3 (AWS):** A infraestrutura de armazenamento mais utilizada no mundo. Exige a configuração do pacote `AWSSDK.S3` no seu projeto .NET, oferecendo controle absoluto sobre os arquivos, mas com uma curva de aprendizado maior para configuração de permissões de acesso.
 
-Serviços de Geolocalização e Geocodificação
-Para que o tutor consiga visualizar os cuidadores próximos, o sistema precisará traduzir endereços digitados em coordenadas matemáticas (Latitude e Longitude), um processo chamado geocodificação.
-
+**Serviços de Geolocalização**
+Geolocalização Baseada em Listagem (Sem Mapa Visual). Nesta arquitetura, o tutor informa o seu CEP ou permite que o navegador capture a sua localização atual. O sistema traduz essa posição em coordenadas e a sua API em .NET utiliza a "Fórmula de Haversine". A interface web, então, exibe apenas uma lista tradicional de cuidadores ordenados pelo critério de proximidade, exibindo um texto simples, como "A 2,5 km de distância".
 - **ViaCEP:** Uma API pública e gratuita estruturada para buscar endereços no Brasil utilizando o CEP. Permite o preenchimento automático do formulário de cadastro, melhorando a experiência do usuário web.
     
-- **Mapbox ou Google Maps API:** Utilizados tanto para renderizar o mapa visual na interface web quanto para calcular as distâncias exatas entre o tutor e o cuidador. O Mapbox, em específico, possui um nível gratuito amplo, sendo excelente para aplicações em fase de prototipagem acadêmica.
-    
-Bibliotecas Visuais (UI Component Libraries)
-
+**Bibliotecas Visuais (UI Component Libraries)**
 Para a construção do frontend web, desenvolver botões, modais, calendários de seleção de datas e formulários do zero consumiria meses de trabalho. O reuso de código visual acelera a entrega do protótipo e garante uma interface limpa.
-- **Shadcn/UI ou Radix UI:** Caso esteja utilizando React no frontend, essas bibliotecas fornecem componentes pré-construídos com acessibilidade nativa. Elas entregam o código fonte do componente diretamente no seu projeto, permitindo customização total sem adicionar peso desnecessário na compilação.
+- Shadcn-vue 
 
-Sistemas de Mensageria e Notificação (Push)
-
+**Sistemas de Mensageria e Notificação (Push)**
 Como detalhado anteriormente, o envio de notificações em segundo plano para a versão web demanda serviços de intermediação entre o seu servidor e o navegador do usuário.
 
 - **Firebase Cloud Messaging (FCM):** O serviço padrão da indústria para o disparo de alertas em tempo real. O servidor .NET envia o comando contendo o texto da notificação para a API do FCM, e o Google se encarrega de rotear e entregar esse alerta visual ao navegador do cuidador, operando de forma totalmente gratuita.
