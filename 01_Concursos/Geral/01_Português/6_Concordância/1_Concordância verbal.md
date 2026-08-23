@@ -26,9 +26,6 @@ Possui dois ou mais núcleos.
 	- O rei, com a rainha, chegou.
 	- O rei com a rainha chegou.    
 
-**Sujeito composto resumido por aposto resumitivo**: O verbo concorda com o aposto.
-	![500](../../../../attachments/Pasted%20image%2020260823064705.png)
-
 **Ligado por OU**
 - **Exclusão ou retificação:** Concordância feita com o núcleo mais próximo.
 	- Wesley ou Júlio será o presidente do grupo.
@@ -37,9 +34,13 @@ Possui dois ou mais núcleos.
 - **inclusão:** valor de E, adição.
 	- Frio ou calor extremo prejudicam o equipamento
 
-- **Sinonímia:** Se a conj conecta termos que representam mesma ideia o verbo fica no singular. 
+- **Sinonímia:** Se a conj conecta termos que representam mesma ideia o verbo fica no singular. Essa ideia de sinonimo ou gradação vale mesmo quando não se usa a conjunção OU.
 	- A morfologia ou o estudo das palavras exige dedicação.
-    
+	- A competição, a disputa não o seduzia.
+	- 
+
+**Sujeito composto resumido por aposto resumitivo**: O verbo concorda com o aposto.
+	![500](../../../../attachments/Pasted%20image%2020260823064705.png)
 ### 3. Sujeito Oculto/Elíptico/Desidencial
 Não está explícito, mas pode ser identificado pela terminação do verbo ou pelo contexto anterior.
 - Viajamos ontem. -> NÓS
@@ -196,3 +197,12 @@ C) As situações limitam
 ![](../../../../attachments/Pasted%20image%2020260823065059.png)A) CORRETA. suj compost resumido por aposto.
 B) O confront deixou
 C) Haviam assumido (haver como vebo aux é pessoal)
+
+![](../../../../attachments/Pasted%20image%2020260823074736.png)
+C) 
+![](../../../../attachments/Pasted%20image%2020260823074915.png)![](../../../../attachments/Pasted%20image%2020260823075206.png)
+A) Nada disso era. Aposto resumitivo
+B) O hábito foi
+C) Posso dizer que fizeram parte
+D) CORRETO
+E) Quando se encontravam
