@@ -19,8 +19,6 @@ Possui apenas um núcleo, geralmente um substantivo ou pronome.
 	- Fomos nós que falamos
 - Com o indefinido QUEM, o verbo fica na 3° do singular OU concorda com o antecedente.
 	- Fui eu quem falei/falou
-- sou eu quem pago/pagou
-- Fomos nós quem falamos/falou
 ### 2. Sujeito Composto
 Possui dois ou mais núcleos. 
 - Pai e filho conversavam no jardim. 
@@ -53,7 +51,7 @@ Possui dois ou mais núcleos.
 
 **Sujeito composto resumido por aposto resumitivo**: O verbo concorda com o aposto.
 	![500](../../../../attachments/Pasted%20image%2020260823064705.png)
-**Sujeito composto com sinonimos ou gradação:** singular a plural são válidos. Gradação é uma sequência de palavras de forma que os seus significados aumentem ou diminuam.
+**Sujeito composto com sinonimos ou gradação:** singular E plural são válidos. Gradação é uma sequência de palavras de forma que os seus significados aumentem ou diminuam.
 - A competição, a disputa não o seduzia/seduziam. (SINONIMOS)
 - A paixão, o devotamento, a alma não falta/faltam àquele homem (GRADAÇÃO)
 
@@ -269,3 +267,12 @@ D)
 - fui eu quem falei/falou
 - sou eu quem pago/pagou
 - Fomos nós quem falamos/falou
+![](../../../../attachments/Pasted%20image%2020260823183704.png)
+B)
+![](../../../../attachments/Pasted%20image%2020260823183828.png)
+A) HAVIA
+B) o lixo vai
+C) evitariam
+D) Faz dois anos
+E) CORRETO. Poderia ser: somos nós quem pagamos ou somos nós quem paga 
+- Com o indefinido QUEM, o verbo fica na 3° do singular OU concorda com o antecedente.
