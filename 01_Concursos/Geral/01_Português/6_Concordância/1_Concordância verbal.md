@@ -237,6 +237,10 @@ E) Havia muitas pessoas (haver com sentido de existir, impessoal)
 
 ---
 
-
+![](../../../../attachments/Pasted%20image%2020260823104646.png)
+A) 
+B) Quem estava ai. Concorda com quem.
+C) Os Estados Unidos ainda não encontraram. "Os" faz parte do nome.
+D) 
 
 
