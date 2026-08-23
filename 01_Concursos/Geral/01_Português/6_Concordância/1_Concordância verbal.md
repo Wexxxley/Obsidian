@@ -229,3 +229,14 @@ B) Correr e caminhar faz bem (suj composto por verbos no infinitivo)
 C) A multidão gritou.
 D) Os Estados Unidos são uma ameaça para a China
 E) Havia muitas pessoas (haver com sentido de existir, impessoal)
+
+![400](../../../../attachments/Pasted%20image%2020260823083105.png)1 . Nesse caso, o verbo concorda com o núcleo singular oculto 
+- Estrutura completa: Hoje é o dia 15 de novembro.
+2 . Concordância direta com o numeral explícito.
+3 . Dia primeiro sempre fica no singular
+
+---
+
+
+
+
