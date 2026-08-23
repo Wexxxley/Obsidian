@@ -26,6 +26,9 @@ Possui dois ou mais núcleos.
 	- O rei, com a rainha, chegou.
 	- O rei com a rainha chegou.    
 
+**Sujeito composto resumido por aposto resumitivo**: O verbo concorda com o aposto.
+	![500](../../../../attachments/Pasted%20image%2020260823064705.png)
+
 **Ligado por OU**
 - **Exclusão ou retificação:** Concordância feita com o núcleo mais próximo.
 	- Wesley ou Júlio será o presidente do grupo.
@@ -179,3 +182,17 @@ E) que se apresentam
 ![](../../../../attachments/Pasted%20image%2020260822164801.png)
 E) Portugal ou méxico será (exclusão)
 As outras são aditivas
+
+![](../../../../attachments/Pasted%20image%2020260823063530.png)
+A) A construção das estradas era feita
+B) CORRETA (EXCLUSÃO)
+C) Seis horas bateram
+
+![](../../../../attachments/Pasted%20image%2020260823064747.png)
+A) CORRETA. suj compost resumido por aposto.
+B) Pessoas que engolem
+C) As situações limitam 
+
+![](../../../../attachments/Pasted%20image%2020260823065059.png)A) CORRETA. suj compost resumido por aposto.
+B) O confront deixou
+C) Haviam assumido (haver como vebo aux é pessoal)
