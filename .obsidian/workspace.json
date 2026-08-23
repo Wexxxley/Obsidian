@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Conhecimentos TI/6_web2/2_Crianod estados reativos.md",
+                "file": "02_Conhecimentos TI/6_web2/3_Diretivas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Crianod estados reativos"
+              "title": "3_Diretivas"
             }
           }
         ]
@@ -196,10 +196,11 @@
   },
   "active": "63281a61a16af840",
   "lastOpenFiles": [
+    "02_Conhecimentos TI/6_web2/2_Criando estados reativos.md",
+    "attachments/Pasted image 20260823151229.png",
     "02_Conhecimentos TI/6_web2/1_Introdução.md",
-    "02_Conhecimentos TI/6_web2/3_.md",
+    "02_Conhecimentos TI/6_web2/3_Diretivas.md",
     "02_Conhecimentos TI/6_web2/3_MVVM 1.md",
-    "02_Conhecimentos TI/6_web2/2_Crianod estados reativos.md",
     "02_Conhecimentos TI/9_Mobile (Cadeira)/2_Jetpack Compose/3_Armazenamento/2_ROOM Overview.md",
     "02_Conhecimentos TI/9_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/7_ViewModel e StateFlow.md",
     "02_Conhecimentos TI/9_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/6_Arquitetura MVVM.md",
@@ -213,7 +214,6 @@
     "attachments/Pasted image 20260823140933.png",
     "attachments/Pasted image 20260823140619.png",
     "attachments/Pasted image 20260823140410.png",
-    "attachments/Pasted image 20260823140040.png",
     "Untitled.md",
     "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/11_Conjunções coordenativas.md",
@@ -237,7 +237,6 @@
     "05_Aleatorios/Untitled.canvas",
     "05_Aleatorios/DecisõesProjetos",
     "05_Aleatorios/DecisõesProjetos/AcessoClin - wireframe.md",
-    "05_Aleatorios/DecisõesProjetos/AcessoClin - Requisitos.md",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/Untitled.canvas",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial",
     "01_Concursos/Geral/01_Português/7_Redação/1_Dissertativa Argumentativa",
