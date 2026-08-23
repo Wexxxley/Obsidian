@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
+                "file": "02_Conhecimentos TI/6_web2/1_Introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Concordância verbal"
+              "title": "1_Introdução"
             }
           }
         ]
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.0026054382324,
-    "collapsed": true
+    "width": 340.0026054382324
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -197,6 +196,7 @@
   },
   "active": "63281a61a16af840",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "attachments/Pasted image 20260823104646.png",
     "attachments/Pasted image 20260823102715.png",
     "attachments/Pasted image 20260823083105.png",
@@ -207,10 +207,8 @@
     "attachments/Pasted image 20260823075206.png",
     "attachments/Pasted image 20260823074915.png",
     "attachments/Pasted image 20260823074736.png",
-    "attachments/Pasted image 20260823065059.png",
     "01_Concursos/Geral/01_Português/2_Morfologia/11_Conjunções coordenativas.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/12_Conjunções subordinativas P1.md",
-    "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "05_Aleatorios/TCC/2_MimoDecições.md",
     "05_Aleatorios/TCC/1_MimoMetodologia.md",
     "05_Aleatorios/TCC/3_Entrevista.md",
