@@ -297,6 +297,16 @@ E) CORRETO. Poderia ser: somos nós quem pagamos ou somos nós quem paga
 - Eu sou o responsável.
 - Os responsáveis somos nós. Nós somos os responsáveis
 
-![](../../../../attachments/Pasted%20image%2020260823193231.png)
-A) Isso é revelado. Suj oracional, verbo no singular.
-B) A riqueza é suas capacidades OU a riqueza são suas capacidades
+![](../../../../attachments/Pasted%20image%2020260823193231.png)![](../../../../attachments/Pasted%20image%2020260823194428.png)
+A) Isso é revelado. Suj oracional, verbo no singular. Amigos amarão ele
+B) A riqueza é suas capacidades OU a riqueza são suas capacidades (PREFERÍVEL). Suas capacidades que o tornam único
+C) Fez de mário.
+D) Todos têm. Novidades podem chegar
+E) A capacidade e o seu sentimento fizeram
+
+![](../../../../attachments/Pasted%20image%2020260823194600.png)
+A) houve muitas perguntas
+B) FUI eu que liguei. Com o pronome relativo que, verbo concorda com seu antecedente
+C) Poderia ser: A conta era/eram só ligações
+D) As crianças pediram à professora que as liberasse. A professore liberasse
+E) de quaisquer livros.
