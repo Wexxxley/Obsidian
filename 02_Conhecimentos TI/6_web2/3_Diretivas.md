@@ -22,7 +22,10 @@ Uma diretiva é composta por até quatro segmento: `v-on:click.prevent="executar
 **Diretivas de Vinculação de Dados**
 - **v-bind (ou :):** É utilizada atualizar valores de atributos HTML, como `src` ou `href`.
 - **v-model:** Aplicada em elementos de entrada de formulários. Ela injeta o valor da variável no campo e escuta a digitação do usuário para atualizar a variável.
-	![400](../../attachments/Pasted%20image%2020260823162951.png)
+		![300](../../attachments/Pasted%20image%2020260823180806.png)![](../../attachments/Pasted%20image%2020260823180739.png)
 **Diretiva de Escuta de Eventos**
-- **v-on (ou @):** Registra ouvintes de eventos da API nativa do navegador (como `click`, `keyup`, `submit`, `scroll`) no elemento HTML. 
-![450](../../attachments/Pasted%20image%2020260823160856.png)![](../../attachments/Pasted%20image%2020260823161949.png)
+- **v-on (ou @):** Registra ouvintes de eventos (como `click`, `submit`, `scroll`) no elemento. 
+
+---
+**Exemplo com tudo**
+![300](../../attachments/Pasted%20image%2020260823180920.png)![450](../../attachments/Pasted%20image%2020260823160856.png)![](../../attachments/Pasted%20image%2020260823161949.png)

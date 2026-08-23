@@ -12,6 +12,15 @@ Possui apenas um núcleo, geralmente um substantivo ou pronome.
 - Os Estados Unidos foram perversamente atacados
 - Minas Gerais recebeu a visita do presidente.
 - Os lusíadas contam uma epopeia.
+
+**Sujeito com pronomes QUE e QUEM**: 
+- Com o relativo QUE como sujeito, o verbo concorda com o antecedente. 
+	- Fui eu que falei
+	- Fomos nós que falamos
+- Com o indefinido QUEM, o verbo fica na 3° do singular OU concorda com o antecedente.
+	- Fui eu quem falei/falou
+- sou eu quem pago/pagou
+- Fomos nós quem falamos/falou
 ### 2. Sujeito Composto
 Possui dois ou mais núcleos. 
 - Pai e filho conversavam no jardim. 
@@ -94,11 +103,13 @@ Pode-se escolher entre duas construções dependendo do elemento que deseja enfa
 - A maior parte dos eleitores **votaram** nulo. -> Votaram concorda com eleitores.
 
 Para as expressões que indicam porcentagem:
-**A) Porcentagem + Especificador:** O verbo concordará preferencialmente com o especificador.
-- 90% dos alunos **faltaram**.  -> Concorda com "alunos".
+**A) Porcentagem + Especificador:** O verbo pode concordar com os dois. Mas se tiver determinanate, concorda com o determinante.
+- Setenta por cento da turma **faltou/faltaram.**
+- Os setenta por cento da turma **faltaram.**
 **B) Porcentagem Isolada:** Se o número percentual aparecer sozinho o verbo concordará estritamente com o valor numérico.
 - _1%_ **aprovou** a medida. Singular, concorda com o número 1.
 - _20%_ **aprovaram** a medida. Plural, concorda com o número 20..
+
 
 ---
 
@@ -243,4 +254,18 @@ B) Quem estava ai. Concorda com quem.
 C) Os Estados Unidos ainda não encontraram. "Os" faz parte do nome.
 D) 
 
+![](../../../../attachments/Pasted%20image%2020260823181722.png)
+- Pode concordar com setenta ou turma. Passou ou passaram.
+- Passaram. por causa do especificador
+- Confiam
 
+![](../../../../attachments/Pasted%20image%2020260823182447.png)
+- Votou. Expressoa partitiva e especifiador no singular
+- Anulou/anularam
+
+![](../../../../attachments/Pasted%20image%2020260823182847.png)
+![](../../../../attachments/Pasted%20image%2020260823183121.png)
+![](../../../../attachments/Pasted%20image%2020260823183215.png)
+- fui eu quem falei/falou
+- sou eu quem pago/pagou
+- Fomos nós quem falamos/falou
