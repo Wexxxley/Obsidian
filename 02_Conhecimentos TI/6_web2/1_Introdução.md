@@ -2,6 +2,19 @@
 
 
 ---
+### 1. Arquitetura MVVM
+![500](../../attachments/Pasted%20image%2020260823144610.png)
+**Model**: Esta camada representa as regras de negócio puras, o formato dos dados em memória e a comunicação com fontes de informação externas.
+**View**: A View é a camada de apresentação visual, responsável estritamente por desenhar elementos na tela. A regra da View na arquitetura MVVM é a ausência de lógica de negócios.
+**ViewModel**: Atua como um adaptador de estado, importando os dados brutos do Model, convertendo-os para um formato adequado para a interface e os armazenando em variáveis de estado. No Vue, é encapsulado por todo o código em TS escrito dentro da tag `<script setup>`.
+
+**Data Binding**: A View e o ViewModel são conectados por um sistema de rastreamento de dependências contínuo, sem a necessidade de comandos manuais de manipulação.
+- **Delegação de Eventos:** Quando o usuário realiza uma ação na View, ela emite o evento para o ViewModel através de gatilhos definidos na interface.
+- **Mutação de Estado:** O ViewModel recebe a chamada, executa o processamento algorítmico e altera o valor de suas variáveis internas em memória.
+- **Atualização Autônoma:** Como as variáveis são declaradas como entidades reativas, o framework detecta a mutação. motor de renderização, então, atualiza a View, redesenhando apenas os componentes estritamente dependentes daquele novo valor.
+
+---
+### 2. iniciando um projeto VUE
 
 Criando projeto VUE: `npm init vue@latest`
 ![](../../attachments/Pasted%20image%2020260823134042.png)

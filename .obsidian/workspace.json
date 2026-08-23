@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Conhecimentos TI/6_web2/3_MVVM.md",
+                "file": "02_Conhecimentos TI/6_web2/2_Crianod estados reativos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_MVVM"
+              "title": "2_Crianod estados reativos"
             }
           }
         ]
@@ -196,13 +196,18 @@
   },
   "active": "63281a61a16af840",
   "lastOpenFiles": [
+    "02_Conhecimentos TI/6_web2/1_Introdução.md",
+    "02_Conhecimentos TI/6_web2/3_.md",
+    "02_Conhecimentos TI/6_web2/3_MVVM 1.md",
+    "02_Conhecimentos TI/6_web2/2_Crianod estados reativos.md",
+    "02_Conhecimentos TI/9_Mobile (Cadeira)/2_Jetpack Compose/3_Armazenamento/2_ROOM Overview.md",
+    "02_Conhecimentos TI/9_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/7_ViewModel e StateFlow.md",
+    "02_Conhecimentos TI/9_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/6_Arquitetura MVVM.md",
+    "attachments/Pasted image 20260823144610.png",
     "attachments/Pasted image 20260823143735.png",
     "02_Conhecimentos TI/6_web2/Untitled 1.md",
-    "02_Conhecimentos TI/6_web2/3_MVVM.md",
-    "02_Conhecimentos TI/6_web2/2_.md",
     "attachments/Pasted image 20260823142817.png",
     "attachments/Pasted image 20260823142734.png",
-    "02_Conhecimentos TI/6_web2/1_Introdução.md",
     "attachments/Pasted image 20260823141416.png",
     "attachments/Pasted image 20260823141105.png",
     "attachments/Pasted image 20260823140933.png",
@@ -210,9 +215,7 @@
     "attachments/Pasted image 20260823140410.png",
     "attachments/Pasted image 20260823140040.png",
     "Untitled.md",
-    "attachments/Pasted image 20260823134042.png",
     "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
-    "attachments/Pasted image 20260823104646.png",
     "01_Concursos/Geral/01_Português/2_Morfologia/11_Conjunções coordenativas.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/12_Conjunções subordinativas P1.md",
     "05_Aleatorios/TCC/2_MimoDecições.md",
@@ -235,9 +238,6 @@
     "05_Aleatorios/DecisõesProjetos",
     "05_Aleatorios/DecisõesProjetos/AcessoClin - wireframe.md",
     "05_Aleatorios/DecisõesProjetos/AcessoClin - Requisitos.md",
-    "05_Aleatorios/TCC/3_Seminario01 PPCT.md",
-    "05_Aleatorios/TCC/4_Ideia de possível metodologia.md",
-    "05_Aleatorios/TCC/2_Atv01 PPCT 1.md",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/Untitled.canvas",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial",
     "01_Concursos/Geral/01_Português/7_Redação/1_Dissertativa Argumentativa",
