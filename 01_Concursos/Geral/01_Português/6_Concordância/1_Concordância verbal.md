@@ -88,7 +88,6 @@ Na locução verbal, se o verbo principal for impessoal, o auxiliar fica no sing
 
 Sempre um o sujeito for uma oração, o verbo vai ficar na terceira pessoa do singular (ELE/ELA).
 E o verbo da oração principal deve permanecer, incondicionalmente, na 3° pessoa do singular.
-
 ### 7. Sujeito partitivo
 O sujeito partitivo é uma estrutura em que o núcleo representa uma porção ou uma quantidade indefinida de um todo. 
 - **Expressão Partitiva:** a maioria de, uma porção de, o resto de, a metade de.
@@ -108,6 +107,22 @@ Para as expressões que indicam porcentagem:
 - _1%_ **aprovou** a medida. Singular, concorda com o número 1.
 - _20%_ **aprovaram** a medida. Plural, concorda com o número 20..
 
+### 8. Verbo SER
+
+Quando tem **sujeito no singular** e **predicativo do Suj no plural**, a gramática flexibiliza a regra geral e 
+- A vida **é** ilusões. (respeitando o sujeito "vida").
+- A vida **são** ilusões. (atração do predicativo plural "ilusões").
+
+Quando o sujeito for constituído por tudo, isto, isso, aquilo, o, etc, a gramática autoriza a dupla possibilidade de concordância verbal.
+- Tudo **é** flores.
+- Tudo **são** flores. 
+
+Se o sujeito for uma **pessoa** (ou pronome pessoal), o verbo "ser" concordará  com a pessoa.
+- A criança **era** as alegrias da casa.
+- O grande problema da empresa **foram** os antigos diretores.
+- 
+
+Embora o singular esteja gramaticalmente correto, a tradição literária e as bancas examinadoras consideram a **concordância com o predicativo plural como a forma preferencial e mais elegante**.
 
 ---
 
@@ -272,7 +287,16 @@ B)
 ![](../../../../attachments/Pasted%20image%2020260823183828.png)
 A) HAVIA
 B) o lixo vai
-C) evitariam
+C) evitariam. 35% deles fossem. Poderia concordar com 35 e com deles.
 D) Faz dois anos
 E) CORRETO. Poderia ser: somos nós quem pagamos ou somos nós quem paga 
 - Com o indefinido QUEM, o verbo fica na 3° do singular OU concorda com o antecedente.
+
+![](../../../../attachments/Pasted%20image%2020260823193017.png)
+- O responsável sou eu. O verbo SER concorda com as pessoas.
+- Eu sou o responsável.
+- Os responsáveis somos nós. Nós somos os responsáveis
+
+![](../../../../attachments/Pasted%20image%2020260823193231.png)
+A) Isso é revelado. Suj oracional, verbo no singular.
+B) A riqueza é suas capacidades OU a riqueza são suas capacidades

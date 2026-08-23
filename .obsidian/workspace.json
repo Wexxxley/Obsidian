@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.0026054382324
+    "width": 340.0026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -196,6 +197,8 @@
   },
   "active": "63281a61a16af840",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260823193231.png",
+    "attachments/Pasted image 20260823193017.png",
     "attachments/Pasted image 20260823183828.png",
     "attachments/Pasted image 20260823183704.png",
     "attachments/Pasted image 20260823183215.png",
@@ -206,9 +209,7 @@
     "02_Conhecimentos TI/6_web2/3_Diretivas.md",
     "attachments/Pasted image 20260823180920.png",
     "attachments/Pasted image 20260823180806.png",
-    "attachments/Pasted image 20260823180739.png",
     "05_Aleatorios/TCC/3_Entrevista.md",
-    "attachments/Pasted image 20260823163908.png",
     "02_Conhecimentos TI/6_web2/2_Criando estados reativos.md",
     "02_Conhecimentos TI/6_web2/1_Introdução.md",
     "02_Conhecimentos TI/6_web2/3_MVVM 1.md",
