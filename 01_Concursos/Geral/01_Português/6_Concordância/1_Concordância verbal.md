@@ -7,6 +7,11 @@ Concordância verbal é a regra gramatical que determina que o **verbo deve se a
 Possui apenas um núcleo, geralmente um substantivo ou pronome.
 - A tempestade derrubou as árvores. 
 - Eles viajaram cedo.
+
+**Sujeito representado por NOME DE LUGAR OU OBRA:** Com artigo, concorda com o artigo; Sem artigo, verbo no singular.
+- Os Estados Unidos foram perversamente atacados
+- Minas Gerais recebeu a visita do presidente.
+- Os lusíadas contam uma epopeia.
 ### 2. Sujeito Composto
 Possui dois ou mais núcleos. 
 - Pai e filho conversavam no jardim. 
@@ -34,13 +39,19 @@ Possui dois ou mais núcleos.
 - **inclusão:** valor de E, adição.
 	- Frio ou calor extremo prejudicam o equipamento
 
-- **Sinonímia:** Se a conj conecta termos que representam mesma ideia o verbo fica no singular. Essa ideia de sinonimo ou gradação vale mesmo quando não se usa a conjunção OU.
+- **Sinonímia:** Se a conj conecta termos que representam mesma ideia o verbo fica no singular. 
 	- A morfologia ou o estudo das palavras exige dedicação.
-	- A competição, a disputa não o seduzia.
-	- 
 
 **Sujeito composto resumido por aposto resumitivo**: O verbo concorda com o aposto.
 	![500](../../../../attachments/Pasted%20image%2020260823064705.png)
+**Sujeito composto com sinonimos ou gradação:** singular a plural são válidos. Gradação é uma sequência de palavras de forma que os seus significados aumentem ou diminuam.
+- A competição, a disputa não o seduzia/seduziam. (SINONIMOS)
+- A paixão, o devotamento, a alma não falta/faltam àquele homem (GRADAÇÃO)
+
+**Suj composto com verbos no infinitivo:** no geral só pode singular. Porém, se forem antônimos fica no plural. E se vierem substantivados ficam no plural.
+- Correr e nadar faz parte do treinamento.
+- Calar e falar já não adiantam.
+- O falar e o escrever faziam dele um aluno especial.
 ### 3. Sujeito Oculto/Elíptico/Desidencial
 Não está explícito, mas pode ser identificado pela terminação do verbo ou pelo contexto anterior.
 - Viajamos ontem. -> NÓS
@@ -206,3 +217,15 @@ B) O hábito foi
 C) Posso dizer que fizeram parte
 D) CORRETO
 E) Quando se encontravam
+
+![](../../../../attachments/Pasted%20image%2020260823081047.png)![](../../../../attachments/Pasted%20image%2020260823081116.png)
+![](../../../../attachments/Pasted%20image%2020260823081854.png)
+- Os Estados Unidos foram perversamente atacados
+- Minas Gerais recebeu a visita do presidente.
+- Os lusíadas contam uma epopeia.
+![](../../../../attachments/Pasted%20image%2020260823081950.png)
+A) Hoje é dia 15 e são sete horas.
+B) Correr e caminhar faz bem (suj composto por verbos no infinitivo)
+C) A multidão gritou.
+D) Os Estados Unidos são uma ameaça para a China
+E) Havia muitas pessoas (haver com sentido de existir, impessoal)
