@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "743aa48c149994d8",
+        "id": "5b46698928892099",
         "type": "tabs",
         "children": [
           {
-            "id": "63281a61a16af840",
+            "id": "790e9221d4a763d7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01_Concursos/Geral/01_Português/3_Verbos/6_Verbos pronominais.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "6_Verbos pronominais"
+              "title": "New tab"
             }
           }
         ]
@@ -65,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pronominal",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -194,8 +190,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63281a61a16af840",
+  "active": "0c52f17c64e87cbf",
   "lastOpenFiles": [
+    "06_Aleatórios",
+    "03_CadeirasFaculdade/4_Reuso de Software/1_Introdução.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/3_Diretivas.md",
+    "02_Conhecimentos TI/5_Frontend/5_web1/Untitled.base",
+    "02_Conhecimentos TI/5_Frontend",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/2_Criando estados reativos.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/1_Introdução.md",
+    "01_Concursos/Geral/01_Português/3_Verbos/6_Verbos pronominais.md",
     "attachments/Pasted image 20260824072043.png",
     "attachments/Pasted image 20260824071546.png",
     "01_Concursos/Geral/01_Português/3_Verbos/4_Verbos impessoais e auxiliares.md",
@@ -211,11 +215,7 @@
     "attachments/Pasted image 20260823183704.png",
     "attachments/Pasted image 20260823183215.png",
     "attachments/Pasted image 20260823183121.png",
-    "attachments/Pasted image 20260823182847.png",
-    "02_Conhecimentos TI/6_web2/3_Diretivas.md",
-    "05_Aleatorios/TCC/3_Entrevista.md",
-    "02_Conhecimentos TI/6_web2/2_Criando estados reativos.md",
-    "02_Conhecimentos TI/6_web2/1_Introdução.md",
+    "05_Projetos/TCC/3_Entrevista.md",
     "02_Conhecimentos TI/6_web2/3_MVVM 1.md",
     "02_Conhecimentos TI/9_Mobile (Cadeira)/2_Jetpack Compose/3_Armazenamento/2_ROOM Overview.md",
     "02_Conhecimentos TI/9_Mobile (Cadeira)/2_Jetpack Compose/2_Navegação e Grids/7_ViewModel e StateFlow.md",
@@ -224,27 +224,23 @@
     "Untitled.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/11_Conjunções coordenativas.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/12_Conjunções subordinativas P1.md",
-    "05_Aleatorios/TCC/2_MimoDecições.md",
-    "05_Aleatorios/TCC/1_MimoMetodologia.md",
-    "05_Aleatorios/seg.md",
-    "05_Aleatorios/DecisõesProjetos/Proposta de Startup.md",
+    "05_Projetos/TCC/2_MimoDecições.md",
+    "05_Projetos/TCC/1_MimoMetodologia.md",
+    "05_Projetos/seg.md",
+    "05_Projetos/DecisõesProjetos/Proposta de Startup.md",
     "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
     "01_Concursos/TI/06_Verificação e validação/3_/Untitled.base",
     "01_Concursos/TI/06_Verificação e validação/3_/Untitled.canvas",
     "01_Concursos/TI/06_Verificação e validação/3_",
-    "02_Conhecimentos TI/11_Segurança/1_.md",
-    "05_Aleatorios/DecisõesProjetos/Blocos obsidian.md",
+    "03_CadeirasFaculdade/5_Segurança/1_.md",
     "02_Conhecimentos TI/07_Segurança 1",
-    "05_Aleatorios/DecisõesProjetos/Pedido credenciais GIT.md",
     "05_Aleatorios/Untitled.canvas",
-    "05_Aleatorios/DecisõesProjetos",
+    "05_Projetos/DecisõesProjetos",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/Untitled.canvas",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial",
     "01_Concursos/Geral/01_Português/7_Redação/1_Dissertativa Argumentativa",
-    "02_Conhecimentos TI/12_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
-    "02_Conhecimentos TI/12_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
-    "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/1_SOLID",
-    "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/2_Object Calisthenics",
+    "02_Conhecimentos TI/6_Dotnet/1_Fundamentos/2_POO CSHARP.pdf",
+    "02_Conhecimentos TI/6_Dotnet/1_Fundamentos/1_Fundamentos CSHARP.pdf",
     "Sem título.canvas"
   ]
 }
