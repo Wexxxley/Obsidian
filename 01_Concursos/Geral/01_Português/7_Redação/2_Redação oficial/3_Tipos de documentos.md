@@ -40,31 +40,20 @@ Instrumento de comunicação oficial entre os Chefes dos Poderes Públicos em as
 A minuta de mensagem pode ser encaminhada pelos ministérios à Presidência da República e as
 respectivas assessorias serão incumbidas da redação final.
 
-As mensagens mais usuais do Poder Executivo ao Congresso Nacional têm as seguintes finalidades:
-a) Encaminhamento de proposta de emenda constitucional, de projeto de lei ordinária, de
-projeto de lei complementar e os que compreendem plano plurianual, diretrizes
-orçamentárias, orçamentos anuais e créditos adicionais;
-b) Encaminhamento de medida provisória;
-c) Indicação de autoridades;
-São as mensagens que submetem ao Senado Federal a indicação de pessoas para
-ocuparem determinados cargos (magistrados dos tribunais superiores, ministros do
-Tribunal de Contas da União, presidentes e diretores do Banco Central, Procurador-
-Geral da República, chefes de missão diplomática, diretores e conselheiros de
-agências etc.) para aprovar a indicação.
-Acompanha a mensagem o curriculum vitae do indicado, assinado, com a informação
-do número de Cadastro de Pessoa Física.
-d) Pedido de autorização para o Presidente ou o Vice-Presidente da República se
-ausentarem do país por mais de 15 dias;
-e) Encaminhamento de atos de concessão e de renovação de concessão de emissoras de
-rádio e TV;
-f) Encaminhamento das contas referentes ao exercício anterior;
-O Presidente da República tem o prazo de 60 dias após a abertura da sessão
-legislativa para enviar ao Congresso Nacional as contas referentes ao exercício
-anterior.
-g) Mensagem de abertura da sessão legislativa;
-Deve conter o plano de governo, exposição sobre a situação do País e a solicitação
-de providências que julgar necessárias (Constituição, art. 84, inciso XI).
-O portador da mensagem é o Chefe da Casa Civil da Presidência da República.
-Esta mensagem difere das demais, porque vai encadernada e é distribuída a todos
-os congressistas em forma de livro.
-h) Comunicação de sanção de lei (com restituição de autógrafos);
+As mensagens mais usuais do Poder Executivo ao Congresso Nacional têm as finalidades:
+	a) Encaminhamento de proposta de emenda constitucional, de projeto de lei ordinária, de
+	projeto de lei complementar e os que compreendem plano plurianual, diretrizes
+	orçamentárias, orçamentos anuais e créditos adicionais;
+	b) Encaminhamento de medida provisória;
+	c) Indicação de autoridades;
+	As mensagens contêm:
+	
+1. texto iniciado a 2 cm do vocativo; e
+2. local e data: posicionados a 2 cm do final do texto, alinhados à margem direita. A mensagem, como os demais atos assinados pelo Presidente da República, não traz identificação de seu signatário.
+![](../../../../../attachments/Pasted%20image%2020260824174649.png)
+
+---
+![](../../../../../attachments/Pasted%20image%2020260824174856.png)
+A Mensagem é um documento enviado pelo Presidente ao Poder Legislativo em situações que
+demandem deliberação deste poder. Não é documento utilizado em situações administrativas
+internas como a mencionada no enunciado. Questão incorreta
