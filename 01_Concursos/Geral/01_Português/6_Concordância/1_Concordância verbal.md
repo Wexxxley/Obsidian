@@ -17,22 +17,23 @@ Possui apenas um núcleo, geralmente um substantivo ou pronome.
 - Com o relativo QUE como sujeito, o verbo concorda com o antecedente. 
 	- Fui eu que falei
 	- Fomos nós que falamos
-- Com o indefinido QUEM, o verbo fica na 3° do singular OU concorda com o antecedente.
-	- Fui eu quem falei/falou
+- Com o indefinido QUEM, o verbo fica na 3° do singular, MAS pode-se considerar o QUEM como pronome relativo, fazendo com que o verbo concorde com o antecedente.
+	- Fui eu quem falei (pronome relativo)
+	- Fui eu quem falou (pronome indefinido)
 ### 2. Sujeito Composto
 Possui dois ou mais núcleos. 
 - Pai e filho conversavam no jardim. 
 
-**Sujeito composto posposto**: A norma-padrão estabelece que, quando o verbo antecede um sujeito composto, o emissor tem pode escolher entre dois tipos de concordância.
+**Sujeito composto posposto**: quando o verbo antecede um sujeito composto, o emissor pode escolher entre dois tipos de concordância.
 - **Concordância Atrativa:** O verbo flexiona para concordar com o sujeito mais próximo. 
-	- Existe burocracia, impostos elevados
+	- Existe burocracia, impostos elevados.
 	- Faltou o diretor e os gerentes à reunião.
 - **Concordância Lógica:** O verbo flexiona para concordar com a soma de todos os núcleos.
 	- Existem burocracia, impostos elevados.
 	- Faltaram o diretor e os gerentes à reunião.
 
 **Ligado por COM**
-- **Valor de adição:** Quando os termos possuem a mesma importância, formando um sujeito composto puro, o verbo flexiona para o plural.
+- **Valor de adição:** Quando os termos possuem a mesma importância, o verbo fica no plural.
 	- O rei com a rainha chegaram.
 - **Com valor de companhia:** Isolado por pontuação ou não. Função de adj adv de companhia. 
 	- O rei, com a rainha, chegou.
@@ -51,7 +52,7 @@ Possui dois ou mais núcleos.
 
 **Sujeito composto resumido por aposto resumitivo**: O verbo concorda com o aposto.
 	![500](../../../../attachments/Pasted%20image%2020260823064705.png)
-**Sujeito composto com sinonimos ou gradação:** singular E plural são válidos. Gradação é uma sequência de palavras de forma que os seus significados aumentem ou diminuam.
+**Sujeito composto com sinonimos ou gradação:** singular e plural são válidos. Gradação é uma sequência de palavras de forma que os seus significados aumentem ou diminuam.
 - A competição, a disputa não o seduzia/seduziam. (SINONIMOS)
 - A paixão, o devotamento, a alma não falta/faltam àquele homem (GRADAÇÃO)
 
