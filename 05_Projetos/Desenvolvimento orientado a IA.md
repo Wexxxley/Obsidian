@@ -19,13 +19,5 @@ Consiste em solicitar que a Inteligência Artificial detalhe a solução por mei
 **Fase 6: Execução e Orquestração**
 A execução em si torna-se menos complexa se as fases prévias de planejamento e fracionamento de tarefas forem observadas e implementadas corretamente. 
     
-      
-    
-- **Fase 7: Revisão, Testes (QA) e Repetição**
-    
-    A fase final, descrita como Controle de Qualidade e Revisão (QA), estabelece um ciclo de inspeção constante. Essa revisão valida a produção inicial, podendo envolver o retorno da tarefa à etapa de execução para ajustes. Aplicações de desenvolvimento orientado a testes (TDD) são extremamente recomendadas, pois os agentes autônomos são capazes de criar os escopos de falha e corrigi-los posteriormente.
-    
-      
-    
-
-O vídeo pontua que, dependendo da especificidade da tarefa, algumas fases iniciais não precisam ser aplicadas. Situações em que há necessidade de intervenção para corrigir comportamentos anômalos em ambientes de produção, como um erro computacional em um número de ponto flutuante, podem ser corrigidas acessando e alterando o código diretamente através da fase de execução.
+**Fase 7: Revisão, Testes (QA) e Repetição**    
+A fase final, descrita como Controle de Qualidade e Revisão (QA), estabelece um ciclo de inspeção constante. Essa revisão valida a produção inicial, podendo envolver o retorno da tarefa à etapa de execução para ajustes. Aplicações de desenvolvimento orientado a testes (TDD) são extremamente recomendadas, pois os agentes autônomos são capazes de criar os escopos de falha e corrigi-los posteriormente.

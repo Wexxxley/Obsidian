@@ -1,11 +1,6 @@
 
 
 ---
-
-Para tutores: Mãe, ster, alice, yasmin, liniker, maurilio
-Para cuidadores: Avelino, eduardo, grazy, junior.
-
----
 ## 1. Com tutores
 
 "Olá! Meu nome é Wesley, sou estudante do curso de Ciência da Computação e esta entrevista faz parte da etapa de pesquisa para o meu Trabalho de Conclusão de Curso. Estou desenvolvendo a arquitetura e os requisitos técnicos de uma plataforma chamada Mimo, idealizado para conectar tutores de pets a cuidadores locais. O objetivo do sistema é modernizar e trazer segurança para o processo de hospedagem de animais.
