@@ -20,12 +20,6 @@ São aqueles que não possuem sujeito. Não vão ao plural
 1.  **Verbo auxiliar de loc verbal:** Eles hão de estudar. Eles haviam estudado.
 ![](../../../../attachments/Pasted%20image%2020260720092013.png)
 2. **Como verbo pronominal:** [[6_Verbos pronominais|Verbos pronominais]]
-	1. **Sentido de "portar-se" ou "sair-se":** É usado para indicar o desempenho, a conduta  diante de uma situação.
-		- Os candidatos **se houveram**/saíram-se bem durante a entrevista de emprego.
-		- Ela **houve-se**/portou-se como uma verdadeira líder.
-	2. **Sentido de "entender-se":** Ocorre quando o verbo é seguido da preposição com.
-		- Se você não pagar o que deve, terá de **se haver**/se entender comigo!
-		- O funcionário terá de **haver-se**/se entender com a diretoria.
 
 ---
 #### **2. Verbos auxiliares** 

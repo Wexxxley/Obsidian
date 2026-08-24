@@ -31,3 +31,13 @@ Esses pronomes são **partes integrantes do verbo (PIV)**
 - **Lembrar-se**
 	- Eu lembrei seu nome / eu me lembrei do seu nome
 - **Defrontar-se**
+
+**Haver como verbo pronominal**
+1. **Sentido de "portar-se" ou "sair-se":** É usado para indicar o desempenho, a conduta  diante de uma situação.
+	- Os candidatos **se houveram**/saíram-se bem durante a entrevista de emprego.
+	- Ela **houve-se**/portou-se como uma verdadeira líder.
+2. **Sentido de "entender-se":** Ocorre quando o verbo é seguido da preposição com.
+	- Se você não pagar o que deve, terá de **se haver**/se entender comigo!
+	- O funcionário terá de **haver-se**/se entender com a diretoria.
+	
+![](../../../../attachments/Pasted%20image%2020260824071546.png)![](../../../../attachments/Pasted%20image%2020260824072043.png)
