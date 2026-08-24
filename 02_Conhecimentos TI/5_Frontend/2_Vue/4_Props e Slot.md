@@ -10,59 +10,10 @@ Props são atributos personalizados registrados na estrutura de um componente fi
 ---
 ### 2. Slots
 
-Enquanto as Props transmitem dados processados e variáveis lógicas, os Slots transmitem estruturas de interface (elementos HTML ou outros componentes). 
+Enquanto as Props transmitem dados processados e variáveis lógicas, os Slots transmitem estruturas de interface (elementos HTML ou outros componentes). As vantagens são:
+- Evita a criação de dezenas de propriedades apenas para tentar cobrir todas as variações visuais possíveis de um componente.
+- Permite injetar marcação HTML nativa ou até mesmo outros componentes Vue inteiros para dentro do filho, o que é tecnicamente inviável e incorreto de se fazer utilizando Props.
 
-**Componente Filho (`BotaoAcao.vue`):**
-
-O componente filho define sua estrutura CSS e de comportamento, mas deixa uma área aberta (o slot) para que o texto ou ícone do botão seja definido externamente.
-
-  
-
-Snippet de código
-
-```
-<script setup lang="ts">
-// Lógica interna do botão omitida
-</script>
-
-<template>
-  <button class="estilo-padrao">
-    <!-- O conteúdo injetado pelo pai será renderizado no lugar desta tag -->
-    <slot></slot>
-  </button>
-</template>
-
-<style scoped>
-.estilo-padrao {
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-}
-</style>
-```
-
-**Componente Pai (`App.vue`):**
-
-O pai instancia o componente filho e escreve o conteúdo HTML desejado estritamente entre as tags de abertura e fechamento do componente. O Vue compilará esse conteúdo e o transportará para o local exato do `<slot>`.
-
-Snippet de código
-
-```
-<script setup lang="ts">
-import BotaoAcao from './components/BotaoAcao.vue';
-</script>
-
-<template>
-  <main>
-    <!-- Instância 1: Injetando apenas um nó de texto -->
-    <BotaoAcao>
-      Confirmar Operação
-    </BotaoAcao>
-
-    <!-- Instância 2: Injetando marcação HTML (negrito) -->
-    <BotaoAcao>
-      <strong>Cancelar</strong> Operação
-    </BotaoAcao>
-  </main>
-</template>
-```
+O componente filho define sua estrutura CSS e de comportamento, mas deixa uma área aberta para que o texto ou ícone do botão seja definido externamente.
+![300](../../../attachments/Pasted%20image%2020260824114351.png)O pai instancia o componente filho e escreve o conteúdo HTML desejado entre as tags de abertura e fechamento do componente. O Vue compilará esse conteúdo e o transportará para o local exato do `<slot>`.
+![400](../../../attachments/Pasted%20image%2020260824114417.png)
