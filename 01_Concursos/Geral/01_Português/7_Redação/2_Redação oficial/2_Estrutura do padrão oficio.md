@@ -24,15 +24,12 @@ Todas as três hipóteses de comunicação citadas  passaram a ser realizadas po
 **3 – Local e data**: Cidade, 3 de março de 2026. Alinhado à margem direita da página.
 
 **4 - Endereçamento**:  Nele deverão constar os seguintes elementos:
-	**a) vocativo**: na forma de tratamento adequada.
+	**a) endereçamento**: tratamento adequada. A Sua Excelência o Senhor ou Ao Senho.r
 	**b) nome:** nome do destinatário.
 	**c) cargo:** cargo do destinatário
 	**d) endereço:** endereço postal de quem receberá o expediente, dividido em duas linhas:
 		1. localidade/logradouro do destinatário ou, no caso de ofício ao mesmo órgão, informação do setor;
 		2. CEP e cidade (/ . -)unidade da federação. No caso de ofício ao mesmo órgão, não é obrigatória a informação do CEP.
-
-- O pronome de tratamento no endereçamento das comunicações dirigidas às autoridades tratadas por Vossa Excelência será: “A Sua Excelência o Senhor”.
-- Quando o tratamento destinado ao receptor for Vossa Senhoria, o endereçamento a ser empregado é “Ao Senhor” ou “À Senhora”.
 
 **5 – Assunto**: O assunto deve dar uma ideia geral do conteúdo do documento.  
 
@@ -45,7 +42,7 @@ Nos casos em que não for de mero encaminhamento de documentos, o expediente dev
 
 Se o documento é de mero encaminhamento de documentos a estrutura é a seguinte:
 1. **Introdução**: deve iniciar com referência ao expediente que solicitou o encaminhamento. ![](../../../../../attachments/Pasted%20image%2020260819100032.png)
-2. **Desenvolvimento**: se o autor da comunicação desejar fazer algum comentário a respeito do documento que encaminha, poderá (facultativamente) acrescentar parágrafos de desenvolvimento; em caso contrário, não há parágrafos de desenvolvimento em aviso ou ofício de mero encaminhamento.
+2. **Desenvolvimento**: se o autor da comunicação desejar fazer algum comentário a respeito do documento, poderá (facultativamente) acrescentar parágrafos de desenvolvimento; em caso contrário, não há parágrafos de desenvolvimento em ofício de mero encaminhamento.
 
 Em ambos os casos, o texto do documento deve ser formatado da seguinte maneira:
 	**a) alinhamento:** justificado;
@@ -53,14 +50,12 @@ Em ambos os casos, o texto do documento deve ser formatado da seguinte maneira:
 	**c) parágrafos:**
 		i- espaçamento entre parágrafos de 6 pontos após cada parágrafo;
 		ii- recuo de parágrafo: 2,5 cm de distância da margem esquerda;
-		iii- numeração dos parágrafos: apenas quando o documento tiver três ou
-		mais parágrafos.
+		iii- numeração dos parágrafos: apenas se o doc tiver três ou mais.
 	**d) fonte:** Calibri ou Carlito;
 		i- corpo do texto: tamanho 12 pontos;
 		ii- citações recuadas: tamanho 11 pontos; 
 		iii- notas de Rodapé: tamanho 10 pontos;
-	**e) símbolos:** para símbolos não existentes nas fontes indicadas, pode-se utilizar as
-	fontes Symbol e Wingdings;
+	**e) símbolos:** para símbolos não existentes nas fontes, pode-se utilizar as fontes Symbol e Wingdings;
 
 **7 – Fechos**: Há somente 2 fechos:
 - Para autoridades superiores, inclusive o Presidente da República, **Respeitosamente**.
@@ -82,7 +77,6 @@ A numeração das páginas é obrigatória apenas a partir da segunda página da
 ---
 ### **3. Formatação do padrão oficio**
 ![](../../../../../attachments/Pasted%20image%2020260819101446.png)
-
 Os documentos do padrão ofício devem obedecer à seguinte formatação:
 	**a) tamanho do papel**: A4 (29,7 cm x 21,0 cm);
 	**b) margem lateral esquerda:** no mínimo, 3 cm;
@@ -95,7 +89,7 @@ Os documentos do padrão ofício devem obedecer à seguinte formatação:
 	necessário, a impressão colorida para gráficos e ilustrações;
 	**i) destaques:** para destaques deve-se utilizar, sem abuso, o negrito. 
 	**j) palavras estrangeiras:** palavras estrangeiras devem ser grafadas em itálico;
-	**k) nome do arquivo:**  tipo + número do documento + ano do documento + palavras-chaves do conteúdo: Ofício 123_2018_relatório produtividade anual
+	**k) nome do arquivo:**  tipo + número do documento + ano do documento + palavras-chaves: Ofício 123_2018_relatório produtividade anual
 
 
 ---

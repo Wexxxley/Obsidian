@@ -59,7 +59,7 @@ Esses termos indicativos devem ser posicionados após o nome do cargo, escritos 
 	- Diretor-geral, relator-geral, ouvidor-geral.
 2. Postos e gradações da carreira diplomática.
 	- Primeiro-secretário, cônsul-adjunto, ministro-conselheiro.
-	- **Exceções**: Ministro de primeira classe (embaixador), Ministro de segunda classes
+	- **Exceções**: Ministro de primeira classe (embaixador), Ministro de segunda classe
 3. Postos da hierarquia militar. 
 	- Tenente-coronel, capitão-tenente.
 	- **Exceções**: general de exército, general de brigada, tenente-brigadeiro do ar.
@@ -74,7 +74,7 @@ Esses termos indicativos devem ser posicionados após o nome do cargo, escritos 
 É opcional em palavras empregadas com sentido reverencial, o que inclui cargos e títulos
 - o Presidente francês ou presidente francês.
 
-**Cargos hifenizados:** caso você opte por iniciar o cargo com letra maiúscula ou minúscula, essa escolha deve ser mantida para todos os elementos que compõem a palavra hifenizada. É proibido misturar os dois padrões na mesma palavra.
+**Cargos hifenizados:** caso você opte por iniciar o cargo com letra maiúscula ou minúscula, essa escolha deve ser mantida para todos os elementos que compõem a palavra hifenizada. 
 - Vice-Presidente; vice-presidente.    
 - Diretor-Geral; diretor-geral.
 

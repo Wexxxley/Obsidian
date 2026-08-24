@@ -8,7 +8,7 @@ Possui apenas um núcleo, geralmente um substantivo ou pronome.
 - A tempestade derrubou as árvores. 
 - Eles viajaram cedo.
 
-**Sujeito representado por NOME DE LUGAR OU OBRA:** Com artigo, concorda com o artigo; Sem artigo, verbo no singular.
+**Sujeito com NOME DE LUGAR OU OBRA:** Com artigo, concorda com o artigo; Sem artigo, verbo no singular.
 - Os Estados Unidos foram perversamente atacados
 - Minas Gerais recebeu a visita do presidente.
 - Os lusíadas contam uma epopeia.
