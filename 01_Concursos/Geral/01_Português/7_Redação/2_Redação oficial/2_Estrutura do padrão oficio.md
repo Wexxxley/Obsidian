@@ -102,11 +102,13 @@ vocábulos de um título.
 
 Não se deve fazer uso indiscriminado de siglas e acrônimos. Seu uso deverá restringir-se às formas já existentes e consagradas. No caso de atos normativos, recomenda-se desprezar as formas popularizadas que não estejam previstas em algum dispositivo legal.
 
-
 Na primeira citação, a expressão designada deve vir escrita por extenso, de forma completa e correta, sempre antes de sua sigla ou acrônimo respectivo, separados por travessão.
 - Imposto Predial e Territorial Urbano – IPTU
 >[!warning]
 Dispensa-se o uso por extenso unicamente para representar nome de partidos políticos e de empresas comerciais quando a forma abreviada já se tornou sinônimo do próprio nome. Exceto quando tratar-se de empresas públicas ou estatais.
+
+Excepcionalmente, pode haver a concorrência de letras maiúsculas e minúsculas na estrutura de sigla e acrônimo, a fim de evitar confusão com outros termos assemelhados.
+- Conselho Nacional de Desenvolvimento Científico e Tecnológico – CNPq
 
 a) siglas compostas por até três letras devem ser escritas em letras maiúsculas;
 - Organização das Nações Unidas – ONU
@@ -116,28 +118,21 @@ b) siglas com mais de três letras pronunciadas separadamente são escritas em m
 - Instituto Nacional de Seguridade Social – INSS
 c) siglas compostas por mais de três letras pronunciadas formando uma palavra devem ser escritas apenas com a inicial maiúscula.
 - Agência Nacional de Aviação Civil – Anac
-d) siglas em que haja leitura mista (parte é pronunciada pela letra e parte como palavra) podem ser grafadas com todas as letras maiúsculas;
+d) siglas em que haja leitura mista (parte é pronunciada pela letra e parte como palavra) podem ser grafadas com todas as letras maiúsculas; Facultativo.
 - Departamento Nacional de Infraestrutura de Transportes – DNIT
 - Hospital Regional da Asa Norte – HRAN
-Com esse “podem ser grafadas com as letras maiúsculas”, o Manual dá a entender que o uso é facultativo.
-==25374d==
-Atenção: Excepcionalmente, pode haver a concorrência de letras maiúsculas e minúsculas na estrutura de sigla e
-acrônimo, a fim de evitar confusão com outros termos assemelhados.
-Exemplo:
-Conselho Nacional de Desenvolvimento Científico e Tecnológico – CNPq
-e) uso de siglas e acrônimos de órgãos estrangeiros
-Devem-se empregar as siglas e os acrônimos dos órgãos estrangeiros na sua versão em português, que corresponde à
-expressão original traduzida. Entretanto, adota-se a forma abreviada original quando o seu uso for disseminado
-internacionalmente.
-Exemplo:
-Organização dos Países Exportadores de Petróleo – Opep
-f) plural de siglas
-Com sigla empregada no plural, admite-se o uso de s (minúsculo) de plural, sem apóstrofo:
-Exemplo:
-TREs (Tribunais Regionais Eleitorais), e não TRE’s.
-Esta regra não se aplica a siglas terminada com a letra s, caso em que o plural é definido pelo artigo.
-Exemplo:
-DVS (Destaques para Votação em Separado).
+e) uso de siglas e acrônimos de órgãos estrangeiros. Devem-se empregar as siglas e os acrônimos dos órgãos estrangeiros na sua versão em português. Entretanto, adota-se a forma abreviada original quando o seu uso for disseminado internacionalmente.
+- Organização dos Países Exportadores de Petróleo – Opep
+f) plural de siglas. Admite-se o uso de s (minúsculo). Esta regra não se aplica a siglas terminada com a letra s, caso em que o plural é definido pelo artigo.
+- TREs (Tribunais Regionais Eleitorais), e não TRE’s.
+
+
+Nos textos de atos normativos, o uso de siglas e acrônimos deve respeitar:
+1. não utilizar para designar órgãos da administração pública direta;
+2. para entidades da administração pública indireta, utilizar apenas se previsto em lei;
+3. não utilizar para designar ato normativo;
+4. usar apenas se consagrado pelo uso geral e não apenas no âmbito de setor da administração pública ou de grupo social específico;
+5. na primeira menção, utilizar acompanhado da explicitação de seu significado.
 
 ---
  ![](../../../../../attachments/Pasted%20image%2020260819102737.png)
@@ -160,3 +155,9 @@ C) 1 E 3
 
 ![](../../../../../attachments/Pasted%20image%2020260819115001.png)C)
 
+---
+![](../../../../../attachments/Pasted%20image%2020260824172114.png)
+Siglas compostas por mais de três letras pronunciadas formando uma palavra devem ser escrit apenas com a inicial maiúscula; C )Mercosul
+![](../../../../../attachments/Pasted%20image%2020260824173054.png)
+C) 
+![](../../../../../attachments/Pasted%20image%2020260824173208.png)
