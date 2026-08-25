@@ -20,6 +20,28 @@ Possui apenas um núcleo, geralmente um substantivo ou pronome.
 - Com o indefinido QUEM, o verbo fica na 3° do singular, MAS pode-se considerar o QUEM como pronome relativo, fazendo com que o verbo concorde com o antecedente.
 	- Fui eu quem falei (pronome relativo)
 	- Fui eu quem falou (pronome indefinido)
+
+**Concordancia com o infinitivo**
+
+Há dois infinitivos: pessoal e impessoal.
+
+**a) não se flexiona:** quando o sujeito do infinitivo for um pronome oblíquo, antecedido dos verbos **mandar, deixar, fazer, ver, sentir, ouvir**. A flexão, no entanto, pode ocorrer se o sujeito for um substantivo.    
+- O coordenador ouviu-os **reclamar** da avaliação. Sujeito pronome oblíquo com verbo ouvir
+- O coordenador ouviu os alunos **reclamar/reclamarem** da avaliação. Facultativo
+
+**b) não se flexiona:** quando aparecer em oração reduzida com mesmo sujeito da oração princip.
+- Os advogados reuniram-se para **discutir** o caso.
+### Regras de Obrigatoriedade e Facultatividade
+
+- **c) flexiona-se o infinitivo:** quando o infinitivo tem sujeito próprio ou quando o sujeito do infinitivo está claro na frase, regido ou não de preposição (flexão facultativa).
+    
+
+### Regras para Verbos Específicos
+
+- **d) com os verbos _dever, poder, costumar_ + _se_ + _infinitivo_ + _nome no plural_:** esses verbos ficam no singular (= sujeito oracional) ou concordam com o nome no plural.
+    
+
+Você gostaria de que eu explicasse detalhadamente a diferença estrutural abordada na regra "b" sobre as orações reduzidas com sujeito idêntico?
 ### 2. Sujeito Composto
 Possui dois ou mais núcleos. 
 - Pai e filho conversavam no jardim. 
