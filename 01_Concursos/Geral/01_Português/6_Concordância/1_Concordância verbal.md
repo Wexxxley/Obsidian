@@ -309,7 +309,16 @@ E) de quaisquer livros.
 
 ---
 
-![](../../../../attachments/Pasted%20image%2020260825182507.png)
-1. Batiam nove horas
-2. Não existe 
-3. Um grupo de alunos fez
+![](../../../../attachments/Pasted%20image%2020260825182729.png)
+4. PIS (3 PESSOA DO SINGULAR) Precisa-se
+5. Havia muitas pessoas
+6. Antônio, falaram bem de você. Sujeito indeterminado. ELES.
+![500](../../../../attachments/Pasted%20image%2020260825183721.png) 
+7. Sujeito POSPOSTO(concordancia atrativa ou lógica). Andava/andavam
+8. Não se pode isso. Sujeito oracional
+9. Trata-se. PIS
+
+![](../../../../attachments/Pasted%20image%2020260825184354.png)
+1. Aqui, doam-se (PA)
+2. Deve existir uma noticia
+3. Chegar na hora marcada representa. Suj oracional
