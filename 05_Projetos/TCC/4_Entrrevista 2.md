@@ -2,9 +2,7 @@
 ---
 ### 1. Entrevista com Tutores
 
-Olá! Meu nome é Wesley, sou estudante do curso de Ciência da Computação e esta entrevista faz parte da etapa de pesquisa para o meu Trabalho de Conclusão de Curso.
-
-Estou desenvolvendo uma plataforma, idealizada para conectar tutores de pets a cuidadores locais. O objetivo do sistema é modernizar e trazer segurança para o processo de hospedagem de animais. O objetivo desta conversa é entender suas necessidades, preocupações e expectativas ao deixar seu animal sob os cuidados de terceiros.
+O objetivo dessa conversa é entender as suas necessidades, preocupações e expectativas de monitoramento ao deixar o seu animal com terceiros.
 #### 1.1 Experiência atual
 1. Quando você precisa viajar e não pode levar seu pet, o que costuma fazer com ele?
 2. O que mais lhe preocupa em deixar seu pet com outra pessoa?
@@ -48,29 +46,21 @@ Estou desenvolvendo uma plataforma, idealizada para conectar tutores de pets a c
 ---
 ### 2. Entrevista com Cuidadores
 
-Olá! Meu nome é Wesley, sou estudante do curso de Ciência da Computação e estou conduzindo esta entrevista como parte do levantamento de dados para o meu Trabalho de Conclusão de Curso.
-
-Estou desenvolvendo a arquitetura e os requisitos técnicos de uma plataforma chamada **Mimo**, idealizada para conectar tutores de pets a cuidadores locais. O objetivo do sistema é modernizar e trazer segurança para o processo de hospedagem de animais.
-
 O objetivo desta conversa é explorar um cenário hipotético: caso o aplicativo estivesse funcionando hoje e você decidisse hospedar o animal de uma pessoa desconhecida, quais seriam suas principais exigências, preocupações e limites operacionais para aceitar esse trabalho de forma segura?
 #### 2.1 Motivação e experiência
 1. Você já cuidou de animais de outras pessoas? Como foi?
 2. O que faria você recusar uma hospedagem?
 3. Quais seriam suas maiores preocupações ao receber um animal de uma pessoa desconhecida?
 #### 2.2 Capacidade e restrições
-1. Como é o local onde você receberia os animais?
+1. Existem animais que você não poderia ou não gostaria de hospedar? e quais você se sentiria confortável em hospedar?
 2. Quantos animais você conseguiria cuidar simultaneamente?
-3. Existem animais que você não poderia ou não gostaria de hospedar? e quais você se sentiria confortávle em hospedar?
-4. Que características do animal seriam importantes para você saber antes de aceitar?
-5. Existem restrições relacionadas a tamanho, espécie, raça, idade ou comportamento?
-6. Você possui outros animais em casa?
-7. Quanto tempo por dia você normalmente teria disponível para cuidar do animal?
-8. Você conseguiria administrar medicamentos ou cuidados especiais?
+3. Que características do animal seriam importantes para você saber antes de aceitar? Ex: restrições relacionadas a tamanho, espécie, raça, idade ou comportamento.
+4. Você possui outros animais em casa?
+5. Caso necessário, você conseguiria administrar medicamentos ou cuidados especiais?
 #### 2.3 Aceitação de uma reserva
 1. Imagine que você recebeu uma solicitação para hospedar um animal. O que precisaria saber antes de decidir aceitar?
-2. Quais informações você consideraria obrigatórias?
+2. Em quais situações você recusaria automaticamente uma solicitação?
 3. Você gostaria de conversar com o tutor antes de aceitar?
-4. Em quais situações você recusaria automaticamente uma solicitação?
 ### 2.4 Segurança e confiança
 1. O que precisaria acontecer para você considerar seguro hospedar o animal de outra pessoa?
 2. Que informações sobre o tutor você gostaria de receber?
@@ -78,25 +68,22 @@ O objetivo desta conversa é explorar um cenário hipotético: caso o aplicativo
 4. Você consideraria importante ter avaliações feitas por outros cuidadores?
 5. Que comportamento do tutor faria você cancelar uma hospedagem?
 #### 2.5 Durante a hospedagem
-1. Que informações você esperaria receber do tutor para conseguir cuidar adequadamente dele?
-2. Você consideraria problemático ter que tirar fotos ou vídeos regularmente? Por quê?
-3. Se a plataforma exigisse uma quantidade mínima de atualizações, qual frequência seria razoável?
+1. Você consideraria problemático ter que tirar fotos ou vídeos regularmente? 
+2. Se a plataforma exigisse uma quantidade mínima de atualizações, qual frequência seria razoável?
 #### 2.6 Emergências médicas
-1. O que você esperaria que acontecesse se o animal adoecesse enquanto estivesse sob seus cuidados?
-2. Você estaria disposto a levar o animal ao veterinário em uma emergência?
-3. Você teria disponibilidade para pagar uma despesa veterinária inicialmente?
-4. Que informações do tutor seriam necessárias para você agir em uma emergência?
-5. Você aceitaria hospedar um animal que necessita de medicação?
+1. Você aceitaria hospedar um animal que necessita de medicação?
+2. O que você esperaria que acontecesse se o animal adoecesse enquanto estivesse sob seus cuidados?
+3. Você estaria disposto a levar o animal ao veterinário em uma emergência?
+4. Você teria disponibilidade para pagar uma despesa veterinária inicialmente?
 #### 2.7 Logística
 1. Como você imaginaria a entrega e a retirada do animal?
 2. Você estaria disposto a buscar e devolver o animal mediante pagamento adicional?
 3. O que deveria acontecer caso o tutor se atrasasse para buscar o animal?
-4. Que situações poderiam exigir uma extensão da hospedagem?
 #### 2.8 Pagamento, cancelamento e conflitos
-1. Você preferiria receber antes, durante ou depois da hospedagem? Por quê?
-2. E se o animal permanecer mais tempo do que o combinado?
-3. Você aceitaria pagar uma comissão à plataforma em troca de intermediação e segurança?
-4. Que condições fariam você considerar a comissão justa?
+1. E se o animal permanecer mais tempo do que o combinado?
+2. Você aceitaria pagar uma comissão à plataforma em troca de intermediação e segurança?
+3. Que condições fariam você considerar a comissão justa? 
+4. Quais vantagens você esperaria dessa plataforma em comparação a trabalhar sozinho, sem uma plataforma intermediadora?
 #### 2.9 Perguntas abertas
 1. Quais seriam seus maiores impeditivos para prestar esse tipo de serviço?
 2. Se você pudesse mudar uma única coisa na maneira como esse serviço funciona, o que mudaria?

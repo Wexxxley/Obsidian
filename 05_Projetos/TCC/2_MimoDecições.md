@@ -102,3 +102,6 @@ Para a construção do frontend web, desenvolver botões, modais, calendários d
 Como detalhado anteriormente, o envio de notificações em segundo plano para a versão web demanda serviços de intermediação entre o seu servidor e o navegador do usuário.
 
 - **Firebase Cloud Messaging (FCM):** O serviço padrão da indústria para o disparo de alertas em tempo real. O servidor .NET envia o comando contendo o texto da notificação para a API do FCM, e o Google se encarrega de rotear e entregar esse alerta visual ao navegador do cuidador, operando de forma totalmente gratuita.
+
+
+Em caso de emergencia a plataforma liberaria logo o pagamento.

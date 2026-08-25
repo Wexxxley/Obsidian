@@ -3,9 +3,7 @@
 ---
 ## 1. Com tutores
 
-"Olá! Meu nome é Wesley, sou estudante do curso de Ciência da Computação e esta entrevista faz parte da etapa de pesquisa para o meu Trabalho de Conclusão de Curso. Estou desenvolvendo a arquitetura e os requisitos técnicos de uma plataforma chamada Mimo, idealizado para conectar tutores de pets a cuidadores locais. O objetivo do sistema é modernizar e trazer segurança para o processo de hospedagem de animais.
-
-O objetivo dessa conversa é entender as suas necessidades, preocupações e expectativas de monitoramento ao deixar o seu animal com terceiros"
+O objetivo dessa conversa é entender as suas necessidades, preocupações e expectativas de monitoramento ao deixar o seu animal com terceiros.
 ### 1.1 Coleta de Dados Clínicos e Preventivos
 
 - Como você descreveria o perfil do seu animal em relação à sociabilidade com pessoas estranhas, interação com outros animais e nível de energia? 
@@ -37,11 +35,9 @@ O objetivo dessa conversa é entender as suas necessidades, preocupações e exp
 ---
 ## 2. Com cuidadores
 
-"Olá! Meu nome é Wesley, sou estudante de Ciência da Computação e estou conduzindo esta entrevista como parte do levantamento de dados para o meu Trabalho de Conclusão de Curso. Estou desenvolvendo a arquitetura e os requisitos técnicos de uma plataforma chamada Mimo, idealizado para conectar tutores de pets a cuidadores locais. O objetivo do sistema é modernizar e trazer segurança para o processo de hospedagem de animais.
+O objetivo desta conversa é explorar um cenário hipotético: caso o aplicativo estivesse funcionando hoje e você decidisse se cadastrar para hospedar o animal de uma pessoa desconhecida, quais seriam as suas principais exigências, preocupações e limites operacionais para aceitar esse trabalho de forma segura? 
 
-O objetivo desta conversa é explorar um cenário hipotético: caso o aplicativo estivesse funcionando hoje e você decidisse se cadastrar para hospedar o animal de uma pessoa desconhecida, quais seriam as suas principais exigências, preocupações e limites operacionais para aceitar esse trabalho de forma segura? As informações que você compartilhar me ajudarão a definir os requisitos técnicos do aplicativo."
-
-- Para que você pudesse realizar a hospedagem, quais restrições físicas ou de rotina você precisaria configurar no seu perfil? (limite de tamanho do animal, se aceita apenas cães ou gatos).
+- Para que você pudesse realizar a hospedagem, quais restrições físicas ou de rotina  do pevocê precisaria configurar no seu perfil? (limite de tamanho do animal, se aceita apenas cães ou gatos).
     
 - Quais informações sobre o comportamento do animal você exigiria que o sistema mostrasse obrigatoriamente antes de você clicar em "Aceitar Reserva"?
     
