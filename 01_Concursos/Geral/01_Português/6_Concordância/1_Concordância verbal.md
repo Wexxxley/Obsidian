@@ -107,21 +107,16 @@ Para as expressões que indicam porcentagem:
 **B) Porcentagem Isolada:** Se o número percentual aparecer sozinho o verbo concordará estritamente com o valor numérico.
 - _1%_ **aprovou** a medida. Singular, concorda com o número 1.
 - _20%_ **aprovaram** a medida. Plural, concorda com o número 20..
-
 ### 8. Verbo SER
-
-Quando tem **sujeito no singular** e **predicativo do Suj no plural**, a gramática flexibiliza a regra geral e 
+Quando tem **sujeito no singular** e **predicativo do Suj no plural**, a gramática flexibiliza a regra.
 - A vida **é** ilusões. (respeitando o sujeito "vida").
 - A vida **são** ilusões. (atração do predicativo plural "ilusões").
-
-Quando o sujeito for constituído por tudo, isto, isso, aquilo, o, etc, a gramática autoriza a dupla possibilidade de concordância verbal.
 - Tudo **é** flores.
 - Tudo **são** flores. 
 
 Se o sujeito for uma **pessoa** (ou pronome pessoal), o verbo "ser" concordará  com a pessoa.
 - A criança **era** as alegrias da casa.
 - O grande problema da empresa **foram** os antigos diretores.
-- 
 
 Embora o singular esteja gramaticalmente correto, a tradição literária e as bancas examinadoras consideram a **concordância com o predicativo plural como a forma preferencial e mais elegante**.
 

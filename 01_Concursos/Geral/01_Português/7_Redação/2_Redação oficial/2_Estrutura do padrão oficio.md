@@ -160,4 +160,4 @@ C) 1 E 3
 Siglas compostas por mais de três letras pronunciadas formando uma palavra devem ser escrit apenas com a inicial maiúscula; C )Mercosul
 ![](../../../../../attachments/Pasted%20image%2020260824173054.png)
 C) 
-![](../../../../../attachments/Pasted%20image%2020260824173208.png)
+![](../../../../../attachments/Pasted%20image%2020260824173208.png)D) a menos que o uso seja comum
