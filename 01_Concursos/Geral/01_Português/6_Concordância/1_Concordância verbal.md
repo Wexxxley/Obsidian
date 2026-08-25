@@ -322,3 +322,5 @@ E) de quaisquer livros.
 1. Aqui, doam-se (PA)
 2. Deve existir uma noticia
 3. Chegar na hora marcada representa. Suj oracional
+
+ ![](../../../../attachments/Pasted%20image%2020260825191842.png)
