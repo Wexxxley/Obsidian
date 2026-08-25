@@ -80,11 +80,9 @@ O objetivo desta conversa é explorar um cenário hipotético: caso o aplicativo
 2. Você estaria disposto a buscar e devolver o animal mediante pagamento adicional?
 3. O que deveria acontecer caso o tutor se atrasasse para buscar o animal?
 #### 2.8 Pagamento, cancelamento e conflitos
-1. E se o animal permanecer mais tempo do que o combinado?
-2. Você aceitaria pagar uma comissão à plataforma em troca de intermediação e segurança?
-3. Que condições fariam você considerar a comissão justa? 
-4. Quais vantagens você esperaria dessa plataforma em comparação a trabalhar sozinho, sem uma plataforma intermediadora?
+1. Você aceitaria pagar uma comissão à plataforma em troca de intermediação e segurança?
+2. Que condições fariam você considerar a comissão justa? 
+3. Quais vantagens você esperaria dessa plataforma em comparação a trabalhar sozinho, sem uma plataforma intermediadora?
 #### 2.9 Perguntas abertas
 1. Quais seriam seus maiores impeditivos para prestar esse tipo de serviço?
 2. Se você pudesse mudar uma única coisa na maneira como esse serviço funciona, o que mudaria?
-3. Existe alguma coisa importante sobre esse serviço que eu não perguntei?
