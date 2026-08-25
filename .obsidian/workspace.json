@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Conhecimentos TI/5_Frontend/2_Vue/4_Props e Slot.md",
+                "file": "05_Projetos/TCC/4_Entrrevista 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Props e Slot"
+              "title": "4_Entrrevista 2"
             }
           }
         ]
@@ -196,6 +196,10 @@
   },
   "active": "790e9221d4a763d7",
   "lastOpenFiles": [
+    "02_Conhecimentos TI/5_Frontend/2_Vue/4_Props e Slot.md",
+    "05_Projetos/TCC/4_Entrevista2.md",
+    "05_Projetos/TCC/4_Entrrevista 2.md",
+    "06_Aleatórios/Unconfirmed 478374.crdownload",
     "02_Conhecimentos TI/5_Frontend/2_Vue/3_Diretivas.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/2_Criando estados reativos.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/1_Introdução.md",
@@ -225,17 +229,14 @@
     "05_Projetos/TCC/3_Entrevista.md",
     "05_Projetos/Desenvolvimento orientado a IA.md",
     "05_Projetos/TCC/1_MimoMetodologia.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/4_Props e Slot.md",
     "attachments/Pasted image 20260824114417.png",
     "attachments/Pasted image 20260824114351.png",
     "attachments/Pasted image 20260824113849.png",
     "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled",
     "06_Aleatórios/seg.md",
     "06_Aleatórios",
-    "03_CadeirasFaculdade/4_Reuso de Software/1_Introdução.md",
     "02_Conhecimentos TI/5_Frontend/5_web1/Untitled.base",
     "02_Conhecimentos TI/5_Frontend",
-    "01_Concursos/Geral/01_Português/3_Verbos/6_Verbos pronominais.md",
     "01_Concursos/TI/06_Verificação e validação/3_/Untitled.base",
     "01_Concursos/TI/06_Verificação e validação/3_/Untitled.canvas",
     "01_Concursos/TI/06_Verificação e validação/3_",
@@ -244,7 +245,6 @@
     "05_Projetos/DecisõesProjetos",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/Untitled.canvas",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial",
-    "01_Concursos/Geral/01_Português/7_Redação/1_Dissertativa Argumentativa",
     "Sem título.canvas"
   ]
 }
