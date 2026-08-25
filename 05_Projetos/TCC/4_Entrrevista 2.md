@@ -21,14 +21,12 @@ O objetivo dessa conversa é entender as suas necessidades, preocupações e exp
 4. Existe alguma informação que, se  ausente do perfil, faria você nem considerar a pessoa?
 #### 1.4 Segurança e confiança
 1. Você confiaria mais em um cuidador verificado pela plataforma? O que deveria ser verificado?
-2. Você considera importante conhecer previamente o local onde o pet ficará?
-3. Você gostaria de conversar com o cuidador antes de confirmar a reserva?
+2. Você gostaria de conversar com o cuidador antes de confirmar a reserva?
 #### 1.5 Acompanhamento durante a hospedagem
 1. Depois de deixar seu pet com o cuidador, que tipo de acompanhamento você esperaria receber?
 2. Com que frequência você gostaria de receber notícias?
 3. Que tipo de informação seria mais importante: fotos, vídeos, mensagens, alimentação, passeios ou outra coisa?
-4. Você gostaria de poder conversar diretamente com o cuidador durante a estadia?
-5. Se a plataforma exigisse uma quantidade mínima de atualizações do pet, qual frequência seria razoável para você?
+4. Se a plataforma exigisse uma quantidade mínima de atualizações do pet, qual frequência seria razoável para você?
 #### 1.6 Emergências médicas
 1. Imagine que seu pet apresente um problema de saúde durante a hospedagem. O que você esperaria que acontecesse?
 2. Quem deveria tomar a decisão de levar o animal ao veterinário?

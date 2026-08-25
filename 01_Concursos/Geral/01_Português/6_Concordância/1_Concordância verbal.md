@@ -306,3 +306,10 @@ B) FUI eu que liguei. Com o pronome relativo que, verbo concorda com seu anteced
 C) Poderia ser: A conta era/eram só ligações
 D) As crianças pediram à professora que as liberasse. A professore liberasse
 E) de quaisquer livros.
+
+---
+
+![](../../../../attachments/Pasted%20image%2020260825182507.png)
+1. Batiam nove horas
+2. Não existe 
+3. Um grupo de alunos fez
