@@ -128,9 +128,18 @@ Embora o singular esteja gramaticalmente correto, a tradição literária e as b
 
 **B) Para indeterminar sujeito:** verbo fica na 3 pessoa do plural.
 - Saí cedo para não me perguntarem nada.
-**a) não se flexiona:** quando o sujeito do infinitivo for um pronome oblíquo, antecedido dos verbos **mandar, deixar, fazer, ver, sentir, ouvir**. Facultativo se o sujeito for um substantivo.    
-- O coordenador ouviu-os **reclamar** da avaliação. Sujeito pronome oblíquo com verbo ouvir
-- O coordenador ouviu os alunos **reclamar/reclamarem** da avaliação. Facultativo
+
+**C) infinitivo + pron reflexivo ou particula apasivadora:** Fica sempre no plural. 
+- Eles ficaram sem se **verem**. (PRON REFLEXIVO)
+- Não entendi o motivo de se **fecharem** as portas. (PA, VOZ PASSIVA)
+
+**D) Ao iniciar oração com preposição:** fica no plural
+- **Por** **falarem** a verdade, os meninos não merecem castigo.
+
+**E) VERBOS CAUSATIVOS E SENSITIVOS:**  Não se flexiona quando o sujeito do infinitivo for um pronome oblíquo, antecedido dos verbos causativos e sensitivos. Facultativo se o sujeito for um substantivo. Caso o sujeito seja um substantivo é facultativo.
+**Causativos:** mandar, deixar, fazer. **Sensitivos**: ver sentir, ouvir
+- O coordenador ouviu-os **reclamar** da avaliação. 
+- O coordenador ouviu os alunos **reclamar/reclamarem** da avaliação. 
 
 **b) não se flexiona:** quando aparecer em oração reduzida com mesmo sujeito da oração princip.
 - Os advogados reuniram-se para **discutir** o caso.
@@ -138,7 +147,7 @@ Embora o singular esteja gramaticalmente correto, a tradição literária e as b
 **C) não se flexiona:** quando em complementos nominais
 - Estas tarefas são difíceis de **realizar**.
 
-**D) facultativo:** Quando o sujeito do infinitivo está oculto, mas o contexto anterior indica que está no plural, a flexão do verbo é facultativa.
+**D) facultativo:** Qua ndo o sujeito do infinitivo está oculto, mas o contexto anterior indica que está no plural, a flexão do verbo é facultativa.
 1. Os alunos estudaram muito. Passar/passarem no exame será consequência.
 2. As crianças estão exaustas; dormir/dormirem cedo é a recomendação.
 

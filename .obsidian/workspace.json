@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Projetos/TCC/4_Entrrevista 2.md",
+                "file": "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Entrrevista 2"
+              "title": "1_Concordância verbal"
             }
           }
         ]
@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.0026054382324
+    "width": 340.0026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -196,6 +197,7 @@
   },
   "active": "790e9221d4a763d7",
   "lastOpenFiles": [
+    "05_Projetos/TCC/4_Entrrevista 2.md",
     "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "05_Projetos/Desenvolvimento orientado a IA.md",
     "05_Projetos/TCC/1_MimoMetodologia.md",
@@ -216,7 +218,6 @@
     "attachments/Pasted image 20260826084520.png",
     "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
     "01_Concursos/Geral/01_Português/5_Pontuação/4_Questões.md",
-    "05_Projetos/TCC/4_Entrrevista 2.md",
     "05_Projetos/TCC/2_MimoDecições.md",
     "05_Projetos/TCC/3_Entrevista.md",
     "05_Projetos/TCC/4_Entrevista2.md",
