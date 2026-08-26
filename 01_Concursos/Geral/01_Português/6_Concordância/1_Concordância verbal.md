@@ -20,22 +20,6 @@ Possui apenas um núcleo, geralmente um substantivo ou pronome.
 	- Fui eu quem falei (pronome relativo)
 	- Fui eu quem falou (pronome indefinido)
 
-**Concordância com o infinitivo**
-
-**a) não se flexiona:** quando o sujeito do infinitivo for um pronome oblíquo, antecedido dos verbos **mandar, deixar, fazer, ver, sentir, ouvir**. Facultativo se o sujeito for um substantivo.    
-- O coordenador ouviu-os **reclamar** da avaliação. Sujeito pronome oblíquo com verbo ouvir
-- O coordenador ouviu os alunos **reclamar/reclamarem** da avaliação. Facultativo
-
-**b) não se flexiona:** quando aparecer em oração reduzida com mesmo sujeito da oração princip.
-- Os advogados reuniram-se para **discutir** o caso.
-
-**C) não se flexiona:** quando em complementos nominais
-- Estas tarefas são difíceis de **realizar**.
-
-**D) facultativo:** Quando o sujeito do infinitivo está oculto, mas o contexto anterior indica que está no plural, a flexão do verbo é facultativa.
-1. Os alunos estudaram muito. Passar/passarem no exame será consequência.
-2. As crianças estão exaustas; dormir/dormirem cedo é a recomendação.
-
 ---
 ### 2. Sujeito Composto
 Possui dois ou mais núcleos. 
@@ -136,6 +120,22 @@ Se o sujeito for uma **pessoa** (ou pronome pessoal), o verbo "ser" concordará 
 - O grande problema da empresa **foram** os antigos diretores.
 
 Embora o singular esteja gramaticalmente correto, a tradição literária e as bancas examinadoras consideram a **concordância com o predicativo plural como a forma preferencial e mais elegante**.
+### 9. Concordância com o infinitivo
+
+**a) não se flexiona:** quando o sujeito do infinitivo for um pronome oblíquo, antecedido dos verbos **mandar, deixar, fazer, ver, sentir, ouvir**. Facultativo se o sujeito for um substantivo.    
+- O coordenador ouviu-os **reclamar** da avaliação. Sujeito pronome oblíquo com verbo ouvir
+- O coordenador ouviu os alunos **reclamar/reclamarem** da avaliação. Facultativo
+
+**b) não se flexiona:** quando aparecer em oração reduzida com mesmo sujeito da oração princip.
+- Os advogados reuniram-se para **discutir** o caso.
+
+**C) não se flexiona:** quando em complementos nominais
+- Estas tarefas são difíceis de **realizar**.
+
+**D) facultativo:** Quando o sujeito do infinitivo está oculto, mas o contexto anterior indica que está no plural, a flexão do verbo é facultativa.
+1. Os alunos estudaram muito. Passar/passarem no exame será consequência.
+2. As crianças estão exaustas; dormir/dormirem cedo é a recomendação.
+
 
 ---
 
