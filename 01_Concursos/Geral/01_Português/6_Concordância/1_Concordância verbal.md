@@ -6,9 +6,8 @@ Concordância verbal é a regra gramatical que determina que o **verbo deve se a
 ### 1. Sujeito Simples
 Possui apenas um núcleo, geralmente um substantivo ou pronome.
 - A tempestade derrubou as árvores. 
-- Eles viajaram cedo.
 
-**Sujeito com NOME DE LUGAR OU OBRA:** Com artigo, concorda com o artigo; Sem artigo, verbo no singular.
+**Suj com nome de lugar :** Com artigo, concorda com o artigo; Sem artigo, verbo no singular.
 - Os Estados Unidos foram perversamente atacados
 - Minas Gerais recebeu a visita do presidente.
 - Os lusíadas contam uma epopeia.

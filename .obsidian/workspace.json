@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.0026054382324,
-    "collapsed": true
+    "width": 340.0026054382324
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -197,6 +196,8 @@
   },
   "active": "790e9221d4a763d7",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
+    "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "attachments/Pasted image 20260825202058.png",
     "attachments/Pasted image 20260825200916.png",
     "attachments/Pasted image 20260825191842.png",
@@ -207,7 +208,6 @@
     "attachments/Pasted image 20260825182507.png",
     "01_Concursos/Geral/01_Português/5_Pontuação/4_Questões.md",
     "05_Projetos/TCC/4_Entrrevista 2.md",
-    "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "05_Projetos/TCC/2_MimoDecições.md",
     "05_Projetos/TCC/3_Entrevista.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/4_Props e Slot.md",
@@ -230,7 +230,6 @@
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/2_Estrutura do padrão oficio.md",
     "attachments/Pasted image 20260824174856.png",
     "attachments/Pasted image 20260824174649.png",
-    "attachments/Pasted image 20260824174027.png",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução.md",
     "03_CadeirasFaculdade/5_Segurança/1_.md",
     "01_Concursos/TI/01_Redes de computadores/5_Camada de enlace/3_MAC e ARP.md",

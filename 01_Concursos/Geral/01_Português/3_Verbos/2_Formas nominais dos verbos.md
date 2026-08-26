@@ -5,14 +5,12 @@
 
 São chamadas formas nominais dos verbos porque podem ser verbos e nomes.
 Nome pode ser substantivo, adjetivo, advérbio.
-
-![](../../../../attachments/Pasted%20image%2020260718143251.png)
-
+![400](../../../../attachments/Pasted%20image%2020260718143251.png)
 ![](../../../../attachments/Pasted%20image%2020260719081158.png)
 
 **Infinitivo pessoal não flexionado:** 
 - É importante que estudemos para **passar**.
-**Infinitivo pessoal flexionado:** têm desinência. 
+**Infinitivo pessoal flexionado:** 
 - É importante que estudemos para **passarmos**.
 
 ![](../../../../attachments/Pasted%20image%2020260718153458.png)
