@@ -7,20 +7,20 @@ Concordância verbal é a regra gramatical que determina que o **verbo deve se a
 Possui apenas um núcleo, geralmente um substantivo ou pronome.
 - A tempestade derrubou as árvores. 
 
-**Suj com nome de lugar :** Com artigo, concorda com o artigo; Sem artigo, verbo no singular.
-- Os Estados Unidos foram perversamente atacados
+**Suj com nome de lugar/obra:** Com artigo, concorda com o artigo; Sem artigo, singular.
+- Os Estados Unidos foram perversamente atacados.
 - Minas Gerais recebeu a visita do presidente.
 - Os lusíadas contam uma epopeia.
 
 **Sujeito com pronomes QUE e QUEM**: 
-- Com o relativo QUE como sujeito, o verbo concorda com o antecedente. 
-	- Fui eu que falei
-	- Fomos nós que falamos
+- Com o relativo QUE, o verbo concorda com o antecedente. 
+	- Fui eu que falei.
+	- Fomos nós que falamos.
 - Com o indefinido QUEM, o verbo fica na 3° do singular, MAS pode-se considerar o QUEM como pronome relativo, fazendo com que o verbo concorde com o antecedente.
 	- Fui eu quem falei (pronome relativo)
 	- Fui eu quem falou (pronome indefinido)
 
-**Concordancia com o infinitivo**
+**Concordância com o infinitivo**
 
 **a) não se flexiona:** quando o sujeito do infinitivo for um pronome oblíquo, antecedido dos verbos **mandar, deixar, fazer, ver, sentir, ouvir**. Facultativo se o sujeito for um substantivo.    
 - O coordenador ouviu-os **reclamar** da avaliação. Sujeito pronome oblíquo com verbo ouvir
@@ -348,3 +348,9 @@ E) de quaisquer livros.
 8. A diversidade justifica-se
 9. É possível isso. 
 10. Fosse lançada uma série
+
+![](../../../../attachments/Pasted%20image%2020260826072851.png)![](../../../../attachments/Pasted%20image%2020260826073308.png)
+![](../../../../attachments/Pasted%20image%2020260826073402.png)![](../../../../attachments/Pasted%20image%2020260826073919.png)
+![](../../../../attachments/Pasted%20image%2020260826074012.png)
+![](../../../../attachments/Pasted%20image%2020260826074500.png)
+![](../../../../attachments/Pasted%20image%2020260826074819.png)
