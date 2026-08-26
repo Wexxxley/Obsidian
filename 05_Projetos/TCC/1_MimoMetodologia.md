@@ -72,6 +72,7 @@ Define-se o protocolo e o contrato de como os módulos do sistema e as integraç
 ### 4. AVALIAÇÃO DA PLATAFORMA É NECESSÁRIA
 Pode ser varias formas
 - Experiencia do usuario... etc
+- Colocar sistemas como fundamentação teorica
 
 ---
 
