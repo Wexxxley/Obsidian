@@ -23,25 +23,17 @@ Possui apenas um núcleo, geralmente um substantivo ou pronome.
 
 **Concordancia com o infinitivo**
 
-Há dois infinitivos: pessoal e impessoal.
-
-**a) não se flexiona:** quando o sujeito do infinitivo for um pronome oblíquo, antecedido dos verbos **mandar, deixar, fazer, ver, sentir, ouvir**. A flexão, no entanto, pode ocorrer se o sujeito for um substantivo.    
+**a) não se flexiona:** quando o sujeito do infinitivo for um pronome oblíquo, antecedido dos verbos **mandar, deixar, fazer, ver, sentir, ouvir**. Facultativo se o sujeito for um substantivo.    
 - O coordenador ouviu-os **reclamar** da avaliação. Sujeito pronome oblíquo com verbo ouvir
 - O coordenador ouviu os alunos **reclamar/reclamarem** da avaliação. Facultativo
 
 **b) não se flexiona:** quando aparecer em oração reduzida com mesmo sujeito da oração princip.
 - Os advogados reuniram-se para **discutir** o caso.
-### Regras de Obrigatoriedade e Facultatividade
 
-- **c) flexiona-se o infinitivo:** quando o infinitivo tem sujeito próprio ou quando o sujeito do infinitivo está claro na frase, regido ou não de preposição (flexão facultativa).
-    
+**C) não se flexiona:** quando em complementos nominais
+- Estas tarefas são difíceis de **realizar**.
 
-### Regras para Verbos Específicos
-
-- **d) com os verbos _dever, poder, costumar_ + _se_ + _infinitivo_ + _nome no plural_:** esses verbos ficam no singular (= sujeito oracional) ou concordam com o nome no plural.
-    
-
-Você gostaria de que eu explicasse detalhadamente a diferença estrutural abordada na regra "b" sobre as orações reduzidas com sujeito idêntico?
+---
 ### 2. Sujeito Composto
 Possui dois ou mais núcleos. 
 - Pai e filho conversavam no jardim. 
@@ -346,3 +338,14 @@ E) de quaisquer livros.
 3. Chegar na hora marcada representa. Suj oracional
 
  ![](../../../../attachments/Pasted%20image%2020260825191842.png)
+1. Mandou os alunos estudar/estudarem. Infinitivo com **mandar, deixar, fazer, ver, sentir, ouvir**.
+2. São dignas de comprender. Quando o infinitivo está em complemento nominal n se flexiona.
+3. haver com sentido de existir
+4. ERRADA. Vi-os atuar com perfeição. Infinitivo com **mandar, deixar, fazer, ver, sentir, ouvir** e suj como pron obliquo, n se flexiona.
+5. Haver como aux de locução verbal
+![](../../../../attachments/Pasted%20image%2020260825200916.png)![](../../../../attachments/Pasted%20image%2020260825202058.png)
+6. pode. Suj composto com verbos no infinitivo.
+7. PA. São registradas. Registram-se
+8. A diversidade justifica-se
+9. É possível isso. 
+10. Fosse lançada uma série
