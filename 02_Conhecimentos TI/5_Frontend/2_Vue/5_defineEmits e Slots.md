@@ -11,6 +11,8 @@ Permite que o componente filho informe ao componente pai que uma interação fí
 >- Se o componente filho precisa fornecer um dado para o pai: **defineModel**.
 >- Se o componente filho precisa ordenar uma execução para o pai: **defineEmits**.
 
+![200](../../../attachments/Pasted%20image%2020260826093518.png)![450](../../../attachments/Pasted%20image%2020260826093444.png)O componente pai possui o estado reativo Catálogo e funções para adicionar e remover itens. Ao chamar o componente filho ele passa o PRODUTO como propriedade (readonly). E passa as funções que respondem aos eventos internos.
+![550](../../../attachments/Pasted%20image%2020260826093406.png)O componente filho define a propriedade produto(readonly) e os eventos.
 
 ----
 ### 2. Slots
