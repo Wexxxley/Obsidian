@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Conhecimentos TI/5_Frontend/2_Vue/5_Slots e Computed.md",
+                "file": "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_Slots e Computed"
+              "title": "1_Concordância verbal"
             }
           }
         ]
@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.0026054382324
+    "width": 340.0026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -196,22 +197,23 @@
   },
   "active": "790e9221d4a763d7",
   "lastOpenFiles": [
-    "attachments/Pasted image 20260826105921.png",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/4_defineProps, defineModels e define emits.md",
+    "attachments/Pasted image 20260826112303.png",
+    "attachments/Pasted image 20260826110405.png",
+    "attachments/Pasted image 20260826110351.png",
     "02_Conhecimentos TI/5_Frontend/2_Vue/5_Slots e Computed.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/4_defineProps, defineModels e define emits.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/3_Diretivas.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/2_Estados reativos com Ref e Reactive.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/1_Introdução.md",
+    "attachments/Pasted image 20260826105921.png",
     "attachments/Pasted image 20260826093518.png",
     "attachments/Pasted image 20260826093444.png",
     "attachments/Pasted image 20260826093406.png",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/2_Estados reativos com Ref e Reactive.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/3_Diretivas.md",
     "attachments/Pasted image 20260826084626.png",
     "attachments/Pasted image 20260826084548.png",
     "attachments/Pasted image 20260826084520.png",
     "attachments/Pasted image 20260826083155.png",
-    "attachments/Pasted image 20260826083129.png",
-    "attachments/Pasted image 20260826082843.png",
     "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
-    "attachments/Pasted image 20260826080724.png",
     "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
     "01_Concursos/Geral/01_Português/5_Pontuação/4_Questões.md",
     "05_Projetos/TCC/4_Entrrevista 2.md",
@@ -219,7 +221,6 @@
     "05_Projetos/TCC/3_Entrevista.md",
     "05_Projetos/TCC/4_Entrevista2.md",
     "06_Aleatórios/Unconfirmed 478374.crdownload",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/1_Introdução.md",
     "02_Conhecimentos TI/5_Frontend/1_HTML, CSS e JS/1_HTML/3_HTML Semântico.md",
     "02_Conhecimentos TI/5_Frontend/1_HTML, CSS e JS/1_HTML/1_Introdução.md",
     "02_Conhecimentos TI/5_Frontend/1_HTML, CSS e JS/2_CSS/6_Positions.md",

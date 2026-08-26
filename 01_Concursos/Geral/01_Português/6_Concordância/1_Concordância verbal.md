@@ -32,6 +32,10 @@ Possui apenas um núcleo, geralmente um substantivo ou pronome.
 **C) não se flexiona:** quando em complementos nominais
 - Estas tarefas são difíceis de **realizar**.
 
+**D) facultativo:** Quando o sujeito do infinitivo está oculto, mas o contexto anterior indica que está no plural, a flexão do verbo é facultativa.
+1. Os alunos estudaram muito. Passar/passarem no exame será consequência.
+2. As crianças estão exaustas; dormir/dormirem cedo é a recomendação.
+
 ---
 ### 2. Sujeito Composto
 Possui dois ou mais núcleos. 
@@ -358,3 +362,16 @@ E) de quaisquer livros.
 ![](../../../../attachments/Pasted%20image%2020260826080127.png)
 ![](../../../../attachments/Pasted%20image%2020260826080410.png)
 ![](../../../../attachments/Pasted%20image%2020260826080351.png)
+![](../../../../attachments/Pasted%20image%2020260826110351.png)![](../../../../attachments/Pasted%20image%2020260826110405.png)
+1. Suj partitivo. Pode concordar tanto com maioria como com jovens.
+2. Sujeito oculto (jovens). A flexao do infinitivo é facultativo
+3. Sujeito oculto (jovens). A flexao do infinitivo é facultativo
+4. INFINTIVO DEVE CONCORDAR COM MECANISMO. Só pode enferrujar.
+	- Deixar isso. OSSODReduzida de infinitivo
+5. Sujeito oculto (jovens). A flexao do infinitivo é facultativo
+
+![](../../../../attachments/Pasted%20image%2020260826112303.png)
+Note que se publicarem não é infinitivo. É futuro do subjuntivo (se fizer)
+1. se publicarem 
+2. f
+3. 
