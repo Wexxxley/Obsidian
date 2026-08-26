@@ -4,7 +4,7 @@
 ---
 
 Sistema de reatividade do Vue. O DOM é atualizado de forma autônoma sempre que as variáveis em memória sofrem alterações.
-### **1. COM REF**
+### **1. Ref**
 ![500](../../../attachments/Pasted%20image%2020260823142734.png)
 - **.value:** usado para acessar o valor das variáveis reativas.
 - **Chaves duplas**: sintaxe Mustache. usado para extrair texto e escrever funções js no HTML.
@@ -17,7 +17,7 @@ A declaração explícita torna-se  necessária quando o tipo não pode ser infe
 - **Tipagem com Null:** `const token = ref<string | null>(null);` Utilizar null é a abordagem recomendada quando você deseja declarar que o estado está vazio por enquanto.
 
 ---
-### **2. COM REACTIVE**
+### **2. Reactive**
 
 A principal diferença em relação ao ref é que a reatividade gerada pelo reactive é profunda. Isso significa que, se você instanciar um objeto com múltiplos níveis de aninhamento (como objetos dentro de objetos), todas as propriedades em todos os níveis serão monitoradas.
 -  Permite que o acesso ocorra através da notação de ponto.

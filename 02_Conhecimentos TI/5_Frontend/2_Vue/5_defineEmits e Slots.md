@@ -1,13 +1,18 @@
 
-
 ---
-### 1. Props
-Props são atributos personalizados registrados na estrutura de um componente filho. Elas representam o mecanismo oficial para a transferência unidirecional de dados do componente pai para o componente filho.
-![500](../../../attachments/Pasted%20image%2020260824111352.png)![](../../../attachments/Pasted%20image%2020260824111336.png)
-**1. Passagem de dado Estático:** você declara `titulo="Servidor Central"`.
-**2. Passagem Dinâmica:** é preciso usar v-bind.
+### 1. defineEmits 
 
----
+Permite que o componente filho informe ao componente pai que uma interação física específica foi realizada pelo usuário na interface.
+- O componente filho intercepta um evento do navegador e dispara um sinal nomeado. O componente pai monitora o surgimento desse sinal e, ao interceptá-lo, invoca uma função própria que contém os algoritmos lógicos e as regras de negócio do sistema.
+- **Quando usar:** estritamente para acionar lógicas de processamento.
+
+>[!TIP]
+>- Se o componente filho so precisa mostrar os dados do pai: **defineProps**.
+>- Se o componente filho precisa fornecer um dado para o pai: **defineModel**.
+>- Se o componente filho precisa ordenar uma execução para o pai: **defineEmits**.
+
+
+----
 ### 2. Slots
 
 Os Slots transmitem estruturas de interface ( HTML ou outros componentes). As vantagens são:

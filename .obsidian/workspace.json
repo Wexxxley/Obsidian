@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Conhecimentos TI/5_Frontend/2_Vue/5_defineModel e defineEmits.md",
+                "file": "02_Conhecimentos TI/5_Frontend/2_Vue/2_Estados reativos com Ref e Reactive.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5_defineModel e defineEmits"
+              "title": "2_Estados reativos com Ref e Reactive"
             }
           }
         ]
@@ -196,21 +196,21 @@
   },
   "active": "790e9221d4a763d7",
   "lastOpenFiles": [
+    "02_Conhecimentos TI/5_Frontend/2_Vue/5_defineEmits e Slots.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/4_defineProps e defineModels.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/3_Diretivas.md",
     "attachments/Pasted image 20260826084626.png",
     "attachments/Pasted image 20260826084548.png",
     "attachments/Pasted image 20260826084520.png",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/4_Props e Slot.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/5_defineModel e defineEmits.md",
     "attachments/Pasted image 20260826083155.png",
     "attachments/Pasted image 20260826083129.png",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/2_Criando estados reativos.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/2_Estados reativos com Ref e Reactive.md",
     "attachments/Pasted image 20260826082843.png",
     "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "attachments/Pasted image 20260826080724.png",
     "attachments/Pasted image 20260826080410.png",
     "attachments/Pasted image 20260826080351.png",
     "attachments/Pasted image 20260826080127.png",
-    "attachments/Pasted image 20260826075900.png",
     "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
     "01_Concursos/Geral/01_Português/5_Pontuação/4_Questões.md",
     "05_Projetos/TCC/4_Entrrevista 2.md",
@@ -218,7 +218,6 @@
     "05_Projetos/TCC/3_Entrevista.md",
     "05_Projetos/TCC/4_Entrevista2.md",
     "06_Aleatórios/Unconfirmed 478374.crdownload",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/3_Diretivas.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/1_Introdução.md",
     "02_Conhecimentos TI/5_Frontend/1_HTML, CSS e JS/1_HTML/3_HTML Semântico.md",
     "02_Conhecimentos TI/5_Frontend/1_HTML, CSS e JS/1_HTML/1_Introdução.md",
