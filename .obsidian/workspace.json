@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Projetos/TCC/1_MimoMetodologia.md",
+                "file": "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_MimoMetodologia"
+              "title": "1_Concordância verbal"
             }
           }
         ]
@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.0026054382324
+    "width": 340.0026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -197,6 +198,7 @@
   "active": "790e9221d4a763d7",
   "lastOpenFiles": [
     "05_Projetos/Desenvolvimento orientado a IA.md",
+    "05_Projetos/TCC/1_MimoMetodologia.md",
     "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "attachments/Pasted image 20260826112303.png",
     "attachments/Pasted image 20260826110405.png",
@@ -232,7 +234,6 @@
     "01_Concursos/Geral/01_Português/4_Sintaxe/9_Orações subordinadas substantivas.md",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/3_Tipos de documentos.md",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/2_Estrutura do padrão oficio.md",
-    "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled",
     "06_Aleatórios",
     "02_Conhecimentos TI/5_Frontend/5_web1/Untitled.base",
