@@ -141,13 +141,14 @@ Embora o singular esteja gramaticalmente correto, a tradição literária e as b
 - O coordenador ouviu-os **reclamar** da avaliação. 
 - O coordenador ouviu os alunos **reclamar/reclamarem** da avaliação. 
 
-**b) não se flexiona:** quando aparecer em oração reduzida com mesmo sujeito da oração princip.
+**F) não se flexiona:** quando em complementos nominais
+- Estas tarefas são difíceis de **realizar**.
+- Eles têm aptidão para **aprender**.
+
+**G) não se flexiona:** quando aparecer em oração reduzida com mesmo sujeito da oração princip.
 - Os advogados reuniram-se para **discutir** o caso.
 
-**C) não se flexiona:** quando em complementos nominais
-- Estas tarefas são difíceis de **realizar**.
-
-**D) facultativo:** Qua ndo o sujeito do infinitivo está oculto, mas o contexto anterior indica que está no plural, a flexão do verbo é facultativa.
+**H) facultativo:** Qua ndo o sujeito do infinitivo está oculto, mas o contexto anterior indica que está no plural, a flexão do verbo é facultativa.
 1. Os alunos estudaram muito. Passar/passarem no exame será consequência.
 2. As crianças estão exaustas; dormir/dormirem cedo é a recomendação.
 
@@ -385,8 +386,7 @@ E) de quaisquer livros.
 	- Deixar isso. OSSODReduzida de infinitivo
 5. Sujeito oculto (jovens). A flexao do infinitivo é facultativo
 
-![](../../../../attachments/Pasted%20image%2020260826112303.png)
-Note que se publicarem não é infinitivo. É futuro do subjuntivo (se fizer)
+![](../../../../attachments/Pasted%20image%2020260826112303.png)![](../../../../attachments/Pasted%20image%2020260826190058.png)Note que se publicarem não é infinitivo. É futuro do subjuntivo (se fizer).
 1. se publicarem 
 2. f
 3. 
