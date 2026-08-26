@@ -122,7 +122,12 @@ Se o sujeito for uma **pessoa** (ou pronome pessoal), o verbo "ser" concordará 
 Embora o singular esteja gramaticalmente correto, a tradição literária e as bancas examinadoras consideram a **concordância com o predicativo plural como a forma preferencial e mais elegante**.
 ### 9. Concordância com o infinitivo
 
-A) Mesmo sujeito para verbos diferentes: flexão facultativa
+**A) Mesmo sujeito para verbos diferentes:** flexão facultativa.
+- Eles pediram para sairmos daqui e voltar/voltarmos depois.
+- Falamos sobre a necessidade de estudar/estudarmos mais.
+
+**B) Para indeterminar sujeito:** verbo fica na 3 pessoa do plural.
+- Saí cedo para não me perguntarem nada.
 **a) não se flexiona:** quando o sujeito do infinitivo for um pronome oblíquo, antecedido dos verbos **mandar, deixar, fazer, ver, sentir, ouvir**. Facultativo se o sujeito for um substantivo.    
 - O coordenador ouviu-os **reclamar** da avaliação. Sujeito pronome oblíquo com verbo ouvir
 - O coordenador ouviu os alunos **reclamar/reclamarem** da avaliação. Facultativo

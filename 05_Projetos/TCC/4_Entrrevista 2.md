@@ -74,9 +74,8 @@ O objetivo desta conversa é explorar um cenário hipotético: caso o aplicativo
 3. Você estaria disposto a levar o animal ao veterinário em uma emergência?
 4. Você teria disponibilidade para pagar uma despesa veterinária inicialmente?
 #### 2.7 Logística
-1. Como você imaginaria a entrega e a retirada do animal?
-2. Você estaria disposto a buscar e devolver o animal mediante pagamento adicional?
-3. O que deveria acontecer caso o tutor se atrasasse para buscar o animal?
+1. Você estaria disposto a buscar e devolver o animal mediante pagamento adicional?
+2. O que deveria acontecer caso o tutor se atrasasse para buscar o animal?
 #### 2.8 Pagamento, cancelamento e conflitos
 1. Você aceitaria pagar uma comissão à plataforma em troca de intermediação e segurança?
 2. Que condições fariam você considerar a comissão justa? 
