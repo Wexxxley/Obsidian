@@ -343,14 +343,18 @@ E) de quaisquer livros.
 4. ERRADA. Vi-os atuar com perfeição. Infinitivo com **mandar, deixar, fazer, ver, sentir, ouvir** e suj como pron obliquo, n se flexiona.
 5. Haver como aux de locução verbal
 ![](../../../../attachments/Pasted%20image%2020260825200916.png)![](../../../../attachments/Pasted%20image%2020260825202058.png)
-6. pode. Suj composto com verbos no infinitivo.
-7. PA. São registradas. Registram-se
-8. A diversidade justifica-se
-9. É possível isso. 
-10. Fosse lançada uma série
-
+![](../../../../attachments/Pasted%20image%2020260826080724.png)
 ![](../../../../attachments/Pasted%20image%2020260826072851.png)![](../../../../attachments/Pasted%20image%2020260826073308.png)
 ![](../../../../attachments/Pasted%20image%2020260826073402.png)![](../../../../attachments/Pasted%20image%2020260826073919.png)
 ![](../../../../attachments/Pasted%20image%2020260826074012.png)
 ![](../../../../attachments/Pasted%20image%2020260826074500.png)
 ![](../../../../attachments/Pasted%20image%2020260826074819.png)
+![](../../../../attachments/Pasted%20image%2020260826075235.png)
+![](../../../../attachments/Pasted%20image%2020260826075528.png)
+![](../../../../attachments/Pasted%20image%2020260826075812.png)
+
+---
+![](../../../../attachments/Pasted%20image%2020260826075900.png)
+![](../../../../attachments/Pasted%20image%2020260826080127.png)
+![](../../../../attachments/Pasted%20image%2020260826080410.png)
+![](../../../../attachments/Pasted%20image%2020260826080351.png)
