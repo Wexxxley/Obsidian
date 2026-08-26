@@ -1,4 +1,5 @@
 
+#Concluded 
 
 ---
 ### 1. defineProps
@@ -20,3 +21,18 @@ Os dados são sincronizados entre o pai e o filho em ambas as direções. O comp
 
 ![300](../../../attachments/Pasted%20image%2020260826084626.png)![500](../../../attachments/Pasted%20image%2020260826084520.png)Componente pai simples. Possui dois estados reativos. Chama o componente de Formulário e passa os valores pedidos para o componente via v-model.
 ![600](../../../attachments/Pasted%20image%2020260826084548.png)Componente que possui dois defineModel
+
+---
+### 3. defineEmits 
+
+Permite que o componente filho informe ao componente pai que uma interação física específica foi realizada pelo usuário na interface.
+- O componente filho intercepta um evento do navegador e dispara um sinal nomeado. O componente pai monitora o surgimento desse sinal e, ao interceptá-lo, invoca uma função própria que contém os algoritmos lógicos e as regras de negócio do sistema.
+- **Quando usar:** estritamente para acionar lógicas de processamento.
+
+>[!TIP]
+>- Se o componente filho so precisa mostrar os dados do pai: **defineProps**.
+>- Se o componente filho precisa fornecer um dado para o pai: **defineModel**.
+>- Se o componente filho precisa ordenar uma execução para o pai: **defineEmits**.
+
+![200](../../../attachments/Pasted%20image%2020260826093518.png)![450](../../../attachments/Pasted%20image%2020260826093444.png)O componente pai possui o estado reativo Catálogo e funções para adicionar e remover itens. Ao chamar o componente filho ele passa o PRODUTO como propriedade (readonly). E passa as funções que respondem aos eventos internos.
+![550](../../../attachments/Pasted%20image%2020260826093406.png)O componente filho define a propriedade produto(readonly) e os eventos.
