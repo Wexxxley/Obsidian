@@ -15,9 +15,9 @@ O analista deve esgotar e mapear o domínio do problema antes de permitir que a 
 
 **Validação**: é validar se o que estamos construindo é que o cliente espera. Ver se o que foi proposto é atendido.
 
-**Verificação**: É verificar se o que foi construído funciona, se não tem bug, se é robusto.
+**Verificação**: É verificar se o que foi construído funciona e se implementa o que foi especificado nos requisitos.
 - **Estática/Inspeções de software:** Revisão linha por linha do código fonte. Pode ser inclusive do doc de requisitos. Objetivo é a DETECÇÃO de defeitos, como linhas duplicadas, var não usadas, code smells. [[2_Code smells|Entendendo CODE SMELLS]]
-- **Dinamica/testes de software:** codigo executado. Verifica se o comportamento é o esperado.
+- **Dinamica/testes de software:** codigo executado. 
 
 ---
 

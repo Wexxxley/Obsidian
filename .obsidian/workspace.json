@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
+                "file": "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Concordância verbal"
+              "title": "1_Conceitos iniciais"
             }
           }
         ]
@@ -197,6 +197,10 @@
   },
   "active": "ba625d938b90bc8b",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
+    "attachments/Pasted image 20260827112818.png",
+    "attachments/Pasted image 20260827112732.png",
+    "attachments/Pasted image 20260827112410.png",
     "attachments/Pasted image 20260827111759.png",
     "attachments/Pasted image 20260827111431.png",
     "attachments/Pasted image 20260827111057.png",
@@ -204,7 +208,6 @@
     "attachments/Pasted image 20260827110607.png",
     "attachments/Pasted image 20260827105530.png",
     "attachments/Pasted image 20260827105501.png",
-    "attachments/Pasted image 20260827105326.png",
     "05_Projetos/TCC/4_Entrrevista 2.md",
     "05_Projetos/TCC/3_Entrevista.md",
     "01_Concursos/TI/06_Verificação e validação/2_.md",
@@ -212,12 +215,8 @@
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/2_Code smells.md",
     "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
     "05_Projetos/TCC/ETutorJunior.md",
-    "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
-    "attachments/Pasted image 20260827072121.png",
     "01_Concursos/Geral/02_Arquivologia/13_Tipos, sistemas e métodos de arquivamento.md",
     "01_Concursos/Geral/02_Arquivologia/14_Método alfabético, geográfico e numérico.md",
-    "attachments/Pasted image 20260826193626.png",
-    "attachments/Pasted image 20260826193249.png",
     "05_Projetos/Desenvolvimento orientado a IA.md",
     "05_Projetos/TCC/1_MimoMetodologia.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/5_Slots e Computed.md",

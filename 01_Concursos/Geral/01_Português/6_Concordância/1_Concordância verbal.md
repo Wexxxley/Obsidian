@@ -396,7 +396,7 @@ E) de quaisquer livros.
 1. Pareciam entender. Loc verbal. 
 2. Resolvemos agir. Loc verbal
 3. devolver. Verbo causativo
-4. Viu-os chagar. Verbo sensitivo
+4. Viu-os chegar. Verbo sensitivo
 
 ![](../../../../attachments/Pasted%20image%2020260826193249.png)
 1. Fê-los chorar. Verbo causativo
@@ -426,5 +426,8 @@ ERRADO.
 ![](../../../../attachments/Pasted%20image%2020260827111431.png)
 Correto: Oração adverbial temporal reduzida. Estimular
 
-![](../../../../attachments/Pasted%20image%2020260827111759.png)
-Errado. O suj ja apareceu no texto. Flexão opcional. Mas o sentido não muda
+
+![](../../../../attachments/Pasted%20image%2020260827112410.png) 
+ERRADO. Suj posposto. pode-se escolher entre concordancia atrativa ou fica no plural. mas as duas formas levam ao plural
+
+![](../../../../attachments/Pasted%20image%2020260827112818.png)ERRADO. Devem ser é loc verbal.
