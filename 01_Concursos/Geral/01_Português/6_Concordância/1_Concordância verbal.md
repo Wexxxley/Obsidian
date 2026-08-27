@@ -22,10 +22,8 @@ Possui apenas um núcleo, geralmente um substantivo ou pronome.
 
 ---
 ### 2. Sujeito Composto
-Possui dois ou mais núcleos. 
-- Pai e filho conversavam no jardim. 
 
-**Sujeito composto posposto**: quando o verbo antecede um sujeito composto, o emissor pode escolher entre dois tipos de concordância.
+**Sujeito composto posposto**: pode-se escolher entre dois tipos de concordância:
 - **Concordância Atrativa:** O verbo flexiona para concordar com o sujeito mais próximo. 
 	- Existe burocracia, impostos elevados.
 	- Faltou o diretor e os gerentes à reunião.
@@ -41,11 +39,11 @@ Possui dois ou mais núcleos.
 	- O rei com a rainha chegou.    
 
 **Ligado por OU**
-- **Exclusão ou retificação:** Concordância feita com o núcleo mais próximo.
+- **Exclusão ou retificação:** Concordância com o núcleo mais próximo.
 	- Wesley ou Júlio será o presidente do grupo.
 	- O coordenador ou os próprios alunos resolverão o impasse.
 	
-- **inclusão:** valor de E, adição.
+- **inclusão:** valor de E, adição. Plural
 	- Frio ou calor extremo prejudicam o equipamento
 
 - **Sinonímia:** Se a conj conecta termos que representam mesma ideia o verbo fica no singular. 
