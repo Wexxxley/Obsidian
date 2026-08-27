@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
+                "file": "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Conceitos iniciais"
+              "title": "1_Concordância verbal"
             }
           }
         ]
@@ -197,6 +197,11 @@
   },
   "active": "ba625d938b90bc8b",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260827142029.png",
+    "attachments/Pasted image 20260827141529.png",
+    "attachments/Pasted image 20260827141001.png",
+    "attachments/Pasted image 20260827140739.png",
+    "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
     "attachments/Pasted image 20260827135347.png",
     "attachments/Pasted image 20260827135258.png",
     "attachments/Pasted image 20260827135121.png",
@@ -205,18 +210,13 @@
     "05_Projetos/TCC/2_MimoDecições.md",
     "05_Projetos/TCC/3_Entrevista 2.md",
     "05_Projetos/TCC/3_Entrevista.md",
-    "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
     "attachments/Pasted image 20260827133256.png",
     "01_Concursos/TI/06_Verificação e validação/2_Testes de caixa branca e caixa preta.md",
     "01_Concursos/TI/06_Verificação e validação/4_Garantia e Controle de qualidade.md",
     "attachments/Pasted image 20260827132615.png",
     "attachments/Pasted image 20260827132511.png",
-    "attachments/Pasted image 20260827132156.png",
     "01_Concursos/TI/06_Verificação e validação/3_.md",
-    "attachments/Pasted image 20260827131047.png",
     "01_Concursos/TI/06_Verificação e validação/2_TDD.md",
-    "attachments/Pasted image 20260827115918.png",
-    "attachments/Pasted image 20260827115828.png",
     "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "01_Concursos/TI/05_Engenharia de Software/8_Testes de Software/3_Pricípios FIRST e Test Smells.md",
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/2_Code smells.md",

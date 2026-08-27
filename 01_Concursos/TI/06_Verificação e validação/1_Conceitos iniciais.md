@@ -100,4 +100,4 @@ ERRADO. Inspeções (verificação estáticos) é um processo formal. Walkthroug
 ![](../../../attachments/Pasted%20image%2020260827135258.png)ERRADO. O processo de inspeção/verificação estática nao se preocupa em corrigir erros.
 
 ![](../../../attachments/Pasted%20image%2020260827135347.png)
-O termo correto É VERIFICAÇÃO ESTÁTICA. Mas como alguns autores juntam os conceitos de validação e verificação, a questão está correta
+O termo correto É VERIFICAÇÃO ESTÁTICA. Como alguns autores juntam os conceitos de validação e verificação, a questão está correta.

@@ -430,4 +430,9 @@ Correto: Oração adverbial temporal reduzida. Estimular
 ![](../../../../attachments/Pasted%20image%2020260827112410.png) 
 ERRADO. Suj posposto. pode-se escolher entre concordancia atrativa ou fica no plural. mas as duas formas levam ao plural
 
-![](../../../../attachments/Pasted%20image%2020260827112818.png)ERRADO. Devem ser é loc verbal.
+---
+![](../../../../attachments/Pasted%20image%2020260827112818.png)CERTO. Seria incorreto pq devem ser é loc verbal.
+
+![](../../../../attachments/Pasted%20image%2020260827141529.png)
+CORRETO. A ideia é ler o que vem depois e ver se faz sentido.
+
