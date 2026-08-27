@@ -386,7 +386,18 @@ E) de quaisquer livros.
 	- Deixar isso. OSSODReduzida de infinitivo
 5. Sujeito oculto (jovens). A flexao do infinitivo é facultativo
 
-![](../../../../attachments/Pasted%20image%2020260826112303.png)![](../../../../attachments/Pasted%20image%2020260826190058.png)Note que se publicarem não é infinitivo. É futuro do subjuntivo (se fizer).
-1. se publicarem 
-2. f
-3. 
+![](../../../../attachments/Pasted%20image%2020260826192831.png)
+1. Pareciam entender. Loc verbal. 
+2. Resolvemos agir. Loc verbal
+3. devolver. Verbo causativo
+4. Viu-os chagar. Verbo sensitivo
+
+![](../../../../attachments/Pasted%20image%2020260826193249.png)
+1. Fê-los chorar. Verbo causativo
+2. Fez os ouvintes chorar/chorarem. Verbo causativo e substantivo como suj.
+3. Acreditamos ter. Oração reduzida com mesmo sujeito do verbo anterior. nao se flexiona
+
+![](../../../../attachments/Pasted%20image%2020260826193626.png)
+1. Minha filha chegou sem percebermos. Suj oculto NÓS
+2. para fazer. Oração reduzida com mesmo sujeito do verbo anterior. nao se flexiona.
+3. Não se  
