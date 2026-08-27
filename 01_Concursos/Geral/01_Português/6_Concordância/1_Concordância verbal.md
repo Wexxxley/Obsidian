@@ -123,8 +123,9 @@ Embora o singular esteja correto, a tradição literária e as bancas consideram
 - Falamos sobre a necessidade de **estudar/estudarmos** mais.
 - Os alunos estudaram muito. **Passar/passarem** no exame será consequência.
 
-**B) não flexiona:** quando aparecer em oração reduzida com mesmo sujeito da oração principal.
-- Os advogados reuniram-se para **discutir** o caso.
+**B) Mesmo sujeito para verbos diferentes, mas em oração reduzida:** quando aparecer em oração reduzida com mesmo sujeito da oração principal não se flexiona.
+  - Os advogados reuniram-se para **discutir** o caso.
+![400](../../../../attachments/Pasted%20image%2020260827072121.png)
 
 **C) Para indeterminar sujeito:** verbo fica na 3 pessoa do plural.
 - Saí cedo para não me perguntarem nada.
@@ -398,4 +399,9 @@ E) de quaisquer livros.
 ![](../../../../attachments/Pasted%20image%2020260826193626.png)
 1. Minha filha chegou sem percebermos. Suj oculto NÓS
 2. para fazer. Oração reduzida com mesmo sujeito do verbo anterior. nao se flexiona.
-3. Não se  
+3. Não se  devem proibir manifestações do povo
+
+**H) Dever, poder, costumar + se + infinitivo + nome no plural:** o verbo auxiliar e o verbo no infinitivo devem concordar com o substantivo no plural, que atua como o sujeito da oração.
+- **Devem-se evitar** atitudes impulsivas.
+- **Podem-se observar mudanças** significativas no clima.
+- **Costumam-se ler** bons livros.
