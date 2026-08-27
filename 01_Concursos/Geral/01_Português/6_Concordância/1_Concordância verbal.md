@@ -112,45 +112,45 @@ Para as expressões que indicam porcentagem:
 Quando tem **sujeito no singular** e **predicativo do Suj no plural**, a gramática flexibiliza a regra.
 - A vida **é** ilusões. (respeitando o sujeito "vida").
 - A vida **são** ilusões. (atração do predicativo plural "ilusões").
-- Tudo **é** flores.
-- Tudo **são** flores. 
 
 Se o sujeito for uma **pessoa** (ou pronome pessoal), o verbo "ser" concordará  com a pessoa.
 - A criança **era** as alegrias da casa.
 - O grande problema da empresa **foram** os antigos diretores.
 
-Embora o singular esteja gramaticalmente correto, a tradição literária e as bancas examinadoras consideram a **concordância com o predicativo plural como a forma preferencial e mais elegante**.
+Embora o singular esteja correto, a tradição literária e as bancas consideram a concordância com o plural como a forma preferencial.
 ### 9. Concordância com o infinitivo
 
 **A) Mesmo sujeito para verbos diferentes:** flexão facultativa.
-- Eles pediram para sairmos daqui e voltar/voltarmos depois.
-- Falamos sobre a necessidade de estudar/estudarmos mais.
+- Eles pediram para sairmos daqui e **voltar/voltarmos** depois.
+- Falamos sobre a necessidade de **estudar/estudarmos** mais.
+- Os alunos estudaram muito. **Passar/passarem** no exame será consequência.
 
-**B) Para indeterminar sujeito:** verbo fica na 3 pessoa do plural.
+**B) não flexiona:** quando aparecer em oração reduzida com mesmo sujeito da oração principal.
+- Os advogados reuniram-se para **discutir** o caso.
+
+**C) Para indeterminar sujeito:** verbo fica na 3 pessoa do plural.
 - Saí cedo para não me perguntarem nada.
 
-**C) infinitivo + pron reflexivo ou particula apasivadora:** Fica sempre no plural. 
+**D) infinitivo + pron reflexivo ou particula apasivadora:** Fica sempre no plural. 
 - Eles ficaram sem se **verem**. (PRON REFLEXIVO)
 - Não entendi o motivo de se **fecharem** as portas. (PA, VOZ PASSIVA)
 
-**D) Ao iniciar oração com preposição:** fica no plural
+**E) Ao iniciar oração com preposição:** fica no plural
 - **Por** **falarem** a verdade, os meninos não merecem castigo.
 
-**E) VERBOS CAUSATIVOS E SENSITIVOS:**  Não se flexiona quando o sujeito do infinitivo for um pronome oblíquo, antecedido dos verbos causativos e sensitivos. Facultativo se o sujeito for um substantivo. Caso o sujeito seja um substantivo é facultativo.
+**F) VERBOS CAUSATIVOS E SENSITIVOS:**  Não se flexiona quando o sujeito do infinitivo for um pronome oblíquo, antecedido dos verbos causativos e sensitivos. Facultativo se o sujeito for um substantivo. Caso o sujeito seja um substantivo é facultativo.
 **Causativos:** mandar, deixar, fazer. **Sensitivos**: ver sentir, ouvir
 - O coordenador ouviu-os **reclamar** da avaliação. 
 - O coordenador ouviu os alunos **reclamar/reclamarem** da avaliação. 
 
-**F) não se flexiona:** quando em complementos nominais
+**G) não se flexiona:** quando em complementos nominais
 - Estas tarefas são difíceis de **realizar**.
 - Eles têm aptidão para **aprender**.
 
-**G) não se flexiona:** quando aparecer em oração reduzida com mesmo sujeito da oração princip.
-- Os advogados reuniram-se para **discutir** o caso.
-
-**H) facultativo:** Qua ndo o sujeito do infinitivo está oculto, mas o contexto anterior indica que está no plural, a flexão do verbo é facultativa.
-1. Os alunos estudaram muito. Passar/passarem no exame será consequência.
-2. As crianças estão exaustas; dormir/dormirem cedo é a recomendação.
+**H) Dever, poder, costumar + se + infinitivo + nome no plural:** o verbo auxiliar e o verbo no infinitivo devem concordar com o substantivo no plural, que atua como o sujeito da oração.
+- **Devem-se evitar** atitudes impulsivas.
+- **Podem-se observar mudanças** significativas no clima.
+- **Costumam-se ler** bons livros.
 
 
 ---
