@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
+                "file": "01_Concursos/TI/06_Verificação e validação/4_Garantia e Controle de qualidade.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Conceitos iniciais"
+              "title": "4_Garantia e Controle de qualidade"
             }
           }
         ]
@@ -197,23 +197,27 @@
   },
   "active": "ba625d938b90bc8b",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260827132511.png",
+    "attachments/Pasted image 20260827132156.png",
+    "01_Concursos/TI/06_Verificação e validação/3_.md",
+    "01_Concursos/TI/06_Verificação e validação/4_Garantia e Controle de qualidade.md",
+    "01_Concursos/TI/06_Verificação e validação/2_Testes de caixa branca e caixa preta.md",
+    "attachments/Pasted image 20260827131047.png",
+    "01_Concursos/TI/06_Verificação e validação/2_TDD.md",
+    "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
+    "attachments/Pasted image 20260827115918.png",
+    "attachments/Pasted image 20260827115828.png",
+    "attachments/Pasted image 20260827115749.png",
+    "attachments/Pasted image 20260827115710.png",
     "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "attachments/Pasted image 20260827112818.png",
     "attachments/Pasted image 20260827112732.png",
     "attachments/Pasted image 20260827112410.png",
     "attachments/Pasted image 20260827111759.png",
-    "attachments/Pasted image 20260827111431.png",
-    "attachments/Pasted image 20260827111057.png",
-    "attachments/Pasted image 20260827110813.png",
-    "attachments/Pasted image 20260827110607.png",
-    "attachments/Pasted image 20260827105530.png",
-    "attachments/Pasted image 20260827105501.png",
     "05_Projetos/TCC/4_Entrrevista 2.md",
     "05_Projetos/TCC/3_Entrevista.md",
-    "01_Concursos/TI/06_Verificação e validação/2_.md",
     "01_Concursos/TI/05_Engenharia de Software/8_Testes de Software/3_Pricípios FIRST e Test Smells.md",
     "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/2_Code smells.md",
-    "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
     "05_Projetos/TCC/ETutorJunior.md",
     "01_Concursos/Geral/02_Arquivologia/13_Tipos, sistemas e métodos de arquivamento.md",
     "01_Concursos/Geral/02_Arquivologia/14_Método alfabético, geográfico e numérico.md",
@@ -230,9 +234,6 @@
     "05_Projetos/TCC/4_Entrevista2.md",
     "06_Aleatórios/Unconfirmed 478374.crdownload",
     "02_Conhecimentos TI/5_Frontend/1_HTML, CSS e JS/1_HTML/3_HTML Semântico.md",
-    "02_Conhecimentos TI/5_Frontend/1_HTML, CSS e JS/1_HTML/1_Introdução.md",
-    "02_Conhecimentos TI/5_Frontend/1_HTML, CSS e JS/2_CSS/6_Positions.md",
-    "02_Conhecimentos TI/5_Frontend/1_HTML, CSS e JS/2_CSS/4_Flexbox.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled",
     "06_Aleatórios",
     "02_Conhecimentos TI/5_Frontend/5_web1/Untitled.base",

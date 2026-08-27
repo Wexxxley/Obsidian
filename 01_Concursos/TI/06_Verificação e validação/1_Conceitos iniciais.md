@@ -13,11 +13,12 @@ O analista deve esgotar e mapear o domínio do problema antes de permitir que a 
 
 >[!tip] No máximo, você pode aumentar a probabilidade de alguém não encontrar um erro.
 
-**Validação**: é validar se o que estamos construindo é que o cliente espera. Ver se o que foi proposto é atendido.
+**Validação**: é validar se o que estamos construindo é que o cliente desejava. Estamos construindo o produto certo?
+- Testes de aceitação, homologação.
 
 **Verificação**: É verificar se o que foi construído funciona e se implementa o que foi especificado nos requisitos.
-- **Estática/Inspeções de software:** Revisão linha por linha do código fonte. Pode ser inclusive do doc de requisitos. Objetivo é a DETECÇÃO de defeitos, como linhas duplicadas, var não usadas, code smells. [[2_Code smells|Entendendo CODE SMELLS]]
-- **Dinamica/testes de software:** codigo executado. 
+- **Estática/Inspeções:** Revisão linha por linha do código fonte. Pode ser inclusive do doc de requisitos. Objetivo é a DETECÇÃO de defeitos, como linhas duplicadas, var não usadas, code smells. [[2_Code smells|Entendendo CODE SMELLS]]
+- **Dinamica/testes:** codigo executado. 
 
 ---
 
@@ -71,4 +72,15 @@ Um testador precisa ser:
 3. **De melhoria/perfectiva:** melhorias requeridas pelos usuários.
 4. **Preventiva/de reengenharia:** Abordagem pró-ativa com foco na melhoria da manutibilidade
 
+
+---
+![500](../../../attachments/Pasted%20image%2020260827115710.png)ERRADO. Isso é verificação
+
+![](../../../attachments/Pasted%20image%2020260827115749.png)
+ERRADO. Isso é validação
+
+![](../../../attachments/Pasted%20image%2020260827115828.png)
+CORRETO
+![](../../../attachments/Pasted%20image%2020260827115918.png)
+C) Teste, verificação, validação
 
