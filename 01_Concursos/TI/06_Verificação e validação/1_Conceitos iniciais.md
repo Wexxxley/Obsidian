@@ -17,8 +17,11 @@ O analista deve esgotar e mapear o domínio do problema antes de permitir que a 
 - Testes de aceitação, homologação.
 
 **Verificação**: É verificar se o que foi construído funciona e se implementa o que foi especificado nos requisitos.
-- **Estática/Inspeções:** Revisão linha por linha do código fonte. Pode ser inclusive do doc de requisitos. Objetivo é a DETECÇÃO de defeitos, como linhas duplicadas, var não usadas, code smells. [[2_Code smells|Entendendo CODE SMELLS]]
+- **Estática/Inspeções:** Análise estática dos artefatos (requisitos, código, etc). O objetivo é a DETECÇÃO de defeitos (e não a correção), como code smells. [[2_Code smells|Entendendo CODE SMELLS]].
+	- Dificuldade: maior custo de tempo.
+	- Existem Analisadores Estáticos para analisarem o código fonte, mas somente auxiliam.
 - **Dinamica/testes:** codigo executado. 
+	![400](../../../attachments/Pasted%20image%2020260827133256.png)
 
 ---
 
@@ -84,3 +87,17 @@ CORRETO
 ![](../../../attachments/Pasted%20image%2020260827115918.png)
 C) Teste, verificação, validação
 
+![](../../../attachments/Pasted%20image%2020260827134708.png)
+Inspeções (verificações estáticos) é um processo formal. Walkthroughs é menos formal.
+
+Papéis: autor, revisores, logger, facilitador da inspeção, etc.
+
+ERRADO: O conteudo da lista DEPENDE da linguagem usada. Por exemplo, em java nao existe erro de ponteiro, mas em C sim.
+
+![](../../../attachments/Pasted%20image%2020260827135121.png)
+ERRADO. Inspeções (verificação estáticos) é um processo formal. Walkthrough é menos formal.
+
+![](../../../attachments/Pasted%20image%2020260827135258.png)ERRADO. O processo de inspeção/verificação estática nao se preocupa em corrigir erros.
+
+![](../../../attachments/Pasted%20image%2020260827135347.png)
+O termo correto É VERIFICAÇÃO ESTÁTICA. Mas como alguns autores juntam os conceitos de validação e verificação, a questão está correta

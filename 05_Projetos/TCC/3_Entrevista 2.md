@@ -15,12 +15,11 @@ O objetivo dessa conversa é entender as suas necessidades, preocupações e exp
 5. Há alguma situação que normalmente deixa seu pet estressado ou agressivo?
 6. Tem mais alguma informação que você acha necessária que cuidador saiba sobre seu pet?
 #### 1.3 Escolha do cuidador
-1. O que você procuraria no perfil de um cuidador antes de considerar deixá-lo com seu pet?
+1. Existe alguma informação que, se ausente do perfil, faria você nem considerar a pessoa?
 2. Entre experiência do cuidador, avaliações de outros tutores, fotos do ambiente, distância e preço, o que seria mais importante para você? Por quê?
 3. Que informações fariam você confiar mais em um cuidador?
-4. Existe alguma informação que, se  ausente do perfil, faria você nem considerar a pessoa?
 #### 1.4 Segurança e confiança
-1. Você confiaria mais em um cuidador verificado pela plataforma? O que deveria ser verificado?
+1. Você confiaria mais em um cuidador verificado pela plataforma?O que deveria ser verificado?
 2. Você gostaria de conversar com o cuidador antes de confirmar a reserva?
 #### 1.5 Acompanhamento durante a hospedagem
 1. Depois de deixar seu pet com o cuidador, que tipo de acompanhamento você esperaria receber?
@@ -82,4 +81,3 @@ O objetivo desta conversa é explorar um cenário hipotético: caso o aplicativo
 3. Quais vantagens você esperaria dessa plataforma em comparação a trabalhar sozinho, sem uma plataforma intermediadora?
 #### 2.9 Perguntas abertas
 1. Quais seriam seus maiores impeditivos para prestar esse tipo de serviço?
-2. Se você pudesse mudar uma única coisa na maneira como esse serviço funciona, o que mudaria?
