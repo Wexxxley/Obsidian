@@ -105,8 +105,15 @@ Para as expressões que indicam porcentagem:
 - Os setenta por cento da turma **faltaram.**
 **B) Porcentagem Isolada:** Se o número percentual aparecer sozinho o verbo concordará estritamente com o valor numérico.
 - _1%_ **aprovou** a medida. Singular, concorda com o número 1.
-- _20%_ **aprovaram** a medida. Plural, concorda com o número 20..
-### 8. Verbo SER
+- _20%_ **aprovaram** a medida. Plural, concorda com o número 20.
+### 8. Concordância com as expressões qual de, quais de
+
+**A) qual de, algum de:** o verbo fica no singular.
+- Qual de vós encontrará a solução?
+- Nenhum de nós foi capaz de resolver o programa.
+**B) quais de, alguns de:** O verbo concorda com o pronome pessoal (nós/vós) ou vai para a 3° pessoa do plural.
+- Quais de nós votaram/votamos conscientemente?
+### 9. Verbo SER
 Quando tem **sujeito no singular** e **predicativo do Suj no plural**, a gramática flexibiliza a regra.
 - A vida **é** ilusões. (respeitando o sujeito "vida").
 - A vida **são** ilusões. (atração do predicativo plural "ilusões").
@@ -116,7 +123,7 @@ Se o sujeito for uma **pessoa** (ou pronome pessoal), o verbo "ser" concordará 
 - O grande problema da empresa **foram** os antigos diretores.
 
 Embora o singular esteja correto, a tradição literária e as bancas consideram a concordância com o plural como a forma preferencial.
-### 9. Concordância com o infinitivo
+### 10. Concordância com o infinitivo
 
 **A) Mesmo sujeito para verbos diferentes:** flexão facultativa.
 - Eles pediram para sairmos daqui e **voltar/voltarmos** depois.
@@ -405,3 +412,19 @@ E) de quaisquer livros.
 - **Devem-se evitar** atitudes impulsivas.
 - **Podem-se observar mudanças** significativas no clima.
 - **Costumam-se ler** bons livros.
+
+![](../../../../attachments/Pasted%20image%2020260827105530.png)
+CORRETO. Caso do coletivo partitivo
+
+![](../../../../attachments/Pasted%20image%2020260827110607.png)
+SUJEITO COM CADA é sempre singular.
+Errado: Todos nós têm
+![](../../../../attachments/Pasted%20image%2020260827110813.png)
+ERRADO.
+![450](../../../../attachments/Pasted%20image%2020260827111057.png)
+
+![](../../../../attachments/Pasted%20image%2020260827111431.png)
+Correto: Oração adverbial temporal reduzida. Estimular
+
+![](../../../../attachments/Pasted%20image%2020260827111759.png)
+Errado. O suj ja apareceu no texto. Flexão opcional. Mas o sentido não muda
