@@ -34,8 +34,7 @@ O objetivo dessa conversa é entender as suas necessidades, preocupações e exp
 5. Se você não pudesse ser localizado, que autonomia o cuidador deveria ter?
 6. Você estaria disposto fixar previamente um limite de gastos para emergências e depois reembolsar o cuidador?
 #### 1.7 Logística
-1. Como você imaginaria a entrega e a retirada do pet?
-2. Pagaria um valor adicional para o cuidador buscar e devolver o animal?
+1. Pagaria um valor adicional para o cuidador buscar e devolver o animal?
 #### 1.8 Pagamento, cancelamento e conflitos
 1. Como você esperaria que o pagamento funcionasse para se sentir seguro?
 2. O que deveria acontecer se a hospedagem terminasse antes do previsto?
