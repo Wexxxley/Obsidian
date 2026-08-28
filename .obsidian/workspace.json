@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5b46698928892099",
+        "id": "94f0e240788afc9d",
         "type": "tabs",
         "children": [
           {
-            "id": "ba625d938b90bc8b",
+            "id": "24907d928827821f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Projetos/TCC/ECuidadorA.md",
+                "file": "02_Conhecimentos TI/5_Frontend/2_Vue/5_Slots e Computed.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ECuidadorA"
+              "title": "5_Slots e Computed"
             }
           }
         ]
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.0026054382324,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -195,10 +194,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba625d938b90bc8b",
+  "active": "24907d928827821f",
   "lastOpenFiles": [
-    "05_Projetos/TCC/ECuidadorE.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/6_Criando um TODO.md",
+    "attachments/Pasted image 20260828134000.png",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/5_Slots e Computed.md",
+    "attachments/Pasted image 20260828133549.png",
+    "attachments/Pasted image 20260828133532.png",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/3_Diretivas.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/4_defineProps, defineModels e defineEmits.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/2_Estados reativos com Ref e Reactive.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/1_Introdução.md",
+    "attachments/Pasted image 20260828132733.png",
+    "attachments/Pasted image 20260828132713.png",
+    "01_Concursos/TI/06_Verificação e validação/5_TDD.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled",
+    "01_Concursos/TI/06_Verificação e validação/Untitled.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled.canvas",
+    "01_Concursos/TI/06_Verificação e validação/4_Garantia e Controle de qualidade.md",
+    "01_Concursos/TI/06_Verificação e validação/3_.md",
+    "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
+    "01_Concursos/TI/06_Verificação e validação/2_Testes de caixa branca e caixa preta.md",
+    "attachments/Pasted image 20260828132211.png",
+    "attachments/Pasted image 20260828132209.png",
+    "attachments/Pasted image 20260828132109.png",
     "05_Projetos/TCC/ECuidadorA.md",
+    "05_Projetos/TCC/ECuidadorE.md",
     "05_Projetos/TCC/EtutorA.md",
     "05_Projetos/TCC/ECuidadorJ.md",
     "05_Projetos/TCC/EtutorS.md",
@@ -208,33 +229,11 @@
     "05_Projetos/TCC/3_Entrevista 2.md",
     "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "attachments/Pasted image 20260827163716.png",
-    "attachments/Pasted image 20260827163611.png",
-    "attachments/Pasted image 20260827142029.png",
-    "attachments/Pasted image 20260827141529.png",
-    "attachments/Pasted image 20260827141001.png",
-    "attachments/Pasted image 20260827140739.png",
-    "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
-    "attachments/Pasted image 20260827135347.png",
-    "attachments/Pasted image 20260827135258.png",
-    "attachments/Pasted image 20260827135121.png",
     "05_Projetos/TCC/1_MimoMetodologia.md",
     "05_Projetos/TCC/2_MimoDecições.md",
     "05_Projetos/TCC/3_Entrevista.md",
-    "01_Concursos/TI/06_Verificação e validação/2_Testes de caixa branca e caixa preta.md",
-    "01_Concursos/TI/06_Verificação e validação/4_Garantia e Controle de qualidade.md",
-    "01_Concursos/TI/06_Verificação e validação/3_.md",
-    "01_Concursos/TI/06_Verificação e validação/2_TDD.md",
     "01_Concursos/TI/05_Engenharia de Software/8_Testes de Software/3_Pricípios FIRST e Test Smells.md",
-    "01_Concursos/TI/05_Engenharia de Software/9_Refatoração/2_Code smells.md",
-    "01_Concursos/Geral/02_Arquivologia/13_Tipos, sistemas e métodos de arquivamento.md",
-    "01_Concursos/Geral/02_Arquivologia/14_Método alfabético, geográfico e numérico.md",
-    "05_Projetos/Desenvolvimento orientado a IA.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/5_Slots e Computed.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/4_defineProps, defineModels e define emits.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/3_Diretivas.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/2_Estados reativos com Ref e Reactive.md",
     "06_Aleatórios/Unconfirmed 478374.crdownload",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled",
     "06_Aleatórios",
     "02_Conhecimentos TI/5_Frontend/5_web1/Untitled.base",
     "02_Conhecimentos TI/5_Frontend",
