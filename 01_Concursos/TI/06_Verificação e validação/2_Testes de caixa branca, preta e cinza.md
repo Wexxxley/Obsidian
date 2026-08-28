@@ -1,6 +1,13 @@
 
 
+
 ---
+
+- Testes devem planejados muito antes de serem executados.
+- **Princ de Pareto:** "80% dos erros acontecem em 20% dos componentes". Foque no essencial.
+- Testes devem começar pequenos e progredir para pedaços maiores.
+- Preferencialmente devem ser conduzidos por terceiros (exceto testes unitários), mas na prática não é assim.
+- Um bom teste deve ter alta probabilidade de encontrar erros e não deve ser redundante.
 ### **1. Teses de caixa branca/de vidro**
 
 Também conhecido como: teste baseado em código, teste estrutural.
@@ -35,9 +42,7 @@ Para simplificar, usaremos complexidade ciclomática como:
 ---
 ### 2. Testes de caixa preta/fechada
 
-Teste funcional ou teste opaco.
-
-Testes que não levam em consideração o funcionamento interno do componente ou sistema. Mesmo que tenha acesso ao código, este não é usado.
+Teste funcional ou teste opaco. Testes que não levam em consideração o funcionamento interno do componente ou sistema. Mesmo que tenha acesso ao código, este não é usado. É utilizado as especificações/requisitos para criar os testes.
 
 Verificar se o software desenvolvido atende aos requisitos especificados. Os casos de teste podem ser planejados assim que as especificações são feitas
 - Entradas válidas são aceitas e geram as saídas esperadas e entradas inválidas geram as mensagens de erro esperadas
@@ -62,3 +67,8 @@ equivalência tem mais chance de dar erro
 - Testar limite -1;
 - Testar limite;
 - Testar limite +1.
+
+---
+### 3. Testes de caixa cinza
+
+Existe certo nível de conhecimento sobre o código fonte.

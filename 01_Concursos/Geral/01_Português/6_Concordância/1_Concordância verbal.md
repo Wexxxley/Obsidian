@@ -458,3 +458,13 @@ B) A produtividade de funcionários que riem é comaprovadamente maior.
 C) É necessário isso. 
 D) CORRETO. Isso é importante.
 E) A taxa cresce
+
+![](../../../../attachments/Pasted%20image%2020260828151505.png)A) CORRETO. Cabem. Cabe fazer restrições
+B) Se expletivo. Hão de precipitar 
+C) Não consta incongruências
+
+![](../../../../attachments/Pasted%20image%2020260828151824.png)
+A) ouçam.
+B) PA. EXPLETIVO. Os temas... deveriam ser incluídos. CORRETO
+C) Qiase não se comentam assuntos. PIS, ele torce. não fazerem
+
