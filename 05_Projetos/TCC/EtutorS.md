@@ -1,4 +1,5 @@
 
+
 ---
 
 **Wesley (entrevistador):** Ok, o objetivo desta conversa é entender as suas necessidades, preocupações e expectativas de manutenção do seu animal com terceiros. Quando você precisa viajar e não pode levar seu pet, o que costuma fazer com ele? 
@@ -92,8 +93,6 @@ Só que ia acontecer alguma coisa e ele vai ter que ficar mais tempo com o cuida
 
 **Entrevistado:** Eu acho que funciona bem, em alguns casos, você fazer um pagamento de 50% inicial e depois o restante, o outro 50%, quando o serviço foi concluído, quando a pessoa busca o animalzinho e vê que está tudo ok. 
 
-**Wesley (entrevistador):** Perfeito. Vamos supor que você fez a hospedagem, viajou por um período, mas aconteceu algum imprevisto e você teve que voltar um pouco antes. O que deveria acontecer se a hospedagem terminasse antes do previsto? Em relação ao pagamento?
+**Wesley (entrevistador):** Vamos supor que você fez a hospedagem, viajou por um período, mas aconteceu algum imprevisto e você teve que voltar um pouco antes. O que deveria acontecer se a hospedagem terminasse antes do previsto? Em relação ao pagamento?
 
 **Entrevistado:** Sim. Poderia ter um cálculo por hora, o que o tutor cobra por hora. Então, como eu falei antes, de ter essa questão de ter data e hora de check-in e de check-out, e com base nisso ser feito esse cálculo por hora. Então, se acabasse terminando antes do previsto, não teria muito problema, porque esse cálculo seria feito com base no que o cuidador ficou com o pet.
-
-**Wesley (entrevistador):** É isso. Perfeito.

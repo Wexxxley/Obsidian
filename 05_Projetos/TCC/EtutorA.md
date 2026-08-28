@@ -1,4 +1,5 @@
 
+
 ---
 
 **Wesley (entrevistador):** Tá, o objetivo dessa conversa é entender as suas necessidades, preocupações e expectativas de monitoramento ao deixar seu animal com terceiros.
@@ -82,3 +83,5 @@ Ter a opção é bom, né? Melhor ter a opção do que não ter.
 **Wesley (entrevistador):** Como você esperaria que o pagamento funcionasse pra você sentir certa segurança? 
 
 **Entrevistado:** Pelo aplicativo. Definitivamente pelo aplicativo. E... A possibilidade de eu reembolsar algumas coisas possam ser comprovadas. Entendeu?  Mas é que é difícil comprovar isso, né? Maus tratos ou algo assim.  A possibilidade do reembolso, mas talvez algo que fosse com muito mais suporte, né? Que as pessoas não pudessem abusar.Tipo assim, ter que conversar diretamente, ter que ter uma prova alheia, entendeu? É... Algo assim, sabe? Mas que eu pudesse confiar no aplicativo e que eu soubesse que ele tinha a possibilidade de ficar do meu lado também, não só sempre do lado do cuidador.
+
+50% antes pra garantir a reserva, 50% dps.

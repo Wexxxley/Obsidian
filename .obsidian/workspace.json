@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Projetos/TCC/EtutorS.md",
+                "file": "05_Projetos/TCC/ECuidadorA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EtutorS"
+              "title": "ECuidadorA"
             }
           }
         ]
@@ -197,10 +197,10 @@
   },
   "active": "ba625d938b90bc8b",
   "lastOpenFiles": [
-    "05_Projetos/TCC/EtutorA.md",
-    "05_Projetos/TCC/ECuidadorJ.md",
     "05_Projetos/TCC/ECuidadorE.md",
     "05_Projetos/TCC/ECuidadorA.md",
+    "05_Projetos/TCC/EtutorA.md",
+    "05_Projetos/TCC/ECuidadorJ.md",
     "05_Projetos/TCC/EtutorS.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/8_Orações coordenadas.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/6_TermosSintaxe.png",
