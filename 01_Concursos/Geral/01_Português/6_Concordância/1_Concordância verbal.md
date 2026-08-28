@@ -439,3 +439,22 @@ CORRETO. A ideia é ler o que vem depois e ver se faz sentido.
 B) 
 Houve, faz
 Tratar é vti. Logo esse SE é PIS. Trata-se
+![](../../../../attachments/Pasted%20image%2020260828144320.png)
+A) 
+B) Suj composto posposto. 
+C) 
+D) Suj composto posposto
+E) Deve haver. Loc verbal com verbo no impessoal
+![](../../../../attachments/Pasted%20image%2020260828144700.png)
+A) Temia-se isso (PA). Aumentasse.
+B) É isso. Passarram a existir
+C) A conectividade foi postA
+D) o(aquilo) que lhes deve ser necessário. 
+E) CORRETA. Convém isso.
+
+ ![](../../../../attachments/Pasted%20image%2020260828145846.png)
+A) Muitas pesquisas vêm
+B) A produtividade de funcionários que riem é comaprovadamente maior.
+C) É necessário isso. 
+D) CORRETO. Isso é importante.
+E) A taxa cresce
