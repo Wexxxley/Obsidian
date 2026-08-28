@@ -4,9 +4,6 @@
 
 
 
-
-
-
 O objetivo dessa conversa é explorar um cenário hipotético. Caso o aplicativo estivesse funcionando hoje e você decidisse hospedar o animal de uma pessoa desconhecida, quais seriam suas principais exigências, preocupações e limites operacionais para aceitar esse trabalho de forma segura? Essa é a ideia inicial. Primeiramente, você já cuidou de animais e outras pessoas? Ou de animais em geral? Não, só animais relacionados a cavalos, né? Faz sentido, né? De cavalos, de outras pessoas, de cachorros.
 
 O que você faria, por exemplo, para recusar uma hospedagem? O que aconteceria para você recusar uma hospedagem de um animal? Eu acho que se o animal fosse muito teimoso, né? Porque depende, né? Se o animal é mais fresado, valer, sei lá. Tá, deixa eu dar um contexto aqui. Primeiramente, tem uns perguntas que são mais amplas, para ver o que você entende. 
