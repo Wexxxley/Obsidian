@@ -15,7 +15,7 @@ Para atualizar o dado, o filho deve emitir um sinal defineEmits solicitando que 
 ---
 ### 2. defineModel
 
-Os dados são sincronizados entre o pai e o filho em ambas as direções. O componente filho tem permissão  para alterar o valor do dado. Quando essa modificação ocorre localmente no filho, o motor do Vue intercepta a alteração e atualiza a variável no componente pai.
+Os dados são sincronizados entre o pai e o filho em ambas as direções. O componente filho tem permissão para alterar o valor do dado. Quando essa modificação ocorre localmente no filho, o motor do Vue intercepta a alteração e atualiza a variável no componente pai.
     
 - **Utilize defineModel:**  quando o componente filho for projetado para coletar interações e alterar o estado do sistema, como em campos de entrada de formulários.
 

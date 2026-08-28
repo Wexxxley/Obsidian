@@ -435,6 +435,7 @@ ERRADO. Suj posposto. pode-se escolher entre concordancia atrativa ou fica no pl
 
 ![](../../../../attachments/Pasted%20image%2020260827141529.png)
 CORRETO. A ideia é ler o que vem depois e ver se faz sentido.
-
-![](../../../../attachments/Pasted%20image%2020260827163716.png)
-
+![](../../../../attachments/Pasted%20image%2020260828143540.png)![](../../../../attachments/Pasted%20image%2020260828143551.png)
+B) 
+Houve, faz
+Tratar é vti. Logo esse SE é PIS. Trata-se
