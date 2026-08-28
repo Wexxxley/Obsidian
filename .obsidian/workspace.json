@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/TI/06_Verificação e validação/2_Testes de caixa branca, preta e cinza.md",
+                "file": "01_Concursos/TI/06_Verificação e validação/2_Testes de caixa branca e preta.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Testes de caixa branca, preta e cinza"
+              "title": "2_Testes de caixa branca e preta"
             }
           }
         ]
@@ -197,20 +197,21 @@
   },
   "active": "24907d928827821f",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260828181359.png",
+    "attachments/Pasted image 20260828181310.png",
+    "attachments/Pasted image 20260828180720.png",
+    "attachments/Pasted image 20260828180140.png",
+    "attachments/Pasted image 20260828180131.png",
+    "attachments/Pasted image 20260828175854.png",
+    "attachments/Pasted image 20260828175844.png",
+    "attachments/Pasted image 20260828175802.png",
     "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
-    "01_Concursos/TI/06_Verificação e validação/2_Testes de caixa branca, preta e cinza.md",
+    "01_Concursos/TI/06_Verificação e validação/2_Testes de caixa branca e preta.md",
     "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "attachments/Pasted image 20260828151824.png",
     "attachments/Pasted image 20260828151505.png",
     "01_Concursos/Geral/01_Português/4_Sintaxe/15_Uso do SE.md",
     "attachments/Pasted image 20260828150313.png",
-    "attachments/Pasted image 20260828145846.png",
-    "attachments/Pasted image 20260828144700.png",
-    "attachments/Pasted image 20260828144320.png",
-    "attachments/Pasted image 20260828144141.png",
-    "attachments/Pasted image 20260828143940.png",
-    "attachments/Pasted image 20260828143551.png",
-    "attachments/Pasted image 20260828143540.png",
     "02_Conhecimentos TI/5_Frontend/2_Vue/6_Criando um TODO.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/4_defineProps, defineModels e defineEmits.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/3_Diretivas.md",

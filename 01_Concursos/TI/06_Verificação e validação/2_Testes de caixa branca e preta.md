@@ -10,9 +10,7 @@
 - Um bom teste deve ter alta probabilidade de encontrar erros e não deve ser redundante.
 ### **1. Teses de caixa branca/de vidro**
 
-Também conhecido como: teste baseado em código, teste estrutural.
-
-São teste que levam em consideração o funcionamento interno de um sistema ou componente. Testes planejados com conhecimento da estrutura e da implementação do software.
+Também conhecido como: teste baseado em código, teste estrutural. São teste que levam em consideração o funcionamento interno de um sistema ou componente. Testes planejados com conhecimento da estrutura e da implementação do software.
 
 O objetivo é fornecer uma boa **cobertura de testes** (testes unitários e de integração)
 - **Cobertura de comandos:** só precisa que todo comando seja executado.
@@ -31,8 +29,7 @@ Quando a quantidade de testes para um metodo cresce demais (mais do que as regra
 
 ![450](../../../attachments/Pasted%20image%2020260827131047.png)
 
-**Complexidade ciclomática:** métrica que fornece uma medida quantitativa da complexidade do programa. Ajuda a identificar a quantidade de caminhos independentes que existem no sistema que fornecem o número de casos de testes necessários para garantir que
-todos os comandos tenham sido executados pelo menos 1 vez.
+**Complexidade ciclomática:** métrica que fornece uma medida quantitativa da complexidade do programa. Ajuda a identificar a quantidade de caminhos independentes que existem.
 - Um caminho único é qualquer caminho que adiciona ao menos 1 novo comando ou condição 
 
 Para simplificar, usaremos complexidade ciclomática como:
@@ -42,7 +39,7 @@ Para simplificar, usaremos complexidade ciclomática como:
 ---
 ### 2. Testes de caixa preta/fechada
 
-Teste funcional ou teste opaco. Testes que não levam em consideração o funcionamento interno do componente ou sistema. Mesmo que tenha acesso ao código, este não é usado. É utilizado as especificações/requisitos para criar os testes.
+Teste funcional ou teste opaco. Testes que não levam em consideração o funcionamento interno dos componentes. Mesmo que tenha acesso ao código, este não é usado. São utilizados as especificações/requisitos para criar os testes.
 
 Verificar se o software desenvolvido atende aos requisitos especificados. Os casos de teste podem ser planejados assim que as especificações são feitas
 - Entradas válidas são aceitas e geram as saídas esperadas e entradas inválidas geram as mensagens de erro esperadas
@@ -59,16 +56,28 @@ Verificar se o software desenvolvido atende aos requisitos especificados. Os cas
 7. Um relatório é gerado para avaliar o resultado dos testes.
 
 ![500](../../../attachments/Pasted%20image%2020260828132109.png)
-**Particionamento de equivalência**
+**Particionamento de equivalência**: O domínio de entrada é dividido em classes e os testes são gerado de modo a atingi-las de forma não redundante.
 ![](../../../attachments/Pasted%20image%2020260828132209.png)
 
-**Valor limite**: Toma como base as classes de equivalência. Condições limite das classes de
-equivalência tem mais chance de dar erro
+**Valor limite**: Sabe-se que a maioria dos erros acontece nos limites das classes, tomando como base as classes de equivalência. 
 - Testar limite -1;
 - Testar limite;
 - Testar limite +1.
 
----
-### 3. Testes de caixa cinza
 
-Existe certo nível de conhecimento sobre o código fonte.
+---
+![](../../../attachments/Pasted%20image%2020260828175802.png)CORRETO
+![](../../../attachments/Pasted%20image%2020260828175844.png)Falso. Os de caixa preta os testadores que realizam.
+![](../../../attachments/Pasted%20image%2020260828175854.png)
+Falso. os de caixa preta nao dependem de código fonte
+
+![](../../../attachments/Pasted%20image%2020260828180131.png)
+CORRETO.
+![](../../../attachments/Pasted%20image%2020260828180140.png)
+ERRADO. As maneiros estretégicas de aplicar testes de software estão relacionadas a: testes unitario, teste de integração e teste de sistema
+
+![](../../../attachments/Pasted%20image%2020260828181310.png)
+FALSA. Seria correto de fosse no teste caixa branca.
+
+![](../../../attachments/Pasted%20image%2020260828181359.png)Falso. Quanto mais integrado, mais testes de caixa preto são usados.
+
