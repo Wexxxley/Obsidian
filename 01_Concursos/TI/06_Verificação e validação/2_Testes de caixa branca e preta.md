@@ -81,3 +81,6 @@ FALSA. Seria correto de fosse no teste caixa branca.
 
 ![](../../../attachments/Pasted%20image%2020260828181359.png)Falso. Quanto mais integrado, mais testes de caixa preto são usados.
 
+![](../../../attachments/Pasted%20image%2020260828181522.png)Correto, pois teste caixa preta n se preocupa com fluxo, somente com entrada e saída.
+
+  
