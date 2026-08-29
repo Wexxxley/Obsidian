@@ -19,7 +19,7 @@ O objetivo dessa conversa é entender as suas necessidades, preocupações e exp
 2. Entre experiência do cuidador, avaliações de outros tutores, fotos do ambiente, distância e preço, o que seria mais importante para você? Por quê?
 3. Que informações fariam você confiar mais em um cuidador?
 #### 1.4 Segurança e confiança
-1. Você confiaria mais em um cuidador verificado pela plataforma?O que deveria ser verificado?
+1. Você confiaria mais em um cuidador verificado pela plataforma? O que deveria ser verificado?
 2. Você gostaria de conversar com o cuidador antes de confirmar a reserva?
 #### 1.5 Acompanhamento durante a hospedagem
 1. Depois de deixar seu pet com o cuidador, que tipo de acompanhamento você esperaria receber?

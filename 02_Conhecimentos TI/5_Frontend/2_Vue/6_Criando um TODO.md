@@ -14,7 +14,7 @@
 ![250](../../../attachments/Pasted%20image%2020260829140737.png)
 
 **App.vue**
-![](../../../attachments/Pasted%20image%2020260828134410.png)
+![](../../../attachments/Pasted%20image%2020260829172517.png)
 - Foi criado o tipo Task, depois criado um estado reativo com uma lista de tasks.
 - Foi criado uma propriedade computada Porcentagem que depende do estado reativo Tasks.
 
