@@ -22,6 +22,10 @@ Os dados são sincronizados entre o pai e o filho em ambas as direções. O comp
 ![300](../../../attachments/Pasted%20image%2020260826084626.png)![500](../../../attachments/Pasted%20image%2020260826084520.png)Componente pai simples. Possui dois estados reativos. Chama o componente de Formulário e passa os valores pedidos para o componente via v-model.
 ![600](../../../attachments/Pasted%20image%2020260826084548.png)Componente que possui dois defineModel
 
+>[!tip]
+**Ao usar defineProps:** o componente pai injeta o dado utilizando o `v-bind` 
+**Ao usar defineModel:** o componente pai injeta o dado utilizando o `v-model`. Permitindo o fluxo de dados bidirecional.
+
 ---
 ### 3. defineEmits 
 
