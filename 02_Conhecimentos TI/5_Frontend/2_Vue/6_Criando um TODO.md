@@ -10,6 +10,8 @@
 ---
 ### 2. Criando o TODO
 ![](../../../attachments/Pasted%20image%2020260828132733.png)
+![250](../../../attachments/Pasted%20image%2020260829140737.png)
+
 **App.vue**
 ![](../../../attachments/Pasted%20image%2020260828134410.png)
 - Foi criado o tipo Task, depois criado um estado reativo com uma lista de tasks.
