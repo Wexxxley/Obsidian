@@ -3,11 +3,9 @@
 ---
 ### 1. **interface vs type**
 
-- Utilize a **interface** sempre que precisar definir a estrutura de um objeto. É a ferramenta padrão para modelar entidades de dados, mapear as respostas recebidas de uma API ou estruturar as propriedades (`Props`) de um componente. Se o dado transita e opera puramente como um objeto clássico, a `interface` deve ser a sua escolha primária.
+- Utilize a **interface** sempre que precisar definir a estrutura de um objeto. É a ferramenta padrão para modelar entidades de dados e mapear as respostas recebidas de uma API. Se o dado opera como um objeto clássico, a interface deve ser a sua escolha primária.
 
-### O momento de usar `type`
-
-Utilize o `type` obrigatoriamente quando precisar declarar qualquer estrutura que **não seja apenas um objeto**. O seu uso é exigido tecnicamente para criar uniões lógicas (exigir que uma variável aceite um número ou seja `null`), definir tipos literais específicos (como limitar uma variável estritamente às palavras `"aberto" | "fechado"`) ou criar apelidos rápidos para tipos primitivos e matrizes fechadas.
+- Utilize o **type** quando precisar declarar qualquer estrutura que não seja apenas um objeto. Como para criar uniões lógicas (exigir que uma variável aceite um número ou seja null), definir tipos literais específicos (limitar uma var às palavras "aberto" | "fechado").
 
 ---
 ### 2. Criando o TODO
@@ -19,5 +17,14 @@ Utilize o `type` obrigatoriamente quando precisar declarar qualquer estrutura qu
 
 **Todo list**![300](../../../attachments/Pasted%20image%2020260828134450.png)É uma casca vazia para receber os lists itens. Por isso o SLOT.
 
-**ListIten**![](../../../attachments/Pasted%20image%2020260828135329.png)
+**ListIten**
+
+![](../../../attachments/Pasted%20image%2020260829101348.png)
+- O modo de edição baseia-se em uma estrutura de alternância. Somente o input ou o span permanecem visíveis.
+- **Quando o input está ativo**: 
+	- **blur="endEditing":** O evento blur é disparado no momento em que o elemento perde o foco físico (por exemplo, quando o usuário clica em qualquer outro lugar). 
+	- **keydown.enter="endEditing"**:  intercepta o pressionamento da tecla "Enter".  Permitindo que o usuário consolide a edição tanto via mouse quanto via teclado.
+- **Quando o span está ativo:**
+	- **:class="{ 'is-done': done }"**: adiciona o css para mostrar que foi finalizada. 
+    
 **ProgressBar**![600](../../../attachments/Pasted%20image%2020260828140010.png)
