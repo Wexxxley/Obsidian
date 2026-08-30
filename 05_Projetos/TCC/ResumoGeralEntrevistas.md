@@ -4,31 +4,21 @@
 
 ## 1. Entrevistas com Tutores
 
-### Respostas Comuns (Respostas Repetidas)
-- **Hospedagem Atual ao Viajar:** Todos os tutores costumam recorrer a conhecidos, amigos de confiança ou familiares quando precisam viajar (Tutor A tenta mãe ou amigos; Tutor K procura amigos que fiquem na cidade; Tutor S entra em contato com conhecidos responsáveis).
-- **Importância Crucial das Avaliações e Experiência:** Na hora de selecionar um cuidador na plataforma, os fatores de maior peso são a **experiência prévia comprovada** do cuidador com animais semelhantes (especialmente gatos/filhotes) e as **avaliações de outros tutores**.
-- **Visualização do Ambiente:** Fotos do local onde o animal ficará são consideradas indispensáveis para avaliar se o espaço é seguro, fechado, limpo e adequado (se tem brinquedos, fiação protegida, etc.).
-- **Comunicação Ativa e Envio de Fotos/Vídeos:** Todos os tutores exigem atualizações frequentes com fotos e vídeos do pet comendo, brincando e descansando para se sentirem seguros e confirmar que ele está confortável.
-- **Autonomia em Emergências de Saúde:** Se houver uma emergência médica e o tutor estiver incontactável (sem sinal ou internet), todos concordam que o cuidador deve ter **autonomia total** para levar o pet imediatamente a uma clínica veterinária (de preferência à indicada previamente pelo tutor).
-- **Limite de Gastos Prévio e Reembolso:** Todos apoiam a ideia de estabelecer antecipadamente um limite financeiro para gastos veterinários emergenciais no contrato, garantindo o reembolso total do cuidador após a comprovação de despesas de saúde justificadas.
-- **Opção de Transporte Adicional:** Os tutores valorizam a possibilidade de pagar uma taxa extra para o cuidador realizar a busca e a entrega do pet, considerando a funcionalidade um excelente diferencial.
-- **Pagamento Mediado pela Plataforma:** Há consenso absoluto de que o pagamento deve ser realizado digitalmente através do aplicativo para garantir a segurança de ambas as partes. Modelos baseados em retenção do valor pela plataforma (com liberação após o serviço) ou 50% na reserva e 50% após o check-out são os mais bem avaliados.
-
+### Respostas Comuns
+- **Avaliações e Experiência:** Na hora de selecionar um cuidador, os fatores de maior peso são a experiência prévia do cuidador com animais semelhantes e as avaliações de outros tutores.
+- **Visualização do Ambiente:** Fotos do local onde o animal ficará são consideradas indispensáveis.
+- **Envio de Fotos/Vídeos:** Todos os tutores exigem atualizações frequentes com fotos e vídeos do pet comendo, brincando.
+- **Autonomia em Emergências de Saúde:** Se houver uma emergência médica e o tutor estiver sem sinal ou internet, todos concordam que o cuidador deve ter autonomia para levar o pet  a uma clínica veterinária (de preferência à indicada previamente pelo tutor).
+- **Limite de Gastos Prévio e Reembolso:** Todos apoiam a ideia de estabelecer antecipadamente um limite financeiro para gastos veterinários emergenciais no contrato.
+- **Pagamento Mediado pela Plataforma:** Há consenso de que o pagamento deve ser realizado  através do aplicativo para garantir a segurança de ambas as partes. Modelos baseados em retenção do valor pela plataforma ou 50% na reserva e 50% após o check-out.
 ### Respostas Diferentes
-- **Modalidade de Cuidado (Casa do Tutor vs. Casa do Cuidador):** O Tutor S relatou que costuma deixar a chave de sua própria residência para que uma pessoa de confiança vá lá alimentar e cuidar do pet (Pet Sitting), enquanto os tutores A e K focam na modalidade de hospedagem clássica (na casa do cuidador).
-- **Frequência Esperada de Atualizações:** A expectativa de frequência varia de acordo com o nível de ansiedade do tutor. O Tutor A prefere atualizações muito frequentes (idealmente a cada 3 horas); o Tutor K deseja receber notícias de 4 a 5 vezes por dia; já o Tutor S prefere um modelo flexível alinhado aos horários naturais de alimentação e rotina do pet.
-- **Regras de Reembolso por Check-out Antecipado:**
-  - O Tutor K entende que, se buscar o animal antes do previsto, deve pagar o **valor integral (100%)**, uma vez que o cuidador reservou aquela data e recusou outros pets, a menos que entrem em acordo mútuo.
-  - O Tutor S defende que o pagamento deveria ser cobrado por um **cálculo proporcional baseado em horas**, reembolsando o tutor pelo período que não foi utilizado caso haja retorno antecipado.
-- **Tolerância a outros pets no mesmo ambiente:** O Tutor A ressaltou que evita cuidadores com muitos animais ativos em casa por acreditar que isso dilui o nível de atenção dispensado à sua gata, além de temores sobre agressividade de terceiros.
-
+- **Frequência de Atualizações:** O Tutor A prefere atualizações a cada 3 horas; o Tutor K deseja receber notícias de 4 a 5 vezes por dia; já o Tutor S prefere um modelo flexível alinhado aos horários naturais de alimentação e rotina do pet.
+- **Reembolso por Check-out Antecipado:** O Tutor S defende que o pagamento deveria ser cobrado por um cálculo proporcional baseado em horas.
+- **Tolerância a outros pets no mesmo ambiente:** O Tutor A ressaltou que evita cuidadores com muitos animais ativos em casa por acreditar que isso dominui o nível de atenção.
 ### Preocupações Identificadas
-- **Negligência e Falha de Higiene:** Medo extremo de que o cuidador negligencie a rotina básica do animal, especialmente a troca e limpeza da caixa de areia no caso de felinos (o que causa estresse severo em gatos) ou a administração de medicamentos de uso contínuo (como o vermífugo em filhotes).
-- **Fuga, Perda ou Acidentes com o Pet:** Forte preocupação de que o animal fuja ou sofra ferimentos graves por falta de telas de proteção ou por contato inadequado com pets agressivos.
-- **Abusos Financeiros e Má Fé:** Medo de que cuidadores mal-intencionados forjem emergências de saúde para cobrar taxas veterinárias exorbitantes sem real necessidade.
-- **Celular no Silencioso em Emergências:** O Tutor A alertou que jovens costumam manter o celular no modo silencioso permanentemente, o que pode atrasar gravemente a resposta a uma emergência de saúde caso ocorra de madrugada ou durante o trabalho.
-
-### Ideias e Sugestões de Requisitos (Insumos para Requisitos de Software)
+- **Negligência e Falha de Higiene:** Medo de que o cuidador negligencie a rotina básica do animal, especialmente a troca e limpeza da caixa de areia no caso de felinos.
+- **Celular no Silencioso em Emergências:** O Tutor A alertou que jovens costumam manter o celular no modo silencioso permanentemente. Foi sugerido que em caos de emergencia esse comportamento do cll fosse sobrescrito.
+### Ideias e Sugestões de Requisitos
 - **Questionário Médico e Prontuário de Emergência (Requisito Funcional):** Funcionalidade obrigatória para o tutor preencher antes da reserva com dados da clínica veterinária de confiança, contato do veterinário principal, carteira de vacinação digitalizada, histórico de alergias e medicamentos em uso, além de um campo para fixar o limite de gastos para emergências.
 - **Diário de Bordo Digital (Check-in de Cuidados):** Tela onde o cuidador faz o check-in fotográfico obrigatório de tarefas rotineiras (ex: "Alimentação dada às Xh", "Medicamento X administrado", "Caixa de areia higienizada"), fornecendo transparência total do cronograma.
 - **Canal de Alerta Crítico (Notificação de Emergência):** Implementação de um sistema de notificação especial nativo do app para alertas de saúde graves, projetado com bypass de áudio para se sobrepor temporariamente ao modo silencioso do smartphone do tutor (sugerido pelo Tutor A).
