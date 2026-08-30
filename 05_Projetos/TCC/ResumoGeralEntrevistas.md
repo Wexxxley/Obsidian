@@ -4,54 +4,55 @@
 
 ## 1. Entrevistas com Tutores
 
-### Respostas Comuns
+**Respostas Comuns**
 - **Avaliações e Experiência:** Na hora de selecionar um cuidador, os fatores de maior peso são a experiência prévia do cuidador com animais semelhantes e as avaliações de outros tutores.
 - **Visualização do Ambiente:** Fotos do local onde o animal ficará são consideradas indispensáveis.
 - **Envio de Fotos/Vídeos:** Todos os tutores exigem atualizações frequentes com fotos e vídeos do pet comendo, brincando.
 - **Autonomia em Emergências de Saúde:** Se houver uma emergência médica e o tutor estiver sem sinal ou internet, todos concordam que o cuidador deve ter autonomia para levar o pet  a uma clínica veterinária (de preferência à indicada previamente pelo tutor).
 - **Limite de Gastos Prévio e Reembolso:** Todos apoiam a ideia de estabelecer antecipadamente um limite financeiro para gastos veterinários emergenciais no contrato.
 - **Pagamento Mediado pela Plataforma:** Há consenso de que o pagamento deve ser realizado  através do aplicativo para garantir a segurança de ambas as partes. Modelos baseados em retenção do valor pela plataforma ou 50% na reserva e 50% após o check-out.
-### Respostas Diferentes
+
+**Respostas Diferentes**
 - **Frequência de Atualizações:** O Tutor A prefere atualizações a cada 3 horas; o Tutor K deseja receber notícias de 4 a 5 vezes por dia; já o Tutor S prefere um modelo flexível alinhado aos horários naturais de alimentação e rotina do pet.
 - **Reembolso por Check-out Antecipado:** O Tutor S defende que o pagamento deveria ser cobrado por um cálculo proporcional baseado em horas.
 - **Tolerância a outros pets no mesmo ambiente:** O Tutor A ressaltou que evita cuidadores com muitos animais ativos em casa por acreditar que isso dominui o nível de atenção.
-### Preocupações Identificadas
+
+**Preocupações Identificadas**
 - **Negligência e Falha de Higiene:** Medo de que o cuidador negligencie a rotina básica do animal, especialmente a troca e limpeza da caixa de areia no caso de felinos.
 - **Celular no Silencioso em Emergências:** O Tutor A alertou que jovens costumam manter o celular no modo silencioso permanentemente. Foi sugerido que em caos de emergencia esse comportamento do cll fosse sobrescrito.
-### Ideias e Sugestões de Requisitos
-- **Questionário Médico e Prontuário de Emergência (Requisito Funcional):** Funcionalidade obrigatória para o tutor preencher antes da reserva com dados da clínica veterinária de confiança, contato do veterinário principal, carteira de vacinação digitalizada, histórico de alergias e medicamentos em uso, além de um campo para fixar o limite de gastos para emergências.
-- **Diário de Bordo Digital (Check-in de Cuidados):** Tela onde o cuidador faz o check-in fotográfico obrigatório de tarefas rotineiras (ex: "Alimentação dada às Xh", "Medicamento X administrado", "Caixa de areia higienizada"), fornecendo transparência total do cronograma.
-- **Canal de Alerta Crítico (Notificação de Emergência):** Implementação de um sistema de notificação especial nativo do app para alertas de saúde graves, projetado com bypass de áudio para se sobrepor temporariamente ao modo silencioso do smartphone do tutor (sugerido pelo Tutor A).
-- **Chat de Alinhamento Pré-Reserva:** Janela de conversa obrigatória liberada antes da confirmação do pagamento para que tutor e cuidador tirem dúvidas sobre o temperamento do animal e compatibilidade do espaço.
-- **Check-out Digital Proporcional:** Sistema de check-in e check-out por geolocalização ou QR Code para registrar horários exatos e possibilitar o cálculo proporcional de diárias e frações por hora se configurado nas regras de cancelamento.
+
+**Sugestões**
+- **Check-in de Cuidados:** Tela onde o cuidador faz o check-in fotográfico obrigatório de tarefas rotineiras (ex: "Alimentação", "Medicamento"), fornecendo transparência.
+- **Canal de Alerta Crítico:** Implementação de um sistema de notificação especial nativo do app para alertas de saúde graves, projetado para se sobrepor temporariamente ao modo silencioso do smartphone do tutor.
+- **Especialidade:** O aplicativo deve exibir o histórico de afinidade do cuidador (exemplo: "costuma ficar com cachorros"). Isso ajuda um tutor que possui gatos a evitar cuidadores que não têm infraestrutura ou experiência para felinos.
+- **Chat Pré-Reserva:** Janela de conversa obrigatória liberada antes da confirmação do pagamento para que tutor e cuidador tirem dúvidas.
 
 ---
-
 ## 2. Entrevistas com Cuidadores
 
-### Respostas Comuns (Respostas Repetidas)
-- **Tolerância Zero a Animais Agressivos:** Nenhum cuidador entrevistado aceitaria hospedar animais que demonstrem comportamento agressivo ou destrutivo que coloque em risco sua integridade física ou a segurança da residência.
-- **Transporte Opcional com Taxa Extra:** Todos se dispõem a oferecer serviços de leva e traz (busca e entrega do pet) se houver o pagamento de uma taxa adicional, desde que o cuidador possua veículo próprio para o transporte seguro.
-- **Compromisso de Socorro Médico:** Todos os cuidadores concordam em levar o pet ao veterinário imediatamente em cenários de emergência de saúde durante a estadia.
-- **Atualização de Mídia:** Enviar fotos e vídeos do pet ao longo do dia é visto como uma tarefa tranquila e natural. A frequência considerada ideal para eles é de aproximadamente 3 vezes ao dia.
-- **Aceitação de Comissão pela Plataforma:** Os cuidadores consideram justo o desconto de uma taxa de intermediação pela plataforma, desde que o sistema ofereça garantias reais de segurança física, suporte jurídico/financeiro para emergências e atração de novos clientes.
-- **Histórico e Avaliação dos Tutores:** Consideram indispensável que a plataforma exiba avaliações de outros cuidadores sobre o tutor, além de um histórico comportamental do próprio animal.
-- **Limitação de Medicamentos:** Cuidadores aceitam administrar medicamentos básicos por via oral ou tópica, mas recusam terminantemente a aplicação de medicamentos injetáveis ou procedimentos altamente complexos.
-- **Preferência de Porte e Espécie:** Há preferência quase geral pela hospedagem de felinos ou cães de pequeno e médio porte, adequando-se às limitações físicas das residências urbanas.
+**Respostas repetidas**
+- **Tolerância a Agressividade:** Nenhum dos entrevistados aceitaria hospedar animais agressivos.
+- **Transporte Adicional:** Todos demonstram disposição para realizar o serviço de busca e entrega do animal mediante o pagamento de uma taxa extra. No entanto, a viabilidade depende da posse de um veículo.
+- **Prontidão para Emergências:** Todos estão dispostos a levar o animal ao veterinário em caso de necessidade.
+- **Comunicação e Atualizações:** O envio de fotos e vídeos não é visto como um problema. A expectativa de frequência é de três vezes ao dia. Um entrevistado disse que teria momentos que passaria algumas horas fora de casa por causa da faculdade.
+- **Modelo Financeiro e Taxas:** A cobrança de uma taxa de comissão pela plataforma foi considerada aceitável. A justificativa é a garantia de segurança e a facilidade em conseguir clientes através do marketing da plataforma.
+- **Histórico de Tutores:** O acesso a avaliações de outros cuidadores sobre o tutor é considerado um requisito importante para aceitar o serviço. Sugeriram avaliação individual do pet também.
+- **Administração de Medicamentos:** todos aceitariam medicações básicas, mas não medicações  injetáveis.
+- **Preferência de animias:** gatos e cachorros de pequeno porte.
 
-### Respostas Diferentes
-- **Capacidade Máxima de Hospedagem Simultânea:** O limite de animais hospedados ao mesmo tempo variou entre 1 e 3 pets, dependendo da disponibilidade de espaço, da rotina de trabalho/estudo do cuidador e das datas específicas do calendário.
-- **Gestão Financeira de Emergências de Saúde:** Houve divergência em como lidar com pagamentos emergenciais médicos imediatos: um cuidador sugeriu que a plataforma deveria ter um fundo próprio ou dividir os custos iniciais; outro cuidador aceita desembolsar quantias pequenas (se acordado previamente) mas exige que o tutor arque de forma direta e rápida com custos elevados.
+**Respostas diferentes**
+- **Capacidade:** O limite simultâneo variou entre 1 a 3. Dependendo da data.
+- **Gestão Financeira de Emergências:** Um entrevistado sugere dividir os custos emergenciais com a plataforma. Outro prefere que o tutor arque diretamente com altos valores e aceita desembolsar quantias menores apenas se houver acordo prévio.    
 
-### Preocupações Identificadas
-- **Atraso Severo no Check-out (Risco de Abandono):** Medo grave de que o tutor não retorne para buscar o animal no dia e horário contratados. Atrasos superiores a 12 horas geram desconforto extremo. Exigem que o aplicativo estabeleça multas automáticas pesadas, cobrança de diárias extras por hora de atraso e canais diretos de suporte para resolver casos de suspeita de abandono.
-- **Falsas Acusações de Negligência ou Maus-tratos:** Receio de receber um pet que já possua ferimentos ocultos ou doenças pré-existentes e ser responsabilizado criminalmente ou processado pelo tutor ao final da estadia.
-- **Impeditivos do Ambiente Doméstico:** Fatores como ausência de telas em apartamentos, presença de crianças na casa, outros pets de temperamento territorialista ou longas horas fora de casa devido a estudos/trabalho presencial são os maiores dificultadores da atividade.
+**Preocupações Identificados**
+- **Atrasos Severos:** Há um forte receio de que o tutor não retorne para buscar o pet no dia marcado. Atrasos superiores a 12 horas são considerados inaceitáveis. Os cuidadores exigem que a plataforma possua regras rígidas e cobranças financeiras adicionais para penalizar esses atrasos.
+- **Falsas Acusações:** Existe o medo de receber o animal com uma doença pré-existente ou traumatizado e ser responsabilizado criminal ou financeiramente caso o quadro piore. Ou caso o animal sofra algum problema após a estadia e seja culpado.
+- **Impeditivos:** O ambiente doméstico apresenta barreiras físicas e de tempo. Fatores impeditivos incluem a presença de crianças na casa, a ausência prolongada do cuidador, morar em apartamentos e já possuir outros pets.
 
-### Ideias e Sugestões de Requisitos (Insumos para Requisitos de Software)
-- **Check-in Fotográfico Comprovatório (Estilo BeReal - Requisito Funcional):** Funcionalidade onde o cuidador e o tutor realizam juntos uma vistoria física do pet no momento exato do check-in. O app exige fotos detalhadas do corpo do animal com carimbo de data, hora e geolocalização para comprovar que o pet foi entregue saudável e sem ferimentos ocultos. O mesmo procedimento é repetido no check-out.
-- **Avaliação Bidirecional (Tutor/Pet):** Sistema que possibilite ao cuidador avaliar tanto o comportamento do tutor quanto as características comportamentais do pet. Esse histórico comportamental do animal ficaria visível apenas para os prestadores de serviço na plataforma durante solicitações de reserva.
-- **Delimitação de Espaço Fotográfico:** O app deve permitir que o cuidador exponha no perfil fotos apenas do "ambiente reservado" onde o pet ficará, sem a obrigatoriedade de divulgar imagens de toda a sua intimidade doméstica.
-- **Selo de Afinidade e Experiência do Cuidador (Badges/Selos):** Criação de tags automáticas no perfil do cuidador com base no seu histórico de estadias bem-sucedidas (ex: "Especialista em Filhotes", "Amigo dos Gatos", "Veterinário/Estudante de Veterinária").
-- **Cartão de Vacinas e Contatos Obrigatórios:** Trava de sistema que impede a conclusão de reservas caso o tutor não anexe a carteira de vacinação atualizada do pet e não informe o telefone do veterinário principal.
-- **Contrato de Hospedagem Digital com Assinatura:** Geração automática de um contrato de prestação de serviços e responsabilidade civil, assinado digitalmente dentro do fluxo de reserva do aplicativo, protegendo ambas as partes de litígios jurídicos e estabelecendo regras estritas de check-out atrasado.
+**Ideias e Sugestões**
+- **Check-in Fotográfico:** Para evitar falsas acusações sobre machucados, foi sugerida a implementação de um sistema de câmera nativo (semelhante ao aplicativo BeReal). Esse sistema exigiria uma foto do animal no momento da chegada, registrando metadados de hora exata para comprovar o estado de saúde do pet na entrega, na devolução e durante a estadia.
+- **Avaliação:** Além de avaliar o tutor, o sistema deve permitir que o cuidador avalie o comportamento do animal. O perfil do pet ficaria com um histórico comportamental visível somente para os próximos prestadores de serviço. 
+- **Exibição de Espaços Delimitados:** Os cuidadores não desejam expor fotos da casa inteira por questões de privacidade. A plataforma deve permitir o cadastro de fotos apenas do "ambiente reservado" (como um quarto, uma sala ou quintal) onde o animal circulará.
+- **Documentos Médicos:** Foi sugerido que o cartão de vacinação e o telefone do veterinário de confiança do tutor sejam campos de preenchimento obrigatório antes de qualquer fechamento de reserva.
+- **Canal de Notificação de Saúde:** Criação de um botão ou campo específico na interface do cuidador dedicado exclusivamente para emitir alertas de adoecimento diretamente para o tutor.
+- **Contrato**: um contrato assinado na entrega e na retirado do pet. Para evitar acusações futura.
