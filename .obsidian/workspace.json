@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Conhecimentos TI/5_Frontend/2_Vue/8_Axios e lifecycles.md",
+                "file": "05_Projetos/TCC/ResumoGeralEntrevistas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8_Axios e lifecycles"
+              "title": "ResumoGeralEntrevistas"
             }
           }
         ]
@@ -196,23 +196,24 @@
   },
   "active": "55e94b80ed92dd58",
   "lastOpenFiles": [
+    "05_Projetos/TCC/4_Requisitos funcionais.md",
+    "05_Projetos/TCC/ResumoGeralEntrevistas.md",
+    "05_Projetos/TCC/1_MimoMetodologia.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/8_Axios e lifecycles.md",
     "attachments/Pasted image 20260831181643.png",
     "attachments/Pasted image 20260831181631.png",
     "attachments/Pasted image 20260831181040.png",
     "attachments/imagem1-162.webp",
     "attachments/Pasted image 20260831180244.png",
     "02_Conhecimentos TI/5_Frontend/2_Vue/7_VueRouter.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/8_Axios e lifecycles.md",
     "attachments/Pasted image 20260831173515.png",
     "attachments/Pasted image 20260831173422.png",
     "attachments/Pasted image 20260831173342.png",
     "attachments/Pasted image 20260831172719.png",
     "attachments/Pasted image 20260831164002.png",
-    "attachments/Pasted image 20260831163720.png",
     "03_CadeirasFaculdade/5_Segurança/1_.md",
     "03_CadeirasFaculdade/5_Segurança/2_.md",
     "06_Aleatórios/seg.md",
-    "05_Projetos/TCC/1_MimoMetodologia.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled/Untitled.base",
     "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled",
     "05_Projetos/TCC/2_MimoDecições.md",
@@ -223,7 +224,6 @@
     "02_Conhecimentos TI/5_Frontend/2_Vue/2_Estados reativos com Ref e Reactive.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/1_Introdução.md",
     "05_Projetos/TCC/ResumoEntrevistasCuidadores.md",
-    "05_Projetos/TCC/ResumoGeralEntrevistas.md",
     "05_Projetos/TCC/EtutorS.md",
     "05_Projetos/TCC/ETutorK.md",
     "05_Projetos/TCC/EtutorA.md",
