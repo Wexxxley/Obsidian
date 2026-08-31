@@ -21,35 +21,11 @@ O Vue Router é a biblioteca oficial de roteamento. Ela viabilizaa a construçã
 npm install vue-router@4
 ```
 
-A implementação do Vue Router requer a criação de uma instância de roteador e a definição das rotas. Uma rota é um objeto JS que estabelece a correlação entre uma string de URL e um componente Vue específico.
-  ![200](../../../attachments/Pasted%20image%2020260831163559.png)![400](../../../attachments/Pasted%20image%2020260831163632.png)
+![](../../../attachments/Pasted%20image%2020260831173342.png)![200](../../../attachments/Pasted%20image%2020260831172719.png)![400](../../../attachments/Pasted%20image%2020260831173422.png)
 - **createWebHistory**: Função que habilita o modo de histórico HTML5. Ela permite que a aplicação utilize URLs limpas e padronizadas, sem a presença do caractere de fragmento #.
-![400](../../../attachments/Pasted%20image%2020260831164002.png)![](../../../attachments/Pasted%20image%2020260831163720.png)
+![400](../../../attachments/Pasted%20image%2020260831164002.png)![](../../../attachments/Pasted%20image%2020260831173515.png)
 - **router-link**: Componente destinado à criação dos elos de navegação. 
-- **router-view**: Componente funcional que opera como um contêiner ou espaço reservado. Ele determina o local exato na hierarquia do layout onde o componente associado à URL atual será injetado e exibido.
-    
+- **router-view**: Componente que opera como um espaço reservado. Ele determina o local exato na hierarquia do layout onde o componente associado à URL atual será injetado e exibido.
 
 
-
-
-
-### Aplicação Prática no Template (exemplo em `src/App.vue`)
-
-Snippet de código
-
-```
-<template>
-  <header>
-    <nav>
-      <!-- Navegação utilizando as rotas definidas -->
-      <router-link to="/">Página Inicial</router-link>
-      <router-link to="/about">Sobre Nós</router-link>
-    </nav>
-  </header>
-
-  <main>
-    <!-- Local de renderização dinâmica -->
-    <router-view></router-view>
-  </main>
-</template>
-```
+  
