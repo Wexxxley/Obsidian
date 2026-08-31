@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.16926193237305
+    "width": 329.16926193237305,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -196,6 +197,9 @@
   },
   "active": "55e94b80ed92dd58",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260831114030.png",
+    "attachments/Pasted image 20260831113937.png",
+    "attachments/Pasted image 20260831113820.png",
     "attachments/Pasted image 20260831112759.png",
     "06_Aleatórios/seg.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/8_Axious e lifecycles.md",
@@ -232,9 +236,6 @@
     "attachments/Pasted image 20260829101348.png",
     "attachments/Pasted image 20260829094047.png",
     "attachments/Pasted image 20260828181522.png",
-    "attachments/Pasted image 20260828181507.png",
-    "attachments/Pasted image 20260828181359.png",
-    "attachments/Pasted image 20260828181310.png",
     "06_Aleatórios/Unconfirmed 478374.crdownload",
     "06_Aleatórios",
     "02_Conhecimentos TI/5_Frontend/5_web1/Untitled.base",
