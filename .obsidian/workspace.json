@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
+                "file": "01_Concursos/Geral/01_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2_Formas nominais dos verbos"
+              "title": "1_Classes de palavras e substantivo"
             }
           }
         ],
@@ -68,7 +68,7 @@
                 "sortOrder": "alphabetical",
                 "autoReveal": false,
                 "showSearch": true,
-                "searchQuery": ""
+                "searchQuery": "subs"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
+                "file": "01_Concursos/Geral/01_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,6 +211,7 @@
   },
   "active": "a6cd8db4c76e5e54",
   "lastOpenFiles": [
+    "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
     "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "03_CadeirasFaculdade/5_Segurança/1_.md",
     "attachments/Pasted image 20260830115130.png",
@@ -248,7 +249,6 @@
     "05_Projetos/TCC/ECuidadorE.md",
     "05_Projetos/TCC/EtutorA.md",
     "05_Projetos/TCC/ECuidadorJ.md",
-    "05_Projetos/TCC/EtutorS.md",
     "06_Aleatórios/Unconfirmed 478374.crdownload",
     "06_Aleatórios",
     "02_Conhecimentos TI/5_Frontend/5_web1/Untitled.base",
