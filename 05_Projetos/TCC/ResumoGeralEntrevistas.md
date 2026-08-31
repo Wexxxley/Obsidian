@@ -1,31 +1,32 @@
 
 
 ---
-
 ## 1. Entrevistas com Tutores
 
 **Respostas Comuns**
 - **Avaliações e Experiência:** Na hora de selecionar um cuidador, os fatores de maior peso são a experiência prévia do cuidador com animais semelhantes e as avaliações de outros tutores.
-- **Visualização do Ambiente:** Fotos do local onde o animal ficará são consideradas indispensáveis.
-- **Envio de Fotos/Vídeos:** Todos os tutores exigem atualizações frequentes com fotos e vídeos do pet comendo, brincando.
-- **Autonomia em Emergências de Saúde:** Se houver uma emergência médica e o tutor estiver sem sinal ou internet, todos concordam que o cuidador deve ter autonomia para levar o pet  a uma clínica veterinária (de preferência à indicada previamente pelo tutor).
-- **Limite de Gastos Prévio e Reembolso:** Todos apoiam a ideia de estabelecer antecipadamente um limite financeiro para gastos veterinários emergenciais no contrato.
-- **Pagamento Mediado pela Plataforma:** Há consenso de que o pagamento deve ser realizado  através do aplicativo para garantir a segurança de ambas as partes. Modelos baseados em retenção do valor pela plataforma ou 50% na reserva e 50% após o check-out.
+- **Ambiente:** Fotos do local onde o animal ficará são consideradas indispensáveis.
+- **Atualizações:** Todos os tutores gostariam de ter atualizações frequentes. Como, por exemplo, fotos e vídeos do pet comendo, brincando.
+- **Autonomia em Emergências de Saúde:** Se houver uma emergência médica e o tutor não puder ser encontrado, todos concordam que o cuidador deve ter autonomia para levar o pet  a uma clínica veterinária (de preferência à indicada pelo tutor).
+- **Limite de Gastos Prévio:** Todos apoiam a ideia de estabelecer antecipadamente um limite financeiro para gastos veterinários emergenciais no contrato.
+- **Pagamento Mediado pela Plataforma:** Há consenso de que o pagamento deve ser realizado  através do aplicativo para garantir a segurança de ambas as partes. 
+	1. Modelos baseados em retenção do valor pela plataforma ou;
+	2. 50% na reserva e 50% após o check-out.
 
 **Respostas Diferentes**
 - **Frequência de Atualizações:** O Tutor A prefere atualizações a cada 3 horas; o Tutor K deseja receber notícias de 4 a 5 vezes por dia; já o Tutor S prefere um modelo flexível alinhado aos horários naturais de alimentação e rotina do pet.
 - **Reembolso por Check-out Antecipado:** O Tutor S defende que o pagamento deveria ser cobrado por um cálculo proporcional baseado em horas.
 - **Tolerância a outros pets no mesmo ambiente:** O Tutor A ressaltou que evita cuidadores com muitos animais ativos em casa por acreditar que isso dominui o nível de atenção.
+- **Trabalho oficial e tempo disponível do cuidador:** O tutor A disse que gotaria de saber qual o trabalho oficial do cuidador. Ela afirma que gostaria de saber se é um trabalho integral, pois, nesse caso, o cuidador teria pouco tempo para ficar com o pet.
 
 **Preocupações Identificadas**
 - **Negligência e Falha de Higiene:** Medo de que o cuidador negligencie a rotina básica do animal, especialmente a troca e limpeza da caixa de areia no caso de felinos.
-- **Celular no Silencioso em Emergências:** O Tutor A alertou que jovens costumam manter o celular no modo silencioso permanentemente. Foi sugerido que em caos de emergencia esse comportamento do cll fosse sobrescrito.
+- **Celular no Silencioso em Emergências:** O Tutor A alertou que jovens costumam manter o celular no modo silencioso permanentemente. Foi sugerido que em caso de emergência esse comportamento do cll fosse sobrescrito.
 
 **Sugestões**
-- **Check-in de Cuidados:** Tela onde o cuidador faz o check-in fotográfico obrigatório de tarefas rotineiras (ex: "Alimentação", "Medicamento"), fornecendo transparência.
-- **Canal de Alerta Crítico:** Implementação de um sistema de notificação especial nativo do app para alertas de saúde graves, projetado para se sobrepor temporariamente ao modo silencioso do smartphone do tutor.
+- **Canal de Alerta Crítico:** Implementação de um sistema de notificação especial nativo do app para alertas de saúde graves, projetado para se sobrepor ao modo silencioso do tutor.
 - **Especialidade:** O aplicativo deve exibir o histórico de afinidade do cuidador (exemplo: "costuma ficar com cachorros"). Isso ajuda um tutor que possui gatos a evitar cuidadores que não têm infraestrutura ou experiência para felinos.
-- **Chat Pré-Reserva:** Janela de conversa obrigatória liberada antes da confirmação do pagamento para que tutor e cuidador tirem dúvidas.
+- **Chat Pré-Reserva:** Janela de conversa liberada antes da confirmação do pagamento para que tutor e cuidador tirem dúvidas.
 
 ---
 ## 2. Entrevistas com Cuidadores
@@ -45,8 +46,8 @@
 - **Gestão Financeira de Emergências:** Um entrevistado sugere dividir os custos emergenciais com a plataforma. Outro prefere que o tutor arque diretamente com altos valores e aceita desembolsar quantias menores apenas se houver acordo prévio.    
 
 **Preocupações Identificados**
-- **Atrasos Severos:** Há um forte receio de que o tutor não retorne para buscar o pet no dia marcado. Atrasos superiores a 12 horas são considerados inaceitáveis. Os cuidadores exigem que a plataforma possua regras rígidas e cobranças financeiras adicionais para penalizar esses atrasos.
-- **Falsas Acusações:** Existe o medo de receber o animal com uma doença pré-existente ou traumatizado e ser responsabilizado criminal ou financeiramente caso o quadro piore. Ou caso o animal sofra algum problema após a estadia e seja culpado.
+- **Atrasos Severos:** Houve um receio de que o tutor não retorne para buscar o pet no dia marcado. Atrasos são considerados inaceitáveis. Os cuidadores exigem que a plataforma possua regras rígidas e cobranças adicionais para penalizar esses atrasos.
+- **Falsas Acusações:** Existe o medo de receber o animal com uma doença pré-existente ou traumatizado e ser responsabilizado criminal ou financeiramente caso o quadro piore. Ou caso o animal sofra algum problema após a estadia e o cuidador seja culpado.
 - **Impeditivos:** O ambiente doméstico apresenta barreiras físicas e de tempo. Fatores impeditivos incluem a presença de crianças na casa, a ausência prolongada do cuidador, morar em apartamentos e já possuir outros pets.
 
 **Ideias e Sugestões**

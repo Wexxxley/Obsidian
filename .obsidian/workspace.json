@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "94f0e240788afc9d",
+        "id": "a9163e350e62bafe",
         "type": "tabs",
         "children": [
           {
-            "id": "24907d928827821f",
+            "id": "55e94b80ed92dd58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
+                "file": "02_Conhecimentos TI/5_Frontend/2_Vue/8_Axious.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Concordância verbal"
-            }
-          },
-          {
-            "id": "a6cd8db4c76e5e54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01_Concursos/Geral/01_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1_Classes de palavras e substantivo"
+              "title": "8_Axious"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
                 "sortOrder": "alphabetical",
                 "autoReveal": false,
                 "showSearch": true,
-                "searchQuery": "subs"
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -209,26 +194,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a6cd8db4c76e5e54",
+  "active": "55e94b80ed92dd58",
   "lastOpenFiles": [
-    "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
+    "05_Projetos/TCC/1_MimoMetodologia.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/8_Axious.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled/Untitled.base",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled",
+    "05_Projetos/TCC/2_MimoDecições.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/7_VueRouter.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/4_defineProps, defineModels e defineEmits.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/6_Criando um TODO.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled.canvas",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/5_Slots e Computed.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/2_Estados reativos com Ref e Reactive.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/1_Introdução.md",
+    "05_Projetos/TCC/ResumoEntrevistasCuidadores.md",
+    "05_Projetos/TCC/ResumoGeralEntrevistas.md",
+    "05_Projetos/TCC/EtutorS.md",
+    "05_Projetos/TCC/ETutorK.md",
+    "05_Projetos/TCC/EtutorA.md",
+    "05_Projetos/TCC/ECuidadorJ.md",
+    "05_Projetos/TCC/ECuidadorE.md",
+    "05_Projetos/TCC/ECuidadorA.md",
+    "05_Projetos/TCC/3_Modelo Entrevista.md",
     "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
+    "01_Concursos/Geral/01_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
+    "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
     "03_CadeirasFaculdade/5_Segurança/1_.md",
     "attachments/Pasted image 20260830115130.png",
     "attachments/Pasted image 20260830114714.png",
     "06_Aleatórios/seg.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/10_Preposição.md",
-    "05_Projetos/TCC/ResumoGeralEntrevistas.md",
-    "05_Projetos/TCC/ResumoEntrevistasCuidadores.md",
-    "05_Projetos/TCC/ETutorK.md",
-    "05_Projetos/TCC/3_Entrevista 2.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/6_Criando um TODO.md",
     "attachments/Pasted image 20260829172517.png",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/1_Introdução.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/2_Estados reativos com Ref e Reactive.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/3_Diretivas.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/4_defineProps, defineModels e defineEmits.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/5_Slots e Computed.md",
     "attachments/Pasted image 20260829140737.png",
     "attachments/Pasted image 20260829101348.png",
     "attachments/Pasted image 20260829094047.png",
@@ -237,18 +235,6 @@
     "attachments/Pasted image 20260828181507.png",
     "attachments/Pasted image 20260828181359.png",
     "attachments/Pasted image 20260828181310.png",
-    "01_Concursos/TI/06_Verificação e validação/1_Conceitos iniciais.md",
-    "01_Concursos/Geral/01_Português/4_Sintaxe/15_Uso do SE.md",
-    "01_Concursos/TI/06_Verificação e validação/5_TDD.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled",
-    "01_Concursos/TI/06_Verificação e validação/Untitled.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled.canvas",
-    "01_Concursos/TI/06_Verificação e validação/4_Garantia e Controle de qualidade.md",
-    "01_Concursos/TI/06_Verificação e validação/3_.md",
-    "05_Projetos/TCC/ECuidadorA.md",
-    "05_Projetos/TCC/ECuidadorE.md",
-    "05_Projetos/TCC/EtutorA.md",
-    "05_Projetos/TCC/ECuidadorJ.md",
     "06_Aleatórios/Unconfirmed 478374.crdownload",
     "06_Aleatórios",
     "02_Conhecimentos TI/5_Frontend/5_web1/Untitled.base",
@@ -260,7 +246,6 @@
     "05_Aleatorios/Untitled.canvas",
     "05_Projetos/DecisõesProjetos",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/Untitled.canvas",
-    "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial",
     "Sem título.canvas"
   ]
 }
