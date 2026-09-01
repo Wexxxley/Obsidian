@@ -24,18 +24,17 @@
 
 ---
 ### 2. Descoberta, Demanda e Negociação
-- **US010:** Como Tutor, eu quero publicar uma demanda informando as datas, o pet e minhas exigências, para que múltiplos cuidadores possam visualizar e enviar propostas.
-- **US11:** Como Cuidador, eu quero visualizar um feed de demandas filtrado pela minha capacidade e região, para que eu possa enviar uma proposta para hospedar o animal.
-- **US12:** Como Tutor, eu quero buscar cuidadores específicos utilizando filtros de distância, preço e especialidade, para enviar uma proposta direta de hospedagem de forma privada.
-- **US13:** Como Cuidador, eu quero receber notificações quando uma proposta direta for enviada para mim, para que eu possa aceitar ou recusar rapidamente antes do tempo limite expirar.
-- **US14:** Como Tutor e Cuidador, eu quero ter acesso a um chat temporário antes do pagamento da reserva, para que possamos alinhar rotinas, tirar dúvidas e fechar detalhes do transporte.    
-- **US15:** Como Cuidador, eu quero acessar o perfil completo do pet e do cuidador antes de enviar um lance no feed ou aceitar um pedido direto.
-- **US16:** Como Cuidador, eu quero poder enviar uma contraproposta financeira, para viabilizar a negociação caso o período exija um esforço maior (como feriados ou necessidades médicas específicas do pet).
-- **US22:** Como Cuidador, eu quero ter a capacidade de cancelar um lance financeiro que enviei caso o tutor não responda em tempo hábil e a minha agenda seja preenchida por outro serviço.
-### Ciclo de Vida e Contingências da Negociação
-    
-    
-- **US23:** Como Cuidador, eu quero que o feed de demandas públicas atualize dinamicamente, removendo automaticamente as vagas que já foram preenchidas por outros cuidadores ou canceladas pelos tutores, garantindo que eu invista tempo analisando apenas oportunidades reais.
+- **US10:** Como Tutor, eu quero publicar um pedido no "Feed de demandas públicas", para que múltiplos cuidadores possam visualizar a minha necessidade e iniciar uma negociação comigo
+- **US11:** Como Tutor, eu quero enviar uma "Proposta Direta" de hospedagem para o perfil de um cuidador específico, para que a solicitação chegue de forma privada e exclusiva a ele.
+- **US12:** Como Cuidador, eu quero visualizar o "Feed de demandas públicas" para que eu possa analisar as solicitações abertas e acionar a opção de enviar uma mensagem direta aos tutores de meu interesse.
+- **US13:** Como Cuidador, ao receber uma "Proposta Direta" de um tutor, eu quero ter a opção de recusar imediatamente o pedido ou abrir um canal de mensagem direta, para que eu possa gerenciar minha agenda e iniciar as tratativas.
+- **US14:** Como Tutor e Cuidador, eu quero utilizar um chat interno vinculado à demanda, para que possamos alinhar as necessidades do animal e chegar a um acordo financeiro preliminar através de mensagens.
+- **US15:** Como Cuidador, eu quero acionar uma funcionalidade dentro do chat para inserir o valor final negociado, para que o sistema gere e apresente um rascunho do contrato de prestação de serviço contendo os valores e as datas para a análise do tutor.
+- **US16:** Como Tutor, ao receber a proposta financeira gerada pelo cuidador, eu quero ter a opção de recusar (devido a erros de digitação do cuidador ou discordância de valores), para que a cobrança seja cancelada, mas o chat permaneça ativo permitindo a continuidade da negociação.
+- **US17:** Como Tutor, ao concordar com o valor gerado pelo cuidador, eu quero visualizar e conceder o aceite eletrônico no contrato de prestação de serviço, para que o sistema formalize o acordo e altere o status da demanda para "Aguardando Pagamento".    
+- **US18:** Como Tutor, eu quero ser direcionado automaticamente para a tela de pagamento após o aceite do contrato, podendo selecionar o método de transação (Pix ou Cartão de Crédito), para que eu possa efetivar a reserva.
+- **US19:** Como Regra de Negócio, a plataforma deve realizar a retenção integral do montante transacionado no momento do pagamento, mantendo o valor sob custódia  até o evento  de finalização do pedido, garantindo assim a segurança do repasse financeiro.
+![](../../attachments/Pasted%20image%2020260901081032.png)
 ### Épico 3: Contratação
 - **US14:** Como Tutor, eu quero parametrizar a frequência diária de envio do "Diário de Estadia" (ex: a cada 3 horas, ou apenas nas refeições) no momento da contratação, para que minhas expectativas de comunicação fiquem alinhadas contratualmente.
 - **US15:** Como Tutor, eu quero estipular um limite financeiro pré-aprovado para gastos emergenciais (Teto de Gastos) no momento do pagamento, para que o cuidador saiba até onde pode agir sem minha autorização explícita.
