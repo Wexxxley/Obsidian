@@ -445,12 +445,6 @@ B) Suj composto posposto.
 C) 
 D) Suj composto posposto
 E) Deve haver. Loc verbal com verbo no impessoal
-![](../../../../attachments/Pasted%20image%2020260828144700.png)
-A) Temia-se isso (PA). Aumentasse.
-B) É isso. Passarram a existir
-C) A conectividade foi postA
-D) o(aquilo) que lhes deve ser necessário. 
-E) CORRETA. Convém isso.
 
  ![](../../../../attachments/Pasted%20image%2020260828145846.png)
 A) Muitas pesquisas vêm
@@ -469,3 +463,8 @@ B) PA. EXPLETIVO. Os temas... deveriam ser incluídos. CORRETO
 C) Qiase não se comentam assuntos. PIS, ele torce. não fazerem
 
 ![](../../../../attachments/Pasted%20image%2020260901064948.png)
+E)
+![](../../../../attachments/Pasted%20image%2020260901065002.png)
+B)
+![](../../../../attachments/Pasted%20image%2020260901065015.png)
+D)

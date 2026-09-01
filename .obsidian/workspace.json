@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
+                "file": "05_Projetos/TCC/4_Requisitos funcionais.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Concordância verbal"
+              "title": "4_Requisitos funcionais"
             }
           }
         ]
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.16926193237305,
-    "collapsed": true
+    "width": 329.16926193237305
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -197,13 +196,17 @@
   },
   "active": "55e94b80ed92dd58",
   "lastOpenFiles": [
-    "attachments/Pasted image 20260901064948.png",
     "05_Projetos/TCC/ResumoEntrevistasCuidadores.md",
+    "05_Projetos/TCC/4_Requisitos funcionais.md",
+    "05_Projetos/TCC/ResumoGeralEntrevistas.md",
+    "05_Projetos/Desenvolvimento orientado a IA.md",
+    "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
+    "attachments/Pasted image 20260901065015.png",
+    "attachments/Pasted image 20260901065002.png",
+    "attachments/Pasted image 20260901064948.png",
     "05_Projetos/TCC/1_MimoMetodologia.md",
     "05_Projetos/TCC/2_MimoDecições.md",
     "05_Projetos/TCC/3_Modelo Entrevista.md",
-    "05_Projetos/TCC/ResumoGeralEntrevistas.md",
-    "05_Projetos/TCC/4_Requisitos funcionais.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/8_Axios e lifecycles.md",
     "attachments/Pasted image 20260831181643.png",
     "attachments/Pasted image 20260831181631.png",
@@ -213,9 +216,6 @@
     "02_Conhecimentos TI/5_Frontend/2_Vue/7_VueRouter.md",
     "attachments/Pasted image 20260831173515.png",
     "attachments/Pasted image 20260831173422.png",
-    "attachments/Pasted image 20260831173342.png",
-    "attachments/Pasted image 20260831172719.png",
-    "attachments/Pasted image 20260831164002.png",
     "03_CadeirasFaculdade/5_Segurança/1_.md",
     "03_CadeirasFaculdade/5_Segurança/2_.md",
     "06_Aleatórios/seg.md",
@@ -233,7 +233,6 @@
     "05_Projetos/TCC/ECuidadorJ.md",
     "05_Projetos/TCC/ECuidadorE.md",
     "05_Projetos/TCC/ECuidadorA.md",
-    "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/1_Classes de palavras e substantivo.md",
     "01_Concursos/Geral/01_Português/3_Verbos/2_Formas nominais dos verbos.md",
     "06_Aleatórios/Unconfirmed 478374.crdownload",
