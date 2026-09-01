@@ -37,8 +37,27 @@
 
 #### 2.2 Ataques por Finalidade
 
-- **Recuperação de Informações:** Englobam técnicas cujo objetivo é a coleta de dados do sistema ou dos usuários. Este grupo inclui o _Packet Sniffing_ (captura de pacotes de dados na rede), a Engenharia Social, o _Phishing_, o _Port Scanning_ (mapeamento das portas ativas em um servidor) e o _Scanning_ de Vulnerabilidades estruturais.
+- **Recuperação de Informações:** Englobam técnicas cujo objetivo é a coleta de dados do sistema ou dos usuários. 
+	- **Packet Sniffing:** captura de pacotes de dados que trafegam em uma rede. O **wireshark** é um sniffer.
+	- **Engenharia Social:** uso da persuasão, explorando a ingenuidade ou a confiança do usuário, para obter informações que podem ser utilizadas para ter acesso não autorizado a computadores ou informações.
+		- **Phishing:**  se dá através do envio de mensagem não solicitada, passando-se por comunicação de uma instituição conhecida, como um banco, empresa ou site popular, e que procura induzir o acesso a páginas  falsificadas, projetadas para furtar dados. O  golpe do WhatsApp tbm se enquadra.
+	- **Port Scanning:** Varredura automatizada nas portas de comunicação de um servidor para identificar quais estão abertas e mapear possíveis pontos de entrada. 
+		- Descoberta de hosts, Detecção de versão, Detecção do sistema operacional, etc.
+	- **Scanning de Vulnerabilidades:** Técnica  que varre sistemas e redes em busca de falhas de segurança conhecidas e configurações enfraquecidas.
+		- Ocorre após o Port Scanning. 
+	
+- **Falsificação:** A falsificação de identidade é operada através de técnicas de Spoofing, que permitem a um atacante assumir a identidade de um remetente legítimo.
+
+- **Negação de serviço:** Visam comprometer a disponibilidade dos recursos.
     
-- **Ataques por Finalidade – Falsificação e Negação:** A falsificação de identidade é operada através de técnicas de _Spoofing_, que permitem a um atacante assumir a identidade de um remetente legítimo. Em contrapartida, os ataques que visam comprometer a disponibilidade dos recursos são classificados como Negação de Serviço (DoS) ou ataques de Negação de Serviço distribuídos e coordenados (DDoS).
-    
-- **Ataques por Finalidade – Códigos Maliciosos (_Malware_):** Compreendem a inserção de softwares desenvolvidos especificamente para causar danos, roubar dados ou conceder controle remoto ao atacante. A categoria é ampla e engloba Vírus, Cavalos de Troia, _Adware_ e _Spyware_ (programas focados em publicidade e espionagem), _Backdoors_ (brechas para retornos futuros ao sistema comprometido), _Keyloggers_ e _Screenloggers_ (capturadores de digitação e imagens de tela), _Worms_ (códigos autorreplicáveis), _Bots_ e _Botnets_ (redes de equipamentos zumbis) e _Rootkits_ (códigos projetados para ocultar a invasão e o próprio _malware_ nos níveis mais profundos do sistema operacional).
+- **Códigos Maliciosos (Malware):** 
+	- **Vírus:** Programa que se anexa a outros arquivos e necessita da ação do usuário para se executar e infectar o sistema.
+	- **Cavalos de Troia (Trojans):** Malware que se disfarça de um programa legítimo e inofensivo para enganar o usuário e abrir portas para outras ameaças.
+	- **Adware:** Software projetado para exibir anúncios indesejados e intrusivos na tela do dispositivo do usuário.
+	- **Spyware:** Programa espião que monitora secretamente as atividades do usuário e coleta seus dados para enviá-los a terceiros.
+	- **Keyloggers:** Tipo de spyware que registra de forma oculta todas as teclas digitadas pelo usuário no teclado.
+	- **Screenloggers:** Variação de spyware que captura imagens da tela do dispositivo em momentos específicos, como ao clicar com o mouse.
+	- **Backdoors:** Mecanismo inserido em um sistema para garantir um acesso remoto oculto e contínuo ao invasor, ignorando a autenticação padrão.
+	- **Worms:** Código autorreplicável que se propaga pelas redes explorando vulnerabilidades, sem precisar de interação humana.
+	- **Bots:** Programas que infectam um computador e permitem que ele seja controlado remotamente por um atacante para realizar tarefas automatizadas.
+	- **Botnets:** Rede de múltiplos computadores infectados controlados por um atacante para realizar ações coordenadas, como ataques de negação de serviço.

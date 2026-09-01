@@ -4,6 +4,9 @@
 - 3 papeis: tutor, cuidador, admin.
 - App mobile para tutor e cuidador.
 - Somente API para o admin.
+
+Pode ter uma seção "Requisitos Fora de Escopo":
+- Backoffice robusto para mediação de litígios.
 ### 1. Gestão de Contas e Perfis 
 - **US01:** Como Tutor, eu quero realizar o cadastro utilizando e-mail e senha, para que eu possa acessar a plataforma rapidamente e visualizar os serviços disponíveis.
 	- **US02.1:** Como Cuidador, eu quero fornecer o meu número de CPF válido, endereço e documentação básica durante a etapa de cadastro, para que o sistema registre minha identidade legal de forma unívoca no banco de dados.
