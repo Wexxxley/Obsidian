@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -211,6 +212,9 @@
   },
   "active": "0e96aaa9defbe12d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260901152833.png",
+    "attachments/Pasted image 20260901152805.png",
+    "attachments/Pasted image 20260901152711.png",
     "03_CadeirasFaculdade/5_Segurança/1_Normas.md",
     "attachments/Pasted image 20260901145105.png",
     "attachments/Pasted image 20260901145048.png",
@@ -232,12 +236,10 @@
     "02_Conhecimentos TI/5_Frontend/2_Vue/4_defineProps, defineModels e defineEmits.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/1_Introdução.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/6_Criando um TODO.md",
-    "attachments/Pasted image 20260901081032.png",
     "05_Projetos/TCC/ResumoEntrevistasCuidadores.md",
     "05_Projetos/TCC/ResumoGeralEntrevistas.md",
     "05_Projetos/Desenvolvimento orientado a IA.md",
     "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
-    "attachments/Pasted image 20260901065015.png",
     "05_Projetos/TCC/1_MimoMetodologia.md",
     "05_Projetos/TCC/2_MimoDecições.md",
     "05_Projetos/TCC/3_Modelo Entrevista.md",
