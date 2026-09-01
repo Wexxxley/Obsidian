@@ -29,53 +29,19 @@
 - **US12:** Como Cuidador, eu quero visualizar o "Feed de demandas públicas" para que eu possa analisar as solicitações abertas e acionar a opção de enviar uma mensagem direta aos tutores de meu interesse.
 - **US13:** Como Cuidador, ao receber uma "Proposta Direta" de um tutor, eu quero ter a opção de recusar imediatamente o pedido ou abrir um canal de mensagem direta, para que eu possa gerenciar minha agenda e iniciar as tratativas.
 - **US14:** Como Tutor e Cuidador, eu quero utilizar um chat interno vinculado à demanda, para que possamos alinhar as necessidades do animal e chegar a um acordo financeiro preliminar através de mensagens.
-- **US15:** Como Cuidador, eu quero acionar uma funcionalidade dentro do chat para inserir o valor final negociado, para que o sistema gere e apresente um rascunho do contrato de prestação de serviço contendo os valores e as datas para a análise do tutor.
+- **US15:** Como Cuidador, eu quero acionar uma funcionalidade dentro do chat para inserir o valor final negociado e a qtd vezes que me disponibilizo a envia atualizações por dia (mínimo 2), para que o sistema gere e apresente um rascunho do contrato de prestação de serviço contendo os valores e as datas para a análise do tutor.
 - **US16:** Como Tutor, ao receber a proposta financeira gerada pelo cuidador, eu quero ter a opção de recusar (devido a erros de digitação do cuidador ou discordância de valores), para que a cobrança seja cancelada, mas o chat permaneça ativo permitindo a continuidade da negociação.
 - **US17:** Como Tutor, ao concordar com o valor gerado pelo cuidador, eu quero visualizar e conceder o aceite eletrônico no contrato de prestação de serviço, para que o sistema formalize o acordo e altere o status da demanda para "Aguardando Pagamento".    
 - **US18:** Como Tutor, eu quero ser direcionado automaticamente para a tela de pagamento após o aceite do contrato, podendo selecionar o método de transação (Pix ou Cartão de Crédito), para que eu possa efetivar a reserva.
-- **US19:** Como Regra de Negócio, a plataforma deve realizar a retenção integral do montante transacionado no momento do pagamento, mantendo o valor sob custódia  até o evento  de finalização do pedido, garantindo assim a segurança do repasse financeiro.
+- **US19:** Como Tutor, eu quero estipular um limite financeiro pré-aprovado para gastos emergenciais no momento do pagamento, para que o cuidador saiba até onde pode agir em caso de emergência e eu nao puder ser contatado.
+- **US20:** Como Regra de Negócio, a plataforma deve realizar a retenção integral do montante transacionado no momento do pagamento, mantendo o valor sob custódia  até o evento  de finalização do pedido, garantindo assim a segurança do repasse financeiro.
+- **US21:** Como Tutor e Cuidador, o contrato gerado dinamicamente com os dados exatos da hospedagem, para ter respaldo legal da prestação de serviço.
 ![](../../attachments/Pasted%20image%2020260901081032.png)
-### Épico 3: Contratação
-- **US14:** Como Tutor, eu quero parametrizar a frequência diária de envio do "Diário de Estadia" (ex: a cada 3 horas, ou apenas nas refeições) no momento da contratação, para que minhas expectativas de comunicação fiquem alinhadas contratualmente.
-- **US15:** Como Tutor, eu quero estipular um limite financeiro pré-aprovado para gastos emergenciais (Teto de Gastos) no momento do pagamento, para que o cuidador saiba até onde pode agir sem minha autorização explícita.
-    
-      
-    
-- **US16:** Como Tutor, eu quero efetuar o pagamento integral via cartão de crédito ou Pix diretamente no aplicativo, para que a transação fique protegida pela plataforma até o fim do serviço.
-    
-      
-    
-- **US17:** Como Cuidador, eu quero ter a garantia de que o dinheiro do tutor está retido sob custódia da plataforma (Escrow) no momento em que a reserva muda para o status de confirmada, para que eu não sofra calotes ao fim da estadia.
-    
-      
-    
-- **US18:** Como Tutor e Cuidador, eu quero visualizar e aceitar o Termo de Responsabilidade gerado dinamicamente com os dados exatos da hospedagem (datas, valores, teto de emergência), para ter respaldo legal da prestação de serviço.
-    
-      
-    
-
 ### Épico 4: Execução, Auditoria e Emergências
-
-Este épico mapeia o ciclo de vida do pet dentro da casa do cuidador, garantindo mecanismos de defesa contra litígios.
-
-  
-
-- **US19:** Como Cuidador, eu quero registrar o check-in do pet utilizando exclusivamente a câmera nativa do aplicativo (sem acesso à galeria), para que o sistema extraia a data e hora exatas (Metadados EXIF) e eu tenha provas do estado físico do animal ao chegar.
-    
-      
-    
-- **US20:** Como Tutor, eu quero receber uma notificação automática assim que o check-in fotográfico for concluído, para ter a confirmação do início seguro da estadia.
-    
-      
-    
-- **US21:** Como Cuidador, eu quero receber lembretes do aplicativo baseados na frequência parametrizada pelo tutor, para que eu não esqueça de enviar as fotos e vídeos obrigatórios da alimentação e higiene.
-    
-      
-    
-- **US22:** Como Cuidador, eu quero possuir um botão de "Alerta Crítico de Saúde", para que eu possa emitir um aviso que sobreponha o modo silencioso do celular do tutor caso o animal sofra um acidente grave.
-    
-      
-    
+- **US22:** Como Cuidador, eu quero registrar o check-in do pet utilizando exclusivamente a câmera nativa do aplicativo (sem acesso à galeria), para que o sistema extraia a data e hora exata e eu tenha provas do estado físico do animal ao chegar.
+- **US23:** Como Tutor, eu quero receber uma notificação automática assim que o check-in fotográfico for concluído, para ter a confirmação do início seguro da estadia.
+- **US24:** Como Cuidador, eu quero receber lembretes do aplicativo baseados na frequência do contrato, para que eu não esqueça de enviar as fotos e vídeos obrigatórios.
+- **US25:** Como Cuidador, eu quero possuir um botão de "Alerta de Saúde", para que eu possa emitir um aviso que sobreponha o modo silencioso do celular do tutor caso o animal sofra um acidente grave.
 - **US23:** Como Cuidador, eu quero poder enviar os recibos de clínicas veterinárias através do sistema caso o tutor fique incomunicável, para que a plataforma registre o uso daquele "Teto de Gastos" pré-aprovado.
     
       

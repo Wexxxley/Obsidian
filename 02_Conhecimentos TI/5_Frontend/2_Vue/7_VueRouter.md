@@ -28,4 +28,4 @@ npm install vue-router@4
 - **router-view**: Componente que opera como um espaço reservado. Ele determina o local exato na hierarquia do layout onde o componente associado à URL atual será injetado e exibido.
 
 
-  
+ROTEAMENTO DINAMICO
