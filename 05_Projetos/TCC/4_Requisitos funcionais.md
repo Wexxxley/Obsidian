@@ -8,7 +8,7 @@
 Pode ter uma seção "Requisitos Fora de Escopo":
 - Backoffice robusto para mediação de litígios.
 ### 1. Gestão de Contas e Perfis 
-- **US01:** Como Tutor, eu quero realizar o cadastro utilizando e-mail e senha (ce ), para que eu possa acessar a plataforma rapidamente e visualizar os serviços disponíveis.
+- **US01:** Como Tutor, eu quero realizar o cadastro utilizando e-mail e senha (cep para o cadastro), para que eu possa acessar a plataforma rapidamente e visualizar os serviços disponíveis.
 	- **US02.1:** Como Cuidador, eu quero fornecer o meu número de CPF válido, endereço e documentação básica durante a etapa de cadastro, para que o sistema registre minha identidade legal de forma unívoca no banco de dados.
 	- **US02.2:** Como Cuidador, eu quero capturar uma fotografia facial em tempo real utilizando estritamente a câmera nativa do aplicativo, para que o sistema impeça o _upload_ de imagens da galeria e evite fraudes de identidade.
 	- **US02.3:** Como Cuidador, eu quero conceder o aceite legal no aplicativo autorizando a consulta de verificação de antecedentes criminais atrelada ao meu CPF, para que a plataforma cumpra os requisitos de segurança exigidos pelos tutores.

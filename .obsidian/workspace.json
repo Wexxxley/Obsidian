@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Projetos/TCC/4_Requisitos funcionais.md",
+                "file": "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução e pronomes de tratamento.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Requisitos funcionais"
+              "title": "1_Introdução e pronomes de tratamento"
             }
           }
         ],
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 308.0534553527832,
+    "collapsed": true
   },
   "right": {
     "id": "f39cfce60fbbc662",
@@ -211,8 +212,8 @@
   },
   "active": "83ae51322bb4438c",
   "lastOpenFiles": [
-    "05_Projetos/TCC/ResumoGeralEntrevistas.md",
     "05_Projetos/TCC/4_Requisitos funcionais.md",
+    "05_Projetos/TCC/ResumoGeralEntrevistas.md",
     "05_Projetos/TCC/3_Modelo Entrevista.md",
     "05_Projetos/TCC/2_MimoDecições.md",
     "03_CadeirasFaculdade/5_Segurança/99_Trabalho 1.md",

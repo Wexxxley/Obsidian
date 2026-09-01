@@ -2,6 +2,7 @@
 
 
 ---
+### 1. Introdução
 
 No caso da Redação Oficial, quem comunica é sempre o serviço público; o que se comunica
 é sempre algum assunto relativo às atribuições do órgão que comunica; o destinatário dessa
@@ -28,24 +29,31 @@ Ser objetivo é ir diretamente ao assunto que se deseja abordar, sem prolixidade
 detalhá-las, exemplificá-las; mas existem também ideias secundárias que não acrescentam
 informação alguma ao texto, por isso devem ser dispensadas. 
 
-**Concisão:**
+**Concisão**
 Conciso é o texto que consegue transmitir o máximo de informações com o mínimo de palavras. 
 
-**Impesoalidade:**
+**Impesoalidade**
 Não há lugar na redação oficial para impressões pessoais.
 
 ---
 
 **Pronomes de tratamento** 
 
+Na redação oficial existem 3 momentos distintos em que se usa pronomes de tratamento:
+- **Endereçamento**: Utilizado no envelope que contém a correspondência.
+- **Vocativo**: O autor dirigise ao destinatário no início do documento.
+- **Corpo do texto**: Vossa excelência ou vossa senhoria.
+	![](../../../../../attachments/Pasted%20image%2020260817192431.png)
+
 ![](../../../../../attachments/Pasted%20image%2020260817192002.png)
 ![](../../../../../attachments/Pasted%20image%2020260817191540.png)
+
 ![](../../../../../attachments/Pasted%20image%2020260817191603.png)
 No nível municipal, o prefeito é tratado por **Vossa Excelência**. Já os vereadores são tratados por **Vossa Senhoria**, com exceção do **Presidente da Câmara Municipal**, que recebe o tratamento de **Vossa Excelência**.
 
 - Em comunicações oficiais, está abolido o uso de Digníssimo (DD) e de Ilustríssimo (Ilmo.). É recomendado também que se evite o uso de “doutor” indiscriminadamente.
 ![](../../../../../attachments/Pasted%20image%2020260817192115.png)
-![](../../../../../attachments/Pasted%20image%2020260817192431.png)
+
 - **Interino:** Refere-se àquele que é nomeado para ocupar um cargo público de forma transitória  durante o período de vacância, ou seja, quando o cargo está definitivamente sem titular.
 - **Substituto:** Refere-se àquele que é designado para exercer as atribuições de um cargo público que está vago, ou quando ocorre o afastamento ou algum impedimento legal.
     
