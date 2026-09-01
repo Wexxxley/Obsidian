@@ -58,6 +58,7 @@ Em comunicações oficiais, **está abolido o uso de Digníssimo (DD) e de Ilust
 - **Substituto:** Refere-se àquele que é designado para exercer as atribuições de um cargo público que está vago, ou quando ocorre o afastamento ou algum impedimento legal.
 	- Prefeito interino; Governador substituto; Coordenador-Geral interino.
 
+![](../../../../../attachments/Pasted%20image%2020260901183544.png)
 
 **Regras para o Uso do Hífen em Cargos**
 
@@ -136,3 +137,18 @@ Signatário = assinante
 - **B (Correta):** O Manual estabelece apenas dois fechos padronizados para todas as comunicações oficiais (com exceção de comunicações dirigidas a autoridades estrangeiras, que seguem rito próprio):
     - **Respeitosamente** – Exclusivo para autoridades de hierarquia **superior** à do remetente.
     - **Atenciosamente** – Utilizado para autoridades de **mesma hierarquia**, de hierarquia **inferior**, ou demais casos.
+
+---
+![](../../../../../attachments/Pasted%20image%2020260901183947.png)
+A) CORRETO. VOSSA
+B) SÃO 3
+C) PARA SE COMUNICAR DIRETAMENTE
+D) 3 PESSOA DO SINGULAR
+
+![](../../../../../attachments/Pasted%20image%2020260901184356.png)ERRADO. Vossa Excelência é um pronome reservado para as altas autoridades dos Poderes Executivo, Legislativo e Judiciário, além de Oficiais-Generais e Embaixadores.
+
+![](../../../../../attachments/Pasted%20image%2020260901184952.png)
+C) O vocativo (fora para os presidentes dos 3 poderes) semppre é senhor + posto. Respeitosamente é usado para cargos superiores.
+
+![](../../../../../attachments/Pasted%20image%2020260901185126.png)
+B) 
