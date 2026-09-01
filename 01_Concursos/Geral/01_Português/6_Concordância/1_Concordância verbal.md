@@ -153,10 +153,10 @@ Embora o singular esteja correto, a tradição literária e as bancas consideram
 - Estas tarefas são difíceis de **realizar**.
 - Eles têm aptidão para **aprender**.
 
-**H) Dever, poder, costumar + se + infinitivo + nome no plural:** o verbo auxiliar e o verbo no infinitivo devem concordar com o substantivo no plural, que atua como o sujeito da oração.
-- **Devem-se evitar** atitudes impulsivas.
-- **Podem-se observar mudanças** significativas no clima.
-- **Costumam-se ler** bons livros.
+**H) Dever, poder, costumar + PA + infinitivo + nome no plural:** esses verbos ficam no singular ou concordam com o nome no plural.
+- **Devem-se/deve-se evitar** atitudes impulsivas. 
+- **Podem-se/pode-se observar mudanças** significativas no clima.
+- **Costumam-se/costuma-se ler** bons livros.
 
 
 ---
@@ -468,3 +468,4 @@ A) ouçam.
 B) PA. EXPLETIVO. Os temas... deveriam ser incluídos. CORRETO
 C) Qiase não se comentam assuntos. PIS, ele torce. não fazerem
 
+![](../../../../attachments/Pasted%20image%2020260901064948.png)
