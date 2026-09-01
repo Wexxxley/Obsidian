@@ -4,14 +4,21 @@
 ---
 ### Gestão de Contas e Perfis 
 - **US01:** Como Tutor, eu quero realizar o cadastro utilizando e-mail e senha, para que eu possa acessar a plataforma rapidamente e visualizar os serviços disponíveis.
-- **US02:** Como Tutor, eu quero cadastrar múltiplos perfis de pets informando espécie, porte, raça, e dados médicos (==TENHO QUE ESPECIFICAR AINDA==) para que o cuidador saiba exatamente quem será hospedado.
+	- **US02.1:** Como Cuidador, eu quero fornecer o meu número de CPF válido, endereço e documentação básica durante a etapa de cadastro, para que o sistema registre minha identidade legal de forma unívoca no banco de dados.
+	- **US02.2:** Como Cuidador, eu quero capturar uma fotografia facial em tempo real utilizando estritamente a câmera nativa do aplicativo, para que o sistema impeça o _upload_ de imagens da galeria e evite fraudes de identidade.
+	- **US02.3:** Como Cuidador, eu quero conceder o aceite legal no aplicativo autorizando a consulta de verificação de antecedentes criminais atrelada ao meu CPF, para que a plataforma cumpra os requisitos de segurança exigidos pelos tutores.
+	- **US02.4:** Como Cuidador, eu quero anexar as fotografias dos ambientes delimitados da minha residência ainda na esteira de cadastro inicial, para enviar a comprovação visual de que possuo um espaço seguro para a hospedagem.
+	- **US02.5:** Como Cuidador, eu quero visualizar uma tela com o status bloqueado "Cadastro em Análise" imediatamente após concluir o envio de todos os arquivos, para compreender que a liberação da conta ocorre de forma assíncrona e depende de uma verificação humana.
+	- **US02.6:** Como Administrador, eu quero consumir um endpoint na API que retorne a fila de requisições pendentes contendo as informações de cadastro dos cuidadore (checagem criminal) para realizar a auditoria de segurança documental.
+	- **US02.7:** Como Administrador, eu quero executar o comando de "Aprovar" ou "Rejeitar (DEFINITIVAMENTE ou não)" (no caso de rejeitar com um feedback) na ficha do cuidador através da API, para que a máquina de estados do banco de dados altere a permissão daquele usuário e dispare uma notificação automática informando a decisão final.
+- **US03:** Como Tutor, eu quero cadastrar múltiplos perfis de pets informando espécie, porte, raça, e dados médicos (==TENHO QUE ESPECIFICAR AINDA==) para que o cuidador saiba exatamente quem será hospedado.
 - **US04**: Como Tutor, eu quero preencher um questionário de compatibilidade (reação a outros animais, crianças e barulhos), para que o sistema cruze essas informações com o ambiente do cuidador e evite agendamentos de alto risco.
-- **US04:** Como Tutor, eu quero informar o meu veterinário de confiança, para que o cuidador tenha respaldo médico em emergências.
-- **US05 Refatorada:** Como Cuidador, eu quero configurar minha faixa de disponibilidade diária  para que eu alinhe as expectativas do tutor sem expor minha rotina pessoal ou profissional.
+- **US05:** Como Tutor, eu quero informar o meu veterinário de confiança, para que o cuidador tenha respaldo médico em emergências.
+- **US06:** Como Cuidador, eu quero configurar minha faixa de disponibilidade diária  para que eu alinhe as expectativas do tutor sem expor minha rotina pessoal ou profissional.
     - "Tempo Integral em Casa", "Ausências Curtas (Até 4 horas seguidas)" ou "Ausências Longas (Horário Comercial, mais de 6 horas)".
-- **US06:** Como Cuidador, eu quero enviar fotos restritas apenas aos ambientes onde o animal circulará (quartos, quintal delimitado), para que eu comprove minha infraestrutura sem expor a privacidade do restante da minha residência.
-- **US07:** Como Cuidador, eu quero configurar quais portes/espécies dou preferência.
-- **US08:** Como Cuidador, eu quero marcar no meu perfil se ofereço o serviço adicional de transporte (busca e entrega), para que eu possa monetizar essa facilidade logística.
+- **US07:** Como Cuidador, eu quero enviar fotos restritas apenas aos ambientes onde o animal circulará (quartos, quintal delimitado), para que eu comprove minha infraestrutura sem expor a privacidade do restante da minha residência.
+- **US08:** Como Cuidador, eu quero configurar quais portes/espécies dou preferência.
+- **US09:** Como Cuidador, eu quero marcar no meu perfil se ofereço o serviço adicional de transporte (busca e entrega), para que eu possa monetizar essa facilidade logística.
 ### Descoberta, Demanda e Negociação
 
 Este épico abrange os dois fluxos de encontro entre as partes: a demanda aberta e a busca ativa.
