@@ -4,7 +4,7 @@
 - 3 papeis: tutor, cuidador, admin.
 - App mobile para tutor e cuidador.
 - Somente API para o admin.
-### Gestão de Contas e Perfis 
+### 1. Gestão de Contas e Perfis 
 - **US01:** Como Tutor, eu quero realizar o cadastro utilizando e-mail e senha, para que eu possa acessar a plataforma rapidamente e visualizar os serviços disponíveis.
 	- **US02.1:** Como Cuidador, eu quero fornecer o meu número de CPF válido, endereço e documentação básica durante a etapa de cadastro, para que o sistema registre minha identidade legal de forma unívoca no banco de dados.
 	- **US02.2:** Como Cuidador, eu quero capturar uma fotografia facial em tempo real utilizando estritamente a câmera nativa do aplicativo, para que o sistema impeça o _upload_ de imagens da galeria e evite fraudes de identidade.
@@ -37,78 +37,23 @@
 - **US20:** Como Regra de Negócio, a plataforma deve realizar a retenção integral do montante transacionado no momento do pagamento, mantendo o valor sob custódia  até o evento  de finalização do pedido, garantindo assim a segurança do repasse financeiro.
 - **US21:** Como Tutor e Cuidador, o contrato gerado dinamicamente com os dados exatos da hospedagem, para ter respaldo legal da prestação de serviço.
 ![](../../attachments/Pasted%20image%2020260901081032.png)
-### Épico 4: Execução, Auditoria e Emergências
+### 3. Execução, Auditoria e Emergências
 - **US22:** Como Cuidador, eu quero registrar o check-in do pet utilizando exclusivamente a câmera nativa do aplicativo (sem acesso à galeria), para que o sistema extraia a data e hora exata e eu tenha provas do estado físico do animal ao chegar.
 - **US23:** Como Tutor, eu quero receber uma notificação automática assim que o check-in fotográfico for concluído, para ter a confirmação do início seguro da estadia.
 - **US24:** Como Cuidador, eu quero receber lembretes do aplicativo baseados na frequência do contrato, para que eu não esqueça de enviar as fotos e vídeos obrigatórios.
 - **US25:** Como Cuidador, eu quero possuir um botão de "Alerta de Saúde", para que eu possa emitir um aviso que sobreponha o modo silencioso do celular do tutor caso o animal sofra um acidente grave.
-- **US23:** Como Cuidador, eu quero poder enviar os recibos de clínicas veterinárias através do sistema caso o tutor fique incomunicável, para que a plataforma registre o uso daquele "Teto de Gastos" pré-aprovado.
-    
-      
-    
+- **US26:** Como Cuidador, eu quero realizar o upload do laudo veterinário e do comprovante fiscal (nota fiscal) diretamente no detalhe da reserva em andamento, para que o sistema registre formalmente o gasto dentro do "Teto de Gastos" pré-aprovado e adicione esse montante como uma pendência financeira obrigatória para o tutor quitar antes de realizar o check-out.
+### 5. Encerramento, Multas e Estornos
+- **US27:** Como Cuidador, eu quero registrar o check-out do pet novamente com a câmera nativa do sistema, para comprovar que devolvi o animal.
+- **US28:** Como Tutor, caso eu precise cancelar a hospedagem antes do início, eu quero que o sistema calcule meu reembolso automaticamente, para que eu receba o estorno sem precisar acionar o suporte.
+- **US29:** Como Tutor, caso eu decida buscar o animal dias antes do término contratado, eu quero que o sistema realize o recálculo e o estorno  dos dias não utilizados, para que eu pague apenas pelo tempo efetivo.
+- **US30:** Como Cuidador, eu quero que o meu repasse financeiro, subtraído da taxa da plataforma, seja liberado automaticamente para minha conta bancária ou Pix cadastrado logo após a validação do check-out.    
+### 6. Avaliações
 
-### Épico 5: Encerramento, Multas e Estornos
-
-O foco aqui é a finalização do ciclo, o repasse financeiro e as regras de cancelamento.
-
-  
-
-- **US24:** Como Cuidador, eu quero registrar o check-out do pet novamente com a câmera nativa do sistema, para comprovar que devolvi o animal sem novos ferimentos.
-    
-      
-    
-- **US25:** Como Tutor, caso eu precise cancelar a hospedagem antes do início, eu quero que o sistema calcule meu reembolso automaticamente com base nas regras de proximidade da data, para que eu receba o estorno sem precisar acionar o suporte.
-    
-      
-    
-- **US26:** Como Tutor, caso eu decida buscar o animal dias ou horas antes do término contratado, eu quero que o sistema realize o recálculo e o estorno proporcional das horas não utilizadas, para que eu pague apenas pelo tempo efetivo.
-    
-      
-    
-- **US27:** Como Cuidador, caso o tutor atrase severamente a busca do animal (além do período de tolerância), eu quero que o sistema cobre automaticamente diárias adicionais no cartão de crédito do tutor, para que meu tempo extra seja remunerado.
-    
-      
-    
-- **US28:** Como Cuidador, eu quero que o meu repasse financeiro, subtraído da taxa da plataforma, seja liberado automaticamente para minha conta bancária ou Pix cadastrado logo após a validação do check-out.
-    
-      
-    
-
-### Épico 6: Sistema Tridirecional de Avaliações
-
-O mecanismo de reputação é essencial para manter a qualidade da rede.
-
-  
-
-- **US29:** Como Tutor, eu quero avaliar o serviço do cuidador de 1 a 5 estrelas e deixar um comentário público, para auxiliar outros usuários na tomada de decisão.
-    
-      
-    
-- **US30:** Como Cuidador, eu quero avaliar o tutor em relação à pontualidade e comunicação, para que outros prestadores de serviço saibam se aquele cliente é problemático.
-    
-      
-    
-- **US31:** Como Cuidador, eu quero registrar um laudo comportamental do pet (ex: destruiu móveis, chorou muito, foi dócil), que ficará oculto para os tutores, mas visível para outros cuidadores, para que a comunidade se proteja contra animais difíceis.
-    
-      
-    
-
-### Épico 7: Administração do Sistema (API)
-
-Requisitos técnicos estruturais executados nos bastidores para gerenciar o ecossistema.
-
-  
-
-- **US32:** Como Administrador, eu quero consumir um endpoint na API para aprovar ou rejeitar a documentação enviada por um novo cuidador, para que ele possa começar a receber solicitações.
-    
-      
-    
-- **US33:** Como Administrador, eu quero ter autonomia técnica via API para bloquear contas de tutores ou cuidadores que violem os termos de uso, impedindo novos logins.
-    
-      
-    
-- **US34:** Como Administrador, eu quero possuir uma rota na API para forçar o estorno manual de uma transação diretamente no gateway de pagamento, para resolver casos de litígio onde a automação do sistema não seja aplicável.
-    
-      
-    
-- **US35:** Como Administrador, eu quero alterar as variáveis globais de taxa de comissão e tempo de tolerância de atrasos diretamente no banco de dados, para que a plataforma se adapte a novas estratégias comerciais sem exigir atualização nos aplicativos.
+- **US31:** Como Tutor, eu quero avaliar o serviço do cuidador de 1 a 5 estrelas e deixar um comentário público, para auxiliar outros usuários na tomada de decisão.
+- **US32:** Como Cuidador, eu quero avaliar o tutor em relação à pontualidade e comunicação, para que outros prestadores de serviço saibam se aquele cliente é problemático.
+	- A nota do tutor é visivel por todos. A nota com comentario so pelos cuidadores.
+- **US33:** Como Cuidador, eu quero dar uma avaliação para o pet (ex: destruiu móveis, chorou muito, foi dócil), que ficará oculto para os tutores, mas visível para outros cuidadores, para que a comunidade se proteja contra animais difíceis.
+### 7. Administração do Sistema
+- **US34:** Como Administrador, eu quero consumir um endpoint na API que retorne a fila de requisições pendentes de novos cuidadores.
+- **US35:** Como Administrador, eu quero executar o comando de "Aprovar" ou "Rejeitar" na ficha do cuidador através da API. Em caso de rejeição por falha simples, o sistema deve registrar o motivo (feedback) e manter a conta aberta para correção. Em caso de violação grave, o sistema deve adicionar o CPF a uma Lista de Bloqueio.

@@ -1,3 +1,3 @@
 
 
-fica rpetitivo o 
+fica rpetitivo o tratamento, como melhorar

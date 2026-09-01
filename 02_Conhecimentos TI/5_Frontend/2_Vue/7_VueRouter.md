@@ -21,9 +21,9 @@ O Vue Router é a biblioteca oficial de roteamento. Ela viabilizaa a construçã
 npm install vue-router@4
 ```
 
-![](../../../attachments/Pasted%20image%2020260831173342.png)![200](../../../attachments/Pasted%20image%2020260831172719.png)![400](../../../attachments/Pasted%20image%2020260831173422.png)
+![](../../../attachments/Pasted%20image%2020260831173342.png)![200](../../../attachments/Pasted%20image%2020260831172719.png)![500](../../../attachments/Pasted%20image%2020260901112636.png)
 - **createWebHistory**: Função que habilita o modo de histórico HTML5. Ela permite que a aplicação utilize URLs limpas e padronizadas, sem a presença do caractere de fragmento #.
-![400](../../../attachments/Pasted%20image%2020260831164002.png)![](../../../attachments/Pasted%20image%2020260831173515.png)
+![400](../../../attachments/Pasted%20image%2020260831164002.png)![](../../../attachments/Pasted%20image%2020260901112757.png)
 - **router-link**: Componente destinado à criação dos elos de navegação. 
 - **router-view**: Componente que opera como um espaço reservado. Ele determina o local exato na hierarquia do layout onde o componente associado à URL atual será injetado e exibido.
 
