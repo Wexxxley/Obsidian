@@ -1,5 +1,5 @@
 
-
+#Concluded 
 
 ---
 ### 1. Oficio
@@ -125,7 +125,6 @@ e) uso de siglas e acrônimos de órgãos estrangeiros. Devem-se empregar as sig
 - Organização dos Países Exportadores de Petróleo – Opep
 f) plural de siglas. Admite-se o uso de s (minúsculo). Esta regra não se aplica a siglas terminada com a letra s, caso em que o plural é definido pelo artigo.
 - TREs (Tribunais Regionais Eleitorais), e não TRE’s.
-
 
 Nos textos de atos normativos, o uso de siglas e acrônimos deve respeitar:
 1. não utilizar para designar órgãos da administração pública direta;
