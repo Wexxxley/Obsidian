@@ -44,22 +44,20 @@ Na redação oficial existem 3 momentos distintos em que se usa pronomes de trat
 - **Vocativo**: O autor dirigise ao destinatário no início do documento.
 - **Corpo do texto**: Vossa excelência ou vossa senhoria.
 	![](../../../../../attachments/Pasted%20image%2020260817192431.png)
+- **Vossa Excelência:** Exceção.  sendo um pronome reservado para as altas autoridades dos Poderes Executivo, Legislativo e Judiciário, além de Oficiais-Generais e Embaixadores.
+- **Vossa Senhoria:** Trata-se da regra geral. É o pronome de tratamento padrão destinado a todas as demais autoridades, servidores públicos civis e militares (que não sejam Generais), além de funcionários de empresas privadas e cidadãos civis em geral.
 
-![](../../../../../attachments/Pasted%20image%2020260817192002.png)
-![](../../../../../attachments/Pasted%20image%2020260817191540.png)
+- No nível municipal, o prefeito é tratado por **Vossa Excelência**. Já os vereadores são tratados por **Vossa Senhoria**, com exceção do **Presidente da Câmara Municipal**, que recebe o tratamento de **Vossa Excelência**.
+![600](../../../../../attachments/Pasted%20image%2020260901180608.png)
+![600](../../../../../attachments/Pasted%20image%2020260817191603.png)
 
-![](../../../../../attachments/Pasted%20image%2020260817191603.png)
-No nível municipal, o prefeito é tratado por **Vossa Excelência**. Já os vereadores são tratados por **Vossa Senhoria**, com exceção do **Presidente da Câmara Municipal**, que recebe o tratamento de **Vossa Excelência**.
-
-- Em comunicações oficiais, está abolido o uso de Digníssimo (DD) e de Ilustríssimo (Ilmo.). É recomendado também que se evite o uso de “doutor” indiscriminadamente.
+Em comunicações oficiais, **está abolido o uso de Digníssimo (DD) e de Ilustríssimo (Ilmo.)**. É recomendado também que se evite o uso de “doutor” indiscriminadamente.
 ![](../../../../../attachments/Pasted%20image%2020260817192115.png)
-
 - **Interino:** Refere-se àquele que é nomeado para ocupar um cargo público de forma transitória  durante o período de vacância, ou seja, quando o cargo está definitivamente sem titular.
+	- Diretor-Geral interino; Secretário-Executivo substituto.
 - **Substituto:** Refere-se àquele que é designado para exercer as atribuições de um cargo público que está vago, ou quando ocorre o afastamento ou algum impedimento legal.
-    
-Esses termos indicativos devem ser posicionados após o nome do cargo, escritos em letras minúsculas.
-- Diretor-Geral interino; Secretário-Executivo substituto.
-- Prefeito interino; Governador substituto; Coordenador-Geral interino.
+	- Prefeito interino; Governador substituto; Coordenador-Geral interino.
+
 
 **Regras para o Uso do Hífen em Cargos**
 
