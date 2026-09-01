@@ -56,4 +56,4 @@
 - **Exibição de Espaços Delimitados:** Os cuidadores não desejam expor fotos da casa inteira por questões de privacidade. A plataforma deve permitir o cadastro de fotos apenas do "ambiente reservado" (como um quarto, uma sala ou quintal) onde o animal circulará.
 - **Documentos Médicos:** Foi sugerido que o cartão de vacinação e o telefone do veterinário de confiança do tutor sejam campos de preenchimento obrigatório antes de qualquer fechamento de reserva.
 - **Canal de Notificação de Saúde:** Criação de um botão ou campo específico na interface do cuidador dedicado exclusivamente para emitir alertas de adoecimento diretamente para o tutor.
-- **Contrato**: um contrato assinado na entrega e na retirado do pet. Para evitar acusações futura.
+- **Contrato**: um contrato assinado. Para evitar acusações futura.
