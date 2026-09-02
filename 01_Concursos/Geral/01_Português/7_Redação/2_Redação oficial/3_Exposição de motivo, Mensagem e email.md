@@ -105,3 +105,11 @@ D)O erro do termo " vc" não é a "ambiguidade", mas sim o uso de linguagem co
 E) NÃO É ADMITIDO
 
 ![](../../../../../attachments/Pasted%20image%2020260901194224.png)
+A)
+
+2- O equívoco da assertiva está na utilização do termo "conteúdo pontual". O Manual determina que o campo assunto deve, sempre que possível, resumir o assunto geral tratado.
+3- O Manual orienta expressamente que a mensagem deve trazer o _mínimo_ de informações necessárias sobre o anexo.
+
+
+![](../../../../../attachments/Pasted%20image%2020260901195250.png)
+C) 
