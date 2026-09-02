@@ -78,6 +78,8 @@ Para fins acadêmicos pode-se utilizar um Mock. Detalhando que, em um ambiente d
 
 **7 . Dependencias e possíveis reusos**
 
+ESTUDAR SUPABASE
+
 - SignalR pode ajudar a criar o chat (existem kits de design já prontos)
 
 
@@ -85,7 +87,7 @@ Para fins acadêmicos pode-se utilizar um Mock. Detalhando que, em um ambiente d
 Para implementar o modelo de custódia (Escrow) e reter a taxa da plataforma (Take Rate) sem ferir as regulamentações bancárias, o sistema não pode processar ou armazenar dados de cartão de crédito no próprio banco de dados (o que exigiria certificação PCI Compliance). A solução é integrar um provedor financeiro que gerencie contas digitais vinculadas aos cuidadores.
 - **Stripe Connect:** É o padrão global para arquiteturas de _Marketplace_. Ele fornece bibliotecas prontas em .NET para realizar requisições de pagamento, pré-autorização e estornos. O sistema permite configurar a regra exata de divisão de valores (Split), enviando a comissão para a conta principal da plataforma e retendo o valor sob custódia na subconta do cuidador.
 - **Pagar.me ou Mercado Pago:** São opções com documentação extensa focada no mercado brasileiro, oferecendo integrações nativas e facilitadas para transações via Pix com repasse financeiro automatizado.
-      
+
 **Armazenamento de Arquivos em Nuvem (Object Storage)**
 O aplicativo exigirá o armazenamento de fotos de perfil dos usuários, fotos dos animais e os arquivos de mídia gerados no "Diário de Estadia". Salvar esses arquivos diretamente em um banco de dados relacional (como strings Base64) degrada o desempenho do sistema e encarece a hospedagem. O padrão arquitetural é enviar o arquivo para um servidor de objetos e salvar apenas a URL pública no seu banco de dados.
 - **Cloudinary:** É uma plataforma de gerenciamento de mídia que entrega uma API gratuita muito generosa. Além do armazenamento, ele realiza transformações de imagem em tempo real via URL (como cortar, comprimir e redimensionar imagens pesadas enviadas pelos cuidadores para não travar a interface web).
