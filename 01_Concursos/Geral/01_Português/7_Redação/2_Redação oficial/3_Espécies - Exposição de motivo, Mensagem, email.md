@@ -57,15 +57,7 @@ As mensagens mais usuais do Poder Executivo ao Congresso Nacional têm as finali
 ---
 ### 3. Email
 
-A depender do contexto, o termo e-mail pode ser empregado com três sentidos:
-1. Gênero textual
-2. Endereço eletrônico
-3. Sistema de transmissão de mensagem eletrônica: a tecnologia.
-
-Como endereço eletrônico utilizado pelos servidores públicos, o e-mail deve ser oficial, utilizando-
-se a extensão “.gov.br”, por exemplo.
-
-**Valor documental**: para que o e-mail tenha valor documental é necessário existir certificação digital que ateste a identidade do remetente, segundo os parâmetros de integridade, autenticidade e validade jurídica da Infraestrutura de Chaves Públicas Brasileira – ICP-Brasil.
+**Valor documental**: é necessário existir certificação digital que ateste a identidade do remetente, segundo os parâmetros de integridade, autenticidade e validade jurídica da Infraestrutura de Chaves Públicas Brasileira – ICP-Brasil.
 
 O destinatário poderá reconhecer como válido o e-mail sem certificação digital ou com certificação digital fora ICP-Brasil. Contudo, caso haja questionamento, será obrigatório a repetição do ato por meio documento físico assinado ou por meio eletrônico reconhecido pela ICP-Brasil.
 
@@ -79,7 +71,6 @@ particulares, deve-se utilizar o vocativo conforme os demais documentos oficiais
 **f) Anexos**: A possibilidade de anexar documentos, planilhas e imagens de diversos formatos é
 uma das vantagens do e-mail. A mensagem que encaminha algum arquivo deve trazer
 informações mínimas sobre o conteúdo do anexo.
-
 
 ---
 ![](../../../../../attachments/Pasted%20image%2020260824174856.png)
@@ -113,3 +104,47 @@ A)
 
 ![](../../../../../attachments/Pasted%20image%2020260901195250.png)
 C) 
+
+---
+
+![](../../../../../attachments/Pasted%20image%2020260902181955.png)
+C)
+
+![](../../../../../attachments/Pasted%20image%2020260902183128.png)
+"seção", "sessão" e "cessão" são **homônimas homófonas**, o que significa que possuem exatamente a mesma pronúncia, mas grafias diferentes.
+- **Sessão**: intervalo de tempo que ocorre uma reunião, espetáculo, consulta, etc.
+	- Sessão legislativa. Sessão de cinema. Sessão de fotos.
+- **Seção/secção**: Significa uma divisão, um departamento, um setor ou uma parte de um todo
+	- Seção eleitoral. Seção de recursos humanos. Seção de roupas.
+- **Cessão**: ato jurídico ou formal de transferir, doar, conceder ou abrir mão de um direito, bem, posse ou privilégio em favor de uma terceira pessoa.
+	- Cessão de direitos autorais. Cessão de crédito.
+
+- **Evocar (Lembrar / Recordar)**
+	- A melodia antiga costuma **evocar** lembranças da minha infância.
+
+- **Avocar (Chamar a si / Assumir)**
+
+- "O diretor decidiu **avocar** a responsabilidade pelo projeto final."
+- "O juiz de instância superior vai **avocar** o processo para julgamento."
+- "Não tente **avocar** obrigações que não pertencem ao seu setor."
+
+Invocar (Pedir ajuda / Usar argumento)
+
+- "O réu decidiu **invocar** o direito de permanecer em silêncio."
+- "Em momentos de desespero, ele costumava **invocar** a proteção divina."
+- "O advogado vai **invocar** uma nova lei para defender o cliente."
+    
+
+**A Distinção entre Ao encontro de e De encontro a**
+
+A frase III exige o domínio de duas locuções prepositivas que possuem sentidos diametralmente opostos na sintaxe da língua portuguesa:
+
+  
+
+- **Ao encontro de:** Indica concordância, harmonia, aproximação ou convergência de interesses. Como a frase afirma expressamente que o projeto atendeu às reivindicações dos trabalhadores, a ação foi favorável a eles. Logo, o uso correto é "veio ao encontro dos".
+    
+      
+    
+- **De encontro a:** Indica choque, oposição, discordância ou colisão frontal. Se o projeto prejudicasse os trabalhadores ou atacasse seus direitos, ele iria "de encontro aos" objetivos.
+    
+      
