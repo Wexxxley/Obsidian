@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Conhecimentos TI/5_Frontend/2_Vue/7_Projeto Biblioteca e VueRouter.md",
+                "file": "02_Conhecimentos TI/5_Frontend/2_Vue/10_Navigation guards.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_Projeto Biblioteca e VueRouter"
+              "title": "10_Navigation guards"
             }
           }
         ],
@@ -211,13 +211,18 @@
   },
   "active": "83ae51322bb4438c",
   "lastOpenFiles": [
+    "02_Conhecimentos TI/5_Frontend/2_Vue/8_Projeto Biblioteca e VueRouter.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/9_Iniciando um site de LIVROS.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/7_Axios e lifecycles.md",
+    "attachments/Pasted image 20260902092855.png",
+    "attachments/Pasted image 20260902092829.png",
+    "attachments/Pasted image 20260902092603.png",
+    "attachments/Pasted image 20260902092441.png",
+    "attachments/Pasted image 20260902092152.png",
     "attachments/Pasted image 20260902090322.png",
     "attachments/Pasted image 20260902090243.png",
     "02_Conhecimentos TI/5_Frontend/2_Vue/6_Criando um TODO.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/8_Axios e lifecycles.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/7_Projeto Biblioteca e VueRouter.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/10_Navigation guards.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/9_Iniciando um site de LIVROS.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/5_Slots e Computed.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/4_defineProps, defineModels e defineEmits.md",
     "attachments/Pasted image 20260902083512.png",
@@ -228,17 +233,11 @@
     "03_CadeirasFaculdade/5_Segurança/3_Ataques por falsificação de identidade - Spoofing.md",
     "attachments/Pasted image 20260902075631.png",
     "attachments/Pasted image 20260902075511.png",
-    "attachments/Pasted image 20260902075431.png",
-    "attachments/Pasted image 20260902075404.png",
     "01_Concursos/TI/01_Redes de computadores/2_Camada Aplicação/12_DNS.md",
-    "attachments/Pasted image 20260902074218.png",
-    "attachments/Pasted image 20260902072544.png",
-    "attachments/Pasted image 20260902071940.png",
     "01_Concursos/TI/01_Redes de computadores/1_Introdução/3_Arquitetura TCP IP.md",
     "01_Concursos/TI/01_Redes de computadores/3_Camada de Transporte/4_Segmento TCP e buffers.md",
     "01_Concursos/TI/01_Redes de computadores/3_Camada de Transporte/5_Apresentação TCP.md",
     "01_Concursos/TI/01_Redes de computadores/3_Camada de Transporte/6_Controle de erros.md",
-    "attachments/Pasted image 20260902071418.png",
     "03_CadeirasFaculdade/5_Segurança/5_.md",
     "03_CadeirasFaculdade/5_Segurança/99_Trabalho 1.md",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/2_Estrutura do padrão ofício.md",

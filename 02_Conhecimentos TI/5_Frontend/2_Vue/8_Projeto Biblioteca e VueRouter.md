@@ -1,5 +1,5 @@
 
-
+#Concluded 
 
 ---
 
@@ -21,13 +21,14 @@ O Vue Router é a biblioteca oficial de roteamento. Ela viabilizaa a construçã
 npm install vue-router@4
 ```
 
-![400](../../../attachments/Pasted%20image%2020260902083512.png)![200](../../../attachments/Pasted%20image%2020260902090322.png)
-![500](../../../attachments/Pasted%20image%2020260902090243.png)
-
-- **createWebHistory**: Função que habilita o modo de histórico HTML5. Ela permite que a aplicação utilize URLs limpas e padronizadas, sem a presença do caractere de fragmento #.
-![400](../../../attachments/Pasted%20image%2020260831164002.png)![](../../../attachments/Pasted%20image%2020260901112757.png)
+![500](../../../attachments/Pasted%20image%2020260902092152.png)
+![200](../../../attachments/Pasted%20image%2020260902090322.png)![500](../../../attachments/Pasted%20image%2020260902090243.png)
+- **createWebHistory**: Permite que a aplicação utilize URLs limpas e padronizadas, sem a presença do caractere de fragmento #.
+![400](../../../attachments/Pasted%20image%2020260831164002.png)![](../../../attachments/Pasted%20image%2020260902092441.png)
 - **router-link**: Componente destinado à criação dos elos de navegação. 
 - **router-view**: Componente que opera como um espaço reservado. Ele determina o local exato na hierarquia do layout onde o componente associado à URL atual será injetado e exibido.
-
-
-ROTEAMENTO DINAMICO
+![](../../../attachments/Pasted%20image%2020260902092603.png)
+- Como eu quer que os cards sejam clicáveis e redirecione para a página de detalhes d olivro eu envolvo-os com router-link. 
+- Esse roteamento é dinâmico porque depende do id do livro.
+![](../../../attachments/Pasted%20image%2020260902092855.png)
+- Foi adicionado um router link para voltar para a página principal
