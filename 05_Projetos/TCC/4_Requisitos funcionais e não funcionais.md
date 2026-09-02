@@ -73,19 +73,16 @@ Pode ter uma seção "Requisitos Fora de Escopo":
 
 - **RN01 - Retenção de Custódia:** A plataforma deve realizar a retenção integral do montante transacionado no momento do pagamento, mantendo o valor sob custódia até o evento de finalização do pedido, garantindo assim a segurança do repasse financeiro.
 - **RN02 - Aceite Tácito:** Se o tutor negligencia a confirmação no aplicativo, após 10 horas o sistema aplica o princípio de Aceite Tácito.
-- **RN03 - Armazenamento Temporário:** O aplicativo deve reter os dados de Check-in e Check-out em armazenamento temporário (Cache Local) caso o meu celular esteja sem sinal de internet no momento da entrega do animal, realizando o envio das provas fotográficas para o servidor automaticamente assim que a conexão for restabelecida.
+- **RN03 - Armazenamento Temporário:** O aplicativo deve reter os dados de Check-in e Check-out em armazenamento temporário (Cache Local) caso o meu celular esteja sem sinal de internet no momento da entrega do animal, realizando o envio das provas fotográficas para o servidor automaticamente assim que a conexão for restabelecida. O sistema deve garantir a eliminação segura desses dados do dispositivo após a sincronização bem-sucedida.
 - **RN04 - Timeout de Proposta Direta:** Uma proposta direta de hospedagem enviada por um tutor que não receba aceite ou recusa por parte do cuidador deve expirar sistematicamente em exatamente 6 horas.
-- **RNF05 - Autenticação Stateless :** A comunicação entre o aplicativo móvel (frontend) e a API (backend) deve operar por meio de autenticação baseada em JWT (_JSON Web Tokens_). A API não deve manter sessões ativas na memória do servidor, exigindo que cada requisição do aplicativo envie o token criptografado no cabeçalho para validar a identidade.
-- **RNF07 - Comunicação chat:** Para reduzir a carga de processamento do servidor em .NET e simplificar a arquitetura, o fluxo de mensagens em tempo real do chat não utilizará WebSockets gerenciados pela sua API (como o SignalR). O aplicativo móvel deve assinar diretamente o módulo de _Realtime_ do Supabase para receber as atualizações instantâneas de novas mensagens.
-    
-- **RNF07 - Gestão de Estados em Tempo de Execução:** A arquitetura do sistema não deve depender de tarefas automatizadas em segundo plano (_Cron Jobs_ ou _Worker Services_) para alterar status de entidades com base no tempo. As expirações (como o tempo limite de uma Proposta Direta ou o bloqueio de um chat inativo) devem ser calculadas de forma dinâmica através de funções matemáticas pela API no momento exato em que a requisição de leitura for realizada.
-    
+- **RN05 - Autenticação Stateless:** A comunicação entre o aplicativo móvel e a API deve operar por meio de autenticação baseada em JWT. A API não deve manter sessões ativas na memória do servidor, exigindo que cada requisição envie o token criptografado no cabeçalho para validar a identidade.
+- **RN06 - Comunicação Chat:** O aplicativo móvel deve assinar diretamente o módulo de Realtime do Supabase para receber atualizações instantâneas de novas mensagens.
+- **RN07 - Bloqueio de Chat:** O sistema deve bloquear o envio de novas mensagens em um chat vinculado a uma demanda no momento em que o status da reserva transitar para "Finalizado".
+- **RN08 - Inatividade de Chat:** Uma conversa sem novas interações de texto por 72 horas, que não possua contrato "Aguardando Pagamento" ou "Ativo", deve tornar-se read-only.
 
-**Disponibilidade e Tolerância a Falhas**
+### Requisitos de Privacidade (LGPD)
 
-- **RNF08 - Armazenamento Temporário (Cache Local):** O aplicativo móvel deve possuir capacidade de resiliência a quedas de rede durante operações críticas de segurança. Se o dispositivo do cuidador perder a conexão de internet no momento da captura fotográfica do check-in ou do check-out, a aplicação deve gravar a foto e seus respectivos metadados no armazenamento criptografado do celular e tentar retransmitir a carga útil de forma invisível ao usuário assim que o sistema operacional reportar o restabelecimento da conectividade.
-    
-
-**Compatibilidade**
-
-- **RNF09 - Nível Mínimo do Sistema Operacional:** O aplicativo móvel desenvolvido em Jetpack Compose deve estabelecer uma versão mínima de sistema operacional (como Android 8.0 / API Level 26) para garantir suporte adequado e estável às bibliotecas modernas de controle de câmera nativa, criptografia em hardware e consumo de APIs assíncronas.
+- **RN09 - Transparência e Finalidade:** O aplicativo deve exibir, antes da coleta de qualquer dado pessoal (CPF, fotos, documentos), uma tela informativa clara sobre a finalidade exata daquele dado. Não é permitido utilizar termos de uso genéricos; cada coleta deve ter sua justificativa exposta ao usuário.
+- **RN10 - Consentimento Granular e Específico:** O sistema deve implementar uma tela de consentimento com caixas de seleção separadas para cada finalidade: (1) Aceite dos termos gerais, (2) Consentimento específico para coleta e processamento de biometria facial, (3) Autorização para consulta de antecedentes criminais. 
+- **RN11 - DAcesso e Exclusão:** O sistema deve disponibilizar ao usuário uma forma (via suporte) para solicitar a visualização ou a exclusão total de seus dados pessoais.
+- **RN13 - Segurança, Auditoria e Criptografia:** Todos os dados sensíveis (fotos, CPF, documentos) devem ser armazenados de forma criptografada.
