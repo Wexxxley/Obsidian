@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Conhecimentos TI/5_Frontend/2_Vue/9_Navigation guards.md",
+                "file": "05_Projetos/TCC/4_Requisitos funcionais.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9_Navigation guards"
+              "title": "4_Requisitos funcionais"
             }
           }
         ],
@@ -211,22 +211,22 @@
   },
   "active": "83ae51322bb4438c",
   "lastOpenFiles": [
+    "05_Projetos/TCC/ResumoGeralEntrevistas.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/11_Use router e tratamento de 404.md",
+    "02_Conhecimentos TI/5_Frontend/2_Vue/9_Navigation guards.md",
+    "attachments/Pasted image 20260902105616.png",
+    "attachments/Pasted image 20260902104802.png",
+    "attachments/Pasted image 20260902104703.png",
     "attachments/Pasted image 20260902102559.png",
     "attachments/Pasted image 20260902102348.png",
     "attachments/Pasted image 20260902102030.png",
     "attachments/Pasted image 20260902101958.png",
     "attachments/Pasted image 20260902101629.png",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/11_Use router e tratamento de 404.md",
-    "02_Conhecimentos TI/5_Frontend/2_Vue/9_Navigation guards.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/8_Projeto Biblioteca e VueRouter.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/9_Iniciando um site de LIVROS.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/7_Axios e lifecycles.md",
     "attachments/Pasted image 20260902092855.png",
     "attachments/Pasted image 20260902092829.png",
-    "attachments/Pasted image 20260902092603.png",
-    "attachments/Pasted image 20260902092441.png",
-    "attachments/Pasted image 20260902092152.png",
-    "attachments/Pasted image 20260902090322.png",
     "02_Conhecimentos TI/5_Frontend/2_Vue/6_Criando um TODO.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/5_Slots e Computed.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/4_defineProps, defineModels e defineEmits.md",
@@ -246,7 +246,6 @@
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução e pronomes de tratamento.md",
     "01_Concursos/Geral/01_Português/2_Morfologia/3_Pronome pessoal e possessivo.md",
     "05_Projetos/TCC/4_Requisitos funcionais.md",
-    "05_Projetos/TCC/ResumoGeralEntrevistas.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled/Untitled.base",
     "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled",
     "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled.canvas",

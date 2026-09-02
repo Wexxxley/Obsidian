@@ -27,8 +27,12 @@ Independentemente do escopo, toda função de um guardião recebe dois objetos i
 - **to:** Contém a estrutura de dados completa da rota de destino.
 - **from:** Contém a estrutura de dados da rota de origem, representando a URL atual.
 
-![300](../../../attachments/Pasted%20image%2020260902101958.png)![600](../../../attachments/Pasted%20image%2020260902102030.png)
+![300](../../../attachments/Pasted%20image%2020260902101958.png)![600](../../../attachments/Pasted%20image%2020260902104703.png)
 - **BeforeEach**: Guarda global. Toda vez que uma navegação for realizada ele é executado.
 - **BefoceEnter:** Guarda de rota. So é executado naquela rota específica.
-![](../../../attachments/Pasted%20image%2020260902102348.png)
+
+![](../../../attachments/Pasted%20image%2020260902105616.png)
 - **onBeforeRouteLeave:** Guarda de componente.
+- **onMounted:** Executa a injeção do evento assim que o componente de formulário é construído.
+- **beforeunload**: um evento da interface global Window do navegador. Ele é disparado quandoem que a janela está prestes a ser descarregada da memória.
+- **onBeforeUnmount:** Remove a escuta do evento instantes antes de o componente ser destruído. A omissão dessa etapa gera um vazamento de memória, fazendo com que o navegador continue bloqueando a aba.
