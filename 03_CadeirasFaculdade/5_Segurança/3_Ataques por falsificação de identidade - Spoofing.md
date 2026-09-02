@@ -9,6 +9,10 @@
 - Redirecionamento malicioso;
 - Sabotagem ou espionagem.
 
+Raramente o spoofing o objetivo final do atacante:
+![400](../../attachments/Pasted%20image%2020260902075404.png)![400](../../attachments/Pasted%20image%2020260902075431.png)
+![400](../../attachments/Pasted%20image%2020260902075511.png)
+
 ---
 #### 1. IP Spoofing
 
@@ -38,4 +42,10 @@ Para que dois dispositivos se comuniquem em uma rede local, eles precisam saber 
 ---
 #### 3. DNS Spoofing
 
-O sistema DNS atua como um diretório, traduzindo nomes de domínio legíveis (como o endereço de um site) para endereços IP numéricos que os computadores utilizam para se conectar. O _DNS Spoofing_ consiste em corromper as tabelas de mapeamento deste serviço. Diferente das outras técnicas, esta não exige validações complexas de pacotes. Quando a vítima digita um endereço legítimo no navegador, o servidor DNS manipulado responde com o endereço IP incorreto, pertencente à máquina do atacante. A vítima é então silenciosamente redirecionada para um servidor malicioso que hospeda uma página idêntica à original, criada exclusivamente para a captura e roubo de senhas e dados financeiros (_phishing_).
+[12_DNS](../../01_Concursos/TI/01_Redes%20de%20computadores/2_Camada%20Aplicação/12_DNS.md). O DNS Spoofing consiste em corromper as tabelas de mapeamento deste serviço. Diferente das outras técnicas, esta não exige validações complexas de pacotes. Quando a vítima digita um endereço legítimo no navegador, o servidor DNS manipulado responde com o endereço IP incorreto, pertencente à máquina do atacante. A vítima é então silenciosamente redirecionada para um servidor malicioso que hospeda uma página idêntica à original, criada exclusivamente para a captura e roubo de senhas e dados financeiros (phishing).
+
+![500](../../attachments/Pasted%20image%2020260902074218.png)
+
+A aplicação do DNS Spoofing ocorre frequentemente em redes vulneráveis (redes Wi-Fi públicas)
+
+![](../../attachments/Pasted%20image%2020260902075631.png)

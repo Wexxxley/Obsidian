@@ -50,14 +50,4 @@
 
 - **Negação de serviço:** Visam comprometer a disponibilidade dos recursos.
     
-- **Códigos Maliciosos (Malware):** 
-	- **Vírus:** Programa que se anexa a outros arquivos e necessita da ação do usuário para se executar e infectar o sistema.
-	- **Cavalos de Troia (Trojans):** Malware que se disfarça de um programa legítimo e inofensivo para enganar o usuário e abrir portas para outras ameaças.
-	- **Adware:** Software projetado para exibir anúncios indesejados e intrusivos na tela do dispositivo do usuário.
-	- **Spyware:** Programa espião que monitora secretamente as atividades do usuário e coleta seus dados para enviá-los a terceiros.
-	- **Keyloggers:** Tipo de spyware que registra de forma oculta todas as teclas digitadas pelo usuário no teclado.
-	- **Screenloggers:** Variação de spyware que captura imagens da tela do dispositivo em momentos específicos, como ao clicar com o mouse.
-	- **Backdoors:** Mecanismo inserido em um sistema para garantir um acesso remoto oculto e contínuo ao invasor, ignorando a autenticação padrão.
-	- **Worms:** Código autorreplicável que se propaga pelas redes explorando vulnerabilidades, sem precisar de interação humana.
-	- **Bots:** Programas que infectam um computador e permitem que ele seja controlado remotamente por um atacante para realizar tarefas automatizadas.
-	- **Botnets:** Rede de múltiplos computadores infectados controlados por um atacante para realizar ações coordenadas, como ataques de negação de serviço.
+- **Códigos Maliciosos (Malware)** 
