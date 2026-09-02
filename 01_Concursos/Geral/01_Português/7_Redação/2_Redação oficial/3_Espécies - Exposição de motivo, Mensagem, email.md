@@ -111,6 +111,8 @@ C)
 C)
 
 ![](../../../../../attachments/Pasted%20image%2020260902183128.png)
+A) 
+
 "seção", "sessão" e "cessão" são **homônimas homófonas**, o que significa que possuem exatamente a mesma pronúncia, mas grafias diferentes.
 - **Sessão**: intervalo de tempo que ocorre uma reunião, espetáculo, consulta, etc.
 	- Sessão legislativa. Sessão de cinema. Sessão de fotos.
@@ -121,30 +123,18 @@ C)
 
 - **Evocar (Lembrar / Recordar)**
 	- A melodia antiga costuma **evocar** lembranças da minha infância.
-
 - **Avocar (Chamar a si / Assumir)**
-
-- "O diretor decidiu **avocar** a responsabilidade pelo projeto final."
-- "O juiz de instância superior vai **avocar** o processo para julgamento."
-- "Não tente **avocar** obrigações que não pertencem ao seu setor."
-
-Invocar (Pedir ajuda / Usar argumento)
-
-- "O réu decidiu **invocar** o direito de permanecer em silêncio."
-- "Em momentos de desespero, ele costumava **invocar** a proteção divina."
-- "O advogado vai **invocar** uma nova lei para defender o cliente."
+	- O diretor decidiu **avocar** a responsabilidade pelo projeto final.
+	- O juiz de instância superior vai **avocar** o processo para julgamento.
+- **Invocar (Pedir ajuda / Usar argumento)**
+	- O réu decidiu **invocar** o direito de permanecer em silêncio.
+	- O advogado vai **invocar** uma nova lei para defender o cliente.
     
-
-**A Distinção entre Ao encontro de e De encontro a**
-
-A frase III exige o domínio de duas locuções prepositivas que possuem sentidos diametralmente opostos na sintaxe da língua portuguesa:
-
-  
-
-- **Ao encontro de:** Indica concordância, harmonia, aproximação ou convergência de interesses. Como a frase afirma expressamente que o projeto atendeu às reivindicações dos trabalhadores, a ação foi favorável a eles. Logo, o uso correto é "veio ao encontro dos".
-    
+- **Ao encontro de:** Indica harmonia, aproximação ou convergência de interesses. 
+- **De encontro a:** Indica choque, oposição, discordância ou colisão frontal. 
       
-    
-- **De encontro a:** Indica choque, oposição, discordância ou colisão frontal. Se o projeto prejudicasse os trabalhadores ou atacasse seus direitos, ele iria "de encontro aos" objetivos.
-    
-      
+![](../../../../../attachments/Pasted%20image%2020260902185022.png)
+**C**: há o paralelismo perfeito entre duas orações subordinadas substantivas subjetivas. Note que ha uma relação coordenada aditiva entre as duas.
+
+![](../../../../../attachments/Pasted%20image%2020260902185818.png)
+![](../../../../../attachments/Pasted%20image%2020260902190537.png)

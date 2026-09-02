@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/3_Espécies - Exposição de motivo, Mensagem, email.md",
+                "file": "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/4_Espécies - Carta.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3_Espécies - Exposição de motivo, Mensagem, email"
+              "title": "4_Espécies - Carta"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/4_.md",
+                "file": "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/4_Espécies - Carta.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_"
+              "title": "4_Espécies - Carta"
             }
           }
         ]
@@ -79,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/\" ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -210,12 +210,21 @@
   },
   "active": "83ae51322bb4438c",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260902191149.png",
+    "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/3_Espécies - Exposição de motivo, Mensagem, email.md",
+    "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/2_Estrutura do padrão ofício.md",
+    "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução e pronomes de tratamento.md",
+    "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/4_Espécies - Carta.md",
+    "attachments/Pasted image 20260902190537.png",
+    "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
+    "01_Concursos/Geral/01_Português/4_Sintaxe/1_Termos integrantes da oração e predicação verbal.md",
+    "attachments/Pasted image 20260902190458.png",
+    "attachments/Pasted image 20260902185818.png",
+    "attachments/Pasted image 20260902185022.png",
     "attachments/Pasted image 20260902183128.png",
     "attachments/Pasted image 20260902181955.png",
     "attachments/Pasted image 20260902181722.png",
-    "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/4_.md",
     "05_Projetos/TCC/4_Requisitos funcionais e não funcionais.md",
-    "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/3_Espécies - Exposição de motivo, Mensagem, email.md",
     "05_Projetos/TCC/2_MimoDecições.md",
     "05_Projetos/TCC/3_Modelo Entrevista.md",
     "05_Projetos/TCC/ResumoGeralEntrevistas.md",
@@ -224,11 +233,6 @@
     "attachments/Pasted image 20260902105616.png",
     "attachments/Pasted image 20260902104802.png",
     "attachments/Pasted image 20260902104703.png",
-    "attachments/Pasted image 20260902102559.png",
-    "attachments/Pasted image 20260902102348.png",
-    "attachments/Pasted image 20260902102030.png",
-    "attachments/Pasted image 20260902101958.png",
-    "attachments/Pasted image 20260902101629.png",
     "02_Conhecimentos TI/5_Frontend/2_Vue/8_Projeto Biblioteca e VueRouter.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/9_Iniciando um site de LIVROS.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/7_Axios e lifecycles.md",
@@ -242,10 +246,6 @@
     "01_Concursos/TI/01_Redes de computadores/2_Camada Aplicação/12_DNS.md",
     "01_Concursos/TI/01_Redes de computadores/1_Introdução/3_Arquitetura TCP IP.md",
     "01_Concursos/TI/01_Redes de computadores/3_Camada de Transporte/4_Segmento TCP e buffers.md",
-    "01_Concursos/TI/01_Redes de computadores/3_Camada de Transporte/5_Apresentação TCP.md",
-    "01_Concursos/TI/01_Redes de computadores/3_Camada de Transporte/6_Controle de erros.md",
-    "03_CadeirasFaculdade/5_Segurança/5_.md",
-    "03_CadeirasFaculdade/5_Segurança/99_Trabalho 1.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled/Untitled.base",
     "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled",
     "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled.canvas",

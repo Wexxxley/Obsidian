@@ -57,6 +57,10 @@ Transitividade depende da frase. Só da pra saber pelo contexto.
 6. Na locução verbal, o verbo auxiliar não possue transitividade.
 7. Na locução verbal, os verbos podem estar separados por termos deslocados.
 
+**Sujeito não pode ser preposicionado**
+![](../../../../attachments/Pasted%20image%2020260902190458.png)
+
+---
 ![](../../../../attachments/Pasted%20image%2020260627083313.png)
 
 ![300](../../../../attachments/Pasted%20image%2020260626143407.png)
