@@ -1,3 +1,0 @@
-
-
-beforeEach para paginas privadas
