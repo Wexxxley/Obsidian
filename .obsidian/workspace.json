@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/4_Espécies - Carta.md",
+                "file": "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução e pronomes de tratamento.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4_Espécies - Carta"
+              "title": "1_Introdução e pronomes de tratamento"
             }
           },
           {
@@ -210,11 +210,15 @@
   },
   "active": "83ae51322bb4438c",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260903061309.png",
+    "attachments/Pasted image 20260903061116.png",
+    "01_Concursos/Geral/01_Português/5_Pontuação/1_Uso da vírgula.md",
+    "01_Concursos/Geral/01_Português/5_Pontuação/4_Questões.md",
+    "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/4_Espécies - Carta.md",
     "attachments/Pasted image 20260902191149.png",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/3_Espécies - Exposição de motivo, Mensagem, email.md",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/2_Estrutura do padrão ofício.md",
     "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/1_Introdução e pronomes de tratamento.md",
-    "01_Concursos/Geral/01_Português/7_Redação/2_Redação oficial/4_Espécies - Carta.md",
     "attachments/Pasted image 20260902190537.png",
     "01_Concursos/Geral/01_Português/6_Concordância/1_Concordância verbal.md",
     "01_Concursos/Geral/01_Português/4_Sintaxe/1_Termos integrantes da oração e predicação verbal.md",
@@ -231,8 +235,6 @@
     "02_Conhecimentos TI/5_Frontend/2_Vue/11_Use router e tratamento de 404.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/9_Navigation guards.md",
     "attachments/Pasted image 20260902105616.png",
-    "attachments/Pasted image 20260902104802.png",
-    "attachments/Pasted image 20260902104703.png",
     "02_Conhecimentos TI/5_Frontend/2_Vue/8_Projeto Biblioteca e VueRouter.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/9_Iniciando um site de LIVROS.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/7_Axios e lifecycles.md",
@@ -244,8 +246,6 @@
     "03_CadeirasFaculdade/5_Segurança/2_Ataques.md",
     "03_CadeirasFaculdade/5_Segurança/3_Ataques por falsificação de identidade - Spoofing.md",
     "01_Concursos/TI/01_Redes de computadores/2_Camada Aplicação/12_DNS.md",
-    "01_Concursos/TI/01_Redes de computadores/1_Introdução/3_Arquitetura TCP IP.md",
-    "01_Concursos/TI/01_Redes de computadores/3_Camada de Transporte/4_Segmento TCP e buffers.md",
     "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled/Untitled.base",
     "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled",
     "02_Conhecimentos TI/5_Frontend/2_Vue/Untitled.canvas",

@@ -50,7 +50,7 @@ Na redação oficial existem 3 momentos distintos em que se usa pronomes de trat
 - No nível municipal, o prefeito é tratado por **Vossa Excelência**. Já os vereadores são tratados por **Vossa Senhoria**, com exceção do **Presidente da Câmara Municipal**, que recebe o tratamento de **Vossa Excelência**.
 ![600](../../../../../attachments/Pasted%20image%2020260901180608.png)
 ![600](../../../../../attachments/Pasted%20image%2020260817191603.png)
-
+![](../../../../../attachments/Pasted%20image%2020260903061309.png)
 Em comunicações oficiais, **está abolido o uso de Digníssimo (DD) e de Ilustríssimo (Ilmo.)**. É recomendado também que se evite o uso de “doutor” indiscriminadamente.
 ![](../../../../../attachments/Pasted%20image%2020260817192115.png)
 - **Interino:** Refere-se àquele que é nomeado para ocupar um cargo público de forma transitória  durante o período de vacância, ou seja, quando o cargo está definitivamente sem titular.
